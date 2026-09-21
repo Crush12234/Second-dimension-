@@ -1,5 +1,18 @@
 # Second Dimension: Guild of Worlds
 
+## Download and Play
+
+### [Download the Windows alpha (.exe)](https://github.com/Crush12234/Second-dimension-/releases/download/alpha-2.0-update165/SecondDimension-Alpha2-update165-Windows.exe)
+
+1. Download **SecondDimension-Alpha2-update165-Windows.exe**.
+2. Run it, choose a writable folder and click **Extract**.
+3. Open the extracted **Second Dimension Alpha 2.0** folder and run **PLAY SECOND DIMENSION.cmd**.
+
+Windows 64-bit · Alpha 2.0 / update165 · [Release notes and checksums](https://github.com/Crush12234/Second-dimension-/releases/tag/alpha-2.0-update165)
+
+Unity, 7-Zip and a GitHub account are not required to play. The package includes the tester guide and starts without a personal save. For a USB handoff, copy this EXE or the complete extracted folder.
+
+
 A fantasy card-campaign RPG with independently resumable Campaign, Endless Tower, Titan Trials, and Town progression.
 
 This project contains the source and artwork corresponding to **Alpha Test 2.0, update165**. Gameplay and presentation are written in **C#**, using **Unity 6000.3.22f1**. Authored content and saves use JSON. The current playable targets Windows x64 Mono.
