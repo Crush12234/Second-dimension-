@@ -1,0 +1,2408 @@
+{
+  "contentVersion": "GOW_PASS04_0.9",
+  "counts": {
+    "normal": 60,
+    "rare": 30,
+    "abyss": 24
+  },
+  "normalAffixes": [
+    {
+      "id": "AFFIX_LIGHT_STEP",
+      "displayName": "Light-Step",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "WEIGHT_FLAT",
+        "value": -2
+      },
+      "description": "Reduces equipment weight without changing protection.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_SURE_GRIP",
+      "displayName": "Sure-Grip",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "AP_FIRST_ACTION",
+        "value": -1
+      },
+      "description": "First legal Martial action each battle costs 1 less AP, minimum 0.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_FIELD_REPAIRABLE",
+      "displayName": "Field-Repairable",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "REPAIR_YIELD",
+        "value": 20
+      },
+      "description": "Field patches restore more durability.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_ROAD_TESTED",
+      "displayName": "Road-Tested",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "FATIGUE_RESIST",
+        "value": 1
+      },
+      "description": "Reduces one fatigue from the first difficult board move.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_GUARD_READY",
+      "displayName": "Guard-Ready",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "FORECAST_WEIGHT_GUARD",
+        "value": 80
+      },
+      "description": "Raises Guard forecast weight.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_RESCUE_READY",
+      "displayName": "Rescue-Ready",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "FORECAST_WEIGHT_RESCUE",
+        "value": 80
+      },
+      "description": "Raises Rescue forecast weight.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_SIGNAL_CLEAR",
+      "displayName": "Signal-Clear",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "FORECAST_WEIGHT_SUPPORT",
+        "value": 70
+      },
+      "description": "Raises Support and coordination forecast weight.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_QUIET_CAST",
+      "displayName": "Quiet-Cast",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "THREAT_ON_MYSTIC",
+        "value": -15
+      },
+      "description": "Mystic actions generate less enemy target priority.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_MEDIC_MARKED",
+      "displayName": "Medic-Marked",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "FORECAST_WEIGHT_HEAL",
+        "value": 80
+      },
+      "description": "Raises meaningful healing forecast weight.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_SCOUT_NOTCHED",
+      "displayName": "Scout-Notched",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "SKILL_PERCEPTION",
+        "value": 1
+      },
+      "description": "Adds Perception on board checks.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_SURVIVAL_WRAPPED",
+      "displayName": "Survival-Wrapped",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "SKILL_SURVIVAL",
+        "value": 1
+      },
+      "description": "Adds Survival on board checks.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_CRAFTSMAN_SIGNED",
+      "displayName": "Craftsman-Signed",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "SKILL_CRAFTING",
+        "value": 1
+      },
+      "description": "Adds Crafting while the item is relevant.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_LEADER_BALANCED",
+      "displayName": "Leader-Balanced",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "SKILL_LEADERSHIP",
+        "value": 1
+      },
+      "description": "Adds Leadership for Union command checks.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_WARD_LINED",
+      "displayName": "Ward-Lined",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "ANTI_MYSTIC",
+        "value": 70
+      },
+      "description": "Improves anti-Mystic forecast weighting.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_COHESION_STITCHED",
+      "displayName": "Cohesion-Stitched",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "COHESION_MAX",
+        "value": 3
+      },
+      "description": "Raises Union Cohesion while equipped.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_MP_CHANNEL",
+      "displayName": "MP Channel",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "MP_MAX",
+        "value": 3
+      },
+      "description": "Raises personal MP capacity.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_AP_RETURN",
+      "displayName": "AP Return",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "AP_ON_MEANINGFUL_GUARD",
+        "value": 1
+      },
+      "description": "Once per round, a meaningful Guard restores 1 Union AP.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_COVERING",
+      "displayName": "Covering",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "FORECAST_WEIGHT_RANGED",
+        "value": 70
+      },
+      "description": "Raises covering-fire forecast weight.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_MARKING",
+      "displayName": "Marking",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "MARK_DURATION",
+        "value": 1
+      },
+      "description": "Marks last one additional round.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_FORMATION_FITTED",
+      "displayName": "Formation-Fitted",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "FORMATION_MASTERY_GAIN",
+        "value": 15
+      },
+      "description": "Meaningful formation actions gain more mastery.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_QUICK_DRAW",
+      "displayName": "Quick-Draw",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "FORECAST_WEIGHT_OPENING",
+        "value": 60
+      },
+      "description": "Raises first-round low-cost action weight.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_STEADY",
+      "displayName": "Steady",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "COHESION_DAMAGE_RESIST",
+        "value": 40
+      },
+      "description": "Reduces Cohesion damage taken.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_PURIFYING",
+      "displayName": "Purifying",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "FORECAST_WEIGHT_CLEANSE",
+        "value": 80
+      },
+      "description": "Raises cleanse forecast weight in relevant states.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_OBJECTIVE_RATED",
+      "displayName": "Objective-Rated",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "OBJECTIVE_DAMAGE",
+        "value": 15
+      },
+      "description": "Improves damage or work against mission objectives.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_CIVIC_SEALED",
+      "displayName": "Civic-Sealed",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "TREASURY_REWARD",
+        "value": 3
+      },
+      "description": "Small Treasury XP bonus on civic objectives; capped per contract.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_MENTOR_MARK",
+      "displayName": "Mentor-Marked",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "OBSERVATION_GAIN",
+        "value": 10
+      },
+      "description": "Apprentices gain slightly more valid observation progress.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_DURABLE",
+      "displayName": "Durable",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "DURABILITY_MAX",
+        "value": 15
+      },
+      "description": "Raises durability.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_BALANCED_EDGE",
+      "displayName": "Balanced Edge",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "ACCURACY_PERMILLE",
+        "value": 40
+      },
+      "description": "Improves reliability rather than peak damage.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_WEIGHTED_HEAD",
+      "displayName": "Weighted Head",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "FORMATION_DAMAGE",
+        "value": 12
+      },
+      "description": "Improves Cohesion/formation damage; adds 1 weight.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_FLEXIBLE_SHAFT",
+      "displayName": "Flexible Shaft",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "FLANK_RESPONSE",
+        "value": 60
+      },
+      "description": "Improves reaction to flank states.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_RECOVERY_GROOVE",
+      "displayName": "Recovery Groove",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "CAMP_MP_RECOVERY",
+        "value": 2
+      },
+      "description": "Restores additional MP at camp.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_TRIAGE_POCKET",
+      "displayName": "Triage Pocket",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "MEDICINE_ASSIST",
+        "value": 1
+      },
+      "description": "Permits one low-cost Medicine assist.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_ROPE_LOOP",
+      "displayName": "Rope Loop",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "RESCUE_FATIGUE",
+        "value": -1
+      },
+      "description": "Reduces rescue carry fatigue.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_MAP_CLIP",
+      "displayName": "Map Clip",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "FOG_REVEAL",
+        "value": 1
+      },
+      "description": "Reveals one adjacent node after a successful scouting check.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_RUNE_SOCKETED",
+      "displayName": "Rune-Socketed",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "SOCKETS",
+        "value": 1
+      },
+      "description": "Adds one legal rune socket.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_SALVAGE_FRIENDLY",
+      "displayName": "Salvage-Friendly",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "DISMANTLE_YIELD",
+        "value": 15
+      },
+      "description": "Dismantles into more ordinary materials.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_HISTORY_RECEPTIVE",
+      "displayName": "History-Receptive",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "EVOLUTION_HISTORY_GAIN",
+        "value": 15
+      },
+      "description": "Meaningful history events advance evolution faster.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_ECHO_STABLE",
+      "displayName": "Echo-Stable",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "INVOCATION_COOLDOWN",
+        "value": -1
+      },
+      "description": "Reduces Artifact Invocation cooldown by one round, minimum one.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_RESONANCE_GUIDE",
+      "displayName": "Resonance Guide",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "SUMMON_RESONANCE_GAIN",
+        "value": 15
+      },
+      "description": "Meaningful Echo use grants more Resonance.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_MP_EFFICIENT_ECHO",
+      "displayName": "Echo Efficient",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "INVOCATION_MP_COST",
+        "value": -1
+      },
+      "description": "Invocation MP cost reduced by 1, minimum 1.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_BARRIER_TUNED",
+      "displayName": "Barrier-Tuned",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "BARRIER_STRENGTH",
+        "value": 12
+      },
+      "description": "Improves created barriers.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_MORALE_EMBROIDERED",
+      "displayName": "Morale-Embroidered",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "MORALE_RECOVERY",
+        "value": 2
+      },
+      "description": "Improves morale recovery after a safe victory.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_RETREAT_MARKED",
+      "displayName": "Retreat-Marked",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "FORECAST_WEIGHT_RETREAT",
+        "value": 80
+      },
+      "description": "Raises controlled withdrawal when appropriate.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_BOSS_BRACED",
+      "displayName": "Boss-Braced",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "TELEGRAPH_DEFENSE",
+        "value": 10
+      },
+      "description": "Improves survival against visible boss telegraphs.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_DUST_SEALED",
+      "displayName": "Dust-Sealed",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "HAZARD_RESIST",
+        "value": 10
+      },
+      "description": "Reduces one class of environmental hazard.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_SUPPLY_HOOK",
+      "displayName": "Supply Hook",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "SUPPLY_CAPACITY",
+        "value": 1
+      },
+      "description": "Adds one expedition supply capacity.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_ALLY_NOTCH",
+      "displayName": "Ally Notch",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "RELATIONSHIP_GAIN",
+        "value": 5
+      },
+      "description": "Meaningful paired actions grant slightly more trust.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_TRAINING_SAFE",
+      "displayName": "Training-Safe",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "INJURY_RISK",
+        "value": -5
+      },
+      "description": "Reduces injury risk in approved training content.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_DUAL_BALANCED",
+      "displayName": "Dual-Balanced",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "DUAL_WIELD_WEIGHT",
+        "value": -2
+      },
+      "description": "Reduces effective dual-wield weight.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_SHIELD_MATED",
+      "displayName": "Shield-Mated",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "SHIELD_AP",
+        "value": -1
+      },
+      "description": "First shield Art costs 1 less AP.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_SPELL_GROUNDED",
+      "displayName": "Spell-Grounded",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "MYSTIC_BACKLASH",
+        "value": -10
+      },
+      "description": "Reduces Mystic backlash on mixed outcomes.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_ALCHEMY_CLIPPED",
+      "displayName": "Alchemy-Clipped",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "CONSUMABLE_EFFICIENCY",
+        "value": 10
+      },
+      "description": "Prepared mixtures have a small chance not to consume a charge.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_HUNT_SCENTED",
+      "displayName": "Hunt-Scented",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "HUNT_CHECK",
+        "value": 1
+      },
+      "description": "Improves Hunt contract tracking.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_CULTURE_TAUGHT",
+      "displayName": "Culture-Taught",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "CULTURAL_LEARNING_GAIN",
+        "value": 10
+      },
+      "description": "Respected mentorship improves cultural Art learning.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_ROADWARD",
+      "displayName": "Roadward",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "AMBUSH_RESIST",
+        "value": 10
+      },
+      "description": "Reduces ambush severity.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_LOW_PROFILE",
+      "displayName": "Low Profile",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "TARGET_PRIORITY",
+        "value": -10
+      },
+      "description": "Slightly lowers enemy target priority.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_VANGUARD_RING",
+      "displayName": "Vanguard Ring",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "VANGUARD_PROTECTION",
+        "value": 6
+      },
+      "description": "Improves protection in vanguard slots.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_REAR_GUARD",
+      "displayName": "Rear Guard",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "REAR_EXPOSURE",
+        "value": -8
+      },
+      "description": "Reduces rear-slot exposure.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_CENTER_ANCHOR",
+      "displayName": "Center Anchor",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "CENTER_COHESION",
+        "value": 5
+      },
+      "description": "Improves center-slot Cohesion contribution.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_HONEST_LEDGER",
+      "displayName": "Honest Ledger",
+      "tier": "NORMAL",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "SUSTAINABILITY_GAIN",
+        "value": 2
+      },
+      "description": "Responsible Abyss reporting grants small sustainability progress.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    }
+  ],
+  "rareAffixes": [
+    {
+      "id": "AFFIX_LAST_LINE",
+      "displayName": "Last Line",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "AUTO_INTERCEPT_CRITICAL",
+        "value": 1
+      },
+      "description": "Once per battle, may replace a legal action with an intercept when an ally would be incapacitated.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_SECOND_WIND",
+      "displayName": "Second Wind",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "AP_ON_COHESION_RECOVERY",
+        "value": 2
+      },
+      "description": "Once per battle, recovering from low Cohesion restores 2 AP.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_MEASURED_FURY",
+      "displayName": "Measured Fury",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "BREAK_THEN_GUARD",
+        "value": 1
+      },
+      "description": "After formation break, the wielder becomes less exposed instead of more.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_ECHOING_INSTRUCTION",
+      "displayName": "Echoing Instruction",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "ALLY_PROFICIENCY_GAIN",
+        "value": 20
+      },
+      "description": "A valid adjacent apprentice gains additional proficiency from the wielder’s meaningful action.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_CIVILIAN_OATH",
+      "displayName": "Civilian Oath",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "PROTECTION_REWARD",
+        "value": 1
+      },
+      "description": "Protection objectives can add an item-history evolution mark.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_SPELLWEAVE",
+      "displayName": "Spellweave",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "HYBRID_ART_ELIGIBILITY",
+        "value": 1
+      },
+      "description": "Enables one compatible hybrid Art family when all normal prerequisites are met.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_UNBROKEN_ROUTE",
+      "displayName": "Unbroken Route",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "MOVEMENT_LOCK_IMMUNITY",
+        "value": 1
+      },
+      "description": "Once per expedition, ignore a route-locking hazard after a successful check.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_SHARED_BREATH",
+      "displayName": "Shared Breath",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "MP_TRANSFER_CAP",
+        "value": 2
+      },
+      "description": "A Support forecast may transfer up to 2 MP between consenting Union members.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_WARD_BEFORE_WOUND",
+      "displayName": "Ward Before Wound",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "PREEMPTIVE_BARRIER",
+        "value": 1
+      },
+      "description": "A visible boss telegraph may produce a preemptive barrier forecast.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_RETURNING_ARROW",
+      "displayName": "Returning Arrow",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "AMMO_RECOVERY",
+        "value": 1
+      },
+      "description": "Ranged special shots do not require separate ammunition bookkeeping.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_MERCY_EDGE",
+      "displayName": "Mercy Edge",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "NONLETHAL_REWARD",
+        "value": 1
+      },
+      "description": "Nonlethal resolution increases reputation and relationship rewards.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_COMMANDER_MEMORY",
+      "displayName": "Commander Memory",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "FORECAST_DIVERSITY",
+        "value": 1
+      },
+      "description": "Adds one additional legal forecast family when leader knowledge conditions are met.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_CAMPFIRE_LEGACY",
+      "displayName": "Campfire Legacy",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "CAMP_EVENT_BONUS",
+        "value": 1
+      },
+      "description": "At camp, may trigger a positive history conversation instead of a generic recovery beat.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_TWIN_DISCIPLINE",
+      "displayName": "Twin Discipline",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "DUAL_DISCIPLINE_PROGRESS",
+        "value": 15
+      },
+      "description": "One meaningful hybrid action grants partial progress to both relevant disciplines.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_RESCUE_CHAIN",
+      "displayName": "Rescue Chain",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "MULTI_RESCUE",
+        "value": 1
+      },
+      "description": "Rescue forecasts can stabilize two targets at higher AP cost.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_OBJECTIVE_SAVANT",
+      "displayName": "Objective Savant",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "OBJECTIVE_FORECAST_UNLOCK",
+        "value": 1
+      },
+      "description": "Unlocks a specialized objective forecast from compatible tools.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_CLEAR_SIGNAL",
+      "displayName": "Clear Signal",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "MULTI_UNION_AP_DISCOUNT",
+        "value": 1
+      },
+      "description": "First coordinated multi-Union command costs 1 less AP per involved Union.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_HOLDING_PATTERN",
+      "displayName": "Holding Pattern",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "MP_CONSERVE_BEHAVIOR",
+        "value": 1
+      },
+      "description": "At low MP, the simulation favors legal conserving actions without suppressing emergency healing.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_FATE_ANCHOR",
+      "displayName": "Fate Anchor",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "SKILL_REROLL_LIMITED",
+        "value": 1
+      },
+      "description": "Once per expedition, reroll one die after seeing a noncritical failure; committed result becomes permanent.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_LIVING_BLUEPRINT",
+      "displayName": "Living Blueprint",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "RECIPE_DISCOVERY",
+        "value": 1
+      },
+      "description": "Meaningful repairs may reveal an evolution recipe.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_PROTECTOR_RESONANCE",
+      "displayName": "Protector Resonance",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "ECHO_GUARD_LINK",
+        "value": 1
+      },
+      "description": "Guard actions can prepare a defensive Invocation forecast.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_HUNTER_RESONANCE",
+      "displayName": "Hunter Resonance",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "ECHO_MARK_LINK",
+        "value": 1
+      },
+      "description": "Marked targets improve compatible Echo targeting.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_HEALER_RESONANCE",
+      "displayName": "Healer Resonance",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "ECHO_HEAL_LINK",
+        "value": 1
+      },
+      "description": "Meaningful healing can reduce an Invocation cooldown.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_TACTICIAN_RESONANCE",
+      "displayName": "Tactician Resonance",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "ECHO_OBJECTIVE_LINK",
+        "value": 1
+      },
+      "description": "Objective reveals improve control-Echo behavior.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_STORIED_REFUSAL",
+      "displayName": "Storied Refusal",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "CHOSEN_REJECTION_SAFETY",
+        "value": 1
+      },
+      "description": "Chosen-equipment rejection causes no item loss and records a future quest hook.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_FORMATION_MEMORY",
+      "displayName": "Formation Memory",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "FORMATION_SWITCH_MASTERY",
+        "value": 1
+      },
+      "description": "First formation switch retains part of prior formation mastery bonuses.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_PUBLIC_WORKS_MARK",
+      "displayName": "Public Works Mark",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "CIVIC_CONVERSION",
+        "value": 1
+      },
+      "description": "A portion of item sale value can be directed into a named Guild Hall project for bonus reputation.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_GATE_SENSE",
+      "displayName": "Gate Sense",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "ANOMALY_OPTION",
+        "value": 1
+      },
+      "description": "Reveals one additional lawful option in gate anomaly events.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_LATE_BLOOMER_FIT",
+      "displayName": "Late-Bloomer Fit",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "GROWTH_PATTERN_SYNERGY",
+        "value": 1
+      },
+      "description": "Late-bloomer recruits gain more meaningful mastery, but no immediate stat bonus.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_EMERGENT_LEGEND_SEED",
+      "displayName": "Emergent Legend Seed",
+      "tier": "RARE",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "LEGEND_HISTORY_WEIGHT",
+        "value": 1
+      },
+      "description": "Rare history events contribute more strongly toward Emergent Legend review.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    }
+  ],
+  "abyssAffixes": [
+    {
+      "id": "AFFIX_TRENCH_MEMORY",
+      "displayName": "Trench Memory",
+      "tier": "ABYSS",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "ALLY_PROTECTION_HISTORY",
+        "value": 1
+      },
+      "description": "Meaningful ally protection records a Mud Trenches history mark.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_ARROW_RAIN_CALM",
+      "displayName": "Arrow-Rain Calm",
+      "tier": "ABYSS",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "RANGED_TELEGRAPH_DEFENSE",
+        "value": 12
+      },
+      "description": "Improves defense against visible ranged barrages.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_SILENT_QUARTERMASTER",
+      "displayName": "Silent Quartermaster",
+      "tier": "ABYSS",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "SUPPLY_RECOVERY",
+        "value": 1
+      },
+      "description": "After a safe camp, recover one additional supply if the expedition helped another team.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_WALL_REBUILDER",
+      "displayName": "Wall Rebuilder",
+      "tier": "ABYSS",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "CIVIC_MATERIAL_BONUS",
+        "value": 1
+      },
+      "description": "Collapsed-wall objectives yield extra civic repair material.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_BANNER_WITHOUT_HATRED",
+      "displayName": "Banner Without Hatred",
+      "tier": "ABYSS",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "MORALE_NONLETHAL",
+        "value": 1
+      },
+      "description": "Nonlethal victories recover more morale.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_IRON_STEP",
+      "displayName": "Iron Step",
+      "tier": "ABYSS",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "FORMATION_COHESION",
+        "value": 6
+      },
+      "description": "Improves formation Cohesion while not flanked.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_BLOODLESS_PURIFICATION",
+      "displayName": "Bloodless Purification",
+      "tier": "ABYSS",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "CLEANSE_ON_GUARD",
+        "value": 1
+      },
+      "description": "A successful Guard can remove one minor corruption effect.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_BEAST_CARE_OATH",
+      "displayName": "Beast-Care Oath",
+      "tier": "ABYSS",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "CREATURE_DIPLOMACY",
+        "value": 2
+      },
+      "description": "Improves ethical creature handling; damage against nonhostile creatures is penalized.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_ASH_STRATEGY",
+      "displayName": "Ash Strategy",
+      "tier": "ABYSS",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "SACRIFICE_AVOIDANCE",
+        "value": 1
+      },
+      "description": "The simulation penalizes forecasts that abandon a controllable ally.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_AEGIS_CIVIC_TRIAL",
+      "displayName": "Aegis Civic Trial",
+      "tier": "ABYSS",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "CIVILIAN_GUARD_POWER",
+        "value": 1
+      },
+      "description": "Protection of civilians accelerates item evolution and Aegis clue progress.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_ABYSS_LISTENING",
+      "displayName": "Abyss Listening",
+      "tier": "ABYSS",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "SUSTAINABILITY_FEEDBACK",
+        "value": 1
+      },
+      "description": "Displays clearer Abyss sustainability feedback.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_TAX_COLLECTOR_NOTED",
+      "displayName": "Tax Collector Noted",
+      "tier": "ABYSS",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "OVERFARM_WARNING",
+        "value": 1
+      },
+      "description": "Warns one expedition earlier before a farming penalty escalates.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_FIRST_CLEAR_MEMORY",
+      "displayName": "First-Clear Memory",
+      "tier": "ABYSS",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "FIRST_CLEAR_HISTORY",
+        "value": 1
+      },
+      "description": "Records the first clear and unlocks one cosmetic history mark.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_SAFE_FLOOR_MARK",
+      "displayName": "Safe-Floor Mark",
+      "tier": "ABYSS",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "TRAINING_SAFETY",
+        "value": 1
+      },
+      "description": "Approved beginner training has reduced injury severity.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_EMERGENCY_EXIT_MEMORY",
+      "displayName": "Emergency Exit Memory",
+      "tier": "ABYSS",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "ALLY_EXIT_REVEAL",
+        "value": 1
+      },
+      "description": "Protecting an ally can reveal an emergency extraction option.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_BOSS_CORE_ATTUNED",
+      "displayName": "Boss-Core Attuned",
+      "tier": "ABYSS",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "BOSS_INTERRUPT",
+        "value": 1
+      },
+      "description": "Raises legal boss-interruption forecast weight.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_SUMMON_CLUE_RESPONSIVE",
+      "displayName": "Summon-Clue Responsive",
+      "tier": "ABYSS",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "COVENANT_RESEARCH",
+        "value": 1
+      },
+      "description": "Records summon-clue research; does not summon or own a Great Summon.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_FLOOR_MAP_BOUND",
+      "displayName": "Floor-Map Bound",
+      "tier": "ABYSS",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "MAP_REVEAL",
+        "value": 1
+      },
+      "description": "Reveals one extra optional branch on a previously cleared floor.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_RESPONSIBLE_HARVEST",
+      "displayName": "Responsible Harvest",
+      "tier": "ABYSS",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "SUSTAINABILITY_GAIN",
+        "value": 3
+      },
+      "description": "Civic extraction and mapping gain more sustainability.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_ANTI_FARM_DULLING",
+      "displayName": "Anti-Farm Dulling",
+      "tier": "ABYSS",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "REPEAT_CLEAR_POWER",
+        "value": -10
+      },
+      "description": "Item temporarily loses a behavioral bonus during exploitative repeat farming.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_HISTORY_ARCHIVE",
+      "displayName": "History Archive",
+      "tier": "ABYSS",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "LORE_RECORD",
+        "value": 1
+      },
+      "description": "Preserves one lore fragment in item history.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_SOUL_OF_THE_ABYSS",
+      "displayName": "Soul of the Abyss",
+      "tier": "ABYSS",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "ABYSS_ECHO_ONLY",
+        "value": 1
+      },
+      "description": "Confirms the item interacts with Abyss manifestations, never stolen individual souls.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_CIVIC_BLUEPRINT",
+      "displayName": "Civic Blueprint",
+      "tier": "ABYSS",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "CITY_UPGRADE_CLUE",
+        "value": 1
+      },
+      "description": "Can unlock a Guild Hall/public works blueprint on first responsible use.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    },
+    {
+      "id": "AFFIX_CARETAKER_SEED",
+      "displayName": "Caretaker Seed",
+      "tier": "ABYSS",
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ],
+      "effect": {
+        "type": "STEWARDSHIP_PROGRESS",
+        "value": 1
+      },
+      "description": "Long-term stewardship marker; no ownership claim over the Abyss.",
+      "conflictsWith": [],
+      "behavioral": true,
+      "maxCopiesPerItem": 1
+    }
+  ]
+}

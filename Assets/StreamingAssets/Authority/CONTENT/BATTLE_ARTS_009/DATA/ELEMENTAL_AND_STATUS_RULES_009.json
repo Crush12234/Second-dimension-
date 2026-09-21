@@ -1,0 +1,148 @@
+{
+  "contentVersion": "BATTLE_ARTS_009",
+  "schools": [
+    {
+      "id": "FLAME",
+      "identity": "Highest raw Mystic pressure and Burn buildup.",
+      "status": "BURN",
+      "counterplay": [
+        "WARDING",
+        "CLEANSE",
+        "FROST_CONTROL"
+      ],
+      "hardImmunityForbidden": true
+    },
+    {
+      "id": "FROST",
+      "identity": "Initiative control, binding, accuracy pressure, and Shatter setup.",
+      "status": "CHILL",
+      "counterplay": [
+        "CLEANSE",
+        "STORM_SPEED",
+        "EARTH_STABILITY"
+      ],
+      "hardImmunityForbidden": true
+    },
+    {
+      "id": "STORM",
+      "identity": "Fast casts, chain pressure, interruption, and ranged disruption.",
+      "status": "SHOCK",
+      "counterplay": [
+        "WARDING",
+        "EARTH_RESIST",
+        "SILENCE"
+      ],
+      "hardImmunityForbidden": true
+    },
+    {
+      "id": "EARTH",
+      "identity": "Stagger, Guard, barriers, roots, armor and Cohesion pressure.",
+      "status": "TREMOR",
+      "counterplay": [
+        "AETHER_DISPLACE",
+        "BREAKER",
+        "DISPEL"
+      ],
+      "hardImmunityForbidden": true
+    },
+    {
+      "id": "AETHER",
+      "identity": "Neutral damage, displacement, AP efficiency, barrier penetration, and relationship manipulation.",
+      "status": "DISTORTION",
+      "counterplay": [
+        "WARDING",
+        "SILENCE",
+        "ANCHOR"
+      ],
+      "hardImmunityForbidden": true
+    },
+    {
+      "id": "SHADOW",
+      "identity": "Accuracy, Will, casting, Command, and legal fallback disruption.",
+      "status": "DIM",
+      "counterplay": [
+        "RESTORATION",
+        "PURITY",
+        "RADIANT_OR_WARD_EFFECTS"
+      ],
+      "hardImmunityForbidden": true
+    },
+    {
+      "id": "RESTORATION",
+      "identity": "Meaningful healing, cleanse, stabilization, regeneration, and emergency recovery.",
+      "status": "RECOVERY",
+      "counterplay": [
+        "HEAL_REDUCTION",
+        "INTERRUPTION"
+      ],
+      "hardImmunityForbidden": true
+    },
+    {
+      "id": "WARDING",
+      "identity": "Barriers, resistance, interception, protection, and bounded backlash.",
+      "status": "WARD",
+      "counterplay": [
+        "BREAKER",
+        "DISPEL",
+        "SUSTAINED_PRESSURE"
+      ],
+      "hardImmunityForbidden": true
+    }
+  ],
+  "boundedInteractions": [
+    {
+      "id": "INTERACT009_SHATTER",
+      "requires": [
+        "CHILL_OR_FROST_BIND",
+        "HEAVY_OR_BLUNT_IMPACT"
+      ],
+      "effect": "Consume part of Chill to add capped Break and Cohesion damage.",
+      "cannotChainRecursively": true
+    },
+    {
+      "id": "INTERACT009_FLASHOVER",
+      "requires": [
+        "BURN",
+        "STORM_OR_WIND_HIT"
+      ],
+      "effect": "Spread reduced Burn to at most two additional enemy members.",
+      "cannotChainRecursively": true
+    },
+    {
+      "id": "INTERACT009_CONDUCTIVE_FRACTURE",
+      "requires": [
+        "EARTH_TREMOR",
+        "SHOCK"
+      ],
+      "effect": "Add one interruption check and modest armor pressure.",
+      "cannotChainRecursively": true
+    },
+    {
+      "id": "INTERACT009_NULL_RIFT",
+      "requires": [
+        "SHADOW_DIM",
+        "AETHER_DISTORTION"
+      ],
+      "effect": "Reduce one enemy ward or casting bonus; never deletes a boss mechanic outright.",
+      "cannotChainRecursively": true
+    },
+    {
+      "id": "INTERACT009_STEAM_RELEASE",
+      "requires": [
+        "BURN",
+        "FROST_OR_ICE"
+      ],
+      "effect": "Consume portions of both statuses for a small visibility/accuracy burst instead of multiplying damage.",
+      "cannotChainRecursively": true
+    },
+    {
+      "id": "INTERACT009_WARDED_GROUND",
+      "requires": [
+        "EARTH_BARRIER",
+        "WARDING_ART"
+      ],
+      "effect": "Increase barrier stability and reduce displacement until the ward is broken.",
+      "cannotChainRecursively": true
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "contentVersion": "GOW_PASS08_0.13",
+  "music": [
+    {
+      "id": "MUSIC_MAIN_THEME",
+      "context": "MAIN_THEME",
+      "loop": true,
+      "stems": [
+        "base"
+      ],
+      "priority": "VS_REQUIRED"
+    },
+    {
+      "id": "MUSIC_GUILD_HALL",
+      "context": "GUILD_HALL",
+      "loop": true,
+      "stems": [
+        "base"
+      ],
+      "priority": "VS_REQUIRED"
+    },
+    {
+      "id": "MUSIC_APPLICANT_BOARD",
+      "context": "APPLICANT_BOARD",
+      "loop": true,
+      "stems": [
+        "base"
+      ],
+      "priority": "VS_REQUIRED"
+    },
+    {
+      "id": "MUSIC_EXPEDITION_BOARD",
+      "context": "EXPEDITION_BOARD",
+      "loop": true,
+      "stems": [
+        "base",
+        "tension",
+        "resolution"
+      ],
+      "priority": "VS_REQUIRED"
+    },
+    {
+      "id": "MUSIC_SKILL_CHECK",
+      "context": "SKILL_CHECK",
+      "loop": true,
+      "stems": [
+        "base"
+      ],
+      "priority": "VS_REQUIRED"
+    },
+    {
+      "id": "MUSIC_BATTLE",
+      "context": "BATTLE",
+      "loop": true,
+      "stems": [
+        "base",
+        "tension",
+        "resolution"
+      ],
+      "priority": "VS_REQUIRED"
+    },
+    {
+      "id": "MUSIC_BOSS",
+      "context": "BOSS",
+      "loop": true,
+      "stems": [
+        "base",
+        "tension",
+        "resolution"
+      ],
+      "priority": "VS_REQUIRED"
+    },
+    {
+      "id": "MUSIC_VICTORY",
+      "context": "VICTORY",
+      "loop": false,
+      "stems": [
+        "base"
+      ],
+      "priority": "VS_REQUIRED"
+    },
+    {
+      "id": "MUSIC_RETREAT",
+      "context": "RETREAT",
+      "loop": false,
+      "stems": [
+        "base"
+      ],
+      "priority": "VS_REQUIRED"
+    },
+    {
+      "id": "MUSIC_FORGE",
+      "context": "FORGE",
+      "loop": true,
+      "stems": [
+        "base"
+      ],
+      "priority": "VS_REQUIRED"
+    },
+    {
+      "id": "MUSIC_INFIRMARY",
+      "context": "INFIRMARY",
+      "loop": true,
+      "stems": [
+        "base"
+      ],
+      "priority": "FULL_GAME"
+    },
+    {
+      "id": "MUSIC_SYSTEM_ARCHIVE",
+      "context": "SYSTEM_ARCHIVE",
+      "loop": true,
+      "stems": [
+        "base"
+      ],
+      "priority": "FULL_GAME"
+    },
+    {
+      "id": "MUSIC_MARGIN",
+      "context": "MARGIN",
+      "loop": true,
+      "stems": [
+        "base"
+      ],
+      "priority": "VS_REQUIRED"
+    },
+    {
+      "id": "MUSIC_INVOCATION",
+      "context": "INVOCATION",
+      "loop": true,
+      "stems": [
+        "base"
+      ],
+      "priority": "VS_REQUIRED"
+    },
+    {
+      "id": "MUSIC_GREAT_SUMMON",
+      "context": "GREAT_SUMMON",
+      "loop": false,
+      "stems": [
+        "base"
+      ],
+      "priority": "FULL_GAME"
+    },
+    {
+      "id": "MUSIC_ABYSS_F01",
+      "context": "ABYSS_F01",
+      "loop": true,
+      "stems": [
+        "base",
+        "tension",
+        "resolution"
+      ],
+      "priority": "VS_REQUIRED"
+    },
+    {
+      "id": "MUSIC_ABYSS_F02",
+      "context": "ABYSS_F02",
+      "loop": true,
+      "stems": [
+        "base",
+        "tension",
+        "resolution"
+      ],
+      "priority": "FULL_GAME"
+    },
+    {
+      "id": "MUSIC_ABYSS_F03",
+      "context": "ABYSS_F03",
+      "loop": true,
+      "stems": [
+        "base",
+        "tension",
+        "resolution"
+      ],
+      "priority": "FULL_GAME"
+    },
+    {
+      "id": "MUSIC_ABYSS_F04",
+      "context": "ABYSS_F04",
+      "loop": true,
+      "stems": [
+        "base",
+        "tension",
+        "resolution"
+      ],
+      "priority": "FULL_GAME"
+    },
+    {
+      "id": "MUSIC_ABYSS_F05",
+      "context": "ABYSS_F05",
+      "loop": true,
+      "stems": [
+        "base",
+        "tension",
+        "resolution"
+      ],
+      "priority": "FULL_GAME"
+    },
+    {
+      "id": "MUSIC_ABYSS_F06",
+      "context": "ABYSS_F06",
+      "loop": true,
+      "stems": [
+        "base",
+        "tension",
+        "resolution"
+      ],
+      "priority": "FULL_GAME"
+    },
+    {
+      "id": "MUSIC_ABYSS_F07",
+      "context": "ABYSS_F07",
+      "loop": true,
+      "stems": [
+        "base",
+        "tension",
+        "resolution"
+      ],
+      "priority": "FULL_GAME"
+    },
+    {
+      "id": "MUSIC_ABYSS_F08",
+      "context": "ABYSS_F08",
+      "loop": true,
+      "stems": [
+        "base",
+        "tension",
+        "resolution"
+      ],
+      "priority": "FULL_GAME"
+    },
+    {
+      "id": "MUSIC_ABYSS_F09",
+      "context": "ABYSS_F09",
+      "loop": true,
+      "stems": [
+        "base",
+        "tension",
+        "resolution"
+      ],
+      "priority": "FULL_GAME"
+    },
+    {
+      "id": "MUSIC_ABYSS_F10",
+      "context": "ABYSS_F10",
+      "loop": true,
+      "stems": [
+        "base",
+        "tension",
+        "resolution"
+      ],
+      "priority": "FULL_GAME"
+    }
+  ],
+  "voiceStrategy": "Random recruits use short archetype barks + text; Signature/story characters may receive bespoke barks; no full random-recruit VO requirement."
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Bridge Manifest",
+  "type": "object",
+  "required": [
+    "packageId",
+    "contentVersion",
+    "counts"
+  ],
+  "properties": {
+    "packageId": {
+      "type": "string"
+    },
+    "contentVersion": {
+      "type": "string"
+    },
+    "counts": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,3748 @@
+{
+  "recipes": [
+    {
+      "recipeId": "ARECIPE022_01_01",
+      "armorSetId": "CA002_SET_SURVEYOR_COAT",
+      "displayName": "Surveyor Coat Ensemble Common Reinforcement",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredOperations": 2,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_SKYHOME_05",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_BUNNY_05",
+          "amount": 1
+        }
+      ],
+      "twoPieceIdentity": "Improves TACTICAL forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Perception and movement; low protection.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_01_02",
+      "armorSetId": "CA002_SET_SURVEYOR_COAT",
+      "displayName": "Surveyor Coat Ensemble Uncommon Reinforcement",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredOperations": 4,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_03",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_DARKELF_04",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves TACTICAL forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Perception and movement; low protection.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_01_03",
+      "armorSetId": "CA002_SET_SURVEYOR_COAT",
+      "displayName": "Surveyor Coat Ensemble Rare Reinforcement",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredOperations": 6,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_01",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_DEMON_03",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves TACTICAL forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Perception and movement; low protection.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_01_04",
+      "armorSetId": "CA002_SET_SURVEYOR_COAT",
+      "displayName": "Surveyor Coat Ensemble Epic Reinforcement",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredOperations": 8,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_05",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_DOG_02",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves TACTICAL forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Perception and movement; low protection.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_01_05",
+      "armorSetId": "CA002_SET_SURVEYOR_COAT",
+      "displayName": "Surveyor Coat Ensemble Legendary Reinforcement",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredOperations": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_03",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_GOBLIN_01",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves TACTICAL forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Perception and movement; low protection.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_01_06",
+      "armorSetId": "CA002_SET_SURVEYOR_COAT",
+      "displayName": "Surveyor Coat Ensemble Godly Reinforcement",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredOperations": 12,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_01",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_GOBLIN_06",
+          "amount": 4
+        }
+      ],
+      "twoPieceIdentity": "Improves TACTICAL forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Perception and movement; low protection.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "ARECIPE022_02_01",
+      "armorSetId": "CA002_SET_RUNE_LINED_FIELD_ROBE",
+      "displayName": "Rune-Lined Field Robe Ensemble Common Reinforcement",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredOperations": 2,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_02",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_DARKELF_06",
+          "amount": 1
+        }
+      ],
+      "twoPieceIdentity": "Improves CONTROLLED_MAGIC forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Improves controlled Mystic forecasts and MP recovery at camps.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_02_02",
+      "armorSetId": "CA002_SET_RUNE_LINED_FIELD_ROBE",
+      "displayName": "Rune-Lined Field Robe Ensemble Uncommon Reinforcement",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredOperations": 4,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_06",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_DEMON_05",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves CONTROLLED_MAGIC forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Improves controlled Mystic forecasts and MP recovery at camps.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_02_03",
+      "armorSetId": "CA002_SET_RUNE_LINED_FIELD_ROBE",
+      "displayName": "Rune-Lined Field Robe Ensemble Rare Reinforcement",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredOperations": 6,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_04",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_DOG_04",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves CONTROLLED_MAGIC forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Improves controlled Mystic forecasts and MP recovery at camps.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_02_04",
+      "armorSetId": "CA002_SET_RUNE_LINED_FIELD_ROBE",
+      "displayName": "Rune-Lined Field Robe Ensemble Epic Reinforcement",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredOperations": 8,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_02",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_GOBLIN_03",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves CONTROLLED_MAGIC forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Improves controlled Mystic forecasts and MP recovery at camps.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_02_05",
+      "armorSetId": "CA002_SET_RUNE_LINED_FIELD_ROBE",
+      "displayName": "Rune-Lined Field Robe Ensemble Legendary Reinforcement",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredOperations": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_06",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_ORC_02",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves CONTROLLED_MAGIC forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Improves controlled Mystic forecasts and MP recovery at camps.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_02_06",
+      "armorSetId": "CA002_SET_RUNE_LINED_FIELD_ROBE",
+      "displayName": "Rune-Lined Field Robe Ensemble Godly Reinforcement",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredOperations": 12,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_04",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_SKYHOME_01",
+          "amount": 4
+        }
+      ],
+      "twoPieceIdentity": "Improves CONTROLLED_MAGIC forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Improves controlled Mystic forecasts and MP recovery at camps.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "ARECIPE022_03_01",
+      "armorSetId": "CA002_SET_FENRUNNER_TRAIL_LEATHERS",
+      "displayName": "Fenrunner Trail Leathers Ensemble Common Reinforcement",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredOperations": 2,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_05",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_DOG_01",
+          "amount": 1
+        }
+      ],
+      "twoPieceIdentity": "Improves RESCUE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Survival checks and fatigue resistance.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_03_02",
+      "armorSetId": "CA002_SET_FENRUNNER_TRAIL_LEATHERS",
+      "displayName": "Fenrunner Trail Leathers Ensemble Uncommon Reinforcement",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredOperations": 4,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_03",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_DOG_06",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves RESCUE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Survival checks and fatigue resistance.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_03_03",
+      "armorSetId": "CA002_SET_FENRUNNER_TRAIL_LEATHERS",
+      "displayName": "Fenrunner Trail Leathers Ensemble Rare Reinforcement",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredOperations": 6,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_01",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_GOBLIN_05",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves RESCUE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Survival checks and fatigue resistance.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_03_04",
+      "armorSetId": "CA002_SET_FENRUNNER_TRAIL_LEATHERS",
+      "displayName": "Fenrunner Trail Leathers Ensemble Epic Reinforcement",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredOperations": 8,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_05",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_ORC_04",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves RESCUE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Survival checks and fatigue resistance.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_03_05",
+      "armorSetId": "CA002_SET_FENRUNNER_TRAIL_LEATHERS",
+      "displayName": "Fenrunner Trail Leathers Ensemble Legendary Reinforcement",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredOperations": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_03",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_SKYHOME_03",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves RESCUE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Survival checks and fatigue resistance.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_03_06",
+      "armorSetId": "CA002_SET_FENRUNNER_TRAIL_LEATHERS",
+      "displayName": "Fenrunner Trail Leathers Ensemble Godly Reinforcement",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredOperations": 12,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_01",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_BEAST_02",
+          "amount": 4
+        }
+      ],
+      "twoPieceIdentity": "Improves RESCUE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Survival checks and fatigue resistance.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "ARECIPE022_04_01",
+      "armorSetId": "CA002_SET_DUSK_SURVEY_MANTLE",
+      "displayName": "Dusk Survey Mantle Ensemble Common Reinforcement",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredOperations": 2,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_02",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_GOBLIN_02",
+          "amount": 1
+        }
+      ],
+      "twoPieceIdentity": "Improves REARLINE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Reduces exposure after scouting or revealing a secret.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_04_02",
+      "armorSetId": "CA002_SET_DUSK_SURVEY_MANTLE",
+      "displayName": "Dusk Survey Mantle Ensemble Uncommon Reinforcement",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredOperations": 4,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_06",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_ORC_01",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves REARLINE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Reduces exposure after scouting or revealing a secret.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_04_03",
+      "armorSetId": "CA002_SET_DUSK_SURVEY_MANTLE",
+      "displayName": "Dusk Survey Mantle Ensemble Rare Reinforcement",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredOperations": 6,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_04",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_ORC_06",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves REARLINE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Reduces exposure after scouting or revealing a secret.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_04_04",
+      "armorSetId": "CA002_SET_DUSK_SURVEY_MANTLE",
+      "displayName": "Dusk Survey Mantle Ensemble Epic Reinforcement",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredOperations": 8,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_02",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_SKYHOME_05",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves REARLINE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Reduces exposure after scouting or revealing a secret.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_04_05",
+      "armorSetId": "CA002_SET_DUSK_SURVEY_MANTLE",
+      "displayName": "Dusk Survey Mantle Ensemble Legendary Reinforcement",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredOperations": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_06",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_BEAST_04",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves REARLINE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Reduces exposure after scouting or revealing a secret.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_04_06",
+      "armorSetId": "CA002_SET_DUSK_SURVEY_MANTLE",
+      "displayName": "Dusk Survey Mantle Ensemble Godly Reinforcement",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredOperations": 12,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_04",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_BUNNY_03",
+          "amount": 4
+        }
+      ],
+      "twoPieceIdentity": "Improves REARLINE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Reduces exposure after scouting or revealing a secret.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "ARECIPE022_05_01",
+      "armorSetId": "CA002_SET_SIGNAL_WEAVER_JACKET",
+      "displayName": "Signal Weaver Jacket Ensemble Common Reinforcement",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredOperations": 2,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_05",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_ORC_03",
+          "amount": 1
+        }
+      ],
+      "twoPieceIdentity": "Improves SUPPORT forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Support and multi-Union command visibility.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_05_02",
+      "armorSetId": "CA002_SET_SIGNAL_WEAVER_JACKET",
+      "displayName": "Signal Weaver Jacket Ensemble Uncommon Reinforcement",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredOperations": 4,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_03",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_SKYHOME_02",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves SUPPORT forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Support and multi-Union command visibility.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_05_03",
+      "armorSetId": "CA002_SET_SIGNAL_WEAVER_JACKET",
+      "displayName": "Signal Weaver Jacket Ensemble Rare Reinforcement",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredOperations": 6,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_01",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_BEAST_01",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves SUPPORT forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Support and multi-Union command visibility.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_05_04",
+      "armorSetId": "CA002_SET_SIGNAL_WEAVER_JACKET",
+      "displayName": "Signal Weaver Jacket Ensemble Epic Reinforcement",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredOperations": 8,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_05",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_BEAST_06",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves SUPPORT forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Support and multi-Union command visibility.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_05_05",
+      "armorSetId": "CA002_SET_SIGNAL_WEAVER_JACKET",
+      "displayName": "Signal Weaver Jacket Ensemble Legendary Reinforcement",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredOperations": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_03",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_BUNNY_05",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves SUPPORT forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Support and multi-Union command visibility.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_05_06",
+      "armorSetId": "CA002_SET_SIGNAL_WEAVER_JACKET",
+      "displayName": "Signal Weaver Jacket Ensemble Godly Reinforcement",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredOperations": 12,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_01",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_DARKELF_04",
+          "amount": 4
+        }
+      ],
+      "twoPieceIdentity": "Improves SUPPORT forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Support and multi-Union command visibility.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "ARECIPE022_06_01",
+      "armorSetId": "CA002_SET_RIVER_CLEANSE_VESTMENTS",
+      "displayName": "River-Cleanse Vestments Ensemble Common Reinforcement",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredOperations": 2,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_02",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_SKYHOME_04",
+          "amount": 1
+        }
+      ],
+      "twoPieceIdentity": "Improves CLEANSE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Cleansing and Medicine behavior near hazards.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_06_02",
+      "armorSetId": "CA002_SET_RIVER_CLEANSE_VESTMENTS",
+      "displayName": "River-Cleanse Vestments Ensemble Uncommon Reinforcement",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredOperations": 4,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_06",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_BEAST_03",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves CLEANSE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Cleansing and Medicine behavior near hazards.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_06_03",
+      "armorSetId": "CA002_SET_RIVER_CLEANSE_VESTMENTS",
+      "displayName": "River-Cleanse Vestments Ensemble Rare Reinforcement",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredOperations": 6,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_04",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_BUNNY_02",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves CLEANSE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Cleansing and Medicine behavior near hazards.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_06_04",
+      "armorSetId": "CA002_SET_RIVER_CLEANSE_VESTMENTS",
+      "displayName": "River-Cleanse Vestments Ensemble Epic Reinforcement",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredOperations": 8,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_02",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_DARKELF_01",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves CLEANSE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Cleansing and Medicine behavior near hazards.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_06_05",
+      "armorSetId": "CA002_SET_RIVER_CLEANSE_VESTMENTS",
+      "displayName": "River-Cleanse Vestments Ensemble Legendary Reinforcement",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredOperations": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_06",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_DARKELF_06",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves CLEANSE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Cleansing and Medicine behavior near hazards.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_06_06",
+      "armorSetId": "CA002_SET_RIVER_CLEANSE_VESTMENTS",
+      "displayName": "River-Cleanse Vestments Ensemble Godly Reinforcement",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredOperations": 12,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_04",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_DEMON_05",
+          "amount": 4
+        }
+      ],
+      "twoPieceIdentity": "Improves CLEANSE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Cleansing and Medicine behavior near hazards.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "ARECIPE022_07_01",
+      "armorSetId": "CA002_SET_GATEGLASS_ADEPT_WRAP",
+      "displayName": "Gateglass Adept Wrap Ensemble Common Reinforcement",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredOperations": 2,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_05",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_BEAST_05",
+          "amount": 1
+        }
+      ],
+      "twoPieceIdentity": "Improves MYSTIC forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: First Mystic MP expenditure is reduced by 1.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_07_02",
+      "armorSetId": "CA002_SET_GATEGLASS_ADEPT_WRAP",
+      "displayName": "Gateglass Adept Wrap Ensemble Uncommon Reinforcement",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredOperations": 4,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_03",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_BUNNY_04",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves MYSTIC forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: First Mystic MP expenditure is reduced by 1.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_07_03",
+      "armorSetId": "CA002_SET_GATEGLASS_ADEPT_WRAP",
+      "displayName": "Gateglass Adept Wrap Ensemble Rare Reinforcement",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredOperations": 6,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_01",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_DARKELF_03",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves MYSTIC forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: First Mystic MP expenditure is reduced by 1.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_07_04",
+      "armorSetId": "CA002_SET_GATEGLASS_ADEPT_WRAP",
+      "displayName": "Gateglass Adept Wrap Ensemble Epic Reinforcement",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredOperations": 8,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_05",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_DEMON_02",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves MYSTIC forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: First Mystic MP expenditure is reduced by 1.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_07_05",
+      "armorSetId": "CA002_SET_GATEGLASS_ADEPT_WRAP",
+      "displayName": "Gateglass Adept Wrap Ensemble Legendary Reinforcement",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredOperations": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_03",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_DOG_01",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves MYSTIC forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: First Mystic MP expenditure is reduced by 1.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_07_06",
+      "armorSetId": "CA002_SET_GATEGLASS_ADEPT_WRAP",
+      "displayName": "Gateglass Adept Wrap Ensemble Godly Reinforcement",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredOperations": 12,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_ORC_01",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_DOG_06",
+          "amount": 4
+        }
+      ],
+      "twoPieceIdentity": "Improves MYSTIC forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: First Mystic MP expenditure is reduced by 1.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "ARECIPE022_08_01",
+      "armorSetId": "CA002_SET_SILENT_CAMP_QUARTERMASTER_COAT",
+      "displayName": "Silent Camp Quartermaster Coat Ensemble Common Reinforcement",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredOperations": 2,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_02",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_BUNNY_06",
+          "amount": 1
+        }
+      ],
+      "twoPieceIdentity": "Improves RETREAT forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Supplies last longer and retreat forecasts gain weight when low.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_08_02",
+      "armorSetId": "CA002_SET_SILENT_CAMP_QUARTERMASTER_COAT",
+      "displayName": "Silent Camp Quartermaster Coat Ensemble Uncommon Reinforcement",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredOperations": 4,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_06",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_DARKELF_05",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves RETREAT forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Supplies last longer and retreat forecasts gain weight when low.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_08_03",
+      "armorSetId": "CA002_SET_SILENT_CAMP_QUARTERMASTER_COAT",
+      "displayName": "Silent Camp Quartermaster Coat Ensemble Rare Reinforcement",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredOperations": 6,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_04",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_DEMON_04",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves RETREAT forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Supplies last longer and retreat forecasts gain weight when low.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_08_04",
+      "armorSetId": "CA002_SET_SILENT_CAMP_QUARTERMASTER_COAT",
+      "displayName": "Silent Camp Quartermaster Coat Ensemble Epic Reinforcement",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredOperations": 8,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_02",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_DOG_03",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves RETREAT forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Supplies last longer and retreat forecasts gain weight when low.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_08_05",
+      "armorSetId": "CA002_SET_SILENT_CAMP_QUARTERMASTER_COAT",
+      "displayName": "Silent Camp Quartermaster Coat Ensemble Legendary Reinforcement",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredOperations": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_06",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_GOBLIN_02",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves RETREAT forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Supplies last longer and retreat forecasts gain weight when low.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_08_06",
+      "armorSetId": "CA002_SET_SILENT_CAMP_QUARTERMASTER_COAT",
+      "displayName": "Silent Camp Quartermaster Coat Ensemble Godly Reinforcement",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredOperations": 12,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_ORC_04",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_ORC_01",
+          "amount": 4
+        }
+      ],
+      "twoPieceIdentity": "Improves RETREAT forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Supplies last longer and retreat forecasts gain weight when low.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "ARECIPE022_09_01",
+      "armorSetId": "CA002_SET_ROADWARDEN_LAMELLAR",
+      "displayName": "Roadwarden Lamellar Ensemble Common Reinforcement",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredOperations": 2,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_05",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_DEMON_01",
+          "amount": 1
+        }
+      ],
+      "twoPieceIdentity": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Balanced Guard and movement.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_09_02",
+      "armorSetId": "CA002_SET_ROADWARDEN_LAMELLAR",
+      "displayName": "Roadwarden Lamellar Ensemble Uncommon Reinforcement",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredOperations": 4,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_03",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_DEMON_06",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Balanced Guard and movement.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_09_03",
+      "armorSetId": "CA002_SET_ROADWARDEN_LAMELLAR",
+      "displayName": "Roadwarden Lamellar Ensemble Rare Reinforcement",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredOperations": 6,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_01",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_DOG_05",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Balanced Guard and movement.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_09_04",
+      "armorSetId": "CA002_SET_ROADWARDEN_LAMELLAR",
+      "displayName": "Roadwarden Lamellar Ensemble Epic Reinforcement",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredOperations": 8,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_05",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_GOBLIN_04",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Balanced Guard and movement.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_09_05",
+      "armorSetId": "CA002_SET_ROADWARDEN_LAMELLAR",
+      "displayName": "Roadwarden Lamellar Ensemble Legendary Reinforcement",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredOperations": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_ORC_03",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_ORC_03",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Balanced Guard and movement.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_09_06",
+      "armorSetId": "CA002_SET_ROADWARDEN_LAMELLAR",
+      "displayName": "Roadwarden Lamellar Ensemble Godly Reinforcement",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredOperations": 12,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_SKYHOME_01",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_SKYHOME_02",
+          "amount": 4
+        }
+      ],
+      "twoPieceIdentity": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Balanced Guard and movement.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "ARECIPE022_10_01",
+      "armorSetId": "CA002_SET_STORMROAD_SCALE_COAT",
+      "displayName": "Stormroad Scale Coat Ensemble Common Reinforcement",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredOperations": 2,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_02",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_DOG_02",
+          "amount": 1
+        }
+      ],
+      "twoPieceIdentity": "Improves TACTICAL forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Flanking resistance and controlled movement.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_10_02",
+      "armorSetId": "CA002_SET_STORMROAD_SCALE_COAT",
+      "displayName": "Stormroad Scale Coat Ensemble Uncommon Reinforcement",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredOperations": 4,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_06",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_GOBLIN_01",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves TACTICAL forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Flanking resistance and controlled movement.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_10_03",
+      "armorSetId": "CA002_SET_STORMROAD_SCALE_COAT",
+      "displayName": "Stormroad Scale Coat Ensemble Rare Reinforcement",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredOperations": 6,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_04",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_GOBLIN_06",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves TACTICAL forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Flanking resistance and controlled movement.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_10_04",
+      "armorSetId": "CA002_SET_STORMROAD_SCALE_COAT",
+      "displayName": "Stormroad Scale Coat Ensemble Epic Reinforcement",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredOperations": 8,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_ORC_02",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_ORC_05",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves TACTICAL forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Flanking resistance and controlled movement.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_10_05",
+      "armorSetId": "CA002_SET_STORMROAD_SCALE_COAT",
+      "displayName": "Stormroad Scale Coat Ensemble Legendary Reinforcement",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredOperations": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_ORC_06",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_SKYHOME_04",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves TACTICAL forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Flanking resistance and controlled movement.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_10_06",
+      "armorSetId": "CA002_SET_STORMROAD_SCALE_COAT",
+      "displayName": "Stormroad Scale Coat Ensemble Godly Reinforcement",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredOperations": 12,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_SKYHOME_04",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_BEAST_03",
+          "amount": 4
+        }
+      ],
+      "twoPieceIdentity": "Improves TACTICAL forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Flanking resistance and controlled movement.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "ARECIPE022_11_01",
+      "armorSetId": "CA002_SET_GOBLIN_UTILITY_HARNESS",
+      "displayName": "Goblin Utility Harness Ensemble Common Reinforcement",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredOperations": 2,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_05",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_GOBLIN_03",
+          "amount": 1
+        }
+      ],
+      "twoPieceIdentity": "Improves OBJECTIVE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Tool compatibility and Crafting assistance.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_11_02",
+      "armorSetId": "CA002_SET_GOBLIN_UTILITY_HARNESS",
+      "displayName": "Goblin Utility Harness Ensemble Uncommon Reinforcement",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredOperations": 4,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_03",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_ORC_02",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves OBJECTIVE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Tool compatibility and Crafting assistance.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_11_03",
+      "armorSetId": "CA002_SET_GOBLIN_UTILITY_HARNESS",
+      "displayName": "Goblin Utility Harness Ensemble Rare Reinforcement",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredOperations": 6,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_ORC_01",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_SKYHOME_01",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves OBJECTIVE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Tool compatibility and Crafting assistance.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_11_04",
+      "armorSetId": "CA002_SET_GOBLIN_UTILITY_HARNESS",
+      "displayName": "Goblin Utility Harness Ensemble Epic Reinforcement",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredOperations": 8,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_ORC_05",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_SKYHOME_06",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves OBJECTIVE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Tool compatibility and Crafting assistance.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_11_05",
+      "armorSetId": "CA002_SET_GOBLIN_UTILITY_HARNESS",
+      "displayName": "Goblin Utility Harness Ensemble Legendary Reinforcement",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredOperations": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_SKYHOME_03",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_BEAST_05",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves OBJECTIVE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Tool compatibility and Crafting assistance.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_11_06",
+      "armorSetId": "CA002_SET_GOBLIN_UTILITY_HARNESS",
+      "displayName": "Goblin Utility Harness Ensemble Godly Reinforcement",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredOperations": 12,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_01",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_BUNNY_04",
+          "amount": 4
+        }
+      ],
+      "twoPieceIdentity": "Improves OBJECTIVE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Tool compatibility and Crafting assistance.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "ARECIPE022_12_01",
+      "armorSetId": "CA002_SET_ASH_MAP_COMMAND_ARMOR",
+      "displayName": "Ash-Map Command Armor Ensemble Common Reinforcement",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredOperations": 2,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_02",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_ORC_04",
+          "amount": 1
+        }
+      ],
+      "twoPieceIdentity": "Improves COORDINATE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Leadership and forecast preview clarity.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_12_02",
+      "armorSetId": "CA002_SET_ASH_MAP_COMMAND_ARMOR",
+      "displayName": "Ash-Map Command Armor Ensemble Uncommon Reinforcement",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredOperations": 4,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_06",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_SKYHOME_03",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves COORDINATE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Leadership and forecast preview clarity.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_12_03",
+      "armorSetId": "CA002_SET_ASH_MAP_COMMAND_ARMOR",
+      "displayName": "Ash-Map Command Armor Ensemble Rare Reinforcement",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredOperations": 6,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_ORC_04",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_BEAST_02",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves COORDINATE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Leadership and forecast preview clarity.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_12_04",
+      "armorSetId": "CA002_SET_ASH_MAP_COMMAND_ARMOR",
+      "displayName": "Ash-Map Command Armor Ensemble Epic Reinforcement",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredOperations": 8,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_SKYHOME_02",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_BUNNY_01",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves COORDINATE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Leadership and forecast preview clarity.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_12_05",
+      "armorSetId": "CA002_SET_ASH_MAP_COMMAND_ARMOR",
+      "displayName": "Ash-Map Command Armor Ensemble Legendary Reinforcement",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredOperations": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_SKYHOME_06",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_BUNNY_06",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves COORDINATE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Leadership and forecast preview clarity.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_12_06",
+      "armorSetId": "CA002_SET_ASH_MAP_COMMAND_ARMOR",
+      "displayName": "Ash-Map Command Armor Ensemble Godly Reinforcement",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredOperations": 12,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_04",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_DARKELF_05",
+          "amount": 4
+        }
+      ],
+      "twoPieceIdentity": "Improves COORDINATE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Leadership and forecast preview clarity.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "ARECIPE022_13_01",
+      "armorSetId": "CA002_SET_BLOODLESS_RIVER_GUARDCOAT",
+      "displayName": "Bloodless River Guardcoat Ensemble Common Reinforcement",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredOperations": 2,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_05",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_SKYHOME_05",
+          "amount": 1
+        }
+      ],
+      "twoPieceIdentity": "Improves CLEANSE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Hazard and purification resistance.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_13_02",
+      "armorSetId": "CA002_SET_BLOODLESS_RIVER_GUARDCOAT",
+      "displayName": "Bloodless River Guardcoat Ensemble Uncommon Reinforcement",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredOperations": 4,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_ORC_03",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_BEAST_04",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves CLEANSE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Hazard and purification resistance.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_13_03",
+      "armorSetId": "CA002_SET_BLOODLESS_RIVER_GUARDCOAT",
+      "displayName": "Bloodless River Guardcoat Ensemble Rare Reinforcement",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredOperations": 6,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_SKYHOME_01",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_BUNNY_03",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves CLEANSE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Hazard and purification resistance.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_13_04",
+      "armorSetId": "CA002_SET_BLOODLESS_RIVER_GUARDCOAT",
+      "displayName": "Bloodless River Guardcoat Ensemble Epic Reinforcement",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredOperations": 8,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_SKYHOME_05",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_DARKELF_02",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves CLEANSE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Hazard and purification resistance.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_13_05",
+      "armorSetId": "CA002_SET_BLOODLESS_RIVER_GUARDCOAT",
+      "displayName": "Bloodless River Guardcoat Ensemble Legendary Reinforcement",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredOperations": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_03",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_DEMON_01",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves CLEANSE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Hazard and purification resistance.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_13_06",
+      "armorSetId": "CA002_SET_BLOODLESS_RIVER_GUARDCOAT",
+      "displayName": "Bloodless River Guardcoat Ensemble Godly Reinforcement",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredOperations": 12,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_01",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_DEMON_06",
+          "amount": 4
+        }
+      ],
+      "twoPieceIdentity": "Improves CLEANSE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Hazard and purification resistance.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "ARECIPE022_14_01",
+      "armorSetId": "CA002_SET_RESCUE_MARSHAL_BRIGANDINE",
+      "displayName": "Rescue Marshal Brigandine Ensemble Common Reinforcement",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredOperations": 2,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_ORC_02",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_BEAST_06",
+          "amount": 1
+        }
+      ],
+      "twoPieceIdentity": "Improves RESCUE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Protect-wounded and extraction actions.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_14_02",
+      "armorSetId": "CA002_SET_RESCUE_MARSHAL_BRIGANDINE",
+      "displayName": "Rescue Marshal Brigandine Ensemble Uncommon Reinforcement",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredOperations": 4,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_ORC_06",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_BUNNY_05",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves RESCUE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Protect-wounded and extraction actions.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_14_03",
+      "armorSetId": "CA002_SET_RESCUE_MARSHAL_BRIGANDINE",
+      "displayName": "Rescue Marshal Brigandine Ensemble Rare Reinforcement",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredOperations": 6,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_SKYHOME_04",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_DARKELF_04",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves RESCUE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Protect-wounded and extraction actions.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_14_04",
+      "armorSetId": "CA002_SET_RESCUE_MARSHAL_BRIGANDINE",
+      "displayName": "Rescue Marshal Brigandine Ensemble Epic Reinforcement",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredOperations": 8,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_02",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_DEMON_03",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves RESCUE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Protect-wounded and extraction actions.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_14_05",
+      "armorSetId": "CA002_SET_RESCUE_MARSHAL_BRIGANDINE",
+      "displayName": "Rescue Marshal Brigandine Ensemble Legendary Reinforcement",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredOperations": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_06",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_DOG_02",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves RESCUE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Protect-wounded and extraction actions.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_14_06",
+      "armorSetId": "CA002_SET_RESCUE_MARSHAL_BRIGANDINE",
+      "displayName": "Rescue Marshal Brigandine Ensemble Godly Reinforcement",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredOperations": 12,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_04",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_GOBLIN_01",
+          "amount": 4
+        }
+      ],
+      "twoPieceIdentity": "Improves RESCUE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Protect-wounded and extraction actions.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "ARECIPE022_15_01",
+      "armorSetId": "CA002_SET_WAR_BEAST_HANDLER_MAIL",
+      "displayName": "War-Beast Handler Mail Ensemble Common Reinforcement",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredOperations": 2,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_ORC_05",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_DARKELF_01",
+          "amount": 1
+        }
+      ],
+      "twoPieceIdentity": "Improves SUPPORT forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Reduces fear and improves nonhostile creature events.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_15_02",
+      "armorSetId": "CA002_SET_WAR_BEAST_HANDLER_MAIL",
+      "displayName": "War-Beast Handler Mail Ensemble Uncommon Reinforcement",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredOperations": 4,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_SKYHOME_03",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_DARKELF_06",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves SUPPORT forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Reduces fear and improves nonhostile creature events.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_15_03",
+      "armorSetId": "CA002_SET_WAR_BEAST_HANDLER_MAIL",
+      "displayName": "War-Beast Handler Mail Ensemble Rare Reinforcement",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredOperations": 6,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_01",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_DEMON_05",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves SUPPORT forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Reduces fear and improves nonhostile creature events.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_15_04",
+      "armorSetId": "CA002_SET_WAR_BEAST_HANDLER_MAIL",
+      "displayName": "War-Beast Handler Mail Ensemble Epic Reinforcement",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredOperations": 8,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_05",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_DOG_04",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves SUPPORT forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Reduces fear and improves nonhostile creature events.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_15_05",
+      "armorSetId": "CA002_SET_WAR_BEAST_HANDLER_MAIL",
+      "displayName": "War-Beast Handler Mail Ensemble Legendary Reinforcement",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredOperations": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_03",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_GOBLIN_03",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves SUPPORT forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Reduces fear and improves nonhostile creature events.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_15_06",
+      "armorSetId": "CA002_SET_WAR_BEAST_HANDLER_MAIL",
+      "displayName": "War-Beast Handler Mail Ensemble Godly Reinforcement",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredOperations": 12,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_01",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_ORC_02",
+          "amount": 4
+        }
+      ],
+      "twoPieceIdentity": "Improves SUPPORT forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Reduces fear and improves nonhostile creature events.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "ARECIPE022_16_01",
+      "armorSetId": "CA002_SET_GATEWATCH_HYBRID_CUIRASS",
+      "displayName": "Gatewatch Hybrid Cuirass Ensemble Common Reinforcement",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredOperations": 2,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_SKYHOME_02",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_DEMON_02",
+          "amount": 1
+        }
+      ],
+      "twoPieceIdentity": "Improves MYSTIC forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Supports a one-handed weapon plus focus hybrid without overload.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_16_02",
+      "armorSetId": "CA002_SET_GATEWATCH_HYBRID_CUIRASS",
+      "displayName": "Gatewatch Hybrid Cuirass Ensemble Uncommon Reinforcement",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredOperations": 4,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_SKYHOME_06",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_DOG_01",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves MYSTIC forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Supports a one-handed weapon plus focus hybrid without overload.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_16_03",
+      "armorSetId": "CA002_SET_GATEWATCH_HYBRID_CUIRASS",
+      "displayName": "Gatewatch Hybrid Cuirass Ensemble Rare Reinforcement",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredOperations": 6,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_04",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_DOG_06",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves MYSTIC forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Supports a one-handed weapon plus focus hybrid without overload.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_16_04",
+      "armorSetId": "CA002_SET_GATEWATCH_HYBRID_CUIRASS",
+      "displayName": "Gatewatch Hybrid Cuirass Ensemble Epic Reinforcement",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredOperations": 8,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_02",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_GOBLIN_05",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves MYSTIC forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Supports a one-handed weapon plus focus hybrid without overload.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_16_05",
+      "armorSetId": "CA002_SET_GATEWATCH_HYBRID_CUIRASS",
+      "displayName": "Gatewatch Hybrid Cuirass Ensemble Legendary Reinforcement",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredOperations": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_06",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_ORC_04",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves MYSTIC forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Supports a one-handed weapon plus focus hybrid without overload.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_16_06",
+      "armorSetId": "CA002_SET_GATEWATCH_HYBRID_CUIRASS",
+      "displayName": "Gatewatch Hybrid Cuirass Ensemble Godly Reinforcement",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredOperations": 12,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_04",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_SKYHOME_03",
+          "amount": 4
+        }
+      ],
+      "twoPieceIdentity": "Improves MYSTIC forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Supports a one-handed weapon plus focus hybrid without overload.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "ARECIPE022_17_01",
+      "armorSetId": "CA002_SET_OUTER_ROAD_PLATE",
+      "displayName": "Outer Road Plate Panoply Common Reinforcement",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredOperations": 2,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_SKYHOME_05",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_DOG_03",
+          "amount": 1
+        }
+      ],
+      "twoPieceIdentity": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: High protection and reliable Shield Wall behavior.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_17_02",
+      "armorSetId": "CA002_SET_OUTER_ROAD_PLATE",
+      "displayName": "Outer Road Plate Panoply Uncommon Reinforcement",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredOperations": 4,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_03",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_GOBLIN_02",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: High protection and reliable Shield Wall behavior.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_17_03",
+      "armorSetId": "CA002_SET_OUTER_ROAD_PLATE",
+      "displayName": "Outer Road Plate Panoply Rare Reinforcement",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredOperations": 6,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_01",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_ORC_01",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: High protection and reliable Shield Wall behavior.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_17_04",
+      "armorSetId": "CA002_SET_OUTER_ROAD_PLATE",
+      "displayName": "Outer Road Plate Panoply Epic Reinforcement",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredOperations": 8,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_05",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_ORC_06",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: High protection and reliable Shield Wall behavior.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_17_05",
+      "armorSetId": "CA002_SET_OUTER_ROAD_PLATE",
+      "displayName": "Outer Road Plate Panoply Legendary Reinforcement",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredOperations": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_03",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_SKYHOME_05",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: High protection and reliable Shield Wall behavior.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_17_06",
+      "armorSetId": "CA002_SET_OUTER_ROAD_PLATE",
+      "displayName": "Outer Road Plate Panoply Godly Reinforcement",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredOperations": 12,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_01",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_BEAST_04",
+          "amount": 4
+        }
+      ],
+      "twoPieceIdentity": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: High protection and reliable Shield Wall behavior.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "ARECIPE022_18_01",
+      "armorSetId": "CA002_SET_IRON_MARCH_HARNESS",
+      "displayName": "Iron March Harness Panoply Common Reinforcement",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredOperations": 2,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_02",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_GOBLIN_04",
+          "amount": 1
+        }
+      ],
+      "twoPieceIdentity": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Cohesion protection, but reduced flank mobility.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_18_02",
+      "armorSetId": "CA002_SET_IRON_MARCH_HARNESS",
+      "displayName": "Iron March Harness Panoply Uncommon Reinforcement",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredOperations": 4,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_06",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_ORC_03",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Cohesion protection, but reduced flank mobility.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_18_03",
+      "armorSetId": "CA002_SET_IRON_MARCH_HARNESS",
+      "displayName": "Iron March Harness Panoply Rare Reinforcement",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredOperations": 6,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_04",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_SKYHOME_02",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Cohesion protection, but reduced flank mobility.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_18_04",
+      "armorSetId": "CA002_SET_IRON_MARCH_HARNESS",
+      "displayName": "Iron March Harness Panoply Epic Reinforcement",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredOperations": 8,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_02",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_BEAST_01",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Cohesion protection, but reduced flank mobility.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_18_05",
+      "armorSetId": "CA002_SET_IRON_MARCH_HARNESS",
+      "displayName": "Iron March Harness Panoply Legendary Reinforcement",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredOperations": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_06",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_BEAST_06",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Cohesion protection, but reduced flank mobility.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_18_06",
+      "armorSetId": "CA002_SET_IRON_MARCH_HARNESS",
+      "displayName": "Iron March Harness Panoply Godly Reinforcement",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredOperations": 12,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_04",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_BUNNY_05",
+          "amount": 4
+        }
+      ],
+      "twoPieceIdentity": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Cohesion protection, but reduced flank mobility.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "ARECIPE022_19_01",
+      "armorSetId": "CA002_SET_COLLAPSED_WALL_ENGINEER_PLATE",
+      "displayName": "Collapsed Wall Engineer Plate Panoply Common Reinforcement",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredOperations": 2,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_05",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_ORC_05",
+          "amount": 1
+        }
+      ],
+      "twoPieceIdentity": "Improves OBJECTIVE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Objective resistance and construct work.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_19_02",
+      "armorSetId": "CA002_SET_COLLAPSED_WALL_ENGINEER_PLATE",
+      "displayName": "Collapsed Wall Engineer Plate Panoply Uncommon Reinforcement",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredOperations": 4,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_03",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_SKYHOME_04",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves OBJECTIVE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Objective resistance and construct work.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_19_03",
+      "armorSetId": "CA002_SET_COLLAPSED_WALL_ENGINEER_PLATE",
+      "displayName": "Collapsed Wall Engineer Plate Panoply Rare Reinforcement",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredOperations": 6,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_01",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_BEAST_03",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves OBJECTIVE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Objective resistance and construct work.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_19_04",
+      "armorSetId": "CA002_SET_COLLAPSED_WALL_ENGINEER_PLATE",
+      "displayName": "Collapsed Wall Engineer Plate Panoply Epic Reinforcement",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredOperations": 8,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_05",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_BUNNY_02",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves OBJECTIVE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Objective resistance and construct work.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_19_05",
+      "armorSetId": "CA002_SET_COLLAPSED_WALL_ENGINEER_PLATE",
+      "displayName": "Collapsed Wall Engineer Plate Panoply Legendary Reinforcement",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredOperations": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_03",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_DARKELF_01",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves OBJECTIVE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Objective resistance and construct work.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_19_06",
+      "armorSetId": "CA002_SET_COLLAPSED_WALL_ENGINEER_PLATE",
+      "displayName": "Collapsed Wall Engineer Plate Panoply Godly Reinforcement",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredOperations": 12,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_01",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_DARKELF_06",
+          "amount": 4
+        }
+      ],
+      "twoPieceIdentity": "Improves OBJECTIVE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Objective resistance and construct work.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "ARECIPE022_20_01",
+      "armorSetId": "CA002_SET_AEGIS_TRIAL_ARMOR",
+      "displayName": "Aegis Trial Armor Panoply Common Reinforcement",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredOperations": 2,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_02",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_SKYHOME_06",
+          "amount": 1
+        }
+      ],
+      "twoPieceIdentity": "Improves RESCUE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Meaningful civilian protection increases evolution progress.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_20_02",
+      "armorSetId": "CA002_SET_AEGIS_TRIAL_ARMOR",
+      "displayName": "Aegis Trial Armor Panoply Uncommon Reinforcement",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredOperations": 4,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_06",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_BEAST_05",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves RESCUE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Meaningful civilian protection increases evolution progress.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_20_03",
+      "armorSetId": "CA002_SET_AEGIS_TRIAL_ARMOR",
+      "displayName": "Aegis Trial Armor Panoply Rare Reinforcement",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredOperations": 6,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_04",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_BUNNY_04",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves RESCUE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Meaningful civilian protection increases evolution progress.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_20_04",
+      "armorSetId": "CA002_SET_AEGIS_TRIAL_ARMOR",
+      "displayName": "Aegis Trial Armor Panoply Epic Reinforcement",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredOperations": 8,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_02",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_DARKELF_03",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves RESCUE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Meaningful civilian protection increases evolution progress.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_20_05",
+      "armorSetId": "CA002_SET_AEGIS_TRIAL_ARMOR",
+      "displayName": "Aegis Trial Armor Panoply Legendary Reinforcement",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredOperations": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_06",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_DEMON_02",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves RESCUE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Meaningful civilian protection increases evolution progress.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_20_06",
+      "armorSetId": "CA002_SET_AEGIS_TRIAL_ARMOR",
+      "displayName": "Aegis Trial Armor Panoply Godly Reinforcement",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredOperations": 12,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_04",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_DOG_01",
+          "amount": 4
+        }
+      ],
+      "twoPieceIdentity": "Improves RESCUE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Meaningful civilian protection increases evolution progress.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "ARECIPE022_21_01",
+      "armorSetId": "CA002_SET_PYLON_GROUNDING_PLATE",
+      "displayName": "Pylon Grounding Plate Panoply Common Reinforcement",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredOperations": 2,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_05",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_BUNNY_01",
+          "amount": 1
+        }
+      ],
+      "twoPieceIdentity": "Improves ANTI_MYSTIC forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Strong anti-Mystic defense, vulnerable to mobility control.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_21_02",
+      "armorSetId": "CA002_SET_PYLON_GROUNDING_PLATE",
+      "displayName": "Pylon Grounding Plate Panoply Uncommon Reinforcement",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredOperations": 4,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_03",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_BUNNY_06",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves ANTI_MYSTIC forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Strong anti-Mystic defense, vulnerable to mobility control.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_21_03",
+      "armorSetId": "CA002_SET_PYLON_GROUNDING_PLATE",
+      "displayName": "Pylon Grounding Plate Panoply Rare Reinforcement",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredOperations": 6,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_01",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_DARKELF_05",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves ANTI_MYSTIC forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Strong anti-Mystic defense, vulnerable to mobility control.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_21_04",
+      "armorSetId": "CA002_SET_PYLON_GROUNDING_PLATE",
+      "displayName": "Pylon Grounding Plate Panoply Epic Reinforcement",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredOperations": 8,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_05",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_DEMON_04",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves ANTI_MYSTIC forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Strong anti-Mystic defense, vulnerable to mobility control.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_21_05",
+      "armorSetId": "CA002_SET_PYLON_GROUNDING_PLATE",
+      "displayName": "Pylon Grounding Plate Panoply Legendary Reinforcement",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredOperations": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_03",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_DOG_03",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves ANTI_MYSTIC forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Strong anti-Mystic defense, vulnerable to mobility control.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_21_06",
+      "armorSetId": "CA002_SET_PYLON_GROUNDING_PLATE",
+      "displayName": "Pylon Grounding Plate Panoply Godly Reinforcement",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredOperations": 12,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_01",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_GOBLIN_02",
+          "amount": 4
+        }
+      ],
+      "twoPieceIdentity": "Improves ANTI_MYSTIC forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Strong anti-Mystic defense, vulnerable to mobility control.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "ARECIPE022_22_01",
+      "armorSetId": "CA002_SET_MOUNTAIN_LINE_BULWARK",
+      "displayName": "Mountain-Line Bulwark Panoply Common Reinforcement",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredOperations": 2,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_02",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_DARKELF_02",
+          "amount": 1
+        }
+      ],
+      "twoPieceIdentity": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Formation center anchor; high fatigue on long boards.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_22_02",
+      "armorSetId": "CA002_SET_MOUNTAIN_LINE_BULWARK",
+      "displayName": "Mountain-Line Bulwark Panoply Uncommon Reinforcement",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredOperations": 4,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_06",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_DEMON_01",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Formation center anchor; high fatigue on long boards.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_22_03",
+      "armorSetId": "CA002_SET_MOUNTAIN_LINE_BULWARK",
+      "displayName": "Mountain-Line Bulwark Panoply Rare Reinforcement",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredOperations": 6,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_04",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_DEMON_06",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Formation center anchor; high fatigue on long boards.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_22_04",
+      "armorSetId": "CA002_SET_MOUNTAIN_LINE_BULWARK",
+      "displayName": "Mountain-Line Bulwark Panoply Epic Reinforcement",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredOperations": 8,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_02",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_DOG_05",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Formation center anchor; high fatigue on long boards.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_22_05",
+      "armorSetId": "CA002_SET_MOUNTAIN_LINE_BULWARK",
+      "displayName": "Mountain-Line Bulwark Panoply Legendary Reinforcement",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredOperations": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_06",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_GOBLIN_04",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Formation center anchor; high fatigue on long boards.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_22_06",
+      "armorSetId": "CA002_SET_MOUNTAIN_LINE_BULWARK",
+      "displayName": "Mountain-Line Bulwark Panoply Godly Reinforcement",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredOperations": 12,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_04",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_ORC_03",
+          "amount": 4
+        }
+      ],
+      "twoPieceIdentity": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Formation center anchor; high fatigue on long boards.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "ARECIPE022_23_01",
+      "armorSetId": "CA002_SET_BANNER_HILL_HONOR_PLATE",
+      "displayName": "Banner Hill Honor Plate Panoply Common Reinforcement",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredOperations": 2,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_05",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_DEMON_03",
+          "amount": 1
+        }
+      ],
+      "twoPieceIdentity": "Improves SUPPORT forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Support progress from protecting morale objectives.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_23_02",
+      "armorSetId": "CA002_SET_BANNER_HILL_HONOR_PLATE",
+      "displayName": "Banner Hill Honor Plate Panoply Uncommon Reinforcement",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredOperations": 4,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_03",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_DOG_02",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves SUPPORT forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Support progress from protecting morale objectives.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_23_03",
+      "armorSetId": "CA002_SET_BANNER_HILL_HONOR_PLATE",
+      "displayName": "Banner Hill Honor Plate Panoply Rare Reinforcement",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredOperations": 6,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_01",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_GOBLIN_01",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves SUPPORT forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Support progress from protecting morale objectives.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_23_04",
+      "armorSetId": "CA002_SET_BANNER_HILL_HONOR_PLATE",
+      "displayName": "Banner Hill Honor Plate Panoply Epic Reinforcement",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredOperations": 8,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_05",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_GOBLIN_06",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves SUPPORT forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Support progress from protecting morale objectives.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_23_05",
+      "armorSetId": "CA002_SET_BANNER_HILL_HONOR_PLATE",
+      "displayName": "Banner Hill Honor Plate Panoply Legendary Reinforcement",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredOperations": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_03",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_ORC_05",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves SUPPORT forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Support progress from protecting morale objectives.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_23_06",
+      "armorSetId": "CA002_SET_BANNER_HILL_HONOR_PLATE",
+      "displayName": "Banner Hill Honor Plate Panoply Godly Reinforcement",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredOperations": 12,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_ORC_01",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_SKYHOME_04",
+          "amount": 4
+        }
+      ],
+      "twoPieceIdentity": "Improves SUPPORT forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Support progress from protecting morale objectives.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "ARECIPE022_24_01",
+      "armorSetId": "CA002_SET_GATEBOUND_COLOSSUS_SALVAGE_PLATE",
+      "displayName": "Gatebound Colossus Salvage Plate Panoply Common Reinforcement",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredOperations": 2,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_02",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_DOG_04",
+          "amount": 1
+        }
+      ],
+      "twoPieceIdentity": "Improves SURVIVE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Boss telegraph survival, difficult to repair.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_24_02",
+      "armorSetId": "CA002_SET_GATEBOUND_COLOSSUS_SALVAGE_PLATE",
+      "displayName": "Gatebound Colossus Salvage Plate Panoply Uncommon Reinforcement",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredOperations": 4,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_06",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_GOBLIN_03",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves SURVIVE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Boss telegraph survival, difficult to repair.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_24_03",
+      "armorSetId": "CA002_SET_GATEBOUND_COLOSSUS_SALVAGE_PLATE",
+      "displayName": "Gatebound Colossus Salvage Plate Panoply Rare Reinforcement",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredOperations": 6,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_04",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_ORC_02",
+          "amount": 2
+        }
+      ],
+      "twoPieceIdentity": "Improves SURVIVE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Boss telegraph survival, difficult to repair.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_24_04",
+      "armorSetId": "CA002_SET_GATEBOUND_COLOSSUS_SALVAGE_PLATE",
+      "displayName": "Gatebound Colossus Salvage Plate Panoply Epic Reinforcement",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredOperations": 8,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_02",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_SKYHOME_01",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves SURVIVE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Boss telegraph survival, difficult to repair.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_24_05",
+      "armorSetId": "CA002_SET_GATEBOUND_COLOSSUS_SALVAGE_PLATE",
+      "displayName": "Gatebound Colossus Salvage Plate Panoply Legendary Reinforcement",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredOperations": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_06",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_SKYHOME_06",
+          "amount": 3
+        }
+      ],
+      "twoPieceIdentity": "Improves SURVIVE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Boss telegraph survival, difficult to repair.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "ARECIPE022_24_06",
+      "armorSetId": "CA002_SET_GATEBOUND_COLOSSUS_SALVAGE_PLATE",
+      "displayName": "Gatebound Colossus Salvage Plate Panoply Godly Reinforcement",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredOperations": 12,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_ORC_04",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_BEAST_05",
+          "amount": 4
+        }
+      ],
+      "twoPieceIdentity": "Improves SURVIVE forecast weighting while at least two pieces are equipped.",
+      "fourPieceIdentity": "Strengthens the set's identity: Boss telegraph survival, difficult to repair.",
+      "preserveSetIdentity": true,
+      "preservePlayerLocks": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    }
+  ]
+}

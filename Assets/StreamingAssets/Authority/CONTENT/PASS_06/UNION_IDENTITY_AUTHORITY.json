@@ -1,0 +1,306 @@
+{
+  "contentVersion": "GOW_PASS06_0.11",
+  "identityTraitCount": 30,
+  "identityTraits": [
+    {
+      "id": "UNION_TRAIT_HOLD_THE_LAST_STEP",
+      "displayName": "Hold the Last Step",
+      "effectSummary": "Guard growth after protecting a retreat; weak to reckless pursuit.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_NO_ONE_LEFT_IN_FOG",
+      "displayName": "No One Left in Fog",
+      "effectSummary": "Rescue and scouting coordination; lower all-out offense weighting.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_COUNT_EVERY_ARROW",
+      "displayName": "Count Every Arrow",
+      "effectSummary": "Resource discipline and ranged readiness; slower first-round aggression.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_BREAK_THEN_BREATHE",
+      "displayName": "Break, Then Breathe",
+      "effectSummary": "Formation-break follow-up and AP conservation; poor against scattered enemies.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_THE_QUIET_SIGNAL",
+      "displayName": "The Quiet Signal",
+      "effectSummary": "Support and Tactical coordination; vulnerable when leader is silenced.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_SHARE_THE_WEIGHT",
+      "displayName": "Share the Weight",
+      "effectSummary": "Fatigue distribution and carrying rescues; reduced sprint movement.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_ASK_BEFORE_GUARDING",
+      "displayName": "Ask Before Guarding",
+      "effectSummary": "Protectiveness without autonomy friction; requires positive Trust.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_MAP_BEFORE_GLORY",
+      "displayName": "Map Before Glory",
+      "effectSummary": "Secret and hazard discovery; reduced boss-rush rewards.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_SECOND_LINE_TEACHES",
+      "displayName": "The Second Line Teaches",
+      "effectSummary": "Apprentice observation; modest veteran AP cost increase.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_TOOLS_ARE_PROMISES",
+      "displayName": "Tools Are Promises",
+      "effectSummary": "Equipment care and crafting history; repair costs matter more.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_EAT_AFTER_RETURN",
+      "displayName": "Eat After Return",
+      "effectSummary": "Morale recovery and Hall scenes; no direct combat power.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_NAME_THE_FAILURE",
+      "displayName": "Name the Failure",
+      "effectSummary": "Faster reconciliation after defeat; public reputation risk if mishandled.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_THREE_BELLS_WITHDRAW",
+      "displayName": "Three Bells Mean Withdraw",
+      "effectSummary": "Reliable retreat Forecasts; aggressive leaders may resist until trained.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_WATCH_THE_REAR",
+      "displayName": "Watch the Rear",
+      "effectSummary": "Rear-line protection; less front-line burst.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_FIRST_AID_FIRST",
+      "displayName": "First Aid Before Loot",
+      "effectSummary": "Injury reduction; some loot branches may close.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_LET_THE_SCOUT_SPEAK",
+      "displayName": "Let the Scout Speak",
+      "effectSummary": "Tactical information weighting; leader command begins slightly later.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_BORROW_NO_BANNER",
+      "displayName": "Borrow No Banner",
+      "effectSummary": "Strong independent identity; slower reputation inheritance.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_REPAIR_IN_PUBLIC",
+      "displayName": "Repair in Public",
+      "effectSummary": "Trust gain from accountability; discomfort for private members.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_ONE_STORY_EACH",
+      "displayName": "One Story Each",
+      "effectSummary": "Chronicle diversity and newcomer induction; no numeric combat bonus.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_TWO_WORLDS_ONE_ROUTE",
+      "displayName": "Two Worlds, One Route",
+      "effectSummary": "Mixed-culture Link readiness; requires cultural understanding maintenance.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_THE_WOUNDED_DECIDE",
+      "displayName": "The Wounded Decide",
+      "effectSummary": "Autonomy during recovery; slower forced extraction.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_THE_LEADER_CARRIES_LAST",
+      "displayName": "The Leader Carries Last",
+      "effectSummary": "Leadership trust on retreats; greater leader fatigue.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_NO_CHEERS_FOR_CRUELTY",
+      "displayName": "No Cheers for Cruelty",
+      "effectSummary": "Civic trust and surrender events; reduced fear-based enemy control.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_KEEP_A_SEAT_EMPTY",
+      "displayName": "Keep a Seat Empty",
+      "effectSummary": "Legacy and return-from-retirement hooks; one social slot reserved at ceremonies.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_FIVE_HANDS_ONE_TASK",
+      "displayName": "Five Hands, One Task",
+      "effectSummary": "Full-Union coordination; interruption affects everyone.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_THE_DOOR_STAYS_OPEN",
+      "displayName": "The Door Stays Open",
+      "effectSummary": "Reform and transfer recovery; weaker exclusivity bonuses.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_LAUGH_BEFORE_DANGER",
+      "displayName": "Laugh Before Danger",
+      "effectSummary": "Morale stability; serious members may begin with small friction.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_NO_SECRET_DEBTS",
+      "displayName": "No Secret Debts",
+      "effectSummary": "Transparent equipment and supply use; fewer black-market options.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_LEARN_THEIR_NAME",
+      "displayName": "Learn Their Name",
+      "effectSummary": "Civilian and recruit social outcomes; slower anonymous contract throughput.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    },
+    {
+      "id": "UNION_TRAIT_VICTORY_BUILDS_HOME",
+      "displayName": "Victory Builds Home",
+      "effectSummary": "Civic-use reward choices; less personal loot weighting.",
+      "powerBudget": "SIDEGRADE",
+      "canBePlayerRetired": true
+    }
+  ],
+  "namingGrammar": {
+    "prefixes": [
+      "Iron",
+      "Gate",
+      "Dawn",
+      "Ash",
+      "Moon",
+      "Storm",
+      "Quiet",
+      "Brass",
+      "Silver",
+      "Ember",
+      "River",
+      "Lantern",
+      "Hearth",
+      "Road",
+      "Wild",
+      "Glass",
+      "Cinder",
+      "Archive",
+      "Shield",
+      "Wayfarer",
+      "Foundry",
+      "Mist",
+      "Sun",
+      "Night"
+    ],
+    "nouns": [
+      "Stags",
+      "Lanterns",
+      "Wardens",
+      "Runners",
+      "Choir",
+      "Vanguard",
+      "Hands",
+      "Compass",
+      "Bridge",
+      "Hounds",
+      "Witnesses",
+      "Anvils",
+      "Stars",
+      "Knot",
+      "Pact",
+      "Steps",
+      "Bells",
+      "Menders",
+      "Trail",
+      "Circle",
+      "Keepers",
+      "Arrows",
+      "Hearths",
+      "Signals"
+    ],
+    "suggestionRule": "Seeded by campaign, Union ID, founding members, and identity history. Player rename never changes simulation seed."
+  },
+  "emblemGrammar": {
+    "shapes": [
+      "shield",
+      "open gate",
+      "lantern",
+      "bridge",
+      "pawprint",
+      "hammer",
+      "compass",
+      "crescent",
+      "book",
+      "wing",
+      "bell",
+      "river knot"
+    ],
+    "marks": [
+      "broken line repaired in gold",
+      "two hands supporting a road",
+      "seven small stars around an empty center",
+      "crossed tool and branch",
+      "three retreat bells",
+      "open eye beneath an arch",
+      "stitched banner edge",
+      "shared cup",
+      "unstrung bow",
+      "footprints returning home"
+    ],
+    "paletteRule": "Use world and member palette tags; never imply cultural ownership."
+  },
+  "historyRules": {
+    "memberTransfer": "Personal progress leaves with the member; Union Chronicle, former-member record, and shared memories remain. Temporary Cohesion loss is capped.",
+    "disband": "Marks the Union inactive; history is never deleted. Equipment and members return to player control.",
+    "reform": "A former leader or two former members may restore the identity; prior mastery returns partially according to preserved veterans.",
+    "successorUnion": "May inherit one tradition and one Chronicle reference, never the entire bonus package."
+  }
+}

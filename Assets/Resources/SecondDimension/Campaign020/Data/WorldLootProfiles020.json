@@ -1,0 +1,2372 @@
+{
+  "profiles": [
+    {
+      "profileId": "LOOTPROFILE020_SKYHOME",
+      "worldId": "SKYHOME",
+      "entries": [
+        {
+          "entryId": "LOOT020_SKYHOME_01",
+          "worldId": "SKYHOME",
+          "displayName": "First-Gate Sword",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Sword",
+          "minimumTier": 1,
+          "maximumTier": 3,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_SKYHOME_01",
+            "MAT020_SKYHOME_02"
+          ],
+          "combatIdentity": "Sword progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_SKYHOME_02",
+          "worldId": "SKYHOME",
+          "displayName": "Skyhome Axe",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Axe",
+          "minimumTier": 1,
+          "maximumTier": 3,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_SKYHOME_02",
+            "MAT020_SKYHOME_03"
+          ],
+          "combatIdentity": "Axe progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_SKYHOME_03",
+          "worldId": "SKYHOME",
+          "displayName": "Alliance Spear",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Spear",
+          "minimumTier": 1,
+          "maximumTier": 4,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_SKYHOME_03",
+            "MAT020_SKYHOME_04"
+          ],
+          "combatIdentity": "Spear progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_SKYHOME_04",
+          "worldId": "SKYHOME",
+          "displayName": "Civic Bow",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Bow",
+          "minimumTier": 2,
+          "maximumTier": 4,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_SKYHOME_04",
+            "MAT020_SKYHOME_05"
+          ],
+          "combatIdentity": "Bow progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_SKYHOME_05",
+          "worldId": "SKYHOME",
+          "displayName": "Gateworks Dagger",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Dagger",
+          "minimumTier": 2,
+          "maximumTier": 5,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_SKYHOME_05",
+            "MAT020_SKYHOME_06"
+          ],
+          "combatIdentity": "Dagger progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_SKYHOME_06",
+          "worldId": "SKYHOME",
+          "displayName": "First-City Staff",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Staff",
+          "minimumTier": 2,
+          "maximumTier": 5,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_SKYHOME_06",
+            "MAT020_SKYHOME_01"
+          ],
+          "combatIdentity": "Staff progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_SKYHOME_07",
+          "worldId": "SKYHOME",
+          "displayName": "First-Gate Engineering",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Engineering",
+          "minimumTier": 3,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_SKYHOME_01",
+            "MAT020_SKYHOME_02"
+          ],
+          "combatIdentity": "Engineering progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_SKYHOME_08",
+          "worldId": "SKYHOME",
+          "displayName": "Skyhome Shield",
+          "slot": "OFFHAND",
+          "weaponFamilyOrArmorLine": "Shield",
+          "minimumTier": 3,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_SKYHOME_02",
+            "MAT020_SKYHOME_03"
+          ],
+          "combatIdentity": "Shield progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_SKYHOME_09",
+          "worldId": "SKYHOME",
+          "displayName": "Alliance Light",
+          "slot": "ARMOR",
+          "weaponFamilyOrArmorLine": "Light",
+          "minimumTier": 3,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_SKYHOME_03",
+            "MAT020_SKYHOME_04"
+          ],
+          "combatIdentity": "Light progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_SKYHOME_10",
+          "worldId": "SKYHOME",
+          "displayName": "Civic Medium",
+          "slot": "ARMOR",
+          "weaponFamilyOrArmorLine": "Medium",
+          "minimumTier": 4,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_SKYHOME_04",
+            "MAT020_SKYHOME_05"
+          ],
+          "combatIdentity": "Medium progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_SKYHOME_11",
+          "worldId": "SKYHOME",
+          "displayName": "Gateworks Heavy",
+          "slot": "ARMOR",
+          "weaponFamilyOrArmorLine": "Heavy",
+          "minimumTier": 4,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 4
+          },
+          "materialIds": [
+            "MAT020_SKYHOME_05",
+            "MAT020_SKYHOME_06"
+          ],
+          "combatIdentity": "Heavy progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_SKYHOME_12",
+          "worldId": "SKYHOME",
+          "displayName": "First-City Covenant Relic",
+          "slot": "RELIC",
+          "weaponFamilyOrArmorLine": "WorldRelic",
+          "minimumTier": 4,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 4
+          },
+          "materialIds": [
+            "MAT020_SKYHOME_06",
+            "MAT020_SKYHOME_01"
+          ],
+          "combatIdentity": "WorldRelic progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        }
+      ],
+      "exactItemCommittedBeforeResults": true,
+      "noAutoEquip": true
+    },
+    {
+      "profileId": "LOOTPROFILE020_BEAST",
+      "worldId": "WORLD_BEASTKIN_003",
+      "entries": [
+        {
+          "entryId": "LOOT020_BEAST_01",
+          "worldId": "WORLD_BEASTKIN_003",
+          "displayName": "Moonrun Sword",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Sword",
+          "minimumTier": 1,
+          "maximumTier": 3,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_BEAST_01",
+            "MAT020_BEAST_02"
+          ],
+          "combatIdentity": "Sword progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_BEAST_02",
+          "worldId": "WORLD_BEASTKIN_003",
+          "displayName": "Cat-Sun Axe",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Axe",
+          "minimumTier": 1,
+          "maximumTier": 3,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_BEAST_02",
+            "MAT020_BEAST_03"
+          ],
+          "combatIdentity": "Axe progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_BEAST_03",
+          "worldId": "WORLD_BEASTKIN_003",
+          "displayName": "Bearroot Spear",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Spear",
+          "minimumTier": 1,
+          "maximumTier": 4,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_BEAST_03",
+            "MAT020_BEAST_04"
+          ],
+          "combatIdentity": "Spear progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_BEAST_04",
+          "worldId": "WORLD_BEASTKIN_003",
+          "displayName": "Skyfeather Bow",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Bow",
+          "minimumTier": 2,
+          "maximumTier": 4,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_BEAST_04",
+            "MAT020_BEAST_05"
+          ],
+          "combatIdentity": "Bow progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_BEAST_05",
+          "worldId": "WORLD_BEASTKIN_003",
+          "displayName": "Foxfire Dagger",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Dagger",
+          "minimumTier": 2,
+          "maximumTier": 5,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_BEAST_05",
+            "MAT020_BEAST_06"
+          ],
+          "combatIdentity": "Dagger progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_BEAST_06",
+          "worldId": "WORLD_BEASTKIN_003",
+          "displayName": "Open-Court Staff",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Staff",
+          "minimumTier": 2,
+          "maximumTier": 5,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_BEAST_06",
+            "MAT020_BEAST_01"
+          ],
+          "combatIdentity": "Staff progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_BEAST_07",
+          "worldId": "WORLD_BEASTKIN_003",
+          "displayName": "Moonrun Engineering",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Engineering",
+          "minimumTier": 3,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_BEAST_01",
+            "MAT020_BEAST_02"
+          ],
+          "combatIdentity": "Engineering progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_BEAST_08",
+          "worldId": "WORLD_BEASTKIN_003",
+          "displayName": "Cat-Sun Shield",
+          "slot": "OFFHAND",
+          "weaponFamilyOrArmorLine": "Shield",
+          "minimumTier": 3,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_BEAST_02",
+            "MAT020_BEAST_03"
+          ],
+          "combatIdentity": "Shield progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_BEAST_09",
+          "worldId": "WORLD_BEASTKIN_003",
+          "displayName": "Bearroot Light",
+          "slot": "ARMOR",
+          "weaponFamilyOrArmorLine": "Light",
+          "minimumTier": 3,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_BEAST_03",
+            "MAT020_BEAST_04"
+          ],
+          "combatIdentity": "Light progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_BEAST_10",
+          "worldId": "WORLD_BEASTKIN_003",
+          "displayName": "Skyfeather Medium",
+          "slot": "ARMOR",
+          "weaponFamilyOrArmorLine": "Medium",
+          "minimumTier": 4,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_BEAST_04",
+            "MAT020_BEAST_05"
+          ],
+          "combatIdentity": "Medium progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_BEAST_11",
+          "worldId": "WORLD_BEASTKIN_003",
+          "displayName": "Foxfire Heavy",
+          "slot": "ARMOR",
+          "weaponFamilyOrArmorLine": "Heavy",
+          "minimumTier": 4,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 4
+          },
+          "materialIds": [
+            "MAT020_BEAST_05",
+            "MAT020_BEAST_06"
+          ],
+          "combatIdentity": "Heavy progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_BEAST_12",
+          "worldId": "WORLD_BEASTKIN_003",
+          "displayName": "Open-Court Covenant Relic",
+          "slot": "RELIC",
+          "weaponFamilyOrArmorLine": "WorldRelic",
+          "minimumTier": 4,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 4
+          },
+          "materialIds": [
+            "MAT020_BEAST_06",
+            "MAT020_BEAST_01"
+          ],
+          "combatIdentity": "WorldRelic progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        }
+      ],
+      "exactItemCommittedBeforeResults": true,
+      "noAutoEquip": true
+    },
+    {
+      "profileId": "LOOTPROFILE020_BUNNY",
+      "worldId": "WORLD_BUNNY_006",
+      "entries": [
+        {
+          "entryId": "LOOT020_BUNNY_01",
+          "worldId": "WORLD_BUNNY_006",
+          "displayName": "Silverstep Sword",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Sword",
+          "minimumTier": 1,
+          "maximumTier": 3,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_BUNNY_01",
+            "MAT020_BUNNY_02"
+          ],
+          "combatIdentity": "Sword progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_BUNNY_02",
+          "worldId": "WORLD_BUNNY_006",
+          "displayName": "Golden-Warren Axe",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Axe",
+          "minimumTier": 1,
+          "maximumTier": 3,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_BUNNY_02",
+            "MAT020_BUNNY_03"
+          ],
+          "combatIdentity": "Axe progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_BUNNY_03",
+          "worldId": "WORLD_BUNNY_006",
+          "displayName": "Roadbell Spear",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Spear",
+          "minimumTier": 1,
+          "maximumTier": 4,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_BUNNY_03",
+            "MAT020_BUNNY_04"
+          ],
+          "combatIdentity": "Spear progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_BUNNY_04",
+          "worldId": "WORLD_BUNNY_006",
+          "displayName": "Orchard-Port Bow",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Bow",
+          "minimumTier": 2,
+          "maximumTier": 4,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_BUNNY_04",
+            "MAT020_BUNNY_05"
+          ],
+          "combatIdentity": "Bow progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_BUNNY_05",
+          "worldId": "WORLD_BUNNY_006",
+          "displayName": "Free-Basket Dagger",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Dagger",
+          "minimumTier": 2,
+          "maximumTier": 5,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_BUNNY_05",
+            "MAT020_BUNNY_06"
+          ],
+          "combatIdentity": "Dagger progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_BUNNY_06",
+          "worldId": "WORLD_BUNNY_006",
+          "displayName": "Open-Market Staff",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Staff",
+          "minimumTier": 2,
+          "maximumTier": 5,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_BUNNY_06",
+            "MAT020_BUNNY_01"
+          ],
+          "combatIdentity": "Staff progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_BUNNY_07",
+          "worldId": "WORLD_BUNNY_006",
+          "displayName": "Silverstep Engineering",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Engineering",
+          "minimumTier": 3,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_BUNNY_01",
+            "MAT020_BUNNY_02"
+          ],
+          "combatIdentity": "Engineering progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_BUNNY_08",
+          "worldId": "WORLD_BUNNY_006",
+          "displayName": "Golden-Warren Shield",
+          "slot": "OFFHAND",
+          "weaponFamilyOrArmorLine": "Shield",
+          "minimumTier": 3,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_BUNNY_02",
+            "MAT020_BUNNY_03"
+          ],
+          "combatIdentity": "Shield progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_BUNNY_09",
+          "worldId": "WORLD_BUNNY_006",
+          "displayName": "Roadbell Light",
+          "slot": "ARMOR",
+          "weaponFamilyOrArmorLine": "Light",
+          "minimumTier": 3,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_BUNNY_03",
+            "MAT020_BUNNY_04"
+          ],
+          "combatIdentity": "Light progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_BUNNY_10",
+          "worldId": "WORLD_BUNNY_006",
+          "displayName": "Orchard-Port Medium",
+          "slot": "ARMOR",
+          "weaponFamilyOrArmorLine": "Medium",
+          "minimumTier": 4,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_BUNNY_04",
+            "MAT020_BUNNY_05"
+          ],
+          "combatIdentity": "Medium progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_BUNNY_11",
+          "worldId": "WORLD_BUNNY_006",
+          "displayName": "Free-Basket Heavy",
+          "slot": "ARMOR",
+          "weaponFamilyOrArmorLine": "Heavy",
+          "minimumTier": 4,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 4
+          },
+          "materialIds": [
+            "MAT020_BUNNY_05",
+            "MAT020_BUNNY_06"
+          ],
+          "combatIdentity": "Heavy progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_BUNNY_12",
+          "worldId": "WORLD_BUNNY_006",
+          "displayName": "Open-Market Covenant Relic",
+          "slot": "RELIC",
+          "weaponFamilyOrArmorLine": "WorldRelic",
+          "minimumTier": 4,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 4
+          },
+          "materialIds": [
+            "MAT020_BUNNY_06",
+            "MAT020_BUNNY_01"
+          ],
+          "combatIdentity": "WorldRelic progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        }
+      ],
+      "exactItemCommittedBeforeResults": true,
+      "noAutoEquip": true
+    },
+    {
+      "profileId": "LOOTPROFILE020_DARKELF",
+      "worldId": "WORLD_DARK_ELF_005",
+      "entries": [
+        {
+          "entryId": "LOOT020_DARKELF_01",
+          "worldId": "WORLD_DARK_ELF_005",
+          "displayName": "Duskwood Sword",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Sword",
+          "minimumTier": 1,
+          "maximumTier": 3,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DARKELF_01",
+            "MAT020_DARKELF_02"
+          ],
+          "combatIdentity": "Sword progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DARKELF_02",
+          "worldId": "WORLD_DARK_ELF_005",
+          "displayName": "Veilmere Axe",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Axe",
+          "minimumTier": 1,
+          "maximumTier": 3,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DARKELF_02",
+            "MAT020_DARKELF_03"
+          ],
+          "combatIdentity": "Axe progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DARKELF_03",
+          "worldId": "WORLD_DARK_ELF_005",
+          "displayName": "Silverquiet Spear",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Spear",
+          "minimumTier": 1,
+          "maximumTier": 4,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DARKELF_03",
+            "MAT020_DARKELF_04"
+          ],
+          "combatIdentity": "Spear progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DARKELF_04",
+          "worldId": "WORLD_DARK_ELF_005",
+          "displayName": "Blackroot Bow",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Bow",
+          "minimumTier": 2,
+          "maximumTier": 4,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DARKELF_04",
+            "MAT020_DARKELF_05"
+          ],
+          "combatIdentity": "Bow progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DARKELF_05",
+          "worldId": "WORLD_DARK_ELF_005",
+          "displayName": "Lanternless Dagger",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Dagger",
+          "minimumTier": 2,
+          "maximumTier": 5,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DARKELF_05",
+            "MAT020_DARKELF_06"
+          ],
+          "combatIdentity": "Dagger progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DARKELF_06",
+          "worldId": "WORLD_DARK_ELF_005",
+          "displayName": "Open-Archive Staff",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Staff",
+          "minimumTier": 2,
+          "maximumTier": 5,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DARKELF_06",
+            "MAT020_DARKELF_01"
+          ],
+          "combatIdentity": "Staff progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DARKELF_07",
+          "worldId": "WORLD_DARK_ELF_005",
+          "displayName": "Duskwood Engineering",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Engineering",
+          "minimumTier": 3,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DARKELF_01",
+            "MAT020_DARKELF_02"
+          ],
+          "combatIdentity": "Engineering progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DARKELF_08",
+          "worldId": "WORLD_DARK_ELF_005",
+          "displayName": "Veilmere Shield",
+          "slot": "OFFHAND",
+          "weaponFamilyOrArmorLine": "Shield",
+          "minimumTier": 3,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DARKELF_02",
+            "MAT020_DARKELF_03"
+          ],
+          "combatIdentity": "Shield progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DARKELF_09",
+          "worldId": "WORLD_DARK_ELF_005",
+          "displayName": "Silverquiet Light",
+          "slot": "ARMOR",
+          "weaponFamilyOrArmorLine": "Light",
+          "minimumTier": 3,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DARKELF_03",
+            "MAT020_DARKELF_04"
+          ],
+          "combatIdentity": "Light progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DARKELF_10",
+          "worldId": "WORLD_DARK_ELF_005",
+          "displayName": "Blackroot Medium",
+          "slot": "ARMOR",
+          "weaponFamilyOrArmorLine": "Medium",
+          "minimumTier": 4,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DARKELF_04",
+            "MAT020_DARKELF_05"
+          ],
+          "combatIdentity": "Medium progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DARKELF_11",
+          "worldId": "WORLD_DARK_ELF_005",
+          "displayName": "Lanternless Heavy",
+          "slot": "ARMOR",
+          "weaponFamilyOrArmorLine": "Heavy",
+          "minimumTier": 4,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 4
+          },
+          "materialIds": [
+            "MAT020_DARKELF_05",
+            "MAT020_DARKELF_06"
+          ],
+          "combatIdentity": "Heavy progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DARKELF_12",
+          "worldId": "WORLD_DARK_ELF_005",
+          "displayName": "Open-Archive Covenant Relic",
+          "slot": "RELIC",
+          "weaponFamilyOrArmorLine": "WorldRelic",
+          "minimumTier": 4,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 4
+          },
+          "materialIds": [
+            "MAT020_DARKELF_06",
+            "MAT020_DARKELF_01"
+          ],
+          "combatIdentity": "WorldRelic progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        }
+      ],
+      "exactItemCommittedBeforeResults": true,
+      "noAutoEquip": true
+    },
+    {
+      "profileId": "LOOTPROFILE020_DEMON",
+      "worldId": "WORLD_DEMON_004",
+      "entries": [
+        {
+          "entryId": "LOOT020_DEMON_01",
+          "worldId": "WORLD_DEMON_004",
+          "displayName": "Nightveil Sword",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Sword",
+          "minimumTier": 1,
+          "maximumTier": 3,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DEMON_01",
+            "MAT020_DEMON_02"
+          ],
+          "combatIdentity": "Sword progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DEMON_02",
+          "worldId": "WORLD_DEMON_004",
+          "displayName": "Contractum Axe",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Axe",
+          "minimumTier": 1,
+          "maximumTier": 3,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DEMON_02",
+            "MAT020_DEMON_03"
+          ],
+          "combatIdentity": "Axe progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DEMON_03",
+          "worldId": "WORLD_DEMON_004",
+          "displayName": "Dreamglass Spear",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Spear",
+          "minimumTier": 1,
+          "maximumTier": 4,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DEMON_03",
+            "MAT020_DEMON_04"
+          ],
+          "combatIdentity": "Spear progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DEMON_04",
+          "worldId": "WORLD_DEMON_004",
+          "displayName": "Crimson-Library Bow",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Bow",
+          "minimumTier": 2,
+          "maximumTier": 4,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DEMON_04",
+            "MAT020_DEMON_05"
+          ],
+          "combatIdentity": "Bow progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DEMON_05",
+          "worldId": "WORLD_DEMON_004",
+          "displayName": "Thorn-Crown Dagger",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Dagger",
+          "minimumTier": 2,
+          "maximumTier": 5,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DEMON_05",
+            "MAT020_DEMON_06"
+          ],
+          "combatIdentity": "Dagger progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DEMON_06",
+          "worldId": "WORLD_DEMON_004",
+          "displayName": "Mercy-Index Staff",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Staff",
+          "minimumTier": 2,
+          "maximumTier": 5,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DEMON_06",
+            "MAT020_DEMON_01"
+          ],
+          "combatIdentity": "Staff progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DEMON_07",
+          "worldId": "WORLD_DEMON_004",
+          "displayName": "Nightveil Engineering",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Engineering",
+          "minimumTier": 3,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DEMON_01",
+            "MAT020_DEMON_02"
+          ],
+          "combatIdentity": "Engineering progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DEMON_08",
+          "worldId": "WORLD_DEMON_004",
+          "displayName": "Contractum Shield",
+          "slot": "OFFHAND",
+          "weaponFamilyOrArmorLine": "Shield",
+          "minimumTier": 3,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DEMON_02",
+            "MAT020_DEMON_03"
+          ],
+          "combatIdentity": "Shield progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DEMON_09",
+          "worldId": "WORLD_DEMON_004",
+          "displayName": "Dreamglass Light",
+          "slot": "ARMOR",
+          "weaponFamilyOrArmorLine": "Light",
+          "minimumTier": 3,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DEMON_03",
+            "MAT020_DEMON_04"
+          ],
+          "combatIdentity": "Light progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DEMON_10",
+          "worldId": "WORLD_DEMON_004",
+          "displayName": "Crimson-Library Medium",
+          "slot": "ARMOR",
+          "weaponFamilyOrArmorLine": "Medium",
+          "minimumTier": 4,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DEMON_04",
+            "MAT020_DEMON_05"
+          ],
+          "combatIdentity": "Medium progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DEMON_11",
+          "worldId": "WORLD_DEMON_004",
+          "displayName": "Thorn-Crown Heavy",
+          "slot": "ARMOR",
+          "weaponFamilyOrArmorLine": "Heavy",
+          "minimumTier": 4,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 4
+          },
+          "materialIds": [
+            "MAT020_DEMON_05",
+            "MAT020_DEMON_06"
+          ],
+          "combatIdentity": "Heavy progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DEMON_12",
+          "worldId": "WORLD_DEMON_004",
+          "displayName": "Mercy-Index Covenant Relic",
+          "slot": "RELIC",
+          "weaponFamilyOrArmorLine": "WorldRelic",
+          "minimumTier": 4,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 4
+          },
+          "materialIds": [
+            "MAT020_DEMON_06",
+            "MAT020_DEMON_01"
+          ],
+          "combatIdentity": "WorldRelic progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        }
+      ],
+      "exactItemCommittedBeforeResults": true,
+      "noAutoEquip": true
+    },
+    {
+      "profileId": "LOOTPROFILE020_DOG",
+      "worldId": "WORLD_DOG_007",
+      "entries": [
+        {
+          "entryId": "LOOT020_DOG_01",
+          "worldId": "WORLD_DOG_007",
+          "displayName": "Stormpaw Sword",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Sword",
+          "minimumTier": 1,
+          "maximumTier": 3,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DOG_01",
+            "MAT020_DOG_02"
+          ],
+          "combatIdentity": "Sword progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DOG_02",
+          "worldId": "WORLD_DOG_007",
+          "displayName": "Oathpost Axe",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Axe",
+          "minimumTier": 1,
+          "maximumTier": 3,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DOG_02",
+            "MAT020_DOG_03"
+          ],
+          "combatIdentity": "Axe progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DOG_03",
+          "worldId": "WORLD_DOG_007",
+          "displayName": "Rivernose Spear",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Spear",
+          "minimumTier": 1,
+          "maximumTier": 4,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DOG_03",
+            "MAT020_DOG_04"
+          ],
+          "combatIdentity": "Spear progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DOG_04",
+          "worldId": "WORLD_DOG_007",
+          "displayName": "Hearthhound Bow",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Bow",
+          "minimumTier": 2,
+          "maximumTier": 4,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DOG_04",
+            "MAT020_DOG_05"
+          ],
+          "combatIdentity": "Bow progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DOG_05",
+          "worldId": "WORLD_DOG_007",
+          "displayName": "Graytrail Dagger",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Dagger",
+          "minimumTier": 2,
+          "maximumTier": 5,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DOG_05",
+            "MAT020_DOG_06"
+          ],
+          "combatIdentity": "Dagger progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DOG_06",
+          "worldId": "WORLD_DOG_007",
+          "displayName": "Moral-Patrol Staff",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Staff",
+          "minimumTier": 2,
+          "maximumTier": 5,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DOG_06",
+            "MAT020_DOG_01"
+          ],
+          "combatIdentity": "Staff progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DOG_07",
+          "worldId": "WORLD_DOG_007",
+          "displayName": "Stormpaw Engineering",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Engineering",
+          "minimumTier": 3,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DOG_01",
+            "MAT020_DOG_02"
+          ],
+          "combatIdentity": "Engineering progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DOG_08",
+          "worldId": "WORLD_DOG_007",
+          "displayName": "Oathpost Shield",
+          "slot": "OFFHAND",
+          "weaponFamilyOrArmorLine": "Shield",
+          "minimumTier": 3,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DOG_02",
+            "MAT020_DOG_03"
+          ],
+          "combatIdentity": "Shield progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DOG_09",
+          "worldId": "WORLD_DOG_007",
+          "displayName": "Rivernose Light",
+          "slot": "ARMOR",
+          "weaponFamilyOrArmorLine": "Light",
+          "minimumTier": 3,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DOG_03",
+            "MAT020_DOG_04"
+          ],
+          "combatIdentity": "Light progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DOG_10",
+          "worldId": "WORLD_DOG_007",
+          "displayName": "Hearthhound Medium",
+          "slot": "ARMOR",
+          "weaponFamilyOrArmorLine": "Medium",
+          "minimumTier": 4,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_DOG_04",
+            "MAT020_DOG_05"
+          ],
+          "combatIdentity": "Medium progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DOG_11",
+          "worldId": "WORLD_DOG_007",
+          "displayName": "Graytrail Heavy",
+          "slot": "ARMOR",
+          "weaponFamilyOrArmorLine": "Heavy",
+          "minimumTier": 4,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 4
+          },
+          "materialIds": [
+            "MAT020_DOG_05",
+            "MAT020_DOG_06"
+          ],
+          "combatIdentity": "Heavy progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_DOG_12",
+          "worldId": "WORLD_DOG_007",
+          "displayName": "Moral-Patrol Covenant Relic",
+          "slot": "RELIC",
+          "weaponFamilyOrArmorLine": "WorldRelic",
+          "minimumTier": 4,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 4
+          },
+          "materialIds": [
+            "MAT020_DOG_06",
+            "MAT020_DOG_01"
+          ],
+          "combatIdentity": "WorldRelic progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        }
+      ],
+      "exactItemCommittedBeforeResults": true,
+      "noAutoEquip": true
+    },
+    {
+      "profileId": "LOOTPROFILE020_GOBLIN",
+      "worldId": "WORLD_GOBLIN_001",
+      "entries": [
+        {
+          "entryId": "LOOT020_GOBLIN_01",
+          "worldId": "WORLD_GOBLIN_001",
+          "displayName": "Cogspire Sword",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Sword",
+          "minimumTier": 1,
+          "maximumTier": 3,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_GOBLIN_01",
+            "MAT020_GOBLIN_02"
+          ],
+          "combatIdentity": "Sword progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_GOBLIN_02",
+          "worldId": "WORLD_GOBLIN_001",
+          "displayName": "Iron-Lantern Axe",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Axe",
+          "minimumTier": 1,
+          "maximumTier": 3,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_GOBLIN_02",
+            "MAT020_GOBLIN_03"
+          ],
+          "combatIdentity": "Axe progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_GOBLIN_03",
+          "worldId": "WORLD_GOBLIN_001",
+          "displayName": "Promise Spear",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Spear",
+          "minimumTier": 1,
+          "maximumTier": 4,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_GOBLIN_03",
+            "MAT020_GOBLIN_04"
+          ],
+          "combatIdentity": "Spear progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_GOBLIN_04",
+          "worldId": "WORLD_GOBLIN_001",
+          "displayName": "Month-Cathedral Bow",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Bow",
+          "minimumTier": 2,
+          "maximumTier": 4,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_GOBLIN_04",
+            "MAT020_GOBLIN_05"
+          ],
+          "combatIdentity": "Bow progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_GOBLIN_05",
+          "worldId": "WORLD_GOBLIN_001",
+          "displayName": "Gear-Crown Dagger",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Dagger",
+          "minimumTier": 2,
+          "maximumTier": 5,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_GOBLIN_05",
+            "MAT020_GOBLIN_06"
+          ],
+          "combatIdentity": "Dagger progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_GOBLIN_06",
+          "worldId": "WORLD_GOBLIN_001",
+          "displayName": "Burrow-Choir Staff",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Staff",
+          "minimumTier": 2,
+          "maximumTier": 5,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_GOBLIN_06",
+            "MAT020_GOBLIN_01"
+          ],
+          "combatIdentity": "Staff progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_GOBLIN_07",
+          "worldId": "WORLD_GOBLIN_001",
+          "displayName": "Cogspire Engineering",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Engineering",
+          "minimumTier": 3,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_GOBLIN_01",
+            "MAT020_GOBLIN_02"
+          ],
+          "combatIdentity": "Engineering progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_GOBLIN_08",
+          "worldId": "WORLD_GOBLIN_001",
+          "displayName": "Iron-Lantern Shield",
+          "slot": "OFFHAND",
+          "weaponFamilyOrArmorLine": "Shield",
+          "minimumTier": 3,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_GOBLIN_02",
+            "MAT020_GOBLIN_03"
+          ],
+          "combatIdentity": "Shield progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_GOBLIN_09",
+          "worldId": "WORLD_GOBLIN_001",
+          "displayName": "Promise Light",
+          "slot": "ARMOR",
+          "weaponFamilyOrArmorLine": "Light",
+          "minimumTier": 3,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_GOBLIN_03",
+            "MAT020_GOBLIN_04"
+          ],
+          "combatIdentity": "Light progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_GOBLIN_10",
+          "worldId": "WORLD_GOBLIN_001",
+          "displayName": "Month-Cathedral Medium",
+          "slot": "ARMOR",
+          "weaponFamilyOrArmorLine": "Medium",
+          "minimumTier": 4,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_GOBLIN_04",
+            "MAT020_GOBLIN_05"
+          ],
+          "combatIdentity": "Medium progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_GOBLIN_11",
+          "worldId": "WORLD_GOBLIN_001",
+          "displayName": "Gear-Crown Heavy",
+          "slot": "ARMOR",
+          "weaponFamilyOrArmorLine": "Heavy",
+          "minimumTier": 4,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 4
+          },
+          "materialIds": [
+            "MAT020_GOBLIN_05",
+            "MAT020_GOBLIN_06"
+          ],
+          "combatIdentity": "Heavy progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_GOBLIN_12",
+          "worldId": "WORLD_GOBLIN_001",
+          "displayName": "Burrow-Choir Covenant Relic",
+          "slot": "RELIC",
+          "weaponFamilyOrArmorLine": "WorldRelic",
+          "minimumTier": 4,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 4
+          },
+          "materialIds": [
+            "MAT020_GOBLIN_06",
+            "MAT020_GOBLIN_01"
+          ],
+          "combatIdentity": "WorldRelic progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        }
+      ],
+      "exactItemCommittedBeforeResults": true,
+      "noAutoEquip": true
+    },
+    {
+      "profileId": "LOOTPROFILE020_ORC",
+      "worldId": "WORLD_ORC_002",
+      "entries": [
+        {
+          "entryId": "LOOT020_ORC_01",
+          "worldId": "WORLD_ORC_002",
+          "displayName": "Red-Hearth Sword",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Sword",
+          "minimumTier": 1,
+          "maximumTier": 3,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_ORC_01",
+            "MAT020_ORC_02"
+          ],
+          "combatIdentity": "Sword progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_ORC_02",
+          "worldId": "WORLD_ORC_002",
+          "displayName": "Bannerhold Axe",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Axe",
+          "minimumTier": 1,
+          "maximumTier": 3,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_ORC_02",
+            "MAT020_ORC_03"
+          ],
+          "combatIdentity": "Axe progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_ORC_03",
+          "worldId": "WORLD_ORC_002",
+          "displayName": "Tuskgate Spear",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Spear",
+          "minimumTier": 1,
+          "maximumTier": 4,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_ORC_03",
+            "MAT020_ORC_04"
+          ],
+          "combatIdentity": "Spear progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_ORC_04",
+          "worldId": "WORLD_ORC_002",
+          "displayName": "Shieldhome Bow",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Bow",
+          "minimumTier": 2,
+          "maximumTier": 4,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_ORC_04",
+            "MAT020_ORC_05"
+          ],
+          "combatIdentity": "Bow progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_ORC_05",
+          "worldId": "WORLD_ORC_002",
+          "displayName": "Old-Arena Dagger",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Dagger",
+          "minimumTier": 2,
+          "maximumTier": 5,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_ORC_05",
+            "MAT020_ORC_06"
+          ],
+          "combatIdentity": "Dagger progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_ORC_06",
+          "worldId": "WORLD_ORC_002",
+          "displayName": "Unbroken Staff",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Staff",
+          "minimumTier": 2,
+          "maximumTier": 5,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_ORC_06",
+            "MAT020_ORC_01"
+          ],
+          "combatIdentity": "Staff progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_ORC_07",
+          "worldId": "WORLD_ORC_002",
+          "displayName": "Red-Hearth Engineering",
+          "slot": "WEAPON",
+          "weaponFamilyOrArmorLine": "Engineering",
+          "minimumTier": 3,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_ORC_01",
+            "MAT020_ORC_02"
+          ],
+          "combatIdentity": "Engineering progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_ORC_08",
+          "worldId": "WORLD_ORC_002",
+          "displayName": "Bannerhold Shield",
+          "slot": "OFFHAND",
+          "weaponFamilyOrArmorLine": "Shield",
+          "minimumTier": 3,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_ORC_02",
+            "MAT020_ORC_03"
+          ],
+          "combatIdentity": "Shield progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_ORC_09",
+          "worldId": "WORLD_ORC_002",
+          "displayName": "Tuskgate Light",
+          "slot": "ARMOR",
+          "weaponFamilyOrArmorLine": "Light",
+          "minimumTier": 3,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_ORC_03",
+            "MAT020_ORC_04"
+          ],
+          "combatIdentity": "Light progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_ORC_10",
+          "worldId": "WORLD_ORC_002",
+          "displayName": "Shieldhome Medium",
+          "slot": "ARMOR",
+          "weaponFamilyOrArmorLine": "Medium",
+          "minimumTier": 4,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 0
+          },
+          "materialIds": [
+            "MAT020_ORC_04",
+            "MAT020_ORC_05"
+          ],
+          "combatIdentity": "Medium progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_ORC_11",
+          "worldId": "WORLD_ORC_002",
+          "displayName": "Old-Arena Heavy",
+          "slot": "ARMOR",
+          "weaponFamilyOrArmorLine": "Heavy",
+          "minimumTier": 4,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 4
+          },
+          "materialIds": [
+            "MAT020_ORC_05",
+            "MAT020_ORC_06"
+          ],
+          "combatIdentity": "Heavy progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        },
+        {
+          "entryId": "LOOT020_ORC_12",
+          "worldId": "WORLD_ORC_002",
+          "displayName": "Unbroken Covenant Relic",
+          "slot": "RELIC",
+          "weaponFamilyOrArmorLine": "WorldRelic",
+          "minimumTier": 4,
+          "maximumTier": 6,
+          "rarityWeights": {
+            "Basic": 30,
+            "Common": 30,
+            "Rare": 22,
+            "Legendary": 14,
+            "Godly": 4
+          },
+          "materialIds": [
+            "MAT020_ORC_06",
+            "MAT020_ORC_01"
+          ],
+          "combatIdentity": "WorldRelic progression remains governed by the existing equipment and Art legality authority.",
+          "manualEquipOnly": true,
+          "createsDuplicateItemCatalog": false,
+          "runtimeAuthority": "EXISTING_EQUIPMENT_REWARD_AND_EVOLUTION_SYSTEM"
+        }
+      ],
+      "exactItemCommittedBeforeResults": true,
+      "noAutoEquip": true
+    }
+  ]
+}

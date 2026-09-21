@@ -1,0 +1,228 @@
+{
+  "themes": [
+    {
+      "themeId": "THEME021_SKYHOME",
+      "worldId": "SKYHOME",
+      "displayName": "Skyhome and the First City",
+      "backgroundResource": "SecondDimension/Campaign021/UI/Worlds/SKYHOME_Background021",
+      "frameResource": "SecondDimension/Campaign021/UI/Worlds/SKYHOME_Frame021",
+      "ambientAudioCueId": "AUDIO021_SKYHOME_AMBIENCE",
+      "travelAudioCueId": "AUDIO021_SKYHOME_TRAVEL",
+      "battleIntroAudioCueId": "AUDIO021_SKYHOME_BATTLE_INTRO",
+      "victoryAudioCueId": "AUDIO021_SKYHOME_VICTORY",
+      "paletteTags": [
+        "#152737",
+        "#CFB778",
+        "#E7E2CF",
+        "#5FA9C9"
+      ],
+      "uiMotifs": [
+        "gate",
+        "city",
+        "alliance"
+      ],
+      "materialLanguage": "pale stone, dark iron, brushed brass, gate crystal",
+      "weatherMotion": "high cloud drift and restrained gate light",
+      "cameraEstablishing": "Establish Skyhome and the First City as a living civilization before danger; show roads, workers, families, defenses, and political space.",
+      "supportsPc": true,
+      "supportsIphoneLandscape": true,
+      "noBakedDynamicText": true
+    },
+    {
+      "themeId": "THEME021_WORLD_BEASTKIN_003",
+      "worldId": "WORLD_BEASTKIN_003",
+      "displayName": "Beastkin Territories",
+      "backgroundResource": "SecondDimension/Campaign021/UI/Worlds/WORLD_BEASTKIN_003_Background021",
+      "frameResource": "SecondDimension/Campaign021/UI/Worlds/WORLD_BEASTKIN_003_Frame021",
+      "ambientAudioCueId": "AUDIO021_WORLD_BEASTKIN_003_AMBIENCE",
+      "travelAudioCueId": "AUDIO021_WORLD_BEASTKIN_003_TRAVEL",
+      "battleIntroAudioCueId": "AUDIO021_WORLD_BEASTKIN_003_BATTLE_INTRO",
+      "victoryAudioCueId": "AUDIO021_WORLD_BEASTKIN_003_VICTORY",
+      "paletteTags": [
+        "#243A2A",
+        "#B78C45",
+        "#6F8E57",
+        "#D5D0AC"
+      ],
+      "uiMotifs": [
+        "claw",
+        "leaf",
+        "moon"
+      ],
+      "materialLanguage": "living wood, woven hide, moonstone, open-road cloth",
+      "weatherMotion": "leaf movement, moon shafts, seasonal pollen",
+      "cameraEstablishing": "Establish Beastkin Territories as a living civilization before danger; show roads, workers, families, defenses, and political space.",
+      "supportsPc": true,
+      "supportsIphoneLandscape": true,
+      "noBakedDynamicText": true
+    },
+    {
+      "themeId": "THEME021_WORLD_BUNNY_006",
+      "worldId": "WORLD_BUNNY_006",
+      "displayName": "Bunny Trade Nations",
+      "backgroundResource": "SecondDimension/Campaign021/UI/Worlds/WORLD_BUNNY_006_Background021",
+      "frameResource": "SecondDimension/Campaign021/UI/Worlds/WORLD_BUNNY_006_Frame021",
+      "ambientAudioCueId": "AUDIO021_WORLD_BUNNY_006_AMBIENCE",
+      "travelAudioCueId": "AUDIO021_WORLD_BUNNY_006_TRAVEL",
+      "battleIntroAudioCueId": "AUDIO021_WORLD_BUNNY_006_BATTLE_INTRO",
+      "victoryAudioCueId": "AUDIO021_WORLD_BUNNY_006_VICTORY",
+      "paletteTags": [
+        "#3F5034",
+        "#D3A84C",
+        "#F0E1B5",
+        "#8E5D3E"
+      ],
+      "uiMotifs": [
+        "road",
+        "coin",
+        "basket"
+      ],
+      "materialLanguage": "golden wood, ledger brass, orchard cloth, roadbell ceramic",
+      "weatherMotion": "market ribbons, orchard pollen, road dust",
+      "cameraEstablishing": "Establish Bunny Trade Nations as a living civilization before danger; show roads, workers, families, defenses, and political space.",
+      "supportsPc": true,
+      "supportsIphoneLandscape": true,
+      "noBakedDynamicText": true
+    },
+    {
+      "themeId": "THEME021_WORLD_DARK_ELF_005",
+      "worldId": "WORLD_DARK_ELF_005",
+      "displayName": "Dark Elf Territories",
+      "backgroundResource": "SecondDimension/Campaign021/UI/Worlds/WORLD_DARK_ELF_005_Background021",
+      "frameResource": "SecondDimension/Campaign021/UI/Worlds/WORLD_DARK_ELF_005_Frame021",
+      "ambientAudioCueId": "AUDIO021_WORLD_DARK_ELF_005_AMBIENCE",
+      "travelAudioCueId": "AUDIO021_WORLD_DARK_ELF_005_TRAVEL",
+      "battleIntroAudioCueId": "AUDIO021_WORLD_DARK_ELF_005_BATTLE_INTRO",
+      "victoryAudioCueId": "AUDIO021_WORLD_DARK_ELF_005_VICTORY",
+      "paletteTags": [
+        "#15192A",
+        "#565A87",
+        "#BFC2D0",
+        "#3A284A"
+      ],
+      "uiMotifs": [
+        "archive",
+        "veil",
+        "eye"
+      ],
+      "materialLanguage": "silverquiet stone, blackroot wood, indigo archive glass",
+      "weatherMotion": "soft shadow drift, silver dust, lanternless mist",
+      "cameraEstablishing": "Establish Dark Elf Territories as a living civilization before danger; show roads, workers, families, defenses, and political space.",
+      "supportsPc": true,
+      "supportsIphoneLandscape": true,
+      "noBakedDynamicText": true
+    },
+    {
+      "themeId": "THEME021_WORLD_DEMON_004",
+      "worldId": "WORLD_DEMON_004",
+      "displayName": "Demon Realms",
+      "backgroundResource": "SecondDimension/Campaign021/UI/Worlds/WORLD_DEMON_004_Background021",
+      "frameResource": "SecondDimension/Campaign021/UI/Worlds/WORLD_DEMON_004_Frame021",
+      "ambientAudioCueId": "AUDIO021_WORLD_DEMON_004_AMBIENCE",
+      "travelAudioCueId": "AUDIO021_WORLD_DEMON_004_TRAVEL",
+      "battleIntroAudioCueId": "AUDIO021_WORLD_DEMON_004_BATTLE_INTRO",
+      "victoryAudioCueId": "AUDIO021_WORLD_DEMON_004_VICTORY",
+      "paletteTags": [
+        "#2B1731",
+        "#8B2E44",
+        "#D19A62",
+        "#62528F"
+      ],
+      "uiMotifs": [
+        "contract",
+        "flame",
+        "archive"
+      ],
+      "materialLanguage": "crimson glass, black vellum, thorned metal, contract seals",
+      "weatherMotion": "red-library motes, theatrical smoke, candle flame",
+      "cameraEstablishing": "Establish Demon Realms as a living civilization before danger; show roads, workers, families, defenses, and political space.",
+      "supportsPc": true,
+      "supportsIphoneLandscape": true,
+      "noBakedDynamicText": true
+    },
+    {
+      "themeId": "THEME021_WORLD_DOG_007",
+      "worldId": "WORLD_DOG_007",
+      "displayName": "Dog Tribe Frontiers",
+      "backgroundResource": "SecondDimension/Campaign021/UI/Worlds/WORLD_DOG_007_Background021",
+      "frameResource": "SecondDimension/Campaign021/UI/Worlds/WORLD_DOG_007_Frame021",
+      "ambientAudioCueId": "AUDIO021_WORLD_DOG_007_AMBIENCE",
+      "travelAudioCueId": "AUDIO021_WORLD_DOG_007_TRAVEL",
+      "battleIntroAudioCueId": "AUDIO021_WORLD_DOG_007_BATTLE_INTRO",
+      "victoryAudioCueId": "AUDIO021_WORLD_DOG_007_VICTORY",
+      "paletteTags": [
+        "#24384A",
+        "#6A4A32",
+        "#A7B2B7",
+        "#A27545"
+      ],
+      "uiMotifs": [
+        "paw",
+        "oath",
+        "trail"
+      ],
+      "materialLanguage": "frontier timber, oath iron, storm-blue cloth, trailstone",
+      "weatherMotion": "ridge wind, rain lines, patrol-fire smoke",
+      "cameraEstablishing": "Establish Dog Tribe Frontiers as a living civilization before danger; show roads, workers, families, defenses, and political space.",
+      "supportsPc": true,
+      "supportsIphoneLandscape": true,
+      "noBakedDynamicText": true
+    },
+    {
+      "themeId": "THEME021_WORLD_GOBLIN_001",
+      "worldId": "WORLD_GOBLIN_001",
+      "displayName": "Goblin World",
+      "backgroundResource": "SecondDimension/Campaign021/UI/Worlds/WORLD_GOBLIN_001_Background021",
+      "frameResource": "SecondDimension/Campaign021/UI/Worlds/WORLD_GOBLIN_001_Frame021",
+      "ambientAudioCueId": "AUDIO021_WORLD_GOBLIN_001_AMBIENCE",
+      "travelAudioCueId": "AUDIO021_WORLD_GOBLIN_001_TRAVEL",
+      "battleIntroAudioCueId": "AUDIO021_WORLD_GOBLIN_001_BATTLE_INTRO",
+      "victoryAudioCueId": "AUDIO021_WORLD_GOBLIN_001_VICTORY",
+      "paletteTags": [
+        "#262C2D",
+        "#B66933",
+        "#57A6A5",
+        "#D7C58A"
+      ],
+      "uiMotifs": [
+        "gear",
+        "lantern",
+        "bridge"
+      ],
+      "materialLanguage": "scrap brass, iron lantern glass, modular bridgework",
+      "weatherMotion": "furnace smoke, quick calendar lights, industrial sparks",
+      "cameraEstablishing": "Establish Goblin World as a living civilization before danger; show roads, workers, families, defenses, and political space.",
+      "supportsPc": true,
+      "supportsIphoneLandscape": true,
+      "noBakedDynamicText": true
+    },
+    {
+      "themeId": "THEME021_WORLD_ORC_002",
+      "worldId": "WORLD_ORC_002",
+      "displayName": "Orc World",
+      "backgroundResource": "SecondDimension/Campaign021/UI/Worlds/WORLD_ORC_002_Background021",
+      "frameResource": "SecondDimension/Campaign021/UI/Worlds/WORLD_ORC_002_Frame021",
+      "ambientAudioCueId": "AUDIO021_WORLD_ORC_002_AMBIENCE",
+      "travelAudioCueId": "AUDIO021_WORLD_ORC_002_TRAVEL",
+      "battleIntroAudioCueId": "AUDIO021_WORLD_ORC_002_BATTLE_INTRO",
+      "victoryAudioCueId": "AUDIO021_WORLD_ORC_002_VICTORY",
+      "paletteTags": [
+        "#342F2A",
+        "#8A4037",
+        "#9A8A6A",
+        "#D8C59A"
+      ],
+      "uiMotifs": [
+        "shield",
+        "hearth",
+        "banner"
+      ],
+      "materialLanguage": "black iron, bone-white stone, hearth leather",
+      "weatherMotion": "mountain wind, hearth embers, red dust",
+      "cameraEstablishing": "Establish Orc World as a living civilization before danger; show roads, workers, families, defenses, and political space.",
+      "supportsPc": true,
+      "supportsIphoneLandscape": true,
+      "noBakedDynamicText": true
+    }
+  ]
+}

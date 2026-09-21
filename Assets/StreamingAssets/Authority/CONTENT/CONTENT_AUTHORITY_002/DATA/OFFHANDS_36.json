@@ -1,0 +1,1373 @@
+{
+  "contentVersion": "GOW_CONTENT_AUTHORITY_002",
+  "offHands": [
+    {
+      "id": "EQUIP_OFFHAND_GATEWATCH_BUCKLER",
+      "displayName": "Gatewatch Buckler",
+      "category": "SHIELD",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 9,
+      "weight": 7,
+      "equipmentTags": [
+        "SHIELD",
+        "WARD_BUCKLER"
+      ],
+      "tacticalIdentity": "Light defensive reaction.",
+      "forecastWeightModifiers": {
+        "GUARD": 90
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_SWORD",
+          "WEAPON_FAMILY_AXE",
+          "WEAPON_FAMILY_SPEAR_POLEARM",
+          "WEAPON_FAMILY_DAGGER",
+          "WEAPON_FAMILY_SHIELD",
+          "WEAPON_FAMILY_GAUNTLET",
+          "WEAPON_FAMILY_FOCUS",
+          "WEAPON_FAMILY_ENGINEERING_TOOL",
+          "WEAPON_FAMILY_HYBRID_RELIC_WEAPON"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_OFFHAND_ROADWARDEN_HEATER_SHIELD",
+      "displayName": "Roadwarden Heater Shield",
+      "category": "SHIELD",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 14,
+      "weight": 14,
+      "equipmentTags": [
+        "SHIELD"
+      ],
+      "tacticalIdentity": "Balanced rescue protection.",
+      "forecastWeightModifiers": {
+        "GUARD": 130,
+        "RESCUE": 70
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_SWORD",
+          "WEAPON_FAMILY_AXE",
+          "WEAPON_FAMILY_SPEAR_POLEARM",
+          "WEAPON_FAMILY_DAGGER",
+          "WEAPON_FAMILY_SHIELD",
+          "WEAPON_FAMILY_GAUNTLET",
+          "WEAPON_FAMILY_FOCUS",
+          "WEAPON_FAMILY_ENGINEERING_TOOL",
+          "WEAPON_FAMILY_HYBRID_RELIC_WEAPON"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_OFFHAND_IRON_MARCH_TOWER_PLATE",
+      "displayName": "Iron March Tower Plate",
+      "category": "SHIELD",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 22,
+      "weight": 25,
+      "equipmentTags": [
+        "SHIELD",
+        "BRACE"
+      ],
+      "tacticalIdentity": "Stationary formation anchor.",
+      "forecastWeightModifiers": {
+        "GUARD": 170
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_SWORD",
+          "WEAPON_FAMILY_AXE",
+          "WEAPON_FAMILY_SPEAR_POLEARM",
+          "WEAPON_FAMILY_DAGGER",
+          "WEAPON_FAMILY_SHIELD",
+          "WEAPON_FAMILY_GAUNTLET",
+          "WEAPON_FAMILY_FOCUS",
+          "WEAPON_FAMILY_ENGINEERING_TOOL",
+          "WEAPON_FAMILY_HYBRID_RELIC_WEAPON"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_OFFHAND_PYLON_GROUNDING_SCREEN",
+      "displayName": "Pylon Grounding Screen",
+      "category": "SHIELD",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 12,
+      "weight": 12,
+      "equipmentTags": [
+        "SHIELD",
+        "ARCANE_CONDUCTOR"
+      ],
+      "tacticalIdentity": "Mystic grounding off hand.",
+      "forecastWeightModifiers": {
+        "ANTI_MYSTIC": 140
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_SWORD",
+          "WEAPON_FAMILY_AXE",
+          "WEAPON_FAMILY_SPEAR_POLEARM",
+          "WEAPON_FAMILY_DAGGER",
+          "WEAPON_FAMILY_SHIELD",
+          "WEAPON_FAMILY_GAUNTLET",
+          "WEAPON_FAMILY_FOCUS",
+          "WEAPON_FAMILY_ENGINEERING_TOOL",
+          "WEAPON_FAMILY_HYBRID_RELIC_WEAPON"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_OFFHAND_MEDIC_S_GUARD_TRAY",
+      "displayName": "Medic’s Guard Tray",
+      "category": "SHIELD",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 8,
+      "weight": 8,
+      "equipmentTags": [
+        "SHIELD",
+        "REMEDY_KIT"
+      ],
+      "tacticalIdentity": "Protects a healer while treating allies.",
+      "forecastWeightModifiers": {
+        "HEAL": 70,
+        "GUARD": 70
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_SWORD",
+          "WEAPON_FAMILY_AXE",
+          "WEAPON_FAMILY_SPEAR_POLEARM",
+          "WEAPON_FAMILY_DAGGER",
+          "WEAPON_FAMILY_SHIELD",
+          "WEAPON_FAMILY_GAUNTLET",
+          "WEAPON_FAMILY_FOCUS",
+          "WEAPON_FAMILY_ENGINEERING_TOOL",
+          "WEAPON_FAMILY_HYBRID_RELIC_WEAPON"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_OFFHAND_SIGNAL_MIRROR",
+      "displayName": "Signal Mirror",
+      "category": "FOCUS",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 3,
+      "weight": 3,
+      "equipmentTags": [
+        "FOCUS_TOOL",
+        "SIGNAL_KIT"
+      ],
+      "tacticalIdentity": "Reflects visible signals, not damage.",
+      "forecastWeightModifiers": {
+        "SUPPORT": 100
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_FOCUS",
+          "WEAPON_FAMILY_ENGINEERING_TOOL",
+          "WEAPON_FAMILY_HYBRID_RELIC_WEAPON"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_OFFHAND_RUNE_LEDGER_FOCUS",
+      "displayName": "Rune Ledger Focus",
+      "category": "FOCUS",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 2,
+      "weight": 2,
+      "equipmentTags": [
+        "FOCUS_TOOL",
+        "COMMAND"
+      ],
+      "tacticalIdentity": "Command and accounting support.",
+      "forecastWeightModifiers": {
+        "TACTICAL": 90
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_FOCUS",
+          "WEAPON_FAMILY_HYBRID_RELIC_WEAPON"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_OFFHAND_ALCHEMY_CANISTER_RACK",
+      "displayName": "Alchemy Canister Rack",
+      "category": "FOCUS",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 4,
+      "weight": 5,
+      "equipmentTags": [
+        "ALCHEMY",
+        "TOOL"
+      ],
+      "tacticalIdentity": "Prepared mixture off hand.",
+      "forecastWeightModifiers": {
+        "CLEANSE": 80
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_ENGINEERING_TOOL"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_OFFHAND_RESCUE_LINE_SPOOL",
+      "displayName": "Rescue Line Spool",
+      "category": "FOCUS",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 2,
+      "weight": 4,
+      "equipmentTags": [
+        "TOOL"
+      ],
+      "tacticalIdentity": "Extraction and board movement utility.",
+      "forecastWeightModifiers": {
+        "RESCUE": 110
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_ENGINEERING_TOOL"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_OFFHAND_DUEL_CATCHER",
+      "displayName": "Duel Catcher",
+      "category": "FOCUS",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 5,
+      "weight": 3,
+      "equipmentTags": [
+        "DAGGER",
+        "TOOL"
+      ],
+      "tacticalIdentity": "Parrying off-hand implement.",
+      "forecastWeightModifiers": {
+        "OFFENSE": 50,
+        "GUARD": 50
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_DAGGER",
+          "WEAPON_FAMILY_ENGINEERING_TOOL"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_OFFHAND_GATEGLASS_MINI_PRISM",
+      "displayName": "Gateglass Mini-Prism",
+      "category": "FOCUS",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 3,
+      "weight": 2,
+      "equipmentTags": [
+        "FOCUS_TOOL",
+        "WARD_BUCKLER"
+      ],
+      "tacticalIdentity": "Compact ward focus.",
+      "forecastWeightModifiers": {
+        "ANTI_MYSTIC": 100
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_SHIELD",
+          "WEAPON_FAMILY_FOCUS",
+          "WEAPON_FAMILY_HYBRID_RELIC_WEAPON"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_OFFHAND_WORLDROAD_FOLDING_BRACE",
+      "displayName": "Worldroad Folding Brace",
+      "category": "FOCUS",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 7,
+      "weight": 6,
+      "equipmentTags": [
+        "SHIELD_COMPATIBLE",
+        "HYBRID_RELIC"
+      ],
+      "tacticalIdentity": "Hybrid brace for relic weapons.",
+      "forecastWeightModifiers": {
+        "BALANCED": 80
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_SHIELD",
+          "WEAPON_FAMILY_HYBRID_RELIC_WEAPON"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "CA002_OFFHAND_SWORD_1",
+      "displayName": "Sword Guard Companion",
+      "category": "OFFHAND",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "UNCOMMON",
+      "basePower": 0,
+      "protection": 7,
+      "weight": 3,
+      "equipmentTags": [
+        "OFFHAND",
+        "SWORD",
+        "GUARD"
+      ],
+      "tacticalIdentity": "adds a defensive fallback without replacing the main weapon's Art tree",
+      "forecastWeightModifiers": {
+        "GUARD": 50
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_SWORD"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_SWORD"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_OFFHAND_SWORD_2",
+      "displayName": "Sword Tactical Companion",
+      "category": "OFFHAND",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "RARE",
+      "basePower": 0,
+      "protection": 10,
+      "weight": 4,
+      "equipmentTags": [
+        "OFFHAND",
+        "SWORD",
+        "SUPPORT"
+      ],
+      "tacticalIdentity": "adds a support or objective option while preserving shared AP and individual MP legality",
+      "forecastWeightModifiers": {
+        "TACTICAL": 50,
+        "MIXED": 40
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_SWORD"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_SWORD"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_OFFHAND_GREAT_1",
+      "displayName": "Great Weapon Guard Companion",
+      "category": "OFFHAND",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "UNCOMMON",
+      "basePower": 0,
+      "protection": 7,
+      "weight": 3,
+      "equipmentTags": [
+        "OFFHAND",
+        "GREAT",
+        "GUARD"
+      ],
+      "tacticalIdentity": "adds a defensive fallback without replacing the main weapon's Art tree",
+      "forecastWeightModifiers": {
+        "GUARD": 50
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_GREAT"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_GREAT_WEAPON"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_OFFHAND_GREAT_2",
+      "displayName": "Great Weapon Tactical Companion",
+      "category": "OFFHAND",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "RARE",
+      "basePower": 0,
+      "protection": 10,
+      "weight": 4,
+      "equipmentTags": [
+        "OFFHAND",
+        "GREAT",
+        "SUPPORT"
+      ],
+      "tacticalIdentity": "adds a support or objective option while preserving shared AP and individual MP legality",
+      "forecastWeightModifiers": {
+        "TACTICAL": 50,
+        "MIXED": 40
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_GREAT"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_GREAT_WEAPON"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_OFFHAND_AXE_1",
+      "displayName": "Axe Guard Companion",
+      "category": "OFFHAND",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "UNCOMMON",
+      "basePower": 0,
+      "protection": 7,
+      "weight": 3,
+      "equipmentTags": [
+        "OFFHAND",
+        "AXE",
+        "GUARD"
+      ],
+      "tacticalIdentity": "adds a defensive fallback without replacing the main weapon's Art tree",
+      "forecastWeightModifiers": {
+        "GUARD": 50
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_AXE"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_AXE"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_OFFHAND_AXE_2",
+      "displayName": "Axe Tactical Companion",
+      "category": "OFFHAND",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "RARE",
+      "basePower": 0,
+      "protection": 10,
+      "weight": 4,
+      "equipmentTags": [
+        "OFFHAND",
+        "AXE",
+        "SUPPORT"
+      ],
+      "tacticalIdentity": "adds a support or objective option while preserving shared AP and individual MP legality",
+      "forecastWeightModifiers": {
+        "TACTICAL": 50,
+        "MIXED": 40
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_AXE"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_AXE"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_OFFHAND_SPEAR_1",
+      "displayName": "Spears and Polearm Guard Companion",
+      "category": "OFFHAND",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "UNCOMMON",
+      "basePower": 0,
+      "protection": 7,
+      "weight": 3,
+      "equipmentTags": [
+        "OFFHAND",
+        "SPEAR",
+        "GUARD"
+      ],
+      "tacticalIdentity": "adds a defensive fallback without replacing the main weapon's Art tree",
+      "forecastWeightModifiers": {
+        "GUARD": 50
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_SPEAR"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_SPEAR_POLEARM"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_OFFHAND_SPEAR_2",
+      "displayName": "Spears and Polearm Tactical Companion",
+      "category": "OFFHAND",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "RARE",
+      "basePower": 0,
+      "protection": 10,
+      "weight": 4,
+      "equipmentTags": [
+        "OFFHAND",
+        "SPEAR",
+        "SUPPORT"
+      ],
+      "tacticalIdentity": "adds a support or objective option while preserving shared AP and individual MP legality",
+      "forecastWeightModifiers": {
+        "TACTICAL": 50,
+        "MIXED": 40
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_SPEAR"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_SPEAR_POLEARM"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_OFFHAND_BOW_1",
+      "displayName": "Bow Guard Companion",
+      "category": "OFFHAND",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "UNCOMMON",
+      "basePower": 0,
+      "protection": 7,
+      "weight": 3,
+      "equipmentTags": [
+        "OFFHAND",
+        "BOW",
+        "GUARD"
+      ],
+      "tacticalIdentity": "adds a defensive fallback without replacing the main weapon's Art tree",
+      "forecastWeightModifiers": {
+        "GUARD": 50
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_BOW"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_BOW"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_OFFHAND_BOW_2",
+      "displayName": "Bow Tactical Companion",
+      "category": "OFFHAND",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "RARE",
+      "basePower": 0,
+      "protection": 10,
+      "weight": 4,
+      "equipmentTags": [
+        "OFFHAND",
+        "BOW",
+        "SUPPORT"
+      ],
+      "tacticalIdentity": "adds a support or objective option while preserving shared AP and individual MP legality",
+      "forecastWeightModifiers": {
+        "TACTICAL": 50,
+        "MIXED": 40
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_BOW"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_BOW"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_OFFHAND_DAGGER_1",
+      "displayName": "Dagger Guard Companion",
+      "category": "OFFHAND",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "UNCOMMON",
+      "basePower": 0,
+      "protection": 7,
+      "weight": 3,
+      "equipmentTags": [
+        "OFFHAND",
+        "DAGGER",
+        "GUARD"
+      ],
+      "tacticalIdentity": "adds a defensive fallback without replacing the main weapon's Art tree",
+      "forecastWeightModifiers": {
+        "GUARD": 50
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_DAGGER"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_DAGGER"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_OFFHAND_DAGGER_2",
+      "displayName": "Dagger Tactical Companion",
+      "category": "OFFHAND",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "RARE",
+      "basePower": 0,
+      "protection": 10,
+      "weight": 4,
+      "equipmentTags": [
+        "OFFHAND",
+        "DAGGER",
+        "SUPPORT"
+      ],
+      "tacticalIdentity": "adds a support or objective option while preserving shared AP and individual MP legality",
+      "forecastWeightModifiers": {
+        "TACTICAL": 50,
+        "MIXED": 40
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_DAGGER"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_DAGGER"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_OFFHAND_SHIELD_1",
+      "displayName": "Shield Guard Companion",
+      "category": "OFFHAND",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "UNCOMMON",
+      "basePower": 0,
+      "protection": 7,
+      "weight": 3,
+      "equipmentTags": [
+        "OFFHAND",
+        "SHIELD",
+        "GUARD"
+      ],
+      "tacticalIdentity": "adds a defensive fallback without replacing the main weapon's Art tree",
+      "forecastWeightModifiers": {
+        "GUARD": 50
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_SHIELD"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_SHIELD"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_OFFHAND_SHIELD_2",
+      "displayName": "Shield Tactical Companion",
+      "category": "OFFHAND",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "RARE",
+      "basePower": 0,
+      "protection": 10,
+      "weight": 4,
+      "equipmentTags": [
+        "OFFHAND",
+        "SHIELD",
+        "SUPPORT"
+      ],
+      "tacticalIdentity": "adds a support or objective option while preserving shared AP and individual MP legality",
+      "forecastWeightModifiers": {
+        "TACTICAL": 50,
+        "MIXED": 40
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_SHIELD"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_SHIELD"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_OFFHAND_GAUNTLET_1",
+      "displayName": "Gauntlets and Unarmed Implement Guard Companion",
+      "category": "OFFHAND",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "UNCOMMON",
+      "basePower": 0,
+      "protection": 7,
+      "weight": 3,
+      "equipmentTags": [
+        "OFFHAND",
+        "GAUNTLET",
+        "GUARD"
+      ],
+      "tacticalIdentity": "adds a defensive fallback without replacing the main weapon's Art tree",
+      "forecastWeightModifiers": {
+        "GUARD": 50
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_GAUNTLET"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_GAUNTLET"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_OFFHAND_GAUNTLET_2",
+      "displayName": "Gauntlets and Unarmed Implement Tactical Companion",
+      "category": "OFFHAND",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "RARE",
+      "basePower": 0,
+      "protection": 10,
+      "weight": 4,
+      "equipmentTags": [
+        "OFFHAND",
+        "GAUNTLET",
+        "SUPPORT"
+      ],
+      "tacticalIdentity": "adds a support or objective option while preserving shared AP and individual MP legality",
+      "forecastWeightModifiers": {
+        "TACTICAL": 50,
+        "MIXED": 40
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_GAUNTLET"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_GAUNTLET"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_OFFHAND_STAFF_1",
+      "displayName": "Stave Guard Companion",
+      "category": "OFFHAND",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "UNCOMMON",
+      "basePower": 0,
+      "protection": 7,
+      "weight": 3,
+      "equipmentTags": [
+        "OFFHAND",
+        "STAFF",
+        "GUARD"
+      ],
+      "tacticalIdentity": "adds a defensive fallback without replacing the main weapon's Art tree",
+      "forecastWeightModifiers": {
+        "GUARD": 50
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_STAFF"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_STAFF"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_OFFHAND_STAFF_2",
+      "displayName": "Stave Tactical Companion",
+      "category": "OFFHAND",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "RARE",
+      "basePower": 0,
+      "protection": 10,
+      "weight": 4,
+      "equipmentTags": [
+        "OFFHAND",
+        "STAFF",
+        "SUPPORT"
+      ],
+      "tacticalIdentity": "adds a support or objective option while preserving shared AP and individual MP legality",
+      "forecastWeightModifiers": {
+        "TACTICAL": 50,
+        "MIXED": 40
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_STAFF"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_STAFF"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_OFFHAND_FOCUS_1",
+      "displayName": "Catalysts and Foci Guard Companion",
+      "category": "OFFHAND",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "UNCOMMON",
+      "basePower": 0,
+      "protection": 7,
+      "weight": 3,
+      "equipmentTags": [
+        "OFFHAND",
+        "FOCUS",
+        "GUARD"
+      ],
+      "tacticalIdentity": "adds a defensive fallback without replacing the main weapon's Art tree",
+      "forecastWeightModifiers": {
+        "GUARD": 50
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_FOCUS"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_FOCUS"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_OFFHAND_FOCUS_2",
+      "displayName": "Catalysts and Foci Tactical Companion",
+      "category": "OFFHAND",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "RARE",
+      "basePower": 0,
+      "protection": 10,
+      "weight": 4,
+      "equipmentTags": [
+        "OFFHAND",
+        "FOCUS",
+        "SUPPORT"
+      ],
+      "tacticalIdentity": "adds a support or objective option while preserving shared AP and individual MP legality",
+      "forecastWeightModifiers": {
+        "TACTICAL": 50,
+        "MIXED": 40
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_FOCUS"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_FOCUS"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_OFFHAND_ENGINEERING_1",
+      "displayName": "Engineering Weapons and Tool Guard Companion",
+      "category": "OFFHAND",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "UNCOMMON",
+      "basePower": 0,
+      "protection": 7,
+      "weight": 3,
+      "equipmentTags": [
+        "OFFHAND",
+        "ENGINEERING",
+        "GUARD"
+      ],
+      "tacticalIdentity": "adds a defensive fallback without replacing the main weapon's Art tree",
+      "forecastWeightModifiers": {
+        "GUARD": 50
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_ENGINEERING"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_ENGINEERING_TOOL"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_OFFHAND_ENGINEERING_2",
+      "displayName": "Engineering Weapons and Tool Tactical Companion",
+      "category": "OFFHAND",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "RARE",
+      "basePower": 0,
+      "protection": 10,
+      "weight": 4,
+      "equipmentTags": [
+        "OFFHAND",
+        "ENGINEERING",
+        "SUPPORT"
+      ],
+      "tacticalIdentity": "adds a support or objective option while preserving shared AP and individual MP legality",
+      "forecastWeightModifiers": {
+        "TACTICAL": 50,
+        "MIXED": 40
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_ENGINEERING"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_ENGINEERING_TOOL"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_OFFHAND_HYBRID_1",
+      "displayName": "Hybrid Relic Weapon Guard Companion",
+      "category": "OFFHAND",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "UNCOMMON",
+      "basePower": 0,
+      "protection": 7,
+      "weight": 3,
+      "equipmentTags": [
+        "OFFHAND",
+        "HYBRID",
+        "GUARD"
+      ],
+      "tacticalIdentity": "adds a defensive fallback without replacing the main weapon's Art tree",
+      "forecastWeightModifiers": {
+        "GUARD": 50
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_HYBRID"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_HYBRID_RELIC_WEAPON"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_OFFHAND_HYBRID_2",
+      "displayName": "Hybrid Relic Weapon Tactical Companion",
+      "category": "OFFHAND",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "RARE",
+      "basePower": 0,
+      "protection": 10,
+      "weight": 4,
+      "equipmentTags": [
+        "OFFHAND",
+        "HYBRID",
+        "SUPPORT"
+      ],
+      "tacticalIdentity": "adds a support or objective option while preserving shared AP and individual MP legality",
+      "forecastWeightModifiers": {
+        "TACTICAL": 50,
+        "MIXED": 40
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_HYBRID"
+      ],
+      "contentAuthority002": {
+        "compatibleWeaponFamilyIds": [
+          "WEAPON_FAMILY_HYBRID_RELIC_WEAPON"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    }
+  ]
+}

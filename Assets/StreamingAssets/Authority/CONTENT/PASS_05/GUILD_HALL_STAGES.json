@@ -1,0 +1,345 @@
+{
+  "contentVersion": "GOW_PASS05_0.10",
+  "designLaw": "Every hall stage adds visible rooms, civic responsibilities, staff jobs, and roster uses rather than only larger numbers.",
+  "stages": [
+    {
+      "stage": 0,
+      "id": "HALL_STAGE_RUINED_ANNEX",
+      "displayName": "Ruined Annex",
+      "memberCapacity": 12,
+      "applicantBoardSizeCeiling": 4,
+      "normalDeployment": {
+        "unionCount": 2,
+        "maxMembersPerUnion": 3,
+        "maximumVisibleCombatants": 6
+      },
+      "linkedFrontOperations": {
+        "unionCount": 0,
+        "maxMembersPerUnion": 0,
+        "reserveUnionSlots": 0
+      },
+      "staffPositionCap": 6,
+      "storageCapacityUnits": 80,
+      "concurrentProjectSlots": 1,
+      "simultaneousDutyAssignments": 3,
+      "treasuryXpCost": 0,
+      "materialCosts": {},
+      "buildTimeDays": 0,
+      "requiredGuildRankId": "GUILD_RANK_UNCHARTERED",
+      "requiredStoryFlags": [
+        "STORY_GUILD_INHERITED"
+      ],
+      "publicServiceResponsibilities": [
+        "keep a weather-safe refuge",
+        "post local contracts",
+        "maintain emergency contacts"
+      ],
+      "visualChanges": [
+        "A patched roof covers one usable chamber while rain still marks the ruined half.",
+        "A salvaged contract board leans beside a folding recruitment desk.",
+        "Twelve bunks, a field stove, and chalk Union circles define the first living spaces."
+      ],
+      "unlocks": [
+        "LOCAL_CONTRACTS",
+        "TWO_THREE_MEMBER_UNIONS",
+        "BASIC_DUTY_ASSIGNMENTS"
+      ]
+    },
+    {
+      "stage": 1,
+      "id": "HALL_STAGE_CHARTERED_HALL",
+      "displayName": "Chartered Hall",
+      "memberCapacity": 24,
+      "applicantBoardSizeCeiling": 5,
+      "normalDeployment": {
+        "unionCount": 3,
+        "maxMembersPerUnion": 4,
+        "maximumVisibleCombatants": 12
+      },
+      "linkedFrontOperations": {
+        "unionCount": 3,
+        "maxMembersPerUnion": 4,
+        "reserveUnionSlots": 1
+      },
+      "staffPositionCap": 12,
+      "storageCapacityUnits": 180,
+      "concurrentProjectSlots": 1,
+      "simultaneousDutyAssignments": 5,
+      "treasuryXpCost": 6000,
+      "materialCosts": {
+        "MATERIAL_IRON": 20,
+        "MATERIAL_FIELD_CLOTH": 16,
+        "MATERIAL_ASHWOOD": 20
+      },
+      "buildTimeDays": 2,
+      "requiredGuildRankId": "GUILD_RANK_COPPER",
+      "requiredStoryFlags": [
+        "STORY_CHARTER_GRANTED"
+      ],
+      "publicServiceResponsibilities": [
+        "publish contract terms",
+        "provide first aid",
+        "shelter stranded travelers"
+      ],
+      "visualChanges": [
+        "The front wall is rebuilt around a visible civic charter and guild seal.",
+        "A real common room, three Union planning alcoves, and separate sleeping quarters open.",
+        "Workers add a public counter so citizens can ask for help without entering private rooms."
+      ],
+      "unlocks": [
+        "THREE_FOUR_MEMBER_UNIONS",
+        "FORMAL_STAFF_ROLES",
+        "BASIC_LINKED_FRONT_OPERATIONS"
+      ]
+    },
+    {
+      "stage": 2,
+      "id": "HALL_STAGE_RISING_GUILD",
+      "displayName": "Rising Guild",
+      "memberCapacity": 40,
+      "applicantBoardSizeCeiling": 6,
+      "normalDeployment": {
+        "unionCount": 4,
+        "maxMembersPerUnion": 4,
+        "maximumVisibleCombatants": 16
+      },
+      "linkedFrontOperations": {
+        "unionCount": 4,
+        "maxMembersPerUnion": 5,
+        "reserveUnionSlots": 1
+      },
+      "staffPositionCap": 22,
+      "storageCapacityUnits": 350,
+      "concurrentProjectSlots": 2,
+      "simultaneousDutyAssignments": 8,
+      "treasuryXpCost": 18000,
+      "materialCosts": {
+        "MATERIAL_STEEL": 30,
+        "MATERIAL_GATE_BRONZE": 10,
+        "MATERIAL_FIELD_CLOTH": 25,
+        "MATERIAL_STONE_CORE": 8
+      },
+      "buildTimeDays": 4,
+      "requiredGuildRankId": "GUILD_RANK_IRON",
+      "requiredStoryFlags": [
+        "STORY_FIRST_BOSS_OPERATION_COMPLETE"
+      ],
+      "publicServiceResponsibilities": [
+        "maintain a licensed infirmary",
+        "file expedition records",
+        "train supervised beginners"
+      ],
+      "visualChanges": [
+        "A second story rises above the repaired annex with windows overlooking the Gateworks.",
+        "Purpose-built training, medical, archive, and workshop rooms replace improvised corners.",
+        "A stone memorial records rescues and public works alongside victories."
+      ],
+      "unlocks": [
+        "FOUR_FOUR_MEMBER_UNIONS",
+        "TWO_PROJECT_QUEUES",
+        "TARGETED_SCOUTING",
+        "COPPER_ABYSS_LICENSE"
+      ]
+    },
+    {
+      "stage": 3,
+      "id": "HALL_STAGE_REGIONAL_GUILD",
+      "displayName": "Regional Guild",
+      "memberCapacity": 75,
+      "applicantBoardSizeCeiling": 7,
+      "normalDeployment": {
+        "unionCount": 5,
+        "maxMembersPerUnion": 5,
+        "maximumVisibleCombatants": 25
+      },
+      "linkedFrontOperations": {
+        "unionCount": 6,
+        "maxMembersPerUnion": 5,
+        "reserveUnionSlots": 1
+      },
+      "staffPositionCap": 38,
+      "storageCapacityUnits": 700,
+      "concurrentProjectSlots": 2,
+      "simultaneousDutyAssignments": 12,
+      "treasuryXpCost": 45000,
+      "materialCosts": {
+        "MATERIAL_STEEL": 60,
+        "MATERIAL_GATE_BRONZE": 25,
+        "MATERIAL_SILKWEAVE": 20,
+        "MATERIAL_PYLON_CRYSTAL": 6
+      },
+      "buildTimeDays": 7,
+      "requiredGuildRankId": "GUILD_RANK_SILVER",
+      "requiredStoryFlags": [
+        "STORY_REGIONAL_CHARTER_AVAILABLE"
+      ],
+      "publicServiceResponsibilities": [
+        "coordinate regional rescues",
+        "audit licensed teams",
+        "maintain emergency stores"
+      ],
+      "visualChanges": [
+        "Two connected wings form a protected courtyard used for formations and festivals.",
+        "A regional map chamber tracks roads, settlements, hazards, and public requests.",
+        "Families of deployed adventurers receive a staffed waiting room instead of a notice board."
+      ],
+      "unlocks": [
+        "FIVE_FIVE_MEMBER_UNIONS",
+        "SIX_LINKED_FRONT_UNIONS",
+        "REGIONAL_CONTRACTS",
+        "EMBASSY_PETITIONS"
+      ]
+    },
+    {
+      "stage": 4,
+      "id": "HALL_STAGE_GATE_GUILD",
+      "displayName": "Gate Guild",
+      "memberCapacity": 125,
+      "applicantBoardSizeCeiling": 8,
+      "normalDeployment": {
+        "unionCount": 5,
+        "maxMembersPerUnion": 5,
+        "maximumVisibleCombatants": 25
+      },
+      "linkedFrontOperations": {
+        "unionCount": 8,
+        "maxMembersPerUnion": 5,
+        "reserveUnionSlots": 2
+      },
+      "staffPositionCap": 62,
+      "storageCapacityUnits": 1200,
+      "concurrentProjectSlots": 3,
+      "simultaneousDutyAssignments": 18,
+      "treasuryXpCost": 100000,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 20,
+        "MATERIAL_GATE_GLASS": 30,
+        "MATERIAL_PYLON_CRYSTAL": 20,
+        "MATERIAL_COMMAND_TABLE_RUNE": 5
+      },
+      "buildTimeDays": 12,
+      "requiredGuildRankId": "GUILD_RANK_GOLD",
+      "requiredStoryFlags": [
+        "STORY_GATE_GUILD_AUTHORIZED"
+      ],
+      "publicServiceResponsibilities": [
+        "operate licensed gate routes",
+        "host cultural liaisons",
+        "maintain mass-casualty plans"
+      ],
+      "visualChanges": [
+        "Gate-glass galleries display live route conditions without concealing who controls access.",
+        "A dedicated operations tower connects scouts, healers, quartermasters, and Union leaders.",
+        "The public shelter expands beneath the hall with marked exits and multilingual signs."
+      ],
+      "unlocks": [
+        "EIGHT_LINKED_FRONT_UNIONS",
+        "GATE_ROUTE_OPERATIONS",
+        "WORLD_LIAISON_RECRUITMENT",
+        "THREE_PROJECT_QUEUES"
+      ]
+    },
+    {
+      "stage": 5,
+      "id": "HALL_STAGE_GUILD_OF_WORLDS",
+      "displayName": "Guild of Worlds",
+      "memberCapacity": 200,
+      "applicantBoardSizeCeiling": 9,
+      "normalDeployment": {
+        "unionCount": 6,
+        "maxMembersPerUnion": 5,
+        "maximumVisibleCombatants": 30
+      },
+      "linkedFrontOperations": {
+        "unionCount": 8,
+        "maxMembersPerUnion": 5,
+        "reserveUnionSlots": 2
+      },
+      "staffPositionCap": 96,
+      "storageCapacityUnits": 2200,
+      "concurrentProjectSlots": 4,
+      "simultaneousDutyAssignments": 26,
+      "treasuryXpCost": 220000,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 50,
+        "MATERIAL_SILKWEAVE": 50,
+        "MATERIAL_MEMORY_WATER": 20,
+        "MATERIAL_GATE_GLASS": 40
+      },
+      "buildTimeDays": 20,
+      "requiredGuildRankId": "GUILD_RANK_GATEWARDEN",
+      "requiredStoryFlags": [
+        "STORY_FIRST_WORLD_ALLIANCE_CHARTER"
+      ],
+      "publicServiceResponsibilities": [
+        "protect equal-world charters",
+        "coordinate interworld emergencies",
+        "publish transparent XP accounts"
+      ],
+      "visualChanges": [
+        "Distinct cultural wings surround a shared central chamber without reducing any world to decoration.",
+        "A world-map ceiling updates as equal alliances are signed rather than conquered.",
+        "The guild kitchens, gardens, shrines, workshops, and dormitories visibly serve multiple peoples."
+      ],
+      "unlocks": [
+        "SIX_NORMAL_UNIONS",
+        "WORLD_CONTRACTS",
+        "FOUR_PROJECT_QUEUES",
+        "INTERWORLD_STAFF_ASSIGNMENTS"
+      ]
+    },
+    {
+      "stage": 6,
+      "id": "HALL_STAGE_FIRST_ALLIANCE_HALL",
+      "displayName": "First Alliance Hall",
+      "memberCapacity": 300,
+      "applicantBoardSizeCeiling": 10,
+      "normalDeployment": {
+        "unionCount": 6,
+        "maxMembersPerUnion": 5,
+        "maximumVisibleCombatants": 30
+      },
+      "linkedFrontOperations": {
+        "unionCount": 10,
+        "maxMembersPerUnion": 5,
+        "reserveUnionSlots": 3
+      },
+      "staffPositionCap": 140,
+      "storageCapacityUnits": 4000,
+      "concurrentProjectSlots": 5,
+      "simultaneousDutyAssignments": 36,
+      "treasuryXpCost": 450000,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 100,
+        "MATERIAL_PYLON_CRYSTAL": 50,
+        "MATERIAL_MEMORY_WATER": 50,
+        "MATERIAL_GATE_GLASS": 80
+      },
+      "buildTimeDays": 30,
+      "requiredGuildRankId": "GUILD_RANK_FIRST_ALLIANCE",
+      "requiredStoryFlags": [
+        "STORY_FIRST_ALLIANCE_RECOGNIZED"
+      ],
+      "publicServiceResponsibilities": [
+        "maintain a neutral refuge",
+        "support ten linked fronts",
+        "preserve world autonomy and public memory"
+      ],
+      "visualChanges": [
+        "The original ruined wall remains visible inside the completed hall as proof of where the guild began.",
+        "Ten operations galleries can coordinate separate fronts while one central table shows shared consequences.",
+        "A public forum, sanctuary, archive, gardens, clinics, and embassies make the hall a living piece of civilization."
+      ],
+      "unlocks": [
+        "TEN_LINKED_FRONT_UNIONS",
+        "THREE_HUNDRED_MEMBER_CAP",
+        "FIVE_PROJECT_QUEUES",
+        "FIRST_ALLIANCE_PUBLIC_FORUM"
+      ]
+    }
+  ],
+  "capacityRule": "Actual active-member capacity is the minimum of Hall-stage capacity and Dormitory capacity.",
+  "deploymentRule": "Actual deployment is the minimum of Hall-stage authority, Union Command Table authority, and operation-specific limits.",
+  "normalBattlePresentation": "Show at most six Union cards in one landscape combat view; never place 50 individual command buttons on screen.",
+  "linkedFrontPresentation": "Show one active front at a time with swipeable front tabs, persistent consequence banners, and a reserve reinforcement drawer."
+}

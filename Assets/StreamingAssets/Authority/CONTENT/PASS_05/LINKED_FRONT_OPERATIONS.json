@@ -1,0 +1,131 @@
+{
+  "contentVersion": "GOW_PASS05_0.10",
+  "templates": [
+    {
+      "id": "LINKED_OPERATION_GATE_DEFENSE",
+      "displayName": "Gate Defense",
+      "fronts": [
+        "MAIN_GATE",
+        "CIVILIAN_ROUTE",
+        "PYLON_CONTROL"
+      ],
+      "reserveRecommended": true,
+      "crossFrontEffects": [
+        "Pylon success reduces Mystic pressure",
+        "Civilian success raises morale and reward",
+        "Main-gate failure increases shelter load"
+      ]
+    },
+    {
+      "id": "LINKED_OPERATION_CIVILIAN_EVACUATION",
+      "displayName": "Civilian Evacuation",
+      "fronts": [
+        "ESCORT_COLUMN",
+        "REAR_GUARD",
+        "SHELTER_PREPARATION"
+      ],
+      "reserveRecommended": true,
+      "crossFrontEffects": [
+        "Shelter preparation increases extraction capacity",
+        "Rear-guard failure adds hazards to escort route"
+      ]
+    },
+    {
+      "id": "LINKED_OPERATION_ABYSS_LAYER_EXPEDITION",
+      "displayName": "Abyss Layer Expedition",
+      "fronts": [
+        "MAPPING_TEAM",
+        "RESOURCE_TEAM",
+        "RESCUE_RESERVE",
+        "BOSS_TEAM"
+      ],
+      "reserveRecommended": true,
+      "crossFrontEffects": [
+        "Mapping reveals safe routes",
+        "Resource overreach lowers sustainability",
+        "Rescue reserve prevents permanent losses"
+      ]
+    },
+    {
+      "id": "LINKED_OPERATION_WORLD_GATE_STABILIZATION",
+      "displayName": "World-Gate Stabilization",
+      "fronts": [
+        "ANCHOR_WEST",
+        "ANCHOR_EAST",
+        "NEGOTIATION_CHAMBER",
+        "CIVIC_PERIMETER"
+      ],
+      "reserveRecommended": true,
+      "crossFrontEffects": [
+        "Negotiation changes whether anchors resist",
+        "Perimeter protects noncombatants and trust"
+      ]
+    },
+    {
+      "id": "LINKED_OPERATION_CITY_SIEGE",
+      "displayName": "City Siege",
+      "fronts": [
+        "WALL",
+        "INFIRMARY",
+        "SUPPLY_ROUTE",
+        "COUNTERSTRIKE",
+        "SHELTER"
+      ],
+      "reserveRecommended": true,
+      "crossFrontEffects": [
+        "Supply route powers every front",
+        "Infirmary success shortens injury recovery",
+        "Shelter success protects civic trust"
+      ]
+    },
+    {
+      "id": "LINKED_OPERATION_MISSING_EXPEDITION_RESCUE",
+      "displayName": "Missing Expedition Rescue",
+      "fronts": [
+        "TRACKERS",
+        "MEDICAL_TEAM",
+        "HOSTILE_CONTACT",
+        "EXTRACTION"
+      ],
+      "reserveRecommended": false,
+      "crossFrontEffects": [
+        "Trackers determine time pressure",
+        "Medical team changes survivor condition",
+        "Hostile contact can become diplomacy"
+      ]
+    },
+    {
+      "id": "LINKED_OPERATION_MULTI_ROUTE_HUNT",
+      "displayName": "Multi-Route Hunt",
+      "fronts": [
+        "NORTH_TRAIL",
+        "SOUTH_TRAIL",
+        "TRAP_LINE",
+        "CIVILIAN_WARNING"
+      ],
+      "reserveRecommended": true,
+      "crossFrontEffects": [
+        "Trap line limits escape routes",
+        "Civilian warning prevents collateral events"
+      ]
+    },
+    {
+      "id": "LINKED_OPERATION_FIRST_ALLIANCE_CONVOY",
+      "displayName": "First Alliance Convoy",
+      "fronts": [
+        "VANGUARD",
+        "CARAVAN_CORE",
+        "DIPLOMATIC_ESCORT",
+        "REAR_GUARD",
+        "GATE_RECEIVING_TEAM"
+      ],
+      "reserveRecommended": true,
+      "crossFrontEffects": [
+        "Diplomatic choices alter support",
+        "Receiving team determines safe arrival capacity"
+      ]
+    }
+  ],
+  "controlRule": "The player commands one front at a time; delegated fronts use committed doctrine and pause for irreversible or character-defining choices.",
+  "determinismRule": "Front resolution is committed from operation seed, front state, assigned Union, doctrine, and known information."
+}

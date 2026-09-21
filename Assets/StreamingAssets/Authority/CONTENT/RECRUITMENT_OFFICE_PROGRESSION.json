@@ -1,0 +1,129 @@
+{
+  "contentVersion": "RECRUITMENT_OFFICE_0.6",
+  "tiers": [
+    {
+      "tier": 0,
+      "name": "Temporary Desk",
+      "boardSize": 4,
+      "freeRefreshesPerDay": 1,
+      "manualRefreshBaseXp": 30,
+      "scoutingAccuracyBase": 30,
+      "signatureBonusBasisPoints": 0,
+      "targetedScouting": false,
+      "referralSlots": 0
+    },
+    {
+      "tier": 1,
+      "name": "Recruitment Desk",
+      "boardSize": 5,
+      "freeRefreshesPerDay": 1,
+      "manualRefreshBaseXp": 35,
+      "scoutingAccuracyBase": 38,
+      "signatureBonusBasisPoints": 50,
+      "targetedScouting": false,
+      "referralSlots": 1
+    },
+    {
+      "tier": 2,
+      "name": "Applicant Office",
+      "boardSize": 6,
+      "freeRefreshesPerDay": 1,
+      "manualRefreshBaseXp": 45,
+      "scoutingAccuracyBase": 48,
+      "signatureBonusBasisPoints": 100,
+      "targetedScouting": true,
+      "referralSlots": 1
+    },
+    {
+      "tier": 3,
+      "name": "Scout Network",
+      "boardSize": 7,
+      "freeRefreshesPerDay": 2,
+      "manualRefreshBaseXp": 60,
+      "scoutingAccuracyBase": 60,
+      "signatureBonusBasisPoints": 175,
+      "targetedScouting": true,
+      "referralSlots": 1
+    },
+    {
+      "tier": 4,
+      "name": "Gate Recruitment Hall",
+      "boardSize": 8,
+      "freeRefreshesPerDay": 2,
+      "manualRefreshBaseXp": 80,
+      "scoutingAccuracyBase": 72,
+      "signatureBonusBasisPoints": 250,
+      "targetedScouting": true,
+      "referralSlots": 2
+    },
+    {
+      "tier": 5,
+      "name": "World Liaison Office",
+      "boardSize": 9,
+      "freeRefreshesPerDay": 2,
+      "manualRefreshBaseXp": 110,
+      "scoutingAccuracyBase": 84,
+      "signatureBonusBasisPoints": 325,
+      "targetedScouting": true,
+      "referralSlots": 2
+    },
+    {
+      "tier": 6,
+      "name": "First Alliance Registry",
+      "boardSize": 10,
+      "freeRefreshesPerDay": 3,
+      "manualRefreshBaseXp": 150,
+      "scoutingAccuracyBase": 92,
+      "signatureBonusBasisPoints": 400,
+      "targetedScouting": true,
+      "referralSlots": 3
+    }
+  ],
+  "refreshRules": {
+    "dailyCommitTime": "LOCAL_DAWN",
+    "manualRefreshXpFormula": "baseXp + 10 * refreshIndexToday",
+    "normalBoardPersistsUntilCommitOrExpiry": true,
+    "reopeningDoesNotRegenerate": true,
+    "declinedProceduralReturnDays": [
+      2,
+      12
+    ],
+    "declinedSignatureReturnDays": "per recruit data",
+    "noPermanentMissOnOrdinaryDecline": true
+  },
+  "signatureRules": {
+    "baseChanceBasisPoints": 300,
+    "dryStreakBonusPerBoardBasisPoints": 75,
+    "dryStreakBonusCapBasisPoints": 500,
+    "normalChanceCapBasisPoints": 1200,
+    "mercyCharterThresholdBoards": 10,
+    "mercyCharterEffect": "guarantee one eligible Signature Recruit in the final non-reserved slot",
+    "atLeastOneProceduralSlot": true,
+    "noDuplicatesWithinBoard": true,
+    "recruitedSignatureNeverReturns": true
+  },
+  "signingRules": {
+    "costFormula": "baseClassCost + levelCost + equipmentDeposit - reputationDiscount",
+    "memberCapBehavior": "applicant may be interviewed, but signing requires an open dormitory slot or a voluntary reserve contract",
+    "failedCapacitySigningConsumesXp": false,
+    "reserveContractCapByTier": [
+      0,
+      0,
+      1,
+      1,
+      2,
+      3,
+      5
+    ],
+    "dismissalRequiresConfirmation": true
+  },
+  "channels": {
+    "GUILD_BOARD": "normal random board",
+    "REFERRAL": "guaranteed or weighted by an existing member",
+    "RESCUE": "authored or procedural character saved during an expedition",
+    "EVENT": "decision outcome",
+    "TARGETED_SCOUT": "spend Guild Treasury XP to search a race, class, background, or known Signature clue",
+    "RIVAL_DEFECTION": "relationship and reputation event",
+    "WORLD_LIAISON": "available after Alliance Charter"
+  }
+}

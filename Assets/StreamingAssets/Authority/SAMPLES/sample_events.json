@@ -1,0 +1,62 @@
+[
+  {
+    "id": "EVENT_BROKEN_BRIDGE",
+    "title": "The Broken Bridge",
+    "choices": [
+      {
+        "id": "HOLD",
+        "check": "COURAGE",
+        "difficulty": 10,
+        "outcomes": {
+          "critical_failure": "TRAIT_HAUNTED_BY_FAILURE",
+          "failure": "INJURY_AND_DELAY",
+          "mixed": "CROSS_WITH_SUPPLY_LOSS",
+          "success": "TRAIT_STOOD_WHEN_IT_MATTERED",
+          "critical_success": "DISCOVERY_NO_ONE_FALLS_BEHIND"
+        }
+      },
+      {
+        "id": "REPAIR",
+        "check": "CRAFTING",
+        "difficulty": 9,
+        "outcomes": {
+          "critical_failure": "COLLAPSE",
+          "failure": "LOSE_TIME",
+          "mixed": "CROSS_WITH_TOOL_LOSS",
+          "success": "SAFE_CROSSING",
+          "critical_success": "TACTICAL_DISCIPLINE_BONUS"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EVENT_WORLD_SPRING",
+    "title": "The World Spring",
+    "choices": [
+      {
+        "id": "DRINK",
+        "check": "COURAGE",
+        "difficulty": 8,
+        "outcomes": {
+          "critical_failure": "MYSTIC_WEAKNESS",
+          "failure": "SICKNESS",
+          "mixed": "UNKNOWN_FLAG",
+          "success": "ELEMENTAL_AFFINITY",
+          "critical_success": "HIDDEN_MYSTIC_BRANCH"
+        }
+      },
+      {
+        "id": "STUDY",
+        "check": "ARCANA",
+        "difficulty": 10,
+        "outcomes": {
+          "critical_failure": "ARCANE_BACKLASH",
+          "failure": "NO_RESULT",
+          "mixed": "CRAFTING_REAGENT",
+          "success": "SPRING_KNOWLEDGE",
+          "critical_success": "WORLD_EVENT_UNLOCK"
+        }
+      }
+    ]
+  }
+]

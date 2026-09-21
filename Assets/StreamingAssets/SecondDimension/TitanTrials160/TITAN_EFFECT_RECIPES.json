@@ -1,0 +1,1360 @@
+{
+  "schema": "SD_R45_TITAN_EFFECT_RECIPES_V1",
+  "status": "AUTHORED_CANDIDATE_NATIVE_BINDING_AND_BALANCE_REQUIRED",
+  "recipe_count": 24,
+  "hero_count": 13,
+  "selectors": [
+    {
+      "logical_hero_id": "HERO_TITAN_013",
+      "name": "Accord of the Twelve",
+      "native_art_id": null,
+      "choices": [
+        "ECHO_TITAN_001",
+        "ECHO_TITAN_002",
+        "ECHO_TITAN_003",
+        "ECHO_TITAN_004",
+        "ECHO_TITAN_005",
+        "ECHO_TITAN_006",
+        "ECHO_TITAN_007",
+        "ECHO_TITAN_008",
+        "ECHO_TITAN_009",
+        "ECHO_TITAN_010",
+        "ECHO_TITAN_011",
+        "ECHO_TITAN_012"
+      ],
+      "shared_use_key": "R37_PROFILE_ENCOUNTER_HERO",
+      "unlocked_by": "ACTUAL_MATCHED_TITAN_DEFEAT",
+      "creates_a_new_actor": false
+    }
+  ],
+  "global_rules": {
+    "current_engine_is_authority": true,
+    "no_new_combat_save_or_resource_system": true,
+    "base_budget": "ONE_CASTER_PRE_MITIGATION_SAME_SCOPE_CLEAN_NATIVE_AMOUNT_NOT_WHOLE_ARMY_OR_PER_TARGET",
+    "growth": "EXISTING_R37_FROZEN_PERSONAL_RANK_OR_MATCHED_ECHO_HISTORY",
+    "native_target_revalidation": "AT_RESOLUTION_DO_NOT_REROLL_OR_RETARGET_TO_ANOTHER_UNION",
+    "all_members_gone": "NATIVE_REJECTION_BEFORE_ACCEPTANCE_OR_FIZZLE_AFTER_ACCEPTANCE_NEVER_FREE_RECAST",
+    "barriers": "NUMERIC_ABSORPTION; NATIVE_CAP; STRONGEST_SAME_EFFECT; NO_DURATION_EXTENSION_BY_RANK",
+    "healing": "NATIVE_MAX_HP_CLAMP; UNUSED_SHARE_IS_NOT_REALLOCATED_AFTER_HITS",
+    "revive": "ONE_DEFEATED_ALLY; NO_GRANTED_TURN_MP_OR_USE_RESTORE; HP_CLAMP; NO_OVERHEAL_CONVERTED_TO_WARD",
+    "cleanse": "ONE_NATIVE_REMOVABLE_HARMFUL_STATUS_INSTANCE_ACROSS_SELECTED_UNION; NATIVE_PRIORITY_THEN_COMMITTED_TARGET_ORDER_THEN_STATUS_ID; NO_STORY_OR_PROTECTED_STATUS",
+    "slow_and_armor": "FIXED_15_PERCENT_TEST_CANDIDATE; NATIVE_RESISTANCE_AND_IMMUNITY; NO_COMMITTED_ACTION_REORDER_OR_PERCENT_GROWTH",
+    "expiry": "Barriers last through the next complete hostile Forecast resolution window after application. Armor break lasts through the next friendly damage window; slow/threat affect the next not-yet-committed hostile Forecast only. Native window IDs must be bound and persisted; do not tick twice, reorder committed actions, or extend duration with rank.",
+    "input_limits": "64 target records, 3 bursts, 2 channels are bounded read sizes, not a roster cap",
+    "source_stats_are_not_approved": true
+  },
+  "recipes": [
+    {
+      "id": "GOLD_TITAN_001",
+      "logical_hero_id": "HERO_TITAN_001",
+      "name": "Worldsplitter",
+      "titan_slot": 1,
+      "ability_kind": "PERSONAL_GOLD",
+      "rank_one_budget_bp": 22000,
+      "target_scope": "ONE_ENEMY_UNION",
+      "allocation": "EQUAL",
+      "channels": [
+        {
+          "kind": "PHYSICAL_DAMAGE",
+          "weight_bp": 10000
+        }
+      ],
+      "bursts": 1,
+      "secondary": {
+        "kind": "ARMOR_BREAK",
+        "strength_bp": 1500,
+        "timing": "AFTER_FIRST_SUCCESSFUL_DAMAGE",
+        "expires": "END_OF_NEXT_COMPLETE_FRIENDLY_DAMAGE_WINDOW",
+        "maximum_instances_per_action": 1,
+        "stacking": "STRONGEST_SAME_EFFECT_REFRESH_NOT_ADD",
+        "does_not_override_committed_boss_targets": true
+      },
+      "barrier_scope": "ANY_DAMAGE",
+      "barrier_expiry": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+      "wounded_condition": {
+        "hp_threshold_bp": 0,
+        "amount_bonus_bp": 0,
+        "evaluated_at": "ACTION_COMMITMENT_COMPLETE_SELECTED_UNION_HP_TOTALS_INCLUDING_FALLEN_MEMBERS"
+      },
+      "native_cost": {
+        "ap": null,
+        "mp": null,
+        "status": "BIND_CURRENT_COMPARABLE_GOLD_COST",
+        "relative_tier": "HIGH",
+        "charge_owner": "EXISTING_NATIVE_RESOLVER_ONCE"
+      },
+      "presentation": {
+        "actor_pose": "hammer_slam",
+        "cue_key": "FX_GOLD_TITAN_001",
+        "numeric_resolution_event": "EXISTING_COMMITTED_ACTION_IMPACT",
+        "pose_or_audio_never_applies_gameplay": true,
+        "native_animation_binding": null,
+        "native_audio_binding": null
+      },
+      "authorship": "R45 concrete design candidate using unchanged R43 identity and rank-one budget",
+      "approved_for_native_use": false,
+      "source_blueprint": "continuation_r43/TITAN_CHARACTER_BLUEPRINTS.json",
+      "recipe_sha256": "85e443feeff955c3567b21dca1d251bd019de870aab89ba026e9ec4a30daeed3"
+    },
+    {
+      "id": "GOLD_TITAN_002",
+      "logical_hero_id": "HERO_TITAN_002",
+      "name": "Dawnwall Covenant",
+      "titan_slot": 2,
+      "ability_kind": "PERSONAL_GOLD",
+      "rank_one_budget_bp": 21000,
+      "target_scope": "ONE_ALLIED_UNION",
+      "allocation": "EQUAL",
+      "channels": [
+        {
+          "kind": "BARRIER",
+          "weight_bp": 10000
+        }
+      ],
+      "bursts": 1,
+      "secondary": {
+        "kind": "NONE",
+        "strength_bp": 0,
+        "timing": "NONE",
+        "expires": "NONE",
+        "maximum_instances_per_action": 0,
+        "stacking": "STRONGEST_SAME_EFFECT_REFRESH_NOT_ADD",
+        "does_not_override_committed_boss_targets": true
+      },
+      "barrier_scope": "ANY_DAMAGE",
+      "barrier_expiry": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+      "wounded_condition": {
+        "hp_threshold_bp": 0,
+        "amount_bonus_bp": 0,
+        "evaluated_at": "ACTION_COMMITMENT_COMPLETE_SELECTED_UNION_HP_TOTALS_INCLUDING_FALLEN_MEMBERS"
+      },
+      "native_cost": {
+        "ap": null,
+        "mp": null,
+        "status": "BIND_CURRENT_COMPARABLE_GOLD_COST",
+        "relative_tier": "HIGH",
+        "charge_owner": "EXISTING_NATIVE_RESOLVER_ONCE"
+      },
+      "presentation": {
+        "actor_pose": "shield_raise",
+        "cue_key": "FX_GOLD_TITAN_002",
+        "numeric_resolution_event": "EXISTING_COMMITTED_ACTION_IMPACT",
+        "pose_or_audio_never_applies_gameplay": true,
+        "native_animation_binding": null,
+        "native_audio_binding": null
+      },
+      "authorship": "R45 concrete design candidate using unchanged R43 identity and rank-one budget",
+      "approved_for_native_use": false,
+      "source_blueprint": "continuation_r43/TITAN_CHARACTER_BLUEPRINTS.json",
+      "recipe_sha256": "3f3ee8cc9ff3dc0abda6bc71552acd4008f94809e4b547df22ad6af7ad15f446"
+    },
+    {
+      "id": "GOLD_TITAN_003",
+      "logical_hero_id": "HERO_TITAN_003",
+      "name": "Ocean of Renewal",
+      "titan_slot": 3,
+      "ability_kind": "PERSONAL_GOLD",
+      "rank_one_budget_bp": 19000,
+      "target_scope": "ONE_ALLIED_UNION",
+      "allocation": "MISSING_HP",
+      "channels": [
+        {
+          "kind": "HEAL",
+          "weight_bp": 10000
+        }
+      ],
+      "bursts": 1,
+      "secondary": {
+        "kind": "CLEANSE_ONE",
+        "strength_bp": 0,
+        "timing": "BEFORE_HEAL",
+        "expires": "INSTANT",
+        "maximum_instances_per_action": 1,
+        "stacking": "STRONGEST_SAME_EFFECT_REFRESH_NOT_ADD",
+        "does_not_override_committed_boss_targets": true
+      },
+      "barrier_scope": "ANY_DAMAGE",
+      "barrier_expiry": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+      "wounded_condition": {
+        "hp_threshold_bp": 0,
+        "amount_bonus_bp": 0,
+        "evaluated_at": "ACTION_COMMITMENT_COMPLETE_SELECTED_UNION_HP_TOTALS_INCLUDING_FALLEN_MEMBERS"
+      },
+      "native_cost": {
+        "ap": null,
+        "mp": null,
+        "status": "BIND_CURRENT_COMPARABLE_GOLD_COST",
+        "relative_tier": "HIGH",
+        "charge_owner": "EXISTING_NATIVE_RESOLVER_ONCE"
+      },
+      "presentation": {
+        "actor_pose": "staff_wave",
+        "cue_key": "FX_GOLD_TITAN_003",
+        "numeric_resolution_event": "EXISTING_COMMITTED_ACTION_IMPACT",
+        "pose_or_audio_never_applies_gameplay": true,
+        "native_animation_binding": null,
+        "native_audio_binding": null
+      },
+      "authorship": "R45 concrete design candidate using unchanged R43 identity and rank-one budget",
+      "approved_for_native_use": false,
+      "source_blueprint": "continuation_r43/TITAN_CHARACTER_BLUEPRINTS.json",
+      "recipe_sha256": "1d0f0e527d33258a48b17ccb31f2adacb063975ef75dcd44de9c8c00225781f1"
+    },
+    {
+      "id": "GOLD_TITAN_004",
+      "logical_hero_id": "HERO_TITAN_004",
+      "name": "Heavenrend Spear",
+      "titan_slot": 4,
+      "ability_kind": "PERSONAL_GOLD",
+      "rank_one_budget_bp": 21000,
+      "target_scope": "ONE_ENEMY_UNION",
+      "allocation": "EQUAL",
+      "channels": [
+        {
+          "kind": "PHYSICAL_DAMAGE",
+          "weight_bp": 5000
+        },
+        {
+          "kind": "MYSTIC_DAMAGE",
+          "weight_bp": 5000
+        }
+      ],
+      "bursts": 1,
+      "secondary": {
+        "kind": "NONE",
+        "strength_bp": 0,
+        "timing": "NONE",
+        "expires": "NONE",
+        "maximum_instances_per_action": 0,
+        "stacking": "STRONGEST_SAME_EFFECT_REFRESH_NOT_ADD",
+        "does_not_override_committed_boss_targets": true
+      },
+      "barrier_scope": "ANY_DAMAGE",
+      "barrier_expiry": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+      "wounded_condition": {
+        "hp_threshold_bp": 0,
+        "amount_bonus_bp": 0,
+        "evaluated_at": "ACTION_COMMITMENT_COMPLETE_SELECTED_UNION_HP_TOTALS_INCLUDING_FALLEN_MEMBERS"
+      },
+      "native_cost": {
+        "ap": null,
+        "mp": null,
+        "status": "BIND_CURRENT_COMPARABLE_GOLD_COST",
+        "relative_tier": "HIGH",
+        "charge_owner": "EXISTING_NATIVE_RESOLVER_ONCE"
+      },
+      "presentation": {
+        "actor_pose": "spear_thrust",
+        "cue_key": "FX_GOLD_TITAN_004",
+        "numeric_resolution_event": "EXISTING_COMMITTED_ACTION_IMPACT",
+        "pose_or_audio_never_applies_gameplay": true,
+        "native_animation_binding": null,
+        "native_audio_binding": null
+      },
+      "authorship": "R45 concrete design candidate using unchanged R43 identity and rank-one budget",
+      "approved_for_native_use": false,
+      "source_blueprint": "continuation_r43/TITAN_CHARACTER_BLUEPRINTS.json",
+      "recipe_sha256": "e671e7283a4ef154f2fe5ffa38e34b43eeacfccd841d59c5ee6a4da628e1cb8f"
+    },
+    {
+      "id": "GOLD_TITAN_005",
+      "logical_hero_id": "HERO_TITAN_005",
+      "name": "Last Dawn",
+      "titan_slot": 5,
+      "ability_kind": "PERSONAL_GOLD",
+      "rank_one_budget_bp": 10000,
+      "target_scope": "ONE_FALLEN_ALLY",
+      "allocation": "EQUAL",
+      "channels": [
+        {
+          "kind": "REVIVE_HP",
+          "weight_bp": 8000
+        },
+        {
+          "kind": "BARRIER",
+          "weight_bp": 2000
+        }
+      ],
+      "bursts": 1,
+      "secondary": {
+        "kind": "NONE",
+        "strength_bp": 0,
+        "timing": "NONE",
+        "expires": "NONE",
+        "maximum_instances_per_action": 0,
+        "stacking": "STRONGEST_SAME_EFFECT_REFRESH_NOT_ADD",
+        "does_not_override_committed_boss_targets": true
+      },
+      "barrier_scope": "ANY_DAMAGE",
+      "barrier_expiry": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+      "wounded_condition": {
+        "hp_threshold_bp": 0,
+        "amount_bonus_bp": 0,
+        "evaluated_at": "ACTION_COMMITMENT_COMPLETE_SELECTED_UNION_HP_TOTALS_INCLUDING_FALLEN_MEMBERS"
+      },
+      "native_cost": {
+        "ap": null,
+        "mp": null,
+        "status": "BIND_CURRENT_COMPARABLE_GOLD_COST",
+        "relative_tier": "HIGH",
+        "charge_owner": "EXISTING_NATIVE_RESOLVER_ONCE"
+      },
+      "presentation": {
+        "actor_pose": "oath_raise",
+        "cue_key": "FX_GOLD_TITAN_005",
+        "numeric_resolution_event": "EXISTING_COMMITTED_ACTION_IMPACT",
+        "pose_or_audio_never_applies_gameplay": true,
+        "native_animation_binding": null,
+        "native_audio_binding": null
+      },
+      "authorship": "R45 concrete design candidate using unchanged R43 identity and rank-one budget",
+      "approved_for_native_use": false,
+      "source_blueprint": "continuation_r43/TITAN_CHARACTER_BLUEPRINTS.json",
+      "recipe_sha256": "b90864e174c84c5486b97e4f72a1720d4f309c3c93be59e0b53c4f3b3a4c8114"
+    },
+    {
+      "id": "GOLD_TITAN_006",
+      "logical_hero_id": "HERO_TITAN_006",
+      "name": "Heart of the Inferno",
+      "titan_slot": 6,
+      "ability_kind": "PERSONAL_GOLD",
+      "rank_one_budget_bp": 19000,
+      "target_scope": "ONE_ENEMY_UNION",
+      "allocation": "EQUAL",
+      "channels": [
+        {
+          "kind": "PHYSICAL_DAMAGE",
+          "weight_bp": 10000
+        }
+      ],
+      "bursts": 1,
+      "secondary": {
+        "kind": "THREAT",
+        "strength_bp": 0,
+        "timing": "AFTER_FIRST_SUCCESSFUL_DAMAGE",
+        "expires": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+        "maximum_instances_per_action": 1,
+        "stacking": "STRONGEST_SAME_EFFECT_REFRESH_NOT_ADD",
+        "does_not_override_committed_boss_targets": true
+      },
+      "barrier_scope": "ANY_DAMAGE",
+      "barrier_expiry": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+      "wounded_condition": {
+        "hp_threshold_bp": 0,
+        "amount_bonus_bp": 0,
+        "evaluated_at": "ACTION_COMMITMENT_COMPLETE_SELECTED_UNION_HP_TOTALS_INCLUDING_FALLEN_MEMBERS"
+      },
+      "native_cost": {
+        "ap": null,
+        "mp": null,
+        "status": "BIND_CURRENT_COMPARABLE_GOLD_COST",
+        "relative_tier": "HIGH",
+        "charge_owner": "EXISTING_NATIVE_RESOLVER_ONCE"
+      },
+      "presentation": {
+        "actor_pose": "axe_slam",
+        "cue_key": "FX_GOLD_TITAN_006",
+        "numeric_resolution_event": "EXISTING_COMMITTED_ACTION_IMPACT",
+        "pose_or_audio_never_applies_gameplay": true,
+        "native_animation_binding": null,
+        "native_audio_binding": null
+      },
+      "authorship": "R45 concrete design candidate using unchanged R43 identity and rank-one budget",
+      "approved_for_native_use": false,
+      "source_blueprint": "continuation_r43/TITAN_CHARACTER_BLUEPRINTS.json",
+      "recipe_sha256": "4a248321046c180eaec9ea9c26762ba8eb576a88541d7555b8bf4f900de1d052"
+    },
+    {
+      "id": "GOLD_TITAN_007",
+      "logical_hero_id": "HERO_TITAN_007",
+      "name": "Eclipse Hunt",
+      "titan_slot": 7,
+      "ability_kind": "PERSONAL_GOLD",
+      "rank_one_budget_bp": 24000,
+      "target_scope": "ONE_ENEMY_UNION",
+      "allocation": "EQUAL",
+      "channels": [
+        {
+          "kind": "PHYSICAL_DAMAGE",
+          "weight_bp": 10000
+        }
+      ],
+      "bursts": 3,
+      "secondary": {
+        "kind": "NONE",
+        "strength_bp": 0,
+        "timing": "NONE",
+        "expires": "NONE",
+        "maximum_instances_per_action": 0,
+        "stacking": "STRONGEST_SAME_EFFECT_REFRESH_NOT_ADD",
+        "does_not_override_committed_boss_targets": true
+      },
+      "barrier_scope": "ANY_DAMAGE",
+      "barrier_expiry": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+      "wounded_condition": {
+        "hp_threshold_bp": 0,
+        "amount_bonus_bp": 0,
+        "evaluated_at": "ACTION_COMMITMENT_COMPLETE_SELECTED_UNION_HP_TOTALS_INCLUDING_FALLEN_MEMBERS"
+      },
+      "native_cost": {
+        "ap": null,
+        "mp": null,
+        "status": "BIND_CURRENT_COMPARABLE_GOLD_COST",
+        "relative_tier": "HIGH",
+        "charge_owner": "EXISTING_NATIVE_RESOLVER_ONCE"
+      },
+      "presentation": {
+        "actor_pose": "crescent_flurry",
+        "cue_key": "FX_GOLD_TITAN_007",
+        "numeric_resolution_event": "EXISTING_COMMITTED_ACTION_IMPACT",
+        "pose_or_audio_never_applies_gameplay": true,
+        "native_animation_binding": null,
+        "native_audio_binding": null
+      },
+      "authorship": "R45 concrete design candidate using unchanged R43 identity and rank-one budget",
+      "approved_for_native_use": false,
+      "source_blueprint": "continuation_r43/TITAN_CHARACTER_BLUEPRINTS.json",
+      "recipe_sha256": "4a8a194db81632eb27a8cf69cdaaa3f9fef9f6129bfd4f4f4616afde5346736a"
+    },
+    {
+      "id": "GOLD_TITAN_008",
+      "logical_hero_id": "HERO_TITAN_008",
+      "name": "Winter Ward",
+      "titan_slot": 8,
+      "ability_kind": "PERSONAL_GOLD",
+      "rank_one_budget_bp": 20000,
+      "target_scope": "ONE_ALLIED_UNION",
+      "allocation": "EQUAL",
+      "channels": [
+        {
+          "kind": "BARRIER",
+          "weight_bp": 10000
+        }
+      ],
+      "bursts": 1,
+      "secondary": {
+        "kind": "NONE",
+        "strength_bp": 0,
+        "timing": "NONE",
+        "expires": "NONE",
+        "maximum_instances_per_action": 0,
+        "stacking": "STRONGEST_SAME_EFFECT_REFRESH_NOT_ADD",
+        "does_not_override_committed_boss_targets": true
+      },
+      "barrier_scope": "MYSTIC_ONLY",
+      "barrier_expiry": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+      "wounded_condition": {
+        "hp_threshold_bp": 0,
+        "amount_bonus_bp": 0,
+        "evaluated_at": "ACTION_COMMITMENT_COMPLETE_SELECTED_UNION_HP_TOTALS_INCLUDING_FALLEN_MEMBERS"
+      },
+      "native_cost": {
+        "ap": null,
+        "mp": null,
+        "status": "BIND_CURRENT_COMPARABLE_GOLD_COST",
+        "relative_tier": "HIGH",
+        "charge_owner": "EXISTING_NATIVE_RESOLVER_ONCE"
+      },
+      "presentation": {
+        "actor_pose": "crystal_raise",
+        "cue_key": "FX_GOLD_TITAN_008",
+        "numeric_resolution_event": "EXISTING_COMMITTED_ACTION_IMPACT",
+        "pose_or_audio_never_applies_gameplay": true,
+        "native_animation_binding": null,
+        "native_audio_binding": null
+      },
+      "authorship": "R45 concrete design candidate using unchanged R43 identity and rank-one budget",
+      "approved_for_native_use": false,
+      "source_blueprint": "continuation_r43/TITAN_CHARACTER_BLUEPRINTS.json",
+      "recipe_sha256": "2b4d787f83e504cbb08bb18da1c9563c0caec0de28baef9fa78dd5ff86b45b71"
+    },
+    {
+      "id": "GOLD_TITAN_009",
+      "logical_hero_id": "HERO_TITAN_009",
+      "name": "Worldroot Sanctuary",
+      "titan_slot": 9,
+      "ability_kind": "PERSONAL_GOLD",
+      "rank_one_budget_bp": 23000,
+      "target_scope": "ONE_ALLIED_UNION",
+      "allocation": "MISSING_HP_PLUS_ONE",
+      "channels": [
+        {
+          "kind": "BARRIER",
+          "weight_bp": 10000
+        }
+      ],
+      "bursts": 1,
+      "secondary": {
+        "kind": "NONE",
+        "strength_bp": 0,
+        "timing": "NONE",
+        "expires": "NONE",
+        "maximum_instances_per_action": 0,
+        "stacking": "STRONGEST_SAME_EFFECT_REFRESH_NOT_ADD",
+        "does_not_override_committed_boss_targets": true
+      },
+      "barrier_scope": "ANY_DAMAGE",
+      "barrier_expiry": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+      "wounded_condition": {
+        "hp_threshold_bp": 0,
+        "amount_bonus_bp": 0,
+        "evaluated_at": "ACTION_COMMITMENT_COMPLETE_SELECTED_UNION_HP_TOTALS_INCLUDING_FALLEN_MEMBERS"
+      },
+      "native_cost": {
+        "ap": null,
+        "mp": null,
+        "status": "BIND_CURRENT_COMPARABLE_GOLD_COST",
+        "relative_tier": "HIGH",
+        "charge_owner": "EXISTING_NATIVE_RESOLVER_ONCE"
+      },
+      "presentation": {
+        "actor_pose": "root_raise",
+        "cue_key": "FX_GOLD_TITAN_009",
+        "numeric_resolution_event": "EXISTING_COMMITTED_ACTION_IMPACT",
+        "pose_or_audio_never_applies_gameplay": true,
+        "native_animation_binding": null,
+        "native_audio_binding": null
+      },
+      "authorship": "R45 concrete design candidate using unchanged R43 identity and rank-one budget",
+      "approved_for_native_use": false,
+      "source_blueprint": "continuation_r43/TITAN_CHARACTER_BLUEPRINTS.json",
+      "recipe_sha256": "2f9657064f252a55d02c089a5b66d005bb1d48a55d287bc41f018b70daf0212c"
+    },
+    {
+      "id": "GOLD_TITAN_010",
+      "logical_hero_id": "HERO_TITAN_010",
+      "name": "Falling Firmament",
+      "titan_slot": 10,
+      "ability_kind": "PERSONAL_GOLD",
+      "rank_one_budget_bp": 22000,
+      "target_scope": "ONE_ENEMY_UNION",
+      "allocation": "EQUAL",
+      "channels": [
+        {
+          "kind": "MYSTIC_DAMAGE",
+          "weight_bp": 10000
+        }
+      ],
+      "bursts": 1,
+      "secondary": {
+        "kind": "NONE",
+        "strength_bp": 0,
+        "timing": "NONE",
+        "expires": "NONE",
+        "maximum_instances_per_action": 0,
+        "stacking": "STRONGEST_SAME_EFFECT_REFRESH_NOT_ADD",
+        "does_not_override_committed_boss_targets": true
+      },
+      "barrier_scope": "ANY_DAMAGE",
+      "barrier_expiry": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+      "wounded_condition": {
+        "hp_threshold_bp": 3500,
+        "amount_bonus_bp": 2500,
+        "evaluated_at": "ACTION_COMMITMENT_COMPLETE_SELECTED_UNION_HP_TOTALS_INCLUDING_FALLEN_MEMBERS"
+      },
+      "native_cost": {
+        "ap": null,
+        "mp": null,
+        "status": "BIND_CURRENT_COMPARABLE_GOLD_COST",
+        "relative_tier": "HIGH",
+        "charge_owner": "EXISTING_NATIVE_RESOLVER_ONCE"
+      },
+      "presentation": {
+        "actor_pose": "orrery_release",
+        "cue_key": "FX_GOLD_TITAN_010",
+        "numeric_resolution_event": "EXISTING_COMMITTED_ACTION_IMPACT",
+        "pose_or_audio_never_applies_gameplay": true,
+        "native_animation_binding": null,
+        "native_audio_binding": null
+      },
+      "authorship": "R45 concrete design candidate using unchanged R43 identity and rank-one budget",
+      "approved_for_native_use": false,
+      "source_blueprint": "continuation_r43/TITAN_CHARACTER_BLUEPRINTS.json",
+      "recipe_sha256": "66635a5f54d9e9b72a783df941a618ba9c6d3fba3734812ef68c5efadb680654"
+    },
+    {
+      "id": "GOLD_TITAN_011",
+      "logical_hero_id": "HERO_TITAN_011",
+      "name": "Sovereign’s Challenge",
+      "titan_slot": 11,
+      "ability_kind": "PERSONAL_GOLD",
+      "rank_one_budget_bp": 19000,
+      "target_scope": "ONE_ENEMY_UNION",
+      "allocation": "EQUAL",
+      "channels": [
+        {
+          "kind": "PHYSICAL_DAMAGE",
+          "weight_bp": 10000
+        }
+      ],
+      "bursts": 1,
+      "secondary": {
+        "kind": "SLOW",
+        "strength_bp": 1500,
+        "timing": "AFTER_FIRST_SUCCESSFUL_DAMAGE",
+        "expires": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+        "maximum_instances_per_action": 1,
+        "stacking": "STRONGEST_SAME_EFFECT_REFRESH_NOT_ADD",
+        "does_not_override_committed_boss_targets": true
+      },
+      "barrier_scope": "ANY_DAMAGE",
+      "barrier_expiry": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+      "wounded_condition": {
+        "hp_threshold_bp": 0,
+        "amount_bonus_bp": 0,
+        "evaluated_at": "ACTION_COMMITMENT_COMPLETE_SELECTED_UNION_HP_TOTALS_INCLUDING_FALLEN_MEMBERS"
+      },
+      "native_cost": {
+        "ap": null,
+        "mp": null,
+        "status": "BIND_CURRENT_COMPARABLE_GOLD_COST",
+        "relative_tier": "HIGH",
+        "charge_owner": "EXISTING_NATIVE_RESOLVER_ONCE"
+      },
+      "presentation": {
+        "actor_pose": "banner_thrust",
+        "cue_key": "FX_GOLD_TITAN_011",
+        "numeric_resolution_event": "EXISTING_COMMITTED_ACTION_IMPACT",
+        "pose_or_audio_never_applies_gameplay": true,
+        "native_animation_binding": null,
+        "native_audio_binding": null
+      },
+      "authorship": "R45 concrete design candidate using unchanged R43 identity and rank-one budget",
+      "approved_for_native_use": false,
+      "source_blueprint": "continuation_r43/TITAN_CHARACTER_BLUEPRINTS.json",
+      "recipe_sha256": "b8cd6a489e6542a0c9169fbf5cbf1be9a36ca30853b741d32b8b54a0ec3097d8"
+    },
+    {
+      "id": "GOLD_TITAN_012",
+      "logical_hero_id": "HERO_TITAN_012",
+      "name": "Final Horizon",
+      "titan_slot": 12,
+      "ability_kind": "PERSONAL_GOLD",
+      "rank_one_budget_bp": 24000,
+      "target_scope": "ONE_ENEMY_UNION",
+      "allocation": "EQUAL",
+      "channels": [
+        {
+          "kind": "PHYSICAL_DAMAGE",
+          "weight_bp": 5000
+        },
+        {
+          "kind": "MYSTIC_DAMAGE",
+          "weight_bp": 5000
+        }
+      ],
+      "bursts": 1,
+      "secondary": {
+        "kind": "NONE",
+        "strength_bp": 0,
+        "timing": "NONE",
+        "expires": "NONE",
+        "maximum_instances_per_action": 0,
+        "stacking": "STRONGEST_SAME_EFFECT_REFRESH_NOT_ADD",
+        "does_not_override_committed_boss_targets": true
+      },
+      "barrier_scope": "ANY_DAMAGE",
+      "barrier_expiry": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+      "wounded_condition": {
+        "hp_threshold_bp": 0,
+        "amount_bonus_bp": 0,
+        "evaluated_at": "ACTION_COMMITMENT_COMPLETE_SELECTED_UNION_HP_TOTALS_INCLUDING_FALLEN_MEMBERS"
+      },
+      "native_cost": {
+        "ap": null,
+        "mp": null,
+        "status": "BIND_CURRENT_COMPARABLE_GOLD_COST",
+        "relative_tier": "HIGH",
+        "charge_owner": "EXISTING_NATIVE_RESOLVER_ONCE"
+      },
+      "presentation": {
+        "actor_pose": "rift_cut",
+        "cue_key": "FX_GOLD_TITAN_012",
+        "numeric_resolution_event": "EXISTING_COMMITTED_ACTION_IMPACT",
+        "pose_or_audio_never_applies_gameplay": true,
+        "native_animation_binding": null,
+        "native_audio_binding": null
+      },
+      "authorship": "R45 concrete design candidate using unchanged R43 identity and rank-one budget",
+      "approved_for_native_use": false,
+      "source_blueprint": "continuation_r43/TITAN_CHARACTER_BLUEPRINTS.json",
+      "recipe_sha256": "de5492bc0f3e9e774446de739dbf814bd109bf8618c1c1167a846d92695f9ef5"
+    },
+    {
+      "id": "ECHO_TITAN_001",
+      "logical_hero_id": "HERO_TITAN_013",
+      "name": "Sunken Idol Sentinel Echo",
+      "titan_slot": 1,
+      "ability_kind": "TITAN_ECHO",
+      "rank_one_budget_bp": 20000,
+      "target_scope": "ONE_ALLIED_UNION",
+      "allocation": "EQUAL",
+      "channels": [
+        {
+          "kind": "BARRIER",
+          "weight_bp": 10000
+        }
+      ],
+      "bursts": 1,
+      "secondary": {
+        "kind": "NONE",
+        "strength_bp": 0,
+        "timing": "NONE",
+        "expires": "NONE",
+        "maximum_instances_per_action": 0,
+        "stacking": "STRONGEST_SAME_EFFECT_REFRESH_NOT_ADD",
+        "does_not_override_committed_boss_targets": true
+      },
+      "barrier_scope": "ANY_DAMAGE",
+      "barrier_expiry": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+      "wounded_condition": {
+        "hp_threshold_bp": 0,
+        "amount_bonus_bp": 0,
+        "evaluated_at": "ACTION_COMMITMENT_COMPLETE_SELECTED_UNION_HP_TOTALS_INCLUDING_FALLEN_MEMBERS"
+      },
+      "native_cost": {
+        "ap": null,
+        "mp": null,
+        "status": "BIND_CURRENT_COMPARABLE_INVOCATION_COST",
+        "relative_tier": "HIGH",
+        "charge_owner": "EXISTING_NATIVE_RESOLVER_ONCE"
+      },
+      "presentation": {
+        "actor_pose": "summon_release",
+        "cue_key": "FX_ECHO_TITAN_001",
+        "numeric_resolution_event": "EXISTING_COMMITTED_ACTION_IMPACT",
+        "pose_or_audio_never_applies_gameplay": true,
+        "native_animation_binding": null,
+        "native_audio_binding": null,
+        "echo_family_id": "ENEMY_REC_044",
+        "source_idle": "continuation_r43/recovered_titan_art/ENEMY_REC_044/ENEMY_REC_044_IDLE.png",
+        "source_attack": "continuation_r43/recovered_titan_art/ENEMY_REC_044/ENEMY_REC_044_ATTACK.png",
+        "visual_echo_has_no_independent_turn_or_reward": true
+      },
+      "authorship": "R45 friendly echo treatment; existing R43 family/summary, never copied boss stats",
+      "approved_for_native_use": false,
+      "source_blueprint": "continuation_r43/TITAN_ENCOUNTER_BLUEPRINTS.json",
+      "recipe_sha256": "62282f18a669c6da52132cca6875cfd526fe9fc2865f4290fb401f7afabcdac6"
+    },
+    {
+      "id": "ECHO_TITAN_002",
+      "logical_hero_id": "HERO_TITAN_013",
+      "name": "Coralback Siege Crab Echo",
+      "titan_slot": 2,
+      "ability_kind": "TITAN_ECHO",
+      "rank_one_budget_bp": 20000,
+      "target_scope": "ONE_ENEMY_UNION",
+      "allocation": "EQUAL",
+      "channels": [
+        {
+          "kind": "PHYSICAL_DAMAGE",
+          "weight_bp": 10000
+        }
+      ],
+      "bursts": 1,
+      "secondary": {
+        "kind": "NONE",
+        "strength_bp": 0,
+        "timing": "NONE",
+        "expires": "NONE",
+        "maximum_instances_per_action": 0,
+        "stacking": "STRONGEST_SAME_EFFECT_REFRESH_NOT_ADD",
+        "does_not_override_committed_boss_targets": true
+      },
+      "barrier_scope": "ANY_DAMAGE",
+      "barrier_expiry": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+      "wounded_condition": {
+        "hp_threshold_bp": 0,
+        "amount_bonus_bp": 0,
+        "evaluated_at": "ACTION_COMMITMENT_COMPLETE_SELECTED_UNION_HP_TOTALS_INCLUDING_FALLEN_MEMBERS"
+      },
+      "native_cost": {
+        "ap": null,
+        "mp": null,
+        "status": "BIND_CURRENT_COMPARABLE_INVOCATION_COST",
+        "relative_tier": "HIGH",
+        "charge_owner": "EXISTING_NATIVE_RESOLVER_ONCE"
+      },
+      "presentation": {
+        "actor_pose": "summon_release",
+        "cue_key": "FX_ECHO_TITAN_002",
+        "numeric_resolution_event": "EXISTING_COMMITTED_ACTION_IMPACT",
+        "pose_or_audio_never_applies_gameplay": true,
+        "native_animation_binding": null,
+        "native_audio_binding": null,
+        "echo_family_id": "ENEMY_REC_034",
+        "source_idle": "continuation_r43/recovered_titan_art/ENEMY_REC_034/ENEMY_REC_034_IDLE.png",
+        "source_attack": "continuation_r43/recovered_titan_art/ENEMY_REC_034/ENEMY_REC_034_ATTACK.png",
+        "visual_echo_has_no_independent_turn_or_reward": true
+      },
+      "authorship": "R45 friendly echo treatment; existing R43 family/summary, never copied boss stats",
+      "approved_for_native_use": false,
+      "source_blueprint": "continuation_r43/TITAN_ENCOUNTER_BLUEPRINTS.json",
+      "recipe_sha256": "d366cc0d98aa17c74841c96c679068b66e86ed8cd8537d3d948b2d495c1cafd3"
+    },
+    {
+      "id": "ECHO_TITAN_003",
+      "logical_hero_id": "HERO_TITAN_013",
+      "name": "Bogvenom Hydra Echo",
+      "titan_slot": 3,
+      "ability_kind": "TITAN_ECHO",
+      "rank_one_budget_bp": 20000,
+      "target_scope": "ONE_ALLIED_UNION",
+      "allocation": "MISSING_HP",
+      "channels": [
+        {
+          "kind": "HEAL",
+          "weight_bp": 10000
+        }
+      ],
+      "bursts": 1,
+      "secondary": {
+        "kind": "CLEANSE_ONE",
+        "strength_bp": 0,
+        "timing": "BEFORE_HEAL",
+        "expires": "INSTANT",
+        "maximum_instances_per_action": 1,
+        "stacking": "STRONGEST_SAME_EFFECT_REFRESH_NOT_ADD",
+        "does_not_override_committed_boss_targets": true
+      },
+      "barrier_scope": "ANY_DAMAGE",
+      "barrier_expiry": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+      "wounded_condition": {
+        "hp_threshold_bp": 0,
+        "amount_bonus_bp": 0,
+        "evaluated_at": "ACTION_COMMITMENT_COMPLETE_SELECTED_UNION_HP_TOTALS_INCLUDING_FALLEN_MEMBERS"
+      },
+      "native_cost": {
+        "ap": null,
+        "mp": null,
+        "status": "BIND_CURRENT_COMPARABLE_INVOCATION_COST",
+        "relative_tier": "HIGH",
+        "charge_owner": "EXISTING_NATIVE_RESOLVER_ONCE"
+      },
+      "presentation": {
+        "actor_pose": "summon_release",
+        "cue_key": "FX_ECHO_TITAN_003",
+        "numeric_resolution_event": "EXISTING_COMMITTED_ACTION_IMPACT",
+        "pose_or_audio_never_applies_gameplay": true,
+        "native_animation_binding": null,
+        "native_audio_binding": null,
+        "echo_family_id": "ENEMY_REC_043",
+        "source_idle": "continuation_r43/recovered_titan_art/ENEMY_REC_043/ENEMY_REC_043_IDLE.png",
+        "source_attack": "continuation_r43/recovered_titan_art/ENEMY_REC_043/ENEMY_REC_043_ATTACK.png",
+        "visual_echo_has_no_independent_turn_or_reward": true
+      },
+      "authorship": "R45 friendly echo treatment; existing R43 family/summary, never copied boss stats",
+      "approved_for_native_use": false,
+      "source_blueprint": "continuation_r43/TITAN_ENCOUNTER_BLUEPRINTS.json",
+      "recipe_sha256": "084406ca7b7eeb77867d283291a9cf8035f028cb1df94507acebaf6e71f89665"
+    },
+    {
+      "id": "ECHO_TITAN_004",
+      "logical_hero_id": "HERO_TITAN_013",
+      "name": "Tempest Roc Echo",
+      "titan_slot": 4,
+      "ability_kind": "TITAN_ECHO",
+      "rank_one_budget_bp": 20000,
+      "target_scope": "ONE_ENEMY_UNION",
+      "allocation": "EQUAL",
+      "channels": [
+        {
+          "kind": "MYSTIC_DAMAGE",
+          "weight_bp": 10000
+        }
+      ],
+      "bursts": 1,
+      "secondary": {
+        "kind": "NONE",
+        "strength_bp": 0,
+        "timing": "NONE",
+        "expires": "NONE",
+        "maximum_instances_per_action": 0,
+        "stacking": "STRONGEST_SAME_EFFECT_REFRESH_NOT_ADD",
+        "does_not_override_committed_boss_targets": true
+      },
+      "barrier_scope": "ANY_DAMAGE",
+      "barrier_expiry": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+      "wounded_condition": {
+        "hp_threshold_bp": 0,
+        "amount_bonus_bp": 0,
+        "evaluated_at": "ACTION_COMMITMENT_COMPLETE_SELECTED_UNION_HP_TOTALS_INCLUDING_FALLEN_MEMBERS"
+      },
+      "native_cost": {
+        "ap": null,
+        "mp": null,
+        "status": "BIND_CURRENT_COMPARABLE_INVOCATION_COST",
+        "relative_tier": "HIGH",
+        "charge_owner": "EXISTING_NATIVE_RESOLVER_ONCE"
+      },
+      "presentation": {
+        "actor_pose": "summon_release",
+        "cue_key": "FX_ECHO_TITAN_004",
+        "numeric_resolution_event": "EXISTING_COMMITTED_ACTION_IMPACT",
+        "pose_or_audio_never_applies_gameplay": true,
+        "native_animation_binding": null,
+        "native_audio_binding": null,
+        "echo_family_id": "ENEMY_REC_042",
+        "source_idle": "continuation_r43/recovered_titan_art/ENEMY_REC_042/ENEMY_REC_042_IDLE.png",
+        "source_attack": "continuation_r43/recovered_titan_art/ENEMY_REC_042/ENEMY_REC_042_ATTACK.png",
+        "visual_echo_has_no_independent_turn_or_reward": true
+      },
+      "authorship": "R45 friendly echo treatment; existing R43 family/summary, never copied boss stats",
+      "approved_for_native_use": false,
+      "source_blueprint": "continuation_r43/TITAN_ENCOUNTER_BLUEPRINTS.json",
+      "recipe_sha256": "78a2e3dcef38dbded71ccb4cb84f438c8fbad46d3a49e9bc3e670d7a4972aed4"
+    },
+    {
+      "id": "ECHO_TITAN_005",
+      "logical_hero_id": "HERO_TITAN_013",
+      "name": "Sunfire Phoenix Echo",
+      "titan_slot": 5,
+      "ability_kind": "TITAN_ECHO",
+      "rank_one_budget_bp": 20000,
+      "target_scope": "ONE_ALLIED_UNION",
+      "allocation": "MISSING_HP",
+      "channels": [
+        {
+          "kind": "HEAL",
+          "weight_bp": 10000
+        }
+      ],
+      "bursts": 1,
+      "secondary": {
+        "kind": "NONE",
+        "strength_bp": 0,
+        "timing": "NONE",
+        "expires": "NONE",
+        "maximum_instances_per_action": 0,
+        "stacking": "STRONGEST_SAME_EFFECT_REFRESH_NOT_ADD",
+        "does_not_override_committed_boss_targets": true
+      },
+      "barrier_scope": "ANY_DAMAGE",
+      "barrier_expiry": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+      "wounded_condition": {
+        "hp_threshold_bp": 0,
+        "amount_bonus_bp": 0,
+        "evaluated_at": "ACTION_COMMITMENT_COMPLETE_SELECTED_UNION_HP_TOTALS_INCLUDING_FALLEN_MEMBERS"
+      },
+      "native_cost": {
+        "ap": null,
+        "mp": null,
+        "status": "BIND_CURRENT_COMPARABLE_INVOCATION_COST",
+        "relative_tier": "HIGH",
+        "charge_owner": "EXISTING_NATIVE_RESOLVER_ONCE"
+      },
+      "presentation": {
+        "actor_pose": "summon_release",
+        "cue_key": "FX_ECHO_TITAN_005",
+        "numeric_resolution_event": "EXISTING_COMMITTED_ACTION_IMPACT",
+        "pose_or_audio_never_applies_gameplay": true,
+        "native_animation_binding": null,
+        "native_audio_binding": null,
+        "echo_family_id": "ENEMY_REC_056",
+        "source_idle": "continuation_r43/recovered_titan_art/ENEMY_REC_056/ENEMY_REC_056_IDLE.png",
+        "source_attack": "continuation_r43/recovered_titan_art/ENEMY_REC_056/ENEMY_REC_056_ATTACK.png",
+        "visual_echo_has_no_independent_turn_or_reward": true
+      },
+      "authorship": "R45 friendly echo treatment; existing R43 family/summary, never copied boss stats",
+      "approved_for_native_use": false,
+      "source_blueprint": "continuation_r43/TITAN_ENCOUNTER_BLUEPRINTS.json",
+      "recipe_sha256": "dea466516502fd05b32820c4d23d7558e55563ef57c424c0309d415efa85df14"
+    },
+    {
+      "id": "ECHO_TITAN_006",
+      "logical_hero_id": "HERO_TITAN_013",
+      "name": "Gearbanner Castellan Echo",
+      "titan_slot": 6,
+      "ability_kind": "TITAN_ECHO",
+      "rank_one_budget_bp": 20000,
+      "target_scope": "ONE_ENEMY_UNION",
+      "allocation": "EQUAL",
+      "channels": [
+        {
+          "kind": "PHYSICAL_DAMAGE",
+          "weight_bp": 10000
+        }
+      ],
+      "bursts": 1,
+      "secondary": {
+        "kind": "THREAT",
+        "strength_bp": 0,
+        "timing": "AFTER_FIRST_SUCCESSFUL_DAMAGE",
+        "expires": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+        "maximum_instances_per_action": 1,
+        "stacking": "STRONGEST_SAME_EFFECT_REFRESH_NOT_ADD",
+        "does_not_override_committed_boss_targets": true
+      },
+      "barrier_scope": "ANY_DAMAGE",
+      "barrier_expiry": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+      "wounded_condition": {
+        "hp_threshold_bp": 0,
+        "amount_bonus_bp": 0,
+        "evaluated_at": "ACTION_COMMITMENT_COMPLETE_SELECTED_UNION_HP_TOTALS_INCLUDING_FALLEN_MEMBERS"
+      },
+      "native_cost": {
+        "ap": null,
+        "mp": null,
+        "status": "BIND_CURRENT_COMPARABLE_INVOCATION_COST",
+        "relative_tier": "HIGH",
+        "charge_owner": "EXISTING_NATIVE_RESOLVER_ONCE"
+      },
+      "presentation": {
+        "actor_pose": "summon_release",
+        "cue_key": "FX_ECHO_TITAN_006",
+        "numeric_resolution_event": "EXISTING_COMMITTED_ACTION_IMPACT",
+        "pose_or_audio_never_applies_gameplay": true,
+        "native_animation_binding": null,
+        "native_audio_binding": null,
+        "echo_family_id": "ENEMY_REC_031",
+        "source_idle": "continuation_r43/recovered_titan_art/ENEMY_REC_031/ENEMY_REC_031_IDLE.png",
+        "source_attack": "continuation_r43/recovered_titan_art/ENEMY_REC_031/ENEMY_REC_031_ATTACK.png",
+        "visual_echo_has_no_independent_turn_or_reward": true
+      },
+      "authorship": "R45 friendly echo treatment; existing R43 family/summary, never copied boss stats",
+      "approved_for_native_use": false,
+      "source_blueprint": "continuation_r43/TITAN_ENCOUNTER_BLUEPRINTS.json",
+      "recipe_sha256": "04842be81a4e44cd3d53a6e19354446e237c58997a812d3dfbccd641c260c5fe"
+    },
+    {
+      "id": "ECHO_TITAN_007",
+      "logical_hero_id": "HERO_TITAN_013",
+      "name": "Ossuary Wyvern Echo",
+      "titan_slot": 7,
+      "ability_kind": "TITAN_ECHO",
+      "rank_one_budget_bp": 20000,
+      "target_scope": "ONE_ENEMY_UNION",
+      "allocation": "EQUAL",
+      "channels": [
+        {
+          "kind": "PHYSICAL_DAMAGE",
+          "weight_bp": 10000
+        }
+      ],
+      "bursts": 1,
+      "secondary": {
+        "kind": "NONE",
+        "strength_bp": 0,
+        "timing": "NONE",
+        "expires": "NONE",
+        "maximum_instances_per_action": 0,
+        "stacking": "STRONGEST_SAME_EFFECT_REFRESH_NOT_ADD",
+        "does_not_override_committed_boss_targets": true
+      },
+      "barrier_scope": "ANY_DAMAGE",
+      "barrier_expiry": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+      "wounded_condition": {
+        "hp_threshold_bp": 0,
+        "amount_bonus_bp": 0,
+        "evaluated_at": "ACTION_COMMITMENT_COMPLETE_SELECTED_UNION_HP_TOTALS_INCLUDING_FALLEN_MEMBERS"
+      },
+      "native_cost": {
+        "ap": null,
+        "mp": null,
+        "status": "BIND_CURRENT_COMPARABLE_INVOCATION_COST",
+        "relative_tier": "HIGH",
+        "charge_owner": "EXISTING_NATIVE_RESOLVER_ONCE"
+      },
+      "presentation": {
+        "actor_pose": "summon_release",
+        "cue_key": "FX_ECHO_TITAN_007",
+        "numeric_resolution_event": "EXISTING_COMMITTED_ACTION_IMPACT",
+        "pose_or_audio_never_applies_gameplay": true,
+        "native_animation_binding": null,
+        "native_audio_binding": null,
+        "echo_family_id": "ENEMY_REC_033",
+        "source_idle": "continuation_r43/recovered_titan_art/ENEMY_REC_033/ENEMY_REC_033_IDLE.png",
+        "source_attack": "continuation_r43/recovered_titan_art/ENEMY_REC_033/ENEMY_REC_033_ATTACK.png",
+        "visual_echo_has_no_independent_turn_or_reward": true
+      },
+      "authorship": "R45 friendly echo treatment; existing R43 family/summary, never copied boss stats",
+      "approved_for_native_use": false,
+      "source_blueprint": "continuation_r43/TITAN_ENCOUNTER_BLUEPRINTS.json",
+      "recipe_sha256": "1a2f0bb08cac30eb7dc60854c6bdb964f99fb41348aa9bb1267f703e524ade70"
+    },
+    {
+      "id": "ECHO_TITAN_008",
+      "logical_hero_id": "HERO_TITAN_013",
+      "name": "Frosttusk Mammoth Echo",
+      "titan_slot": 8,
+      "ability_kind": "TITAN_ECHO",
+      "rank_one_budget_bp": 20000,
+      "target_scope": "ONE_ALLIED_UNION",
+      "allocation": "EQUAL",
+      "channels": [
+        {
+          "kind": "BARRIER",
+          "weight_bp": 10000
+        }
+      ],
+      "bursts": 1,
+      "secondary": {
+        "kind": "NONE",
+        "strength_bp": 0,
+        "timing": "NONE",
+        "expires": "NONE",
+        "maximum_instances_per_action": 0,
+        "stacking": "STRONGEST_SAME_EFFECT_REFRESH_NOT_ADD",
+        "does_not_override_committed_boss_targets": true
+      },
+      "barrier_scope": "MYSTIC_ONLY",
+      "barrier_expiry": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+      "wounded_condition": {
+        "hp_threshold_bp": 0,
+        "amount_bonus_bp": 0,
+        "evaluated_at": "ACTION_COMMITMENT_COMPLETE_SELECTED_UNION_HP_TOTALS_INCLUDING_FALLEN_MEMBERS"
+      },
+      "native_cost": {
+        "ap": null,
+        "mp": null,
+        "status": "BIND_CURRENT_COMPARABLE_INVOCATION_COST",
+        "relative_tier": "HIGH",
+        "charge_owner": "EXISTING_NATIVE_RESOLVER_ONCE"
+      },
+      "presentation": {
+        "actor_pose": "summon_release",
+        "cue_key": "FX_ECHO_TITAN_008",
+        "numeric_resolution_event": "EXISTING_COMMITTED_ACTION_IMPACT",
+        "pose_or_audio_never_applies_gameplay": true,
+        "native_animation_binding": null,
+        "native_audio_binding": null,
+        "echo_family_id": "ENEMY_REC_060",
+        "source_idle": "continuation_r43/recovered_titan_art/ENEMY_REC_060/ENEMY_REC_060_IDLE.png",
+        "source_attack": "continuation_r43/recovered_titan_art/ENEMY_REC_060/ENEMY_REC_060_ATTACK.png",
+        "visual_echo_has_no_independent_turn_or_reward": true
+      },
+      "authorship": "R45 friendly echo treatment; existing R43 family/summary, never copied boss stats",
+      "approved_for_native_use": false,
+      "source_blueprint": "continuation_r43/TITAN_ENCOUNTER_BLUEPRINTS.json",
+      "recipe_sha256": "60ac151622d139e24e4bd14c7eabc64fe98cd7987c4b33741a32021e33300bf4"
+    },
+    {
+      "id": "ECHO_TITAN_009",
+      "logical_hero_id": "HERO_TITAN_013",
+      "name": "Elder Rootlord Echo",
+      "titan_slot": 9,
+      "ability_kind": "TITAN_ECHO",
+      "rank_one_budget_bp": 20000,
+      "target_scope": "ONE_ALLIED_UNION",
+      "allocation": "MISSING_HP_PLUS_ONE",
+      "channels": [
+        {
+          "kind": "BARRIER",
+          "weight_bp": 10000
+        }
+      ],
+      "bursts": 1,
+      "secondary": {
+        "kind": "NONE",
+        "strength_bp": 0,
+        "timing": "NONE",
+        "expires": "NONE",
+        "maximum_instances_per_action": 0,
+        "stacking": "STRONGEST_SAME_EFFECT_REFRESH_NOT_ADD",
+        "does_not_override_committed_boss_targets": true
+      },
+      "barrier_scope": "ANY_DAMAGE",
+      "barrier_expiry": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+      "wounded_condition": {
+        "hp_threshold_bp": 0,
+        "amount_bonus_bp": 0,
+        "evaluated_at": "ACTION_COMMITMENT_COMPLETE_SELECTED_UNION_HP_TOTALS_INCLUDING_FALLEN_MEMBERS"
+      },
+      "native_cost": {
+        "ap": null,
+        "mp": null,
+        "status": "BIND_CURRENT_COMPARABLE_INVOCATION_COST",
+        "relative_tier": "HIGH",
+        "charge_owner": "EXISTING_NATIVE_RESOLVER_ONCE"
+      },
+      "presentation": {
+        "actor_pose": "summon_release",
+        "cue_key": "FX_ECHO_TITAN_009",
+        "numeric_resolution_event": "EXISTING_COMMITTED_ACTION_IMPACT",
+        "pose_or_audio_never_applies_gameplay": true,
+        "native_animation_binding": null,
+        "native_audio_binding": null,
+        "echo_family_id": "ENEMY_REC_003",
+        "source_idle": "continuation_r43/recovered_titan_art/ENEMY_REC_003/ENEMY_REC_003_IDLE.png",
+        "source_attack": "continuation_r43/recovered_titan_art/ENEMY_REC_003/ENEMY_REC_003_ATTACK.png",
+        "visual_echo_has_no_independent_turn_or_reward": true
+      },
+      "authorship": "R45 friendly echo treatment; existing R43 family/summary, never copied boss stats",
+      "approved_for_native_use": false,
+      "source_blueprint": "continuation_r43/TITAN_ENCOUNTER_BLUEPRINTS.json",
+      "recipe_sha256": "cacd0e893845fe290aae4bf2bc3411251cc379d7f666ec18f471afde6ec618b7"
+    },
+    {
+      "id": "ECHO_TITAN_010",
+      "logical_hero_id": "HERO_TITAN_013",
+      "name": "Prismwatch Oculus Echo",
+      "titan_slot": 10,
+      "ability_kind": "TITAN_ECHO",
+      "rank_one_budget_bp": 20000,
+      "target_scope": "ONE_ENEMY_UNION",
+      "allocation": "EQUAL",
+      "channels": [
+        {
+          "kind": "MYSTIC_DAMAGE",
+          "weight_bp": 10000
+        }
+      ],
+      "bursts": 1,
+      "secondary": {
+        "kind": "NONE",
+        "strength_bp": 0,
+        "timing": "NONE",
+        "expires": "NONE",
+        "maximum_instances_per_action": 0,
+        "stacking": "STRONGEST_SAME_EFFECT_REFRESH_NOT_ADD",
+        "does_not_override_committed_boss_targets": true
+      },
+      "barrier_scope": "ANY_DAMAGE",
+      "barrier_expiry": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+      "wounded_condition": {
+        "hp_threshold_bp": 0,
+        "amount_bonus_bp": 0,
+        "evaluated_at": "ACTION_COMMITMENT_COMPLETE_SELECTED_UNION_HP_TOTALS_INCLUDING_FALLEN_MEMBERS"
+      },
+      "native_cost": {
+        "ap": null,
+        "mp": null,
+        "status": "BIND_CURRENT_COMPARABLE_INVOCATION_COST",
+        "relative_tier": "HIGH",
+        "charge_owner": "EXISTING_NATIVE_RESOLVER_ONCE"
+      },
+      "presentation": {
+        "actor_pose": "summon_release",
+        "cue_key": "FX_ECHO_TITAN_010",
+        "numeric_resolution_event": "EXISTING_COMMITTED_ACTION_IMPACT",
+        "pose_or_audio_never_applies_gameplay": true,
+        "native_animation_binding": null,
+        "native_audio_binding": null,
+        "echo_family_id": "ENEMY_REC_039",
+        "source_idle": "continuation_r43/recovered_titan_art/ENEMY_REC_039/ENEMY_REC_039_IDLE.png",
+        "source_attack": "continuation_r43/recovered_titan_art/ENEMY_REC_039/ENEMY_REC_039_ATTACK.png",
+        "visual_echo_has_no_independent_turn_or_reward": true
+      },
+      "authorship": "R45 friendly echo treatment; existing R43 family/summary, never copied boss stats",
+      "approved_for_native_use": false,
+      "source_blueprint": "continuation_r43/TITAN_ENCOUNTER_BLUEPRINTS.json",
+      "recipe_sha256": "41eaf4593eef70342e06a6d6b6548b43e06e5294bc4931bcf78fb21eb01f2286"
+    },
+    {
+      "id": "ECHO_TITAN_011",
+      "logical_hero_id": "HERO_TITAN_013",
+      "name": "Voidspore Slime Tyrant Echo",
+      "titan_slot": 11,
+      "ability_kind": "TITAN_ECHO",
+      "rank_one_budget_bp": 20000,
+      "target_scope": "ONE_ENEMY_UNION",
+      "allocation": "EQUAL",
+      "channels": [
+        {
+          "kind": "PHYSICAL_DAMAGE",
+          "weight_bp": 10000
+        }
+      ],
+      "bursts": 1,
+      "secondary": {
+        "kind": "SLOW",
+        "strength_bp": 1500,
+        "timing": "AFTER_FIRST_SUCCESSFUL_DAMAGE",
+        "expires": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+        "maximum_instances_per_action": 1,
+        "stacking": "STRONGEST_SAME_EFFECT_REFRESH_NOT_ADD",
+        "does_not_override_committed_boss_targets": true
+      },
+      "barrier_scope": "ANY_DAMAGE",
+      "barrier_expiry": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+      "wounded_condition": {
+        "hp_threshold_bp": 0,
+        "amount_bonus_bp": 0,
+        "evaluated_at": "ACTION_COMMITMENT_COMPLETE_SELECTED_UNION_HP_TOTALS_INCLUDING_FALLEN_MEMBERS"
+      },
+      "native_cost": {
+        "ap": null,
+        "mp": null,
+        "status": "BIND_CURRENT_COMPARABLE_INVOCATION_COST",
+        "relative_tier": "HIGH",
+        "charge_owner": "EXISTING_NATIVE_RESOLVER_ONCE"
+      },
+      "presentation": {
+        "actor_pose": "summon_release",
+        "cue_key": "FX_ECHO_TITAN_011",
+        "numeric_resolution_event": "EXISTING_COMMITTED_ACTION_IMPACT",
+        "pose_or_audio_never_applies_gameplay": true,
+        "native_animation_binding": null,
+        "native_audio_binding": null,
+        "echo_family_id": "ENEMY_REC_069",
+        "source_idle": "continuation_r43/recovered_titan_art/ENEMY_REC_069/ENEMY_REC_069_IDLE.png",
+        "source_attack": "continuation_r43/recovered_titan_art/ENEMY_REC_069/ENEMY_REC_069_ATTACK.png",
+        "visual_echo_has_no_independent_turn_or_reward": true
+      },
+      "authorship": "R45 friendly echo treatment; existing R43 family/summary, never copied boss stats",
+      "approved_for_native_use": false,
+      "source_blueprint": "continuation_r43/TITAN_ENCOUNTER_BLUEPRINTS.json",
+      "recipe_sha256": "ee36175a4404723ca27b9a3ff6a9781a8ea8a41ea9ac2c3519fa3d3dd4db1f82"
+    },
+    {
+      "id": "ECHO_TITAN_012",
+      "logical_hero_id": "HERO_TITAN_013",
+      "name": "Emberjaw Crocodrake Echo",
+      "titan_slot": 12,
+      "ability_kind": "TITAN_ECHO",
+      "rank_one_budget_bp": 20000,
+      "target_scope": "ONE_ENEMY_UNION",
+      "allocation": "EQUAL",
+      "channels": [
+        {
+          "kind": "PHYSICAL_DAMAGE",
+          "weight_bp": 5000
+        },
+        {
+          "kind": "MYSTIC_DAMAGE",
+          "weight_bp": 5000
+        }
+      ],
+      "bursts": 1,
+      "secondary": {
+        "kind": "NONE",
+        "strength_bp": 0,
+        "timing": "NONE",
+        "expires": "NONE",
+        "maximum_instances_per_action": 0,
+        "stacking": "STRONGEST_SAME_EFFECT_REFRESH_NOT_ADD",
+        "does_not_override_committed_boss_targets": true
+      },
+      "barrier_scope": "ANY_DAMAGE",
+      "barrier_expiry": "END_OF_NEXT_COMPLETE_HOSTILE_FORECAST_WINDOW",
+      "wounded_condition": {
+        "hp_threshold_bp": 0,
+        "amount_bonus_bp": 0,
+        "evaluated_at": "ACTION_COMMITMENT_COMPLETE_SELECTED_UNION_HP_TOTALS_INCLUDING_FALLEN_MEMBERS"
+      },
+      "native_cost": {
+        "ap": null,
+        "mp": null,
+        "status": "BIND_CURRENT_COMPARABLE_INVOCATION_COST",
+        "relative_tier": "HIGH",
+        "charge_owner": "EXISTING_NATIVE_RESOLVER_ONCE"
+      },
+      "presentation": {
+        "actor_pose": "summon_release",
+        "cue_key": "FX_ECHO_TITAN_012",
+        "numeric_resolution_event": "EXISTING_COMMITTED_ACTION_IMPACT",
+        "pose_or_audio_never_applies_gameplay": true,
+        "native_animation_binding": null,
+        "native_audio_binding": null,
+        "echo_family_id": "ENEMY_REC_070",
+        "source_idle": "continuation_r43/recovered_titan_art/ENEMY_REC_070/ENEMY_REC_070_IDLE.png",
+        "source_attack": "continuation_r43/recovered_titan_art/ENEMY_REC_070/ENEMY_REC_070_ATTACK.png",
+        "visual_echo_has_no_independent_turn_or_reward": true
+      },
+      "authorship": "R45 friendly echo treatment; existing R43 family/summary, never copied boss stats",
+      "approved_for_native_use": false,
+      "source_blueprint": "continuation_r43/TITAN_ENCOUNTER_BLUEPRINTS.json",
+      "recipe_sha256": "eeff343178956aa92b2134e1dad334a5f6ef295e08587b71863d2596f35239cb"
+    }
+  ]
+}

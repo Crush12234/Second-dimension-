@@ -1,0 +1,172 @@
+{
+  "contentVersion": "GUILD_CITY_017D_1.0",
+  "centerId": "HALL_STAGE_RUINED_ANNEX",
+  "plots": [
+    {
+      "plotId": "GC017D_PLOT_01",
+      "districtId": "DISTRICT_GUILD_CORE",
+      "size": "STANDARD",
+      "initiallyUnlocked": true,
+      "roadConnected": true,
+      "unlockRequirementId": "",
+      "adjacentPlotIds": [
+        "GC017D_PLOT_02",
+        "GC017D_PLOT_05"
+      ]
+    },
+    {
+      "plotId": "GC017D_PLOT_02",
+      "districtId": "DISTRICT_GUILD_CORE",
+      "size": "STANDARD",
+      "initiallyUnlocked": true,
+      "roadConnected": true,
+      "unlockRequirementId": "",
+      "adjacentPlotIds": [
+        "GC017D_PLOT_01",
+        "GC017D_PLOT_03",
+        "GC017D_PLOT_05",
+        "GC017D_PLOT_06"
+      ]
+    },
+    {
+      "plotId": "GC017D_PLOT_03",
+      "districtId": "DISTRICT_GUILD_CORE",
+      "size": "STANDARD",
+      "initiallyUnlocked": true,
+      "roadConnected": true,
+      "unlockRequirementId": "",
+      "adjacentPlotIds": [
+        "GC017D_PLOT_02",
+        "GC017D_PLOT_04",
+        "GC017D_PLOT_06",
+        "GC017D_PLOT_07"
+      ]
+    },
+    {
+      "plotId": "GC017D_PLOT_04",
+      "districtId": "DISTRICT_GUILD_CORE",
+      "size": "LARGE",
+      "initiallyUnlocked": true,
+      "roadConnected": true,
+      "unlockRequirementId": "",
+      "adjacentPlotIds": [
+        "GC017D_PLOT_03",
+        "GC017D_PLOT_07",
+        "GC017D_PLOT_08"
+      ]
+    },
+    {
+      "plotId": "GC017D_PLOT_05",
+      "districtId": "DISTRICT_CRAFT",
+      "size": "STANDARD",
+      "initiallyUnlocked": true,
+      "roadConnected": true,
+      "unlockRequirementId": "",
+      "adjacentPlotIds": [
+        "GC017D_PLOT_01",
+        "GC017D_PLOT_02",
+        "GC017D_PLOT_06",
+        "GC017D_PLOT_09"
+      ]
+    },
+    {
+      "plotId": "GC017D_PLOT_06",
+      "districtId": "DISTRICT_CRAFT",
+      "size": "STANDARD",
+      "initiallyUnlocked": true,
+      "roadConnected": true,
+      "unlockRequirementId": "",
+      "adjacentPlotIds": [
+        "GC017D_PLOT_02",
+        "GC017D_PLOT_03",
+        "GC017D_PLOT_05",
+        "GC017D_PLOT_07",
+        "GC017D_PLOT_09",
+        "GC017D_PLOT_10"
+      ]
+    },
+    {
+      "plotId": "GC017D_PLOT_07",
+      "districtId": "DISTRICT_CARE_COMMONS",
+      "size": "STANDARD",
+      "initiallyUnlocked": false,
+      "roadConnected": true,
+      "unlockRequirementId": "UNLOCK_OPENING_CITY_PROGRESS",
+      "adjacentPlotIds": [
+        "GC017D_PLOT_03",
+        "GC017D_PLOT_04",
+        "GC017D_PLOT_06",
+        "GC017D_PLOT_08",
+        "GC017D_PLOT_10",
+        "GC017D_PLOT_11"
+      ]
+    },
+    {
+      "plotId": "GC017D_PLOT_08",
+      "districtId": "DISTRICT_CARE_COMMONS",
+      "size": "STANDARD",
+      "initiallyUnlocked": false,
+      "roadConnected": true,
+      "unlockRequirementId": "UNLOCK_OPENING_CITY_PROGRESS",
+      "adjacentPlotIds": [
+        "GC017D_PLOT_04",
+        "GC017D_PLOT_07",
+        "GC017D_PLOT_11",
+        "GC017D_PLOT_12"
+      ]
+    },
+    {
+      "plotId": "GC017D_PLOT_09",
+      "districtId": "DISTRICT_KNOWLEDGE",
+      "size": "STANDARD",
+      "initiallyUnlocked": false,
+      "roadConnected": false,
+      "unlockRequirementId": "UNLOCK_OPENING_CITY_PROGRESS",
+      "adjacentPlotIds": [
+        "GC017D_PLOT_05",
+        "GC017D_PLOT_06",
+        "GC017D_PLOT_10"
+      ]
+    },
+    {
+      "plotId": "GC017D_PLOT_10",
+      "districtId": "DISTRICT_KNOWLEDGE",
+      "size": "STANDARD",
+      "initiallyUnlocked": false,
+      "roadConnected": false,
+      "unlockRequirementId": "UNLOCK_OPENING_CITY_PROGRESS",
+      "adjacentPlotIds": [
+        "GC017D_PLOT_06",
+        "GC017D_PLOT_07",
+        "GC017D_PLOT_09",
+        "GC017D_PLOT_11"
+      ]
+    },
+    {
+      "plotId": "GC017D_PLOT_11",
+      "districtId": "DISTRICT_GATE_DEFENSE",
+      "size": "STANDARD",
+      "initiallyUnlocked": false,
+      "roadConnected": false,
+      "unlockRequirementId": "UNLOCK_OPENING_CITY_PROGRESS",
+      "adjacentPlotIds": [
+        "GC017D_PLOT_07",
+        "GC017D_PLOT_08",
+        "GC017D_PLOT_10",
+        "GC017D_PLOT_12"
+      ]
+    },
+    {
+      "plotId": "GC017D_PLOT_12",
+      "districtId": "DISTRICT_GATE_DEFENSE",
+      "size": "LARGE",
+      "initiallyUnlocked": false,
+      "roadConnected": false,
+      "unlockRequirementId": "UNLOCK_OPENING_CITY_PROGRESS",
+      "adjacentPlotIds": [
+        "GC017D_PLOT_08",
+        "GC017D_PLOT_11"
+      ]
+    }
+  ]
+}

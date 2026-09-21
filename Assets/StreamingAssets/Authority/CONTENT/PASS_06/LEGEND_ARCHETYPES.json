@@ -1,0 +1,545 @@
+{
+  "contentVersion": "GOW_PASS06_0.11",
+  "legendArchetypes": [
+    {
+      "id": "LEGEND_ARCHETYPE_RESCUE",
+      "displayName": "Rescue Legend",
+      "historyDescription": "rescues, extractions, and returning for people others abandoned",
+      "momentumWeights": {
+        "MISSIONS": 12,
+        "RESCUES": 20,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_GUARDIAN",
+      "displayName": "Living Shield",
+      "historyDescription": "meaningful interceptions and protection without ownership",
+      "momentumWeights": {
+        "MISSIONS": 14,
+        "RESCUES": 20,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_COMMANDER",
+      "displayName": "Union Commander",
+      "historyDescription": "leadership, withdrawal discipline, and multi-front coordination",
+      "momentumWeights": {
+        "MISSIONS": 16,
+        "RESCUES": 6,
+        "LEADERSHIP": 18,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_LATE_BLOOMER",
+      "displayName": "Late Flame",
+      "historyDescription": "slow beginnings followed by rare development breakthroughs",
+      "momentumWeights": {
+        "MISSIONS": 10,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_CRAFTED_HISTORY",
+      "displayName": "Bearer of a Storied Tool",
+      "historyDescription": "equipment evolution, crafting, and item history",
+      "momentumWeights": {
+        "MISSIONS": 12,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_ABYSS_STEWARD",
+      "displayName": "Abyss Steward",
+      "historyDescription": "responsible extraction, mapping, and moral trial choices",
+      "momentumWeights": {
+        "MISSIONS": 14,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_CIVIC_HERO",
+      "displayName": "Civic Hero",
+      "historyDescription": "public service and Guild Hall crisis response",
+      "momentumWeights": {
+        "MISSIONS": 16,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 18,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_MENTOR",
+      "displayName": "Teacher of the Next Line",
+      "historyDescription": "mentorship, graduation, and successor development",
+      "momentumWeights": {
+        "MISSIONS": 10,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 18
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_SCOUT",
+      "displayName": "Pathfinder",
+      "historyDescription": "hidden routes, survival, and safe return",
+      "momentumWeights": {
+        "MISSIONS": 12,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_HEALER",
+      "displayName": "Keeper of Breath",
+      "historyDescription": "meaningful healing, triage, and recovery",
+      "momentumWeights": {
+        "MISSIONS": 14,
+        "RESCUES": 20,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_RIVAL",
+      "displayName": "Honored Rival",
+      "historyDescription": "competition that improves both people without humiliation",
+      "momentumWeights": {
+        "MISSIONS": 16,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_REFORMER",
+      "displayName": "Reformer",
+      "historyDescription": "repairing prejudice, failed institutions, or broken Union identity",
+      "momentumWeights": {
+        "MISSIONS": 10,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_BRIDGE",
+      "displayName": "Bridge Between Worlds",
+      "historyDescription": "cross-cultural cooperation and world trust",
+      "momentumWeights": {
+        "MISSIONS": 12,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_INVOCATOR",
+      "displayName": "Echo Caller",
+      "historyDescription": "responsible Artifact Invocation and Resonance",
+      "momentumWeights": {
+        "MISSIONS": 14,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_FORMATION",
+      "displayName": "Formation Master",
+      "historyDescription": "formation mastery and Union discipline",
+      "momentumWeights": {
+        "MISSIONS": 16,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_ARCHIVIST",
+      "displayName": "Living Chronicle",
+      "historyDescription": "records, truth, and preserved reasons",
+      "momentumWeights": {
+        "MISSIONS": 10,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_SURVIVOR",
+      "displayName": "Scarred Survivor",
+      "historyDescription": "near-death survival and recovery without glamorizing harm",
+      "momentumWeights": {
+        "MISSIONS": 12,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_DIPLOMAT",
+      "displayName": "Speaker at the Gate",
+      "historyDescription": "negotiation and institutional trust",
+      "momentumWeights": {
+        "MISSIONS": 14,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_FORGE",
+      "displayName": "Forge Heart",
+      "historyDescription": "crafting, repair, and worker protection",
+      "momentumWeights": {
+        "MISSIONS": 16,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_TACTICIAN",
+      "displayName": "Battlefield Reader",
+      "historyDescription": "objective control and enemy-pattern recognition",
+      "momentumWeights": {
+        "MISSIONS": 10,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_REDEEMED",
+      "displayName": "Redeemed Failure",
+      "historyDescription": "accountability and recovery after meaningful failure",
+      "momentumWeights": {
+        "MISSIONS": 12,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_UNION_FOUNDER",
+      "displayName": "Banner Founder",
+      "historyDescription": "persistent Union history and induction of newcomers",
+      "momentumWeights": {
+        "MISSIONS": 14,
+        "RESCUES": 6,
+        "LEADERSHIP": 18,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_CARETAKER",
+      "displayName": "Hall Caretaker",
+      "historyDescription": "daily work that keeps a large guild human",
+      "momentumWeights": {
+        "MISSIONS": 16,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 18,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_MONSTER_FRIEND",
+      "displayName": "Listener to the Other",
+      "historyDescription": "recognizing nonhostile creatures and sentient agency",
+      "momentumWeights": {
+        "MISSIONS": 10,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_COVENANT_WITNESS",
+      "displayName": "Covenant Witness",
+      "historyDescription": "supporting a voluntary Great Summon covenant",
+      "momentumWeights": {
+        "MISSIONS": 12,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_FATE_SCAR",
+      "displayName": "Fate-Scarred",
+      "historyDescription": "turning critical failure into a complex new path",
+      "momentumWeights": {
+        "MISSIONS": 14,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_FATE_BREAK",
+      "displayName": "Fate Breaker",
+      "historyDescription": "critical breakthroughs tied to service rather than vanity",
+      "momentumWeights": {
+        "MISSIONS": 16,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_WORLD_HOME",
+      "displayName": "Keeper of Home",
+      "historyDescription": "maintaining ties to a member’s original community",
+      "momentumWeights": {
+        "MISSIONS": 10,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_RETIREMENT_LEGACY",
+      "displayName": "Legacy Bearer",
+      "historyDescription": "transitioning from combat into teaching or service",
+      "momentumWeights": {
+        "MISSIONS": 12,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 18
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_EMERGENT_HYBRID",
+      "displayName": "Unwritten Path",
+      "historyDescription": "developing a legal unusual hybrid route through play",
+      "momentumWeights": {
+        "MISSIONS": 14,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    }
+  ]
+}

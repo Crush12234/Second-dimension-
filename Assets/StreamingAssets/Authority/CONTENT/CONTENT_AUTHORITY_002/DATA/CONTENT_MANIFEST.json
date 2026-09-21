@@ -1,0 +1,83 @@
+{
+  "packageId": "SECOND_DIMENSION_CONTENT_AUTHORITY_PACK_002_FOR_ZIP21",
+  "contentVersion": "GOW_CONTENT_AUTHORITY_002",
+  "createdDate": "2026-08-16",
+  "baseProject": "SECOND_DIMENSION_GOW_BATTLE_SLICE_021",
+  "baseProjectSha256": "8a69630430d04b050f0c7d940a8a29f0b78bc9e6c33072b87fe985758ed123a4",
+  "counts": {
+    "worldPacks": 30,
+    "signatureRecruits": 300,
+    "protectedCanonActors": 10,
+    "classFoundations": 10,
+    "startingClassesPreserved": 6,
+    "unlockableHybridClasses": 4,
+    "skillTrees": 30,
+    "skillNodes": 360,
+    "weaponFamiliesPreserved": 12,
+    "weapons": 264,
+    "weaponEvolutionPaths": 36,
+    "armorSets": 24,
+    "armorPieces": 96,
+    "offhands": 36,
+    "accessories": 72,
+    "craftingRecipes": 228,
+    "forecastTemplates": 72,
+    "lootTables": 120,
+    "facilityContentHooks": 30,
+    "existingFacilitiesReferenced": 19,
+    "schemas": 20
+  },
+  "categoryBreakdown": {
+    "signatureRecruitRoles": {
+      "MARTIAL_FRONTLINE_A": 30,
+      "MARTIAL_FRONTLINE_B": 30,
+      "MYSTIC_RESTORATION_SUPPORT_A": 30,
+      "MYSTIC_RESTORATION_SUPPORT_B": 30,
+      "HYBRID_UNUSUAL_A": 30,
+      "HYBRID_UNUSUAL_B": 30,
+      "NATURAL_UNION_LEADER": 30,
+      "LATE_BLOOMER": 30,
+      "CULTURAL_ODDBALL": 30,
+      "SECRET_CONDITION_HEAVY": 30
+    },
+    "skillTreeCategories": {
+      "WEAPON": 12,
+      "MYSTIC": 8,
+      "ROLE": 10
+    },
+    "weaponsPerFamily": {
+      "WEAPON_FAMILY_SWORD": 22,
+      "WEAPON_FAMILY_GREAT_WEAPON": 22,
+      "WEAPON_FAMILY_AXE": 22,
+      "WEAPON_FAMILY_SPEAR_POLEARM": 22,
+      "WEAPON_FAMILY_BOW": 22,
+      "WEAPON_FAMILY_DAGGER": 22,
+      "WEAPON_FAMILY_SHIELD": 22,
+      "WEAPON_FAMILY_GAUNTLET": 22,
+      "WEAPON_FAMILY_STAFF": 22,
+      "WEAPON_FAMILY_FOCUS": 22,
+      "WEAPON_FAMILY_ENGINEERING_TOOL": 22,
+      "WEAPON_FAMILY_HYBRID_RELIC_WEAPON": 22
+    }
+  },
+  "locks": [
+    "ZIP 21 remains the visual and battle-presentation baseline.",
+    "No movement grid, manual tile placement, or individual Art command in Standard mode.",
+    "All normal recruits are manually equipable; Kael is not.",
+    "Weapon Arts follow the equipped fixed weapon family and improve through meaningful use.",
+    "Mixed forecasts support Combat, Mystic, Restoration, Guard, Support, and Tactical roles together.",
+    "Equipment drops and committed reward reveal are required.",
+    "Founders remain independent canon actors and are not counted among normal Signature Recruits."
+  ],
+  "validationStatus": "STATIC_CONTENT_VALIDATED",
+  "unityStatus": "NOT_COMPILED_OR_RUN_IN_THIS_WORKSPACE",
+  "validation": {
+    "contentValidator": "TOOLS/validate_content_authority_002.py",
+    "jsonSchemaDraft": "2020-12",
+    "schemaFiles": 20,
+    "schemaValidationStatus": "PASS",
+    "validatedDate": "2026-08-16",
+    "unityCompileStatus": "NOT_RUN_IN_THIS_WORKSPACE",
+    "unityTestStatus": "NOT_RUN_IN_THIS_WORKSPACE"
+  }
+}

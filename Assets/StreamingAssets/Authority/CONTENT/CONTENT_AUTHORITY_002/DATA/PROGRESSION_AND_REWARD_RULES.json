@@ -1,0 +1,92 @@
+{
+  "contentVersion": "GOW_CONTENT_AUTHORITY_002",
+  "rules": [
+    {
+      "id": "RULE_UNION_COMMAND_ONLY",
+      "title": "Union Forecast command law",
+      "statements": [
+        "Standard mode offers 3–6 complete contextual Union Forecasts per active Union.",
+        "The player selects the Union plan, target, and tactical intent—not each member's exact Art.",
+        "Predicted member actions, AP, personal MP, targets, effects, risks, and fallbacks are visible but never clickable."
+      ]
+    },
+    {
+      "id": "RULE_MIXED_FORECASTS",
+      "title": "Mixed-role Union behavior",
+      "statements": [
+        "A sword user, axe user, spear user, mage, healer, and tank may all contribute different legal Arts to one complete forecast.",
+        "Use Combat Arts is an umbrella intent: each eligible member resolves an Art from their equipped weapon-family tree.",
+        "Mixed forecasts may combine weapon Arts, offensive Mystics, healing, support, guarding, provocation, formation, scouting, or objectives."
+      ]
+    },
+    {
+      "id": "RULE_LEARN_BY_USE",
+      "title": "Meaningful-use growth",
+      "statements": [
+        "Character Growth XP advances character level and class-directed stats.",
+        "Art discovery and mastery advance only when the relevant Art, tree, weapon family, Mystic school, healing behavior, or defensive behavior has a meaningful effect.",
+        "Full-health healing, harmless wards, trivial-enemy farming, menu reopening, and repeated no-effect actions grant no Art progress.",
+        "Early deterministic breakthroughs may occur after prerequisites; discovery becomes guaranteed at 100 percent."
+      ]
+    },
+    {
+      "id": "RULE_FIXED_WEAPON_IDENTITY",
+      "title": "Fixed weapon-family identity",
+      "statements": [
+        "Every normal Signature Recruit has one fixed native weapon family.",
+        "The player may equip any owned weapon within that family and fully controls all normal recruit equipment.",
+        "Equipping the matching family makes learned weapon Arts legal; unequipping it preserves mastery but removes those Arts from legal forecast pools.",
+        "Exceptional canon or story actors may use separate authority, but Codex may not broaden every recruit to every animation family."
+      ]
+    },
+    {
+      "id": "RULE_REWARDS_AND_DROPS",
+      "title": "Battle and mission rewards",
+      "statements": [
+        "Terminal rewards may include Character Growth XP, Guild Treasury XP, Hall Enhancement XP, Art growth earned during resolution, weapons, armor, offhands, accessories, materials, blueprints, and special found-only relics.",
+        "Rewards are committed once from an authoritative seed. Reopening the result screen cannot reroll equipment.",
+        "Equipment enters Guild inventory; auto-equip is opt-in, reversible, and respects item and slot locks."
+      ]
+    },
+    {
+      "id": "RULE_CITY_XP_LOOP",
+      "title": "City and Guild progression",
+      "statements": [
+        "Character Growth XP, Guild Treasury XP, and Hall Enhancement XP remain separate ledgers.",
+        "Guild Treasury XP and materials fund the existing Hall facilities and city improvements.",
+        "Facilities improve recruitment, training visibility, crafting, recovery, research, operations, and mastery challenges, but never grant high-tier Arts without meaningful use."
+      ]
+    },
+    {
+      "id": "RULE_KAEL",
+      "title": "Kael canon exception",
+      "statements": [
+        "Kael is not one of the 300 Signature Recruits and is never a normal applicant.",
+        "When unlocked through approved story or code authority, Kael is a one-person Union with 300/300 HP, zero normal stats, no weapon, no armor, and no conventional progression.",
+        "True Reflection resolves automatically: incoming 30 damage, restore 30 HP, reflect 30 damage. It is not defense, lifesteal, a random counter, or an equipment affix."
+      ]
+    }
+  ],
+  "numericTuning": {
+    "normalCharacterLevelCap": 100,
+    "skillTreeCount": 30,
+    "nodesPerTree": 12,
+    "weaponProgressionTiers": [
+      "TRAINING",
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "GODLY"
+    ],
+    "signatureRecruitCount": 300,
+    "protectedCanonActorCount": 10,
+    "worldPackCount": 30,
+    "normalUnionMemberLimit": 5,
+    "battlefieldPresentationCapacity": {
+      "alliedUnions": 10,
+      "enemyUnions": 10
+    }
+  }
+}

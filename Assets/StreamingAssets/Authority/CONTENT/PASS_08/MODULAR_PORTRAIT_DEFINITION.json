@@ -1,0 +1,181 @@
+{
+  "contentVersion": "GOW_PASS08_0.13",
+  "id": "MODULAR_RECRUIT_PORTRAIT_V1",
+  "canvas": [
+    1024,
+    1024
+  ],
+  "thumbnail": [
+    256,
+    256
+  ],
+  "layers": [
+    {
+      "id": "L01_BASE_RACE",
+      "name": "race base",
+      "order": 1,
+      "required": true
+    },
+    {
+      "id": "L02_BUILD",
+      "name": "body/build",
+      "order": 2,
+      "required": true
+    },
+    {
+      "id": "L03_FACE",
+      "name": "face shape",
+      "order": 3,
+      "required": true
+    },
+    {
+      "id": "L04_SKIN",
+      "name": "skin/fur/scales",
+      "order": 4,
+      "required": true
+    },
+    {
+      "id": "L05_EYES",
+      "name": "eyes",
+      "order": 5,
+      "required": true
+    },
+    {
+      "id": "L06_BROWS",
+      "name": "eyebrows",
+      "order": 6,
+      "required": true
+    },
+    {
+      "id": "L07_EARS_HORNS",
+      "name": "ears/horns",
+      "order": 7,
+      "required": false
+    },
+    {
+      "id": "L08_HAIR_BACK",
+      "name": "hair back",
+      "order": 8,
+      "required": false
+    },
+    {
+      "id": "L09_FACIAL_HAIR",
+      "name": "facial hair",
+      "order": 9,
+      "required": false
+    },
+    {
+      "id": "L10_MARKINGS",
+      "name": "markings",
+      "order": 10,
+      "required": false
+    },
+    {
+      "id": "L11_SCARS",
+      "name": "scars",
+      "order": 11,
+      "required": false
+    },
+    {
+      "id": "L12_OUTFIT",
+      "name": "outfit",
+      "order": 12,
+      "required": true
+    },
+    {
+      "id": "L13_ARMOR",
+      "name": "armor overlay",
+      "order": 13,
+      "required": false
+    },
+    {
+      "id": "L14_HAIR_FRONT",
+      "name": "hair front",
+      "order": 14,
+      "required": false
+    },
+    {
+      "id": "L15_ACCESSORY",
+      "name": "accessories",
+      "order": 15,
+      "required": false
+    },
+    {
+      "id": "L16_WEAPON",
+      "name": "weapon silhouette",
+      "order": 16,
+      "required": false
+    },
+    {
+      "id": "L17_EXPRESSION",
+      "name": "expression",
+      "order": 17,
+      "required": true
+    },
+    {
+      "id": "L18_INJURY",
+      "name": "injury overlay",
+      "order": 18,
+      "required": false
+    },
+    {
+      "id": "L19_TURNING_POINT",
+      "name": "Turning Point detail",
+      "order": 19,
+      "required": false
+    },
+    {
+      "id": "L20_LEGEND",
+      "name": "Emergent Legend detail",
+      "order": 20,
+      "required": false
+    },
+    {
+      "id": "L21_LIGHT",
+      "name": "lighting",
+      "order": 21,
+      "required": true
+    },
+    {
+      "id": "L22_WORLD_FX",
+      "name": "world/environment effect",
+      "order": 22,
+      "required": false
+    }
+  ],
+  "seed": "visualSeed derived from canonical recruit stable ID and portrait content version using SHA-256 then PCG32",
+  "compatibilityTags": [
+    "race",
+    "body",
+    "face",
+    "earType",
+    "hornType",
+    "hairSocket",
+    "armorWeight",
+    "weaponFamily",
+    "culture",
+    "ageBand"
+  ],
+  "palette": "Pre-authored palettes; deterministic selection; no runtime generative AI",
+  "expressions": [
+    "neutral",
+    "focused",
+    "happy",
+    "angry",
+    "worried",
+    "hurt",
+    "surprised",
+    "proud"
+  ],
+  "cache": {
+    "fullPortraits": 24,
+    "thumbnails": 160,
+    "eviction": "LRU presentation-only; stable regeneration from visualSeed"
+  },
+  "repetitionGuards": [
+    "No identical face+hair+outfit within current Applicant Board",
+    "At least 3 major silhouette dimensions differ among adjacent recruits",
+    "Signature recruits bypass modular face stack and use bespoke authority"
+  ],
+  "equipmentLimit": "Portrait shows broad weapon/armor category and key signature items; exact inventory icon remains canonical source of truth."
+}

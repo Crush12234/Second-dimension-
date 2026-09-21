@@ -1,0 +1,1596 @@
+{
+  "packs": [
+    {
+      "packId": "ENEMYPACK020_SKYHOME",
+      "worldId": "SKYHOME",
+      "displayName": "Skyhome and the First City Encounter Pack",
+      "archetypes": [
+        {
+          "archetypeId": "ENEMY020_SKYHOME_01",
+          "displayName": "Gate Gnawer Vanguard",
+          "worldId": "SKYHOME",
+          "tacticalRole": "ASSAULT",
+          "preferredWeaponFamilies": [
+            "Sword"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "BALANCED_LINE",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express assault behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 1,
+          "maximumTier": 2,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_SKYHOME",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_SKYHOME_02",
+          "displayName": "Outer-Road Skirmishers",
+          "worldId": "SKYHOME",
+          "tacticalRole": "BREAK",
+          "preferredWeaponFamilies": [
+            "Axe"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "WEDGE",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express break behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 1,
+          "maximumTier": 2,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_SKYHOME",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_SKYHOME_03",
+          "displayName": "Saboteur Sappers",
+          "worldId": "SKYHOME",
+          "tacticalRole": "INTERCEPT",
+          "preferredWeaponFamilies": [
+            "Spear"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "SHIELD_WALL",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express intercept behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 1,
+          "maximumTier": 3,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_SKYHOME",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_SKYHOME_04",
+          "displayName": "Unstable Gate Mystics",
+          "worldId": "SKYHOME",
+          "tacticalRole": "RANGED",
+          "preferredWeaponFamilies": [
+            "Bow"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "SKIRMISH",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express ranged behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 2,
+          "maximumTier": 3,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_SKYHOME",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_SKYHOME_05",
+          "displayName": "Breach Guards",
+          "worldId": "SKYHOME",
+          "tacticalRole": "FLANK",
+          "preferredWeaponFamilies": [
+            "Dagger"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "ARC",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express flank behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 2,
+          "maximumTier": 4,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_SKYHOME",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_SKYHOME_06",
+          "displayName": "Raid Medics",
+          "worldId": "SKYHOME",
+          "tacticalRole": "MYSTIC_SUPPORT",
+          "preferredWeaponFamilies": [
+            "Staff"
+          ],
+          "artCategories": [
+            "Mystic/Support"
+          ],
+          "formation": "INTERCEPT",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express mystic support behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 2,
+          "maximumTier": 4,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_SKYHOME",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_SKYHOME_07",
+          "displayName": "Signal Cutters",
+          "worldId": "SKYHOME",
+          "tacticalRole": "GUARD",
+          "preferredWeaponFamilies": [
+            "Shield"
+          ],
+          "artCategories": [
+            "Guard/Warding"
+          ],
+          "formation": "SUPPORT_WEB",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express guard behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 3,
+          "maximumTier": 5,
+          "canSurrender": false,
+          "civilianRisk": "HIGH",
+          "lootThemeId": "LOOT020_SKYHOME",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_SKYHOME_08",
+          "displayName": "Civic Predators",
+          "worldId": "SKYHOME",
+          "tacticalRole": "TACTICAL",
+          "preferredWeaponFamilies": [
+            "Engineering"
+          ],
+          "artCategories": [
+            "Engineering/Support"
+          ],
+          "formation": "BREACH_COLUMN",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express tactical behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 3,
+          "maximumTier": 5,
+          "canSurrender": false,
+          "civilianRisk": "HIGH",
+          "lootThemeId": "LOOT020_SKYHOME",
+          "noRacewideEvilFraming": true
+        }
+      ]
+    },
+    {
+      "packId": "ENEMYPACK020_BEAST",
+      "worldId": "WORLD_BEASTKIN_003",
+      "displayName": "Beastkin Territories Encounter Pack",
+      "archetypes": [
+        {
+          "archetypeId": "ENEMY020_BEAST_01",
+          "displayName": "Wolfroad Scouts",
+          "worldId": "WORLD_BEASTKIN_003",
+          "tacticalRole": "ASSAULT",
+          "preferredWeaponFamilies": [
+            "Sword"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "BALANCED_LINE",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express assault behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 1,
+          "maximumTier": 2,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_BEAST",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_BEAST_02",
+          "displayName": "Cat-Sun Duelists",
+          "worldId": "WORLD_BEASTKIN_003",
+          "tacticalRole": "BREAK",
+          "preferredWeaponFamilies": [
+            "Axe"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "WEDGE",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express break behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 1,
+          "maximumTier": 2,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_BEAST",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_BEAST_03",
+          "displayName": "Bearroot Guards",
+          "worldId": "WORLD_BEASTKIN_003",
+          "tacticalRole": "INTERCEPT",
+          "preferredWeaponFamilies": [
+            "Spear"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "SHIELD_WALL",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express intercept behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 1,
+          "maximumTier": 3,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_BEAST",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_BEAST_04",
+          "displayName": "Skyfeather Archers",
+          "worldId": "WORLD_BEASTKIN_003",
+          "tacticalRole": "RANGED",
+          "preferredWeaponFamilies": [
+            "Bow"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "SKIRMISH",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express ranged behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 2,
+          "maximumTier": 3,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_BEAST",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_BEAST_05",
+          "displayName": "Foxfire Mystics",
+          "worldId": "WORLD_BEASTKIN_003",
+          "tacticalRole": "FLANK",
+          "preferredWeaponFamilies": [
+            "Dagger"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "ARC",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express flank behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 2,
+          "maximumTier": 4,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_BEAST",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_BEAST_06",
+          "displayName": "Collar-Maker Hunters",
+          "worldId": "WORLD_BEASTKIN_003",
+          "tacticalRole": "MYSTIC_SUPPORT",
+          "preferredWeaponFamilies": [
+            "Staff"
+          ],
+          "artCategories": [
+            "Mystic/Support"
+          ],
+          "formation": "INTERCEPT",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express mystic support behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 2,
+          "maximumTier": 4,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_BEAST",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_BEAST_07",
+          "displayName": "Wild Council Wardens",
+          "worldId": "WORLD_BEASTKIN_003",
+          "tacticalRole": "GUARD",
+          "preferredWeaponFamilies": [
+            "Shield"
+          ],
+          "artCategories": [
+            "Guard/Warding"
+          ],
+          "formation": "SUPPORT_WEB",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express guard behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 3,
+          "maximumTier": 5,
+          "canSurrender": false,
+          "civilianRisk": "HIGH",
+          "lootThemeId": "LOOT020_BEAST",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_BEAST_08",
+          "displayName": "Golden Cage Enforcers",
+          "worldId": "WORLD_BEASTKIN_003",
+          "tacticalRole": "TACTICAL",
+          "preferredWeaponFamilies": [
+            "Engineering"
+          ],
+          "artCategories": [
+            "Engineering/Support"
+          ],
+          "formation": "BREACH_COLUMN",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express tactical behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 3,
+          "maximumTier": 5,
+          "canSurrender": false,
+          "civilianRisk": "HIGH",
+          "lootThemeId": "LOOT020_BEAST",
+          "noRacewideEvilFraming": true
+        }
+      ]
+    },
+    {
+      "packId": "ENEMYPACK020_BUNNY",
+      "worldId": "WORLD_BUNNY_006",
+      "displayName": "Bunny Trade Nations Encounter Pack",
+      "archetypes": [
+        {
+          "archetypeId": "ENEMY020_BUNNY_01",
+          "displayName": "Roadbell Couriers",
+          "worldId": "WORLD_BUNNY_006",
+          "tacticalRole": "ASSAULT",
+          "preferredWeaponFamilies": [
+            "Sword"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "BALANCED_LINE",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express assault behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 1,
+          "maximumTier": 2,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_BUNNY",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_BUNNY_02",
+          "displayName": "Golden Warren Guards",
+          "worldId": "WORLD_BUNNY_006",
+          "tacticalRole": "BREAK",
+          "preferredWeaponFamilies": [
+            "Axe"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "WEDGE",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express break behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 1,
+          "maximumTier": 2,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_BUNNY",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_BUNNY_03",
+          "displayName": "Orchard Port Rangers",
+          "worldId": "WORLD_BUNNY_006",
+          "tacticalRole": "INTERCEPT",
+          "preferredWeaponFamilies": [
+            "Spear"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "SHIELD_WALL",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express intercept behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 1,
+          "maximumTier": 3,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_BUNNY",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_BUNNY_04",
+          "displayName": "Free Basket Medics",
+          "worldId": "WORLD_BUNNY_006",
+          "tacticalRole": "RANGED",
+          "preferredWeaponFamilies": [
+            "Bow"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "SKIRMISH",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express ranged behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 2,
+          "maximumTier": 3,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_BUNNY",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_BUNNY_05",
+          "displayName": "Ledger Mages",
+          "worldId": "WORLD_BUNNY_006",
+          "tacticalRole": "FLANK",
+          "preferredWeaponFamilies": [
+            "Dagger"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "ARC",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express flank behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 2,
+          "maximumTier": 4,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_BUNNY",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_BUNNY_06",
+          "displayName": "Salt-Hoard Mercenaries",
+          "worldId": "WORLD_BUNNY_006",
+          "tacticalRole": "MYSTIC_SUPPORT",
+          "preferredWeaponFamilies": [
+            "Staff"
+          ],
+          "artCategories": [
+            "Mystic/Support"
+          ],
+          "formation": "INTERCEPT",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express mystic support behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 2,
+          "maximumTier": 4,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_BUNNY",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_BUNNY_07",
+          "displayName": "Smiling Auction Enforcers",
+          "worldId": "WORLD_BUNNY_006",
+          "tacticalRole": "GUARD",
+          "preferredWeaponFamilies": [
+            "Shield"
+          ],
+          "artCategories": [
+            "Guard/Warding"
+          ],
+          "formation": "SUPPORT_WEB",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express guard behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 3,
+          "maximumTier": 5,
+          "canSurrender": false,
+          "civilianRisk": "HIGH",
+          "lootThemeId": "LOOT020_BUNNY",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_BUNNY_08",
+          "displayName": "Open Market Wardens",
+          "worldId": "WORLD_BUNNY_006",
+          "tacticalRole": "TACTICAL",
+          "preferredWeaponFamilies": [
+            "Engineering"
+          ],
+          "artCategories": [
+            "Engineering/Support"
+          ],
+          "formation": "BREACH_COLUMN",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express tactical behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 3,
+          "maximumTier": 5,
+          "canSurrender": false,
+          "civilianRisk": "HIGH",
+          "lootThemeId": "LOOT020_BUNNY",
+          "noRacewideEvilFraming": true
+        }
+      ]
+    },
+    {
+      "packId": "ENEMYPACK020_DARKELF",
+      "worldId": "WORLD_DARK_ELF_005",
+      "displayName": "Dark Elf Territories Encounter Pack",
+      "archetypes": [
+        {
+          "archetypeId": "ENEMY020_DARKELF_01",
+          "displayName": "Veil-City Blades",
+          "worldId": "WORLD_DARK_ELF_005",
+          "tacticalRole": "ASSAULT",
+          "preferredWeaponFamilies": [
+            "Sword"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "BALANCED_LINE",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express assault behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 1,
+          "maximumTier": 2,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_DARKELF",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_DARKELF_02",
+          "displayName": "Silverquiet Archers",
+          "worldId": "WORLD_DARK_ELF_005",
+          "tacticalRole": "BREAK",
+          "preferredWeaponFamilies": [
+            "Axe"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "WEDGE",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express break behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 1,
+          "maximumTier": 2,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_DARKELF",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_DARKELF_03",
+          "displayName": "Blackroot Wardens",
+          "worldId": "WORLD_DARK_ELF_005",
+          "tacticalRole": "INTERCEPT",
+          "preferredWeaponFamilies": [
+            "Spear"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "SHIELD_WALL",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express intercept behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 1,
+          "maximumTier": 3,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_DARKELF",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_DARKELF_04",
+          "displayName": "Lanternless Scouts",
+          "worldId": "WORLD_DARK_ELF_005",
+          "tacticalRole": "RANGED",
+          "preferredWeaponFamilies": [
+            "Bow"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "SKIRMISH",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express ranged behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 2,
+          "maximumTier": 3,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_DARKELF",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_DARKELF_05",
+          "displayName": "Knife-Library Mystics",
+          "worldId": "WORLD_DARK_ELF_005",
+          "tacticalRole": "FLANK",
+          "preferredWeaponFamilies": [
+            "Dagger"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "ARC",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express flank behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 2,
+          "maximumTier": 4,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_DARKELF",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_DARKELF_06",
+          "displayName": "Peace Regent Enforcers",
+          "worldId": "WORLD_DARK_ELF_005",
+          "tacticalRole": "MYSTIC_SUPPORT",
+          "preferredWeaponFamilies": [
+            "Staff"
+          ],
+          "artCategories": [
+            "Mystic/Support"
+          ],
+          "formation": "INTERCEPT",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express mystic support behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 2,
+          "maximumTier": 4,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_DARKELF",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_DARKELF_07",
+          "displayName": "Gentle Knife Healers",
+          "worldId": "WORLD_DARK_ELF_005",
+          "tacticalRole": "GUARD",
+          "preferredWeaponFamilies": [
+            "Shield"
+          ],
+          "artCategories": [
+            "Guard/Warding"
+          ],
+          "formation": "SUPPORT_WEB",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express guard behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 3,
+          "maximumTier": 5,
+          "canSurrender": false,
+          "civilianRisk": "HIGH",
+          "lootThemeId": "LOOT020_DARKELF",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_DARKELF_08",
+          "displayName": "Open Archive Rebels",
+          "worldId": "WORLD_DARK_ELF_005",
+          "tacticalRole": "TACTICAL",
+          "preferredWeaponFamilies": [
+            "Engineering"
+          ],
+          "artCategories": [
+            "Engineering/Support"
+          ],
+          "formation": "BREACH_COLUMN",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express tactical behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 3,
+          "maximumTier": 5,
+          "canSurrender": false,
+          "civilianRisk": "HIGH",
+          "lootThemeId": "LOOT020_DARKELF",
+          "noRacewideEvilFraming": true
+        }
+      ]
+    },
+    {
+      "packId": "ENEMYPACK020_DEMON",
+      "worldId": "WORLD_DEMON_004",
+      "displayName": "Demon Realms Encounter Pack",
+      "archetypes": [
+        {
+          "archetypeId": "ENEMY020_DEMON_01",
+          "displayName": "Contract Knights",
+          "worldId": "WORLD_DEMON_004",
+          "tacticalRole": "ASSAULT",
+          "preferredWeaponFamilies": [
+            "Sword"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "BALANCED_LINE",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express assault behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 1,
+          "maximumTier": 2,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_DEMON",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_DEMON_02",
+          "displayName": "Crimson Librarians",
+          "worldId": "WORLD_DEMON_004",
+          "tacticalRole": "BREAK",
+          "preferredWeaponFamilies": [
+            "Axe"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "WEDGE",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express break behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 1,
+          "maximumTier": 2,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_DEMON",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_DEMON_03",
+          "displayName": "Thorn-Crown Duelists",
+          "worldId": "WORLD_DEMON_004",
+          "tacticalRole": "INTERCEPT",
+          "preferredWeaponFamilies": [
+            "Spear"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "SHIELD_WALL",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express intercept behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 1,
+          "maximumTier": 3,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_DEMON",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_DEMON_04",
+          "displayName": "Dreamglass Mystics",
+          "worldId": "WORLD_DEMON_004",
+          "tacticalRole": "RANGED",
+          "preferredWeaponFamilies": [
+            "Bow"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "SKIRMISH",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express ranged behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 2,
+          "maximumTier": 3,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_DEMON",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_DEMON_05",
+          "displayName": "Ember Monks",
+          "worldId": "WORLD_DEMON_004",
+          "tacticalRole": "FLANK",
+          "preferredWeaponFamilies": [
+            "Dagger"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "ARC",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express flank behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 2,
+          "maximumTier": 4,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_DEMON",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_DEMON_06",
+          "displayName": "Living-Signature Bailiffs",
+          "worldId": "WORLD_DEMON_004",
+          "tacticalRole": "MYSTIC_SUPPORT",
+          "preferredWeaponFamilies": [
+            "Staff"
+          ],
+          "artCategories": [
+            "Mystic/Support"
+          ],
+          "formation": "INTERCEPT",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express mystic support behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 2,
+          "maximumTier": 4,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_DEMON",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_DEMON_07",
+          "displayName": "Mercy Index Healers",
+          "worldId": "WORLD_DEMON_004",
+          "tacticalRole": "GUARD",
+          "preferredWeaponFamilies": [
+            "Shield"
+          ],
+          "artCategories": [
+            "Guard/Warding"
+          ],
+          "formation": "SUPPORT_WEB",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express guard behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 3,
+          "maximumTier": 5,
+          "canSurrender": false,
+          "civilianRisk": "HIGH",
+          "lootThemeId": "LOOT020_DEMON",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_DEMON_08",
+          "displayName": "Red Judge Guard",
+          "worldId": "WORLD_DEMON_004",
+          "tacticalRole": "TACTICAL",
+          "preferredWeaponFamilies": [
+            "Engineering"
+          ],
+          "artCategories": [
+            "Engineering/Support"
+          ],
+          "formation": "BREACH_COLUMN",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express tactical behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 3,
+          "maximumTier": 5,
+          "canSurrender": false,
+          "civilianRisk": "HIGH",
+          "lootThemeId": "LOOT020_DEMON",
+          "noRacewideEvilFraming": true
+        }
+      ]
+    },
+    {
+      "packId": "ENEMYPACK020_DOG",
+      "worldId": "WORLD_DOG_007",
+      "displayName": "Dog Tribe Frontiers Encounter Pack",
+      "archetypes": [
+        {
+          "archetypeId": "ENEMY020_DOG_01",
+          "displayName": "Stormpaw Rangers",
+          "worldId": "WORLD_DOG_007",
+          "tacticalRole": "ASSAULT",
+          "preferredWeaponFamilies": [
+            "Sword"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "BALANCED_LINE",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express assault behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 1,
+          "maximumTier": 2,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_DOG",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_DOG_02",
+          "displayName": "Oathpost Shields",
+          "worldId": "WORLD_DOG_007",
+          "tacticalRole": "BREAK",
+          "preferredWeaponFamilies": [
+            "Axe"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "WEDGE",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express break behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 1,
+          "maximumTier": 2,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_DOG",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_DOG_03",
+          "displayName": "Rivernose Trackers",
+          "worldId": "WORLD_DOG_007",
+          "tacticalRole": "INTERCEPT",
+          "preferredWeaponFamilies": [
+            "Spear"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "SHIELD_WALL",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express intercept behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 1,
+          "maximumTier": 3,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_DOG",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_DOG_04",
+          "displayName": "Hearthhound Healers",
+          "worldId": "WORLD_DOG_007",
+          "tacticalRole": "RANGED",
+          "preferredWeaponFamilies": [
+            "Bow"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "SKIRMISH",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express ranged behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 2,
+          "maximumTier": 3,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_DOG",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_DOG_05",
+          "displayName": "Gray Trail Scouts",
+          "worldId": "WORLD_DOG_007",
+          "tacticalRole": "FLANK",
+          "preferredWeaponFamilies": [
+            "Dagger"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "ARC",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express flank behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 2,
+          "maximumTier": 4,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_DOG",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_DOG_06",
+          "displayName": "Oath-Eater Raiders",
+          "worldId": "WORLD_DOG_007",
+          "tacticalRole": "MYSTIC_SUPPORT",
+          "preferredWeaponFamilies": [
+            "Staff"
+          ],
+          "artCategories": [
+            "Mystic/Support"
+          ],
+          "formation": "INTERCEPT",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express mystic support behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 2,
+          "maximumTier": 4,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_DOG",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_DOG_07",
+          "displayName": "Collar Captain Enforcers",
+          "worldId": "WORLD_DOG_007",
+          "tacticalRole": "GUARD",
+          "preferredWeaponFamilies": [
+            "Shield"
+          ],
+          "artCategories": [
+            "Guard/Warding"
+          ],
+          "formation": "SUPPORT_WEB",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express guard behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 3,
+          "maximumTier": 5,
+          "canSurrender": false,
+          "civilianRisk": "HIGH",
+          "lootThemeId": "LOOT020_DOG",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_DOG_08",
+          "displayName": "Moral Patrol Guardians",
+          "worldId": "WORLD_DOG_007",
+          "tacticalRole": "TACTICAL",
+          "preferredWeaponFamilies": [
+            "Engineering"
+          ],
+          "artCategories": [
+            "Engineering/Support"
+          ],
+          "formation": "BREACH_COLUMN",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express tactical behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 3,
+          "maximumTier": 5,
+          "canSurrender": false,
+          "civilianRisk": "HIGH",
+          "lootThemeId": "LOOT020_DOG",
+          "noRacewideEvilFraming": true
+        }
+      ]
+    },
+    {
+      "packId": "ENEMYPACK020_GOBLIN",
+      "worldId": "WORLD_GOBLIN_001",
+      "displayName": "Goblin World Encounter Pack",
+      "archetypes": [
+        {
+          "archetypeId": "ENEMY020_GOBLIN_01",
+          "displayName": "Gear-Crown Vanguard",
+          "worldId": "WORLD_GOBLIN_001",
+          "tacticalRole": "ASSAULT",
+          "preferredWeaponFamilies": [
+            "Sword"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "BALANCED_LINE",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express assault behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 1,
+          "maximumTier": 2,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_GOBLIN",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_GOBLIN_02",
+          "displayName": "Bridge-Rig Marksmen",
+          "worldId": "WORLD_GOBLIN_001",
+          "tacticalRole": "BREAK",
+          "preferredWeaponFamilies": [
+            "Axe"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "WEDGE",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express break behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 1,
+          "maximumTier": 2,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_GOBLIN",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_GOBLIN_03",
+          "displayName": "Rust Sappers",
+          "worldId": "WORLD_GOBLIN_001",
+          "tacticalRole": "INTERCEPT",
+          "preferredWeaponFamilies": [
+            "Spear"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "SHIELD_WALL",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express intercept behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 1,
+          "maximumTier": 3,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_GOBLIN",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_GOBLIN_04",
+          "displayName": "Calendar Mystics",
+          "worldId": "WORLD_GOBLIN_001",
+          "tacticalRole": "RANGED",
+          "preferredWeaponFamilies": [
+            "Bow"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "SKIRMISH",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express ranged behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 2,
+          "maximumTier": 3,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_GOBLIN",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_GOBLIN_05",
+          "displayName": "Iron Lantern Guard",
+          "worldId": "WORLD_GOBLIN_001",
+          "tacticalRole": "FLANK",
+          "preferredWeaponFamilies": [
+            "Dagger"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "ARC",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express flank behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 2,
+          "maximumTier": 4,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_GOBLIN",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_GOBLIN_06",
+          "displayName": "Burrow Choir Medics",
+          "worldId": "WORLD_GOBLIN_001",
+          "tacticalRole": "MYSTIC_SUPPORT",
+          "preferredWeaponFamilies": [
+            "Staff"
+          ],
+          "artCategories": [
+            "Mystic/Support"
+          ],
+          "formation": "INTERCEPT",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express mystic support behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 2,
+          "maximumTier": 4,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_GOBLIN",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_GOBLIN_07",
+          "displayName": "Invoice Enforcers",
+          "worldId": "WORLD_GOBLIN_001",
+          "tacticalRole": "GUARD",
+          "preferredWeaponFamilies": [
+            "Shield"
+          ],
+          "artCategories": [
+            "Guard/Warding"
+          ],
+          "formation": "SUPPORT_WEB",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express guard behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 3,
+          "maximumTier": 5,
+          "canSurrender": false,
+          "civilianRisk": "HIGH",
+          "lootThemeId": "LOOT020_GOBLIN",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_GOBLIN_08",
+          "displayName": "Broken-Promise Reavers",
+          "worldId": "WORLD_GOBLIN_001",
+          "tacticalRole": "TACTICAL",
+          "preferredWeaponFamilies": [
+            "Engineering"
+          ],
+          "artCategories": [
+            "Engineering/Support"
+          ],
+          "formation": "BREACH_COLUMN",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express tactical behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 3,
+          "maximumTier": 5,
+          "canSurrender": false,
+          "civilianRisk": "HIGH",
+          "lootThemeId": "LOOT020_GOBLIN",
+          "noRacewideEvilFraming": true
+        }
+      ]
+    },
+    {
+      "packId": "ENEMYPACK020_ORC",
+      "worldId": "WORLD_ORC_002",
+      "displayName": "Orc World Encounter Pack",
+      "archetypes": [
+        {
+          "archetypeId": "ENEMY020_ORC_01",
+          "displayName": "Red Hearth Shielders",
+          "worldId": "WORLD_ORC_002",
+          "tacticalRole": "ASSAULT",
+          "preferredWeaponFamilies": [
+            "Sword"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "BALANCED_LINE",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express assault behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 1,
+          "maximumTier": 2,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_ORC",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_ORC_02",
+          "displayName": "Mountain-Banner Axes",
+          "worldId": "WORLD_ORC_002",
+          "tacticalRole": "BREAK",
+          "preferredWeaponFamilies": [
+            "Axe"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "WEDGE",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express break behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 1,
+          "maximumTier": 2,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_ORC",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_ORC_03",
+          "displayName": "Salt-Tusk Spears",
+          "worldId": "WORLD_ORC_002",
+          "tacticalRole": "INTERCEPT",
+          "preferredWeaponFamilies": [
+            "Spear"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "SHIELD_WALL",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express intercept behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 1,
+          "maximumTier": 3,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_ORC",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_ORC_04",
+          "displayName": "Child-Spear Legacy Guard",
+          "worldId": "WORLD_ORC_002",
+          "tacticalRole": "RANGED",
+          "preferredWeaponFamilies": [
+            "Bow"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "SKIRMISH",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express ranged behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 2,
+          "maximumTier": 3,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_ORC",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_ORC_05",
+          "displayName": "Black Arena Breakers",
+          "worldId": "WORLD_ORC_002",
+          "tacticalRole": "FLANK",
+          "preferredWeaponFamilies": [
+            "Dagger"
+          ],
+          "artCategories": [
+            "Combat Arts"
+          ],
+          "formation": "ARC",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express flank behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 2,
+          "maximumTier": 4,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_ORC",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_ORC_06",
+          "displayName": "Shame Council Mystics",
+          "worldId": "WORLD_ORC_002",
+          "tacticalRole": "MYSTIC_SUPPORT",
+          "preferredWeaponFamilies": [
+            "Staff"
+          ],
+          "artCategories": [
+            "Mystic/Support"
+          ],
+          "formation": "INTERCEPT",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express mystic support behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 2,
+          "maximumTier": 4,
+          "canSurrender": true,
+          "civilianRisk": "BOUNDED",
+          "lootThemeId": "LOOT020_ORC",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_ORC_07",
+          "displayName": "Shieldhome Guardians",
+          "worldId": "WORLD_ORC_002",
+          "tacticalRole": "GUARD",
+          "preferredWeaponFamilies": [
+            "Shield"
+          ],
+          "artCategories": [
+            "Guard/Warding"
+          ],
+          "formation": "SUPPORT_WEB",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express guard behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 3,
+          "maximumTier": 5,
+          "canSurrender": false,
+          "civilianRisk": "HIGH",
+          "lootThemeId": "LOOT020_ORC",
+          "noRacewideEvilFraming": true
+        },
+        {
+          "archetypeId": "ENEMY020_ORC_08",
+          "displayName": "Black Harvest Reavers",
+          "worldId": "WORLD_ORC_002",
+          "tacticalRole": "TACTICAL",
+          "preferredWeaponFamilies": [
+            "Engineering"
+          ],
+          "artCategories": [
+            "Engineering/Support"
+          ],
+          "formation": "BREACH_COLUMN",
+          "forecastIdentity": [
+            "Use complete Union Forecasts only",
+            "Express tactical behavior through legal member Arts",
+            "Permit retreat, surrender, rescue, exposure, or reform when authored"
+          ],
+          "baseTier": 3,
+          "maximumTier": 5,
+          "canSurrender": false,
+          "civilianRisk": "HIGH",
+          "lootThemeId": "LOOT020_ORC",
+          "noRacewideEvilFraming": true
+        }
+      ]
+    }
+  ]
+}

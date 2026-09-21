@@ -1,0 +1,204 @@
+{
+  "chains": [
+    {
+      "id": "ABYSS_CHAIN_F01_01",
+      "floorId": "ABYSS_FLOOR_001",
+      "stages": [
+        "F01_EVENT_01",
+        "F01_EVENT_02",
+        "F01_EVENT_03"
+      ],
+      "crossFloorFollowup": null
+    },
+    {
+      "id": "ABYSS_CHAIN_F01_02",
+      "floorId": "ABYSS_FLOOR_001",
+      "stages": [
+        "F01_EVENT_04",
+        "F01_EVENT_05",
+        "F01_EVENT_06"
+      ],
+      "crossFloorFollowup": "ABYSS_CHAIN_F02_01"
+    },
+    {
+      "id": "ABYSS_CHAIN_F02_01",
+      "floorId": "ABYSS_FLOOR_002",
+      "stages": [
+        "F02_EVENT_01",
+        "F02_EVENT_02",
+        "F02_EVENT_03"
+      ],
+      "crossFloorFollowup": null
+    },
+    {
+      "id": "ABYSS_CHAIN_F02_02",
+      "floorId": "ABYSS_FLOOR_002",
+      "stages": [
+        "F02_EVENT_04",
+        "F02_EVENT_05",
+        "F02_EVENT_06"
+      ],
+      "crossFloorFollowup": "ABYSS_CHAIN_F03_01"
+    },
+    {
+      "id": "ABYSS_CHAIN_F03_01",
+      "floorId": "ABYSS_FLOOR_003",
+      "stages": [
+        "F03_EVENT_01",
+        "F03_EVENT_02",
+        "F03_EVENT_03"
+      ],
+      "crossFloorFollowup": null
+    },
+    {
+      "id": "ABYSS_CHAIN_F03_02",
+      "floorId": "ABYSS_FLOOR_003",
+      "stages": [
+        "F03_EVENT_04",
+        "F03_EVENT_05",
+        "F03_EVENT_06"
+      ],
+      "crossFloorFollowup": "ABYSS_CHAIN_F04_01"
+    },
+    {
+      "id": "ABYSS_CHAIN_F04_01",
+      "floorId": "ABYSS_FLOOR_004",
+      "stages": [
+        "F04_EVENT_01",
+        "F04_EVENT_02",
+        "F04_EVENT_03"
+      ],
+      "crossFloorFollowup": null
+    },
+    {
+      "id": "ABYSS_CHAIN_F04_02",
+      "floorId": "ABYSS_FLOOR_004",
+      "stages": [
+        "F04_EVENT_04",
+        "F04_EVENT_05",
+        "F04_EVENT_06"
+      ],
+      "crossFloorFollowup": "ABYSS_CHAIN_F05_01"
+    },
+    {
+      "id": "ABYSS_CHAIN_F05_01",
+      "floorId": "ABYSS_FLOOR_005",
+      "stages": [
+        "F05_EVENT_01",
+        "F05_EVENT_02",
+        "F05_EVENT_03"
+      ],
+      "crossFloorFollowup": null
+    },
+    {
+      "id": "ABYSS_CHAIN_F05_02",
+      "floorId": "ABYSS_FLOOR_005",
+      "stages": [
+        "F05_EVENT_04",
+        "F05_EVENT_05",
+        "F05_EVENT_06"
+      ],
+      "crossFloorFollowup": "ABYSS_CHAIN_F06_01"
+    },
+    {
+      "id": "ABYSS_CHAIN_F06_01",
+      "floorId": "ABYSS_FLOOR_006",
+      "stages": [
+        "F06_EVENT_01",
+        "F06_EVENT_02",
+        "F06_EVENT_03"
+      ],
+      "crossFloorFollowup": null
+    },
+    {
+      "id": "ABYSS_CHAIN_F06_02",
+      "floorId": "ABYSS_FLOOR_006",
+      "stages": [
+        "F06_EVENT_04",
+        "F06_EVENT_05",
+        "F06_EVENT_06"
+      ],
+      "crossFloorFollowup": "ABYSS_CHAIN_F07_01"
+    },
+    {
+      "id": "ABYSS_CHAIN_F07_01",
+      "floorId": "ABYSS_FLOOR_007",
+      "stages": [
+        "F07_EVENT_01",
+        "F07_EVENT_02",
+        "F07_EVENT_03"
+      ],
+      "crossFloorFollowup": null
+    },
+    {
+      "id": "ABYSS_CHAIN_F07_02",
+      "floorId": "ABYSS_FLOOR_007",
+      "stages": [
+        "F07_EVENT_04",
+        "F07_EVENT_05",
+        "F07_EVENT_06"
+      ],
+      "crossFloorFollowup": "ABYSS_CHAIN_F08_01"
+    },
+    {
+      "id": "ABYSS_CHAIN_F08_01",
+      "floorId": "ABYSS_FLOOR_008",
+      "stages": [
+        "F08_EVENT_01",
+        "F08_EVENT_02",
+        "F08_EVENT_03"
+      ],
+      "crossFloorFollowup": null
+    },
+    {
+      "id": "ABYSS_CHAIN_F08_02",
+      "floorId": "ABYSS_FLOOR_008",
+      "stages": [
+        "F08_EVENT_04",
+        "F08_EVENT_05",
+        "F08_EVENT_06"
+      ],
+      "crossFloorFollowup": "ABYSS_CHAIN_F09_01"
+    },
+    {
+      "id": "ABYSS_CHAIN_F09_01",
+      "floorId": "ABYSS_FLOOR_009",
+      "stages": [
+        "F09_EVENT_01",
+        "F09_EVENT_02",
+        "F09_EVENT_03"
+      ],
+      "crossFloorFollowup": null
+    },
+    {
+      "id": "ABYSS_CHAIN_F09_02",
+      "floorId": "ABYSS_FLOOR_009",
+      "stages": [
+        "F09_EVENT_04",
+        "F09_EVENT_05",
+        "F09_EVENT_06"
+      ],
+      "crossFloorFollowup": "ABYSS_CHAIN_F10_01"
+    },
+    {
+      "id": "ABYSS_CHAIN_F10_01",
+      "floorId": "ABYSS_FLOOR_010",
+      "stages": [
+        "F10_EVENT_01",
+        "F10_EVENT_02",
+        "F10_EVENT_03"
+      ],
+      "crossFloorFollowup": null
+    },
+    {
+      "id": "ABYSS_CHAIN_F10_02",
+      "floorId": "ABYSS_FLOOR_010",
+      "stages": [
+        "F10_EVENT_04",
+        "F10_EVENT_05",
+        "F10_EVENT_06"
+      ],
+      "crossFloorFollowup": null
+    }
+  ]
+}

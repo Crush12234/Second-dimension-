@@ -1,0 +1,125 @@
+{
+  "contentVersion": "GUILD_CITY_017E_1.0",
+  "contracts": [
+    {
+      "id": "CONTRACT_BELL_BENEATH_GATE",
+      "displayName": "The Bell Beneath Skyhome",
+      "sponsor": "Kiri Aetherheart, Skyhome Guild Hall",
+      "family": "RESCUE",
+      "hook": "Kael holds the Hall breach. Follow Lantern Road: Zorin's missing patrol carries Skyhome's Wayglass toward the old Gatehouse.",
+      "primaryObjective": "Follow Lantern Road, bring the missing patrol home, recover the Wayglass, and stop the Gatehouse threat.",
+      "optionalObjectives": [
+        "Repair the broken Lantern Road waymarker",
+        "Recover the patrol's route ledger",
+        "Keep the road home to Skyhome open"
+      ],
+      "boardId": "BOARD_BELL_BENEATH_GATE_069",
+      "expectedEnemyUnionMin": 2,
+      "expectedEnemyUnionMax": 4,
+      "hazards": [
+        "Collapsed Lantern Road",
+        "Unstable Wayglass resonance",
+        "Gatehouse raiders and a gate-eating threat"
+      ],
+      "recommendedSkills": [
+        "Medicine",
+        "Engineering",
+        "Command",
+        "Perception"
+      ],
+      "baseGuildXp": 42,
+      "baseHallXp": 44,
+      "materialReward": [
+        {
+          "materialId": "MAT_SALVAGED_TIMBER",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT_GATE_IRON",
+          "amount": 5
+        }
+      ],
+      "cityHook": "The rescued patrol joins the guild, while the recovered Wayglass reveals a route pointing inside Skyhome."
+    },
+    {
+      "id": "CONTRACT_LINES_NOT_RETURNED",
+      "displayName": "The Door Inside",
+      "sponsor": "Skyhome Wayglass Table",
+      "family": "INVESTIGATION_RESCUE",
+      "hook": "The recovered Wayglass does not point beyond Skyhome. It projects a road beneath the Guild Hall, ending at a door no city map records. The survey crew sent to verify its impossible route marks has stopped answering.",
+      "primaryObjective": "Follow the Wayglass route, find the missing survey crew, and locate the door inside Skyhome.",
+      "optionalObjectives": [
+        "Map the hidden branch loop",
+        "Recover the survey instruments",
+        "Identify who changed the route marks"
+      ],
+      "boardId": "BOARD_LINES_NOT_RETURNED",
+      "expectedEnemyUnionMin": 1,
+      "expectedEnemyUnionMax": 3,
+      "hazards": [
+        "False route marks",
+        "Gate fog",
+        "Separated civilians"
+      ],
+      "recommendedSkills": [
+        "Perception",
+        "Survival",
+        "Lore",
+        "Stealth"
+      ],
+      "baseGuildXp": 36,
+      "baseHallXp": 34,
+      "materialReward": [
+        {
+          "materialId": "MAT_ROUTE_CLOTH",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT_GATEGLASS",
+          "amount": 3
+        }
+      ],
+      "cityHook": "Opening the impossible route turns the Wayglass table into Skyhome's map for Chapter 2."
+    },
+    {
+      "id": "CONTRACT_RELIEF_ROAD",
+      "displayName": "Keep the Relief Road Open",
+      "sponsor": "Gateworks Relief Convoy",
+      "family": "PROTECTION",
+      "hook": "Gate Gnawers are striking supply wagons and retreating into broken roadworks. The convoy cannot wait; the outer wards need medicine before nightfall.",
+      "primaryObjective": "Escort the relief convoy through the endangered section with at least one viable wagon.",
+      "optionalObjectives": [
+        "Destroy the ambush nest",
+        "Keep every wagon intact",
+        "Capture route intelligence"
+      ],
+      "boardId": "BOARD_RELIEF_ROAD",
+      "expectedEnemyUnionMin": 3,
+      "expectedEnemyUnionMax": 5,
+      "hazards": [
+        "Repeated ambushes",
+        "Wagon damage",
+        "Limited retreat routes"
+      ],
+      "recommendedSkills": [
+        "Command",
+        "Athletics",
+        "Engineering",
+        "Medicine"
+      ],
+      "baseGuildXp": 40,
+      "baseHallXp": 38,
+      "materialReward": [
+        {
+          "materialId": "MAT_SUPPLY_CRATE",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT_GATE_IRON",
+          "amount": 4
+        }
+      ],
+      "cityHook": "A successful convoy improves Warehouse, Market, and Supply Depot reliability."
+    }
+  ]
+}

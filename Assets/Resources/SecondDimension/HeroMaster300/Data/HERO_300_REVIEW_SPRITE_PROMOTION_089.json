@@ -1,0 +1,1746 @@
+{
+  "schema_version": "HERO_300_REVIEW_SPRITE_PROMOTION_089_1.0",
+  "generated_utc": "2026-09-06T14:18:31.2432417Z",
+  "source_archive": "C:\\Users\\simon\\Downloads\\SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip",
+  "source_archive_sha256": "18B20C3F0BEF43888DB9774124E08F5BC4E708E68F8E8C76CF59B3AD28264612",
+  "source_archive_byte_size": 90234932,
+  "source_audit": "BuildEvidence/OvernightPass/07_HERO_300_AUDIT_AND_BINDINGS.json",
+  "qualifying_audit_status": "PACKAGE_PAIR_PASSES_BASIC_PIXEL_QA_BUT_RIGHTS_BLOCKED",
+  "catalog_requirement": "catalog_validation.accepted_by_current_adapter == true",
+  "promotion_status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION",
+  "rights_status": "PENDING_USER_RIGHTS_CONFIRMATION",
+  "rights_note": "User supplied the archive and explicitly requested review-build integration. No package license or chain-of-title was found; this manifest does not claim commercial-use rights.",
+  "promoted_hero_count": 57,
+  "promoted_distinct_source_sprite_count": 114,
+  "promoted_destination_asset_count": 171,
+  "accepted_catalog_hero_count": 250,
+  "preexisting_exact_unique_sprite_set_count": 9,
+  "exact_unique_sprite_set_count": 66,
+  "deterministic_sprite_fallback_count": 184,
+  "coverage_note": "All 250 adapter-accepted heroes resolve non-null sprite-form UI, standing, and action presentation. Exactly 66 use same-identity exact art sets (57 promoted here plus 9 pre-existing accepted signature sets). The other 184 are explicitly tagged deterministic procedural sprite fallbacks and are not claimed as unique authored source art.",
+  "framing_policy": "Promoted source PNG bytes remain unchanged. Their Unity imports are readable so M1VisualAssets can cache an alpha-bounds fitted Sprite at presentation time; this removes excess transparent framing without altering provenance or source hashes.",
+  "low_alpha_visual_review": {
+    "accepted_pairs_reviewed": 61,
+    "additional_pairs_promoted": 0,
+    "reason": "Bounds-cropped visual review found that every low-alpha candidate retained at least one fragmented, isolated-body-part, or effect-only pose. None formed a complete correctly matched standing/action pair, so none was mislabeled as exact hero art."
+  },
+  "excluded_counts": {
+    "qa_pass_but_catalog_quarantined": 34,
+    "low_alpha_pairs": 73,
+    "incomplete_or_failed_pairs": 26,
+    "composite_only_hero_references": 110,
+    "ambiguous_or_orphan_rasters": 6
+  },
+  "destination_assets": [
+    {
+      "stable_id": "HERO_REC_131",
+      "hero_name": "Torek Bloodhorn",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/121_Torek_Bloodhorn/stand.png",
+      "source_sha256": "377ABE96F6D93B1A5ACCE5FDE7029667EFDF92633862FE7BF4F7572EFFE5B51F",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_131.png",
+      "destination_sha256": "377ABE96F6D93B1A5ACCE5FDE7029667EFDF92633862FE7BF4F7572EFFE5B51F",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_131",
+      "hero_name": "Torek Bloodhorn",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/121_Torek_Bloodhorn/attack.png",
+      "source_sha256": "3E16AC13D6FEC6DBBBEBF387B841F4A432D1A0EB61B18E8FD2F7693D58060B34",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_131.png",
+      "destination_sha256": "3E16AC13D6FEC6DBBBEBF387B841F4A432D1A0EB61B18E8FD2F7693D58060B34",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_131",
+      "hero_name": "Torek Bloodhorn",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/121_Torek_Bloodhorn/stand.png",
+      "source_sha256": "377ABE96F6D93B1A5ACCE5FDE7029667EFDF92633862FE7BF4F7572EFFE5B51F",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_131.png",
+      "destination_sha256": "377ABE96F6D93B1A5ACCE5FDE7029667EFDF92633862FE7BF4F7572EFFE5B51F",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_132",
+      "hero_name": "Elandra Lightweave",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/122_Elandra_Lightweave/stand.png",
+      "source_sha256": "6AF4541644905EFD1D5BA0A45D5ADEAE734D115E35614720046FA4398761409B",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_132.png",
+      "destination_sha256": "6AF4541644905EFD1D5BA0A45D5ADEAE734D115E35614720046FA4398761409B",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_132",
+      "hero_name": "Elandra Lightweave",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/122_Elandra_Lightweave/attack.png",
+      "source_sha256": "50780957CA58A8F7D6FF08FD57CB153850C8182BA44B2AA41649BEAB45B932FE",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_132.png",
+      "destination_sha256": "50780957CA58A8F7D6FF08FD57CB153850C8182BA44B2AA41649BEAB45B932FE",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_132",
+      "hero_name": "Elandra Lightweave",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/122_Elandra_Lightweave/stand.png",
+      "source_sha256": "6AF4541644905EFD1D5BA0A45D5ADEAE734D115E35614720046FA4398761409B",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_132.png",
+      "destination_sha256": "6AF4541644905EFD1D5BA0A45D5ADEAE734D115E35614720046FA4398761409B",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_133",
+      "hero_name": "Kael Nightwind",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/123_Kael_Nightwind/stand.png",
+      "source_sha256": "D1274187FEFFAEBD2583859AC3CF4FAB0FDEDCBDD625B8805412D24F8B2737AD",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_133.png",
+      "destination_sha256": "D1274187FEFFAEBD2583859AC3CF4FAB0FDEDCBDD625B8805412D24F8B2737AD",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_133",
+      "hero_name": "Kael Nightwind",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/123_Kael_Nightwind/attack.png",
+      "source_sha256": "8724FED75A9831F22A18CD784559EDB62E363A1D38310CC96BEFBE0C9D4E628A",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_133.png",
+      "destination_sha256": "8724FED75A9831F22A18CD784559EDB62E363A1D38310CC96BEFBE0C9D4E628A",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_133",
+      "hero_name": "Kael Nightwind",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/123_Kael_Nightwind/stand.png",
+      "source_sha256": "D1274187FEFFAEBD2583859AC3CF4FAB0FDEDCBDD625B8805412D24F8B2737AD",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_133.png",
+      "destination_sha256": "D1274187FEFFAEBD2583859AC3CF4FAB0FDEDCBDD625B8805412D24F8B2737AD",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_134",
+      "hero_name": "Ryn Leafsong",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/124_Ryn_Leafsong/stand.png",
+      "source_sha256": "99C4D3483E23DE114DCEABFD0B52BFEB784E4DA67D922EDFBB7C0429613CEC9A",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_134.png",
+      "destination_sha256": "99C4D3483E23DE114DCEABFD0B52BFEB784E4DA67D922EDFBB7C0429613CEC9A",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_134",
+      "hero_name": "Ryn Leafsong",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/124_Ryn_Leafsong/attack.png",
+      "source_sha256": "F035A7B3606C92B3357E8448E013FF15C81536CCB9ED5B129EB39705089A622B",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_134.png",
+      "destination_sha256": "F035A7B3606C92B3357E8448E013FF15C81536CCB9ED5B129EB39705089A622B",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_134",
+      "hero_name": "Ryn Leafsong",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/124_Ryn_Leafsong/stand.png",
+      "source_sha256": "99C4D3483E23DE114DCEABFD0B52BFEB784E4DA67D922EDFBB7C0429613CEC9A",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_134.png",
+      "destination_sha256": "99C4D3483E23DE114DCEABFD0B52BFEB784E4DA67D922EDFBB7C0429613CEC9A",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_135",
+      "hero_name": "Garrik Stormhelm",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/125_Garrik_Stormhelm/stand.png",
+      "source_sha256": "29EBE39206B17EBEB845697213602C5FE46E41B0ADADFFF557C2EEF73513B8E0",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_135.png",
+      "destination_sha256": "29EBE39206B17EBEB845697213602C5FE46E41B0ADADFFF557C2EEF73513B8E0",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_135",
+      "hero_name": "Garrik Stormhelm",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/125_Garrik_Stormhelm/attack.png",
+      "source_sha256": "B4DECCF8035A1E13433D9AE22057706B8A0CC376E3A35639CAB3C04C9F16C1AA",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_135.png",
+      "destination_sha256": "B4DECCF8035A1E13433D9AE22057706B8A0CC376E3A35639CAB3C04C9F16C1AA",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_135",
+      "hero_name": "Garrik Stormhelm",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/125_Garrik_Stormhelm/stand.png",
+      "source_sha256": "29EBE39206B17EBEB845697213602C5FE46E41B0ADADFFF557C2EEF73513B8E0",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_135.png",
+      "destination_sha256": "29EBE39206B17EBEB845697213602C5FE46E41B0ADADFFF557C2EEF73513B8E0",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_136",
+      "hero_name": "Talia Riversong",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/126_Talia_Riversong/stand.png",
+      "source_sha256": "1B2DA9AA2A2FDDE1C4DF94AEC5832C898A40CA68832A742B62A07CC6507EFB1D",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_136.png",
+      "destination_sha256": "1B2DA9AA2A2FDDE1C4DF94AEC5832C898A40CA68832A742B62A07CC6507EFB1D",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_136",
+      "hero_name": "Talia Riversong",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/126_Talia_Riversong/attack.png",
+      "source_sha256": "BB0DF7FDE6E038F9B784BE088D499B95AFFAB9E8474866251B18B13DC0CAC95C",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_136.png",
+      "destination_sha256": "BB0DF7FDE6E038F9B784BE088D499B95AFFAB9E8474866251B18B13DC0CAC95C",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_136",
+      "hero_name": "Talia Riversong",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/126_Talia_Riversong/stand.png",
+      "source_sha256": "1B2DA9AA2A2FDDE1C4DF94AEC5832C898A40CA68832A742B62A07CC6507EFB1D",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_136.png",
+      "destination_sha256": "1B2DA9AA2A2FDDE1C4DF94AEC5832C898A40CA68832A742B62A07CC6507EFB1D",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_137",
+      "hero_name": "Zahk Bonecleaver",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/127_Zahk_Bonecleaver/stand.png",
+      "source_sha256": "ED06D188CBC14D2706EAFBBF1554A5F7A12F1528D94C1A9E6BFAD713B42E9AD3",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_137.png",
+      "destination_sha256": "ED06D188CBC14D2706EAFBBF1554A5F7A12F1528D94C1A9E6BFAD713B42E9AD3",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_137",
+      "hero_name": "Zahk Bonecleaver",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/127_Zahk_Bonecleaver/attack.png",
+      "source_sha256": "BD580D9B5552C3E314659E4DA4EEA8CFA37132EFE59312FE6E78E6786D58CD22",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_137.png",
+      "destination_sha256": "BD580D9B5552C3E314659E4DA4EEA8CFA37132EFE59312FE6E78E6786D58CD22",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_137",
+      "hero_name": "Zahk Bonecleaver",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/127_Zahk_Bonecleaver/stand.png",
+      "source_sha256": "ED06D188CBC14D2706EAFBBF1554A5F7A12F1528D94C1A9E6BFAD713B42E9AD3",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_137.png",
+      "destination_sha256": "ED06D188CBC14D2706EAFBBF1554A5F7A12F1528D94C1A9E6BFAD713B42E9AD3",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_138",
+      "hero_name": "Elys Dawnblade",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/128_Elys_Dawnblade/stand.png",
+      "source_sha256": "4E1FA76F4B2B463F902B46CACBF716ECF07F5CB300CD22C3FFDD769D9816C07E",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_138.png",
+      "destination_sha256": "4E1FA76F4B2B463F902B46CACBF716ECF07F5CB300CD22C3FFDD769D9816C07E",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_138",
+      "hero_name": "Elys Dawnblade",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/128_Elys_Dawnblade/attack.png",
+      "source_sha256": "7095B2A872EA5F7EF53662ECC0474A647B8F3D86760FA898617953C61B0D6807",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_138.png",
+      "destination_sha256": "7095B2A872EA5F7EF53662ECC0474A647B8F3D86760FA898617953C61B0D6807",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_138",
+      "hero_name": "Elys Dawnblade",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/128_Elys_Dawnblade/stand.png",
+      "source_sha256": "4E1FA76F4B2B463F902B46CACBF716ECF07F5CB300CD22C3FFDD769D9816C07E",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_138.png",
+      "destination_sha256": "4E1FA76F4B2B463F902B46CACBF716ECF07F5CB300CD22C3FFDD769D9816C07E",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_139",
+      "hero_name": "Krev Ashenmark",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/129_Krev_Ashenmark/stand.png",
+      "source_sha256": "2394172350C0A79283A9EE14DAEA8CA347AFBF650C4D81C57DBDB69DC021C54B",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_139.png",
+      "destination_sha256": "2394172350C0A79283A9EE14DAEA8CA347AFBF650C4D81C57DBDB69DC021C54B",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_139",
+      "hero_name": "Krev Ashenmark",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/129_Krev_Ashenmark/attack.png",
+      "source_sha256": "B003E2CAD242726F55BA1BCAEBCEC48C1A79F6BE31D685D53B4F1A05152E4D21",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_139.png",
+      "destination_sha256": "B003E2CAD242726F55BA1BCAEBCEC48C1A79F6BE31D685D53B4F1A05152E4D21",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_139",
+      "hero_name": "Krev Ashenmark",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_USABLE_SPRITES_121_130.zip!SECOND_DIMENSION_USABLE_SPRITES_121_130/Sprites/129_Krev_Ashenmark/stand.png",
+      "source_sha256": "2394172350C0A79283A9EE14DAEA8CA347AFBF650C4D81C57DBDB69DC021C54B",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_139.png",
+      "destination_sha256": "2394172350C0A79283A9EE14DAEA8CA347AFBF650C4D81C57DBDB69DC021C54B",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_149",
+      "hero_name": "Yselle Thornhat",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_yselle_thornhat/stand.png",
+      "source_sha256": "84019E01F5F5891181F931D257874940968C50D1C94D72BAFB9EDE3ADE5A7CFB",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_149.png",
+      "destination_sha256": "84019E01F5F5891181F931D257874940968C50D1C94D72BAFB9EDE3ADE5A7CFB",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_149",
+      "hero_name": "Yselle Thornhat",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_yselle_thornhat/attack.png",
+      "source_sha256": "759BBEB2D2F1F4D4430AAADE5494B091902FC0350AA7DCBE972780DA80DF4C58",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_149.png",
+      "destination_sha256": "759BBEB2D2F1F4D4430AAADE5494B091902FC0350AA7DCBE972780DA80DF4C58",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_149",
+      "hero_name": "Yselle Thornhat",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_yselle_thornhat/stand.png",
+      "source_sha256": "84019E01F5F5891181F931D257874940968C50D1C94D72BAFB9EDE3ADE5A7CFB",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_149.png",
+      "destination_sha256": "84019E01F5F5891181F931D257874940968C50D1C94D72BAFB9EDE3ADE5A7CFB",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_150",
+      "hero_name": "Berrik Brasswake",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_berrik_brasswake/stand.png",
+      "source_sha256": "C196E82DFCDA70D809018FD586FA24D0553A677CA8F76D3401ABABD708E70D18",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_150.png",
+      "destination_sha256": "C196E82DFCDA70D809018FD586FA24D0553A677CA8F76D3401ABABD708E70D18",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_150",
+      "hero_name": "Berrik Brasswake",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_berrik_brasswake/attack.png",
+      "source_sha256": "0659496844DB9CCAD394CFF159D662611AFDFFCCC751794B5BA2372DD75D634F",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_150.png",
+      "destination_sha256": "0659496844DB9CCAD394CFF159D662611AFDFFCCC751794B5BA2372DD75D634F",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_150",
+      "hero_name": "Berrik Brasswake",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_berrik_brasswake/stand.png",
+      "source_sha256": "C196E82DFCDA70D809018FD586FA24D0553A677CA8F76D3401ABABD708E70D18",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_150.png",
+      "destination_sha256": "C196E82DFCDA70D809018FD586FA24D0553A677CA8F76D3401ABABD708E70D18",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_151",
+      "hero_name": "Fenlan Greenchord",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_fenlan_greenchord/stand.png",
+      "source_sha256": "40D3F23E49DD92E3F18A767065DF067688A0516EC6B78D568769DD94A05A4ED0",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_151.png",
+      "destination_sha256": "40D3F23E49DD92E3F18A767065DF067688A0516EC6B78D568769DD94A05A4ED0",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_151",
+      "hero_name": "Fenlan Greenchord",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_fenlan_greenchord/attack.png",
+      "source_sha256": "A72CA974E311CAA6BB99CA9BEEECD57C3791EB00CC9B7AF3B7FC4758BC7D32BA",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_151.png",
+      "destination_sha256": "A72CA974E311CAA6BB99CA9BEEECD57C3791EB00CC9B7AF3B7FC4758BC7D32BA",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_151",
+      "hero_name": "Fenlan Greenchord",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_fenlan_greenchord/stand.png",
+      "source_sha256": "40D3F23E49DD92E3F18A767065DF067688A0516EC6B78D568769DD94A05A4ED0",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_151.png",
+      "destination_sha256": "40D3F23E49DD92E3F18A767065DF067688A0516EC6B78D568769DD94A05A4ED0",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_152",
+      "hero_name": "Seren Ironvow",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_seren_ironvow/stand.png",
+      "source_sha256": "A55DAB582E3E4370829D9F37537219AB0D81A0B1A3386323647BD9BBDCEB6A8A",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_152.png",
+      "destination_sha256": "A55DAB582E3E4370829D9F37537219AB0D81A0B1A3386323647BD9BBDCEB6A8A",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_152",
+      "hero_name": "Seren Ironvow",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_seren_ironvow/attack.png",
+      "source_sha256": "C9210485451073A126A3BFAA877864341684F85DBD2EB7D815759CC813B14E69",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_152.png",
+      "destination_sha256": "C9210485451073A126A3BFAA877864341684F85DBD2EB7D815759CC813B14E69",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_152",
+      "hero_name": "Seren Ironvow",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_seren_ironvow/stand.png",
+      "source_sha256": "A55DAB582E3E4370829D9F37537219AB0D81A0B1A3386323647BD9BBDCEB6A8A",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_152.png",
+      "destination_sha256": "A55DAB582E3E4370829D9F37537219AB0D81A0B1A3386323647BD9BBDCEB6A8A",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_153",
+      "hero_name": "Linara Emberheel",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_linara_emberheel/stand.png",
+      "source_sha256": "67E88B44A7E5968EB90FFDB3CF91A01A50EBEEAADDBEDE4D344B76F0BFFDFA04",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_153.png",
+      "destination_sha256": "67E88B44A7E5968EB90FFDB3CF91A01A50EBEEAADDBEDE4D344B76F0BFFDFA04",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_153",
+      "hero_name": "Linara Emberheel",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_linara_emberheel/attack.png",
+      "source_sha256": "10873A67216083B10462CA3276641A6AE7520F887F6419902926445F5E844684",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_153.png",
+      "destination_sha256": "10873A67216083B10462CA3276641A6AE7520F887F6419902926445F5E844684",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_153",
+      "hero_name": "Linara Emberheel",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_linara_emberheel/stand.png",
+      "source_sha256": "67E88B44A7E5968EB90FFDB3CF91A01A50EBEEAADDBEDE4D344B76F0BFFDFA04",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_153.png",
+      "destination_sha256": "67E88B44A7E5968EB90FFDB3CF91A01A50EBEEAADDBEDE4D344B76F0BFFDFA04",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_154",
+      "hero_name": "Nimra Hourchain",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_nimra_hourchain/stand.png",
+      "source_sha256": "11FCA88AB1EABCBABD6CEBFBA802BF1F9AAA91B96DE289FFBBF268B8FCDDC282",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_154.png",
+      "destination_sha256": "11FCA88AB1EABCBABD6CEBFBA802BF1F9AAA91B96DE289FFBBF268B8FCDDC282",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_154",
+      "hero_name": "Nimra Hourchain",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_nimra_hourchain/attack.png",
+      "source_sha256": "546CCCFE36C50BF070E70AD0F615E5674AC7C3443C52934EBD35962144A25D4E",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_154.png",
+      "destination_sha256": "546CCCFE36C50BF070E70AD0F615E5674AC7C3443C52934EBD35962144A25D4E",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_154",
+      "hero_name": "Nimra Hourchain",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_nimra_hourchain/stand.png",
+      "source_sha256": "11FCA88AB1EABCBABD6CEBFBA802BF1F9AAA91B96DE289FFBBF268B8FCDDC282",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_154.png",
+      "destination_sha256": "11FCA88AB1EABCBABD6CEBFBA802BF1F9AAA91B96DE289FFBBF268B8FCDDC282",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_155",
+      "hero_name": "Aven Dustlock",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_aven_dustlock/stand.png",
+      "source_sha256": "CE051270C9E5B1C74EC54120C5ACC6A79F6CE54D4AA944018DBEB38312C166CC",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_155.png",
+      "destination_sha256": "CE051270C9E5B1C74EC54120C5ACC6A79F6CE54D4AA944018DBEB38312C166CC",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_155",
+      "hero_name": "Aven Dustlock",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_aven_dustlock/attack.png",
+      "source_sha256": "5C8C10C48A9E4DC2C1E3F8194C9C5A3BD6C7F9EE6689B155B566267F9B37C7D9",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_155.png",
+      "destination_sha256": "5C8C10C48A9E4DC2C1E3F8194C9C5A3BD6C7F9EE6689B155B566267F9B37C7D9",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_155",
+      "hero_name": "Aven Dustlock",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_aven_dustlock/stand.png",
+      "source_sha256": "CE051270C9E5B1C74EC54120C5ACC6A79F6CE54D4AA944018DBEB38312C166CC",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_155.png",
+      "destination_sha256": "CE051270C9E5B1C74EC54120C5ACC6A79F6CE54D4AA944018DBEB38312C166CC",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_156",
+      "hero_name": "Tibra Brassflare",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_tibra_brassflare/stand.png",
+      "source_sha256": "A04BBF702B110F66B2E5D2299E9B5F582A9A6CE0037A0573E305AA931849C26C",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_156.png",
+      "destination_sha256": "A04BBF702B110F66B2E5D2299E9B5F582A9A6CE0037A0573E305AA931849C26C",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_156",
+      "hero_name": "Tibra Brassflare",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_tibra_brassflare/attack.png",
+      "source_sha256": "A03F297890798EE56C116100371963367F40AD173CBE1C7FC9B1BD5D502B006A",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_156.png",
+      "destination_sha256": "A03F297890798EE56C116100371963367F40AD173CBE1C7FC9B1BD5D502B006A",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_156",
+      "hero_name": "Tibra Brassflare",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_tibra_brassflare/stand.png",
+      "source_sha256": "A04BBF702B110F66B2E5D2299E9B5F582A9A6CE0037A0573E305AA931849C26C",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_156.png",
+      "destination_sha256": "A04BBF702B110F66B2E5D2299E9B5F582A9A6CE0037A0573E305AA931849C26C",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_157",
+      "hero_name": "Derren Ashfist",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_derren_ashfist/stand.png",
+      "source_sha256": "613C6D934BC6C044D2F28CF2AF98584977557DB7149A952C5DDC3426A2499E71",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_157.png",
+      "destination_sha256": "613C6D934BC6C044D2F28CF2AF98584977557DB7149A952C5DDC3426A2499E71",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_157",
+      "hero_name": "Derren Ashfist",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_derren_ashfist/attack.png",
+      "source_sha256": "2ADD0176C8D5D5622061377A13572D15FD396C182B25841EFC33BB50A6FDCCD6",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_157.png",
+      "destination_sha256": "2ADD0176C8D5D5622061377A13572D15FD396C182B25841EFC33BB50A6FDCCD6",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_157",
+      "hero_name": "Derren Ashfist",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_derren_ashfist/stand.png",
+      "source_sha256": "613C6D934BC6C044D2F28CF2AF98584977557DB7149A952C5DDC3426A2499E71",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_157.png",
+      "destination_sha256": "613C6D934BC6C044D2F28CF2AF98584977557DB7149A952C5DDC3426A2499E71",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_158",
+      "hero_name": "Renzo Ashreed",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_renzo_ashreed/stand.png",
+      "source_sha256": "A38627E057E1E2460A77DDF60D1A206836B547CACFFA24CDCDA950DF3247B10B",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_158.png",
+      "destination_sha256": "A38627E057E1E2460A77DDF60D1A206836B547CACFFA24CDCDA950DF3247B10B",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_158",
+      "hero_name": "Renzo Ashreed",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_renzo_ashreed/attack.png",
+      "source_sha256": "0CA99D29892C237F92AB4B65C3D1DE42027BDE38C3C727F15631F88274919F5C",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_158.png",
+      "destination_sha256": "0CA99D29892C237F92AB4B65C3D1DE42027BDE38C3C727F15631F88274919F5C",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_158",
+      "hero_name": "Renzo Ashreed",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_renzo_ashreed/stand.png",
+      "source_sha256": "A38627E057E1E2460A77DDF60D1A206836B547CACFFA24CDCDA950DF3247B10B",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_158.png",
+      "destination_sha256": "A38627E057E1E2460A77DDF60D1A206836B547CACFFA24CDCDA950DF3247B10B",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_159",
+      "hero_name": "Perin Vitriol",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_perin_vitriol/stand.png",
+      "source_sha256": "ACC81A1B292F67E9FE850A8477CA1D075E2BF766E6FA96C54525ED496FA46942",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_159.png",
+      "destination_sha256": "ACC81A1B292F67E9FE850A8477CA1D075E2BF766E6FA96C54525ED496FA46942",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_159",
+      "hero_name": "Perin Vitriol",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_perin_vitriol/attack.png",
+      "source_sha256": "35C3A14AFB6601D4E42A340A349DA2EB5631D4909956834A628208B6FB18A072",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_159.png",
+      "destination_sha256": "35C3A14AFB6601D4E42A340A349DA2EB5631D4909956834A628208B6FB18A072",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_159",
+      "hero_name": "Perin Vitriol",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_perin_vitriol/stand.png",
+      "source_sha256": "ACC81A1B292F67E9FE850A8477CA1D075E2BF766E6FA96C54525ED496FA46942",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_159.png",
+      "destination_sha256": "ACC81A1B292F67E9FE850A8477CA1D075E2BF766E6FA96C54525ED496FA46942",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_160",
+      "hero_name": "Akari Cinderpetal",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_akari_cinderpetal/stand.png",
+      "source_sha256": "414A1C71A9D66941B13F4A13D3A7139AD60AD1C1E3EF99E6D69BCEB569580B85",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_160.png",
+      "destination_sha256": "414A1C71A9D66941B13F4A13D3A7139AD60AD1C1E3EF99E6D69BCEB569580B85",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_160",
+      "hero_name": "Akari Cinderpetal",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_akari_cinderpetal/attack.png",
+      "source_sha256": "004D687149CA29D3B648D838EAC94E4133D9EB0A6F267873AD52140FF8B29C93",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_160.png",
+      "destination_sha256": "004D687149CA29D3B648D838EAC94E4133D9EB0A6F267873AD52140FF8B29C93",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_160",
+      "hero_name": "Akari Cinderpetal",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_akari_cinderpetal/stand.png",
+      "source_sha256": "414A1C71A9D66941B13F4A13D3A7139AD60AD1C1E3EF99E6D69BCEB569580B85",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_160.png",
+      "destination_sha256": "414A1C71A9D66941B13F4A13D3A7139AD60AD1C1E3EF99E6D69BCEB569580B85",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_161",
+      "hero_name": "Evrin Riftcross",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_evrin_riftcross/stand.png",
+      "source_sha256": "E0999D2B21756A5A2BC6AC5021A0F69EC6C3A899078565080D6EAA702A40560D",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_161.png",
+      "destination_sha256": "E0999D2B21756A5A2BC6AC5021A0F69EC6C3A899078565080D6EAA702A40560D",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_161",
+      "hero_name": "Evrin Riftcross",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_evrin_riftcross/attack.png",
+      "source_sha256": "B175412C5978CDD31D91820DF9DC0AE2B28E8706CEC3344A586778E4B8FBF745",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_161.png",
+      "destination_sha256": "B175412C5978CDD31D91820DF9DC0AE2B28E8706CEC3344A586778E4B8FBF745",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_161",
+      "hero_name": "Evrin Riftcross",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_evrin_riftcross/stand.png",
+      "source_sha256": "E0999D2B21756A5A2BC6AC5021A0F69EC6C3A899078565080D6EAA702A40560D",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_161.png",
+      "destination_sha256": "E0999D2B21756A5A2BC6AC5021A0F69EC6C3A899078565080D6EAA702A40560D",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_162",
+      "hero_name": "Nyrel Crowmantle",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_nyrel_crowmantle/stand.png",
+      "source_sha256": "ABA371392C12B8862DE89F61E66561E3A05E2AD3A3F4F8C47E16A099BB163355",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_162.png",
+      "destination_sha256": "ABA371392C12B8862DE89F61E66561E3A05E2AD3A3F4F8C47E16A099BB163355",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_162",
+      "hero_name": "Nyrel Crowmantle",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_nyrel_crowmantle/attack.png",
+      "source_sha256": "A516B14EFDF46E00152E8C7DC462A19D518C450A86C446374C7DDB59CCDADF98",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_162.png",
+      "destination_sha256": "A516B14EFDF46E00152E8C7DC462A19D518C450A86C446374C7DDB59CCDADF98",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_162",
+      "hero_name": "Nyrel Crowmantle",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_nyrel_crowmantle/stand.png",
+      "source_sha256": "ABA371392C12B8862DE89F61E66561E3A05E2AD3A3F4F8C47E16A099BB163355",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_162.png",
+      "destination_sha256": "ABA371392C12B8862DE89F61E66561E3A05E2AD3A3F4F8C47E16A099BB163355",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_163",
+      "hero_name": "Oshu Veilrunner",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_oshu_veilrunner/stand.png",
+      "source_sha256": "56B9CA5D8DAC51B81E5F23BA6977E6BD6819E895250A883FA15BFCE96B2C53C0",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_163.png",
+      "destination_sha256": "56B9CA5D8DAC51B81E5F23BA6977E6BD6819E895250A883FA15BFCE96B2C53C0",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_163",
+      "hero_name": "Oshu Veilrunner",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_oshu_veilrunner/attack.png",
+      "source_sha256": "3EE9A38CE4FDABF592616B8C126322F355E76E4DCB33C2E99B17ABCDF08252C8",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_163.png",
+      "destination_sha256": "3EE9A38CE4FDABF592616B8C126322F355E76E4DCB33C2E99B17ABCDF08252C8",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_163",
+      "hero_name": "Oshu Veilrunner",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_oshu_veilrunner/stand.png",
+      "source_sha256": "56B9CA5D8DAC51B81E5F23BA6977E6BD6819E895250A883FA15BFCE96B2C53C0",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_163.png",
+      "destination_sha256": "56B9CA5D8DAC51B81E5F23BA6977E6BD6819E895250A883FA15BFCE96B2C53C0",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_164",
+      "hero_name": "Vardek Thornpike",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_vardek_thornpike/stand.png",
+      "source_sha256": "1DB43DEFD09D39211B2C3795E717026098C227252FAF3DAF24B229AE22D2A94D",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_164.png",
+      "destination_sha256": "1DB43DEFD09D39211B2C3795E717026098C227252FAF3DAF24B229AE22D2A94D",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_164",
+      "hero_name": "Vardek Thornpike",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_vardek_thornpike/attack.png",
+      "source_sha256": "C486BF5E84DD727982CEBB32851491B2BA97FC4D589A96FD480CCFBACE0DE76A",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_164.png",
+      "destination_sha256": "C486BF5E84DD727982CEBB32851491B2BA97FC4D589A96FD480CCFBACE0DE76A",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_164",
+      "hero_name": "Vardek Thornpike",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_vardek_thornpike/stand.png",
+      "source_sha256": "1DB43DEFD09D39211B2C3795E717026098C227252FAF3DAF24B229AE22D2A94D",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_164.png",
+      "destination_sha256": "1DB43DEFD09D39211B2C3795E717026098C227252FAF3DAF24B229AE22D2A94D",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_165",
+      "hero_name": "Suyin Wispbound",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_suyin_wispbound/stand.png",
+      "source_sha256": "34C4F642E899F2E05F254A988C2B5EDEEB546B4E903992F8FC38390538EB4E04",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_165.png",
+      "destination_sha256": "34C4F642E899F2E05F254A988C2B5EDEEB546B4E903992F8FC38390538EB4E04",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_165",
+      "hero_name": "Suyin Wispbound",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_suyin_wispbound/attack.png",
+      "source_sha256": "97026B61AB207B8DEAFB1D808E42203B6B05F8CF6827B548F0B23CCF6CDE3116",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_165.png",
+      "destination_sha256": "97026B61AB207B8DEAFB1D808E42203B6B05F8CF6827B548F0B23CCF6CDE3116",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_165",
+      "hero_name": "Suyin Wispbound",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_suyin_wispbound/stand.png",
+      "source_sha256": "34C4F642E899F2E05F254A988C2B5EDEEB546B4E903992F8FC38390538EB4E04",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_165.png",
+      "destination_sha256": "34C4F642E899F2E05F254A988C2B5EDEEB546B4E903992F8FC38390538EB4E04",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_166",
+      "hero_name": "Enna Hoarfletch",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_enna_hoarfletch/stand.png",
+      "source_sha256": "E9FB500C30081636E6BA10D25E6022008B42BCFACFA92BE3D3AD46345F55B7D1",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_166.png",
+      "destination_sha256": "E9FB500C30081636E6BA10D25E6022008B42BCFACFA92BE3D3AD46345F55B7D1",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_166",
+      "hero_name": "Enna Hoarfletch",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_enna_hoarfletch/attack.png",
+      "source_sha256": "0F3C04AB3FF4EEDC2CE2EE46891744E5ACBA95E4687DEDCC740AFEEBA340A443",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_166.png",
+      "destination_sha256": "0F3C04AB3FF4EEDC2CE2EE46891744E5ACBA95E4687DEDCC740AFEEBA340A443",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_166",
+      "hero_name": "Enna Hoarfletch",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_enna_hoarfletch/stand.png",
+      "source_sha256": "E9FB500C30081636E6BA10D25E6022008B42BCFACFA92BE3D3AD46345F55B7D1",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_166.png",
+      "destination_sha256": "E9FB500C30081636E6BA10D25E6022008B42BCFACFA92BE3D3AD46345F55B7D1",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_167",
+      "hero_name": "Elow Fernharp",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_elow_fernharp/stand.png",
+      "source_sha256": "2515505C78C7A8D257685D74A6BD7FAAB2AEFAE51BD10D681E821DBD7913E281",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_167.png",
+      "destination_sha256": "2515505C78C7A8D257685D74A6BD7FAAB2AEFAE51BD10D681E821DBD7913E281",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_167",
+      "hero_name": "Elow Fernharp",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_elow_fernharp/attack.png",
+      "source_sha256": "5A931A606438D22218F2D21B68D81FD4A3AD5DBCA77A1213966DE73885434EC1",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_167.png",
+      "destination_sha256": "5A931A606438D22218F2D21B68D81FD4A3AD5DBCA77A1213966DE73885434EC1",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_167",
+      "hero_name": "Elow Fernharp",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_elow_fernharp/stand.png",
+      "source_sha256": "2515505C78C7A8D257685D74A6BD7FAAB2AEFAE51BD10D681E821DBD7913E281",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_167.png",
+      "destination_sha256": "2515505C78C7A8D257685D74A6BD7FAAB2AEFAE51BD10D681E821DBD7913E281",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_168",
+      "hero_name": "Arven Cinderwing",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_arven_cinderwing/stand.png",
+      "source_sha256": "01BB5FF73A332CFA80FD46DE4FEB8D11AAC80ADB70C9D49E5ADC8EC2E2EA3BD9",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_168.png",
+      "destination_sha256": "01BB5FF73A332CFA80FD46DE4FEB8D11AAC80ADB70C9D49E5ADC8EC2E2EA3BD9",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_168",
+      "hero_name": "Arven Cinderwing",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_arven_cinderwing/attack.png",
+      "source_sha256": "64BF9A5B54D77868A991D2E6E16437101E56E6CBE74268E0E7CC2801846A7198",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_168.png",
+      "destination_sha256": "64BF9A5B54D77868A991D2E6E16437101E56E6CBE74268E0E7CC2801846A7198",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_168",
+      "hero_name": "Arven Cinderwing",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_MASTER_CATALOG_168.zip!Post110_Art/SECOND_DIMENSION_PAINTED_HEROES_NEW_20.zip!SECOND_DIMENSION_PAINTED_HEROES_NEW_20/Sprites/sdh_arven_cinderwing/stand.png",
+      "source_sha256": "01BB5FF73A332CFA80FD46DE4FEB8D11AAC80ADB70C9D49E5ADC8EC2E2EA3BD9",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_168.png",
+      "destination_sha256": "01BB5FF73A332CFA80FD46DE4FEB8D11AAC80ADB70C9D49E5ADC8EC2E2EA3BD9",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_182",
+      "hero_name": "Elandra Frostveil",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_179_188.zip!Sprites/HERO_REC_182_Elandra_Frostveil/HERO_REC_182_IDLE.png",
+      "source_sha256": "9483678EF29EEBE00EB953BDABCA268CE625A1A0672DF18386BFE5EA90B0E2C6",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_182.png",
+      "destination_sha256": "9483678EF29EEBE00EB953BDABCA268CE625A1A0672DF18386BFE5EA90B0E2C6",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_182",
+      "hero_name": "Elandra Frostveil",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_179_188.zip!Sprites/HERO_REC_182_Elandra_Frostveil/HERO_REC_182_ATTACK.png",
+      "source_sha256": "D1882CAAC1685787A12D5F75386B9103C278840DC0E6C6F1DF7323925A28146E",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_182.png",
+      "destination_sha256": "D1882CAAC1685787A12D5F75386B9103C278840DC0E6C6F1DF7323925A28146E",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_182",
+      "hero_name": "Elandra Frostveil",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_179_188.zip!Sprites/HERO_REC_182_Elandra_Frostveil/HERO_REC_182_IDLE.png",
+      "source_sha256": "9483678EF29EEBE00EB953BDABCA268CE625A1A0672DF18386BFE5EA90B0E2C6",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_182.png",
+      "destination_sha256": "9483678EF29EEBE00EB953BDABCA268CE625A1A0672DF18386BFE5EA90B0E2C6",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_184",
+      "hero_name": "Lyria Dawncaller",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_179_188.zip!Sprites/HERO_REC_184_Lyria_Dawncaller/HERO_REC_184_IDLE.png",
+      "source_sha256": "DF8E66FB6BA6417C6B4326C3ACAB338419E45D7853CC0DD08D7BEC89FA073B90",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_184.png",
+      "destination_sha256": "DF8E66FB6BA6417C6B4326C3ACAB338419E45D7853CC0DD08D7BEC89FA073B90",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_184",
+      "hero_name": "Lyria Dawncaller",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_179_188.zip!Sprites/HERO_REC_184_Lyria_Dawncaller/HERO_REC_184_ATTACK.png",
+      "source_sha256": "14EBDC6B629948BC7379CB240F8A6882D99051D96BF41342A7428A0662C777B9",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_184.png",
+      "destination_sha256": "14EBDC6B629948BC7379CB240F8A6882D99051D96BF41342A7428A0662C777B9",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_184",
+      "hero_name": "Lyria Dawncaller",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_179_188.zip!Sprites/HERO_REC_184_Lyria_Dawncaller/HERO_REC_184_IDLE.png",
+      "source_sha256": "DF8E66FB6BA6417C6B4326C3ACAB338419E45D7853CC0DD08D7BEC89FA073B90",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_184.png",
+      "destination_sha256": "DF8E66FB6BA6417C6B4326C3ACAB338419E45D7853CC0DD08D7BEC89FA073B90",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_190",
+      "hero_name": "Ilyra Sunbrook",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_189_198.zip!Sprites/HERO_REC_190_Ilyra_Sunbrook/HERO_REC_190_IDLE.png",
+      "source_sha256": "BC1511780C452DB11B502B167B978E40DCDDD97B12C1D7759B247F7078C0EE31",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_190.png",
+      "destination_sha256": "BC1511780C452DB11B502B167B978E40DCDDD97B12C1D7759B247F7078C0EE31",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_190",
+      "hero_name": "Ilyra Sunbrook",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_189_198.zip!Sprites/HERO_REC_190_Ilyra_Sunbrook/HERO_REC_190_ATTACK.png",
+      "source_sha256": "C12C3095030F8C616509E4E02DF05DFAC51B7A7DEC1EE1CD1C360984AEFEED24",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_190.png",
+      "destination_sha256": "C12C3095030F8C616509E4E02DF05DFAC51B7A7DEC1EE1CD1C360984AEFEED24",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_190",
+      "hero_name": "Ilyra Sunbrook",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_189_198.zip!Sprites/HERO_REC_190_Ilyra_Sunbrook/HERO_REC_190_IDLE.png",
+      "source_sha256": "BC1511780C452DB11B502B167B978E40DCDDD97B12C1D7759B247F7078C0EE31",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_190.png",
+      "destination_sha256": "BC1511780C452DB11B502B167B978E40DCDDD97B12C1D7759B247F7078C0EE31",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_194",
+      "hero_name": "Selene Frostwind",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_189_198.zip!Sprites/HERO_REC_194_Selene_Frostwind/HERO_REC_194_IDLE.png",
+      "source_sha256": "FCDC78043350C4B1B548F37884AE22B1AE6A894C794B3B287D48328CDAA5094B",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_194.png",
+      "destination_sha256": "FCDC78043350C4B1B548F37884AE22B1AE6A894C794B3B287D48328CDAA5094B",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_194",
+      "hero_name": "Selene Frostwind",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_189_198.zip!Sprites/HERO_REC_194_Selene_Frostwind/HERO_REC_194_ATTACK.png",
+      "source_sha256": "3F0018E378B57B8BB83959571E8EBC2E3BF1B8349BCF6FD08064791C1C79D50E",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_194.png",
+      "destination_sha256": "3F0018E378B57B8BB83959571E8EBC2E3BF1B8349BCF6FD08064791C1C79D50E",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_194",
+      "hero_name": "Selene Frostwind",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_189_198.zip!Sprites/HERO_REC_194_Selene_Frostwind/HERO_REC_194_IDLE.png",
+      "source_sha256": "FCDC78043350C4B1B548F37884AE22B1AE6A894C794B3B287D48328CDAA5094B",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_194.png",
+      "destination_sha256": "FCDC78043350C4B1B548F37884AE22B1AE6A894C794B3B287D48328CDAA5094B",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_219",
+      "hero_name": "Rook Chainveil",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_219_234_USABLE.zip!Sprites/HERO_REC_219_Rook_Chainveil/HERO_REC_219_IDLE.png",
+      "source_sha256": "789493E8E2936CB18863B9F6BC3C1558C3DDA0BA6402AB07F0EAE2E9C839CE6B",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_219.png",
+      "destination_sha256": "789493E8E2936CB18863B9F6BC3C1558C3DDA0BA6402AB07F0EAE2E9C839CE6B",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_219",
+      "hero_name": "Rook Chainveil",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_219_234_USABLE.zip!Sprites/HERO_REC_219_Rook_Chainveil/HERO_REC_219_ATTACK.png",
+      "source_sha256": "75CAED7AB693DC30AF383424E810B75BD1F40FC167FBB5E66868293152EA39C1",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_219.png",
+      "destination_sha256": "75CAED7AB693DC30AF383424E810B75BD1F40FC167FBB5E66868293152EA39C1",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_219",
+      "hero_name": "Rook Chainveil",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_219_234_USABLE.zip!Sprites/HERO_REC_219_Rook_Chainveil/HERO_REC_219_IDLE.png",
+      "source_sha256": "789493E8E2936CB18863B9F6BC3C1558C3DDA0BA6402AB07F0EAE2E9C839CE6B",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_219.png",
+      "destination_sha256": "789493E8E2936CB18863B9F6BC3C1558C3DDA0BA6402AB07F0EAE2E9C839CE6B",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_224",
+      "hero_name": "Pippa Vitriol",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_219_234_USABLE.zip!Sprites/HERO_REC_224_Pippa_Vitriol/HERO_REC_224_IDLE.png",
+      "source_sha256": "4BDB57003AF6C2E977FDB330EB25385CA11C18C9774894E27195A61FCA3EDD65",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_224.png",
+      "destination_sha256": "4BDB57003AF6C2E977FDB330EB25385CA11C18C9774894E27195A61FCA3EDD65",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_224",
+      "hero_name": "Pippa Vitriol",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_219_234_USABLE.zip!Sprites/HERO_REC_224_Pippa_Vitriol/HERO_REC_224_ATTACK.png",
+      "source_sha256": "85838AA6065F4804CA4742B843B967FD30F56809D2422C3F5764560E98146251",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_224.png",
+      "destination_sha256": "85838AA6065F4804CA4742B843B967FD30F56809D2422C3F5764560E98146251",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_224",
+      "hero_name": "Pippa Vitriol",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_219_234_USABLE.zip!Sprites/HERO_REC_224_Pippa_Vitriol/HERO_REC_224_IDLE.png",
+      "source_sha256": "4BDB57003AF6C2E977FDB330EB25385CA11C18C9774894E27195A61FCA3EDD65",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_224.png",
+      "destination_sha256": "4BDB57003AF6C2E977FDB330EB25385CA11C18C9774894E27195A61FCA3EDD65",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_226",
+      "hero_name": "Jiro Sunfist",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_219_234_USABLE.zip!Sprites/HERO_REC_226_Jiro_Sunfist/HERO_REC_226_IDLE.png",
+      "source_sha256": "C302813E5BC445C7927B5A83B5B6212BA1543E2AB7415E673258A6B02CF600DC",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_226.png",
+      "destination_sha256": "C302813E5BC445C7927B5A83B5B6212BA1543E2AB7415E673258A6B02CF600DC",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_226",
+      "hero_name": "Jiro Sunfist",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_219_234_USABLE.zip!Sprites/HERO_REC_226_Jiro_Sunfist/HERO_REC_226_ATTACK.png",
+      "source_sha256": "34D31439DC445118D0E6684EEEE1B5C6EB8279BF9D2FC12EC99B75D5022065F8",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_226.png",
+      "destination_sha256": "34D31439DC445118D0E6684EEEE1B5C6EB8279BF9D2FC12EC99B75D5022065F8",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_226",
+      "hero_name": "Jiro Sunfist",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_219_234_USABLE.zip!Sprites/HERO_REC_226_Jiro_Sunfist/HERO_REC_226_IDLE.png",
+      "source_sha256": "C302813E5BC445C7927B5A83B5B6212BA1543E2AB7415E673258A6B02CF600DC",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_226.png",
+      "destination_sha256": "C302813E5BC445C7927B5A83B5B6212BA1543E2AB7415E673258A6B02CF600DC",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_227",
+      "hero_name": "Ressa Chainrose",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_219_234_USABLE.zip!Sprites/HERO_REC_227_Ressa_Chainrose/HERO_REC_227_IDLE.png",
+      "source_sha256": "1ECF07CDF3FBED7BD4A5B61F2AF86E6021ACCF0D56F42BA2E498B3C5C61D9270",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_227.png",
+      "destination_sha256": "1ECF07CDF3FBED7BD4A5B61F2AF86E6021ACCF0D56F42BA2E498B3C5C61D9270",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_227",
+      "hero_name": "Ressa Chainrose",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_219_234_USABLE.zip!Sprites/HERO_REC_227_Ressa_Chainrose/HERO_REC_227_ATTACK.png",
+      "source_sha256": "E72EC65F96F4741B854C4682A41698B6CD62C65F1B40B1F94589950D6C14C224",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_227.png",
+      "destination_sha256": "E72EC65F96F4741B854C4682A41698B6CD62C65F1B40B1F94589950D6C14C224",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_227",
+      "hero_name": "Ressa Chainrose",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_219_234_USABLE.zip!Sprites/HERO_REC_227_Ressa_Chainrose/HERO_REC_227_IDLE.png",
+      "source_sha256": "1ECF07CDF3FBED7BD4A5B61F2AF86E6021ACCF0D56F42BA2E498B3C5C61D9270",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_227.png",
+      "destination_sha256": "1ECF07CDF3FBED7BD4A5B61F2AF86E6021ACCF0D56F42BA2E498B3C5C61D9270",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_229",
+      "hero_name": "Kyrn Mantis",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_219_234_USABLE.zip!Sprites/HERO_REC_229_Kyrn_Mantis/HERO_REC_229_IDLE.png",
+      "source_sha256": "4443C7C7650CB32384EF333A4CEC75BAFB28D18DAC1D4FFD073012384BA7BAAB",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_229.png",
+      "destination_sha256": "4443C7C7650CB32384EF333A4CEC75BAFB28D18DAC1D4FFD073012384BA7BAAB",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_229",
+      "hero_name": "Kyrn Mantis",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_219_234_USABLE.zip!Sprites/HERO_REC_229_Kyrn_Mantis/HERO_REC_229_ATTACK.png",
+      "source_sha256": "860313392EA8FCBC3CD75059EC93F5DF92589E95CB949CBC0DB036A4E09816C4",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_229.png",
+      "destination_sha256": "860313392EA8FCBC3CD75059EC93F5DF92589E95CB949CBC0DB036A4E09816C4",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_229",
+      "hero_name": "Kyrn Mantis",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_219_234_USABLE.zip!Sprites/HERO_REC_229_Kyrn_Mantis/HERO_REC_229_IDLE.png",
+      "source_sha256": "4443C7C7650CB32384EF333A4CEC75BAFB28D18DAC1D4FFD073012384BA7BAAB",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_229.png",
+      "destination_sha256": "4443C7C7650CB32384EF333A4CEC75BAFB28D18DAC1D4FFD073012384BA7BAAB",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_230",
+      "hero_name": "Bastian Twinwall",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_219_234_USABLE.zip!Sprites/HERO_REC_230_Bastian_Twinwall/HERO_REC_230_IDLE.png",
+      "source_sha256": "E2179815E81A7E346A7F1E10C9BA1B762EF9151AB38C1C597218835F50726A2F",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_230.png",
+      "destination_sha256": "E2179815E81A7E346A7F1E10C9BA1B762EF9151AB38C1C597218835F50726A2F",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_230",
+      "hero_name": "Bastian Twinwall",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_219_234_USABLE.zip!Sprites/HERO_REC_230_Bastian_Twinwall/HERO_REC_230_ATTACK.png",
+      "source_sha256": "31B950CEE16D91C8A30F73DB35204EA609E6A866901A0AE2FEED292734D6AE47",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_230.png",
+      "destination_sha256": "31B950CEE16D91C8A30F73DB35204EA609E6A866901A0AE2FEED292734D6AE47",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_230",
+      "hero_name": "Bastian Twinwall",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_219_234_USABLE.zip!Sprites/HERO_REC_230_Bastian_Twinwall/HERO_REC_230_IDLE.png",
+      "source_sha256": "E2179815E81A7E346A7F1E10C9BA1B762EF9151AB38C1C597218835F50726A2F",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_230.png",
+      "destination_sha256": "E2179815E81A7E346A7F1E10C9BA1B762EF9151AB38C1C597218835F50726A2F",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_231",
+      "hero_name": "Sable Redmoon",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_219_234_USABLE.zip!Sprites/HERO_REC_231_Sable_Redmoon/HERO_REC_231_IDLE.png",
+      "source_sha256": "E31A384403C77CC362A58A3AFCAA98EAA0A200F73249825B8E2B3B80CA56FD84",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_231.png",
+      "destination_sha256": "E31A384403C77CC362A58A3AFCAA98EAA0A200F73249825B8E2B3B80CA56FD84",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_231",
+      "hero_name": "Sable Redmoon",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_219_234_USABLE.zip!Sprites/HERO_REC_231_Sable_Redmoon/HERO_REC_231_ATTACK.png",
+      "source_sha256": "C495F021F31428E3D85757B031E170350109D133ED7E320A12979A7C1CE3DC09",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_231.png",
+      "destination_sha256": "C495F021F31428E3D85757B031E170350109D133ED7E320A12979A7C1CE3DC09",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_231",
+      "hero_name": "Sable Redmoon",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_219_234_USABLE.zip!Sprites/HERO_REC_231_Sable_Redmoon/HERO_REC_231_IDLE.png",
+      "source_sha256": "E31A384403C77CC362A58A3AFCAA98EAA0A200F73249825B8E2B3B80CA56FD84",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_231.png",
+      "destination_sha256": "E31A384403C77CC362A58A3AFCAA98EAA0A200F73249825B8E2B3B80CA56FD84",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_235",
+      "hero_name": "Corven Chainshade",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_235_Corven_Chainshade/HERO_REC_235_IDLE.png",
+      "source_sha256": "41E9F8355B37BEB1D7F7472D1C7B5C21B6498CF1BE5770FEC7C83F7B043BF813",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_235.png",
+      "destination_sha256": "41E9F8355B37BEB1D7F7472D1C7B5C21B6498CF1BE5770FEC7C83F7B043BF813",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_235",
+      "hero_name": "Corven Chainshade",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_235_Corven_Chainshade/HERO_REC_235_ATTACK.png",
+      "source_sha256": "A4D6A60C10B3ED01C00380350019E58C7A3AED0FE440F492B270169E68AC99B9",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_235.png",
+      "destination_sha256": "A4D6A60C10B3ED01C00380350019E58C7A3AED0FE440F492B270169E68AC99B9",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_235",
+      "hero_name": "Corven Chainshade",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_235_Corven_Chainshade/HERO_REC_235_IDLE.png",
+      "source_sha256": "41E9F8355B37BEB1D7F7472D1C7B5C21B6498CF1BE5770FEC7C83F7B043BF813",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_235.png",
+      "destination_sha256": "41E9F8355B37BEB1D7F7472D1C7B5C21B6498CF1BE5770FEC7C83F7B043BF813",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_237",
+      "hero_name": "Bront Ashhorn",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_237_Bront_Ashhorn/HERO_REC_237_IDLE.png",
+      "source_sha256": "7B1D5D92DBAAD0EDD9F6CDC44E9D35D7736BFC7F31347A7088892F0F78B67875",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_237.png",
+      "destination_sha256": "7B1D5D92DBAAD0EDD9F6CDC44E9D35D7736BFC7F31347A7088892F0F78B67875",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_237",
+      "hero_name": "Bront Ashhorn",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_237_Bront_Ashhorn/HERO_REC_237_ATTACK.png",
+      "source_sha256": "026FD1918AED56839542640BFB359FA342808EA55569B4BE44907F89B8390AB9",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_237.png",
+      "destination_sha256": "026FD1918AED56839542640BFB359FA342808EA55569B4BE44907F89B8390AB9",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_237",
+      "hero_name": "Bront Ashhorn",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_237_Bront_Ashhorn/HERO_REC_237_IDLE.png",
+      "source_sha256": "7B1D5D92DBAAD0EDD9F6CDC44E9D35D7736BFC7F31347A7088892F0F78B67875",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_237.png",
+      "destination_sha256": "7B1D5D92DBAAD0EDD9F6CDC44E9D35D7736BFC7F31347A7088892F0F78B67875",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_242",
+      "hero_name": "Daigo Sunwheel",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_242_Daigo_Sunwheel/HERO_REC_242_IDLE.png",
+      "source_sha256": "32DBB7A071AD8C3CF078C2C9C88CF080611804BFF1511A46A9570E1D9667CD59",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_242.png",
+      "destination_sha256": "32DBB7A071AD8C3CF078C2C9C88CF080611804BFF1511A46A9570E1D9667CD59",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_242",
+      "hero_name": "Daigo Sunwheel",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_242_Daigo_Sunwheel/HERO_REC_242_ATTACK.png",
+      "source_sha256": "C0DFE882A30DE9C483E7B428A892B5AF2716AE22D967BDE6042A6B684053A8F9",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_242.png",
+      "destination_sha256": "C0DFE882A30DE9C483E7B428A892B5AF2716AE22D967BDE6042A6B684053A8F9",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_242",
+      "hero_name": "Daigo Sunwheel",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_242_Daigo_Sunwheel/HERO_REC_242_IDLE.png",
+      "source_sha256": "32DBB7A071AD8C3CF078C2C9C88CF080611804BFF1511A46A9570E1D9667CD59",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_242.png",
+      "destination_sha256": "32DBB7A071AD8C3CF078C2C9C88CF080611804BFF1511A46A9570E1D9667CD59",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_243",
+      "hero_name": "Vela Rosechain",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_243_Vela_Rosechain/HERO_REC_243_IDLE.png",
+      "source_sha256": "D134F01FB013602EFEC7B3CEA606409AB5DCF0757E89597AA7F319E535D496C2",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_243.png",
+      "destination_sha256": "D134F01FB013602EFEC7B3CEA606409AB5DCF0757E89597AA7F319E535D496C2",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_243",
+      "hero_name": "Vela Rosechain",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_243_Vela_Rosechain/HERO_REC_243_ATTACK.png",
+      "source_sha256": "BB4F1A0AB4ED4A3CFA88CAA1BD6A2D5AEB88934E216636374975408CBC406FB4",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_243.png",
+      "destination_sha256": "BB4F1A0AB4ED4A3CFA88CAA1BD6A2D5AEB88934E216636374975408CBC406FB4",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_243",
+      "hero_name": "Vela Rosechain",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_243_Vela_Rosechain/HERO_REC_243_IDLE.png",
+      "source_sha256": "D134F01FB013602EFEC7B3CEA606409AB5DCF0757E89597AA7F319E535D496C2",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_243.png",
+      "destination_sha256": "D134F01FB013602EFEC7B3CEA606409AB5DCF0757E89597AA7F319E535D496C2",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_244",
+      "hero_name": "Iria Orbitglass",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_244_Iria_Orbitglass/HERO_REC_244_IDLE.png",
+      "source_sha256": "6CE3C88C1A8D3C0A498E4AD0FB33BFCFD7A7A426BE19FD2DDB24B2F7BBFE1E33",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_244.png",
+      "destination_sha256": "6CE3C88C1A8D3C0A498E4AD0FB33BFCFD7A7A426BE19FD2DDB24B2F7BBFE1E33",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_244",
+      "hero_name": "Iria Orbitglass",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_244_Iria_Orbitglass/HERO_REC_244_ATTACK.png",
+      "source_sha256": "91F309D862007C1DEA150AB30D54E0EF02833BBF685F05FF175FF2698D2512D8",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_244.png",
+      "destination_sha256": "91F309D862007C1DEA150AB30D54E0EF02833BBF685F05FF175FF2698D2512D8",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_244",
+      "hero_name": "Iria Orbitglass",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_244_Iria_Orbitglass/HERO_REC_244_IDLE.png",
+      "source_sha256": "6CE3C88C1A8D3C0A498E4AD0FB33BFCFD7A7A426BE19FD2DDB24B2F7BBFE1E33",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_244.png",
+      "destination_sha256": "6CE3C88C1A8D3C0A498E4AD0FB33BFCFD7A7A426BE19FD2DDB24B2F7BBFE1E33",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_246",
+      "hero_name": "Galen Bastion",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_246_Galen_Bastion/HERO_REC_246_IDLE.png",
+      "source_sha256": "9FB114E9E8F4697FEC8E801DB89DADBAC5A9B0E8C407FB38C3190ECEA87D7333",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_246.png",
+      "destination_sha256": "9FB114E9E8F4697FEC8E801DB89DADBAC5A9B0E8C407FB38C3190ECEA87D7333",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_246",
+      "hero_name": "Galen Bastion",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_246_Galen_Bastion/HERO_REC_246_ATTACK.png",
+      "source_sha256": "956906FA5BCB488A888139C49412FB7F0DF2C7E0EC1F56561FB1FD978E972D38",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_246.png",
+      "destination_sha256": "956906FA5BCB488A888139C49412FB7F0DF2C7E0EC1F56561FB1FD978E972D38",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_246",
+      "hero_name": "Galen Bastion",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_246_Galen_Bastion/HERO_REC_246_IDLE.png",
+      "source_sha256": "9FB114E9E8F4697FEC8E801DB89DADBAC5A9B0E8C407FB38C3190ECEA87D7333",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_246.png",
+      "destination_sha256": "9FB114E9E8F4697FEC8E801DB89DADBAC5A9B0E8C407FB38C3190ECEA87D7333",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_247",
+      "hero_name": "Ysolde Icebrand",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_247_Ysolde_Icebrand/HERO_REC_247_IDLE.png",
+      "source_sha256": "30BE8588E993097A1CFFD37347BF22438F006B45B259E6C8B9F9EF224C44B26D",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_247.png",
+      "destination_sha256": "30BE8588E993097A1CFFD37347BF22438F006B45B259E6C8B9F9EF224C44B26D",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_247",
+      "hero_name": "Ysolde Icebrand",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_247_Ysolde_Icebrand/HERO_REC_247_ATTACK.png",
+      "source_sha256": "FE8FEA4CCF0A8D1AD339FBE993069F840A906FAAFFCC3D6E27E860E712F46484",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_247.png",
+      "destination_sha256": "FE8FEA4CCF0A8D1AD339FBE993069F840A906FAAFFCC3D6E27E860E712F46484",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_247",
+      "hero_name": "Ysolde Icebrand",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_247_Ysolde_Icebrand/HERO_REC_247_IDLE.png",
+      "source_sha256": "30BE8588E993097A1CFFD37347BF22438F006B45B259E6C8B9F9EF224C44B26D",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_247.png",
+      "destination_sha256": "30BE8588E993097A1CFFD37347BF22438F006B45B259E6C8B9F9EF224C44B26D",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_251",
+      "hero_name": "Rurik Whitefang",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_251_Rurik_Whitefang/HERO_REC_251_IDLE.png",
+      "source_sha256": "0D0F8034FB788134EE6D58457D0BA9268BB1A1D017F91CEE1C868F02E332CF9C",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_251.png",
+      "destination_sha256": "0D0F8034FB788134EE6D58457D0BA9268BB1A1D017F91CEE1C868F02E332CF9C",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_251",
+      "hero_name": "Rurik Whitefang",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_251_Rurik_Whitefang/HERO_REC_251_ATTACK.png",
+      "source_sha256": "0200DCE97C74580B888EF952450C3D1B2F3301B33DB0AD0490C5F261FA4D45D0",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_251.png",
+      "destination_sha256": "0200DCE97C74580B888EF952450C3D1B2F3301B33DB0AD0490C5F261FA4D45D0",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_251",
+      "hero_name": "Rurik Whitefang",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_251_Rurik_Whitefang/HERO_REC_251_IDLE.png",
+      "source_sha256": "0D0F8034FB788134EE6D58457D0BA9268BB1A1D017F91CEE1C868F02E332CF9C",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_251.png",
+      "destination_sha256": "0D0F8034FB788134EE6D58457D0BA9268BB1A1D017F91CEE1C868F02E332CF9C",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_252",
+      "hero_name": "Maris Tidesong",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_252_Maris_Tidesong/HERO_REC_252_IDLE.png",
+      "source_sha256": "93328C11D7C8C9DC32AF79A8DB47A3AC521DA2C58CD485D23CC1126BD78CF3EC",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_252.png",
+      "destination_sha256": "93328C11D7C8C9DC32AF79A8DB47A3AC521DA2C58CD485D23CC1126BD78CF3EC",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_252",
+      "hero_name": "Maris Tidesong",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_252_Maris_Tidesong/HERO_REC_252_ATTACK.png",
+      "source_sha256": "45D1591944DF6597B6F3998DB3B8A758D6962E022D05ADA72A720FFE1350C52F",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_252.png",
+      "destination_sha256": "45D1591944DF6597B6F3998DB3B8A758D6962E022D05ADA72A720FFE1350C52F",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_252",
+      "hero_name": "Maris Tidesong",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_252_Maris_Tidesong/HERO_REC_252_IDLE.png",
+      "source_sha256": "93328C11D7C8C9DC32AF79A8DB47A3AC521DA2C58CD485D23CC1126BD78CF3EC",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_252.png",
+      "destination_sha256": "93328C11D7C8C9DC32AF79A8DB47A3AC521DA2C58CD485D23CC1126BD78CF3EC",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_254",
+      "hero_name": "Kenzo Rainsteel",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_254_Kenzo_Rainsteel/HERO_REC_254_IDLE.png",
+      "source_sha256": "413A55AAF38F2B96A1DFCBBB49BF73E3EB0D7EC6C983F8195DB13D438B65C097",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_254.png",
+      "destination_sha256": "413A55AAF38F2B96A1DFCBBB49BF73E3EB0D7EC6C983F8195DB13D438B65C097",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_254",
+      "hero_name": "Kenzo Rainsteel",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_254_Kenzo_Rainsteel/HERO_REC_254_ATTACK.png",
+      "source_sha256": "2640CD46D8D7DCDA830F59525FFBFFA4430BBBA12CE56026CDE2212DBB76E126",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_254.png",
+      "destination_sha256": "2640CD46D8D7DCDA830F59525FFBFFA4430BBBA12CE56026CDE2212DBB76E126",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_254",
+      "hero_name": "Kenzo Rainsteel",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_235_254_USABLE.zip!Sprites/HERO_REC_254_Kenzo_Rainsteel/HERO_REC_254_IDLE.png",
+      "source_sha256": "413A55AAF38F2B96A1DFCBBB49BF73E3EB0D7EC6C983F8195DB13D438B65C097",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_254.png",
+      "destination_sha256": "413A55AAF38F2B96A1DFCBBB49BF73E3EB0D7EC6C983F8195DB13D438B65C097",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_255",
+      "hero_name": "Veylan Redchain",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_255_274_USABLE.zip!Sprites/HERO_REC_255_Veylan_Redchain/HERO_REC_255_IDLE.png",
+      "source_sha256": "3316A5CBB6EA33B2514F6C56A4B2193441049BB0CB169E81FC9B4C486FDDE10E",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_255.png",
+      "destination_sha256": "3316A5CBB6EA33B2514F6C56A4B2193441049BB0CB169E81FC9B4C486FDDE10E",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_255",
+      "hero_name": "Veylan Redchain",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_255_274_USABLE.zip!Sprites/HERO_REC_255_Veylan_Redchain/HERO_REC_255_ATTACK.png",
+      "source_sha256": "BCF42AD1FEAB224EC99BAEC3F0A4B9B07D51FC0C27C8FCC03551FDCEDF4BC490",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_255.png",
+      "destination_sha256": "BCF42AD1FEAB224EC99BAEC3F0A4B9B07D51FC0C27C8FCC03551FDCEDF4BC490",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_255",
+      "hero_name": "Veylan Redchain",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_255_274_USABLE.zip!Sprites/HERO_REC_255_Veylan_Redchain/HERO_REC_255_IDLE.png",
+      "source_sha256": "3316A5CBB6EA33B2514F6C56A4B2193441049BB0CB169E81FC9B4C486FDDE10E",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_255.png",
+      "destination_sha256": "3316A5CBB6EA33B2514F6C56A4B2193441049BB0CB169E81FC9B4C486FDDE10E",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_263",
+      "hero_name": "Korin Bluefist",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_255_274_USABLE.zip!Sprites/HERO_REC_263_Korin_Bluefist/HERO_REC_263_IDLE.png",
+      "source_sha256": "FB333E327B2B04ACA280BC73F65427625B4B85D3C4C28EBC3E79D6A8AAE8EAD6",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_263.png",
+      "destination_sha256": "FB333E327B2B04ACA280BC73F65427625B4B85D3C4C28EBC3E79D6A8AAE8EAD6",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_263",
+      "hero_name": "Korin Bluefist",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_255_274_USABLE.zip!Sprites/HERO_REC_263_Korin_Bluefist/HERO_REC_263_ATTACK.png",
+      "source_sha256": "698B8A0100C5E534232141C1D8342E333B3CD84B250B340C8A3E500E3D40F750",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_263.png",
+      "destination_sha256": "698B8A0100C5E534232141C1D8342E333B3CD84B250B340C8A3E500E3D40F750",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_263",
+      "hero_name": "Korin Bluefist",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_255_274_USABLE.zip!Sprites/HERO_REC_263_Korin_Bluefist/HERO_REC_263_IDLE.png",
+      "source_sha256": "FB333E327B2B04ACA280BC73F65427625B4B85D3C4C28EBC3E79D6A8AAE8EAD6",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_263.png",
+      "destination_sha256": "FB333E327B2B04ACA280BC73F65427625B4B85D3C4C28EBC3E79D6A8AAE8EAD6",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_264",
+      "hero_name": "Nerina Wavecrest",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_255_274_USABLE.zip!Sprites/HERO_REC_264_Nerina_Wavecrest/HERO_REC_264_IDLE.png",
+      "source_sha256": "941E65CF6A03CD19F0774B4998F769A6D32EECEB9C398133F7C8615121486B4B",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_264.png",
+      "destination_sha256": "941E65CF6A03CD19F0774B4998F769A6D32EECEB9C398133F7C8615121486B4B",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_264",
+      "hero_name": "Nerina Wavecrest",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_255_274_USABLE.zip!Sprites/HERO_REC_264_Nerina_Wavecrest/HERO_REC_264_ATTACK.png",
+      "source_sha256": "C87FF75C279D0BF221CF3DB3DCCC7A2D25D8EC4BD606ED0F3A5122C989417648",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_264.png",
+      "destination_sha256": "C87FF75C279D0BF221CF3DB3DCCC7A2D25D8EC4BD606ED0F3A5122C989417648",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_264",
+      "hero_name": "Nerina Wavecrest",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_255_274_USABLE.zip!Sprites/HERO_REC_264_Nerina_Wavecrest/HERO_REC_264_IDLE.png",
+      "source_sha256": "941E65CF6A03CD19F0774B4998F769A6D32EECEB9C398133F7C8615121486B4B",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_264.png",
+      "destination_sha256": "941E65CF6A03CD19F0774B4998F769A6D32EECEB9C398133F7C8615121486B4B",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_273",
+      "hero_name": "Xeran Voidcarapace",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_255_274_USABLE.zip!Sprites/HERO_REC_273_Xeran_Voidcarapace/HERO_REC_273_IDLE.png",
+      "source_sha256": "C5B28D205A66771172BE7210728DD8FF26BE1825ED3E553EC5792865C31D3A69",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_273.png",
+      "destination_sha256": "C5B28D205A66771172BE7210728DD8FF26BE1825ED3E553EC5792865C31D3A69",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_273",
+      "hero_name": "Xeran Voidcarapace",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_255_274_USABLE.zip!Sprites/HERO_REC_273_Xeran_Voidcarapace/HERO_REC_273_ATTACK.png",
+      "source_sha256": "6B521EB880DC3FBA72557473135B011A5C582FAE58ED44A3A50D7AAC8D7C9849",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_273.png",
+      "destination_sha256": "6B521EB880DC3FBA72557473135B011A5C582FAE58ED44A3A50D7AAC8D7C9849",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_273",
+      "hero_name": "Xeran Voidcarapace",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_255_274_USABLE.zip!Sprites/HERO_REC_273_Xeran_Voidcarapace/HERO_REC_273_IDLE.png",
+      "source_sha256": "C5B28D205A66771172BE7210728DD8FF26BE1825ED3E553EC5792865C31D3A69",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_273.png",
+      "destination_sha256": "C5B28D205A66771172BE7210728DD8FF26BE1825ED3E553EC5792865C31D3A69",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_283",
+      "hero_name": "Monk Taro",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_275_294_USABLE.zip!Sprites/HERO_REC_283_Monk_Taro/HERO_REC_283_IDLE.png",
+      "source_sha256": "E15B59F29328C8132888520F06B0BE33407CDADF636C39BA4795B0CC8ECB61EB",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_283.png",
+      "destination_sha256": "E15B59F29328C8132888520F06B0BE33407CDADF636C39BA4795B0CC8ECB61EB",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_283",
+      "hero_name": "Monk Taro",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_275_294_USABLE.zip!Sprites/HERO_REC_283_Monk_Taro/HERO_REC_283_ATTACK.png",
+      "source_sha256": "1B0FC80D4A9464B68C08A5D274B3F008DABA059B630D542DE7C27C3FA011C8E1",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_283.png",
+      "destination_sha256": "1B0FC80D4A9464B68C08A5D274B3F008DABA059B630D542DE7C27C3FA011C8E1",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_283",
+      "hero_name": "Monk Taro",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_275_294_USABLE.zip!Sprites/HERO_REC_283_Monk_Taro/HERO_REC_283_IDLE.png",
+      "source_sha256": "E15B59F29328C8132888520F06B0BE33407CDADF636C39BA4795B0CC8ECB61EB",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_283.png",
+      "destination_sha256": "E15B59F29328C8132888520F06B0BE33407CDADF636C39BA4795B0CC8ECB61EB",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_287",
+      "hero_name": "Freya Wolfkin",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_275_294_USABLE.zip!Sprites/HERO_REC_287_Freya_Wolfkin/HERO_REC_287_IDLE.png",
+      "source_sha256": "5465BA01BBA3EDE5FA1AD035CF45717CEE35B93D5D552283A879DD38FA59253A",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_287.png",
+      "destination_sha256": "5465BA01BBA3EDE5FA1AD035CF45717CEE35B93D5D552283A879DD38FA59253A",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_287",
+      "hero_name": "Freya Wolfkin",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_275_294_USABLE.zip!Sprites/HERO_REC_287_Freya_Wolfkin/HERO_REC_287_ATTACK.png",
+      "source_sha256": "74A3901E7AED3760D5CC20DFA17D3E469FBEB87302226758BABDB4553A64F627",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_287.png",
+      "destination_sha256": "74A3901E7AED3760D5CC20DFA17D3E469FBEB87302226758BABDB4553A64F627",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_287",
+      "hero_name": "Freya Wolfkin",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_275_294_USABLE.zip!Sprites/HERO_REC_287_Freya_Wolfkin/HERO_REC_287_IDLE.png",
+      "source_sha256": "5465BA01BBA3EDE5FA1AD035CF45717CEE35B93D5D552283A879DD38FA59253A",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_287.png",
+      "destination_sha256": "5465BA01BBA3EDE5FA1AD035CF45717CEE35B93D5D552283A879DD38FA59253A",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_291",
+      "hero_name": "Aerith Dawnwing",
+      "destination_role": "standing",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_275_294_USABLE.zip!Sprites/HERO_REC_291_Aerith_Dawnwing/HERO_REC_291_IDLE.png",
+      "source_sha256": "E0ADFEED507C62F489E1E867D239675337E9DC2E553362252FB0A1C1CC3F9627",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/STANDEE_HERO_REC_291.png",
+      "destination_sha256": "E0ADFEED507C62F489E1E867D239675337E9DC2E553362252FB0A1C1CC3F9627",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_291",
+      "hero_name": "Aerith Dawnwing",
+      "destination_role": "action",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_275_294_USABLE.zip!Sprites/HERO_REC_291_Aerith_Dawnwing/HERO_REC_291_ATTACK.png",
+      "source_sha256": "E422040F6EEFC471867905410746338C780BBD17456AD1719B76D335E37DE1C3",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Battle/ACTION_HERO_REC_291.png",
+      "destination_sha256": "E422040F6EEFC471867905410746338C780BBD17456AD1719B76D335E37DE1C3",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    },
+    {
+      "stable_id": "HERO_REC_291",
+      "hero_name": "Aerith Dawnwing",
+      "destination_role": "sprite_dossier",
+      "source_archive_path": "SECOND_DIMENSION_HERO_MASTER_300_CODEX_READY.zip!ArtPackages/SECOND_DIMENSION_HERO_REC_275_294_USABLE.zip!Sprites/HERO_REC_291_Aerith_Dawnwing/HERO_REC_291_IDLE.png",
+      "source_sha256": "E0ADFEED507C62F489E1E867D239675337E9DC2E553362252FB0A1C1CC3F9627",
+      "destination_path": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/HERO_REC_291.png",
+      "destination_sha256": "E0ADFEED507C62F489E1E867D239675337E9DC2E553362252FB0A1C1CC3F9627",
+      "status": "PROMOTED_USER_SUPPLIED_REVIEW_BUILD_PENDING_USER_RIGHTS_CONFIRMATION"
+    }
+  ]
+}

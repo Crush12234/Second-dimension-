@@ -1,0 +1,84 @@
+{
+  "contentVersion": "GOW_PASS04_0.9",
+  "chosenEquipment": [
+    {
+      "id": "CHOSEN_AEGIS_CIVIC_SHIELD",
+      "displayName": "Aegis Civic Shield",
+      "compatibility": [
+        "Meaningful civilian protection",
+        "Guard or Rescue proficiency"
+      ],
+      "moralCondition": "The wielder must have protected someone with less power without demanding ownership or worship.",
+      "acceptance": "Aegis Core illuminates and the shield permits equipment.",
+      "rejection": "Remains dormant; no item loss; opens a personal quest.",
+      "reawakening": "Possible after corrected behavior.",
+      "questHook": "Return to the person the wielder failed to protect."
+    },
+    {
+      "id": "CHOSEN_FIRST_BANNER",
+      "displayName": "Banner Without Hatred",
+      "compatibility": [
+        "Leadership",
+        "Support",
+        "nonlethal victory history"
+      ],
+      "moralCondition": "The bearer must rally a mixed Union without naming an enemy race as inherently lesser.",
+      "acceptance": "Banner displays each member’s mark.",
+      "rejection": "Shows only blank cloth.",
+      "reawakening": "After reconciliation or public apology.",
+      "questHook": "Repair a Union split by prejudice."
+    },
+    {
+      "id": "CHOSEN_MEMORY_BLADE",
+      "displayName": "Blade of Remembered Cost",
+      "compatibility": [
+        "Tactical or Knowledge development"
+      ],
+      "moralCondition": "The wielder must acknowledge consequences rather than romanticize victory.",
+      "acceptance": "Reveals one battle memory.",
+      "rejection": "Becomes an ordinary dull blade.",
+      "reawakening": "After completing a memorial event.",
+      "questHook": "Find the civilian record missing from an old battle."
+    },
+    {
+      "id": "CHOSEN_WORLDROAD_TOOL",
+      "displayName": "Worldroad Builder’s Tool",
+      "compatibility": [
+        "Crafting",
+        "public works history"
+      ],
+      "moralCondition": "Must have built something that benefits people outside the wielder’s own group.",
+      "acceptance": "Adapts into a legal tool family.",
+      "rejection": "Locks into inert survey form.",
+      "reawakening": "After cross-cultural cooperation.",
+      "questHook": "Build an embassy approach with three cultures."
+    },
+    {
+      "id": "CHOSEN_QUIET_ARCHIVE_STAFF",
+      "displayName": "Staff of the Quiet Archive",
+      "compatibility": [
+        "Mystic",
+        "Knowledge",
+        "restraint"
+      ],
+      "moralCondition": "Must preserve knowledge without using it to dominate a weaker person.",
+      "acceptance": "Unlocks archive-control forecasts.",
+      "rejection": "Refuses to channel combat magic.",
+      "reawakening": "After returning stolen records.",
+      "questHook": "Choose public truth over private advantage."
+    },
+    {
+      "id": "CHOSEN_RESCUE_CHAIN",
+      "displayName": "Chain of the Last Return",
+      "compatibility": [
+        "Rescue and Guard history"
+      ],
+      "moralCondition": "Must have returned for someone after extraction was already possible.",
+      "acceptance": "Extends toward endangered allies.",
+      "rejection": "Remains too short to use.",
+      "reawakening": "After a voluntary rescue.",
+      "questHook": "Find a missing team before floor reset."
+    }
+  ],
+  "ordinaryRandomDropEligible": false
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ART_SWORD_TWIN_SLASH",
+    "name": "Twin Slash",
+    "family": "MARTIAL",
+    "requiredUnionRank": 2,
+    "requiredPersonalProficiency": 10,
+    "discoveryThreshold": 25,
+    "prerequisiteArts": [
+      "ART_SWORD_QUICK_SLASH"
+    ],
+    "conditions": [
+      "MEANINGFUL_SWORD_ART_USE"
+    ]
+  },
+  {
+    "id": "ART_GUARD_COVER_WEAK",
+    "name": "Cover the Weak",
+    "family": "GUARD",
+    "requiredUnionRank": 2,
+    "requiredPersonalProficiency": 8,
+    "discoveryThreshold": 20,
+    "prerequisiteArts": [],
+    "conditions": [
+      "INTERCEPT_DAMAGE_FOR_LOWER_HP_ALLY"
+    ]
+  },
+  {
+    "id": "ART_RESTORATION_FIELD_REMEDY",
+    "name": "Field Remedy",
+    "family": "RESTORATION",
+    "requiredUnionRank": 2,
+    "requiredPersonalProficiency": 8,
+    "discoveryThreshold": 20,
+    "prerequisiteArts": [],
+    "conditions": [
+      "HEAL_MEANINGFUL_INJURY"
+    ]
+  },
+  {
+    "id": "ART_TACTICAL_CROSS_IMPOSSIBLE",
+    "name": "Cross the Impossible",
+    "family": "TACTICAL",
+    "requiredUnionRank": 3,
+    "requiredPersonalProficiency": 12,
+    "discoveryThreshold": 30,
+    "prerequisiteArts": [],
+    "conditions": [
+      "OVERCOME_DIFFICULT_TERRAIN"
+    ]
+  }
+]

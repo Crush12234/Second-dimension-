@@ -1,0 +1,68 @@
+{
+  "contentVersion": "GOW_PASS08_0.13",
+  "panels": [
+    {
+      "id": "PANEL_FORECAST_TRAY",
+      "screenId": "UI_UNION_BATTLE",
+      "anchor": "bottom",
+      "minItems": 3,
+      "maxItems": 6,
+      "scroll": "horizontal",
+      "safeArea": true
+    },
+    {
+      "id": "PANEL_PLAYER_UNIONS",
+      "screenId": "UI_UNION_BATTLE",
+      "anchor": "left",
+      "minItems": 1,
+      "maxItems": 6,
+      "scroll": "none",
+      "safeArea": true
+    },
+    {
+      "id": "PANEL_ENEMY_UNIONS",
+      "screenId": "UI_UNION_BATTLE",
+      "anchor": "right",
+      "minItems": 1,
+      "maxItems": 8,
+      "scroll": "none",
+      "safeArea": true
+    },
+    {
+      "id": "PANEL_OBJECTIVE",
+      "screenId": "UI_UNION_BATTLE",
+      "anchor": "top",
+      "minItems": 1,
+      "maxItems": 1,
+      "scroll": "none",
+      "safeArea": true
+    },
+    {
+      "id": "PANEL_BOARD_HUD",
+      "screenId": "UI_EXPEDITION_BOARD",
+      "anchor": "top",
+      "minItems": 1,
+      "maxItems": 1,
+      "scroll": "none",
+      "safeArea": true
+    },
+    {
+      "id": "PANEL_RECRUIT_TABS",
+      "screenId": "UI_RECRUIT_DETAIL",
+      "anchor": "right",
+      "minItems": 1,
+      "maxItems": 7,
+      "scroll": "none",
+      "safeArea": true
+    },
+    {
+      "id": "PANEL_HALL_NAV",
+      "screenId": "UI_GUILD_HALL",
+      "anchor": "bottom",
+      "minItems": 1,
+      "maxItems": 6,
+      "scroll": "none",
+      "safeArea": true
+    }
+  ]
+}

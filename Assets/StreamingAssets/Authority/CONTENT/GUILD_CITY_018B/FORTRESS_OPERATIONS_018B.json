@@ -1,0 +1,2743 @@
+{
+  "ContentVersion": "GATES_OF_FORGOTTEN_WORLDS_018B_1.0",
+  "UsesCertifiedUnionBattle": true,
+  "CreatesSecondCombatEngine": false,
+  "Operations": [
+    {
+      "Id": "FORTRESS018B_B06_01",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Fortress Operation 1",
+      "UsesCertifiedUnionBattle": true,
+      "CreatesSecondCombatEngine": false,
+      "MaximumAlliedUnions": 10,
+      "MaximumEnemyUnions": 10,
+      "CanonOutcomeLocked": true,
+      "Phases": [
+        {
+          "Index": 1,
+          "Id": "FORTRESS018B_B06_01_PHASE_01",
+          "DisplayName": "Reconnaissance",
+          "PhaseType": "BOARD",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 4,
+          "Objective": "Reveal legal routes.",
+          "SupportThreshold": 10,
+          "RouteModifiers": [
+            "B06_FORTRESS_1",
+            "PHASE_1"
+          ],
+          "RewardPersonalXp": 31,
+          "RewardGuildXp": 13,
+          "RewardHallXp": 10
+        },
+        {
+          "Index": 2,
+          "Id": "FORTRESS018B_B06_01_PHASE_02",
+          "DisplayName": "Outer Line",
+          "PhaseType": "SKILL_CHECK",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 5,
+          "Objective": "Secure the approach.",
+          "SupportThreshold": 12,
+          "RouteModifiers": [
+            "B06_FORTRESS_1",
+            "PHASE_2"
+          ],
+          "RewardPersonalXp": 36,
+          "RewardGuildXp": 16,
+          "RewardHallXp": 12
+        },
+        {
+          "Index": 3,
+          "Id": "FORTRESS018B_B06_01_PHASE_03",
+          "DisplayName": "Supply Spine",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 6,
+          "Objective": "Protect supplies and civilians.",
+          "SupportThreshold": 14,
+          "RouteModifiers": [
+            "B06_FORTRESS_1",
+            "PHASE_3"
+          ],
+          "RewardPersonalXp": 41,
+          "RewardGuildXp": 19,
+          "RewardHallXp": 14
+        },
+        {
+          "Index": 4,
+          "Id": "FORTRESS018B_B06_01_PHASE_04",
+          "DisplayName": "District Pressure",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 7,
+          "Objective": "Break the enemy front.",
+          "SupportThreshold": 16,
+          "RouteModifiers": [
+            "B06_FORTRESS_1",
+            "PHASE_4"
+          ],
+          "RewardPersonalXp": 46,
+          "RewardGuildXp": 22,
+          "RewardHallXp": 16
+        },
+        {
+          "Index": 5,
+          "Id": "FORTRESS018B_B06_01_PHASE_05",
+          "DisplayName": "Command Breach",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 8,
+          "Objective": "Stabilize the captured district.",
+          "SupportThreshold": 18,
+          "RouteModifiers": [
+            "B06_FORTRESS_1",
+            "PHASE_5"
+          ],
+          "RewardPersonalXp": 51,
+          "RewardGuildXp": 25,
+          "RewardHallXp": 18
+        },
+        {
+          "Index": 6,
+          "Id": "FORTRESS018B_B06_01_PHASE_06",
+          "DisplayName": "Decisive Union Battle",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 9,
+          "Objective": "Defeat the command force.",
+          "SupportThreshold": 20,
+          "RouteModifiers": [
+            "B06_FORTRESS_1",
+            "PHASE_6"
+          ],
+          "RewardPersonalXp": 56,
+          "RewardGuildXp": 28,
+          "RewardHallXp": 20
+        }
+      ]
+    },
+    {
+      "Id": "FORTRESS018B_B06_02",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Fortress Operation 2",
+      "UsesCertifiedUnionBattle": true,
+      "CreatesSecondCombatEngine": false,
+      "MaximumAlliedUnions": 10,
+      "MaximumEnemyUnions": 10,
+      "CanonOutcomeLocked": true,
+      "Phases": [
+        {
+          "Index": 1,
+          "Id": "FORTRESS018B_B06_02_PHASE_01",
+          "DisplayName": "Reconnaissance",
+          "PhaseType": "BOARD",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 5,
+          "Objective": "Reveal legal routes.",
+          "SupportThreshold": 10,
+          "RouteModifiers": [
+            "B06_FORTRESS_2",
+            "PHASE_1"
+          ],
+          "RewardPersonalXp": 31,
+          "RewardGuildXp": 13,
+          "RewardHallXp": 10
+        },
+        {
+          "Index": 2,
+          "Id": "FORTRESS018B_B06_02_PHASE_02",
+          "DisplayName": "Outer Line",
+          "PhaseType": "SKILL_CHECK",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 6,
+          "Objective": "Secure the approach.",
+          "SupportThreshold": 12,
+          "RouteModifiers": [
+            "B06_FORTRESS_2",
+            "PHASE_2"
+          ],
+          "RewardPersonalXp": 36,
+          "RewardGuildXp": 16,
+          "RewardHallXp": 12
+        },
+        {
+          "Index": 3,
+          "Id": "FORTRESS018B_B06_02_PHASE_03",
+          "DisplayName": "Supply Spine",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 7,
+          "Objective": "Protect supplies and civilians.",
+          "SupportThreshold": 14,
+          "RouteModifiers": [
+            "B06_FORTRESS_2",
+            "PHASE_3"
+          ],
+          "RewardPersonalXp": 41,
+          "RewardGuildXp": 19,
+          "RewardHallXp": 14
+        },
+        {
+          "Index": 4,
+          "Id": "FORTRESS018B_B06_02_PHASE_04",
+          "DisplayName": "District Pressure",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 8,
+          "Objective": "Break the enemy front.",
+          "SupportThreshold": 16,
+          "RouteModifiers": [
+            "B06_FORTRESS_2",
+            "PHASE_4"
+          ],
+          "RewardPersonalXp": 46,
+          "RewardGuildXp": 22,
+          "RewardHallXp": 16
+        },
+        {
+          "Index": 5,
+          "Id": "FORTRESS018B_B06_02_PHASE_05",
+          "DisplayName": "Command Breach",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 9,
+          "Objective": "Stabilize the captured district.",
+          "SupportThreshold": 18,
+          "RouteModifiers": [
+            "B06_FORTRESS_2",
+            "PHASE_5"
+          ],
+          "RewardPersonalXp": 51,
+          "RewardGuildXp": 25,
+          "RewardHallXp": 18
+        },
+        {
+          "Index": 6,
+          "Id": "FORTRESS018B_B06_02_PHASE_06",
+          "DisplayName": "Decisive Union Battle",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 10,
+          "Objective": "Defeat the command force.",
+          "SupportThreshold": 20,
+          "RouteModifiers": [
+            "B06_FORTRESS_2",
+            "PHASE_6"
+          ],
+          "RewardPersonalXp": 56,
+          "RewardGuildXp": 28,
+          "RewardHallXp": 20
+        }
+      ]
+    },
+    {
+      "Id": "FORTRESS018B_B07_01",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Fortress Operation 1",
+      "UsesCertifiedUnionBattle": true,
+      "CreatesSecondCombatEngine": false,
+      "MaximumAlliedUnions": 10,
+      "MaximumEnemyUnions": 10,
+      "CanonOutcomeLocked": true,
+      "Phases": [
+        {
+          "Index": 1,
+          "Id": "FORTRESS018B_B07_01_PHASE_01",
+          "DisplayName": "Reconnaissance",
+          "PhaseType": "BOARD",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 4,
+          "Objective": "Reveal legal routes.",
+          "SupportThreshold": 10,
+          "RouteModifiers": [
+            "B07_FORTRESS_1",
+            "PHASE_1"
+          ],
+          "RewardPersonalXp": 32,
+          "RewardGuildXp": 13,
+          "RewardHallXp": 10
+        },
+        {
+          "Index": 2,
+          "Id": "FORTRESS018B_B07_01_PHASE_02",
+          "DisplayName": "Outer Line",
+          "PhaseType": "SKILL_CHECK",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 5,
+          "Objective": "Secure the approach.",
+          "SupportThreshold": 12,
+          "RouteModifiers": [
+            "B07_FORTRESS_1",
+            "PHASE_2"
+          ],
+          "RewardPersonalXp": 37,
+          "RewardGuildXp": 16,
+          "RewardHallXp": 12
+        },
+        {
+          "Index": 3,
+          "Id": "FORTRESS018B_B07_01_PHASE_03",
+          "DisplayName": "Supply Spine",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 6,
+          "Objective": "Protect supplies and civilians.",
+          "SupportThreshold": 14,
+          "RouteModifiers": [
+            "B07_FORTRESS_1",
+            "PHASE_3"
+          ],
+          "RewardPersonalXp": 42,
+          "RewardGuildXp": 19,
+          "RewardHallXp": 14
+        },
+        {
+          "Index": 4,
+          "Id": "FORTRESS018B_B07_01_PHASE_04",
+          "DisplayName": "District Pressure",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 7,
+          "Objective": "Break the enemy front.",
+          "SupportThreshold": 16,
+          "RouteModifiers": [
+            "B07_FORTRESS_1",
+            "PHASE_4"
+          ],
+          "RewardPersonalXp": 47,
+          "RewardGuildXp": 22,
+          "RewardHallXp": 16
+        },
+        {
+          "Index": 5,
+          "Id": "FORTRESS018B_B07_01_PHASE_05",
+          "DisplayName": "Command Breach",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 8,
+          "Objective": "Stabilize the captured district.",
+          "SupportThreshold": 18,
+          "RouteModifiers": [
+            "B07_FORTRESS_1",
+            "PHASE_5"
+          ],
+          "RewardPersonalXp": 52,
+          "RewardGuildXp": 25,
+          "RewardHallXp": 18
+        },
+        {
+          "Index": 6,
+          "Id": "FORTRESS018B_B07_01_PHASE_06",
+          "DisplayName": "Decisive Union Battle",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 9,
+          "Objective": "Defeat the command force.",
+          "SupportThreshold": 20,
+          "RouteModifiers": [
+            "B07_FORTRESS_1",
+            "PHASE_6"
+          ],
+          "RewardPersonalXp": 57,
+          "RewardGuildXp": 28,
+          "RewardHallXp": 20
+        }
+      ]
+    },
+    {
+      "Id": "FORTRESS018B_B07_02",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Fortress Operation 2",
+      "UsesCertifiedUnionBattle": true,
+      "CreatesSecondCombatEngine": false,
+      "MaximumAlliedUnions": 10,
+      "MaximumEnemyUnions": 10,
+      "CanonOutcomeLocked": true,
+      "Phases": [
+        {
+          "Index": 1,
+          "Id": "FORTRESS018B_B07_02_PHASE_01",
+          "DisplayName": "Reconnaissance",
+          "PhaseType": "BOARD",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 5,
+          "Objective": "Reveal legal routes.",
+          "SupportThreshold": 10,
+          "RouteModifiers": [
+            "B07_FORTRESS_2",
+            "PHASE_1"
+          ],
+          "RewardPersonalXp": 32,
+          "RewardGuildXp": 13,
+          "RewardHallXp": 10
+        },
+        {
+          "Index": 2,
+          "Id": "FORTRESS018B_B07_02_PHASE_02",
+          "DisplayName": "Outer Line",
+          "PhaseType": "SKILL_CHECK",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 6,
+          "Objective": "Secure the approach.",
+          "SupportThreshold": 12,
+          "RouteModifiers": [
+            "B07_FORTRESS_2",
+            "PHASE_2"
+          ],
+          "RewardPersonalXp": 37,
+          "RewardGuildXp": 16,
+          "RewardHallXp": 12
+        },
+        {
+          "Index": 3,
+          "Id": "FORTRESS018B_B07_02_PHASE_03",
+          "DisplayName": "Supply Spine",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 7,
+          "Objective": "Protect supplies and civilians.",
+          "SupportThreshold": 14,
+          "RouteModifiers": [
+            "B07_FORTRESS_2",
+            "PHASE_3"
+          ],
+          "RewardPersonalXp": 42,
+          "RewardGuildXp": 19,
+          "RewardHallXp": 14
+        },
+        {
+          "Index": 4,
+          "Id": "FORTRESS018B_B07_02_PHASE_04",
+          "DisplayName": "District Pressure",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 8,
+          "Objective": "Break the enemy front.",
+          "SupportThreshold": 16,
+          "RouteModifiers": [
+            "B07_FORTRESS_2",
+            "PHASE_4"
+          ],
+          "RewardPersonalXp": 47,
+          "RewardGuildXp": 22,
+          "RewardHallXp": 16
+        },
+        {
+          "Index": 5,
+          "Id": "FORTRESS018B_B07_02_PHASE_05",
+          "DisplayName": "Command Breach",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 9,
+          "Objective": "Stabilize the captured district.",
+          "SupportThreshold": 18,
+          "RouteModifiers": [
+            "B07_FORTRESS_2",
+            "PHASE_5"
+          ],
+          "RewardPersonalXp": 52,
+          "RewardGuildXp": 25,
+          "RewardHallXp": 18
+        },
+        {
+          "Index": 6,
+          "Id": "FORTRESS018B_B07_02_PHASE_06",
+          "DisplayName": "Decisive Union Battle",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 10,
+          "Objective": "Defeat the command force.",
+          "SupportThreshold": 20,
+          "RouteModifiers": [
+            "B07_FORTRESS_2",
+            "PHASE_6"
+          ],
+          "RewardPersonalXp": 57,
+          "RewardGuildXp": 28,
+          "RewardHallXp": 20
+        }
+      ]
+    },
+    {
+      "Id": "FORTRESS018B_B07_03",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Fortress Operation 3",
+      "UsesCertifiedUnionBattle": true,
+      "CreatesSecondCombatEngine": false,
+      "MaximumAlliedUnions": 10,
+      "MaximumEnemyUnions": 10,
+      "CanonOutcomeLocked": true,
+      "Phases": [
+        {
+          "Index": 1,
+          "Id": "FORTRESS018B_B07_03_PHASE_01",
+          "DisplayName": "Reconnaissance",
+          "PhaseType": "BOARD",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 6,
+          "Objective": "Reveal legal routes.",
+          "SupportThreshold": 10,
+          "RouteModifiers": [
+            "B07_FORTRESS_3",
+            "PHASE_1"
+          ],
+          "RewardPersonalXp": 32,
+          "RewardGuildXp": 13,
+          "RewardHallXp": 10
+        },
+        {
+          "Index": 2,
+          "Id": "FORTRESS018B_B07_03_PHASE_02",
+          "DisplayName": "Outer Line",
+          "PhaseType": "SKILL_CHECK",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 7,
+          "Objective": "Secure the approach.",
+          "SupportThreshold": 12,
+          "RouteModifiers": [
+            "B07_FORTRESS_3",
+            "PHASE_2"
+          ],
+          "RewardPersonalXp": 37,
+          "RewardGuildXp": 16,
+          "RewardHallXp": 12
+        },
+        {
+          "Index": 3,
+          "Id": "FORTRESS018B_B07_03_PHASE_03",
+          "DisplayName": "Supply Spine",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 8,
+          "Objective": "Protect supplies and civilians.",
+          "SupportThreshold": 14,
+          "RouteModifiers": [
+            "B07_FORTRESS_3",
+            "PHASE_3"
+          ],
+          "RewardPersonalXp": 42,
+          "RewardGuildXp": 19,
+          "RewardHallXp": 14
+        },
+        {
+          "Index": 4,
+          "Id": "FORTRESS018B_B07_03_PHASE_04",
+          "DisplayName": "District Pressure",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 9,
+          "Objective": "Break the enemy front.",
+          "SupportThreshold": 16,
+          "RouteModifiers": [
+            "B07_FORTRESS_3",
+            "PHASE_4"
+          ],
+          "RewardPersonalXp": 47,
+          "RewardGuildXp": 22,
+          "RewardHallXp": 16
+        },
+        {
+          "Index": 5,
+          "Id": "FORTRESS018B_B07_03_PHASE_05",
+          "DisplayName": "Command Breach",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 10,
+          "Objective": "Stabilize the captured district.",
+          "SupportThreshold": 18,
+          "RouteModifiers": [
+            "B07_FORTRESS_3",
+            "PHASE_5"
+          ],
+          "RewardPersonalXp": 52,
+          "RewardGuildXp": 25,
+          "RewardHallXp": 18
+        },
+        {
+          "Index": 6,
+          "Id": "FORTRESS018B_B07_03_PHASE_06",
+          "DisplayName": "Decisive Union Battle",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 10,
+          "Objective": "Defeat the command force.",
+          "SupportThreshold": 20,
+          "RouteModifiers": [
+            "B07_FORTRESS_3",
+            "PHASE_6"
+          ],
+          "RewardPersonalXp": 57,
+          "RewardGuildXp": 28,
+          "RewardHallXp": 20
+        }
+      ]
+    },
+    {
+      "Id": "FORTRESS018B_B07_04",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Fortress Operation 4",
+      "UsesCertifiedUnionBattle": true,
+      "CreatesSecondCombatEngine": false,
+      "MaximumAlliedUnions": 10,
+      "MaximumEnemyUnions": 10,
+      "CanonOutcomeLocked": true,
+      "Phases": [
+        {
+          "Index": 1,
+          "Id": "FORTRESS018B_B07_04_PHASE_01",
+          "DisplayName": "Reconnaissance",
+          "PhaseType": "BOARD",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 7,
+          "Objective": "Reveal legal routes.",
+          "SupportThreshold": 10,
+          "RouteModifiers": [
+            "B07_FORTRESS_4",
+            "PHASE_1"
+          ],
+          "RewardPersonalXp": 32,
+          "RewardGuildXp": 13,
+          "RewardHallXp": 10
+        },
+        {
+          "Index": 2,
+          "Id": "FORTRESS018B_B07_04_PHASE_02",
+          "DisplayName": "Outer Line",
+          "PhaseType": "SKILL_CHECK",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 8,
+          "Objective": "Secure the approach.",
+          "SupportThreshold": 12,
+          "RouteModifiers": [
+            "B07_FORTRESS_4",
+            "PHASE_2"
+          ],
+          "RewardPersonalXp": 37,
+          "RewardGuildXp": 16,
+          "RewardHallXp": 12
+        },
+        {
+          "Index": 3,
+          "Id": "FORTRESS018B_B07_04_PHASE_03",
+          "DisplayName": "Supply Spine",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 9,
+          "Objective": "Protect supplies and civilians.",
+          "SupportThreshold": 14,
+          "RouteModifiers": [
+            "B07_FORTRESS_4",
+            "PHASE_3"
+          ],
+          "RewardPersonalXp": 42,
+          "RewardGuildXp": 19,
+          "RewardHallXp": 14
+        },
+        {
+          "Index": 4,
+          "Id": "FORTRESS018B_B07_04_PHASE_04",
+          "DisplayName": "District Pressure",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 10,
+          "Objective": "Break the enemy front.",
+          "SupportThreshold": 16,
+          "RouteModifiers": [
+            "B07_FORTRESS_4",
+            "PHASE_4"
+          ],
+          "RewardPersonalXp": 47,
+          "RewardGuildXp": 22,
+          "RewardHallXp": 16
+        },
+        {
+          "Index": 5,
+          "Id": "FORTRESS018B_B07_04_PHASE_05",
+          "DisplayName": "Command Breach",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 10,
+          "Objective": "Stabilize the captured district.",
+          "SupportThreshold": 18,
+          "RouteModifiers": [
+            "B07_FORTRESS_4",
+            "PHASE_5"
+          ],
+          "RewardPersonalXp": 52,
+          "RewardGuildXp": 25,
+          "RewardHallXp": 18
+        },
+        {
+          "Index": 6,
+          "Id": "FORTRESS018B_B07_04_PHASE_06",
+          "DisplayName": "Decisive Union Battle",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 10,
+          "Objective": "Defeat the command force.",
+          "SupportThreshold": 20,
+          "RouteModifiers": [
+            "B07_FORTRESS_4",
+            "PHASE_6"
+          ],
+          "RewardPersonalXp": 57,
+          "RewardGuildXp": 28,
+          "RewardHallXp": 20
+        }
+      ]
+    },
+    {
+      "Id": "FORTRESS018B_B08_01",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Fortress Operation 1",
+      "UsesCertifiedUnionBattle": true,
+      "CreatesSecondCombatEngine": false,
+      "MaximumAlliedUnions": 10,
+      "MaximumEnemyUnions": 10,
+      "CanonOutcomeLocked": true,
+      "Phases": [
+        {
+          "Index": 1,
+          "Id": "FORTRESS018B_B08_01_PHASE_01",
+          "DisplayName": "Reconnaissance",
+          "PhaseType": "BOARD",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 4,
+          "Objective": "Reveal legal routes.",
+          "SupportThreshold": 10,
+          "RouteModifiers": [
+            "B08_FORTRESS_1",
+            "PHASE_1"
+          ],
+          "RewardPersonalXp": 33,
+          "RewardGuildXp": 13,
+          "RewardHallXp": 10
+        },
+        {
+          "Index": 2,
+          "Id": "FORTRESS018B_B08_01_PHASE_02",
+          "DisplayName": "Outer Line",
+          "PhaseType": "SKILL_CHECK",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 5,
+          "Objective": "Secure the approach.",
+          "SupportThreshold": 12,
+          "RouteModifiers": [
+            "B08_FORTRESS_1",
+            "PHASE_2"
+          ],
+          "RewardPersonalXp": 38,
+          "RewardGuildXp": 16,
+          "RewardHallXp": 12
+        },
+        {
+          "Index": 3,
+          "Id": "FORTRESS018B_B08_01_PHASE_03",
+          "DisplayName": "Supply Spine",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 6,
+          "Objective": "Protect supplies and civilians.",
+          "SupportThreshold": 14,
+          "RouteModifiers": [
+            "B08_FORTRESS_1",
+            "PHASE_3"
+          ],
+          "RewardPersonalXp": 43,
+          "RewardGuildXp": 19,
+          "RewardHallXp": 14
+        },
+        {
+          "Index": 4,
+          "Id": "FORTRESS018B_B08_01_PHASE_04",
+          "DisplayName": "District Pressure",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 7,
+          "Objective": "Break the enemy front.",
+          "SupportThreshold": 16,
+          "RouteModifiers": [
+            "B08_FORTRESS_1",
+            "PHASE_4"
+          ],
+          "RewardPersonalXp": 48,
+          "RewardGuildXp": 22,
+          "RewardHallXp": 16
+        },
+        {
+          "Index": 5,
+          "Id": "FORTRESS018B_B08_01_PHASE_05",
+          "DisplayName": "Command Breach",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 8,
+          "Objective": "Stabilize the captured district.",
+          "SupportThreshold": 18,
+          "RouteModifiers": [
+            "B08_FORTRESS_1",
+            "PHASE_5"
+          ],
+          "RewardPersonalXp": 53,
+          "RewardGuildXp": 25,
+          "RewardHallXp": 18
+        },
+        {
+          "Index": 6,
+          "Id": "FORTRESS018B_B08_01_PHASE_06",
+          "DisplayName": "Decisive Union Battle",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 9,
+          "Objective": "Defeat the command force.",
+          "SupportThreshold": 20,
+          "RouteModifiers": [
+            "B08_FORTRESS_1",
+            "PHASE_6"
+          ],
+          "RewardPersonalXp": 58,
+          "RewardGuildXp": 28,
+          "RewardHallXp": 20
+        }
+      ]
+    },
+    {
+      "Id": "FORTRESS018B_B08_02",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Fortress Operation 2",
+      "UsesCertifiedUnionBattle": true,
+      "CreatesSecondCombatEngine": false,
+      "MaximumAlliedUnions": 10,
+      "MaximumEnemyUnions": 10,
+      "CanonOutcomeLocked": true,
+      "Phases": [
+        {
+          "Index": 1,
+          "Id": "FORTRESS018B_B08_02_PHASE_01",
+          "DisplayName": "Reconnaissance",
+          "PhaseType": "BOARD",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 5,
+          "Objective": "Reveal legal routes.",
+          "SupportThreshold": 10,
+          "RouteModifiers": [
+            "B08_FORTRESS_2",
+            "PHASE_1"
+          ],
+          "RewardPersonalXp": 33,
+          "RewardGuildXp": 13,
+          "RewardHallXp": 10
+        },
+        {
+          "Index": 2,
+          "Id": "FORTRESS018B_B08_02_PHASE_02",
+          "DisplayName": "Outer Line",
+          "PhaseType": "SKILL_CHECK",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 6,
+          "Objective": "Secure the approach.",
+          "SupportThreshold": 12,
+          "RouteModifiers": [
+            "B08_FORTRESS_2",
+            "PHASE_2"
+          ],
+          "RewardPersonalXp": 38,
+          "RewardGuildXp": 16,
+          "RewardHallXp": 12
+        },
+        {
+          "Index": 3,
+          "Id": "FORTRESS018B_B08_02_PHASE_03",
+          "DisplayName": "Supply Spine",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 7,
+          "Objective": "Protect supplies and civilians.",
+          "SupportThreshold": 14,
+          "RouteModifiers": [
+            "B08_FORTRESS_2",
+            "PHASE_3"
+          ],
+          "RewardPersonalXp": 43,
+          "RewardGuildXp": 19,
+          "RewardHallXp": 14
+        },
+        {
+          "Index": 4,
+          "Id": "FORTRESS018B_B08_02_PHASE_04",
+          "DisplayName": "District Pressure",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 8,
+          "Objective": "Break the enemy front.",
+          "SupportThreshold": 16,
+          "RouteModifiers": [
+            "B08_FORTRESS_2",
+            "PHASE_4"
+          ],
+          "RewardPersonalXp": 48,
+          "RewardGuildXp": 22,
+          "RewardHallXp": 16
+        },
+        {
+          "Index": 5,
+          "Id": "FORTRESS018B_B08_02_PHASE_05",
+          "DisplayName": "Command Breach",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 9,
+          "Objective": "Stabilize the captured district.",
+          "SupportThreshold": 18,
+          "RouteModifiers": [
+            "B08_FORTRESS_2",
+            "PHASE_5"
+          ],
+          "RewardPersonalXp": 53,
+          "RewardGuildXp": 25,
+          "RewardHallXp": 18
+        },
+        {
+          "Index": 6,
+          "Id": "FORTRESS018B_B08_02_PHASE_06",
+          "DisplayName": "Decisive Union Battle",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 10,
+          "Objective": "Defeat the command force.",
+          "SupportThreshold": 20,
+          "RouteModifiers": [
+            "B08_FORTRESS_2",
+            "PHASE_6"
+          ],
+          "RewardPersonalXp": 58,
+          "RewardGuildXp": 28,
+          "RewardHallXp": 20
+        }
+      ]
+    },
+    {
+      "Id": "FORTRESS018B_B08_03",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Fortress Operation 3",
+      "UsesCertifiedUnionBattle": true,
+      "CreatesSecondCombatEngine": false,
+      "MaximumAlliedUnions": 10,
+      "MaximumEnemyUnions": 10,
+      "CanonOutcomeLocked": true,
+      "Phases": [
+        {
+          "Index": 1,
+          "Id": "FORTRESS018B_B08_03_PHASE_01",
+          "DisplayName": "Reconnaissance",
+          "PhaseType": "BOARD",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 6,
+          "Objective": "Reveal legal routes.",
+          "SupportThreshold": 10,
+          "RouteModifiers": [
+            "B08_FORTRESS_3",
+            "PHASE_1"
+          ],
+          "RewardPersonalXp": 33,
+          "RewardGuildXp": 13,
+          "RewardHallXp": 10
+        },
+        {
+          "Index": 2,
+          "Id": "FORTRESS018B_B08_03_PHASE_02",
+          "DisplayName": "Outer Line",
+          "PhaseType": "SKILL_CHECK",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 7,
+          "Objective": "Secure the approach.",
+          "SupportThreshold": 12,
+          "RouteModifiers": [
+            "B08_FORTRESS_3",
+            "PHASE_2"
+          ],
+          "RewardPersonalXp": 38,
+          "RewardGuildXp": 16,
+          "RewardHallXp": 12
+        },
+        {
+          "Index": 3,
+          "Id": "FORTRESS018B_B08_03_PHASE_03",
+          "DisplayName": "Supply Spine",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 8,
+          "Objective": "Protect supplies and civilians.",
+          "SupportThreshold": 14,
+          "RouteModifiers": [
+            "B08_FORTRESS_3",
+            "PHASE_3"
+          ],
+          "RewardPersonalXp": 43,
+          "RewardGuildXp": 19,
+          "RewardHallXp": 14
+        },
+        {
+          "Index": 4,
+          "Id": "FORTRESS018B_B08_03_PHASE_04",
+          "DisplayName": "District Pressure",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 9,
+          "Objective": "Break the enemy front.",
+          "SupportThreshold": 16,
+          "RouteModifiers": [
+            "B08_FORTRESS_3",
+            "PHASE_4"
+          ],
+          "RewardPersonalXp": 48,
+          "RewardGuildXp": 22,
+          "RewardHallXp": 16
+        },
+        {
+          "Index": 5,
+          "Id": "FORTRESS018B_B08_03_PHASE_05",
+          "DisplayName": "Command Breach",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 10,
+          "Objective": "Stabilize the captured district.",
+          "SupportThreshold": 18,
+          "RouteModifiers": [
+            "B08_FORTRESS_3",
+            "PHASE_5"
+          ],
+          "RewardPersonalXp": 53,
+          "RewardGuildXp": 25,
+          "RewardHallXp": 18
+        },
+        {
+          "Index": 6,
+          "Id": "FORTRESS018B_B08_03_PHASE_06",
+          "DisplayName": "Decisive Union Battle",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 10,
+          "Objective": "Defeat the command force.",
+          "SupportThreshold": 20,
+          "RouteModifiers": [
+            "B08_FORTRESS_3",
+            "PHASE_6"
+          ],
+          "RewardPersonalXp": 58,
+          "RewardGuildXp": 28,
+          "RewardHallXp": 20
+        }
+      ]
+    },
+    {
+      "Id": "FORTRESS018B_B09_01",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Fortress Operation 1",
+      "UsesCertifiedUnionBattle": true,
+      "CreatesSecondCombatEngine": false,
+      "MaximumAlliedUnions": 10,
+      "MaximumEnemyUnions": 10,
+      "CanonOutcomeLocked": true,
+      "Phases": [
+        {
+          "Index": 1,
+          "Id": "FORTRESS018B_B09_01_PHASE_01",
+          "DisplayName": "Reconnaissance",
+          "PhaseType": "BOARD",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 4,
+          "Objective": "Reveal legal routes.",
+          "SupportThreshold": 10,
+          "RouteModifiers": [
+            "B09_FORTRESS_1",
+            "PHASE_1"
+          ],
+          "RewardPersonalXp": 34,
+          "RewardGuildXp": 13,
+          "RewardHallXp": 10
+        },
+        {
+          "Index": 2,
+          "Id": "FORTRESS018B_B09_01_PHASE_02",
+          "DisplayName": "Outer Line",
+          "PhaseType": "SKILL_CHECK",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 5,
+          "Objective": "Secure the approach.",
+          "SupportThreshold": 12,
+          "RouteModifiers": [
+            "B09_FORTRESS_1",
+            "PHASE_2"
+          ],
+          "RewardPersonalXp": 39,
+          "RewardGuildXp": 16,
+          "RewardHallXp": 12
+        },
+        {
+          "Index": 3,
+          "Id": "FORTRESS018B_B09_01_PHASE_03",
+          "DisplayName": "Supply Spine",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 6,
+          "Objective": "Protect supplies and civilians.",
+          "SupportThreshold": 14,
+          "RouteModifiers": [
+            "B09_FORTRESS_1",
+            "PHASE_3"
+          ],
+          "RewardPersonalXp": 44,
+          "RewardGuildXp": 19,
+          "RewardHallXp": 14
+        },
+        {
+          "Index": 4,
+          "Id": "FORTRESS018B_B09_01_PHASE_04",
+          "DisplayName": "District Pressure",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 7,
+          "Objective": "Break the enemy front.",
+          "SupportThreshold": 16,
+          "RouteModifiers": [
+            "B09_FORTRESS_1",
+            "PHASE_4"
+          ],
+          "RewardPersonalXp": 49,
+          "RewardGuildXp": 22,
+          "RewardHallXp": 16
+        },
+        {
+          "Index": 5,
+          "Id": "FORTRESS018B_B09_01_PHASE_05",
+          "DisplayName": "Command Breach",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 8,
+          "Objective": "Stabilize the captured district.",
+          "SupportThreshold": 18,
+          "RouteModifiers": [
+            "B09_FORTRESS_1",
+            "PHASE_5"
+          ],
+          "RewardPersonalXp": 54,
+          "RewardGuildXp": 25,
+          "RewardHallXp": 18
+        },
+        {
+          "Index": 6,
+          "Id": "FORTRESS018B_B09_01_PHASE_06",
+          "DisplayName": "Decisive Union Battle",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 9,
+          "Objective": "Defeat the command force.",
+          "SupportThreshold": 20,
+          "RouteModifiers": [
+            "B09_FORTRESS_1",
+            "PHASE_6"
+          ],
+          "RewardPersonalXp": 59,
+          "RewardGuildXp": 28,
+          "RewardHallXp": 20
+        }
+      ]
+    },
+    {
+      "Id": "FORTRESS018B_B09_02",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Fortress Operation 2",
+      "UsesCertifiedUnionBattle": true,
+      "CreatesSecondCombatEngine": false,
+      "MaximumAlliedUnions": 10,
+      "MaximumEnemyUnions": 10,
+      "CanonOutcomeLocked": true,
+      "Phases": [
+        {
+          "Index": 1,
+          "Id": "FORTRESS018B_B09_02_PHASE_01",
+          "DisplayName": "Reconnaissance",
+          "PhaseType": "BOARD",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 5,
+          "Objective": "Reveal legal routes.",
+          "SupportThreshold": 10,
+          "RouteModifiers": [
+            "B09_FORTRESS_2",
+            "PHASE_1"
+          ],
+          "RewardPersonalXp": 34,
+          "RewardGuildXp": 13,
+          "RewardHallXp": 10
+        },
+        {
+          "Index": 2,
+          "Id": "FORTRESS018B_B09_02_PHASE_02",
+          "DisplayName": "Outer Line",
+          "PhaseType": "SKILL_CHECK",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 6,
+          "Objective": "Secure the approach.",
+          "SupportThreshold": 12,
+          "RouteModifiers": [
+            "B09_FORTRESS_2",
+            "PHASE_2"
+          ],
+          "RewardPersonalXp": 39,
+          "RewardGuildXp": 16,
+          "RewardHallXp": 12
+        },
+        {
+          "Index": 3,
+          "Id": "FORTRESS018B_B09_02_PHASE_03",
+          "DisplayName": "Supply Spine",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 7,
+          "Objective": "Protect supplies and civilians.",
+          "SupportThreshold": 14,
+          "RouteModifiers": [
+            "B09_FORTRESS_2",
+            "PHASE_3"
+          ],
+          "RewardPersonalXp": 44,
+          "RewardGuildXp": 19,
+          "RewardHallXp": 14
+        },
+        {
+          "Index": 4,
+          "Id": "FORTRESS018B_B09_02_PHASE_04",
+          "DisplayName": "District Pressure",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 8,
+          "Objective": "Break the enemy front.",
+          "SupportThreshold": 16,
+          "RouteModifiers": [
+            "B09_FORTRESS_2",
+            "PHASE_4"
+          ],
+          "RewardPersonalXp": 49,
+          "RewardGuildXp": 22,
+          "RewardHallXp": 16
+        },
+        {
+          "Index": 5,
+          "Id": "FORTRESS018B_B09_02_PHASE_05",
+          "DisplayName": "Command Breach",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 9,
+          "Objective": "Stabilize the captured district.",
+          "SupportThreshold": 18,
+          "RouteModifiers": [
+            "B09_FORTRESS_2",
+            "PHASE_5"
+          ],
+          "RewardPersonalXp": 54,
+          "RewardGuildXp": 25,
+          "RewardHallXp": 18
+        },
+        {
+          "Index": 6,
+          "Id": "FORTRESS018B_B09_02_PHASE_06",
+          "DisplayName": "Decisive Union Battle",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 10,
+          "Objective": "Defeat the command force.",
+          "SupportThreshold": 20,
+          "RouteModifiers": [
+            "B09_FORTRESS_2",
+            "PHASE_6"
+          ],
+          "RewardPersonalXp": 59,
+          "RewardGuildXp": 28,
+          "RewardHallXp": 20
+        }
+      ]
+    },
+    {
+      "Id": "FORTRESS018B_B10_01",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Fortress Operation 1",
+      "UsesCertifiedUnionBattle": true,
+      "CreatesSecondCombatEngine": false,
+      "MaximumAlliedUnions": 10,
+      "MaximumEnemyUnions": 10,
+      "CanonOutcomeLocked": true,
+      "Phases": [
+        {
+          "Index": 1,
+          "Id": "FORTRESS018B_B10_01_PHASE_01",
+          "DisplayName": "Reconnaissance",
+          "PhaseType": "BOARD",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 4,
+          "Objective": "Reveal legal routes.",
+          "SupportThreshold": 10,
+          "RouteModifiers": [
+            "B10_FORTRESS_1",
+            "PHASE_1"
+          ],
+          "RewardPersonalXp": 35,
+          "RewardGuildXp": 13,
+          "RewardHallXp": 10
+        },
+        {
+          "Index": 2,
+          "Id": "FORTRESS018B_B10_01_PHASE_02",
+          "DisplayName": "Outer Line",
+          "PhaseType": "SKILL_CHECK",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 5,
+          "Objective": "Secure the approach.",
+          "SupportThreshold": 12,
+          "RouteModifiers": [
+            "B10_FORTRESS_1",
+            "PHASE_2"
+          ],
+          "RewardPersonalXp": 40,
+          "RewardGuildXp": 16,
+          "RewardHallXp": 12
+        },
+        {
+          "Index": 3,
+          "Id": "FORTRESS018B_B10_01_PHASE_03",
+          "DisplayName": "Supply Spine",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 6,
+          "Objective": "Protect supplies and civilians.",
+          "SupportThreshold": 14,
+          "RouteModifiers": [
+            "B10_FORTRESS_1",
+            "PHASE_3"
+          ],
+          "RewardPersonalXp": 45,
+          "RewardGuildXp": 19,
+          "RewardHallXp": 14
+        },
+        {
+          "Index": 4,
+          "Id": "FORTRESS018B_B10_01_PHASE_04",
+          "DisplayName": "District Pressure",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 7,
+          "Objective": "Break the enemy front.",
+          "SupportThreshold": 16,
+          "RouteModifiers": [
+            "B10_FORTRESS_1",
+            "PHASE_4"
+          ],
+          "RewardPersonalXp": 50,
+          "RewardGuildXp": 22,
+          "RewardHallXp": 16
+        },
+        {
+          "Index": 5,
+          "Id": "FORTRESS018B_B10_01_PHASE_05",
+          "DisplayName": "Command Breach",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 8,
+          "Objective": "Stabilize the captured district.",
+          "SupportThreshold": 18,
+          "RouteModifiers": [
+            "B10_FORTRESS_1",
+            "PHASE_5"
+          ],
+          "RewardPersonalXp": 55,
+          "RewardGuildXp": 25,
+          "RewardHallXp": 18
+        },
+        {
+          "Index": 6,
+          "Id": "FORTRESS018B_B10_01_PHASE_06",
+          "DisplayName": "Decisive Union Battle",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 9,
+          "Objective": "Defeat the command force.",
+          "SupportThreshold": 20,
+          "RouteModifiers": [
+            "B10_FORTRESS_1",
+            "PHASE_6"
+          ],
+          "RewardPersonalXp": 60,
+          "RewardGuildXp": 28,
+          "RewardHallXp": 20
+        }
+      ]
+    },
+    {
+      "Id": "FORTRESS018B_B10_02",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Fortress Operation 2",
+      "UsesCertifiedUnionBattle": true,
+      "CreatesSecondCombatEngine": false,
+      "MaximumAlliedUnions": 10,
+      "MaximumEnemyUnions": 10,
+      "CanonOutcomeLocked": true,
+      "Phases": [
+        {
+          "Index": 1,
+          "Id": "FORTRESS018B_B10_02_PHASE_01",
+          "DisplayName": "Reconnaissance",
+          "PhaseType": "BOARD",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 5,
+          "Objective": "Reveal legal routes.",
+          "SupportThreshold": 10,
+          "RouteModifiers": [
+            "B10_FORTRESS_2",
+            "PHASE_1"
+          ],
+          "RewardPersonalXp": 35,
+          "RewardGuildXp": 13,
+          "RewardHallXp": 10
+        },
+        {
+          "Index": 2,
+          "Id": "FORTRESS018B_B10_02_PHASE_02",
+          "DisplayName": "Outer Line",
+          "PhaseType": "SKILL_CHECK",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 6,
+          "Objective": "Secure the approach.",
+          "SupportThreshold": 12,
+          "RouteModifiers": [
+            "B10_FORTRESS_2",
+            "PHASE_2"
+          ],
+          "RewardPersonalXp": 40,
+          "RewardGuildXp": 16,
+          "RewardHallXp": 12
+        },
+        {
+          "Index": 3,
+          "Id": "FORTRESS018B_B10_02_PHASE_03",
+          "DisplayName": "Supply Spine",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 7,
+          "Objective": "Protect supplies and civilians.",
+          "SupportThreshold": 14,
+          "RouteModifiers": [
+            "B10_FORTRESS_2",
+            "PHASE_3"
+          ],
+          "RewardPersonalXp": 45,
+          "RewardGuildXp": 19,
+          "RewardHallXp": 14
+        },
+        {
+          "Index": 4,
+          "Id": "FORTRESS018B_B10_02_PHASE_04",
+          "DisplayName": "District Pressure",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 8,
+          "Objective": "Break the enemy front.",
+          "SupportThreshold": 16,
+          "RouteModifiers": [
+            "B10_FORTRESS_2",
+            "PHASE_4"
+          ],
+          "RewardPersonalXp": 50,
+          "RewardGuildXp": 22,
+          "RewardHallXp": 16
+        },
+        {
+          "Index": 5,
+          "Id": "FORTRESS018B_B10_02_PHASE_05",
+          "DisplayName": "Command Breach",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 9,
+          "Objective": "Stabilize the captured district.",
+          "SupportThreshold": 18,
+          "RouteModifiers": [
+            "B10_FORTRESS_2",
+            "PHASE_5"
+          ],
+          "RewardPersonalXp": 55,
+          "RewardGuildXp": 25,
+          "RewardHallXp": 18
+        },
+        {
+          "Index": 6,
+          "Id": "FORTRESS018B_B10_02_PHASE_06",
+          "DisplayName": "Decisive Union Battle",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 10,
+          "Objective": "Defeat the command force.",
+          "SupportThreshold": 20,
+          "RouteModifiers": [
+            "B10_FORTRESS_2",
+            "PHASE_6"
+          ],
+          "RewardPersonalXp": 60,
+          "RewardGuildXp": 28,
+          "RewardHallXp": 20
+        }
+      ]
+    },
+    {
+      "Id": "FORTRESS018B_B11_01",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Fortress Operation 1",
+      "UsesCertifiedUnionBattle": true,
+      "CreatesSecondCombatEngine": false,
+      "MaximumAlliedUnions": 10,
+      "MaximumEnemyUnions": 10,
+      "CanonOutcomeLocked": false,
+      "Phases": [
+        {
+          "Index": 1,
+          "Id": "FORTRESS018B_B11_01_PHASE_01",
+          "DisplayName": "Reconnaissance",
+          "PhaseType": "BOARD",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 4,
+          "Objective": "Reveal legal routes.",
+          "SupportThreshold": 10,
+          "RouteModifiers": [
+            "B11_FORTRESS_1",
+            "PHASE_1"
+          ],
+          "RewardPersonalXp": 36,
+          "RewardGuildXp": 13,
+          "RewardHallXp": 10
+        },
+        {
+          "Index": 2,
+          "Id": "FORTRESS018B_B11_01_PHASE_02",
+          "DisplayName": "Outer Line",
+          "PhaseType": "SKILL_CHECK",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 5,
+          "Objective": "Secure the approach.",
+          "SupportThreshold": 12,
+          "RouteModifiers": [
+            "B11_FORTRESS_1",
+            "PHASE_2"
+          ],
+          "RewardPersonalXp": 41,
+          "RewardGuildXp": 16,
+          "RewardHallXp": 12
+        },
+        {
+          "Index": 3,
+          "Id": "FORTRESS018B_B11_01_PHASE_03",
+          "DisplayName": "Supply Spine",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 6,
+          "Objective": "Protect supplies and civilians.",
+          "SupportThreshold": 14,
+          "RouteModifiers": [
+            "B11_FORTRESS_1",
+            "PHASE_3"
+          ],
+          "RewardPersonalXp": 46,
+          "RewardGuildXp": 19,
+          "RewardHallXp": 14
+        },
+        {
+          "Index": 4,
+          "Id": "FORTRESS018B_B11_01_PHASE_04",
+          "DisplayName": "District Pressure",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 7,
+          "Objective": "Break the enemy front.",
+          "SupportThreshold": 16,
+          "RouteModifiers": [
+            "B11_FORTRESS_1",
+            "PHASE_4"
+          ],
+          "RewardPersonalXp": 51,
+          "RewardGuildXp": 22,
+          "RewardHallXp": 16
+        },
+        {
+          "Index": 5,
+          "Id": "FORTRESS018B_B11_01_PHASE_05",
+          "DisplayName": "Command Breach",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 8,
+          "Objective": "Stabilize the captured district.",
+          "SupportThreshold": 18,
+          "RouteModifiers": [
+            "B11_FORTRESS_1",
+            "PHASE_5"
+          ],
+          "RewardPersonalXp": 56,
+          "RewardGuildXp": 25,
+          "RewardHallXp": 18
+        },
+        {
+          "Index": 6,
+          "Id": "FORTRESS018B_B11_01_PHASE_06",
+          "DisplayName": "Decisive Union Battle",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 9,
+          "Objective": "Defeat the command force.",
+          "SupportThreshold": 20,
+          "RouteModifiers": [
+            "B11_FORTRESS_1",
+            "PHASE_6"
+          ],
+          "RewardPersonalXp": 61,
+          "RewardGuildXp": 28,
+          "RewardHallXp": 20
+        }
+      ]
+    },
+    {
+      "Id": "FORTRESS018B_B11_02",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Fortress Operation 2",
+      "UsesCertifiedUnionBattle": true,
+      "CreatesSecondCombatEngine": false,
+      "MaximumAlliedUnions": 10,
+      "MaximumEnemyUnions": 10,
+      "CanonOutcomeLocked": false,
+      "Phases": [
+        {
+          "Index": 1,
+          "Id": "FORTRESS018B_B11_02_PHASE_01",
+          "DisplayName": "Reconnaissance",
+          "PhaseType": "BOARD",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 5,
+          "Objective": "Reveal legal routes.",
+          "SupportThreshold": 10,
+          "RouteModifiers": [
+            "B11_FORTRESS_2",
+            "PHASE_1"
+          ],
+          "RewardPersonalXp": 36,
+          "RewardGuildXp": 13,
+          "RewardHallXp": 10
+        },
+        {
+          "Index": 2,
+          "Id": "FORTRESS018B_B11_02_PHASE_02",
+          "DisplayName": "Outer Line",
+          "PhaseType": "SKILL_CHECK",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 6,
+          "Objective": "Secure the approach.",
+          "SupportThreshold": 12,
+          "RouteModifiers": [
+            "B11_FORTRESS_2",
+            "PHASE_2"
+          ],
+          "RewardPersonalXp": 41,
+          "RewardGuildXp": 16,
+          "RewardHallXp": 12
+        },
+        {
+          "Index": 3,
+          "Id": "FORTRESS018B_B11_02_PHASE_03",
+          "DisplayName": "Supply Spine",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 7,
+          "Objective": "Protect supplies and civilians.",
+          "SupportThreshold": 14,
+          "RouteModifiers": [
+            "B11_FORTRESS_2",
+            "PHASE_3"
+          ],
+          "RewardPersonalXp": 46,
+          "RewardGuildXp": 19,
+          "RewardHallXp": 14
+        },
+        {
+          "Index": 4,
+          "Id": "FORTRESS018B_B11_02_PHASE_04",
+          "DisplayName": "District Pressure",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 8,
+          "Objective": "Break the enemy front.",
+          "SupportThreshold": 16,
+          "RouteModifiers": [
+            "B11_FORTRESS_2",
+            "PHASE_4"
+          ],
+          "RewardPersonalXp": 51,
+          "RewardGuildXp": 22,
+          "RewardHallXp": 16
+        },
+        {
+          "Index": 5,
+          "Id": "FORTRESS018B_B11_02_PHASE_05",
+          "DisplayName": "Command Breach",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 9,
+          "Objective": "Stabilize the captured district.",
+          "SupportThreshold": 18,
+          "RouteModifiers": [
+            "B11_FORTRESS_2",
+            "PHASE_5"
+          ],
+          "RewardPersonalXp": 56,
+          "RewardGuildXp": 25,
+          "RewardHallXp": 18
+        },
+        {
+          "Index": 6,
+          "Id": "FORTRESS018B_B11_02_PHASE_06",
+          "DisplayName": "Decisive Union Battle",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 10,
+          "Objective": "Defeat the command force.",
+          "SupportThreshold": 20,
+          "RouteModifiers": [
+            "B11_FORTRESS_2",
+            "PHASE_6"
+          ],
+          "RewardPersonalXp": 61,
+          "RewardGuildXp": 28,
+          "RewardHallXp": 20
+        }
+      ]
+    },
+    {
+      "Id": "FORTRESS018B_B12_01",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Fortress Operation 1",
+      "UsesCertifiedUnionBattle": true,
+      "CreatesSecondCombatEngine": false,
+      "MaximumAlliedUnions": 10,
+      "MaximumEnemyUnions": 10,
+      "CanonOutcomeLocked": false,
+      "Phases": [
+        {
+          "Index": 1,
+          "Id": "FORTRESS018B_B12_01_PHASE_01",
+          "DisplayName": "Reconnaissance",
+          "PhaseType": "BOARD",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 4,
+          "Objective": "Reveal legal routes.",
+          "SupportThreshold": 10,
+          "RouteModifiers": [
+            "B12_FORTRESS_1",
+            "PHASE_1"
+          ],
+          "RewardPersonalXp": 37,
+          "RewardGuildXp": 13,
+          "RewardHallXp": 10
+        },
+        {
+          "Index": 2,
+          "Id": "FORTRESS018B_B12_01_PHASE_02",
+          "DisplayName": "Outer Line",
+          "PhaseType": "SKILL_CHECK",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 5,
+          "Objective": "Secure the approach.",
+          "SupportThreshold": 12,
+          "RouteModifiers": [
+            "B12_FORTRESS_1",
+            "PHASE_2"
+          ],
+          "RewardPersonalXp": 42,
+          "RewardGuildXp": 16,
+          "RewardHallXp": 12
+        },
+        {
+          "Index": 3,
+          "Id": "FORTRESS018B_B12_01_PHASE_03",
+          "DisplayName": "Supply Spine",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 6,
+          "Objective": "Protect supplies and civilians.",
+          "SupportThreshold": 14,
+          "RouteModifiers": [
+            "B12_FORTRESS_1",
+            "PHASE_3"
+          ],
+          "RewardPersonalXp": 47,
+          "RewardGuildXp": 19,
+          "RewardHallXp": 14
+        },
+        {
+          "Index": 4,
+          "Id": "FORTRESS018B_B12_01_PHASE_04",
+          "DisplayName": "District Pressure",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 7,
+          "Objective": "Break the enemy front.",
+          "SupportThreshold": 16,
+          "RouteModifiers": [
+            "B12_FORTRESS_1",
+            "PHASE_4"
+          ],
+          "RewardPersonalXp": 52,
+          "RewardGuildXp": 22,
+          "RewardHallXp": 16
+        },
+        {
+          "Index": 5,
+          "Id": "FORTRESS018B_B12_01_PHASE_05",
+          "DisplayName": "Command Breach",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 8,
+          "Objective": "Stabilize the captured district.",
+          "SupportThreshold": 18,
+          "RouteModifiers": [
+            "B12_FORTRESS_1",
+            "PHASE_5"
+          ],
+          "RewardPersonalXp": 57,
+          "RewardGuildXp": 25,
+          "RewardHallXp": 18
+        },
+        {
+          "Index": 6,
+          "Id": "FORTRESS018B_B12_01_PHASE_06",
+          "DisplayName": "Decisive Union Battle",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 9,
+          "Objective": "Defeat the command force.",
+          "SupportThreshold": 20,
+          "RouteModifiers": [
+            "B12_FORTRESS_1",
+            "PHASE_6"
+          ],
+          "RewardPersonalXp": 62,
+          "RewardGuildXp": 28,
+          "RewardHallXp": 20
+        }
+      ]
+    },
+    {
+      "Id": "FORTRESS018B_B12_02",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Fortress Operation 2",
+      "UsesCertifiedUnionBattle": true,
+      "CreatesSecondCombatEngine": false,
+      "MaximumAlliedUnions": 10,
+      "MaximumEnemyUnions": 10,
+      "CanonOutcomeLocked": false,
+      "Phases": [
+        {
+          "Index": 1,
+          "Id": "FORTRESS018B_B12_02_PHASE_01",
+          "DisplayName": "Reconnaissance",
+          "PhaseType": "BOARD",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 5,
+          "Objective": "Reveal legal routes.",
+          "SupportThreshold": 10,
+          "RouteModifiers": [
+            "B12_FORTRESS_2",
+            "PHASE_1"
+          ],
+          "RewardPersonalXp": 37,
+          "RewardGuildXp": 13,
+          "RewardHallXp": 10
+        },
+        {
+          "Index": 2,
+          "Id": "FORTRESS018B_B12_02_PHASE_02",
+          "DisplayName": "Outer Line",
+          "PhaseType": "SKILL_CHECK",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 6,
+          "Objective": "Secure the approach.",
+          "SupportThreshold": 12,
+          "RouteModifiers": [
+            "B12_FORTRESS_2",
+            "PHASE_2"
+          ],
+          "RewardPersonalXp": 42,
+          "RewardGuildXp": 16,
+          "RewardHallXp": 12
+        },
+        {
+          "Index": 3,
+          "Id": "FORTRESS018B_B12_02_PHASE_03",
+          "DisplayName": "Supply Spine",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 7,
+          "Objective": "Protect supplies and civilians.",
+          "SupportThreshold": 14,
+          "RouteModifiers": [
+            "B12_FORTRESS_2",
+            "PHASE_3"
+          ],
+          "RewardPersonalXp": 47,
+          "RewardGuildXp": 19,
+          "RewardHallXp": 14
+        },
+        {
+          "Index": 4,
+          "Id": "FORTRESS018B_B12_02_PHASE_04",
+          "DisplayName": "District Pressure",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 8,
+          "Objective": "Break the enemy front.",
+          "SupportThreshold": 16,
+          "RouteModifiers": [
+            "B12_FORTRESS_2",
+            "PHASE_4"
+          ],
+          "RewardPersonalXp": 52,
+          "RewardGuildXp": 22,
+          "RewardHallXp": 16
+        },
+        {
+          "Index": 5,
+          "Id": "FORTRESS018B_B12_02_PHASE_05",
+          "DisplayName": "Command Breach",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 9,
+          "Objective": "Stabilize the captured district.",
+          "SupportThreshold": 18,
+          "RouteModifiers": [
+            "B12_FORTRESS_2",
+            "PHASE_5"
+          ],
+          "RewardPersonalXp": 57,
+          "RewardGuildXp": 25,
+          "RewardHallXp": 18
+        },
+        {
+          "Index": 6,
+          "Id": "FORTRESS018B_B12_02_PHASE_06",
+          "DisplayName": "Decisive Union Battle",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 10,
+          "Objective": "Defeat the command force.",
+          "SupportThreshold": 20,
+          "RouteModifiers": [
+            "B12_FORTRESS_2",
+            "PHASE_6"
+          ],
+          "RewardPersonalXp": 62,
+          "RewardGuildXp": 28,
+          "RewardHallXp": 20
+        }
+      ]
+    },
+    {
+      "Id": "FORTRESS018B_B13_01",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Fortress Operation 1",
+      "UsesCertifiedUnionBattle": true,
+      "CreatesSecondCombatEngine": false,
+      "MaximumAlliedUnions": 10,
+      "MaximumEnemyUnions": 10,
+      "CanonOutcomeLocked": false,
+      "Phases": [
+        {
+          "Index": 1,
+          "Id": "FORTRESS018B_B13_01_PHASE_01",
+          "DisplayName": "Reconnaissance",
+          "PhaseType": "BOARD",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 4,
+          "Objective": "Reveal legal routes.",
+          "SupportThreshold": 10,
+          "RouteModifiers": [
+            "B13_FORTRESS_1",
+            "PHASE_1"
+          ],
+          "RewardPersonalXp": 38,
+          "RewardGuildXp": 13,
+          "RewardHallXp": 10
+        },
+        {
+          "Index": 2,
+          "Id": "FORTRESS018B_B13_01_PHASE_02",
+          "DisplayName": "Outer Line",
+          "PhaseType": "SKILL_CHECK",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 5,
+          "Objective": "Secure the approach.",
+          "SupportThreshold": 12,
+          "RouteModifiers": [
+            "B13_FORTRESS_1",
+            "PHASE_2"
+          ],
+          "RewardPersonalXp": 43,
+          "RewardGuildXp": 16,
+          "RewardHallXp": 12
+        },
+        {
+          "Index": 3,
+          "Id": "FORTRESS018B_B13_01_PHASE_03",
+          "DisplayName": "Supply Spine",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 6,
+          "Objective": "Protect supplies and civilians.",
+          "SupportThreshold": 14,
+          "RouteModifiers": [
+            "B13_FORTRESS_1",
+            "PHASE_3"
+          ],
+          "RewardPersonalXp": 48,
+          "RewardGuildXp": 19,
+          "RewardHallXp": 14
+        },
+        {
+          "Index": 4,
+          "Id": "FORTRESS018B_B13_01_PHASE_04",
+          "DisplayName": "District Pressure",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 7,
+          "Objective": "Break the enemy front.",
+          "SupportThreshold": 16,
+          "RouteModifiers": [
+            "B13_FORTRESS_1",
+            "PHASE_4"
+          ],
+          "RewardPersonalXp": 53,
+          "RewardGuildXp": 22,
+          "RewardHallXp": 16
+        },
+        {
+          "Index": 5,
+          "Id": "FORTRESS018B_B13_01_PHASE_05",
+          "DisplayName": "Command Breach",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 8,
+          "Objective": "Stabilize the captured district.",
+          "SupportThreshold": 18,
+          "RouteModifiers": [
+            "B13_FORTRESS_1",
+            "PHASE_5"
+          ],
+          "RewardPersonalXp": 58,
+          "RewardGuildXp": 25,
+          "RewardHallXp": 18
+        },
+        {
+          "Index": 6,
+          "Id": "FORTRESS018B_B13_01_PHASE_06",
+          "DisplayName": "Decisive Union Battle",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 9,
+          "Objective": "Defeat the command force.",
+          "SupportThreshold": 20,
+          "RouteModifiers": [
+            "B13_FORTRESS_1",
+            "PHASE_6"
+          ],
+          "RewardPersonalXp": 63,
+          "RewardGuildXp": 28,
+          "RewardHallXp": 20
+        }
+      ]
+    },
+    {
+      "Id": "FORTRESS018B_B13_02",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Fortress Operation 2",
+      "UsesCertifiedUnionBattle": true,
+      "CreatesSecondCombatEngine": false,
+      "MaximumAlliedUnions": 10,
+      "MaximumEnemyUnions": 10,
+      "CanonOutcomeLocked": false,
+      "Phases": [
+        {
+          "Index": 1,
+          "Id": "FORTRESS018B_B13_02_PHASE_01",
+          "DisplayName": "Reconnaissance",
+          "PhaseType": "BOARD",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 5,
+          "Objective": "Reveal legal routes.",
+          "SupportThreshold": 10,
+          "RouteModifiers": [
+            "B13_FORTRESS_2",
+            "PHASE_1"
+          ],
+          "RewardPersonalXp": 38,
+          "RewardGuildXp": 13,
+          "RewardHallXp": 10
+        },
+        {
+          "Index": 2,
+          "Id": "FORTRESS018B_B13_02_PHASE_02",
+          "DisplayName": "Outer Line",
+          "PhaseType": "SKILL_CHECK",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 6,
+          "Objective": "Secure the approach.",
+          "SupportThreshold": 12,
+          "RouteModifiers": [
+            "B13_FORTRESS_2",
+            "PHASE_2"
+          ],
+          "RewardPersonalXp": 43,
+          "RewardGuildXp": 16,
+          "RewardHallXp": 12
+        },
+        {
+          "Index": 3,
+          "Id": "FORTRESS018B_B13_02_PHASE_03",
+          "DisplayName": "Supply Spine",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 7,
+          "Objective": "Protect supplies and civilians.",
+          "SupportThreshold": 14,
+          "RouteModifiers": [
+            "B13_FORTRESS_2",
+            "PHASE_3"
+          ],
+          "RewardPersonalXp": 48,
+          "RewardGuildXp": 19,
+          "RewardHallXp": 14
+        },
+        {
+          "Index": 4,
+          "Id": "FORTRESS018B_B13_02_PHASE_04",
+          "DisplayName": "District Pressure",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 8,
+          "Objective": "Break the enemy front.",
+          "SupportThreshold": 16,
+          "RouteModifiers": [
+            "B13_FORTRESS_2",
+            "PHASE_4"
+          ],
+          "RewardPersonalXp": 53,
+          "RewardGuildXp": 22,
+          "RewardHallXp": 16
+        },
+        {
+          "Index": 5,
+          "Id": "FORTRESS018B_B13_02_PHASE_05",
+          "DisplayName": "Command Breach",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 9,
+          "Objective": "Stabilize the captured district.",
+          "SupportThreshold": 18,
+          "RouteModifiers": [
+            "B13_FORTRESS_2",
+            "PHASE_5"
+          ],
+          "RewardPersonalXp": 58,
+          "RewardGuildXp": 25,
+          "RewardHallXp": 18
+        },
+        {
+          "Index": 6,
+          "Id": "FORTRESS018B_B13_02_PHASE_06",
+          "DisplayName": "Decisive Union Battle",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 10,
+          "Objective": "Defeat the command force.",
+          "SupportThreshold": 20,
+          "RouteModifiers": [
+            "B13_FORTRESS_2",
+            "PHASE_6"
+          ],
+          "RewardPersonalXp": 63,
+          "RewardGuildXp": 28,
+          "RewardHallXp": 20
+        }
+      ]
+    },
+    {
+      "Id": "FORTRESS018B_B14_01",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Fortress Operation 1",
+      "UsesCertifiedUnionBattle": true,
+      "CreatesSecondCombatEngine": false,
+      "MaximumAlliedUnions": 10,
+      "MaximumEnemyUnions": 10,
+      "CanonOutcomeLocked": false,
+      "Phases": [
+        {
+          "Index": 1,
+          "Id": "FORTRESS018B_B14_01_PHASE_01",
+          "DisplayName": "Reconnaissance",
+          "PhaseType": "BOARD",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 4,
+          "Objective": "Reveal legal routes.",
+          "SupportThreshold": 10,
+          "RouteModifiers": [
+            "B14_FORTRESS_1",
+            "PHASE_1"
+          ],
+          "RewardPersonalXp": 39,
+          "RewardGuildXp": 13,
+          "RewardHallXp": 10
+        },
+        {
+          "Index": 2,
+          "Id": "FORTRESS018B_B14_01_PHASE_02",
+          "DisplayName": "Outer Line",
+          "PhaseType": "SKILL_CHECK",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 5,
+          "Objective": "Secure the approach.",
+          "SupportThreshold": 12,
+          "RouteModifiers": [
+            "B14_FORTRESS_1",
+            "PHASE_2"
+          ],
+          "RewardPersonalXp": 44,
+          "RewardGuildXp": 16,
+          "RewardHallXp": 12
+        },
+        {
+          "Index": 3,
+          "Id": "FORTRESS018B_B14_01_PHASE_03",
+          "DisplayName": "Supply Spine",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 6,
+          "Objective": "Protect supplies and civilians.",
+          "SupportThreshold": 14,
+          "RouteModifiers": [
+            "B14_FORTRESS_1",
+            "PHASE_3"
+          ],
+          "RewardPersonalXp": 49,
+          "RewardGuildXp": 19,
+          "RewardHallXp": 14
+        },
+        {
+          "Index": 4,
+          "Id": "FORTRESS018B_B14_01_PHASE_04",
+          "DisplayName": "District Pressure",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 7,
+          "Objective": "Break the enemy front.",
+          "SupportThreshold": 16,
+          "RouteModifiers": [
+            "B14_FORTRESS_1",
+            "PHASE_4"
+          ],
+          "RewardPersonalXp": 54,
+          "RewardGuildXp": 22,
+          "RewardHallXp": 16
+        },
+        {
+          "Index": 5,
+          "Id": "FORTRESS018B_B14_01_PHASE_05",
+          "DisplayName": "Command Breach",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 8,
+          "Objective": "Stabilize the captured district.",
+          "SupportThreshold": 18,
+          "RouteModifiers": [
+            "B14_FORTRESS_1",
+            "PHASE_5"
+          ],
+          "RewardPersonalXp": 59,
+          "RewardGuildXp": 25,
+          "RewardHallXp": 18
+        },
+        {
+          "Index": 6,
+          "Id": "FORTRESS018B_B14_01_PHASE_06",
+          "DisplayName": "Decisive Union Battle",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 9,
+          "Objective": "Defeat the command force.",
+          "SupportThreshold": 20,
+          "RouteModifiers": [
+            "B14_FORTRESS_1",
+            "PHASE_6"
+          ],
+          "RewardPersonalXp": 64,
+          "RewardGuildXp": 28,
+          "RewardHallXp": 20
+        }
+      ]
+    },
+    {
+      "Id": "FORTRESS018B_B14_02",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Fortress Operation 2",
+      "UsesCertifiedUnionBattle": true,
+      "CreatesSecondCombatEngine": false,
+      "MaximumAlliedUnions": 10,
+      "MaximumEnemyUnions": 10,
+      "CanonOutcomeLocked": false,
+      "Phases": [
+        {
+          "Index": 1,
+          "Id": "FORTRESS018B_B14_02_PHASE_01",
+          "DisplayName": "Reconnaissance",
+          "PhaseType": "BOARD",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 5,
+          "Objective": "Reveal legal routes.",
+          "SupportThreshold": 10,
+          "RouteModifiers": [
+            "B14_FORTRESS_2",
+            "PHASE_1"
+          ],
+          "RewardPersonalXp": 39,
+          "RewardGuildXp": 13,
+          "RewardHallXp": 10
+        },
+        {
+          "Index": 2,
+          "Id": "FORTRESS018B_B14_02_PHASE_02",
+          "DisplayName": "Outer Line",
+          "PhaseType": "SKILL_CHECK",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 6,
+          "Objective": "Secure the approach.",
+          "SupportThreshold": 12,
+          "RouteModifiers": [
+            "B14_FORTRESS_2",
+            "PHASE_2"
+          ],
+          "RewardPersonalXp": 44,
+          "RewardGuildXp": 16,
+          "RewardHallXp": 12
+        },
+        {
+          "Index": 3,
+          "Id": "FORTRESS018B_B14_02_PHASE_03",
+          "DisplayName": "Supply Spine",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 7,
+          "Objective": "Protect supplies and civilians.",
+          "SupportThreshold": 14,
+          "RouteModifiers": [
+            "B14_FORTRESS_2",
+            "PHASE_3"
+          ],
+          "RewardPersonalXp": 49,
+          "RewardGuildXp": 19,
+          "RewardHallXp": 14
+        },
+        {
+          "Index": 4,
+          "Id": "FORTRESS018B_B14_02_PHASE_04",
+          "DisplayName": "District Pressure",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 8,
+          "Objective": "Break the enemy front.",
+          "SupportThreshold": 16,
+          "RouteModifiers": [
+            "B14_FORTRESS_2",
+            "PHASE_4"
+          ],
+          "RewardPersonalXp": 54,
+          "RewardGuildXp": 22,
+          "RewardHallXp": 16
+        },
+        {
+          "Index": 5,
+          "Id": "FORTRESS018B_B14_02_PHASE_05",
+          "DisplayName": "Command Breach",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 9,
+          "Objective": "Stabilize the captured district.",
+          "SupportThreshold": 18,
+          "RouteModifiers": [
+            "B14_FORTRESS_2",
+            "PHASE_5"
+          ],
+          "RewardPersonalXp": 59,
+          "RewardGuildXp": 25,
+          "RewardHallXp": 18
+        },
+        {
+          "Index": 6,
+          "Id": "FORTRESS018B_B14_02_PHASE_06",
+          "DisplayName": "Decisive Union Battle",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 10,
+          "Objective": "Defeat the command force.",
+          "SupportThreshold": 20,
+          "RouteModifiers": [
+            "B14_FORTRESS_2",
+            "PHASE_6"
+          ],
+          "RewardPersonalXp": 64,
+          "RewardGuildXp": 28,
+          "RewardHallXp": 20
+        }
+      ]
+    },
+    {
+      "Id": "FORTRESS018B_B15_01",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Fortress Operation 1",
+      "UsesCertifiedUnionBattle": true,
+      "CreatesSecondCombatEngine": false,
+      "MaximumAlliedUnions": 10,
+      "MaximumEnemyUnions": 10,
+      "CanonOutcomeLocked": false,
+      "Phases": [
+        {
+          "Index": 1,
+          "Id": "FORTRESS018B_B15_01_PHASE_01",
+          "DisplayName": "Reconnaissance",
+          "PhaseType": "BOARD",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 4,
+          "Objective": "Reveal legal routes.",
+          "SupportThreshold": 10,
+          "RouteModifiers": [
+            "B15_FORTRESS_1",
+            "PHASE_1"
+          ],
+          "RewardPersonalXp": 40,
+          "RewardGuildXp": 13,
+          "RewardHallXp": 10
+        },
+        {
+          "Index": 2,
+          "Id": "FORTRESS018B_B15_01_PHASE_02",
+          "DisplayName": "Outer Line",
+          "PhaseType": "SKILL_CHECK",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 5,
+          "Objective": "Secure the approach.",
+          "SupportThreshold": 12,
+          "RouteModifiers": [
+            "B15_FORTRESS_1",
+            "PHASE_2"
+          ],
+          "RewardPersonalXp": 45,
+          "RewardGuildXp": 16,
+          "RewardHallXp": 12
+        },
+        {
+          "Index": 3,
+          "Id": "FORTRESS018B_B15_01_PHASE_03",
+          "DisplayName": "Supply Spine",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 6,
+          "Objective": "Protect supplies and civilians.",
+          "SupportThreshold": 14,
+          "RouteModifiers": [
+            "B15_FORTRESS_1",
+            "PHASE_3"
+          ],
+          "RewardPersonalXp": 50,
+          "RewardGuildXp": 19,
+          "RewardHallXp": 14
+        },
+        {
+          "Index": 4,
+          "Id": "FORTRESS018B_B15_01_PHASE_04",
+          "DisplayName": "District Pressure",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 7,
+          "Objective": "Break the enemy front.",
+          "SupportThreshold": 16,
+          "RouteModifiers": [
+            "B15_FORTRESS_1",
+            "PHASE_4"
+          ],
+          "RewardPersonalXp": 55,
+          "RewardGuildXp": 22,
+          "RewardHallXp": 16
+        },
+        {
+          "Index": 5,
+          "Id": "FORTRESS018B_B15_01_PHASE_05",
+          "DisplayName": "Command Breach",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 8,
+          "Objective": "Stabilize the captured district.",
+          "SupportThreshold": 18,
+          "RouteModifiers": [
+            "B15_FORTRESS_1",
+            "PHASE_5"
+          ],
+          "RewardPersonalXp": 60,
+          "RewardGuildXp": 25,
+          "RewardHallXp": 18
+        },
+        {
+          "Index": 6,
+          "Id": "FORTRESS018B_B15_01_PHASE_06",
+          "DisplayName": "Decisive Union Battle",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 9,
+          "Objective": "Defeat the command force.",
+          "SupportThreshold": 20,
+          "RouteModifiers": [
+            "B15_FORTRESS_1",
+            "PHASE_6"
+          ],
+          "RewardPersonalXp": 65,
+          "RewardGuildXp": 28,
+          "RewardHallXp": 20
+        }
+      ]
+    },
+    {
+      "Id": "FORTRESS018B_B15_02",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Fortress Operation 2",
+      "UsesCertifiedUnionBattle": true,
+      "CreatesSecondCombatEngine": false,
+      "MaximumAlliedUnions": 10,
+      "MaximumEnemyUnions": 10,
+      "CanonOutcomeLocked": false,
+      "Phases": [
+        {
+          "Index": 1,
+          "Id": "FORTRESS018B_B15_02_PHASE_01",
+          "DisplayName": "Reconnaissance",
+          "PhaseType": "BOARD",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 5,
+          "Objective": "Reveal legal routes.",
+          "SupportThreshold": 10,
+          "RouteModifiers": [
+            "B15_FORTRESS_2",
+            "PHASE_1"
+          ],
+          "RewardPersonalXp": 40,
+          "RewardGuildXp": 13,
+          "RewardHallXp": 10
+        },
+        {
+          "Index": 2,
+          "Id": "FORTRESS018B_B15_02_PHASE_02",
+          "DisplayName": "Outer Line",
+          "PhaseType": "SKILL_CHECK",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 6,
+          "Objective": "Secure the approach.",
+          "SupportThreshold": 12,
+          "RouteModifiers": [
+            "B15_FORTRESS_2",
+            "PHASE_2"
+          ],
+          "RewardPersonalXp": 45,
+          "RewardGuildXp": 16,
+          "RewardHallXp": 12
+        },
+        {
+          "Index": 3,
+          "Id": "FORTRESS018B_B15_02_PHASE_03",
+          "DisplayName": "Supply Spine",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 7,
+          "Objective": "Protect supplies and civilians.",
+          "SupportThreshold": 14,
+          "RouteModifiers": [
+            "B15_FORTRESS_2",
+            "PHASE_3"
+          ],
+          "RewardPersonalXp": 50,
+          "RewardGuildXp": 19,
+          "RewardHallXp": 14
+        },
+        {
+          "Index": 4,
+          "Id": "FORTRESS018B_B15_02_PHASE_04",
+          "DisplayName": "District Pressure",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 8,
+          "Objective": "Break the enemy front.",
+          "SupportThreshold": 16,
+          "RouteModifiers": [
+            "B15_FORTRESS_2",
+            "PHASE_4"
+          ],
+          "RewardPersonalXp": 55,
+          "RewardGuildXp": 22,
+          "RewardHallXp": 16
+        },
+        {
+          "Index": 5,
+          "Id": "FORTRESS018B_B15_02_PHASE_05",
+          "DisplayName": "Command Breach",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 9,
+          "Objective": "Stabilize the captured district.",
+          "SupportThreshold": 18,
+          "RouteModifiers": [
+            "B15_FORTRESS_2",
+            "PHASE_5"
+          ],
+          "RewardPersonalXp": 60,
+          "RewardGuildXp": 25,
+          "RewardHallXp": 18
+        },
+        {
+          "Index": 6,
+          "Id": "FORTRESS018B_B15_02_PHASE_06",
+          "DisplayName": "Decisive Union Battle",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 10,
+          "Objective": "Defeat the command force.",
+          "SupportThreshold": 20,
+          "RouteModifiers": [
+            "B15_FORTRESS_2",
+            "PHASE_6"
+          ],
+          "RewardPersonalXp": 65,
+          "RewardGuildXp": 28,
+          "RewardHallXp": 20
+        }
+      ]
+    },
+    {
+      "Id": "FORTRESS018B_B15_03",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Fortress Operation 3",
+      "UsesCertifiedUnionBattle": true,
+      "CreatesSecondCombatEngine": false,
+      "MaximumAlliedUnions": 10,
+      "MaximumEnemyUnions": 10,
+      "CanonOutcomeLocked": false,
+      "Phases": [
+        {
+          "Index": 1,
+          "Id": "FORTRESS018B_B15_03_PHASE_01",
+          "DisplayName": "Reconnaissance",
+          "PhaseType": "BOARD",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 6,
+          "Objective": "Reveal legal routes.",
+          "SupportThreshold": 10,
+          "RouteModifiers": [
+            "B15_FORTRESS_3",
+            "PHASE_1"
+          ],
+          "RewardPersonalXp": 40,
+          "RewardGuildXp": 13,
+          "RewardHallXp": 10
+        },
+        {
+          "Index": 2,
+          "Id": "FORTRESS018B_B15_03_PHASE_02",
+          "DisplayName": "Outer Line",
+          "PhaseType": "SKILL_CHECK",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 7,
+          "Objective": "Secure the approach.",
+          "SupportThreshold": 12,
+          "RouteModifiers": [
+            "B15_FORTRESS_3",
+            "PHASE_2"
+          ],
+          "RewardPersonalXp": 45,
+          "RewardGuildXp": 16,
+          "RewardHallXp": 12
+        },
+        {
+          "Index": 3,
+          "Id": "FORTRESS018B_B15_03_PHASE_03",
+          "DisplayName": "Supply Spine",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 8,
+          "Objective": "Protect supplies and civilians.",
+          "SupportThreshold": 14,
+          "RouteModifiers": [
+            "B15_FORTRESS_3",
+            "PHASE_3"
+          ],
+          "RewardPersonalXp": 50,
+          "RewardGuildXp": 19,
+          "RewardHallXp": 14
+        },
+        {
+          "Index": 4,
+          "Id": "FORTRESS018B_B15_03_PHASE_04",
+          "DisplayName": "District Pressure",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 9,
+          "Objective": "Break the enemy front.",
+          "SupportThreshold": 16,
+          "RouteModifiers": [
+            "B15_FORTRESS_3",
+            "PHASE_4"
+          ],
+          "RewardPersonalXp": 55,
+          "RewardGuildXp": 22,
+          "RewardHallXp": 16
+        },
+        {
+          "Index": 5,
+          "Id": "FORTRESS018B_B15_03_PHASE_05",
+          "DisplayName": "Command Breach",
+          "PhaseType": "SUPPORT",
+          "DecisiveBattle": false,
+          "EnemyUnionCount": 10,
+          "Objective": "Stabilize the captured district.",
+          "SupportThreshold": 18,
+          "RouteModifiers": [
+            "B15_FORTRESS_3",
+            "PHASE_5"
+          ],
+          "RewardPersonalXp": 60,
+          "RewardGuildXp": 25,
+          "RewardHallXp": 18
+        },
+        {
+          "Index": 6,
+          "Id": "FORTRESS018B_B15_03_PHASE_06",
+          "DisplayName": "Decisive Union Battle",
+          "PhaseType": "CERTIFIED_BATTLE",
+          "DecisiveBattle": true,
+          "EnemyUnionCount": 10,
+          "Objective": "Defeat the command force.",
+          "SupportThreshold": 20,
+          "RouteModifiers": [
+            "B15_FORTRESS_3",
+            "PHASE_6"
+          ],
+          "RewardPersonalXp": 65,
+          "RewardGuildXp": 28,
+          "RewardHallXp": 20
+        }
+      ]
+    }
+  ]
+}

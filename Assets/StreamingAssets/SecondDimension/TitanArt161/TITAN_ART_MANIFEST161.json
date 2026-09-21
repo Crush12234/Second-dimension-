@@ -1,0 +1,1660 @@
+{
+  "schema": "SD_TITAN_ART161_V1",
+  "original_pixels_preserved": true,
+  "pose_count": 75,
+  "file_count": 51,
+  "pose_policy": "Two authored poses; all other beat states reuse idle with existing rig motion. No full animation claim.",
+  "generated_sheet_layout": "Top-left idle, top-right attack, bottom-left portrait. Reviewed measured seams for004/009/013 are recorded per pose; Unity uses bottom-left origin.",
+  "assets": [
+    {
+      "logical_id": "TITAN_TRIAL_001",
+      "pose": "idle",
+      "file": "ENEMY_REC_044_IDLE.png",
+      "sha256": "DF3CD811B34C46364C55FB0802C11E9D951E82A9299451D332280A494B0CC47B",
+      "bytes": 985671,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        66,
+        167,
+        701,
+        942
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_044"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_001",
+      "pose": "attack",
+      "file": "ENEMY_REC_044_ATTACK.png",
+      "sha256": "B7AE87E8718E1C91C9D2EC458E99D04B143A8B4EBD9F8C368494B1DA48221BDB",
+      "bytes": 1137434,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        67,
+        118,
+        703,
+        944
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_044"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_001",
+      "pose": "portrait",
+      "file": "ENEMY_REC_044_PORTRAIT.png",
+      "sha256": "BDA0CED82E167BF3CFAAB3C7D570A9B8EDDF7C48733AE327B83BB7D0A932DD2E",
+      "bytes": 105069,
+      "width": 256,
+      "height": 256,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "alpha_bbox_in_rect": [
+        33,
+        12,
+        223,
+        244
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_044"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_002",
+      "pose": "idle",
+      "file": "ENEMY_REC_034_IDLE.png",
+      "sha256": "7A98E0732E5022F77AE73ABF5D5686AD48975B5C961789774D500D81407B875B",
+      "bytes": 661281,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        66,
+        254,
+        701,
+        943
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_034"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_002",
+      "pose": "attack",
+      "file": "ENEMY_REC_034_ATTACK.png",
+      "sha256": "4BCBEAC3C35AF66D435A7C2BE82AB879A3E76020F2A296D0013C23F9CF3CFD89",
+      "bytes": 793393,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        78,
+        301,
+        688,
+        944
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_034"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_002",
+      "pose": "portrait",
+      "file": "ENEMY_REC_034_PORTRAIT.png",
+      "sha256": "E8EA2ABB72BA02E23082D5FDE9394B9EEFBDA284F738A0739E1E282ED027B3BF",
+      "bytes": 90125,
+      "width": 256,
+      "height": 256,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "alpha_bbox_in_rect": [
+        20,
+        12,
+        235,
+        244
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_034"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_003",
+      "pose": "idle",
+      "file": "ENEMY_REC_043_IDLE.png",
+      "sha256": "A3058BEA51AFF8E1C0D39376A4AEDE8F1A8A8718FE4DC3AAD58EF525C783D532",
+      "bytes": 772375,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        65,
+        293,
+        703,
+        943
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_043"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_003",
+      "pose": "attack",
+      "file": "ENEMY_REC_043_ATTACK.png",
+      "sha256": "DDD28ED33CAEA637C0425A18EAAC294CE20E32AEB46E8DFA6CAB33AE85C0ABD9",
+      "bytes": 731174,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        92,
+        318,
+        675,
+        944
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_043"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_003",
+      "pose": "portrait",
+      "file": "ENEMY_REC_043_PORTRAIT.png",
+      "sha256": "6CB2E85EF575974D235EF71B59A72F15A38A36616287C29697CB702232C11102",
+      "bytes": 114129,
+      "width": 256,
+      "height": 256,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "alpha_bbox_in_rect": [
+        14,
+        12,
+        241,
+        244
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_043"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_004",
+      "pose": "idle",
+      "file": "ENEMY_REC_042_IDLE.png",
+      "sha256": "4DEF7D8FE2F026046AB8526176DD91E51D563B6D0513391C6CF4AFE49E6ACAFF",
+      "bytes": 696160,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        70,
+        355,
+        698,
+        941
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_042"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_004",
+      "pose": "attack",
+      "file": "ENEMY_REC_042_ATTACK.png",
+      "sha256": "7F69F187B6F6D8552253496254E823BC199DBE3C5CB5C1085A0AC395E4803CD2",
+      "bytes": 733463,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        66,
+        199,
+        704,
+        944
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_042"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_004",
+      "pose": "portrait",
+      "file": "ENEMY_REC_042_PORTRAIT.png",
+      "sha256": "55EBB1E1BA61CC8C36CB92DA900A6CFBD2E6B5EB06A346B210D803319257DE8F",
+      "bytes": 114653,
+      "width": 256,
+      "height": 256,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "alpha_bbox_in_rect": [
+        12,
+        19,
+        244,
+        236
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_042"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_005",
+      "pose": "idle",
+      "file": "ENEMY_REC_056_IDLE.png",
+      "sha256": "7FED4FAB3166C480AF746682D1D50A03B42E71B773F0DED71B4ED49E6482FAAC",
+      "bytes": 925997,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        64,
+        196,
+        703,
+        944
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_056"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_005",
+      "pose": "attack",
+      "file": "ENEMY_REC_056_ATTACK.png",
+      "sha256": "830CCFFCC93A621C47B65F6065B7E3AF8909ED56870111EAE574B0E1D225F79E",
+      "bytes": 987463,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        67,
+        135,
+        700,
+        944
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_056"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_005",
+      "pose": "portrait",
+      "file": "ENEMY_REC_056_PORTRAIT.png",
+      "sha256": "738A56897A746B6C0AFD8DE40BD161E99E89B8506B607821748F252505213C3E",
+      "bytes": 107943,
+      "width": 256,
+      "height": 256,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "alpha_bbox_in_rect": [
+        29,
+        12,
+        227,
+        244
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_056"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_006",
+      "pose": "idle",
+      "file": "ENEMY_REC_031_IDLE.png",
+      "sha256": "C843AEBF5560C3A8489BD7C02743F21B92F72662EB141B331FA1CCCF3F2ACAAF",
+      "bytes": 750864,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        86,
+        158,
+        682,
+        941
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_031"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_006",
+      "pose": "attack",
+      "file": "ENEMY_REC_031_ATTACK.png",
+      "sha256": "36AE4089E7E79506FDFEA725A4814098FB608A19EAB8BC8431FEE13309CB2C22",
+      "bytes": 874015,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        67,
+        214,
+        704,
+        944
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_031"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_006",
+      "pose": "portrait",
+      "file": "ENEMY_REC_031_PORTRAIT.png",
+      "sha256": "EB04EC12AC6707CE95CFCFD08FBF002BB6CF5A37A9250B26311E5908004961E0",
+      "bytes": 82344,
+      "width": 256,
+      "height": 256,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "alpha_bbox_in_rect": [
+        40,
+        12,
+        216,
+        244
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_031"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_007",
+      "pose": "idle",
+      "file": "ENEMY_REC_033_IDLE.png",
+      "sha256": "B41CD45C5CAA4EBA385617DB0A5AD4A74C173A03B307B5E10B0C4C8561F83CF8",
+      "bytes": 433871,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        123,
+        418,
+        645,
+        942
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_033"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_007",
+      "pose": "attack",
+      "file": "ENEMY_REC_033_ATTACK.png",
+      "sha256": "B462D8373D6F9C10C21F930DBE2B4082CBB37E2917CE2829A53E927C37F72AD9",
+      "bytes": 536920,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        66,
+        248,
+        704,
+        944
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_033"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_007",
+      "pose": "portrait",
+      "file": "ENEMY_REC_033_PORTRAIT.png",
+      "sha256": "8DD5A61C28DAC67E3D0503A508ADA45F1079FE322C857234EAEF08D85129C3F7",
+      "bytes": 100785,
+      "width": 256,
+      "height": 256,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "alpha_bbox_in_rect": [
+        13,
+        12,
+        243,
+        244
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_033"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_008",
+      "pose": "idle",
+      "file": "ENEMY_REC_060_IDLE.png",
+      "sha256": "B2C3F0951A8350638996733FAC222B1D91EF6D4578E682F5CC8330266C5F3406",
+      "bytes": 825500,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        66,
+        296,
+        704,
+        944
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_060"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_008",
+      "pose": "attack",
+      "file": "ENEMY_REC_060_ATTACK.png",
+      "sha256": "B51E9CD3474C72D6515583966B809643CBC72B3E86C6ADAEB30663A466A262BA",
+      "bytes": 908191,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        109,
+        256,
+        658,
+        944
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_060"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_008",
+      "pose": "portrait",
+      "file": "ENEMY_REC_060_PORTRAIT.png",
+      "sha256": "F7F623565F1D7DC6EB05A3367E0BB2108E6342D0CB87681B5E2A8B92050464A1",
+      "bytes": 121248,
+      "width": 256,
+      "height": 256,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "alpha_bbox_in_rect": [
+        13,
+        12,
+        242,
+        244
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_060"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_009",
+      "pose": "idle",
+      "file": "ENEMY_REC_003_IDLE.png",
+      "sha256": "D9D5E8B67E66C7A56ACCB9AB17C1360631BCFF6EC194A0BE0CB2EE90EFED17AA",
+      "bytes": 817725,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        91,
+        102,
+        677,
+        944
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_003"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_009",
+      "pose": "attack",
+      "file": "ENEMY_REC_003_ATTACK.png",
+      "sha256": "0187D644534549AB0B08CB17E57A9EE0BFC897B714AB9B5D7233DB2E37918331",
+      "bytes": 950093,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        75,
+        76,
+        696,
+        944
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_003"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_009",
+      "pose": "portrait",
+      "file": "ENEMY_REC_003_PORTRAIT.png",
+      "sha256": "6D0C15DA158E3AC319FEC824F03DB779007E4032E0E68EA6FB180D339DC8D321",
+      "bytes": 76272,
+      "width": 256,
+      "height": 256,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "alpha_bbox_in_rect": [
+        48,
+        12,
+        208,
+        244
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_003"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_010",
+      "pose": "idle",
+      "file": "ENEMY_REC_039_IDLE.png",
+      "sha256": "80EE5E87048F6A74134600482E0252298D990561C7054F4DA1D3E5AF193C4D73",
+      "bytes": 571984,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        102,
+        202,
+        666,
+        944
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_039"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_010",
+      "pose": "attack",
+      "file": "ENEMY_REC_039_ATTACK.png",
+      "sha256": "0E1393699E0B127CE9921E8E85267F745C05369C4F9F4AFAD9569A463811D727",
+      "bytes": 674363,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        65,
+        209,
+        704,
+        944
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_039"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_010",
+      "pose": "portrait",
+      "file": "ENEMY_REC_039_PORTRAIT.png",
+      "sha256": "F1B4D0499805C0865051D85FF776552F452C72A2304738C691FF0FC5F24BDFF4",
+      "bytes": 72203,
+      "width": 256,
+      "height": 256,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "alpha_bbox_in_rect": [
+        41,
+        12,
+        215,
+        244
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_039"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_011",
+      "pose": "idle",
+      "file": "ENEMY_REC_069_IDLE.png",
+      "sha256": "1D284DDEC14585C6F3DDC575F44D63417824CFB9248DE059EF8C0FCEA3960C6D",
+      "bytes": 949472,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        65,
+        194,
+        703,
+        943
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_069"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_011",
+      "pose": "attack",
+      "file": "ENEMY_REC_069_ATTACK.png",
+      "sha256": "901B4982047939796E57CC247034EF27665AA3858131A6CB1BF3ADC53DEA3D89",
+      "bytes": 992703,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        73,
+        208,
+        694,
+        942
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_069"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_011",
+      "pose": "portrait",
+      "file": "ENEMY_REC_069_PORTRAIT.png",
+      "sha256": "639B90094CADB3A021DB27C673C6D5288CB61D647B5BC5DB462050A41DC85D45",
+      "bytes": 110412,
+      "width": 256,
+      "height": 256,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "alpha_bbox_in_rect": [
+        29,
+        12,
+        227,
+        244
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_069"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_012",
+      "pose": "idle",
+      "file": "ENEMY_REC_070_IDLE.png",
+      "sha256": "7C5DC77C56E5E879B87313D65CA6F3E4E0C27CAD10A65759B505D20421112462",
+      "bytes": 560117,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        64,
+        467,
+        702,
+        943
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_070"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_012",
+      "pose": "attack",
+      "file": "ENEMY_REC_070_ATTACK.png",
+      "sha256": "C72E2B58B7980369521FF6147177A1AB6E072DECDAC4E7939555B2609FCA9608",
+      "bytes": 609127,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        80,
+        388,
+        689,
+        944
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_070"
+    },
+    {
+      "logical_id": "TITAN_TRIAL_012",
+      "pose": "portrait",
+      "file": "ENEMY_REC_070_PORTRAIT.png",
+      "sha256": "55A23798E8D63DA3352465EF481839C5BC64E05494FFA81D5946020C4700887C",
+      "bytes": 84119,
+      "width": 256,
+      "height": 256,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "alpha_bbox_in_rect": [
+        12,
+        42,
+        244,
+        214
+      ],
+      "origin": "R43 exact recovered source family ENEMY_REC_070"
+    },
+    {
+      "logical_id": "HERO_TITAN_001",
+      "pose": "idle",
+      "file": "HERO_TITAN_001_IDLE_R46.png",
+      "sha256": "9251D7A1DE9743CDC7B86F02A91586B3572488DFA39F9311DB0B834BD755C9E4",
+      "bytes": 656279,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        78,
+        106,
+        696,
+        938
+      ],
+      "origin": "R46 Torren original supplied artwork"
+    },
+    {
+      "logical_id": "HERO_TITAN_001",
+      "pose": "attack",
+      "file": "HERO_TITAN_001_ATTACK_R46.png",
+      "sha256": "FB74220EBD0F45F6F0A152E21A48E1EB4D97EF29AF96162A4E264CBCC26D4DEB",
+      "bytes": 643571,
+      "width": 768,
+      "height": 1024,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "alpha_bbox_in_rect": [
+        64,
+        85,
+        694,
+        938
+      ],
+      "origin": "R46 Torren original supplied artwork"
+    },
+    {
+      "logical_id": "HERO_TITAN_001",
+      "pose": "portrait",
+      "file": "HERO_TITAN_001_PORTRAIT_R46.png",
+      "sha256": "2D278F8C7ECBAEC5C616DF39246E3B6EC8CF60EBD3AAB64ABCDB6300DC018F0C",
+      "bytes": 92248,
+      "width": 256,
+      "height": 256,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "alpha_bbox_in_rect": [
+        16,
+        20,
+        240,
+        240
+      ],
+      "origin": "R46 Torren original supplied artwork"
+    },
+    {
+      "logical_id": "HERO_TITAN_002",
+      "pose": "idle",
+      "file": "HERO_TITAN_002_ATLAS161.png",
+      "sha256": "C02770E4302E0D5C9ED290DAA1DFA7CC3099E549F9011E9047B9D34C75750998",
+      "bytes": 1669523,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "alpha_bbox_in_rect": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_002",
+      "pose": "attack",
+      "file": "HERO_TITAN_002_ATLAS161.png",
+      "sha256": "C02770E4302E0D5C9ED290DAA1DFA7CC3099E549F9011E9047B9D34C75750998",
+      "bytes": 1669523,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "alpha_bbox_in_rect": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_002",
+      "pose": "portrait",
+      "file": "HERO_TITAN_002_ATLAS161.png",
+      "sha256": "C02770E4302E0D5C9ED290DAA1DFA7CC3099E549F9011E9047B9D34C75750998",
+      "bytes": 1669523,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "alpha_bbox_in_rect": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_003",
+      "pose": "idle",
+      "file": "HERO_TITAN_003_ATLAS161.png",
+      "sha256": "9DE9A7F0639BEA93B6AB00655F389DE69C9120748524D2213AC33A97C984D893",
+      "bytes": 1998250,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "alpha_bbox_in_rect": [
+        15,
+        7,
+        627,
+        627
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_003",
+      "pose": "attack",
+      "file": "HERO_TITAN_003_ATLAS161.png",
+      "sha256": "9DE9A7F0639BEA93B6AB00655F389DE69C9120748524D2213AC33A97C984D893",
+      "bytes": 1998250,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "alpha_bbox_in_rect": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_003",
+      "pose": "portrait",
+      "file": "HERO_TITAN_003_ATLAS161.png",
+      "sha256": "9DE9A7F0639BEA93B6AB00655F389DE69C9120748524D2213AC33A97C984D893",
+      "bytes": 1998250,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "alpha_bbox_in_rect": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_004",
+      "pose": "idle",
+      "file": "HERO_TITAN_004_ATLAS161.png",
+      "sha256": "E4C6F0F92EDE3C563A2E2DB65F171215509D8C14CFF88439AF76F1E8484F6D24",
+      "bytes": 1698777,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        627,
+        631
+      ],
+      "alpha_bbox_in_rect": [
+        0,
+        5,
+        627,
+        631
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_004",
+      "pose": "attack",
+      "file": "HERO_TITAN_004_ATLAS161.png",
+      "sha256": "E4C6F0F92EDE3C563A2E2DB65F171215509D8C14CFF88439AF76F1E8484F6D24",
+      "bytes": 1698777,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        627,
+        0,
+        1254,
+        631
+      ],
+      "alpha_bbox_in_rect": [
+        0,
+        15,
+        627,
+        631
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_004",
+      "pose": "portrait",
+      "file": "HERO_TITAN_004_ATLAS161.png",
+      "sha256": "E4C6F0F92EDE3C563A2E2DB65F171215509D8C14CFF88439AF76F1E8484F6D24",
+      "bytes": 1698777,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        0,
+        631,
+        627,
+        1254
+      ],
+      "alpha_bbox_in_rect": [
+        0,
+        0,
+        627,
+        623
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_005",
+      "pose": "idle",
+      "file": "HERO_TITAN_005_ATLAS161.png",
+      "sha256": "5B31DD616376A6A2BF1BDA4BB245056FC3431E0F9A42B9A6EFBF62956D3E1C3A",
+      "bytes": 1619420,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "alpha_bbox_in_rect": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_005",
+      "pose": "attack",
+      "file": "HERO_TITAN_005_ATLAS161.png",
+      "sha256": "5B31DD616376A6A2BF1BDA4BB245056FC3431E0F9A42B9A6EFBF62956D3E1C3A",
+      "bytes": 1619420,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "alpha_bbox_in_rect": [
+        1,
+        5,
+        627,
+        625
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_005",
+      "pose": "portrait",
+      "file": "HERO_TITAN_005_ATLAS161.png",
+      "sha256": "5B31DD616376A6A2BF1BDA4BB245056FC3431E0F9A42B9A6EFBF62956D3E1C3A",
+      "bytes": 1619420,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "alpha_bbox_in_rect": [
+        0,
+        0,
+        625,
+        627
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_006",
+      "pose": "idle",
+      "file": "HERO_TITAN_006_ATLAS161.png",
+      "sha256": "ACDCD48B0BDD7A3BB6966EDB9AD35EBF714C651AEC04A3309AA64822D68E85CC",
+      "bytes": 1618011,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "alpha_bbox_in_rect": [
+        0,
+        14,
+        627,
+        627
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_006",
+      "pose": "attack",
+      "file": "HERO_TITAN_006_ATLAS161.png",
+      "sha256": "ACDCD48B0BDD7A3BB6966EDB9AD35EBF714C651AEC04A3309AA64822D68E85CC",
+      "bytes": 1618011,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "alpha_bbox_in_rect": [
+        1,
+        0,
+        595,
+        627
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_006",
+      "pose": "portrait",
+      "file": "HERO_TITAN_006_ATLAS161.png",
+      "sha256": "ACDCD48B0BDD7A3BB6966EDB9AD35EBF714C651AEC04A3309AA64822D68E85CC",
+      "bytes": 1618011,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "alpha_bbox_in_rect": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_007",
+      "pose": "idle",
+      "file": "HERO_TITAN_007_ATLAS161.png",
+      "sha256": "917ACDE355AB7F73AC71C32DCA640708DB0D1939E06ECD50A8979D2DCA0728D7",
+      "bytes": 1114136,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "alpha_bbox_in_rect": [
+        0,
+        36,
+        611,
+        627
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_007",
+      "pose": "attack",
+      "file": "HERO_TITAN_007_ATLAS161.png",
+      "sha256": "917ACDE355AB7F73AC71C32DCA640708DB0D1939E06ECD50A8979D2DCA0728D7",
+      "bytes": 1114136,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "alpha_bbox_in_rect": [
+        31,
+        40,
+        605,
+        627
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_007",
+      "pose": "portrait",
+      "file": "HERO_TITAN_007_ATLAS161.png",
+      "sha256": "917ACDE355AB7F73AC71C32DCA640708DB0D1939E06ECD50A8979D2DCA0728D7",
+      "bytes": 1114136,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "alpha_bbox_in_rect": [
+        0,
+        3,
+        621,
+        627
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_008",
+      "pose": "idle",
+      "file": "HERO_TITAN_008_ATLAS161.png",
+      "sha256": "A00AB001998AEB8EF70D5ACE32640A42FBA4BB26C9F93506668F38CB990AB8C3",
+      "bytes": 1579280,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "alpha_bbox_in_rect": [
+        85,
+        10,
+        627,
+        625
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_008",
+      "pose": "attack",
+      "file": "HERO_TITAN_008_ATLAS161.png",
+      "sha256": "A00AB001998AEB8EF70D5ACE32640A42FBA4BB26C9F93506668F38CB990AB8C3",
+      "bytes": 1579280,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "alpha_bbox_in_rect": [
+        1,
+        33,
+        627,
+        611
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_008",
+      "pose": "portrait",
+      "file": "HERO_TITAN_008_ATLAS161.png",
+      "sha256": "A00AB001998AEB8EF70D5ACE32640A42FBA4BB26C9F93506668F38CB990AB8C3",
+      "bytes": 1579280,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "alpha_bbox_in_rect": [
+        23,
+        1,
+        627,
+        615
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_009",
+      "pose": "idle",
+      "file": "HERO_TITAN_009_ATLAS161.png",
+      "sha256": "98BBF49E7FFE24F2763F082816F2148871C77D85801B168670C4D661B2B858F5",
+      "bytes": 1827456,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        627,
+        631
+      ],
+      "alpha_bbox_in_rect": [
+        35,
+        9,
+        627,
+        631
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_009",
+      "pose": "attack",
+      "file": "HERO_TITAN_009_ATLAS161.png",
+      "sha256": "98BBF49E7FFE24F2763F082816F2148871C77D85801B168670C4D661B2B858F5",
+      "bytes": 1827456,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        627,
+        0,
+        1254,
+        631
+      ],
+      "alpha_bbox_in_rect": [
+        26,
+        30,
+        613,
+        630
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_009",
+      "pose": "portrait",
+      "file": "HERO_TITAN_009_ATLAS161.png",
+      "sha256": "98BBF49E7FFE24F2763F082816F2148871C77D85801B168670C4D661B2B858F5",
+      "bytes": 1827456,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        0,
+        631,
+        627,
+        1254
+      ],
+      "alpha_bbox_in_rect": [
+        0,
+        1,
+        627,
+        623
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_010",
+      "pose": "idle",
+      "file": "HERO_TITAN_010_ATLAS161.png",
+      "sha256": "3E6F662CD7AD8BD0741BAE42DFAD490BEC130F91B7CEF4DB570E957BC1DA57AE",
+      "bytes": 1578068,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "alpha_bbox_in_rect": [
+        0,
+        16,
+        627,
+        627
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_010",
+      "pose": "attack",
+      "file": "HERO_TITAN_010_ATLAS161.png",
+      "sha256": "3E6F662CD7AD8BD0741BAE42DFAD490BEC130F91B7CEF4DB570E957BC1DA57AE",
+      "bytes": 1578068,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "alpha_bbox_in_rect": [
+        30,
+        25,
+        627,
+        627
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_010",
+      "pose": "portrait",
+      "file": "HERO_TITAN_010_ATLAS161.png",
+      "sha256": "3E6F662CD7AD8BD0741BAE42DFAD490BEC130F91B7CEF4DB570E957BC1DA57AE",
+      "bytes": 1578068,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "alpha_bbox_in_rect": [
+        0,
+        0,
+        627,
+        608
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_011",
+      "pose": "idle",
+      "file": "HERO_TITAN_011_ATLAS161.png",
+      "sha256": "F6C4611F4A9A151A17C06E2799499DBB76E37C57FC6C3ADA02C13D1F423093CD",
+      "bytes": 1456903,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "alpha_bbox_in_rect": [
+        0,
+        0,
+        627,
+        625
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_011",
+      "pose": "attack",
+      "file": "HERO_TITAN_011_ATLAS161.png",
+      "sha256": "F6C4611F4A9A151A17C06E2799499DBB76E37C57FC6C3ADA02C13D1F423093CD",
+      "bytes": 1456903,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "alpha_bbox_in_rect": [
+        7,
+        48,
+        622,
+        607
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_011",
+      "pose": "portrait",
+      "file": "HERO_TITAN_011_ATLAS161.png",
+      "sha256": "F6C4611F4A9A151A17C06E2799499DBB76E37C57FC6C3ADA02C13D1F423093CD",
+      "bytes": 1456903,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "alpha_bbox_in_rect": [
+        0,
+        7,
+        623,
+        627
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_012",
+      "pose": "idle",
+      "file": "HERO_TITAN_012_ATLAS161.png",
+      "sha256": "2A7507B888EF7E0C74C8ECB3BF14567353C6776BA55D84E58C3172F8276979B0",
+      "bytes": 1243928,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "alpha_bbox_in_rect": [
+        9,
+        19,
+        627,
+        627
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_012",
+      "pose": "attack",
+      "file": "HERO_TITAN_012_ATLAS161.png",
+      "sha256": "2A7507B888EF7E0C74C8ECB3BF14567353C6776BA55D84E58C3172F8276979B0",
+      "bytes": 1243928,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "alpha_bbox_in_rect": [
+        0,
+        45,
+        621,
+        627
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_012",
+      "pose": "portrait",
+      "file": "HERO_TITAN_012_ATLAS161.png",
+      "sha256": "2A7507B888EF7E0C74C8ECB3BF14567353C6776BA55D84E58C3172F8276979B0",
+      "bytes": 1243928,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "alpha_bbox_in_rect": [
+        0,
+        0,
+        627,
+        587
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_013",
+      "pose": "idle",
+      "file": "HERO_TITAN_013_ATLAS161.png",
+      "sha256": "F8CC26E8C7183B9BEC56C8ABB9C7E6FECBDEE4403BADE22DF545BE123297F3DA",
+      "bytes": 1593019,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        0,
+        0,
+        600,
+        627
+      ],
+      "alpha_bbox_in_rect": [
+        0,
+        17,
+        567,
+        613
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_013",
+      "pose": "attack",
+      "file": "HERO_TITAN_013_ATLAS161.png",
+      "sha256": "F8CC26E8C7183B9BEC56C8ABB9C7E6FECBDEE4403BADE22DF545BE123297F3DA",
+      "bytes": 1593019,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        600,
+        0,
+        1254,
+        627
+      ],
+      "alpha_bbox_in_rect": [
+        8,
+        19,
+        654,
+        627
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    },
+    {
+      "logical_id": "HERO_TITAN_013",
+      "pose": "portrait",
+      "file": "HERO_TITAN_013_ATLAS161.png",
+      "sha256": "F8CC26E8C7183B9BEC56C8ABB9C7E6FECBDEE4403BADE22DF545BE123297F3DA",
+      "bytes": 1593019,
+      "width": 1254,
+      "height": 1254,
+      "rect_top_left_xyxy": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "alpha_bbox_in_rect": [
+        0,
+        31,
+        627,
+        627
+      ],
+      "origin": "New built-in image_gen R161; R43 character visual brief"
+    }
+  ]
+}

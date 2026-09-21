@@ -1,0 +1,99 @@
+{
+  "contentVersion": "FORECAST_REFERENCE_0.1",
+  "intents": [
+    {
+      "id": "BALANCED_ADVANCE",
+      "weight": 100,
+      "acceptedFamilies": ["BASIC", "MARTIAL", "GUARD", "SUPPORT"],
+      "targetSide": "ENEMY",
+      "predictedEffects": ["BALANCED_PRESSURE"],
+      "riskTags": []
+    },
+    {
+      "id": "USE_COMBAT_ARTS",
+      "weight": 120,
+      "acceptedFamilies": ["MARTIAL", "BASIC"],
+      "targetSide": "ENEMY",
+      "predictedEffects": ["HIGH_HP_DAMAGE"],
+      "riskTags": ["RESOURCE_SPEND"]
+    },
+    {
+      "id": "BREAK_THEIR_FORMATION",
+      "weight": 95,
+      "acceptedFamilies": ["MARTIAL", "TACTICAL", "BASIC"],
+      "targetSide": "ENEMY",
+      "predictedEffects": ["HIGH_COHESION_DAMAGE"],
+      "riskTags": ["EXPOSED_ON_FAILURE"]
+    },
+    {
+      "id": "HEAL_THE_WOUNDED",
+      "weight": 110,
+      "acceptedFamilies": ["RESTORATION", "GUARD", "BASIC"],
+      "targetSide": "ALLY",
+      "predictedEffects": ["RESTORE_HP", "STABILIZE_UNION"],
+      "riskTags": ["LOW_OFFENSE"]
+    },
+    {
+      "id": "HOLD_FORMATION",
+      "weight": 90,
+      "acceptedFamilies": ["GUARD", "SUPPORT", "BASIC"],
+      "targetSide": "SELF",
+      "predictedEffects": ["REDUCE_INCOMING_DAMAGE", "RESTORE_COHESION"],
+      "riskTags": ["LOW_MOBILITY"]
+    },
+    {
+      "id": "SUPPORT_THE_FRONT_LINE",
+      "weight": 80,
+      "acceptedFamilies": ["SUPPORT", "RESTORATION", "GUARD", "BASIC"],
+      "targetSide": "ALLY",
+      "predictedEffects": ["BUFF_ALLIES"],
+      "riskTags": ["LOW_DIRECT_DAMAGE"]
+    }
+  ],
+  "members": [
+    {
+      "id": "REC_BRAK",
+      "mp": 4,
+      "preferences": {"MARTIAL": 110, "GUARD": 150, "BASIC": 80},
+      "actions": [
+        {"id": "BASIC_ATTACK", "family": "BASIC", "apCost": 0, "mpCost": 0, "baseWeight": 80, "fallbackFamily": "GUARD_OR_BASIC"},
+        {"id": "ART_SHIELD_BREAK", "family": "MARTIAL", "apCost": 5, "mpCost": 0, "baseWeight": 125, "fallbackFamily": "MARTIAL"},
+        {"id": "ART_INTERCEPT", "family": "GUARD", "apCost": 4, "mpCost": 0, "baseWeight": 140, "fallbackFamily": "GUARD"},
+        {"id": "GUARD", "family": "GUARD", "apCost": 0, "mpCost": 0, "baseWeight": 100, "fallbackFamily": "GUARD"}
+      ]
+    },
+    {
+      "id": "REC_MIRA",
+      "mp": 3,
+      "preferences": {"MARTIAL": 150, "GUARD": 80, "BASIC": 85},
+      "actions": [
+        {"id": "BASIC_ATTACK", "family": "BASIC", "apCost": 0, "mpCost": 0, "baseWeight": 80, "fallbackFamily": "SWORD_COMBAT"},
+        {"id": "ART_QUICK_SLASH", "family": "MARTIAL", "apCost": 4, "mpCost": 0, "baseWeight": 135, "fallbackFamily": "SWORD_COMBAT", "learningTags": ["TWIN_SLASH_DISCOVERY"]},
+        {"id": "ART_TWIN_SLASH", "family": "MARTIAL", "apCost": 7, "mpCost": 0, "baseWeight": 80, "fallbackFamily": "SWORD_COMBAT"},
+        {"id": "GUARD", "family": "GUARD", "apCost": 0, "mpCost": 0, "baseWeight": 60, "fallbackFamily": "GUARD"}
+      ]
+    },
+    {
+      "id": "REC_SELLA",
+      "mp": 5,
+      "preferences": {"MARTIAL": 130, "TACTICAL": 140, "GUARD": 70, "BASIC": 85},
+      "actions": [
+        {"id": "BASIC_SHOT", "family": "BASIC", "apCost": 0, "mpCost": 0, "baseWeight": 80, "fallbackFamily": "BOW_COMBAT"},
+        {"id": "ART_PINNING_SHOT", "family": "TACTICAL", "apCost": 5, "mpCost": 0, "baseWeight": 145, "fallbackFamily": "BOW_COMBAT", "learningTags": ["COVERING_SHOT_DISCOVERY"]},
+        {"id": "ART_POWER_SHOT", "family": "MARTIAL", "apCost": 6, "mpCost": 0, "baseWeight": 115, "fallbackFamily": "BOW_COMBAT"},
+        {"id": "GUARD", "family": "GUARD", "apCost": 0, "mpCost": 0, "baseWeight": 50, "fallbackFamily": "GUARD"}
+      ]
+    },
+    {
+      "id": "REC_PIKK",
+      "mp": 20,
+      "preferences": {"RESTORATION": 155, "SUPPORT": 135, "BASIC": 75, "GUARD": 75},
+      "actions": [
+        {"id": "BASIC_ATTACK", "family": "BASIC", "apCost": 0, "mpCost": 0, "baseWeight": 70, "fallbackFamily": "CONSERVE"},
+        {"id": "ART_FIELD_REMEDY", "family": "RESTORATION", "apCost": 2, "mpCost": 8, "baseWeight": 155, "fallbackFamily": "RESTORATION", "learningTags": ["RESTORATION_MASTERY"]},
+        {"id": "ART_STIMULANT", "family": "SUPPORT", "apCost": 3, "mpCost": 5, "baseWeight": 130, "fallbackFamily": "SUPPORT"},
+        {"id": "GUARD", "family": "GUARD", "apCost": 0, "mpCost": 0, "baseWeight": 65, "fallbackFamily": "GUARD"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "contentVersion": "GOW_CONTENT_AUTHORITY_BRIDGE_003",
+  "worldPackShards": [
+    {
+      "worldPackId": "PACK_01_SKYHOME_GATEWARD",
+      "worldId": "WORLD_GATE_01",
+      "displayName": "Skyhome Gateward",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_01_SKYHOME_GATEWARD.json",
+      "signatureRecruitIds": [
+        "SIG_W01_01",
+        "SIG_W01_02",
+        "SIG_W01_03",
+        "SIG_W01_04",
+        "SIG_W01_05",
+        "SIG_W01_06",
+        "SIG_W01_07",
+        "SIG_W01_08",
+        "SIG_W01_09",
+        "SIG_W01_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "f028d40aa718d295b966d0c1b435c203bd11d7c0bdf18adc100b210c65437145"
+    },
+    {
+      "worldPackId": "PACK_02_EMBERCHAIN_FOUNDRIES",
+      "worldId": "WORLD_EMBERCHAIN_02",
+      "displayName": "Emberchain Foundries",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_02_EMBERCHAIN_FOUNDRIES.json",
+      "signatureRecruitIds": [
+        "SIG_W02_01",
+        "SIG_W02_02",
+        "SIG_W02_03",
+        "SIG_W02_04",
+        "SIG_W02_05",
+        "SIG_W02_06",
+        "SIG_W02_07",
+        "SIG_W02_08",
+        "SIG_W02_09",
+        "SIG_W02_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "d71a977da85b1cd931a44d758a7898e82c60e09fbf5553fdda793ab2df52214b"
+    },
+    {
+      "worldPackId": "PACK_03_MOONFEN_REACHES",
+      "worldId": "WORLD_MOONFEN_03",
+      "displayName": "Moonfen Reaches",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_03_MOONFEN_REACHES.json",
+      "signatureRecruitIds": [
+        "SIG_W03_01",
+        "SIG_W03_02",
+        "SIG_W03_03",
+        "SIG_W03_04",
+        "SIG_W03_05",
+        "SIG_W03_06",
+        "SIG_W03_07",
+        "SIG_W03_08",
+        "SIG_W03_09",
+        "SIG_W03_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "114b9bff1c42bdd810da008bf9a776636651b3cf06c904c7116731a0dfec0e9c"
+    },
+    {
+      "worldPackId": "PACK_04_GLASSGARDEN_PRINCIPALITY",
+      "worldId": "WORLD_GLASSGARDEN_04",
+      "displayName": "Glassgarden Principality",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_04_GLASSGARDEN_PRINCIPALITY.json",
+      "signatureRecruitIds": [
+        "SIG_W04_01",
+        "SIG_W04_02",
+        "SIG_W04_03",
+        "SIG_W04_04",
+        "SIG_W04_05",
+        "SIG_W04_06",
+        "SIG_W04_07",
+        "SIG_W04_08",
+        "SIG_W04_09",
+        "SIG_W04_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "ecfa65c2d0e48b5a927d565c83583231d7f9c83072c511ddeec02535cd33e9a7"
+    },
+    {
+      "worldPackId": "PACK_05_IRONROOT_HOLDS",
+      "worldId": "WORLD_IRONROOT_05",
+      "displayName": "Ironroot Holds",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_05_IRONROOT_HOLDS.json",
+      "signatureRecruitIds": [
+        "SIG_W05_01",
+        "SIG_W05_02",
+        "SIG_W05_03",
+        "SIG_W05_04",
+        "SIG_W05_05",
+        "SIG_W05_06",
+        "SIG_W05_07",
+        "SIG_W05_08",
+        "SIG_W05_09",
+        "SIG_W05_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "9c45bcacd1fa6e0a5f18347c9b97b3a838216b05261a6f7cb8cb41b0f4d22825"
+    },
+    {
+      "worldPackId": "PACK_06_STORMROAD_MARCHES",
+      "worldId": "WORLD_STORMROAD_06",
+      "displayName": "Stormroad Marches",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_06_STORMROAD_MARCHES.json",
+      "signatureRecruitIds": [
+        "SIG_W06_01",
+        "SIG_W06_02",
+        "SIG_W06_03",
+        "SIG_W06_04",
+        "SIG_W06_05",
+        "SIG_W06_06",
+        "SIG_W06_07",
+        "SIG_W06_08",
+        "SIG_W06_09",
+        "SIG_W06_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "45eee9fb2d8b439438074522915e3d6bdd73ada1a5d36762bf6f5361d2770f5b"
+    },
+    {
+      "worldPackId": "PACK_07_DUSK_ARCHIVE_CITIES",
+      "worldId": "WORLD_DUSK_ARCHIVE_07",
+      "displayName": "Dusk Archive Cities",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_07_DUSK_ARCHIVE_CITIES.json",
+      "signatureRecruitIds": [
+        "SIG_W07_01",
+        "SIG_W07_02",
+        "SIG_W07_03",
+        "SIG_W07_04",
+        "SIG_W07_05",
+        "SIG_W07_06",
+        "SIG_W07_07",
+        "SIG_W07_08",
+        "SIG_W07_09",
+        "SIG_W07_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "0d50c81f509cde5e401eeabf6a75df6a27aaf8c8d408a717ba8d37df11a19bad"
+    },
+    {
+      "worldPackId": "PACK_08_ASHGLASS_ENCLAVE",
+      "worldId": "WORLD_ASHGLASS_08",
+      "displayName": "Ashglass Enclave",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_08_ASHGLASS_ENCLAVE.json",
+      "signatureRecruitIds": [
+        "SIG_W08_01",
+        "SIG_W08_02",
+        "SIG_W08_03",
+        "SIG_W08_04",
+        "SIG_W08_05",
+        "SIG_W08_06",
+        "SIG_W08_07",
+        "SIG_W08_08",
+        "SIG_W08_09",
+        "SIG_W08_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "a47730cbc16bfddccbfeb6901e32d3e9f9f860ca3b2ba4ec65120652301f4003"
+    },
+    {
+      "worldPackId": "PACK_09_VERDANT_CROWN_WILDS",
+      "worldId": "WORLD_VERDANT_CROWN_09",
+      "displayName": "Verdant Crown Wilds",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_09_VERDANT_CROWN_WILDS.json",
+      "signatureRecruitIds": [
+        "SIG_W09_01",
+        "SIG_W09_02",
+        "SIG_W09_03",
+        "SIG_W09_04",
+        "SIG_W09_05",
+        "SIG_W09_06",
+        "SIG_W09_07",
+        "SIG_W09_08",
+        "SIG_W09_09",
+        "SIG_W09_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "4f17cf75a8abd6b4bb24b22eca3ed96422a768e2cc5093da3c41bb9fe086d648"
+    },
+    {
+      "worldPackId": "PACK_10_SUNKEN_BELL_COAST",
+      "worldId": "WORLD_SUNKEN_BELL_10",
+      "displayName": "Sunken Bell Coast",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_10_SUNKEN_BELL_COAST.json",
+      "signatureRecruitIds": [
+        "SIG_W10_01",
+        "SIG_W10_02",
+        "SIG_W10_03",
+        "SIG_W10_04",
+        "SIG_W10_05",
+        "SIG_W10_06",
+        "SIG_W10_07",
+        "SIG_W10_08",
+        "SIG_W10_09",
+        "SIG_W10_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "5153990c99f7b4507140cd9611d49f0776e84b31147ac789ae050546ea95e6a2"
+    },
+    {
+      "worldPackId": "PACK_11_FROSTVEIL_BASTIONS",
+      "worldId": "WORLD_FROSTVEIL_11",
+      "displayName": "Frostveil Bastions",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_11_FROSTVEIL_BASTIONS.json",
+      "signatureRecruitIds": [
+        "SIG_W11_01",
+        "SIG_W11_02",
+        "SIG_W11_03",
+        "SIG_W11_04",
+        "SIG_W11_05",
+        "SIG_W11_06",
+        "SIG_W11_07",
+        "SIG_W11_08",
+        "SIG_W11_09",
+        "SIG_W11_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "c58b6d6c8178576b4c3348de7e2a45d6858d9789aa9eddbe3233b31d15f7adfb"
+    },
+    {
+      "worldPackId": "PACK_12_STARWELL_TERRACES",
+      "worldId": "WORLD_STARWELL_12",
+      "displayName": "Starwell Terraces",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_12_STARWELL_TERRACES.json",
+      "signatureRecruitIds": [
+        "SIG_W12_01",
+        "SIG_W12_02",
+        "SIG_W12_03",
+        "SIG_W12_04",
+        "SIG_W12_05",
+        "SIG_W12_06",
+        "SIG_W12_07",
+        "SIG_W12_08",
+        "SIG_W12_09",
+        "SIG_W12_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "ba891412122798a79a6c8fcd2fefbe32a43f66d2c54dfe7f6fa6363dd023630d"
+    },
+    {
+      "worldPackId": "PACK_13_CINDERWAKE_CALDERA",
+      "worldId": "WORLD_CINDERWAKE_13",
+      "displayName": "Cinderwake Caldera",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_13_CINDERWAKE_CALDERA.json",
+      "signatureRecruitIds": [
+        "SIG_W13_01",
+        "SIG_W13_02",
+        "SIG_W13_03",
+        "SIG_W13_04",
+        "SIG_W13_05",
+        "SIG_W13_06",
+        "SIG_W13_07",
+        "SIG_W13_08",
+        "SIG_W13_09",
+        "SIG_W13_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "07fbcddb6c90fea6ae351539737bfedf0b73631c1491dcb8a186a0e11d3e13dc"
+    },
+    {
+      "worldPackId": "PACK_14_CLOUDHARBOR_AERIES",
+      "worldId": "WORLD_CLOUDHARBOR_14",
+      "displayName": "Cloudharbor Aeries",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_14_CLOUDHARBOR_AERIES.json",
+      "signatureRecruitIds": [
+        "SIG_W14_01",
+        "SIG_W14_02",
+        "SIG_W14_03",
+        "SIG_W14_04",
+        "SIG_W14_05",
+        "SIG_W14_06",
+        "SIG_W14_07",
+        "SIG_W14_08",
+        "SIG_W14_09",
+        "SIG_W14_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "6d2cc374396722a6f8a38ef8c5fec7cc35be740875eff5d1def9f84e55b878b3"
+    },
+    {
+      "worldPackId": "PACK_15_THORNFIELD_FRONTIER",
+      "worldId": "WORLD_THORNFIELD_15",
+      "displayName": "Thornfield Frontier",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_15_THORNFIELD_FRONTIER.json",
+      "signatureRecruitIds": [
+        "SIG_W15_01",
+        "SIG_W15_02",
+        "SIG_W15_03",
+        "SIG_W15_04",
+        "SIG_W15_05",
+        "SIG_W15_06",
+        "SIG_W15_07",
+        "SIG_W15_08",
+        "SIG_W15_09",
+        "SIG_W15_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "0a0d6ea8399f64ea21d06a2212cb1658fe9721a20de1cbf512d188b490dcadfd"
+    },
+    {
+      "worldPackId": "PACK_16_BRASSWHISTLE_REPUBLIC",
+      "worldId": "WORLD_BRASSWHISTLE_16",
+      "displayName": "Brasswhistle Republic",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_16_BRASSWHISTLE_REPUBLIC.json",
+      "signatureRecruitIds": [
+        "SIG_W16_01",
+        "SIG_W16_02",
+        "SIG_W16_03",
+        "SIG_W16_04",
+        "SIG_W16_05",
+        "SIG_W16_06",
+        "SIG_W16_07",
+        "SIG_W16_08",
+        "SIG_W16_09",
+        "SIG_W16_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "29742e703a328dbe564742dec540bb3ae8a6a135126753de415beb9f96e2d365"
+    },
+    {
+      "worldPackId": "PACK_17_OBSIDIAN_CHOIR",
+      "worldId": "WORLD_OBSIDIAN_CHOIR_17",
+      "displayName": "Obsidian Choir",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_17_OBSIDIAN_CHOIR.json",
+      "signatureRecruitIds": [
+        "SIG_W17_01",
+        "SIG_W17_02",
+        "SIG_W17_03",
+        "SIG_W17_04",
+        "SIG_W17_05",
+        "SIG_W17_06",
+        "SIG_W17_07",
+        "SIG_W17_08",
+        "SIG_W17_09",
+        "SIG_W17_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "18bc919e4e0a4563b229b30c2bc97d0ef62ee973467bb6afb561a4f97335a8fe"
+    },
+    {
+      "worldPackId": "PACK_18_TIDEGLASS_ARCHIPELAGO",
+      "worldId": "WORLD_TIDEGLASS_18",
+      "displayName": "Tideglass Archipelago",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_18_TIDEGLASS_ARCHIPELAGO.json",
+      "signatureRecruitIds": [
+        "SIG_W18_01",
+        "SIG_W18_02",
+        "SIG_W18_03",
+        "SIG_W18_04",
+        "SIG_W18_05",
+        "SIG_W18_06",
+        "SIG_W18_07",
+        "SIG_W18_08",
+        "SIG_W18_09",
+        "SIG_W18_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "a95f1c321ea46d9e64a6bfb0e5ac64ddaee489d174cfd2716347411bec12745d"
+    },
+    {
+      "worldPackId": "PACK_19_HOLLOW_CROWN_RUINS",
+      "worldId": "WORLD_HOLLOW_CROWN_19",
+      "displayName": "Hollow Crown Ruins",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_19_HOLLOW_CROWN_RUINS.json",
+      "signatureRecruitIds": [
+        "SIG_W19_01",
+        "SIG_W19_02",
+        "SIG_W19_03",
+        "SIG_W19_04",
+        "SIG_W19_05",
+        "SIG_W19_06",
+        "SIG_W19_07",
+        "SIG_W19_08",
+        "SIG_W19_09",
+        "SIG_W19_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "87b666e59369ea80f189b956d27398a6b1e2c91ff10adda395eb3bcb64d2163b"
+    },
+    {
+      "worldPackId": "PACK_20_LUMEN_ORCHARD",
+      "worldId": "WORLD_LUMEN_ORCHARD_20",
+      "displayName": "Lumen Orchard",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_20_LUMEN_ORCHARD.json",
+      "signatureRecruitIds": [
+        "SIG_W20_01",
+        "SIG_W20_02",
+        "SIG_W20_03",
+        "SIG_W20_04",
+        "SIG_W20_05",
+        "SIG_W20_06",
+        "SIG_W20_07",
+        "SIG_W20_08",
+        "SIG_W20_09",
+        "SIG_W20_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "a600c05138c36109490751fbc7b8bef338145c40c9335b5dcfd2018993561353"
+    },
+    {
+      "worldPackId": "PACK_21_RIFTWARD_EXPANSE",
+      "worldId": "WORLD_RIFTWARD_21",
+      "displayName": "Riftward Expanse",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_21_RIFTWARD_EXPANSE.json",
+      "signatureRecruitIds": [
+        "SIG_W21_01",
+        "SIG_W21_02",
+        "SIG_W21_03",
+        "SIG_W21_04",
+        "SIG_W21_05",
+        "SIG_W21_06",
+        "SIG_W21_07",
+        "SIG_W21_08",
+        "SIG_W21_09",
+        "SIG_W21_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "6e1e84ca97bb3d4a0167004656b94a988816d4d7eb3e6f871c62d8ecca27bd2b"
+    },
+    {
+      "worldPackId": "PACK_22_RED_SAND_CARAVANS",
+      "worldId": "WORLD_RED_SAND_22",
+      "displayName": "Red Sand Caravans",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_22_RED_SAND_CARAVANS.json",
+      "signatureRecruitIds": [
+        "SIG_W22_01",
+        "SIG_W22_02",
+        "SIG_W22_03",
+        "SIG_W22_04",
+        "SIG_W22_05",
+        "SIG_W22_06",
+        "SIG_W22_07",
+        "SIG_W22_08",
+        "SIG_W22_09",
+        "SIG_W22_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "6ddec9ae56037ebc25b096341d33a1ccda2f4a53f33c2c0c7e75b014ae2ee04d"
+    },
+    {
+      "worldPackId": "PACK_23_DREAMING_QUARRY",
+      "worldId": "WORLD_DREAMING_QUARRY_23",
+      "displayName": "Dreaming Quarry",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_23_DREAMING_QUARRY.json",
+      "signatureRecruitIds": [
+        "SIG_W23_01",
+        "SIG_W23_02",
+        "SIG_W23_03",
+        "SIG_W23_04",
+        "SIG_W23_05",
+        "SIG_W23_06",
+        "SIG_W23_07",
+        "SIG_W23_08",
+        "SIG_W23_09",
+        "SIG_W23_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "ae2bd6d286f5f48f0856be249d0ea82bbada332c638a8d014d86a8732880a358"
+    },
+    {
+      "worldPackId": "PACK_24_BLACKWATER_LANTERNS",
+      "worldId": "WORLD_BLACKWATER_24",
+      "displayName": "Blackwater Lanterns",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_24_BLACKWATER_LANTERNS.json",
+      "signatureRecruitIds": [
+        "SIG_W24_01",
+        "SIG_W24_02",
+        "SIG_W24_03",
+        "SIG_W24_04",
+        "SIG_W24_05",
+        "SIG_W24_06",
+        "SIG_W24_07",
+        "SIG_W24_08",
+        "SIG_W24_09",
+        "SIG_W24_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "bd218d6bb0d107e6ce0f0fa0ee4ee74b2009d3572c3c64d974c80595cb3652b4"
+    },
+    {
+      "worldPackId": "PACK_25_CELESTIAL_RAIL",
+      "worldId": "WORLD_CELESTIAL_RAIL_25",
+      "displayName": "Celestial Rail",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_25_CELESTIAL_RAIL.json",
+      "signatureRecruitIds": [
+        "SIG_W25_01",
+        "SIG_W25_02",
+        "SIG_W25_03",
+        "SIG_W25_04",
+        "SIG_W25_05",
+        "SIG_W25_06",
+        "SIG_W25_07",
+        "SIG_W25_08",
+        "SIG_W25_09",
+        "SIG_W25_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "66fea472de2d8b55103f3d936febbf02fa73d3fa50b24bcf69a1a0bd302df849"
+    },
+    {
+      "worldPackId": "PACK_26_BONEWOOD_PACT",
+      "worldId": "WORLD_BONEWOOD_26",
+      "displayName": "Bonewood Pact",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_26_BONEWOOD_PACT.json",
+      "signatureRecruitIds": [
+        "SIG_W26_01",
+        "SIG_W26_02",
+        "SIG_W26_03",
+        "SIG_W26_04",
+        "SIG_W26_05",
+        "SIG_W26_06",
+        "SIG_W26_07",
+        "SIG_W26_08",
+        "SIG_W26_09",
+        "SIG_W26_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "3de21f84506d5b4d30665f142a4192036023ba5564a600bcbbc353acc2546531"
+    },
+    {
+      "worldPackId": "PACK_27_MIRRORSTEP_DOMINION",
+      "worldId": "WORLD_MIRRORSTEP_27",
+      "displayName": "Mirrorstep Dominion",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_27_MIRRORSTEP_DOMINION.json",
+      "signatureRecruitIds": [
+        "SIG_W27_01",
+        "SIG_W27_02",
+        "SIG_W27_03",
+        "SIG_W27_04",
+        "SIG_W27_05",
+        "SIG_W27_06",
+        "SIG_W27_07",
+        "SIG_W27_08",
+        "SIG_W27_09",
+        "SIG_W27_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "d5bc4b0f226b46aae0558cc08a7def8fd3b6fefaff6a6e57c1cfa82a1a6bfe13"
+    },
+    {
+      "worldPackId": "PACK_28_THUNDER_MESA",
+      "worldId": "WORLD_THUNDER_MESA_28",
+      "displayName": "Thunder Mesa",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_28_THUNDER_MESA.json",
+      "signatureRecruitIds": [
+        "SIG_W28_01",
+        "SIG_W28_02",
+        "SIG_W28_03",
+        "SIG_W28_04",
+        "SIG_W28_05",
+        "SIG_W28_06",
+        "SIG_W28_07",
+        "SIG_W28_08",
+        "SIG_W28_09",
+        "SIG_W28_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "ccae3dbc34fbe222c9bfb01834f555c6bc6eda1d55f958287c58903f1cc9eec7"
+    },
+    {
+      "worldPackId": "PACK_29_SILENT_MERIDIAN",
+      "worldId": "WORLD_SILENT_MERIDIAN_29",
+      "displayName": "Silent Meridian",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_29_SILENT_MERIDIAN.json",
+      "signatureRecruitIds": [
+        "SIG_W29_01",
+        "SIG_W29_02",
+        "SIG_W29_03",
+        "SIG_W29_04",
+        "SIG_W29_05",
+        "SIG_W29_06",
+        "SIG_W29_07",
+        "SIG_W29_08",
+        "SIG_W29_09",
+        "SIG_W29_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "a83eac39271e971c14f9be69fd772636b59bcc1056ca3584450215557f1119e2"
+    },
+    {
+      "worldPackId": "PACK_30_AEGIS_DEEPWARD",
+      "worldId": "WORLD_AEGIS_DEEPWARD_30",
+      "displayName": "Aegis Deepward",
+      "shardPath": "SHARDS/WORLD_PACKS/PACK_30_AEGIS_DEEPWARD.json",
+      "signatureRecruitIds": [
+        "SIG_W30_01",
+        "SIG_W30_02",
+        "SIG_W30_03",
+        "SIG_W30_04",
+        "SIG_W30_05",
+        "SIG_W30_06",
+        "SIG_W30_07",
+        "SIG_W30_08",
+        "SIG_W30_09",
+        "SIG_W30_10"
+      ],
+      "recruitCount": 10,
+      "sha256": "003468e056db7a0b0f9fe9edb0b7d6d326a03add4c2e19bad0409381663de328"
+    }
+  ],
+  "totalWorldPacks": 30,
+  "totalSignatureRecruits": 300
+}

@@ -1,0 +1,41 @@
+{
+  "contentVersion": "GOW_PASS08_0.13",
+  "defaults": {
+    "textScale": 1.0,
+    "reducedMotion": false,
+    "screenShake": 0.6,
+    "flashIntensity": 0.7,
+    "combatSpeed": 1,
+    "autoAdvanceText": false,
+    "highContrast": false,
+    "holdAlternatives": "tap toggle available",
+    "forecastDetail": "full"
+  },
+  "ranges": {
+    "textScale": [
+      0.85,
+      1.45
+    ],
+    "screenShake": [
+      0,
+      1
+    ],
+    "flashIntensity": [
+      0,
+      1
+    ],
+    "combatSpeed": [
+      1,
+      4
+    ]
+  },
+  "requirements": [
+    "status always icon+shape+text accessible",
+    "subtitles for all spoken/barked critical info",
+    "visual alternative for audio telegraphs",
+    "dice result always rendered as numbers and tier text",
+    "Forecast cards have concise one-line summary",
+    "reduced motion replaces camera push-ins with cuts/fades",
+    "gameplay assistance is presented separately from accessibility"
+  ]
+}

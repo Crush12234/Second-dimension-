@@ -1,0 +1,18 @@
+{
+  "name": "SecondDimension.Presentation",
+  "rootNamespace": "SecondDimension.Presentation",
+  "references": [
+    "SecondDimension.Core",
+    "SecondDimension.Determinism",
+    "SecondDimension.Content",
+    "SecondDimension.Gameplay",
+    "SecondDimension.SSS.V3",
+    "SecondDimension.Save",
+    "SecondDimension.Platform",
+    "Unity.UGUI",
+    "Unity.Newtonsoft.Json"
+  ],
+  "autoReferenced": true,
+  "overrideReferences": false,
+  "noEngineReferences": false
+}

@@ -1,0 +1,327 @@
+{
+  "contentVersion": "GUILD_CITY_OPENING_CERTIFICATION_017G_1.0",
+  "modeProfiles": [
+    {
+      "id": "Relaxed",
+      "displayName": "Relaxed",
+      "startingSupplyBonus": 3,
+      "checkModifier": 1,
+      "fatigueCostDelta": -1,
+      "urgencyCostDelta": -1,
+      "enemyUnionDelta": -1,
+      "guildRewardBasisPoints": 11000,
+      "hallRewardBasisPoints": 11000,
+      "playerPromise": "Lower expedition pressure, clearer recovery, and no loss of permanent members."
+    },
+    {
+      "id": "Standard",
+      "displayName": "Standard",
+      "startingSupplyBonus": 0,
+      "checkModifier": 0,
+      "fatigueCostDelta": 0,
+      "urgencyCostDelta": 0,
+      "enemyUnionDelta": 0,
+      "guildRewardBasisPoints": 10000,
+      "hallRewardBasisPoints": 10000,
+      "playerPromise": "The intended balanced Guildmaster experience."
+    },
+    {
+      "id": "Iron",
+      "displayName": "Iron",
+      "startingSupplyBonus": -1,
+      "checkModifier": 0,
+      "fatigueCostDelta": 1,
+      "urgencyCostDelta": 1,
+      "enemyUnionDelta": 1,
+      "guildRewardBasisPoints": 11500,
+      "hallRewardBasisPoints": 11500,
+      "playerPromise": "Higher injury and operational pressure without random permanent member loss."
+    },
+    {
+      "id": "Custom",
+      "displayName": "Custom",
+      "startingSupplyBonus": 0,
+      "checkModifier": 0,
+      "fatigueCostDelta": 0,
+      "urgencyCostDelta": 0,
+      "enemyUnionDelta": 0,
+      "guildRewardBasisPoints": 10000,
+      "hallRewardBasisPoints": 10000,
+      "playerPromise": "Uses standard opening defaults until explicit custom controls are supplied."
+    },
+    {
+      "id": "OverpoweredStart",
+      "displayName": "Overpowered Start",
+      "startingSupplyBonus": 5,
+      "checkModifier": 2,
+      "fatigueCostDelta": -1,
+      "urgencyCostDelta": -1,
+      "enemyUnionDelta": -1,
+      "guildRewardBasisPoints": 12500,
+      "hallRewardBasisPoints": 12500,
+      "playerPromise": "A generous power-fantasy opening that preserves the same deterministic rules."
+    }
+  ],
+  "tutorialSteps": [
+    {
+      "id": "GUIDE_OPEN_APPLICANTS",
+      "shortBody": "Commit the recurring Applicant Board.",
+      "whyItMatters": "Committed applicants persist and cannot reroll.",
+      "successCue": "Applicant Board committed"
+    },
+    {
+      "id": "GUIDE_SIGN_RECRUIT",
+      "shortBody": "Sign one applicant and inspect their permanent identity.",
+      "whyItMatters": "Recruitment is a central activity, not a disposable rarity roll.",
+      "successCue": "Recruit signed exactly once"
+    },
+    {
+      "id": "GUIDE_EQUIP_TEAM",
+      "shortBody": "Equip at least three recruits.",
+      "whyItMatters": "Equipment changes legal weapon Arts and Forecast behavior.",
+      "successCue": "Opening team equipped"
+    },
+    {
+      "id": "GUIDE_FORM_UNIONS",
+      "shortBody": "Create two legal Unions.",
+      "whyItMatters": "The game commands Unions, not individual character actions.",
+      "successCue": "Two Unions ready"
+    },
+    {
+      "id": "GUIDE_FIRST_BUILDING",
+      "shortBody": "Place the first city facility.",
+      "whyItMatters": "Mission and battle rewards visibly build the settlement.",
+      "successCue": "First facility complete"
+    },
+    {
+      "id": "GUIDE_STAFF_FACILITY",
+      "shortBody": "Assign one permanent member as staff.",
+      "whyItMatters": "Staffing creates opportunity without removing ownership or deployability.",
+      "successCue": "Facility staffed"
+    },
+    {
+      "id": "GUIDE_ACCEPT_CONTRACT",
+      "shortBody": "Choose one detailed opening contract.",
+      "whyItMatters": "Contracts carry civic, route, character, equipment, and city consequences.",
+      "successCue": "Contract committed"
+    },
+    {
+      "id": "GUIDE_START_EXPEDITION",
+      "shortBody": "Deploy to the deterministic board.",
+      "whyItMatters": "Preparation becomes route choice, risk, events, checks, and camps.",
+      "successCue": "Expedition started"
+    },
+    {
+      "id": "GUIDE_EXPLORE_BOARD",
+      "shortBody": "Visit at least three board nodes.",
+      "whyItMatters": "The board is real gameplay before and between battles.",
+      "successCue": "Route explored"
+    },
+    {
+      "id": "GUIDE_COMMIT_CHECK",
+      "shortBody": "Resolve one committed 2d6 check.",
+      "whyItMatters": "Character skills and assistance matter, while reload cannot reroll.",
+      "successCue": "Check resolved"
+    },
+    {
+      "id": "GUIDE_ENTER_BATTLE",
+      "shortBody": "Commit and enter the cinematic Union encounter.",
+      "whyItMatters": "The board defines conditions; the certified battle resolves combat.",
+      "successCue": "Battle entered"
+    },
+    {
+      "id": "GUIDE_CLAIM_REWARD",
+      "shortBody": "Claim the exact committed equipment reward.",
+      "whyItMatters": "Rewards are satisfying, deterministic, and never auto-equipped.",
+      "successCue": "Reward claimed once"
+    },
+    {
+      "id": "GUIDE_FINALIZE_OPERATION",
+      "shortBody": "Return to the board and finalize the operation.",
+      "whyItMatters": "All progression channels and consequences resolve together.",
+      "successCue": "Operation completed"
+    },
+    {
+      "id": "GUIDE_RELATIONSHIP_SCENE",
+      "shortBody": "View a free relationship scene.",
+      "whyItMatters": "Relationships grow from shared play and never cost a full day.",
+      "successCue": "Memory scene viewed"
+    },
+    {
+      "id": "GUIDE_SECOND_CITY_GROWTH",
+      "shortBody": "Place or upgrade a second facility and create synergy.",
+      "whyItMatters": "The city becomes a strategic build rather than a list of percentage upgrades.",
+      "successCue": "Opening city synergy active"
+    }
+  ],
+  "pacingTargets": [
+    {
+      "id": "HALL_ORIENTATION",
+      "earliestMinute": 0,
+      "targetMinute": 4,
+      "latestMinute": 8,
+      "evidence": "Player understands the living Hall, permanent members, and current priorities."
+    },
+    {
+      "id": "FIRST_SIGNING",
+      "earliestMinute": 4,
+      "targetMinute": 9,
+      "latestMinute": 15,
+      "evidence": "One applicant is inspected and signed without excessive tutorial interruption."
+    },
+    {
+      "id": "EQUIPMENT_AND_UNIONS",
+      "earliestMinute": 8,
+      "targetMinute": 16,
+      "latestMinute": 25,
+      "evidence": "Player equips recruits and forms two legal Unions."
+    },
+    {
+      "id": "FIRST_CITY_DECISION",
+      "earliestMinute": 10,
+      "targetMinute": 20,
+      "latestMinute": 30,
+      "evidence": "One facility is placed and its immediate effect is understood."
+    },
+    {
+      "id": "CONTRACT_ACCEPTED",
+      "earliestMinute": 15,
+      "targetMinute": 25,
+      "latestMinute": 35,
+      "evidence": "Player compares and commits one detailed contract."
+    },
+    {
+      "id": "EXPEDITION_MIDPOINT",
+      "earliestMinute": 25,
+      "targetMinute": 38,
+      "latestMinute": 55,
+      "evidence": "At least one route choice, event/check, and camp or resource decision occurred."
+    },
+    {
+      "id": "FIRST_BATTLE_COMPLETE",
+      "earliestMinute": 38,
+      "targetMinute": 55,
+      "latestMinute": 75,
+      "evidence": "Certified Union battle completes with readable weapon, Mystic, healing, and Guard behavior."
+    },
+    {
+      "id": "FULL_LOOP_RELAUNCH",
+      "earliestMinute": 55,
+      "targetMinute": 72,
+      "latestMinute": 95,
+      "evidence": "Reward, manual equip, relationship scene, city growth, save, close, and relaunch are proven."
+    }
+  ],
+  "scoreCategories": [
+    {
+      "id": "GUILD_HOME",
+      "displayName": "Living Hall clarity and character presence",
+      "acceptance": "Score 8.5/10 or higher with concrete owner evidence."
+    },
+    {
+      "id": "RECRUITMENT",
+      "displayName": "Applicant and dossier satisfaction",
+      "acceptance": "Score 8.5/10 or higher with concrete owner evidence."
+    },
+    {
+      "id": "EQUIPMENT_UNIONS",
+      "displayName": "Equipment and Union preparation clarity",
+      "acceptance": "Score 8.5/10 or higher with concrete owner evidence."
+    },
+    {
+      "id": "CITY_BUILDER",
+      "displayName": "Placement, staffing, adjacency, and visible growth",
+      "acceptance": "Score 8.5/10 or higher with concrete owner evidence."
+    },
+    {
+      "id": "CONTRACTS",
+      "displayName": "Contract identity and consequence clarity",
+      "acceptance": "Score 8.5/10 or higher with concrete owner evidence."
+    },
+    {
+      "id": "EXPEDITION",
+      "displayName": "Route, event, check, camp, and pressure quality",
+      "acceptance": "Score 8.5/10 or higher with concrete owner evidence."
+    },
+    {
+      "id": "BATTLE_BRIDGE",
+      "displayName": "Board-to-battle-to-board continuity",
+      "acceptance": "Score 8.5/10 or higher with concrete owner evidence."
+    },
+    {
+      "id": "BATTLE_QUALITY",
+      "displayName": "Certified Union battle professional quality",
+      "acceptance": "Score 8.5/10 or higher with concrete owner evidence."
+    },
+    {
+      "id": "RESULTS_REWARD",
+      "displayName": "Progression and equipment reward satisfaction",
+      "acceptance": "Score 8.5/10 or higher with concrete owner evidence."
+    },
+    {
+      "id": "RELATIONSHIPS",
+      "displayName": "Natural relationship growth without upkeep",
+      "acceptance": "Score 8.5/10 or higher with concrete owner evidence."
+    },
+    {
+      "id": "ACCESSIBILITY_PERFORMANCE",
+      "displayName": "Controls, accessibility, readability, and performance",
+      "acceptance": "Score 8.5/10 or higher with concrete owner evidence."
+    },
+    {
+      "id": "OVERALL",
+      "displayName": "Overall professional opening impression",
+      "acceptance": "Score 8.5/10 or higher with concrete owner evidence."
+    }
+  ],
+  "accessibilityChecks": [
+    {
+      "id": "TEXT_SCALE",
+      "displayName": "Text scaling",
+      "requirement": "85–145% text remains readable without clipping."
+    },
+    {
+      "id": "HIGH_CONTRAST",
+      "displayName": "High contrast",
+      "requirement": "Critical state, focus, and warnings remain distinct."
+    },
+    {
+      "id": "REDUCED_MOTION",
+      "displayName": "Reduced motion",
+      "requirement": "Action identity and consequence remain clear with shorter movement."
+    },
+    {
+      "id": "COLOR_REDUNDANCY",
+      "displayName": "Color redundancy",
+      "requirement": "No essential information relies on color alone."
+    },
+    {
+      "id": "TOUCH_TARGETS",
+      "displayName": "Touch targets",
+      "requirement": "Primary controls meet the established touch-size authority."
+    },
+    {
+      "id": "CONTROLLER_PARITY",
+      "displayName": "Controller parity",
+      "requirement": "Every required action is reachable without mouse or touch."
+    },
+    {
+      "id": "AUDIO_CAPTIONS",
+      "displayName": "Audio captions",
+      "requirement": "Critical cues have readable text or icon equivalents."
+    },
+    {
+      "id": "SAFE_AREAS",
+      "displayName": "Safe areas",
+      "requirement": "PC, 4:3, and iPhone-landscape-like layouts remain usable."
+    }
+  ],
+  "certification": {
+    "minimumAverageBasisPoints": 9000,
+    "minimumCategoryBasisPoints": 8500,
+    "maxSeverityOne": 0,
+    "maxSeverityTwo": 0,
+    "windowsSmokeRequired": true,
+    "ownerApprovalRequired": true
+  }
+}

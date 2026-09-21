@@ -1,0 +1,1205 @@
+{
+  "contentVersion": "PASS02_COMMANDS_0.7",
+  "commands": [
+    {
+      "id": "CMD_BALANCED",
+      "displayName": "Balanced Pressure",
+      "tacticalIntent": "BALANCED",
+      "phraseBank": [
+        "Press them without overcommitting!",
+        "Keep the line moving!"
+      ],
+      "dynamicSubstitutions": [
+        "{ALLY_NAME}",
+        "{ENEMY_ROLE}",
+        "{OBJECTIVE_NAME}"
+      ],
+      "eligibilityRequirements": [
+        "at least one legal member action"
+      ],
+      "battlefieldRequirements": {},
+      "weightingRules": [
+        "doctrine intent weight",
+        "urgency bonus when state matches",
+        "formation affinity",
+        "leader command bandwidth"
+      ],
+      "sharedApBudgetBehavior": "forecast total must be <= current Union AP",
+      "individualMpBudgetBehavior": "each member action must be <= that member current MP",
+      "predictedEffects": [
+        "BALANCED_PROGRESS"
+      ],
+      "riskTags": [
+        "CONTEXT_DEPENDENT"
+      ],
+      "targetingRules": "intent-specific legal target selection",
+      "memberActionSelectionRules": [
+        "weighted legal Art selection",
+        "member role compatibility",
+        "resource legality",
+        "meaningful-use preference"
+      ],
+      "fallbackBehavior": "replace illegal planned action with legal lower-cost family action; forecast state hash remains deterministic",
+      "learningOpportunityDisplay": "show likely eligible discoveries but never guarantee an early roll before execution",
+      "uiPreview": [
+        "phrase",
+        "shared AP",
+        "combined MP",
+        "per-member predicted action and MP",
+        "expected effect",
+        "risk",
+        "learning hint"
+      ]
+    },
+    {
+      "id": "CMD_ALL_OUT",
+      "displayName": "All-Out Assault",
+      "tacticalIntent": "OFFENSE",
+      "phraseBank": [
+        "Hit them with everything!",
+        "Finish this before they recover!"
+      ],
+      "dynamicSubstitutions": [
+        "{ALLY_NAME}",
+        "{ENEMY_ROLE}",
+        "{OBJECTIVE_NAME}"
+      ],
+      "eligibilityRequirements": [
+        "at least one legal member action"
+      ],
+      "battlefieldRequirements": {},
+      "weightingRules": [
+        "doctrine intent weight",
+        "urgency bonus when state matches",
+        "formation affinity",
+        "leader command bandwidth"
+      ],
+      "sharedApBudgetBehavior": "forecast total must be <= current Union AP",
+      "individualMpBudgetBehavior": "each member action must be <= that member current MP",
+      "predictedEffects": [
+        "OFFENSE_PROGRESS"
+      ],
+      "riskTags": [
+        "CONTEXT_DEPENDENT"
+      ],
+      "targetingRules": "intent-specific legal target selection",
+      "memberActionSelectionRules": [
+        "weighted legal Art selection",
+        "member role compatibility",
+        "resource legality",
+        "meaningful-use preference"
+      ],
+      "fallbackBehavior": "replace illegal planned action with legal lower-cost family action; forecast state hash remains deterministic",
+      "learningOpportunityDisplay": "show likely eligible discoveries but never guarantee an early roll before execution",
+      "uiPreview": [
+        "phrase",
+        "shared AP",
+        "combined MP",
+        "per-member predicted action and MP",
+        "expected effect",
+        "risk",
+        "learning hint"
+      ]
+    },
+    {
+      "id": "CMD_BREAK",
+      "displayName": "Formation Break",
+      "tacticalIntent": "BREAK",
+      "phraseBank": [
+        "Break through their center!",
+        "Crack the line holding them together!"
+      ],
+      "dynamicSubstitutions": [
+        "{ALLY_NAME}",
+        "{ENEMY_ROLE}",
+        "{OBJECTIVE_NAME}"
+      ],
+      "eligibilityRequirements": [
+        "at least one legal member action"
+      ],
+      "battlefieldRequirements": {},
+      "weightingRules": [
+        "doctrine intent weight",
+        "urgency bonus when state matches",
+        "formation affinity",
+        "leader command bandwidth"
+      ],
+      "sharedApBudgetBehavior": "forecast total must be <= current Union AP",
+      "individualMpBudgetBehavior": "each member action must be <= that member current MP",
+      "predictedEffects": [
+        "BREAK_PROGRESS"
+      ],
+      "riskTags": [
+        "CONTEXT_DEPENDENT"
+      ],
+      "targetingRules": "intent-specific legal target selection",
+      "memberActionSelectionRules": [
+        "weighted legal Art selection",
+        "member role compatibility",
+        "resource legality",
+        "meaningful-use preference"
+      ],
+      "fallbackBehavior": "replace illegal planned action with legal lower-cost family action; forecast state hash remains deterministic",
+      "learningOpportunityDisplay": "show likely eligible discoveries but never guarantee an early roll before execution",
+      "uiPreview": [
+        "phrase",
+        "shared AP",
+        "combined MP",
+        "per-member predicted action and MP",
+        "expected effect",
+        "risk",
+        "learning hint"
+      ]
+    },
+    {
+      "id": "CMD_RANGED",
+      "displayName": "Ranged Focus",
+      "tacticalIntent": "TACTICAL",
+      "phraseBank": [
+        "Keep them under fire!",
+        "Punish them from range!"
+      ],
+      "dynamicSubstitutions": [
+        "{ALLY_NAME}",
+        "{ENEMY_ROLE}",
+        "{OBJECTIVE_NAME}"
+      ],
+      "eligibilityRequirements": [
+        "at least one legal member action"
+      ],
+      "battlefieldRequirements": {},
+      "weightingRules": [
+        "doctrine intent weight",
+        "urgency bonus when state matches",
+        "formation affinity",
+        "leader command bandwidth"
+      ],
+      "sharedApBudgetBehavior": "forecast total must be <= current Union AP",
+      "individualMpBudgetBehavior": "each member action must be <= that member current MP",
+      "predictedEffects": [
+        "TACTICAL_PROGRESS"
+      ],
+      "riskTags": [
+        "CONTEXT_DEPENDENT"
+      ],
+      "targetingRules": "intent-specific legal target selection",
+      "memberActionSelectionRules": [
+        "weighted legal Art selection",
+        "member role compatibility",
+        "resource legality",
+        "meaningful-use preference"
+      ],
+      "fallbackBehavior": "replace illegal planned action with legal lower-cost family action; forecast state hash remains deterministic",
+      "learningOpportunityDisplay": "show likely eligible discoveries but never guarantee an early roll before execution",
+      "uiPreview": [
+        "phrase",
+        "shared AP",
+        "combined MP",
+        "per-member predicted action and MP",
+        "expected effect",
+        "risk",
+        "learning hint"
+      ]
+    },
+    {
+      "id": "CMD_MYSTIC",
+      "displayName": "Mystic Pressure",
+      "tacticalIntent": "MYSTIC",
+      "phraseBank": [
+        "Use Mystic Arts from range!",
+        "Open the arcane channels!"
+      ],
+      "dynamicSubstitutions": [
+        "{ALLY_NAME}",
+        "{ENEMY_ROLE}",
+        "{OBJECTIVE_NAME}"
+      ],
+      "eligibilityRequirements": [
+        "at least one legal member action"
+      ],
+      "battlefieldRequirements": {},
+      "weightingRules": [
+        "doctrine intent weight",
+        "urgency bonus when state matches",
+        "formation affinity",
+        "leader command bandwidth"
+      ],
+      "sharedApBudgetBehavior": "forecast total must be <= current Union AP",
+      "individualMpBudgetBehavior": "each member action must be <= that member current MP",
+      "predictedEffects": [
+        "MYSTIC_PROGRESS"
+      ],
+      "riskTags": [
+        "CONTEXT_DEPENDENT"
+      ],
+      "targetingRules": "intent-specific legal target selection",
+      "memberActionSelectionRules": [
+        "weighted legal Art selection",
+        "member role compatibility",
+        "resource legality",
+        "meaningful-use preference"
+      ],
+      "fallbackBehavior": "replace illegal planned action with legal lower-cost family action; forecast state hash remains deterministic",
+      "learningOpportunityDisplay": "show likely eligible discoveries but never guarantee an early roll before execution",
+      "uiPreview": [
+        "phrase",
+        "shared AP",
+        "combined MP",
+        "per-member predicted action and MP",
+        "expected effect",
+        "risk",
+        "learning hint"
+      ]
+    },
+    {
+      "id": "CMD_CONTROLLED_MAGIC",
+      "displayName": "Controlled Spell Use",
+      "tacticalIntent": "LOW_RESOURCE",
+      "phraseBank": [
+        "Use magic, but keep something in reserve!",
+        "Spend only the MP that matters!"
+      ],
+      "dynamicSubstitutions": [
+        "{ALLY_NAME}",
+        "{ENEMY_ROLE}",
+        "{OBJECTIVE_NAME}"
+      ],
+      "eligibilityRequirements": [
+        "at least one legal member action"
+      ],
+      "battlefieldRequirements": {},
+      "weightingRules": [
+        "doctrine intent weight",
+        "urgency bonus when state matches",
+        "formation affinity",
+        "leader command bandwidth"
+      ],
+      "sharedApBudgetBehavior": "forecast total must be <= current Union AP",
+      "individualMpBudgetBehavior": "each member action must be <= that member current MP",
+      "predictedEffects": [
+        "LOW_RESOURCE_PROGRESS"
+      ],
+      "riskTags": [
+        "CONTEXT_DEPENDENT"
+      ],
+      "targetingRules": "intent-specific legal target selection",
+      "memberActionSelectionRules": [
+        "weighted legal Art selection",
+        "member role compatibility",
+        "resource legality",
+        "meaningful-use preference"
+      ],
+      "fallbackBehavior": "replace illegal planned action with legal lower-cost family action; forecast state hash remains deterministic",
+      "learningOpportunityDisplay": "show likely eligible discoveries but never guarantee an early roll before execution",
+      "uiPreview": [
+        "phrase",
+        "shared AP",
+        "combined MP",
+        "per-member predicted action and MP",
+        "expected effect",
+        "risk",
+        "learning hint"
+      ]
+    },
+    {
+      "id": "CMD_HEAL",
+      "displayName": "Heal Wounded",
+      "tacticalIntent": "HEAL",
+      "phraseBank": [
+        "Keep everyone standing!",
+        "Stabilize the wounded!"
+      ],
+      "dynamicSubstitutions": [
+        "{ALLY_NAME}",
+        "{ENEMY_ROLE}",
+        "{OBJECTIVE_NAME}"
+      ],
+      "eligibilityRequirements": [
+        "at least one legal member action"
+      ],
+      "battlefieldRequirements": {},
+      "weightingRules": [
+        "doctrine intent weight",
+        "urgency bonus when state matches",
+        "formation affinity",
+        "leader command bandwidth"
+      ],
+      "sharedApBudgetBehavior": "forecast total must be <= current Union AP",
+      "individualMpBudgetBehavior": "each member action must be <= that member current MP",
+      "predictedEffects": [
+        "HEAL_PROGRESS"
+      ],
+      "riskTags": [
+        "CONTEXT_DEPENDENT"
+      ],
+      "targetingRules": "intent-specific legal target selection",
+      "memberActionSelectionRules": [
+        "weighted legal Art selection",
+        "member role compatibility",
+        "resource legality",
+        "meaningful-use preference"
+      ],
+      "fallbackBehavior": "replace illegal planned action with legal lower-cost family action; forecast state hash remains deterministic",
+      "learningOpportunityDisplay": "show likely eligible discoveries but never guarantee an early roll before execution",
+      "uiPreview": [
+        "phrase",
+        "shared AP",
+        "combined MP",
+        "per-member predicted action and MP",
+        "expected effect",
+        "risk",
+        "learning hint"
+      ]
+    },
+    {
+      "id": "CMD_EMERGENCY_HEAL",
+      "displayName": "Emergency Healing",
+      "tacticalIntent": "HEAL",
+      "phraseBank": [
+        "Forget offense—save them now!",
+        "Everything into keeping them alive!"
+      ],
+      "dynamicSubstitutions": [
+        "{ALLY_NAME}",
+        "{ENEMY_ROLE}",
+        "{OBJECTIVE_NAME}"
+      ],
+      "eligibilityRequirements": [
+        "at least one legal member action"
+      ],
+      "battlefieldRequirements": {},
+      "weightingRules": [
+        "doctrine intent weight",
+        "urgency bonus when state matches",
+        "formation affinity",
+        "leader command bandwidth"
+      ],
+      "sharedApBudgetBehavior": "forecast total must be <= current Union AP",
+      "individualMpBudgetBehavior": "each member action must be <= that member current MP",
+      "predictedEffects": [
+        "HEAL_PROGRESS"
+      ],
+      "riskTags": [
+        "CONTEXT_DEPENDENT"
+      ],
+      "targetingRules": "intent-specific legal target selection",
+      "memberActionSelectionRules": [
+        "weighted legal Art selection",
+        "member role compatibility",
+        "resource legality",
+        "meaningful-use preference"
+      ],
+      "fallbackBehavior": "replace illegal planned action with legal lower-cost family action; forecast state hash remains deterministic",
+      "learningOpportunityDisplay": "show likely eligible discoveries but never guarantee an early roll before execution",
+      "uiPreview": [
+        "phrase",
+        "shared AP",
+        "combined MP",
+        "per-member predicted action and MP",
+        "expected effect",
+        "risk",
+        "learning hint"
+      ]
+    },
+    {
+      "id": "CMD_CLEANSE",
+      "displayName": "Cleanse",
+      "tacticalIntent": "HEAL",
+      "phraseBank": [
+        "Clear those conditions!",
+        "Get the poison and curses off us!"
+      ],
+      "dynamicSubstitutions": [
+        "{ALLY_NAME}",
+        "{ENEMY_ROLE}",
+        "{OBJECTIVE_NAME}"
+      ],
+      "eligibilityRequirements": [
+        "at least one legal member action"
+      ],
+      "battlefieldRequirements": {},
+      "weightingRules": [
+        "doctrine intent weight",
+        "urgency bonus when state matches",
+        "formation affinity",
+        "leader command bandwidth"
+      ],
+      "sharedApBudgetBehavior": "forecast total must be <= current Union AP",
+      "individualMpBudgetBehavior": "each member action must be <= that member current MP",
+      "predictedEffects": [
+        "HEAL_PROGRESS"
+      ],
+      "riskTags": [
+        "CONTEXT_DEPENDENT"
+      ],
+      "targetingRules": "intent-specific legal target selection",
+      "memberActionSelectionRules": [
+        "weighted legal Art selection",
+        "member role compatibility",
+        "resource legality",
+        "meaningful-use preference"
+      ],
+      "fallbackBehavior": "replace illegal planned action with legal lower-cost family action; forecast state hash remains deterministic",
+      "learningOpportunityDisplay": "show likely eligible discoveries but never guarantee an early roll before execution",
+      "uiPreview": [
+        "phrase",
+        "shared AP",
+        "combined MP",
+        "per-member predicted action and MP",
+        "expected effect",
+        "risk",
+        "learning hint"
+      ]
+    },
+    {
+      "id": "CMD_SUPPORT",
+      "displayName": "Support and Morale",
+      "tacticalIntent": "SUPPORT",
+      "phraseBank": [
+        "Set the others up!",
+        "Keep everyone fighting!"
+      ],
+      "dynamicSubstitutions": [
+        "{ALLY_NAME}",
+        "{ENEMY_ROLE}",
+        "{OBJECTIVE_NAME}"
+      ],
+      "eligibilityRequirements": [
+        "at least one legal member action"
+      ],
+      "battlefieldRequirements": {},
+      "weightingRules": [
+        "doctrine intent weight",
+        "urgency bonus when state matches",
+        "formation affinity",
+        "leader command bandwidth"
+      ],
+      "sharedApBudgetBehavior": "forecast total must be <= current Union AP",
+      "individualMpBudgetBehavior": "each member action must be <= that member current MP",
+      "predictedEffects": [
+        "SUPPORT_PROGRESS"
+      ],
+      "riskTags": [
+        "CONTEXT_DEPENDENT"
+      ],
+      "targetingRules": "intent-specific legal target selection",
+      "memberActionSelectionRules": [
+        "weighted legal Art selection",
+        "member role compatibility",
+        "resource legality",
+        "meaningful-use preference"
+      ],
+      "fallbackBehavior": "replace illegal planned action with legal lower-cost family action; forecast state hash remains deterministic",
+      "learningOpportunityDisplay": "show likely eligible discoveries but never guarantee an early roll before execution",
+      "uiPreview": [
+        "phrase",
+        "shared AP",
+        "combined MP",
+        "per-member predicted action and MP",
+        "expected effect",
+        "risk",
+        "learning hint"
+      ]
+    },
+    {
+      "id": "CMD_GUARD",
+      "displayName": "Hold Line",
+      "tacticalIntent": "GUARD",
+      "phraseBank": [
+        "Hold formation!",
+        "Take the impact together!"
+      ],
+      "dynamicSubstitutions": [
+        "{ALLY_NAME}",
+        "{ENEMY_ROLE}",
+        "{OBJECTIVE_NAME}"
+      ],
+      "eligibilityRequirements": [
+        "at least one legal member action"
+      ],
+      "battlefieldRequirements": {},
+      "weightingRules": [
+        "doctrine intent weight",
+        "urgency bonus when state matches",
+        "formation affinity",
+        "leader command bandwidth"
+      ],
+      "sharedApBudgetBehavior": "forecast total must be <= current Union AP",
+      "individualMpBudgetBehavior": "each member action must be <= that member current MP",
+      "predictedEffects": [
+        "GUARD_PROGRESS"
+      ],
+      "riskTags": [
+        "CONTEXT_DEPENDENT"
+      ],
+      "targetingRules": "intent-specific legal target selection",
+      "memberActionSelectionRules": [
+        "weighted legal Art selection",
+        "member role compatibility",
+        "resource legality",
+        "meaningful-use preference"
+      ],
+      "fallbackBehavior": "replace illegal planned action with legal lower-cost family action; forecast state hash remains deterministic",
+      "learningOpportunityDisplay": "show likely eligible discoveries but never guarantee an early roll before execution",
+      "uiPreview": [
+        "phrase",
+        "shared AP",
+        "combined MP",
+        "per-member predicted action and MP",
+        "expected effect",
+        "risk",
+        "learning hint"
+      ]
+    },
+    {
+      "id": "CMD_PROTECT_UNION",
+      "displayName": "Protect Another Union",
+      "tacticalIntent": "RESCUE",
+      "phraseBank": [
+        "Cover the other Union!",
+        "Do not let their line collapse!"
+      ],
+      "dynamicSubstitutions": [
+        "{ALLY_NAME}",
+        "{ENEMY_ROLE}",
+        "{OBJECTIVE_NAME}"
+      ],
+      "eligibilityRequirements": [
+        "at least one legal member action"
+      ],
+      "battlefieldRequirements": {},
+      "weightingRules": [
+        "doctrine intent weight",
+        "urgency bonus when state matches",
+        "formation affinity",
+        "leader command bandwidth"
+      ],
+      "sharedApBudgetBehavior": "forecast total must be <= current Union AP",
+      "individualMpBudgetBehavior": "each member action must be <= that member current MP",
+      "predictedEffects": [
+        "RESCUE_PROGRESS"
+      ],
+      "riskTags": [
+        "CONTEXT_DEPENDENT"
+      ],
+      "targetingRules": "intent-specific legal target selection",
+      "memberActionSelectionRules": [
+        "weighted legal Art selection",
+        "member role compatibility",
+        "resource legality",
+        "meaningful-use preference"
+      ],
+      "fallbackBehavior": "replace illegal planned action with legal lower-cost family action; forecast state hash remains deterministic",
+      "learningOpportunityDisplay": "show likely eligible discoveries but never guarantee an early roll before execution",
+      "uiPreview": [
+        "phrase",
+        "shared AP",
+        "combined MP",
+        "per-member predicted action and MP",
+        "expected effect",
+        "risk",
+        "learning hint"
+      ]
+    },
+    {
+      "id": "CMD_RESCUE",
+      "displayName": "Rescue",
+      "tacticalIntent": "RESCUE",
+      "phraseBank": [
+        "Get them out!",
+        "Bring everyone home!"
+      ],
+      "dynamicSubstitutions": [
+        "{ALLY_NAME}",
+        "{ENEMY_ROLE}",
+        "{OBJECTIVE_NAME}"
+      ],
+      "eligibilityRequirements": [
+        "at least one legal member action"
+      ],
+      "battlefieldRequirements": {},
+      "weightingRules": [
+        "doctrine intent weight",
+        "urgency bonus when state matches",
+        "formation affinity",
+        "leader command bandwidth"
+      ],
+      "sharedApBudgetBehavior": "forecast total must be <= current Union AP",
+      "individualMpBudgetBehavior": "each member action must be <= that member current MP",
+      "predictedEffects": [
+        "RESCUE_PROGRESS"
+      ],
+      "riskTags": [
+        "CONTEXT_DEPENDENT"
+      ],
+      "targetingRules": "intent-specific legal target selection",
+      "memberActionSelectionRules": [
+        "weighted legal Art selection",
+        "member role compatibility",
+        "resource legality",
+        "meaningful-use preference"
+      ],
+      "fallbackBehavior": "replace illegal planned action with legal lower-cost family action; forecast state hash remains deterministic",
+      "learningOpportunityDisplay": "show likely eligible discoveries but never guarantee an early roll before execution",
+      "uiPreview": [
+        "phrase",
+        "shared AP",
+        "combined MP",
+        "per-member predicted action and MP",
+        "expected effect",
+        "risk",
+        "learning hint"
+      ]
+    },
+    {
+      "id": "CMD_OBJECTIVE",
+      "displayName": "Objective Play",
+      "tacticalIntent": "OBJECTIVE",
+      "phraseBank": [
+        "Win the actual mission!",
+        "Secure the objective!"
+      ],
+      "dynamicSubstitutions": [
+        "{ALLY_NAME}",
+        "{ENEMY_ROLE}",
+        "{OBJECTIVE_NAME}"
+      ],
+      "eligibilityRequirements": [
+        "at least one legal member action"
+      ],
+      "battlefieldRequirements": {},
+      "weightingRules": [
+        "doctrine intent weight",
+        "urgency bonus when state matches",
+        "formation affinity",
+        "leader command bandwidth"
+      ],
+      "sharedApBudgetBehavior": "forecast total must be <= current Union AP",
+      "individualMpBudgetBehavior": "each member action must be <= that member current MP",
+      "predictedEffects": [
+        "OBJECTIVE_PROGRESS"
+      ],
+      "riskTags": [
+        "CONTEXT_DEPENDENT"
+      ],
+      "targetingRules": "intent-specific legal target selection",
+      "memberActionSelectionRules": [
+        "weighted legal Art selection",
+        "member role compatibility",
+        "resource legality",
+        "meaningful-use preference"
+      ],
+      "fallbackBehavior": "replace illegal planned action with legal lower-cost family action; forecast state hash remains deterministic",
+      "learningOpportunityDisplay": "show likely eligible discoveries but never guarantee an early roll before execution",
+      "uiPreview": [
+        "phrase",
+        "shared AP",
+        "combined MP",
+        "per-member predicted action and MP",
+        "expected effect",
+        "risk",
+        "learning hint"
+      ]
+    },
+    {
+      "id": "CMD_FLANK",
+      "displayName": "Flank",
+      "tacticalIntent": "TACTICAL",
+      "phraseBank": [
+        "Get around their side!",
+        "Turn their line!"
+      ],
+      "dynamicSubstitutions": [
+        "{ALLY_NAME}",
+        "{ENEMY_ROLE}",
+        "{OBJECTIVE_NAME}"
+      ],
+      "eligibilityRequirements": [
+        "at least one legal member action"
+      ],
+      "battlefieldRequirements": {},
+      "weightingRules": [
+        "doctrine intent weight",
+        "urgency bonus when state matches",
+        "formation affinity",
+        "leader command bandwidth"
+      ],
+      "sharedApBudgetBehavior": "forecast total must be <= current Union AP",
+      "individualMpBudgetBehavior": "each member action must be <= that member current MP",
+      "predictedEffects": [
+        "TACTICAL_PROGRESS"
+      ],
+      "riskTags": [
+        "CONTEXT_DEPENDENT"
+      ],
+      "targetingRules": "intent-specific legal target selection",
+      "memberActionSelectionRules": [
+        "weighted legal Art selection",
+        "member role compatibility",
+        "resource legality",
+        "meaningful-use preference"
+      ],
+      "fallbackBehavior": "replace illegal planned action with legal lower-cost family action; forecast state hash remains deterministic",
+      "learningOpportunityDisplay": "show likely eligible discoveries but never guarantee an early roll before execution",
+      "uiPreview": [
+        "phrase",
+        "shared AP",
+        "combined MP",
+        "per-member predicted action and MP",
+        "expected effect",
+        "risk",
+        "learning hint"
+      ]
+    },
+    {
+      "id": "CMD_REARLINE",
+      "displayName": "Rear-Line Targeting",
+      "tacticalIntent": "AMBUSH",
+      "phraseBank": [
+        "Take out their healers!",
+        "Hit what they are hiding!"
+      ],
+      "dynamicSubstitutions": [
+        "{ALLY_NAME}",
+        "{ENEMY_ROLE}",
+        "{OBJECTIVE_NAME}"
+      ],
+      "eligibilityRequirements": [
+        "at least one legal member action"
+      ],
+      "battlefieldRequirements": {},
+      "weightingRules": [
+        "doctrine intent weight",
+        "urgency bonus when state matches",
+        "formation affinity",
+        "leader command bandwidth"
+      ],
+      "sharedApBudgetBehavior": "forecast total must be <= current Union AP",
+      "individualMpBudgetBehavior": "each member action must be <= that member current MP",
+      "predictedEffects": [
+        "AMBUSH_PROGRESS"
+      ],
+      "riskTags": [
+        "CONTEXT_DEPENDENT"
+      ],
+      "targetingRules": "intent-specific legal target selection",
+      "memberActionSelectionRules": [
+        "weighted legal Art selection",
+        "member role compatibility",
+        "resource legality",
+        "meaningful-use preference"
+      ],
+      "fallbackBehavior": "replace illegal planned action with legal lower-cost family action; forecast state hash remains deterministic",
+      "learningOpportunityDisplay": "show likely eligible discoveries but never guarantee an early roll before execution",
+      "uiPreview": [
+        "phrase",
+        "shared AP",
+        "combined MP",
+        "per-member predicted action and MP",
+        "expected effect",
+        "risk",
+        "learning hint"
+      ]
+    },
+    {
+      "id": "CMD_RETREAT",
+      "displayName": "Retreat",
+      "tacticalIntent": "RETREAT",
+      "phraseBank": [
+        "Break contact and live!",
+        "Fall back now!"
+      ],
+      "dynamicSubstitutions": [
+        "{ALLY_NAME}",
+        "{ENEMY_ROLE}",
+        "{OBJECTIVE_NAME}"
+      ],
+      "eligibilityRequirements": [
+        "at least one legal member action"
+      ],
+      "battlefieldRequirements": {},
+      "weightingRules": [
+        "doctrine intent weight",
+        "urgency bonus when state matches",
+        "formation affinity",
+        "leader command bandwidth"
+      ],
+      "sharedApBudgetBehavior": "forecast total must be <= current Union AP",
+      "individualMpBudgetBehavior": "each member action must be <= that member current MP",
+      "predictedEffects": [
+        "RETREAT_PROGRESS"
+      ],
+      "riskTags": [
+        "CONTEXT_DEPENDENT"
+      ],
+      "targetingRules": "intent-specific legal target selection",
+      "memberActionSelectionRules": [
+        "weighted legal Art selection",
+        "member role compatibility",
+        "resource legality",
+        "meaningful-use preference"
+      ],
+      "fallbackBehavior": "replace illegal planned action with legal lower-cost family action; forecast state hash remains deterministic",
+      "learningOpportunityDisplay": "show likely eligible discoveries but never guarantee an early roll before execution",
+      "uiPreview": [
+        "phrase",
+        "shared AP",
+        "combined MP",
+        "per-member predicted action and MP",
+        "expected effect",
+        "risk",
+        "learning hint"
+      ]
+    },
+    {
+      "id": "CMD_WITHDRAW",
+      "displayName": "Controlled Withdrawal",
+      "tacticalIntent": "RETREAT",
+      "phraseBank": [
+        "Back out in order!",
+        "Cover each other and withdraw!"
+      ],
+      "dynamicSubstitutions": [
+        "{ALLY_NAME}",
+        "{ENEMY_ROLE}",
+        "{OBJECTIVE_NAME}"
+      ],
+      "eligibilityRequirements": [
+        "at least one legal member action"
+      ],
+      "battlefieldRequirements": {},
+      "weightingRules": [
+        "doctrine intent weight",
+        "urgency bonus when state matches",
+        "formation affinity",
+        "leader command bandwidth"
+      ],
+      "sharedApBudgetBehavior": "forecast total must be <= current Union AP",
+      "individualMpBudgetBehavior": "each member action must be <= that member current MP",
+      "predictedEffects": [
+        "RETREAT_PROGRESS"
+      ],
+      "riskTags": [
+        "CONTEXT_DEPENDENT"
+      ],
+      "targetingRules": "intent-specific legal target selection",
+      "memberActionSelectionRules": [
+        "weighted legal Art selection",
+        "member role compatibility",
+        "resource legality",
+        "meaningful-use preference"
+      ],
+      "fallbackBehavior": "replace illegal planned action with legal lower-cost family action; forecast state hash remains deterministic",
+      "learningOpportunityDisplay": "show likely eligible discoveries but never guarantee an early roll before execution",
+      "uiPreview": [
+        "phrase",
+        "shared AP",
+        "combined MP",
+        "per-member predicted action and MP",
+        "expected effect",
+        "risk",
+        "learning hint"
+      ]
+    },
+    {
+      "id": "CMD_CONSERVE",
+      "displayName": "Resource Conservation",
+      "tacticalIntent": "LOW_RESOURCE",
+      "phraseBank": [
+        "Save your strength!",
+        "Use only what we can afford!"
+      ],
+      "dynamicSubstitutions": [
+        "{ALLY_NAME}",
+        "{ENEMY_ROLE}",
+        "{OBJECTIVE_NAME}"
+      ],
+      "eligibilityRequirements": [
+        "at least one legal member action"
+      ],
+      "battlefieldRequirements": {},
+      "weightingRules": [
+        "doctrine intent weight",
+        "urgency bonus when state matches",
+        "formation affinity",
+        "leader command bandwidth"
+      ],
+      "sharedApBudgetBehavior": "forecast total must be <= current Union AP",
+      "individualMpBudgetBehavior": "each member action must be <= that member current MP",
+      "predictedEffects": [
+        "LOW_RESOURCE_PROGRESS"
+      ],
+      "riskTags": [
+        "CONTEXT_DEPENDENT"
+      ],
+      "targetingRules": "intent-specific legal target selection",
+      "memberActionSelectionRules": [
+        "weighted legal Art selection",
+        "member role compatibility",
+        "resource legality",
+        "meaningful-use preference"
+      ],
+      "fallbackBehavior": "replace illegal planned action with legal lower-cost family action; forecast state hash remains deterministic",
+      "learningOpportunityDisplay": "show likely eligible discoveries but never guarantee an early roll before execution",
+      "uiPreview": [
+        "phrase",
+        "shared AP",
+        "combined MP",
+        "per-member predicted action and MP",
+        "expected effect",
+        "risk",
+        "learning hint"
+      ]
+    },
+    {
+      "id": "CMD_AP_RECOVERY",
+      "displayName": "AP Recovery",
+      "tacticalIntent": "LOW_RESOURCE",
+      "phraseBank": [
+        "Reset the tempo!",
+        "Build AP and stay safe!"
+      ],
+      "dynamicSubstitutions": [
+        "{ALLY_NAME}",
+        "{ENEMY_ROLE}",
+        "{OBJECTIVE_NAME}"
+      ],
+      "eligibilityRequirements": [
+        "at least one legal member action"
+      ],
+      "battlefieldRequirements": {},
+      "weightingRules": [
+        "doctrine intent weight",
+        "urgency bonus when state matches",
+        "formation affinity",
+        "leader command bandwidth"
+      ],
+      "sharedApBudgetBehavior": "forecast total must be <= current Union AP",
+      "individualMpBudgetBehavior": "each member action must be <= that member current MP",
+      "predictedEffects": [
+        "LOW_RESOURCE_PROGRESS"
+      ],
+      "riskTags": [
+        "CONTEXT_DEPENDENT"
+      ],
+      "targetingRules": "intent-specific legal target selection",
+      "memberActionSelectionRules": [
+        "weighted legal Art selection",
+        "member role compatibility",
+        "resource legality",
+        "meaningful-use preference"
+      ],
+      "fallbackBehavior": "replace illegal planned action with legal lower-cost family action; forecast state hash remains deterministic",
+      "learningOpportunityDisplay": "show likely eligible discoveries but never guarantee an early roll before execution",
+      "uiPreview": [
+        "phrase",
+        "shared AP",
+        "combined MP",
+        "per-member predicted action and MP",
+        "expected effect",
+        "risk",
+        "learning hint"
+      ]
+    },
+    {
+      "id": "CMD_MP_CONSERVE",
+      "displayName": "MP Conservation",
+      "tacticalIntent": "LOW_RESOURCE",
+      "phraseBank": [
+        "No expensive casting!",
+        "Keep our casters fresh!"
+      ],
+      "dynamicSubstitutions": [
+        "{ALLY_NAME}",
+        "{ENEMY_ROLE}",
+        "{OBJECTIVE_NAME}"
+      ],
+      "eligibilityRequirements": [
+        "at least one legal member action"
+      ],
+      "battlefieldRequirements": {},
+      "weightingRules": [
+        "doctrine intent weight",
+        "urgency bonus when state matches",
+        "formation affinity",
+        "leader command bandwidth"
+      ],
+      "sharedApBudgetBehavior": "forecast total must be <= current Union AP",
+      "individualMpBudgetBehavior": "each member action must be <= that member current MP",
+      "predictedEffects": [
+        "LOW_RESOURCE_PROGRESS"
+      ],
+      "riskTags": [
+        "CONTEXT_DEPENDENT"
+      ],
+      "targetingRules": "intent-specific legal target selection",
+      "memberActionSelectionRules": [
+        "weighted legal Art selection",
+        "member role compatibility",
+        "resource legality",
+        "meaningful-use preference"
+      ],
+      "fallbackBehavior": "replace illegal planned action with legal lower-cost family action; forecast state hash remains deterministic",
+      "learningOpportunityDisplay": "show likely eligible discoveries but never guarantee an early roll before execution",
+      "uiPreview": [
+        "phrase",
+        "shared AP",
+        "combined MP",
+        "per-member predicted action and MP",
+        "expected effect",
+        "risk",
+        "learning hint"
+      ]
+    },
+    {
+      "id": "CMD_BOSS_SURVIVE",
+      "displayName": "Boss Telegraph Survival",
+      "tacticalIntent": "BOSS",
+      "phraseBank": [
+        "Survive what is coming!",
+        "Brace for the big one!"
+      ],
+      "dynamicSubstitutions": [
+        "{ALLY_NAME}",
+        "{ENEMY_ROLE}",
+        "{OBJECTIVE_NAME}"
+      ],
+      "eligibilityRequirements": [
+        "at least one legal member action"
+      ],
+      "battlefieldRequirements": {},
+      "weightingRules": [
+        "doctrine intent weight",
+        "urgency bonus when state matches",
+        "formation affinity",
+        "leader command bandwidth"
+      ],
+      "sharedApBudgetBehavior": "forecast total must be <= current Union AP",
+      "individualMpBudgetBehavior": "each member action must be <= that member current MP",
+      "predictedEffects": [
+        "BOSS_PROGRESS"
+      ],
+      "riskTags": [
+        "CONTEXT_DEPENDENT"
+      ],
+      "targetingRules": "intent-specific legal target selection",
+      "memberActionSelectionRules": [
+        "weighted legal Art selection",
+        "member role compatibility",
+        "resource legality",
+        "meaningful-use preference"
+      ],
+      "fallbackBehavior": "replace illegal planned action with legal lower-cost family action; forecast state hash remains deterministic",
+      "learningOpportunityDisplay": "show likely eligible discoveries but never guarantee an early roll before execution",
+      "uiPreview": [
+        "phrase",
+        "shared AP",
+        "combined MP",
+        "per-member predicted action and MP",
+        "expected effect",
+        "risk",
+        "learning hint"
+      ]
+    },
+    {
+      "id": "CMD_LINK_PREP",
+      "displayName": "Link Art Preparation",
+      "tacticalIntent": "SUPPORT",
+      "phraseBank": [
+        "Set them up for the finishing Art!",
+        "Build the Link now!"
+      ],
+      "dynamicSubstitutions": [
+        "{ALLY_NAME}",
+        "{ENEMY_ROLE}",
+        "{OBJECTIVE_NAME}"
+      ],
+      "eligibilityRequirements": [
+        "at least one legal member action"
+      ],
+      "battlefieldRequirements": {},
+      "weightingRules": [
+        "doctrine intent weight",
+        "urgency bonus when state matches",
+        "formation affinity",
+        "leader command bandwidth"
+      ],
+      "sharedApBudgetBehavior": "forecast total must be <= current Union AP",
+      "individualMpBudgetBehavior": "each member action must be <= that member current MP",
+      "predictedEffects": [
+        "SUPPORT_PROGRESS"
+      ],
+      "riskTags": [
+        "CONTEXT_DEPENDENT"
+      ],
+      "targetingRules": "intent-specific legal target selection",
+      "memberActionSelectionRules": [
+        "weighted legal Art selection",
+        "member role compatibility",
+        "resource legality",
+        "meaningful-use preference"
+      ],
+      "fallbackBehavior": "replace illegal planned action with legal lower-cost family action; forecast state hash remains deterministic",
+      "learningOpportunityDisplay": "show likely eligible discoveries but never guarantee an early roll before execution",
+      "uiPreview": [
+        "phrase",
+        "shared AP",
+        "combined MP",
+        "per-member predicted action and MP",
+        "expected effect",
+        "risk",
+        "learning hint"
+      ]
+    },
+    {
+      "id": "CMD_MULTI_UNION",
+      "displayName": "Multi-Union Coordination",
+      "tacticalIntent": "OBJECTIVE",
+      "phraseBank": [
+        "Hold until the other Union arrives!",
+        "Move together—same target!"
+      ],
+      "dynamicSubstitutions": [
+        "{ALLY_NAME}",
+        "{ENEMY_ROLE}",
+        "{OBJECTIVE_NAME}"
+      ],
+      "eligibilityRequirements": [
+        "at least one legal member action"
+      ],
+      "battlefieldRequirements": {},
+      "weightingRules": [
+        "doctrine intent weight",
+        "urgency bonus when state matches",
+        "formation affinity",
+        "leader command bandwidth"
+      ],
+      "sharedApBudgetBehavior": "forecast total must be <= current Union AP",
+      "individualMpBudgetBehavior": "each member action must be <= that member current MP",
+      "predictedEffects": [
+        "OBJECTIVE_PROGRESS"
+      ],
+      "riskTags": [
+        "CONTEXT_DEPENDENT"
+      ],
+      "targetingRules": "intent-specific legal target selection",
+      "memberActionSelectionRules": [
+        "weighted legal Art selection",
+        "member role compatibility",
+        "resource legality",
+        "meaningful-use preference"
+      ],
+      "fallbackBehavior": "replace illegal planned action with legal lower-cost family action; forecast state hash remains deterministic",
+      "learningOpportunityDisplay": "show likely eligible discoveries but never guarantee an early roll before execution",
+      "uiPreview": [
+        "phrase",
+        "shared AP",
+        "combined MP",
+        "per-member predicted action and MP",
+        "expected effect",
+        "risk",
+        "learning hint"
+      ]
+    }
+  ]
+}

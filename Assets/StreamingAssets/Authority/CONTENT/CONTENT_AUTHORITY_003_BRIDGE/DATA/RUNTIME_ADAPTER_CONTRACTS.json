@@ -1,0 +1,69 @@
+{
+  "contentVersion": "GOW_CONTENT_AUTHORITY_BRIDGE_003",
+  "contracts": [
+    {
+      "id": "ADAPTER_CA003_AUTHORITY_INDEX",
+      "responsibility": "Read and index Bridge 003 JSON by stable ID without mutating source records.",
+      "mustRead": [
+        "BRIDGE_MANIFEST.json",
+        "AUTHORITY_PRECEDENCE_LEDGER.json",
+        "CONTENT_READ_SETS.json"
+      ],
+      "mustNotDo": [
+        "Load all 300 recruit bodies for a battle",
+        "Copy StreamingAssets JSON into Resources",
+        "Use reflection to bypass assembly boundaries"
+      ]
+    },
+    {
+      "id": "ADAPTER_CA003_CHARACTER_PROGRESSION",
+      "responsibility": "Resolve one character manifest, tree state, behavior counters, and class-route eligibility.",
+      "mustRead": [
+        "CHARACTER_PROGRESSION_MANIFESTS_300.json"
+      ],
+      "mustNotDo": [
+        "Grant mastery from level alone",
+        "Auto-select an exact player-controlled Art",
+        "Normalize Kael"
+      ]
+    },
+    {
+      "id": "ADAPTER_CA003_WEAPON_ART_BINDING",
+      "responsibility": "Filter discoverable and usable nodes from fixed family, equipped weapon tier, learned state, AP/MP, and context.",
+      "mustRead": [
+        "WEAPON_ART_BINDINGS_264.json"
+      ],
+      "mustNotDo": [
+        "Auto-learn nodes on equip",
+        "Erase mastery on unequip",
+        "Allow cross-family animation without explicit authority"
+      ]
+    },
+    {
+      "id": "ADAPTER_CA003_REWARD_COMMIT",
+      "responsibility": "Commit character XP, Guild XP, Hall XP, equipment, and materials once from the authoritative reward seed.",
+      "mustRead": [
+        "SAVE_DATA_CONTRACT.json",
+        "CONTENT_AUTHORITY_002/DATA/LOOT_TABLES_120.json"
+      ],
+      "mustNotDo": [
+        "Reroll on results reopen",
+        "Auto-equip without approval",
+        "Take locked equipment"
+      ]
+    },
+    {
+      "id": "ADAPTER_CA003_WORLD_SHARD",
+      "responsibility": "Load one 10-character world shard for recruitment/content implementation.",
+      "mustRead": [
+        "WORLD_PACK_SHARD_INDEX.json",
+        "SHARDS/WORLD_PACKS/<selected-world-pack>.json"
+      ],
+      "mustNotDo": [
+        "Load all 30 shards for one bounded change",
+        "Include protected canon in normal applicant generation"
+      ]
+    }
+  ],
+  "implementationLaw": "Adapters translate between frozen authority and runtime models. They do not become a second source of truth."
+}

@@ -1,0 +1,44 @@
+SECOND DIMENSION - ALPHA TEST 2.0
+Update 165: Campaign cards, Unions, illustrated Loops, and specialist merchants
+
+The upgraded card adventure begins in Quest 1. Quests 1, 2 and 3 now offer
+explicit D20 blessings/hexes and Fortune Wheel events. Choose a card, roll or
+spin, then collect. Saved results survive changing loops and restarting.
+Authored story skill checks still use their original two six-sided dice.
+Completed quests and collected rewards are preserved; no progress is reset.
+
+Quest 3 uses illustrated locations instead of the retired spiderweb node map.
+The new Waystation screen has illustrated destinations, saved-progress labels,
+and direct shortcuts including BUILD UNIONS.
+
+ADD UNION is visible in the Union planner. Owned reserve heroes can fill new
+teams. New teams join upcoming opening-quest battles. A later adventure whose
+deployment is already sealed keeps that deployment until the next adventure.
+An already committed battle is preserved exactly.
+
+MERCHANT SPECIALTIES
+Mera: provisions, luck tonics, armor and shields.
+Dorrik: weapons and armor commissions.
+Tavi: accessories that fit either accessory slot.
+Sella: authored heroes and duplicate growth for ascension or arts.
+Orven: magical weapons and relics.
+Higher Merchant Row levels retain improved equipment quality and expanded
+stock; hero offers progress from B to A to S rank.
+
+TRAVEL POUCH
+Purchase a Wayglass Luck Tonic from Mera, then activate it in TRAVEL POUCH.
+One active tonic improves the next unsealed blessing: roll two D20s and keep
+the higher. The charge is consumed when that blessing is chosen. Existing
+sealed or rolled results remain unchanged. The natural-20 chance is 9.75%
+instead of 5%. Wheel and curse outcomes are unchanged.
+
+SAVES AND SOURCE
+This update preserves each copy's own Game/SaveData folder. The personal
+playable keeps its existing folder and shortcut for continuity; its internal
+version is now update165. The alpha package includes versioned C# source
+restoration instructions and a new source patch. See Developer Source.
+
+Please report the quest, loop, action, expected result and actual result when
+submitting feedback. Never delete SaveData to install a later update.
+
+Windows branding: update165 includes the Second Dimension SD portal icon in the game executable. The icon source and repeatable post-build tool are in Developer Source/Windows Branding.

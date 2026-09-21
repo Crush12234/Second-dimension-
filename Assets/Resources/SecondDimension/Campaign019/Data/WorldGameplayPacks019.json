@@ -1,0 +1,620 @@
+{
+  "worlds": [
+    {
+      "worldId": "WORLD_GOBLIN_001",
+      "name": "Goblin World",
+      "fortress": "Goblin Fortress",
+      "founderRelationship": "Kiri Aetherheart",
+      "theme": "Memory, accelerated history, industry, abandonment, and myth.",
+      "centralQuestion": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "timeLaw": "1 Second Dimension day equals 1 Goblin World month.",
+      "canonStatus": "CANON_LOCKED_FIRST_RACE_WORLD",
+      "boardNodeFamilies": [
+        "arrival",
+        "civic_district",
+        "family_or_school",
+        "market_or_meal",
+        "faction_meeting",
+        "hazard",
+        "archive_or_ruin",
+        "camp",
+        "diplomacy",
+        "resource",
+        "standard_encounter",
+        "optional_elite",
+        "fortress_objective",
+        "gate",
+        "extraction"
+      ],
+      "hazards": [
+        "accelerated time drift",
+        "rust-contaminated machinery",
+        "calendar riots",
+        "unstable industrial bridges",
+        "myth-driven faction violence"
+      ],
+      "enemyUnionArchetypes": [
+        "goblin_vanguard",
+        "goblin_ranged",
+        "goblin_mystic",
+        "goblin_guard",
+        "goblin_support"
+      ],
+      "battleIdentity": [
+        "protect the workers while breaking the command machinery",
+        "hold the bridge until civilians cross",
+        "stop the war engine without destroying the archive beneath it",
+        "break the siege line while preserving surrender routes"
+      ],
+      "equipmentThemes": [
+        "goblin_weapon_line",
+        "goblin_armor_line",
+        "goblin_tool_or_relic"
+      ],
+      "cityUnlockIdentity": "gate engineering, advanced workshops, clockwork logistics, and goblin civic specialists",
+      "eventIds": [
+        "EVENT018_GOBLIN_01",
+        "EVENT018_GOBLIN_02",
+        "EVENT018_GOBLIN_03",
+        "EVENT018_GOBLIN_04",
+        "EVENT018_GOBLIN_05",
+        "EVENT018_GOBLIN_06",
+        "EVENT018_GOBLIN_07",
+        "EVENT018_GOBLIN_08"
+      ],
+      "diplomacyIncidentIds": [
+        "DIP018_GOBLIN_01",
+        "DIP018_GOBLIN_02",
+        "DIP018_GOBLIN_03",
+        "DIP018_GOBLIN_04"
+      ],
+      "bossIds": [
+        "BOSS018_GOBLIN_01",
+        "BOSS018_GOBLIN_02",
+        "BOSS018_GOBLIN_03",
+        "BOSS018_GOBLIN_04"
+      ],
+      "ambientDirection": "Restless, inventive, wounded, argumentative, brilliant, spiritually divided.",
+      "musicDirection": "Original layered field music expressing memory, accelerated history, industry, abandonment, and myth. without copying an existing franchise.",
+      "noConquestOnly": true,
+      "ordinaryPeopleRequired": [
+        "children",
+        "elders",
+        "workers",
+        "artists",
+        "healers",
+        "families",
+        "reformers",
+        "opponents"
+      ]
+    },
+    {
+      "worldId": "WORLD_ORC_002",
+      "name": "Orc World",
+      "fortress": "Tuskgate",
+      "founderRelationship": "Grom Ironblood",
+      "theme": "Strength, honor, childhood, protection, and the inheritance of war.",
+      "centralQuestion": "Can a race built on war redefine strength?",
+      "timeLaw": "Unconfirmed; no invented time distortion may be treated as canon.",
+      "canonStatus": "CANON_WORLD_FOUNDATION_GAME_CAMPAIGN_CANDIDATE",
+      "boardNodeFamilies": [
+        "arrival",
+        "civic_district",
+        "family_or_school",
+        "market_or_meal",
+        "faction_meeting",
+        "hazard",
+        "archive_or_ruin",
+        "camp",
+        "diplomacy",
+        "resource",
+        "standard_encounter",
+        "optional_elite",
+        "fortress_objective",
+        "gate",
+        "extraction"
+      ],
+      "hazards": [
+        "blood-oath escalation",
+        "arena conscription",
+        "winter supply collapse",
+        "clan challenge law",
+        "weaponized childhood"
+      ],
+      "enemyUnionArchetypes": [
+        "orc_vanguard",
+        "orc_ranged",
+        "orc_mystic",
+        "orc_guard",
+        "orc_support"
+      ],
+      "battleIdentity": [
+        "protect the sanctuary while defeating the tax-warband",
+        "hold the shield line without accepting the arena’s execution rule",
+        "break the conscription cages and keep the young fighters alive",
+        "win the fortress trial through restraint as well as force"
+      ],
+      "equipmentThemes": [
+        "orc_weapon_line",
+        "orc_armor_line",
+        "orc_tool_or_relic"
+      ],
+      "cityUnlockIdentity": "shield training, heavy armor craft, protected youth programs, and disciplined reserve formations",
+      "eventIds": [
+        "EVENT018_ORC_01",
+        "EVENT018_ORC_02",
+        "EVENT018_ORC_03",
+        "EVENT018_ORC_04",
+        "EVENT018_ORC_05",
+        "EVENT018_ORC_06",
+        "EVENT018_ORC_07",
+        "EVENT018_ORC_08"
+      ],
+      "diplomacyIncidentIds": [
+        "DIP018_ORC_01",
+        "DIP018_ORC_02",
+        "DIP018_ORC_03",
+        "DIP018_ORC_04"
+      ],
+      "bossIds": [
+        "BOSS018_ORC_01",
+        "BOSS018_ORC_02",
+        "BOSS018_ORC_03",
+        "BOSS018_ORC_04"
+      ],
+      "ambientDirection": "Proud, austere, loud in ritual, gentle in private, ashamed of inherited cruelty.",
+      "musicDirection": "Original layered field music expressing strength, honor, childhood, protection, and the inheritance of war. without copying an existing franchise.",
+      "noConquestOnly": true,
+      "ordinaryPeopleRequired": [
+        "children",
+        "elders",
+        "workers",
+        "artists",
+        "healers",
+        "families",
+        "reformers",
+        "opponents"
+      ]
+    },
+    {
+      "worldId": "WORLD_BEASTKIN_003",
+      "name": "Beastkin Territories",
+      "fortress": "Golden Cage Bastion",
+      "founderRelationship": "Aira Moonfang",
+      "theme": "Freedom versus civilization, nature versus walls, instinct versus law.",
+      "centralQuestion": "Does civilization protect nature or destroy it?",
+      "timeLaw": "Unconfirmed; seasonal anomalies remain mystery rather than settled law.",
+      "canonStatus": "CANON_WORLD_FOUNDATION_GAME_CAMPAIGN_CANDIDATE",
+      "boardNodeFamilies": [
+        "arrival",
+        "civic_district",
+        "family_or_school",
+        "market_or_meal",
+        "faction_meeting",
+        "hazard",
+        "archive_or_ruin",
+        "camp",
+        "diplomacy",
+        "resource",
+        "standard_encounter",
+        "optional_elite",
+        "fortress_objective",
+        "gate",
+        "extraction"
+      ],
+      "hazards": [
+        "forced collars",
+        "wildfire migration",
+        "territorial misunderstandings",
+        "predator-hunt nobles",
+        "seasonal route collapse"
+      ],
+      "enemyUnionArchetypes": [
+        "beastkin_vanguard",
+        "beastkin_ranged",
+        "beastkin_mystic",
+        "beastkin_guard",
+        "beastkin_support"
+      ],
+      "battleIdentity": [
+        "free the captured packs without turning the rescue into a massacre",
+        "hold the migration road against the Golden Cage hunters",
+        "protect the open court while rival packs decide whether to unite",
+        "break the collar machinery and preserve the evidence"
+      ],
+      "equipmentThemes": [
+        "beastkin_weapon_line",
+        "beastkin_armor_line",
+        "beastkin_tool_or_relic"
+      ],
+      "cityUnlockIdentity": "ranger training, migration roads, animal-safe agriculture, scouting, and rapid response doctrine",
+      "eventIds": [
+        "EVENT018_BEASTKIN_01",
+        "EVENT018_BEASTKIN_02",
+        "EVENT018_BEASTKIN_03",
+        "EVENT018_BEASTKIN_04",
+        "EVENT018_BEASTKIN_05",
+        "EVENT018_BEASTKIN_06",
+        "EVENT018_BEASTKIN_07",
+        "EVENT018_BEASTKIN_08"
+      ],
+      "diplomacyIncidentIds": [
+        "DIP018_BEASTKIN_01",
+        "DIP018_BEASTKIN_02",
+        "DIP018_BEASTKIN_03",
+        "DIP018_BEASTKIN_04"
+      ],
+      "bossIds": [
+        "BOSS018_BEASTKIN_01",
+        "BOSS018_BEASTKIN_02",
+        "BOSS018_BEASTKIN_03",
+        "BOSS018_BEASTKIN_04"
+      ],
+      "ambientDirection": "Lush, dangerous, beautiful, territorial, ceremonial, emotionally direct.",
+      "musicDirection": "Original layered field music expressing freedom versus civilization, nature versus walls, instinct versus law. without copying an existing franchise.",
+      "noConquestOnly": true,
+      "ordinaryPeopleRequired": [
+        "children",
+        "elders",
+        "workers",
+        "artists",
+        "healers",
+        "families",
+        "reformers",
+        "opponents"
+      ]
+    },
+    {
+      "worldId": "WORLD_DEMON_004",
+      "name": "Demon Realms",
+      "fortress": "Contractum Red Seal",
+      "founderRelationship": "Seraphina Nightveil",
+      "theme": "Fear, beauty, forbidden knowledge, law, and trust.",
+      "centralQuestion": "Can those feared as monsters ever be trusted?",
+      "timeLaw": "Contract and school calendars exist; deeper temporal irregularities remain unconfirmed.",
+      "canonStatus": "CANON_WORLD_FOUNDATION_GAME_CAMPAIGN_CANDIDATE",
+      "boardNodeFamilies": [
+        "arrival",
+        "civic_district",
+        "family_or_school",
+        "market_or_meal",
+        "faction_meeting",
+        "hazard",
+        "archive_or_ruin",
+        "camp",
+        "diplomacy",
+        "resource",
+        "standard_encounter",
+        "optional_elite",
+        "fortress_objective",
+        "gate",
+        "extraction"
+      ],
+      "hazards": [
+        "living contracts",
+        "name ownership",
+        "archive purges",
+        "dreamglass coercion",
+        "legalized fear"
+      ],
+      "enemyUnionArchetypes": [
+        "demon_vanguard",
+        "demon_ranged",
+        "demon_mystic",
+        "demon_guard",
+        "demon_support"
+      ],
+      "battleIdentity": [
+        "break the binding seals while keeping the witnesses alive",
+        "defend the archive evacuation from contract enforcers",
+        "defeat the Red Judge under rules that expose rather than execute",
+        "hold the court until coerced signatures can be voided"
+      ],
+      "equipmentThemes": [
+        "demon_weapon_line",
+        "demon_armor_line",
+        "demon_tool_or_relic"
+      ],
+      "cityUnlockIdentity": "contract law, consent-based healing, Mystic research, archive protection, and anti-coercion wards",
+      "eventIds": [
+        "EVENT018_DEMON_01",
+        "EVENT018_DEMON_02",
+        "EVENT018_DEMON_03",
+        "EVENT018_DEMON_04",
+        "EVENT018_DEMON_05",
+        "EVENT018_DEMON_06",
+        "EVENT018_DEMON_07",
+        "EVENT018_DEMON_08"
+      ],
+      "diplomacyIncidentIds": [
+        "DIP018_DEMON_01",
+        "DIP018_DEMON_02",
+        "DIP018_DEMON_03",
+        "DIP018_DEMON_04"
+      ],
+      "bossIds": [
+        "BOSS018_DEMON_01",
+        "BOSS018_DEMON_02",
+        "BOSS018_DEMON_03",
+        "BOSS018_DEMON_04"
+      ],
+      "ambientDirection": "Elegant, dangerous, theatrical, scholarly, romantic, cruel in old law, hungry for redemption.",
+      "musicDirection": "Original layered field music expressing fear, beauty, forbidden knowledge, law, and trust. without copying an existing franchise.",
+      "noConquestOnly": true,
+      "ordinaryPeopleRequired": [
+        "children",
+        "elders",
+        "workers",
+        "artists",
+        "healers",
+        "families",
+        "reformers",
+        "opponents"
+      ]
+    },
+    {
+      "worldId": "WORLD_DARK_ELF_005",
+      "name": "Dark Elf Territories",
+      "fortress": "Silverquiet Lock",
+      "founderRelationship": "Lyssara Duskwood",
+      "theme": "Truth versus stability, memory versus safety, shadow versus silence.",
+      "centralQuestion": "Is a painful truth better than a peaceful lie?",
+      "timeLaw": "Archive eras are named for truths sealed, revealed, or destructive; no universal ratio is established.",
+      "canonStatus": "CANON_WORLD_FOUNDATION_GAME_CAMPAIGN_CANDIDATE",
+      "boardNodeFamilies": [
+        "arrival",
+        "civic_district",
+        "family_or_school",
+        "market_or_meal",
+        "faction_meeting",
+        "hazard",
+        "archive_or_ruin",
+        "camp",
+        "diplomacy",
+        "resource",
+        "standard_encounter",
+        "optional_elite",
+        "fortress_objective",
+        "gate",
+        "extraction"
+      ],
+      "hazards": [
+        "information blackouts",
+        "weaponized truth",
+        "vanishing records",
+        "assassination by kindness",
+        "famine hidden by stable statistics"
+      ],
+      "enemyUnionArchetypes": [
+        "darkelf_vanguard",
+        "darkelf_ranged",
+        "darkelf_mystic",
+        "darkelf_guard",
+        "darkelf_support"
+      ],
+      "battleIdentity": [
+        "defend the witnesses while the archive opens",
+        "break the lockdown without burning the evidence",
+        "stop the Kindly Assassins and preserve a path to surrender",
+        "hold the truth chamber while rival courts decide what may be released"
+      ],
+      "equipmentThemes": [
+        "darkelf_weapon_line",
+        "darkelf_armor_line",
+        "darkelf_tool_or_relic"
+      ],
+      "cityUnlockIdentity": "intelligence networks, archive security, stealth doctrine, truth verification, and anti-rumor systems",
+      "eventIds": [
+        "EVENT018_DARKELF_01",
+        "EVENT018_DARKELF_02",
+        "EVENT018_DARKELF_03",
+        "EVENT018_DARKELF_04",
+        "EVENT018_DARKELF_05",
+        "EVENT018_DARKELF_06",
+        "EVENT018_DARKELF_07",
+        "EVENT018_DARKELF_08"
+      ],
+      "diplomacyIncidentIds": [
+        "DIP018_DARKELF_01",
+        "DIP018_DARKELF_02",
+        "DIP018_DARKELF_03",
+        "DIP018_DARKELF_04"
+      ],
+      "bossIds": [
+        "BOSS018_DARKELF_01",
+        "BOSS018_DARKELF_02",
+        "BOSS018_DARKELF_03",
+        "BOSS018_DARKELF_04"
+      ],
+      "ambientDirection": "Quiet, elegant, suspicious, poetic, wounded, precise, morally dangerous.",
+      "musicDirection": "Original layered field music expressing truth versus stability, memory versus safety, shadow versus silence. without copying an existing franchise.",
+      "noConquestOnly": true,
+      "ordinaryPeopleRequired": [
+        "children",
+        "elders",
+        "workers",
+        "artists",
+        "healers",
+        "families",
+        "reformers",
+        "opponents"
+      ]
+    },
+    {
+      "worldId": "WORLD_BUNNY_006",
+      "name": "Bunny Trade Nations",
+      "fortress": "Warrenhall Debt Keep",
+      "founderRelationship": "Luna Silverstep",
+      "theme": "Commerce, connection, debt, logistics, and the moral weight of price.",
+      "centralQuestion": "Can everything have a price?",
+      "timeLaw": "Trade clocks vary by contract route and delivery window; no single universal ratio.",
+      "canonStatus": "CANON_WORLD_FOUNDATION_GAME_CAMPAIGN_CANDIDATE",
+      "boardNodeFamilies": [
+        "arrival",
+        "civic_district",
+        "family_or_school",
+        "market_or_meal",
+        "faction_meeting",
+        "hazard",
+        "archive_or_ruin",
+        "camp",
+        "diplomacy",
+        "resource",
+        "standard_encounter",
+        "optional_elite",
+        "fortress_objective",
+        "gate",
+        "extraction"
+      ],
+      "hazards": [
+        "price fever",
+        "debt seizure",
+        "granary blockade",
+        "contract-route sabotage",
+        "medical supply speculation"
+      ],
+      "enemyUnionArchetypes": [
+        "bunny_vanguard",
+        "bunny_ranged",
+        "bunny_mystic",
+        "bunny_guard",
+        "bunny_support"
+      ],
+      "battleIdentity": [
+        "open the granary without destroying the food stores",
+        "defend the relief convoy while exposing the false invoices",
+        "break the blockade and preserve neutral trade routes",
+        "hold the market square until the public ledger is secured"
+      ],
+      "equipmentThemes": [
+        "bunny_weapon_line",
+        "bunny_armor_line",
+        "bunny_tool_or_relic"
+      ],
+      "cityUnlockIdentity": "trade logistics, market intelligence, supply conversion, road networks, and fair-contract systems",
+      "eventIds": [
+        "EVENT018_BUNNY_01",
+        "EVENT018_BUNNY_02",
+        "EVENT018_BUNNY_03",
+        "EVENT018_BUNNY_04",
+        "EVENT018_BUNNY_05",
+        "EVENT018_BUNNY_06",
+        "EVENT018_BUNNY_07",
+        "EVENT018_BUNNY_08"
+      ],
+      "diplomacyIncidentIds": [
+        "DIP018_BUNNY_01",
+        "DIP018_BUNNY_02",
+        "DIP018_BUNNY_03",
+        "DIP018_BUNNY_04"
+      ],
+      "bossIds": [
+        "BOSS018_BUNNY_01",
+        "BOSS018_BUNNY_02",
+        "BOSS018_BUNNY_03",
+        "BOSS018_BUNNY_04"
+      ],
+      "ambientDirection": "Bright, fast-talking, charming, wealthy, anxious, practical, playful, sharp.",
+      "musicDirection": "Original layered field music expressing commerce, connection, debt, logistics, and the moral weight of price. without copying an existing franchise.",
+      "noConquestOnly": true,
+      "ordinaryPeopleRequired": [
+        "children",
+        "elders",
+        "workers",
+        "artists",
+        "healers",
+        "families",
+        "reformers",
+        "opponents"
+      ]
+    },
+    {
+      "worldId": "WORLD_DOG_007",
+      "name": "Dog Tribe Frontiers",
+      "fortress": "Oathpost Prime",
+      "founderRelationship": "Rika Stormpaw",
+      "theme": "Duty, loyalty, borders, oaths, and moral fracture.",
+      "centralQuestion": "What happens when loyalty and morality disagree?",
+      "timeLaw": "Patrol cycles, lost companions, and oath renewals shape calendars; no universal ratio.",
+      "canonStatus": "CANON_WORLD_FOUNDATION_GAME_CAMPAIGN_CANDIDATE",
+      "boardNodeFamilies": [
+        "arrival",
+        "civic_district",
+        "family_or_school",
+        "market_or_meal",
+        "faction_meeting",
+        "hazard",
+        "archive_or_ruin",
+        "camp",
+        "diplomacy",
+        "resource",
+        "standard_encounter",
+        "optional_elite",
+        "fortress_objective",
+        "gate",
+        "extraction"
+      ],
+      "hazards": [
+        "false scent evidence",
+        "unlawful orders",
+        "pack loyalty pressure",
+        "border school attacks",
+        "oath manipulation"
+      ],
+      "enemyUnionArchetypes": [
+        "dog_vanguard",
+        "dog_ranged",
+        "dog_mystic",
+        "dog_guard",
+        "dog_support"
+      ],
+      "battleIdentity": [
+        "hold the border without punishing civilians for a commander’s order",
+        "break the mutiny while preserving honorable surrender",
+        "rescue the school and expose the false scent trail",
+        "defend the oathpost under rules of engagement the player must uphold"
+      ],
+      "equipmentThemes": [
+        "dog_weapon_line",
+        "dog_armor_line",
+        "dog_tool_or_relic"
+      ],
+      "cityUnlockIdentity": "border patrols, search-and-rescue, command ethics, rapid response, and disciplined retreat doctrine",
+      "eventIds": [
+        "EVENT018_DOG_01",
+        "EVENT018_DOG_02",
+        "EVENT018_DOG_03",
+        "EVENT018_DOG_04",
+        "EVENT018_DOG_05",
+        "EVENT018_DOG_06",
+        "EVENT018_DOG_07",
+        "EVENT018_DOG_08"
+      ],
+      "diplomacyIncidentIds": [
+        "DIP018_DOG_01",
+        "DIP018_DOG_02",
+        "DIP018_DOG_03",
+        "DIP018_DOG_04"
+      ],
+      "bossIds": [
+        "BOSS018_DOG_01",
+        "BOSS018_DOG_02",
+        "BOSS018_DOG_03",
+        "BOSS018_DOG_04"
+      ],
+      "ambientDirection": "Warm, direct, loyal, frontier-practical, ceremonial, protective, quietly haunted.",
+      "musicDirection": "Original layered field music expressing duty, loyalty, borders, oaths, and moral fracture. without copying an existing franchise.",
+      "noConquestOnly": true,
+      "ordinaryPeopleRequired": [
+        "children",
+        "elders",
+        "workers",
+        "artists",
+        "healers",
+        "families",
+        "reformers",
+        "opponents"
+      ]
+    }
+  ]
+}

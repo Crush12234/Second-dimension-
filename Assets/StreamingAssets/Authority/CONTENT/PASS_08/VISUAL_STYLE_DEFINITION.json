@@ -1,0 +1,45 @@
+{
+  "contentVersion": "GOW_PASS08_0.13",
+  "id": "VISUAL_STYLE_MAIN",
+  "name": "Illustrated System-Fantasy Guild",
+  "principles": [
+    "premium anime-fantasy illustration",
+    "physical board-game materiality",
+    "System overlays feel integrated, never programmer UI",
+    "characters readable before statistics",
+    "distinct silhouettes",
+    "low visual noise during decision points"
+  ],
+  "materials": [
+    "aged vellum",
+    "dark iron",
+    "etched glass",
+    "brushed brass",
+    "gate crystal",
+    "inked tactical parchment"
+  ],
+  "colorPolicy": {
+    "rarityColorForbidden": true,
+    "statusRequiresIconAndShape": true,
+    "highContrastMode": true,
+    "colorBlindIndependent": true
+  },
+  "typographyCategories": [
+    "DISPLAY_SERIF_FANTASY",
+    "UI_SANS_READABLE",
+    "SYSTEM_MONO_ACCENT"
+  ],
+  "uiShapeLanguage": [
+    "cut-corner System panes",
+    "brass-edged physical cards",
+    "wax/seal motifs for commitments",
+    "thin luminous gate-line separators"
+  ],
+  "forbidden": [
+    "neon mobile-gacha rarity frames",
+    "tiny dense spreadsheets",
+    "generic blue sci-fi HUD",
+    "white programmer debug panels",
+    "all characters sharing same face/body silhouette"
+  ]
+}

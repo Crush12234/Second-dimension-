@@ -1,0 +1,1206 @@
+{
+  "contentVersion": "GOW_CONTENT_AUTHORITY_002",
+  "facilityHooks": [
+    {
+      "treeId": "TREE_CA002_WPN_SWORD",
+      "primaryFacilityId": "FACILITY_TRAINING_HALL",
+      "supportingFacilityIds": [
+        "FACILITY_GUILD_FORGE",
+        "FACILITY_QUARTERMASTER"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_WPN_GREAT_WEAPON",
+      "primaryFacilityId": "FACILITY_TRAINING_HALL",
+      "supportingFacilityIds": [
+        "FACILITY_GUILD_FORGE",
+        "FACILITY_QUARTERMASTER"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_WPN_AXE",
+      "primaryFacilityId": "FACILITY_TRAINING_HALL",
+      "supportingFacilityIds": [
+        "FACILITY_GUILD_FORGE",
+        "FACILITY_QUARTERMASTER"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_WPN_SPEAR_POLEARM",
+      "primaryFacilityId": "FACILITY_TRAINING_HALL",
+      "supportingFacilityIds": [
+        "FACILITY_GUILD_FORGE",
+        "FACILITY_QUARTERMASTER"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_WPN_BOW",
+      "primaryFacilityId": "FACILITY_TRAINING_HALL",
+      "supportingFacilityIds": [
+        "FACILITY_GUILD_FORGE",
+        "FACILITY_QUARTERMASTER"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_WPN_DAGGER",
+      "primaryFacilityId": "FACILITY_TRAINING_HALL",
+      "supportingFacilityIds": [
+        "FACILITY_GUILD_FORGE",
+        "FACILITY_QUARTERMASTER"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_WPN_SHIELD",
+      "primaryFacilityId": "FACILITY_TRAINING_HALL",
+      "supportingFacilityIds": [
+        "FACILITY_GUILD_FORGE",
+        "FACILITY_QUARTERMASTER"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_WPN_GAUNTLET",
+      "primaryFacilityId": "FACILITY_TRAINING_HALL",
+      "supportingFacilityIds": [
+        "FACILITY_GUILD_FORGE",
+        "FACILITY_QUARTERMASTER"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_WPN_STAFF",
+      "primaryFacilityId": "FACILITY_TRAINING_HALL",
+      "supportingFacilityIds": [
+        "FACILITY_GUILD_FORGE",
+        "FACILITY_QUARTERMASTER"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_WPN_FOCUS",
+      "primaryFacilityId": "FACILITY_TRAINING_HALL",
+      "supportingFacilityIds": [
+        "FACILITY_GUILD_FORGE",
+        "FACILITY_QUARTERMASTER"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_WPN_ENGINEERING",
+      "primaryFacilityId": "FACILITY_TRAINING_HALL",
+      "supportingFacilityIds": [
+        "FACILITY_GUILD_FORGE",
+        "FACILITY_QUARTERMASTER"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_WPN_HYBRID_RELIC",
+      "primaryFacilityId": "FACILITY_TRAINING_HALL",
+      "supportingFacilityIds": [
+        "FACILITY_GUILD_FORGE",
+        "FACILITY_QUARTERMASTER"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_MYS_FLAME",
+      "primaryFacilityId": "FACILITY_LIBRARY",
+      "supportingFacilityIds": [
+        "FACILITY_RESEARCH_ROOM",
+        "FACILITY_SYSTEM_ARCHIVE"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_MYS_FROST",
+      "primaryFacilityId": "FACILITY_LIBRARY",
+      "supportingFacilityIds": [
+        "FACILITY_RESEARCH_ROOM",
+        "FACILITY_SYSTEM_ARCHIVE"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_MYS_STORM",
+      "primaryFacilityId": "FACILITY_LIBRARY",
+      "supportingFacilityIds": [
+        "FACILITY_RESEARCH_ROOM",
+        "FACILITY_SYSTEM_ARCHIVE"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_MYS_EARTH",
+      "primaryFacilityId": "FACILITY_LIBRARY",
+      "supportingFacilityIds": [
+        "FACILITY_RESEARCH_ROOM",
+        "FACILITY_SYSTEM_ARCHIVE"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_MYS_AETHER",
+      "primaryFacilityId": "FACILITY_LIBRARY",
+      "supportingFacilityIds": [
+        "FACILITY_RESEARCH_ROOM",
+        "FACILITY_SYSTEM_ARCHIVE"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_MYS_SHADOW",
+      "primaryFacilityId": "FACILITY_LIBRARY",
+      "supportingFacilityIds": [
+        "FACILITY_RESEARCH_ROOM",
+        "FACILITY_SYSTEM_ARCHIVE"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_MYS_RESTORATION",
+      "primaryFacilityId": "FACILITY_INFIRMARY",
+      "supportingFacilityIds": [
+        "FACILITY_LIBRARY",
+        "FACILITY_GARDEN"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_MYS_WARDING",
+      "primaryFacilityId": "FACILITY_LIBRARY",
+      "supportingFacilityIds": [
+        "FACILITY_RESEARCH_ROOM",
+        "FACILITY_SYSTEM_ARCHIVE"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_ROLE_GUARDIAN",
+      "primaryFacilityId": "FACILITY_TRAINING_HALL",
+      "supportingFacilityIds": [
+        "FACILITY_STRATEGY_ROOM",
+        "FACILITY_TROPHY_CHRONICLE_HALL"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_ROLE_BREAKER",
+      "primaryFacilityId": "FACILITY_TRAINING_HALL",
+      "supportingFacilityIds": [
+        "FACILITY_STRATEGY_ROOM",
+        "FACILITY_TROPHY_CHRONICLE_HALL"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_ROLE_DUELIST",
+      "primaryFacilityId": "FACILITY_TRAINING_HALL",
+      "supportingFacilityIds": [
+        "FACILITY_STRATEGY_ROOM",
+        "FACILITY_TROPHY_CHRONICLE_HALL"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_ROLE_SCOUT",
+      "primaryFacilityId": "FACILITY_TRAINING_HALL",
+      "supportingFacilityIds": [
+        "FACILITY_STRATEGY_ROOM",
+        "FACILITY_TROPHY_CHRONICLE_HALL"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_ROLE_SABOTEUR",
+      "primaryFacilityId": "FACILITY_TRAINING_HALL",
+      "supportingFacilityIds": [
+        "FACILITY_STRATEGY_ROOM",
+        "FACILITY_TROPHY_CHRONICLE_HALL"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_ROLE_FIELD_MEDIC",
+      "primaryFacilityId": "FACILITY_INFIRMARY",
+      "supportingFacilityIds": [
+        "FACILITY_EMERGENCY_SHELTER",
+        "FACILITY_GARDEN"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_ROLE_COMMANDER",
+      "primaryFacilityId": "FACILITY_UNION_COMMAND_TABLE",
+      "supportingFacilityIds": [
+        "FACILITY_STRATEGY_ROOM",
+        "FACILITY_TRAINING_HALL"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_ROLE_FORMATION",
+      "primaryFacilityId": "FACILITY_UNION_COMMAND_TABLE",
+      "supportingFacilityIds": [
+        "FACILITY_STRATEGY_ROOM",
+        "FACILITY_TRAINING_HALL"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_ROLE_PROVOCATION",
+      "primaryFacilityId": "FACILITY_TRAINING_HALL",
+      "supportingFacilityIds": [
+        "FACILITY_STRATEGY_ROOM",
+        "FACILITY_TROPHY_CHRONICLE_HALL"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    },
+    {
+      "treeId": "TREE_CA002_ROLE_RESONANCE",
+      "primaryFacilityId": "FACILITY_TRAINING_HALL",
+      "supportingFacilityIds": [
+        "FACILITY_STRATEGY_ROOM",
+        "FACILITY_TROPHY_CHRONICLE_HALL"
+      ],
+      "effectsByFacilityLevel": [
+        {
+          "level": 0,
+          "effect": "No bonus; meaningful-use progression remains fully available."
+        },
+        {
+          "level": 1,
+          "effect": "Show clearer discovery progress and recommended meaningful-use conditions."
+        },
+        {
+          "level": 2,
+          "effect": "Increase eligible training-event frequency; no passive Art mastery."
+        },
+        {
+          "level": 3,
+          "effect": "Enable mentorship for one discovered prerequisite path."
+        },
+        {
+          "level": 4,
+          "effect": "Improve recovery, material efficiency, or forecast practice for this tree."
+        },
+        {
+          "level": 5,
+          "effect": "Allow advanced-class trials connected to this tree."
+        },
+        {
+          "level": 6,
+          "effect": "Unlock First Alliance mastery challenges and Godly blueprint research; never grants the final Art without use."
+        }
+      ],
+      "cityXpInteraction": "Facility construction spends Guild Treasury XP and materials. Character XP and Art mastery are never consumed as city currency.",
+      "antiPayToWin": "No real-money recruitment, skill discovery, or equipment evolution."
+    }
+  ],
+  "facilityAuthority": "PASS_05/FACILITY_DEFINITIONS.json"
+}

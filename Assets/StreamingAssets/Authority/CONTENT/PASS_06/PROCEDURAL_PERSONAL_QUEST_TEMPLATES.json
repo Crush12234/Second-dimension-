@@ -1,0 +1,4221 @@
+{
+  "contentVersion": "GOW_PASS06_0.11",
+  "templateCount": 60,
+  "templates": [
+    {
+      "id": "PROC_QUEST_CONFRONT_FEAR_A",
+      "displayName": "Confronting Fear — A",
+      "category": "CONFRONT_FEAR",
+      "anchorField": "fearId",
+      "requiredTags": [
+        "CONFRONT_FEAR"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_CONFRONT_FEAR_A_HOOK",
+          "type": "HOOK",
+          "description": "A situation recreates the recruit’s fear without forcing a single brave response. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "fearId"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_CONFRONT_FEAR_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_CONFRONT_FEAR_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_CONFRONT_FEAR_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_CONFRONT_FEAR_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_CONFRONT_FEAR_B",
+      "displayName": "Confronting Fear — B",
+      "category": "CONFRONT_FEAR",
+      "anchorField": "fearId",
+      "requiredTags": [
+        "CONFRONT_FEAR"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_CONFRONT_FEAR_B_HOOK",
+          "type": "HOOK",
+          "description": "A situation recreates the recruit’s fear without forcing a single brave response. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "fearId"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_CONFRONT_FEAR_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_CONFRONT_FEAR_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_CONFRONT_FEAR_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_CONFRONT_FEAR_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_PROVE_LEADERSHIP_A",
+      "displayName": "Proving Leadership — A",
+      "category": "PROVE_LEADERSHIP",
+      "anchorField": "leadership",
+      "requiredTags": [
+        "PROVE_LEADERSHIP"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_PROVE_LEADERSHIP_A_HOOK",
+          "type": "HOOK",
+          "description": "A recruit wants command but must show they can protect dissent. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "leadership"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_PROVE_LEADERSHIP_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_PROVE_LEADERSHIP_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_PROVE_LEADERSHIP_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_PROVE_LEADERSHIP_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_PROVE_LEADERSHIP_B",
+      "displayName": "Proving Leadership — B",
+      "category": "PROVE_LEADERSHIP",
+      "anchorField": "leadership",
+      "requiredTags": [
+        "PROVE_LEADERSHIP"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_PROVE_LEADERSHIP_B_HOOK",
+          "type": "HOOK",
+          "description": "A recruit wants command but must show they can protect dissent. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "leadership"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_PROVE_LEADERSHIP_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_PROVE_LEADERSHIP_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_PROVE_LEADERSHIP_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_PROVE_LEADERSHIP_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_COMMUNITY_OBLIGATION_A",
+      "displayName": "Community Obligation — A",
+      "category": "COMMUNITY_OBLIGATION",
+      "anchorField": "home",
+      "requiredTags": [
+        "COMMUNITY_OBLIGATION"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_COMMUNITY_OBLIGATION_A_HOOK",
+          "type": "HOOK",
+          "description": "A request from home conflicts with current guild duty. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "home"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_COMMUNITY_OBLIGATION_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_COMMUNITY_OBLIGATION_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_COMMUNITY_OBLIGATION_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_COMMUNITY_OBLIGATION_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_COMMUNITY_OBLIGATION_B",
+      "displayName": "Community Obligation — B",
+      "category": "COMMUNITY_OBLIGATION",
+      "anchorField": "home",
+      "requiredTags": [
+        "COMMUNITY_OBLIGATION"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_COMMUNITY_OBLIGATION_B_HOOK",
+          "type": "HOOK",
+          "description": "A request from home conflicts with current guild duty. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "home"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_COMMUNITY_OBLIGATION_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_COMMUNITY_OBLIGATION_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_COMMUNITY_OBLIGATION_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_COMMUNITY_OBLIGATION_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_LOST_EQUIPMENT_A",
+      "displayName": "Lost Equipment — A",
+      "category": "LOST_EQUIPMENT",
+      "anchorField": "equipmentHistory",
+      "requiredTags": [
+        "LOST_EQUIPMENT"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_LOST_EQUIPMENT_A_HOOK",
+          "type": "HOOK",
+          "description": "A personally important item is lost, found, or claimed by someone else. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "equipmentHistory"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_LOST_EQUIPMENT_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_LOST_EQUIPMENT_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_LOST_EQUIPMENT_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_LOST_EQUIPMENT_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_LOST_EQUIPMENT_B",
+      "displayName": "Lost Equipment — B",
+      "category": "LOST_EQUIPMENT",
+      "anchorField": "equipmentHistory",
+      "requiredTags": [
+        "LOST_EQUIPMENT"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_LOST_EQUIPMENT_B_HOOK",
+          "type": "HOOK",
+          "description": "A personally important item is lost, found, or claimed by someone else. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "equipmentHistory"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_LOST_EQUIPMENT_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_LOST_EQUIPMENT_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_LOST_EQUIPMENT_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_LOST_EQUIPMENT_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_INJURED_MENTOR_A",
+      "displayName": "Injured Mentor — A",
+      "category": "INJURED_MENTOR",
+      "anchorField": "mentorship",
+      "requiredTags": [
+        "INJURED_MENTOR"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_INJURED_MENTOR_A_HOOK",
+          "type": "HOOK",
+          "description": "A mentor needs care and a successor plan. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "mentorship"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_INJURED_MENTOR_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_INJURED_MENTOR_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_INJURED_MENTOR_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_INJURED_MENTOR_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_INJURED_MENTOR_B",
+      "displayName": "Injured Mentor — B",
+      "category": "INJURED_MENTOR",
+      "anchorField": "mentorship",
+      "requiredTags": [
+        "INJURED_MENTOR"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_INJURED_MENTOR_B_HOOK",
+          "type": "HOOK",
+          "description": "A mentor needs care and a successor plan. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "mentorship"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_INJURED_MENTOR_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_INJURED_MENTOR_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_INJURED_MENTOR_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_INJURED_MENTOR_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_OLD_RIVAL_A",
+      "displayName": "Old Rival — A",
+      "category": "OLD_RIVAL",
+      "anchorField": "rivalry",
+      "requiredTags": [
+        "OLD_RIVAL"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_OLD_RIVAL_A_HOOK",
+          "type": "HOOK",
+          "description": "A former rival arrives with a legitimate grievance. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "rivalry"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_OLD_RIVAL_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_OLD_RIVAL_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_OLD_RIVAL_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_OLD_RIVAL_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_OLD_RIVAL_B",
+      "displayName": "Old Rival — B",
+      "category": "OLD_RIVAL",
+      "anchorField": "rivalry",
+      "requiredTags": [
+        "OLD_RIVAL"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_OLD_RIVAL_B_HOOK",
+          "type": "HOOK",
+          "description": "A former rival arrives with a legitimate grievance. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "rivalry"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_OLD_RIVAL_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_OLD_RIVAL_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_OLD_RIVAL_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_OLD_RIVAL_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_CULTURAL_MISUNDERSTANDING_A",
+      "displayName": "Cultural Misunderstanding — A",
+      "category": "CULTURAL_MISUNDERSTANDING",
+      "anchorField": "culture",
+      "requiredTags": [
+        "CULTURAL_MISUNDERSTANDING"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_CULTURAL_MISUNDERSTANDING_A_HOOK",
+          "type": "HOOK",
+          "description": "A practice is misunderstood and must be repaired without speaking for a whole culture. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "culture"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_CULTURAL_MISUNDERSTANDING_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_CULTURAL_MISUNDERSTANDING_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_CULTURAL_MISUNDERSTANDING_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_CULTURAL_MISUNDERSTANDING_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_CULTURAL_MISUNDERSTANDING_B",
+      "displayName": "Cultural Misunderstanding — B",
+      "category": "CULTURAL_MISUNDERSTANDING",
+      "anchorField": "culture",
+      "requiredTags": [
+        "CULTURAL_MISUNDERSTANDING"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_CULTURAL_MISUNDERSTANDING_B_HOOK",
+          "type": "HOOK",
+          "description": "A practice is misunderstood and must be repaired without speaking for a whole culture. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "culture"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_CULTURAL_MISUNDERSTANDING_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_CULTURAL_MISUNDERSTANDING_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_CULTURAL_MISUNDERSTANDING_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_CULTURAL_MISUNDERSTANDING_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_DEBT_A",
+      "displayName": "Debt — A",
+      "category": "DEBT",
+      "anchorField": "background",
+      "requiredTags": [
+        "DEBT"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_DEBT_A_HOOK",
+          "type": "HOOK",
+          "description": "A financial or moral debt resurfaces. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "background"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_DEBT_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_DEBT_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_DEBT_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_DEBT_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_DEBT_B",
+      "displayName": "Debt — B",
+      "category": "DEBT",
+      "anchorField": "background",
+      "requiredTags": [
+        "DEBT"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_DEBT_B_HOOK",
+          "type": "HOOK",
+          "description": "A financial or moral debt resurfaces. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "background"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_DEBT_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_DEBT_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_DEBT_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_DEBT_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_AMBITION_A",
+      "displayName": "Ambition — A",
+      "category": "AMBITION",
+      "anchorField": "ambitionId",
+      "requiredTags": [
+        "AMBITION"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_AMBITION_A_HOOK",
+          "type": "HOOK",
+          "description": "The recruit can advance an ambition at real cost. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "ambitionId"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_AMBITION_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_AMBITION_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_AMBITION_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_AMBITION_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_AMBITION_B",
+      "displayName": "Ambition — B",
+      "category": "AMBITION",
+      "anchorField": "ambitionId",
+      "requiredTags": [
+        "AMBITION"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_AMBITION_B_HOOK",
+          "type": "HOOK",
+          "description": "The recruit can advance an ambition at real cost. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "ambitionId"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_AMBITION_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_AMBITION_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_AMBITION_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_AMBITION_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_HIDDEN_HERITAGE_A",
+      "displayName": "Hidden Heritage — A",
+      "category": "HIDDEN_HERITAGE",
+      "anchorField": "hiddenTrait",
+      "requiredTags": [
+        "HIDDEN_HERITAGE"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_HIDDEN_HERITAGE_A_HOOK",
+          "type": "HOOK",
+          "description": "A private family or community history becomes relevant. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "hiddenTrait"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_HIDDEN_HERITAGE_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_HIDDEN_HERITAGE_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_HIDDEN_HERITAGE_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_HIDDEN_HERITAGE_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_HIDDEN_HERITAGE_B",
+      "displayName": "Hidden Heritage — B",
+      "category": "HIDDEN_HERITAGE",
+      "anchorField": "hiddenTrait",
+      "requiredTags": [
+        "HIDDEN_HERITAGE"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_HIDDEN_HERITAGE_B_HOOK",
+          "type": "HOOK",
+          "description": "A private family or community history becomes relevant. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "hiddenTrait"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_HIDDEN_HERITAGE_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_HIDDEN_HERITAGE_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_HIDDEN_HERITAGE_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_HIDDEN_HERITAGE_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_FAILED_RESCUE_A",
+      "displayName": "Failed Rescue — A",
+      "category": "FAILED_RESCUE",
+      "anchorField": "memory",
+      "requiredTags": [
+        "FAILED_RESCUE"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_FAILED_RESCUE_A_HOOK",
+          "type": "HOOK",
+          "description": "A past failure returns through a new rescue opportunity. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "memory"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_FAILED_RESCUE_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_FAILED_RESCUE_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_FAILED_RESCUE_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_FAILED_RESCUE_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_FAILED_RESCUE_B",
+      "displayName": "Failed Rescue — B",
+      "category": "FAILED_RESCUE",
+      "anchorField": "memory",
+      "requiredTags": [
+        "FAILED_RESCUE"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_FAILED_RESCUE_B_HOOK",
+          "type": "HOOK",
+          "description": "A past failure returns through a new rescue opportunity. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "memory"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_FAILED_RESCUE_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_FAILED_RESCUE_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_FAILED_RESCUE_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_FAILED_RESCUE_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_GUILT_A",
+      "displayName": "Guilt — A",
+      "category": "GUILT",
+      "anchorField": "memory",
+      "requiredTags": [
+        "GUILT"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_GUILT_A_HOOK",
+          "type": "HOOK",
+          "description": "The recruit’s private responsibility becomes visible. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "memory"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_GUILT_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_GUILT_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_GUILT_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_GUILT_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_GUILT_B",
+      "displayName": "Guilt — B",
+      "category": "GUILT",
+      "anchorField": "memory",
+      "requiredTags": [
+        "GUILT"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_GUILT_B_HOOK",
+          "type": "HOOK",
+          "description": "The recruit’s private responsibility becomes visible. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "memory"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_GUILT_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_GUILT_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_GUILT_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_GUILT_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_CURIOSITY_A",
+      "displayName": "Dangerous Curiosity — A",
+      "category": "CURIOSITY",
+      "anchorField": "trait",
+      "requiredTags": [
+        "CURIOSITY"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_CURIOSITY_A_HOOK",
+          "type": "HOOK",
+          "description": "A mystery rewards investigation but threatens boundaries. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "trait"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_CURIOSITY_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_CURIOSITY_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_CURIOSITY_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_CURIOSITY_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_CURIOSITY_B",
+      "displayName": "Dangerous Curiosity — B",
+      "category": "CURIOSITY",
+      "anchorField": "trait",
+      "requiredTags": [
+        "CURIOSITY"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_CURIOSITY_B_HOOK",
+          "type": "HOOK",
+          "description": "A mystery rewards investigation but threatens boundaries. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "trait"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_CURIOSITY_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_CURIOSITY_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_CURIOSITY_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_CURIOSITY_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_FORBIDDEN_TECHNIQUE_A",
+      "displayName": "Forbidden Technique — A",
+      "category": "FORBIDDEN_TECHNIQUE",
+      "anchorField": "artPath",
+      "requiredTags": [
+        "FORBIDDEN_TECHNIQUE"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_FORBIDDEN_TECHNIQUE_A_HOOK",
+          "type": "HOOK",
+          "description": "A powerful technique has ethical or cultural limits. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "artPath"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_FORBIDDEN_TECHNIQUE_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_FORBIDDEN_TECHNIQUE_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_FORBIDDEN_TECHNIQUE_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_FORBIDDEN_TECHNIQUE_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_FORBIDDEN_TECHNIQUE_B",
+      "displayName": "Forbidden Technique — B",
+      "category": "FORBIDDEN_TECHNIQUE",
+      "anchorField": "artPath",
+      "requiredTags": [
+        "FORBIDDEN_TECHNIQUE"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_FORBIDDEN_TECHNIQUE_B_HOOK",
+          "type": "HOOK",
+          "description": "A powerful technique has ethical or cultural limits. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "artPath"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_FORBIDDEN_TECHNIQUE_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_FORBIDDEN_TECHNIQUE_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_FORBIDDEN_TECHNIQUE_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_FORBIDDEN_TECHNIQUE_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_WORKPLACE_CONFLICT_A",
+      "displayName": "Workplace Conflict — A",
+      "category": "WORKPLACE_CONFLICT",
+      "anchorField": "duty",
+      "requiredTags": [
+        "WORKPLACE_CONFLICT"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_WORKPLACE_CONFLICT_A_HOOK",
+          "type": "HOOK",
+          "description": "A staff assignment creates competing obligations. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "duty"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_WORKPLACE_CONFLICT_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_WORKPLACE_CONFLICT_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_WORKPLACE_CONFLICT_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_WORKPLACE_CONFLICT_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_WORKPLACE_CONFLICT_B",
+      "displayName": "Workplace Conflict — B",
+      "category": "WORKPLACE_CONFLICT",
+      "anchorField": "duty",
+      "requiredTags": [
+        "WORKPLACE_CONFLICT"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_WORKPLACE_CONFLICT_B_HOOK",
+          "type": "HOOK",
+          "description": "A staff assignment creates competing obligations. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "duty"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_WORKPLACE_CONFLICT_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_WORKPLACE_CONFLICT_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_WORKPLACE_CONFLICT_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_WORKPLACE_CONFLICT_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_LOYALTY_TEST_A",
+      "displayName": "Loyalty Test — A",
+      "category": "LOYALTY_TEST",
+      "anchorField": "relationship",
+      "requiredTags": [
+        "LOYALTY_TEST"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_LOYALTY_TEST_A_HOOK",
+          "type": "HOOK",
+          "description": "Two loyalties cannot both be satisfied perfectly. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "relationship"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_LOYALTY_TEST_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_LOYALTY_TEST_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_LOYALTY_TEST_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_LOYALTY_TEST_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_LOYALTY_TEST_B",
+      "displayName": "Loyalty Test — B",
+      "category": "LOYALTY_TEST",
+      "anchorField": "relationship",
+      "requiredTags": [
+        "LOYALTY_TEST"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_LOYALTY_TEST_B_HOOK",
+          "type": "HOOK",
+          "description": "Two loyalties cannot both be satisfied perfectly. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "relationship"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_LOYALTY_TEST_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_LOYALTY_TEST_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_LOYALTY_TEST_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_LOYALTY_TEST_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_WORLD_HOME_A",
+      "displayName": "World-Home Connection — A",
+      "category": "WORLD_HOME",
+      "anchorField": "home",
+      "requiredTags": [
+        "WORLD_HOME"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_WORLD_HOME_A_HOOK",
+          "type": "HOOK",
+          "description": "The recruit must decide how to remain connected to home. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "home"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_WORLD_HOME_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_WORLD_HOME_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_WORLD_HOME_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_WORLD_HOME_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_WORLD_HOME_B",
+      "displayName": "World-Home Connection — B",
+      "category": "WORLD_HOME",
+      "anchorField": "home",
+      "requiredTags": [
+        "WORLD_HOME"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_WORLD_HOME_B_HOOK",
+          "type": "HOOK",
+          "description": "The recruit must decide how to remain connected to home. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "home"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_WORLD_HOME_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_WORLD_HOME_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_WORLD_HOME_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_WORLD_HOME_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_ABYSS_MEMORY_A",
+      "displayName": "Abyss Memory — A",
+      "category": "ABYSS_MEMORY",
+      "anchorField": "abyssHistory",
+      "requiredTags": [
+        "ABYSS_MEMORY"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_ABYSS_MEMORY_A_HOOK",
+          "type": "HOOK",
+          "description": "A floor recognizes or recreates part of the recruit’s history. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "abyssHistory"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_ABYSS_MEMORY_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_ABYSS_MEMORY_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_ABYSS_MEMORY_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_ABYSS_MEMORY_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_ABYSS_MEMORY_B",
+      "displayName": "Abyss Memory — B",
+      "category": "ABYSS_MEMORY",
+      "anchorField": "abyssHistory",
+      "requiredTags": [
+        "ABYSS_MEMORY"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_ABYSS_MEMORY_B_HOOK",
+          "type": "HOOK",
+          "description": "A floor recognizes or recreates part of the recruit’s history. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "abyssHistory"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_ABYSS_MEMORY_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_ABYSS_MEMORY_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_ABYSS_MEMORY_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_ABYSS_MEMORY_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_GATE_ANOMALY_A",
+      "displayName": "Gate Anomaly — A",
+      "category": "GATE_ANOMALY",
+      "anchorField": "turningPoint",
+      "requiredTags": [
+        "GATE_ANOMALY"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_GATE_ANOMALY_A_HOOK",
+          "type": "HOOK",
+          "description": "A gate event reacts to the recruit’s previous choices. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "turningPoint"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_GATE_ANOMALY_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_GATE_ANOMALY_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_GATE_ANOMALY_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_GATE_ANOMALY_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_GATE_ANOMALY_B",
+      "displayName": "Gate Anomaly — B",
+      "category": "GATE_ANOMALY",
+      "anchorField": "turningPoint",
+      "requiredTags": [
+        "GATE_ANOMALY"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_GATE_ANOMALY_B_HOOK",
+          "type": "HOOK",
+          "description": "A gate event reacts to the recruit’s previous choices. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "turningPoint"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_GATE_ANOMALY_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_GATE_ANOMALY_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_GATE_ANOMALY_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_GATE_ANOMALY_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_CRAFTING_DREAM_A",
+      "displayName": "Crafting Dream — A",
+      "category": "CRAFTING_DREAM",
+      "anchorField": "equipmentHistory",
+      "requiredTags": [
+        "CRAFTING_DREAM"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_CRAFTING_DREAM_A_HOOK",
+          "type": "HOOK",
+          "description": "The recruit wants to make something useful, not merely powerful. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "equipmentHistory"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_CRAFTING_DREAM_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_CRAFTING_DREAM_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_CRAFTING_DREAM_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_CRAFTING_DREAM_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_CRAFTING_DREAM_B",
+      "displayName": "Crafting Dream — B",
+      "category": "CRAFTING_DREAM",
+      "anchorField": "equipmentHistory",
+      "requiredTags": [
+        "CRAFTING_DREAM"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_CRAFTING_DREAM_B_HOOK",
+          "type": "HOOK",
+          "description": "The recruit wants to make something useful, not merely powerful. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "equipmentHistory"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_CRAFTING_DREAM_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_CRAFTING_DREAM_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_CRAFTING_DREAM_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_CRAFTING_DREAM_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_ECHO_BOND_A",
+      "displayName": "Echo Bond — A",
+      "category": "ECHO_BOND",
+      "anchorField": "summonResonance",
+      "requiredTags": [
+        "ECHO_BOND"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_ECHO_BOND_A_HOOK",
+          "type": "HOOK",
+          "description": "An Invocation Echo becomes familiar without becoming owned. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "summonResonance"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_ECHO_BOND_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_ECHO_BOND_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_ECHO_BOND_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_ECHO_BOND_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_ECHO_BOND_B",
+      "displayName": "Echo Bond — B",
+      "category": "ECHO_BOND",
+      "anchorField": "summonResonance",
+      "requiredTags": [
+        "ECHO_BOND"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_ECHO_BOND_B_HOOK",
+          "type": "HOOK",
+          "description": "An Invocation Echo becomes familiar without becoming owned. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "summonResonance"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_ECHO_BOND_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_ECHO_BOND_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_ECHO_BOND_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_ECHO_BOND_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_UNION_IDENTITY_A",
+      "displayName": "Union Identity Crisis — A",
+      "category": "UNION_IDENTITY",
+      "anchorField": "unionId",
+      "requiredTags": [
+        "UNION_IDENTITY"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_UNION_IDENTITY_A_HOOK",
+          "type": "HOOK",
+          "description": "The recruit disagrees with what their Union has become. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "unionId"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_UNION_IDENTITY_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_UNION_IDENTITY_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_UNION_IDENTITY_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_UNION_IDENTITY_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_UNION_IDENTITY_B",
+      "displayName": "Union Identity Crisis — B",
+      "category": "UNION_IDENTITY",
+      "anchorField": "unionId",
+      "requiredTags": [
+        "UNION_IDENTITY"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_UNION_IDENTITY_B_HOOK",
+          "type": "HOOK",
+          "description": "The recruit disagrees with what their Union has become. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "unionId"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_UNION_IDENTITY_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_UNION_IDENTITY_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_UNION_IDENTITY_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_UNION_IDENTITY_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_PREJUDICE_RECOVERY_A",
+      "displayName": "Prejudice Recovery — A",
+      "category": "PREJUDICE_RECOVERY",
+      "anchorField": "conflict",
+      "requiredTags": [
+        "PREJUDICE_RECOVERY"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_PREJUDICE_RECOVERY_A_HOOK",
+          "type": "HOOK",
+          "description": "A recruit confronts harmful beliefs through conduct and repair. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "conflict"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_PREJUDICE_RECOVERY_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_PREJUDICE_RECOVERY_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_PREJUDICE_RECOVERY_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_PREJUDICE_RECOVERY_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_PREJUDICE_RECOVERY_B",
+      "displayName": "Prejudice Recovery — B",
+      "category": "PREJUDICE_RECOVERY",
+      "anchorField": "conflict",
+      "requiredTags": [
+        "PREJUDICE_RECOVERY"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_PREJUDICE_RECOVERY_B_HOOK",
+          "type": "HOOK",
+          "description": "A recruit confronts harmful beliefs through conduct and repair. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "conflict"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_PREJUDICE_RECOVERY_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_PREJUDICE_RECOVERY_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_PREJUDICE_RECOVERY_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_PREJUDICE_RECOVERY_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_MEDICAL_RECOVERY_A",
+      "displayName": "Medical Recovery — A",
+      "category": "MEDICAL_RECOVERY",
+      "anchorField": "injury",
+      "requiredTags": [
+        "MEDICAL_RECOVERY"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_MEDICAL_RECOVERY_A_HOOK",
+          "type": "HOOK",
+          "description": "Recovery changes duty, identity, and relationships. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "injury"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_MEDICAL_RECOVERY_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_MEDICAL_RECOVERY_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_MEDICAL_RECOVERY_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_MEDICAL_RECOVERY_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_MEDICAL_RECOVERY_B",
+      "displayName": "Medical Recovery — B",
+      "category": "MEDICAL_RECOVERY",
+      "anchorField": "injury",
+      "requiredTags": [
+        "MEDICAL_RECOVERY"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_MEDICAL_RECOVERY_B_HOOK",
+          "type": "HOOK",
+          "description": "Recovery changes duty, identity, and relationships. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "injury"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_MEDICAL_RECOVERY_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_MEDICAL_RECOVERY_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_MEDICAL_RECOVERY_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_MEDICAL_RECOVERY_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_RETIREMENT_A",
+      "displayName": "Retirement Consideration — A",
+      "category": "RETIREMENT",
+      "anchorField": "career",
+      "requiredTags": [
+        "RETIREMENT"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "FORCED_DEATH",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_RETIREMENT_A_HOOK",
+          "type": "HOOK",
+          "description": "The recruit considers a different form of service. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "career"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_RETIREMENT_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_RETIREMENT_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_RETIREMENT_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_RETIREMENT_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_RETIREMENT_B",
+      "displayName": "Retirement Consideration — B",
+      "category": "RETIREMENT",
+      "anchorField": "career",
+      "requiredTags": [
+        "RETIREMENT"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "FORCED_DEATH",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_RETIREMENT_B_HOOK",
+          "type": "HOOK",
+          "description": "The recruit considers a different form of service. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "career"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_RETIREMENT_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_RETIREMENT_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_RETIREMENT_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_RETIREMENT_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_FRIENDSHIP_A",
+      "displayName": "Emerging Friendship — A",
+      "category": "FRIENDSHIP",
+      "anchorField": "compatibility",
+      "requiredTags": [
+        "FRIENDSHIP"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_FRIENDSHIP_A_HOOK",
+          "type": "HOOK",
+          "description": "Two recruits decide whether closeness fits their lives. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "compatibility"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_FRIENDSHIP_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_FRIENDSHIP_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_FRIENDSHIP_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_FRIENDSHIP_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_FRIENDSHIP_B",
+      "displayName": "Emerging Friendship — B",
+      "category": "FRIENDSHIP",
+      "anchorField": "compatibility",
+      "requiredTags": [
+        "FRIENDSHIP"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_FRIENDSHIP_B_HOOK",
+          "type": "HOOK",
+          "description": "Two recruits decide whether closeness fits their lives. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "compatibility"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_FRIENDSHIP_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_FRIENDSHIP_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_FRIENDSHIP_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_FRIENDSHIP_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_ROMANCE_OPTIONAL_A",
+      "displayName": "Optional Consensual Romance — A",
+      "category": "ROMANCE_OPTIONAL",
+      "anchorField": "consent",
+      "requiredTags": [
+        "ROMANCE_OPTIONAL"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": true,
+        "requiresMutualConsent": true,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_ROMANCE_OPTIONAL_A_HOOK",
+          "type": "HOOK",
+          "description": "Mutual adult interest may be acknowledged, declined, or remain friendship without penalty. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "consent"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_ROMANCE_OPTIONAL_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_ROMANCE_OPTIONAL_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_ROMANCE_OPTIONAL_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_ROMANCE_OPTIONAL_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_ROMANCE_OPTIONAL_B",
+      "displayName": "Optional Consensual Romance — B",
+      "category": "ROMANCE_OPTIONAL",
+      "anchorField": "consent",
+      "requiredTags": [
+        "ROMANCE_OPTIONAL"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": true,
+        "requiresMutualConsent": true,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_ROMANCE_OPTIONAL_B_HOOK",
+          "type": "HOOK",
+          "description": "Mutual adult interest may be acknowledged, declined, or remain friendship without penalty. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "consent"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_ROMANCE_OPTIONAL_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_ROMANCE_OPTIONAL_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_ROMANCE_OPTIONAL_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_ROMANCE_OPTIONAL_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_FAMILY_FOUND_A",
+      "displayName": "Found Family — A",
+      "category": "FAMILY_FOUND",
+      "anchorField": "relationship",
+      "requiredTags": [
+        "FAMILY_FOUND"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_FAMILY_FOUND_A_HOOK",
+          "type": "HOOK",
+          "description": "A family-like bond forms through repeated care, not ownership. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "relationship"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_FAMILY_FOUND_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_FAMILY_FOUND_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_FAMILY_FOUND_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_FAMILY_FOUND_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_FAMILY_FOUND_B",
+      "displayName": "Found Family — B",
+      "category": "FAMILY_FOUND",
+      "anchorField": "relationship",
+      "requiredTags": [
+        "FAMILY_FOUND"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_FAMILY_FOUND_B_HOOK",
+          "type": "HOOK",
+          "description": "A family-like bond forms through repeated care, not ownership. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "relationship"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_FAMILY_FOUND_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_FAMILY_FOUND_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_FAMILY_FOUND_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_FAMILY_FOUND_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_PUBLIC_REPUTATION_A",
+      "displayName": "Public Reputation — A",
+      "category": "PUBLIC_REPUTATION",
+      "anchorField": "reputation",
+      "requiredTags": [
+        "PUBLIC_REPUTATION"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_PUBLIC_REPUTATION_A_HOOK",
+          "type": "HOOK",
+          "description": "The guild’s story about the recruit conflicts with their own account. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "reputation"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_PUBLIC_REPUTATION_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_PUBLIC_REPUTATION_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_PUBLIC_REPUTATION_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_PUBLIC_REPUTATION_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_PUBLIC_REPUTATION_B",
+      "displayName": "Public Reputation — B",
+      "category": "PUBLIC_REPUTATION",
+      "anchorField": "reputation",
+      "requiredTags": [
+        "PUBLIC_REPUTATION"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_PUBLIC_REPUTATION_B_HOOK",
+          "type": "HOOK",
+          "description": "The guild’s story about the recruit conflicts with their own account. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "reputation"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_PUBLIC_REPUTATION_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_PUBLIC_REPUTATION_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_PUBLIC_REPUTATION_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_PUBLIC_REPUTATION_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_SUCCESSOR_A",
+      "displayName": "Successor Question — A",
+      "category": "SUCCESSOR",
+      "anchorField": "mentorship",
+      "requiredTags": [
+        "SUCCESSOR"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_SUCCESSOR_A_HOOK",
+          "type": "HOOK",
+          "description": "A veteran decides what should be carried forward and what should end. The first version centers on a private request and a small Guild Hall scene.",
+          "requiredData": [
+            "mentorship"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_SUCCESSOR_A_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_SUCCESSOR_A_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_SUCCESSOR_A_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_SUCCESSOR_A_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    },
+    {
+      "id": "PROC_QUEST_SUCCESSOR_B",
+      "displayName": "Successor Question — B",
+      "category": "SUCCESSOR",
+      "anchorField": "mentorship",
+      "requiredTags": [
+        "SUCCESSOR"
+      ],
+      "optionalTags": [
+        "RELATIONSHIP",
+        "UNION",
+        "FACILITY"
+      ],
+      "excludedTags": [
+        "KAEL_NORMAL_REWARD",
+        "FOUNDER_OWNED_RECRUIT",
+        "GREAT_SUMMON_OWNERSHIP"
+      ],
+      "compatibilityConstraints": {
+        "requiresAdultParticipants": false,
+        "requiresMutualConsent": false,
+        "allowsFriendshipResolution": true,
+        "rejectIfContradictory": [
+          "DEATH_REQUIRED",
+          "CULTURE_OWNERSHIP"
+        ]
+      },
+      "stages": [
+        {
+          "id": "PROC_QUEST_SUCCESSOR_B_HOOK",
+          "type": "HOOK",
+          "description": "A veteran decides what should be carried forward and what should end. The second version centers on an expedition consequence and a public institutional choice.",
+          "requiredData": [
+            "mentorship"
+          ]
+        },
+        {
+          "id": "PROC_QUEST_SUCCESSOR_B_PREP",
+          "type": "PREPARATION",
+          "description": "Choose participants, facility support, and a legal route. Compatibility affects options but never fixes the outcome."
+        },
+        {
+          "id": "PROC_QUEST_SUCCESSOR_B_CHOICE",
+          "type": "CHOICE",
+          "description": "Make a character-revealing choice with visible risks and at least one nonviolent option."
+        },
+        {
+          "id": "PROC_QUEST_SUCCESSOR_B_CONSEQUENCE",
+          "type": "CONSEQUENCE",
+          "description": "Apply memories, relationship changes, duty or expedition consequences, and possible recovery."
+        },
+        {
+          "id": "PROC_QUEST_SUCCESSOR_B_ECHO",
+          "type": "LATER_ECHO",
+          "description": "Return the choice later through dialogue, Union identity, equipment history, or a changed event option."
+        }
+      ],
+      "outcomeBands": [
+        "SUCCESS",
+        "MIXED_SUCCESS",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "rewards": [
+        "RELATIONSHIP_MEMORY",
+        "CHRONICLE_ENTRY",
+        "LEGAL_PATH_HOOK"
+      ],
+      "noSoftlock": true,
+      "noAutomaticStatPrize": true
+    }
+  ],
+  "assemblyRules": {
+    "inputs": [
+      "traits",
+      "background",
+      "fear",
+      "ambition",
+      "relationships",
+      "equipmentHistory",
+      "worldOrigin",
+      "priorEvents",
+      "UnionIdentity"
+    ],
+    "contradictionRejection": "Templates are rejected when required anchors are absent, consent rules fail, cultural authority is missing, or the same unresolved quest theme is already active.",
+    "repetitionControl": "The same category cannot be selected for the same recruit within three completed personal-quest chains unless a prior later-echo flag explicitly calls it back."
+  }
+}

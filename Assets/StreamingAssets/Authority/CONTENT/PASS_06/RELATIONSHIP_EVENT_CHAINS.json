@@ -1,0 +1,1398 @@
+{
+  "contentVersion": "GOW_PASS06_0.11",
+  "chainCount": 24,
+  "chains": [
+    {
+      "id": "REL_CHAIN_TRUST_AFTER_RESCUE",
+      "title": "Trust After Rescue",
+      "stageCount": 4,
+      "stages": [
+        {
+          "id": "REL_CHAIN_TRUST_AFTER_RESCUE_STAGE_01",
+          "title": "The rescued member avoids discussing the event.",
+          "requiredPrevious": null,
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_TRUST_AFTER_RESCUE_STAGE_02",
+          "title": "A routine duty triggers the memory.",
+          "requiredPrevious": "REL_CHAIN_TRUST_AFTER_RESCUE_STAGE_01",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_TRUST_AFTER_RESCUE_STAGE_03",
+          "title": "The rescuer is asked what they expected in return.",
+          "requiredPrevious": "REL_CHAIN_TRUST_AFTER_RESCUE_STAGE_02",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_TRUST_AFTER_RESCUE_STAGE_04",
+          "title": "Trust grows only if no debt is claimed.",
+          "requiredPrevious": "REL_CHAIN_TRUST_AFTER_RESCUE_STAGE_03",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        }
+      ],
+      "continuationRequirements": [
+        "PARTICIPANTS_AVAILABLE",
+        "NO_CONTRADICTORY_ACTIVE_CHAIN"
+      ],
+      "failureRecovery": "Every failure branch produces a visible recovery or respectful ending path.",
+      "romanceOptional": false,
+      "friendshipCompletePath": true
+    },
+    {
+      "id": "REL_CHAIN_RIVALRY_TO_RESPECT",
+      "title": "Rivalry Becoming Respect",
+      "stageCount": 4,
+      "stages": [
+        {
+          "id": "REL_CHAIN_RIVALRY_TO_RESPECT_STAGE_01",
+          "title": "A contest ends in humiliation risk.",
+          "requiredPrevious": null,
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_RIVALRY_TO_RESPECT_STAGE_02",
+          "title": "One rival defends the other publicly.",
+          "requiredPrevious": "REL_CHAIN_RIVALRY_TO_RESPECT_STAGE_01",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_RIVALRY_TO_RESPECT_STAGE_03",
+          "title": "They face a task neither can solve alone.",
+          "requiredPrevious": "REL_CHAIN_RIVALRY_TO_RESPECT_STAGE_02",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_RIVALRY_TO_RESPECT_STAGE_04",
+          "title": "A new respectful tradition replaces the old contest.",
+          "requiredPrevious": "REL_CHAIN_RIVALRY_TO_RESPECT_STAGE_03",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        }
+      ],
+      "continuationRequirements": [
+        "PARTICIPANTS_AVAILABLE",
+        "NO_CONTRADICTORY_ACTIVE_CHAIN"
+      ],
+      "failureRecovery": "Every failure branch produces a visible recovery or respectful ending path.",
+      "romanceOptional": false,
+      "friendshipCompletePath": true
+    },
+    {
+      "id": "REL_CHAIN_MENTOR_CONFLICT",
+      "title": "Mentor Conflict",
+      "stageCount": 4,
+      "stages": [
+        {
+          "id": "REL_CHAIN_MENTOR_CONFLICT_STAGE_01",
+          "title": "A correction feels personal.",
+          "requiredPrevious": null,
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_MENTOR_CONFLICT_STAGE_02",
+          "title": "The apprentice withdraws from lessons.",
+          "requiredPrevious": "REL_CHAIN_MENTOR_CONFLICT_STAGE_01",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_MENTOR_CONFLICT_STAGE_03",
+          "title": "Mediation identifies incompatible teaching styles.",
+          "requiredPrevious": "REL_CHAIN_MENTOR_CONFLICT_STAGE_02",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_MENTOR_CONFLICT_STAGE_04",
+          "title": "They continue, change mentors, or graduate early without punishment.",
+          "requiredPrevious": "REL_CHAIN_MENTOR_CONFLICT_STAGE_03",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        }
+      ],
+      "continuationRequirements": [
+        "PARTICIPANTS_AVAILABLE",
+        "NO_CONTRADICTORY_ACTIVE_CHAIN"
+      ],
+      "failureRecovery": "Every failure branch produces a visible recovery or respectful ending path.",
+      "romanceOptional": false,
+      "friendshipCompletePath": true
+    },
+    {
+      "id": "REL_CHAIN_APPRENTICE_GRADUATION",
+      "title": "Apprentice Graduation",
+      "stageCount": 4,
+      "stages": [
+        {
+          "id": "REL_CHAIN_APPRENTICE_GRADUATION_STAGE_01",
+          "title": "The apprentice succeeds without the mentor.",
+          "requiredPrevious": null,
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_APPRENTICE_GRADUATION_STAGE_02",
+          "title": "The mentor struggles to step back.",
+          "requiredPrevious": "REL_CHAIN_APPRENTICE_GRADUATION_STAGE_01",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_APPRENTICE_GRADUATION_STAGE_03",
+          "title": "A final lesson reverses roles.",
+          "requiredPrevious": "REL_CHAIN_APPRENTICE_GRADUATION_STAGE_02",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_APPRENTICE_GRADUATION_STAGE_04",
+          "title": "Graduation creates a new memory and possible successor path.",
+          "requiredPrevious": "REL_CHAIN_APPRENTICE_GRADUATION_STAGE_03",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        }
+      ],
+      "continuationRequirements": [
+        "PARTICIPANTS_AVAILABLE",
+        "NO_CONTRADICTORY_ACTIVE_CHAIN"
+      ],
+      "failureRecovery": "Every failure branch produces a visible recovery or respectful ending path.",
+      "romanceOptional": false,
+      "friendshipCompletePath": true
+    },
+    {
+      "id": "REL_CHAIN_CULTURAL_REPAIR",
+      "title": "Cultural Misunderstanding and Repair",
+      "stageCount": 4,
+      "stages": [
+        {
+          "id": "REL_CHAIN_CULTURAL_REPAIR_STAGE_01",
+          "title": "A well-meant action causes harm.",
+          "requiredPrevious": null,
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_CULTURAL_REPAIR_STAGE_02",
+          "title": "The affected member decides whether to explain.",
+          "requiredPrevious": "REL_CHAIN_CULTURAL_REPAIR_STAGE_01",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_CULTURAL_REPAIR_STAGE_03",
+          "title": "Institutional repair is offered.",
+          "requiredPrevious": "REL_CHAIN_CULTURAL_REPAIR_STAGE_02",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_CULTURAL_REPAIR_STAGE_04",
+          "title": "Understanding grows without declaring the issue finished forever.",
+          "requiredPrevious": "REL_CHAIN_CULTURAL_REPAIR_STAGE_03",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        }
+      ],
+      "continuationRequirements": [
+        "PARTICIPANTS_AVAILABLE",
+        "NO_CONTRADICTORY_ACTIVE_CHAIN"
+      ],
+      "failureRecovery": "Every failure branch produces a visible recovery or respectful ending path.",
+      "romanceOptional": false,
+      "friendshipCompletePath": true
+    },
+    {
+      "id": "REL_CHAIN_LEADERSHIP_DISPUTE",
+      "title": "Leadership Dispute",
+      "stageCount": 4,
+      "stages": [
+        {
+          "id": "REL_CHAIN_LEADERSHIP_DISPUTE_STAGE_01",
+          "title": "Two leaders issue conflicting priorities.",
+          "requiredPrevious": null,
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_LEADERSHIP_DISPUTE_STAGE_02",
+          "title": "The Union completes a mission with reduced Cohesion.",
+          "requiredPrevious": "REL_CHAIN_LEADERSHIP_DISPUTE_STAGE_01",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_LEADERSHIP_DISPUTE_STAGE_03",
+          "title": "A Strategy Room review separates authority.",
+          "requiredPrevious": "REL_CHAIN_LEADERSHIP_DISPUTE_STAGE_02",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_LEADERSHIP_DISPUTE_STAGE_04",
+          "title": "Shared command or distinct roles become possible.",
+          "requiredPrevious": "REL_CHAIN_LEADERSHIP_DISPUTE_STAGE_03",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        }
+      ],
+      "continuationRequirements": [
+        "PARTICIPANTS_AVAILABLE",
+        "NO_CONTRADICTORY_ACTIVE_CHAIN"
+      ],
+      "failureRecovery": "Every failure branch produces a visible recovery or respectful ending path.",
+      "romanceOptional": false,
+      "friendshipCompletePath": true
+    },
+    {
+      "id": "REL_CHAIN_INJURY_CARE",
+      "title": "Injury and Caregiving",
+      "stageCount": 4,
+      "stages": [
+        {
+          "id": "REL_CHAIN_INJURY_CARE_STAGE_01",
+          "title": "A protective member refuses to leave the bedside.",
+          "requiredPrevious": null,
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_INJURY_CARE_STAGE_02",
+          "title": "The patient asks for autonomy.",
+          "requiredPrevious": "REL_CHAIN_INJURY_CARE_STAGE_01",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_INJURY_CARE_STAGE_03",
+          "title": "Care duties are redistributed.",
+          "requiredPrevious": "REL_CHAIN_INJURY_CARE_STAGE_02",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_INJURY_CARE_STAGE_04",
+          "title": "The relationship becomes closer or more respectful without mandatory affection.",
+          "requiredPrevious": "REL_CHAIN_INJURY_CARE_STAGE_03",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        }
+      ],
+      "continuationRequirements": [
+        "PARTICIPANTS_AVAILABLE",
+        "NO_CONTRADICTORY_ACTIVE_CHAIN"
+      ],
+      "failureRecovery": "Every failure branch produces a visible recovery or respectful ending path.",
+      "romanceOptional": false,
+      "friendshipCompletePath": true
+    },
+    {
+      "id": "REL_CHAIN_EQUIPMENT_GIFT",
+      "title": "Equipment Gift and Refusal",
+      "stageCount": 4,
+      "stages": [
+        {
+          "id": "REL_CHAIN_EQUIPMENT_GIFT_STAGE_01",
+          "title": "A member offers a valuable item.",
+          "requiredPrevious": null,
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_EQUIPMENT_GIFT_STAGE_02",
+          "title": "The recipient may accept, decline, or request modification.",
+          "requiredPrevious": "REL_CHAIN_EQUIPMENT_GIFT_STAGE_01",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_EQUIPMENT_GIFT_STAGE_03",
+          "title": "The giver reacts to the boundary.",
+          "requiredPrevious": "REL_CHAIN_EQUIPMENT_GIFT_STAGE_02",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_EQUIPMENT_GIFT_STAGE_04",
+          "title": "Item history records the approved outcome only.",
+          "requiredPrevious": "REL_CHAIN_EQUIPMENT_GIFT_STAGE_03",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        }
+      ],
+      "continuationRequirements": [
+        "PARTICIPANTS_AVAILABLE",
+        "NO_CONTRADICTORY_ACTIVE_CHAIN"
+      ],
+      "failureRecovery": "Every failure branch produces a visible recovery or respectful ending path.",
+      "romanceOptional": false,
+      "friendshipCompletePath": true
+    },
+    {
+      "id": "REL_CHAIN_FAILED_LINK",
+      "title": "Failed Link Art",
+      "stageCount": 4,
+      "stages": [
+        {
+          "id": "REL_CHAIN_FAILED_LINK_STAGE_01",
+          "title": "A Link Art breaks under pressure.",
+          "requiredPrevious": null,
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_FAILED_LINK_STAGE_02",
+          "title": "Participants blame themselves or each other.",
+          "requiredPrevious": "REL_CHAIN_FAILED_LINK_STAGE_01",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_FAILED_LINK_STAGE_03",
+          "title": "Training reveals a missing setup condition.",
+          "requiredPrevious": "REL_CHAIN_FAILED_LINK_STAGE_02",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_FAILED_LINK_STAGE_04",
+          "title": "The next Link attempt carries new meaning.",
+          "requiredPrevious": "REL_CHAIN_FAILED_LINK_STAGE_03",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        }
+      ],
+      "continuationRequirements": [
+        "PARTICIPANTS_AVAILABLE",
+        "NO_CONTRADICTORY_ACTIVE_CHAIN"
+      ],
+      "failureRecovery": "Every failure branch produces a visible recovery or respectful ending path.",
+      "romanceOptional": false,
+      "friendshipCompletePath": true
+    },
+    {
+      "id": "REL_CHAIN_SUCCESSFUL_LINK",
+      "title": "Successful Link Art",
+      "stageCount": 4,
+      "stages": [
+        {
+          "id": "REL_CHAIN_SUCCESSFUL_LINK_STAGE_01",
+          "title": "A rare coordination succeeds.",
+          "requiredPrevious": null,
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_SUCCESSFUL_LINK_STAGE_02",
+          "title": "Public praise creates uneven credit.",
+          "requiredPrevious": "REL_CHAIN_SUCCESSFUL_LINK_STAGE_01",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_SUCCESSFUL_LINK_STAGE_03",
+          "title": "Participants choose how to tell the story.",
+          "requiredPrevious": "REL_CHAIN_SUCCESSFUL_LINK_STAGE_02",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_SUCCESSFUL_LINK_STAGE_04",
+          "title": "The Link becomes a Union tradition or remains private.",
+          "requiredPrevious": "REL_CHAIN_SUCCESSFUL_LINK_STAGE_03",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        }
+      ],
+      "continuationRequirements": [
+        "PARTICIPANTS_AVAILABLE",
+        "NO_CONTRADICTORY_ACTIVE_CHAIN"
+      ],
+      "failureRecovery": "Every failure branch produces a visible recovery or respectful ending path.",
+      "romanceOptional": false,
+      "friendshipCompletePath": true
+    },
+    {
+      "id": "REL_CHAIN_HOMESICKNESS",
+      "title": "Homesickness",
+      "stageCount": 4,
+      "stages": [
+        {
+          "id": "REL_CHAIN_HOMESICKNESS_STAGE_01",
+          "title": "A member withdraws during a festival.",
+          "requiredPrevious": null,
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_HOMESICKNESS_STAGE_02",
+          "title": "Another notices but may misread the cause.",
+          "requiredPrevious": "REL_CHAIN_HOMESICKNESS_STAGE_01",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_HOMESICKNESS_STAGE_03",
+          "title": "Home contact or a cultural space is arranged.",
+          "requiredPrevious": "REL_CHAIN_HOMESICKNESS_STAGE_02",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_HOMESICKNESS_STAGE_04",
+          "title": "The member chooses how much of home to share.",
+          "requiredPrevious": "REL_CHAIN_HOMESICKNESS_STAGE_03",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        }
+      ],
+      "continuationRequirements": [
+        "PARTICIPANTS_AVAILABLE",
+        "NO_CONTRADICTORY_ACTIVE_CHAIN"
+      ],
+      "failureRecovery": "Every failure branch produces a visible recovery or respectful ending path.",
+      "romanceOptional": false,
+      "friendshipCompletePath": true
+    },
+    {
+      "id": "REL_CHAIN_FORMER_ENEMY",
+      "title": "Former-Enemy Integration",
+      "stageCount": 4,
+      "stages": [
+        {
+          "id": "REL_CHAIN_FORMER_ENEMY_STAGE_01",
+          "title": "A new member recognizes someone from the other side.",
+          "requiredPrevious": null,
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_FORMER_ENEMY_STAGE_02",
+          "title": "The Hall must prevent retaliation and forced forgiveness.",
+          "requiredPrevious": "REL_CHAIN_FORMER_ENEMY_STAGE_01",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_FORMER_ENEMY_STAGE_03",
+          "title": "A shared duty tests conduct.",
+          "requiredPrevious": "REL_CHAIN_FORMER_ENEMY_STAGE_02",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_FORMER_ENEMY_STAGE_04",
+          "title": "Trust may begin without erasing history.",
+          "requiredPrevious": "REL_CHAIN_FORMER_ENEMY_STAGE_03",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        }
+      ],
+      "continuationRequirements": [
+        "PARTICIPANTS_AVAILABLE",
+        "NO_CONTRADICTORY_ACTIVE_CHAIN"
+      ],
+      "failureRecovery": "Every failure branch produces a visible recovery or respectful ending path.",
+      "romanceOptional": false,
+      "friendshipCompletePath": true
+    },
+    {
+      "id": "REL_CHAIN_GRIEF_LOSS",
+      "title": "Grief After Loss",
+      "stageCount": 4,
+      "stages": [
+        {
+          "id": "REL_CHAIN_GRIEF_LOSS_STAGE_01",
+          "title": "A loss or retirement changes a routine.",
+          "requiredPrevious": null,
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_GRIEF_LOSS_STAGE_02",
+          "title": "Members grieve differently.",
+          "requiredPrevious": "REL_CHAIN_GRIEF_LOSS_STAGE_01",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_GRIEF_LOSS_STAGE_03",
+          "title": "A memorial choice creates friction.",
+          "requiredPrevious": "REL_CHAIN_GRIEF_LOSS_STAGE_02",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_GRIEF_LOSS_STAGE_04",
+          "title": "The Chronicle preserves multiple accounts.",
+          "requiredPrevious": "REL_CHAIN_GRIEF_LOSS_STAGE_03",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        }
+      ],
+      "continuationRequirements": [
+        "PARTICIPANTS_AVAILABLE",
+        "NO_CONTRADICTORY_ACTIVE_CHAIN"
+      ],
+      "failureRecovery": "Every failure branch produces a visible recovery or respectful ending path.",
+      "romanceOptional": false,
+      "friendshipCompletePath": true
+    },
+    {
+      "id": "REL_CHAIN_UNION_BREAK_REFORM",
+      "title": "Union Breakup and Repair",
+      "stageCount": 4,
+      "stages": [
+        {
+          "id": "REL_CHAIN_UNION_BREAK_REFORM_STAGE_01",
+          "title": "A Union disbands after conflict.",
+          "requiredPrevious": null,
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_UNION_BREAK_REFORM_STAGE_02",
+          "title": "Former members continue separate duties.",
+          "requiredPrevious": "REL_CHAIN_UNION_BREAK_REFORM_STAGE_01",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_UNION_BREAK_REFORM_STAGE_03",
+          "title": "A crisis recalls their shared strengths.",
+          "requiredPrevious": "REL_CHAIN_UNION_BREAK_REFORM_STAGE_02",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_UNION_BREAK_REFORM_STAGE_04",
+          "title": "They reform, create successor Unions, or remain apart with history preserved.",
+          "requiredPrevious": "REL_CHAIN_UNION_BREAK_REFORM_STAGE_03",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        }
+      ],
+      "continuationRequirements": [
+        "PARTICIPANTS_AVAILABLE",
+        "NO_CONTRADICTORY_ACTIVE_CHAIN"
+      ],
+      "failureRecovery": "Every failure branch produces a visible recovery or respectful ending path.",
+      "romanceOptional": false,
+      "friendshipCompletePath": true
+    },
+    {
+      "id": "REL_CHAIN_STAFF_CONFLICT",
+      "title": "Staff Conflict",
+      "stageCount": 4,
+      "stages": [
+        {
+          "id": "REL_CHAIN_STAFF_CONFLICT_STAGE_01",
+          "title": "Two staff roles compete for resources.",
+          "requiredPrevious": null,
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_STAFF_CONFLICT_STAGE_02",
+          "title": "Members take sides.",
+          "requiredPrevious": "REL_CHAIN_STAFF_CONFLICT_STAGE_01",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_STAFF_CONFLICT_STAGE_03",
+          "title": "A transparent priority process is attempted.",
+          "requiredPrevious": "REL_CHAIN_STAFF_CONFLICT_STAGE_02",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_STAFF_CONFLICT_STAGE_04",
+          "title": "The institution changes even if friendship does not.",
+          "requiredPrevious": "REL_CHAIN_STAFF_CONFLICT_STAGE_03",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        }
+      ],
+      "continuationRequirements": [
+        "PARTICIPANTS_AVAILABLE",
+        "NO_CONTRADICTORY_ACTIVE_CHAIN"
+      ],
+      "failureRecovery": "Every failure branch produces a visible recovery or respectful ending path.",
+      "romanceOptional": false,
+      "friendshipCompletePath": true
+    },
+    {
+      "id": "REL_CHAIN_WORLD_ALLIANCE_TENSION",
+      "title": "World-Alliance Tension",
+      "stageCount": 4,
+      "stages": [
+        {
+          "id": "REL_CHAIN_WORLD_ALLIANCE_TENSION_STAGE_01",
+          "title": "A personal bond is treated as political authority.",
+          "requiredPrevious": null,
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_WORLD_ALLIANCE_TENSION_STAGE_02",
+          "title": "The involved member rejects that burden.",
+          "requiredPrevious": "REL_CHAIN_WORLD_ALLIANCE_TENSION_STAGE_01",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_WORLD_ALLIANCE_TENSION_STAGE_03",
+          "title": "Embassy staff broaden consultation.",
+          "requiredPrevious": "REL_CHAIN_WORLD_ALLIANCE_TENSION_STAGE_02",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_WORLD_ALLIANCE_TENSION_STAGE_04",
+          "title": "World Trust improves through institutions, not one relationship.",
+          "requiredPrevious": "REL_CHAIN_WORLD_ALLIANCE_TENSION_STAGE_03",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        }
+      ],
+      "continuationRequirements": [
+        "PARTICIPANTS_AVAILABLE",
+        "NO_CONTRADICTORY_ACTIVE_CHAIN"
+      ],
+      "failureRecovery": "Every failure branch produces a visible recovery or respectful ending path.",
+      "romanceOptional": false,
+      "friendshipCompletePath": true
+    },
+    {
+      "id": "REL_CHAIN_OPTIONAL_ROMANCE",
+      "title": "Optional Consensual Romance",
+      "stageCount": 4,
+      "stages": [
+        {
+          "id": "REL_CHAIN_OPTIONAL_ROMANCE_STAGE_01",
+          "title": "Mutual adult interest becomes possible.",
+          "requiredPrevious": null,
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_OPTIONAL_ROMANCE_STAGE_02",
+          "title": "Each person may acknowledge, decline, or ask for time.",
+          "requiredPrevious": "REL_CHAIN_OPTIONAL_ROMANCE_STAGE_01",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_OPTIONAL_ROMANCE_STAGE_03",
+          "title": "Boundaries are respected in daily life.",
+          "requiredPrevious": "REL_CHAIN_OPTIONAL_ROMANCE_STAGE_02",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_OPTIONAL_ROMANCE_STAGE_04",
+          "title": "Romance, friendship, or professional closeness remain complete outcomes.",
+          "requiredPrevious": "REL_CHAIN_OPTIONAL_ROMANCE_STAGE_03",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        }
+      ],
+      "continuationRequirements": [
+        "PARTICIPANTS_AVAILABLE",
+        "NO_CONTRADICTORY_ACTIVE_CHAIN"
+      ],
+      "failureRecovery": "Every failure branch produces a visible recovery or respectful ending path.",
+      "romanceOptional": true,
+      "friendshipCompletePath": true
+    },
+    {
+      "id": "REL_CHAIN_PUBLIC_STORY",
+      "title": "Public Story Conflict",
+      "stageCount": 4,
+      "stages": [
+        {
+          "id": "REL_CHAIN_PUBLIC_STORY_STAGE_01",
+          "title": "Citizens celebrate a simplified version of events.",
+          "requiredPrevious": null,
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_PUBLIC_STORY_STAGE_02",
+          "title": "The recruit dislikes or questions the story.",
+          "requiredPrevious": "REL_CHAIN_PUBLIC_STORY_STAGE_01",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_PUBLIC_STORY_STAGE_03",
+          "title": "Chronicle staff collect multiple witnesses.",
+          "requiredPrevious": "REL_CHAIN_PUBLIC_STORY_STAGE_02",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_PUBLIC_STORY_STAGE_04",
+          "title": "A revised public account preserves uncertainty.",
+          "requiredPrevious": "REL_CHAIN_PUBLIC_STORY_STAGE_03",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        }
+      ],
+      "continuationRequirements": [
+        "PARTICIPANTS_AVAILABLE",
+        "NO_CONTRADICTORY_ACTIVE_CHAIN"
+      ],
+      "failureRecovery": "Every failure branch produces a visible recovery or respectful ending path.",
+      "romanceOptional": false,
+      "friendshipCompletePath": true
+    },
+    {
+      "id": "REL_CHAIN_PROTECTIVENESS_AUTONOMY",
+      "title": "Protectiveness and Autonomy",
+      "stageCount": 4,
+      "stages": [
+        {
+          "id": "REL_CHAIN_PROTECTIVENESS_AUTONOMY_STAGE_01",
+          "title": "One member repeatedly intercepts for another.",
+          "requiredPrevious": null,
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_PROTECTIVENESS_AUTONOMY_STAGE_02",
+          "title": "The protected member objects.",
+          "requiredPrevious": "REL_CHAIN_PROTECTIVENESS_AUTONOMY_STAGE_01",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_PROTECTIVENESS_AUTONOMY_STAGE_03",
+          "title": "They agree on conditions for help.",
+          "requiredPrevious": "REL_CHAIN_PROTECTIVENESS_AUTONOMY_STAGE_02",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_PROTECTIVENESS_AUTONOMY_STAGE_04",
+          "title": "Combat Forecasts gain an explainable consent rule.",
+          "requiredPrevious": "REL_CHAIN_PROTECTIVENESS_AUTONOMY_STAGE_03",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        }
+      ],
+      "continuationRequirements": [
+        "PARTICIPANTS_AVAILABLE",
+        "NO_CONTRADICTORY_ACTIVE_CHAIN"
+      ],
+      "failureRecovery": "Every failure branch produces a visible recovery or respectful ending path.",
+      "romanceOptional": false,
+      "friendshipCompletePath": true
+    },
+    {
+      "id": "REL_CHAIN_SECRET_AND_RECORD",
+      "title": "Secret and Record",
+      "stageCount": 4,
+      "stages": [
+        {
+          "id": "REL_CHAIN_SECRET_AND_RECORD_STAGE_01",
+          "title": "A private truth matters to guild safety.",
+          "requiredPrevious": null,
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_SECRET_AND_RECORD_STAGE_02",
+          "title": "The confidant must decide what can be recorded.",
+          "requiredPrevious": "REL_CHAIN_SECRET_AND_RECORD_STAGE_01",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_SECRET_AND_RECORD_STAGE_03",
+          "title": "The owner of the secret sets boundaries.",
+          "requiredPrevious": "REL_CHAIN_SECRET_AND_RECORD_STAGE_02",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_SECRET_AND_RECORD_STAGE_04",
+          "title": "A limited record preserves both safety and agency.",
+          "requiredPrevious": "REL_CHAIN_SECRET_AND_RECORD_STAGE_03",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        }
+      ],
+      "continuationRequirements": [
+        "PARTICIPANTS_AVAILABLE",
+        "NO_CONTRADICTORY_ACTIVE_CHAIN"
+      ],
+      "failureRecovery": "Every failure branch produces a visible recovery or respectful ending path.",
+      "romanceOptional": false,
+      "friendshipCompletePath": true
+    },
+    {
+      "id": "REL_CHAIN_RETIREMENT_RETURN",
+      "title": "Retirement and Return",
+      "stageCount": 4,
+      "stages": [
+        {
+          "id": "REL_CHAIN_RETIREMENT_RETURN_STAGE_01",
+          "title": "A veteran retires into staff duty.",
+          "requiredPrevious": null,
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_RETIREMENT_RETURN_STAGE_02",
+          "title": "Their former Union struggles without them.",
+          "requiredPrevious": "REL_CHAIN_RETIREMENT_RETURN_STAGE_01",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_RETIREMENT_RETURN_STAGE_03",
+          "title": "An emergency creates pressure to return.",
+          "requiredPrevious": "REL_CHAIN_RETIREMENT_RETURN_STAGE_02",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_RETIREMENT_RETURN_STAGE_04",
+          "title": "The veteran chooses temporary aid, mentorship, or continued retirement.",
+          "requiredPrevious": "REL_CHAIN_RETIREMENT_RETURN_STAGE_03",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        }
+      ],
+      "continuationRequirements": [
+        "PARTICIPANTS_AVAILABLE",
+        "NO_CONTRADICTORY_ACTIVE_CHAIN"
+      ],
+      "failureRecovery": "Every failure branch produces a visible recovery or respectful ending path.",
+      "romanceOptional": false,
+      "friendshipCompletePath": true
+    },
+    {
+      "id": "REL_CHAIN_CRAFTED_FOR_YOU",
+      "title": "Crafted for You",
+      "stageCount": 4,
+      "stages": [
+        {
+          "id": "REL_CHAIN_CRAFTED_FOR_YOU_STAGE_01",
+          "title": "A crafter studies another member’s habits.",
+          "requiredPrevious": null,
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_CRAFTED_FOR_YOU_STAGE_02",
+          "title": "The recipient worries about obligation.",
+          "requiredPrevious": "REL_CHAIN_CRAFTED_FOR_YOU_STAGE_01",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_CRAFTED_FOR_YOU_STAGE_03",
+          "title": "The item is offered with explicit choice.",
+          "requiredPrevious": "REL_CHAIN_CRAFTED_FOR_YOU_STAGE_02",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_CRAFTED_FOR_YOU_STAGE_04",
+          "title": "Acceptance or refusal becomes a positive memory when handled well.",
+          "requiredPrevious": "REL_CHAIN_CRAFTED_FOR_YOU_STAGE_03",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        }
+      ],
+      "continuationRequirements": [
+        "PARTICIPANTS_AVAILABLE",
+        "NO_CONTRADICTORY_ACTIVE_CHAIN"
+      ],
+      "failureRecovery": "Every failure branch produces a visible recovery or respectful ending path.",
+      "romanceOptional": false,
+      "friendshipCompletePath": true
+    },
+    {
+      "id": "REL_CHAIN_RIVAL_UNIONS",
+      "title": "Rival Unions",
+      "stageCount": 4,
+      "stages": [
+        {
+          "id": "REL_CHAIN_RIVAL_UNIONS_STAGE_01",
+          "title": "Two Unions compete for public recognition.",
+          "requiredPrevious": null,
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_RIVAL_UNIONS_STAGE_02",
+          "title": "A contract exposes different strengths.",
+          "requiredPrevious": "REL_CHAIN_RIVAL_UNIONS_STAGE_01",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_RIVAL_UNIONS_STAGE_03",
+          "title": "One must support the other’s weak front.",
+          "requiredPrevious": "REL_CHAIN_RIVAL_UNIONS_STAGE_02",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_RIVAL_UNIONS_STAGE_04",
+          "title": "Rivalry becomes tradition, respect, or enduring tension.",
+          "requiredPrevious": "REL_CHAIN_RIVAL_UNIONS_STAGE_03",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        }
+      ],
+      "continuationRequirements": [
+        "PARTICIPANTS_AVAILABLE",
+        "NO_CONTRADICTORY_ACTIVE_CHAIN"
+      ],
+      "failureRecovery": "Every failure branch produces a visible recovery or respectful ending path.",
+      "romanceOptional": false,
+      "friendshipCompletePath": true
+    },
+    {
+      "id": "REL_CHAIN_CIVILIAN_BOND",
+      "title": "Ordinary Citizen Bond",
+      "stageCount": 4,
+      "stages": [
+        {
+          "id": "REL_CHAIN_CIVILIAN_BOND_STAGE_01",
+          "title": "A citizen remembers a recruit’s small act.",
+          "requiredPrevious": null,
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_CIVILIAN_BOND_STAGE_02",
+          "title": "The recruit is uncomfortable with praise.",
+          "requiredPrevious": "REL_CHAIN_CIVILIAN_BOND_STAGE_01",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_CIVILIAN_BOND_STAGE_03",
+          "title": "A later crisis requires the citizen’s expertise.",
+          "requiredPrevious": "REL_CHAIN_CIVILIAN_BOND_STAGE_02",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        },
+        {
+          "id": "REL_CHAIN_CIVILIAN_BOND_STAGE_04",
+          "title": "The bond becomes reciprocal rather than heroic ownership.",
+          "requiredPrevious": "REL_CHAIN_CIVILIAN_BOND_STAGE_03",
+          "outcomes": [
+            "CONTINUE",
+            "PAUSE",
+            "RECOVERY",
+            "COMPLETE"
+          ]
+        }
+      ],
+      "continuationRequirements": [
+        "PARTICIPANTS_AVAILABLE",
+        "NO_CONTRADICTORY_ACTIVE_CHAIN"
+      ],
+      "failureRecovery": "Every failure branch produces a visible recovery or respectful ending path.",
+      "romanceOptional": false,
+      "friendshipCompletePath": true
+    }
+  ]
+}

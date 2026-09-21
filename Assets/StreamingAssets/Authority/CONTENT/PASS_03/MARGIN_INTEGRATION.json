@@ -1,0 +1,62 @@
+{
+  "contentVersion": "GOW_PASS03_0.8",
+  "id": "MARGIN_RULESET_GATEWORKS_V1",
+  "eligibleBoardProfiles": [
+    "BOARD_SHORT",
+    "BOARD_NORMAL",
+    "BOARD_LONG",
+    "BOARD_STORY",
+    "BOARD_BOSS"
+  ],
+  "placement": {
+    "exactCount": 1,
+    "candidateAnchorRule": "Choose a noncritical, non-boss, non-objective normal node after the visible graph is valid.",
+    "edgeType": "PRIVATE_AUTHOR",
+    "cannotBeRequired": true,
+    "cannotBlockExit": true,
+    "cannotReplaceOrdinarySecret": true,
+    "coordinateRule": "Place outside normal board bounds with a deterministic unique coordinate.",
+    "seedParts": [
+      "campaignSeed",
+      "contractOrdinal",
+      "boardProfileId",
+      "contentVersion",
+      "MARGIN"
+    ]
+  },
+  "authorization": {
+    "acceptedClaims": [
+      "AUTHOR",
+      "VAULTBEARER"
+    ],
+    "verification": "OFFLINE_SIGNATURE_VERIFICATION_USING_PUBLIC_KEY_ONLY",
+    "privateSigningSecretIncluded": false,
+    "publicCodesAuthorize": false,
+    "mangaCodesAuthorize": false,
+    "developerTestClaim": "DEV_SIGNED_TEST_ONLY",
+    "unauthorizedBehavior": "The wall remains ordinary, has no interaction prompt, and reveals no missing completion."
+  },
+  "presentation": {
+    "concealment": "Ordinary basalt-and-brass wall matching the adjacent node.",
+    "entranceAnimation": "The wall folds apart like a page removed from the world, without damaging surrounding masonry.",
+    "gateworksAppearance": "An impossible quiet workshop beyond the map, containing suspended drafts, the Unwritten Arsenal, and a dormant Redactor’s Forge.",
+    "minimapVisible": false,
+    "countsTowardCompletion": false,
+    "enemyPathfinding": false
+  },
+  "statePersistence": {
+    "fields": [
+      "marginNodeId",
+      "anchorNodeId",
+      "authorizedRevealed",
+      "opened",
+      "looted",
+      "forgeUsed",
+      "contentSeed"
+    ],
+    "saveLoadExact": true,
+    "revisitBehavior": "Opened state persists for the ContractInstance; regenerated contracts receive a new deterministic Margin.",
+    "lootDuplicationPrevented": true
+  },
+  "securityBoundary": "No private key, owner token, or real signing secret may enter the public repository, design package, manga, or executable content."
+}

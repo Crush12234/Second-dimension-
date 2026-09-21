@@ -1,0 +1,977 @@
+{
+  "contentVersion": "PASS02_ADV_0.7",
+  "advancedClasses": [
+    {
+      "id": "ADV_BASTION_CAPTAIN",
+      "displayName": "Bastion Captain",
+      "baseClassEligibility": [
+        "CLASS_GUARDIAN"
+      ],
+      "crossClassEligibility": true,
+      "requiredProficiency": {
+        "Guard": 45,
+        "Tactical": 30
+      },
+      "requiredUnionDisciplineRanks": {
+        "Guard": 3,
+        "Tactical": 2
+      },
+      "requiredArts": [
+        "any_2_guard_arts",
+        "any_1_tactical_art"
+      ],
+      "requiredMeaningfulBehaviors": [
+        "6 meaningful Guard actions",
+        "4 meaningful Tactical actions"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "relationshipMentorshipEventRequirements": [],
+      "excludedContradictions": [
+        "cannot qualify through zero-effect spam"
+      ],
+      "classIdentity": "Guard/Tactical behavioral specialization",
+      "statTendencies": {
+        "Guard": 12,
+        "Tactical": 8
+      },
+      "equipmentAccess": "base access plus route-specific certification",
+      "forecastInfluence": {
+        "GUARD": 125,
+        "TACTICAL": 115
+      },
+      "newArtPools": [
+        "route-specific advanced Arts reserved for later content expansion"
+      ],
+      "formationInteractions": [
+        "boosts Guard or Tactical aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "visualDevelopmentTags": [
+        "ADV_BASTION_CAPTAIN_OUTFIT"
+      ],
+      "balanceLimits": [
+        "route bonus shapes forecast weights; does not grant automatic action selection"
+      ]
+    },
+    {
+      "id": "ADV_WARD_SENTINEL",
+      "displayName": "Ward Sentinel",
+      "baseClassEligibility": [
+        "CLASS_GUARDIAN"
+      ],
+      "crossClassEligibility": true,
+      "requiredProficiency": {
+        "Guard": 45,
+        "Mystic": 30
+      },
+      "requiredUnionDisciplineRanks": {
+        "Guard": 3,
+        "Mystic": 2
+      },
+      "requiredArts": [
+        "any_2_guard_arts",
+        "any_1_mystic_art"
+      ],
+      "requiredMeaningfulBehaviors": [
+        "6 meaningful Guard actions",
+        "4 meaningful Mystic actions"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "relationshipMentorshipEventRequirements": [],
+      "excludedContradictions": [
+        "cannot qualify through zero-effect spam"
+      ],
+      "classIdentity": "Guard/Mystic behavioral specialization",
+      "statTendencies": {
+        "Guard": 12,
+        "Mystic": 8
+      },
+      "equipmentAccess": "base access plus route-specific certification",
+      "forecastInfluence": {
+        "GUARD": 125,
+        "MYSTIC": 115
+      },
+      "newArtPools": [
+        "route-specific advanced Arts reserved for later content expansion"
+      ],
+      "formationInteractions": [
+        "boosts Guard or Mystic aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "visualDevelopmentTags": [
+        "ADV_WARD_SENTINEL_OUTFIT"
+      ],
+      "balanceLimits": [
+        "route bonus shapes forecast weights; does not grant automatic action selection"
+      ]
+    },
+    {
+      "id": "ADV_RESCUE_MARSHAL",
+      "displayName": "Rescue Marshal",
+      "baseClassEligibility": [
+        "CLASS_GUARDIAN"
+      ],
+      "crossClassEligibility": true,
+      "requiredProficiency": {
+        "Guard": 45,
+        "Restoration": 30
+      },
+      "requiredUnionDisciplineRanks": {
+        "Guard": 3,
+        "Restoration": 2
+      },
+      "requiredArts": [
+        "any_2_guard_arts",
+        "any_1_restoration_art"
+      ],
+      "requiredMeaningfulBehaviors": [
+        "6 meaningful Guard actions",
+        "4 meaningful Restoration actions"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "relationshipMentorshipEventRequirements": [],
+      "excludedContradictions": [
+        "cannot qualify through zero-effect spam"
+      ],
+      "classIdentity": "Guard/Restoration behavioral specialization",
+      "statTendencies": {
+        "Guard": 12,
+        "Restoration": 8
+      },
+      "equipmentAccess": "base access plus route-specific certification",
+      "forecastInfluence": {
+        "GUARD": 125,
+        "RESTORATION": 115
+      },
+      "newArtPools": [
+        "route-specific advanced Arts reserved for later content expansion"
+      ],
+      "formationInteractions": [
+        "boosts Guard or Restoration aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "visualDevelopmentTags": [
+        "ADV_RESCUE_MARSHAL_OUTFIT"
+      ],
+      "balanceLimits": [
+        "route bonus shapes forecast weights; does not grant automatic action selection"
+      ]
+    },
+    {
+      "id": "ADV_LINEBREAKER",
+      "displayName": "Linebreaker",
+      "baseClassEligibility": [
+        "CLASS_WARRIOR"
+      ],
+      "crossClassEligibility": true,
+      "requiredProficiency": {
+        "Martial": 45,
+        "Tactical": 30
+      },
+      "requiredUnionDisciplineRanks": {
+        "Martial": 3,
+        "Tactical": 2
+      },
+      "requiredArts": [
+        "any_2_martial_arts",
+        "any_1_tactical_art"
+      ],
+      "requiredMeaningfulBehaviors": [
+        "6 meaningful Martial actions",
+        "4 meaningful Tactical actions"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "relationshipMentorshipEventRequirements": [],
+      "excludedContradictions": [
+        "cannot qualify through zero-effect spam"
+      ],
+      "classIdentity": "Martial/Tactical behavioral specialization",
+      "statTendencies": {
+        "Martial": 12,
+        "Tactical": 8
+      },
+      "equipmentAccess": "base access plus route-specific certification",
+      "forecastInfluence": {
+        "MARTIAL": 125,
+        "TACTICAL": 115
+      },
+      "newArtPools": [
+        "route-specific advanced Arts reserved for later content expansion"
+      ],
+      "formationInteractions": [
+        "boosts Martial or Tactical aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "visualDevelopmentTags": [
+        "ADV_LINEBREAKER_OUTFIT"
+      ],
+      "balanceLimits": [
+        "route bonus shapes forecast weights; does not grant automatic action selection"
+      ]
+    },
+    {
+      "id": "ADV_DUEL_CAPTAIN",
+      "displayName": "Duel Captain",
+      "baseClassEligibility": [
+        "CLASS_WARRIOR"
+      ],
+      "crossClassEligibility": true,
+      "requiredProficiency": {
+        "Martial": 45,
+        "Guard": 30
+      },
+      "requiredUnionDisciplineRanks": {
+        "Martial": 3,
+        "Guard": 2
+      },
+      "requiredArts": [
+        "any_2_martial_arts",
+        "any_1_guard_art"
+      ],
+      "requiredMeaningfulBehaviors": [
+        "6 meaningful Martial actions",
+        "4 meaningful Guard actions"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "relationshipMentorshipEventRequirements": [],
+      "excludedContradictions": [
+        "cannot qualify through zero-effect spam"
+      ],
+      "classIdentity": "Martial/Guard behavioral specialization",
+      "statTendencies": {
+        "Martial": 12,
+        "Guard": 8
+      },
+      "equipmentAccess": "base access plus route-specific certification",
+      "forecastInfluence": {
+        "MARTIAL": 125,
+        "GUARD": 115
+      },
+      "newArtPools": [
+        "route-specific advanced Arts reserved for later content expansion"
+      ],
+      "formationInteractions": [
+        "boosts Martial or Guard aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "visualDevelopmentTags": [
+        "ADV_DUEL_CAPTAIN_OUTFIT"
+      ],
+      "balanceLimits": [
+        "route bonus shapes forecast weights; does not grant automatic action selection"
+      ]
+    },
+    {
+      "id": "ADV_SPELL_EDGE",
+      "displayName": "Spell Edge",
+      "baseClassEligibility": [
+        "CLASS_WARRIOR"
+      ],
+      "crossClassEligibility": true,
+      "requiredProficiency": {
+        "Martial": 45,
+        "Mystic": 30
+      },
+      "requiredUnionDisciplineRanks": {
+        "Martial": 3,
+        "Mystic": 2
+      },
+      "requiredArts": [
+        "any_2_martial_arts",
+        "any_1_mystic_art"
+      ],
+      "requiredMeaningfulBehaviors": [
+        "6 meaningful Martial actions",
+        "4 meaningful Mystic actions"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "relationshipMentorshipEventRequirements": [],
+      "excludedContradictions": [
+        "cannot qualify through zero-effect spam"
+      ],
+      "classIdentity": "Martial/Mystic behavioral specialization",
+      "statTendencies": {
+        "Martial": 12,
+        "Mystic": 8
+      },
+      "equipmentAccess": "base access plus route-specific certification",
+      "forecastInfluence": {
+        "MARTIAL": 125,
+        "MYSTIC": 115
+      },
+      "newArtPools": [
+        "route-specific advanced Arts reserved for later content expansion"
+      ],
+      "formationInteractions": [
+        "boosts Martial or Mystic aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "visualDevelopmentTags": [
+        "ADV_SPELL_EDGE_OUTFIT"
+      ],
+      "balanceLimits": [
+        "route bonus shapes forecast weights; does not grant automatic action selection"
+      ]
+    },
+    {
+      "id": "ADV_STORM_MARKSMAN",
+      "displayName": "Storm Marksman",
+      "baseClassEligibility": [
+        "CLASS_RANGER"
+      ],
+      "crossClassEligibility": true,
+      "requiredProficiency": {
+        "Tactical": 45,
+        "Martial": 30
+      },
+      "requiredUnionDisciplineRanks": {
+        "Tactical": 3,
+        "Martial": 2
+      },
+      "requiredArts": [
+        "any_2_tactical_arts",
+        "any_1_martial_art"
+      ],
+      "requiredMeaningfulBehaviors": [
+        "6 meaningful Tactical actions",
+        "4 meaningful Martial actions"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "relationshipMentorshipEventRequirements": [],
+      "excludedContradictions": [
+        "cannot qualify through zero-effect spam"
+      ],
+      "classIdentity": "Tactical/Martial behavioral specialization",
+      "statTendencies": {
+        "Tactical": 12,
+        "Martial": 8
+      },
+      "equipmentAccess": "base access plus route-specific certification",
+      "forecastInfluence": {
+        "TACTICAL": 125,
+        "MARTIAL": 115
+      },
+      "newArtPools": [
+        "route-specific advanced Arts reserved for later content expansion"
+      ],
+      "formationInteractions": [
+        "boosts Tactical or Martial aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "visualDevelopmentTags": [
+        "ADV_STORM_MARKSMAN_OUTFIT"
+      ],
+      "balanceLimits": [
+        "route bonus shapes forecast weights; does not grant automatic action selection"
+      ]
+    },
+    {
+      "id": "ADV_PATHFINDER_CAPTAIN",
+      "displayName": "Pathfinder Captain",
+      "baseClassEligibility": [
+        "CLASS_RANGER"
+      ],
+      "crossClassEligibility": true,
+      "requiredProficiency": {
+        "Tactical": 45,
+        "Support": 30
+      },
+      "requiredUnionDisciplineRanks": {
+        "Tactical": 3,
+        "Support": 2
+      },
+      "requiredArts": [
+        "any_2_tactical_arts",
+        "any_1_support_art"
+      ],
+      "requiredMeaningfulBehaviors": [
+        "6 meaningful Tactical actions",
+        "4 meaningful Support actions"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "relationshipMentorshipEventRequirements": [],
+      "excludedContradictions": [
+        "cannot qualify through zero-effect spam"
+      ],
+      "classIdentity": "Tactical/Support behavioral specialization",
+      "statTendencies": {
+        "Tactical": 12,
+        "Support": 8
+      },
+      "equipmentAccess": "base access plus route-specific certification",
+      "forecastInfluence": {
+        "TACTICAL": 125,
+        "SUPPORT": 115
+      },
+      "newArtPools": [
+        "route-specific advanced Arts reserved for later content expansion"
+      ],
+      "formationInteractions": [
+        "boosts Tactical or Support aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "visualDevelopmentTags": [
+        "ADV_PATHFINDER_CAPTAIN_OUTFIT"
+      ],
+      "balanceLimits": [
+        "route bonus shapes forecast weights; does not grant automatic action selection"
+      ]
+    },
+    {
+      "id": "ADV_ARCANE_ARCHER",
+      "displayName": "Arcane Archer",
+      "baseClassEligibility": [
+        "CLASS_RANGER"
+      ],
+      "crossClassEligibility": true,
+      "requiredProficiency": {
+        "Tactical": 45,
+        "Mystic": 30
+      },
+      "requiredUnionDisciplineRanks": {
+        "Tactical": 3,
+        "Mystic": 2
+      },
+      "requiredArts": [
+        "any_2_tactical_arts",
+        "any_1_mystic_art"
+      ],
+      "requiredMeaningfulBehaviors": [
+        "6 meaningful Tactical actions",
+        "4 meaningful Mystic actions"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "relationshipMentorshipEventRequirements": [],
+      "excludedContradictions": [
+        "cannot qualify through zero-effect spam"
+      ],
+      "classIdentity": "Tactical/Mystic behavioral specialization",
+      "statTendencies": {
+        "Tactical": 12,
+        "Mystic": 8
+      },
+      "equipmentAccess": "base access plus route-specific certification",
+      "forecastInfluence": {
+        "TACTICAL": 125,
+        "MYSTIC": 115
+      },
+      "newArtPools": [
+        "route-specific advanced Arts reserved for later content expansion"
+      ],
+      "formationInteractions": [
+        "boosts Tactical or Mystic aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "visualDevelopmentTags": [
+        "ADV_ARCANE_ARCHER_OUTFIT"
+      ],
+      "balanceLimits": [
+        "route bonus shapes forecast weights; does not grant automatic action selection"
+      ]
+    },
+    {
+      "id": "ADV_DUSK_OPERATIVE",
+      "displayName": "Dusk Operative",
+      "baseClassEligibility": [
+        "CLASS_ROGUE"
+      ],
+      "crossClassEligibility": true,
+      "requiredProficiency": {
+        "Tactical": 45,
+        "Support": 30
+      },
+      "requiredUnionDisciplineRanks": {
+        "Tactical": 3,
+        "Support": 2
+      },
+      "requiredArts": [
+        "any_2_tactical_arts",
+        "any_1_support_art"
+      ],
+      "requiredMeaningfulBehaviors": [
+        "6 meaningful Tactical actions",
+        "4 meaningful Support actions"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "relationshipMentorshipEventRequirements": [],
+      "excludedContradictions": [
+        "cannot qualify through zero-effect spam"
+      ],
+      "classIdentity": "Tactical/Support behavioral specialization",
+      "statTendencies": {
+        "Tactical": 12,
+        "Support": 8
+      },
+      "equipmentAccess": "base access plus route-specific certification",
+      "forecastInfluence": {
+        "TACTICAL": 125,
+        "SUPPORT": 115
+      },
+      "newArtPools": [
+        "route-specific advanced Arts reserved for later content expansion"
+      ],
+      "formationInteractions": [
+        "boosts Tactical or Support aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "visualDevelopmentTags": [
+        "ADV_DUSK_OPERATIVE_OUTFIT"
+      ],
+      "balanceLimits": [
+        "route bonus shapes forecast weights; does not grant automatic action selection"
+      ]
+    },
+    {
+      "id": "ADV_REARLINE_HUNTER",
+      "displayName": "Rearline Hunter",
+      "baseClassEligibility": [
+        "CLASS_ROGUE"
+      ],
+      "crossClassEligibility": true,
+      "requiredProficiency": {
+        "Tactical": 45,
+        "Martial": 30
+      },
+      "requiredUnionDisciplineRanks": {
+        "Tactical": 3,
+        "Martial": 2
+      },
+      "requiredArts": [
+        "any_2_tactical_arts",
+        "any_1_martial_art"
+      ],
+      "requiredMeaningfulBehaviors": [
+        "6 meaningful Tactical actions",
+        "4 meaningful Martial actions"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "relationshipMentorshipEventRequirements": [],
+      "excludedContradictions": [
+        "cannot qualify through zero-effect spam"
+      ],
+      "classIdentity": "Tactical/Martial behavioral specialization",
+      "statTendencies": {
+        "Tactical": 12,
+        "Martial": 8
+      },
+      "equipmentAccess": "base access plus route-specific certification",
+      "forecastInfluence": {
+        "TACTICAL": 125,
+        "MARTIAL": 115
+      },
+      "newArtPools": [
+        "route-specific advanced Arts reserved for later content expansion"
+      ],
+      "formationInteractions": [
+        "boosts Tactical or Martial aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "visualDevelopmentTags": [
+        "ADV_REARLINE_HUNTER_OUTFIT"
+      ],
+      "balanceLimits": [
+        "route bonus shapes forecast weights; does not grant automatic action selection"
+      ]
+    },
+    {
+      "id": "ADV_HEX_KNIFE",
+      "displayName": "Hex Knife",
+      "baseClassEligibility": [
+        "CLASS_ROGUE"
+      ],
+      "crossClassEligibility": true,
+      "requiredProficiency": {
+        "Tactical": 45,
+        "Mystic": 30
+      },
+      "requiredUnionDisciplineRanks": {
+        "Tactical": 3,
+        "Mystic": 2
+      },
+      "requiredArts": [
+        "any_2_tactical_arts",
+        "any_1_mystic_art"
+      ],
+      "requiredMeaningfulBehaviors": [
+        "6 meaningful Tactical actions",
+        "4 meaningful Mystic actions"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "relationshipMentorshipEventRequirements": [],
+      "excludedContradictions": [
+        "cannot qualify through zero-effect spam"
+      ],
+      "classIdentity": "Tactical/Mystic behavioral specialization",
+      "statTendencies": {
+        "Tactical": 12,
+        "Mystic": 8
+      },
+      "equipmentAccess": "base access plus route-specific certification",
+      "forecastInfluence": {
+        "TACTICAL": 125,
+        "MYSTIC": 115
+      },
+      "newArtPools": [
+        "route-specific advanced Arts reserved for later content expansion"
+      ],
+      "formationInteractions": [
+        "boosts Tactical or Mystic aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "visualDevelopmentTags": [
+        "ADV_HEX_KNIFE_OUTFIT"
+      ],
+      "balanceLimits": [
+        "route bonus shapes forecast weights; does not grant automatic action selection"
+      ]
+    },
+    {
+      "id": "ADV_FIELD_ARCANIST",
+      "displayName": "Field Arcanist",
+      "baseClassEligibility": [
+        "CLASS_MAGE"
+      ],
+      "crossClassEligibility": true,
+      "requiredProficiency": {
+        "Mystic": 45,
+        "Tactical": 30
+      },
+      "requiredUnionDisciplineRanks": {
+        "Mystic": 3,
+        "Tactical": 2
+      },
+      "requiredArts": [
+        "any_2_mystic_arts",
+        "any_1_tactical_art"
+      ],
+      "requiredMeaningfulBehaviors": [
+        "6 meaningful Mystic actions",
+        "4 meaningful Tactical actions"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "relationshipMentorshipEventRequirements": [],
+      "excludedContradictions": [
+        "cannot qualify through zero-effect spam"
+      ],
+      "classIdentity": "Mystic/Tactical behavioral specialization",
+      "statTendencies": {
+        "Mystic": 12,
+        "Tactical": 8
+      },
+      "equipmentAccess": "base access plus route-specific certification",
+      "forecastInfluence": {
+        "MYSTIC": 125,
+        "TACTICAL": 115
+      },
+      "newArtPools": [
+        "route-specific advanced Arts reserved for later content expansion"
+      ],
+      "formationInteractions": [
+        "boosts Mystic or Tactical aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "visualDevelopmentTags": [
+        "ADV_FIELD_ARCANIST_OUTFIT"
+      ],
+      "balanceLimits": [
+        "route bonus shapes forecast weights; does not grant automatic action selection"
+      ]
+    },
+    {
+      "id": "ADV_WARD_SCHOLAR",
+      "displayName": "Ward Scholar",
+      "baseClassEligibility": [
+        "CLASS_MAGE"
+      ],
+      "crossClassEligibility": true,
+      "requiredProficiency": {
+        "Mystic": 45,
+        "Guard": 30
+      },
+      "requiredUnionDisciplineRanks": {
+        "Mystic": 3,
+        "Guard": 2
+      },
+      "requiredArts": [
+        "any_2_mystic_arts",
+        "any_1_guard_art"
+      ],
+      "requiredMeaningfulBehaviors": [
+        "6 meaningful Mystic actions",
+        "4 meaningful Guard actions"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "relationshipMentorshipEventRequirements": [],
+      "excludedContradictions": [
+        "cannot qualify through zero-effect spam"
+      ],
+      "classIdentity": "Mystic/Guard behavioral specialization",
+      "statTendencies": {
+        "Mystic": 12,
+        "Guard": 8
+      },
+      "equipmentAccess": "base access plus route-specific certification",
+      "forecastInfluence": {
+        "MYSTIC": 125,
+        "GUARD": 115
+      },
+      "newArtPools": [
+        "route-specific advanced Arts reserved for later content expansion"
+      ],
+      "formationInteractions": [
+        "boosts Mystic or Guard aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "visualDevelopmentTags": [
+        "ADV_WARD_SCHOLAR_OUTFIT"
+      ],
+      "balanceLimits": [
+        "route bonus shapes forecast weights; does not grant automatic action selection"
+      ]
+    },
+    {
+      "id": "ADV_BATTLE_MYSTIC",
+      "displayName": "Battle Mystic",
+      "baseClassEligibility": [
+        "CLASS_MAGE"
+      ],
+      "crossClassEligibility": true,
+      "requiredProficiency": {
+        "Mystic": 45,
+        "Martial": 30
+      },
+      "requiredUnionDisciplineRanks": {
+        "Mystic": 3,
+        "Martial": 2
+      },
+      "requiredArts": [
+        "any_2_mystic_arts",
+        "any_1_martial_art"
+      ],
+      "requiredMeaningfulBehaviors": [
+        "6 meaningful Mystic actions",
+        "4 meaningful Martial actions"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "relationshipMentorshipEventRequirements": [],
+      "excludedContradictions": [
+        "cannot qualify through zero-effect spam"
+      ],
+      "classIdentity": "Mystic/Martial behavioral specialization",
+      "statTendencies": {
+        "Mystic": 12,
+        "Martial": 8
+      },
+      "equipmentAccess": "base access plus route-specific certification",
+      "forecastInfluence": {
+        "MYSTIC": 125,
+        "MARTIAL": 115
+      },
+      "newArtPools": [
+        "route-specific advanced Arts reserved for later content expansion"
+      ],
+      "formationInteractions": [
+        "boosts Mystic or Martial aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "visualDevelopmentTags": [
+        "ADV_BATTLE_MYSTIC_OUTFIT"
+      ],
+      "balanceLimits": [
+        "route bonus shapes forecast weights; does not grant automatic action selection"
+      ]
+    },
+    {
+      "id": "ADV_LIFEBINDER",
+      "displayName": "Lifebinder",
+      "baseClassEligibility": [
+        "CLASS_PRIEST"
+      ],
+      "crossClassEligibility": true,
+      "requiredProficiency": {
+        "Restoration": 45,
+        "Support": 30
+      },
+      "requiredUnionDisciplineRanks": {
+        "Restoration": 3,
+        "Support": 2
+      },
+      "requiredArts": [
+        "any_2_restoration_arts",
+        "any_1_support_art"
+      ],
+      "requiredMeaningfulBehaviors": [
+        "6 meaningful Restoration actions",
+        "4 meaningful Support actions"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "relationshipMentorshipEventRequirements": [],
+      "excludedContradictions": [
+        "cannot qualify through zero-effect spam"
+      ],
+      "classIdentity": "Restoration/Support behavioral specialization",
+      "statTendencies": {
+        "Restoration": 12,
+        "Support": 8
+      },
+      "equipmentAccess": "base access plus route-specific certification",
+      "forecastInfluence": {
+        "RESTORATION": 125,
+        "SUPPORT": 115
+      },
+      "newArtPools": [
+        "route-specific advanced Arts reserved for later content expansion"
+      ],
+      "formationInteractions": [
+        "boosts Restoration or Support aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "visualDevelopmentTags": [
+        "ADV_LIFEBINDER_OUTFIT"
+      ],
+      "balanceLimits": [
+        "route bonus shapes forecast weights; does not grant automatic action selection"
+      ]
+    },
+    {
+      "id": "ADV_SANCTUARY_KEEPER",
+      "displayName": "Sanctuary Keeper",
+      "baseClassEligibility": [
+        "CLASS_PRIEST"
+      ],
+      "crossClassEligibility": true,
+      "requiredProficiency": {
+        "Restoration": 45,
+        "Guard": 30
+      },
+      "requiredUnionDisciplineRanks": {
+        "Restoration": 3,
+        "Guard": 2
+      },
+      "requiredArts": [
+        "any_2_restoration_arts",
+        "any_1_guard_art"
+      ],
+      "requiredMeaningfulBehaviors": [
+        "6 meaningful Restoration actions",
+        "4 meaningful Guard actions"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "relationshipMentorshipEventRequirements": [],
+      "excludedContradictions": [
+        "cannot qualify through zero-effect spam"
+      ],
+      "classIdentity": "Restoration/Guard behavioral specialization",
+      "statTendencies": {
+        "Restoration": 12,
+        "Guard": 8
+      },
+      "equipmentAccess": "base access plus route-specific certification",
+      "forecastInfluence": {
+        "RESTORATION": 125,
+        "GUARD": 115
+      },
+      "newArtPools": [
+        "route-specific advanced Arts reserved for later content expansion"
+      ],
+      "formationInteractions": [
+        "boosts Restoration or Guard aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "visualDevelopmentTags": [
+        "ADV_SANCTUARY_KEEPER_OUTFIT"
+      ],
+      "balanceLimits": [
+        "route bonus shapes forecast weights; does not grant automatic action selection"
+      ]
+    },
+    {
+      "id": "ADV_BATTLE_CHAPLAIN",
+      "displayName": "Battle Chaplain",
+      "baseClassEligibility": [
+        "CLASS_PRIEST"
+      ],
+      "crossClassEligibility": true,
+      "requiredProficiency": {
+        "Restoration": 45,
+        "Martial": 30
+      },
+      "requiredUnionDisciplineRanks": {
+        "Restoration": 3,
+        "Martial": 2
+      },
+      "requiredArts": [
+        "any_2_restoration_arts",
+        "any_1_martial_art"
+      ],
+      "requiredMeaningfulBehaviors": [
+        "6 meaningful Restoration actions",
+        "4 meaningful Martial actions"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "relationshipMentorshipEventRequirements": [],
+      "excludedContradictions": [
+        "cannot qualify through zero-effect spam"
+      ],
+      "classIdentity": "Restoration/Martial behavioral specialization",
+      "statTendencies": {
+        "Restoration": 12,
+        "Martial": 8
+      },
+      "equipmentAccess": "base access plus route-specific certification",
+      "forecastInfluence": {
+        "RESTORATION": 125,
+        "MARTIAL": 115
+      },
+      "newArtPools": [
+        "route-specific advanced Arts reserved for later content expansion"
+      ],
+      "formationInteractions": [
+        "boosts Restoration or Martial aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "visualDevelopmentTags": [
+        "ADV_BATTLE_CHAPLAIN_OUTFIT"
+      ],
+      "balanceLimits": [
+        "route bonus shapes forecast weights; does not grant automatic action selection"
+      ]
+    }
+  ]
+}

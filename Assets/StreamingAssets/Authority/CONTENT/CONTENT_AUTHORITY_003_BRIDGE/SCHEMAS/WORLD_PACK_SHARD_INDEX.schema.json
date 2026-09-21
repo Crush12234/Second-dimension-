@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "World Pack Shard Index",
+  "type": "object",
+  "required": [
+    "contentVersion",
+    "worldPackShards"
+  ],
+  "properties": {
+    "contentVersion": {
+      "type": "string"
+    },
+    "worldPackShards": {
+      "type": "array",
+      "minItems": 30,
+      "maxItems": 30
+    }
+  },
+  "additionalProperties": true
+}

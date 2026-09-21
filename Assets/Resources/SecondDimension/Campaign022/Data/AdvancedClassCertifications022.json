@@ -1,0 +1,1080 @@
+{
+  "classes": [
+    {
+      "classId": "ADV_BASTION_CAPTAIN",
+      "displayName": "Bastion Captain",
+      "baseClassEligibility": [
+        "CLASS_GUARDIAN",
+        "CLASS_TACTICIAN"
+      ],
+      "crossClassEligibility": true,
+      "primaryDiscipline": "Guard",
+      "primaryProficiencyRequired": 45,
+      "secondaryDiscipline": "Tactical",
+      "secondaryProficiencyRequired": 30,
+      "primaryUnionRankRequired": 3,
+      "secondaryUnionRankRequired": 2,
+      "meaningfulPrimaryActionsRequired": 6,
+      "meaningfulSecondaryActionsRequired": 4,
+      "requiredArts": [
+        "any_2_guard_arts",
+        "any_1_tactical_art"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "forecastInfluence": {
+        "GUARD": 125,
+        "TACTICAL": 115
+      },
+      "formationInteractions": [
+        "boosts Guard or Tactical aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "zeroEffectSpamForbidden": true,
+      "certificationFacility": "FACILITY_TRAINING_HALL",
+      "respecConsumesEarnedXpNotRealTime": true
+    },
+    {
+      "classId": "ADV_WARD_SENTINEL",
+      "displayName": "Ward Sentinel",
+      "baseClassEligibility": [
+        "CLASS_GUARDIAN",
+        "CLASS_WARDEN"
+      ],
+      "crossClassEligibility": true,
+      "primaryDiscipline": "Guard",
+      "primaryProficiencyRequired": 45,
+      "secondaryDiscipline": "Mystic",
+      "secondaryProficiencyRequired": 30,
+      "primaryUnionRankRequired": 3,
+      "secondaryUnionRankRequired": 2,
+      "meaningfulPrimaryActionsRequired": 6,
+      "meaningfulSecondaryActionsRequired": 4,
+      "requiredArts": [
+        "any_2_guard_arts",
+        "any_1_mystic_art"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "forecastInfluence": {
+        "GUARD": 125,
+        "MYSTIC": 115
+      },
+      "formationInteractions": [
+        "boosts Guard or Mystic aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "zeroEffectSpamForbidden": true,
+      "certificationFacility": "FACILITY_TRAINING_HALL",
+      "respecConsumesEarnedXpNotRealTime": true
+    },
+    {
+      "classId": "ADV_RESCUE_MARSHAL",
+      "displayName": "Rescue Marshal",
+      "baseClassEligibility": [
+        "CLASS_GUARDIAN",
+        "CLASS_WARDEN"
+      ],
+      "crossClassEligibility": true,
+      "primaryDiscipline": "Guard",
+      "primaryProficiencyRequired": 45,
+      "secondaryDiscipline": "Restoration",
+      "secondaryProficiencyRequired": 30,
+      "primaryUnionRankRequired": 3,
+      "secondaryUnionRankRequired": 2,
+      "meaningfulPrimaryActionsRequired": 6,
+      "meaningfulSecondaryActionsRequired": 4,
+      "requiredArts": [
+        "any_2_guard_arts",
+        "any_1_restoration_art"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "forecastInfluence": {
+        "GUARD": 125,
+        "RESTORATION": 115
+      },
+      "formationInteractions": [
+        "boosts Guard or Restoration aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "zeroEffectSpamForbidden": true,
+      "certificationFacility": "FACILITY_TRAINING_HALL",
+      "respecConsumesEarnedXpNotRealTime": true
+    },
+    {
+      "classId": "ADV_LINEBREAKER",
+      "displayName": "Linebreaker",
+      "baseClassEligibility": [
+        "CLASS_BERSERKER",
+        "CLASS_WARRIOR"
+      ],
+      "crossClassEligibility": true,
+      "primaryDiscipline": "Martial",
+      "primaryProficiencyRequired": 45,
+      "secondaryDiscipline": "Tactical",
+      "secondaryProficiencyRequired": 30,
+      "primaryUnionRankRequired": 3,
+      "secondaryUnionRankRequired": 2,
+      "meaningfulPrimaryActionsRequired": 6,
+      "meaningfulSecondaryActionsRequired": 4,
+      "requiredArts": [
+        "any_2_martial_arts",
+        "any_1_tactical_art"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "forecastInfluence": {
+        "MARTIAL": 125,
+        "TACTICAL": 115
+      },
+      "formationInteractions": [
+        "boosts Martial or Tactical aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "zeroEffectSpamForbidden": true,
+      "certificationFacility": "FACILITY_TRAINING_HALL",
+      "respecConsumesEarnedXpNotRealTime": true
+    },
+    {
+      "classId": "ADV_DUEL_CAPTAIN",
+      "displayName": "Duel Captain",
+      "baseClassEligibility": [
+        "CLASS_BERSERKER",
+        "CLASS_WARRIOR"
+      ],
+      "crossClassEligibility": true,
+      "primaryDiscipline": "Martial",
+      "primaryProficiencyRequired": 45,
+      "secondaryDiscipline": "Guard",
+      "secondaryProficiencyRequired": 30,
+      "primaryUnionRankRequired": 3,
+      "secondaryUnionRankRequired": 2,
+      "meaningfulPrimaryActionsRequired": 6,
+      "meaningfulSecondaryActionsRequired": 4,
+      "requiredArts": [
+        "any_2_martial_arts",
+        "any_1_guard_art"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "forecastInfluence": {
+        "MARTIAL": 125,
+        "GUARD": 115
+      },
+      "formationInteractions": [
+        "boosts Martial or Guard aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "zeroEffectSpamForbidden": true,
+      "certificationFacility": "FACILITY_TRAINING_HALL",
+      "respecConsumesEarnedXpNotRealTime": true
+    },
+    {
+      "classId": "ADV_SPELL_EDGE",
+      "displayName": "Spell Edge",
+      "baseClassEligibility": [
+        "CLASS_SPELLBLADE",
+        "CLASS_WARRIOR"
+      ],
+      "crossClassEligibility": true,
+      "primaryDiscipline": "Martial",
+      "primaryProficiencyRequired": 45,
+      "secondaryDiscipline": "Mystic",
+      "secondaryProficiencyRequired": 30,
+      "primaryUnionRankRequired": 3,
+      "secondaryUnionRankRequired": 2,
+      "meaningfulPrimaryActionsRequired": 6,
+      "meaningfulSecondaryActionsRequired": 4,
+      "requiredArts": [
+        "any_2_martial_arts",
+        "any_1_mystic_art"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "forecastInfluence": {
+        "MARTIAL": 125,
+        "MYSTIC": 115
+      },
+      "formationInteractions": [
+        "boosts Martial or Mystic aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "zeroEffectSpamForbidden": true,
+      "certificationFacility": "FACILITY_TRAINING_HALL",
+      "respecConsumesEarnedXpNotRealTime": true
+    },
+    {
+      "classId": "ADV_STORM_MARKSMAN",
+      "displayName": "Storm Marksman",
+      "baseClassEligibility": [
+        "CLASS_RANGER"
+      ],
+      "crossClassEligibility": true,
+      "primaryDiscipline": "Tactical",
+      "primaryProficiencyRequired": 45,
+      "secondaryDiscipline": "Martial",
+      "secondaryProficiencyRequired": 30,
+      "primaryUnionRankRequired": 3,
+      "secondaryUnionRankRequired": 2,
+      "meaningfulPrimaryActionsRequired": 6,
+      "meaningfulSecondaryActionsRequired": 4,
+      "requiredArts": [
+        "any_2_tactical_arts",
+        "any_1_martial_art"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "forecastInfluence": {
+        "TACTICAL": 125,
+        "MARTIAL": 115
+      },
+      "formationInteractions": [
+        "boosts Tactical or Martial aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "zeroEffectSpamForbidden": true,
+      "certificationFacility": "FACILITY_TRAINING_HALL",
+      "respecConsumesEarnedXpNotRealTime": true
+    },
+    {
+      "classId": "ADV_PATHFINDER_CAPTAIN",
+      "displayName": "Pathfinder Captain",
+      "baseClassEligibility": [
+        "CLASS_RANGER",
+        "CLASS_TACTICIAN"
+      ],
+      "crossClassEligibility": true,
+      "primaryDiscipline": "Tactical",
+      "primaryProficiencyRequired": 45,
+      "secondaryDiscipline": "Support",
+      "secondaryProficiencyRequired": 30,
+      "primaryUnionRankRequired": 3,
+      "secondaryUnionRankRequired": 2,
+      "meaningfulPrimaryActionsRequired": 6,
+      "meaningfulSecondaryActionsRequired": 4,
+      "requiredArts": [
+        "any_2_tactical_arts",
+        "any_1_support_art"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "forecastInfluence": {
+        "TACTICAL": 125,
+        "SUPPORT": 115
+      },
+      "formationInteractions": [
+        "boosts Tactical or Support aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "zeroEffectSpamForbidden": true,
+      "certificationFacility": "FACILITY_TRAINING_HALL",
+      "respecConsumesEarnedXpNotRealTime": true
+    },
+    {
+      "classId": "ADV_ARCANE_ARCHER",
+      "displayName": "Arcane Archer",
+      "baseClassEligibility": [
+        "CLASS_RANGER"
+      ],
+      "crossClassEligibility": true,
+      "primaryDiscipline": "Tactical",
+      "primaryProficiencyRequired": 45,
+      "secondaryDiscipline": "Mystic",
+      "secondaryProficiencyRequired": 30,
+      "primaryUnionRankRequired": 3,
+      "secondaryUnionRankRequired": 2,
+      "meaningfulPrimaryActionsRequired": 6,
+      "meaningfulSecondaryActionsRequired": 4,
+      "requiredArts": [
+        "any_2_tactical_arts",
+        "any_1_mystic_art"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "forecastInfluence": {
+        "TACTICAL": 125,
+        "MYSTIC": 115
+      },
+      "formationInteractions": [
+        "boosts Tactical or Mystic aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "zeroEffectSpamForbidden": true,
+      "certificationFacility": "FACILITY_TRAINING_HALL",
+      "respecConsumesEarnedXpNotRealTime": true
+    },
+    {
+      "classId": "ADV_DUSK_OPERATIVE",
+      "displayName": "Dusk Operative",
+      "baseClassEligibility": [
+        "CLASS_ROGUE"
+      ],
+      "crossClassEligibility": true,
+      "primaryDiscipline": "Tactical",
+      "primaryProficiencyRequired": 45,
+      "secondaryDiscipline": "Support",
+      "secondaryProficiencyRequired": 30,
+      "primaryUnionRankRequired": 3,
+      "secondaryUnionRankRequired": 2,
+      "meaningfulPrimaryActionsRequired": 6,
+      "meaningfulSecondaryActionsRequired": 4,
+      "requiredArts": [
+        "any_2_tactical_arts",
+        "any_1_support_art"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "forecastInfluence": {
+        "TACTICAL": 125,
+        "SUPPORT": 115
+      },
+      "formationInteractions": [
+        "boosts Tactical or Support aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "zeroEffectSpamForbidden": true,
+      "certificationFacility": "FACILITY_TRAINING_HALL",
+      "respecConsumesEarnedXpNotRealTime": true
+    },
+    {
+      "classId": "ADV_REARLINE_HUNTER",
+      "displayName": "Rearline Hunter",
+      "baseClassEligibility": [
+        "CLASS_ROGUE"
+      ],
+      "crossClassEligibility": true,
+      "primaryDiscipline": "Tactical",
+      "primaryProficiencyRequired": 45,
+      "secondaryDiscipline": "Martial",
+      "secondaryProficiencyRequired": 30,
+      "primaryUnionRankRequired": 3,
+      "secondaryUnionRankRequired": 2,
+      "meaningfulPrimaryActionsRequired": 6,
+      "meaningfulSecondaryActionsRequired": 4,
+      "requiredArts": [
+        "any_2_tactical_arts",
+        "any_1_martial_art"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "forecastInfluence": {
+        "TACTICAL": 125,
+        "MARTIAL": 115
+      },
+      "formationInteractions": [
+        "boosts Tactical or Martial aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "zeroEffectSpamForbidden": true,
+      "certificationFacility": "FACILITY_TRAINING_HALL",
+      "respecConsumesEarnedXpNotRealTime": true
+    },
+    {
+      "classId": "ADV_HEX_KNIFE",
+      "displayName": "Hex Knife",
+      "baseClassEligibility": [
+        "CLASS_ROGUE",
+        "CLASS_SPELLBLADE"
+      ],
+      "crossClassEligibility": true,
+      "primaryDiscipline": "Tactical",
+      "primaryProficiencyRequired": 45,
+      "secondaryDiscipline": "Mystic",
+      "secondaryProficiencyRequired": 30,
+      "primaryUnionRankRequired": 3,
+      "secondaryUnionRankRequired": 2,
+      "meaningfulPrimaryActionsRequired": 6,
+      "meaningfulSecondaryActionsRequired": 4,
+      "requiredArts": [
+        "any_2_tactical_arts",
+        "any_1_mystic_art"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "forecastInfluence": {
+        "TACTICAL": 125,
+        "MYSTIC": 115
+      },
+      "formationInteractions": [
+        "boosts Tactical or Mystic aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "zeroEffectSpamForbidden": true,
+      "certificationFacility": "FACILITY_TRAINING_HALL",
+      "respecConsumesEarnedXpNotRealTime": true
+    },
+    {
+      "classId": "ADV_FIELD_ARCANIST",
+      "displayName": "Field Arcanist",
+      "baseClassEligibility": [
+        "CLASS_MAGE",
+        "CLASS_TACTICIAN"
+      ],
+      "crossClassEligibility": true,
+      "primaryDiscipline": "Mystic",
+      "primaryProficiencyRequired": 45,
+      "secondaryDiscipline": "Tactical",
+      "secondaryProficiencyRequired": 30,
+      "primaryUnionRankRequired": 3,
+      "secondaryUnionRankRequired": 2,
+      "meaningfulPrimaryActionsRequired": 6,
+      "meaningfulSecondaryActionsRequired": 4,
+      "requiredArts": [
+        "any_2_mystic_arts",
+        "any_1_tactical_art"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "forecastInfluence": {
+        "MYSTIC": 125,
+        "TACTICAL": 115
+      },
+      "formationInteractions": [
+        "boosts Mystic or Tactical aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "zeroEffectSpamForbidden": true,
+      "certificationFacility": "FACILITY_TRAINING_HALL",
+      "respecConsumesEarnedXpNotRealTime": true
+    },
+    {
+      "classId": "ADV_WARD_SCHOLAR",
+      "displayName": "Ward Scholar",
+      "baseClassEligibility": [
+        "CLASS_MAGE"
+      ],
+      "crossClassEligibility": true,
+      "primaryDiscipline": "Mystic",
+      "primaryProficiencyRequired": 45,
+      "secondaryDiscipline": "Guard",
+      "secondaryProficiencyRequired": 30,
+      "primaryUnionRankRequired": 3,
+      "secondaryUnionRankRequired": 2,
+      "meaningfulPrimaryActionsRequired": 6,
+      "meaningfulSecondaryActionsRequired": 4,
+      "requiredArts": [
+        "any_2_mystic_arts",
+        "any_1_guard_art"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "forecastInfluence": {
+        "MYSTIC": 125,
+        "GUARD": 115
+      },
+      "formationInteractions": [
+        "boosts Mystic or Guard aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "zeroEffectSpamForbidden": true,
+      "certificationFacility": "FACILITY_TRAINING_HALL",
+      "respecConsumesEarnedXpNotRealTime": true
+    },
+    {
+      "classId": "ADV_BATTLE_MYSTIC",
+      "displayName": "Battle Mystic",
+      "baseClassEligibility": [
+        "CLASS_BERSERKER",
+        "CLASS_MAGE",
+        "CLASS_SPELLBLADE"
+      ],
+      "crossClassEligibility": true,
+      "primaryDiscipline": "Mystic",
+      "primaryProficiencyRequired": 45,
+      "secondaryDiscipline": "Martial",
+      "secondaryProficiencyRequired": 30,
+      "primaryUnionRankRequired": 3,
+      "secondaryUnionRankRequired": 2,
+      "meaningfulPrimaryActionsRequired": 6,
+      "meaningfulSecondaryActionsRequired": 4,
+      "requiredArts": [
+        "any_2_mystic_arts",
+        "any_1_martial_art"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "forecastInfluence": {
+        "MYSTIC": 125,
+        "MARTIAL": 115
+      },
+      "formationInteractions": [
+        "boosts Mystic or Martial aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "zeroEffectSpamForbidden": true,
+      "certificationFacility": "FACILITY_TRAINING_HALL",
+      "respecConsumesEarnedXpNotRealTime": true
+    },
+    {
+      "classId": "ADV_LIFEBINDER",
+      "displayName": "Lifebinder",
+      "baseClassEligibility": [
+        "CLASS_PRIEST"
+      ],
+      "crossClassEligibility": true,
+      "primaryDiscipline": "Restoration",
+      "primaryProficiencyRequired": 45,
+      "secondaryDiscipline": "Support",
+      "secondaryProficiencyRequired": 30,
+      "primaryUnionRankRequired": 3,
+      "secondaryUnionRankRequired": 2,
+      "meaningfulPrimaryActionsRequired": 6,
+      "meaningfulSecondaryActionsRequired": 4,
+      "requiredArts": [
+        "any_2_restoration_arts",
+        "any_1_support_art"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "forecastInfluence": {
+        "RESTORATION": 125,
+        "SUPPORT": 115
+      },
+      "formationInteractions": [
+        "boosts Restoration or Support aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "zeroEffectSpamForbidden": true,
+      "certificationFacility": "FACILITY_TRAINING_HALL",
+      "respecConsumesEarnedXpNotRealTime": true
+    },
+    {
+      "classId": "ADV_SANCTUARY_KEEPER",
+      "displayName": "Sanctuary Keeper",
+      "baseClassEligibility": [
+        "CLASS_PRIEST",
+        "CLASS_WARDEN"
+      ],
+      "crossClassEligibility": true,
+      "primaryDiscipline": "Restoration",
+      "primaryProficiencyRequired": 45,
+      "secondaryDiscipline": "Guard",
+      "secondaryProficiencyRequired": 30,
+      "primaryUnionRankRequired": 3,
+      "secondaryUnionRankRequired": 2,
+      "meaningfulPrimaryActionsRequired": 6,
+      "meaningfulSecondaryActionsRequired": 4,
+      "requiredArts": [
+        "any_2_restoration_arts",
+        "any_1_guard_art"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "forecastInfluence": {
+        "RESTORATION": 125,
+        "GUARD": 115
+      },
+      "formationInteractions": [
+        "boosts Restoration or Guard aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "zeroEffectSpamForbidden": true,
+      "certificationFacility": "FACILITY_TRAINING_HALL",
+      "respecConsumesEarnedXpNotRealTime": true
+    },
+    {
+      "classId": "ADV_BATTLE_CHAPLAIN",
+      "displayName": "Battle Chaplain",
+      "baseClassEligibility": [
+        "CLASS_PRIEST"
+      ],
+      "crossClassEligibility": true,
+      "primaryDiscipline": "Restoration",
+      "primaryProficiencyRequired": 45,
+      "secondaryDiscipline": "Martial",
+      "secondaryProficiencyRequired": 30,
+      "primaryUnionRankRequired": 3,
+      "secondaryUnionRankRequired": 2,
+      "meaningfulPrimaryActionsRequired": 6,
+      "meaningfulSecondaryActionsRequired": 4,
+      "requiredArts": [
+        "any_2_restoration_arts",
+        "any_1_martial_art"
+      ],
+      "equipmentRequirements": [
+        "compatible class weapon or certified cross-training equipment"
+      ],
+      "forecastInfluence": {
+        "RESTORATION": 125,
+        "MARTIAL": 115
+      },
+      "formationInteractions": [
+        "boosts Restoration or Martial aligned formations"
+      ],
+      "branchRule": "reversible at guild training hall for XP cost; learned personal Arts remain if still legal to equip/use",
+      "zeroEffectSpamForbidden": true,
+      "certificationFacility": "FACILITY_TRAINING_HALL",
+      "respecConsumesEarnedXpNotRealTime": true
+    }
+  ],
+  "certificationPaths": [
+    {
+      "certificationId": "CERT022_GUARDIAN_01_BASTION_CAPTAIN",
+      "sourceClassId": "CLASS_GUARDIAN",
+      "sourceClassDisplayName": "Guardian",
+      "advancedClassId": "ADV_BASTION_CAPTAIN",
+      "advancedClassDisplayName": "Bastion Captain",
+      "primaryDiscipline": "Guard",
+      "secondaryDiscipline": "Tactical",
+      "trainingXpCost": 300,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_GUARDIAN_02_WARD_SENTINEL",
+      "sourceClassId": "CLASS_GUARDIAN",
+      "sourceClassDisplayName": "Guardian",
+      "advancedClassId": "ADV_WARD_SENTINEL",
+      "advancedClassDisplayName": "Ward Sentinel",
+      "primaryDiscipline": "Guard",
+      "secondaryDiscipline": "Mystic",
+      "trainingXpCost": 400,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_GUARDIAN_03_RESCUE_MARSHAL",
+      "sourceClassId": "CLASS_GUARDIAN",
+      "sourceClassDisplayName": "Guardian",
+      "advancedClassId": "ADV_RESCUE_MARSHAL",
+      "advancedClassDisplayName": "Rescue Marshal",
+      "primaryDiscipline": "Guard",
+      "secondaryDiscipline": "Restoration",
+      "trainingXpCost": 500,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_WARRIOR_01_LINEBREAKER",
+      "sourceClassId": "CLASS_WARRIOR",
+      "sourceClassDisplayName": "Warrior",
+      "advancedClassId": "ADV_LINEBREAKER",
+      "advancedClassDisplayName": "Linebreaker",
+      "primaryDiscipline": "Martial",
+      "secondaryDiscipline": "Tactical",
+      "trainingXpCost": 300,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_WARRIOR_02_DUEL_CAPTAIN",
+      "sourceClassId": "CLASS_WARRIOR",
+      "sourceClassDisplayName": "Warrior",
+      "advancedClassId": "ADV_DUEL_CAPTAIN",
+      "advancedClassDisplayName": "Duel Captain",
+      "primaryDiscipline": "Martial",
+      "secondaryDiscipline": "Guard",
+      "trainingXpCost": 400,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_WARRIOR_03_SPELL_EDGE",
+      "sourceClassId": "CLASS_WARRIOR",
+      "sourceClassDisplayName": "Warrior",
+      "advancedClassId": "ADV_SPELL_EDGE",
+      "advancedClassDisplayName": "Spell Edge",
+      "primaryDiscipline": "Martial",
+      "secondaryDiscipline": "Mystic",
+      "trainingXpCost": 500,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_RANGER_01_STORM_MARKSMAN",
+      "sourceClassId": "CLASS_RANGER",
+      "sourceClassDisplayName": "Ranger",
+      "advancedClassId": "ADV_STORM_MARKSMAN",
+      "advancedClassDisplayName": "Storm Marksman",
+      "primaryDiscipline": "Tactical",
+      "secondaryDiscipline": "Martial",
+      "trainingXpCost": 300,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_RANGER_02_PATHFINDER_CAPTAIN",
+      "sourceClassId": "CLASS_RANGER",
+      "sourceClassDisplayName": "Ranger",
+      "advancedClassId": "ADV_PATHFINDER_CAPTAIN",
+      "advancedClassDisplayName": "Pathfinder Captain",
+      "primaryDiscipline": "Tactical",
+      "secondaryDiscipline": "Support",
+      "trainingXpCost": 400,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_RANGER_03_ARCANE_ARCHER",
+      "sourceClassId": "CLASS_RANGER",
+      "sourceClassDisplayName": "Ranger",
+      "advancedClassId": "ADV_ARCANE_ARCHER",
+      "advancedClassDisplayName": "Arcane Archer",
+      "primaryDiscipline": "Tactical",
+      "secondaryDiscipline": "Mystic",
+      "trainingXpCost": 500,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_ROGUE_01_DUSK_OPERATIVE",
+      "sourceClassId": "CLASS_ROGUE",
+      "sourceClassDisplayName": "Rogue",
+      "advancedClassId": "ADV_DUSK_OPERATIVE",
+      "advancedClassDisplayName": "Dusk Operative",
+      "primaryDiscipline": "Tactical",
+      "secondaryDiscipline": "Support",
+      "trainingXpCost": 300,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_ROGUE_02_REARLINE_HUNTER",
+      "sourceClassId": "CLASS_ROGUE",
+      "sourceClassDisplayName": "Rogue",
+      "advancedClassId": "ADV_REARLINE_HUNTER",
+      "advancedClassDisplayName": "Rearline Hunter",
+      "primaryDiscipline": "Tactical",
+      "secondaryDiscipline": "Martial",
+      "trainingXpCost": 400,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_ROGUE_03_HEX_KNIFE",
+      "sourceClassId": "CLASS_ROGUE",
+      "sourceClassDisplayName": "Rogue",
+      "advancedClassId": "ADV_HEX_KNIFE",
+      "advancedClassDisplayName": "Hex Knife",
+      "primaryDiscipline": "Tactical",
+      "secondaryDiscipline": "Mystic",
+      "trainingXpCost": 500,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_MAGE_01_FIELD_ARCANIST",
+      "sourceClassId": "CLASS_MAGE",
+      "sourceClassDisplayName": "Mage",
+      "advancedClassId": "ADV_FIELD_ARCANIST",
+      "advancedClassDisplayName": "Field Arcanist",
+      "primaryDiscipline": "Mystic",
+      "secondaryDiscipline": "Tactical",
+      "trainingXpCost": 300,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_MAGE_02_WARD_SCHOLAR",
+      "sourceClassId": "CLASS_MAGE",
+      "sourceClassDisplayName": "Mage",
+      "advancedClassId": "ADV_WARD_SCHOLAR",
+      "advancedClassDisplayName": "Ward Scholar",
+      "primaryDiscipline": "Mystic",
+      "secondaryDiscipline": "Guard",
+      "trainingXpCost": 400,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_MAGE_03_BATTLE_MYSTIC",
+      "sourceClassId": "CLASS_MAGE",
+      "sourceClassDisplayName": "Mage",
+      "advancedClassId": "ADV_BATTLE_MYSTIC",
+      "advancedClassDisplayName": "Battle Mystic",
+      "primaryDiscipline": "Mystic",
+      "secondaryDiscipline": "Martial",
+      "trainingXpCost": 500,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_PRIEST_01_LIFEBINDER",
+      "sourceClassId": "CLASS_PRIEST",
+      "sourceClassDisplayName": "Priest",
+      "advancedClassId": "ADV_LIFEBINDER",
+      "advancedClassDisplayName": "Lifebinder",
+      "primaryDiscipline": "Restoration",
+      "secondaryDiscipline": "Support",
+      "trainingXpCost": 300,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_PRIEST_02_SANCTUARY_KEEPER",
+      "sourceClassId": "CLASS_PRIEST",
+      "sourceClassDisplayName": "Priest",
+      "advancedClassId": "ADV_SANCTUARY_KEEPER",
+      "advancedClassDisplayName": "Sanctuary Keeper",
+      "primaryDiscipline": "Restoration",
+      "secondaryDiscipline": "Guard",
+      "trainingXpCost": 400,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_PRIEST_03_BATTLE_CHAPLAIN",
+      "sourceClassId": "CLASS_PRIEST",
+      "sourceClassDisplayName": "Priest",
+      "advancedClassId": "ADV_BATTLE_CHAPLAIN",
+      "advancedClassDisplayName": "Battle Chaplain",
+      "primaryDiscipline": "Restoration",
+      "secondaryDiscipline": "Martial",
+      "trainingXpCost": 500,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_SPELLBLADE_01_SPELL_EDGE",
+      "sourceClassId": "CLASS_SPELLBLADE",
+      "sourceClassDisplayName": "Spellblade",
+      "advancedClassId": "ADV_SPELL_EDGE",
+      "advancedClassDisplayName": "Spell Edge",
+      "primaryDiscipline": "Martial",
+      "secondaryDiscipline": "Mystic",
+      "trainingXpCost": 300,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_SPELLBLADE_02_BATTLE_MYSTIC",
+      "sourceClassId": "CLASS_SPELLBLADE",
+      "sourceClassDisplayName": "Spellblade",
+      "advancedClassId": "ADV_BATTLE_MYSTIC",
+      "advancedClassDisplayName": "Battle Mystic",
+      "primaryDiscipline": "Mystic",
+      "secondaryDiscipline": "Martial",
+      "trainingXpCost": 400,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_SPELLBLADE_03_HEX_KNIFE",
+      "sourceClassId": "CLASS_SPELLBLADE",
+      "sourceClassDisplayName": "Spellblade",
+      "advancedClassId": "ADV_HEX_KNIFE",
+      "advancedClassDisplayName": "Hex Knife",
+      "primaryDiscipline": "Tactical",
+      "secondaryDiscipline": "Mystic",
+      "trainingXpCost": 500,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_WARDEN_01_WARD_SENTINEL",
+      "sourceClassId": "CLASS_WARDEN",
+      "sourceClassDisplayName": "Warden",
+      "advancedClassId": "ADV_WARD_SENTINEL",
+      "advancedClassDisplayName": "Ward Sentinel",
+      "primaryDiscipline": "Guard",
+      "secondaryDiscipline": "Mystic",
+      "trainingXpCost": 300,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_WARDEN_02_RESCUE_MARSHAL",
+      "sourceClassId": "CLASS_WARDEN",
+      "sourceClassDisplayName": "Warden",
+      "advancedClassId": "ADV_RESCUE_MARSHAL",
+      "advancedClassDisplayName": "Rescue Marshal",
+      "primaryDiscipline": "Guard",
+      "secondaryDiscipline": "Restoration",
+      "trainingXpCost": 400,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_WARDEN_03_SANCTUARY_KEEPER",
+      "sourceClassId": "CLASS_WARDEN",
+      "sourceClassDisplayName": "Warden",
+      "advancedClassId": "ADV_SANCTUARY_KEEPER",
+      "advancedClassDisplayName": "Sanctuary Keeper",
+      "primaryDiscipline": "Restoration",
+      "secondaryDiscipline": "Guard",
+      "trainingXpCost": 500,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_TACTICIAN_01_PATHFINDER_CAPTAIN",
+      "sourceClassId": "CLASS_TACTICIAN",
+      "sourceClassDisplayName": "Tactician",
+      "advancedClassId": "ADV_PATHFINDER_CAPTAIN",
+      "advancedClassDisplayName": "Pathfinder Captain",
+      "primaryDiscipline": "Tactical",
+      "secondaryDiscipline": "Support",
+      "trainingXpCost": 300,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_TACTICIAN_02_FIELD_ARCANIST",
+      "sourceClassId": "CLASS_TACTICIAN",
+      "sourceClassDisplayName": "Tactician",
+      "advancedClassId": "ADV_FIELD_ARCANIST",
+      "advancedClassDisplayName": "Field Arcanist",
+      "primaryDiscipline": "Mystic",
+      "secondaryDiscipline": "Tactical",
+      "trainingXpCost": 400,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_TACTICIAN_03_BASTION_CAPTAIN",
+      "sourceClassId": "CLASS_TACTICIAN",
+      "sourceClassDisplayName": "Tactician",
+      "advancedClassId": "ADV_BASTION_CAPTAIN",
+      "advancedClassDisplayName": "Bastion Captain",
+      "primaryDiscipline": "Guard",
+      "secondaryDiscipline": "Tactical",
+      "trainingXpCost": 500,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_BERSERKER_01_LINEBREAKER",
+      "sourceClassId": "CLASS_BERSERKER",
+      "sourceClassDisplayName": "Berserker",
+      "advancedClassId": "ADV_LINEBREAKER",
+      "advancedClassDisplayName": "Linebreaker",
+      "primaryDiscipline": "Martial",
+      "secondaryDiscipline": "Tactical",
+      "trainingXpCost": 300,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_BERSERKER_02_DUEL_CAPTAIN",
+      "sourceClassId": "CLASS_BERSERKER",
+      "sourceClassDisplayName": "Berserker",
+      "advancedClassId": "ADV_DUEL_CAPTAIN",
+      "advancedClassDisplayName": "Duel Captain",
+      "primaryDiscipline": "Martial",
+      "secondaryDiscipline": "Guard",
+      "trainingXpCost": 400,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    },
+    {
+      "certificationId": "CERT022_BERSERKER_03_BATTLE_MYSTIC",
+      "sourceClassId": "CLASS_BERSERKER",
+      "sourceClassDisplayName": "Berserker",
+      "advancedClassId": "ADV_BATTLE_MYSTIC",
+      "advancedClassDisplayName": "Battle Mystic",
+      "primaryDiscipline": "Mystic",
+      "secondaryDiscipline": "Martial",
+      "trainingXpCost": 500,
+      "meaningfulUseRequired": true,
+      "learnedArtsPreservedWhenLegal": true,
+      "weaponLegalityRemainsAuthoritative": true,
+      "respecConsumesEarnedXpNotRealTime": true,
+      "exactOnceCertificationReceipt": true
+    }
+  ]
+}

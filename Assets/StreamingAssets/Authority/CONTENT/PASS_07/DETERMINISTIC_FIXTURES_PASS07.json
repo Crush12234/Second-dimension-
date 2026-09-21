@@ -1,0 +1,434 @@
+{
+  "contentVersion": "GOW_PASS07_0.12",
+  "floorFixtures": [
+    {
+      "floorId": "ABYSS_FLOOR_001",
+      "boardHash": "7531AE5A2F14D93CA0385A0015EF7770105557AAAC4E1A5FBAFFB7E2E4D95962",
+      "nodeCount": 19,
+      "requiredReachable": true,
+      "ordinarySecret": "SECRET_SECRET_F01_03",
+      "margin": {
+        "id": "MARGIN_F01_0000",
+        "required": false,
+        "completionCounts": false,
+        "authorizedOnly": true,
+        "criticalContent": false,
+        "candidateWallOwner": "R03_REQUIRED_OBSTACLE"
+      },
+      "civicTrial": {
+        "score": 240,
+        "degree": "SUCCESS",
+        "details": {
+          "alliesProtected": 80,
+          "simulatedCiviliansRescued": 80,
+          "formationHeld": 80
+        },
+        "storyBlocked": false
+      },
+      "bossId": "ABYSS_BOSS_001",
+      "firstClearReward": {
+        "personalXP": 1872,
+        "guildTreasuryXP": 1872,
+        "cityConsequence": "CITY_CONSEQUENCE_F01"
+      },
+      "summonClue": {
+        "id": "SUMMON_CLUE_F01_B",
+        "floorId": "ABYSS_FLOOR_001",
+        "clueType": "ETHIC_REQUIREMENT",
+        "text": "The Abyss records that true Covenants answer public need and consent, never collection.",
+        "greatSummonOwnership": false
+      },
+      "cityConsequence": "CITY_CONSEQUENCE_F01",
+      "saveReloadHash": "B43A80018D93AE763FA7578528850F7AD7B22E070E9487E6BD6F75356700B30B"
+    },
+    {
+      "floorId": "ABYSS_FLOOR_002",
+      "boardHash": "BC0F41F3188BEDAACAC5B7C9EF592978C3E998A922C7E7F07CBA362D54E14C2C",
+      "nodeCount": 21,
+      "requiredReachable": true,
+      "ordinarySecret": "SECRET_SECRET_F02_03",
+      "margin": {
+        "id": "MARGIN_F02_0000",
+        "required": false,
+        "completionCounts": false,
+        "authorizedOnly": true,
+        "criticalContent": false,
+        "candidateWallOwner": "R06_BOSS"
+      },
+      "civicTrial": {
+        "score": 240,
+        "degree": "SUCCESS",
+        "details": {
+          "coverUsed": 80,
+          "membersProtected": 80,
+          "coordinatedMoves": 80
+        },
+        "storyBlocked": false
+      },
+      "bossId": "ABYSS_BOSS_002",
+      "firstClearReward": {
+        "personalXP": 3369,
+        "guildTreasuryXP": 3744,
+        "cityConsequence": "CITY_CONSEQUENCE_F02"
+      },
+      "summonClue": {
+        "id": "SUMMON_CLUE_F02_B",
+        "floorId": "ABYSS_FLOOR_002",
+        "clueType": "ETHIC_REQUIREMENT",
+        "text": "The Abyss records that true Covenants answer public need and consent, never collection.",
+        "greatSummonOwnership": false
+      },
+      "cityConsequence": "CITY_CONSEQUENCE_F02",
+      "saveReloadHash": "A4FC8453B9E94A8B41695F0765D147315431C618345E51D7AFB7906B82C554DD"
+    },
+    {
+      "floorId": "ABYSS_FLOOR_003",
+      "boardHash": "F3352FFBBB32683BB92CFCB2D65BA9765FB72B4953D380101FDF5688EE4ED2BD",
+      "nodeCount": 22,
+      "requiredReachable": true,
+      "ordinarySecret": "SECRET_SECRET_F03_02",
+      "margin": {
+        "id": "MARGIN_F03_0000",
+        "required": false,
+        "completionCounts": false,
+        "authorizedOnly": true,
+        "criticalContent": false,
+        "candidateWallOwner": "R06_BOSS_APPROACH"
+      },
+      "civicTrial": {
+        "score": 240,
+        "degree": "SUCCESS",
+        "details": {
+          "recordsPreserved": 80,
+          "suppliesShared": 80,
+          "woundedRested": 80
+        },
+        "storyBlocked": false
+      },
+      "bossId": "ABYSS_BOSS_003",
+      "firstClearReward": {
+        "personalXP": 4867,
+        "guildTreasuryXP": 5616,
+        "cityConsequence": "CITY_CONSEQUENCE_F03"
+      },
+      "summonClue": {
+        "id": "SUMMON_CLUE_F03_A",
+        "floorId": "ABYSS_FLOOR_003",
+        "clueType": "DOMAIN_MARK",
+        "text": "A partial Invocation mark connects Silent Camp to a future civic guardian function.",
+        "greatSummonOwnership": false
+      },
+      "cityConsequence": "CITY_CONSEQUENCE_F03",
+      "saveReloadHash": "7DE148FA72C06E1179EBC730E75DA4748D62858B1FAC22685B7CCC5D78550A43"
+    },
+    {
+      "floorId": "ABYSS_FLOOR_004",
+      "boardHash": "3F283075D49F0AC3E13EBC0C867F33389B1D7D91DDBE35CE725D30DD77E6FC4A",
+      "nodeCount": 23,
+      "requiredReachable": true,
+      "ordinarySecret": "SECRET_SECRET_F04_03",
+      "margin": {
+        "id": "MARGIN_F04_0000",
+        "required": false,
+        "completionCounts": false,
+        "authorizedOnly": true,
+        "criticalContent": false,
+        "candidateWallOwner": "O002_WALL_SECTION"
+      },
+      "civicTrial": {
+        "score": 240,
+        "degree": "SUCCESS",
+        "details": {
+          "repairsCompleted": 80,
+          "breachesHeld": 80,
+          "unsafeLootRefused": 80
+        },
+        "storyBlocked": false
+      },
+      "bossId": "ABYSS_BOSS_004",
+      "firstClearReward": {
+        "personalXP": 6364,
+        "guildTreasuryXP": 7488,
+        "cityConsequence": "CITY_CONSEQUENCE_F04"
+      },
+      "summonClue": {
+        "id": "SUMMON_CLUE_F04_B",
+        "floorId": "ABYSS_FLOOR_004",
+        "clueType": "ETHIC_REQUIREMENT",
+        "text": "The Abyss records that true Covenants answer public need and consent, never collection.",
+        "greatSummonOwnership": false
+      },
+      "cityConsequence": "CITY_CONSEQUENCE_F04",
+      "saveReloadHash": "619D3DE998FA1B9DBEB1F1BD5A75C3C7F69BDC789952E900AD5912702B8858DE"
+    },
+    {
+      "floorId": "ABYSS_FLOOR_005",
+      "boardHash": "C462F7767D6B257F3212CD733556D6BF657885089B9D3F1D4067FFD14F603D76",
+      "nodeCount": 23,
+      "requiredReachable": true,
+      "ordinarySecret": "SECRET_SECRET_F05_05",
+      "margin": {
+        "id": "MARGIN_F05_0000",
+        "required": false,
+        "completionCounts": false,
+        "authorizedOnly": true,
+        "criticalContent": false,
+        "candidateWallOwner": "O008_CAIRN_PATH"
+      },
+      "civicTrial": {
+        "score": 240,
+        "degree": "SUCCESS",
+        "details": {
+          "memorialsPreserved": 80,
+          "moraleRaised": 80,
+          "hatefulSymbolsRejected": 80
+        },
+        "storyBlocked": false
+      },
+      "bossId": "ABYSS_BOSS_005",
+      "firstClearReward": {
+        "personalXP": 7862,
+        "guildTreasuryXP": 9360,
+        "cityConsequence": "CITY_CONSEQUENCE_F05"
+      },
+      "summonClue": {
+        "id": "SUMMON_CLUE_F05_A",
+        "floorId": "ABYSS_FLOOR_005",
+        "clueType": "DOMAIN_MARK",
+        "text": "A partial Invocation mark connects Grave Banner Hill to a future civic guardian function.",
+        "greatSummonOwnership": false
+      },
+      "cityConsequence": "CITY_CONSEQUENCE_F05",
+      "saveReloadHash": "5B0CAA4AE91A77C8DA13EBC9F02CD86550CA0FB7E09DB5EB861682D8F4934160"
+    },
+    {
+      "floorId": "ABYSS_FLOOR_006",
+      "boardHash": "C7DE01929E893DC613A8C90ED927EA1985A595B8CCBE6E39BECFB88E95A60DFE",
+      "nodeCount": 26,
+      "requiredReachable": true,
+      "ordinarySecret": "SECRET_SECRET_F06_02",
+      "margin": {
+        "id": "MARGIN_F06_0000",
+        "required": false,
+        "completionCounts": false,
+        "authorizedOnly": true,
+        "criticalContent": false,
+        "candidateWallOwner": "O007_SIDE_COLUMN"
+      },
+      "civicTrial": {
+        "score": 240,
+        "degree": "SUCCESS",
+        "details": {
+          "formationDiscipline": 80,
+          "ordersQuestionedWhenImmoral": 80,
+          "controlledAdvance": 80
+        },
+        "storyBlocked": false
+      },
+      "bossId": "ABYSS_BOSS_006",
+      "firstClearReward": {
+        "personalXP": 9360,
+        "guildTreasuryXP": 11232,
+        "cityConsequence": "CITY_CONSEQUENCE_F06"
+      },
+      "summonClue": {
+        "id": "SUMMON_CLUE_F06_A",
+        "floorId": "ABYSS_FLOOR_006",
+        "clueType": "DOMAIN_MARK",
+        "text": "A partial Invocation mark connects Iron March to a future civic guardian function.",
+        "greatSummonOwnership": false
+      },
+      "cityConsequence": "CITY_CONSEQUENCE_F06",
+      "saveReloadHash": "53145D31417BFFB880DC04537D446FA61A0170646E7EFB3BC7EEBE761F5C77F4"
+    },
+    {
+      "floorId": "ABYSS_FLOOR_007",
+      "boardHash": "3D6F0B4B93EDF36E59C9F1D84BD7B23DC6ADEE032486762B5C8DEFEF62A24C0C",
+      "nodeCount": 22,
+      "requiredReachable": true,
+      "ordinarySecret": "SECRET_SECRET_F07_03",
+      "margin": {
+        "id": "MARGIN_F07_0000",
+        "required": false,
+        "completionCounts": false,
+        "authorizedOnly": true,
+        "criticalContent": false,
+        "candidateWallOwner": "R08_TRIAL_RESOLUTION"
+      },
+      "civicTrial": {
+        "score": 240,
+        "degree": "SUCCESS",
+        "details": {
+          "crossingsRestored": 80,
+          "waterPurified": 80,
+          "rescuesCompleted": 80
+        },
+        "storyBlocked": false
+      },
+      "bossId": "ABYSS_BOSS_007",
+      "firstClearReward": {
+        "personalXP": 10857,
+        "guildTreasuryXP": 13104,
+        "cityConsequence": "CITY_CONSEQUENCE_F07"
+      },
+      "summonClue": {
+        "id": "SUMMON_CLUE_F07_B",
+        "floorId": "ABYSS_FLOOR_007",
+        "clueType": "ETHIC_REQUIREMENT",
+        "text": "The Abyss records that true Covenants answer public need and consent, never collection.",
+        "greatSummonOwnership": false
+      },
+      "cityConsequence": "CITY_CONSEQUENCE_F07",
+      "saveReloadHash": "4CFD9FAA1DC5C883339F64407331067F97A3C5DA1B87F256950CA9F9715B8C76"
+    },
+    {
+      "floorId": "ABYSS_FLOOR_008",
+      "boardHash": "9E69C9892C7B7C5E9D113BFF07DDEF1D4905A8CB4CEA6E12BA23783B58126C79",
+      "nodeCount": 22,
+      "requiredReachable": true,
+      "ordinarySecret": "SECRET_SECRET_F08_01",
+      "margin": {
+        "id": "MARGIN_F08_0000",
+        "required": false,
+        "completionCounts": false,
+        "authorizedOnly": true,
+        "criticalContent": false,
+        "candidateWallOwner": "O008_PEN"
+      },
+      "civicTrial": {
+        "score": 240,
+        "degree": "SUCCESS",
+        "details": {
+          "frightenedCreaturesSpared": 80,
+          "pensOpenedSafely": 80,
+          "cruelShortcutsRefused": 80
+        },
+        "storyBlocked": false
+      },
+      "bossId": "ABYSS_BOSS_008",
+      "firstClearReward": {
+        "personalXP": 12355,
+        "guildTreasuryXP": 14976,
+        "cityConsequence": "CITY_CONSEQUENCE_F08"
+      },
+      "summonClue": {
+        "id": "SUMMON_CLUE_F08_A",
+        "floorId": "ABYSS_FLOOR_008",
+        "clueType": "DOMAIN_MARK",
+        "text": "A partial Invocation mark connects War Beast Pens to a future civic guardian function.",
+        "greatSummonOwnership": false
+      },
+      "cityConsequence": "CITY_CONSEQUENCE_F08",
+      "saveReloadHash": "4304D8311D0E5B4655987A165789EA3F36D41AE2E5A728BE2A8466C24A611F11"
+    },
+    {
+      "floorId": "ABYSS_FLOOR_009",
+      "boardHash": "6E19D45DC985593D5CCC0200B8305F1C00C90B087D845EAFA77055635FBD08C9",
+      "nodeCount": 27,
+      "requiredReachable": true,
+      "ordinarySecret": "SECRET_SECRET_F09_01",
+      "margin": {
+        "id": "MARGIN_F09_0000",
+        "required": false,
+        "completionCounts": false,
+        "authorizedOnly": true,
+        "criticalContent": false,
+        "candidateWallOwner": "O001_FALSE_ORDER"
+      },
+      "civicTrial": {
+        "score": 240,
+        "degree": "SUCCESS",
+        "details": {
+          "intelUsed": 80,
+          "avoidableLossesPrevented": 80,
+          "supplyLinesPreserved": 80
+        },
+        "storyBlocked": false
+      },
+      "bossId": "ABYSS_BOSS_009",
+      "firstClearReward": {
+        "personalXP": 13852,
+        "guildTreasuryXP": 16848,
+        "cityConsequence": "CITY_CONSEQUENCE_F09"
+      },
+      "summonClue": {
+        "id": "SUMMON_CLUE_F09_A",
+        "floorId": "ABYSS_FLOOR_009",
+        "clueType": "DOMAIN_MARK",
+        "text": "A partial Invocation mark connects Ash Command Tent to a future civic guardian function.",
+        "greatSummonOwnership": false
+      },
+      "cityConsequence": "CITY_CONSEQUENCE_F09",
+      "saveReloadHash": "60A5B36E5C0B53368AA9909B951B6097A2638A34C646E26F324C0526B85C96D4"
+    },
+    {
+      "floorId": "ABYSS_FLOOR_010",
+      "boardHash": "6D7FEAE5800EDC6404E8C04C5470A3130F01983B4FCE744130DF9E576B0C2064",
+      "nodeCount": 31,
+      "requiredReachable": true,
+      "ordinarySecret": "SECRET_SECRET_F10_05",
+      "margin": {
+        "id": "MARGIN_F10_0000",
+        "required": false,
+        "completionCounts": false,
+        "authorizedOnly": true,
+        "criticalContent": false,
+        "candidateWallOwner": "O016_Aegis_APPROACH"
+      },
+      "civicTrial": {
+        "score": 240,
+        "degree": "SUCCESS",
+        "details": {
+          "civiliansSaved": 80,
+          "alliedUnionsProtected": 80,
+          "defenseSystemsRestored": 80
+        },
+        "storyBlocked": false
+      },
+      "bossId": "ABYSS_BOSS_010",
+      "firstClearReward": {
+        "personalXP": 15350,
+        "guildTreasuryXP": 18720,
+        "cityConsequence": "CITY_CONSEQUENCE_F10"
+      },
+      "summonClue": {
+        "id": "SUMMON_CLUE_F10_B",
+        "floorId": "ABYSS_FLOOR_010",
+        "clueType": "ETHIC_REQUIREMENT",
+        "text": "The Abyss records that true Covenants answer public need and consent, never collection.",
+        "greatSummonOwnership": false
+      },
+      "cityConsequence": "CITY_CONSEQUENCE_F10",
+      "saveReloadHash": "CECEBE20008BC1EDB22B833BC1E5FA55286ECD0EED6960AA66350CF9E0EC4909"
+    }
+  ],
+  "campaignFixture": {
+    "campaignSeed": 120001,
+    "clearedFloors": [
+      "ABYSS_FLOOR_001",
+      "ABYSS_FLOOR_002",
+      "ABYSS_FLOOR_003",
+      "ABYSS_FLOOR_004",
+      "ABYSS_FLOOR_005",
+      "ABYSS_FLOOR_006",
+      "ABYSS_FLOOR_007",
+      "ABYSS_FLOOR_008",
+      "ABYSS_FLOOR_009",
+      "ABYSS_FLOOR_010"
+    ],
+    "cityConsequences": [
+      "CITY_CONSEQUENCE_F01",
+      "CITY_CONSEQUENCE_F02",
+      "CITY_CONSEQUENCE_F03",
+      "CITY_CONSEQUENCE_F04",
+      "CITY_CONSEQUENCE_F05",
+      "CITY_CONSEQUENCE_F06",
+      "CITY_CONSEQUENCE_F07",
+      "CITY_CONSEQUENCE_F08",
+      "CITY_CONSEQUENCE_F09",
+      "CITY_CONSEQUENCE_F10"
+    ],
+    "cumulativeGuildTreasuryXP": 102960,
+    "finalStateHash": "701C250CC7DEE9060782006D67663DA76386E73E2EE7A066736C5CE6252FBE49"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "contentVersion": "PASS02_LEARNING_0.7",
+  "integerScale": 1000,
+  "formulas": {
+    "meaningfulValue": "baseProgress * usefulPermille // 1000",
+    "personalProficiencyGain": "meaningfulValue * difficultyPermille * participationPermille * mentorPermille * relationshipPermille * formationPermille * customGrowthPermille // 1000**6",
+    "unionDisciplineGain": "meaningfulValue * difficultyPermille * unionParticipationPermille * leaderPermille * formationPermille * doctrinePermille * customGrowthPermille // 1000**6",
+    "artMasteryGain": "meaningfulValue * difficultyPermille * customGrowthPermille // 1000**2",
+    "discoveryGain": "meaningfulValue * discoveryAffinityPermille * difficultyPermille * customGrowthPermille // 1000**3"
+  },
+  "usefulPermilleExamples": {
+    "heal_full_hp": 0,
+    "heal_minor_missing": 250,
+    "heal_critical": 1400,
+    "guard_harmless": 100,
+    "intercept_lethal": 1500,
+    "support_already_capped": 0,
+    "support_enables_break": 1200,
+    "trivial_enemy": 100,
+    "equal_enemy": 1000,
+    "elite_enemy": 1300,
+    "boss": 1500
+  },
+  "earlyBreakthrough": {
+    "eligibleDiscovery": 60,
+    "chancePermilleFormula": "min(650, baseEarlyChancePermille + (discovery-60)*8 + hiddenTalentBonusPermille)",
+    "rng": "PCG32 using battle seed + actor stable ID + Art ID + meaningful-use ordinal"
+  },
+  "guaranteedLearning": {
+    "threshold": 100,
+    "cannotFail": true
+  },
+  "sameTurnReplacement": "When a planned action triggers discovery of its direct evolution before resolution and the evolved Art is legal/resources fit, deterministic replacement may occur; otherwise learned Art enters pool next forecast.",
+  "branchChoice": "First branch may emerge from use bias; training hall can redirect future branch before lock milestone.",
+  "retraining": "changes forecast/training preferences, never erases legitimately learned Art",
+  "respec": "Custom/OP may make route certification free; Standard uses Guild XP and training time",
+  "customGrowthPermilleRange": [
+    500,
+    10000
+  ]
+}

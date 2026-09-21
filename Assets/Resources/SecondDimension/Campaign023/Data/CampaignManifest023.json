@@ -1,0 +1,26 @@
+{
+  "contentVersion": "CAMPAIGN_WORLD_GATE_EXPEDITION_RUNTIME_023_1.0",
+  "title": "SECOND DIMENSION \u2014 World Gate Expedition Runtime 023",
+  "baseContentVersion": "CAMPAIGN_PROGRESSION_ABYSS_COVENANT_022_1.0",
+  "saveFormatVersion": 11,
+  "chapterBoardCount": 82,
+  "repeatableBoardCount": 32,
+  "crisisBoardCount": 16,
+  "totalBoardCount": 130,
+  "totalNodeCount": 1372,
+  "travelRouteCount": 8,
+  "standingRuleCount": 8,
+  "recruitmentUnlockCount": 8,
+  "hardLaws": [
+    "No second battle resolver",
+    "No individual Art selection",
+    "Existing equipment reward is authoritative",
+    "All boards and checks commit before reveal",
+    "Repeatable anti-farm decay",
+    "No world ownership",
+    "No involuntary recruit departure",
+    "No real-time timers",
+    "No runtime generative AI"
+  ],
+  "runtimeStateVersion": "WORLD_GATE_RUNTIME_023_1.0"
+}

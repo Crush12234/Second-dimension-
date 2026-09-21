@@ -1,0 +1,736 @@
+{
+  "contentVersion": "OPENING_ACTION_CATALOG_0.6",
+  "scope": "Pass 01 forecast validation; Pass 02 may extend but must preserve stable IDs and behavior contracts.",
+  "actions": [
+    {
+      "id": "ART_BASIC_THRUST",
+      "family": "BASIC",
+      "apCost": 0,
+      "mpCost": 0,
+      "requiredEquipmentTags": [
+        "SPEAR"
+      ],
+      "supportedIntentTags": [
+        "OFFENSE",
+        "BALANCED",
+        "TACTICAL"
+      ],
+      "baseWeight": 90,
+      "effectTags": [
+        "HP_DAMAGE"
+      ],
+      "learningOpportunityTags": [],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_BASIC_HEAVY_SWING",
+      "family": "BASIC",
+      "apCost": 0,
+      "mpCost": 0,
+      "requiredEquipmentTags": [
+        "GREAT_AXE",
+        "HAMMER",
+        "POLEARM"
+      ],
+      "supportedIntentTags": [
+        "OFFENSE",
+        "BALANCED"
+      ],
+      "baseWeight": 90,
+      "effectTags": [
+        "HP_DAMAGE"
+      ],
+      "learningOpportunityTags": [],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_BASIC_STAFF_TAP",
+      "family": "BASIC",
+      "apCost": 0,
+      "mpCost": 0,
+      "requiredEquipmentTags": [
+        "STAFF"
+      ],
+      "supportedIntentTags": [
+        "OFFENSE",
+        "LOW_RESOURCE"
+      ],
+      "baseWeight": 70,
+      "effectTags": [
+        "HP_DAMAGE"
+      ],
+      "learningOpportunityTags": [],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_BASIC_RUNE_BOLT",
+      "family": "BASIC",
+      "apCost": 0,
+      "mpCost": 2,
+      "requiredEquipmentTags": [
+        "FOCUS_TOOL",
+        "WAND"
+      ],
+      "supportedIntentTags": [
+        "OFFENSE",
+        "MYSTIC"
+      ],
+      "baseWeight": 85,
+      "effectTags": [
+        "MAGIC_DAMAGE"
+      ],
+      "learningOpportunityTags": [],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_BASIC_SHOT",
+      "family": "BASIC",
+      "apCost": 0,
+      "mpCost": 0,
+      "requiredEquipmentTags": [
+        "BOW",
+        "SHORTBOW"
+      ],
+      "supportedIntentTags": [
+        "OFFENSE",
+        "TACTICAL",
+        "BALANCED"
+      ],
+      "baseWeight": 90,
+      "effectTags": [
+        "RANGED_DAMAGE"
+      ],
+      "learningOpportunityTags": [],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_BASIC_LONGBOW_SHOT",
+      "family": "BASIC",
+      "apCost": 0,
+      "mpCost": 0,
+      "requiredEquipmentTags": [
+        "LONGBOW"
+      ],
+      "supportedIntentTags": [
+        "OFFENSE",
+        "TACTICAL"
+      ],
+      "baseWeight": 95,
+      "effectTags": [
+        "RANGED_DAMAGE"
+      ],
+      "learningOpportunityTags": [],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_BASIC_DAGGER_CUT",
+      "family": "BASIC",
+      "apCost": 0,
+      "mpCost": 0,
+      "requiredEquipmentTags": [
+        "DAGGER"
+      ],
+      "supportedIntentTags": [
+        "OFFENSE",
+        "TACTICAL"
+      ],
+      "baseWeight": 90,
+      "effectTags": [
+        "HP_DAMAGE"
+      ],
+      "learningOpportunityTags": [],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_BASIC_SABER_CUT",
+      "family": "BASIC",
+      "apCost": 0,
+      "mpCost": 0,
+      "requiredEquipmentTags": [
+        "SWORD"
+      ],
+      "supportedIntentTags": [
+        "OFFENSE",
+        "BALANCED"
+      ],
+      "baseWeight": 90,
+      "effectTags": [
+        "HP_DAMAGE"
+      ],
+      "learningOpportunityTags": [],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_BASIC_HOOK_STRIKE",
+      "family": "BASIC",
+      "apCost": 0,
+      "mpCost": 0,
+      "requiredEquipmentTags": [
+        "POLEARM",
+        "TOOL"
+      ],
+      "supportedIntentTags": [
+        "OFFENSE",
+        "GUARD"
+      ],
+      "baseWeight": 80,
+      "effectTags": [
+        "HP_DAMAGE"
+      ],
+      "learningOpportunityTags": [],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_BASIC_RESONANT_TAP",
+      "family": "BASIC",
+      "apCost": 0,
+      "mpCost": 1,
+      "requiredEquipmentTags": [
+        "SIGNAL_HORN",
+        "FOCUS_TOOL"
+      ],
+      "supportedIntentTags": [
+        "SUPPORT",
+        "LOW_RESOURCE"
+      ],
+      "baseWeight": 80,
+      "effectTags": [
+        "MINOR_MORALE"
+      ],
+      "learningOpportunityTags": [],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_GUARD",
+      "family": "GUARD",
+      "apCost": 0,
+      "mpCost": 0,
+      "requiredEquipmentTags": [],
+      "supportedIntentTags": [
+        "GUARD",
+        "HEAL",
+        "RETREAT",
+        "RESCUE",
+        "LOW_RESOURCE"
+      ],
+      "baseWeight": 110,
+      "effectTags": [
+        "DAMAGE_REDUCTION"
+      ],
+      "learningOpportunityTags": [
+        "GUARD_MASTERY"
+      ],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_RECOVER_BREATH",
+      "family": "SUPPORT",
+      "apCost": 0,
+      "mpCost": 0,
+      "requiredEquipmentTags": [],
+      "supportedIntentTags": [
+        "LOW_RESOURCE",
+        "RETREAT"
+      ],
+      "baseWeight": 90,
+      "effectTags": [
+        "AP_CONSERVE",
+        "MP_CONSERVE"
+      ],
+      "learningOpportunityTags": [
+        "RESOURCE_DISCIPLINE"
+      ],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_SHIELD_BRACE",
+      "family": "GUARD",
+      "apCost": 2,
+      "mpCost": 0,
+      "requiredEquipmentTags": [
+        "SHIELD"
+      ],
+      "supportedIntentTags": [
+        "GUARD",
+        "RESCUE",
+        "BOSS"
+      ],
+      "baseWeight": 135,
+      "effectTags": [
+        "INTERCEPT",
+        "COHESION_STABILITY"
+      ],
+      "learningOpportunityTags": [
+        "INTERCEPT_BRANCH"
+      ],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_INTERCEPT_STEP",
+      "family": "GUARD",
+      "apCost": 3,
+      "mpCost": 0,
+      "requiredEquipmentTags": [
+        "SHIELD"
+      ],
+      "supportedIntentTags": [
+        "RESCUE",
+        "HEAL",
+        "GUARD"
+      ],
+      "baseWeight": 140,
+      "effectTags": [
+        "INTERCEPT",
+        "MOVE_PROTECT"
+      ],
+      "learningOpportunityTags": [
+        "RESCUE_GUARD_BRANCH"
+      ],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_SHIELD_BASH",
+      "family": "MARTIAL",
+      "apCost": 4,
+      "mpCost": 0,
+      "requiredEquipmentTags": [
+        "SHIELD"
+      ],
+      "supportedIntentTags": [
+        "BREAK",
+        "OFFENSE"
+      ],
+      "baseWeight": 125,
+      "effectTags": [
+        "HP_DAMAGE",
+        "COHESION_DAMAGE"
+      ],
+      "learningOpportunityTags": [
+        "SHIELD_BREAK_BRANCH"
+      ],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_HEAVY_CUT",
+      "family": "MARTIAL",
+      "apCost": 4,
+      "mpCost": 0,
+      "requiredEquipmentTags": [
+        "GREAT_AXE",
+        "HAMMER"
+      ],
+      "supportedIntentTags": [
+        "OFFENSE",
+        "BREAK"
+      ],
+      "baseWeight": 135,
+      "effectTags": [
+        "HIGH_HP_DAMAGE"
+      ],
+      "learningOpportunityTags": [
+        "HEAVY_ART_BRANCH"
+      ],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_RECKLESS_DRIVE",
+      "family": "MARTIAL",
+      "apCost": 6,
+      "mpCost": 0,
+      "requiredEquipmentTags": [
+        "GREAT_AXE"
+      ],
+      "supportedIntentTags": [
+        "OFFENSE",
+        "BOSS"
+      ],
+      "baseWeight": 110,
+      "effectTags": [
+        "HIGH_HP_DAMAGE",
+        "SELF_EXPOSE"
+      ],
+      "learningOpportunityTags": [
+        "LOW_HP_FURY_BRANCH"
+      ],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_FIELD_MEND",
+      "family": "RESTORATION",
+      "apCost": 2,
+      "mpCost": 6,
+      "requiredEquipmentTags": [
+        "STAFF",
+        "REMEDY_KIT"
+      ],
+      "supportedIntentTags": [
+        "HEAL",
+        "RESCUE"
+      ],
+      "baseWeight": 150,
+      "effectTags": [
+        "RESTORE_HP"
+      ],
+      "learningOpportunityTags": [
+        "DIRECT_HEALING_BRANCH"
+      ],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_STEADYING_WORD",
+      "family": "SUPPORT",
+      "apCost": 2,
+      "mpCost": 4,
+      "requiredEquipmentTags": [
+        "STAFF",
+        "FOCUS_TOOL"
+      ],
+      "supportedIntentTags": [
+        "HEAL",
+        "GUARD",
+        "SUPPORT"
+      ],
+      "baseWeight": 125,
+      "effectTags": [
+        "RESTORE_COHESION",
+        "CLEAR_FEAR"
+      ],
+      "learningOpportunityTags": [
+        "MORALE_BRANCH"
+      ],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_SPARK_RUNE",
+      "family": "MYSTIC",
+      "apCost": 3,
+      "mpCost": 6,
+      "requiredEquipmentTags": [
+        "FOCUS_TOOL",
+        "WAND"
+      ],
+      "supportedIntentTags": [
+        "MYSTIC",
+        "OFFENSE"
+      ],
+      "baseWeight": 135,
+      "effectTags": [
+        "MAGIC_DAMAGE"
+      ],
+      "learningOpportunityTags": [
+        "RUNE_ATTACK_BRANCH"
+      ],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_WARD_SIGIL",
+      "family": "SUPPORT",
+      "apCost": 3,
+      "mpCost": 7,
+      "requiredEquipmentTags": [
+        "FOCUS_TOOL"
+      ],
+      "supportedIntentTags": [
+        "SUPPORT",
+        "GUARD",
+        "BOSS"
+      ],
+      "baseWeight": 130,
+      "effectTags": [
+        "MAGIC_BARRIER"
+      ],
+      "learningOpportunityTags": [
+        "WARD_BRANCH"
+      ],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_ARCANE_GUARD",
+      "family": "GUARD",
+      "apCost": 4,
+      "mpCost": 8,
+      "requiredEquipmentTags": [
+        "WARD_BUCKLER",
+        "FOCUS"
+      ],
+      "supportedIntentTags": [
+        "GUARD",
+        "MYSTIC",
+        "BOSS"
+      ],
+      "baseWeight": 135,
+      "effectTags": [
+        "MAGIC_GUARD",
+        "CHARGE_WARD"
+      ],
+      "learningOpportunityTags": [
+        "ARCANE_SENTINEL_BRANCH"
+      ],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_RUNE_EDGE",
+      "family": "MYSTIC",
+      "apCost": 5,
+      "mpCost": 7,
+      "requiredEquipmentTags": [
+        "SWORD",
+        "ARCANE_CONDUCTOR"
+      ],
+      "supportedIntentTags": [
+        "MYSTIC",
+        "OFFENSE",
+        "BREAK"
+      ],
+      "baseWeight": 125,
+      "effectTags": [
+        "MAGIC_DAMAGE",
+        "HP_DAMAGE"
+      ],
+      "learningOpportunityTags": [
+        "WARD_BLADE_BRANCH"
+      ],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_PINNING_SHOT",
+      "family": "TACTICAL",
+      "apCost": 4,
+      "mpCost": 0,
+      "requiredEquipmentTags": [
+        "BOW",
+        "SHORTBOW",
+        "LONGBOW"
+      ],
+      "supportedIntentTags": [
+        "TACTICAL",
+        "BREAK",
+        "RESCUE"
+      ],
+      "baseWeight": 140,
+      "effectTags": [
+        "PIN_TARGET",
+        "COHESION_DAMAGE"
+      ],
+      "learningOpportunityTags": [
+        "COVERING_FIRE_BRANCH"
+      ],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_FIELD_TONIC",
+      "family": "RESTORATION",
+      "apCost": 2,
+      "mpCost": 5,
+      "requiredEquipmentTags": [
+        "REMEDY_KIT",
+        "ALCHEMY"
+      ],
+      "supportedIntentTags": [
+        "HEAL",
+        "SUPPORT",
+        "RESCUE"
+      ],
+      "baseWeight": 135,
+      "effectTags": [
+        "RESTORE_HP",
+        "ZONE_PREP_BONUS"
+      ],
+      "learningOpportunityTags": [
+        "TRAIL_ALCHEMY_BRANCH"
+      ],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_ROUTE_ORDER",
+      "family": "TACTICAL",
+      "apCost": 2,
+      "mpCost": 3,
+      "requiredEquipmentTags": [
+        "SIGNAL_KIT",
+        "COMMAND"
+      ],
+      "supportedIntentTags": [
+        "TACTICAL",
+        "OBJECTIVE",
+        "RETREAT",
+        "RESCUE"
+      ],
+      "baseWeight": 145,
+      "effectTags": [
+        "MOVE_CONTROL",
+        "OBJECTIVE_PROGRESS"
+      ],
+      "learningOpportunityTags": [
+        "COMMAND_BRANCH"
+      ],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_COVERING_VOLLEY",
+      "family": "TACTICAL",
+      "apCost": 5,
+      "mpCost": 0,
+      "requiredEquipmentTags": [
+        "LONGBOW"
+      ],
+      "supportedIntentTags": [
+        "RESCUE",
+        "RETREAT",
+        "TACTICAL"
+      ],
+      "baseWeight": 135,
+      "effectTags": [
+        "SUPPRESS_ENEMY",
+        "MOVE_PROTECT"
+      ],
+      "learningOpportunityTags": [
+        "COVERING_FIRE_BRANCH"
+      ],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_LOAD_BEARER",
+      "family": "GUARD",
+      "apCost": 2,
+      "mpCost": 0,
+      "requiredEquipmentTags": [
+        "BRACE",
+        "SHIELD_COMPATIBLE"
+      ],
+      "supportedIntentTags": [
+        "GUARD",
+        "RESCUE",
+        "OBJECTIVE"
+      ],
+      "baseWeight": 130,
+      "effectTags": [
+        "CARRY_OBJECTIVE",
+        "INTERCEPT"
+      ],
+      "learningOpportunityTags": [
+        "LATE_ANCHOR_BRANCH"
+      ],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_STEADY_PUSH",
+      "family": "MARTIAL",
+      "apCost": 3,
+      "mpCost": 0,
+      "requiredEquipmentTags": [
+        "POLEARM"
+      ],
+      "supportedIntentTags": [
+        "OBJECTIVE",
+        "BREAK",
+        "BALANCED"
+      ],
+      "baseWeight": 115,
+      "effectTags": [
+        "MOVE_ENEMY",
+        "OBJECTIVE_PROGRESS"
+      ],
+      "learningOpportunityTags": [
+        "VANGUARD_BRANCH"
+      ],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_BRASS_RALLY",
+      "family": "SUPPORT",
+      "apCost": 3,
+      "mpCost": 5,
+      "requiredEquipmentTags": [
+        "SIGNAL_HORN",
+        "COMMAND"
+      ],
+      "supportedIntentTags": [
+        "SUPPORT",
+        "GUARD",
+        "HEAL"
+      ],
+      "baseWeight": 145,
+      "effectTags": [
+        "BUFF_ALLY",
+        "RESTORE_COHESION"
+      ],
+      "learningOpportunityTags": [
+        "SIGNAL_COMMAND_BRANCH"
+      ],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_FALSE_RETREAT_SIGNAL",
+      "family": "TACTICAL",
+      "apCost": 4,
+      "mpCost": 4,
+      "requiredEquipmentTags": [
+        "SIGNAL_HORN",
+        "SIGNAL_KIT"
+      ],
+      "supportedIntentTags": [
+        "TACTICAL",
+        "RETREAT",
+        "AMBUSH"
+      ],
+      "baseWeight": 120,
+      "effectTags": [
+        "BAIT_ENEMY",
+        "REPOSITION"
+      ],
+      "learningOpportunityTags": [
+        "SIGNAL_GRAMMAR_BRANCH"
+      ],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_FLANKING_CUT",
+      "family": "MARTIAL",
+      "apCost": 4,
+      "mpCost": 0,
+      "requiredEquipmentTags": [
+        "DAGGER"
+      ],
+      "supportedIntentTags": [
+        "TACTICAL",
+        "OFFENSE",
+        "BREAK"
+      ],
+      "baseWeight": 140,
+      "effectTags": [
+        "REAR_DAMAGE",
+        "COHESION_DAMAGE"
+      ],
+      "learningOpportunityTags": [
+        "PRECISION_BRANCH"
+      ],
+      "playerDirectlySelectableInStandard": false
+    },
+    {
+      "id": "ART_SMOKE_VEIL",
+      "family": "SUPPORT",
+      "apCost": 3,
+      "mpCost": 4,
+      "requiredEquipmentTags": [
+        "FOCUS",
+        "SCOUTING"
+      ],
+      "supportedIntentTags": [
+        "TACTICAL",
+        "RETREAT",
+        "RESCUE",
+        "AMBUSH"
+      ],
+      "baseWeight": 130,
+      "effectTags": [
+        "CONCEAL",
+        "REPOSITION"
+      ],
+      "learningOpportunityTags": [
+        "STEALTH_BRANCH"
+      ],
+      "playerDirectlySelectableInStandard": false
+    }
+  ]
+}

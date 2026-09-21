@@ -1,0 +1,48 @@
+{
+  "contentVersion": "GOW_PASS08_0.13",
+  "screenId": "UI_UNION_BATTLE",
+  "layout": {
+    "top": "objective/boss telegraph strip",
+    "left": "player Union rail",
+    "center": "battlefield staging",
+    "right": "enemy Union rail",
+    "bottom": "Forecast card tray"
+  },
+  "unionCardFields": [
+    "Union name",
+    "formation mini-map",
+    "member HP",
+    "member MP",
+    "shared AP",
+    "Cohesion",
+    "statuses"
+  ],
+  "forecastCard": {
+    "primary": [
+      "contextual command phrase",
+      "AP total",
+      "MP predicted total",
+      "tactical intent"
+    ],
+    "secondary": [
+      "predicted member actions",
+      "expected effect",
+      "risk",
+      "learning opportunity",
+      "Link/Invocation readiness"
+    ],
+    "individualActionsClickable": false,
+    "confirmRequires": "select forecast then target where relevant then Confirm"
+  },
+  "targeting": "Target Unions/objectives, never pick exact friendly member Art in Standard mode",
+  "bossTelegraph": "persistent icon+text+countdown; color never sole signal",
+  "speed": [
+    "1x",
+    "2x",
+    "4x",
+    "Resolve Quickly after seen animation"
+  ],
+  "camera": "side-diagonal 2.5D staging with lane depth; brief scripted push-ins only",
+  "maxVisibleCharacters": "30 normal battle display budget; linked-front battles shown as separate fronts",
+  "accessibilitySummary": "One-line Forecast summary always available"
+}

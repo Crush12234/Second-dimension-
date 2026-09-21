@@ -1,0 +1,32 @@
+{
+  "packageId": "SECOND_DIMENSION_CONTENT_AUTHORITY_BRIDGE_003_FOR_ZIP21",
+  "contentVersion": "GOW_CONTENT_AUTHORITY_BRIDGE_003",
+  "createdDate": "2026-08-16",
+  "baseContentAuthority": "GOW_CONTENT_AUTHORITY_002",
+  "baseUnityWorkspace": "SECOND_DIMENSION_GOW_BATTLE_SLICE_021_CONTENT_AUTHORITY_002",
+  "purpose": "Resolve authority precedence, personalize 300 growth paths, bind 264 weapons to Art discovery, and reduce Codex context consumption.",
+  "counts": {
+    "characterProgressionManifests": 300,
+    "signatureTechniqueCandidates": 300,
+    "weaponArtBindings": 264,
+    "worldPackShards": 30,
+    "recruitsPerShard": 10,
+    "codexReadSets": 7,
+    "deterministicTestVectors": 30,
+    "authorityPrecedenceDomains": 12,
+    "runtimeAdapterContracts": 5,
+    "schemas": 12
+  },
+  "locks": [
+    "Content Authority 002 remains installed and is not overwritten.",
+    "Frozen Pass authority owns existing stable IDs and established domain systems.",
+    "Bridge 003 is additive adapter authority only.",
+    "Every normal recruit has one fixed primary weapon family and full player equipment control.",
+    "Weapon equipment gates Art legality and discovery tier; it never grants mastery automatically.",
+    "Mixed Union Forecasts remain complete commands with visible non-clickable predicted member actions.",
+    "Pass 05 remains the city builder; Pass 03/07 remain mission/expedition authority.",
+    "Kael and the Seven Founders remain protected from normal recruitment/equipment/progression."
+  ],
+  "unityStatus": "CONTENT_ONLY_NOT_COMPILED_OR_RUN_HERE",
+  "validationStatus": "STATIC_BRIDGE_VALIDATED"
+}

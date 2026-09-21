@@ -1,0 +1,30 @@
+hookId,system,trigger,frequency,rewardDirection,rule
+HOOK_STORY_ROOM_CHEST,Story Expedition,Room Clear,Chest / Event / Secret,"XP vouchers, preparation items, equipment, materials",Use committed board seed; no reload reroll.
+HOOK_STORY_BATTLE_CLEAR,Story Expedition,Battle Victory,Every battle,"Personal XP, Art mastery, Union Discipline, Guild XP, Hall XP",Use existing exact-once battle reward service.
+HOOK_STORY_ELITE_CLEAR,Story Expedition,Elite Victory,Optional elite room,Rare preparation or modded weapon chance,Reward must justify increased risk.
+HOOK_STORY_BOSS_FIRST,Story Expedition,Boss First Clear,Once per boss,"Epic preparation, named equipment, major XP, ultimate fragment",No duplicate first-clear claim.
+HOOK_CHAPTER_COMPLETE,Story,Chapter Completion,Once per chapter,"Grand XP cache, city blueprint, preparation item",Never replace required canon reward.
+HOOK_RESCUE_SUCCESS,Story Expedition,Rescue Objective,Per eligible mission,"Rescue Charter, relationship growth, recruit lead, Turning Point",Protective outcome; no ownership framing.
+HOOK_CHARACTER_LEVEL_05,Character Growth,Every 5 Character Levels,Repeatable milestone,Personal XP voucher or common/uncommon preparation,Small reward; does not create infinite level loop.
+HOOK_CHARACTER_LEVEL_10,Character Growth,Every 10 Character Levels,Repeatable milestone,Rare preparation or skill booster,Milestone tracked exact-once.
+HOOK_GUILD_LEVEL,Guild Growth,Guild Level Up,Each Guild level,"Preparation slot progress, resources, Guild/Hall XP item",City/Guild development remains meaningful.
+HOOK_WEAPON_USE_025,Skill Use,25 meaningful uses in one weapon family,Per character/family,Weapon Drill Token or Forge Commission,Spam/invalid use does not count.
+HOOK_WEAPON_USE_050,Skill Use,50 meaningful uses in one weapon family,Per character/family,Weapon Proficiency XP voucher,Meaningful-use rules required.
+HOOK_WEAPON_USE_100,Skill Use,100 meaningful uses in one weapon family,Per character/family,Family-matched modded weapon,Manual equip; player-band scaling.
+HOOK_WEAPON_USE_250,Skill Use,250 meaningful uses in one weapon family,Per character/family,Ultimate awakening fragment,Does not grant Founder/Kael gear.
+HOOK_ART_MASTER_ONE,Art Growth,Master one Art,Per Art,Art Focus Seal or small Art XP voucher,No reward for free/debug mastery.
+HOOK_ART_MASTER_BRANCH,Art Growth,Master one full Art branch,Per branch,"Art Echo Prism, Epic Cache Map, or rare mod weapon",Exact-once branch milestone.
+HOOK_ART_DISCOVERY_CHAIN,Art Growth,Discover 4 new Arts through use,Per character,Breakthrough Catalyst,Only legitimate discoveries count.
+HOOK_UNION_DISCIPLINE_05,Union Growth,Union Discipline Rank 5,Per Union,Union Command Charter and preparation item,Union identity persists through reorganization rules.
+HOOK_UNION_DISCIPLINE_10,Union Growth,Union Discipline Rank 10,Per Union,Grand Cache or formation unlock,Capstone should not invalidate other Unions.
+HOOK_TOWER_FLOOR_005,Endless Tower,Clear Floor 5,Each new checkpoint band,Common/Uncommon preparation,Highest-floor first-clear only.
+HOOK_TOWER_FLOOR_010,Endless Tower,Clear Floor 10 Boss,Every 10 floors,"Rare chest, XP cache, Tower Scout Lens",Checkpoint and extraction secure rewards.
+HOOK_TOWER_FLOOR_025,Endless Tower,Clear Floor 25,First clear,Epic modded weapon,Family may be smart-loot biased.
+HOOK_TOWER_FLOOR_050,Endless Tower,Clear Floor 50,First clear,Ultimate fragment or Epic Cache Map,No full restore after every floor.
+HOOK_TOWER_FLOOR_075,Endless Tower,Clear Floor 75,First clear,Boss Cache Seal and major XP,"Boss behavior scales, not only HP."
+HOOK_TOWER_FLOOR_100,Endless Tower,Clear Floor 100,First clear,Ultimate Legacy weapon,Naturally earnable; code is not required.
+HOOK_CITY_FORGE_LEVEL,City Builder,Forge Level Up,Each level,"Forge Commission, weapon evolution material, mod recipe",Uses existing Forge authority.
+HOOK_CITY_SCOUT_LEVEL,City Builder,Scout Lodge Level Up,Each level,"Fortune Lantern, maps, lenses","Improves board clarity, not free outcomes."
+HOOK_CITY_INFIRMARY_LEVEL,City Builder,Infirmary Level Up,Each level,"Field Hospital Kit, Recall Beacon recipe",Recovery support.
+HOOK_CITY_CONTRACT_LEVEL,City Builder,Contract House Level Up,Each level,Challenge Writs and Champion Bounties,Displays risk/reward clearly.
+HOOK_COMMUNITY_CODE,Creator Giveaway,Redeem Code,Exact once per campaign,"One bundle from 10,000-code registry",Plaintext owner-only; runtime hashes only.

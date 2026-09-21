@@ -1,0 +1,438 @@
+{
+  "maps": [
+    {
+      "id": "MAP018_GOBLIN_WORLD",
+      "worldId": "WORLD_GOBLIN_001",
+      "name": "Goblin World Overview",
+      "mapType": "WORLD_OVERVIEW",
+      "resourcePath": "SecondDimension/Campaign018/Maps/MAP018_GOBLIN_WORLD",
+      "nodes": [
+        "Gear-Crown Republic",
+        "Burrow Choir Confederacy",
+        "Iron Lantern Principalities",
+        "Saint Kiri Foundries",
+        "Broken Promise Marches"
+      ],
+      "capitals": [
+        "Kirikind Vault",
+        "Cogspire",
+        "Lanterndeep",
+        "Ash-Market",
+        "Month-Cathedral"
+      ],
+      "canonStatus": "CANON_LOCKED_FIRST_RACE_WORLD"
+    },
+    {
+      "id": "MAP018_GOBLIN_CAMPAIGN_ROUTE",
+      "worldId": "WORLD_GOBLIN_001",
+      "name": "Goblin World Campaign Routes",
+      "mapType": "EXPEDITION_NETWORK",
+      "resourcePath": "SecondDimension/Campaign018/Maps/MAP018_GOBLIN_CAMPAIGN_ROUTE",
+      "nodes": [
+        "Kirikind Vault",
+        "Cogspire",
+        "Lanterndeep",
+        "Ash-Market",
+        "Month-Cathedral"
+      ],
+      "capitals": [
+        "Kirikind Vault",
+        "Cogspire",
+        "Lanterndeep",
+        "Ash-Market",
+        "Month-Cathedral"
+      ],
+      "canonStatus": "CANON_LOCKED_FIRST_RACE_WORLD"
+    },
+    {
+      "id": "MAP018_GOBLIN_FORTRESS",
+      "worldId": "WORLD_GOBLIN_001",
+      "name": "Goblin Fortress Operation",
+      "mapType": "FORTRESS_OPERATION",
+      "resourcePath": "SecondDimension/Campaign018/Maps/MAP018_GOBLIN_FORTRESS",
+      "nodes": [
+        "Outer Approach",
+        "Civilian Route",
+        "Supply Line",
+        "Inner Gate",
+        "Command Core"
+      ],
+      "capitals": [
+        "Goblin Fortress"
+      ],
+      "canonStatus": "CANON_LOCKED"
+    },
+    {
+      "id": "MAP018_ORC_WORLD",
+      "worldId": "WORLD_ORC_002",
+      "name": "Orc World Overview",
+      "mapType": "WORLD_OVERVIEW",
+      "resourcePath": "SecondDimension/Campaign018/Maps/MAP018_ORC_WORLD",
+      "nodes": [
+        "Red Hearth Clans",
+        "Mountain-Banner Holds",
+        "Salt-Tusk Coast",
+        "Shield-Child Sanctuaries",
+        "Black Arena Cities"
+      ],
+      "capitals": [
+        "Hearthmaw",
+        "Bannerhold",
+        "Tuskgate",
+        "Shieldhome",
+        "The Old Arena"
+      ],
+      "canonStatus": "CANON_WORLD_FOUNDATION_GAME_CAMPAIGN_CANDIDATE"
+    },
+    {
+      "id": "MAP018_ORC_CAMPAIGN_ROUTE",
+      "worldId": "WORLD_ORC_002",
+      "name": "Orc World Campaign Routes",
+      "mapType": "EXPEDITION_NETWORK",
+      "resourcePath": "SecondDimension/Campaign018/Maps/MAP018_ORC_CAMPAIGN_ROUTE",
+      "nodes": [
+        "Hearthmaw",
+        "Bannerhold",
+        "Tuskgate",
+        "Shieldhome",
+        "The Old Arena"
+      ],
+      "capitals": [
+        "Hearthmaw",
+        "Bannerhold",
+        "Tuskgate",
+        "Shieldhome",
+        "The Old Arena"
+      ],
+      "canonStatus": "CANON_WORLD_FOUNDATION_GAME_CAMPAIGN_CANDIDATE"
+    },
+    {
+      "id": "MAP018_ORC_FORTRESS",
+      "worldId": "WORLD_ORC_002",
+      "name": "Tuskgate Operation",
+      "mapType": "FORTRESS_OPERATION",
+      "resourcePath": "SecondDimension/Campaign018/Maps/MAP018_ORC_FORTRESS",
+      "nodes": [
+        "Outer Approach",
+        "Civilian Route",
+        "Supply Line",
+        "Inner Gate",
+        "Command Core"
+      ],
+      "capitals": [
+        "Tuskgate"
+      ],
+      "canonStatus": "GAMEPLAY_CANDIDATE"
+    },
+    {
+      "id": "MAP018_BEASTKIN_WORLD",
+      "worldId": "WORLD_BEASTKIN_003",
+      "name": "Beastkin Territories Overview",
+      "mapType": "WORLD_OVERVIEW",
+      "resourcePath": "SecondDimension/Campaign018/Maps/MAP018_BEASTKIN_WORLD",
+      "nodes": [
+        "Wolfroad Packs",
+        "Cat-Sun Courts",
+        "Bearroot Holds",
+        "Skyfeather Aeries",
+        "Foxfire Treaty Paths"
+      ],
+      "capitals": [
+        "Moonrun",
+        "Sunperch",
+        "Rootden",
+        "Feathervault",
+        "The Open Court"
+      ],
+      "canonStatus": "CANON_WORLD_FOUNDATION_GAME_CAMPAIGN_CANDIDATE"
+    },
+    {
+      "id": "MAP018_BEASTKIN_CAMPAIGN_ROUTE",
+      "worldId": "WORLD_BEASTKIN_003",
+      "name": "Beastkin Territories Campaign Routes",
+      "mapType": "EXPEDITION_NETWORK",
+      "resourcePath": "SecondDimension/Campaign018/Maps/MAP018_BEASTKIN_CAMPAIGN_ROUTE",
+      "nodes": [
+        "Moonrun",
+        "Sunperch",
+        "Rootden",
+        "Feathervault",
+        "The Open Court"
+      ],
+      "capitals": [
+        "Moonrun",
+        "Sunperch",
+        "Rootden",
+        "Feathervault",
+        "The Open Court"
+      ],
+      "canonStatus": "CANON_WORLD_FOUNDATION_GAME_CAMPAIGN_CANDIDATE"
+    },
+    {
+      "id": "MAP018_BEASTKIN_FORTRESS",
+      "worldId": "WORLD_BEASTKIN_003",
+      "name": "Golden Cage Bastion Operation",
+      "mapType": "FORTRESS_OPERATION",
+      "resourcePath": "SecondDimension/Campaign018/Maps/MAP018_BEASTKIN_FORTRESS",
+      "nodes": [
+        "Outer Approach",
+        "Civilian Route",
+        "Supply Line",
+        "Inner Gate",
+        "Command Core"
+      ],
+      "capitals": [
+        "Golden Cage Bastion"
+      ],
+      "canonStatus": "GAMEPLAY_CANDIDATE"
+    },
+    {
+      "id": "MAP018_DEMON_WORLD",
+      "worldId": "WORLD_DEMON_004",
+      "name": "Demon Realms Overview",
+      "mapType": "WORLD_OVERVIEW",
+      "resourcePath": "SecondDimension/Campaign018/Maps/MAP018_DEMON_WORLD",
+      "nodes": [
+        "Crimson Library States",
+        "Thorn-Crown Duchies",
+        "Ash Contract Courts",
+        "Dreamglass Salons",
+        "Ember Monasteries"
+      ],
+      "capitals": [
+        "Nightveil Spire",
+        "Cinderhall",
+        "Contractum",
+        "Dreamglass",
+        "The Red Archive"
+      ],
+      "canonStatus": "CANON_WORLD_FOUNDATION_GAME_CAMPAIGN_CANDIDATE"
+    },
+    {
+      "id": "MAP018_DEMON_CAMPAIGN_ROUTE",
+      "worldId": "WORLD_DEMON_004",
+      "name": "Demon Realms Campaign Routes",
+      "mapType": "EXPEDITION_NETWORK",
+      "resourcePath": "SecondDimension/Campaign018/Maps/MAP018_DEMON_CAMPAIGN_ROUTE",
+      "nodes": [
+        "Nightveil Spire",
+        "Cinderhall",
+        "Contractum",
+        "Dreamglass",
+        "The Red Archive"
+      ],
+      "capitals": [
+        "Nightveil Spire",
+        "Cinderhall",
+        "Contractum",
+        "Dreamglass",
+        "The Red Archive"
+      ],
+      "canonStatus": "CANON_WORLD_FOUNDATION_GAME_CAMPAIGN_CANDIDATE"
+    },
+    {
+      "id": "MAP018_DEMON_FORTRESS",
+      "worldId": "WORLD_DEMON_004",
+      "name": "Contractum Red Seal Operation",
+      "mapType": "FORTRESS_OPERATION",
+      "resourcePath": "SecondDimension/Campaign018/Maps/MAP018_DEMON_FORTRESS",
+      "nodes": [
+        "Outer Approach",
+        "Civilian Route",
+        "Supply Line",
+        "Inner Gate",
+        "Command Core"
+      ],
+      "capitals": [
+        "Contractum Red Seal"
+      ],
+      "canonStatus": "GAMEPLAY_CANDIDATE"
+    },
+    {
+      "id": "MAP018_DARKELF_WORLD",
+      "worldId": "WORLD_DARK_ELF_005",
+      "name": "Dark Elf Territories Overview",
+      "mapType": "WORLD_OVERVIEW",
+      "resourcePath": "SecondDimension/Campaign018/Maps/MAP018_DARKELF_WORLD",
+      "nodes": [
+        "Duskwood Courts",
+        "Veil-City Compact",
+        "Silver Quiet Archives",
+        "Blackroot Sanctuaries",
+        "Lanternless Roads"
+      ],
+      "capitals": [
+        "Duskwood",
+        "Veilmere",
+        "Silverquiet",
+        "Blackroot",
+        "Nocthane"
+      ],
+      "canonStatus": "CANON_WORLD_FOUNDATION_GAME_CAMPAIGN_CANDIDATE"
+    },
+    {
+      "id": "MAP018_DARKELF_CAMPAIGN_ROUTE",
+      "worldId": "WORLD_DARK_ELF_005",
+      "name": "Dark Elf Territories Campaign Routes",
+      "mapType": "EXPEDITION_NETWORK",
+      "resourcePath": "SecondDimension/Campaign018/Maps/MAP018_DARKELF_CAMPAIGN_ROUTE",
+      "nodes": [
+        "Duskwood",
+        "Veilmere",
+        "Silverquiet",
+        "Blackroot",
+        "Nocthane"
+      ],
+      "capitals": [
+        "Duskwood",
+        "Veilmere",
+        "Silverquiet",
+        "Blackroot",
+        "Nocthane"
+      ],
+      "canonStatus": "CANON_WORLD_FOUNDATION_GAME_CAMPAIGN_CANDIDATE"
+    },
+    {
+      "id": "MAP018_DARKELF_FORTRESS",
+      "worldId": "WORLD_DARK_ELF_005",
+      "name": "Silverquiet Lock Operation",
+      "mapType": "FORTRESS_OPERATION",
+      "resourcePath": "SecondDimension/Campaign018/Maps/MAP018_DARKELF_FORTRESS",
+      "nodes": [
+        "Outer Approach",
+        "Civilian Route",
+        "Supply Line",
+        "Inner Gate",
+        "Command Core"
+      ],
+      "capitals": [
+        "Silverquiet Lock"
+      ],
+      "canonStatus": "GAMEPLAY_CANDIDATE"
+    },
+    {
+      "id": "MAP018_BUNNY_WORLD",
+      "worldId": "WORLD_BUNNY_006",
+      "name": "Bunny Trade Nations Overview",
+      "mapType": "WORLD_OVERVIEW",
+      "resourcePath": "SecondDimension/Campaign018/Maps/MAP018_BUNNY_WORLD",
+      "nodes": [
+        "Silverstep Exchange",
+        "Golden Warren Banks",
+        "Roadbell Caravan League",
+        "Orchard Ports",
+        "Free Basket Cities"
+      ],
+      "capitals": [
+        "Ledgerbell",
+        "Silverstep Market",
+        "Warrenhall",
+        "Roadbell",
+        "Basketon"
+      ],
+      "canonStatus": "CANON_WORLD_FOUNDATION_GAME_CAMPAIGN_CANDIDATE"
+    },
+    {
+      "id": "MAP018_BUNNY_CAMPAIGN_ROUTE",
+      "worldId": "WORLD_BUNNY_006",
+      "name": "Bunny Trade Nations Campaign Routes",
+      "mapType": "EXPEDITION_NETWORK",
+      "resourcePath": "SecondDimension/Campaign018/Maps/MAP018_BUNNY_CAMPAIGN_ROUTE",
+      "nodes": [
+        "Ledgerbell",
+        "Silverstep Market",
+        "Warrenhall",
+        "Roadbell",
+        "Basketon"
+      ],
+      "capitals": [
+        "Ledgerbell",
+        "Silverstep Market",
+        "Warrenhall",
+        "Roadbell",
+        "Basketon"
+      ],
+      "canonStatus": "CANON_WORLD_FOUNDATION_GAME_CAMPAIGN_CANDIDATE"
+    },
+    {
+      "id": "MAP018_BUNNY_FORTRESS",
+      "worldId": "WORLD_BUNNY_006",
+      "name": "Warrenhall Debt Keep Operation",
+      "mapType": "FORTRESS_OPERATION",
+      "resourcePath": "SecondDimension/Campaign018/Maps/MAP018_BUNNY_FORTRESS",
+      "nodes": [
+        "Outer Approach",
+        "Civilian Route",
+        "Supply Line",
+        "Inner Gate",
+        "Command Core"
+      ],
+      "capitals": [
+        "Warrenhall Debt Keep"
+      ],
+      "canonStatus": "GAMEPLAY_CANDIDATE"
+    },
+    {
+      "id": "MAP018_DOG_WORLD",
+      "worldId": "WORLD_DOG_007",
+      "name": "Dog Tribe Frontiers Overview",
+      "mapType": "WORLD_OVERVIEW",
+      "resourcePath": "SecondDimension/Campaign018/Maps/MAP018_DOG_WORLD",
+      "nodes": [
+        "Stormpaw Ranges",
+        "Oathpost Settlements",
+        "Rivernose Watch",
+        "Hearthhound Villages",
+        "Gray Trail Compact"
+      ],
+      "capitals": [
+        "Stormpaw Hold",
+        "Oathpost Prime",
+        "Rivernose",
+        "Hearthhound",
+        "Trailmark"
+      ],
+      "canonStatus": "CANON_WORLD_FOUNDATION_GAME_CAMPAIGN_CANDIDATE"
+    },
+    {
+      "id": "MAP018_DOG_CAMPAIGN_ROUTE",
+      "worldId": "WORLD_DOG_007",
+      "name": "Dog Tribe Frontiers Campaign Routes",
+      "mapType": "EXPEDITION_NETWORK",
+      "resourcePath": "SecondDimension/Campaign018/Maps/MAP018_DOG_CAMPAIGN_ROUTE",
+      "nodes": [
+        "Stormpaw Hold",
+        "Oathpost Prime",
+        "Rivernose",
+        "Hearthhound",
+        "Trailmark"
+      ],
+      "capitals": [
+        "Stormpaw Hold",
+        "Oathpost Prime",
+        "Rivernose",
+        "Hearthhound",
+        "Trailmark"
+      ],
+      "canonStatus": "CANON_WORLD_FOUNDATION_GAME_CAMPAIGN_CANDIDATE"
+    },
+    {
+      "id": "MAP018_DOG_FORTRESS",
+      "worldId": "WORLD_DOG_007",
+      "name": "Oathpost Prime Operation",
+      "mapType": "FORTRESS_OPERATION",
+      "resourcePath": "SecondDimension/Campaign018/Maps/MAP018_DOG_FORTRESS",
+      "nodes": [
+        "Outer Approach",
+        "Civilian Route",
+        "Supply Line",
+        "Inner Gate",
+        "Command Core"
+      ],
+      "capitals": [
+        "Oathpost Prime"
+      ],
+      "canonStatus": "GAMEPLAY_CANDIDATE"
+    }
+  ]
+}

@@ -1,0 +1,573 @@
+{
+  "contentVersion": "PASS02_FORMATIONS_0.7",
+  "formations": [
+    {
+      "id": "FORMATION_SHIELD_WALL",
+      "displayName": "Shield Wall",
+      "slotGeometry": [
+        "VANGUARD",
+        "VANGUARD",
+        "CENTER",
+        "REAR"
+      ],
+      "validMemberCount": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "exposureRule": "front-designated slots draw more ordinary melee targeting; rear protection can be bypassed by flank/ambush",
+      "targetingProtection": {
+        "GUARD": 12,
+        "COHESION": 8
+      },
+      "movementBehavior": "formation-specific group movement",
+      "disciplineModifiersPermille": {
+        "Martial": 1000,
+        "Mystic": 1000,
+        "Restoration": 1000,
+        "Support": 1000,
+        "Guard": 1120,
+        "Tactical": 1000
+      },
+      "forecastWeighting": {
+        "GUARD": 12,
+        "COHESION": 8
+      },
+      "apGenerationModifier": 0,
+      "mpEfficiencyPermille": 1000,
+      "cohesionBonus": 8,
+      "cohesionPenalty": 0,
+      "strengths": [
+        "GUARD",
+        "COHESION"
+      ],
+      "counters": [
+        "AGILITY"
+      ],
+      "failureState": "loses primary bonuses while broken",
+      "masteryThresholds": [
+        0,
+        120,
+        360,
+        800,
+        1500
+      ],
+      "advancedEvolution": "Shield Wall II",
+      "combatUses": [
+        "ROLE_FRONT_ANCHOR",
+        "ROLE_PRIMARY_HEALER"
+      ],
+      "expeditionUses": [
+        "affects hazard or escort checks when context matches"
+      ],
+      "uiLayoutTag": "FORMATION_SHIELD_WALL_UI",
+      "touchPresentation": "tap formation card; drag members between valid slots outside battle"
+    },
+    {
+      "id": "FORMATION_WEDGE",
+      "displayName": "Wedge",
+      "slotGeometry": [
+        "TIP",
+        "LEFT",
+        "RIGHT",
+        "REAR"
+      ],
+      "validMemberCount": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "exposureRule": "front-designated slots draw more ordinary melee targeting; rear protection can be bypassed by flank/ambush",
+      "targetingProtection": {
+        "MARTIAL": 10,
+        "BREAK": 12
+      },
+      "movementBehavior": "formation-specific group movement",
+      "disciplineModifiersPermille": {
+        "Martial": 1100,
+        "Mystic": 1000,
+        "Restoration": 1000,
+        "Support": 1000,
+        "Guard": 1000,
+        "Tactical": 1000
+      },
+      "forecastWeighting": {
+        "MARTIAL": 10,
+        "BREAK": 12
+      },
+      "apGenerationModifier": 0,
+      "mpEfficiencyPermille": 1000,
+      "cohesionBonus": 0,
+      "cohesionPenalty": 0,
+      "strengths": [
+        "MARTIAL",
+        "BREAK"
+      ],
+      "counters": [
+        "FLANK_DEFENSE"
+      ],
+      "failureState": "loses primary bonuses while broken",
+      "masteryThresholds": [
+        0,
+        120,
+        360,
+        800,
+        1500
+      ],
+      "advancedEvolution": "Wedge II",
+      "combatUses": [
+        "ROLE_FORMATION_BREAKER",
+        "ROLE_FRONT_DAMAGE"
+      ],
+      "expeditionUses": [
+        "affects hazard or escort checks when context matches"
+      ],
+      "uiLayoutTag": "FORMATION_WEDGE_UI",
+      "touchPresentation": "tap formation card; drag members between valid slots outside battle"
+    },
+    {
+      "id": "FORMATION_SKIRMISH_LINE",
+      "displayName": "Skirmish Line",
+      "slotGeometry": [
+        "LEFT",
+        "CENTER",
+        "RIGHT",
+        "REAR"
+      ],
+      "validMemberCount": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "exposureRule": "front-designated slots draw more ordinary melee targeting; rear protection can be bypassed by flank/ambush",
+      "targetingProtection": {
+        "TACTICAL": 10,
+        "AGILITY": 8
+      },
+      "movementBehavior": "formation-specific group movement",
+      "disciplineModifiersPermille": {
+        "Martial": 1000,
+        "Mystic": 1000,
+        "Restoration": 1000,
+        "Support": 1000,
+        "Guard": 940,
+        "Tactical": 1100
+      },
+      "forecastWeighting": {
+        "TACTICAL": 10,
+        "AGILITY": 8
+      },
+      "apGenerationModifier": 0,
+      "mpEfficiencyPermille": 1000,
+      "cohesionBonus": 0,
+      "cohesionPenalty": 0,
+      "strengths": [
+        "TACTICAL",
+        "AGILITY"
+      ],
+      "counters": [
+        "GUARD"
+      ],
+      "failureState": "loses primary bonuses while broken",
+      "masteryThresholds": [
+        0,
+        120,
+        360,
+        800,
+        1500
+      ],
+      "advancedEvolution": "Skirmish Line II",
+      "combatUses": [
+        "ROLE_TACTICAL_RANGED",
+        "ROLE_RANGED_SUPPORT"
+      ],
+      "expeditionUses": [
+        "affects hazard or escort checks when context matches"
+      ],
+      "uiLayoutTag": "FORMATION_SKIRMISH_LINE_UI",
+      "touchPresentation": "tap formation card; drag members between valid slots outside battle"
+    },
+    {
+      "id": "FORMATION_ARCANE_CIRCLE",
+      "displayName": "Arcane Circle",
+      "slotGeometry": [
+        "ANCHOR",
+        "FOCUS",
+        "FOCUS",
+        "WARD"
+      ],
+      "validMemberCount": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "exposureRule": "front-designated slots draw more ordinary melee targeting; rear protection can be bypassed by flank/ambush",
+      "targetingProtection": {
+        "MYSTIC": 12,
+        "SUPPORT": 8
+      },
+      "movementBehavior": "formation-specific group movement",
+      "disciplineModifiersPermille": {
+        "Martial": 1000,
+        "Mystic": 1120,
+        "Restoration": 1000,
+        "Support": 1080,
+        "Guard": 1000,
+        "Tactical": 1000
+      },
+      "forecastWeighting": {
+        "MYSTIC": 12,
+        "SUPPORT": 8
+      },
+      "apGenerationModifier": 0,
+      "mpEfficiencyPermille": 1000,
+      "cohesionBonus": 0,
+      "cohesionPenalty": 0,
+      "strengths": [
+        "MYSTIC",
+        "SUPPORT"
+      ],
+      "counters": [
+        "MELEE_DEFENSE"
+      ],
+      "failureState": "loses primary bonuses while broken",
+      "masteryThresholds": [
+        0,
+        120,
+        360,
+        800,
+        1500
+      ],
+      "advancedEvolution": "Arcane Circle II",
+      "combatUses": [
+        "ROLE_ARCANE_TANK",
+        "ROLE_UTILITY_MYSTIC"
+      ],
+      "expeditionUses": [
+        "affects hazard or escort checks when context matches"
+      ],
+      "uiLayoutTag": "FORMATION_ARCANE_CIRCLE_UI",
+      "touchPresentation": "tap formation card; drag members between valid slots outside battle"
+    },
+    {
+      "id": "FORMATION_CRESCENT",
+      "displayName": "Crescent",
+      "slotGeometry": [
+        "LEFT_WING",
+        "CENTER",
+        "RIGHT_WING",
+        "REAR"
+      ],
+      "validMemberCount": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "exposureRule": "front-designated slots draw more ordinary melee targeting; rear protection can be bypassed by flank/ambush",
+      "targetingProtection": {
+        "COUNTER": 10,
+        "FLANK_DEFENSE": 8
+      },
+      "movementBehavior": "formation-specific group movement",
+      "disciplineModifiersPermille": {
+        "Martial": 1000,
+        "Mystic": 1000,
+        "Restoration": 1000,
+        "Support": 1000,
+        "Guard": 1000,
+        "Tactical": 1000
+      },
+      "forecastWeighting": {
+        "COUNTER": 10,
+        "FLANK_DEFENSE": 8
+      },
+      "apGenerationModifier": 0,
+      "mpEfficiencyPermille": 1000,
+      "cohesionBonus": 0,
+      "cohesionPenalty": 0,
+      "strengths": [
+        "COUNTER",
+        "FLANK_DEFENSE"
+      ],
+      "counters": [
+        "BREAK"
+      ],
+      "failureState": "loses primary bonuses while broken",
+      "masteryThresholds": [
+        0,
+        120,
+        360,
+        800,
+        1500
+      ],
+      "advancedEvolution": "Crescent II",
+      "combatUses": [
+        "ROLE_REAR_HUNTER",
+        "ROLE_PRIMARY_LEADER"
+      ],
+      "expeditionUses": [
+        "affects hazard or escort checks when context matches"
+      ],
+      "uiLayoutTag": "FORMATION_CRESCENT_UI",
+      "touchPresentation": "tap formation card; drag members between valid slots outside battle"
+    },
+    {
+      "id": "FORMATION_RESCUE_COLUMN",
+      "displayName": "Rescue Column",
+      "slotGeometry": [
+        "POINT",
+        "PROTECTED",
+        "PROTECTED",
+        "REAR_GUARD"
+      ],
+      "validMemberCount": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "exposureRule": "front-designated slots draw more ordinary melee targeting; rear protection can be bypassed by flank/ambush",
+      "targetingProtection": {
+        "RESCUE": 14,
+        "RESTORATION": 8
+      },
+      "movementBehavior": "formation-specific group movement",
+      "disciplineModifiersPermille": {
+        "Martial": 1000,
+        "Mystic": 1000,
+        "Restoration": 1080,
+        "Support": 1000,
+        "Guard": 1000,
+        "Tactical": 1000
+      },
+      "forecastWeighting": {
+        "RESCUE": 14,
+        "RESTORATION": 8
+      },
+      "apGenerationModifier": 0,
+      "mpEfficiencyPermille": 1000,
+      "cohesionBonus": 0,
+      "cohesionPenalty": 0,
+      "strengths": [
+        "RESCUE",
+        "RESTORATION"
+      ],
+      "counters": [
+        "OFFENSE"
+      ],
+      "failureState": "loses primary bonuses while broken",
+      "masteryThresholds": [
+        0,
+        120,
+        360,
+        800,
+        1500
+      ],
+      "advancedEvolution": "Rescue Column II",
+      "combatUses": [
+        "ROLE_PRIMARY_HEALER",
+        "ROLE_LOAD_BEARER"
+      ],
+      "expeditionUses": [
+        "affects hazard or escort checks when context matches"
+      ],
+      "uiLayoutTag": "FORMATION_RESCUE_COLUMN_UI",
+      "touchPresentation": "tap formation card; drag members between valid slots outside battle"
+    },
+    {
+      "id": "FORMATION_HOLLOW_SQUARE",
+      "displayName": "Hollow Square",
+      "slotGeometry": [
+        "FRONT",
+        "LEFT",
+        "RIGHT",
+        "CENTER",
+        "REAR"
+      ],
+      "validMemberCount": [
+        4,
+        5
+      ],
+      "exposureRule": "outer slots protect center",
+      "targetingProtection": {
+        "REAR_PROTECTION": 12
+      },
+      "movementBehavior": "slow compact movement",
+      "disciplineModifiersPermille": {
+        "Martial": 950,
+        "Mystic": 1050,
+        "Restoration": 1100,
+        "Support": 1050,
+        "Guard": 1150,
+        "Tactical": 900
+      },
+      "forecastWeighting": {
+        "GUARD": 12,
+        "HEAL": 8
+      },
+      "apGenerationModifier": -1,
+      "mpEfficiencyPermille": 1025,
+      "cohesionBonus": 10,
+      "cohesionPenalty": 0,
+      "strengths": [
+        "surround defense",
+        "protected healer"
+      ],
+      "counters": [
+        "area damage",
+        "slow objectives"
+      ],
+      "failureState": "center becomes exposed",
+      "masteryThresholds": [
+        0,
+        120,
+        360,
+        800,
+        1500
+      ],
+      "advancedEvolution": "Citadel Square",
+      "combatUses": [
+        "escort",
+        "surrounded defense"
+      ],
+      "expeditionUses": [
+        "protects caravan during hazard events"
+      ],
+      "uiLayoutTag": "FORM_SQUARE_UI",
+      "touchPresentation": "radial slot card"
+    },
+    {
+      "id": "FORMATION_ARROWHEAD",
+      "displayName": "Arrowhead",
+      "slotGeometry": [
+        "TIP",
+        "LEFT_WING",
+        "RIGHT_WING",
+        "CENTER",
+        "REAR"
+      ],
+      "validMemberCount": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "exposureRule": "tip highly exposed",
+      "targetingProtection": {},
+      "movementBehavior": "fast forward commitment",
+      "disciplineModifiersPermille": {
+        "Martial": 1125,
+        "Mystic": 925,
+        "Restoration": 900,
+        "Support": 950,
+        "Guard": 875,
+        "Tactical": 1100
+      },
+      "forecastWeighting": {
+        "BREAK": 14,
+        "OBJECTIVE": 8
+      },
+      "apGenerationModifier": 1,
+      "mpEfficiencyPermille": 975,
+      "cohesionBonus": 0,
+      "cohesionPenalty": 5,
+      "strengths": [
+        "charge",
+        "break",
+        "objective rush"
+      ],
+      "counters": [
+        "flanks",
+        "counter walls"
+      ],
+      "failureState": "tip isolation causes major Cohesion loss",
+      "masteryThresholds": [
+        0,
+        120,
+        360,
+        800,
+        1500
+      ],
+      "advancedEvolution": "Worldpiercer Arrow",
+      "combatUses": [
+        "rush",
+        "break"
+      ],
+      "expeditionUses": [
+        "fast pursuit checks"
+      ],
+      "uiLayoutTag": "FORM_ARROW_UI",
+      "touchPresentation": "forward-pointing slot card"
+    },
+    {
+      "id": "FORMATION_VEILED_ECHELON",
+      "displayName": "Veiled Echelon",
+      "slotGeometry": [
+        "FORWARD_LEFT",
+        "CENTER",
+        "REAR_RIGHT",
+        "SHADOW",
+        "ANCHOR"
+      ],
+      "validMemberCount": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "exposureRule": "shadow slot harder to target until revealed",
+      "targetingProtection": {
+        "AMBUSH": 12
+      },
+      "movementBehavior": "staggered lateral movement",
+      "disciplineModifiersPermille": {
+        "Martial": 975,
+        "Mystic": 1050,
+        "Restoration": 925,
+        "Support": 1050,
+        "Guard": 900,
+        "Tactical": 1175
+      },
+      "forecastWeighting": {
+        "AMBUSH": 14,
+        "TACTICAL": 12
+      },
+      "apGenerationModifier": 0,
+      "mpEfficiencyPermille": 1000,
+      "cohesionBonus": 2,
+      "cohesionPenalty": 0,
+      "strengths": [
+        "ambush",
+        "rearline access",
+        "spell setup"
+      ],
+      "counters": [
+        "wide detection",
+        "area suppression"
+      ],
+      "failureState": "revealed shadow slot loses evasion bonus",
+      "masteryThresholds": [
+        0,
+        120,
+        360,
+        800,
+        1500
+      ],
+      "advancedEvolution": "Dusk Echelon",
+      "combatUses": [
+        "ambush",
+        "rearline"
+      ],
+      "expeditionUses": [
+        "stealth and scouting checks"
+      ],
+      "uiLayoutTag": "FORM_ECHELON_UI",
+      "touchPresentation": "staggered diagonal slot card"
+    }
+  ]
+}

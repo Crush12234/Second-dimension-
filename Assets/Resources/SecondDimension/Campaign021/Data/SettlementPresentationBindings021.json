@@ -1,0 +1,136 @@
+{
+  "bindings": [
+    {
+      "bindingId": "STANDINGPRES021_SKYHOME",
+      "worldId": "SKYHOME",
+      "displayName": "Skyhome and the First City",
+      "iconResource": "SecondDimension/Campaign021/UI/Standing/SKYHOME_Standing021",
+      "standingTierIds": [
+        "RECOVERABLE_FRACTURE",
+        "INDEPENDENT_COOPERATION",
+        "CONDITIONAL_ACCORD",
+        "ALLIANCE_NETWORK"
+      ],
+      "worldCannotBeOwned": true,
+      "allOutcomesRecoverable": true,
+      "productionStatus": "STANDING_PANEL_READY"
+    },
+    {
+      "bindingId": "STANDINGPRES021_WORLD_BEASTKIN_003",
+      "worldId": "WORLD_BEASTKIN_003",
+      "displayName": "Beastkin Territories",
+      "iconResource": "SecondDimension/Campaign021/UI/Standing/WORLD_BEASTKIN_003_Standing021",
+      "standingTierIds": [
+        "RECOVERABLE_FRACTURE",
+        "INDEPENDENT_COOPERATION",
+        "CONDITIONAL_ACCORD",
+        "ALLIANCE_NETWORK"
+      ],
+      "worldCannotBeOwned": true,
+      "allOutcomesRecoverable": true,
+      "productionStatus": "STANDING_PANEL_READY"
+    },
+    {
+      "bindingId": "STANDINGPRES021_WORLD_BUNNY_006",
+      "worldId": "WORLD_BUNNY_006",
+      "displayName": "Bunny Trade Nations",
+      "iconResource": "SecondDimension/Campaign021/UI/Standing/WORLD_BUNNY_006_Standing021",
+      "standingTierIds": [
+        "RECOVERABLE_FRACTURE",
+        "INDEPENDENT_COOPERATION",
+        "CONDITIONAL_ACCORD",
+        "ALLIANCE_NETWORK"
+      ],
+      "worldCannotBeOwned": true,
+      "allOutcomesRecoverable": true,
+      "productionStatus": "STANDING_PANEL_READY"
+    },
+    {
+      "bindingId": "STANDINGPRES021_WORLD_DARK_ELF_005",
+      "worldId": "WORLD_DARK_ELF_005",
+      "displayName": "Dark Elf Territories",
+      "iconResource": "SecondDimension/Campaign021/UI/Standing/WORLD_DARK_ELF_005_Standing021",
+      "standingTierIds": [
+        "RECOVERABLE_FRACTURE",
+        "INDEPENDENT_COOPERATION",
+        "CONDITIONAL_ACCORD",
+        "ALLIANCE_NETWORK"
+      ],
+      "worldCannotBeOwned": true,
+      "allOutcomesRecoverable": true,
+      "productionStatus": "STANDING_PANEL_READY"
+    },
+    {
+      "bindingId": "STANDINGPRES021_WORLD_DEMON_004",
+      "worldId": "WORLD_DEMON_004",
+      "displayName": "Demon Realms",
+      "iconResource": "SecondDimension/Campaign021/UI/Standing/WORLD_DEMON_004_Standing021",
+      "standingTierIds": [
+        "RECOVERABLE_FRACTURE",
+        "INDEPENDENT_COOPERATION",
+        "CONDITIONAL_ACCORD",
+        "ALLIANCE_NETWORK"
+      ],
+      "worldCannotBeOwned": true,
+      "allOutcomesRecoverable": true,
+      "productionStatus": "STANDING_PANEL_READY"
+    },
+    {
+      "bindingId": "STANDINGPRES021_WORLD_DOG_007",
+      "worldId": "WORLD_DOG_007",
+      "displayName": "Dog Tribe Frontiers",
+      "iconResource": "SecondDimension/Campaign021/UI/Standing/WORLD_DOG_007_Standing021",
+      "standingTierIds": [
+        "RECOVERABLE_FRACTURE",
+        "INDEPENDENT_COOPERATION",
+        "CONDITIONAL_ACCORD",
+        "ALLIANCE_NETWORK"
+      ],
+      "worldCannotBeOwned": true,
+      "allOutcomesRecoverable": true,
+      "productionStatus": "STANDING_PANEL_READY"
+    },
+    {
+      "bindingId": "STANDINGPRES021_WORLD_GOBLIN_001",
+      "worldId": "WORLD_GOBLIN_001",
+      "displayName": "Goblin World",
+      "iconResource": "SecondDimension/Campaign021/UI/Standing/WORLD_GOBLIN_001_Standing021",
+      "standingTierIds": [
+        "RECOVERABLE_FRACTURE",
+        "INDEPENDENT_COOPERATION",
+        "CONDITIONAL_ACCORD",
+        "ALLIANCE_NETWORK"
+      ],
+      "worldCannotBeOwned": true,
+      "allOutcomesRecoverable": true,
+      "productionStatus": "STANDING_PANEL_READY"
+    },
+    {
+      "bindingId": "STANDINGPRES021_WORLD_ORC_002",
+      "worldId": "WORLD_ORC_002",
+      "displayName": "Orc World",
+      "iconResource": "SecondDimension/Campaign021/UI/Standing/WORLD_ORC_002_Standing021",
+      "standingTierIds": [
+        "RECOVERABLE_FRACTURE",
+        "INDEPENDENT_COOPERATION",
+        "CONDITIONAL_ACCORD",
+        "ALLIANCE_NETWORK"
+      ],
+      "worldCannotBeOwned": true,
+      "allOutcomesRecoverable": true,
+      "productionStatus": "STANDING_PANEL_READY"
+    },
+    {
+      "bindingId": "STANDINGPRES021_CAMPAIGN_NETWORK",
+      "worldId": "CAMPAIGN_NETWORK",
+      "displayName": "First Gate Network Accord",
+      "iconResource": "SecondDimension/Campaign021/UI/Standing/CAMPAIGN_NETWORK_Standing021",
+      "standingTierIds": [
+        "GATES_OF_FORGOTTEN_WORLDS_CANDIDATE_COMPLETE"
+      ],
+      "worldCannotBeOwned": true,
+      "allOutcomesRecoverable": true,
+      "productionStatus": "STANDING_PANEL_READY"
+    }
+  ]
+}

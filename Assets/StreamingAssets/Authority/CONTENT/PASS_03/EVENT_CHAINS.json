@@ -1,0 +1,210 @@
+{
+  "contentVersion": "GOW_PASS03_0.8",
+  "chainCount": 12,
+  "chains": [
+    {
+      "id": "CHAIN_INJURED_COURIER",
+      "title": "The Courier’s Unfinished Route",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "premise": "Aid, evidence, and route discipline determine whether a missing crew is found alive.",
+      "eventIds": [
+        "EVT_GATEWORKS_INJURED_COURIER",
+        "EVT_GATEWORKS_EMPTY_BEDROLL",
+        "EVT_GATEWORKS_MISSING_EXPEDITION_SIGNAL"
+      ],
+      "progressionMode": "FLAG_DRIVEN_ORDERED_WITH_RECOVERY_BRANCHES",
+      "failureDoesNotHardLock": true,
+      "completionFlags": [
+        "FLAG_CHAIN_INJURED_COURIER_COMPLETE"
+      ],
+      "designNote": "Earlier choices alter later modifiers, presentation, allies, or complications; a failed step creates a recovery state instead of deleting the chain."
+    },
+    {
+      "id": "CHAIN_SUSPICIOUS_SALVAGER",
+      "title": "The Salvager with Two Ledgers",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "premise": "A petty salvage dispute reveals a charter-fraud network.",
+      "eventIds": [
+        "EVT_GATEWORKS_MERCHANT_TWO_LEDGERS",
+        "EVT_GATEWORKS_FALSE_CACHE",
+        "EVT_GATEWORKS_DAMAGED_GUILD_SEAL"
+      ],
+      "progressionMode": "FLAG_DRIVEN_ORDERED_WITH_RECOVERY_BRANCHES",
+      "failureDoesNotHardLock": true,
+      "completionFlags": [
+        "FLAG_CHAIN_SUSPICIOUS_SALVAGER_COMPLETE"
+      ],
+      "designNote": "Earlier choices alter later modifiers, presentation, allies, or complications; a failed step creates a recovery state instead of deleting the chain."
+    },
+    {
+      "id": "CHAIN_GATE_BREATH",
+      "title": "The Gate That Breathes",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "premise": "Patient study reveals that the Gateworks are executing an ancient maintenance rhythm.",
+      "eventIds": [
+        "EVT_GATEWORKS_BREATHING_GATE_SCAR",
+        "EVT_GATEWORKS_GATE_PULSE_BONE",
+        "EVT_GATEWORKS_UNTRANSLATED_NAME"
+      ],
+      "progressionMode": "FLAG_DRIVEN_ORDERED_WITH_RECOVERY_BRANCHES",
+      "failureDoesNotHardLock": true,
+      "completionFlags": [
+        "FLAG_CHAIN_GATE_BREATH_COMPLETE"
+      ],
+      "designNote": "Earlier choices alter later modifiers, presentation, allies, or complications; a failed step creates a recovery state instead of deleting the chain."
+    },
+    {
+      "id": "CHAIN_VULNERABLE_ROUTE",
+      "title": "The Relief Route",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "premise": "How the guild treats vulnerable civilians determines who later trusts its banner.",
+      "eventIds": [
+        "EVT_GATEWORKS_CHILD_MISSING_TOKEN",
+        "EVT_GATEWORKS_RELIEF_ARCH_QUEUE",
+        "EVT_GATEWORKS_TOO_MANY_VOLUNTEERS"
+      ],
+      "progressionMode": "FLAG_DRIVEN_ORDERED_WITH_RECOVERY_BRANCHES",
+      "failureDoesNotHardLock": true,
+      "completionFlags": [
+        "FLAG_CHAIN_VULNERABLE_ROUTE_COMPLETE"
+      ],
+      "designNote": "Earlier choices alter later modifiers, presentation, allies, or complications; a failed step creates a recovery state instead of deleting the chain."
+    },
+    {
+      "id": "CHAIN_STRANGE_WEAPON",
+      "title": "The Weapon in the Wall",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "premise": "A damaged weapon becomes a lesson about leverage, defense, and borrowed technique.",
+      "eventIds": [
+        "EVT_GATEWORKS_WEAPON_IN_WALL",
+        "EVT_GATEWORKS_BROKEN_SHIELD_LESSON",
+        "EVT_GATEWORKS_STRANGERS_FOOTWORK"
+      ],
+      "progressionMode": "FLAG_DRIVEN_ORDERED_WITH_RECOVERY_BRANCHES",
+      "failureDoesNotHardLock": true,
+      "completionFlags": [
+        "FLAG_CHAIN_STRANGE_WEAPON_COMPLETE"
+      ],
+      "designNote": "Earlier choices alter later modifiers, presentation, allies, or complications; a failed step creates a recovery state instead of deleting the chain."
+    },
+    {
+      "id": "CHAIN_RIVAL_CHARTER",
+      "title": "The Broken Charter",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "premise": "Competition with another crew can harden into sabotage or mature into cooperation.",
+      "eventIds": [
+        "EVT_GATEWORKS_CONTRACT_RIVALRY",
+        "EVT_GATEWORKS_RIVAL_GEAR",
+        "EVT_GATEWORKS_SHARED_RATION"
+      ],
+      "progressionMode": "FLAG_DRIVEN_ORDERED_WITH_RECOVERY_BRANCHES",
+      "failureDoesNotHardLock": true,
+      "completionFlags": [
+        "FLAG_CHAIN_RIVAL_CHARTER_COMPLETE"
+      ],
+      "designNote": "Earlier choices alter later modifiers, presentation, allies, or complications; a failed step creates a recovery state instead of deleting the chain."
+    },
+    {
+      "id": "CHAIN_NOT_A_MONSTER",
+      "title": "The Bellmetal Nest",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "premise": "Careful observation can turn a feared creature into an ally rather than a target.",
+      "eventIds": [
+        "EVT_GATEWORKS_MONSTER_EGGS",
+        "EVT_GATEWORKS_BELLMETAL_NEST",
+        "EVT_GATEWORKS_PACK_BEAST_PANIC"
+      ],
+      "progressionMode": "FLAG_DRIVEN_ORDERED_WITH_RECOVERY_BRANCHES",
+      "failureDoesNotHardLock": true,
+      "completionFlags": [
+        "FLAG_CHAIN_NOT_A_MONSTER_COMPLETE"
+      ],
+      "designNote": "Earlier choices alter later modifiers, presentation, allies, or complications; a failed step creates a recovery state instead of deleting the chain."
+    },
+    {
+      "id": "CHAIN_TERMINAL_MEMORY",
+      "title": "The Terminal That Remembers Nobody",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "premise": "The guild preserves an erased civic record without inventing an answer.",
+      "eventIds": [
+        "EVT_GATEWORKS_DAMAGED_SYSTEM_TERMINAL",
+        "EVT_GATEWORKS_MESSAGE_TO_NOBODY",
+        "EVT_GATEWORKS_BLUE_TEXT_RAIN"
+      ],
+      "progressionMode": "FLAG_DRIVEN_ORDERED_WITH_RECOVERY_BRANCHES",
+      "failureDoesNotHardLock": true,
+      "completionFlags": [
+        "FLAG_CHAIN_TERMINAL_MEMORY_COMPLETE"
+      ],
+      "designNote": "Earlier choices alter later modifiers, presentation, allies, or complications; a failed step creates a recovery state instead of deleting the chain."
+    },
+    {
+      "id": "CHAIN_FEAR_NAMED",
+      "title": "The Exit Count",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "premise": "A recruit’s quiet panic can become shame, avoidance, or a path toward mastery.",
+      "eventIds": [
+        "EVT_GATEWORKS_QUIET_PANIC",
+        "EVT_GATEWORKS_NIGHT_WATCH_NO_STARS",
+        "EVT_GATEWORKS_FROZEN_COMBAT_ECHO"
+      ],
+      "progressionMode": "FLAG_DRIVEN_ORDERED_WITH_RECOVERY_BRANCHES",
+      "failureDoesNotHardLock": true,
+      "completionFlags": [
+        "FLAG_CHAIN_FEAR_NAMED_COMPLETE"
+      ],
+      "designNote": "Earlier choices alter later modifiers, presentation, allies, or complications; a failed step creates a recovery state instead of deleting the chain."
+    },
+    {
+      "id": "CHAIN_MIXED_CUSTOMS",
+      "title": "A Table for Several Worlds",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "premise": "Respectful cultural learning unlocks shared practices without erasing their origins.",
+      "eventIds": [
+        "EVT_GATEWORKS_MIXED_TABLE_DISPUTE",
+        "EVT_GATEWORKS_ORC_MOURNING_CAIRN",
+        "EVT_GATEWORKS_DARK_ELF_SILENCE"
+      ],
+      "progressionMode": "FLAG_DRIVEN_ORDERED_WITH_RECOVERY_BRANCHES",
+      "failureDoesNotHardLock": true,
+      "completionFlags": [
+        "FLAG_CHAIN_MIXED_CUSTOMS_COMPLETE"
+      ],
+      "designNote": "Earlier choices alter later modifiers, presentation, allies, or complications; a failed step creates a recovery state instead of deleting the chain."
+    },
+    {
+      "id": "CHAIN_MISSING_EXPEDITION",
+      "title": "The Team That Did Not Return",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "premise": "Three pieces of evidence reveal where a lost expedition crossed out of ordinary space.",
+      "eventIds": [
+        "EVT_GATEWORKS_MISSING_EXPEDITION_SIGNAL",
+        "EVT_GATEWORKS_MAP_IN_BANDAGE",
+        "EVT_GATEWORKS_EMPTY_BEDROLL"
+      ],
+      "progressionMode": "FLAG_DRIVEN_ORDERED_WITH_RECOVERY_BRANCHES",
+      "failureDoesNotHardLock": true,
+      "completionFlags": [
+        "FLAG_CHAIN_MISSING_EXPEDITION_COMPLETE"
+      ],
+      "designNote": "Earlier choices alter later modifiers, presentation, allies, or complications; a failed step creates a recovery state instead of deleting the chain."
+    },
+    {
+      "id": "CHAIN_OUTER_SIGNAL",
+      "title": "The Signal beyond the Wall",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "premise": "An unexplained signal suggests the Gateworks are responding to something outside current maps.",
+      "eventIds": [
+        "EVT_GATEWORKS_ALARM_AFTER_BATTLE",
+        "EVT_GATEWORKS_WALL_TAPS_BACK",
+        "EVT_GATEWORKS_LOOPING_BELL"
+      ],
+      "progressionMode": "FLAG_DRIVEN_ORDERED_WITH_RECOVERY_BRANCHES",
+      "failureDoesNotHardLock": true,
+      "completionFlags": [
+        "FLAG_CHAIN_OUTER_SIGNAL_COMPLETE"
+      ],
+      "designNote": "Earlier choices alter later modifiers, presentation, allies, or complications; a failed step creates a recovery state instead of deleting the chain."
+    }
+  ]
+}

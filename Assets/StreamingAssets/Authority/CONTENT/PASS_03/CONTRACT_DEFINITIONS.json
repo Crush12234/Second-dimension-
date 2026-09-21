@@ -1,0 +1,747 @@
+{
+  "contentVersion": "GOW_PASS03_0.8",
+  "contractTypeCount": 10,
+  "contractTypes": [
+    {
+      "id": "CONTRACT_TYPE_EXTERMINATION",
+      "name": "Extermination",
+      "contentVersion": "GOW_PASS03_0.8",
+      "description": "Break or drive out hostile Unions threatening civic routes.",
+      "defaultBoardProfileId": "BOARD_NORMAL",
+      "objectiveTemplates": [
+        "DEFEAT_TARGET_UNIONS"
+      ],
+      "optionalObjectiveTemplates": [
+        "PRESERVE_INFRASTRUCTURE",
+        "CAPTURE_LEADER"
+      ],
+      "enemyUnionPool": [
+        "EU_GNAWER_PACK",
+        "EU_RUSTBACK_HUNT",
+        "EU_HOLLOW_WALL",
+        "EU_RIFT_CONTROL"
+      ],
+      "eventCategoryPool": [
+        "SURVIVAL",
+        "COMEDY_DANGER",
+        "TREASURE_TRAP"
+      ],
+      "hazardPool": [
+        "HAZARD_UNSTABLE_BRACE",
+        "HAZARD_RIFT_MOLD"
+      ],
+      "rewardProfile": {
+        "personalXp": 70,
+        "guildTreasuryXp": 85,
+        "reputation": 4
+      },
+      "difficultyBands": {
+        "RELAXED": {
+          "modifierPermille": 800,
+          "expectedGuildStage": 0
+        },
+        "STANDARD": {
+          "modifierPermille": 1000,
+          "expectedGuildStage": 1
+        },
+        "IRON": {
+          "modifierPermille": 1250,
+          "expectedGuildStage": 2
+        }
+      },
+      "expectedLengthMinutes": [
+        18,
+        30
+      ],
+      "failureMode": "TARGETS_ESCAPE_OR_GUILD_RETREATS",
+      "retreatAllowed": true,
+      "antiFarm": {
+        "sameTypeRewardMultipliersPermille": [
+          1000,
+          850,
+          725,
+          650,
+          600
+        ],
+        "historyWindowContracts": 5,
+        "minimumRewardFloorPermille": 600,
+        "varietyRecoveryPerDifferentTypePermille": 100,
+        "reason": "Short repetitive contracts remain useful but cannot dominate Treasury or Art progression."
+      },
+      "generationRules": {
+        "minimumBattleNodes": 2,
+        "minimumEventNodes": 1,
+        "requiresCamp": false,
+        "allowsUnionSplit": true,
+        "eligibleForMargin": true
+      }
+    },
+    {
+      "id": "CONTRACT_TYPE_RESCUE",
+      "name": "Rescue",
+      "contentVersion": "GOW_PASS03_0.8",
+      "description": "Locate and extract civilians, workers, or a missing team before conditions worsen.",
+      "defaultBoardProfileId": "BOARD_NORMAL",
+      "objectiveTemplates": [
+        "LOCATE_RESCUE_TARGET",
+        "EXTRACT_TARGET"
+      ],
+      "optionalObjectiveTemplates": [
+        "STABILIZE_WOUNDED",
+        "RECOVER_RECORDS"
+      ],
+      "enemyUnionPool": [
+        "EU_RUSTBACK_HUNT",
+        "EU_CUTTER_CREW",
+        "EU_ECHO_AMBUSH"
+      ],
+      "eventCategoryPool": [
+        "SOCIAL",
+        "UNION_RELATIONSHIP",
+        "MYSTERY"
+      ],
+      "hazardPool": [
+        "HAZARD_ETHER_SQUALL",
+        "HAZARD_COLLAPSED_SPAN"
+      ],
+      "rewardProfile": {
+        "personalXp": 65,
+        "guildTreasuryXp": 100,
+        "reputation": 7
+      },
+      "difficultyBands": {
+        "RELAXED": {
+          "modifierPermille": 800,
+          "expectedGuildStage": 0
+        },
+        "STANDARD": {
+          "modifierPermille": 1000,
+          "expectedGuildStage": 1
+        },
+        "IRON": {
+          "modifierPermille": 1250,
+          "expectedGuildStage": 2
+        }
+      },
+      "expectedLengthMinutes": [
+        18,
+        30
+      ],
+      "failureMode": "TARGET_LOST_OR_ORDERED_RETREAT",
+      "retreatAllowed": true,
+      "antiFarm": {
+        "sameTypeRewardMultipliersPermille": [
+          1000,
+          850,
+          725,
+          650,
+          600
+        ],
+        "historyWindowContracts": 5,
+        "minimumRewardFloorPermille": 600,
+        "varietyRecoveryPerDifferentTypePermille": 100,
+        "reason": "Short repetitive contracts remain useful but cannot dominate Treasury or Art progression."
+      },
+      "generationRules": {
+        "minimumBattleNodes": 2,
+        "minimumEventNodes": 1,
+        "requiresCamp": false,
+        "allowsUnionSplit": true,
+        "eligibleForMargin": true
+      }
+    },
+    {
+      "id": "CONTRACT_TYPE_ESCORT",
+      "name": "Escort",
+      "contentVersion": "GOW_PASS03_0.8",
+      "description": "Move a vulnerable caravan or repair crew through a changing route.",
+      "defaultBoardProfileId": "BOARD_LONG",
+      "objectiveTemplates": [
+        "ESCORT_TO_EXIT"
+      ],
+      "optionalObjectiveTemplates": [
+        "KEEP_ALL_CARGO",
+        "OPEN_RELIEF_ROUTE"
+      ],
+      "enemyUnionPool": [
+        "EU_CUTTER_CREW",
+        "EU_GNAWER_PACK",
+        "EU_SHARDWING_SIGNAL"
+      ],
+      "eventCategoryPool": [
+        "SOCIAL",
+        "GUILD_DILEMMA",
+        "COMEDY_DANGER"
+      ],
+      "hazardPool": [
+        "HAZARD_SWINGING_CRANE",
+        "HAZARD_RUSTWATER"
+      ],
+      "rewardProfile": {
+        "personalXp": 75,
+        "guildTreasuryXp": 105,
+        "reputation": 6
+      },
+      "difficultyBands": {
+        "RELAXED": {
+          "modifierPermille": 800,
+          "expectedGuildStage": 0
+        },
+        "STANDARD": {
+          "modifierPermille": 1000,
+          "expectedGuildStage": 1
+        },
+        "IRON": {
+          "modifierPermille": 1250,
+          "expectedGuildStage": 2
+        }
+      },
+      "expectedLengthMinutes": [
+        35,
+        55
+      ],
+      "failureMode": "ESCORT_TARGET_INCAPACITATED_OR_RETREAT",
+      "retreatAllowed": true,
+      "antiFarm": {
+        "sameTypeRewardMultipliersPermille": [
+          1000,
+          850,
+          725,
+          650,
+          600
+        ],
+        "historyWindowContracts": 5,
+        "minimumRewardFloorPermille": 600,
+        "varietyRecoveryPerDifferentTypePermille": 100,
+        "reason": "Short repetitive contracts remain useful but cannot dominate Treasury or Art progression."
+      },
+      "generationRules": {
+        "minimumBattleNodes": 2,
+        "minimumEventNodes": 1,
+        "requiresCamp": true,
+        "allowsUnionSplit": true,
+        "eligibleForMargin": true
+      }
+    },
+    {
+      "id": "CONTRACT_TYPE_INVESTIGATION",
+      "name": "Investigation",
+      "contentVersion": "GOW_PASS03_0.8",
+      "description": "Collect evidence, compare records, and identify the real source of a threat.",
+      "defaultBoardProfileId": "BOARD_NORMAL",
+      "objectiveTemplates": [
+        "COLLECT_EVIDENCE_3",
+        "RESOLVE_CAUSE"
+      ],
+      "optionalObjectiveTemplates": [
+        "NO_FALSE_ACCUSATION",
+        "PRESERVE_TERMINAL"
+      ],
+      "enemyUnionPool": [
+        "EU_HOLLOW_WALL",
+        "EU_ECHO_AMBUSH",
+        "EU_RIFT_CONTROL"
+      ],
+      "eventCategoryPool": [
+        "MYSTERY",
+        "SYSTEM_PHENOMENON",
+        "GATE_ANOMALY"
+      ],
+      "hazardPool": [
+        "HAZARD_FALSE_SIGNAL",
+        "HAZARD_TIME_LAG"
+      ],
+      "rewardProfile": {
+        "personalXp": 60,
+        "guildTreasuryXp": 95,
+        "reputation": 5
+      },
+      "difficultyBands": {
+        "RELAXED": {
+          "modifierPermille": 800,
+          "expectedGuildStage": 0
+        },
+        "STANDARD": {
+          "modifierPermille": 1000,
+          "expectedGuildStage": 1
+        },
+        "IRON": {
+          "modifierPermille": 1250,
+          "expectedGuildStage": 2
+        }
+      },
+      "expectedLengthMinutes": [
+        18,
+        30
+      ],
+      "failureMode": "EVIDENCE_DESTROYED_OR_RETREAT",
+      "retreatAllowed": true,
+      "antiFarm": {
+        "sameTypeRewardMultipliersPermille": [
+          1000,
+          850,
+          725,
+          650,
+          600
+        ],
+        "historyWindowContracts": 5,
+        "minimumRewardFloorPermille": 600,
+        "varietyRecoveryPerDifferentTypePermille": 100,
+        "reason": "Short repetitive contracts remain useful but cannot dominate Treasury or Art progression."
+      },
+      "generationRules": {
+        "minimumBattleNodes": 2,
+        "minimumEventNodes": 1,
+        "requiresCamp": false,
+        "allowsUnionSplit": true,
+        "eligibleForMargin": true
+      }
+    },
+    {
+      "id": "CONTRACT_TYPE_RECOVERY",
+      "name": "Recovery",
+      "contentVersion": "GOW_PASS03_0.8",
+      "description": "Recover a named item, supply cache, or civic record without losing its ownership history.",
+      "defaultBoardProfileId": "BOARD_SHORT",
+      "objectiveTemplates": [
+        "RECOVER_TARGET"
+      ],
+      "optionalObjectiveTemplates": [
+        "RETURN_OWNER_LEDGER",
+        "LIMIT_COLLATERAL"
+      ],
+      "enemyUnionPool": [
+        "EU_GNAWER_PACK",
+        "EU_CUTTER_CREW",
+        "EU_HOLLOW_WALL"
+      ],
+      "eventCategoryPool": [
+        "TREASURE_TRAP",
+        "GUILD_DILEMMA",
+        "EXPLORATION"
+      ],
+      "hazardPool": [
+        "HAZARD_SOFT_FLOOR",
+        "HAZARD_CHAIN_ALARM"
+      ],
+      "rewardProfile": {
+        "personalXp": 45,
+        "guildTreasuryXp": 65,
+        "reputation": 3
+      },
+      "difficultyBands": {
+        "RELAXED": {
+          "modifierPermille": 800,
+          "expectedGuildStage": 0
+        },
+        "STANDARD": {
+          "modifierPermille": 1000,
+          "expectedGuildStage": 1
+        },
+        "IRON": {
+          "modifierPermille": 1250,
+          "expectedGuildStage": 2
+        }
+      },
+      "expectedLengthMinutes": [
+        8,
+        15
+      ],
+      "failureMode": "TARGET_DESTROYED_OR_RETREAT",
+      "retreatAllowed": true,
+      "antiFarm": {
+        "sameTypeRewardMultipliersPermille": [
+          1000,
+          850,
+          725,
+          650,
+          600
+        ],
+        "historyWindowContracts": 5,
+        "minimumRewardFloorPermille": 600,
+        "varietyRecoveryPerDifferentTypePermille": 100,
+        "reason": "Short repetitive contracts remain useful but cannot dominate Treasury or Art progression."
+      },
+      "generationRules": {
+        "minimumBattleNodes": 1,
+        "minimumEventNodes": 1,
+        "requiresCamp": false,
+        "allowsUnionSplit": false,
+        "eligibleForMargin": true
+      }
+    },
+    {
+      "id": "CONTRACT_TYPE_DEFENSE",
+      "name": "Defense",
+      "contentVersion": "GOW_PASS03_0.8",
+      "description": "Hold a civic position while workers, civilians, or gate systems complete a timed task.",
+      "defaultBoardProfileId": "BOARD_STORY",
+      "objectiveTemplates": [
+        "HOLD_OBJECTIVE_ROUNDS"
+      ],
+      "optionalObjectiveTemplates": [
+        "KEEP_SECONDARY_POSITION",
+        "EVACUATE_CIVILIANS"
+      ],
+      "enemyUnionPool": [
+        "EU_HOLLOW_WALL",
+        "EU_BRUTE_ESCORT",
+        "EU_SHARDWING_SIGNAL"
+      ],
+      "eventCategoryPool": [
+        "SOCIAL",
+        "SKILL_LEARNING",
+        "SYSTEM_PHENOMENON"
+      ],
+      "hazardPool": [
+        "HAZARD_GATE_PULSE",
+        "HAZARD_FALLING_DEBRIS"
+      ],
+      "rewardProfile": {
+        "personalXp": 90,
+        "guildTreasuryXp": 120,
+        "reputation": 8
+      },
+      "difficultyBands": {
+        "RELAXED": {
+          "modifierPermille": 800,
+          "expectedGuildStage": 0
+        },
+        "STANDARD": {
+          "modifierPermille": 1000,
+          "expectedGuildStage": 1
+        },
+        "IRON": {
+          "modifierPermille": 1250,
+          "expectedGuildStage": 2
+        }
+      },
+      "expectedLengthMinutes": [
+        35,
+        50
+      ],
+      "failureMode": "PRIMARY_POSITION_LOST_OR_ORDERED_WITHDRAWAL",
+      "retreatAllowed": true,
+      "antiFarm": {
+        "sameTypeRewardMultipliersPermille": [
+          1000,
+          850,
+          725,
+          650,
+          600
+        ],
+        "historyWindowContracts": 5,
+        "minimumRewardFloorPermille": 600,
+        "varietyRecoveryPerDifferentTypePermille": 100,
+        "reason": "Short repetitive contracts remain useful but cannot dominate Treasury or Art progression."
+      },
+      "generationRules": {
+        "minimumBattleNodes": 2,
+        "minimumEventNodes": 1,
+        "requiresCamp": true,
+        "allowsUnionSplit": true,
+        "eligibleForMargin": true
+      }
+    },
+    {
+      "id": "CONTRACT_TYPE_HUNT",
+      "name": "Hunt",
+      "contentVersion": "GOW_PASS03_0.8",
+      "description": "Track a mobile threat through signs, false trails, and changing terrain.",
+      "defaultBoardProfileId": "BOARD_LONG",
+      "objectiveTemplates": [
+        "TRACK_TARGET_3",
+        "DEFEAT_OR_RESOLVE_TARGET"
+      ],
+      "optionalObjectiveTemplates": [
+        "IDENTIFY_NONHOSTILE_BEHAVIOR",
+        "AVOID_CIVILIAN_LOSS"
+      ],
+      "enemyUnionPool": [
+        "EU_RUSTBACK_HUNT",
+        "EU_PACKLORD_CIRCLE",
+        "EU_ECHO_AMBUSH",
+        "EU_HINGE_EATER"
+      ],
+      "eventCategoryPool": [
+        "SURVIVAL",
+        "MYSTERY",
+        "CULTURE"
+      ],
+      "hazardPool": [
+        "HAZARD_SCENT_CONFUSION",
+        "HAZARD_NIGHT_ROUTE"
+      ],
+      "rewardProfile": {
+        "personalXp": 85,
+        "guildTreasuryXp": 90,
+        "reputation": 5
+      },
+      "difficultyBands": {
+        "RELAXED": {
+          "modifierPermille": 800,
+          "expectedGuildStage": 0
+        },
+        "STANDARD": {
+          "modifierPermille": 1000,
+          "expectedGuildStage": 1
+        },
+        "IRON": {
+          "modifierPermille": 1250,
+          "expectedGuildStage": 2
+        }
+      },
+      "expectedLengthMinutes": [
+        35,
+        55
+      ],
+      "failureMode": "TARGET_ESCAPES_OR_RETREAT",
+      "retreatAllowed": true,
+      "antiFarm": {
+        "sameTypeRewardMultipliersPermille": [
+          1000,
+          850,
+          725,
+          650,
+          600
+        ],
+        "historyWindowContracts": 5,
+        "minimumRewardFloorPermille": 600,
+        "varietyRecoveryPerDifferentTypePermille": 100,
+        "reason": "Short repetitive contracts remain useful but cannot dominate Treasury or Art progression."
+      },
+      "generationRules": {
+        "minimumBattleNodes": 2,
+        "minimumEventNodes": 1,
+        "requiresCamp": true,
+        "allowsUnionSplit": true,
+        "eligibleForMargin": true
+      }
+    },
+    {
+      "id": "CONTRACT_TYPE_EXPLORATION",
+      "name": "Exploration",
+      "contentVersion": "GOW_PASS03_0.8",
+      "description": "Chart an unverified sector, establish safe nodes, and return with an accountable map.",
+      "defaultBoardProfileId": "BOARD_LONG",
+      "objectiveTemplates": [
+        "REVEAL_REQUIRED_NODES",
+        "REACH_SURVEY_POINT"
+      ],
+      "optionalObjectiveTemplates": [
+        "DISCOVER_ORDINARY_SECRET",
+        "PLACE_ROUTE_MARKERS"
+      ],
+      "enemyUnionPool": [
+        "EU_GNAWER_PACK",
+        "EU_RIFT_CONTROL",
+        "EU_SHARDWING_SIGNAL"
+      ],
+      "eventCategoryPool": [
+        "EXPLORATION",
+        "CULTURE",
+        "MYSTERY",
+        "COMEDY_DANGER"
+      ],
+      "hazardPool": [
+        "HAZARD_UNMAPPED_DROP",
+        "HAZARD_GATEGLASS_WIND"
+      ],
+      "rewardProfile": {
+        "personalXp": 65,
+        "guildTreasuryXp": 110,
+        "reputation": 4
+      },
+      "difficultyBands": {
+        "RELAXED": {
+          "modifierPermille": 800,
+          "expectedGuildStage": 0
+        },
+        "STANDARD": {
+          "modifierPermille": 1000,
+          "expectedGuildStage": 1
+        },
+        "IRON": {
+          "modifierPermille": 1250,
+          "expectedGuildStage": 2
+        }
+      },
+      "expectedLengthMinutes": [
+        35,
+        55
+      ],
+      "failureMode": "SURVEY_POINT_UNREACHED_OR_RETREAT",
+      "retreatAllowed": true,
+      "antiFarm": {
+        "sameTypeRewardMultipliersPermille": [
+          1000,
+          850,
+          725,
+          650,
+          600
+        ],
+        "historyWindowContracts": 5,
+        "minimumRewardFloorPermille": 600,
+        "varietyRecoveryPerDifferentTypePermille": 100,
+        "reason": "Short repetitive contracts remain useful but cannot dominate Treasury or Art progression."
+      },
+      "generationRules": {
+        "minimumBattleNodes": 2,
+        "minimumEventNodes": 1,
+        "requiresCamp": true,
+        "allowsUnionSplit": true,
+        "eligibleForMargin": true
+      }
+    },
+    {
+      "id": "CONTRACT_TYPE_ANOMALY_CONTAINMENT",
+      "name": "Anomaly Containment",
+      "contentVersion": "GOW_PASS03_0.8",
+      "description": "Stabilize a Gate anomaly without destroying evidence or the surrounding civic systems.",
+      "defaultBoardProfileId": "BOARD_STORY",
+      "objectiveTemplates": [
+        "IDENTIFY_ANOMALY",
+        "STABILIZE_ANOMALY"
+      ],
+      "optionalObjectiveTemplates": [
+        "PRESERVE_RECORDS",
+        "NO_RELIEF_POWER_LOSS"
+      ],
+      "enemyUnionPool": [
+        "EU_RIFT_CONTROL",
+        "EU_SHARDWING_SIGNAL",
+        "EU_GATEHEART_RESONANCE"
+      ],
+      "eventCategoryPool": [
+        "GATE_ANOMALY",
+        "SYSTEM_PHENOMENON",
+        "SKILL_LEARNING"
+      ],
+      "hazardPool": [
+        "HAZARD_ARC_SURGE",
+        "HAZARD_REVERSE_GRAVITY"
+      ],
+      "rewardProfile": {
+        "personalXp": 95,
+        "guildTreasuryXp": 140,
+        "reputation": 7
+      },
+      "difficultyBands": {
+        "RELAXED": {
+          "modifierPermille": 800,
+          "expectedGuildStage": 0
+        },
+        "STANDARD": {
+          "modifierPermille": 1000,
+          "expectedGuildStage": 1
+        },
+        "IRON": {
+          "modifierPermille": 1250,
+          "expectedGuildStage": 2
+        }
+      },
+      "expectedLengthMinutes": [
+        35,
+        50
+      ],
+      "failureMode": "ANOMALY_ESCALATES_OR_CONTROLLED_RETREAT",
+      "retreatAllowed": true,
+      "antiFarm": {
+        "sameTypeRewardMultipliersPermille": [
+          1000,
+          850,
+          725,
+          650,
+          600
+        ],
+        "historyWindowContracts": 5,
+        "minimumRewardFloorPermille": 600,
+        "varietyRecoveryPerDifferentTypePermille": 100,
+        "reason": "Short repetitive contracts remain useful but cannot dominate Treasury or Art progression."
+      },
+      "generationRules": {
+        "minimumBattleNodes": 2,
+        "minimumEventNodes": 1,
+        "requiresCamp": true,
+        "allowsUnionSplit": true,
+        "eligibleForMargin": true
+      }
+    },
+    {
+      "id": "CONTRACT_TYPE_ELITE_BOUNTY",
+      "name": "Elite Bounty",
+      "contentVersion": "GOW_PASS03_0.8",
+      "description": "Locate and defeat, capture, or lawfully resolve an elite target with known tactics.",
+      "defaultBoardProfileId": "BOARD_NORMAL",
+      "objectiveTemplates": [
+        "LOCATE_ELITE",
+        "RESOLVE_ELITE"
+      ],
+      "optionalObjectiveTemplates": [
+        "BREAK_SUPPORT_UNION",
+        "RECOVER_PROOF"
+      ],
+      "enemyUnionPool": [
+        "EU_BRUTE_ESCORT",
+        "EU_ECHO_AMBUSH",
+        "EU_PACKLORD_CIRCLE",
+        "EU_RAVEL_COMMAND",
+        "EU_HINGE_EATER"
+      ],
+      "eventCategoryPool": [
+        "GUILD_DILEMMA",
+        "SKILL_LEARNING",
+        "TREASURE_TRAP"
+      ],
+      "hazardPool": [
+        "HAZARD_AMBUSH_MARKERS",
+        "HAZARD_FALSE_RETREAT"
+      ],
+      "rewardProfile": {
+        "personalXp": 110,
+        "guildTreasuryXp": 115,
+        "reputation": 6
+      },
+      "difficultyBands": {
+        "RELAXED": {
+          "modifierPermille": 800,
+          "expectedGuildStage": 0
+        },
+        "STANDARD": {
+          "modifierPermille": 1000,
+          "expectedGuildStage": 1
+        },
+        "IRON": {
+          "modifierPermille": 1250,
+          "expectedGuildStage": 2
+        }
+      },
+      "expectedLengthMinutes": [
+        18,
+        30
+      ],
+      "failureMode": "TARGET_ESCAPES_OR_GUILD_RETREATS",
+      "retreatAllowed": true,
+      "antiFarm": {
+        "sameTypeRewardMultipliersPermille": [
+          1000,
+          850,
+          725,
+          650,
+          600
+        ],
+        "historyWindowContracts": 5,
+        "minimumRewardFloorPermille": 600,
+        "varietyRecoveryPerDifferentTypePermille": 100,
+        "reason": "Short repetitive contracts remain useful but cannot dominate Treasury or Art progression."
+      },
+      "generationRules": {
+        "minimumBattleNodes": 2,
+        "minimumEventNodes": 1,
+        "requiresCamp": false,
+        "allowsUnionSplit": true,
+        "eligibleForMargin": true
+      }
+    }
+  ]
+}

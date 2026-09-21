@@ -1,0 +1,116 @@
+{
+  "contentVersion": "GUILD_CITY_ECONOMY_017E_1.0",
+  "startingMaterials": {
+    "MAT_SALVAGED_TIMBER": 12,
+    "MAT_GATE_IRON": 8,
+    "MAT_GATEGLASS": 4
+  },
+  "openingContractRewards": {
+    "CONTRACT_BELL_BENEATH_GATE": {
+      "MAT_SALVAGED_TIMBER": 7,
+      "MAT_GATE_IRON": 5
+    },
+    "CONTRACT_LINES_NOT_RETURNED": {
+      "MAT_ROUTE_CLOTH": 5,
+      "MAT_GATEGLASS": 3
+    },
+    "CONTRACT_RELIEF_ROAD": {
+      "MAT_SUPPLY_CRATE": 6,
+      "MAT_GATE_IRON": 4
+    }
+  },
+  "viableFirstBuildPaths": [
+    {
+      "firstCharterBuilding": "GC017D_BUILD_RECRUITMENT_OFFICE",
+      "completedContract": "CONTRACT_BELL_BENEATH_GATE",
+      "secondBuilding": "GC017D_BUILD_CONTRACT_HOUSE"
+    },
+    {
+      "firstCharterBuilding": "GC017D_BUILD_CONTRACT_HOUSE",
+      "completedContract": "CONTRACT_BELL_BENEATH_GATE",
+      "secondBuilding": "GC017D_BUILD_RECRUITMENT_OFFICE"
+    },
+    {
+      "firstCharterBuilding": "GC017D_BUILD_UNION_COMMAND",
+      "completedContract": "CONTRACT_BELL_BENEATH_GATE",
+      "secondBuilding": "GC017D_BUILD_RECRUITMENT_OFFICE"
+    },
+    {
+      "firstCharterBuilding": "GC017D_BUILD_TRAINING_GROUNDS",
+      "completedContract": "CONTRACT_BELL_BENEATH_GATE",
+      "secondBuilding": "GC017D_BUILD_RECRUITMENT_OFFICE"
+    },
+    {
+      "firstCharterBuilding": "GC017D_BUILD_MYSTIC_ACADEMY",
+      "completedContract": "CONTRACT_BELL_BENEATH_GATE",
+      "secondBuilding": "GC017D_BUILD_RECRUITMENT_OFFICE"
+    },
+    {
+      "firstCharterBuilding": "GC017D_BUILD_LIBRARY_ARCHIVE",
+      "completedContract": "CONTRACT_BELL_BENEATH_GATE",
+      "secondBuilding": "GC017D_BUILD_RECRUITMENT_OFFICE"
+    },
+    {
+      "firstCharterBuilding": "GC017D_BUILD_INFIRMARY",
+      "completedContract": "CONTRACT_BELL_BENEATH_GATE",
+      "secondBuilding": "GC017D_BUILD_RECRUITMENT_OFFICE"
+    },
+    {
+      "firstCharterBuilding": "GC017D_BUILD_HERBAL_GARDEN",
+      "completedContract": "CONTRACT_BELL_BENEATH_GATE",
+      "secondBuilding": "GC017D_BUILD_RECRUITMENT_OFFICE"
+    },
+    {
+      "firstCharterBuilding": "GC017D_BUILD_GUILD_HOUSING",
+      "completedContract": "CONTRACT_BELL_BENEATH_GATE",
+      "secondBuilding": "GC017D_BUILD_RECRUITMENT_OFFICE"
+    },
+    {
+      "firstCharterBuilding": "GC017D_BUILD_TAVERN_COMMONS",
+      "completedContract": "CONTRACT_BELL_BENEATH_GATE",
+      "secondBuilding": "GC017D_BUILD_RECRUITMENT_OFFICE"
+    },
+    {
+      "firstCharterBuilding": "GC017D_BUILD_FORGE",
+      "completedContract": "CONTRACT_BELL_BENEATH_GATE",
+      "secondBuilding": "GC017D_BUILD_RECRUITMENT_OFFICE"
+    },
+    {
+      "firstCharterBuilding": "GC017D_BUILD_WORKSHOP",
+      "completedContract": "CONTRACT_BELL_BENEATH_GATE",
+      "secondBuilding": "GC017D_BUILD_RECRUITMENT_OFFICE"
+    },
+    {
+      "firstCharterBuilding": "GC017D_BUILD_WAREHOUSE",
+      "completedContract": "CONTRACT_BELL_BENEATH_GATE",
+      "secondBuilding": "GC017D_BUILD_RECRUITMENT_OFFICE"
+    },
+    {
+      "firstCharterBuilding": "GC017D_BUILD_MARKET",
+      "completedContract": "CONTRACT_BELL_BENEATH_GATE",
+      "secondBuilding": "GC017D_BUILD_RECRUITMENT_OFFICE"
+    },
+    {
+      "firstCharterBuilding": "GC017D_BUILD_SCOUT_LODGE",
+      "completedContract": "CONTRACT_BELL_BENEATH_GATE",
+      "secondBuilding": "GC017D_BUILD_RECRUITMENT_OFFICE"
+    },
+    {
+      "firstCharterBuilding": "GC017D_BUILD_WATCHTOWER",
+      "completedContract": "CONTRACT_BELL_BENEATH_GATE",
+      "secondBuilding": "GC017D_BUILD_RECRUITMENT_OFFICE"
+    },
+    {
+      "firstCharterBuilding": "GC017D_BUILD_SUPPLY_DEPOT",
+      "completedContract": "CONTRACT_BELL_BENEATH_GATE",
+      "secondBuilding": "GC017D_BUILD_RECRUITMENT_OFFICE"
+    },
+    {
+      "firstCharterBuilding": "GC017D_BUILD_GATE_RESEARCH",
+      "completedContract": "CONTRACT_BELL_BENEATH_GATE",
+      "secondBuilding": "GC017D_BUILD_RECRUITMENT_OFFICE"
+    }
+  ],
+  "viableFirstBuildCount": 18,
+  "result": "PASS"
+}

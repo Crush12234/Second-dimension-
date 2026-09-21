@@ -1,0 +1,556 @@
+{
+  "contentVersion": "GOW_PASS04_0.9",
+  "weaponFamilies": [
+    {
+      "id": "WEAPON_FAMILY_SWORD",
+      "displayName": "Swords",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "equipmentTagsGranted": [
+        "SWORD"
+      ],
+      "baseCombatIdentity": "Adaptive single-target Martial play with reliable counter and guard branches.",
+      "apCostModifier": 0,
+      "mpCostModifier": 0,
+      "formationInteractions": [
+        "FORMATION_SHIELD_WALL",
+        "FORMATION_CRESCENT"
+      ],
+      "proficiencyTrackId": "PROF_SWORD",
+      "masteryBehavior": "Meaningful legal actions using this family grant fixed-point proficiency; trivial-enemy repetition is diminished.",
+      "craftingMaterialFamilies": [
+        "METAL",
+        "WOOD",
+        "LEATHER",
+        "RUNE"
+      ],
+      "visualGrammar": "Swords: recognizable silhouette, material-driven construction, visible repair history, culture-specific fittings.",
+      "proceduralNamingGrammar": [
+        "materialPrefix",
+        "craftTradition",
+        "functionNoun",
+        "earnedEpithet"
+      ],
+      "upgradeRoutes": [
+        "SWORD_CONTROL",
+        "SWORD_POWER",
+        "SWORD_UTILITY"
+      ],
+      "strengths": [
+        "Balanced reach; strong Art diversity."
+      ],
+      "weaknesses": [
+        "Less formation damage than great weapons."
+      ],
+      "balanceIndex": 1
+    },
+    {
+      "id": "WEAPON_FAMILY_GREAT_WEAPON",
+      "displayName": "Great Weapons",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTagsGranted": [
+        "GREAT_AXE",
+        "HAMMER",
+        "POLEARM"
+      ],
+      "baseCombatIdentity": "Two-handed burst and Cohesion breaking with high shared AP demand.",
+      "apCostModifier": 2,
+      "mpCostModifier": 0,
+      "formationInteractions": [
+        "FORMATION_WEDGE",
+        "FORMATION_CRESCENT"
+      ],
+      "proficiencyTrackId": "PROF_GREAT_WEAPON",
+      "masteryBehavior": "Meaningful legal actions using this family grant fixed-point proficiency; trivial-enemy repetition is diminished.",
+      "craftingMaterialFamilies": [
+        "METAL",
+        "WOOD",
+        "LEATHER",
+        "RUNE"
+      ],
+      "visualGrammar": "Great Weapons: recognizable silhouette, material-driven construction, visible repair history, culture-specific fittings.",
+      "proceduralNamingGrammar": [
+        "materialPrefix",
+        "craftTradition",
+        "functionNoun",
+        "earnedEpithet"
+      ],
+      "upgradeRoutes": [
+        "GREAT_WEAPON_CONTROL",
+        "GREAT_WEAPON_POWER",
+        "GREAT_WEAPON_UTILITY"
+      ],
+      "strengths": [
+        "Highest early formation damage."
+      ],
+      "weaknesses": [
+        "Slow, exposed, and AP hungry."
+      ],
+      "balanceIndex": 2
+    },
+    {
+      "id": "WEAPON_FAMILY_AXE",
+      "displayName": "Axes",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "equipmentTagsGranted": [
+        "GREAT_AXE",
+        "AXE"
+      ],
+      "baseCombatIdentity": "Armor pressure, execution weighting, and aggressive counterplay.",
+      "apCostModifier": 1,
+      "mpCostModifier": 0,
+      "formationInteractions": [
+        "FORMATION_WEDGE",
+        "FORMATION_SKIRMISH_LINE"
+      ],
+      "proficiencyTrackId": "PROF_AXE",
+      "masteryBehavior": "Meaningful legal actions using this family grant fixed-point proficiency; trivial-enemy repetition is diminished.",
+      "craftingMaterialFamilies": [
+        "METAL",
+        "WOOD",
+        "LEATHER",
+        "RUNE"
+      ],
+      "visualGrammar": "Axes: recognizable silhouette, material-driven construction, visible repair history, culture-specific fittings.",
+      "proceduralNamingGrammar": [
+        "materialPrefix",
+        "craftTradition",
+        "functionNoun",
+        "earnedEpithet"
+      ],
+      "upgradeRoutes": [
+        "AXE_CONTROL",
+        "AXE_POWER",
+        "AXE_UTILITY"
+      ],
+      "strengths": [
+        "Strong against reinforced targets."
+      ],
+      "weaknesses": [
+        "Forecasts become risky when allies are wounded."
+      ],
+      "balanceIndex": 3
+    },
+    {
+      "id": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "displayName": "Spears and Polearms",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTagsGranted": [
+        "SPEAR",
+        "POLEARM"
+      ],
+      "baseCombatIdentity": "Reach control, interception lanes, and positional punishment.",
+      "apCostModifier": 1,
+      "mpCostModifier": 0,
+      "formationInteractions": [
+        "FORMATION_SHIELD_WALL",
+        "FORMATION_CRESCENT",
+        "FORMATION_WEDGE"
+      ],
+      "proficiencyTrackId": "PROF_SPEAR_POLEARM",
+      "masteryBehavior": "Meaningful legal actions using this family grant fixed-point proficiency; trivial-enemy repetition is diminished.",
+      "craftingMaterialFamilies": [
+        "METAL",
+        "WOOD",
+        "LEATHER",
+        "RUNE"
+      ],
+      "visualGrammar": "Spears and Polearms: recognizable silhouette, material-driven construction, visible repair history, culture-specific fittings.",
+      "proceduralNamingGrammar": [
+        "materialPrefix",
+        "craftTradition",
+        "functionNoun",
+        "earnedEpithet"
+      ],
+      "upgradeRoutes": [
+        "SPEAR_POLEARM_CONTROL",
+        "SPEAR_POLEARM_POWER",
+        "SPEAR_POLEARM_UTILITY"
+      ],
+      "strengths": [
+        "Excellent formation synergy and anti-charge play."
+      ],
+      "weaknesses": [
+        "Weaker when surrounded or pulled out of formation."
+      ],
+      "balanceIndex": 4
+    },
+    {
+      "id": "WEAPON_FAMILY_BOW",
+      "displayName": "Bows",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTagsGranted": [
+        "BOW",
+        "SHORTBOW",
+        "LONGBOW"
+      ],
+      "baseCombatIdentity": "Ranged target marking, cover, and rear-line pressure.",
+      "apCostModifier": 0,
+      "mpCostModifier": 0,
+      "formationInteractions": [
+        "FORMATION_SKIRMISH_LINE",
+        "FORMATION_ARCANE_CIRCLE"
+      ],
+      "proficiencyTrackId": "PROF_BOW",
+      "masteryBehavior": "Meaningful legal actions using this family grant fixed-point proficiency; trivial-enemy repetition is diminished.",
+      "craftingMaterialFamilies": [
+        "METAL",
+        "WOOD",
+        "LEATHER",
+        "RUNE"
+      ],
+      "visualGrammar": "Bows: recognizable silhouette, material-driven construction, visible repair history, culture-specific fittings.",
+      "proceduralNamingGrammar": [
+        "materialPrefix",
+        "craftTradition",
+        "functionNoun",
+        "earnedEpithet"
+      ],
+      "upgradeRoutes": [
+        "BOW_CONTROL",
+        "BOW_POWER",
+        "BOW_UTILITY"
+      ],
+      "strengths": [
+        "Safe pressure and objective contribution."
+      ],
+      "weaknesses": [
+        "Poor when engaged without a fallback weapon."
+      ],
+      "balanceIndex": 5
+    },
+    {
+      "id": "WEAPON_FAMILY_DAGGER",
+      "displayName": "Daggers",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "equipmentTagsGranted": [
+        "DAGGER"
+      ],
+      "baseCombatIdentity": "Low-AP mobility, status setup, and rear-line exploitation.",
+      "apCostModifier": -1,
+      "mpCostModifier": 0,
+      "formationInteractions": [
+        "FORMATION_SKIRMISH_LINE",
+        "FORMATION_CRESCENT"
+      ],
+      "proficiencyTrackId": "PROF_DAGGER",
+      "masteryBehavior": "Meaningful legal actions using this family grant fixed-point proficiency; trivial-enemy repetition is diminished.",
+      "craftingMaterialFamilies": [
+        "METAL",
+        "WOOD",
+        "LEATHER",
+        "RUNE"
+      ],
+      "visualGrammar": "Daggers: recognizable silhouette, material-driven construction, visible repair history, culture-specific fittings.",
+      "proceduralNamingGrammar": [
+        "materialPrefix",
+        "craftTradition",
+        "functionNoun",
+        "earnedEpithet"
+      ],
+      "upgradeRoutes": [
+        "DAGGER_CONTROL",
+        "DAGGER_POWER",
+        "DAGGER_UTILITY"
+      ],
+      "strengths": [
+        "Excellent AP efficiency and tactical setup."
+      ],
+      "weaknesses": [
+        "Low raw damage against guarded fronts."
+      ],
+      "balanceIndex": 6
+    },
+    {
+      "id": "WEAPON_FAMILY_SHIELD",
+      "displayName": "Shields",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "equipmentTagsGranted": [
+        "SHIELD",
+        "WARD_BUCKLER",
+        "SHIELD_COMPATIBLE"
+      ],
+      "baseCombatIdentity": "Interception, Cohesion protection, and defensive command enablement.",
+      "apCostModifier": 0,
+      "mpCostModifier": 0,
+      "formationInteractions": [
+        "FORMATION_SHIELD_WALL",
+        "FORMATION_RESCUE_COLUMN"
+      ],
+      "proficiencyTrackId": "PROF_SHIELD",
+      "masteryBehavior": "Meaningful legal actions using this family grant fixed-point proficiency; trivial-enemy repetition is diminished.",
+      "craftingMaterialFamilies": [
+        "METAL",
+        "WOOD",
+        "LEATHER",
+        "RUNE"
+      ],
+      "visualGrammar": "Shields: recognizable silhouette, material-driven construction, visible repair history, culture-specific fittings.",
+      "proceduralNamingGrammar": [
+        "materialPrefix",
+        "craftTradition",
+        "functionNoun",
+        "earnedEpithet"
+      ],
+      "upgradeRoutes": [
+        "SHIELD_CONTROL",
+        "SHIELD_POWER",
+        "SHIELD_UTILITY"
+      ],
+      "strengths": [
+        "Best protection and rescue support."
+      ],
+      "weaknesses": [
+        "Consumes a hand slot and can reduce offensive forecast variety."
+      ],
+      "balanceIndex": 7
+    },
+    {
+      "id": "WEAPON_FAMILY_GAUNTLET",
+      "displayName": "Gauntlets and Unarmed Implements",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "equipmentTagsGranted": [
+        "UNARMED",
+        "GAUNTLET"
+      ],
+      "baseCombatIdentity": "Fast close-range control, grapples, and bodyguard reactions.",
+      "apCostModifier": -1,
+      "mpCostModifier": 0,
+      "formationInteractions": [
+        "FORMATION_WEDGE",
+        "FORMATION_RESCUE_COLUMN"
+      ],
+      "proficiencyTrackId": "PROF_GAUNTLET",
+      "masteryBehavior": "Meaningful legal actions using this family grant fixed-point proficiency; trivial-enemy repetition is diminished.",
+      "craftingMaterialFamilies": [
+        "METAL",
+        "WOOD",
+        "LEATHER",
+        "RUNE"
+      ],
+      "visualGrammar": "Gauntlets and Unarmed Implements: recognizable silhouette, material-driven construction, visible repair history, culture-specific fittings.",
+      "proceduralNamingGrammar": [
+        "materialPrefix",
+        "craftTradition",
+        "functionNoun",
+        "earnedEpithet"
+      ],
+      "upgradeRoutes": [
+        "GAUNTLET_CONTROL",
+        "GAUNTLET_POWER",
+        "GAUNTLET_UTILITY"
+      ],
+      "strengths": [
+        "Reliable low-cost control and personal mobility."
+      ],
+      "weaknesses": [
+        "Short range and limited heavy-armor penetration."
+      ],
+      "balanceIndex": 8
+    },
+    {
+      "id": "WEAPON_FAMILY_STAFF",
+      "displayName": "Staves",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTagsGranted": [
+        "STAFF"
+      ],
+      "baseCombatIdentity": "Mystic channeling, Restoration reach, and area control.",
+      "apCostModifier": 0,
+      "mpCostModifier": -1,
+      "formationInteractions": [
+        "FORMATION_ARCANE_CIRCLE",
+        "FORMATION_RESCUE_COLUMN"
+      ],
+      "proficiencyTrackId": "PROF_STAFF",
+      "masteryBehavior": "Meaningful legal actions using this family grant fixed-point proficiency; trivial-enemy repetition is diminished.",
+      "craftingMaterialFamilies": [
+        "WOOD",
+        "RUNE",
+        "ELEMENTAL"
+      ],
+      "visualGrammar": "Staves: recognizable silhouette, material-driven construction, visible repair history, culture-specific fittings.",
+      "proceduralNamingGrammar": [
+        "materialPrefix",
+        "craftTradition",
+        "functionNoun",
+        "earnedEpithet"
+      ],
+      "upgradeRoutes": [
+        "STAFF_CONTROL",
+        "STAFF_POWER",
+        "STAFF_UTILITY"
+      ],
+      "strengths": [
+        "Broad spell access and MP efficiency."
+      ],
+      "weaknesses": [
+        "Vulnerable to direct Martial pressure."
+      ],
+      "balanceIndex": 9
+    },
+    {
+      "id": "WEAPON_FAMILY_FOCUS",
+      "displayName": "Catalysts and Foci",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "equipmentTagsGranted": [
+        "FOCUS_TOOL",
+        "WAND",
+        "FOCUS"
+      ],
+      "baseCombatIdentity": "Specialized spell shaping, support control, and compact off-hand casting.",
+      "apCostModifier": 0,
+      "mpCostModifier": -1,
+      "formationInteractions": [
+        "FORMATION_ARCANE_CIRCLE",
+        "FORMATION_SKIRMISH_LINE"
+      ],
+      "proficiencyTrackId": "PROF_FOCUS",
+      "masteryBehavior": "Meaningful legal actions using this family grant fixed-point proficiency; trivial-enemy repetition is diminished.",
+      "craftingMaterialFamilies": [
+        "WOOD",
+        "RUNE",
+        "ELEMENTAL"
+      ],
+      "visualGrammar": "Catalysts and Foci: recognizable silhouette, material-driven construction, visible repair history, culture-specific fittings.",
+      "proceduralNamingGrammar": [
+        "materialPrefix",
+        "craftTradition",
+        "functionNoun",
+        "earnedEpithet"
+      ],
+      "upgradeRoutes": [
+        "FOCUS_CONTROL",
+        "FOCUS_POWER",
+        "FOCUS_UTILITY"
+      ],
+      "strengths": [
+        "Enables hybrid loadouts and precise magic."
+      ],
+      "weaknesses": [
+        "Lower physical fallback value than a staff."
+      ],
+      "balanceIndex": 10
+    },
+    {
+      "id": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "displayName": "Engineering Weapons and Tools",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "equipmentTagsGranted": [
+        "TOOL",
+        "ARCANE_CONDUCTOR",
+        "SIGNAL_HORN",
+        "SIGNAL_KIT",
+        "ALCHEMY"
+      ],
+      "baseCombatIdentity": "Deployables, terrain changes, signals, and equipment-driven forecasts.",
+      "apCostModifier": 1,
+      "mpCostModifier": 1,
+      "formationInteractions": [
+        "FORMATION_SKIRMISH_LINE",
+        "FORMATION_ARCANE_CIRCLE"
+      ],
+      "proficiencyTrackId": "PROF_ENGINEERING_TOOL",
+      "masteryBehavior": "Meaningful legal actions using this family grant fixed-point proficiency; trivial-enemy repetition is diminished.",
+      "craftingMaterialFamilies": [
+        "METAL",
+        "WOOD",
+        "LEATHER",
+        "RUNE"
+      ],
+      "visualGrammar": "Engineering Weapons and Tools: recognizable silhouette, material-driven construction, visible repair history, culture-specific fittings.",
+      "proceduralNamingGrammar": [
+        "materialPrefix",
+        "craftTradition",
+        "functionNoun",
+        "earnedEpithet"
+      ],
+      "upgradeRoutes": [
+        "ENGINEERING_TOOL_CONTROL",
+        "ENGINEERING_TOOL_POWER",
+        "ENGINEERING_TOOL_UTILITY"
+      ],
+      "strengths": [
+        "Changes encounter rules and supports objectives."
+      ],
+      "weaknesses": [
+        "Requires materials, preparation, or specialized proficiency."
+      ],
+      "balanceIndex": 11
+    },
+    {
+      "id": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "displayName": "Hybrid Relic Weapons",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTagsGranted": [
+        "HYBRID_RELIC",
+        "SWORD",
+        "FOCUS_TOOL"
+      ],
+      "baseCombatIdentity": "World-specific weapons combining Martial and Mystic behavior.",
+      "apCostModifier": 1,
+      "mpCostModifier": 1,
+      "formationInteractions": [
+        "FORMATION_CRESCENT",
+        "FORMATION_ARCANE_CIRCLE"
+      ],
+      "proficiencyTrackId": "PROF_HYBRID_RELIC_WEAPON",
+      "masteryBehavior": "Meaningful legal actions using this family grant fixed-point proficiency; trivial-enemy repetition is diminished.",
+      "craftingMaterialFamilies": [
+        "METAL",
+        "WOOD",
+        "LEATHER",
+        "RUNE"
+      ],
+      "visualGrammar": "Hybrid Relic Weapons: recognizable silhouette, material-driven construction, visible repair history, culture-specific fittings.",
+      "proceduralNamingGrammar": [
+        "materialPrefix",
+        "craftTradition",
+        "functionNoun",
+        "earnedEpithet"
+      ],
+      "upgradeRoutes": [
+        "HYBRID_RELIC_WEAPON_CONTROL",
+        "HYBRID_RELIC_WEAPON_POWER",
+        "HYBRID_RELIC_WEAPON_UTILITY"
+      ],
+      "strengths": [
+        "Unlocks unusual cross-discipline forecasts."
+      ],
+      "weaknesses": [
+        "Harder to craft, repair, and qualify for."
+      ],
+      "balanceIndex": 12
+    }
+  ]
+}

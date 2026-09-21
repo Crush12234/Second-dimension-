@@ -1,0 +1,864 @@
+{
+  "schemaVersion": "1.0",
+  "manifestId": "SECOND_DIMENSION_ASSET_PROVENANCE_V1",
+  "project": "Second Dimension - Guild of Worlds",
+  "projectRoot": "C:/SecondDimension/GuildOfWorlds",
+  "verifiedDate": "2026-09-06",
+  "hashAlgorithm": "SHA-256",
+  "policy": {
+    "purpose": "Record locally verifiable origin, license evidence, binary identity, and release status without inferring rights from filenames or production labels.",
+    "commercialClearanceRule": "Only an entry whose rightsStatus is VERIFIED_COMMERCIAL_USE and whose releaseStatus is APPROVED_FOR_SHIP is commercially cleared by this manifest.",
+    "pendingRule": "PENDING_RIGHTS_REVIEW assets may remain in internal builds but require source/license evidence and approval before external commercial distribution.",
+    "replacementRule": "REPLACEMENT_REQUIRED assets are prototypes, placeholders, schematics, or derived fallbacks and are not final presentation assets.",
+    "generatedAssetRule": "A project-generated origin record is not, by itself, a legal or commercial-use approval. Provider terms and studio review remain required.",
+    "cacheRule": "Unity Library and PackageCache content is excluded. Generated caches are never treated as source assets or provenance evidence."
+  },
+  "statusDefinitions": {
+    "APPROVED_FOR_SHIP": "Source, rights basis, binary identity, and studio approval are all recorded.",
+    "PENDING_RIGHTS_REVIEW": "A local origin record exists, but commercial-rights evidence or studio approval is incomplete.",
+    "REPLACEMENT_REQUIRED": "The local record identifies the asset as prototype, placeholder, schematic, or replaceable fallback.",
+    "EXCLUDED_CACHE": "Generated cache or package material that must not be harvested as project content."
+  },
+  "verifiedGroups": [
+    {
+      "groupId": "CAMPAIGN083_TOWER_PRODUCTION_PLATES",
+      "mediaType": "image/png",
+      "originType": "PROJECT_GENERATED",
+      "creator": "Local generated-image pipeline; provider is not named in the source record",
+      "canonicalEvidencePath": "Assets/Resources/SecondDimension/Art/Campaign083/TOWER_PLATES_083_084_PROVENANCE.md",
+      "rightsStatus": "PENDING_RIGHTS_REVIEW",
+      "commercialUseAllowed": null,
+      "attributionRequired": null,
+      "releaseStatus": "PENDING_RIGHTS_REVIEW",
+      "replacementRequiredBeforeShip": false,
+      "intendedUse": [
+        "Endless Tower full-width floor backdrop",
+        "Tower lobby floor preview",
+        "Tower room or reward card art"
+      ],
+      "verification": {
+        "sourceRecordVerified": true,
+        "binaryHashesVerified": true,
+        "verificationDate": "2026-09-02",
+        "note": "All ten current binaries match the adjacent provenance table. Floor 1 predates the recorded 084 batch and has no retained source filename."
+      },
+      "assets": [
+        {
+          "assetId": "ABYSS_FLOOR_01_MUD_TRENCHES_BATTLE_083",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Campaign083/ABYSS_FLOOR_01_MUD_TRENCHES_BATTLE_083.png",
+          "dimensions": "1672x941",
+          "sha256": "0EEC14FC782F262B98578BEF3B41C17A3A585400DCBB20A6E374F1D28582E633",
+          "sourceArtifactId": null,
+          "sourceNote": "The adjacent record describes this as an existing approved Campaign 083 source, but its original source filename was not recorded; this manifest does not treat that label as commercial-rights clearance."
+        },
+        {
+          "assetId": "ABYSS_FLOOR_02_ARROW_RAIN_FIELD_BATTLE_084",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Campaign083/ABYSS_FLOOR_02_ARROW_RAIN_FIELD_BATTLE_084.png",
+          "dimensions": "1672x941",
+          "sha256": "BE86B18582B038152B4D33857AA781DEADC7A2BB58FC7557C247EBE68E30325A",
+          "sourceArtifactId": "exec-3757d38f-e3fb-4a5d-8fdf-6df4d8dae3d8.png"
+        },
+        {
+          "assetId": "ABYSS_FLOOR_03_SILENT_CAMP_BATTLE_084",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Campaign083/ABYSS_FLOOR_03_SILENT_CAMP_BATTLE_084.png",
+          "dimensions": "1671x941",
+          "sha256": "4D5D4F05F7A20D5774FB59672C073FEFF712466CA6576DA52614DFF33E021A44",
+          "sourceArtifactId": "exec-7777b795-8f9d-4465-b657-b29f415e60ce.png"
+        },
+        {
+          "assetId": "ABYSS_FLOOR_04_COLLAPSED_SIEGE_WALL_BATTLE_084",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Campaign083/ABYSS_FLOOR_04_COLLAPSED_SIEGE_WALL_BATTLE_084.png",
+          "dimensions": "1672x941",
+          "sha256": "5D981B56D29362F8F5A3A4340F1F3E1AC833A8875B538A8E7A3C0237B865AB0B",
+          "sourceArtifactId": "exec-a3139ae4-cc42-4360-9362-ea0da58d5d97.png"
+        },
+        {
+          "assetId": "ABYSS_FLOOR_05_GRAVE_BANNER_HILL_BATTLE_084",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Campaign083/ABYSS_FLOOR_05_GRAVE_BANNER_HILL_BATTLE_084.png",
+          "dimensions": "1672x941",
+          "sha256": "713F396CC1D27D6F8B4509FEF553DAC39F9B62A1849CA0A22CA5DBD4C79B0C09",
+          "sourceArtifactId": "exec-6e7ac57f-16e8-4d9f-b925-ea8cead5226d.png"
+        },
+        {
+          "assetId": "ABYSS_FLOOR_06_IRON_MARCH_BATTLE_084",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Campaign083/ABYSS_FLOOR_06_IRON_MARCH_BATTLE_084.png",
+          "dimensions": "1672x941",
+          "sha256": "57E82E5A65413317B431C2F78B96E06E9E8E1A08EF74CE55BAE1C97411231243",
+          "sourceArtifactId": "exec-cfc69a00-7522-4185-9295-8d73410f6372.png"
+        },
+        {
+          "assetId": "ABYSS_FLOOR_07_BLOODLESS_RIVER_BATTLE_084",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Campaign083/ABYSS_FLOOR_07_BLOODLESS_RIVER_BATTLE_084.png",
+          "dimensions": "1671x941",
+          "sha256": "7A7806293B3774421DD77BF84CF77B8AD12D20D52AF704D7C25EBF69753D83AF",
+          "sourceArtifactId": "exec-5d3a9bdd-2ce7-4ab4-8990-bbdcecf3a49c.png"
+        },
+        {
+          "assetId": "ABYSS_FLOOR_08_WAR_BEAST_PENS_BATTLE_084",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Campaign083/ABYSS_FLOOR_08_WAR_BEAST_PENS_BATTLE_084.png",
+          "dimensions": "1672x941",
+          "sha256": "19373D37019C2C27FC23537D796608CA67D9C7ED0F793FEFA33D6ADFE4E9E427",
+          "sourceArtifactId": "exec-94e9fc5f-f78d-4e8f-adbe-1d838050560d.png"
+        },
+        {
+          "assetId": "ABYSS_FLOOR_09_ASH_COMMAND_TENT_BATTLE_084",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Campaign083/ABYSS_FLOOR_09_ASH_COMMAND_TENT_BATTLE_084.png",
+          "dimensions": "1672x941",
+          "sha256": "1345BD9696073351D4A6118145D12E41F7A2D5C42A16E5CD757E46427D225F4B",
+          "sourceArtifactId": "exec-6db237a6-b882-4fde-bf3d-2c1fad71b661.png"
+        },
+        {
+          "assetId": "ABYSS_FLOOR_10_AEGIS_GATE_BATTLE_084",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Campaign083/ABYSS_FLOOR_10_AEGIS_GATE_BATTLE_084.png",
+          "dimensions": "1672x941",
+          "sha256": "3ECDB0FB09B997D3E711BA936A4DE16AF5D59FF76204E36ADC09C3AAA6FC7B8B",
+          "sourceArtifactId": "exec-d3f9a02f-ca07-4b10-b92d-79bf51cdddf2.png"
+        }
+      ]
+    },
+    {
+      "groupId": "BOARD086_ORIGINAL_IMAGEGEN_ROOM_PLATES",
+      "mediaType": "image/png",
+      "originType": "PROJECT_GENERATED",
+      "creator": "OpenAI ImageGen",
+      "generationDate": "2026-09-02",
+      "canonicalEvidencePath": "Assets/Resources/SecondDimension/Art/Board086/BOARD_086_IMAGEGEN_PROVENANCE.md",
+      "rightsStatus": "PENDING_RIGHTS_REVIEW",
+      "commercialUseAllowed": null,
+      "attributionRequired": null,
+      "releaseStatus": "PENDING_RIGHTS_REVIEW",
+      "replacementRequiredBeforeShip": false,
+      "externalOrReferenceInputUsed": false,
+      "sharedStyleBrief": "Original 16:9 premium painterly anime-inspired fantasy; navy, cyan, and antique gold; no characters, text, logos, UI, or watermark.",
+      "intendedUse": [
+        "Full-width board-room reveal backdrop",
+        "Mission tile/card resolution presentation"
+      ],
+      "verification": {
+        "sourceRecordVerified": true,
+        "binaryHashesVerified": true,
+        "verificationDate": "2026-09-02",
+        "note": "The six current binaries match the recorded dimensions, byte sizes, SHA-256 values, and supplied generated source artifact filenames. Provider terms and studio release approval are not attached."
+      },
+      "assets": [
+        {
+          "assetId": "SKYHOME_GUILD_UNDERCROFT_LEDGER_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Board086/SKYHOME_GUILD_UNDERCROFT_LEDGER_086.png",
+          "sourceArtifactId": "exec-8ab64fb6-102b-495d-81cb-fad4bd38448d.png",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Vaulted Skyhome undercroft with a field ledger and rescue supplies.",
+          "intendedUse": "Board-room reveal backdrop for the Skyhome guild undercroft ledger event.",
+          "dimensions": "1672x941",
+          "fileSizeBytes": 2330358,
+          "sha256": "DD5049DD932A13442626704259A781FFB573631463DEF1F36EE64E36E5CEC566"
+        },
+        {
+          "assetId": "LANTERN_ROAD_QUARTERMASTER_CACHE_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Board086/LANTERN_ROAD_QUARTERMASTER_CACHE_086.png",
+          "sourceArtifactId": "exec-2a09e6bf-5cef-4b0d-b440-8ac0f28acbfb.png",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Floating-island Lantern Road quartermaster cache.",
+          "intendedUse": "Board-room reveal backdrop for the Lantern Road quartermaster cache event.",
+          "dimensions": "1672x941",
+          "fileSizeBytes": 2862869,
+          "sha256": "1013106ACE6DD0A9F805F1677E0DC4C572F3207B16367F6C8E3BDAF72D5DF7CC"
+        },
+        {
+          "assetId": "WAYGLASS_THRESHOLD_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Board086/WAYGLASS_THRESHOLD_086.png",
+          "sourceArtifactId": "exec-f65202da-463d-4fb9-b310-88954330dd6e.png",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Wayglass threshold with crystal, portal, and chains.",
+          "intendedUse": "Board-room reveal backdrop for the Wayglass threshold event.",
+          "dimensions": "1672x941",
+          "fileSizeBytes": 2575113,
+          "sha256": "8DCC7A47668E84968599E9A4EDB9E45E85E735447273CE9401EE8A08A52BCFA1"
+        },
+        {
+          "assetId": "WAYGLASS_BROKEN_SURVEY_BRIDGE_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Board086/WAYGLASS_BROKEN_SURVEY_BRIDGE_086.png",
+          "sourceArtifactId": "exec-5bac78b7-afb4-48d3-b9da-8ea9c969b7e5.png",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Broken survey bridge across a luminous fog chasm.",
+          "intendedUse": "Board-room reveal backdrop for the broken survey bridge event.",
+          "dimensions": "1672x941",
+          "fileSizeBytes": 2234372,
+          "sha256": "8B95885A5EF0906411D8E82683814680DEEA0A36156012AE2F32FFEC40FE1899"
+        },
+        {
+          "assetId": "WAYGLASS_LOST_SURVEY_CAMP_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Board086/WAYGLASS_LOST_SURVEY_CAMP_086.png",
+          "sourceArtifactId": "exec-fea718fd-bbf4-41b3-b90a-9dfe7860a8d7.png",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Lost survey camp in silver fog.",
+          "intendedUse": "Board-room reveal backdrop for the lost survey camp event.",
+          "dimensions": "1672x941",
+          "fileSizeBytes": 2364256,
+          "sha256": "FF9C5F6B261B3C5C78E11B96A4994B3D8CA34EB3D48A4D98E4999D7D38A97B17"
+        },
+        {
+          "assetId": "WAYGLASS_UNRECORDED_DOOR_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Board086/WAYGLASS_UNRECORDED_DOOR_086.png",
+          "sourceArtifactId": "exec-f7d01db0-8966-47e8-a8d4-dce6884162ee.png",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Unrecorded circular-door rescue chamber with a broken astrolabe.",
+          "intendedUse": "Board-room reveal backdrop for the unrecorded-door rescue event.",
+          "dimensions": "1672x941",
+          "fileSizeBytes": 2501019,
+          "sha256": "B60E403EC00F87511ADB4B9C6E6C206BF9E1B129F60764C507A93D2FAB92DA1B"
+        }
+      ]
+    },
+    {
+      "groupId": "PORTRAIT_RACES_086_ORIGINAL_IMAGEGEN_VARIANTS",
+      "mediaType": "image/png",
+      "originType": "PROJECT_GENERATED",
+      "creator": "OpenAI ImageGen",
+      "generationDate": "2026-09-02",
+      "canonicalEvidencePath": "Assets/Resources/SecondDimension/Art/Portraits/Races/PORTRAITS_RACES_086_IMAGEGEN_PROVENANCE.md",
+      "rightsStatus": "PENDING_RIGHTS_REVIEW",
+      "commercialUseAllowed": null,
+      "attributionRequired": null,
+      "releaseStatus": "PENDING_RIGHTS_REVIEW",
+      "replacementRequiredBeforeShip": false,
+      "externalOrReferenceInputUsed": false,
+      "franchiseOrRealPersonReferenceUsed": false,
+      "sharedStyleBrief": "Entirely original premium painterly anime-inspired roster portrait; three-quarter torso; smoky dark backdrop; amber/cyan light; navy, cyan, and antique-gold practical gear with a blue guild badge; vertical 2:3; no text, logo, UI, or watermark.",
+      "intendedUse": [
+        "Recruitment roster portrait",
+        "Race/class-readable applicant thumbnail"
+      ],
+      "verification": {
+        "sourceRecordVerified": true,
+        "binaryHashesVerified": true,
+        "verificationDate": "2026-09-02",
+        "note": "All twelve current binaries match their recorded dimensions, byte sizes, SHA-256 values, and supplied generated source artifact filenames. Provider terms and studio release approval are not attached."
+      },
+      "assets": [
+        {
+          "assetId": "APPLICANT_HUMAN_RANGER_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Portraits/Races/HUMAN/APPLICANT_HUMAN_RANGER_086.png",
+          "sourceArtifactId": "exec-d3d7c37e-5b14-4702-97e9-5373d55b6aa5.png",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Original Human Ranger applicant.",
+          "intendedUse": "Recruitment roster portrait for a Human Ranger candidate.",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 2410214,
+          "sha256": "748284A3B052AB31CFA1CC7C29927225A9D91E9D78508E4A6AA9E2CB64FD465D"
+        },
+        {
+          "assetId": "APPLICANT_HUMAN_AETHER_MAGE_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Portraits/Races/HUMAN/APPLICANT_HUMAN_AETHER_MAGE_086.png",
+          "sourceArtifactId": "exec-61463315-a49f-453d-ace5-f532a1aa7e42.png",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Original Human Aether Mage applicant.",
+          "intendedUse": "Recruitment roster portrait for a Human Aether Mage candidate.",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 2193036,
+          "sha256": "1FE2C333B9F02AEF931A22BD9244BE15CEBBF81B63191AD9E17B22EDB26EA133"
+        },
+        {
+          "assetId": "APPLICANT_ORC_RESTORATION_MYSTIC_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Portraits/Races/ORC/APPLICANT_ORC_RESTORATION_MYSTIC_086.png",
+          "sourceArtifactId": "exec-bbcdedd4-1f2b-4bdc-9c73-db147c1c063f.png",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Original Orc Restoration Mystic applicant.",
+          "intendedUse": "Recruitment roster portrait for an Orc Restoration Mystic candidate.",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 2466505,
+          "sha256": "B82687C8E06FBBA8830E8661C78290B51BE3542FDD9E3964BCE6143B5AD85628"
+        },
+        {
+          "assetId": "APPLICANT_ORC_SHIELD_GUARDIAN_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Portraits/Races/ORC/APPLICANT_ORC_SHIELD_GUARDIAN_086.png",
+          "sourceArtifactId": "exec-f3f6bbf4-098f-4d89-a7ce-4c8a06bab7b1.png",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Original Orc Shield Guardian applicant.",
+          "intendedUse": "Recruitment roster portrait for an Orc Shield Guardian candidate.",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 2489617,
+          "sha256": "6B33F87C1968EAA4806FE9A98C6243A83C3482B26FC9E8D45C29D33B3B4A7680"
+        },
+        {
+          "assetId": "APPLICANT_GOBLIN_FIELD_ENGINEER_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Portraits/Races/GOBLIN/APPLICANT_GOBLIN_FIELD_ENGINEER_086.png",
+          "sourceArtifactId": "exec-f079861b-4564-41b4-a5e7-9c5d90b8fa60.png",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Original Goblin Field Engineer applicant.",
+          "intendedUse": "Recruitment roster portrait for a Goblin Field Engineer candidate.",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 2375580,
+          "sha256": "119FF043A415AEBBFF2F586069BEE043DF8B586CD943A7AB9159AE87A84E0964"
+        },
+        {
+          "assetId": "APPLICANT_GOBLIN_STORM_MYSTIC_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Portraits/Races/GOBLIN/APPLICANT_GOBLIN_STORM_MYSTIC_086.png",
+          "sourceArtifactId": "exec-385d6dae-8725-40d4-a72f-ae8f10d208d4.png",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Original Goblin Storm Mystic applicant.",
+          "intendedUse": "Recruitment roster portrait for a Goblin Storm Mystic candidate.",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 2237574,
+          "sha256": "D1CD23EB9B89985A3BAF79063FD400EB82896963C1F389C41932A528CA553E01"
+        },
+        {
+          "assetId": "APPLICANT_DARK_ELF_GREATSWORD_VANGUARD_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Portraits/Races/DARK_ELF/APPLICANT_DARK_ELF_GREATSWORD_VANGUARD_086.png",
+          "sourceArtifactId": "exec-91155c20-6393-449a-a116-bb725fd28c9d.png",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Original Dark Elf Greatsword Vanguard applicant.",
+          "intendedUse": "Recruitment roster portrait for a Dark Elf Greatsword Vanguard candidate.",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 2364150,
+          "sha256": "CBDF527EC2E6FFF3981414970E9942DD3F55D5B338C14B35E0D3A41A0BE3CA81"
+        },
+        {
+          "assetId": "APPLICANT_DARK_ELF_RESTORATION_PRIEST_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Portraits/Races/DARK_ELF/APPLICANT_DARK_ELF_RESTORATION_PRIEST_086.png",
+          "sourceArtifactId": "exec-0326220a-a98d-409f-831a-0fb76be12fe4.png",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Original Dark Elf Restoration Priest applicant.",
+          "intendedUse": "Recruitment roster portrait for a Dark Elf Restoration Priest candidate.",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 2554306,
+          "sha256": "4FDCEA73CCC17937B4056B8A95B0147DC18B62BF9CE9F94DD71475CA68AD499E"
+        },
+        {
+          "assetId": "APPLICANT_DOG_TRIBE_SHIELD_GUARDIAN_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Portraits/Races/DOG_TRIBE/APPLICANT_DOG_TRIBE_SHIELD_GUARDIAN_086.png",
+          "sourceArtifactId": "exec-97cc94ab-6fd2-43be-a4f5-d54acbde2ba1.png",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Original Dog Tribe Shield Guardian applicant.",
+          "intendedUse": "Recruitment roster portrait for a Dog Tribe Shield Guardian candidate.",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 2155752,
+          "sha256": "DF8A9316B23E799C75DCD798F3228726E2700D99531C4075A12DD0CBE6F3AC8E"
+        },
+        {
+          "assetId": "APPLICANT_DOG_TRIBE_AETHER_MAGE_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Portraits/Races/DOG_TRIBE/APPLICANT_DOG_TRIBE_AETHER_MAGE_086.png",
+          "sourceArtifactId": "exec-ff7b60a8-c5b7-4593-976b-55ac1052f46d.png",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Original Dog Tribe Aether Mage applicant.",
+          "intendedUse": "Recruitment roster portrait for a Dog Tribe Aether Mage candidate.",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 2347720,
+          "sha256": "D0850A8E7764BEBDD2DAC01294B06389A38660FD57E0FD4BC54017B7AC8A1583"
+        },
+        {
+          "assetId": "APPLICANT_BUNNY_TRIBE_BOW_RANGER_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Portraits/Races/BUNNY_TRIBE/APPLICANT_BUNNY_TRIBE_BOW_RANGER_086.png",
+          "sourceArtifactId": "exec-bda961fe-03a8-40b7-ad96-da558f840d85.png",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Original Bunny Tribe Bow Ranger applicant.",
+          "intendedUse": "Recruitment roster portrait for a Bunny Tribe Bow Ranger candidate.",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 2459739,
+          "sha256": "54B6CA5E1FDCE46C28CFA4CAA0FB75595561F9B20C00D02D421AD18D43E1C03E"
+        },
+        {
+          "assetId": "APPLICANT_BUNNY_TRIBE_GLAIVE_WARRIOR_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Portraits/Races/BUNNY_TRIBE/APPLICANT_BUNNY_TRIBE_GLAIVE_WARRIOR_086.png",
+          "sourceArtifactId": "exec-ca5b289f-ffb1-4b8a-bab1-7ab5fc15d7bd.png",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Original Bunny Tribe Glaive Warrior applicant.",
+          "intendedUse": "Recruitment roster portrait for a Bunny Tribe Glaive Warrior candidate.",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 2393368,
+          "sha256": "22F47DA9CDE58234035B9263801FDEF1F845651517ACF7544248C90658094434"
+        }
+      ]
+    },
+    {
+      "groupId": "BATTLE086_ORIGINAL_IMAGEGEN_ENEMY_STANDEES",
+      "mediaType": "image/png",
+      "originType": "PROJECT_GENERATED",
+      "creator": "OpenAI ImageGen",
+      "generationDate": "2026-09-02",
+      "canonicalEvidencePath": "Assets/Resources/SecondDimension/Art/Battle086/Enemies/BATTLE086_ENEMY_IMAGEGEN_PROVENANCE.md",
+      "rightsStatus": "PENDING_RIGHTS_REVIEW",
+      "commercialUseAllowed": null,
+      "attributionRequired": null,
+      "releaseStatus": "PENDING_RIGHTS_REVIEW",
+      "replacementRequiredBeforeShip": false,
+      "externalOrReferenceInputUsed": false,
+      "franchiseOrRealPersonReferenceUsed": false,
+      "sharedStyleBrief": "Original premium dark anime-fantasy strategy-RPG enemy standees; full-body idle/action-capable transparent silhouettes; charcoal/navy, gate cyan, and aged gold; no text, UI, logo, watermark, frame, environment, or gore.",
+      "derivationProcess": {
+        "stage1": "Original text-to-image generation on a near-black studio void.",
+        "stage2": "Original ImageGen background-isolation edit to a flat #00FF00 matte.",
+        "finalPostProcess": "Deterministic CheckerboardAlphaExtractor076 chroma/edge/alpha cleanup produced the final transparent PNG.",
+        "externalOrReferenceInputUsedAtAnyStage": false
+      },
+      "intendedUse": [
+        "Enemy full-body battle standee",
+        "Enemy family silhouette and equipment differentiation"
+      ],
+      "verification": {
+        "sourceRecordVerified": true,
+        "binaryHashesVerified": true,
+        "visualInspectionCompleted": true,
+        "verificationDate": "2026-09-02",
+        "note": "All eight current transparent binaries match the recorded dimensions, byte sizes, SHA-256 values, initial source artifacts, and background-isolation edit artifacts. Every final PNG is Format32bppArgb with transparent and partial-alpha samples. A deterministic 24,576-point inspection found no hard #00FF00 matte; seven assets had no green-dominant sampled edge pixel, while Shardwing had one boundary sample out of 24,576 repaired in presentation by the existing edge shader. Every image was inspected at high detail and accepted for subject identity, complete framing, anatomy, silhouette, and absence of unwanted text/UI/watermarks. Provider terms and studio release approval are not attached."
+      },
+      "assets": [
+        {
+          "assetId": "RUSTBACK_HOUND_IDLE_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Battle086/Enemies/RUSTBACK_HOUND_IDLE_086.png",
+          "sourceArtifactId": "exec-3bbd8c78-638c-4dba-ac41-06a7d5a5af3c.png",
+          "backgroundIsolationEditArtifactId": "exec-4bb7b17e-8a0e-43a9-99a5-b57137793c4f.png",
+          "postProcess": "CheckerboardAlphaExtractor076 deterministic alpha cleanup",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Original lean Rustback Hound with iron-red plates, scent vents, and a worker rope caught around one foreleg.",
+          "intendedUse": "Idle/action-capable battle standee for the Rustback Hound family.",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 1082799,
+          "sha256": "2A071B219293BCE75BB983F5B8D8535C8E088486E2DD1BD7BCCC4F2DC891666D"
+        },
+        {
+          "assetId": "HOLLOW_SALVAGER_IDLE_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Battle086/Enemies/HOLLOW_SALVAGER_IDLE_086.png",
+          "sourceArtifactId": "exec-49dea0ef-021d-4193-a1b9-40a60c0dadf1.png",
+          "backgroundIsolationEditArtifactId": "exec-6b5d9ab3-1add-4d0c-903c-cc2f8ee9f865.png",
+          "postProcess": "CheckerboardAlphaExtractor076 deterministic alpha cleanup",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Original visibly empty maintenance armor animated by XP dust and obsolete work-order fragments.",
+          "intendedUse": "Idle/action-capable battle standee for the Hollow Salvager family.",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 1941553,
+          "sha256": "AA5CB1F8EC55C87D6D33E0937097D9D70EB85AF0B88C5EC0E92A0009E254A9BB"
+        },
+        {
+          "assetId": "SHARDWING_SWARM_IDLE_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Battle086/Enemies/SHARDWING_SWARM_IDLE_086.png",
+          "sourceArtifactId": "exec-3b37373b-6997-4d9d-be34-871d9b069a83.png",
+          "backgroundIsolationEditArtifactId": "exec-573014d6-4ade-41ec-aebd-1134ff0ef40b.png",
+          "postProcess": "CheckerboardAlphaExtractor076 deterministic alpha cleanup",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Original coherent swarm of translucent knife-wing insects linked by gate-blue signal patterns.",
+          "intendedUse": "Idle/action-capable battle standee for the Shardwing Swarm family.",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 1450467,
+          "sha256": "83DF5FD6A8759AD7117AA8E2602894D91BB361B3F27BC3FA1F465B7DFCA0082A"
+        },
+        {
+          "assetId": "RIFT_MOLD_CREEPER_IDLE_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Battle086/Enemies/RIFT_MOLD_CREEPER_IDLE_086.png",
+          "sourceArtifactId": "exec-292ff045-e3d9-4fe5-9ffb-98703315a6f5.png",
+          "backgroundIsolationEditArtifactId": "exec-2d543bfa-9cec-4c9c-af6e-fc1222356b87.png",
+          "postProcess": "CheckerboardAlphaExtractor076 deterministic alpha cleanup",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Original luminous mobile fungus colony on root cords around a warm dimensional-fracture core.",
+          "intendedUse": "Idle/action-capable battle standee for the Rift-Mold Creeper family.",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 1551506,
+          "sha256": "B0AF9028D9079E5F19F14B3ADB5B1B3C8D016A2EC85BD1ACB9B213E2754B090F"
+        },
+        {
+          "assetId": "GATEIRON_BRUTE_IDLE_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Battle086/Enemies/GATEIRON_BRUTE_IDLE_086.png",
+          "sourceArtifactId": "exec-de8f94f6-1843-4334-8a29-6165f0402d98.png",
+          "backgroundIsolationEditArtifactId": "exec-f4365b88-c54f-4f27-b34f-1022ee2e8f6c.png",
+          "postProcess": "CheckerboardAlphaExtractor076 deterministic alpha cleanup",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Original maintenance-lifter construct with an integrated massive gate-hinge hammer and lifting claw.",
+          "intendedUse": "Idle/action-capable battle standee for the Gateiron Brute family.",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 1834277,
+          "sha256": "19D68C3B9B556DFA7D1AFCCD07BA80762BE7D59EB0EF69C1160540F0E25CA733"
+        },
+        {
+          "assetId": "ASH_MEDIC_IDLE_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Battle086/Enemies/ASH_MEDIC_IDLE_086.png",
+          "sourceArtifactId": "exec-51a8ce64-97d2-4816-8f13-0384c945d7ea.png",
+          "backgroundIsolationEditArtifactId": "exec-80e3d0dc-1150-45b2-af95-8aec2c26474a.png",
+          "postProcess": "CheckerboardAlphaExtractor076 deterministic alpha cleanup",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Original soot-coated relief automaton with restorative projector, remedy ampoules, and bandages.",
+          "intendedUse": "Idle/action-capable battle standee for the Ash Medic family.",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 1123846,
+          "sha256": "2D057A2F4F7BD4A4E84805B8F97A8A4E1B84D5EFBC27E0138C192837781C3DB4"
+        },
+        {
+          "assetId": "CAPTAIN_RAVEL_IDLE_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Battle086/Enemies/CAPTAIN_RAVEL_IDLE_086.png",
+          "sourceArtifactId": "exec-fb08fc35-cb82-4e20-803e-384a93f9c110.png",
+          "backgroundIsolationEditArtifactId": "exec-e2ae9ad2-b4ec-4c71-95db-c310f0b267ab.png",
+          "postProcess": "CheckerboardAlphaExtractor076 deterministic alpha cleanup",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Original charismatic rival salvage captain in immaculate stolen guild colors with saber and false charter.",
+          "intendedUse": "Idle/action-capable miniboss battle standee for Captain Ravel.",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 1640757,
+          "sha256": "5C5629BD128D224452B9CFD6A8CEFD5E126587D83D05579497F6FA01A301FE15"
+        },
+        {
+          "assetId": "GATEHEART_WARDEN_IDLE_086",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Battle086/Enemies/GATEHEART_WARDEN_IDLE_086.png",
+          "sourceArtifactId": "exec-7516ae18-2206-405a-a924-ce8262ca4f26.png",
+          "backgroundIsolationEditArtifactId": "exec-a2f22100-b374-4bb2-a21a-c026ae4cf3eb.png",
+          "postProcess": "CheckerboardAlphaExtractor076 deterministic alpha cleanup",
+          "generationDate": "2026-09-02",
+          "externalOrReferenceInputUsed": false,
+          "promptConcept": "Original ancient gate-maintenance commander with basalt armor, brass ribs, blue law core, gate-key polearm, and three resonance pylons.",
+          "intendedUse": "Idle/action-capable boss battle standee for the Gateheart Warden.",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 2019179,
+          "sha256": "C5F47A00AB436053D9C0145020AD501AF39F44AA214B1DD29506901031E7C456"
+        }
+      ]
+    },
+    {
+      "groupId": "DEMON_HERITAGE_087_ORIGINAL_IMAGEGEN_PORTRAITS",
+      "mediaType": "image/png",
+      "originType": "PROJECT_GENERATED",
+      "creator": "OpenAI ImageGen",
+      "generationDate": "2026-09-02",
+      "canonicalEvidencePath": "Assets/Resources/SecondDimension/Art/Portraits/Races/DEMON_HERITAGE/DEMON_HERITAGE_087_IMAGEGEN_PROVENANCE.md",
+      "rightsStatus": "PENDING_RIGHTS_REVIEW",
+      "commercialUseAllowed": null,
+      "attributionRequired": null,
+      "releaseStatus": "PENDING_RIGHTS_REVIEW",
+      "replacementRequiredBeforeShip": false,
+      "externalOrReferenceInputUsed": false,
+      "franchiseOrRealPersonReferenceUsed": false,
+      "intendedUse": [
+        "Demon Heritage recruitment portrait",
+        "Race/class-readable character thumbnail"
+      ],
+      "verification": {
+        "sourceRecordVerified": true,
+        "binaryHashesVerified": true,
+        "visualInspectionCompleted": true,
+        "verificationDate": "2026-09-02",
+        "note": "All four originals were generated from text only and inspected. Provider terms and studio release approval are not attached."
+      },
+      "assets": [
+        {
+          "assetId": "APPLICANT_DEMON_HERITAGE_SHIELD_GUARDIAN_087",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Portraits/Races/DEMON_HERITAGE/APPLICANT_DEMON_HERITAGE_SHIELD_GUARDIAN_087.png",
+          "sourceArtifactId": "exec-90b59f84-8204-4f91-9825-ce8d3a741888.png",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 2482165,
+          "sha256": "4DE97F3CC99279C614B56C970F7B01FE1A065B4CF3387863F27594D7AE2DDFF3"
+        },
+        {
+          "assetId": "APPLICANT_DEMON_HERITAGE_GREATSWORD_VANGUARD_087",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Portraits/Races/DEMON_HERITAGE/APPLICANT_DEMON_HERITAGE_GREATSWORD_VANGUARD_087.png",
+          "sourceArtifactId": "exec-c449b30c-3656-4799-8675-8036e223e3eb.png",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 2373243,
+          "sha256": "F07B28DF96332541B57F6F4093EFEE08AFD8C948D88C221EF0D0C49F90E38191"
+        },
+        {
+          "assetId": "APPLICANT_DEMON_HERITAGE_BOW_RANGER_087",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Portraits/Races/DEMON_HERITAGE/APPLICANT_DEMON_HERITAGE_BOW_RANGER_087.png",
+          "sourceArtifactId": "exec-f23cf9d0-a38c-43e7-9266-541e85418a1e.png",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 2436061,
+          "sha256": "8ECB559A4ACB919E812711C3213F6361F0CCAC0DCDB39205FC0049B69121836A"
+        },
+        {
+          "assetId": "APPLICANT_DEMON_HERITAGE_RESTORATION_PRIEST_087",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Portraits/Races/DEMON_HERITAGE/APPLICANT_DEMON_HERITAGE_RESTORATION_PRIEST_087.png",
+          "sourceArtifactId": "exec-525363b1-be67-412e-a642-cd560608fae3.png",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 2522179,
+          "sha256": "3FE8FB876A029CCE89AF40D5AB5EB9443C878C836E5FFDAFB1FF9EA6B8308001"
+        }
+      ]
+    },
+    {
+      "groupId": "TOWER_ENEMIES_087_ORIGINAL_IMAGEGEN_STANDEES",
+      "mediaType": "image/png",
+      "originType": "PROJECT_GENERATED",
+      "creator": "OpenAI ImageGen",
+      "generationDate": "2026-09-02",
+      "canonicalEvidencePath": "Assets/Resources/SecondDimension/Art/Battle086/Enemies/TOWER_ENEMIES_087_IMAGEGEN_PROVENANCE.md",
+      "rightsStatus": "PENDING_RIGHTS_REVIEW",
+      "commercialUseAllowed": null,
+      "attributionRequired": null,
+      "releaseStatus": "PENDING_RIGHTS_REVIEW",
+      "replacementRequiredBeforeShip": false,
+      "externalOrReferenceInputUsed": false,
+      "franchiseOrRealPersonReferenceUsed": false,
+      "intendedUse": [
+        "Story enemy full-body battle standee",
+        "Infinite Tower enemy family differentiation"
+      ],
+      "verification": {
+        "sourceRecordVerified": true,
+        "binaryHashesVerified": true,
+        "visualInspectionCompleted": true,
+        "transparentCornersVerified": true,
+        "verificationDate": "2026-09-02",
+        "note": "All three originals were generated from text only, retain transparent corner pixels, and were inspected. Provider terms and studio release approval are not attached."
+      },
+      "assets": [
+        {
+          "assetId": "TOLLROAD_CUTTER_IDLE_087",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Battle086/Enemies/TOLLROAD_CUTTER_IDLE_087.png",
+          "sourceArtifactId": "exec-8ff76c6d-ce48-4025-a76d-d563e643900b.png",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 2421446,
+          "sha256": "D89BB9BECFF2EACB00F593EB115B789D9FA608C020948763AFB53B3B1219E509"
+        },
+        {
+          "assetId": "BRASSJAW_PACKLORD_IDLE_087",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Battle086/Enemies/BRASSJAW_PACKLORD_IDLE_087.png",
+          "sourceArtifactId": "exec-bf23fd9f-99d6-4c73-9a1b-81f92e5dfc59.png",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 2993207,
+          "sha256": "45EEDA530909C9D8342D616047B34747EE9D7D40E7266972F85BE471179426C3"
+        },
+        {
+          "assetId": "PULSE_SCRIBE_IDLE_087",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Battle086/Enemies/PULSE_SCRIBE_IDLE_087.png",
+          "sourceArtifactId": "exec-dc9b3869-8bfd-4636-bdab-0f84a0c05a93.png",
+          "dimensions": "1024x1536",
+          "fileSizeBytes": 2525680,
+          "sha256": "9F49F3C3DDECA98CF1D6F4CB8C0BAD94999557CD2A72518D853BF699A22B4391"
+        }
+      ]
+    },
+    {
+      "groupId": "BATTLE_SLICE_020_021_PROJECT_GENERATED_ART",
+      "mediaType": "image/png",
+      "originType": "PROJECT_GENERATED",
+      "creator": "OpenAI image generation",
+      "canonicalEvidencePath": "THIRD_PARTY_NOTICES.txt",
+      "historicalEvidencePath": "C:/SecondDimension/Final030/THIRD_PARTY_NOTICES.txt",
+      "rightsStatus": "PENDING_RIGHTS_REVIEW",
+      "commercialUseAllowed": null,
+      "attributionRequired": null,
+      "releaseStatus": "PENDING_RIGHTS_REVIEW",
+      "replacementRequiredBeforeShip": false,
+      "intendedUse": [
+        "Gateworks tactical battle background",
+        "Gate Gnawer scout and bulwark battle presentation"
+      ],
+      "verification": {
+        "sourceRecordVerified": true,
+        "binaryHashesVerified": true,
+        "verificationDate": "2026-09-02",
+        "note": "Origin and hashes match the migrated Final030 record. No generation job IDs or provider-terms snapshot were present. Gate Gnawer entries remain prototype presentation art."
+      },
+      "assets": [
+        {
+          "assetId": "BG_TACTICAL_GATEWORKS_020",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Battle/BG_TACTICAL_GATEWORKS_020.png",
+          "sha256": "E0354C3500D466484DB4E148CFEE30371EB12CE1FAFE719D55B290E84BE0B7DC",
+          "sourceArtifactId": null,
+          "releaseStatus": "PENDING_RIGHTS_REVIEW",
+          "replacementRequiredBeforeShip": false
+        },
+        {
+          "assetId": "ENEMY_GATE_GNAWER_SCOUT",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Battle/ENEMY_GATE_GNAWER_SCOUT.png",
+          "sha256": "F8F081EB967E731973C61DF6CA033237B415DE54A05F2F34B54E17E11A535CB5",
+          "sourceArtifactId": null,
+          "releaseStatus": "REPLACEMENT_REQUIRED",
+          "replacementRequiredBeforeShip": true
+        },
+        {
+          "assetId": "ACTION_ENEMY_GATE_GNAWER_SCOUT",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Battle/ACTION_ENEMY_GATE_GNAWER_SCOUT.png",
+          "sha256": "C5131B45A2403100302B194680EF0A6181A4CEDF8C5C8485B3E7C713DA2F77C5",
+          "sourceArtifactId": null,
+          "releaseStatus": "REPLACEMENT_REQUIRED",
+          "replacementRequiredBeforeShip": true
+        },
+        {
+          "assetId": "ENEMY_GATE_GNAWER_BULWARK",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Battle/ENEMY_GATE_GNAWER_BULWARK.png",
+          "sha256": "6F022D6118DF17E49EFD8F58C3F84DF6F62DD63000786BAB0439E568DACD0127",
+          "sourceArtifactId": null,
+          "releaseStatus": "REPLACEMENT_REQUIRED",
+          "replacementRequiredBeforeShip": true
+        },
+        {
+          "assetId": "ACTION_ENEMY_GATE_GNAWER_BULWARK",
+          "projectPath": "Assets/Resources/SecondDimension/Art/Battle/ACTION_ENEMY_GATE_GNAWER_BULWARK.png",
+          "sha256": "527A986E49A4FDCAF09021F0E0ED6070569325142032FC7F54123E0F5C223338",
+          "sourceArtifactId": null,
+          "releaseStatus": "REPLACEMENT_REQUIRED",
+          "replacementRequiredBeforeShip": true
+        }
+      ]
+    },
+    {
+      "groupId": "QUATERNIUS_CC0_MAREN_PIPELINE_PROXIES",
+      "mediaType": "model/fbx",
+      "originType": "THIRD_PARTY_CC0",
+      "creator": "Quaternius",
+      "canonicalEvidencePath": "THIRD_PARTY_NOTICES.txt",
+      "historicalEvidencePath": "C:/SecondDimension/Final030/THIRD_PARTY_NOTICES.txt",
+      "licenseId": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "rightsStatus": "VERIFIED_COMMERCIAL_USE",
+      "commercialUseAllowed": true,
+      "attributionRequired": false,
+      "releaseStatus": "REPLACEMENT_REQUIRED",
+      "replacementRequiredBeforeShip": true,
+      "intendedUse": [
+        "Import and rig pipeline proof",
+        "Equipment mount and camera proof"
+      ],
+      "verification": {
+        "sourceRecordVerified": true,
+        "binaryHashesVerified": true,
+        "verificationDate": "2026-09-02",
+        "note": "License basis and binary identity are verified locally. The project manifest explicitly labels all three files prototype-only and not final Maren art."
+      },
+      "assets": [
+        {
+          "assetId": "MAREN_HOLT_CC0_PROTOTYPE",
+          "projectPath": "Assets/SecondDimension/ProductionSlice014/MarenHolt/Generated/Model/Maren_Holt_CC0_Prototype.fbx",
+          "sourceTitle": "Adventurer.fbx from Ultimate Modular Women",
+          "officialPackUrl": "https://quaternius.com/packs/ultimatemodularwomen.html",
+          "assetPageUrl": "https://poly.pizza/m/ZwF0K7WBmu",
+          "sha256": "D9181685C06BA8F720BDA59AB915FCB912272EC9EE335EAD8C69C5991B935B94"
+        },
+        {
+          "assetId": "MAREN_HOLT_SPEAR_CC0",
+          "projectPath": "Assets/SecondDimension/ProductionSlice014/MarenHolt/Generated/Equipment/Maren_Holt_Spear_CC0.fbx",
+          "sourceTitle": "Spear.fbx from Medieval Weapons",
+          "officialPackUrl": "https://quaternius.com/packs/medievalweapons.html",
+          "assetPageUrl": "https://poly.pizza/m/fH1zmvjPNx",
+          "sha256": "229B3BACB9BD4A00D151B82618D411F90B8CDC1394349E3E697B772383AAFEA7"
+        },
+        {
+          "assetId": "MAREN_HOLT_SHIELD_CC0",
+          "projectPath": "Assets/SecondDimension/ProductionSlice014/MarenHolt/Generated/Equipment/Maren_Holt_Shield_CC0.fbx",
+          "sourceTitle": "Shield_Heater_2.fbx from Medieval Weapons",
+          "officialPackUrl": "https://quaternius.com/packs/medievalweapons.html",
+          "assetPageUrl": "https://poly.pizza/m/srN1KGAO7f",
+          "sha256": "6CEDAAD091921E85C1F2D69AF2E2965E1C97B66B227B13D12731A53289229337"
+        }
+      ]
+    }
+  ],
+  "pendingFamilies": [
+    {
+      "familyId": "ENEMY_ART_700_RECOVERED_V2",
+      "projectPathPattern": "Assets/SecondDimension/EnemyArt700/Textures/**/*.png; Assets/SecondDimension/EnemyArt700/Data/*.json",
+      "assetCountObserved": 2102,
+      "releaseStatus": "PENDING_RIGHTS_REVIEW",
+      "replacementRequiredBeforeShip": false,
+      "existingRecord": "Documentation/AssetProvenance/ENEMY_ART_700_RECOVERED_V2.md records the project-owner-supplied 25-part archive identity, exact pack/checksum-manifest hashes, 70-by-10 content boundary, complete local integrity/decode audit, and missing commercial-rights evidence."
+    },
+    {
+      "familyId": "FIRST_HOUR_076_PORTRAITS",
+      "projectPathPattern": "Assets/Resources/SecondDimension/Art/Portraits/FirstHour076/*.png",
+      "assetCountObserved": 10,
+      "releaseStatus": "PENDING_RIGHTS_REVIEW",
+      "replacementRequiredBeforeShip": false,
+      "existingRecord": "BuildEvidence/076/FIRST_HOUR_076_BATTLE_ART_IMAGEGEN_PROVENANCE.md references these as project-owned identity sources but does not record their original creation source, hashes, or rights proof."
+    },
+    {
+      "familyId": "FIRST_HOUR_076_BATTLE_STANDEES",
+      "projectPathPattern": "Assets/Resources/SecondDimension/Art/Battle/FirstHour076/*.png",
+      "assetCountObserved": 20,
+      "releaseStatus": "PENDING_RIGHTS_REVIEW",
+      "replacementRequiredBeforeShip": false,
+      "existingRecord": "BuildEvidence/076/FIRST_HOUR_076_BATTLE_ART_IMAGEGEN_PROVENANCE.md records generator, job paths, prompts, and local identity references, but lacks shipping hashes and independent rights evidence for those reference portraits."
+    },
+    {
+      "familyId": "POLISHED_FIRST_HOUR_ENVIRONMENTS",
+      "projectPathPattern": "Assets/Resources/SecondDimension/Art/FirstHour071/Environments/*; Assets/Resources/SecondDimension/Art/GuildHome074/*; Assets/Resources/SecondDimension/Art/Backgrounds/*",
+      "releaseStatus": "PENDING_RIGHTS_REVIEW",
+      "replacementRequiredBeforeShip": false,
+      "existingRecord": "SOURCE_INVENTORY.md calls these original production assets but does not provide creator, generation job, license, receipt, or per-binary provenance."
+    },
+    {
+      "familyId": "BATTLE075_AND_CHAPTER_TWO_079_VISUALS",
+      "projectPathPattern": "Assets/Resources/SecondDimension/Art/Battle075/*; Assets/Resources/SecondDimension/Art/Battle/ChapterTwo079/*; Assets/Resources/SecondDimension/Art/Portraits/ChapterTwo079/*",
+      "releaseStatus": "PENDING_RIGHTS_REVIEW",
+      "replacementRequiredBeforeShip": false,
+      "existingRecord": "SOURCE_INVENTORY.md identifies these as original production assets but does not provide a primary source or rights chain."
+    },
+    {
+      "familyId": "RECRUIT_AND_APPLICANT_PORTRAITS",
+      "projectPathPattern": "Assets/Resources/SecondDimension/Art/Portraits/Recruits/*; Assets/Resources/SecondDimension/Art/Portraits/Applicants069/*",
+      "releaseStatus": "PENDING_RIGHTS_REVIEW",
+      "replacementRequiredBeforeShip": false,
+      "existingRecord": "No creator, generation job, license, receipt, or approval record was found. Six applicant portraits are reused as race-level fallbacks for unmatched generated recruits."
+    },
+    {
+      "familyId": "BATTLE011_AUDIO",
+      "projectPathPattern": "Assets/Resources/SecondDimension/Audio/Battle011/**/*.wav",
+      "assetCountObserved": 46,
+      "releaseStatus": "PENDING_RIGHTS_REVIEW",
+      "replacementRequiredBeforeShip": false,
+      "existingRecord": "The runtime manifest records cue bindings but no creator, source, license, receipt, or rights approval."
+    },
+    {
+      "familyId": "GUILD_CITY_017F_AUDIO",
+      "projectPathPattern": "Assets/Resources/SecondDimension/GuildCity017F/Audio/*.wav",
+      "assetCountObserved": 15,
+      "releaseStatus": "REPLACEMENT_REQUIRED",
+      "replacementRequiredBeforeShip": true,
+      "existingRecord": "OPENING_NARRATIVE_017F.json marks every cue placeholder=true, including the active move, flip, dice, and reward cues."
+    },
+    {
+      "familyId": "CAMPAIGN021_AUDIO",
+      "projectPathPattern": "Assets/Resources/SecondDimension/Campaign021/Audio/**/*.wav",
+      "assetCountObserved": 60,
+      "releaseStatus": "REPLACEMENT_REQUIRED",
+      "replacementRequiredBeforeShip": true,
+      "existingRecord": "AudioCueManifest021.json labels every cue SYNTHESIZED_PLACEHOLDER_REPLACEABLE."
+    },
+    {
+      "familyId": "SCHEMATIC_AND_PROXY_UI_ART",
+      "projectPathPattern": "Assets/Resources/SecondDimension/Campaign018/Maps/*; Assets/Resources/SecondDimension/Campaign021/UI/*; Assets/Resources/SecondDimension/Campaign022/UI/Abyss/*; Assets/Resources/SecondDimension/GuildCity017E/*; Assets/Resources/SecondDimension/GuildCity017F/Facilities/*; Assets/Resources/SecondDimension/GuildCity017H/Buildings/*",
+      "releaseStatus": "REPLACEMENT_REQUIRED",
+      "replacementRequiredBeforeShip": true,
+      "existingRecord": "The files are schematic maps, modular emblems, symbolic facility cards, or explicitly replaceable presentation proxies; no commercial provenance ledger was found."
+    },
+    {
+      "familyId": "DERIVED_BATTLE_POSE_FALLBACKS",
+      "projectPathPattern": "Assets/Resources/SecondDimension/Art/Battle011/*; Assets/Resources/SecondDimension/Art/Generated011/*; Assets/Resources/SecondDimension/Art/Generated013/*",
+      "releaseStatus": "REPLACEMENT_REQUIRED",
+      "replacementRequiredBeforeShip": true,
+      "existingRecord": "BATTLE_ART_RUNTIME_MANIFEST_011.json records 50 TRANSFORM_DERIVED_FALLBACK and 5 TRANSFORM_DERIVED_FROM_AUTHORED_ACTION poses; generated manifests also label many poses proxy/replaceable."
+    }
+  ],
+  "excludedRoots": [
+    {
+      "path": "C:/SecondDimension/GuildOfWorlds/Library",
+      "releaseStatus": "EXCLUDED_CACHE",
+      "reason": "Unity-generated import and package cache; not a source library."
+    },
+    {
+      "path": "C:/SecondDimension/Final030/Library",
+      "releaseStatus": "EXCLUDED_CACHE",
+      "reason": "Historical Unity-generated import and package cache; not a source library."
+    }
+  ]
+}

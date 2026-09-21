@@ -1,0 +1,44 @@
+{
+  "contentVersion": "BATTLE_ARTS_009",
+  "bindings": [
+    {
+      "characterId": "SIGREC_MAREN_HOLT",
+      "role": "SPEAR_SHIELD_GUARDIAN",
+      "startingNodeIds": [
+        "TREE_CA002_WPN_SPEAR_POLEARM_N01",
+        "TREE_CA002_WPN_SPEAR_POLEARM_N02",
+        "TREE_CA002_MYS_WARDING_N01",
+        "TREE_CA002_ROLE_GUARDIAN_N01"
+      ],
+      "tutorialBreakthroughCandidates": [
+        "TREE_CA002_WPN_SPEAR_POLEARM_N03",
+        "TREE_CA002_ROLE_GUARDIAN_N04"
+      ],
+      "forecastExamples": [
+        "Use Combat Arts!",
+        "Hold the line and hit them hard!",
+        "Protect the wounded and counter!"
+      ]
+    },
+    {
+      "characterId": "SIGREC_ODELIA_FEN",
+      "role": "STAFF_RESTORATION_FIELD_MEDIC",
+      "startingNodeIds": [
+        "TREE_CA002_WPN_STAFF_N01",
+        "TREE_CA002_MYS_RESTORATION_N01",
+        "TREE_CA002_MYS_RESTORATION_N02",
+        "TREE_CA002_ROLE_FIELD_MEDIC_N01"
+      ],
+      "tutorialBreakthroughCandidates": [
+        "TREE_CA002_MYS_RESTORATION_N03",
+        "TREE_CA002_WPN_STAFF_N03"
+      ],
+      "forecastExamples": [
+        "Keep everyone standing while we press!",
+        "Attack with Mystic Arts!",
+        "Conserve power—use efficient Arts!"
+      ]
+    }
+  ],
+  "remainingTutorialRecruitsRule": "Bind each existing recruit to its fixed Content Authority 003 weapon tree, Mystic tree, and role trees. Do not invent a second loadout system."
+}

@@ -1,0 +1,84 @@
+{
+  "contentVersion": "RECRUIT_AUTOGEN_010_1.0",
+  "systemId": "RECRUIT_AUTO_GENERATION_010",
+  "goal": "Every accepted recruit automatically receives a complete deterministic gameplay and visual profile without runtime AI or Codex invention.",
+  "sources": {
+    "proceduralIdentity": "OPENING_PROCEDURAL_TABLES.json and OpeningRecruitGenerator",
+    "signatureIdentity": "CONTENT_AUTHORITY_002/SIGNATURE_RECRUITS_300.json",
+    "classAndTrees": "CONTENT_AUTHORITY_002 class/tree/node authorities",
+    "battleArts": "BATTLE_ARTS_009 profile overlay",
+    "signatureProgression": "CONTENT_AUTHORITY_003_BRIDGE/CHARACTER_PROGRESSION_MANIFESTS_300.json",
+    "portraitLaw": "PASS_08/MODULAR_PORTRAIT_DEFINITION.json"
+  },
+  "generationOrder": [
+    "commit applicant identity before reveal",
+    "sign recruit through normal M1/M3+ recruitment command",
+    "derive fixed weapon family and weapon tree",
+    "derive compatible Mystic and role trees",
+    "initialize starting learned Arts and mastery state",
+    "preserve player-owned opening equipment and disable auto-equip",
+    "derive 22-layer portrait recipe and battle puppet recipe",
+    "cache presentation outputs; never place cosmetic cache state in canonical battle hash",
+    "persist canonical applicant identity and use content-versioned deterministic regeneration after reload"
+  ],
+  "seedSemanticParts": [
+    "canonical recruit stable/instance ID",
+    "persisted visualSeed",
+    "RECRUIT_AUTOGEN_010_1.0",
+    "profile domain (BUILD/VISUAL/BATTLE_PUPPET)",
+    "board collision salt when needed"
+  ],
+  "weaponLaw": {
+    "oneFixedFamilyPerNormalRecruit": true,
+    "equippedWeaponDeterminesLegalCombatArts": true,
+    "learnedMasteryPersistsWhenUnequipped": true,
+    "incompatibleWeaponArtsLeaveForecastPool": true,
+    "playerCanEquipAllNormalRecruits": true,
+    "autoEquipDefault": false
+  },
+  "forecastLaw": {
+    "completeUnionForecastOnly": true,
+    "predictedMemberArtsVisible": true,
+    "predictedMemberArtsClickable": false,
+    "mixedCombatMysticHealingGuardSupportTactical": true
+  },
+  "visualLaw": {
+    "layerCount": 22,
+    "portraitSize": [
+      1024,
+      1024
+    ],
+    "thumbnailSize": [
+      256,
+      256
+    ],
+    "noRuntimeGenerativeAi": true,
+    "noNetworkDependency": true,
+    "boardCollisionKey": [
+      "L03_FACE",
+      "L08_HAIR_BACK",
+      "L12_OUTFIT"
+    ],
+    "adjacentSilhouetteDifferenceMinimum": 3,
+    "fullPortraitCache": 24,
+    "thumbnailCache": 160,
+    "battlePuppetLod": [
+      "HERO",
+      "CONTEXT",
+      "TACTICAL_ANCHOR",
+      "NAVIGATOR"
+    ]
+  },
+  "protectedActors": {
+    "Kael": "Never generated, recruited, equipped, or normalized.",
+    "SevenFounders": "Never enter normal Applicant Board or generated roster.",
+    "GreatSummons": "Never enter recruit generation."
+  },
+  "saveLaw": {
+    "canonicalApplicantJsonPersists": true,
+    "visualSeedPersistsInsideApplicantRecord": true,
+    "profileCanBeRegeneratedExactly": true,
+    "contentVersionRequired": true,
+    "reopenOrReloadCannotReroll": true
+  }
+}

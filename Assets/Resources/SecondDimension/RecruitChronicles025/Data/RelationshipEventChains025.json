@@ -1,0 +1,388 @@
+{
+  "chains": [
+    {
+      "chainId": "RELCHAIN025_00",
+      "displayName": "Recoverable Bond Chain 1",
+      "memoryIds": [
+        "MEMORY025_000",
+        "MEMORY025_001"
+      ],
+      "conflictStateId": "CONFLICT025_00",
+      "recoveryChoiceIds": [
+        "RECOVER025_00_LISTEN",
+        "RECOVER025_00_SERVE"
+      ],
+      "canForceDeparture": false,
+      "expires": false,
+      "operationCost": 0
+    },
+    {
+      "chainId": "RELCHAIN025_01",
+      "displayName": "Recoverable Bond Chain 2",
+      "memoryIds": [
+        "MEMORY025_002",
+        "MEMORY025_003"
+      ],
+      "conflictStateId": "CONFLICT025_01",
+      "recoveryChoiceIds": [
+        "RECOVER025_01_LISTEN",
+        "RECOVER025_01_SERVE"
+      ],
+      "canForceDeparture": false,
+      "expires": false,
+      "operationCost": 0
+    },
+    {
+      "chainId": "RELCHAIN025_02",
+      "displayName": "Recoverable Bond Chain 3",
+      "memoryIds": [
+        "MEMORY025_004",
+        "MEMORY025_005"
+      ],
+      "conflictStateId": "CONFLICT025_02",
+      "recoveryChoiceIds": [
+        "RECOVER025_02_LISTEN",
+        "RECOVER025_02_SERVE"
+      ],
+      "canForceDeparture": false,
+      "expires": false,
+      "operationCost": 0
+    },
+    {
+      "chainId": "RELCHAIN025_03",
+      "displayName": "Recoverable Bond Chain 4",
+      "memoryIds": [
+        "MEMORY025_006",
+        "MEMORY025_007"
+      ],
+      "conflictStateId": "CONFLICT025_03",
+      "recoveryChoiceIds": [
+        "RECOVER025_03_LISTEN",
+        "RECOVER025_03_SERVE"
+      ],
+      "canForceDeparture": false,
+      "expires": false,
+      "operationCost": 0
+    },
+    {
+      "chainId": "RELCHAIN025_04",
+      "displayName": "Recoverable Bond Chain 5",
+      "memoryIds": [
+        "MEMORY025_008",
+        "MEMORY025_009"
+      ],
+      "conflictStateId": "CONFLICT025_04",
+      "recoveryChoiceIds": [
+        "RECOVER025_04_LISTEN",
+        "RECOVER025_04_SERVE"
+      ],
+      "canForceDeparture": false,
+      "expires": false,
+      "operationCost": 0
+    },
+    {
+      "chainId": "RELCHAIN025_05",
+      "displayName": "Recoverable Bond Chain 6",
+      "memoryIds": [
+        "MEMORY025_010",
+        "MEMORY025_011"
+      ],
+      "conflictStateId": "CONFLICT025_05",
+      "recoveryChoiceIds": [
+        "RECOVER025_05_LISTEN",
+        "RECOVER025_05_SERVE"
+      ],
+      "canForceDeparture": false,
+      "expires": false,
+      "operationCost": 0
+    },
+    {
+      "chainId": "RELCHAIN025_06",
+      "displayName": "Recoverable Bond Chain 7",
+      "memoryIds": [
+        "MEMORY025_012",
+        "MEMORY025_013"
+      ],
+      "conflictStateId": "CONFLICT025_06",
+      "recoveryChoiceIds": [
+        "RECOVER025_06_LISTEN",
+        "RECOVER025_06_SERVE"
+      ],
+      "canForceDeparture": false,
+      "expires": false,
+      "operationCost": 0
+    },
+    {
+      "chainId": "RELCHAIN025_07",
+      "displayName": "Recoverable Bond Chain 8",
+      "memoryIds": [
+        "MEMORY025_014",
+        "MEMORY025_015"
+      ],
+      "conflictStateId": "CONFLICT025_07",
+      "recoveryChoiceIds": [
+        "RECOVER025_07_LISTEN",
+        "RECOVER025_07_SERVE"
+      ],
+      "canForceDeparture": false,
+      "expires": false,
+      "operationCost": 0
+    },
+    {
+      "chainId": "RELCHAIN025_08",
+      "displayName": "Recoverable Bond Chain 9",
+      "memoryIds": [
+        "MEMORY025_016",
+        "MEMORY025_017"
+      ],
+      "conflictStateId": "CONFLICT025_08",
+      "recoveryChoiceIds": [
+        "RECOVER025_08_LISTEN",
+        "RECOVER025_08_SERVE"
+      ],
+      "canForceDeparture": false,
+      "expires": false,
+      "operationCost": 0
+    },
+    {
+      "chainId": "RELCHAIN025_09",
+      "displayName": "Recoverable Bond Chain 10",
+      "memoryIds": [
+        "MEMORY025_018",
+        "MEMORY025_019"
+      ],
+      "conflictStateId": "CONFLICT025_09",
+      "recoveryChoiceIds": [
+        "RECOVER025_09_LISTEN",
+        "RECOVER025_09_SERVE"
+      ],
+      "canForceDeparture": false,
+      "expires": false,
+      "operationCost": 0
+    },
+    {
+      "chainId": "RELCHAIN025_10",
+      "displayName": "Recoverable Bond Chain 11",
+      "memoryIds": [
+        "MEMORY025_020",
+        "MEMORY025_021"
+      ],
+      "conflictStateId": "CONFLICT025_10",
+      "recoveryChoiceIds": [
+        "RECOVER025_10_LISTEN",
+        "RECOVER025_10_SERVE"
+      ],
+      "canForceDeparture": false,
+      "expires": false,
+      "operationCost": 0
+    },
+    {
+      "chainId": "RELCHAIN025_11",
+      "displayName": "Recoverable Bond Chain 12",
+      "memoryIds": [
+        "MEMORY025_022",
+        "MEMORY025_023"
+      ],
+      "conflictStateId": "CONFLICT025_11",
+      "recoveryChoiceIds": [
+        "RECOVER025_11_LISTEN",
+        "RECOVER025_11_SERVE"
+      ],
+      "canForceDeparture": false,
+      "expires": false,
+      "operationCost": 0
+    },
+    {
+      "chainId": "RELCHAIN025_12",
+      "displayName": "Recoverable Bond Chain 13",
+      "memoryIds": [
+        "MEMORY025_024",
+        "MEMORY025_025"
+      ],
+      "conflictStateId": "CONFLICT025_12",
+      "recoveryChoiceIds": [
+        "RECOVER025_12_LISTEN",
+        "RECOVER025_12_SERVE"
+      ],
+      "canForceDeparture": false,
+      "expires": false,
+      "operationCost": 0
+    },
+    {
+      "chainId": "RELCHAIN025_13",
+      "displayName": "Recoverable Bond Chain 14",
+      "memoryIds": [
+        "MEMORY025_026",
+        "MEMORY025_027"
+      ],
+      "conflictStateId": "CONFLICT025_13",
+      "recoveryChoiceIds": [
+        "RECOVER025_13_LISTEN",
+        "RECOVER025_13_SERVE"
+      ],
+      "canForceDeparture": false,
+      "expires": false,
+      "operationCost": 0
+    },
+    {
+      "chainId": "RELCHAIN025_14",
+      "displayName": "Recoverable Bond Chain 15",
+      "memoryIds": [
+        "MEMORY025_028",
+        "MEMORY025_029"
+      ],
+      "conflictStateId": "CONFLICT025_14",
+      "recoveryChoiceIds": [
+        "RECOVER025_14_LISTEN",
+        "RECOVER025_14_SERVE"
+      ],
+      "canForceDeparture": false,
+      "expires": false,
+      "operationCost": 0
+    },
+    {
+      "chainId": "RELCHAIN025_15",
+      "displayName": "Recoverable Bond Chain 16",
+      "memoryIds": [
+        "MEMORY025_030",
+        "MEMORY025_031"
+      ],
+      "conflictStateId": "CONFLICT025_15",
+      "recoveryChoiceIds": [
+        "RECOVER025_15_LISTEN",
+        "RECOVER025_15_SERVE"
+      ],
+      "canForceDeparture": false,
+      "expires": false,
+      "operationCost": 0
+    },
+    {
+      "chainId": "RELCHAIN025_16",
+      "displayName": "Recoverable Bond Chain 17",
+      "memoryIds": [
+        "MEMORY025_032",
+        "MEMORY025_033"
+      ],
+      "conflictStateId": "CONFLICT025_16",
+      "recoveryChoiceIds": [
+        "RECOVER025_16_LISTEN",
+        "RECOVER025_16_SERVE"
+      ],
+      "canForceDeparture": false,
+      "expires": false,
+      "operationCost": 0
+    },
+    {
+      "chainId": "RELCHAIN025_17",
+      "displayName": "Recoverable Bond Chain 18",
+      "memoryIds": [
+        "MEMORY025_034",
+        "MEMORY025_035"
+      ],
+      "conflictStateId": "CONFLICT025_17",
+      "recoveryChoiceIds": [
+        "RECOVER025_17_LISTEN",
+        "RECOVER025_17_SERVE"
+      ],
+      "canForceDeparture": false,
+      "expires": false,
+      "operationCost": 0
+    },
+    {
+      "chainId": "RELCHAIN025_18",
+      "displayName": "Recoverable Bond Chain 19",
+      "memoryIds": [
+        "MEMORY025_036",
+        "MEMORY025_037"
+      ],
+      "conflictStateId": "CONFLICT025_18",
+      "recoveryChoiceIds": [
+        "RECOVER025_18_LISTEN",
+        "RECOVER025_18_SERVE"
+      ],
+      "canForceDeparture": false,
+      "expires": false,
+      "operationCost": 0
+    },
+    {
+      "chainId": "RELCHAIN025_19",
+      "displayName": "Recoverable Bond Chain 20",
+      "memoryIds": [
+        "MEMORY025_038",
+        "MEMORY025_039"
+      ],
+      "conflictStateId": "CONFLICT025_19",
+      "recoveryChoiceIds": [
+        "RECOVER025_19_LISTEN",
+        "RECOVER025_19_SERVE"
+      ],
+      "canForceDeparture": false,
+      "expires": false,
+      "operationCost": 0
+    },
+    {
+      "chainId": "RELCHAIN025_20",
+      "displayName": "Recoverable Bond Chain 21",
+      "memoryIds": [
+        "MEMORY025_040",
+        "MEMORY025_041"
+      ],
+      "conflictStateId": "CONFLICT025_20",
+      "recoveryChoiceIds": [
+        "RECOVER025_20_LISTEN",
+        "RECOVER025_20_SERVE"
+      ],
+      "canForceDeparture": false,
+      "expires": false,
+      "operationCost": 0
+    },
+    {
+      "chainId": "RELCHAIN025_21",
+      "displayName": "Recoverable Bond Chain 22",
+      "memoryIds": [
+        "MEMORY025_042",
+        "MEMORY025_043"
+      ],
+      "conflictStateId": "CONFLICT025_21",
+      "recoveryChoiceIds": [
+        "RECOVER025_21_LISTEN",
+        "RECOVER025_21_SERVE"
+      ],
+      "canForceDeparture": false,
+      "expires": false,
+      "operationCost": 0
+    },
+    {
+      "chainId": "RELCHAIN025_22",
+      "displayName": "Recoverable Bond Chain 23",
+      "memoryIds": [
+        "MEMORY025_044",
+        "MEMORY025_045"
+      ],
+      "conflictStateId": "CONFLICT025_22",
+      "recoveryChoiceIds": [
+        "RECOVER025_22_LISTEN",
+        "RECOVER025_22_SERVE"
+      ],
+      "canForceDeparture": false,
+      "expires": false,
+      "operationCost": 0
+    },
+    {
+      "chainId": "RELCHAIN025_23",
+      "displayName": "Recoverable Bond Chain 24",
+      "memoryIds": [
+        "MEMORY025_046",
+        "MEMORY025_047"
+      ],
+      "conflictStateId": "CONFLICT025_23",
+      "recoveryChoiceIds": [
+        "RECOVER025_23_LISTEN",
+        "RECOVER025_23_SERVE"
+      ],
+      "canForceDeparture": false,
+      "expires": false,
+      "operationCost": 0
+    }
+  ]
+}

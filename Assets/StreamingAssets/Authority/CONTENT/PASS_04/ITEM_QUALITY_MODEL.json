@@ -1,0 +1,83 @@
+{
+  "contentVersion": "GOW_PASS04_0.9",
+  "qualities": [
+    {
+      "id": "QUALITY_CRUDE",
+      "displayName": "Crude",
+      "powerPermille": 800,
+      "baseAffixCapacity": 0,
+      "description": "Improvised or damaged construction; useful when its behavior is uniquely appropriate."
+    },
+    {
+      "id": "QUALITY_SERVICEABLE",
+      "displayName": "Serviceable",
+      "powerPermille": 950,
+      "baseAffixCapacity": 0,
+      "description": "Reliable guild-standard item with no special prestige."
+    },
+    {
+      "id": "QUALITY_BALANCED",
+      "displayName": "Balanced",
+      "powerPermille": 1000,
+      "baseAffixCapacity": 1,
+      "description": "Carefully tuned weight and handling."
+    },
+    {
+      "id": "QUALITY_REINFORCED",
+      "displayName": "Reinforced",
+      "powerPermille": 1080,
+      "baseAffixCapacity": 1,
+      "description": "Durable construction; usually heavier."
+    },
+    {
+      "id": "QUALITY_MASTERWORK",
+      "displayName": "Masterwork",
+      "powerPermille": 1150,
+      "baseAffixCapacity": 2,
+      "description": "Exceptional craft quality with predictable behavior."
+    },
+    {
+      "id": "QUALITY_RESONANT",
+      "displayName": "Resonant",
+      "powerPermille": 1120,
+      "baseAffixCapacity": 2,
+      "description": "Responds strongly to Arts, wards, or Invocation behavior."
+    },
+    {
+      "id": "QUALITY_STORIED",
+      "displayName": "Storied",
+      "powerPermille": 1100,
+      "baseAffixCapacity": 2,
+      "description": "Power derives from recorded meaningful history rather than raw construction."
+    },
+    {
+      "id": "QUALITY_CHOSEN",
+      "displayName": "Chosen",
+      "powerPermille": 1200,
+      "baseAffixCapacity": 3,
+      "description": "Sentient or selective equipment; acceptance is required."
+    },
+    {
+      "id": "QUALITY_ABYSS_MARKED",
+      "displayName": "Abyss-Marked",
+      "powerPermille": 1140,
+      "baseAffixCapacity": 2,
+      "description": "Carries a floor-specific rule and sustainability history."
+    },
+    {
+      "id": "QUALITY_EVOLVED",
+      "displayName": "Evolved",
+      "powerPermille": 1220,
+      "baseAffixCapacity": 3,
+      "description": "Changed through use, relationship, trial, or civic consequence."
+    },
+    {
+      "id": "QUALITY_EDITED_RELIC",
+      "displayName": "Edited Relic — Ω",
+      "powerPermille": 1350,
+      "baseAffixCapacity": 4,
+      "description": "Private noncanon Margin item that may bend normal generation rules."
+    }
+  ],
+  "colorRarityForbidden": true
+}

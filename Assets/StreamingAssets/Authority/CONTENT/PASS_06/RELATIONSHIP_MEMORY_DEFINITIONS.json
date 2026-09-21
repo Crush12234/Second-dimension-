@@ -1,0 +1,1574 @@
+{
+  "contentVersion": "GOW_PASS06_0.11",
+  "memoryDefinitions": [
+    {
+      "id": "REL_MEMORY_FIRST_MISSION",
+      "displayName": "First Mission Together",
+      "category": "SHARED_HISTORY",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "SHARED_HISTORY",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 110,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_FAMILIARITY": 90,
+        "REL_CAMARADERIE": 25
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_FIRST_MISSION_REFLECT",
+        "DIALOGUE_FIRST_MISSION_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_FIRST_MISSION"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: first mission together.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_RESCUE_SUCCESS",
+      "displayName": "Brought Them Home",
+      "category": "RESCUE",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "RESCUE",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 120,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_TRUST": 150,
+        "REL_GRATITUDE": 160,
+        "REL_PROTECTIVENESS": 80
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_RESCUE_SUCCESS_REFLECT",
+        "DIALOGUE_RESCUE_SUCCESS_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_RESCUE_SUCCESS"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: brought them home.",
+      "itemHistoryLinkAllowed": true,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_FAILED_RESCUE",
+      "displayName": "Could Not Reach Them",
+      "category": "FAILURE",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "FAILURE",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 130,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_GRIEF_BOND": 130,
+        "REL_FRICTION": 40,
+        "REL_TRUST": -35
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_FAILED_RESCUE_REFLECT",
+        "DIALOGUE_FAILED_RESCUE_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_FAILED_RESCUE"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: could not reach them.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_LETHAL_INTERCEPT",
+      "displayName": "Stood in the Fatal Path",
+      "category": "PROTECTION",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "PROTECTION",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 140,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_TRUST": 180,
+        "REL_GRATITUDE": 190,
+        "REL_PROTECTIVENESS": 130
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_LETHAL_INTERCEPT_REFLECT",
+        "DIALOGUE_LETHAL_INTERCEPT_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_LETHAL_INTERCEPT"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: stood in the fatal path.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_ARGUMENT",
+      "displayName": "Words Left in the Hall",
+      "category": "CONFLICT",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "CONFLICT",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 100,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_FRICTION": 120,
+        "REL_TRUST": -45
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_ARGUMENT_REFLECT",
+        "DIALOGUE_ARGUMENT_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_ARGUMENT"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: words left in the hall.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_APOLOGY",
+      "displayName": "An Apology Without Excuses",
+      "category": "REPAIR",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "REPAIR",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 110,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_FRICTION": -110,
+        "REL_TRUST": 70,
+        "REL_RESPECT": 45
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_APOLOGY_REFLECT",
+        "DIALOGUE_APOLOGY_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_APOLOGY"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: an apology without excuses.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_VALUE_BETRAYAL",
+      "displayName": "Betrayed a Stated Value",
+      "category": "BETRAYAL",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "BETRAYAL",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 120,
+      "permanence": "PERMANENT_RECORD_REINTERPRETABLE",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_TRUST": -220,
+        "REL_RESPECT": -140,
+        "REL_FRICTION": 160
+      },
+      "reciprocalScalePermille": 500,
+      "dialogueHooks": [
+        "DIALOGUE_VALUE_BETRAYAL_REFLECT",
+        "DIALOGUE_VALUE_BETRAYAL_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_VALUE_BETRAYAL"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: betrayed a stated value.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_SHARED_TURNING_POINT",
+      "displayName": "Changed by the Same Moment",
+      "category": "TURNING_POINT",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "TURNING_POINT",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 130,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_TRUST": 90,
+        "REL_FAMILIARITY": 100,
+        "REL_CAMARADERIE": 60
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_SHARED_TURNING_POINT_REFLECT",
+        "DIALOGUE_SHARED_TURNING_POINT_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_SHARED_TURNING_POINT"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: changed by the same moment.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_LINK_ART_SUCCESS",
+      "displayName": "Moved as One",
+      "category": "COMBAT",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "COMBAT",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 140,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_TRUST": 75,
+        "REL_RESPECT": 90,
+        "REL_FAMILIARITY": 50
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_LINK_ART_SUCCESS_REFLECT",
+        "DIALOGUE_LINK_ART_SUCCESS_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_LINK_ART_SUCCESS"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: moved as one.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 3
+    },
+    {
+      "id": "REL_MEMORY_LINK_ART_FAILURE",
+      "displayName": "The Link Broke",
+      "category": "COMBAT_FAILURE",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "COMBAT_FAILURE",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 100,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_FRICTION": 55,
+        "REL_TRUST": -20,
+        "REL_RIVALRY": 30
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_LINK_ART_FAILURE_REFLECT",
+        "DIALOGUE_LINK_ART_FAILURE_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_LINK_ART_FAILURE"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: the link broke.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_MENTOR_LESSON",
+      "displayName": "A Lesson That Landed",
+      "category": "MENTORSHIP",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "MENTORSHIP",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 110,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_MENTORSHIP": 120,
+        "REL_RESPECT": 75,
+        "REL_TRUST": 45
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_MENTOR_LESSON_REFLECT",
+        "DIALOGUE_MENTOR_LESSON_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_MENTOR_LESSON"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: a lesson that landed.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_MENTOR_LESSON_FAILED",
+      "displayName": "A Lesson That Hurt",
+      "category": "MENTORSHIP_FAILURE",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "MENTORSHIP_FAILURE",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 120,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_MENTORSHIP": -80,
+        "REL_FRICTION": 70,
+        "REL_RESPECT": -25
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_MENTOR_LESSON_FAILED_REFLECT",
+        "DIALOGUE_MENTOR_LESSON_FAILED_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_MENTOR_LESSON_FAILED"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: a lesson that hurt.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_EQUIPMENT_GIFT_APPROVED",
+      "displayName": "A Gift Freely Given",
+      "category": "EQUIPMENT",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "EQUIPMENT",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 130,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_GRATITUDE": 100,
+        "REL_TRUST": 45
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_EQUIPMENT_GIFT_APPROVED_REFLECT",
+        "DIALOGUE_EQUIPMENT_GIFT_APPROVED_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_EQUIPMENT_GIFT_APPROVED"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: a gift freely given.",
+      "itemHistoryLinkAllowed": true,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_EQUIPMENT_GIFT_REFUSED_WELL",
+      "displayName": "A Refusal Respected",
+      "category": "BOUNDARY",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "BOUNDARY",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 140,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_TRUST": 55,
+        "REL_RESPECT": 60
+      },
+      "reciprocalScalePermille": 500,
+      "dialogueHooks": [
+        "DIALOGUE_EQUIPMENT_GIFT_REFUSED_WELL_REFLECT",
+        "DIALOGUE_EQUIPMENT_GIFT_REFUSED_WELL_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_EQUIPMENT_GIFT_REFUSED_WELL"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: a refusal respected.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_CRAFTED_ITEM",
+      "displayName": "Made for Their Hands",
+      "category": "CRAFTING",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "CRAFTING",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 100,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_GRATITUDE": 85,
+        "REL_RESPECT": 65,
+        "REL_FAMILIARITY": 40
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_CRAFTED_ITEM_REFLECT",
+        "DIALOGUE_CRAFTED_ITEM_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_CRAFTED_ITEM"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: made for their hands.",
+      "itemHistoryLinkAllowed": true,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_INJURY_CARE",
+      "displayName": "Stayed Through Recovery",
+      "category": "CARE",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "CARE",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 110,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_TRUST": 100,
+        "REL_GRATITUDE": 110,
+        "REL_PROTECTIVENESS": 90
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_INJURY_CARE_REFLECT",
+        "DIALOGUE_INJURY_CARE_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_INJURY_CARE"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: stayed through recovery.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_RIVALRY_VICTORY",
+      "displayName": "Won Without Humiliation",
+      "category": "RIVALRY",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "RIVALRY",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 120,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_RIVALRY": 90,
+        "REL_RESPECT": 85,
+        "REL_FRICTION": -20
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_RIVALRY_VICTORY_REFLECT",
+        "DIALOGUE_RIVALRY_VICTORY_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_RIVALRY_VICTORY"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: won without humiliation.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_CULTURAL_MISUNDERSTANDING",
+      "displayName": "Spoke Before Listening",
+      "category": "CULTURE",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "CULTURE",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 130,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_CULTURAL_UNDERSTANDING": -80,
+        "REL_FRICTION": 85,
+        "REL_TRUST": -35
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_CULTURAL_MISUNDERSTANDING_REFLECT",
+        "DIALOGUE_CULTURAL_MISUNDERSTANDING_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_CULTURAL_MISUNDERSTANDING"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: spoke before listening.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_CULTURAL_REPAIR",
+      "displayName": "Learned How to Listen",
+      "category": "CULTURE_REPAIR",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "CULTURE_REPAIR",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 140,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_CULTURAL_UNDERSTANDING": 140,
+        "REL_FRICTION": -95,
+        "REL_RESPECT": 60
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_CULTURAL_REPAIR_REFLECT",
+        "DIALOGUE_CULTURAL_REPAIR_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_CULTURAL_REPAIR"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: learned how to listen.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_RECONCILIATION",
+      "displayName": "Chose to Work Together Again",
+      "category": "REPAIR",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "REPAIR",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 100,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_TRUST": 90,
+        "REL_FRICTION": -140,
+        "REL_RESPECT": 50
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_RECONCILIATION_REFLECT",
+        "DIALOGUE_RECONCILIATION_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_RECONCILIATION"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: chose to work together again.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_BOSS_VICTORY",
+      "displayName": "Survived the Great Enemy",
+      "category": "VICTORY",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "VICTORY",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 110,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_FAMILIARITY": 90,
+        "REL_CAMARADERIE": 90,
+        "REL_RESPECT": 60
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_BOSS_VICTORY_REFLECT",
+        "DIALOGUE_BOSS_VICTORY_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_BOSS_VICTORY"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: survived the great enemy.",
+      "itemHistoryLinkAllowed": true,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_ABYSS_MORAL_TRIAL",
+      "displayName": "Chose What the Abyss Remembered",
+      "category": "ABYSS",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "ABYSS",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 120,
+      "permanence": "PERMANENT_RECORD_REINTERPRETABLE",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_TRUST": 100,
+        "REL_RESPECT": 90,
+        "REL_CULTURAL_UNDERSTANDING": 35
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_ABYSS_MORAL_TRIAL_REFLECT",
+        "DIALOGUE_ABYSS_MORAL_TRIAL_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_ABYSS_MORAL_TRIAL"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: chose what the abyss remembered.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_GUILD_HALL_CRISIS",
+      "displayName": "Held the Hall Together",
+      "category": "GUILD",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "GUILD",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 130,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_TRUST": 100,
+        "REL_CAMARADERIE": 70,
+        "REL_RESPECT": 65
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_GUILD_HALL_CRISIS_REFLECT",
+        "DIALOGUE_GUILD_HALL_CRISIS_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_GUILD_HALL_CRISIS"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: held the hall together.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+      "displayName": "Witnessed a Personal Choice",
+      "category": "QUEST",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "QUEST",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 140,
+      "permanence": "PERMANENT_RECORD_REINTERPRETABLE",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_FAMILIARITY": 130,
+        "REL_TRUST": 70
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_PERSONAL_QUEST_CHOICE_REFLECT",
+        "DIALOGUE_PERSONAL_QUEST_CHOICE_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_PERSONAL_QUEST_CHOICE"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: witnessed a personal choice.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_RETIREMENT",
+      "displayName": "Watched Them Put Down the Weapon",
+      "category": "LEGACY",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "LEGACY",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 100,
+      "permanence": "PERMANENT_RECORD_REINTERPRETABLE",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_GRIEF_BOND": 40,
+        "REL_RESPECT": 100,
+        "REL_FAMILIARITY": 70
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_RETIREMENT_REFLECT",
+        "DIALOGUE_RETIREMENT_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_RETIREMENT"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: watched them put down the weapon.",
+      "itemHistoryLinkAllowed": true,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_DEATH_ENABLED",
+      "displayName": "Carried Their Memory",
+      "category": "LOSS",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "LOSS",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 110,
+      "permanence": "PERMANENT_RECORD_REINTERPRETABLE",
+      "canBeReinterpreted": false,
+      "dimensionDeltas": {
+        "REL_GRIEF_BOND": 240,
+        "REL_CAMARADERIE": -30
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_DEATH_ENABLED_REFLECT",
+        "DIALOGUE_DEATH_ENABLED_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_DEATH_ENABLED"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: carried their memory.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_TRAINING_BREAKTHROUGH",
+      "displayName": "Saw the Moment of Understanding",
+      "category": "TRAINING",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "TRAINING",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 120,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_RESPECT": 80,
+        "REL_MENTORSHIP": 70
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_TRAINING_BREAKTHROUGH_REFLECT",
+        "DIALOGUE_TRAINING_BREAKTHROUGH_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_TRAINING_BREAKTHROUGH"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: saw the moment of understanding.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 3
+    },
+    {
+      "id": "REL_MEMORY_SHARED_MEAL",
+      "displayName": "Shared an Ordinary Meal",
+      "category": "DAILY_LIFE",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "DAILY_LIFE",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 130,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_FAMILIARITY": 55,
+        "REL_CAMARADERIE": 65
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_SHARED_MEAL_REFLECT",
+        "DIALOGUE_SHARED_MEAL_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_SHARED_MEAL"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: shared an ordinary meal.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 3
+    },
+    {
+      "id": "REL_MEMORY_HOMESICKNESS_SUPPORT",
+      "displayName": "Listened to Home",
+      "category": "CARE",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "CARE",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 140,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_TRUST": 75,
+        "REL_CULTURAL_UNDERSTANDING": 80,
+        "REL_CAMARADERIE": 45
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_HOMESICKNESS_SUPPORT_REFLECT",
+        "DIALOGUE_HOMESICKNESS_SUPPORT_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_HOMESICKNESS_SUPPORT"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: listened to home.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_PUBLIC_DEFENSE",
+      "displayName": "Defended Their Place in Public",
+      "category": "CIVIC",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "CIVIC",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 100,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_TRUST": 115,
+        "REL_RESPECT": 90,
+        "REL_GRATITUDE": 80
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_PUBLIC_DEFENSE_REFLECT",
+        "DIALOGUE_PUBLIC_DEFENSE_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_PUBLIC_DEFENSE"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: defended their place in public.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+      "displayName": "Owned the Failure Together",
+      "category": "ACCOUNTABILITY",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "ACCOUNTABILITY",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 110,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_TRUST": 70,
+        "REL_RESPECT": 70,
+        "REL_FRICTION": -45
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_DUTY_FAILURE_ACCOUNTABILITY_REFLECT",
+        "DIALOGUE_DUTY_FAILURE_ACCOUNTABILITY_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_DUTY_FAILURE_ACCOUNTABILITY"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: owned the failure together.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_TRUSTED_SECRET",
+      "displayName": "Entrusted a Private Truth",
+      "category": "CONFIDENCE",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "CONFIDENCE",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 120,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_TRUST": 110,
+        "REL_FAMILIARITY": 90
+      },
+      "reciprocalScalePermille": 500,
+      "dialogueHooks": [
+        "DIALOGUE_TRUSTED_SECRET_REFLECT",
+        "DIALOGUE_TRUSTED_SECRET_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_TRUSTED_SECRET"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: entrusted a private truth.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_KEPT_CONFIDENCE",
+      "displayName": "Kept What Was Entrusted",
+      "category": "CONFIDENCE",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "CONFIDENCE",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 130,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_TRUST": 135,
+        "REL_RESPECT": 65
+      },
+      "reciprocalScalePermille": 500,
+      "dialogueHooks": [
+        "DIALOGUE_KEPT_CONFIDENCE_REFLECT",
+        "DIALOGUE_KEPT_CONFIDENCE_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_KEPT_CONFIDENCE"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: kept what was entrusted.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_BROKEN_PROMISE",
+      "displayName": "A Promise Was Broken",
+      "category": "BETRAYAL",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "BETRAYAL",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 140,
+      "permanence": "PERMANENT_RECORD_REINTERPRETABLE",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_TRUST": -170,
+        "REL_FRICTION": 120,
+        "REL_RESPECT": -60
+      },
+      "reciprocalScalePermille": 500,
+      "dialogueHooks": [
+        "DIALOGUE_BROKEN_PROMISE_REFLECT",
+        "DIALOGUE_BROKEN_PROMISE_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_BROKEN_PROMISE"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: a promise was broken.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_RETURNED_AFTER_RETREAT",
+      "displayName": "Returned for Them",
+      "category": "RESCUE",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "RESCUE",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 100,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_TRUST": 140,
+        "REL_GRATITUDE": 120,
+        "REL_CAMARADERIE": 60
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_RETURNED_AFTER_RETREAT_REFLECT",
+        "DIALOGUE_RETURNED_AFTER_RETREAT_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_RETURNED_AFTER_RETREAT"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: returned for them.",
+      "itemHistoryLinkAllowed": true,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_CIVILIAN_RESCUE",
+      "displayName": "Protected Someone With No Power",
+      "category": "CIVIC",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "CIVIC",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 110,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_RESPECT": 110,
+        "REL_TRUST": 65
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_CIVILIAN_RESCUE_REFLECT",
+        "DIALOGUE_CIVILIAN_RESCUE_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_CIVILIAN_RESCUE"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: protected someone with no power.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_UNION_FOUNDING",
+      "displayName": "Founded a Union Together",
+      "category": "UNION",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "UNION",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 120,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_FAMILIARITY": 100,
+        "REL_CAMARADERIE": 75,
+        "REL_TRUST": 55
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_UNION_FOUNDING_REFLECT",
+        "DIALOGUE_UNION_FOUNDING_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_UNION_FOUNDING"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: founded a union together.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_UNION_TRANSFER",
+      "displayName": "Parted Without Erasing History",
+      "category": "UNION",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "UNION",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 130,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_FAMILIARITY": 30,
+        "REL_GRIEF_BOND": 15
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_UNION_TRANSFER_REFLECT",
+        "DIALOGUE_UNION_TRANSFER_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_UNION_TRANSFER"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: parted without erasing history.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_UNION_REFORM",
+      "displayName": "Returned to the Old Banner",
+      "category": "UNION",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "UNION",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 140,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_TRUST": 90,
+        "REL_CAMARADERIE": 100,
+        "REL_FAMILIARITY": 80
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_UNION_REFORM_REFLECT",
+        "DIALOGUE_UNION_REFORM_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_UNION_REFORM"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: returned to the old banner.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_CHOSEN_ITEM_ACCEPTANCE",
+      "displayName": "Witnessed the Item Choose",
+      "category": "EQUIPMENT",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "EQUIPMENT",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 100,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_RESPECT": 125,
+        "REL_FAMILIARITY": 60
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_CHOSEN_ITEM_ACCEPTANCE_REFLECT",
+        "DIALOGUE_CHOSEN_ITEM_ACCEPTANCE_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_CHOSEN_ITEM_ACCEPTANCE"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: witnessed the item choose.",
+      "itemHistoryLinkAllowed": true,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_SUMMON_COVENANT_WITNESS",
+      "displayName": "Witnessed a Covenant Freely Made",
+      "category": "SUMMON",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "SUMMON",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 110,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_RESPECT": 100,
+        "REL_CULTURAL_UNDERSTANDING": 85
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_SUMMON_COVENANT_WITNESS_REFLECT",
+        "DIALOGUE_SUMMON_COVENANT_WITNESS_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_SUMMON_COVENANT_WITNESS"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: witnessed a covenant freely made.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_MEDIATION_SUCCESS",
+      "displayName": "Accepted a Fair Mediation",
+      "category": "REPAIR",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "REPAIR",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 120,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_FRICTION": -110,
+        "REL_TRUST": 55,
+        "REL_RESPECT": 55
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_MEDIATION_SUCCESS_REFLECT",
+        "DIALOGUE_MEDIATION_SUCCESS_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_MEDIATION_SUCCESS"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: accepted a fair mediation.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_MEDIATION_FAILURE",
+      "displayName": "Mediation Failed Honestly",
+      "category": "CONFLICT",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "CONFLICT",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 130,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_FRICTION": 45,
+        "REL_TRUST": 10
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_MEDIATION_FAILURE_REFLECT",
+        "DIALOGUE_MEDIATION_FAILURE_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_MEDIATION_FAILURE"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: mediation failed honestly.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_LEADERSHIP_DISPUTE",
+      "displayName": "Disagreed About Command",
+      "category": "LEADERSHIP",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "LEADERSHIP",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 140,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_RIVALRY": 70,
+        "REL_FRICTION": 85,
+        "REL_RESPECT": -25
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_LEADERSHIP_DISPUTE_REFLECT",
+        "DIALOGUE_LEADERSHIP_DISPUTE_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_LEADERSHIP_DISPUTE"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: disagreed about command.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_LEADERSHIP_RESOLUTION",
+      "displayName": "Shared Authority Without Erasure",
+      "category": "LEADERSHIP",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "LEADERSHIP",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 100,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_TRUST": 85,
+        "REL_RESPECT": 95,
+        "REL_FRICTION": -80
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_LEADERSHIP_RESOLUTION_REFLECT",
+        "DIALOGUE_LEADERSHIP_RESOLUTION_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_LEADERSHIP_RESOLUTION"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: shared authority without erasure.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_APPRENTICE_GRADUATION",
+      "displayName": "The Apprentice Stood Alone",
+      "category": "MENTORSHIP",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "MENTORSHIP",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 110,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_MENTORSHIP": 140,
+        "REL_RESPECT": 110,
+        "REL_GRATITUDE": 70
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_APPRENTICE_GRADUATION_REFLECT",
+        "DIALOGUE_APPRENTICE_GRADUATION_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_APPRENTICE_GRADUATION"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: the apprentice stood alone.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_STAFF_CRISIS",
+      "displayName": "Worked Through a Staff Crisis",
+      "category": "DUTY",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "DUTY",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 120,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_TRUST": 70,
+        "REL_RESPECT": 55,
+        "REL_FAMILIARITY": 50
+      },
+      "reciprocalScalePermille": 750,
+      "dialogueHooks": [
+        "DIALOGUE_STAFF_CRISIS_REFLECT",
+        "DIALOGUE_STAFF_CRISIS_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_STAFF_CRISIS"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: worked through a staff crisis.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    },
+    {
+      "id": "REL_MEMORY_BOUNDARY_RESPECTED",
+      "displayName": "A Boundary Was Honored",
+      "category": "BOUNDARY",
+      "participantMode": "DIRECTED_WITH_OPTIONAL_RECIPROCAL",
+      "sourceRequirements": [
+        "VALID_SOURCE_EVENT_OR_BEHAVIOR",
+        "PARTICIPANTS_EXIST"
+      ],
+      "emotionalTags": [
+        "BOUNDARY",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "defaultMagnitude": 130,
+      "permanence": "PERSISTENT",
+      "canBeReinterpreted": true,
+      "dimensionDeltas": {
+        "REL_TRUST": 90,
+        "REL_RESPECT": 60,
+        "REL_FRICTION": -35
+      },
+      "reciprocalScalePermille": 500,
+      "dialogueHooks": [
+        "DIALOGUE_BOUNDARY_RESPECTED_REFLECT",
+        "DIALOGUE_BOUNDARY_RESPECTED_FOLLOWUP"
+      ],
+      "questHooks": [
+        "QUEST_HOOK_BOUNDARY_RESPECTED"
+      ],
+      "chronicleTemplate": "{actor} and {target} remember: a boundary was honored.",
+      "itemHistoryLinkAllowed": false,
+      "maximumStackCount": 1
+    }
+  ]
+}

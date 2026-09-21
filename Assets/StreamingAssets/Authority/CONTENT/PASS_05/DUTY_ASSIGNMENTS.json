@@ -1,0 +1,377 @@
+{
+  "contentVersion": "GOW_PASS05_0.10",
+  "assignmentCount": 13,
+  "assignments": [
+    {
+      "id": "DUTY_ACTIVE_COMBAT",
+      "displayName": "Active Combat Union",
+      "category": "DEPLOYMENT",
+      "requiredFacilityId": "FACILITY_UNION_COMMAND_TABLE",
+      "minimumFacilityLevel": 0,
+      "minimumMembers": 1,
+      "maximumMembers": 5,
+      "baseDurationDays": 0,
+      "aptitudeWeights": {
+        "LEADERSHIP": 20,
+        "MARTIAL": 20,
+        "MYSTIC": 20,
+        "GUARD": 20,
+        "TACTICAL": 20
+      },
+      "baseRewards": {
+        "personalXp": 0,
+        "dutyXp": 0,
+        "treasuryXp": 0
+      },
+      "riskBasisPoints": 0,
+      "meaningfulOutput": "Members participate in a contract and earn the contract-defined rewards.",
+      "combatArtGrowthPolicy": "FULL_MEANINGFUL_USE",
+      "canRunWhileInjured": false,
+      "relationshipOpportunityTags": [
+        "BATTLE_TRUST"
+      ]
+    },
+    {
+      "id": "DUTY_RESERVE_UNION",
+      "displayName": "Reserve Union",
+      "category": "DEPLOYMENT",
+      "requiredFacilityId": "FACILITY_UNION_COMMAND_TABLE",
+      "minimumFacilityLevel": 1,
+      "minimumMembers": 2,
+      "maximumMembers": 5,
+      "baseDurationDays": 1,
+      "aptitudeWeights": {
+        "LEADERSHIP": 30,
+        "GUARD": 30,
+        "TACTICAL": 40
+      },
+      "baseRewards": {
+        "personalXp": 40,
+        "dutyXp": 80,
+        "treasuryXp": 20
+      },
+      "riskBasisPoints": 200,
+      "meaningfulOutput": "Maintains readiness and may reinforce a linked front.",
+      "combatArtGrowthPolicy": "OBSERVATIONAL_ONLY_UNLESS_DEPLOYED",
+      "canRunWhileInjured": false,
+      "relationshipOpportunityTags": [
+        "RELIABILITY",
+        "RESERVE_TRUST"
+      ]
+    },
+    {
+      "id": "DUTY_TRAINING",
+      "displayName": "Structured Training",
+      "category": "DEVELOPMENT",
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 0,
+      "minimumMembers": 1,
+      "maximumMembers": 6,
+      "baseDurationDays": 2,
+      "aptitudeWeights": {
+        "TEACHING": 20,
+        "MARTIAL": 20,
+        "MYSTIC": 20,
+        "RESTORATION": 20,
+        "TACTICAL": 20
+      },
+      "baseRewards": {
+        "personalXp": 120,
+        "dutyXp": 160,
+        "treasuryXp": 0
+      },
+      "riskBasisPoints": 150,
+      "meaningfulOutput": "Provides catch-up XP and basic proficiency without free rare breakthroughs.",
+      "combatArtGrowthPolicy": "BASIC_PROFICIENCY_ONLY; no rare discovery without separate meaningful condition.",
+      "canRunWhileInjured": true,
+      "relationshipOpportunityTags": [
+        "PRACTICE",
+        "RIVALRY"
+      ]
+    },
+    {
+      "id": "DUTY_MENTORING",
+      "displayName": "Mentor Pair",
+      "category": "DEVELOPMENT",
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 1,
+      "minimumMembers": 2,
+      "maximumMembers": 2,
+      "baseDurationDays": 3,
+      "aptitudeWeights": {
+        "TEACHING": 50,
+        "LEADERSHIP": 25,
+        "EMPATHY": 25
+      },
+      "baseRewards": {
+        "personalXp": 80,
+        "dutyXp": 200,
+        "treasuryXp": 0
+      },
+      "riskBasisPoints": 100,
+      "meaningfulOutput": "Builds mentorship, relationship trust, and eligible observational learning.",
+      "combatArtGrowthPolicy": "OBSERVATIONAL_AND_MENTOR_BONUS; prerequisites still required.",
+      "canRunWhileInjured": true,
+      "relationshipOpportunityTags": [
+        "MENTORSHIP",
+        "LEGACY"
+      ]
+    },
+    {
+      "id": "DUTY_SCOUTING",
+      "displayName": "Route Scouting",
+      "category": "FIELD_SUPPORT",
+      "requiredFacilityId": "FACILITY_RECRUITMENT_OFFICE",
+      "minimumFacilityLevel": 2,
+      "minimumMembers": 1,
+      "maximumMembers": 3,
+      "baseDurationDays": 2,
+      "aptitudeWeights": {
+        "PERCEPTION": 35,
+        "SURVIVAL": 35,
+        "TACTICAL": 30
+      },
+      "baseRewards": {
+        "personalXp": 70,
+        "dutyXp": 160,
+        "treasuryXp": 80
+      },
+      "riskBasisPoints": 550,
+      "meaningfulOutput": "Reveals routes, hazards, applicants, and contract modifiers.",
+      "combatArtGrowthPolicy": "TACTICAL_AND_SURVIVAL_ONLY",
+      "canRunWhileInjured": false,
+      "relationshipOpportunityTags": [
+        "FIELD_TRUST",
+        "DISCOVERY"
+      ]
+    },
+    {
+      "id": "DUTY_RECRUITING",
+      "displayName": "Recruitment Outreach",
+      "category": "INSTITUTIONAL",
+      "requiredFacilityId": "FACILITY_RECRUITMENT_OFFICE",
+      "minimumFacilityLevel": 1,
+      "minimumMembers": 1,
+      "maximumMembers": 3,
+      "baseDurationDays": 2,
+      "aptitudeWeights": {
+        "DIPLOMACY": 40,
+        "PERCEPTION": 25,
+        "LEADERSHIP": 35
+      },
+      "baseRewards": {
+        "personalXp": 40,
+        "dutyXp": 140,
+        "treasuryXp": 40
+      },
+      "riskBasisPoints": 200,
+      "meaningfulOutput": "Improves scouting information or produces a referral without guaranteeing a Signature Recruit.",
+      "combatArtGrowthPolicy": "NONE",
+      "canRunWhileInjured": true,
+      "relationshipOpportunityTags": [
+        "COMMUNITY",
+        "REFERRAL"
+      ]
+    },
+    {
+      "id": "DUTY_CRAFTING",
+      "displayName": "Forge or Alchemy Shift",
+      "category": "PRODUCTION",
+      "requiredFacilityId": "FACILITY_GUILD_FORGE",
+      "minimumFacilityLevel": 1,
+      "minimumMembers": 1,
+      "maximumMembers": 4,
+      "baseDurationDays": 2,
+      "aptitudeWeights": {
+        "CRAFTING": 60,
+        "KNOWLEDGE": 20,
+        "INTEGRITY": 20
+      },
+      "baseRewards": {
+        "personalXp": 30,
+        "dutyXp": 170,
+        "treasuryXp": 60
+      },
+      "riskBasisPoints": 300,
+      "meaningfulOutput": "Creates, repairs, refines, or dismantles items using Pass 04 authority.",
+      "combatArtGrowthPolicy": "CRAFTING_PROFICIENCY_ONLY",
+      "canRunWhileInjured": true,
+      "relationshipOpportunityTags": [
+        "APPRENTICESHIP",
+        "MAKER_PRIDE"
+      ]
+    },
+    {
+      "id": "DUTY_HEALING",
+      "displayName": "Infirmary Duty",
+      "category": "PUBLIC_SERVICE",
+      "requiredFacilityId": "FACILITY_INFIRMARY",
+      "minimumFacilityLevel": 1,
+      "minimumMembers": 1,
+      "maximumMembers": 6,
+      "baseDurationDays": 1,
+      "aptitudeWeights": {
+        "MEDICINE": 45,
+        "RESTORATION": 35,
+        "EMPATHY": 20
+      },
+      "baseRewards": {
+        "personalXp": 40,
+        "dutyXp": 180,
+        "treasuryXp": 70
+      },
+      "riskBasisPoints": 150,
+      "meaningfulOutput": "Treats actual patients; full-health or unnecessary treatment grants negligible growth.",
+      "combatArtGrowthPolicy": "MEANINGFUL_RESTORATION_ONLY",
+      "canRunWhileInjured": true,
+      "relationshipOpportunityTags": [
+        "CARE",
+        "TRUST"
+      ]
+    },
+    {
+      "id": "DUTY_RESEARCH",
+      "displayName": "Research Project",
+      "category": "INSTITUTIONAL",
+      "requiredFacilityId": "FACILITY_RESEARCH_ROOM",
+      "minimumFacilityLevel": 1,
+      "minimumMembers": 1,
+      "maximumMembers": 5,
+      "baseDurationDays": 3,
+      "aptitudeWeights": {
+        "KNOWLEDGE": 40,
+        "ARCANA": 35,
+        "CRAFTING": 25
+      },
+      "baseRewards": {
+        "personalXp": 50,
+        "dutyXp": 180,
+        "treasuryXp": 30
+      },
+      "riskBasisPoints": 350,
+      "meaningfulOutput": "Produces evidence, blueprint progress, or safer Invocation understanding.",
+      "combatArtGrowthPolicy": "KNOWLEDGE_AND_OBSERVATION_ONLY",
+      "canRunWhileInjured": true,
+      "relationshipOpportunityTags": [
+        "DISCOVERY",
+        "DEBATE"
+      ]
+    },
+    {
+      "id": "DUTY_LOGISTICS",
+      "displayName": "Logistics and Quartermaster Duty",
+      "category": "INSTITUTIONAL",
+      "requiredFacilityId": "FACILITY_QUARTERMASTER",
+      "minimumFacilityLevel": 1,
+      "minimumMembers": 1,
+      "maximumMembers": 5,
+      "baseDurationDays": 1,
+      "aptitudeWeights": {
+        "LOGISTICS": 50,
+        "CRAFTING": 20,
+        "INTEGRITY": 30
+      },
+      "baseRewards": {
+        "personalXp": 30,
+        "dutyXp": 150,
+        "treasuryXp": 100
+      },
+      "riskBasisPoints": 100,
+      "meaningfulOutput": "Prepares reserve kits, supplies, transparent custody, and expedition readiness.",
+      "combatArtGrowthPolicy": "NONE",
+      "canRunWhileInjured": true,
+      "relationshipOpportunityTags": [
+        "RELIABILITY",
+        "SERVICE"
+      ]
+    },
+    {
+      "id": "DUTY_DIPLOMACY",
+      "displayName": "Diplomatic Liaison",
+      "category": "PUBLIC_SERVICE",
+      "requiredFacilityId": "FACILITY_EMBASSY_HALL",
+      "minimumFacilityLevel": 1,
+      "minimumMembers": 1,
+      "maximumMembers": 4,
+      "baseDurationDays": 3,
+      "aptitudeWeights": {
+        "DIPLOMACY": 45,
+        "CULTURAL_KNOWLEDGE": 35,
+        "LEADERSHIP": 20
+      },
+      "baseRewards": {
+        "personalXp": 50,
+        "dutyXp": 200,
+        "treasuryXp": 80
+      },
+      "riskBasisPoints": 250,
+      "meaningfulOutput": "Builds trust and petition progress; cannot fabricate an Alliance Charter.",
+      "combatArtGrowthPolicy": "SUPPORT_AND_CULTURAL_LEARNING_ONLY",
+      "canRunWhileInjured": true,
+      "relationshipOpportunityTags": [
+        "CULTURAL_TRUST",
+        "NEGOTIATION"
+      ]
+    },
+    {
+      "id": "DUTY_DEFENSE",
+      "displayName": "Guild and Civic Defense",
+      "category": "PUBLIC_SERVICE",
+      "requiredFacilityId": "FACILITY_EMERGENCY_SHELTER",
+      "minimumFacilityLevel": 1,
+      "minimumMembers": 2,
+      "maximumMembers": 5,
+      "baseDurationDays": 1,
+      "aptitudeWeights": {
+        "GUARD": 40,
+        "COURAGE": 25,
+        "LEADERSHIP": 20,
+        "TACTICAL": 15
+      },
+      "baseRewards": {
+        "personalXp": 60,
+        "dutyXp": 180,
+        "treasuryXp": 60
+      },
+      "riskBasisPoints": 400,
+      "meaningfulOutput": "Protects the Hall, civilians, supplies, and families during threats.",
+      "combatArtGrowthPolicy": "MEANINGFUL_GUARD_ONLY_IF_REAL_THREAT",
+      "canRunWhileInjured": false,
+      "relationshipOpportunityTags": [
+        "PROTECTION",
+        "CIVIC_TRUST"
+      ]
+    },
+    {
+      "id": "DUTY_SECONDARY_MISSION",
+      "displayName": "Secondary Mission Team",
+      "category": "FIELD_SUPPORT",
+      "requiredFacilityId": "FACILITY_STRATEGY_ROOM",
+      "minimumFacilityLevel": 2,
+      "minimumMembers": 2,
+      "maximumMembers": 5,
+      "baseDurationDays": 2,
+      "aptitudeWeights": {
+        "TACTICAL": 35,
+        "LEADERSHIP": 25,
+        "SURVIVAL": 20,
+        "SUPPORT": 20
+      },
+      "baseRewards": {
+        "personalXp": 90,
+        "dutyXp": 200,
+        "treasuryXp": 160
+      },
+      "riskBasisPoints": 700,
+      "meaningfulOutput": "Completes a side objective that changes a linked front or future contract.",
+      "combatArtGrowthPolicy": "ABSTRACTED_MEANINGFUL_USE_WITH_CAPPED_ART_MASTERY",
+      "canRunWhileInjured": false,
+      "relationshipOpportunityTags": [
+        "INDEPENDENCE",
+        "MISSION_TRUST"
+      ]
+    }
+  ],
+  "wholeRosterRule": "A nondeployed member can train, mentor, scout, recruit, craft, heal, research, manage logistics, serve diplomacy, defend the Hall, or complete secondary work.",
+  "overlapRule": "One member may hold only one full-time assignment for the same time window unless an explicit flexible-staff exception is recorded."
+}

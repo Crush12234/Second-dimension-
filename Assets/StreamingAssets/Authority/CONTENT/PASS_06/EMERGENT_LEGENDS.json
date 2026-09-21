@@ -1,0 +1,1478 @@
+{
+  "contentVersion": "GOW_PASS06_0.11",
+  "epithetGrammar": {
+    "prefixes": [
+      "Gate",
+      "Road",
+      "Lantern",
+      "Wall",
+      "Storm",
+      "Ash",
+      "River",
+      "Iron",
+      "Quiet",
+      "Last",
+      "First",
+      "Open",
+      "Unbroken",
+      "Returning",
+      "Watchful",
+      "Kind",
+      "Hollow",
+      "Silver",
+      "Cinder",
+      "Wild",
+      "Dawn",
+      "Night",
+      "Bridge",
+      "Oath"
+    ],
+    "roles": [
+      "Keeper",
+      "Mender",
+      "Witness",
+      "Shield",
+      "Guide",
+      "Voice",
+      "Runner",
+      "Hunter",
+      "Healer",
+      "Breaker",
+      "Builder",
+      "Teacher",
+      "Captain",
+      "Scout",
+      "Warden",
+      "Friend",
+      "Smith",
+      "Scribe",
+      "Caller",
+      "Guardian",
+      "Pathfinder",
+      "Standard",
+      "Promise",
+      "Hand"
+    ],
+    "phrases": [
+      "Who Came Back",
+      "Who Held the Door",
+      "Who Counted Every Name",
+      "Who Refused the Easy Victory",
+      "Who Taught the Second Line",
+      "Who Carried the Map",
+      "Who Guarded the Weakest",
+      "Who Listened First",
+      "Who Broke the Empty Throne",
+      "Who Repaired the Banner",
+      "Who Crossed the Bloodless River",
+      "Who Stood After Fear",
+      "Who Gave the Weapon Away",
+      "Who Returned the Lost",
+      "Who Faced the Toll",
+      "Who Chose the Civilian Road"
+    ],
+    "componentCount": 64
+  },
+  "legendArchetypeCount": 30,
+  "legendArchetypes": [
+    {
+      "id": "LEGEND_ARCHETYPE_RESCUE",
+      "displayName": "Rescue Legend",
+      "historyDescription": "rescues, extractions, and returning for people others abandoned",
+      "momentumWeights": {
+        "MISSIONS": 12,
+        "RESCUES": 20,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_GUARDIAN",
+      "displayName": "Living Shield",
+      "historyDescription": "meaningful interceptions and protection without ownership",
+      "momentumWeights": {
+        "MISSIONS": 14,
+        "RESCUES": 20,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_COMMANDER",
+      "displayName": "Union Commander",
+      "historyDescription": "leadership, withdrawal discipline, and multi-front coordination",
+      "momentumWeights": {
+        "MISSIONS": 16,
+        "RESCUES": 6,
+        "LEADERSHIP": 18,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_LATE_BLOOMER",
+      "displayName": "Late Flame",
+      "historyDescription": "slow beginnings followed by rare development breakthroughs",
+      "momentumWeights": {
+        "MISSIONS": 10,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_CRAFTED_HISTORY",
+      "displayName": "Bearer of a Storied Tool",
+      "historyDescription": "equipment evolution, crafting, and item history",
+      "momentumWeights": {
+        "MISSIONS": 12,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_ABYSS_STEWARD",
+      "displayName": "Abyss Steward",
+      "historyDescription": "responsible extraction, mapping, and moral trial choices",
+      "momentumWeights": {
+        "MISSIONS": 14,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_CIVIC_HERO",
+      "displayName": "Civic Hero",
+      "historyDescription": "public service and Guild Hall crisis response",
+      "momentumWeights": {
+        "MISSIONS": 16,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 18,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_MENTOR",
+      "displayName": "Teacher of the Next Line",
+      "historyDescription": "mentorship, graduation, and successor development",
+      "momentumWeights": {
+        "MISSIONS": 10,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 18
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_SCOUT",
+      "displayName": "Pathfinder",
+      "historyDescription": "hidden routes, survival, and safe return",
+      "momentumWeights": {
+        "MISSIONS": 12,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_HEALER",
+      "displayName": "Keeper of Breath",
+      "historyDescription": "meaningful healing, triage, and recovery",
+      "momentumWeights": {
+        "MISSIONS": 14,
+        "RESCUES": 20,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_RIVAL",
+      "displayName": "Honored Rival",
+      "historyDescription": "competition that improves both people without humiliation",
+      "momentumWeights": {
+        "MISSIONS": 16,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_REFORMER",
+      "displayName": "Reformer",
+      "historyDescription": "repairing prejudice, failed institutions, or broken Union identity",
+      "momentumWeights": {
+        "MISSIONS": 10,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_BRIDGE",
+      "displayName": "Bridge Between Worlds",
+      "historyDescription": "cross-cultural cooperation and world trust",
+      "momentumWeights": {
+        "MISSIONS": 12,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_INVOCATOR",
+      "displayName": "Echo Caller",
+      "historyDescription": "responsible Artifact Invocation and Resonance",
+      "momentumWeights": {
+        "MISSIONS": 14,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_FORMATION",
+      "displayName": "Formation Master",
+      "historyDescription": "formation mastery and Union discipline",
+      "momentumWeights": {
+        "MISSIONS": 16,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_ARCHIVIST",
+      "displayName": "Living Chronicle",
+      "historyDescription": "records, truth, and preserved reasons",
+      "momentumWeights": {
+        "MISSIONS": 10,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_SURVIVOR",
+      "displayName": "Scarred Survivor",
+      "historyDescription": "near-death survival and recovery without glamorizing harm",
+      "momentumWeights": {
+        "MISSIONS": 12,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_DIPLOMAT",
+      "displayName": "Speaker at the Gate",
+      "historyDescription": "negotiation and institutional trust",
+      "momentumWeights": {
+        "MISSIONS": 14,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_FORGE",
+      "displayName": "Forge Heart",
+      "historyDescription": "crafting, repair, and worker protection",
+      "momentumWeights": {
+        "MISSIONS": 16,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_TACTICIAN",
+      "displayName": "Battlefield Reader",
+      "historyDescription": "objective control and enemy-pattern recognition",
+      "momentumWeights": {
+        "MISSIONS": 10,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_REDEEMED",
+      "displayName": "Redeemed Failure",
+      "historyDescription": "accountability and recovery after meaningful failure",
+      "momentumWeights": {
+        "MISSIONS": 12,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_UNION_FOUNDER",
+      "displayName": "Banner Founder",
+      "historyDescription": "persistent Union history and induction of newcomers",
+      "momentumWeights": {
+        "MISSIONS": 14,
+        "RESCUES": 6,
+        "LEADERSHIP": 18,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_CARETAKER",
+      "displayName": "Hall Caretaker",
+      "historyDescription": "daily work that keeps a large guild human",
+      "momentumWeights": {
+        "MISSIONS": 16,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 18,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_MONSTER_FRIEND",
+      "displayName": "Listener to the Other",
+      "historyDescription": "recognizing nonhostile creatures and sentient agency",
+      "momentumWeights": {
+        "MISSIONS": 10,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_COVENANT_WITNESS",
+      "displayName": "Covenant Witness",
+      "historyDescription": "supporting a voluntary Great Summon covenant",
+      "momentumWeights": {
+        "MISSIONS": 12,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_FATE_SCAR",
+      "displayName": "Fate-Scarred",
+      "historyDescription": "turning critical failure into a complex new path",
+      "momentumWeights": {
+        "MISSIONS": 14,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_FATE_BREAK",
+      "displayName": "Fate Breaker",
+      "historyDescription": "critical breakthroughs tied to service rather than vanity",
+      "momentumWeights": {
+        "MISSIONS": 16,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_WORLD_HOME",
+      "displayName": "Keeper of Home",
+      "historyDescription": "maintaining ties to a member’s original community",
+      "momentumWeights": {
+        "MISSIONS": 10,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_RETIREMENT_LEGACY",
+      "displayName": "Legacy Bearer",
+      "historyDescription": "transitioning from combat into teaching or service",
+      "momentumWeights": {
+        "MISSIONS": 12,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 18
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    },
+    {
+      "id": "LEGEND_ARCHETYPE_EMERGENT_HYBRID",
+      "displayName": "Unwritten Path",
+      "historyDescription": "developing a legal unusual hybrid route through play",
+      "momentumWeights": {
+        "MISSIONS": 14,
+        "RESCUES": 6,
+        "LEADERSHIP": 5,
+        "TURNING_POINTS": 12,
+        "RARE_ARTS": 10,
+        "BOSS_VICTORIES": 10,
+        "PUBLIC_SERVICE": 5,
+        "MENTORSHIP": 4
+      },
+      "minimumDistinctHistoryCategories": 4,
+      "promotionThreshold": 1000,
+      "rewardRule": "Opens a Chronicle identity, visual hook, personal quest expansion, and signature-technique opportunity. No large universal stat package."
+    }
+  ],
+  "signatureTechniqueTemplateCount": 30,
+  "signatureTechniqueTemplates": [
+    {
+      "id": "SIG_TECH_TEMPLATE_RETURN_ROUTE",
+      "displayName": "Return Route",
+      "domain": "Rescue",
+      "description": "The Union creates a safe extraction path while protecting the slowest member.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_LAST_STEP_GUARD",
+      "displayName": "Last-Step Guard",
+      "domain": "Guard",
+      "description": "A coordinated final-position defense that cannot trigger without a threatened ally.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_EMPTY_HAND_PROMISE",
+      "displayName": "Empty-Hand Promise",
+      "domain": "Support",
+      "description": "Gives up personal loot priority to restore Union Cohesion and civic reward.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_SECOND_LINE_RISES",
+      "displayName": "Second Line Rises",
+      "domain": "Mentorship",
+      "description": "Apprentices execute a prepared fallback without direct Art selection.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_MAP_OF_NEGATIVE_SPACE",
+      "displayName": "Map of Negative Space",
+      "domain": "Tactical",
+      "description": "Reveals a route or weak formation by recognizing what is missing.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_BANNER_REPAIRED",
+      "displayName": "Banner Repaired",
+      "domain": "Morale",
+      "description": "Recovers from a Union break after accountability memory.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_WITNESS_THE_COST",
+      "displayName": "Witness the Cost",
+      "domain": "Support",
+      "description": "Makes the consequences of an enemy action visible and improves defensive Forecast weighting.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_FORGE_HEART_BEAT",
+      "displayName": "Forge-Heart Beat",
+      "domain": "Crafting",
+      "description": "An equipped storied item supports a legal Union action based on its history.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_RIVER_REMEMBERS",
+      "displayName": "The River Remembers",
+      "domain": "Mystic",
+      "description": "Uses memory and water tags to cleanse a harmful field without ownership of a summon.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_NO_ONE_IN_FOG",
+      "displayName": "No One in Fog",
+      "domain": "Scouting",
+      "description": "Prevents an isolated Union from becoming unreachable.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_HEALER_STAYS",
+      "displayName": "The Healer Stays",
+      "domain": "Restoration",
+      "description": "Emergency Restoration persists through one interruption at significant MP cost.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_RIVALRY_WITHOUT_HATE",
+      "displayName": "Rivalry Without Hate",
+      "domain": "Martial",
+      "description": "Two rivals coordinate a formation break if Respect exceeds Friction.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_GATE_LANGUAGE",
+      "displayName": "Gate Language",
+      "domain": "Cultural",
+      "description": "Mixed-culture callouts reduce coordination penalties after valid teaching.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_CIVILIAN_FIRST",
+      "displayName": "Civilian First",
+      "domain": "Guard",
+      "description": "Redirects a boss objective toward protection and increases civic reward.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_THE_QUIET_ORDER",
+      "displayName": "The Quiet Order",
+      "domain": "Leadership",
+      "description": "A low-cost withdrawal command appears when panic would normally suppress it.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_ECHO_ASKED_NOT_ORDERED",
+      "displayName": "Echo Asked, Not Ordered",
+      "domain": "Invocation",
+      "description": "An Artifact Echo chooses a context-appropriate aid action with improved Resonance gain.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_COUNT_THE_WOUNDED",
+      "displayName": "Count the Wounded",
+      "domain": "Triage",
+      "description": "Prioritizes meaningful healing and suppresses wasteful Restoration actions.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_STORIED_EDGE",
+      "displayName": "Storied Edge",
+      "domain": "Equipment",
+      "description": "A weapon evolution history unlocks a sidegrade Forecast, not raw universal power.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_SHARED_WATCH",
+      "displayName": "Shared Watch",
+      "domain": "Survival",
+      "description": "A camp or defense action converts familiarity into morale stability.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_UNBROKEN_ARCHIVE",
+      "displayName": "Unbroken Archive",
+      "domain": "Knowledge",
+      "description": "Preserves event and enemy information after retreat.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_APOLOGY_IN_ACTION",
+      "displayName": "Apology in Action",
+      "domain": "Repair",
+      "description": "A character accepts a risk or duty to demonstrate restitution.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_OPEN_DOOR_FORMATION",
+      "displayName": "Open Door Formation",
+      "domain": "Formation",
+      "description": "Allows a newcomer to join a veteran formation with reduced induction penalty.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_FIVE_HANDS",
+      "displayName": "Five Hands",
+      "domain": "Full Union",
+      "description": "Full-Union action requiring every member, high Cohesion, and legal resources.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_HOME_SIGNAL",
+      "displayName": "Signal Home",
+      "domain": "Diplomacy",
+      "description": "Creates a world-home connection that supports morale and alliance trust.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_FATE_SCAR_READ",
+      "displayName": "Read the Scar",
+      "domain": "Tactical",
+      "description": "Uses a prior critical-failure memory to recognize a repeated hazard.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_BROKEN_TOOL_MENDED",
+      "displayName": "Broken Tool Mended",
+      "domain": "Crafting",
+      "description": "Repairs a disabled tool in combat at AP and material cost.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_REFUSAL_RESPECTED",
+      "displayName": "Refusal Respected",
+      "domain": "Support",
+      "description": "Turns a declined equipment or social request into Trust and Cohesion recovery.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_THIRD_BELL",
+      "displayName": "The Third Bell",
+      "domain": "Withdrawal",
+      "description": "Guarantees a legal retreat forecast after two prior warnings.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_UNWRITTEN_BRANCH",
+      "displayName": "Unwritten Branch",
+      "domain": "Hybrid",
+      "description": "Opens one legal hybrid Art opportunity earned through cross-discipline history.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_THE_NAME_RETURNED",
+      "displayName": "The Name Returned",
+      "domain": "Chronicle",
+      "description": "Restores a recruit or Union epithet after disgrace and recovery.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    }
+  ],
+  "chronicleTemplateCount": 24,
+  "chronicleTemplates": [
+    {
+      "id": "CHRONICLE_TEMPLATE_01",
+      "titlePattern": "{name}, {epithet}",
+      "bodyPattern": "{name} became known not for a number, but for {history}.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_02",
+      "titlePattern": "The Day {name} Returned",
+      "bodyPattern": "The guild remembers {name} because {history} changed who could come home.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_03",
+      "titlePattern": "What the {union} Remembered",
+      "bodyPattern": "{union} records that {name} chose {history} when another path was easier.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_04",
+      "titlePattern": "The Tool That Learned {name}",
+      "bodyPattern": "The item {item} carries the marks of {history}.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_05",
+      "titlePattern": "A Road Built by {name}",
+      "bodyPattern": "Citizens tell the story of {history}, while the official Chronicle preserves the cost.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_06",
+      "titlePattern": "When {name} Refused the Easy Victory",
+      "bodyPattern": "The record leaves room for disagreement: {history}.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_07",
+      "titlePattern": "{name}, {epithet}",
+      "bodyPattern": "{name} became known not for a number, but for {history}.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_08",
+      "titlePattern": "The Day {name} Returned",
+      "bodyPattern": "The guild remembers {name} because {history} changed who could come home.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_09",
+      "titlePattern": "What the {union} Remembered",
+      "bodyPattern": "{union} records that {name} chose {history} when another path was easier.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_10",
+      "titlePattern": "The Tool That Learned {name}",
+      "bodyPattern": "The item {item} carries the marks of {history}.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_11",
+      "titlePattern": "A Road Built by {name}",
+      "bodyPattern": "Citizens tell the story of {history}, while the official Chronicle preserves the cost.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_12",
+      "titlePattern": "When {name} Refused the Easy Victory",
+      "bodyPattern": "The record leaves room for disagreement: {history}.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_13",
+      "titlePattern": "{name}, {epithet}",
+      "bodyPattern": "{name} became known not for a number, but for {history}.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_14",
+      "titlePattern": "The Day {name} Returned",
+      "bodyPattern": "The guild remembers {name} because {history} changed who could come home.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_15",
+      "titlePattern": "What the {union} Remembered",
+      "bodyPattern": "{union} records that {name} chose {history} when another path was easier.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_16",
+      "titlePattern": "The Tool That Learned {name}",
+      "bodyPattern": "The item {item} carries the marks of {history}.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_17",
+      "titlePattern": "A Road Built by {name}",
+      "bodyPattern": "Citizens tell the story of {history}, while the official Chronicle preserves the cost.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_18",
+      "titlePattern": "When {name} Refused the Easy Victory",
+      "bodyPattern": "The record leaves room for disagreement: {history}.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_19",
+      "titlePattern": "{name}, {epithet}",
+      "bodyPattern": "{name} became known not for a number, but for {history}.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_20",
+      "titlePattern": "The Day {name} Returned",
+      "bodyPattern": "The guild remembers {name} because {history} changed who could come home.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_21",
+      "titlePattern": "What the {union} Remembered",
+      "bodyPattern": "{union} records that {name} chose {history} when another path was easier.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_22",
+      "titlePattern": "The Tool That Learned {name}",
+      "bodyPattern": "The item {item} carries the marks of {history}.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_23",
+      "titlePattern": "A Road Built by {name}",
+      "bodyPattern": "Citizens tell the story of {history}, while the official Chronicle preserves the cost.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_24",
+      "titlePattern": "When {name} Refused the Easy Victory",
+      "bodyPattern": "The record leaves room for disagreement: {history}.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    }
+  ],
+  "visualDetailHookCount": 20,
+  "visualDetailHooks": [
+    {
+      "id": "VISUAL_HOOK_SCAR_VISIBLE",
+      "description": "A scar or healed mark tied to a recorded event.",
+      "playerMayHideCosmetic": true,
+      "neverChangesIdentityWithoutContext": true
+    },
+    {
+      "id": "VISUAL_HOOK_UNION_BADGE",
+      "description": "A small emblem from the Union that shaped them.",
+      "playerMayHideCosmetic": true,
+      "neverChangesIdentityWithoutContext": true
+    },
+    {
+      "id": "VISUAL_HOOK_MENTOR_THREAD",
+      "description": "A cord, stitch, or charm associated with a mentor lesson.",
+      "playerMayHideCosmetic": true,
+      "neverChangesIdentityWithoutContext": true
+    },
+    {
+      "id": "VISUAL_HOOK_CRAFTED_REPAIR",
+      "description": "A visible repair on personally important equipment.",
+      "playerMayHideCosmetic": true,
+      "neverChangesIdentityWithoutContext": true
+    },
+    {
+      "id": "VISUAL_HOOK_WORLD_HOME_TOKEN",
+      "description": "A culturally appropriate token from home, used with permission.",
+      "playerMayHideCosmetic": true,
+      "neverChangesIdentityWithoutContext": true
+    },
+    {
+      "id": "VISUAL_HOOK_CHRONICLE_PIN",
+      "description": "A Guild Chronicle pin earned through public service.",
+      "playerMayHideCosmetic": true,
+      "neverChangesIdentityWithoutContext": true
+    },
+    {
+      "id": "VISUAL_HOOK_ABYSS_DUST",
+      "description": "Subtle Abyss residue that reacts near remembered floors.",
+      "playerMayHideCosmetic": true,
+      "neverChangesIdentityWithoutContext": true
+    },
+    {
+      "id": "VISUAL_HOOK_GATE_LIGHT",
+      "description": "A gate-colored highlight tied to a legal Turning Point.",
+      "playerMayHideCosmetic": true,
+      "neverChangesIdentityWithoutContext": true
+    },
+    {
+      "id": "VISUAL_HOOK_RETIREMENT_MANTLE",
+      "description": "A practical staff mantle replacing combat gear.",
+      "playerMayHideCosmetic": true,
+      "neverChangesIdentityWithoutContext": true
+    },
+    {
+      "id": "VISUAL_HOOK_RESCUE_MARK",
+      "description": "A rescue-team marking chosen by the character.",
+      "playerMayHideCosmetic": true,
+      "neverChangesIdentityWithoutContext": true
+    },
+    {
+      "id": "VISUAL_HOOK_APPRENTICE_KNOT",
+      "description": "A knot added after an apprentice graduates.",
+      "playerMayHideCosmetic": true,
+      "neverChangesIdentityWithoutContext": true
+    },
+    {
+      "id": "VISUAL_HOOK_BROKEN_BANNER_THREAD",
+      "description": "A piece of a reformed Union banner.",
+      "playerMayHideCosmetic": true,
+      "neverChangesIdentityWithoutContext": true
+    },
+    {
+      "id": "VISUAL_HOOK_ECHO_SIGIL",
+      "description": "An Invocation Artifact resonance mark, not ownership branding.",
+      "playerMayHideCosmetic": true,
+      "neverChangesIdentityWithoutContext": true
+    },
+    {
+      "id": "VISUAL_HOOK_PUBLIC_SERVICE_BADGE",
+      "description": "A civic-service badge from ordinary citizens.",
+      "playerMayHideCosmetic": true,
+      "neverChangesIdentityWithoutContext": true
+    },
+    {
+      "id": "VISUAL_HOOK_RIVALRY_NOTCH",
+      "description": "Paired equipment notches marking respectful contests.",
+      "playerMayHideCosmetic": true,
+      "neverChangesIdentityWithoutContext": true
+    },
+    {
+      "id": "VISUAL_HOOK_HEALER_PATCH",
+      "description": "A practical patch showing infirmary or field-healer duty.",
+      "playerMayHideCosmetic": true,
+      "neverChangesIdentityWithoutContext": true
+    },
+    {
+      "id": "VISUAL_HOOK_ARCHIVE_INK",
+      "description": "Ink or record tags associated with Chronicle work.",
+      "playerMayHideCosmetic": true,
+      "neverChangesIdentityWithoutContext": true
+    },
+    {
+      "id": "VISUAL_HOOK_FATE_SCAR_GLOW",
+      "description": "A restrained visual response linked to a Fate Scar.",
+      "playerMayHideCosmetic": true,
+      "neverChangesIdentityWithoutContext": true
+    },
+    {
+      "id": "VISUAL_HOOK_FORGE_BURN",
+      "description": "A work mark from crafting history.",
+      "playerMayHideCosmetic": true,
+      "neverChangesIdentityWithoutContext": true
+    },
+    {
+      "id": "VISUAL_HOOK_RETURNED_MAP",
+      "description": "A folded map or route charm from a successful return.",
+      "playerMayHideCosmetic": true,
+      "neverChangesIdentityWithoutContext": true
+    }
+  ],
+  "promotionRules": {
+    "minimumMomentum": 1000,
+    "minimumDistinctHistoryCategories": 4,
+    "signatureRecruitNotRequired": true,
+    "proceduralRecruitEligible": true,
+    "kaelExcluded": true,
+    "foundersExcludedFromOwnedLegendSystem": true,
+    "greatSummonsExcluded": true,
+    "statInflationCapPermille": 1050,
+    "visibleClues": [
+      "People repeat the recruit’s name after missions.",
+      "Union members reference a defining memory.",
+      "Chronicle staff request an interview.",
+      "A personal quest gains an expanded stage."
+    ]
+  }
+}

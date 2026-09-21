@@ -1,0 +1,1684 @@
+{
+  "events": [
+    {
+      "sceneId": "HALL025_000",
+      "displayName": "Free Hall Scene 1",
+      "participantRecruitIds": [
+        "SIGREC_MAREN_HOLT",
+        "SIGREC_RUSK_FENRUNNER"
+      ],
+      "triggerMemoryId": "MEMORY025_000",
+      "locationTag": "COMMONS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_001",
+      "displayName": "Free Hall Scene 2",
+      "participantRecruitIds": [
+        "SIGREC_BRAKKA_EMBERWALL",
+        "SIGREC_JACE_MISTVALE"
+      ],
+      "triggerMemoryId": "MEMORY025_001",
+      "locationTag": "INFIRMARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_002",
+      "displayName": "Free Hall Scene 3",
+      "participantRecruitIds": [
+        "SIGREC_ODELIA_FEN",
+        "SIGREC_AVRA_FALLOWMERE"
+      ],
+      "triggerMemoryId": "MEMORY025_002",
+      "locationTag": "TRAINING",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_003",
+      "displayName": "Free Hall Scene 4",
+      "participantRecruitIds": [
+        "SIGREC_TOVVI_COPPERSPARK",
+        "SIGREC_JUNIA_CROWNHILL"
+      ],
+      "triggerMemoryId": "MEMORY025_003",
+      "locationTag": "FORGE",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_004",
+      "displayName": "Free Hall Scene 5",
+      "participantRecruitIds": [
+        "SIGREC_VEYRA_ASHGLASS",
+        "SIGREC_KAIA_LONGSTRIDE"
+      ],
+      "triggerMemoryId": "MEMORY025_004",
+      "locationTag": "LIBRARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_005",
+      "displayName": "Free Hall Scene 6",
+      "participantRecruitIds": [
+        "SIGREC_RUSK_FENRUNNER",
+        "SIGREC_CIRO_REDFERN"
+      ],
+      "triggerMemoryId": "MEMORY025_005",
+      "locationTag": "WALLS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_006",
+      "displayName": "Free Hall Scene 7",
+      "participantRecruitIds": [
+        "SIGREC_TALA_STORMROAD",
+        "SIGREC_JALEN_WARMARK"
+      ],
+      "triggerMemoryId": "MEMORY025_006",
+      "locationTag": "COMMONS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_007",
+      "displayName": "Free Hall Scene 8",
+      "participantRecruitIds": [
+        "SIGREC_ORREN_CLAY",
+        "SIGREC_RIVEN_PINEWARD"
+      ],
+      "triggerMemoryId": "MEMORY025_007",
+      "locationTag": "INFIRMARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_008",
+      "displayName": "Free Hall Scene 9",
+      "participantRecruitIds": [
+        "SIGREC_BESSA_BRASSWHISTLE",
+        "SIGREC_JORA_EMBERFALL"
+      ],
+      "triggerMemoryId": "MEMORY025_008",
+      "locationTag": "TRAINING",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_009",
+      "displayName": "Free Hall Scene 10",
+      "participantRecruitIds": [
+        "SIGREC_VAELIS_NOCT",
+        "SIGREC_BRENNA_LONGSTRIDE"
+      ],
+      "triggerMemoryId": "MEMORY025_009",
+      "locationTag": "FORGE",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_010",
+      "displayName": "Free Hall Scene 11",
+      "participantRecruitIds": [
+        "SIGREC_ZORIN_BRAMBLECROSS",
+        "SIGREC_PETRA_EMBERFALL"
+      ],
+      "triggerMemoryId": "MEMORY025_010",
+      "locationTag": "LIBRARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_011",
+      "displayName": "Free Hall Scene 12",
+      "participantRecruitIds": [
+        "SIGREC_UNA_QUEENSREST",
+        "SIGREC_GALEN_EASTWIND"
+      ],
+      "triggerMemoryId": "MEMORY025_011",
+      "locationTag": "WALLS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_012",
+      "displayName": "Free Hall Scene 13",
+      "participantRecruitIds": [
+        "SIGREC_JUNIA_SKYWARD",
+        "SIGREC_XARA_RAINFORD"
+      ],
+      "triggerMemoryId": "MEMORY025_012",
+      "locationTag": "COMMONS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_013",
+      "displayName": "Free Hall Scene 14",
+      "participantRecruitIds": [
+        "SIGREC_DAIN_DEEPWELL",
+        "SIGREC_ANSEL_WILDMERE"
+      ],
+      "triggerMemoryId": "MEMORY025_013",
+      "locationTag": "INFIRMARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_014",
+      "displayName": "Free Hall Scene 15",
+      "participantRecruitIds": [
+        "SIGREC_WILLOW_LONGSTRIDE",
+        "SIGREC_GIDEON_FIRECREST"
+      ],
+      "triggerMemoryId": "MEMORY025_014",
+      "locationTag": "TRAINING",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_015",
+      "displayName": "Free Hall Scene 16",
+      "participantRecruitIds": [
+        "SIGREC_QUIN_LOWEN",
+        "SIGREC_CERYS_THORNWAKE"
+      ],
+      "triggerMemoryId": "MEMORY025_015",
+      "locationTag": "FORGE",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_016",
+      "displayName": "Free Hall Scene 17",
+      "participantRecruitIds": [
+        "SIGREC_ASTER_MARSHLIGHT",
+        "SIGREC_CASSIAN_REDFERN"
+      ],
+      "triggerMemoryId": "MEMORY025_016",
+      "locationTag": "LIBRARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_017",
+      "displayName": "Free Hall Scene 18",
+      "participantRecruitIds": [
+        "SIGREC_PETRA_RUNEBROOK",
+        "SIGREC_OREN_REDFERN"
+      ],
+      "triggerMemoryId": "MEMORY025_017",
+      "locationTag": "WALLS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_018",
+      "displayName": "Free Hall Scene 19",
+      "participantRecruitIds": [
+        "SIGREC_QUIN_CROWNHILL",
+        "SIGREC_UNA_QUEENSREST"
+      ],
+      "triggerMemoryId": "MEMORY025_018",
+      "locationTag": "COMMONS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_019",
+      "displayName": "Free Hall Scene 20",
+      "participantRecruitIds": [
+        "SIGREC_YVES_THORNFIELD",
+        "SIGREC_FINNIAN_STONEHAND"
+      ],
+      "triggerMemoryId": "MEMORY025_019",
+      "locationTag": "INFIRMARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_020",
+      "displayName": "Free Hall Scene 21",
+      "participantRecruitIds": [
+        "SIGREC_SELENE_FIRECREST",
+        "SIGREC_DELIA_EMBERLAIN"
+      ],
+      "triggerMemoryId": "MEMORY025_020",
+      "locationTag": "TRAINING",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_021",
+      "displayName": "Free Hall Scene 22",
+      "participantRecruitIds": [
+        "SIGREC_DARA_DUSKFIELD",
+        "SIGREC_LIORA_DAWNMERE"
+      ],
+      "triggerMemoryId": "MEMORY025_021",
+      "locationTag": "FORGE",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_022",
+      "displayName": "Free Hall Scene 23",
+      "participantRecruitIds": [
+        "SIGREC_JACE_MISTVALE",
+        "SIGREC_MINA_WINDROSE"
+      ],
+      "triggerMemoryId": "MEMORY025_022",
+      "locationTag": "LIBRARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_023",
+      "displayName": "Free Hall Scene 24",
+      "participantRecruitIds": [
+        "SIGREC_EIRA_LONGSTRIDE",
+        "SIGREC_FARA_FALLOWMERE"
+      ],
+      "triggerMemoryId": "MEMORY025_023",
+      "locationTag": "WALLS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_024",
+      "displayName": "Free Hall Scene 25",
+      "participantRecruitIds": [
+        "SIGREC_IMARA_WARMARK",
+        "SIGREC_MAELIN_DUSKFIELD"
+      ],
+      "triggerMemoryId": "MEMORY025_024",
+      "locationTag": "COMMONS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_025",
+      "displayName": "Free Hall Scene 26",
+      "participantRecruitIds": [
+        "SIGREC_SEREN_RAVENSCAR",
+        "SIGREC_DELLA_IRONBLOOM"
+      ],
+      "triggerMemoryId": "MEMORY025_025",
+      "locationTag": "INFIRMARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_026",
+      "displayName": "Free Hall Scene 27",
+      "participantRecruitIds": [
+        "SIGREC_ANSEL_FOXGLOVE",
+        "SIGREC_DELIA_GLASSRIVER"
+      ],
+      "triggerMemoryId": "MEMORY025_026",
+      "locationTag": "TRAINING",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_027",
+      "displayName": "Free Hall Scene 28",
+      "participantRecruitIds": [
+        "SIGREC_KAIA_RAINFORD",
+        "SIGREC_OREN_WINDROSE"
+      ],
+      "triggerMemoryId": "MEMORY025_027",
+      "locationTag": "FORGE",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_028",
+      "displayName": "Free Hall Scene 29",
+      "participantRecruitIds": [
+        "SIGREC_FINNIAN_STONEHAND",
+        "SIGREC_ELIAN_CINDERWAKE"
+      ],
+      "triggerMemoryId": "MEMORY025_028",
+      "locationTag": "LIBRARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_029",
+      "displayName": "Free Hall Scene 30",
+      "participantRecruitIds": [
+        "SIGREC_ARIA_KESTREL",
+        "SIGREC_VERA_DAWNMERE"
+      ],
+      "triggerMemoryId": "MEMORY025_029",
+      "locationTag": "WALLS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_030",
+      "displayName": "Free Hall Scene 31",
+      "participantRecruitIds": [
+        "SIGREC_SEREN_ROSEWARD",
+        "SIGREC_ELOWEN_BRIGHTSTEEL"
+      ],
+      "triggerMemoryId": "MEMORY025_030",
+      "locationTag": "COMMONS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_031",
+      "displayName": "Free Hall Scene 32",
+      "participantRecruitIds": [
+        "SIGREC_JUNIA_BRAMBLECROSS",
+        "SIGREC_ARIA_DUSKFIELD"
+      ],
+      "triggerMemoryId": "MEMORY025_031",
+      "locationTag": "INFIRMARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_032",
+      "displayName": "Free Hall Scene 33",
+      "participantRecruitIds": [
+        "SIGREC_FARA_SILVERN",
+        "SIGREC_RIVEN_HIGHWALL"
+      ],
+      "triggerMemoryId": "MEMORY025_032",
+      "locationTag": "TRAINING",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_033",
+      "displayName": "Free Hall Scene 34",
+      "participantRecruitIds": [
+        "SIGREC_CORIN_VALECREST",
+        "SIGREC_FAELAN_WARMARK"
+      ],
+      "triggerMemoryId": "MEMORY025_033",
+      "locationTag": "FORGE",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_034",
+      "displayName": "Free Hall Scene 35",
+      "participantRecruitIds": [
+        "SIGREC_VAUGHN_MOONWAKE",
+        "SIGREC_KESTREL_STARLING"
+      ],
+      "triggerMemoryId": "MEMORY025_034",
+      "locationTag": "LIBRARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_035",
+      "displayName": "Free Hall Scene 36",
+      "participantRecruitIds": [
+        "SIGREC_ELARA_UMBERFIELD",
+        "SIGREC_MAREN_HOLT"
+      ],
+      "triggerMemoryId": "MEMORY025_035",
+      "locationTag": "WALLS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_036",
+      "displayName": "Free Hall Scene 37",
+      "participantRecruitIds": [
+        "SIGREC_YVES_GALEHEART",
+        "SIGREC_PETRA_RUNEBROOK"
+      ],
+      "triggerMemoryId": "MEMORY025_036",
+      "locationTag": "COMMONS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_037",
+      "displayName": "Free Hall Scene 38",
+      "participantRecruitIds": [
+        "SIGREC_FAELAN_IVORYMERE",
+        "SIGREC_VAUGHN_MOONWAKE"
+      ],
+      "triggerMemoryId": "MEMORY025_037",
+      "locationTag": "INFIRMARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_038",
+      "displayName": "Free Hall Scene 39",
+      "participantRecruitIds": [
+        "SIGREC_HANA_WINDROSE",
+        "SIGREC_FINNIAN_CLOUDREST"
+      ],
+      "triggerMemoryId": "MEMORY025_038",
+      "locationTag": "TRAINING",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_039",
+      "displayName": "Free Hall Scene 40",
+      "participantRecruitIds": [
+        "SIGREC_AVRA_FALLOWMERE",
+        "SIGREC_SYLVI_OATHKEEPER"
+      ],
+      "triggerMemoryId": "MEMORY025_039",
+      "locationTag": "FORGE",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_040",
+      "displayName": "Free Hall Scene 41",
+      "participantRecruitIds": [
+        "SIGREC_SABLE_EMBERFALL",
+        "SIGREC_DAVEN_ROSEWARD"
+      ],
+      "triggerMemoryId": "MEMORY025_040",
+      "locationTag": "LIBRARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_041",
+      "displayName": "Free Hall Scene 42",
+      "participantRecruitIds": [
+        "SIGREC_PETRA_DAWNSHIELD",
+        "SIGREC_ISOLDE_ASHFORD"
+      ],
+      "triggerMemoryId": "MEMORY025_041",
+      "locationTag": "WALLS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_042",
+      "displayName": "Free Hall Scene 43",
+      "participantRecruitIds": [
+        "SIGREC_KELLAN_GREENMANTLE",
+        "SIGREC_FINNIAN_IRONWOOD"
+      ],
+      "triggerMemoryId": "MEMORY025_042",
+      "locationTag": "COMMONS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_043",
+      "displayName": "Free Hall Scene 44",
+      "participantRecruitIds": [
+        "SIGREC_NIA_IRONBLOOM",
+        "SIGREC_BELA_LIGHTWELL"
+      ],
+      "triggerMemoryId": "MEMORY025_043",
+      "locationTag": "INFIRMARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_044",
+      "displayName": "Free Hall Scene 45",
+      "participantRecruitIds": [
+        "SIGREC_LARK_STORMVALE",
+        "SIGREC_JUNIA_ROSEWARD"
+      ],
+      "triggerMemoryId": "MEMORY025_044",
+      "locationTag": "TRAINING",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_045",
+      "displayName": "Free Hall Scene 46",
+      "participantRecruitIds": [
+        "SIGREC_DELIA_EMBERLAIN",
+        "SIGREC_AVRA_ASHGROVE"
+      ],
+      "triggerMemoryId": "MEMORY025_045",
+      "locationTag": "FORGE",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_046",
+      "displayName": "Free Hall Scene 47",
+      "participantRecruitIds": [
+        "SIGREC_FENN_GALEHEART",
+        "SIGREC_BRENNA_OATHKEEPER"
+      ],
+      "triggerMemoryId": "MEMORY025_046",
+      "locationTag": "LIBRARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_047",
+      "displayName": "Free Hall Scene 48",
+      "participantRecruitIds": [
+        "SIGREC_REEVE_OATHKEEPER",
+        "SIGREC_THANE_STONEHAND"
+      ],
+      "triggerMemoryId": "MEMORY025_047",
+      "locationTag": "WALLS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_048",
+      "displayName": "Free Hall Scene 49",
+      "participantRecruitIds": [
+        "SIGREC_VESPER_STONEHAND",
+        "SIGREC_ORREN_KESTREL"
+      ],
+      "triggerMemoryId": "MEMORY025_000",
+      "locationTag": "COMMONS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_049",
+      "displayName": "Free Hall Scene 50",
+      "participantRecruitIds": [
+        "SIGREC_ARDEN_FIRECREST",
+        "SIGREC_ILYA_BRIGHTWATER"
+      ],
+      "triggerMemoryId": "MEMORY025_001",
+      "locationTag": "INFIRMARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_050",
+      "displayName": "Free Hall Scene 51",
+      "participantRecruitIds": [
+        "SIGREC_KESTREL_GREENMANTLE",
+        "SIGREC_ROWAN_EASTWIND"
+      ],
+      "triggerMemoryId": "MEMORY025_002",
+      "locationTag": "TRAINING",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_051",
+      "displayName": "Free Hall Scene 52",
+      "participantRecruitIds": [
+        "SIGREC_FINNIAN_CLOUDREST",
+        "SIGREC_BRIAR_IRONBLOOM"
+      ],
+      "triggerMemoryId": "MEMORY025_003",
+      "locationTag": "FORGE",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_052",
+      "displayName": "Free Hall Scene 53",
+      "participantRecruitIds": [
+        "SIGREC_DELLA_SILVERBROOK",
+        "SIGREC_ALDEN_SUNMERE"
+      ],
+      "triggerMemoryId": "MEMORY025_004",
+      "locationTag": "LIBRARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_053",
+      "displayName": "Free Hall Scene 54",
+      "participantRecruitIds": [
+        "SIGREC_ORIN_EMBERFALL",
+        "SIGREC_TALA_STORMROAD"
+      ],
+      "triggerMemoryId": "MEMORY025_005",
+      "locationTag": "WALLS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_054",
+      "displayName": "Free Hall Scene 55",
+      "participantRecruitIds": [
+        "SIGREC_IMARA_EVERWATCH",
+        "SIGREC_EIRA_LONGSTRIDE"
+      ],
+      "triggerMemoryId": "MEMORY025_006",
+      "locationTag": "COMMONS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_055",
+      "displayName": "Free Hall Scene 56",
+      "participantRecruitIds": [
+        "SIGREC_ORIN_SUNMERE",
+        "SIGREC_SABLE_EMBERFALL"
+      ],
+      "triggerMemoryId": "MEMORY025_007",
+      "locationTag": "INFIRMARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_056",
+      "displayName": "Free Hall Scene 57",
+      "participantRecruitIds": [
+        "SIGREC_JUNIA_CROWNHILL",
+        "SIGREC_DARA_FAIRWIND"
+      ],
+      "triggerMemoryId": "MEMORY025_008",
+      "locationTag": "TRAINING",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_057",
+      "displayName": "Free Hall Scene 58",
+      "participantRecruitIds": [
+        "SIGREC_DARA_FAIRWIND",
+        "SIGREC_CAELAN_IVORYMERE"
+      ],
+      "triggerMemoryId": "MEMORY025_009",
+      "locationTag": "FORGE",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_058",
+      "displayName": "Free Hall Scene 59",
+      "participantRecruitIds": [
+        "SIGREC_HANA_ASHFORD",
+        "SIGREC_ASTER_STARLING"
+      ],
+      "triggerMemoryId": "MEMORY025_010",
+      "locationTag": "LIBRARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_059",
+      "displayName": "Free Hall Scene 60",
+      "participantRecruitIds": [
+        "SIGREC_KELLAN_DAWNSHIELD",
+        "SIGREC_NESSA_WESTFALL"
+      ],
+      "triggerMemoryId": "MEMORY025_011",
+      "locationTag": "WALLS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_060",
+      "displayName": "Free Hall Scene 61",
+      "participantRecruitIds": [
+        "SIGREC_FARA_OATHKEEPER",
+        "SIGREC_BRENNA_SKYWARD"
+      ],
+      "triggerMemoryId": "MEMORY025_012",
+      "locationTag": "COMMONS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_061",
+      "displayName": "Free Hall Scene 62",
+      "participantRecruitIds": [
+        "SIGREC_WREN_THORNWAKE",
+        "SIGREC_WILLOW_WINTERGLASS"
+      ],
+      "triggerMemoryId": "MEMORY025_013",
+      "locationTag": "INFIRMARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_062",
+      "displayName": "Free Hall Scene 63",
+      "participantRecruitIds": [
+        "SIGREC_LIORA_DAWNMERE",
+        "SIGREC_NOLAN_SUNMERE"
+      ],
+      "triggerMemoryId": "MEMORY025_014",
+      "locationTag": "TRAINING",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_063",
+      "displayName": "Free Hall Scene 64",
+      "participantRecruitIds": [
+        "SIGREC_ZEV_LOWEN",
+        "SIGREC_EMERY_WHITEBRIAR"
+      ],
+      "triggerMemoryId": "MEMORY025_015",
+      "locationTag": "FORGE",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_064",
+      "displayName": "Free Hall Scene 65",
+      "participantRecruitIds": [
+        "SIGREC_MIREL_DUSKFIELD",
+        "SIGREC_FINNIAN_IRONCREST"
+      ],
+      "triggerMemoryId": "MEMORY025_016",
+      "locationTag": "LIBRARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_065",
+      "displayName": "Free Hall Scene 66",
+      "participantRecruitIds": [
+        "SIGREC_TOMAS_SWIFTBROOK",
+        "SIGREC_CAIUS_LAKESONG"
+      ],
+      "triggerMemoryId": "MEMORY025_017",
+      "locationTag": "WALLS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_066",
+      "displayName": "Free Hall Scene 67",
+      "participantRecruitIds": [
+        "SIGREC_JALEN_BRIGHTSTEEL",
+        "SIGREC_SOREN_STARLING"
+      ],
+      "triggerMemoryId": "MEMORY025_018",
+      "locationTag": "COMMONS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_067",
+      "displayName": "Free Hall Scene 68",
+      "participantRecruitIds": [
+        "SIGREC_JORA_FIRECREST",
+        "SIGREC_FENN_BRIGHTWATER"
+      ],
+      "triggerMemoryId": "MEMORY025_019",
+      "locationTag": "INFIRMARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_068",
+      "displayName": "Free Hall Scene 69",
+      "participantRecruitIds": [
+        "SIGREC_SYLVI_OATHKEEPER",
+        "SIGREC_ARIA_ASTERFALL"
+      ],
+      "triggerMemoryId": "MEMORY025_020",
+      "locationTag": "TRAINING",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_069",
+      "displayName": "Free Hall Scene 70",
+      "participantRecruitIds": [
+        "SIGREC_OREN_MOONWAKE",
+        "SIGREC_MARA_BRIGHTWATER"
+      ],
+      "triggerMemoryId": "MEMORY025_021",
+      "locationTag": "FORGE",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_070",
+      "displayName": "Free Hall Scene 71",
+      "participantRecruitIds": [
+        "SIGREC_FAELAN_STONEVALE",
+        "SIGREC_BASTIAN_RUNEBROOK"
+      ],
+      "triggerMemoryId": "MEMORY025_022",
+      "locationTag": "LIBRARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_071",
+      "displayName": "Free Hall Scene 72",
+      "participantRecruitIds": [
+        "SIGREC_SOREN_WESTFALL",
+        "SIGREC_JUNIA_SKYWARD"
+      ],
+      "triggerMemoryId": "MEMORY025_023",
+      "locationTag": "WALLS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_072",
+      "displayName": "Free Hall Scene 73",
+      "participantRecruitIds": [
+        "SIGREC_KORA_SWIFTBROOK",
+        "SIGREC_ARIA_KESTREL"
+      ],
+      "triggerMemoryId": "MEMORY025_024",
+      "locationTag": "COMMONS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_073",
+      "displayName": "Free Hall Scene 74",
+      "participantRecruitIds": [
+        "SIGREC_KAIA_LONGSTRIDE",
+        "SIGREC_FENN_GALEHEART"
+      ],
+      "triggerMemoryId": "MEMORY025_025",
+      "locationTag": "INFIRMARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_074",
+      "displayName": "Free Hall Scene 75",
+      "participantRecruitIds": [
+        "SIGREC_CAELAN_IVORYMERE",
+        "SIGREC_ZEV_LOWEN"
+      ],
+      "triggerMemoryId": "MEMORY025_026",
+      "locationTag": "TRAINING",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_075",
+      "displayName": "Free Hall Scene 76",
+      "participantRecruitIds": [
+        "SIGREC_ISOLDE_QUEENSREST",
+        "SIGREC_JACE_EASTWIND"
+      ],
+      "triggerMemoryId": "MEMORY025_027",
+      "locationTag": "FORGE",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_076",
+      "displayName": "Free Hall Scene 77",
+      "participantRecruitIds": [
+        "SIGREC_KAIA_BRIGHTWATER",
+        "SIGREC_VALE_LAKESONG"
+      ],
+      "triggerMemoryId": "MEMORY025_028",
+      "locationTag": "LIBRARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_077",
+      "displayName": "Free Hall Scene 78",
+      "participantRecruitIds": [
+        "SIGREC_JUNIA_RIVERSTONE",
+        "SIGREC_RHEA_SUNMERE"
+      ],
+      "triggerMemoryId": "MEMORY025_029",
+      "locationTag": "WALLS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_078",
+      "displayName": "Free Hall Scene 79",
+      "participantRecruitIds": [
+        "SIGREC_WILLOW_FOXGLOVE",
+        "SIGREC_AVRA_SKYRIDGE"
+      ],
+      "triggerMemoryId": "MEMORY025_030",
+      "locationTag": "COMMONS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_079",
+      "displayName": "Free Hall Scene 80",
+      "participantRecruitIds": [
+        "SIGREC_MINA_WINDROSE",
+        "SIGREC_RIVEN_DAWNSHIELD"
+      ],
+      "triggerMemoryId": "MEMORY025_031",
+      "locationTag": "INFIRMARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_080",
+      "displayName": "Free Hall Scene 81",
+      "participantRecruitIds": [
+        "SIGREC_JACE_EASTWIND",
+        "SIGREC_AMARIS_ROSEWARD"
+      ],
+      "triggerMemoryId": "MEMORY025_032",
+      "locationTag": "TRAINING",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_081",
+      "displayName": "Free Hall Scene 82",
+      "participantRecruitIds": [
+        "SIGREC_ELOWEN_KESTREL",
+        "SIGREC_BRISA_GLASSRIVER"
+      ],
+      "triggerMemoryId": "MEMORY025_033",
+      "locationTag": "FORGE",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_082",
+      "displayName": "Free Hall Scene 83",
+      "participantRecruitIds": [
+        "SIGREC_YARA_CROWNHILL",
+        "SIGREC_DORIAN_WINTERMERE"
+      ],
+      "triggerMemoryId": "MEMORY025_034",
+      "locationTag": "LIBRARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_083",
+      "displayName": "Free Hall Scene 84",
+      "participantRecruitIds": [
+        "SIGREC_EVREN_KINGSWELL",
+        "SIGREC_ELOWEN_CINDERWAKE"
+      ],
+      "triggerMemoryId": "MEMORY025_035",
+      "locationTag": "WALLS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_084",
+      "displayName": "Free Hall Scene 85",
+      "participantRecruitIds": [
+        "SIGREC_AVEN_WILLOWRUN",
+        "SIGREC_KIERAN_FAIRWIND"
+      ],
+      "triggerMemoryId": "MEMORY025_036",
+      "locationTag": "COMMONS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_085",
+      "displayName": "Free Hall Scene 86",
+      "participantRecruitIds": [
+        "SIGREC_DAVEN_ROSEWARD",
+        "SIGREC_TESSA_BRIGHTSTEEL"
+      ],
+      "triggerMemoryId": "MEMORY025_037",
+      "locationTag": "INFIRMARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_086",
+      "displayName": "Free Hall Scene 87",
+      "participantRecruitIds": [
+        "SIGREC_JALEN_FALLOWMERE",
+        "SIGREC_BRENNA_DAWNMERE"
+      ],
+      "triggerMemoryId": "MEMORY025_038",
+      "locationTag": "TRAINING",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_087",
+      "displayName": "Free Hall Scene 88",
+      "participantRecruitIds": [
+        "SIGREC_ARDEN_DAWNSHIELD",
+        "SIGREC_DELLA_NIGHTWELL"
+      ],
+      "triggerMemoryId": "MEMORY025_039",
+      "locationTag": "FORGE",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_088",
+      "displayName": "Free Hall Scene 89",
+      "participantRecruitIds": [
+        "SIGREC_BRISA_STEELMARK",
+        "SIGREC_BRAKKA_EMBERWALL"
+      ],
+      "triggerMemoryId": "MEMORY025_040",
+      "locationTag": "LIBRARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_089",
+      "displayName": "Free Hall Scene 90",
+      "participantRecruitIds": [
+        "SIGREC_GALEN_CINDERWAKE",
+        "SIGREC_QUIN_CROWNHILL"
+      ],
+      "triggerMemoryId": "MEMORY025_041",
+      "locationTag": "WALLS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_090",
+      "displayName": "Free Hall Scene 91",
+      "participantRecruitIds": [
+        "SIGREC_CIRO_REDFERN",
+        "SIGREC_ELARA_UMBERFIELD"
+      ],
+      "triggerMemoryId": "MEMORY025_042",
+      "locationTag": "COMMONS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_091",
+      "displayName": "Free Hall Scene 92",
+      "participantRecruitIds": [
+        "SIGREC_ASTER_STARLING",
+        "SIGREC_DELLA_SILVERBROOK"
+      ],
+      "triggerMemoryId": "MEMORY025_043",
+      "locationTag": "INFIRMARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_092",
+      "displayName": "Free Hall Scene 93",
+      "participantRecruitIds": [
+        "SIGREC_REEVE_SUNMERE",
+        "SIGREC_OREN_MOONWAKE"
+      ],
+      "triggerMemoryId": "MEMORY025_044",
+      "locationTag": "TRAINING",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_093",
+      "displayName": "Free Hall Scene 94",
+      "participantRecruitIds": [
+        "SIGREC_HANA_EASTWIND",
+        "SIGREC_JALEN_FALLOWMERE"
+      ],
+      "triggerMemoryId": "MEMORY025_045",
+      "locationTag": "FORGE",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_094",
+      "displayName": "Free Hall Scene 95",
+      "participantRecruitIds": [
+        "SIGREC_ZORA_STONEHAND",
+        "SIGREC_SOREN_MISTVALE"
+      ],
+      "triggerMemoryId": "MEMORY025_046",
+      "locationTag": "LIBRARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_095",
+      "displayName": "Free Hall Scene 96",
+      "participantRecruitIds": [
+        "SIGREC_AVRA_BLACKMERE",
+        "SIGREC_AMARIS_UMBERFIELD"
+      ],
+      "triggerMemoryId": "MEMORY025_047",
+      "locationTag": "WALLS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_096",
+      "displayName": "Free Hall Scene 97",
+      "participantRecruitIds": [
+        "SIGREC_FARA_FALLOWMERE",
+        "SIGREC_TESSA_FIRECREST"
+      ],
+      "triggerMemoryId": "MEMORY025_000",
+      "locationTag": "COMMONS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_097",
+      "displayName": "Free Hall Scene 98",
+      "participantRecruitIds": [
+        "SIGREC_VALE_LAKESONG",
+        "SIGREC_CALIA_IVORYMERE"
+      ],
+      "triggerMemoryId": "MEMORY025_001",
+      "locationTag": "INFIRMARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_098",
+      "displayName": "Free Hall Scene 99",
+      "participantRecruitIds": [
+        "SIGREC_WREN_RAVENSCAR",
+        "SIGREC_TESSA_GLASSRIVER"
+      ],
+      "triggerMemoryId": "MEMORY025_002",
+      "locationTag": "TRAINING",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_099",
+      "displayName": "Free Hall Scene 100",
+      "participantRecruitIds": [
+        "SIGREC_SOREN_QUICKWATER",
+        "SIGREC_XARA_CINDERWAKE"
+      ],
+      "triggerMemoryId": "MEMORY025_003",
+      "locationTag": "FORGE",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_100",
+      "displayName": "Free Hall Scene 101",
+      "participantRecruitIds": [
+        "SIGREC_YARA_THORNFIELD",
+        "SIGREC_HELIA_WHITEBRIAR"
+      ],
+      "triggerMemoryId": "MEMORY025_004",
+      "locationTag": "LIBRARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_101",
+      "displayName": "Free Hall Scene 102",
+      "participantRecruitIds": [
+        "SIGREC_LARK_THORNFIELD",
+        "SIGREC_AVRA_WINDROSE"
+      ],
+      "triggerMemoryId": "MEMORY025_005",
+      "locationTag": "WALLS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_102",
+      "displayName": "Free Hall Scene 103",
+      "participantRecruitIds": [
+        "SIGREC_ISOLDE_ASHFORD",
+        "SIGREC_DELIA_MARSHLIGHT"
+      ],
+      "triggerMemoryId": "MEMORY025_006",
+      "locationTag": "COMMONS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_103",
+      "displayName": "Free Hall Scene 104",
+      "participantRecruitIds": [
+        "SIGREC_SOREN_MISTVALE",
+        "SIGREC_AVRA_WOLFPINE"
+      ],
+      "triggerMemoryId": "MEMORY025_007",
+      "locationTag": "INFIRMARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_104",
+      "displayName": "Free Hall Scene 105",
+      "participantRecruitIds": [
+        "SIGREC_KORA_OATHKEEPER",
+        "SIGREC_DORIAN_WESTFALL"
+      ],
+      "triggerMemoryId": "MEMORY025_008",
+      "locationTag": "TRAINING",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_105",
+      "displayName": "Free Hall Scene 106",
+      "participantRecruitIds": [
+        "SIGREC_EMERY_SUNMERE",
+        "SIGREC_ASTER_WAYFARER"
+      ],
+      "triggerMemoryId": "MEMORY025_009",
+      "locationTag": "FORGE",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_106",
+      "displayName": "Free Hall Scene 107",
+      "participantRecruitIds": [
+        "SIGREC_MAELIN_CLEARBROOK",
+        "SIGREC_ORREN_CLAY"
+      ],
+      "triggerMemoryId": "MEMORY025_010",
+      "locationTag": "LIBRARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_107",
+      "displayName": "Free Hall Scene 108",
+      "participantRecruitIds": [
+        "SIGREC_JALEN_WARMARK",
+        "SIGREC_IMARA_WARMARK"
+      ],
+      "triggerMemoryId": "MEMORY025_011",
+      "locationTag": "WALLS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_108",
+      "displayName": "Free Hall Scene 109",
+      "participantRecruitIds": [
+        "SIGREC_NESSA_WESTFALL",
+        "SIGREC_PETRA_DAWNSHIELD"
+      ],
+      "triggerMemoryId": "MEMORY025_012",
+      "locationTag": "COMMONS",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_109",
+      "displayName": "Free Hall Scene 110",
+      "participantRecruitIds": [
+        "SIGREC_VESPER_LONGSTRIDE",
+        "SIGREC_HANA_ASHFORD"
+      ],
+      "triggerMemoryId": "MEMORY025_013",
+      "locationTag": "INFIRMARY",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_110",
+      "displayName": "Free Hall Scene 111",
+      "participantRecruitIds": [
+        "SIGREC_GARRAN_WARMARK",
+        "SIGREC_ISOLDE_QUEENSREST"
+      ],
+      "triggerMemoryId": "MEMORY025_014",
+      "locationTag": "TRAINING",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    },
+    {
+      "sceneId": "HALL025_111",
+      "displayName": "Free Hall Scene 112",
+      "participantRecruitIds": [
+        "SIGREC_LARK_MISTVALE",
+        "SIGREC_REEVE_SUNMERE"
+      ],
+      "triggerMemoryId": "MEMORY025_015",
+      "locationTag": "FORGE",
+      "summary": "A short parallel scene reveals character growth without consuming a day or blocking deployment.",
+      "operationCost": 0,
+      "expires": false,
+      "canCauseDeparture": false,
+      "deferWithoutPenalty": true
+    }
+  ]
+}

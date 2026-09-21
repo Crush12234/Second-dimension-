@@ -1,0 +1,449 @@
+{
+  "contentVersion": "FINAL_GAME_WORLD_GATE_SMOKE_MATRIX_024_1.0",
+  "cases": [
+    {
+      "caseId": "RC023_BOOT",
+      "title": "Boot and continue/new-guild flow",
+      "category": "FOUNDATION",
+      "requiredSystems": [
+        "Boot scene",
+        "profile selection",
+        "save slot"
+      ],
+      "expectedEvidence": "Boot reaches the living Guild without Console errors.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_RECRUIT_BOARD",
+      "title": "Committed Applicant Board",
+      "category": "RECRUITMENT",
+      "requiredSystems": [
+        "Applicant Board",
+        "deterministic seed"
+      ],
+      "expectedEvidence": "Reopening cannot reroll applicants.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_SIGN_AUTOGEN",
+      "title": "Sign unseen generated recruit",
+      "category": "RECRUITMENT",
+      "requiredSystems": [
+        "Recruit Auto-Generation 010",
+        "exact-once signing"
+      ],
+      "expectedEvidence": "Identity, weapon family, Arts, and visual seed persist.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_EQUIPMENT",
+      "title": "Manual equipment and locks",
+      "category": "EQUIPMENT",
+      "requiredSystems": [
+        "Guild inventory",
+        "item/slot locks"
+      ],
+      "expectedEvidence": "No automatic equip; legal Arts update.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_UNIONS",
+      "title": "Build two legal Unions",
+      "category": "UNIONS",
+      "requiredSystems": [
+        "Union Builder",
+        "formation",
+        "doctrine"
+      ],
+      "expectedEvidence": "Complete Forecasts remain contextual and member Arts non-clickable.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_CITY",
+      "title": "Place, staff, upgrade, and synergize buildings",
+      "category": "CITY",
+      "requiredSystems": [
+        "30 buildings",
+        "staffing",
+        "adjacency"
+      ],
+      "expectedEvidence": "City changes visually and affects combat/growth within caps.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_CONTRACT",
+      "title": "Accept detailed contract",
+      "category": "GUILD_LOOP",
+      "requiredSystems": [
+        "Contract Board",
+        "committed contract"
+      ],
+      "expectedEvidence": "Objectives, risks, rewards, and board seed persist.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_EXPEDITION",
+      "title": "Traverse expedition board",
+      "category": "GUILD_LOOP",
+      "requiredSystems": [
+        "route choice",
+        "supplies",
+        "fatigue"
+      ],
+      "expectedEvidence": "Committed movement and checks cannot reroll.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_EVENT",
+      "title": "Resolve event and relationship memory",
+      "category": "GUILD_LOOP",
+      "requiredSystems": [
+        "2d6 check",
+        "memory"
+      ],
+      "expectedEvidence": "Scene costs no operation and cannot remove a recruit.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_BATTLE",
+      "title": "Certified cinematic Union battle",
+      "category": "BATTLE",
+      "requiredSystems": [
+        "20 Union capacity",
+        "240 Art bindings"
+      ],
+      "expectedEvidence": "Two weapon families, two Mystic schools, healing, Guard, and positional combat are visible.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_REWARD",
+      "title": "Deterministic reward claim",
+      "category": "REWARD",
+      "requiredSystems": [
+        "existing reward receipt",
+        "manual claim"
+      ],
+      "expectedEvidence": "Claim exactly once; reopen/reload cannot reroll.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_RELATIONSHIP",
+      "title": "Free relationship scene",
+      "category": "RELATIONSHIPS",
+      "requiredSystems": [
+        "deferable scene"
+      ],
+      "expectedEvidence": "No day cost, expiry, or departure penalty.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_DEFENSE",
+      "title": "Skyhome strategic defense",
+      "category": "DEFENSE",
+      "requiredSystems": [
+        "five lanes",
+        "12 profiles",
+        "36 waves"
+      ],
+      "expectedEvidence": "Support waves lead into the same certified battle.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_CHRONICLE",
+      "title": "Historical Chronicle and Canon Echo",
+      "category": "CANON",
+      "requiredSystems": [
+        "36 canon events"
+      ],
+      "expectedEvidence": "Published history stays fixed; Future Locked events remain gated.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_CAMPAIGN",
+      "title": "Start and complete playable campaign chapter",
+      "category": "CAMPAIGN",
+      "requiredSystems": [
+        "82 active chapter blueprints"
+      ],
+      "expectedEvidence": "Steps and chapter receipts apply exactly once.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_WORLD_PRESENTATION",
+      "title": "World-specific presentation",
+      "category": "PRESENTATION",
+      "requiredSystems": [
+        "8 world themes",
+        "64 enemy profiles",
+        "60 audio cues"
+      ],
+      "expectedEvidence": "World identity, enemies, loot, maps, and audio resolve by stable ID.",
+      "exactOnceRequired": false,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_REPEATABLE",
+      "title": "Repeatable contract and crisis operation",
+      "category": "CAMPAIGN",
+      "requiredSystems": [
+        "32 repeatables",
+        "16 crises"
+      ],
+      "expectedEvidence": "Rewards remain bounded and Union caps remain 10 vs 10.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_WEAPON_EVOLUTION",
+      "title": "Weapon evolution",
+      "category": "PROGRESSION",
+      "requiredSystems": [
+        "12 tracks",
+        "72 recipes"
+      ],
+      "expectedEvidence": "Owned instance ID, locks, history, and legal Arts persist.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_ARMOR_EVOLUTION",
+      "title": "Armor evolution",
+      "category": "PROGRESSION",
+      "requiredSystems": [
+        "144 recipes"
+      ],
+      "expectedEvidence": "Materials spend once and equipment remains manually controlled.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_CLASS_CERT",
+      "title": "Advanced-class certification",
+      "category": "PROGRESSION",
+      "requiredSystems": [
+        "18 classes",
+        "30 routes"
+      ],
+      "expectedEvidence": "Meaningful proficiency and Union discipline are required; learned Arts remain.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_ABYSS_RECON",
+      "title": "Abyss Recon operation",
+      "category": "ABYSS",
+      "requiredSystems": [
+        "10 floors",
+        "30 operations"
+      ],
+      "expectedEvidence": "Committed steps use exact-once receipts.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_ABYSS_GUARDIAN",
+      "title": "Abyss Guardian battle and first clear",
+      "category": "ABYSS",
+      "requiredSystems": [
+        "existing battle reward",
+        "above-ground change"
+      ],
+      "expectedEvidence": "First clear changes Skyhome and repeat farming is bounded.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_INVOCATION",
+      "title": "Craft and manually equip Invocation Artifact",
+      "category": "INVOCATION",
+      "requiredSystems": [
+        "24 bases",
+        "30 affixes",
+        "12 paths"
+      ],
+      "expectedEvidence": "Artifact is real inventory equipment and never a duplicate reward.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_ECHO",
+      "title": "Use bounded Invocation Echo",
+      "category": "INVOCATION",
+      "requiredSystems": [
+        "10 Echoes"
+      ],
+      "expectedEvidence": "Echo appears through complete Forecasts and cannot be selected individually.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_COVENANT",
+      "title": "Complete voluntary Great Covenant trial",
+      "category": "COVENANTS",
+      "requiredSystems": [
+        "8 Covenants"
+      ],
+      "expectedEvidence": "Public need, moral trial, Abyss recognition, and voluntary acceptance are required.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_FUTURE_CATALOG",
+      "title": "Validate future campaign authority",
+      "category": "FUTURE_CONTENT",
+      "requiredSystems": [
+        "120 quests",
+        "10 maps",
+        "24 fortresses",
+        "210 encounters"
+      ],
+      "expectedEvidence": "Content is available for adaptation without starting a second campaign state machine.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_ACCESSIBILITY",
+      "title": "PC/mobile-safe accessibility",
+      "category": "ACCESSIBILITY",
+      "requiredSystems": [
+        "text scale",
+        "reduced motion",
+        "controller/touch"
+      ],
+      "expectedEvidence": "No essential information depends on color or high motion.",
+      "exactOnceRequired": false,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_SAVE_RELAUNCH",
+      "title": "Save, close, and relaunch",
+      "category": "PERSISTENCE",
+      "requiredSystems": [
+        "save format 9",
+        "migration chain"
+      ],
+      "expectedEvidence": "Recruit, city, campaign, progression, Abyss, artifacts, Covenants, and rewards persist.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_WINDOWS_BUILD",
+      "title": "Windows owner-review build",
+      "category": "DELIVERY",
+      "requiredSystems": [
+        "EXE",
+        "_Data",
+        "UnityPlayer.dll"
+      ],
+      "expectedEvidence": "Complete build folder launches outside the Editor.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC023_OWNER_CERT",
+      "title": "Owner review and issue triage",
+      "category": "CERTIFICATION",
+      "requiredSystems": [
+        "scorecard",
+        "known issues",
+        "evidence"
+      ],
+      "expectedEvidence": "No completion claim before tests, smoke run, and owner approval.",
+      "exactOnceRequired": false,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC024_WORLD_GATE_COVERAGE",
+      "title": "All operation families use World Gate boards",
+      "category": "WORLD_GATE",
+      "requiredSystems": [
+        "130 committed boards",
+        "1,372 nodes",
+        "Campaign 023 registry"
+      ],
+      "expectedEvidence": "82 story chapters, 32 repeatables, and 16 crises all resolve through committed expedition boards.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC024_WORLD_GATE_RETURN",
+      "title": "World Gate board-to-battle exact return",
+      "category": "WORLD_GATE",
+      "requiredSystems": [
+        "EncounterLaunchRequest017D",
+        "existing M2 reward",
+        "World Gate receipt"
+      ],
+      "expectedEvidence": "Battle returns exactly once to the committed node without creating a duplicate equipment reward.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC024_WORLD_TRAVEL",
+      "title": "World travel and standing persistence",
+      "category": "WORLD_GATE",
+      "requiredSystems": [
+        "8 travel routes",
+        "8 standing systems",
+        "return to Skyhome"
+      ],
+      "expectedEvidence": "Travel, Trust, Tension, Civilian Support, and current world survive save and relaunch.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC024_WORLD_RECRUITS",
+      "title": "World-origin recruit unlocks",
+      "category": "RECRUITMENT",
+      "requiredSystems": [
+        "8 origin unlock sets",
+        "Recruit Auto-Generation 010",
+        "permanent signing"
+      ],
+      "expectedEvidence": "Standing unlocks a deterministic world-origin applicant whose permanent identity persists.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC024_SAVE_V10",
+      "title": "Save v10 migration and recovery",
+      "category": "PERSISTENCE",
+      "requiredSystems": [
+        "AtomicSaveStore",
+        "v9-to-v10 migration",
+        "backup recovery"
+      ],
+      "expectedEvidence": "A v9 save upgrades to v10 once and a damaged primary can recover from its backup.",
+      "exactOnceRequired": true,
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "RC024_GUILDMASTER_LEDGER",
+      "title": "Guildmaster Ledger continuation guidance",
+      "category": "USABILITY",
+      "requiredSystems": [
+        "Ledger tab",
+        "health snapshot",
+        "next-action guidance"
+      ],
+      "expectedEvidence": "The player can see active work, unresolved rewards, city state, defense, campaign, and World Gate priorities in one screen.",
+      "exactOnceRequired": false,
+      "requiredForOwnerReview": true
+    }
+  ]
+}

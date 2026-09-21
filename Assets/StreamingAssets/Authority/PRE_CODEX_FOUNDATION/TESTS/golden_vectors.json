@@ -1,0 +1,352 @@
+{
+  "board": {
+    "exit": "EXIT",
+    "margin": "MARGIN_001",
+    "nodes": [
+      {
+        "critical": true,
+        "id": "START",
+        "type": "START",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "critical": true,
+        "id": "C01",
+        "type": "EVENT",
+        "x": 0,
+        "y": -1
+      },
+      {
+        "critical": true,
+        "id": "C02",
+        "type": "BATTLE",
+        "x": 1,
+        "y": -1
+      },
+      {
+        "critical": true,
+        "id": "C03",
+        "type": "CAMP",
+        "x": 2,
+        "y": -1
+      },
+      {
+        "critical": true,
+        "id": "C04",
+        "type": "RESOURCE",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "critical": true,
+        "id": "C05",
+        "type": "RESOURCE",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "critical": true,
+        "id": "C06",
+        "type": "ELITE_BATTLE",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "critical": true,
+        "id": "EXIT",
+        "type": "BOSS",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "critical": false,
+        "id": "B00",
+        "type": "BATTLE",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "critical": false,
+        "id": "B01",
+        "type": "MYSTERY",
+        "x": 0,
+        "y": 1
+      },
+      {
+        "critical": false,
+        "id": "B02",
+        "type": "BATTLE",
+        "x": 3,
+        "y": 0
+      },
+      {
+        "critical": false,
+        "id": "B03",
+        "type": "EVENT",
+        "x": 3,
+        "y": -1
+      },
+      {
+        "critical": false,
+        "id": "B04",
+        "type": "BATTLE",
+        "x": 1,
+        "y": -2
+      },
+      {
+        "critical": false,
+        "id": "B05",
+        "type": "BATTLE",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "critical": false,
+        "id": "B06",
+        "type": "MYSTERY",
+        "x": 0,
+        "y": -2
+      },
+      {
+        "critical": false,
+        "id": "MARGIN_001",
+        "type": "MARGIN",
+        "x": 2,
+        "y": -2
+      }
+    ],
+    "normalEdges": [
+      [
+        "B00",
+        "B01"
+      ],
+      [
+        "B00",
+        "C05"
+      ],
+      [
+        "B01",
+        "C06"
+      ],
+      [
+        "B02",
+        "C04"
+      ],
+      [
+        "B03",
+        "C03"
+      ],
+      [
+        "B04",
+        "C02"
+      ],
+      [
+        "B05",
+        "C04"
+      ],
+      [
+        "B06",
+        "C01"
+      ],
+      [
+        "C01",
+        "C02"
+      ],
+      [
+        "C01",
+        "START"
+      ],
+      [
+        "C02",
+        "C03"
+      ],
+      [
+        "C03",
+        "C04"
+      ],
+      [
+        "C04",
+        "C05"
+      ],
+      [
+        "C05",
+        "C06"
+      ],
+      [
+        "C06",
+        "EXIT"
+      ]
+    ],
+    "secretEdge": [
+      "B04",
+      "MARGIN_001"
+    ],
+    "seed": "59D0D0C382798183:36F44A3849756073",
+    "start": "START"
+  },
+  "checks": [
+    {
+      "degree": "SUCCESS",
+      "dieA": 5,
+      "dieB": 3,
+      "total": 11
+    },
+    {
+      "degree": "CRITICAL_SUCCESS",
+      "dieA": 5,
+      "dieB": 5,
+      "total": 13
+    },
+    {
+      "degree": "SUCCESS",
+      "dieA": 3,
+      "dieB": 3,
+      "total": 9
+    },
+    {
+      "degree": "SUCCESS",
+      "dieA": 5,
+      "dieB": 2,
+      "total": 10
+    },
+    {
+      "degree": "SUCCESS",
+      "dieA": 3,
+      "dieB": 6,
+      "total": 12
+    }
+  ],
+  "pcg": {
+    "first10U32": [
+      198797011,
+      3803684820,
+      346211905,
+      4218557422,
+      1074995891,
+      594085060,
+      3561282023,
+      3541317521,
+      244531059,
+      3383138586
+    ],
+    "parts": [
+      20260811,
+      "GOLDEN",
+      1
+    ]
+  },
+  "recruits": [
+    {
+      "aptitudes": {
+        "GUARD": 124,
+        "MARTIAL": 122,
+        "MYSTIC": 95,
+        "RESTORATION": 92,
+        "SUPPORT": 101,
+        "TACTICAL": 114
+      },
+      "background": "CARAVAN_GUARD",
+      "generationSeed": "DA9206F43FD1DE92:3581F21FD5F1BB1C",
+      "growthPattern": "SPECIALIST",
+      "hiddenTalentRoll": 2828,
+      "id": "28FC5ABA193C6F4E",
+      "name": "Kass 01",
+      "race": "DEMON_HERITAGE",
+      "traits": [
+        "CURIOUS",
+        "COMPETITIVE"
+      ],
+      "visualSeed": "FA9E37C5E405D159"
+    },
+    {
+      "aptitudes": {
+        "GUARD": 96,
+        "MARTIAL": 119,
+        "MYSTIC": 103,
+        "RESTORATION": 124,
+        "SUPPORT": 124,
+        "TACTICAL": 82
+      },
+      "background": "HUNTER",
+      "generationSeed": "3B14C6314095C22F:3BF3E5D30C6E6352",
+      "growthPattern": "CONSISTENT",
+      "hiddenTalentRoll": 7903,
+      "id": "D5A3657325FEF32D",
+      "name": "Dane 02",
+      "race": "HUMAN",
+      "traits": [
+        "PROTECTIVE",
+        "PRAGMATIC"
+      ],
+      "visualSeed": "7617D52CBC2C01A6"
+    },
+    {
+      "aptitudes": {
+        "GUARD": 78,
+        "MARTIAL": 91,
+        "MYSTIC": 103,
+        "RESTORATION": 91,
+        "SUPPORT": 111,
+        "TACTICAL": 103
+      },
+      "background": "SALVAGER",
+      "generationSeed": "77BE5BDF8F7CF569:3CE65C0B3596C947",
+      "growthPattern": "UNSTABLE_GENIUS",
+      "hiddenTalentRoll": 4349,
+      "id": "8CC0377153B1ED0D",
+      "name": "Rikk 03",
+      "race": "GOBLIN",
+      "traits": [
+        "CURIOUS",
+        "PRAGMATIC"
+      ],
+      "visualSeed": "F17A1C9A957A0DFE"
+    },
+    {
+      "aptitudes": {
+        "GUARD": 107,
+        "MARTIAL": 98,
+        "MYSTIC": 85,
+        "RESTORATION": 97,
+        "SUPPORT": 102,
+        "TACTICAL": 103
+      },
+      "background": "CARAVAN_GUARD",
+      "generationSeed": "4E953E8832CCBC6C:E656E26F550260AD",
+      "growthPattern": "LATE_BLOOMER",
+      "hiddenTalentRoll": 7430,
+      "id": "35F43CDA7E04A8AC",
+      "name": "Tessa 04",
+      "race": "HUMAN",
+      "traits": [
+        "STUBBORN",
+        "COMPETITIVE"
+      ],
+      "visualSeed": "DCB081345D0DAC43"
+    },
+    {
+      "aptitudes": {
+        "GUARD": 112,
+        "MARTIAL": 105,
+        "MYSTIC": 121,
+        "RESTORATION": 101,
+        "SUPPORT": 112,
+        "TACTICAL": 77
+      },
+      "background": "APPRENTICE",
+      "generationSeed": "724DC1A71AC5EAF6:90BDBC901ADE633D",
+      "growthPattern": "CONSISTENT",
+      "hiddenTalentRoll": 949,
+      "id": "9B38998C71EB8204",
+      "name": "Keva 05",
+      "race": "DOG_TRIBE",
+      "traits": [
+        "PRAGMATIC",
+        "STUBBORN"
+      ],
+      "visualSeed": "809B224DE47A88DD"
+    }
+  ],
+  "specVersion": "PORTABLE_RNG_1.0"
+}

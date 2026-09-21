@@ -1,0 +1,469 @@
+{
+  "sieges": [
+    {
+      "id": "SIEGE_SKYHOME_GOBLIN_WAR",
+      "worldId": "SKYHOME",
+      "name": "Skyhome Five-Lane Defense",
+      "objectiveType": "DEFEND_CITY",
+      "canonStatus": "FUTURE_CANON_LOCKED",
+      "usesStrategicDefense017H": true,
+      "usesCertifiedUnionBattle": true,
+      "createsSecondCombatResolver": false,
+      "lanes": [
+        "Approach",
+        "Civilian Route",
+        "Supply Route",
+        "Inner Defense",
+        "Command Objective"
+      ],
+      "waveCount": 5,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "requiresCivilianRules": true,
+      "allowsSurrender": true,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "noConquestEnding": true,
+      "rewardChannel": "Existing deterministic battle reward plus campaign receipt; never duplicate equipment drops"
+    },
+    {
+      "id": "SIEGE_GOBLIN_FORTRESS_GATE",
+      "worldId": "WORLD_GOBLIN_001",
+      "name": "Goblin Fortress Gate Capture",
+      "objectiveType": "CAPTURE_GATE_WITH_SURRENDER",
+      "canonStatus": "FUTURE_CANON_LOCKED",
+      "usesStrategicDefense017H": true,
+      "usesCertifiedUnionBattle": true,
+      "createsSecondCombatResolver": false,
+      "lanes": [
+        "Approach",
+        "Civilian Route",
+        "Supply Route",
+        "Inner Defense",
+        "Command Objective"
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "requiresCivilianRules": true,
+      "allowsSurrender": true,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "noConquestEnding": false,
+      "rewardChannel": "Existing deterministic battle reward plus campaign receipt; never duplicate equipment drops"
+    },
+    {
+      "id": "SIEGE_MONTH_CATHEDRAL_UPRISING",
+      "worldId": "WORLD_GOBLIN_001",
+      "name": "Month-Cathedral Uprising",
+      "objectiveType": "PROTECT_CIVILIANS_AND_RECORDS",
+      "canonStatus": "CANON_DERIVED_GAMEPLAY",
+      "usesStrategicDefense017H": true,
+      "usesCertifiedUnionBattle": true,
+      "createsSecondCombatResolver": false,
+      "lanes": [
+        "Approach",
+        "Civilian Route",
+        "Supply Route",
+        "Inner Defense",
+        "Command Objective"
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "requiresCivilianRules": true,
+      "allowsSurrender": true,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "noConquestEnding": true,
+      "rewardChannel": "Existing deterministic battle reward plus campaign receipt; never duplicate equipment drops"
+    },
+    {
+      "id": "SIEGE_TUSKGATE_SHIELD_TRIAL",
+      "worldId": "WORLD_ORC_002",
+      "name": "Tuskgate Shield Trial",
+      "objectiveType": "HOLD_AND_ARBITRATE",
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE",
+      "usesStrategicDefense017H": true,
+      "usesCertifiedUnionBattle": true,
+      "createsSecondCombatResolver": false,
+      "lanes": [
+        "Approach",
+        "Civilian Route",
+        "Supply Route",
+        "Inner Defense",
+        "Command Objective"
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "requiresCivilianRules": true,
+      "allowsSurrender": true,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "noConquestEnding": true,
+      "rewardChannel": "Existing deterministic battle reward plus campaign receipt; never duplicate equipment drops"
+    },
+    {
+      "id": "SIEGE_BLACK_ARENA_BREAK",
+      "worldId": "WORLD_ORC_002",
+      "name": "Black Arena Break",
+      "objectiveType": "RESCUE_AND_BREAK_INSTITUTION",
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE",
+      "usesStrategicDefense017H": true,
+      "usesCertifiedUnionBattle": true,
+      "createsSecondCombatResolver": false,
+      "lanes": [
+        "Approach",
+        "Civilian Route",
+        "Supply Route",
+        "Inner Defense",
+        "Command Objective"
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "requiresCivilianRules": true,
+      "allowsSurrender": true,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "noConquestEnding": true,
+      "rewardChannel": "Existing deterministic battle reward plus campaign receipt; never duplicate equipment drops"
+    },
+    {
+      "id": "SIEGE_GOLDEN_CAGE_LIBERATION",
+      "worldId": "WORLD_BEASTKIN_003",
+      "name": "Golden Cage Liberation",
+      "objectiveType": "LIBERATE_AND_EVACUATE",
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE",
+      "usesStrategicDefense017H": true,
+      "usesCertifiedUnionBattle": true,
+      "createsSecondCombatResolver": false,
+      "lanes": [
+        "Approach",
+        "Civilian Route",
+        "Supply Route",
+        "Inner Defense",
+        "Command Objective"
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "requiresCivilianRules": true,
+      "allowsSurrender": true,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "noConquestEnding": true,
+      "rewardChannel": "Existing deterministic battle reward plus campaign receipt; never duplicate equipment drops"
+    },
+    {
+      "id": "SIEGE_OPEN_COURT_DEFENSE",
+      "worldId": "WORLD_BEASTKIN_003",
+      "name": "Open Court Defense",
+      "objectiveType": "DEFEND_DIPLOMATIC_ASSEMBLY",
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE",
+      "usesStrategicDefense017H": true,
+      "usesCertifiedUnionBattle": true,
+      "createsSecondCombatResolver": false,
+      "lanes": [
+        "Approach",
+        "Civilian Route",
+        "Supply Route",
+        "Inner Defense",
+        "Command Objective"
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "requiresCivilianRules": true,
+      "allowsSurrender": true,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "noConquestEnding": true,
+      "rewardChannel": "Existing deterministic battle reward plus campaign receipt; never duplicate equipment drops"
+    },
+    {
+      "id": "SIEGE_CONTRACTUM_SEALBREAK",
+      "worldId": "WORLD_DEMON_004",
+      "name": "Contractum Sealbreak",
+      "objectiveType": "BREAK_ILLEGAL_CONTRACTS",
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE",
+      "usesStrategicDefense017H": true,
+      "usesCertifiedUnionBattle": true,
+      "createsSecondCombatResolver": false,
+      "lanes": [
+        "Approach",
+        "Civilian Route",
+        "Supply Route",
+        "Inner Defense",
+        "Command Objective"
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "requiresCivilianRules": true,
+      "allowsSurrender": true,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "noConquestEnding": true,
+      "rewardChannel": "Existing deterministic battle reward plus campaign receipt; never duplicate equipment drops"
+    },
+    {
+      "id": "SIEGE_RED_ARCHIVE_EVACUATION",
+      "worldId": "WORLD_DEMON_004",
+      "name": "Red Archive Evacuation",
+      "objectiveType": "PROTECT_KNOWLEDGE_AND_PEOPLE",
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE",
+      "usesStrategicDefense017H": true,
+      "usesCertifiedUnionBattle": true,
+      "createsSecondCombatResolver": false,
+      "lanes": [
+        "Approach",
+        "Civilian Route",
+        "Supply Route",
+        "Inner Defense",
+        "Command Objective"
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "requiresCivilianRules": true,
+      "allowsSurrender": true,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "noConquestEnding": true,
+      "rewardChannel": "Existing deterministic battle reward plus campaign receipt; never duplicate equipment drops"
+    },
+    {
+      "id": "SIEGE_SILVERQUIET_LOCKDOWN",
+      "worldId": "WORLD_DARK_ELF_005",
+      "name": "Silverquiet Lockdown",
+      "objectiveType": "REVEAL_WITHOUT_MASS_CASUALTY",
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE",
+      "usesStrategicDefense017H": true,
+      "usesCertifiedUnionBattle": true,
+      "createsSecondCombatResolver": false,
+      "lanes": [
+        "Approach",
+        "Civilian Route",
+        "Supply Route",
+        "Inner Defense",
+        "Command Objective"
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "requiresCivilianRules": true,
+      "allowsSurrender": true,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "noConquestEnding": true,
+      "rewardChannel": "Existing deterministic battle reward plus campaign receipt; never duplicate equipment drops"
+    },
+    {
+      "id": "SIEGE_DUSKWOOD_TRUTH_DEFENSE",
+      "worldId": "WORLD_DARK_ELF_005",
+      "name": "Duskwood Truth Defense",
+      "objectiveType": "DEFEND_WITNESSES",
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE",
+      "usesStrategicDefense017H": true,
+      "usesCertifiedUnionBattle": true,
+      "createsSecondCombatResolver": false,
+      "lanes": [
+        "Approach",
+        "Civilian Route",
+        "Supply Route",
+        "Inner Defense",
+        "Command Objective"
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "requiresCivilianRules": true,
+      "allowsSurrender": true,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "noConquestEnding": true,
+      "rewardChannel": "Existing deterministic battle reward plus campaign receipt; never duplicate equipment drops"
+    },
+    {
+      "id": "SIEGE_WARRENHALL_GRANARY_BLOCKADE",
+      "worldId": "WORLD_BUNNY_006",
+      "name": "Warrenhall Granary Blockade",
+      "objectiveType": "BREAK_BLOCKADE_AND_FEED_CITY",
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE",
+      "usesStrategicDefense017H": true,
+      "usesCertifiedUnionBattle": true,
+      "createsSecondCombatResolver": false,
+      "lanes": [
+        "Approach",
+        "Civilian Route",
+        "Supply Route",
+        "Inner Defense",
+        "Command Objective"
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "requiresCivilianRules": true,
+      "allowsSurrender": true,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "noConquestEnding": true,
+      "rewardChannel": "Existing deterministic battle reward plus campaign receipt; never duplicate equipment drops"
+    },
+    {
+      "id": "SIEGE_ROADBELL_CONVOY_DEFENSE",
+      "worldId": "WORLD_BUNNY_006",
+      "name": "Roadbell Convoy Defense",
+      "objectiveType": "ESCORT_AND_HOLD_ROUTES",
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE",
+      "usesStrategicDefense017H": true,
+      "usesCertifiedUnionBattle": true,
+      "createsSecondCombatResolver": false,
+      "lanes": [
+        "Approach",
+        "Civilian Route",
+        "Supply Route",
+        "Inner Defense",
+        "Command Objective"
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "requiresCivilianRules": true,
+      "allowsSurrender": true,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "noConquestEnding": true,
+      "rewardChannel": "Existing deterministic battle reward plus campaign receipt; never duplicate equipment drops"
+    },
+    {
+      "id": "SIEGE_OATHPOST_MUTINY",
+      "worldId": "WORLD_DOG_007",
+      "name": "Oathpost Mutiny",
+      "objectiveType": "PROTECT_CIVILIANS_AND_REFUSERS",
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE",
+      "usesStrategicDefense017H": true,
+      "usesCertifiedUnionBattle": true,
+      "createsSecondCombatResolver": false,
+      "lanes": [
+        "Approach",
+        "Civilian Route",
+        "Supply Route",
+        "Inner Defense",
+        "Command Objective"
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "requiresCivilianRules": true,
+      "allowsSurrender": true,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "noConquestEnding": true,
+      "rewardChannel": "Existing deterministic battle reward plus campaign receipt; never duplicate equipment drops"
+    },
+    {
+      "id": "SIEGE_STORMPAW_BORDER_DEFENSE",
+      "worldId": "WORLD_DOG_007",
+      "name": "Stormpaw Border Defense",
+      "objectiveType": "DEFEND_WITH_RULES_OF_ENGAGEMENT",
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE",
+      "usesStrategicDefense017H": true,
+      "usesCertifiedUnionBattle": true,
+      "createsSecondCombatResolver": false,
+      "lanes": [
+        "Approach",
+        "Civilian Route",
+        "Supply Route",
+        "Inner Defense",
+        "Command Objective"
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "requiresCivilianRules": true,
+      "allowsSurrender": true,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "noConquestEnding": true,
+      "rewardChannel": "Existing deterministic battle reward plus campaign receipt; never duplicate equipment drops"
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "contentVersion": "GOW_PASS08_0.13",
+  "briefs": [
+    {
+      "id": "ANCHOR_01_TITLE",
+      "name": "Title Screen",
+      "composition": "wide view of Skyhome gate silhouette and emerging Guild Hall under dimensional sky",
+      "camera": "landscape 19.5:9 production framing",
+      "characters": "Use distinct silhouettes; no duplicate-face placeholders in concept target",
+      "ui": "center title; lower-right menu; no clutter",
+      "lighting": "cinematic but UI-safe contrast",
+      "visualHierarchy": [
+        "character/objective first",
+        "decision controls second",
+        "decorative lore third"
+      ],
+      "mood": "hopeful frontier scale",
+      "requiredAssets": [
+        "background key art",
+        "UI frame kit",
+        "icons/tokens",
+        "representative character assets"
+      ],
+      "forbiddenMistakes": [
+        "tiny text",
+        "gacha rarity presentation",
+        "generic blue sci-fi HUD",
+        "excess empty white panels",
+        "unreadable mobile density"
+      ],
+      "implementationPurpose": "Locks visual composition and asset boundaries for Codex/Unity implementation."
+    },
+    {
+      "id": "ANCHOR_02_HALL",
+      "name": "Ruined Annex Guild Hall",
+      "composition": "side-cutaway of battered annex with 4 usable rooms and visible recruits",
+      "camera": "landscape 19.5:9 production framing",
+      "characters": "Use distinct silhouettes; no duplicate-face placeholders in concept target",
+      "ui": "room hotspots integrated in architecture",
+      "lighting": "cinematic but UI-safe contrast",
+      "visualHierarchy": [
+        "character/objective first",
+        "decision controls second",
+        "decorative lore third"
+      ],
+      "mood": "scrappy, occupied, worth rebuilding",
+      "requiredAssets": [
+        "background key art",
+        "UI frame kit",
+        "icons/tokens",
+        "representative character assets"
+      ],
+      "forbiddenMistakes": [
+        "tiny text",
+        "gacha rarity presentation",
+        "generic blue sci-fi HUD",
+        "excess empty white panels",
+        "unreadable mobile density"
+      ],
+      "implementationPurpose": "Locks visual composition and asset boundaries for Codex/Unity implementation."
+    },
+    {
+      "id": "ANCHOR_03_APPLICANTS",
+      "name": "Applicant Board",
+      "composition": "three large applicant dossiers on physical notice-board/table hybrid",
+      "camera": "landscape 19.5:9 production framing",
+      "characters": "Use distinct silhouettes; no duplicate-face placeholders in concept target",
+      "ui": "portrait-dominant cards with observation text",
+      "lighting": "cinematic but UI-safe contrast",
+      "visualHierarchy": [
+        "character/objective first",
+        "decision controls second",
+        "decorative lore third"
+      ],
+      "mood": "curiosity, people not pulls",
+      "requiredAssets": [
+        "background key art",
+        "UI frame kit",
+        "icons/tokens",
+        "representative character assets"
+      ],
+      "forbiddenMistakes": [
+        "tiny text",
+        "gacha rarity presentation",
+        "generic blue sci-fi HUD",
+        "excess empty white panels",
+        "unreadable mobile density"
+      ],
+      "implementationPurpose": "Locks visual composition and asset boundaries for Codex/Unity implementation."
+    },
+    {
+      "id": "ANCHOR_04_RECRUIT",
+      "name": "Recruit Detail",
+      "composition": "large portrait left, readable dossier center, tabs right/top",
+      "camera": "landscape 19.5:9 production framing",
+      "characters": "Use distinct silhouettes; no duplicate-face placeholders in concept target",
+      "ui": "history and relationships visible without spreadsheet density",
+      "lighting": "cinematic but UI-safe contrast",
+      "visualHierarchy": [
+        "character/objective first",
+        "decision controls second",
+        "decorative lore third"
+      ],
+      "mood": "personal, premium character sheet",
+      "requiredAssets": [
+        "background key art",
+        "UI frame kit",
+        "icons/tokens",
+        "representative character assets"
+      ],
+      "forbiddenMistakes": [
+        "tiny text",
+        "gacha rarity presentation",
+        "generic blue sci-fi HUD",
+        "excess empty white panels",
+        "unreadable mobile density"
+      ],
+      "implementationPurpose": "Locks visual composition and asset boundaries for Codex/Unity implementation."
+    },
+    {
+      "id": "ANCHOR_05_UNION",
+      "name": "Union Builder",
+      "composition": "formation diagram center, member portraits around it, doctrine/forecast tendencies right",
+      "camera": "landscape 19.5:9 production framing",
+      "characters": "Use distinct silhouettes; no duplicate-face placeholders in concept target",
+      "ui": "drag and tap alternatives",
+      "lighting": "cinematic but UI-safe contrast",
+      "visualHierarchy": [
+        "character/objective first",
+        "decision controls second",
+        "decorative lore third"
+      ],
+      "mood": "strategic but readable",
+      "requiredAssets": [
+        "background key art",
+        "UI frame kit",
+        "icons/tokens",
+        "representative character assets"
+      ],
+      "forbiddenMistakes": [
+        "tiny text",
+        "gacha rarity presentation",
+        "generic blue sci-fi HUD",
+        "excess empty white panels",
+        "unreadable mobile density"
+      ],
+      "implementationPurpose": "Locks visual composition and asset boundaries for Codex/Unity implementation."
+    },
+    {
+      "id": "ANCHOR_06_BOARD",
+      "name": "Expedition Board",
+      "composition": "angled illustrated board with branching routes, fog, Union tokens",
+      "camera": "landscape 19.5:9 production framing",
+      "characters": "Use distinct silhouettes; no duplicate-face placeholders in concept target",
+      "ui": "objective ribbon top; resource HUD compact",
+      "lighting": "cinematic but UI-safe contrast",
+      "visualHierarchy": [
+        "character/objective first",
+        "decision controls second",
+        "decorative lore third"
+      ],
+      "mood": "tabletop adventure",
+      "requiredAssets": [
+        "background key art",
+        "UI frame kit",
+        "icons/tokens",
+        "representative character assets"
+      ],
+      "forbiddenMistakes": [
+        "tiny text",
+        "gacha rarity presentation",
+        "generic blue sci-fi HUD",
+        "excess empty white panels",
+        "unreadable mobile density"
+      ],
+      "implementationPurpose": "Locks visual composition and asset boundaries for Codex/Unity implementation."
+    },
+    {
+      "id": "ANCHOR_07_DICE",
+      "name": "2d6 Skill Check",
+      "composition": "event illustration upper-left, actor/assist lower-left, two tactile dice center-right",
+      "camera": "landscape 19.5:9 production framing",
+      "characters": "Use distinct silhouettes; no duplicate-face placeholders in concept target",
+      "ui": "choice and modifiers remain visible",
+      "lighting": "cinematic but UI-safe contrast",
+      "visualHierarchy": [
+        "character/objective first",
+        "decision controls second",
+        "decorative lore third"
+      ],
+      "mood": "tension and physicality",
+      "requiredAssets": [
+        "background key art",
+        "UI frame kit",
+        "icons/tokens",
+        "representative character assets"
+      ],
+      "forbiddenMistakes": [
+        "tiny text",
+        "gacha rarity presentation",
+        "generic blue sci-fi HUD",
+        "excess empty white panels",
+        "unreadable mobile density"
+      ],
+      "implementationPurpose": "Locks visual composition and asset boundaries for Codex/Unity implementation."
+    },
+    {
+      "id": "ANCHOR_08_BATTLE",
+      "name": "Union Battle",
+      "composition": "three player Unions vs three enemy Unions on layered battlefield",
+      "camera": "landscape 19.5:9 production framing",
+      "characters": "Use distinct silhouettes; no duplicate-face placeholders in concept target",
+      "ui": "Forecast tray bottom; AP/MP/Cohesion immediately readable",
+      "lighting": "cinematic but UI-safe contrast",
+      "visualHierarchy": [
+        "character/objective first",
+        "decision controls second",
+        "decorative lore third"
+      ],
+      "mood": "large-party tactics without clutter",
+      "requiredAssets": [
+        "background key art",
+        "UI frame kit",
+        "icons/tokens",
+        "representative character assets"
+      ],
+      "forbiddenMistakes": [
+        "tiny text",
+        "gacha rarity presentation",
+        "generic blue sci-fi HUD",
+        "excess empty white panels",
+        "unreadable mobile density"
+      ],
+      "implementationPurpose": "Locks visual composition and asset boundaries for Codex/Unity implementation."
+    },
+    {
+      "id": "ANCHOR_09_ABYSS1",
+      "name": "Endless Abyss Floor 1",
+      "composition": "Mud Trenches board and battle art blended as concept keyframe",
+      "camera": "landscape 19.5:9 production framing",
+      "characters": "Use distinct silhouettes; no duplicate-face placeholders in concept target",
+      "ui": "civic rescue objective visually obvious",
+      "lighting": "cinematic but UI-safe contrast",
+      "visualHierarchy": [
+        "character/objective first",
+        "decision controls second",
+        "decorative lore third"
+      ],
+      "mood": "somber war memory, protection",
+      "requiredAssets": [
+        "background key art",
+        "UI frame kit",
+        "icons/tokens",
+        "representative character assets"
+      ],
+      "forbiddenMistakes": [
+        "tiny text",
+        "gacha rarity presentation",
+        "generic blue sci-fi HUD",
+        "excess empty white panels",
+        "unreadable mobile density"
+      ],
+      "implementationPurpose": "Locks visual composition and asset boundaries for Codex/Unity implementation."
+    },
+    {
+      "id": "ANCHOR_10_MARGIN",
+      "name": "The Margin / Redactor Forge",
+      "composition": "normal wall peeled back like removed page into impossible quiet forge",
+      "camera": "landscape 19.5:9 production framing",
+      "characters": "Use distinct silhouettes; no duplicate-face placeholders in concept target",
+      "ui": "minimal private UI only after authorization",
+      "lighting": "cinematic but UI-safe contrast",
+      "visualHierarchy": [
+        "character/objective first",
+        "decision controls second",
+        "decorative lore third"
+      ],
+      "mood": "secret, unsettling, privileged but nonrequired",
+      "requiredAssets": [
+        "background key art",
+        "UI frame kit",
+        "icons/tokens",
+        "representative character assets"
+      ],
+      "forbiddenMistakes": [
+        "tiny text",
+        "gacha rarity presentation",
+        "generic blue sci-fi HUD",
+        "excess empty white panels",
+        "unreadable mobile density"
+      ],
+      "implementationPurpose": "Locks visual composition and asset boundaries for Codex/Unity implementation."
+    }
+  ]
+}

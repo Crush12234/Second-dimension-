@@ -1,0 +1,1468 @@
+{
+  "schemaId": "SD_GOW_BASE_ENEMY_ART_INDEX_70_V1",
+  "canonicalDriveBaseCount": 30,
+  "chatApprovedExtensionCount": 40,
+  "extensionNamesAreDescriptiveProductionAssignments": true,
+  "bases": [
+    {
+      "stableEnemyId": "ENEMY_REC_001",
+      "enemyKey": "GLOOMROOT_WOLF",
+      "displayName": "Gloomroot Wolf",
+      "range": "001-010",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "1936c427c83a062c0972a2b66162ed5f65e08d2bab382df1e9d7728d902573b4",
+      "pixelSha256": "2db1a2a5519613c80300ae8f4b5ffdf1ed31737ed61c1eeac93d5f65ca217c0c",
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 923773,
+      "sourceOriginalFileName": "gloomroot_wolf_idle_and_pounce_poses.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_001_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_002",
+      "enemyKey": "THORNBOUND_FOREST_ASSASSIN",
+      "displayName": "Thornbound Forest Assassin",
+      "range": "001-010",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "49c06f321f95ce20ecd4db277562eb97e24769ba09cb3c0b8696e922c18087b6",
+      "pixelSha256": "357606b385263097e8a4e313e856e8fab5352de2bb7b3d00314bf7644d3889ff",
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 901329,
+      "sourceOriginalFileName": "thornbound_forest_assassin_sprite_sheet.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_002_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_003",
+      "enemyKey": "ELDER_ROOTLORD",
+      "displayName": "Elder Rootlord",
+      "range": "001-010",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "f2552dc58a97fc08d538985922c394d89443a5580d4539c7e6e52dfc77f1e9bb",
+      "pixelSha256": "014fa3ef650a1780c7396edf4eb8ef50b8fc73d7b2725be8e63a0a02f53db488",
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 589742,
+      "sourceOriginalFileName": "elder_rootlord_twin_poses.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_003_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_004",
+      "enemyKey": "CORRUPTED_TREANT_SPEARMAN",
+      "displayName": "Corrupted Treant Spearman",
+      "range": "001-010",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "07556b46468f086a423432235b7137e1bfdac3e1ac5c7a19346e922323c562d2",
+      "pixelSha256": "7f70621a52464842c17250633e981055d381781ea2ba889039da2763a716fe90",
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 905556,
+      "sourceOriginalFileName": "corrupted_treant_spearman_poses.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_004_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_005",
+      "enemyKey": "FUNGAL_SHAMAN",
+      "displayName": "Fungal Shaman",
+      "range": "001-010",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "395660f68272fb48669737c425b12dd1d0ebe26f98c001c1d977f9981abd8155",
+      "pixelSha256": "33bd694ede3396be4a22f6864c3439aadca800b6ea7d0f28d482d7cf1713bc5f",
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 673103,
+      "sourceOriginalFileName": "fungal_shaman_sprite_sheet.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_005_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_006",
+      "enemyKey": "TREANT_WARRIOR",
+      "displayName": "Treant Warrior",
+      "range": "001-010",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "d2fa761fda7d84844104f78572613c290248abcf34e000f06a58f825d5ef8ee6",
+      "pixelSha256": "d3bfb0c6ae37d3f05a63240e3cef7dac9723b650fcf557423a9dede28494afcf",
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 766214,
+      "sourceOriginalFileName": "treant_warrior_idle_and_attack_poses.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_006_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_007",
+      "enemyKey": "MOSSBOUND_GOLEM",
+      "displayName": "Mossbound Golem",
+      "range": "001-010",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "245db6f18705f9e72217bdcb4e5c9a8a1cf72a98fa2a54c41492e22f61c74560",
+      "pixelSha256": "c22046111e1131fc0d4ded5f51bb01fafe4e74665708a4f0bc778714722a37c5",
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 596068,
+      "sourceOriginalFileName": "mossbound_golem_idle_and_attack_poses.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_007_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_008",
+      "enemyKey": "HEXBLOOM_WITCH",
+      "displayName": "Hexbloom Witch",
+      "range": "001-010",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "0fa184f9b083f3b5224bcda816845945ac9e1f5bbf4782adc9af7edc80dd8e35",
+      "pixelSha256": "caf9583f8d72160c2877e7cd23ca0f83bb472b5128d9102382712d464d4c74ed",
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 631624,
+      "sourceOriginalFileName": "hexbloom_witch_thornbound_casting_duo.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_008_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_009",
+      "enemyKey": "FUNGAL_ARCHER",
+      "displayName": "Fungal Archer",
+      "range": "001-010",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "d6bb9b2977b7864d2c1c1a345b5a81c76daa2350941eb6453d99196b4450c98b",
+      "pixelSha256": "c28f406c2c568acb32372b600ca864e2579d54b703b36f9d3e1f818720c35ca4",
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 750189,
+      "sourceOriginalFileName": "fungal_archer_idle_and_attack_poses.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_009_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_010",
+      "enemyKey": "TWIN_TREANT_GUARDIAN",
+      "displayName": "Twin Treant Guardian",
+      "range": "001-010",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "e964e6969e165737ee1c1c5e02bb6137ff1782db48fba61527573878af243a42",
+      "pixelSha256": "2ac116a4d0066c2d3ee464c1b02fd53e989ec6f68dd40ebc475a26ec9873306a",
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 559182,
+      "sourceOriginalFileName": "twin_treant_guardian_sprite_sheet.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_010_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_011",
+      "enemyKey": "IRONHORN_BULWARK",
+      "displayName": "Ironhorn Bulwark",
+      "range": "011-020",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "357709d8229d1f7b86b8cc8dbb2e483f104c1702b78143fea5018cb39f0ec0d6",
+      "pixelSha256": "94e2aee782e17f5618b7e404a58e562f7dec10182d58c4adb3d3ee5eea16dfda",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 838054,
+      "sourceOriginalFileName": "ENEMY_REC_011_IRONHORN_BULWARK_IDLE_ATTACK_PAIR.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_011_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_012",
+      "enemyKey": "GORECHAIN_RAVAGER",
+      "displayName": "Gorechain Ravager",
+      "range": "011-020",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "3ed1bd99e27e262ce573ac92b065f03bbfd08c97f5b744cc080c5c9953481734",
+      "pixelSha256": "a0b027cf7190a6306758853309c1149b6170bb658af5da2df8e9f8ad0c022937",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 909546,
+      "sourceOriginalFileName": "ENEMY_REC_012_GORECHAIN_RAVAGER_IDLE_ATTACK_PAIR.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_012_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_013",
+      "enemyKey": "CARRION_BEAK_HEXER",
+      "displayName": "Carrion-Beak Hexer",
+      "range": "011-020",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "bfe5e4a0df2652393328e768ee617379e29ce53064dec5d3d9ea5e66939bc56b",
+      "pixelSha256": "64fdd88002f993493de82f301c685a238807173a383338332c8040895ab2a3f0",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 884405,
+      "sourceOriginalFileName": "ENEMY_REC_013_CARRION_BEAK_HEXER_IDLE_ATTACK_PAIR.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_013_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_014",
+      "enemyKey": "CHAINWRAITH_EXECUTIONER",
+      "displayName": "Chainwraith Executioner",
+      "range": "011-020",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "7a1443aa18c81997dd4a073cc7c7a7d5f922831e262d54b5c8f6a6d1616362ab",
+      "pixelSha256": "3c630db040babe994dfa6d8754b4642c972416c75bc871783eaf6e75bb56ed4f",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 931901,
+      "sourceOriginalFileName": "ENEMY_REC_014_CHAINWRAITH_EXECUTIONER_IDLE_ATTACK_PAIR.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_014_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_015",
+      "enemyKey": "THORNSHADE_WITCH",
+      "displayName": "Thornshade Witch",
+      "range": "011-020",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "200aedc7cb0ab90612dadec33e48e749c1804c8629d702b8c26624b5d1ee3c8e",
+      "pixelSha256": "fddc8d13ab863d1c001202fd1065aea124ad531c1a489d1328a332ca0e6339f1",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 891126,
+      "sourceOriginalFileName": "ENEMY_REC_015_THORNSHADE_WITCH_IDLE_ATTACK_PAIR.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_015_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_016",
+      "enemyKey": "CINDERCOIL_ASCETIC",
+      "displayName": "Cindercoil Ascetic",
+      "range": "011-020",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "ec8472b4f07caa94892a3ab6f6230fa38034b26714b11be121bc6a976e19eb8c",
+      "pixelSha256": "176ae9183f2d573c81f6690cc2538a8d10b78b5c24c7f97dd4aa08a412455eeb",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 904536,
+      "sourceOriginalFileName": "ENEMY_REC_016_CINDERCOIL_ASCETIC_IDLE_ATTACK_PAIR.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_016_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_017",
+      "enemyKey": "MIASMA_APOTHECARY",
+      "displayName": "Miasma Apothecary",
+      "range": "011-020",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "0c7227386da99c8b8493a8a9aeafd1ea6088040c0e914460aa22a1ce0114dd8e",
+      "pixelSha256": "c5e6e1b298b31e412233252e8e1ca3deea2d9786afcab478b94c26505dd52808",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 863017,
+      "sourceOriginalFileName": "ENEMY_REC_017_MIASMA_APOTHECARY_IDLE_ATTACK_PAIR.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_017_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_018",
+      "enemyKey": "VOID_LANTERN_HIEROPHANT",
+      "displayName": "Void-Lantern Hierophant",
+      "range": "011-020",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "9d9707a16c18b9e35e6c8a03a7afb4becfe4930b09a6cb9895e96a8866c9dde0",
+      "pixelSha256": "0e737b47182118bb76a01346789578b2b0fb8e314a7d3a4e13cc78e9783e6ab6",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 894580,
+      "sourceOriginalFileName": "ENEMY_REC_018_VOID_LANTERN_HIEROPHANT_IDLE_ATTACK_PAIR.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_018_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_019",
+      "enemyKey": "GRAVECHAIN_MARAUDER",
+      "displayName": "Gravechain Marauder",
+      "range": "011-020",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "aef3681b2aa833b36735b316935655a65fa295c2075290ac4ee9af0412c9386c",
+      "pixelSha256": "b29f7d4a9824511d1afa85b63c07467cedd1521c3657cea7441fd4bce65e14a3",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 836677,
+      "sourceOriginalFileName": "ENEMY_REC_019_GRAVECHAIN_MARAUDER_IDLE_ATTACK_PAIR.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_019_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_020",
+      "enemyKey": "EMBERFURY_WARLORD",
+      "displayName": "Emberfury Warlord",
+      "range": "011-020",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "3c48e3d0194a12dd58321dec3605540511ba40929da7e75fb3a69d97084a5598",
+      "pixelSha256": "01ecfdbd4596f96a09fdf59a901557fe2cc367ca8079f09f1b6a45300829bafb",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 983958,
+      "sourceOriginalFileName": "ENEMY_REC_020_EMBERFURY_WARLORD_IDLE_ATTACK_PAIR.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_020_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_021",
+      "enemyKey": "CRYSTAL_MYRMIDON",
+      "displayName": "Crystal Myrmidon",
+      "range": "021-030",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "e7ec953ae9a4ea82262e3eedf46b81aa016f8e8d06d0fd2700fc6f5083dfce6f",
+      "pixelSha256": "2fd4b2c09578cc16ef582968f6516173d2c5f0407633b06a8fce168f56da6750",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 1120453,
+      "sourceOriginalFileName": "ENEMY_REC_021_CRYSTAL_MYRMIDON_IDLE_ATTACK_PAIR.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_021_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_022",
+      "enemyKey": "THUNDERBEAK_HARRIER",
+      "displayName": "Thunderbeak Harrier",
+      "range": "021-030",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "3188732727ee989b9c22c1e55e512bd8ddc493ab445739a967a440f3f97aa013",
+      "pixelSha256": "de46ab2e6ac646e8dd516632b90d5138584d2e6792dbf033957b3ba289ddc9b2",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 1059431,
+      "sourceOriginalFileName": "ENEMY_REC_022_THUNDERBEAK_HARRIER_IDLE_ATTACK_PAIR.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_022_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_023",
+      "enemyKey": "FROSTMANE_HUNTRESS",
+      "displayName": "Frostmane Huntress",
+      "range": "021-030",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "532de414dcc86e27486e725a0d08fb22cf9c10e91ddd552a74618b8ff5750bc6",
+      "pixelSha256": "5967ce8108494a841108051402ef583feb67f7fe08398cf88fd4b2400a3bf128",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 1074791,
+      "sourceOriginalFileName": "ENEMY_REC_023_FROSTMANE_HUNTRESS_IDLE_ATTACK_PAIR.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_023_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_024",
+      "enemyKey": "GLOOMSPORE_MYCONID",
+      "displayName": "Gloomspore Myconid",
+      "range": "021-030",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "1df5cae51383eff719836298dd3666418683e62fee02a878e957933416b7f410",
+      "pixelSha256": "bf65c0a31bba09758d0515bc8172ffab16824fa32b7b8d48ecbb5b81ad0d8a63",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 1021368,
+      "sourceOriginalFileName": "ENEMY_REC_024_GLOOMSPORE_MYCONID_IDLE_ATTACK_PAIR.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_024_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_025",
+      "enemyKey": "BONECLAD_WARDEN",
+      "displayName": "Boneclad Warden",
+      "range": "021-030",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "ee8b89d76b7471ed0a7a16f90104c3a1336ff1077aa2b4da086f6f91e925790c",
+      "pixelSha256": "6c8417f040e52f4a6a6cc1355dbca0401dfcdfd7fc43f4a6a6e3392826f7102f",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 882191,
+      "sourceOriginalFileName": "ENEMY_REC_025_BONECLAD_WARDEN_IDLE_ATTACK_PAIR.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_025_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_026",
+      "enemyKey": "MIREFANG_STALKER",
+      "displayName": "Mirefang Stalker",
+      "range": "021-030",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "c9780fd91724657f5de0652284a7cea2c14cc0b847cdf59a1aea811ce8f92e09",
+      "pixelSha256": "70b9e252319e4802a9ca22bc9b7588bbe6be92c2131c7a00673e11a534ff110f",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 1123566,
+      "sourceOriginalFileName": "ENEMY_REC_026_MIREFANG_STALKER_IDLE_ATTACK_PAIR.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_026_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_027",
+      "enemyKey": "ORC_ARTILLERY_TROOPER",
+      "displayName": "Orc Artillery Trooper",
+      "range": "021-030",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "effe8695c38de4debc236f68c5b48a71de61437af4533a42b166b01d201de6d5",
+      "pixelSha256": "345b76032b6cb4d88480a9b2e94a49c22173b1d5f8453c214b9be514fe320d8d",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 941839,
+      "sourceOriginalFileName": "ENEMY_REC_027_ORC_ARTILLERY_TROOPER_IDLE_ATTACK_PAIR.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_027_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_028",
+      "enemyKey": "DREADCOIL_SEER",
+      "displayName": "Dreadcoil Seer",
+      "range": "021-030",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "03c5cee8cc6a0867ad435b08c507036375ec30f55aab9b1acaabf3ee96350f98",
+      "pixelSha256": "2b573a9e1b7926806cfb58c1ccfb6f21d3c92c387dd0da22c32ab18b6e87156a",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 947641,
+      "sourceOriginalFileName": "ENEMY_REC_028_DREADCOIL_SEER_IDLE_ATTACK_PAIR.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_028_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_029",
+      "enemyKey": "ASHROOT_TREANT",
+      "displayName": "Ashroot Treant",
+      "range": "021-030",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "0b5bd4bd2442e3a3b5a40937efd8f29e02c42927aa3beb97042c131b62c348f3",
+      "pixelSha256": "ea60841b9be9f140c0cbd915f75fdfbbc16eb793b809d124e7c36252d6430970",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 920943,
+      "sourceOriginalFileName": "ENEMY_REC_029_ASHROOT_TREANT_IDLE_ATTACK_PAIR.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_029_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_030",
+      "enemyKey": "SUNKEN_TEMPLAR",
+      "displayName": "Sunken Templar",
+      "range": "021-030",
+      "status": "CONFIRMED_BASE_ART",
+      "nameProvenance": "Drive master index 001-030",
+      "approval": "CANONICAL_DRIVE_BASE",
+      "sha256": "dfeb970979c75ac59532d9796a2daa8f29676091d56943b34158e0107f418a59",
+      "pixelSha256": "8216e9d8d45e597acf7f0a775687ea069e99df2699b8dfb4b422fe7b6286ca03",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 867231,
+      "sourceOriginalFileName": "ENEMY_REC_030_SUNKEN_TEMPLAR_IDLE_ATTACK_PAIR.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_030_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_031",
+      "enemyKey": "GEARBANNER_CASTELLAN",
+      "displayName": "Gearbanner Castellan",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "204eeeeab0e303e3cd83aa3f4e7ade4088934cdea5b6b385392cf1fef59ca20d",
+      "pixelSha256": "9477bd3887c2768ec58bfbfbdc6384b1f66c91fdd5408b7c356fc641d762df61",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 676889,
+      "sourceOriginalFileName": "a_clean_high_resolution_fantasy_concept_illustrat.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_031_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_032",
+      "enemyKey": "GILDED_MAW_MIMIC",
+      "displayName": "Gilded Maw Mimic",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "ce831f11a35318cc920b8d8348ba06cb89e171fab203fd176d7492cdf207099c",
+      "pixelSha256": "97ac32f143805538e65936b066322cb54d6561201931d898c61271d05e1bde7c",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 926805,
+      "sourceOriginalFileName": "twin_mimic_chests_sneaking_and_striking.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_032_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_033",
+      "enemyKey": "OSSUARY_WYVERN",
+      "displayName": "Ossuary Wyvern",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "d16d5162373b0ee71df975675c57ee858a3d73e0a578dd86b31bd54708a435e3",
+      "pixelSha256": "be8025192a40a378e41f1a2fc6fa7b91f0cf3396fb0556e955ac644374b5f281",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 840033,
+      "sourceOriginalFileName": "spectral_bone_dragon_poses.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_033_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_034",
+      "enemyKey": "CORALBACK_SIEGE_CRAB",
+      "displayName": "Coralback Siege Crab",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "796ad46f9f44b173eee403da3bd09638fd3950fbe6ce0eac2210cce69bdc7577",
+      "pixelSha256": "4fc64ea15f0c4ad8c3ef4ecf44eaa8e66de5d79d8a1fc6700c19d3f67c010809",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 853975,
+      "sourceOriginalFileName": "coralback_siege_crab_duo.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_034_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_035",
+      "enemyKey": "MAGMACOIL_GASTROPOD",
+      "displayName": "Magmacoil Gastropod",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "0245cdb60a437d7e0960baab99be60e7e63f06ffd748fcd1887e9ef60897b94d",
+      "pixelSha256": "60cb6806c9c657b83cbae203c7ed5f296f9db1563ec3f164792ef91cff5a7921",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 882862,
+      "sourceOriginalFileName": "volcanic_snail_duo_idle_and_attack.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_035_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_036",
+      "enemyKey": "ASTRAL_BELL_MEDUSA",
+      "displayName": "Astral Bell Medusa",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "9e97bd03d058ee2114cc547a21cc32391d3ee666b573050d89f0774445703eab",
+      "pixelSha256": "c4f909afb727bce054df64795cfcaca47909b6d6b5c5fa83363f522af9880af7",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 695275,
+      "sourceOriginalFileName": "mystical_jellyfish_idle_and_attack_forms.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_036_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_037",
+      "enemyKey": "DUNEJAW_BURROWER",
+      "displayName": "Dunejaw Burrower",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "83c8a9ce09758636f64e90eaadbe169b86eb59599b6c58b7b4f1a2aae5cc85db",
+      "pixelSha256": "9a604dca56f83fe28be084e2e1c072490368a1253ea681d79c655a31ee7ff112",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 634043,
+      "sourceOriginalFileName": "sandworm_concept_sheet_idle_and_attack_poses.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_037_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_038",
+      "enemyKey": "CINDERMAW_CERBERUS",
+      "displayName": "Cindermaw Cerberus",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "690f02db5bc10796dee20bc86b31ca6d1a1dca16e35e13a2c15c10267e32931c",
+      "pixelSha256": "2f7053ea43704f88a857da6c226ff4e3b53930329130dbb00fb146d8a67378c4",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 948174,
+      "sourceOriginalFileName": "three_headed_hellhound_sprite_set.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_038_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_039",
+      "enemyKey": "PRISMWATCH_OCULUS",
+      "displayName": "Prismwatch Oculus",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "2c18f881e91db2fc2334db25c1c922b5a7599fb960f10ffe49582ec051429ff1",
+      "pixelSha256": "1b1064b0e6a03a3bee9bb04fc684c37ba9e8ec002af1fd1c1d99cfd507e0c9bc",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 847694,
+      "sourceOriginalFileName": "twin_crystal_eye_beasts.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_039_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_040",
+      "enemyKey": "IRONQUILL_PANGOLIN",
+      "displayName": "Ironquill Pangolin",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "9dee5bada9fb070931fd8863d8daffc0d3527425d6a67a1a51034b3429b30eee",
+      "pixelSha256": "2a08a8524aca0b227f85eb152e89b1ea07562114fa66a6003061af68172bc6df",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 1045013,
+      "sourceOriginalFileName": "armored_pangolin_idle_and_rolling_attack.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_040_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_041",
+      "enemyKey": "EMERALDBACK_TORTOISE",
+      "displayName": "Emeraldback Tortoise",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "939bc53be42525fbcf767231e263387b654d7735ed41f6dd28cebe3567dacee2",
+      "pixelSha256": "f1e78ff3e393ef21e39f1ad1a121a0b80739c0e015cca8dd1cb4e2622209502f",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 615264,
+      "sourceOriginalFileName": "emerald_crystal_tortoise_idle_and_attack_poses.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_041_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_042",
+      "enemyKey": "TEMPEST_ROC",
+      "displayName": "Tempest Roc",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "e52144bacd2da624f56e2336c253ee7f4ad8e81dceb6e5cfeda7df7993b371a2",
+      "pixelSha256": "5419a1e2fd577403af760c446e17ae7e2aee200665a7dff50e4ef61fdc5422db",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 652613,
+      "sourceOriginalFileName": "twin_storm_roc_poses.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_042_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_043",
+      "enemyKey": "BOGVENOM_HYDRA",
+      "displayName": "Bogvenom Hydra",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "4ed3ebfb92e80b4aed72b197e59a8ea78c4ea43e7571dd6832e085147b8919cb",
+      "pixelSha256": "2c44c967009a5123ef1da701552d77e3e5da90663413765bac8de4616f535b3f",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 745763,
+      "sourceOriginalFileName": "twin_form_toxic_swamp_hydra.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_043_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_044",
+      "enemyKey": "SUNKEN_IDOL_SENTINEL",
+      "displayName": "Sunken Idol Sentinel",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "4a4b37f8dbb2944b616447b1c437d50accef2b9975c06812c764c3033274ada6",
+      "pixelSha256": "eb26cff0f8273c0dafce0b566420ac60c0c03a1a024b1ca9101b678aa4634953",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 497955,
+      "sourceOriginalFileName": "sunken_idol_sentinel_dual_poses.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_044_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_045",
+      "enemyKey": "RIFTGLIDE_MANTA",
+      "displayName": "Riftglide Manta",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "232bf6ea2ae066476c5d7765e6106675e4d9a5627ac4a9d181a7d97f43bd9d9e",
+      "pixelSha256": "ba9626bc7a3cbf02e3f9b5e8fe60d723cc521da391e6df1ffd0707b562a1c3e7",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 851567,
+      "sourceOriginalFileName": "bioluminescent_manta_enemy_duo.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_045_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_046",
+      "enemyKey": "SPOREFRILL_BASILISK",
+      "displayName": "Sporefrill Basilisk",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "5c618fd750f7b3fb84bce063fe08b3bd565379b4248860bbf2a2ac931f37b63b",
+      "pixelSha256": "3ca6d91647659ba2888877f0ec88a4102f9b92e409dc4a85bbfaed207f9c4c28",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 695873,
+      "sourceOriginalFileName": "fungal_basilisk_two_pose_concept_sheet.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_046_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_047",
+      "enemyKey": "ASHHORN_RAM",
+      "displayName": "Ashhorn Ram",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "92fa85c4f875f076669fb014c523964e09999e6fd86bdd418f518b0a5e52fdcb",
+      "pixelSha256": "f71bd2f140157eb21fff498243354889ade49b3c3a4844bac341fa19f44d0809",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 719074,
+      "sourceOriginalFileName": "demonic_ember_ram_poses.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_047_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_048",
+      "enemyKey": "UMBRAL_OWLBEAR",
+      "displayName": "Umbral Owlbear",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "3e5acbc0d81ab8078b3841e1988637b44cc1f8ef99f96b24b8da2b747e079e93",
+      "pixelSha256": "94bb2fba376f5fa7b8b4dde725f1d492273881332d079930d6c82922fd8d3b83",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 544521,
+      "sourceOriginalFileName": "twin_spectral_owlbear_poses.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_048_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_049",
+      "enemyKey": "LUREJAW_ANGLERBEAST",
+      "displayName": "Lurejaw Anglerbeast",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "d0e87a102588c5816a1ba8a043dfa015a22f7446b433394549b184ffa4c76553",
+      "pixelSha256": "5829138f5883970a4b844b9882304bf85e2e98420d114a79f01e67e70c6e36dd",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 660867,
+      "sourceOriginalFileName": "angler_beast_twin_pose_concept_art.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_049_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_050",
+      "enemyKey": "SUNCREST_SCARAB",
+      "displayName": "Suncrest Scarab",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "4b4f5c8959302f088f7bd95fc053282449129bd6df3cf9f087c7ce882f642b22",
+      "pixelSha256": "e51fbc606a7d01b2e2f98c2d11e3994fa6bdff58df6a4a578ccf9158d425c879",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 691476,
+      "sourceOriginalFileName": "solar_scarab_boss_poses.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_050_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_051",
+      "enemyKey": "GLACIER_SABERCAT",
+      "displayName": "Glacier Sabercat",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "ff292552adc47b5860c748a8276e113340e7bd189f827c65c4a0d4901e53afd2",
+      "pixelSha256": "ff360eed07dc705306028a905624af44bcdc6823d9c1c23de3974e5edeac12f2",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 734902,
+      "sourceOriginalFileName": "glacier_sabercat_idle_and_attack_poses.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_051_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_052",
+      "enemyKey": "MIRESTONE_TROLL",
+      "displayName": "Mirestone Troll",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "5ad6d60320a5293372fea2009cdd43f10cf034c71d33fc88366c1b82fad04dab",
+      "pixelSha256": "3100d7b597b35a67f4db40a8697d147484f3639824ce579527b382ba955c7212",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 644321,
+      "sourceOriginalFileName": "swamp_troll_idle_and_impact_poses.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_052_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_053",
+      "enemyKey": "STORMPLATE_ANKYLOSAUR",
+      "displayName": "Stormplate Ankylosaur",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "9ec6c43245a2240c0885661465b2df1d06976ea856193fb7a3b0d7ab432b7e3d",
+      "pixelSha256": "bae7716beb957814100b95df6992b9ccde53882ff17df5d00acd9de5c0e327f5",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 718452,
+      "sourceOriginalFileName": "electrified_ankylosaur_battle_poses.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_053_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_054",
+      "enemyKey": "EMBERWEB_ARACHNID",
+      "displayName": "Emberweb Arachnid",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "1ed24ff869d8821ef897ad96f14ebabbfd09e1da8a117fa618007501fb03b2be",
+      "pixelSha256": "d6cf9345d90359c32c1f8724a57621c0b78e5f0b7c15ce2161ecbf39405099d6",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 830424,
+      "sourceOriginalFileName": "molten_ember_spider_duo.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_054_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_055",
+      "enemyKey": "SHATTERMIRROR_WRAITH",
+      "displayName": "Shattermirror Wraith",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "39962aec8b7e22a8d1bfd4d4207737fbf428157085194249bfffa9f34fe5688c",
+      "pixelSha256": "cba5ef2c3da963dbf6ea826cc06446a27bbe03e8e9666cb2421e0e0e33e739b4",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "fullyTransparentPixels": 578680,
+      "sourceOriginalFileName": "spectral_wraith_shattered_mirror_assault.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_055_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_056",
+      "enemyKey": "SUNFIRE_PHOENIX",
+      "displayName": "Sunfire Phoenix",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "de51471f63c00994faf4aea7101a81e5b6e5e15db406eaa4f7d130d567d3a3be",
+      "pixelSha256": "29c6f715201f4b42d4e39b766af4121a22cb5818a40b1b31c02ca86101d9cf06",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 485506,
+      "sourceOriginalFileName": "sunfire_phoenix_regal_and_raging.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_056_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_057",
+      "enemyKey": "ROTROOT_WARBOAR",
+      "displayName": "Rotroot Warboar",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "c27096352d304a5c10857cb7a62b0ffd98584ca37a4c493aef4e462f720041cd",
+      "pixelSha256": "ded1d49e785c5326b936e7ecc397a2c85b51acf864bba3fd0b1332acc281a294",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 742543,
+      "sourceOriginalFileName": "corrupted_warboar_idle_and_charge.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_057_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_058",
+      "enemyKey": "NIGHTGLASS_BAT_LORD",
+      "displayName": "Nightglass Bat Lord",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "ab907baf5180875591e3b20707e63301fde98b484e0c34358ce5d05aa933233d",
+      "pixelSha256": "4efb25737657a288ad6bf3b2242b65ceee1611ee54a86a409d6d1e0c8803686c",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 662163,
+      "sourceOriginalFileName": "spectral_bat_lord_dual_attack_poses.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_058_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_059",
+      "enemyKey": "TIDEMAW_SHARKFIEND",
+      "displayName": "Tidemaw Sharkfiend",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "281141c3f886eaac029c5650037c6b9d674e67419b05a32507daf2fb79d31b72",
+      "pixelSha256": "985157181896d5fc0cb9f3feadd17804f0ff8e80d8743972f34e4876039f82aa",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 675136,
+      "sourceOriginalFileName": "tidemaw_sharkfiend_twin_battle_poses.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_059_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_060",
+      "enemyKey": "FROSTTUSK_MAMMOTH",
+      "displayName": "Frosttusk Mammoth",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "822c3a487df2262268a63313c77b1d8d92bc4f5c540d2da652ef0cb964e53b70",
+      "pixelSha256": "950bb7d3356626cb8ec7c4d13f485279dd6d95eee33a1c146a1d1dfb71c064b5",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 590118,
+      "sourceOriginalFileName": "frost_mammoth_idle_and_assault_poses.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_060_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_061",
+      "enemyKey": "REEFSTORM_CRUSTACEAN",
+      "displayName": "Reefstorm Crustacean",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "2521b488565f523f1ffd594f0de396249d3916b537f4ea902ce1ce4d2f742c9b",
+      "pixelSha256": "3cf40e8cdf9fda06cad7a1de9ea92b6af030ba073f3be86c24779bf9ed1602d5",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 714019,
+      "sourceOriginalFileName": "armored_crustacean_guardian_duo.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_061_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_062",
+      "enemyKey": "SPECTRAL_THORNBLOOM",
+      "displayName": "Spectral Thornbloom",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "dcac2ad64f53e01dec44466730e9429e637dfcb91996e5982caab58871828501",
+      "pixelSha256": "a566a332818de57833e95126444781031d82cd6d15a9c38fae75928577ee5aa6",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 627425,
+      "sourceOriginalFileName": "spectral_thornbloom_idle_and_attack.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_062_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_063",
+      "enemyKey": "SUNSTONE_GRYPHON",
+      "displayName": "Sunstone Gryphon",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "0cd18d38543fd01966be87864fafa92380d9a88c89c3d1dc191455799442acee",
+      "pixelSha256": "7ffd59b1707f7204391113988096684f7550fd76f0edf58c19badef75ae63e96",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 552404,
+      "sourceOriginalFileName": "sunstone_gryphon_regal_and_raging.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_063_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_064",
+      "enemyKey": "MIREVENOM_NAGA",
+      "displayName": "Mirevenom Naga",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "06415453d8526f53075c4440d9eef56f11eeac018812b5de079c699f1525aaf2",
+      "pixelSha256": "d630fd009e1aa10fdc59184b9632ccf4ebd7cc94148e44e5a6d3746c8fd4a6cc",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 478413,
+      "sourceOriginalFileName": "swamp_venom_naga_character_sheet.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_064_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_065",
+      "enemyKey": "OBSIDIAN_HORNBEETLE",
+      "displayName": "Obsidian Hornbeetle",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "daa5d4aa7347ed6f29edc26943691fad059d44c8051129adb27db3b7e83a53e7",
+      "pixelSha256": "5daec8e05920776cbefaa67460d4a3132308cb4191c927bba7e0b279f15e50f5",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 782238,
+      "sourceOriginalFileName": "obsidian_lava_beetle_idle_and_charge.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_065_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_066",
+      "enemyKey": "MOONVEIL_STAG_WRAITH",
+      "displayName": "Moonveil Stag Wraith",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "03a6ee1343feb43f8e9dee94cfa28cb2c6e695449dba32faa445a88ba46eb069",
+      "pixelSha256": "d5d18557c310887a6cc6823fd11dbfb0681c55d1f7064de19f5c4194ec6193e9",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 516515,
+      "sourceOriginalFileName": "moonveil_stag_wraith_duo.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_066_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_067",
+      "enemyKey": "IRONWOOD_RHINOCEROS",
+      "displayName": "Ironwood Rhinoceros",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "f839f4d82131fe1211ce34369ae9c61d9011a47dcfebc4b50947d9f9b2cfadde",
+      "pixelSha256": "1dd124b6626668b0a78e0484dc50f4d77c7e6b702cc61c14e5cff529773cca39",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 679087,
+      "sourceOriginalFileName": "ironwood_rhino_battle_sprites.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_067_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_068",
+      "enemyKey": "FROSTFEATHER_HARPY",
+      "displayName": "Frostfeather Harpy",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "e61b781b4e452af566fa147f5b77b757496305fe633c37a47b0de16f96326139",
+      "pixelSha256": "69e595ccdd415b478139cd7bda315640fcfc9e8c3eb78f24c4c0d80dfdd7c593",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 557059,
+      "sourceOriginalFileName": "icy_harpy_calm_and_striking_poses.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_068_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_069",
+      "enemyKey": "VOIDSPORE_SLIME_TYRANT",
+      "displayName": "Voidspore Slime Tyrant",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "ad00deac2fd333a30dbafa5cea4f025ec202f606fa935b2a782b847c7bdd5dee",
+      "pixelSha256": "0fbc6eafb132bddfcd427a8302010b927f4a3e0a30de127a9cdc61a008d8a18e",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 604175,
+      "sourceOriginalFileName": "void_spore_slime_tyrant_poses.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_069_SOURCE.png"
+    },
+    {
+      "stableEnemyId": "ENEMY_REC_070",
+      "enemyKey": "EMBERJAW_CROCODRAKE",
+      "displayName": "Emberjaw Crocodrake",
+      "nameProvenance": "031-040 working plan where available; otherwise descriptive production name assigned from approved standalone art in this chat",
+      "approval": "USER_APPROVED_CHAT_BASE",
+      "sha256": "106673b5992f77edef3592e4c1e9b0dda4710a6f07984d27b429b72119f36f7d",
+      "pixelSha256": "7b16c15ec437be01d4f7a14e8cbd173866db6f156ad33dc35afe96704c5faa64",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 929390,
+      "sourceOriginalFileName": "emberjaw_crocodrake_idle_and_inferno_lunge.png",
+      "sourcePairPath": "SOURCE_PAIRS/ENEMY_REC_070_SOURCE.png"
+    }
+  ]
+}

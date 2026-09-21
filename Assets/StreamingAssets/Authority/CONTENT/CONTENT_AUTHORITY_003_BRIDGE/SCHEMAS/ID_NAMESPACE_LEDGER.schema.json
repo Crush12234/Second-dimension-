@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ID Namespace Ledger",
+  "type": "object",
+  "required": [
+    "contentVersion",
+    "categories",
+    "overallUnexpectedCollisionCount"
+  ],
+  "properties": {
+    "contentVersion": {
+      "type": "string"
+    },
+    "categories": {
+      "type": "array"
+    },
+    "overallUnexpectedCollisionCount": {
+      "type": "integer"
+    }
+  },
+  "additionalProperties": true
+}

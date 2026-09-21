@@ -1,0 +1,1200 @@
+{
+  "schema": "SD_R43_TITAN_ENCOUNTER_BLUEPRINTS_V1",
+  "design_status": "NEW_AUTHORED_REUSE_CANDIDATE_NOT_CANON_OR_RUNTIME_APPROVAL",
+  "source_art_archive_sha256": "e8f56266312e0fa52f83294eaf9fbc6335e7d053ca3a16b6344911f194180a9f",
+  "preserve_current_native_titans_if_already_authored": true,
+  "variants": [
+    {
+      "slot": 1,
+      "logical_encounter_blueprint_id": "TITAN_TRIAL_001",
+      "source_family_id": "ENEMY_REC_044",
+      "source_family_name": "Sunken Idol Sentinel",
+      "display_name": "Sunken Idol Sentinel",
+      "encounter_subtitle": "Aegis Cycle",
+      "status": "NEW_AUTHORED_TITAN_VARIANT_OF_EXISTING_ENEMY_FAMILY_NOT_NATIVE_BOSS_PROOF",
+      "native_titan_id": null,
+      "enabled_in_game": false,
+      "reward_hero_id": "HERO_TITAN_001",
+      "gold_art_id": "GOLD_TITAN_001",
+      "entry_gates": "Existing approved City/prior-boss/current-cycle rules; no new gate invented here",
+      "presentation": {
+        "visible_body_count": 1,
+        "hostile_unions": "ONE_TITAN_UNION_UNLESS_CURRENT_NATIVE_BOSS_USES_AN_APPROVED_MULTI_PART_REPRESENTATION",
+        "full_army": "ALL_LEGAL_DEPLOYED_UNIONS_NOT_UNDEPLOYED_ROSTER",
+        "reuse_current_battle_screen": true,
+        "warning": "Brace for the core pulse; strike during the exposed recovery.",
+        "art": {
+          "idle": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_044/ENEMY_REC_044_IDLE.png",
+            "sha256": "df3cd811b34c46364c55fb0802c11e9d951e82a9299451d332280a494b0cc47b",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_044/ENEMY_REC_044_VAR_01/ENEMY_REC_044_VAR_01_IDLE.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_044/ENEMY_REC_044_IDLE.png"
+            ],
+            "approved": false
+          },
+          "attack": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_044/ENEMY_REC_044_ATTACK.png",
+            "sha256": "b7ae87e8718e1c91c9d2ec458e99d04b143a8b4ebd9f8c368494b1da48221bdb",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_044/ENEMY_REC_044_VAR_01/ENEMY_REC_044_VAR_01_ATTACK.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_044/ENEMY_REC_044_ATTACK.png"
+            ],
+            "approved": false
+          },
+          "portrait": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_044/ENEMY_REC_044_PORTRAIT.png",
+            "sha256": "bda0ced82e167bf3cfaab3c7d570a9b8eddf7c48733ae327b83bb7d0a932dd2e",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_044/ENEMY_REC_044_VAR_01/ENEMY_REC_044_VAR_01_PORTRAIT.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_044/ENEMY_REC_044_PORTRAIT.png"
+            ],
+            "approved": false
+          }
+        }
+      },
+      "mechanics": {
+        "normal_pattern": [
+          "guard stance",
+          "core pulse on a marked Union",
+          "exposed recovery"
+        ],
+        "response": "GUARD_THEN_BURST",
+        "required_native_capabilities": [
+          "guard",
+          "barrier",
+          "telegraphed_attack"
+        ],
+        "telegraph_commitment": "At least one player Forecast decision before the threatened resolution. High Auto speed never removes that decision. Targets frozen by native encounter actions.",
+        "phase_hp_entry_percent": [
+          100,
+          65,
+          30
+        ],
+        "phases": [
+          {
+            "name": "Read the pattern",
+            "action_budget": "current native boss budget; no hidden per-player bonus actions",
+            "recovery": "one normal action window after the major threat"
+          },
+          {
+            "name": "Adapt under pressure",
+            "action_budget": "same native turn allowance",
+            "change": "use the documented alternate threat; keep telegraph before each dangerous resolution"
+          },
+          {
+            "name": "Finish the fight",
+            "action_budget": "same native turn allowance",
+            "change": "alternate established threats, preserve recovery windows; no permanent immunity/enrage wall"
+          }
+        ],
+        "phase_threshold_status": "NEW_TEST_CANDIDATE_NOT_APPROVED_COMBAT_BALANCE",
+        "no_control_duration_scaling": true,
+        "no_player_power_auto_scaling": true,
+        "no_new_adds": true,
+        "no_boss_resurrection_after_reward": true,
+        "unsupported_capability": "CONTENT_REQUIRED; do not silently substitute another mechanic or enable an empty HP-only encounter"
+      },
+      "stats_and_rewards": "Resolve Cycle1 absolute authored profile from current native boss scale; preserve current cycle policy and existing reward authorities; native values not invented from image size",
+      "eidran_echo": {
+        "effect_summary": "barrier on one allied Union",
+        "friendly_basis": "EIDRAN_OWN_AUTHORED_FRIENDLY_EFFECT_BUDGET_NEVER_ENEMY_STATS",
+        "native_handler": null,
+        "use_current_matched_titan_history": true
+      },
+      "native_kill_attribution": "One actual defeated enemy actor through existing family-kill authority. Phase transitions and friendly echoes are not enemy defeats. Preserve original-ten family history."
+    },
+    {
+      "slot": 2,
+      "logical_encounter_blueprint_id": "TITAN_TRIAL_002",
+      "source_family_id": "ENEMY_REC_034",
+      "source_family_name": "Coralback Siege Crab",
+      "display_name": "Coralback Siege Crab",
+      "encounter_subtitle": "Siegebreaker Claw",
+      "status": "NEW_AUTHORED_TITAN_VARIANT_OF_EXISTING_ENEMY_FAMILY_NOT_NATIVE_BOSS_PROOF",
+      "native_titan_id": null,
+      "enabled_in_game": false,
+      "reward_hero_id": "HERO_TITAN_002",
+      "gold_art_id": "GOLD_TITAN_002",
+      "entry_gates": "Existing approved City/prior-boss/current-cycle rules; no new gate invented here",
+      "presentation": {
+        "visible_body_count": 1,
+        "hostile_unions": "ONE_TITAN_UNION_UNLESS_CURRENT_NATIVE_BOSS_USES_AN_APPROVED_MULTI_PART_REPRESENTATION",
+        "full_army": "ALL_LEGAL_DEPLOYED_UNIONS_NOT_UNDEPLOYED_ROSTER",
+        "reuse_current_battle_screen": true,
+        "warning": "The raised claw marks its next victim. Protect that Union before impact.",
+        "art": {
+          "idle": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_034/ENEMY_REC_034_IDLE.png",
+            "sha256": "7a98e0732e5022f77ae73abf5d5686ad48975b5c961789774d500d81407b875b",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_034/ENEMY_REC_034_VAR_01/ENEMY_REC_034_VAR_01_IDLE.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_034/ENEMY_REC_034_IDLE.png"
+            ],
+            "approved": false
+          },
+          "attack": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_034/ENEMY_REC_034_ATTACK.png",
+            "sha256": "4bcbeac3c35af66d435a7c2be82ab879a3e76020f2a296d0013c23f9cf3cfd89",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_034/ENEMY_REC_034_VAR_01/ENEMY_REC_034_VAR_01_ATTACK.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_034/ENEMY_REC_034_ATTACK.png"
+            ],
+            "approved": false
+          },
+          "portrait": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_034/ENEMY_REC_034_PORTRAIT.png",
+            "sha256": "e8ea2abb72ba02e23082d5fde9394b9eefbda284f738a0739e1e282ed027b3bf",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_034/ENEMY_REC_034_VAR_01/ENEMY_REC_034_VAR_01_PORTRAIT.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_034/ENEMY_REC_034_PORTRAIT.png"
+            ],
+            "approved": false
+          }
+        }
+      },
+      "mechanics": {
+        "normal_pattern": [
+          "armored probe",
+          "single-Union claw wind-up",
+          "unguarded recovery"
+        ],
+        "response": "MARKED_UNION_PROTECTION",
+        "required_native_capabilities": [
+          "guard",
+          "telegraphed_attack"
+        ],
+        "telegraph_commitment": "At least one player Forecast decision before the threatened resolution. High Auto speed never removes that decision. Targets frozen by native encounter actions.",
+        "phase_hp_entry_percent": [
+          100,
+          65,
+          30
+        ],
+        "phases": [
+          {
+            "name": "Read the pattern",
+            "action_budget": "current native boss budget; no hidden per-player bonus actions",
+            "recovery": "one normal action window after the major threat"
+          },
+          {
+            "name": "Adapt under pressure",
+            "action_budget": "same native turn allowance",
+            "change": "use the documented alternate threat; keep telegraph before each dangerous resolution"
+          },
+          {
+            "name": "Finish the fight",
+            "action_budget": "same native turn allowance",
+            "change": "alternate established threats, preserve recovery windows; no permanent immunity/enrage wall"
+          }
+        ],
+        "phase_threshold_status": "NEW_TEST_CANDIDATE_NOT_APPROVED_COMBAT_BALANCE",
+        "no_control_duration_scaling": true,
+        "no_player_power_auto_scaling": true,
+        "no_new_adds": true,
+        "no_boss_resurrection_after_reward": true,
+        "unsupported_capability": "CONTENT_REQUIRED; do not silently substitute another mechanic or enable an empty HP-only encounter"
+      },
+      "stats_and_rewards": "Resolve Cycle1 absolute authored profile from current native boss scale; preserve current cycle policy and existing reward authorities; native values not invented from image size",
+      "eidran_echo": {
+        "effect_summary": "physical strike on one enemy Union",
+        "friendly_basis": "EIDRAN_OWN_AUTHORED_FRIENDLY_EFFECT_BUDGET_NEVER_ENEMY_STATS",
+        "native_handler": null,
+        "use_current_matched_titan_history": true
+      },
+      "native_kill_attribution": "One actual defeated enemy actor through existing family-kill authority. Phase transitions and friendly echoes are not enemy defeats. Preserve original-ten family history."
+    },
+    {
+      "slot": 3,
+      "logical_encounter_blueprint_id": "TITAN_TRIAL_003",
+      "source_family_id": "ENEMY_REC_043",
+      "source_family_name": "Bogvenom Hydra",
+      "display_name": "Bogvenom Hydra",
+      "encounter_subtitle": "Venom Confluence",
+      "status": "NEW_AUTHORED_TITAN_VARIANT_OF_EXISTING_ENEMY_FAMILY_NOT_NATIVE_BOSS_PROOF",
+      "native_titan_id": null,
+      "enabled_in_game": false,
+      "reward_hero_id": "HERO_TITAN_003",
+      "gold_art_id": "GOLD_TITAN_003",
+      "entry_gates": "Existing approved City/prior-boss/current-cycle rules; no new gate invented here",
+      "presentation": {
+        "visible_body_count": 1,
+        "hostile_unions": "ONE_TITAN_UNION_UNLESS_CURRENT_NATIVE_BOSS_USES_AN_APPROVED_MULTI_PART_REPRESENTATION",
+        "full_army": "ALL_LEGAL_DEPLOYED_UNIONS_NOT_UNDEPLOYED_ROSTER",
+        "reuse_current_battle_screen": true,
+        "warning": "Resolve the marked venom threat, then use the recovery window to heal.",
+        "art": {
+          "idle": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_043/ENEMY_REC_043_IDLE.png",
+            "sha256": "a3058bea51aff8e1c0d39376a4aede8f1a8a8718fe4dc3aad58ef525c783d532",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_043/ENEMY_REC_043_VAR_01/ENEMY_REC_043_VAR_01_IDLE.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_043/ENEMY_REC_043_IDLE.png"
+            ],
+            "approved": false
+          },
+          "attack": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_043/ENEMY_REC_043_ATTACK.png",
+            "sha256": "ddd28ed33caea637c0425a18eaac294ce20e32aeb46e8dfa6cab33ae85c0abd9",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_043/ENEMY_REC_043_VAR_01/ENEMY_REC_043_VAR_01_ATTACK.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_043/ENEMY_REC_043_ATTACK.png"
+            ],
+            "approved": false
+          },
+          "portrait": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_043/ENEMY_REC_043_PORTRAIT.png",
+            "sha256": "6cb2e85ef575974d235ef71b59a72f15a38a36616287c29697cb702232c11102",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_043/ENEMY_REC_043_VAR_01/ENEMY_REC_043_VAR_01_PORTRAIT.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_043/ENEMY_REC_043_PORTRAIT.png"
+            ],
+            "approved": false
+          }
+        }
+      },
+      "mechanics": {
+        "normal_pattern": [
+          "venom warning",
+          "bounded damage-over-time on marked Union",
+          "venom cadence recovery"
+        ],
+        "response": "CLEANSE_AND_SUSTAIN",
+        "required_native_capabilities": [
+          "dot",
+          "cleanse",
+          "telegraphed_attack"
+        ],
+        "telegraph_commitment": "At least one player Forecast decision before the threatened resolution. High Auto speed never removes that decision. Targets frozen by native encounter actions.",
+        "phase_hp_entry_percent": [
+          100,
+          65,
+          30
+        ],
+        "phases": [
+          {
+            "name": "Read the pattern",
+            "action_budget": "current native boss budget; no hidden per-player bonus actions",
+            "recovery": "one normal action window after the major threat"
+          },
+          {
+            "name": "Adapt under pressure",
+            "action_budget": "same native turn allowance",
+            "change": "use the documented alternate threat; keep telegraph before each dangerous resolution"
+          },
+          {
+            "name": "Finish the fight",
+            "action_budget": "same native turn allowance",
+            "change": "alternate established threats, preserve recovery windows; no permanent immunity/enrage wall"
+          }
+        ],
+        "phase_threshold_status": "NEW_TEST_CANDIDATE_NOT_APPROVED_COMBAT_BALANCE",
+        "no_control_duration_scaling": true,
+        "no_player_power_auto_scaling": true,
+        "no_new_adds": true,
+        "no_boss_resurrection_after_reward": true,
+        "unsupported_capability": "CONTENT_REQUIRED; do not silently substitute another mechanic or enable an empty HP-only encounter"
+      },
+      "stats_and_rewards": "Resolve Cycle1 absolute authored profile from current native boss scale; preserve current cycle policy and existing reward authorities; native values not invented from image size",
+      "eidran_echo": {
+        "effect_summary": "heal one allied Union and one legal cleanse",
+        "friendly_basis": "EIDRAN_OWN_AUTHORED_FRIENDLY_EFFECT_BUDGET_NEVER_ENEMY_STATS",
+        "native_handler": null,
+        "use_current_matched_titan_history": true
+      },
+      "native_kill_attribution": "One actual defeated enemy actor through existing family-kill authority. Phase transitions and friendly echoes are not enemy defeats. Preserve original-ten family history."
+    },
+    {
+      "slot": 4,
+      "logical_encounter_blueprint_id": "TITAN_TRIAL_004",
+      "source_family_id": "ENEMY_REC_042",
+      "source_family_name": "Tempest Roc",
+      "display_name": "Tempest Roc",
+      "encounter_subtitle": "Tempest Descent",
+      "status": "NEW_AUTHORED_TITAN_VARIANT_OF_EXISTING_ENEMY_FAMILY_NOT_NATIVE_BOSS_PROOF",
+      "native_titan_id": null,
+      "enabled_in_game": false,
+      "reward_hero_id": "HERO_TITAN_004",
+      "gold_art_id": "GOLD_TITAN_004",
+      "entry_gates": "Existing approved City/prior-boss/current-cycle rules; no new gate invented here",
+      "presentation": {
+        "visible_body_count": 1,
+        "hostile_unions": "ONE_TITAN_UNION_UNLESS_CURRENT_NATIVE_BOSS_USES_AN_APPROVED_MULTI_PART_REPRESENTATION",
+        "full_army": "ALL_LEGAL_DEPLOYED_UNIONS_NOT_UNDEPLOYED_ROSTER",
+        "reuse_current_battle_screen": true,
+        "warning": "Ward the lightning-marked Union before the roc dives.",
+        "art": {
+          "idle": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_042/ENEMY_REC_042_IDLE.png",
+            "sha256": "4def7d8fe2f026046ab8526176dd91e51d563b6d0513391c6cf4afe49e6acaff",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_042/ENEMY_REC_042_VAR_01/ENEMY_REC_042_VAR_01_IDLE.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_042/ENEMY_REC_042_IDLE.png"
+            ],
+            "approved": false
+          },
+          "attack": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_042/ENEMY_REC_042_ATTACK.png",
+            "sha256": "7f69f187b6f6d8552253496254e823bc199dbe3c5cb5c1085a0ac395e4803cd2",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_042/ENEMY_REC_042_VAR_01/ENEMY_REC_042_VAR_01_ATTACK.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_042/ENEMY_REC_042_ATTACK.png"
+            ],
+            "approved": false
+          },
+          "portrait": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_042/ENEMY_REC_042_PORTRAIT.png",
+            "sha256": "55ebb1e1ba61cc8c36cb92da900a6cfbd2e6b5eb06a346b210d803319257de8f",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_042/ENEMY_REC_042_VAR_01/ENEMY_REC_042_VAR_01_PORTRAIT.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_042/ENEMY_REC_042_PORTRAIT.png"
+            ],
+            "approved": false
+          }
+        }
+      },
+      "mechanics": {
+        "normal_pattern": [
+          "storm marking",
+          "Mystic dive on the marked Union",
+          "grounded recovery"
+        ],
+        "response": "MYSTIC_WARD",
+        "required_native_capabilities": [
+          "barrier",
+          "telegraphed_attack"
+        ],
+        "telegraph_commitment": "At least one player Forecast decision before the threatened resolution. High Auto speed never removes that decision. Targets frozen by native encounter actions.",
+        "phase_hp_entry_percent": [
+          100,
+          65,
+          30
+        ],
+        "phases": [
+          {
+            "name": "Read the pattern",
+            "action_budget": "current native boss budget; no hidden per-player bonus actions",
+            "recovery": "one normal action window after the major threat"
+          },
+          {
+            "name": "Adapt under pressure",
+            "action_budget": "same native turn allowance",
+            "change": "use the documented alternate threat; keep telegraph before each dangerous resolution"
+          },
+          {
+            "name": "Finish the fight",
+            "action_budget": "same native turn allowance",
+            "change": "alternate established threats, preserve recovery windows; no permanent immunity/enrage wall"
+          }
+        ],
+        "phase_threshold_status": "NEW_TEST_CANDIDATE_NOT_APPROVED_COMBAT_BALANCE",
+        "no_control_duration_scaling": true,
+        "no_player_power_auto_scaling": true,
+        "no_new_adds": true,
+        "no_boss_resurrection_after_reward": true,
+        "unsupported_capability": "CONTENT_REQUIRED; do not silently substitute another mechanic or enable an empty HP-only encounter"
+      },
+      "stats_and_rewards": "Resolve Cycle1 absolute authored profile from current native boss scale; preserve current cycle policy and existing reward authorities; native values not invented from image size",
+      "eidran_echo": {
+        "effect_summary": "Mystic strike on one enemy Union",
+        "friendly_basis": "EIDRAN_OWN_AUTHORED_FRIENDLY_EFFECT_BUDGET_NEVER_ENEMY_STATS",
+        "native_handler": null,
+        "use_current_matched_titan_history": true
+      },
+      "native_kill_attribution": "One actual defeated enemy actor through existing family-kill authority. Phase transitions and friendly echoes are not enemy defeats. Preserve original-ten family history."
+    },
+    {
+      "slot": 5,
+      "logical_encounter_blueprint_id": "TITAN_TRIAL_005",
+      "source_family_id": "ENEMY_REC_056",
+      "source_family_name": "Sunfire Phoenix",
+      "display_name": "Sunfire Phoenix",
+      "encounter_subtitle": "Cinder Refrain",
+      "status": "NEW_AUTHORED_TITAN_VARIANT_OF_EXISTING_ENEMY_FAMILY_NOT_NATIVE_BOSS_PROOF",
+      "native_titan_id": null,
+      "enabled_in_game": false,
+      "reward_hero_id": "HERO_TITAN_005",
+      "gold_art_id": "GOLD_TITAN_005",
+      "entry_gates": "Existing approved City/prior-boss/current-cycle rules; no new gate invented here",
+      "presentation": {
+        "visible_body_count": 1,
+        "hostile_unions": "ONE_TITAN_UNION_UNLESS_CURRENT_NATIVE_BOSS_USES_AN_APPROVED_MULTI_PART_REPRESENTATION",
+        "full_army": "ALL_LEGAL_DEPLOYED_UNIONS_NOT_UNDEPLOYED_ROSTER",
+        "reuse_current_battle_screen": true,
+        "warning": "Its healing channel is visible. Apply pressure during the exposed channel.",
+        "art": {
+          "idle": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_056/ENEMY_REC_056_IDLE.png",
+            "sha256": "7fed4fab3166c480af746682d1d50a03b42e71b773f0ded71b4ed49e6482faac",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_056/ENEMY_REC_056_VAR_01/ENEMY_REC_056_VAR_01_IDLE.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_056/ENEMY_REC_056_IDLE.png"
+            ],
+            "approved": false
+          },
+          "attack": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_056/ENEMY_REC_056_ATTACK.png",
+            "sha256": "830ccffcc93a621c47b65f6065b7e3af8909ed56870111eae574b0e1d225f79e",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_056/ENEMY_REC_056_VAR_01/ENEMY_REC_056_VAR_01_ATTACK.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_056/ENEMY_REC_056_ATTACK.png"
+            ],
+            "approved": false
+          },
+          "portrait": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_056/ENEMY_REC_056_PORTRAIT.png",
+            "sha256": "738a56897a746b6c0afd8de40bd161e99e89b8506b607821748f252505213c3e",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_056/ENEMY_REC_056_VAR_01/ENEMY_REC_056_VAR_01_PORTRAIT.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_056/ENEMY_REC_056_PORTRAIT.png"
+            ],
+            "approved": false
+          }
+        }
+      },
+      "mechanics": {
+        "normal_pattern": [
+          "ember sweep",
+          "one finite self-healing channel per phase",
+          "exposed ash recovery"
+        ],
+        "response": "SUSTAIN_AND_PRESSURE",
+        "required_native_capabilities": [
+          "heal",
+          "telegraphed_attack"
+        ],
+        "telegraph_commitment": "At least one player Forecast decision before the threatened resolution. High Auto speed never removes that decision. Targets frozen by native encounter actions.",
+        "phase_hp_entry_percent": [
+          100,
+          65,
+          30
+        ],
+        "phases": [
+          {
+            "name": "Read the pattern",
+            "action_budget": "current native boss budget; no hidden per-player bonus actions",
+            "recovery": "one normal action window after the major threat"
+          },
+          {
+            "name": "Adapt under pressure",
+            "action_budget": "same native turn allowance",
+            "change": "use the documented alternate threat; keep telegraph before each dangerous resolution"
+          },
+          {
+            "name": "Finish the fight",
+            "action_budget": "same native turn allowance",
+            "change": "alternate established threats, preserve recovery windows; no permanent immunity/enrage wall"
+          }
+        ],
+        "phase_threshold_status": "NEW_TEST_CANDIDATE_NOT_APPROVED_COMBAT_BALANCE",
+        "no_control_duration_scaling": true,
+        "no_player_power_auto_scaling": true,
+        "no_new_adds": true,
+        "no_boss_resurrection_after_reward": true,
+        "unsupported_capability": "CONTENT_REQUIRED; do not silently substitute another mechanic or enable an empty HP-only encounter"
+      },
+      "stats_and_rewards": "Resolve Cycle1 absolute authored profile from current native boss scale; preserve current cycle policy and existing reward authorities; native values not invented from image size",
+      "eidran_echo": {
+        "effect_summary": "heal one allied Union",
+        "friendly_basis": "EIDRAN_OWN_AUTHORED_FRIENDLY_EFFECT_BUDGET_NEVER_ENEMY_STATS",
+        "native_handler": null,
+        "use_current_matched_titan_history": true
+      },
+      "native_kill_attribution": "One actual defeated enemy actor through existing family-kill authority. Phase transitions and friendly echoes are not enemy defeats. Preserve original-ten family history."
+    },
+    {
+      "slot": 6,
+      "logical_encounter_blueprint_id": "TITAN_TRIAL_006",
+      "source_family_id": "ENEMY_REC_031",
+      "source_family_name": "Gearbanner Castellan",
+      "display_name": "Gearbanner Castellan",
+      "encounter_subtitle": "Foundry March",
+      "status": "NEW_AUTHORED_TITAN_VARIANT_OF_EXISTING_ENEMY_FAMILY_NOT_NATIVE_BOSS_PROOF",
+      "native_titan_id": null,
+      "enabled_in_game": false,
+      "reward_hero_id": "HERO_TITAN_006",
+      "gold_art_id": "GOLD_TITAN_006",
+      "entry_gates": "Existing approved City/prior-boss/current-cycle rules; no new gate invented here",
+      "presentation": {
+        "visible_body_count": 1,
+        "hostile_unions": "ONE_TITAN_UNION_UNLESS_CURRENT_NATIVE_BOSS_USES_AN_APPROVED_MULTI_PART_REPRESENTATION",
+        "full_army": "ALL_LEGAL_DEPLOYED_UNIONS_NOT_UNDEPLOYED_ROSTER",
+        "reuse_current_battle_screen": true,
+        "warning": "The engine alternates two marked Unions. Keep both formations prepared.",
+        "art": {
+          "idle": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_031/ENEMY_REC_031_IDLE.png",
+            "sha256": "c843aebf5560c3a8489bd7c02743f21b92f72662eb141b331fa1cccf3f2acaaf",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_031/ENEMY_REC_031_VAR_01/ENEMY_REC_031_VAR_01_IDLE.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_031/ENEMY_REC_031_IDLE.png"
+            ],
+            "approved": false
+          },
+          "attack": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_031/ENEMY_REC_031_ATTACK.png",
+            "sha256": "36ae4089e7e79506fdfea725a4814098fb608a19eab8bc8431fee13309cb2c22",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_031/ENEMY_REC_031_VAR_01/ENEMY_REC_031_VAR_01_ATTACK.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_031/ENEMY_REC_031_ATTACK.png"
+            ],
+            "approved": false
+          },
+          "portrait": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_031/ENEMY_REC_031_PORTRAIT.png",
+            "sha256": "eb04ec12ac6707ce95cfcfd08fbf002bb6cf5a37a9250b26311e5908004961e0",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_031/ENEMY_REC_031_VAR_01/ENEMY_REC_031_VAR_01_PORTRAIT.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_031/ENEMY_REC_031_PORTRAIT.png"
+            ],
+            "approved": false
+          }
+        }
+      },
+      "mechanics": {
+        "normal_pattern": [
+          "mark first Union",
+          "mark second Union and bounded sweep",
+          "vented engine recovery"
+        ],
+        "response": "TWO_UNION_PREPARATION",
+        "required_native_capabilities": [
+          "telegraphed_attack",
+          "threat"
+        ],
+        "telegraph_commitment": "At least one player Forecast decision before the threatened resolution. High Auto speed never removes that decision. Targets frozen by native encounter actions.",
+        "phase_hp_entry_percent": [
+          100,
+          65,
+          30
+        ],
+        "phases": [
+          {
+            "name": "Read the pattern",
+            "action_budget": "current native boss budget; no hidden per-player bonus actions",
+            "recovery": "one normal action window after the major threat"
+          },
+          {
+            "name": "Adapt under pressure",
+            "action_budget": "same native turn allowance",
+            "change": "use the documented alternate threat; keep telegraph before each dangerous resolution"
+          },
+          {
+            "name": "Finish the fight",
+            "action_budget": "same native turn allowance",
+            "change": "alternate established threats, preserve recovery windows; no permanent immunity/enrage wall"
+          }
+        ],
+        "phase_threshold_status": "NEW_TEST_CANDIDATE_NOT_APPROVED_COMBAT_BALANCE",
+        "no_control_duration_scaling": true,
+        "no_player_power_auto_scaling": true,
+        "no_new_adds": true,
+        "no_boss_resurrection_after_reward": true,
+        "unsupported_capability": "CONTENT_REQUIRED; do not silently substitute another mechanic or enable an empty HP-only encounter"
+      },
+      "stats_and_rewards": "Resolve Cycle1 absolute authored profile from current native boss scale; preserve current cycle policy and existing reward authorities; native values not invented from image size",
+      "eidran_echo": {
+        "effect_summary": "physical strike and normal threat",
+        "friendly_basis": "EIDRAN_OWN_AUTHORED_FRIENDLY_EFFECT_BUDGET_NEVER_ENEMY_STATS",
+        "native_handler": null,
+        "use_current_matched_titan_history": true
+      },
+      "native_kill_attribution": "One actual defeated enemy actor through existing family-kill authority. Phase transitions and friendly echoes are not enemy defeats. Preserve original-ten family history."
+    },
+    {
+      "slot": 7,
+      "logical_encounter_blueprint_id": "TITAN_TRIAL_007",
+      "source_family_id": "ENEMY_REC_033",
+      "source_family_name": "Ossuary Wyvern",
+      "display_name": "Ossuary Wyvern",
+      "encounter_subtitle": "Ossuary Breath",
+      "status": "NEW_AUTHORED_TITAN_VARIANT_OF_EXISTING_ENEMY_FAMILY_NOT_NATIVE_BOSS_PROOF",
+      "native_titan_id": null,
+      "enabled_in_game": false,
+      "reward_hero_id": "HERO_TITAN_007",
+      "gold_art_id": "GOLD_TITAN_007",
+      "entry_gates": "Existing approved City/prior-boss/current-cycle rules; no new gate invented here",
+      "presentation": {
+        "visible_body_count": 1,
+        "hostile_unions": "ONE_TITAN_UNION_UNLESS_CURRENT_NATIVE_BOSS_USES_AN_APPROVED_MULTI_PART_REPRESENTATION",
+        "full_army": "ALL_LEGAL_DEPLOYED_UNIONS_NOT_UNDEPLOYED_ROSTER",
+        "reuse_current_battle_screen": true,
+        "warning": "The breath builds slowly. Survive the marked strike and restore the line.",
+        "art": {
+          "idle": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_033/ENEMY_REC_033_IDLE.png",
+            "sha256": "b41cd45c5caa4eba385617db0a5ad4a74c173a03b307b5e10b0c4c8561f83cf8",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_033/ENEMY_REC_033_VAR_01/ENEMY_REC_033_VAR_01_IDLE.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_033/ENEMY_REC_033_IDLE.png"
+            ],
+            "approved": false
+          },
+          "attack": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_033/ENEMY_REC_033_ATTACK.png",
+            "sha256": "b462d8373d6f9c10c21f930dbe2b4082cbb37e2917ce2829a53e927c37f72ad9",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_033/ENEMY_REC_033_VAR_01/ENEMY_REC_033_VAR_01_ATTACK.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_033/ENEMY_REC_033_ATTACK.png"
+            ],
+            "approved": false
+          },
+          "portrait": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_033/ENEMY_REC_033_PORTRAIT.png",
+            "sha256": "8dd5a61c28dac67e3d0503a508ada45f1079fe322c857234eaef08d85129c3f7",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_033/ENEMY_REC_033_VAR_01/ENEMY_REC_033_VAR_01_PORTRAIT.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_033/ENEMY_REC_033_PORTRAIT.png"
+            ],
+            "approved": false
+          }
+        }
+      },
+      "mechanics": {
+        "normal_pattern": [
+          "breath warning",
+          "bounded attrition effect",
+          "wing-fold recovery"
+        ],
+        "response": "RESTORE_AFTER_PRESSURE",
+        "required_native_capabilities": [
+          "dot",
+          "telegraphed_attack"
+        ],
+        "telegraph_commitment": "At least one player Forecast decision before the threatened resolution. High Auto speed never removes that decision. Targets frozen by native encounter actions.",
+        "phase_hp_entry_percent": [
+          100,
+          65,
+          30
+        ],
+        "phases": [
+          {
+            "name": "Read the pattern",
+            "action_budget": "current native boss budget; no hidden per-player bonus actions",
+            "recovery": "one normal action window after the major threat"
+          },
+          {
+            "name": "Adapt under pressure",
+            "action_budget": "same native turn allowance",
+            "change": "use the documented alternate threat; keep telegraph before each dangerous resolution"
+          },
+          {
+            "name": "Finish the fight",
+            "action_budget": "same native turn allowance",
+            "change": "alternate established threats, preserve recovery windows; no permanent immunity/enrage wall"
+          }
+        ],
+        "phase_threshold_status": "NEW_TEST_CANDIDATE_NOT_APPROVED_COMBAT_BALANCE",
+        "no_control_duration_scaling": true,
+        "no_player_power_auto_scaling": true,
+        "no_new_adds": true,
+        "no_boss_resurrection_after_reward": true,
+        "unsupported_capability": "CONTENT_REQUIRED; do not silently substitute another mechanic or enable an empty HP-only encounter"
+      },
+      "stats_and_rewards": "Resolve Cycle1 absolute authored profile from current native boss scale; preserve current cycle policy and existing reward authorities; native values not invented from image size",
+      "eidran_echo": {
+        "effect_summary": "physical strike on one enemy Union",
+        "friendly_basis": "EIDRAN_OWN_AUTHORED_FRIENDLY_EFFECT_BUDGET_NEVER_ENEMY_STATS",
+        "native_handler": null,
+        "use_current_matched_titan_history": true
+      },
+      "native_kill_attribution": "One actual defeated enemy actor through existing family-kill authority. Phase transitions and friendly echoes are not enemy defeats. Preserve original-ten family history."
+    },
+    {
+      "slot": 8,
+      "logical_encounter_blueprint_id": "TITAN_TRIAL_008",
+      "source_family_id": "ENEMY_REC_060",
+      "source_family_name": "Frosttusk Mammoth",
+      "display_name": "Frosttusk Mammoth",
+      "encounter_subtitle": "Glacial Stampede",
+      "status": "NEW_AUTHORED_TITAN_VARIANT_OF_EXISTING_ENEMY_FAMILY_NOT_NATIVE_BOSS_PROOF",
+      "native_titan_id": null,
+      "enabled_in_game": false,
+      "reward_hero_id": "HERO_TITAN_008",
+      "gold_art_id": "GOLD_TITAN_008",
+      "entry_gates": "Existing approved City/prior-boss/current-cycle rules; no new gate invented here",
+      "presentation": {
+        "visible_body_count": 1,
+        "hostile_unions": "ONE_TITAN_UNION_UNLESS_CURRENT_NATIVE_BOSS_USES_AN_APPROVED_MULTI_PART_REPRESENTATION",
+        "full_army": "ALL_LEGAL_DEPLOYED_UNIONS_NOT_UNDEPLOYED_ROSTER",
+        "reuse_current_battle_screen": true,
+        "warning": "A full-round warning precedes the charge. Guard the marked Union.",
+        "art": {
+          "idle": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_060/ENEMY_REC_060_IDLE.png",
+            "sha256": "b2c3f0951a8350638996733fac222b1d91ef6d4578e682f5cc8330266c5f3406",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_060/ENEMY_REC_060_VAR_01/ENEMY_REC_060_VAR_01_IDLE.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_060/ENEMY_REC_060_IDLE.png"
+            ],
+            "approved": false
+          },
+          "attack": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_060/ENEMY_REC_060_ATTACK.png",
+            "sha256": "b51e9cd3474c72d6515583966b809643cbc72b3e86c6adaeb30663a466a262ba",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_060/ENEMY_REC_060_VAR_01/ENEMY_REC_060_VAR_01_ATTACK.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_060/ENEMY_REC_060_ATTACK.png"
+            ],
+            "approved": false
+          },
+          "portrait": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_060/ENEMY_REC_060_PORTRAIT.png",
+            "sha256": "f7f623565f1d7dc6eb05a3367e0bb2108e6342d0cb87681b5e2a8b92050464a1",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_060/ENEMY_REC_060_VAR_01/ENEMY_REC_060_VAR_01_PORTRAIT.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_060/ENEMY_REC_060_PORTRAIT.png"
+            ],
+            "approved": false
+          }
+        }
+      },
+      "mechanics": {
+        "normal_pattern": [
+          "charge warning",
+          "fixed-target impact",
+          "long recovery window"
+        ],
+        "response": "GUARD_CHARGED_IMPACT",
+        "required_native_capabilities": [
+          "guard",
+          "telegraphed_attack"
+        ],
+        "telegraph_commitment": "At least one player Forecast decision before the threatened resolution. High Auto speed never removes that decision. Targets frozen by native encounter actions.",
+        "phase_hp_entry_percent": [
+          100,
+          65,
+          30
+        ],
+        "phases": [
+          {
+            "name": "Read the pattern",
+            "action_budget": "current native boss budget; no hidden per-player bonus actions",
+            "recovery": "one normal action window after the major threat"
+          },
+          {
+            "name": "Adapt under pressure",
+            "action_budget": "same native turn allowance",
+            "change": "use the documented alternate threat; keep telegraph before each dangerous resolution"
+          },
+          {
+            "name": "Finish the fight",
+            "action_budget": "same native turn allowance",
+            "change": "alternate established threats, preserve recovery windows; no permanent immunity/enrage wall"
+          }
+        ],
+        "phase_threshold_status": "NEW_TEST_CANDIDATE_NOT_APPROVED_COMBAT_BALANCE",
+        "no_control_duration_scaling": true,
+        "no_player_power_auto_scaling": true,
+        "no_new_adds": true,
+        "no_boss_resurrection_after_reward": true,
+        "unsupported_capability": "CONTENT_REQUIRED; do not silently substitute another mechanic or enable an empty HP-only encounter"
+      },
+      "stats_and_rewards": "Resolve Cycle1 absolute authored profile from current native boss scale; preserve current cycle policy and existing reward authorities; native values not invented from image size",
+      "eidran_echo": {
+        "effect_summary": "barrier on one allied Union",
+        "friendly_basis": "EIDRAN_OWN_AUTHORED_FRIENDLY_EFFECT_BUDGET_NEVER_ENEMY_STATS",
+        "native_handler": null,
+        "use_current_matched_titan_history": true
+      },
+      "native_kill_attribution": "One actual defeated enemy actor through existing family-kill authority. Phase transitions and friendly echoes are not enemy defeats. Preserve original-ten family history."
+    },
+    {
+      "slot": 9,
+      "logical_encounter_blueprint_id": "TITAN_TRIAL_009",
+      "source_family_id": "ENEMY_REC_003",
+      "source_family_name": "Elder Rootlord",
+      "display_name": "Elder Rootlord",
+      "encounter_subtitle": "Worldroot Mantle",
+      "status": "NEW_AUTHORED_TITAN_VARIANT_OF_EXISTING_ENEMY_FAMILY_NOT_NATIVE_BOSS_PROOF",
+      "native_titan_id": null,
+      "enabled_in_game": false,
+      "reward_hero_id": "HERO_TITAN_009",
+      "gold_art_id": "GOLD_TITAN_009",
+      "entry_gates": "Existing approved City/prior-boss/current-cycle rules; no new gate invented here",
+      "presentation": {
+        "visible_body_count": 1,
+        "hostile_unions": "ONE_TITAN_UNION_UNLESS_CURRENT_NATIVE_BOSS_USES_AN_APPROVED_MULTI_PART_REPRESENTATION",
+        "full_army": "ALL_LEGAL_DEPLOYED_UNIONS_NOT_UNDEPLOYED_ROSTER",
+        "reuse_current_battle_screen": true,
+        "warning": "Break through the mantle, then exploit the exposed heartwood.",
+        "art": {
+          "idle": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_003/ENEMY_REC_003_IDLE.png",
+            "sha256": "d9d5e8b67e66c7a56accb9ab17c1360631bcff6ec194a0be0cb2ee90efed17aa",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_003/ENEMY_REC_003_VAR_01/ENEMY_REC_003_VAR_01_IDLE.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_003/ENEMY_REC_003_IDLE.png"
+            ],
+            "approved": false
+          },
+          "attack": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_003/ENEMY_REC_003_ATTACK.png",
+            "sha256": "0187d644534549ab0b08cb17e57a9ee0bfc897b714ab9b5d7233db2e37918331",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_003/ENEMY_REC_003_VAR_01/ENEMY_REC_003_VAR_01_ATTACK.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_003/ENEMY_REC_003_ATTACK.png"
+            ],
+            "approved": false
+          },
+          "portrait": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_003/ENEMY_REC_003_PORTRAIT.png",
+            "sha256": "6d0c15da158e3ac319fec824f03db779007e4032e0e68ea6fb180d339dc8d321",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_003/ENEMY_REC_003_VAR_01/ENEMY_REC_003_VAR_01_PORTRAIT.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_003/ENEMY_REC_003_PORTRAIT.png"
+            ],
+            "approved": false
+          }
+        }
+      },
+      "mechanics": {
+        "normal_pattern": [
+          "bounded self-barrier",
+          "root attack on marked Union",
+          "heartwood exposure"
+        ],
+        "response": "BARRIER_BREAK_AND_RECOVER",
+        "required_native_capabilities": [
+          "barrier",
+          "telegraphed_attack"
+        ],
+        "telegraph_commitment": "At least one player Forecast decision before the threatened resolution. High Auto speed never removes that decision. Targets frozen by native encounter actions.",
+        "phase_hp_entry_percent": [
+          100,
+          65,
+          30
+        ],
+        "phases": [
+          {
+            "name": "Read the pattern",
+            "action_budget": "current native boss budget; no hidden per-player bonus actions",
+            "recovery": "one normal action window after the major threat"
+          },
+          {
+            "name": "Adapt under pressure",
+            "action_budget": "same native turn allowance",
+            "change": "use the documented alternate threat; keep telegraph before each dangerous resolution"
+          },
+          {
+            "name": "Finish the fight",
+            "action_budget": "same native turn allowance",
+            "change": "alternate established threats, preserve recovery windows; no permanent immunity/enrage wall"
+          }
+        ],
+        "phase_threshold_status": "NEW_TEST_CANDIDATE_NOT_APPROVED_COMBAT_BALANCE",
+        "no_control_duration_scaling": true,
+        "no_player_power_auto_scaling": true,
+        "no_new_adds": true,
+        "no_boss_resurrection_after_reward": true,
+        "unsupported_capability": "CONTENT_REQUIRED; do not silently substitute another mechanic or enable an empty HP-only encounter"
+      },
+      "stats_and_rewards": "Resolve Cycle1 absolute authored profile from current native boss scale; preserve current cycle policy and existing reward authorities; native values not invented from image size",
+      "eidran_echo": {
+        "effect_summary": "barrier on one allied Union",
+        "friendly_basis": "EIDRAN_OWN_AUTHORED_FRIENDLY_EFFECT_BUDGET_NEVER_ENEMY_STATS",
+        "native_handler": null,
+        "use_current_matched_titan_history": true
+      },
+      "native_kill_attribution": "One actual defeated enemy actor through existing family-kill authority. Phase transitions and friendly echoes are not enemy defeats. Preserve original-ten family history."
+    },
+    {
+      "slot": 10,
+      "logical_encounter_blueprint_id": "TITAN_TRIAL_010",
+      "source_family_id": "ENEMY_REC_039",
+      "source_family_name": "Prismwatch Oculus",
+      "display_name": "Prismwatch Oculus",
+      "encounter_subtitle": "Prismatic Alignment",
+      "status": "NEW_AUTHORED_TITAN_VARIANT_OF_EXISTING_ENEMY_FAMILY_NOT_NATIVE_BOSS_PROOF",
+      "native_titan_id": null,
+      "enabled_in_game": false,
+      "reward_hero_id": "HERO_TITAN_010",
+      "gold_art_id": "GOLD_TITAN_010",
+      "entry_gates": "Existing approved City/prior-boss/current-cycle rules; no new gate invented here",
+      "presentation": {
+        "visible_body_count": 1,
+        "hostile_unions": "ONE_TITAN_UNION_UNLESS_CURRENT_NATIVE_BOSS_USES_AN_APPROVED_MULTI_PART_REPRESENTATION",
+        "full_army": "ALL_LEGAL_DEPLOYED_UNIONS_NOT_UNDEPLOYED_ROSTER",
+        "reuse_current_battle_screen": true,
+        "warning": "The eye aligns on one Union. Ward it, then strike during refocus.",
+        "art": {
+          "idle": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_039/ENEMY_REC_039_IDLE.png",
+            "sha256": "80ee5e87048f6a74134600482e0252298d990561c7054f4da1d3e5af193c4d73",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_039/ENEMY_REC_039_VAR_01/ENEMY_REC_039_VAR_01_IDLE.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_039/ENEMY_REC_039_IDLE.png"
+            ],
+            "approved": false
+          },
+          "attack": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_039/ENEMY_REC_039_ATTACK.png",
+            "sha256": "0e1393699e0b127ce9921e8e85267f745c05369c4f9f4afad9569a463811d727",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_039/ENEMY_REC_039_VAR_01/ENEMY_REC_039_VAR_01_ATTACK.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_039/ENEMY_REC_039_ATTACK.png"
+            ],
+            "approved": false
+          },
+          "portrait": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_039/ENEMY_REC_039_PORTRAIT.png",
+            "sha256": "f1b4d0499805c0865051d85ff776552f452c72a2304738c691ff0fc5f24bdff4",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_039/ENEMY_REC_039_VAR_01/ENEMY_REC_039_VAR_01_PORTRAIT.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_039/ENEMY_REC_039_PORTRAIT.png"
+            ],
+            "approved": false
+          }
+        }
+      },
+      "mechanics": {
+        "normal_pattern": [
+          "focus warning",
+          "Mystic beam on committed target",
+          "refocus exposure"
+        ],
+        "response": "WARD_AND_FINISH",
+        "required_native_capabilities": [
+          "barrier",
+          "telegraphed_attack"
+        ],
+        "telegraph_commitment": "At least one player Forecast decision before the threatened resolution. High Auto speed never removes that decision. Targets frozen by native encounter actions.",
+        "phase_hp_entry_percent": [
+          100,
+          65,
+          30
+        ],
+        "phases": [
+          {
+            "name": "Read the pattern",
+            "action_budget": "current native boss budget; no hidden per-player bonus actions",
+            "recovery": "one normal action window after the major threat"
+          },
+          {
+            "name": "Adapt under pressure",
+            "action_budget": "same native turn allowance",
+            "change": "use the documented alternate threat; keep telegraph before each dangerous resolution"
+          },
+          {
+            "name": "Finish the fight",
+            "action_budget": "same native turn allowance",
+            "change": "alternate established threats, preserve recovery windows; no permanent immunity/enrage wall"
+          }
+        ],
+        "phase_threshold_status": "NEW_TEST_CANDIDATE_NOT_APPROVED_COMBAT_BALANCE",
+        "no_control_duration_scaling": true,
+        "no_player_power_auto_scaling": true,
+        "no_new_adds": true,
+        "no_boss_resurrection_after_reward": true,
+        "unsupported_capability": "CONTENT_REQUIRED; do not silently substitute another mechanic or enable an empty HP-only encounter"
+      },
+      "stats_and_rewards": "Resolve Cycle1 absolute authored profile from current native boss scale; preserve current cycle policy and existing reward authorities; native values not invented from image size",
+      "eidran_echo": {
+        "effect_summary": "Mystic strike on one enemy Union",
+        "friendly_basis": "EIDRAN_OWN_AUTHORED_FRIENDLY_EFFECT_BUDGET_NEVER_ENEMY_STATS",
+        "native_handler": null,
+        "use_current_matched_titan_history": true
+      },
+      "native_kill_attribution": "One actual defeated enemy actor through existing family-kill authority. Phase transitions and friendly echoes are not enemy defeats. Preserve original-ten family history."
+    },
+    {
+      "slot": 11,
+      "logical_encounter_blueprint_id": "TITAN_TRIAL_011",
+      "source_family_id": "ENEMY_REC_069",
+      "source_family_name": "Voidspore Slime Tyrant",
+      "display_name": "Voidspore Slime Tyrant",
+      "encounter_subtitle": "Voidspore Bloom",
+      "status": "NEW_AUTHORED_TITAN_VARIANT_OF_EXISTING_ENEMY_FAMILY_NOT_NATIVE_BOSS_PROOF",
+      "native_titan_id": null,
+      "enabled_in_game": false,
+      "reward_hero_id": "HERO_TITAN_011",
+      "gold_art_id": "GOLD_TITAN_011",
+      "entry_gates": "Existing approved City/prior-boss/current-cycle rules; no new gate invented here",
+      "presentation": {
+        "visible_body_count": 1,
+        "hostile_unions": "ONE_TITAN_UNION_UNLESS_CURRENT_NATIVE_BOSS_USES_AN_APPROVED_MULTI_PART_REPRESENTATION",
+        "full_army": "ALL_LEGAL_DEPLOYED_UNIONS_NOT_UNDEPLOYED_ROSTER",
+        "reuse_current_battle_screen": true,
+        "warning": "The bloom alternates pressure and recovery. Do not spend every defense at once.",
+        "art": {
+          "idle": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_069/ENEMY_REC_069_IDLE.png",
+            "sha256": "1d284ddec14585c6f3ddc575f44d63417824cfb9248de059ef8c0fcea3960c6d",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_069/ENEMY_REC_069_VAR_01/ENEMY_REC_069_VAR_01_IDLE.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_069/ENEMY_REC_069_IDLE.png"
+            ],
+            "approved": false
+          },
+          "attack": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_069/ENEMY_REC_069_ATTACK.png",
+            "sha256": "901b4982047939796e57cc247034ef27665aa3858131a6cb1bf3adc53dea3d89",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_069/ENEMY_REC_069_VAR_01/ENEMY_REC_069_VAR_01_ATTACK.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_069/ENEMY_REC_069_ATTACK.png"
+            ],
+            "approved": false
+          },
+          "portrait": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_069/ENEMY_REC_069_PORTRAIT.png",
+            "sha256": "639b90094cadb3a021db27c673c6d5288cb61d647b5bc5db462050a41dc85d45",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_069/ENEMY_REC_069_VAR_01/ENEMY_REC_069_VAR_01_PORTRAIT.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_069/ENEMY_REC_069_PORTRAIT.png"
+            ],
+            "approved": false
+          }
+        }
+      },
+      "mechanics": {
+        "normal_pattern": [
+          "spore warning",
+          "bounded slow/attrition on marked Union",
+          "core exposure"
+        ],
+        "response": "STAGGER_DEFENSIVE_TOOLS",
+        "required_native_capabilities": [
+          "slow",
+          "dot",
+          "telegraphed_attack"
+        ],
+        "telegraph_commitment": "At least one player Forecast decision before the threatened resolution. High Auto speed never removes that decision. Targets frozen by native encounter actions.",
+        "phase_hp_entry_percent": [
+          100,
+          65,
+          30
+        ],
+        "phases": [
+          {
+            "name": "Read the pattern",
+            "action_budget": "current native boss budget; no hidden per-player bonus actions",
+            "recovery": "one normal action window after the major threat"
+          },
+          {
+            "name": "Adapt under pressure",
+            "action_budget": "same native turn allowance",
+            "change": "use the documented alternate threat; keep telegraph before each dangerous resolution"
+          },
+          {
+            "name": "Finish the fight",
+            "action_budget": "same native turn allowance",
+            "change": "alternate established threats, preserve recovery windows; no permanent immunity/enrage wall"
+          }
+        ],
+        "phase_threshold_status": "NEW_TEST_CANDIDATE_NOT_APPROVED_COMBAT_BALANCE",
+        "no_control_duration_scaling": true,
+        "no_player_power_auto_scaling": true,
+        "no_new_adds": true,
+        "no_boss_resurrection_after_reward": true,
+        "unsupported_capability": "CONTENT_REQUIRED; do not silently substitute another mechanic or enable an empty HP-only encounter"
+      },
+      "stats_and_rewards": "Resolve Cycle1 absolute authored profile from current native boss scale; preserve current cycle policy and existing reward authorities; native values not invented from image size",
+      "eidran_echo": {
+        "effect_summary": "physical strike with fixed slow",
+        "friendly_basis": "EIDRAN_OWN_AUTHORED_FRIENDLY_EFFECT_BUDGET_NEVER_ENEMY_STATS",
+        "native_handler": null,
+        "use_current_matched_titan_history": true
+      },
+      "native_kill_attribution": "One actual defeated enemy actor through existing family-kill authority. Phase transitions and friendly echoes are not enemy defeats. Preserve original-ten family history."
+    },
+    {
+      "slot": 12,
+      "logical_encounter_blueprint_id": "TITAN_TRIAL_012",
+      "source_family_id": "ENEMY_REC_070",
+      "source_family_name": "Emberjaw Crocodrake",
+      "display_name": "Emberjaw Crocodrake",
+      "encounter_subtitle": "Emberjaw Cataclysm",
+      "status": "NEW_AUTHORED_TITAN_VARIANT_OF_EXISTING_ENEMY_FAMILY_NOT_NATIVE_BOSS_PROOF",
+      "native_titan_id": null,
+      "enabled_in_game": false,
+      "reward_hero_id": "HERO_TITAN_012",
+      "gold_art_id": "GOLD_TITAN_012",
+      "entry_gates": "Existing approved City/prior-boss/current-cycle rules; no new gate invented here",
+      "presentation": {
+        "visible_body_count": 1,
+        "hostile_unions": "ONE_TITAN_UNION_UNLESS_CURRENT_NATIVE_BOSS_USES_AN_APPROVED_MULTI_PART_REPRESENTATION",
+        "full_army": "ALL_LEGAL_DEPLOYED_UNIONS_NOT_UNDEPLOYED_ROSTER",
+        "reuse_current_battle_screen": true,
+        "warning": "Read the charge, then the breath; punish the exposed jaw between them.",
+        "art": {
+          "idle": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_070/ENEMY_REC_070_IDLE.png",
+            "sha256": "7c5dc77c56e5e879b87313d65ca6f3e4e0c27cad10a65759b505d20421112462",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_070/ENEMY_REC_070_VAR_01/ENEMY_REC_070_VAR_01_IDLE.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_070/ENEMY_REC_070_IDLE.png"
+            ],
+            "approved": false
+          },
+          "attack": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_070/ENEMY_REC_070_ATTACK.png",
+            "sha256": "c72e2b58b7980369521ff6147177a1ab6e072decdac4e7939555b2609fca9608",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_070/ENEMY_REC_070_VAR_01/ENEMY_REC_070_VAR_01_ATTACK.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_070/ENEMY_REC_070_ATTACK.png"
+            ],
+            "approved": false
+          },
+          "portrait": {
+            "master_path": "continuation_r43/recovered_titan_art/ENEMY_REC_070/ENEMY_REC_070_PORTRAIT.png",
+            "sha256": "55a23798e8d63da3352465ef481839c5bc64e05494ffa81d5946020c4700887c",
+            "existing_native_candidate_paths": [
+              "Assets/SecondDimension/EnemyArt700/Textures/ENEMY_REC_070/ENEMY_REC_070_VAR_01/ENEMY_REC_070_VAR_01_PORTRAIT.png",
+              "Assets/SecondDimension/SSSTenV3/Textures/Forms/ENEMY_REC_070/ENEMY_REC_070_PORTRAIT.png"
+            ],
+            "approved": false
+          }
+        }
+      },
+      "mechanics": {
+        "normal_pattern": [
+          "physical charge warning",
+          "Mystic breath warning",
+          "exposed jaw recovery"
+        ],
+        "response": "COMBINED_PHYSICAL_MYSTIC_PREPARATION",
+        "required_native_capabilities": [
+          "guard",
+          "barrier",
+          "telegraphed_attack"
+        ],
+        "telegraph_commitment": "At least one player Forecast decision before the threatened resolution. High Auto speed never removes that decision. Targets frozen by native encounter actions.",
+        "phase_hp_entry_percent": [
+          100,
+          65,
+          30
+        ],
+        "phases": [
+          {
+            "name": "Read the pattern",
+            "action_budget": "current native boss budget; no hidden per-player bonus actions",
+            "recovery": "one normal action window after the major threat"
+          },
+          {
+            "name": "Adapt under pressure",
+            "action_budget": "same native turn allowance",
+            "change": "use the documented alternate threat; keep telegraph before each dangerous resolution"
+          },
+          {
+            "name": "Finish the fight",
+            "action_budget": "same native turn allowance",
+            "change": "alternate established threats, preserve recovery windows; no permanent immunity/enrage wall"
+          }
+        ],
+        "phase_threshold_status": "NEW_TEST_CANDIDATE_NOT_APPROVED_COMBAT_BALANCE",
+        "no_control_duration_scaling": true,
+        "no_player_power_auto_scaling": true,
+        "no_new_adds": true,
+        "no_boss_resurrection_after_reward": true,
+        "unsupported_capability": "CONTENT_REQUIRED; do not silently substitute another mechanic or enable an empty HP-only encounter"
+      },
+      "stats_and_rewards": "Resolve Cycle1 absolute authored profile from current native boss scale; preserve current cycle policy and existing reward authorities; native values not invented from image size",
+      "eidran_echo": {
+        "effect_summary": "hybrid strike on one enemy Union",
+        "friendly_basis": "EIDRAN_OWN_AUTHORED_FRIENDLY_EFFECT_BUDGET_NEVER_ENEMY_STATS",
+        "native_handler": null,
+        "use_current_matched_titan_history": true
+      },
+      "native_kill_attribution": "One actual defeated enemy actor through existing family-kill authority. Phase transitions and friendly echoes are not enemy defeats. Preserve original-ten family history."
+    }
+  ]
+}

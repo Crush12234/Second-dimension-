@@ -1,0 +1,1056 @@
+{
+  "contentVersion": "GOW_PASS03_0.8",
+  "exampleCount": 30,
+  "examples": [
+    {
+      "id": "CONTRACT_343DD01CC3EA92F6490E",
+      "seed": "E7FF1A7E3AE7252E:7164FC827DF0370C",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_ANOMALY_CONTAINMENT",
+      "difficulty": "RELAXED",
+      "boardProfileId": "BOARD_STORY",
+      "objectiveIds": [
+        "IDENTIFY_ANOMALY",
+        "NO_RELIEF_POWER_LOSS"
+      ],
+      "enemyUnionIds": [
+        "EU_SHARDWING_SIGNAL",
+        "EU_RIFT_CONTROL",
+        "EU_GATEHEART_RESONANCE"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_XP_DUST_CONSTELLATION",
+        "EVT_GATEWORKS_WEAPON_IN_WALL",
+        "EVT_GATEWORKS_SPELL_BACKWARDS"
+      ],
+      "hazardIds": [
+        "HAZARD_ARC_SURGE",
+        "HAZARD_REVERSE_GRAVITY"
+      ],
+      "rewardPreview": {
+        "personalXp": 76,
+        "guildTreasuryXp": 112,
+        "reputation": 7,
+        "repeatMultiplierPermille": 1000,
+        "difficultyMultiplierPermille": 800
+      },
+      "failureMode": "ANOMALY_ESCALATES_OR_CONTROLLED_RETREAT",
+      "retreatAllowed": true,
+      "boardId": "BOARD_9AC8D6308D111977F76C",
+      "boardSeed": "44AC3CF52BBDB7B4:2FF13D2A7A26A5B9"
+    },
+    {
+      "id": "CONTRACT_F85E8F3468862E2C7454",
+      "seed": "00BC54D6234E6000:4146353ED778ADFB",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_DEFENSE",
+      "difficulty": "STANDARD",
+      "boardProfileId": "BOARD_STORY",
+      "objectiveIds": [
+        "HOLD_OBJECTIVE_ROUNDS",
+        "KEEP_SECONDARY_POSITION"
+      ],
+      "enemyUnionIds": [
+        "EU_SHARDWING_SIGNAL",
+        "EU_BRUTE_ESCORT",
+        "EU_HOLLOW_WALL"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_OLD_SOLDIER_INSULT",
+        "EVT_GATEWORKS_BLUE_TEXT_RAIN",
+        "EVT_GATEWORKS_UNFINISHED_SYSTEM_FIELD"
+      ],
+      "hazardIds": [
+        "HAZARD_GATE_PULSE",
+        "HAZARD_GATE_PULSE"
+      ],
+      "rewardPreview": {
+        "personalXp": 76,
+        "guildTreasuryXp": 102,
+        "reputation": 6,
+        "repeatMultiplierPermille": 850,
+        "difficultyMultiplierPermille": 1000
+      },
+      "failureMode": "PRIMARY_POSITION_LOST_OR_ORDERED_WITHDRAWAL",
+      "retreatAllowed": true,
+      "boardId": "BOARD_4E63854272779BF1D991",
+      "boardSeed": "5AB89C25404E1C45:EE8C480384CC1479"
+    },
+    {
+      "id": "CONTRACT_E41DC825CF01330A7983",
+      "seed": "9F620F5AA3557A35:813F012352CC257F",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_ELITE_BOUNTY",
+      "difficulty": "IRON",
+      "boardProfileId": "BOARD_NORMAL",
+      "objectiveIds": [
+        "RESOLVE_ELITE",
+        "BREAK_SUPPORT_UNION"
+      ],
+      "enemyUnionIds": [
+        "EU_HINGE_EATER",
+        "EU_RAVEL_COMMAND"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_UNCLAIMED_SALVAGE",
+        "EVT_GATEWORKS_HEALER_EMPTY_KIT"
+      ],
+      "hazardIds": [
+        "HAZARD_FALSE_RETREAT"
+      ],
+      "rewardPreview": {
+        "personalXp": 99,
+        "guildTreasuryXp": 104,
+        "reputation": 4,
+        "repeatMultiplierPermille": 725,
+        "difficultyMultiplierPermille": 1250
+      },
+      "failureMode": "TARGET_ESCAPES_OR_GUILD_RETREATS",
+      "retreatAllowed": true,
+      "boardId": "BOARD_7F591F126A6F2881D603",
+      "boardSeed": "A9F2539A481F2588:F9B25B4DEE88B8BF"
+    },
+    {
+      "id": "CONTRACT_D08549E40EE59D4C60B3",
+      "seed": "DC73FCA1627CC0F3:47E6C3595B0C126C",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_ESCORT",
+      "difficulty": "RELAXED",
+      "boardProfileId": "BOARD_LONG",
+      "objectiveIds": [
+        "ESCORT_TO_EXIT",
+        "KEEP_ALL_CARGO"
+      ],
+      "enemyUnionIds": [
+        "EU_GNAWER_PACK",
+        "EU_SHARDWING_SIGNAL"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_BRIBE_ROUTE_MAP",
+        "EVT_GATEWORKS_BOOT_MIMIC",
+        "EVT_GATEWORKS_SALVAGE_CART_RACE"
+      ],
+      "hazardIds": [
+        "HAZARD_RUSTWATER",
+        "HAZARD_RUSTWATER"
+      ],
+      "rewardPreview": {
+        "personalXp": 39,
+        "guildTreasuryXp": 54,
+        "reputation": 3,
+        "repeatMultiplierPermille": 650,
+        "difficultyMultiplierPermille": 800
+      },
+      "failureMode": "ESCORT_TARGET_INCAPACITATED_OR_RETREAT",
+      "retreatAllowed": true,
+      "boardId": "BOARD_0801DA18E6100C689700",
+      "boardSeed": "00F85C84FEF31987:405A30B481DE7647"
+    },
+    {
+      "id": "CONTRACT_E7684FE602CA0F475A4B",
+      "seed": "C5D20025DB8F0FE3:59DCE6A14C66A517",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_EXPLORATION",
+      "difficulty": "STANDARD",
+      "boardProfileId": "BOARD_LONG",
+      "objectiveIds": [
+        "REACH_SURVEY_POINT",
+        "DISCOVER_ORDINARY_SECRET"
+      ],
+      "enemyUnionIds": [
+        "EU_GNAWER_PACK",
+        "EU_SHARDWING_SIGNAL"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_RUNAWAY_BANNER",
+        "EVT_GATEWORKS_NAMES_UNDER_MORTAR",
+        "EVT_GATEWORKS_GATEWORKERS_BET"
+      ],
+      "hazardIds": [
+        "HAZARD_UNMAPPED_DROP",
+        "HAZARD_UNMAPPED_DROP"
+      ],
+      "rewardPreview": {
+        "personalXp": 39,
+        "guildTreasuryXp": 66,
+        "reputation": 2,
+        "repeatMultiplierPermille": 600,
+        "difficultyMultiplierPermille": 1000
+      },
+      "failureMode": "SURVEY_POINT_UNREACHED_OR_RETREAT",
+      "retreatAllowed": true,
+      "boardId": "BOARD_D7301DBF38AE619E05EB",
+      "boardSeed": "188BFC99D942818C:4D78E65A1FA664FA"
+    },
+    {
+      "id": "CONTRACT_5AA527F0B13B18C34A2E",
+      "seed": "E663F61365F2A9E7:DB3B8911EF1E94A7",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_EXTERMINATION",
+      "difficulty": "IRON",
+      "boardProfileId": "BOARD_NORMAL",
+      "objectiveIds": [
+        "DEFEAT_TARGET_UNIONS",
+        "CAPTURE_LEADER"
+      ],
+      "enemyUnionIds": [
+        "EU_RUSTBACK_HUNT",
+        "EU_GNAWER_PACK"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_NIGHT_WATCH_NO_STARS",
+        "EVT_GATEWORKS_BROKEN_AIRSHAFT"
+      ],
+      "hazardIds": [
+        "HAZARD_RIFT_MOLD"
+      ],
+      "rewardPreview": {
+        "personalXp": 87,
+        "guildTreasuryXp": 106,
+        "reputation": 4,
+        "repeatMultiplierPermille": 1000,
+        "difficultyMultiplierPermille": 1250
+      },
+      "failureMode": "TARGETS_ESCAPE_OR_GUILD_RETREATS",
+      "retreatAllowed": true,
+      "boardId": "BOARD_EEB2E887D39BE9425D38",
+      "boardSeed": "202F9371A8AB34CB:8BA8DD781C2E54C5"
+    },
+    {
+      "id": "CONTRACT_DD9AD091BAC9AA8EB361",
+      "seed": "051F75E4C85009C1:1934D39157DEF3F3",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_HUNT",
+      "difficulty": "RELAXED",
+      "boardProfileId": "BOARD_LONG",
+      "objectiveIds": [
+        "DEFEAT_OR_RESOLVE_TARGET",
+        "AVOID_CIVILIAN_LOSS"
+      ],
+      "enemyUnionIds": [
+        "EU_ECHO_AMBUSH",
+        "EU_RUSTBACK_HUNT"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_HUMAN_MEMORIAL_WALL",
+        "EVT_GATEWORKS_LANTERN_TWO_OWNERS",
+        "EVT_GATEWORKS_BROKEN_AIRSHAFT"
+      ],
+      "hazardIds": [
+        "HAZARD_NIGHT_ROUTE",
+        "HAZARD_SCENT_CONFUSION"
+      ],
+      "rewardPreview": {
+        "personalXp": 57,
+        "guildTreasuryXp": 61,
+        "reputation": 4,
+        "repeatMultiplierPermille": 850,
+        "difficultyMultiplierPermille": 800
+      },
+      "failureMode": "TARGET_ESCAPES_OR_RETREAT",
+      "retreatAllowed": true,
+      "boardId": "BOARD_31F48D13E54BD3B09CA2",
+      "boardSeed": "331719CA9FA122BA:B02CAB75FBB2C9F0"
+    },
+    {
+      "id": "CONTRACT_AC29877858601B92E9F9",
+      "seed": "91FCACEA6BF94BA7:E4E55648AD0BCB1B",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_INVESTIGATION",
+      "difficulty": "STANDARD",
+      "boardProfileId": "BOARD_NORMAL",
+      "objectiveIds": [
+        "COLLECT_EVIDENCE_3",
+        "PRESERVE_TERMINAL"
+      ],
+      "enemyUnionIds": [
+        "EU_ECHO_AMBUSH",
+        "EU_RIFT_CONTROL"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_WALL_TAPS_BACK",
+        "EVT_GATEWORKS_REVERSE_GRAVITY_ARCH"
+      ],
+      "hazardIds": [
+        "HAZARD_FALSE_SIGNAL"
+      ],
+      "rewardPreview": {
+        "personalXp": 43,
+        "guildTreasuryXp": 68,
+        "reputation": 3,
+        "repeatMultiplierPermille": 725,
+        "difficultyMultiplierPermille": 1000
+      },
+      "failureMode": "EVIDENCE_DESTROYED_OR_RETREAT",
+      "retreatAllowed": true,
+      "boardId": "BOARD_3ECC22A2E68492822139",
+      "boardSeed": "15076718912042C6:88F25FB0B4313188"
+    },
+    {
+      "id": "CONTRACT_50FD2616D4F988FD756B",
+      "seed": "AE67EC9584282DC7:9E911416EF3624AB",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_RECOVERY",
+      "difficulty": "IRON",
+      "boardProfileId": "BOARD_SHORT",
+      "objectiveIds": [
+        "RECOVER_TARGET",
+        "RETURN_OWNER_LEDGER"
+      ],
+      "enemyUnionIds": [
+        "EU_HOLLOW_WALL"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_BELLMETAL_NEST"
+      ],
+      "hazardIds": [
+        "HAZARD_CHAIN_ALARM"
+      ],
+      "rewardPreview": {
+        "personalXp": 36,
+        "guildTreasuryXp": 52,
+        "reputation": 1,
+        "repeatMultiplierPermille": 650,
+        "difficultyMultiplierPermille": 1250
+      },
+      "failureMode": "TARGET_DESTROYED_OR_RETREAT",
+      "retreatAllowed": true,
+      "boardId": "BOARD_4E2BD24086DBF292DA0A",
+      "boardSeed": "4DC8B76FB23A7E0B:8EB80E4DBCF49087"
+    },
+    {
+      "id": "CONTRACT_89A71CA9BA12F3415634",
+      "seed": "D8FBCEFB3F70BE7F:784378B3BB8602D7",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_RESCUE",
+      "difficulty": "RELAXED",
+      "boardProfileId": "BOARD_NORMAL",
+      "objectiveIds": [
+        "EXTRACT_TARGET",
+        "STABILIZE_WOUNDED"
+      ],
+      "enemyUnionIds": [
+        "EU_ECHO_AMBUSH",
+        "EU_RUSTBACK_HUNT"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_MISSING_EXPEDITION_SIGNAL",
+        "EVT_GATEWORKS_WORKER_STRIKE"
+      ],
+      "hazardIds": [
+        "HAZARD_COLLAPSED_SPAN"
+      ],
+      "rewardPreview": {
+        "personalXp": 31,
+        "guildTreasuryXp": 48,
+        "reputation": 4,
+        "repeatMultiplierPermille": 600,
+        "difficultyMultiplierPermille": 800
+      },
+      "failureMode": "TARGET_LOST_OR_ORDERED_RETREAT",
+      "retreatAllowed": true,
+      "boardId": "BOARD_7BA41F969B9AA6D6680D",
+      "boardSeed": "4FBEBD5DCEB41FE0:B0DDEB803F7B6844"
+    },
+    {
+      "id": "CONTRACT_5081B25C7BFF2108EA90",
+      "seed": "6AD60D658274E198:A6A1D4ACF0E6EFC8",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_ANOMALY_CONTAINMENT",
+      "difficulty": "STANDARD",
+      "boardProfileId": "BOARD_STORY",
+      "objectiveIds": [
+        "IDENTIFY_ANOMALY",
+        "PRESERVE_RECORDS"
+      ],
+      "enemyUnionIds": [
+        "EU_GATEHEART_RESONANCE",
+        "EU_RIFT_CONTROL",
+        "EU_SHARDWING_SIGNAL"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_XP_DUST_CONSTELLATION",
+        "EVT_GATEWORKS_WORLD_SCENT_CRACK",
+        "EVT_GATEWORKS_STRANGERS_FOOTWORK"
+      ],
+      "hazardIds": [
+        "HAZARD_ARC_SURGE",
+        "HAZARD_ARC_SURGE"
+      ],
+      "rewardPreview": {
+        "personalXp": 95,
+        "guildTreasuryXp": 140,
+        "reputation": 7,
+        "repeatMultiplierPermille": 1000,
+        "difficultyMultiplierPermille": 1000
+      },
+      "failureMode": "ANOMALY_ESCALATES_OR_CONTROLLED_RETREAT",
+      "retreatAllowed": true,
+      "boardId": "BOARD_D9BDB95FA2675A51C4D1",
+      "boardSeed": "DB0DCB4D14661A85:8D3C909CD3334252"
+    },
+    {
+      "id": "CONTRACT_B550909127EB935050D2",
+      "seed": "B4499CD334C55FCB:072F3E488C2EEF28",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_DEFENSE",
+      "difficulty": "IRON",
+      "boardProfileId": "BOARD_STORY",
+      "objectiveIds": [
+        "HOLD_OBJECTIVE_ROUNDS",
+        "KEEP_SECONDARY_POSITION"
+      ],
+      "enemyUnionIds": [
+        "EU_SHARDWING_SIGNAL",
+        "EU_BRUTE_ESCORT",
+        "EU_HOLLOW_WALL"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_STRANGERS_FOOTWORK",
+        "EVT_GATEWORKS_RELIEF_ARCH_QUEUE",
+        "EVT_GATEWORKS_WEAPON_IN_WALL"
+      ],
+      "hazardIds": [
+        "HAZARD_FALLING_DEBRIS",
+        "HAZARD_FALLING_DEBRIS"
+      ],
+      "rewardPreview": {
+        "personalXp": 95,
+        "guildTreasuryXp": 127,
+        "reputation": 6,
+        "repeatMultiplierPermille": 850,
+        "difficultyMultiplierPermille": 1250
+      },
+      "failureMode": "PRIMARY_POSITION_LOST_OR_ORDERED_WITHDRAWAL",
+      "retreatAllowed": true,
+      "boardId": "BOARD_9F4A4AB3B969BB5E07E6",
+      "boardSeed": "752BB599091B391F:8CDFDF42D0FD9650"
+    },
+    {
+      "id": "CONTRACT_45D032142675DA23F24C",
+      "seed": "130B01B3ABCBEF94:C0FA2E81EEC10F84",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_ELITE_BOUNTY",
+      "difficulty": "RELAXED",
+      "boardProfileId": "BOARD_NORMAL",
+      "objectiveIds": [
+        "LOCATE_ELITE",
+        "RECOVER_PROOF"
+      ],
+      "enemyUnionIds": [
+        "EU_RAVEL_COMMAND",
+        "EU_ECHO_AMBUSH"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_WEAPON_IN_WALL",
+        "EVT_GATEWORKS_FALSE_CACHE"
+      ],
+      "hazardIds": [
+        "HAZARD_AMBUSH_MARKERS"
+      ],
+      "rewardPreview": {
+        "personalXp": 63,
+        "guildTreasuryXp": 66,
+        "reputation": 4,
+        "repeatMultiplierPermille": 725,
+        "difficultyMultiplierPermille": 800
+      },
+      "failureMode": "TARGET_ESCAPES_OR_GUILD_RETREATS",
+      "retreatAllowed": true,
+      "boardId": "BOARD_7BB1EC6C33C6ED59BCC0",
+      "boardSeed": "925270A13083589B:69A68C03BCFC58ED"
+    },
+    {
+      "id": "CONTRACT_08048BE903EE08645CD6",
+      "seed": "1466EC715EC35F3F:27AA8382ECAF09F0",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_ESCORT",
+      "difficulty": "STANDARD",
+      "boardProfileId": "BOARD_LONG",
+      "objectiveIds": [
+        "ESCORT_TO_EXIT",
+        "OPEN_RELIEF_ROUTE"
+      ],
+      "enemyUnionIds": [
+        "EU_SHARDWING_SIGNAL",
+        "EU_CUTTER_CREW"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_OLD_SOLDIER_INSULT",
+        "EVT_GATEWORKS_MERCHANT_TWO_LEDGERS",
+        "EVT_GATEWORKS_SOUP_UNDER_SIEGE"
+      ],
+      "hazardIds": [
+        "HAZARD_RUSTWATER",
+        "HAZARD_RUSTWATER"
+      ],
+      "rewardPreview": {
+        "personalXp": 48,
+        "guildTreasuryXp": 68,
+        "reputation": 3,
+        "repeatMultiplierPermille": 650,
+        "difficultyMultiplierPermille": 1000
+      },
+      "failureMode": "ESCORT_TARGET_INCAPACITATED_OR_RETREAT",
+      "retreatAllowed": true,
+      "boardId": "BOARD_4D174B6A8FF31B63B1CB",
+      "boardSeed": "129A704EBD200001:DEE2A51FE63865B4"
+    },
+    {
+      "id": "CONTRACT_1C940FBCE22332C893C3",
+      "seed": "C119EE632031A3BE:A3206EFCD569C738",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_EXPLORATION",
+      "difficulty": "IRON",
+      "boardProfileId": "BOARD_LONG",
+      "objectiveIds": [
+        "REACH_SURVEY_POINT",
+        "DISCOVER_ORDINARY_SECRET"
+      ],
+      "enemyUnionIds": [
+        "EU_RIFT_CONTROL",
+        "EU_SHARDWING_SIGNAL"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_UNMAPPED_WORKER_STAIR",
+        "EVT_GATEWORKS_SPLIT_SURVEY_MARKER",
+        "EVT_GATEWORKS_GATEGLASS_WIND"
+      ],
+      "hazardIds": [
+        "HAZARD_UNMAPPED_DROP",
+        "HAZARD_GATEGLASS_WIND"
+      ],
+      "rewardPreview": {
+        "personalXp": 48,
+        "guildTreasuryXp": 82,
+        "reputation": 2,
+        "repeatMultiplierPermille": 600,
+        "difficultyMultiplierPermille": 1250
+      },
+      "failureMode": "SURVEY_POINT_UNREACHED_OR_RETREAT",
+      "retreatAllowed": true,
+      "boardId": "BOARD_280EE9939F4D18329D9A",
+      "boardSeed": "4AB6FED8CC2C7305:0EECFD0BBA0C044C"
+    },
+    {
+      "id": "CONTRACT_13748D0094F5596F0E1D",
+      "seed": "D71672E47272FF86:FD4145A2B9E15BCE",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_EXTERMINATION",
+      "difficulty": "RELAXED",
+      "boardProfileId": "BOARD_NORMAL",
+      "objectiveIds": [
+        "DEFEAT_TARGET_UNIONS",
+        "PRESERVE_INFRASTRUCTURE"
+      ],
+      "enemyUnionIds": [
+        "EU_GNAWER_PACK",
+        "EU_HOLLOW_WALL"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_SINKING_SALVAGE_YARD",
+        "EVT_GATEWORKS_RUNAWAY_BANNER"
+      ],
+      "hazardIds": [
+        "HAZARD_UNSTABLE_BRACE"
+      ],
+      "rewardPreview": {
+        "personalXp": 56,
+        "guildTreasuryXp": 68,
+        "reputation": 4,
+        "repeatMultiplierPermille": 1000,
+        "difficultyMultiplierPermille": 800
+      },
+      "failureMode": "TARGETS_ESCAPE_OR_GUILD_RETREATS",
+      "retreatAllowed": true,
+      "boardId": "BOARD_3B644F2B390F2A9C62DE",
+      "boardSeed": "2281E59586B3ED2D:C50AAD3A228B48ED"
+    },
+    {
+      "id": "CONTRACT_76424F050DF3E9929571",
+      "seed": "D44E5B0B506F8C48:1D440834472623AA",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_HUNT",
+      "difficulty": "STANDARD",
+      "boardProfileId": "BOARD_LONG",
+      "objectiveIds": [
+        "DEFEAT_OR_RESOLVE_TARGET",
+        "AVOID_CIVILIAN_LOSS"
+      ],
+      "enemyUnionIds": [
+        "EU_RUSTBACK_HUNT",
+        "EU_PACKLORD_CIRCLE"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_HUMAN_MEMORIAL_WALL",
+        "EVT_GATEWORKS_MISSING_EXPEDITION_SIGNAL",
+        "EVT_GATEWORKS_GOBLIN_MEASURE_SONG"
+      ],
+      "hazardIds": [
+        "HAZARD_NIGHT_ROUTE",
+        "HAZARD_SCENT_CONFUSION"
+      ],
+      "rewardPreview": {
+        "personalXp": 72,
+        "guildTreasuryXp": 76,
+        "reputation": 4,
+        "repeatMultiplierPermille": 850,
+        "difficultyMultiplierPermille": 1000
+      },
+      "failureMode": "TARGET_ESCAPES_OR_RETREAT",
+      "retreatAllowed": true,
+      "boardId": "BOARD_00D52EE7F05BEA3FF332",
+      "boardSeed": "68CC0935F6B8F4FB:53B8AA3C7D793A18"
+    },
+    {
+      "id": "CONTRACT_4FBE59DE34A6F471D037",
+      "seed": "F476AF2891B0F973:FF4923129A7F5950",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_INVESTIGATION",
+      "difficulty": "IRON",
+      "boardProfileId": "BOARD_NORMAL",
+      "objectiveIds": [
+        "COLLECT_EVIDENCE_3",
+        "NO_FALSE_ACCUSATION"
+      ],
+      "enemyUnionIds": [
+        "EU_RIFT_CONTROL",
+        "EU_ECHO_AMBUSH"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_EMPTY_BEDROLL",
+        "EVT_GATEWORKS_WALL_TAPS_BACK"
+      ],
+      "hazardIds": [
+        "HAZARD_TIME_LAG"
+      ],
+      "rewardPreview": {
+        "personalXp": 54,
+        "guildTreasuryXp": 86,
+        "reputation": 3,
+        "repeatMultiplierPermille": 725,
+        "difficultyMultiplierPermille": 1250
+      },
+      "failureMode": "EVIDENCE_DESTROYED_OR_RETREAT",
+      "retreatAllowed": true,
+      "boardId": "BOARD_B08E79395E5F828F153E",
+      "boardSeed": "6EAA20A413B08B58:7B21C32C0991405F"
+    },
+    {
+      "id": "CONTRACT_E3B8C537A99F2AFD8310",
+      "seed": "CDA56E701A0AE425:0F548761E73B3CFE",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_RECOVERY",
+      "difficulty": "RELAXED",
+      "boardProfileId": "BOARD_SHORT",
+      "objectiveIds": [
+        "RECOVER_TARGET",
+        "LIMIT_COLLATERAL"
+      ],
+      "enemyUnionIds": [
+        "EU_CUTTER_CREW"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_CONTRACT_RIVALRY"
+      ],
+      "hazardIds": [
+        "HAZARD_CHAIN_ALARM"
+      ],
+      "rewardPreview": {
+        "personalXp": 23,
+        "guildTreasuryXp": 33,
+        "reputation": 1,
+        "repeatMultiplierPermille": 650,
+        "difficultyMultiplierPermille": 800
+      },
+      "failureMode": "TARGET_DESTROYED_OR_RETREAT",
+      "retreatAllowed": true,
+      "boardId": "BOARD_50F9685E6F53DF2E395E",
+      "boardSeed": "08355A3E29C31D6D:677763D0AA96D194"
+    },
+    {
+      "id": "CONTRACT_22F2EB956A2912F0BF1C",
+      "seed": "914031911A43003B:DEF9AD19C95CCC8E",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_RESCUE",
+      "difficulty": "STANDARD",
+      "boardProfileId": "BOARD_NORMAL",
+      "objectiveIds": [
+        "LOCATE_RESCUE_TARGET",
+        "RECOVER_RECORDS"
+      ],
+      "enemyUnionIds": [
+        "EU_CUTTER_CREW",
+        "EU_RUSTBACK_HUNT"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_LANTERN_TWO_OWNERS",
+        "EVT_GATEWORKS_FIRST_NAME_OFFERED"
+      ],
+      "hazardIds": [
+        "HAZARD_ETHER_SQUALL"
+      ],
+      "rewardPreview": {
+        "personalXp": 39,
+        "guildTreasuryXp": 60,
+        "reputation": 4,
+        "repeatMultiplierPermille": 600,
+        "difficultyMultiplierPermille": 1000
+      },
+      "failureMode": "TARGET_LOST_OR_ORDERED_RETREAT",
+      "retreatAllowed": true,
+      "boardId": "BOARD_8D161300267E804A6B2F",
+      "boardSeed": "A64D02DE10B59D47:9DF5347257954317"
+    },
+    {
+      "id": "CONTRACT_A3F7A22472EE66FD07BD",
+      "seed": "0C105546B790732C:CBC1CB33D98ADD94",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_ANOMALY_CONTAINMENT",
+      "difficulty": "IRON",
+      "boardProfileId": "BOARD_STORY",
+      "objectiveIds": [
+        "IDENTIFY_ANOMALY",
+        "NO_RELIEF_POWER_LOSS"
+      ],
+      "enemyUnionIds": [
+        "EU_SHARDWING_SIGNAL",
+        "EU_GATEHEART_RESONANCE",
+        "EU_RIFT_CONTROL"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_XP_DUST_CONSTELLATION",
+        "EVT_GATEWORKS_STRANGERS_FOOTWORK",
+        "EVT_GATEWORKS_GATE_PULSE_BONE"
+      ],
+      "hazardIds": [
+        "HAZARD_ARC_SURGE",
+        "HAZARD_ARC_SURGE"
+      ],
+      "rewardPreview": {
+        "personalXp": 118,
+        "guildTreasuryXp": 175,
+        "reputation": 7,
+        "repeatMultiplierPermille": 1000,
+        "difficultyMultiplierPermille": 1250
+      },
+      "failureMode": "ANOMALY_ESCALATES_OR_CONTROLLED_RETREAT",
+      "retreatAllowed": true,
+      "boardId": "BOARD_44EE89F3C06D5B77E1A3",
+      "boardSeed": "AA0092CB05DDA65B:AEFDE703D6693A71"
+    },
+    {
+      "id": "CONTRACT_ECA0104AB301DA4E582E",
+      "seed": "5516AFD626D04BCF:ECDAFE5A05E09BD5",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_DEFENSE",
+      "difficulty": "RELAXED",
+      "boardProfileId": "BOARD_STORY",
+      "objectiveIds": [
+        "HOLD_OBJECTIVE_ROUNDS",
+        "KEEP_SECONDARY_POSITION"
+      ],
+      "enemyUnionIds": [
+        "EU_HOLLOW_WALL",
+        "EU_BRUTE_ESCORT",
+        "EU_SHARDWING_SIGNAL"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_WRONG_NUMBER_DOOR",
+        "EVT_GATEWORKS_INJURED_COURIER",
+        "EVT_GATEWORKS_RELIEF_ARCH_QUEUE"
+      ],
+      "hazardIds": [
+        "HAZARD_GATE_PULSE",
+        "HAZARD_FALLING_DEBRIS"
+      ],
+      "rewardPreview": {
+        "personalXp": 61,
+        "guildTreasuryXp": 81,
+        "reputation": 6,
+        "repeatMultiplierPermille": 850,
+        "difficultyMultiplierPermille": 800
+      },
+      "failureMode": "PRIMARY_POSITION_LOST_OR_ORDERED_WITHDRAWAL",
+      "retreatAllowed": true,
+      "boardId": "BOARD_37F6B058840DEBDB5578",
+      "boardSeed": "30B747EBA2B97628:5F2D6732AE592B58"
+    },
+    {
+      "id": "CONTRACT_6A7BE1F8545AA63BEB2A",
+      "seed": "73D088B2D57D788E:128C68B7F6F2F158",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_ELITE_BOUNTY",
+      "difficulty": "STANDARD",
+      "boardProfileId": "BOARD_NORMAL",
+      "objectiveIds": [
+        "LOCATE_ELITE",
+        "RECOVER_PROOF"
+      ],
+      "enemyUnionIds": [
+        "EU_BRUTE_ESCORT",
+        "EU_ECHO_AMBUSH"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_CRACKED_VAULT",
+        "EVT_GATEWORKS_OATH_TOO_SOON"
+      ],
+      "hazardIds": [
+        "HAZARD_AMBUSH_MARKERS"
+      ],
+      "rewardPreview": {
+        "personalXp": 79,
+        "guildTreasuryXp": 83,
+        "reputation": 4,
+        "repeatMultiplierPermille": 725,
+        "difficultyMultiplierPermille": 1000
+      },
+      "failureMode": "TARGET_ESCAPES_OR_GUILD_RETREATS",
+      "retreatAllowed": true,
+      "boardId": "BOARD_1DD7634911A5C9E9E93F",
+      "boardSeed": "816F3856741C581C:FEF3F96AC189DBD9"
+    },
+    {
+      "id": "CONTRACT_5D813F7C0EA464B1A833",
+      "seed": "9DCFB272B85203CE:2D6288F4B5BA0944",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_ESCORT",
+      "difficulty": "IRON",
+      "boardProfileId": "BOARD_LONG",
+      "objectiveIds": [
+        "ESCORT_TO_EXIT",
+        "OPEN_RELIEF_ROUTE"
+      ],
+      "enemyUnionIds": [
+        "EU_GNAWER_PACK",
+        "EU_CUTTER_CREW"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_TOO_MANY_VOLUNTEERS",
+        "EVT_GATEWORKS_WORKER_STRIKE",
+        "EVT_GATEWORKS_REFUGEE_COOKING_FIRE"
+      ],
+      "hazardIds": [
+        "HAZARD_RUSTWATER",
+        "HAZARD_RUSTWATER"
+      ],
+      "rewardPreview": {
+        "personalXp": 60,
+        "guildTreasuryXp": 85,
+        "reputation": 3,
+        "repeatMultiplierPermille": 650,
+        "difficultyMultiplierPermille": 1250
+      },
+      "failureMode": "ESCORT_TARGET_INCAPACITATED_OR_RETREAT",
+      "retreatAllowed": true,
+      "boardId": "BOARD_F9880195501860099A93",
+      "boardSeed": "27F0755BF388E801:34F2E9AE2902ADC3"
+    },
+    {
+      "id": "CONTRACT_86D7E6A1B39B56700010",
+      "seed": "E2D3688E3E18795D:383FD9B0D5F1C73C",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_EXPLORATION",
+      "difficulty": "RELAXED",
+      "boardProfileId": "BOARD_LONG",
+      "objectiveIds": [
+        "REVEAL_REQUIRED_NODES",
+        "PLACE_ROUTE_MARKERS"
+      ],
+      "enemyUnionIds": [
+        "EU_GNAWER_PACK",
+        "EU_RIFT_CONTROL"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_HUMAN_MEMORIAL_WALL",
+        "EVT_GATEWORKS_NAMES_UNDER_MORTAR",
+        "EVT_GATEWORKS_OFFICIAL_RAT"
+      ],
+      "hazardIds": [
+        "HAZARD_UNMAPPED_DROP",
+        "HAZARD_UNMAPPED_DROP"
+      ],
+      "rewardPreview": {
+        "personalXp": 31,
+        "guildTreasuryXp": 52,
+        "reputation": 2,
+        "repeatMultiplierPermille": 600,
+        "difficultyMultiplierPermille": 800
+      },
+      "failureMode": "SURVEY_POINT_UNREACHED_OR_RETREAT",
+      "retreatAllowed": true,
+      "boardId": "BOARD_AC33B6BDFCCC69B15030",
+      "boardSeed": "FE4AF4EF689E856B:5F1DE2039C7300A9"
+    },
+    {
+      "id": "CONTRACT_4A41B1B140D629345343",
+      "seed": "F167A296411E0163:68223A58B07F3229",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_EXTERMINATION",
+      "difficulty": "STANDARD",
+      "boardProfileId": "BOARD_NORMAL",
+      "objectiveIds": [
+        "DEFEAT_TARGET_UNIONS",
+        "CAPTURE_LEADER"
+      ],
+      "enemyUnionIds": [
+        "EU_RIFT_CONTROL",
+        "EU_GNAWER_PACK"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_SALVAGE_CART_RACE",
+        "EVT_GATEWORKS_RUNAWAY_BANNER"
+      ],
+      "hazardIds": [
+        "HAZARD_UNSTABLE_BRACE"
+      ],
+      "rewardPreview": {
+        "personalXp": 70,
+        "guildTreasuryXp": 85,
+        "reputation": 4,
+        "repeatMultiplierPermille": 1000,
+        "difficultyMultiplierPermille": 1000
+      },
+      "failureMode": "TARGETS_ESCAPE_OR_GUILD_RETREATS",
+      "retreatAllowed": true,
+      "boardId": "BOARD_7464A61EC5FFB74DF59A",
+      "boardSeed": "630D95B6C91DDACE:B89BA2CBC441F2C1"
+    },
+    {
+      "id": "CONTRACT_0EE3B7833E30B5CE3EB6",
+      "seed": "4BAC46D3960C8F1A:D23B6D4471401DD2",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_HUNT",
+      "difficulty": "IRON",
+      "boardProfileId": "BOARD_LONG",
+      "objectiveIds": [
+        "TRACK_TARGET_3",
+        "AVOID_CIVILIAN_LOSS"
+      ],
+      "enemyUnionIds": [
+        "EU_PACKLORD_CIRCLE",
+        "EU_ECHO_AMBUSH"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_DARK_ELF_SILENCE",
+        "EVT_GATEWORKS_SINKING_SALVAGE_YARD",
+        "EVT_GATEWORKS_MONSTER_EGGS"
+      ],
+      "hazardIds": [
+        "HAZARD_SCENT_CONFUSION",
+        "HAZARD_NIGHT_ROUTE"
+      ],
+      "rewardPreview": {
+        "personalXp": 90,
+        "guildTreasuryXp": 95,
+        "reputation": 4,
+        "repeatMultiplierPermille": 850,
+        "difficultyMultiplierPermille": 1250
+      },
+      "failureMode": "TARGET_ESCAPES_OR_RETREAT",
+      "retreatAllowed": true,
+      "boardId": "BOARD_A806B6810DDFFB980CD0",
+      "boardSeed": "ADDB4DB4924ECD28:9BBC3FAF5B2F0588"
+    },
+    {
+      "id": "CONTRACT_7606BA9660148914DA8C",
+      "seed": "45B7D5DF0E612383:A1D98F5DB54D65B3",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_INVESTIGATION",
+      "difficulty": "RELAXED",
+      "boardProfileId": "BOARD_NORMAL",
+      "objectiveIds": [
+        "COLLECT_EVIDENCE_3",
+        "NO_FALSE_ACCUSATION"
+      ],
+      "enemyUnionIds": [
+        "EU_HOLLOW_WALL",
+        "EU_RIFT_CONTROL"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_REVERSE_GRAVITY_ARCH",
+        "EVT_GATEWORKS_MISSING_EXPEDITION_SIGNAL"
+      ],
+      "hazardIds": [
+        "HAZARD_TIME_LAG"
+      ],
+      "rewardPreview": {
+        "personalXp": 34,
+        "guildTreasuryXp": 55,
+        "reputation": 3,
+        "repeatMultiplierPermille": 725,
+        "difficultyMultiplierPermille": 800
+      },
+      "failureMode": "EVIDENCE_DESTROYED_OR_RETREAT",
+      "retreatAllowed": true,
+      "boardId": "BOARD_A19FEAA00C0877F762BE",
+      "boardSeed": "BF3819D1E561E82B:19952EA9DD558504"
+    },
+    {
+      "id": "CONTRACT_99F910044C69BC4A3E3C",
+      "seed": "471AB955984AE3D4:B35740152C61947C",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_RECOVERY",
+      "difficulty": "STANDARD",
+      "boardProfileId": "BOARD_SHORT",
+      "objectiveIds": [
+        "RECOVER_TARGET",
+        "LIMIT_COLLATERAL"
+      ],
+      "enemyUnionIds": [
+        "EU_GNAWER_PACK"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_SPLIT_SURVEY_MARKER"
+      ],
+      "hazardIds": [
+        "HAZARD_SOFT_FLOOR"
+      ],
+      "rewardPreview": {
+        "personalXp": 29,
+        "guildTreasuryXp": 42,
+        "reputation": 1,
+        "repeatMultiplierPermille": 650,
+        "difficultyMultiplierPermille": 1000
+      },
+      "failureMode": "TARGET_DESTROYED_OR_RETREAT",
+      "retreatAllowed": true,
+      "boardId": "BOARD_21FD4BE84345C6F5650D",
+      "boardSeed": "25A5F89CDCDDF2E2:5BFD45CC0FA24E9E"
+    },
+    {
+      "id": "CONTRACT_76C6976211CEFC50B94C",
+      "seed": "E34F320486E75735:15838F7F56FFB679",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_RESCUE",
+      "difficulty": "IRON",
+      "boardProfileId": "BOARD_NORMAL",
+      "objectiveIds": [
+        "LOCATE_RESCUE_TARGET",
+        "RECOVER_RECORDS"
+      ],
+      "enemyUnionIds": [
+        "EU_ECHO_AMBUSH",
+        "EU_RUSTBACK_HUNT"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_WORKER_STRIKE",
+        "EVT_GATEWORKS_WRONG_TIME_JOKE"
+      ],
+      "hazardIds": [
+        "HAZARD_ETHER_SQUALL"
+      ],
+      "rewardPreview": {
+        "personalXp": 48,
+        "guildTreasuryXp": 75,
+        "reputation": 4,
+        "repeatMultiplierPermille": 600,
+        "difficultyMultiplierPermille": 1250
+      },
+      "failureMode": "TARGET_LOST_OR_ORDERED_RETREAT",
+      "retreatAllowed": true,
+      "boardId": "BOARD_D2020D23B34E17FE9875",
+      "boardSeed": "FF93DC6128798B94:0F0FE526C1FABB8C"
+    }
+  ]
+}

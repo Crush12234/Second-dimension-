@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Content Read Sets",
+  "type": "object",
+  "required": [
+    "contentVersion",
+    "readSets"
+  ],
+  "properties": {
+    "contentVersion": {
+      "type": "string"
+    },
+    "readSets": {
+      "type": "array",
+      "minItems": 7
+    }
+  },
+  "additionalProperties": true
+}

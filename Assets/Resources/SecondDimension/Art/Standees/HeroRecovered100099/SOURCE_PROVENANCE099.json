@@ -1,0 +1,400 @@
+{
+  "schema": "RECOVERED_SOURCE100099_PROVENANCE_V1",
+  "rightsStatus": "PENDING_COMMERCIAL_RIGHTS_REVIEW",
+  "archive_sha256": "7b2adda0ecf070d91d83609c7544a8c3c0bc14d588d1128bd7833367ab4dfb6d",
+  "policy": "All original PNGs retained unchanged for provenance. Root moves22 rejected candidate PNGs+metas outside Assets into ArtReview/Pass099; only035 remains in Resources/provider. Source-cell/outer-alpha checks alone did not certify internal completeness. Rights remain pending. No gameplay identity or save is removed.",
+  "rows": [
+    {
+      "stable_id": "HERO_REC_031",
+      "name": "Seris Dawnlance",
+      "race": "Human",
+      "role": "Guardian",
+      "weapon": "Spear and shield",
+      "assets": [
+        {
+          "pose": "idle",
+          "original_path": "UNITY_DROP_IN/Assets/SecondDimension/RecruitHeroPack100/Art/Idle/031_HERO_REC_031_SERIS_DAWNLANCE_IDLE.png",
+          "sha256": "4482C471545C15C765B6C031C1B5AC2B7ED46C847274E079B786B3385A661500",
+          "source_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 602,
+            "height": 1024
+          }
+        },
+        {
+          "pose": "attack",
+          "original_path": "UNITY_DROP_IN/Assets/SecondDimension/RecruitHeroPack100/Art/Attack/031_HERO_REC_031_SERIS_DAWNLANCE_ATTACK.png",
+          "sha256": "EB589CB33E17C194F3D3E16F5BFD37B16430D92DA40E4762555457188A301D08",
+          "source_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 1024
+          }
+        }
+      ]
+    },
+    {
+      "stable_id": "HERO_REC_032",
+      "name": "Nymra Nightveil",
+      "race": "Dark Elf",
+      "role": "Spellblade",
+      "weapon": "Twin shadow blades",
+      "assets": [
+        {
+          "pose": "idle",
+          "original_path": "UNITY_DROP_IN/Assets/SecondDimension/RecruitHeroPack100/Art/Idle/032_HERO_REC_032_NYMRA_NIGHTVEIL_IDLE.png",
+          "sha256": "4D2659364432BDFC2ED0B1A0AF17046045F533C8D39F109C9AEE302E36F53789",
+          "source_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 608,
+            "height": 1024
+          }
+        },
+        {
+          "pose": "attack",
+          "original_path": "UNITY_DROP_IN/Assets/SecondDimension/RecruitHeroPack100/Art/Attack/032_HERO_REC_032_NYMRA_NIGHTVEIL_ATTACK.png",
+          "sha256": "CFBDC5F7858B630D5777058652574BF15E78575CE2212B5290D5A9B0CBDA4AAC",
+          "source_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 1024
+          }
+        }
+      ]
+    },
+    {
+      "stable_id": "HERO_REC_033",
+      "name": "Brokk Emberanvil",
+      "race": "Dwarf",
+      "role": "Guardian",
+      "weapon": "Runic hammer and shield",
+      "assets": [
+        {
+          "pose": "idle",
+          "original_path": "UNITY_DROP_IN/Assets/SecondDimension/RecruitHeroPack100/Art/Idle/033_HERO_REC_033_BROKK_EMBERANVIL_IDLE.png",
+          "sha256": "B55CCDE184CA384D800C95C1D7FFC5CD6F8E3375300BD7E768168F66CC0F7A2B",
+          "source_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 1024
+          }
+        },
+        {
+          "pose": "attack",
+          "original_path": "UNITY_DROP_IN/Assets/SecondDimension/RecruitHeroPack100/Art/Attack/033_HERO_REC_033_BROKK_EMBERANVIL_ATTACK.png",
+          "sha256": "8B9861A7392E6C71CD1404BD86B2D5EA6933C6AF50A2305F6AA9919B4804599D",
+          "source_rect": {
+            "x": 50,
+            "y": 0,
+            "width": 718,
+            "height": 1024
+          }
+        }
+      ]
+    },
+    {
+      "stable_id": "HERO_REC_034",
+      "name": "Elyra Starbow",
+      "race": "Human",
+      "role": "Tactical Ranger",
+      "weapon": "Longbow",
+      "assets": [
+        {
+          "pose": "idle",
+          "original_path": "UNITY_DROP_IN/Assets/SecondDimension/RecruitHeroPack100/Art/Idle/034_HERO_REC_034_ELYRA_STARBOW_IDLE.png",
+          "sha256": "179E656D71386D3E9232890377170D648C5B401AC7DA7245A06E627CF26849B4",
+          "source_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 620,
+            "height": 1024
+          }
+        },
+        {
+          "pose": "attack",
+          "original_path": "UNITY_DROP_IN/Assets/SecondDimension/RecruitHeroPack100/Art/Attack/034_HERO_REC_034_ELYRA_STARBOW_ATTACK.png",
+          "sha256": "205CA67A2C035B832FC5B1611E6A501846276C7D282E9631CDCA4D4CBC896FA4",
+          "source_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 1024
+          }
+        }
+      ]
+    },
+    {
+      "stable_id": "HERO_REC_035",
+      "name": "Liora Sunwell",
+      "race": "Human",
+      "role": "Restoration Mystic",
+      "weapon": "Healing staff",
+      "assets": [
+        {
+          "pose": "idle",
+          "original_path": "UNITY_DROP_IN/Assets/SecondDimension/RecruitHeroPack100/Art/Idle/035_HERO_REC_035_LIORA_SUNWELL_IDLE.png",
+          "sha256": "6B66247E095521E9AD870E1237BD2AF737EC322EB7FC387E4186F8869338984C",
+          "source_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 604,
+            "height": 1024
+          }
+        },
+        {
+          "pose": "attack",
+          "original_path": "UNITY_DROP_IN/Assets/SecondDimension/RecruitHeroPack100/Art/Attack/035_HERO_REC_035_LIORA_SUNWELL_ATTACK.png",
+          "sha256": "70C7317A467494259B85038422F3E8B0EC3CD14F0B44A450E43551FBF447B2C6",
+          "source_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 1024
+          }
+        }
+      ]
+    },
+    {
+      "stable_id": "HERO_REC_039",
+      "name": "Varric Shadebow",
+      "race": "Human",
+      "role": "Rogue Ranger",
+      "weapon": "Shortbow and dagger",
+      "assets": [
+        {
+          "pose": "idle",
+          "original_path": "UNITY_DROP_IN/Assets/SecondDimension/RecruitHeroPack100/Art/Idle/039_HERO_REC_039_VARRIC_SHADEBOW_IDLE.png",
+          "sha256": "5B1C6BED8515137671A7805407CCE590CE60A4ADA6D848079C0880FC2EDADE97",
+          "source_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 1024
+          }
+        },
+        {
+          "pose": "attack",
+          "original_path": "UNITY_DROP_IN/Assets/SecondDimension/RecruitHeroPack100/Art/Attack/039_HERO_REC_039_VARRIC_SHADEBOW_ATTACK.png",
+          "sha256": "C5B589E3106897CAA7379901397CD4CE35581BC181FD7AF96042F6B145B6478E",
+          "source_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 1024
+          }
+        }
+      ]
+    },
+    {
+      "stable_id": "HERO_REC_040",
+      "name": "Zibbit Arcflash",
+      "race": "Goblin",
+      "role": "Arcane Engineer",
+      "weapon": "Crystal cannon",
+      "assets": [
+        {
+          "pose": "idle",
+          "original_path": "UNITY_DROP_IN/Assets/SecondDimension/RecruitHeroPack100/Art/Idle/040_HERO_REC_040_ZIBBIT_ARCFLASH_IDLE.png",
+          "sha256": "D4FFAD9C007D77716D55EFB0515C6BDBF6383AA9A5D68AB92B9CAD6BB9B2D74F",
+          "source_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 570,
+            "height": 1024
+          }
+        },
+        {
+          "pose": "attack",
+          "original_path": "UNITY_DROP_IN/Assets/SecondDimension/RecruitHeroPack100/Art/Attack/040_HERO_REC_040_ZIBBIT_ARCFLASH_ATTACK.png",
+          "sha256": "433238EFAA3CBD5371D79534FE1447BFD6300ACD68CE2806AAE2D8DD94FC898C",
+          "source_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 1024
+          }
+        }
+      ]
+    },
+    {
+      "stable_id": "HERO_REC_042",
+      "name": "Sylra Nightsong",
+      "race": "Dark Elf",
+      "role": "Spellblade",
+      "weapon": "Twin shadow blades",
+      "assets": [
+        {
+          "pose": "idle",
+          "original_path": "UNITY_DROP_IN/Assets/SecondDimension/RecruitHeroPack100/Art/Idle/042_HERO_REC_042_SYLRA_NIGHTSONG_IDLE.png",
+          "sha256": "CC14C303C4D31EA61E93DF980CCB3FDC7C95D60B6F55CF16F7B05D1240CEE44D",
+          "source_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 664,
+            "height": 1024
+          }
+        },
+        {
+          "pose": "attack",
+          "original_path": "UNITY_DROP_IN/Assets/SecondDimension/RecruitHeroPack100/Art/Attack/042_HERO_REC_042_SYLRA_NIGHTSONG_ATTACK.png",
+          "sha256": "DAD896300B46E792D57254E7C462218A9BF99A3EC778068DDCA570B777241FF8",
+          "source_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 1024
+          }
+        }
+      ]
+    },
+    {
+      "stable_id": "HERO_REC_043",
+      "name": "Borin Stonefist",
+      "race": "Dwarf",
+      "role": "Hammer Guardian",
+      "weapon": "Runic hammer and shield",
+      "assets": [
+        {
+          "pose": "idle",
+          "original_path": "UNITY_DROP_IN/Assets/SecondDimension/RecruitHeroPack100/Art/Idle/043_HERO_REC_043_BORIN_STONEFIST_IDLE.png",
+          "sha256": "B010F025A53A16BFA9AC0D2ADA49680BE9B748CC0938ACA4DA3ADD31D4BE3E82",
+          "source_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 1024
+          }
+        },
+        {
+          "pose": "attack",
+          "original_path": "UNITY_DROP_IN/Assets/SecondDimension/RecruitHeroPack100/Art/Attack/043_HERO_REC_043_BORIN_STONEFIST_ATTACK.png",
+          "sha256": "400D3085F0D0F613A8212F72D2C5778941A33E0CE9A831402CDE02EB9216FF14",
+          "source_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 1024
+          }
+        }
+      ]
+    },
+    {
+      "stable_id": "HERO_REC_045",
+      "name": "Ilya Starwell",
+      "race": "Human",
+      "role": "Celestial Priestess",
+      "weapon": "Radiant staff",
+      "assets": [
+        {
+          "pose": "idle",
+          "original_path": "UNITY_DROP_IN/Assets/SecondDimension/RecruitHeroPack100/Art/Idle/045_HERO_REC_045_ILYA_STARWELL_IDLE.png",
+          "sha256": "E80C4B96D247580FAED03306AE2ED2FDC06CD50F7A6045DCD80E441C508CD120",
+          "source_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 586,
+            "height": 1024
+          }
+        },
+        {
+          "pose": "attack",
+          "original_path": "UNITY_DROP_IN/Assets/SecondDimension/RecruitHeroPack100/Art/Attack/045_HERO_REC_045_ILYA_STARWELL_ATTACK.png",
+          "sha256": "900D159B29AAEBA94557B38C69821A7C609D4A39AC1AF74DB6DA2FD2A32AB3CF",
+          "source_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 1024
+          }
+        }
+      ]
+    },
+    {
+      "stable_id": "HERO_REC_047",
+      "name": "Kharra Emberfury",
+      "race": "Orc",
+      "role": "Warlord",
+      "weapon": "Molten axe",
+      "assets": [
+        {
+          "pose": "idle",
+          "original_path": "UNITY_DROP_IN/Assets/SecondDimension/RecruitHeroPack100/Art/Idle/047_HERO_REC_047_KHARRA_EMBERFURY_IDLE.png",
+          "sha256": "36D8FE6E5D8DA28093C60A733DD67868B8EC3976D29AEC122EE6C62AFBDC122C",
+          "source_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 639,
+            "height": 1024
+          }
+        },
+        {
+          "pose": "attack",
+          "original_path": "UNITY_DROP_IN/Assets/SecondDimension/RecruitHeroPack100/Art/Attack/047_HERO_REC_047_KHARRA_EMBERFURY_ATTACK.png",
+          "sha256": "8858B40C956967440E425FB748AC893D56EE9C266DB80F5E04AD34469EC93BB3",
+          "source_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 1024
+          }
+        }
+      ]
+    },
+    {
+      "stable_id": "HERO_REC_048",
+      "name": "Lyra Hearthsong",
+      "race": "Halfling",
+      "role": "Bard",
+      "weapon": "Lute and resonance magic",
+      "assets": [
+        {
+          "pose": "idle",
+          "original_path": "UNITY_DROP_IN/Assets/SecondDimension/RecruitHeroPack100/Art/Idle/048_HERO_REC_048_LYRA_HEARTHSONG_IDLE.png",
+          "sha256": "5027A9A04E1721B3A8DA08262ABA44E8CBEE59BFE8B19750971532FF4CBE16D3",
+          "source_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 595,
+            "height": 1024
+          }
+        },
+        {
+          "pose": "attack",
+          "original_path": "UNITY_DROP_IN/Assets/SecondDimension/RecruitHeroPack100/Art/Attack/048_HERO_REC_048_LYRA_HEARTHSONG_ATTACK.png",
+          "sha256": "86A3072925ECB64BEAF055F4994FE01511100622515884F8F427D74AE9460B9C",
+          "source_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 1024
+          }
+        }
+      ]
+    }
+  ],
+  "original_selected_source_count": 12,
+  "runtime_approved_binding_count": 1,
+  "native_review_status": "SUPERSEDES_ORIGINAL12_CANDIDATE_APPROVAL_ONLY035_RETAINED",
+  "native_review_scope": "35 Windows screenshots inspected:11 applicants+24 explicit QA poses. 045 SS has no applicant image. This is not all300 or natural battle action verification.",
+  "excluded_runtime_identities": {
+    "HERO_REC_031": "Action cape internally cut; pose-size growth also observed. Defer exact source pair.",
+    "HERO_REC_032": "Action cape and effect edge internally truncated. Defer exact source pair.",
+    "HERO_REC_033": "Complete body/equipment after reviewed cell, but severe pose body-scale pop; equal source scale cannot satisfy unchanged minimum-height and header guards. Defer pending corrected source art.",
+    "HERO_REC_034": "Action cape internally cut at left. Defer exact source pair.",
+    "HERO_REC_039": "Idle detached blue cloth fragment mistaken for legitimate shortbow component during source contact review. Runtime applicant exposes it clearly. Defer.",
+    "HERO_REC_040": "Action internal cut removes left hand/forearm edge and left boot portion. Defer.",
+    "HERO_REC_042": "Left action cape/effect edge truncation and second-leg readability uncertain. Strict complete-outfit standard: defer.",
+    "HERO_REC_043": "Complete body/equipment, but moderate idle/action body-size difference. Defer rather than introduce an unverified late-build scale contract.",
+    "HERO_REC_045": "Action left fingers/sleeve/effect internally cut. No applicant capture because existing SS-code authority is used.",
+    "HERO_REC_047": "Action left toe internally clipped. Defer.",
+    "HERO_REC_048": "Action cape internally cut at left. Defer."
+  },
+  "retained_runtime_identities": {
+    "HERO_REC_035": "Liora Sunwell: full body, both hands/boots/staff tips and complete ribbons observed in applicant/idle/action R146; no detached fragments or internal clipping identified. Idle and action source alpha height both963, hence same measured source-pixel scale under unchanged rig. Not studio-final or rights-cleared."
+  }
+}

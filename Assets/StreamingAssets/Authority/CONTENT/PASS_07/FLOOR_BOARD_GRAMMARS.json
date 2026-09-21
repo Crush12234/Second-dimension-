@@ -1,0 +1,493 @@
+{
+  "grammars": [
+    {
+      "id": "GRAMMAR_F01_TRENCH_NETWORK",
+      "floorId": "ABYSS_FLOOR_001",
+      "nodeMin": 18,
+      "nodeMax": 25,
+      "branchMin": 4,
+      "branchMax": 7,
+      "reconnectionMin": 2,
+      "reconnectionMax": 4,
+      "nodeVocabulary": [
+        "SUPPRESSION_LANE",
+        "DUGOUT",
+        "COLLAPSED_CROSSING",
+        "SHELTER_SHAFT"
+      ],
+      "weights": {
+        "EVENT": 20,
+        "BATTLE": 20,
+        "HAZARD": 12,
+        "RESOURCE": 12,
+        "SKILL_CHECK": 12,
+        "MYSTERY": 8,
+        "CAMP": 6,
+        "ELITE": 5,
+        "RESCUE": 5
+      },
+      "requiredBackboneOrder": [
+        "ENTRY_LICENSE",
+        "INTRO_CLUE",
+        "CIVIC_CLUE",
+        "REQUIRED_OBSTACLE",
+        "MORAL_DECISION",
+        "BOSS_APPROACH",
+        "BOSS",
+        "TRIAL_RESOLUTION",
+        "EXIT"
+      ],
+      "ordinarySecretCount": [
+        1,
+        3
+      ],
+      "marginCount": 1,
+      "splitUnionOpportunity": false,
+      "scoutingInteraction": "reveals next two public candidates, never Margin",
+      "fogOfWar": "adjacent-public-only until scouted",
+      "antiRepetitionWindow": 3,
+      "generationFallback": "reduce optional branch count, never required backbone"
+    },
+    {
+      "id": "GRAMMAR_F02_EXPOSURE_CORRIDORS",
+      "floorId": "ABYSS_FLOOR_002",
+      "nodeMin": 17,
+      "nodeMax": 24,
+      "branchMin": 3,
+      "branchMax": 6,
+      "reconnectionMin": 3,
+      "reconnectionMax": 5,
+      "nodeVocabulary": [
+        "OPEN_EXPOSURE",
+        "MOVING_COVER",
+        "SHIELD_BERM",
+        "WIND_GAP"
+      ],
+      "weights": {
+        "EVENT": 20,
+        "BATTLE": 20,
+        "HAZARD": 12,
+        "RESOURCE": 12,
+        "SKILL_CHECK": 12,
+        "MYSTERY": 8,
+        "CAMP": 6,
+        "ELITE": 5,
+        "RESCUE": 5
+      },
+      "requiredBackboneOrder": [
+        "ENTRY_LICENSE",
+        "INTRO_CLUE",
+        "CIVIC_CLUE",
+        "REQUIRED_OBSTACLE",
+        "MORAL_DECISION",
+        "BOSS_APPROACH",
+        "BOSS",
+        "TRIAL_RESOLUTION",
+        "EXIT"
+      ],
+      "ordinarySecretCount": [
+        1,
+        3
+      ],
+      "marginCount": 1,
+      "splitUnionOpportunity": false,
+      "scoutingInteraction": "reveals next two public candidates, never Margin",
+      "fogOfWar": "adjacent-public-only until scouted",
+      "antiRepetitionWindow": 3,
+      "generationFallback": "reduce optional branch count, never required backbone"
+    },
+    {
+      "id": "GRAMMAR_F03_CAMP_LOGISTICS_WEB",
+      "floorId": "ABYSS_FLOOR_003",
+      "nodeMin": 16,
+      "nodeMax": 23,
+      "branchMin": 4,
+      "branchMax": 7,
+      "reconnectionMin": 2,
+      "reconnectionMax": 4,
+      "nodeVocabulary": [
+        "SUPPLY_ROW",
+        "MEDICAL_TENT",
+        "COOKFIRE",
+        "RECORDS_DEPOT"
+      ],
+      "weights": {
+        "EVENT": 20,
+        "BATTLE": 20,
+        "HAZARD": 12,
+        "RESOURCE": 12,
+        "SKILL_CHECK": 12,
+        "MYSTERY": 8,
+        "CAMP": 6,
+        "ELITE": 5,
+        "RESCUE": 5
+      },
+      "requiredBackboneOrder": [
+        "ENTRY_LICENSE",
+        "INTRO_CLUE",
+        "CIVIC_CLUE",
+        "REQUIRED_OBSTACLE",
+        "MORAL_DECISION",
+        "REGROUP",
+        "BOSS_APPROACH",
+        "BOSS",
+        "TRIAL_RESOLUTION",
+        "EXIT"
+      ],
+      "ordinarySecretCount": [
+        1,
+        3
+      ],
+      "marginCount": 1,
+      "splitUnionOpportunity": false,
+      "scoutingInteraction": "reveals next two public candidates, never Margin",
+      "fogOfWar": "adjacent-public-only until scouted",
+      "antiRepetitionWindow": 3,
+      "generationFallback": "reduce optional branch count, never required backbone"
+    },
+    {
+      "id": "GRAMMAR_F04_SIEGE_REPAIR_LATTICE",
+      "floorId": "ABYSS_FLOOR_004",
+      "nodeMin": 19,
+      "nodeMax": 27,
+      "branchMin": 4,
+      "branchMax": 8,
+      "reconnectionMin": 3,
+      "reconnectionMax": 5,
+      "nodeVocabulary": [
+        "WALL_SECTION",
+        "SCAFFOLD",
+        "BREACH",
+        "GATE_MECHANISM"
+      ],
+      "weights": {
+        "EVENT": 20,
+        "BATTLE": 20,
+        "HAZARD": 12,
+        "RESOURCE": 12,
+        "SKILL_CHECK": 12,
+        "MYSTERY": 8,
+        "CAMP": 6,
+        "ELITE": 5,
+        "RESCUE": 5
+      },
+      "requiredBackboneOrder": [
+        "ENTRY_LICENSE",
+        "INTRO_CLUE",
+        "CIVIC_CLUE",
+        "REQUIRED_OBSTACLE",
+        "MORAL_DECISION",
+        "REGROUP",
+        "BOSS_APPROACH",
+        "BOSS",
+        "TRIAL_RESOLUTION",
+        "EXIT"
+      ],
+      "ordinarySecretCount": [
+        1,
+        3
+      ],
+      "marginCount": 1,
+      "splitUnionOpportunity": true,
+      "scoutingInteraction": "reveals next two public candidates, never Margin",
+      "fogOfWar": "adjacent-public-only until scouted",
+      "antiRepetitionWindow": 3,
+      "generationFallback": "reduce optional branch count, never required backbone"
+    },
+    {
+      "id": "GRAMMAR_F05_MEMORIAL_ASCENT",
+      "floorId": "ABYSS_FLOOR_005",
+      "nodeMin": 17,
+      "nodeMax": 24,
+      "branchMin": 3,
+      "branchMax": 6,
+      "reconnectionMin": 2,
+      "reconnectionMax": 4,
+      "nodeVocabulary": [
+        "BANNER_RING",
+        "CAIRN_PATH",
+        "WIND_LEDGE",
+        "MEMORY_FIELD"
+      ],
+      "weights": {
+        "EVENT": 20,
+        "BATTLE": 20,
+        "HAZARD": 12,
+        "RESOURCE": 12,
+        "SKILL_CHECK": 12,
+        "MYSTERY": 8,
+        "CAMP": 6,
+        "ELITE": 5,
+        "RESCUE": 5
+      },
+      "requiredBackboneOrder": [
+        "ENTRY_LICENSE",
+        "INTRO_CLUE",
+        "CIVIC_CLUE",
+        "REQUIRED_OBSTACLE",
+        "MORAL_DECISION",
+        "REGROUP",
+        "BOSS_APPROACH",
+        "BOSS",
+        "TRIAL_RESOLUTION",
+        "EXIT"
+      ],
+      "ordinarySecretCount": [
+        1,
+        3
+      ],
+      "marginCount": 1,
+      "splitUnionOpportunity": true,
+      "scoutingInteraction": "reveals next two public candidates, never Margin",
+      "fogOfWar": "adjacent-public-only until scouted",
+      "antiRepetitionWindow": 3,
+      "generationFallback": "reduce optional branch count, never required backbone"
+    },
+    {
+      "id": "GRAMMAR_F06_MARCH_COLUMNS",
+      "floorId": "ABYSS_FLOOR_006",
+      "nodeMin": 18,
+      "nodeMax": 26,
+      "branchMin": 3,
+      "branchMax": 6,
+      "reconnectionMin": 3,
+      "reconnectionMax": 5,
+      "nodeVocabulary": [
+        "PARADE_LANE",
+        "DRILL_SQUARE",
+        "COMMAND_MARKER",
+        "SIDE_COLUMN"
+      ],
+      "weights": {
+        "EVENT": 20,
+        "BATTLE": 20,
+        "HAZARD": 12,
+        "RESOURCE": 12,
+        "SKILL_CHECK": 12,
+        "MYSTERY": 8,
+        "CAMP": 6,
+        "ELITE": 5,
+        "RESCUE": 5
+      },
+      "requiredBackboneOrder": [
+        "ENTRY_LICENSE",
+        "INTRO_CLUE",
+        "CIVIC_CLUE",
+        "REQUIRED_OBSTACLE",
+        "MORAL_DECISION",
+        "REGROUP",
+        "BOSS_APPROACH",
+        "BOSS",
+        "TRIAL_RESOLUTION",
+        "EXIT"
+      ],
+      "ordinarySecretCount": [
+        1,
+        3
+      ],
+      "marginCount": 1,
+      "splitUnionOpportunity": true,
+      "scoutingInteraction": "reveals next two public candidates, never Margin",
+      "fogOfWar": "adjacent-public-only until scouted",
+      "antiRepetitionWindow": 3,
+      "generationFallback": "reduce optional branch count, never required backbone"
+    },
+    {
+      "id": "GRAMMAR_F07_RIVER_CROSSINGS",
+      "floorId": "ABYSS_FLOOR_007",
+      "nodeMin": 19,
+      "nodeMax": 27,
+      "branchMin": 4,
+      "branchMax": 7,
+      "reconnectionMin": 3,
+      "reconnectionMax": 5,
+      "nodeVocabulary": [
+        "FORD",
+        "BRIDGE_SPAN",
+        "FILTER_SHRINE",
+        "FERRY_STONE"
+      ],
+      "weights": {
+        "EVENT": 20,
+        "BATTLE": 20,
+        "HAZARD": 12,
+        "RESOURCE": 12,
+        "SKILL_CHECK": 12,
+        "MYSTERY": 8,
+        "CAMP": 6,
+        "ELITE": 5,
+        "RESCUE": 5
+      },
+      "requiredBackboneOrder": [
+        "ENTRY_LICENSE",
+        "INTRO_CLUE",
+        "CIVIC_CLUE",
+        "REQUIRED_OBSTACLE",
+        "MORAL_DECISION",
+        "REGROUP",
+        "BOSS_APPROACH",
+        "BOSS",
+        "TRIAL_RESOLUTION",
+        "EXIT"
+      ],
+      "ordinarySecretCount": [
+        1,
+        3
+      ],
+      "marginCount": 1,
+      "splitUnionOpportunity": true,
+      "scoutingInteraction": "reveals next two public candidates, never Margin",
+      "fogOfWar": "adjacent-public-only until scouted",
+      "antiRepetitionWindow": 3,
+      "generationFallback": "reduce optional branch count, never required backbone"
+    },
+    {
+      "id": "GRAMMAR_F08_PEN_AND_RELEASE_PATHS",
+      "floorId": "ABYSS_FLOOR_008",
+      "nodeMin": 18,
+      "nodeMax": 25,
+      "branchMin": 4,
+      "branchMax": 7,
+      "reconnectionMin": 2,
+      "reconnectionMax": 4,
+      "nodeVocabulary": [
+        "FEED_CORRIDOR",
+        "PEN",
+        "CHAIN_GATE",
+        "QUIET_DEN"
+      ],
+      "weights": {
+        "EVENT": 20,
+        "BATTLE": 20,
+        "HAZARD": 12,
+        "RESOURCE": 12,
+        "SKILL_CHECK": 12,
+        "MYSTERY": 8,
+        "CAMP": 6,
+        "ELITE": 5,
+        "RESCUE": 5
+      },
+      "requiredBackboneOrder": [
+        "ENTRY_LICENSE",
+        "INTRO_CLUE",
+        "CIVIC_CLUE",
+        "REQUIRED_OBSTACLE",
+        "MORAL_DECISION",
+        "REGROUP",
+        "BOSS_APPROACH",
+        "BOSS",
+        "TRIAL_RESOLUTION",
+        "EXIT"
+      ],
+      "ordinarySecretCount": [
+        1,
+        3
+      ],
+      "marginCount": 1,
+      "splitUnionOpportunity": true,
+      "scoutingInteraction": "reveals next two public candidates, never Margin",
+      "fogOfWar": "adjacent-public-only until scouted",
+      "antiRepetitionWindow": 3,
+      "generationFallback": "reduce optional branch count, never required backbone"
+    },
+    {
+      "id": "GRAMMAR_F09_COMMAND_NETWORK",
+      "floorId": "ABYSS_FLOOR_009",
+      "nodeMin": 21,
+      "nodeMax": 29,
+      "branchMin": 5,
+      "branchMax": 8,
+      "reconnectionMin": 4,
+      "reconnectionMax": 6,
+      "nodeVocabulary": [
+        "SIGNAL_POST",
+        "MAP_TENT",
+        "SUPPLY_LANE",
+        "FALSE_ORDER"
+      ],
+      "weights": {
+        "EVENT": 20,
+        "BATTLE": 20,
+        "HAZARD": 12,
+        "RESOURCE": 12,
+        "SKILL_CHECK": 12,
+        "MYSTERY": 8,
+        "CAMP": 6,
+        "ELITE": 5,
+        "RESCUE": 5
+      },
+      "requiredBackboneOrder": [
+        "ENTRY_LICENSE",
+        "INTRO_CLUE",
+        "CIVIC_CLUE",
+        "REQUIRED_OBSTACLE",
+        "MORAL_DECISION",
+        "REGROUP",
+        "BOSS_APPROACH",
+        "BOSS",
+        "TRIAL_RESOLUTION",
+        "EXIT"
+      ],
+      "ordinarySecretCount": [
+        1,
+        3
+      ],
+      "marginCount": 1,
+      "splitUnionOpportunity": true,
+      "scoutingInteraction": "reveals next two public candidates, never Margin",
+      "fogOfWar": "adjacent-public-only until scouted",
+      "antiRepetitionWindow": 3,
+      "generationFallback": "reduce optional branch count, never required backbone"
+    },
+    {
+      "id": "GRAMMAR_F10_AEGIS_OPERATION",
+      "floorId": "ABYSS_FLOOR_010",
+      "nodeMin": 26,
+      "nodeMax": 34,
+      "branchMin": 5,
+      "branchMax": 9,
+      "reconnectionMin": 4,
+      "reconnectionMax": 6,
+      "nodeVocabulary": [
+        "CIVILIAN_SHELTER",
+        "PYLON",
+        "DEFENSE_ARCH",
+        "COMMAND_DAIS",
+        "Aegis_APPROACH"
+      ],
+      "weights": {
+        "EVENT": 20,
+        "BATTLE": 20,
+        "HAZARD": 12,
+        "RESOURCE": 12,
+        "SKILL_CHECK": 12,
+        "MYSTERY": 8,
+        "CAMP": 6,
+        "ELITE": 5,
+        "RESCUE": 5
+      },
+      "requiredBackboneOrder": [
+        "ENTRY_LICENSE",
+        "INTRO_CLUE",
+        "CIVIC_CLUE",
+        "REQUIRED_OBSTACLE",
+        "MORAL_DECISION",
+        "REGROUP",
+        "BOSS_APPROACH",
+        "BOSS",
+        "TRIAL_RESOLUTION",
+        "EXIT"
+      ],
+      "ordinarySecretCount": [
+        1,
+        3
+      ],
+      "marginCount": 1,
+      "splitUnionOpportunity": true,
+      "scoutingInteraction": "reveals next two public candidates, never Margin",
+      "fogOfWar": "adjacent-public-only until scouted",
+      "antiRepetitionWindow": 3,
+      "generationFallback": "reduce optional branch count, never required backbone"
+    }
+  ]
+}

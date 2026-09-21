@@ -1,0 +1,37 @@
+{
+  "id": "ABYSS_TAX_COLLECTOR_EARLY",
+  "purpose": [
+    "warning",
+    "comedy",
+    "economic feedback",
+    "anti-exploit response",
+    "living-Abyss foreshadowing"
+  ],
+  "responses": [
+    {
+      "band": "RESPONSIBLE",
+      "minSustainability": 30,
+      "message": "The ledger opens, considers the civic report, and closes with an annoyed approval stamp.",
+      "penalty": 0
+    },
+    {
+      "band": "BORDERLINE",
+      "minSustainability": 0,
+      "message": "A stone clerk asks whether the fourth identical mining run was truly an emergency.",
+      "penalty": 5
+    },
+    {
+      "band": "EXPLOITATIVE",
+      "minSustainability": -50,
+      "message": "The Tax Collector issues a loud public warning and cuts repeat rewards until corrective work is filed.",
+      "penalty": 25
+    },
+    {
+      "band": "FALSE_REPORTING",
+      "minSustainability": -999,
+      "message": "The ledger already knows. Corrective audit required.",
+      "penalty": 40
+    }
+  ],
+  "arbitraryBoss": false
+}

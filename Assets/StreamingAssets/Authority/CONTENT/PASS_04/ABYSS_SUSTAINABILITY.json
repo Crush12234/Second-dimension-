@@ -1,0 +1,81 @@
+{
+  "contentVersion": "GOW_PASS04_0.9",
+  "range": {
+    "minimum": -1000,
+    "maximum": 1000,
+    "starting": 0
+  },
+  "trackedSignals": {
+    "CIVIC_EXTRACTION": 35,
+    "PROTECTION": 45,
+    "RESCUE": 55,
+    "MAPPING": 25,
+    "TEACHING": 20,
+    "OVER_MINING": -60,
+    "SAME_FLOOR_REPEAT": -35,
+    "EXPLOITATIVE_SUMMON_USE": -80,
+    "FALSE_REPORTING": -120
+  },
+  "tiers": [
+    {
+      "id": "ABYSS_HOSTILE_AUDIT",
+      "min": -1000,
+      "max": -501,
+      "xpPermille": 300,
+      "lootPermille": 500,
+      "response": "Tax Collector encounter, temporary floor restrictions, and explicit audit objectives."
+    },
+    {
+      "id": "ABYSS_WARNING",
+      "min": -500,
+      "max": -151,
+      "xpPermille": 600,
+      "lootPermille": 750,
+      "response": "Warnings, altered events, reduced repeated drops."
+    },
+    {
+      "id": "ABYSS_NEUTRAL",
+      "min": -150,
+      "max": 199,
+      "xpPermille": 1000,
+      "lootPermille": 1000,
+      "response": "Normal behavior."
+    },
+    {
+      "id": "ABYSS_COOPERATIVE",
+      "min": 200,
+      "max": 599,
+      "xpPermille": 1080,
+      "lootPermille": 1100,
+      "response": "More civic blueprints and rescue opportunities."
+    },
+    {
+      "id": "ABYSS_STEWARDSHIP_SEED",
+      "min": 600,
+      "max": 1000,
+      "xpPermille": 1150,
+      "lootPermille": 1200,
+      "response": "Historical clues and stewardship trials; never ownership."
+    }
+  ],
+  "antiGrind": {
+    "consecutiveSameFloorWindow": 4,
+    "penaltyEscalationPermille": [
+      1000,
+      880,
+      720,
+      520,
+      350
+    ],
+    "differentPublicNeedResetsOneStep": true
+  },
+  "feedbackFields": [
+    "scoreBefore",
+    "signalsApplied",
+    "scoreAfter",
+    "tier",
+    "xpMultiplier",
+    "lootMultiplier",
+    "recommendedCorrectiveAction"
+  ]
+}

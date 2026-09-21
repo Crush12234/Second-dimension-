@@ -1,0 +1,1101 @@
+{
+  "contentVersion": "GOW_PASS04_0.9",
+  "loot": {
+    "normal": {
+      "id": "ITEM_26A93F738C82C64B28842E5A",
+      "definitionId": "EQUIP_ACCESSORY_ORC_OATH_CLASP",
+      "generationSeed": "E0BCC66DB3D9344A:8EB12F86B607CB31",
+      "contentVersion": "GOW_PASS04_0.9",
+      "displayName": "Ration Blueprint Fragment Orc Oath Clasp — MP Channel",
+      "customName": null,
+      "customDescription": null,
+      "category": "ACCESSORY",
+      "qualityId": "QUALITY_REINFORCED",
+      "materialId": "MATERIAL_RATION_BLUEPRINT_FRAGMENT",
+      "affixIds": [
+        "AFFIX_MP_CHANNEL"
+      ],
+      "socketCount": 1,
+      "installedRuneIds": [],
+      "condition": 100,
+      "reinforcementLevel": 0,
+      "locked": false,
+      "boundRecruitId": null,
+      "editedModifierIds": [],
+      "source": {
+        "campaignSeed": 20260811,
+        "sourceSeed": "NORMAL_FIXTURE",
+        "sourceType": "NORMAL",
+        "difficulty": 1,
+        "reputation": 0,
+        "sustainability": 0,
+        "floorNumber": null,
+        "objectiveCompleted": false,
+        "ordinarySecretDiscovered": false,
+        "forcedDefinitionId": null,
+        "contentVersion": "GOW_PASS04_0.9"
+      },
+      "evolutionPathId": null,
+      "history": {
+        "events": [
+          {
+            "eventId": "HIST_0001_B972910E7FBE",
+            "sequence": 1,
+            "type": "WORLD_ORIGIN",
+            "sourceId": "NORMAL",
+            "campaignDay": 0,
+            "payload": {
+              "campaignDay": 0,
+              "floorNumber": null
+            },
+            "canonicalPayloadHash": "717E63DC577A4562F3236143F2DEB4AFBF38525F5C8029005B5C4C4DE413D61B"
+          }
+        ]
+      },
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_MATERIAL_RATION_BLUEPRINT_FRAGMENT",
+        "VIS_QUALITY_REINFORCED"
+      ]
+    },
+    "ordinarySecret": {
+      "id": "ITEM_5DF7FDBD4B2065C66451F366",
+      "definitionId": "EQUIP_ARMOR_WAR_BEAST_HANDLER_MAIL",
+      "generationSeed": "40F41CF2418194BD:423217E1C25D4D1A",
+      "contentVersion": "GOW_PASS04_0.9",
+      "displayName": "Beast Echo Core War-Beast Handler Mail — AP Return",
+      "customName": null,
+      "customDescription": null,
+      "category": "ARMOR",
+      "qualityId": "QUALITY_SERVICEABLE",
+      "materialId": "MATERIAL_BEAST_ECHO_CORE",
+      "affixIds": [
+        "AFFIX_AP_RETURN"
+      ],
+      "socketCount": 0,
+      "installedRuneIds": [],
+      "condition": 98,
+      "reinforcementLevel": 0,
+      "locked": false,
+      "boundRecruitId": null,
+      "editedModifierIds": [],
+      "source": {
+        "campaignSeed": 20260811,
+        "sourceSeed": "SECRET_FIXTURE",
+        "sourceType": "ORDINARY_SECRET",
+        "difficulty": 2,
+        "reputation": 0,
+        "sustainability": 0,
+        "floorNumber": null,
+        "objectiveCompleted": false,
+        "ordinarySecretDiscovered": true,
+        "forcedDefinitionId": null,
+        "contentVersion": "GOW_PASS04_0.9"
+      },
+      "evolutionPathId": null,
+      "history": {
+        "events": [
+          {
+            "eventId": "HIST_0001_DE2137C10969",
+            "sequence": 1,
+            "type": "WORLD_ORIGIN",
+            "sourceId": "ORDINARY_SECRET",
+            "campaignDay": 0,
+            "payload": {
+              "campaignDay": 0,
+              "floorNumber": null
+            },
+            "canonicalPayloadHash": "717E63DC577A4562F3236143F2DEB4AFBF38525F5C8029005B5C4C4DE413D61B"
+          }
+        ]
+      },
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_MATERIAL_BEAST_ECHO_CORE",
+        "VIS_QUALITY_SERVICEABLE"
+      ]
+    },
+    "abyss": {
+      "id": "ITEM_5ACCB3AF27A2DC1FADE40BD1",
+      "definitionId": "EQUIP_WEAPON_OATHKEEPER_FALCHION",
+      "generationSeed": "42C9F109D17DAFBD:613D82694B327FBE",
+      "contentVersion": "GOW_PASS04_0.9",
+      "displayName": "Arrow Core Oathkeeper Falchion — Survival-Wrapped",
+      "customName": null,
+      "customDescription": null,
+      "category": "WEAPON",
+      "qualityId": "QUALITY_BALANCED",
+      "materialId": "MATERIAL_ARROW_CORE",
+      "affixIds": [
+        "AFFIX_SURVIVAL_WRAPPED",
+        "AFFIX_WARD_LINED"
+      ],
+      "socketCount": 1,
+      "installedRuneIds": [],
+      "condition": 91,
+      "reinforcementLevel": 0,
+      "locked": false,
+      "boundRecruitId": null,
+      "editedModifierIds": [],
+      "source": {
+        "campaignSeed": 20260811,
+        "sourceSeed": "ABYSS_FIXTURE",
+        "sourceType": "ABYSS",
+        "difficulty": 3,
+        "reputation": 0,
+        "sustainability": 250,
+        "floorNumber": 4,
+        "objectiveCompleted": true,
+        "ordinarySecretDiscovered": false,
+        "forcedDefinitionId": null,
+        "contentVersion": "GOW_PASS04_0.9"
+      },
+      "evolutionPathId": null,
+      "history": {
+        "events": [
+          {
+            "eventId": "HIST_0001_F5DB6888151E",
+            "sequence": 1,
+            "type": "WORLD_ORIGIN",
+            "sourceId": "ABYSS",
+            "campaignDay": 0,
+            "payload": {
+              "campaignDay": 0,
+              "floorNumber": 4
+            },
+            "canonicalPayloadHash": "CD0531500019112B3267031714E0FA6477B3C44527400E54088ABFCA305ED2C6"
+          }
+        ]
+      },
+      "visualTags": [
+        "VIS_SWORD",
+        "VIS_QUALITY_REINFORCED",
+        "VIS_MATERIAL_ARROW_CORE",
+        "VIS_QUALITY_BALANCED"
+      ]
+    },
+    "boss": {
+      "id": "ITEM_B49583AA72A02DFF3F7AB5E0",
+      "definitionId": "EQUIP_WEAPON_BRIDGEWARDEN_PIKE",
+      "generationSeed": "70F80BAF2B47A2E0:4873F0FC1F0B54B3",
+      "contentVersion": "GOW_PASS04_0.9",
+      "displayName": "Siege Stone Core Bridgewarden Pike — Echo-Stable",
+      "customName": null,
+      "customDescription": null,
+      "category": "WEAPON",
+      "qualityId": "QUALITY_SERVICEABLE",
+      "materialId": "MATERIAL_STONE_CORE",
+      "affixIds": [
+        "AFFIX_ECHO_STABLE"
+      ],
+      "socketCount": 0,
+      "installedRuneIds": [],
+      "condition": 80,
+      "reinforcementLevel": 0,
+      "locked": false,
+      "boundRecruitId": null,
+      "editedModifierIds": [],
+      "source": {
+        "campaignSeed": 20260811,
+        "sourceSeed": "BOSS_FIXTURE",
+        "sourceType": "ABYSS_BOSS",
+        "difficulty": 5,
+        "reputation": 0,
+        "sustainability": 400,
+        "floorNumber": 10,
+        "objectiveCompleted": true,
+        "ordinarySecretDiscovered": false,
+        "forcedDefinitionId": null,
+        "contentVersion": "GOW_PASS04_0.9"
+      },
+      "evolutionPathId": null,
+      "history": {
+        "events": [
+          {
+            "eventId": "HIST_0001_82A957DE239B",
+            "sequence": 1,
+            "type": "WORLD_ORIGIN",
+            "sourceId": "ABYSS_BOSS",
+            "campaignDay": 0,
+            "payload": {
+              "campaignDay": 0,
+              "floorNumber": 10
+            },
+            "canonicalPayloadHash": "B42E402BF81D26A0199B434B3680759C0AF96D6E8AE7F0765E16C77887E56F8B"
+          }
+        ]
+      },
+      "visualTags": [
+        "VIS_SPEAR_POLEARM",
+        "VIS_QUALITY_REINFORCED",
+        "VIS_MATERIAL_STONE_CORE",
+        "VIS_QUALITY_SERVICEABLE"
+      ]
+    }
+  },
+  "craftingDegrees": {
+    "MIXED_SUCCESS": {
+      "recipeId": "RECIPE_EQUIP_ARMOR_ASH_MAP_COMMAND_ARMOR",
+      "dice": [
+        3,
+        3
+      ],
+      "total": 9,
+      "difficulty": 11,
+      "degree": "MIXED_SUCCESS",
+      "assistantBonus": 1,
+      "materialsConsumed": {
+        "MATERIAL_FIELD_CLOTH": 3,
+        "MATERIAL_EQUIPMENT_FRAGMENT": 1
+      },
+      "output": {
+        "id": "ITEM_943E67A518D7317720C44F70",
+        "definitionId": "EQUIP_ARMOR_ASH_MAP_COMMAND_ARMOR",
+        "generationSeed": "A553EBBF86B8D83F:1114DAC494A9DA68",
+        "contentVersion": "GOW_PASS04_0.9",
+        "displayName": "Serviceable Ash-Map Command Armor",
+        "customName": null,
+        "customDescription": null,
+        "category": "ARMOR",
+        "qualityId": "QUALITY_SERVICEABLE",
+        "materialId": "MATERIAL_PYLON_CRYSTAL",
+        "affixIds": [
+          "AFFIX_ROPE_LOOP",
+          "AFFIX_COHESION_STITCHED"
+        ],
+        "socketCount": 2,
+        "installedRuneIds": [],
+        "condition": 91,
+        "reinforcementLevel": 0,
+        "locked": false,
+        "boundRecruitId": null,
+        "editedModifierIds": [],
+        "source": {
+          "campaignSeed": 30303,
+          "sourceSeed": "CRAFT:30303:1:RECIPE_EQUIP_ARMOR_ASH_MAP_COMMAND_ARMOR",
+          "sourceType": "CRAFTED",
+          "difficulty": 2,
+          "reputation": 0,
+          "sustainability": 0,
+          "floorNumber": null,
+          "objectiveCompleted": false,
+          "ordinarySecretDiscovered": false,
+          "forcedDefinitionId": "EQUIP_ARMOR_ASH_MAP_COMMAND_ARMOR",
+          "contentVersion": "GOW_PASS04_0.9"
+        },
+        "evolutionPathId": null,
+        "history": {
+          "events": [
+            {
+              "eventId": "HIST_0001_D4BB828994BE",
+              "sequence": 1,
+              "type": "WORLD_ORIGIN",
+              "sourceId": "CRAFTED",
+              "campaignDay": 0,
+              "payload": {
+                "campaignDay": 0,
+                "floorNumber": null
+              },
+              "canonicalPayloadHash": "717E63DC577A4562F3236143F2DEB4AFBF38525F5C8029005B5C4C4DE413D61B"
+            },
+            {
+              "eventId": "HIST_0002_2516C254D8A1",
+              "sequence": 2,
+              "type": "CRAFTED",
+              "sourceId": "RECIPE_EQUIP_ARMOR_ASH_MAP_COMMAND_ARMOR",
+              "campaignDay": 1,
+              "payload": {
+                "campaignDay": 1,
+                "degree": "MIXED_SUCCESS",
+                "crafterSkill": 2
+              },
+              "canonicalPayloadHash": "979545BDAD7FCE265F71583A8E5F601B5A2F6266F05283C49EDB7C11A09D834E"
+            }
+          ]
+        },
+        "visualTags": [
+          "VIS_ARMOR_MEDIUM",
+          "VIS_MATERIAL_PYLON_CRYSTAL",
+          "VIS_QUALITY_MASTERWORK"
+        ]
+      },
+      "uniqueItemDestroyed": false
+    },
+    "SUCCESS": {
+      "recipeId": "RECIPE_EQUIP_ARMOR_ASH_MAP_COMMAND_ARMOR",
+      "dice": [
+        6,
+        2
+      ],
+      "total": 11,
+      "difficulty": 11,
+      "degree": "SUCCESS",
+      "assistantBonus": 1,
+      "materialsConsumed": {
+        "MATERIAL_FIELD_CLOTH": 4,
+        "MATERIAL_EQUIPMENT_FRAGMENT": 2
+      },
+      "output": {
+        "id": "ITEM_D106890A48D0E7757E0F2B38",
+        "definitionId": "EQUIP_ARMOR_ASH_MAP_COMMAND_ARMOR",
+        "generationSeed": "2AEDF5891819BCAF:3CAD67BBDB5FACFA",
+        "contentVersion": "GOW_PASS04_0.9",
+        "displayName": "Balanced Ash-Map Command Armor",
+        "customName": null,
+        "customDescription": null,
+        "category": "ARMOR",
+        "qualityId": "QUALITY_BALANCED",
+        "materialId": "MATERIAL_BANNER_THREAD",
+        "affixIds": [
+          "AFFIX_COVERING"
+        ],
+        "socketCount": 1,
+        "installedRuneIds": [],
+        "condition": 93,
+        "reinforcementLevel": 0,
+        "locked": false,
+        "boundRecruitId": null,
+        "editedModifierIds": [],
+        "source": {
+          "campaignSeed": 30303,
+          "sourceSeed": "CRAFT:30303:3:RECIPE_EQUIP_ARMOR_ASH_MAP_COMMAND_ARMOR",
+          "sourceType": "CRAFTED",
+          "difficulty": 2,
+          "reputation": 0,
+          "sustainability": 0,
+          "floorNumber": null,
+          "objectiveCompleted": false,
+          "ordinarySecretDiscovered": false,
+          "forcedDefinitionId": "EQUIP_ARMOR_ASH_MAP_COMMAND_ARMOR",
+          "contentVersion": "GOW_PASS04_0.9"
+        },
+        "evolutionPathId": null,
+        "history": {
+          "events": [
+            {
+              "eventId": "HIST_0001_D4BB828994BE",
+              "sequence": 1,
+              "type": "WORLD_ORIGIN",
+              "sourceId": "CRAFTED",
+              "campaignDay": 0,
+              "payload": {
+                "campaignDay": 0,
+                "floorNumber": null
+              },
+              "canonicalPayloadHash": "717E63DC577A4562F3236143F2DEB4AFBF38525F5C8029005B5C4C4DE413D61B"
+            },
+            {
+              "eventId": "HIST_0002_A9901B3C9E96",
+              "sequence": 2,
+              "type": "CRAFTED",
+              "sourceId": "RECIPE_EQUIP_ARMOR_ASH_MAP_COMMAND_ARMOR",
+              "campaignDay": 3,
+              "payload": {
+                "campaignDay": 3,
+                "degree": "SUCCESS",
+                "crafterSkill": 2
+              },
+              "canonicalPayloadHash": "4FFF37E0EEF738DB0BE3CF51D79E2259CEA00A485F58D08FD28381B7B9C44399"
+            }
+          ]
+        },
+        "visualTags": [
+          "VIS_ARMOR_MEDIUM",
+          "VIS_MATERIAL_BANNER_THREAD",
+          "VIS_QUALITY_REINFORCED"
+        ]
+      },
+      "uniqueItemDestroyed": false
+    },
+    "FAILURE": {
+      "recipeId": "RECIPE_EQUIP_ARMOR_ASH_MAP_COMMAND_ARMOR",
+      "dice": [
+        2,
+        1
+      ],
+      "total": 6,
+      "difficulty": 11,
+      "degree": "FAILURE",
+      "assistantBonus": 1,
+      "materialsConsumed": {
+        "MATERIAL_FIELD_CLOTH": 2,
+        "MATERIAL_EQUIPMENT_FRAGMENT": 1
+      },
+      "output": null,
+      "uniqueItemDestroyed": false
+    },
+    "CRITICAL_SUCCESS": {
+      "recipeId": "RECIPE_EQUIP_ARMOR_ASH_MAP_COMMAND_ARMOR",
+      "dice": [
+        6,
+        6
+      ],
+      "total": 15,
+      "difficulty": 11,
+      "degree": "CRITICAL_SUCCESS",
+      "assistantBonus": 1,
+      "materialsConsumed": {
+        "MATERIAL_FIELD_CLOTH": 4,
+        "MATERIAL_EQUIPMENT_FRAGMENT": 2
+      },
+      "output": {
+        "id": "ITEM_E046FE22B04843DEA48EF442",
+        "definitionId": "EQUIP_ARMOR_ASH_MAP_COMMAND_ARMOR",
+        "generationSeed": "2B7FCAA2F0164839:B76056C65D8DA17E",
+        "contentVersion": "GOW_PASS04_0.9",
+        "displayName": "Masterwork Ash-Map Command Armor",
+        "customName": null,
+        "customDescription": null,
+        "category": "ARMOR",
+        "qualityId": "QUALITY_MASTERWORK",
+        "materialId": "MATERIAL_IRON",
+        "affixIds": [],
+        "socketCount": 1,
+        "installedRuneIds": [],
+        "condition": 95,
+        "reinforcementLevel": 0,
+        "locked": false,
+        "boundRecruitId": null,
+        "editedModifierIds": [],
+        "source": {
+          "campaignSeed": 30303,
+          "sourceSeed": "CRAFT:30303:53:RECIPE_EQUIP_ARMOR_ASH_MAP_COMMAND_ARMOR",
+          "sourceType": "CRAFTED",
+          "difficulty": 2,
+          "reputation": 0,
+          "sustainability": 0,
+          "floorNumber": null,
+          "objectiveCompleted": false,
+          "ordinarySecretDiscovered": false,
+          "forcedDefinitionId": "EQUIP_ARMOR_ASH_MAP_COMMAND_ARMOR",
+          "contentVersion": "GOW_PASS04_0.9"
+        },
+        "evolutionPathId": null,
+        "history": {
+          "events": [
+            {
+              "eventId": "HIST_0001_D4BB828994BE",
+              "sequence": 1,
+              "type": "WORLD_ORIGIN",
+              "sourceId": "CRAFTED",
+              "campaignDay": 0,
+              "payload": {
+                "campaignDay": 0,
+                "floorNumber": null
+              },
+              "canonicalPayloadHash": "717E63DC577A4562F3236143F2DEB4AFBF38525F5C8029005B5C4C4DE413D61B"
+            },
+            {
+              "eventId": "HIST_0002_1F9625CD08FF",
+              "sequence": 2,
+              "type": "CRAFTED",
+              "sourceId": "RECIPE_EQUIP_ARMOR_ASH_MAP_COMMAND_ARMOR",
+              "campaignDay": 53,
+              "payload": {
+                "campaignDay": 53,
+                "degree": "CRITICAL_SUCCESS",
+                "crafterSkill": 2
+              },
+              "canonicalPayloadHash": "5F84C811AF14CAEA978C0529947265C911038351AC66199551AFE9BE5E435D29"
+            }
+          ]
+        },
+        "visualTags": [
+          "VIS_ARMOR_MEDIUM",
+          "VIS_MATERIAL_IRON",
+          "VIS_QUALITY_SERVICEABLE"
+        ]
+      },
+      "uniqueItemDestroyed": false
+    },
+    "CRITICAL_FAILURE": {
+      "recipeId": "RECIPE_EQUIP_ARMOR_ASH_MAP_COMMAND_ARMOR",
+      "dice": [
+        1,
+        1
+      ],
+      "total": 5,
+      "difficulty": 11,
+      "degree": "CRITICAL_FAILURE",
+      "assistantBonus": 1,
+      "materialsConsumed": {
+        "MATERIAL_FIELD_CLOTH": 2,
+        "MATERIAL_EQUIPMENT_FRAGMENT": 1
+      },
+      "output": null,
+      "uniqueItemDestroyed": false
+    }
+  },
+  "equipment": {
+    "character": {
+      "id": "REC_FIXTURE_GUARDIAN",
+      "classId": "CLASS_GUARDIAN",
+      "trainedEquipmentTags": [
+        "SWORD",
+        "SHIELD",
+        "FOCUS_TOOL"
+      ],
+      "trainedArmorWeights": [
+        "LIGHT",
+        "MEDIUM",
+        "HEAVY"
+      ]
+    },
+    "loadout": {
+      "SLOT_MAIN_HAND": "ITEM_26A93F738C82C64B28842E5A",
+      "SLOT_OFF_HAND": "ITEM_5DF7FDBD4B2065C66451F366_OFF",
+      "SLOT_BODY_ARMOR": null,
+      "SLOT_ACCESSORY_1": null,
+      "SLOT_ACCESSORY_2": null,
+      "SLOT_TOOL_RELIC": null,
+      "lockedSlots": [],
+      "savedName": null,
+      "instanceDefinitions": {
+        "ITEM_26A93F738C82C64B28842E5A": "EQUIP_WEAPON_GATEWATCH_SABER",
+        "ITEM_5DF7FDBD4B2065C66451F366_OFF": "EQUIP_OFFHAND_GATEWATCH_BUCKLER"
+      },
+      "stateHash": "AEEB407249BEE0E856101192F7F3709AB1469DD70541EF4BE9777038ECE69082"
+    },
+    "effectiveTags": [
+      "SHIELD",
+      "SWORD",
+      "WARD_BUCKLER"
+    ],
+    "legalArtIds": [
+      "ART_ANCHOR_STANCE",
+      "ART_ARCANE_GUARD",
+      "ART_ASSIST_ALLY",
+      "ART_BASIC_SABER_CUT",
+      "ART_BLOODLESS_PRESSURE",
+      "ART_BODYGUARD_LINE",
+      "ART_COUNTERSTROKE",
+      "ART_COUNTER_WALL",
+      "ART_COVER_THE_WEAK",
+      "ART_EXECUTION_LINE",
+      "ART_GUARD",
+      "ART_GUARD_SPLITTER",
+      "ART_HAMSTRING",
+      "ART_HOLD_FAST",
+      "ART_INTERCEPT_STEP",
+      "ART_LAST_POST",
+      "ART_LINEBREAKER_FINALE",
+      "ART_MARCHING_BASTION",
+      "ART_MOMENTUM_CHAIN",
+      "ART_NIGHTFALL_ROUTE",
+      "ART_POCKET_SAND",
+      "ART_POWER_CUT",
+      "ART_QUICK_CUT",
+      "ART_RECOVER_BREATH",
+      "ART_ROTATING_GUARD",
+      "ART_RUNE_EDGE",
+      "ART_SHADOW_RELAY",
+      "ART_SHIELD_BASH",
+      "ART_SHIELD_BRACE",
+      "ART_SHIELD_RAM",
+      "ART_SMOKE_FEINT",
+      "ART_STEP_BACK",
+      "ART_TRAIL_SENSE",
+      "ART_TWIN_SLASH",
+      "ART_UNBROKEN_OATH",
+      "ART_VANGUARD_RUSH",
+      "ART_VANISHING_COUNTER",
+      "CULT_DARK_ELF_DUSK_RECONNAISSANCE",
+      "CULT_DARK_ELF_FALSE_OPENING",
+      "CULT_DARK_ELF_MEMORY_KNIFE",
+      "CULT_DARK_ELF_QUIET_LEDGER",
+      "CULT_DEMON_HERITAGE_ASHEN_GEOMETRY",
+      "CULT_DEMON_HERITAGE_CONTRACT_WARD",
+      "CULT_DEMON_HERITAGE_CRIMSON_RESTRAINT",
+      "CULT_DEMON_HERITAGE_VEIL_READING",
+      "CULT_DOG_TRIBE_GUARD_THE_STRAGGLER",
+      "CULT_DOG_TRIBE_PACK_ROUTE",
+      "CULT_DOG_TRIBE_SCENT_THE_BREAK",
+      "CULT_DOG_TRIBE_STORM_CHASE",
+      "CULT_GOBLIN_BRASS_RELAY",
+      "CULT_GOBLIN_FIELD_RETROFIT",
+      "CULT_GOBLIN_SALVAGE_SPARK",
+      "CULT_GOBLIN_TRAPWRIGHT_S_EYE",
+      "CULT_HUMAN_CROSS_TRAINING",
+      "CULT_HUMAN_IMPROVISED_ANSWER",
+      "CULT_HUMAN_SECOND_CHANCE",
+      "CULT_HUMAN_SHARED_DRILL",
+      "CULT_ORC_BURDEN_BEARER",
+      "CULT_ORC_MEASURED_CHALLENGE",
+      "CULT_ORC_SHELTER_WALL",
+      "CULT_ORC_WAR_DRUM_RESTRAINT",
+      "HYBRID_ARCANE_LOGISTICS",
+      "HYBRID_ARCANE_VOLLEY",
+      "HYBRID_BATTLE_MEDIC",
+      "HYBRID_FIELD_COMMANDER",
+      "HYBRID_HEXED_ARROW",
+      "HYBRID_HUNTER_HEALER",
+      "HYBRID_LAST_LIGHT_AMBUSH",
+      "HYBRID_LIVING_BASTION",
+      "HYBRID_MERCIFUL_COUNTER",
+      "HYBRID_PRECISION_BREAK",
+      "HYBRID_RALLYING_BLOW",
+      "HYBRID_RUNE_BREAKER",
+      "HYBRID_SANCTIFIED_STRIKE",
+      "HYBRID_SHADOW_WARD",
+      "HYBRID_SPELLGUARD",
+      "HYBRID_VEILED_REMEDY",
+      "HYBRID_WARDED_ADVANCE",
+      "HYBRID_WAR_CHANT"
+    ]
+  },
+  "invocationForecast": {
+    "id": "FORECAST_INV_07E32D486C9DB13F88",
+    "commandText": "Let the Aegis Hound Seal answer!",
+    "artifactId": "INVOCATION_ARTIFACT_AEGIS_HOUND_SEAL",
+    "sharedApCost": 8,
+    "combinedMpCost": 14,
+    "memberActions": [
+      {
+        "actorId": "REC_FIXTURE_GUARDIAN",
+        "predictedAction": "ACTIVATE_INVOCATION_ARTIFACT_AEGIS_HOUND_SEAL",
+        "personalMpCost": 14,
+        "playerDirectlySelectable": false
+      },
+      {
+        "actorId": "INVOCATION_ECHO_AEGIS_HOUND_ECHO",
+        "predictedAction": "INTERCEPTION",
+        "targetId": "REC_WOUNDED",
+        "personalMpCost": 0,
+        "playerDirectlySelectable": false
+      }
+    ],
+    "expectedEffect": "Intercept the most dangerous visible attack against a vulnerable ally.",
+    "forecastIntents": [
+      "GUARD",
+      "RESCUE",
+      "INVOCATION"
+    ],
+    "learningOpportunity": "RESONANCE_001 meaningful-use progress",
+    "playerSelectsCompleteForecast": true,
+    "echoActionDirectlySelectableInStandard": false,
+    "stateHash": "153838D04F078C26B54403132FA6A5F02C5C755B5B402139C9847B07E49BDA85"
+  },
+  "resonance": {
+    "meaningful": {
+      "gain": 60,
+      "value": 60,
+      "masteryRank": 0
+    },
+    "spam": {
+      "gain": 0,
+      "value": 0,
+      "masteryRank": 0
+    }
+  },
+  "sustainability": {
+    "good": {
+      "score": 125,
+      "tierId": "ABYSS_NEUTRAL",
+      "sameFloorStreak": 1,
+      "lastFloorNumber": 1,
+      "feedback": {
+        "scoreBefore": 0,
+        "signalsApplied": [
+          {
+            "signal": "PROTECTION",
+            "value": 45
+          },
+          {
+            "signal": "RESCUE",
+            "value": 55
+          },
+          {
+            "signal": "MAPPING",
+            "value": 25
+          }
+        ],
+        "scoreAfter": 125,
+        "tier": "ABYSS_NEUTRAL",
+        "xpMultiplierPermille": 1000,
+        "lootMultiplierPermille": 1000,
+        "recommendedCorrectiveAction": null
+      }
+    },
+    "badSequence": [
+      {
+        "score": -60,
+        "tierId": "ABYSS_NEUTRAL",
+        "sameFloorStreak": 1,
+        "lastFloorNumber": 1,
+        "feedback": {
+          "scoreBefore": 0,
+          "signalsApplied": [
+            {
+              "signal": "OVER_MINING",
+              "value": -60
+            }
+          ],
+          "scoreAfter": -60,
+          "tier": "ABYSS_NEUTRAL",
+          "xpMultiplierPermille": 1000,
+          "lootMultiplierPermille": 1000,
+          "recommendedCorrectiveAction": null
+        }
+      },
+      {
+        "score": -155,
+        "tierId": "ABYSS_WARNING",
+        "sameFloorStreak": 2,
+        "lastFloorNumber": 1,
+        "feedback": {
+          "scoreBefore": -60,
+          "signalsApplied": [
+            {
+              "signal": "OVER_MINING",
+              "value": -60
+            },
+            {
+              "signal": "SAME_FLOOR_REPEAT_ESCALATED",
+              "value": -35
+            }
+          ],
+          "scoreAfter": -155,
+          "tier": "ABYSS_WARNING",
+          "xpMultiplierPermille": 600,
+          "lootMultiplierPermille": 750,
+          "recommendedCorrectiveAction": "Complete rescue, mapping, teaching, or civic-use objectives on a different floor and file an honest report."
+        }
+      },
+      {
+        "score": -285,
+        "tierId": "ABYSS_WARNING",
+        "sameFloorStreak": 3,
+        "lastFloorNumber": 1,
+        "feedback": {
+          "scoreBefore": -155,
+          "signalsApplied": [
+            {
+              "signal": "OVER_MINING",
+              "value": -60
+            },
+            {
+              "signal": "SAME_FLOOR_REPEAT_ESCALATED",
+              "value": -70
+            }
+          ],
+          "scoreAfter": -285,
+          "tier": "ABYSS_WARNING",
+          "xpMultiplierPermille": 600,
+          "lootMultiplierPermille": 750,
+          "recommendedCorrectiveAction": "Complete rescue, mapping, teaching, or civic-use objectives on a different floor and file an honest report."
+        }
+      },
+      {
+        "score": -450,
+        "tierId": "ABYSS_WARNING",
+        "sameFloorStreak": 4,
+        "lastFloorNumber": 1,
+        "feedback": {
+          "scoreBefore": -285,
+          "signalsApplied": [
+            {
+              "signal": "OVER_MINING",
+              "value": -60
+            },
+            {
+              "signal": "SAME_FLOOR_REPEAT_ESCALATED",
+              "value": -105
+            }
+          ],
+          "scoreAfter": -450,
+          "tier": "ABYSS_WARNING",
+          "xpMultiplierPermille": 600,
+          "lootMultiplierPermille": 750,
+          "recommendedCorrectiveAction": "Complete rescue, mapping, teaching, or civic-use objectives on a different floor and file an honest report."
+        }
+      },
+      {
+        "score": -650,
+        "tierId": "ABYSS_HOSTILE_AUDIT",
+        "sameFloorStreak": 5,
+        "lastFloorNumber": 1,
+        "feedback": {
+          "scoreBefore": -450,
+          "signalsApplied": [
+            {
+              "signal": "OVER_MINING",
+              "value": -60
+            },
+            {
+              "signal": "SAME_FLOOR_REPEAT_ESCALATED",
+              "value": -140
+            }
+          ],
+          "scoreAfter": -650,
+          "tier": "ABYSS_HOSTILE_AUDIT",
+          "xpMultiplierPermille": 300,
+          "lootMultiplierPermille": 500,
+          "recommendedCorrectiveAction": "Complete rescue, mapping, teaching, or civic-use objectives on a different floor and file an honest report."
+        }
+      }
+    ]
+  },
+  "floor10Reward": {
+    "floorId": "ABYSS_FLOOR_010",
+    "firstClear": true,
+    "personalXp": 8400,
+    "guildTreasuryXp": 12000,
+    "materials": [
+      "MATERIAL_AEGIS_CORE",
+      "MATERIAL_GATE_GLASS"
+    ],
+    "equipment": {
+      "id": "ITEM_967EEC6915D740C3DEC60B22",
+      "definitionId": "EQUIP_OFFHAND_MEDIC_S_GUARD_TRAY",
+      "generationSeed": "2104B7B2F42D2D8B:4A2912E60B30AC09",
+      "contentVersion": "GOW_PASS04_0.9",
+      "displayName": "Iron Medic’s Guard Tray — Training-Safe",
+      "customName": null,
+      "customDescription": null,
+      "category": "SHIELD",
+      "qualityId": "QUALITY_RESONANT",
+      "materialId": "MATERIAL_IRON",
+      "affixIds": [
+        "AFFIX_TRAINING_SAFE",
+        "AFFIX_SALVAGE_FRIENDLY",
+        "AFFIX_DUST_SEALED"
+      ],
+      "socketCount": 2,
+      "installedRuneIds": [],
+      "condition": 84,
+      "reinforcementLevel": 0,
+      "locked": false,
+      "boundRecruitId": null,
+      "editedModifierIds": [],
+      "source": {
+        "campaignSeed": 60606,
+        "sourceSeed": "ABYSS:10:1",
+        "sourceType": "ABYSS_BOSS",
+        "difficulty": 5,
+        "reputation": 0,
+        "sustainability": 125,
+        "floorNumber": 10,
+        "objectiveCompleted": true,
+        "ordinarySecretDiscovered": false,
+        "forcedDefinitionId": null,
+        "contentVersion": "GOW_PASS04_0.9"
+      },
+      "evolutionPathId": null,
+      "history": {
+        "events": [
+          {
+            "eventId": "HIST_0001_82A957DE239B",
+            "sequence": 1,
+            "type": "WORLD_ORIGIN",
+            "sourceId": "ABYSS_BOSS",
+            "campaignDay": 0,
+            "payload": {
+              "campaignDay": 0,
+              "floorNumber": 10
+            },
+            "canonicalPayloadHash": "B42E402BF81D26A0199B434B3680759C0AF96D6E8AE7F0765E16C77887E56F8B"
+          }
+        ]
+      },
+      "visualTags": [
+        "VIS_OFFHAND",
+        "VIS_MATERIAL_IRON",
+        "VIS_QUALITY_RESONANT"
+      ]
+    },
+    "invocationArtifactId": "INVOCATION_ARTIFACT_CARBUNCLE_PRACTICE_PRISM",
+    "chosenAegisEligibility": true,
+    "protectionMultiplierPermille": 1200,
+    "sustainabilityTier": "ABYSS_NEUTRAL",
+    "summonClues": [
+      "MATERIAL_SUMMON_CLUE_MIRROR"
+    ],
+    "greatSummonGranted": false
+  },
+  "editedRelic": {
+    "id": "ITEM_2BE279A50320ED34A95D756B",
+    "definitionId": "EQUIP_TOOL_SURVEY_PRISM",
+    "generationSeed": "2FF68079362A9D40:AC74F3AA5AB72EC7",
+    "contentVersion": "GOW_PASS04_0.9",
+    "displayName": "Survey Prism — Edited Relic Ω",
+    "customName": null,
+    "customDescription": null,
+    "category": "TOOL_RELIC",
+    "qualityId": "QUALITY_EDITED_RELIC",
+    "materialId": "MATERIAL_IRON_STEP_PLATE",
+    "affixIds": [
+      "AFFIX_AP_RETURN",
+      "AFFIX_SURE_GRIP"
+    ],
+    "socketCount": 1,
+    "installedRuneIds": [],
+    "condition": 93,
+    "reinforcementLevel": 0,
+    "locked": false,
+    "boundRecruitId": null,
+    "editedModifierIds": [
+      "EDITED_MOD_BOSS_MARGIN",
+      "EDITED_MOD_ECHO_EDITOR"
+    ],
+    "source": {
+      "campaignSeed": 50505,
+      "sourceSeed": "MARGIN:FLOOR_MARGIN_FIXTURE:1",
+      "sourceType": "ORDINARY_SECRET",
+      "difficulty": 1,
+      "reputation": 0,
+      "sustainability": 0,
+      "floorNumber": null,
+      "objectiveCompleted": false,
+      "ordinarySecretDiscovered": true,
+      "forcedDefinitionId": null,
+      "contentVersion": "GOW_PASS04_0.9"
+    },
+    "evolutionPathId": null,
+    "history": {
+      "events": [
+        {
+          "eventId": "HIST_0001_DE2137C10969",
+          "sequence": 1,
+          "type": "WORLD_ORIGIN",
+          "sourceId": "ORDINARY_SECRET",
+          "campaignDay": 0,
+          "payload": {
+            "campaignDay": 0,
+            "floorNumber": null
+          },
+          "canonicalPayloadHash": "717E63DC577A4562F3236143F2DEB4AFBF38525F5C8029005B5C4C4DE413D61B"
+        },
+        {
+          "eventId": "HIST_0002_C7F43F239A55",
+          "sequence": 2,
+          "type": "MARGIN_EDIT",
+          "sourceId": "THE_MARGIN",
+          "campaignDay": 1,
+          "payload": {
+            "modifiers": [
+              "EDITED_MOD_BOSS_MARGIN",
+              "EDITED_MOD_ECHO_EDITOR"
+            ],
+            "campaignDay": 1
+          },
+          "canonicalPayloadHash": "1D305048872E85053CA9F252EBD6B77A50D88F74BCCA064C67E3CDF8242CB206"
+        }
+      ]
+    },
+    "visualTags": [
+      "VIS_TOOL_RELIC",
+      "VIS_MATERIAL_IRON_STEP_PLATE",
+      "VIS_QUALITY_REINFORCED"
+    ]
+  },
+  "redactorEdit": {
+    "item": {
+      "id": "ITEM_2BE279A50320ED34A95D756B",
+      "definitionId": "EQUIP_TOOL_SURVEY_PRISM",
+      "generationSeed": "2FF68079362A9D40:AC74F3AA5AB72EC7",
+      "contentVersion": "GOW_PASS04_0.9",
+      "displayName": "Survey Prism — Edited Relic Ω",
+      "customName": "The Author's First Margin Blade",
+      "customDescription": null,
+      "category": "TOOL_RELIC",
+      "qualityId": "QUALITY_EDITED_RELIC",
+      "materialId": "MATERIAL_IRON_STEP_PLATE",
+      "affixIds": [
+        "AFFIX_AP_RETURN",
+        "AFFIX_SURE_GRIP"
+      ],
+      "socketCount": 1,
+      "installedRuneIds": [],
+      "condition": 93,
+      "reinforcementLevel": 0,
+      "locked": false,
+      "boundRecruitId": null,
+      "editedModifierIds": [
+        "EDITED_MOD_BOSS_MARGIN",
+        "EDITED_MOD_ECHO_EDITOR"
+      ],
+      "source": {
+        "campaignSeed": 50505,
+        "sourceSeed": "MARGIN:FLOOR_MARGIN_FIXTURE:1",
+        "sourceType": "ORDINARY_SECRET",
+        "difficulty": 1,
+        "reputation": 0,
+        "sustainability": 0,
+        "floorNumber": null,
+        "objectiveCompleted": false,
+        "ordinarySecretDiscovered": true,
+        "forcedDefinitionId": null,
+        "contentVersion": "GOW_PASS04_0.9"
+      },
+      "evolutionPathId": null,
+      "history": {
+        "events": [
+          {
+            "eventId": "HIST_0001_DE2137C10969",
+            "sequence": 1,
+            "type": "WORLD_ORIGIN",
+            "sourceId": "ORDINARY_SECRET",
+            "campaignDay": 0,
+            "payload": {
+              "campaignDay": 0,
+              "floorNumber": null
+            },
+            "canonicalPayloadHash": "717E63DC577A4562F3236143F2DEB4AFBF38525F5C8029005B5C4C4DE413D61B"
+          },
+          {
+            "eventId": "HIST_0002_C7F43F239A55",
+            "sequence": 2,
+            "type": "MARGIN_EDIT",
+            "sourceId": "THE_MARGIN",
+            "campaignDay": 1,
+            "payload": {
+              "modifiers": [
+                "EDITED_MOD_BOSS_MARGIN",
+                "EDITED_MOD_ECHO_EDITOR"
+              ],
+              "campaignDay": 1
+            },
+            "canonicalPayloadHash": "1D305048872E85053CA9F252EBD6B77A50D88F74BCCA064C67E3CDF8242CB206"
+          },
+          {
+            "eventId": "HIST_0003_25C0B1C9C154",
+            "sequence": 3,
+            "type": "MARGIN_EDIT",
+            "sourceId": "REDACTOR_RENAME",
+            "campaignDay": 0,
+            "payload": {
+              "modifierId": null,
+              "cost": 0
+            },
+            "canonicalPayloadHash": "B2ED50BA3D34D55DC8B633D35C231FF405DAA2694D82ED40BDCFBBF017279701"
+          }
+        ]
+      },
+      "visualTags": [
+        "VIS_TOOL_RELIC",
+        "VIS_MATERIAL_IRON_STEP_PLATE",
+        "VIS_QUALITY_REINFORCED"
+      ]
+    },
+    "editShardBalance": 10,
+    "operationId": "REDACTOR_RENAME",
+    "authorized": true,
+    "safetyCapsRemoved": false
+  },
+  "publicCodeRedactor": false,
+  "greatSummonReview": {
+    "greatSummonId": "GREAT_SUMMON_CARBUNCLE",
+    "accepted": true,
+    "requirements": {
+      "publicNeed": true,
+      "moralTrial": true,
+      "compatibleNegotiator": true,
+      "xpOffering": true,
+      "abyssRecognition": true,
+      "ownershipDemandAbsent": true
+    },
+    "inventoryItemCreated": false,
+    "duplicateAllowed": false,
+    "relationship": "COVENANT_PARTNER"
+  }
+}

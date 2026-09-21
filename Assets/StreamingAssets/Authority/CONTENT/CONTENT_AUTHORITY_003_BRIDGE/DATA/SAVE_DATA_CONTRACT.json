@@ -1,0 +1,165 @@
+{
+  "contentVersion": "GOW_CONTENT_AUTHORITY_BRIDGE_003",
+  "saveVersion": 3,
+  "migrationBase": "Existing ZIP 21 save authority remains canonical; these are additive fields.",
+  "records": [
+    {
+      "recordType": "CharacterProgressionState",
+      "key": "stableRecruitId",
+      "fields": [
+        {
+          "name": "characterLevel",
+          "type": "int",
+          "default": 1
+        },
+        {
+          "name": "characterGrowthXp",
+          "type": "long",
+          "default": 0
+        },
+        {
+          "name": "fixedWeaponFamilyId",
+          "type": "string",
+          "defaultSource": "CharacterProgressionManifest"
+        },
+        {
+          "name": "currentClassId",
+          "type": "string",
+          "defaultSource": "SignatureRecruit.startingClassId"
+        },
+        {
+          "name": "unlockedClassRouteIds",
+          "type": "string[]",
+          "default": []
+        },
+        {
+          "name": "treeStates",
+          "type": "TreeProgressState[]",
+          "default": []
+        },
+        {
+          "name": "behaviorCounters",
+          "type": "map<string,long>",
+          "default": {}
+        }
+      ]
+    },
+    {
+      "recordType": "TreeProgressState",
+      "key": "treeId",
+      "fields": [
+        {
+          "name": "discoveredNodeIds",
+          "type": "string[]",
+          "default": []
+        },
+        {
+          "name": "discoveryPointsByNodeId",
+          "type": "map<string,int>",
+          "default": {}
+        },
+        {
+          "name": "masteryByNodeId",
+          "type": "map<string,MasteryState>",
+          "default": {}
+        },
+        {
+          "name": "meaningfulUseCounter",
+          "type": "long",
+          "default": 0
+        }
+      ]
+    },
+    {
+      "recordType": "InventoryState",
+      "key": "guildSaveId",
+      "fields": [
+        {
+          "name": "itemInstances",
+          "type": "ItemInstance[]",
+          "default": []
+        },
+        {
+          "name": "equippedItemInstanceIdsByCharacterAndSlot",
+          "type": "map<string,string>",
+          "default": {}
+        },
+        {
+          "name": "lockedItemInstanceIds",
+          "type": "string[]",
+          "default": []
+        },
+        {
+          "name": "lockedSlotsByCharacter",
+          "type": "map<string,string[]>",
+          "default": {}
+        },
+        {
+          "name": "autoEquipEnabledByCharacter",
+          "type": "map<string,bool>",
+          "default": {}
+        }
+      ]
+    },
+    {
+      "recordType": "CommittedRewardState",
+      "key": "rewardCommitId",
+      "fields": [
+        {
+          "name": "sourceOperationId",
+          "type": "string"
+        },
+        {
+          "name": "authoritativeSeed",
+          "type": "ulong"
+        },
+        {
+          "name": "resultHash",
+          "type": "string"
+        },
+        {
+          "name": "personalXpAwards",
+          "type": "map<string,long>"
+        },
+        {
+          "name": "guildTreasuryXp",
+          "type": "long"
+        },
+        {
+          "name": "hallEnhancementXp",
+          "type": "long"
+        },
+        {
+          "name": "itemInstanceIds",
+          "type": "string[]"
+        },
+        {
+          "name": "materialAwards",
+          "type": "map<string,int>"
+        },
+        {
+          "name": "claimed",
+          "type": "bool",
+          "default": false
+        }
+      ]
+    }
+  ],
+  "migrationRules": [
+    "Never rewrite or regenerate existing stable IDs.",
+    "Missing additive fields use defaults and are serialized on the next successful save.",
+    "Opening ten recruits derive fixed family and supplemental tree access from Bridge 003; their original identity records remain unchanged.",
+    "Reward commits are idempotent: the same rewardCommitId cannot grant twice.",
+    "Reopening UI loads the committed record; it never reruns loot generation.",
+    "Changing equipment recalculates legal Arts but never deletes learned mastery.",
+    "Kael is excluded from CharacterProgressionState, Inventory equipment, and ordinary class routes."
+  ],
+  "testRequirements": [
+    "Round-trip all additive fields.",
+    "Load a pre-Bridge save without data loss.",
+    "Prevent duplicate reward claims.",
+    "Preserve item and slot locks.",
+    "Preserve mastery when equipment changes.",
+    "Reject incompatible weapon family equipment for fixed-family recruits unless a future explicit exception authority exists."
+  ]
+}

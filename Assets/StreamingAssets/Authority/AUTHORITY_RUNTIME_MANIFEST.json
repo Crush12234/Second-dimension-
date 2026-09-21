@@ -1,0 +1,497 @@
+{
+  "authorityVersion": "1.0",
+  "milestone": "M2",
+  "purpose": "M2 deterministic cinematic Union Forecast combat runtime authority",
+  "fileCount": 119,
+  "m1ExplicitInputs": [
+    "CONTENT/RECRUITMENT_OFFICE_PROGRESSION.json",
+    "CONTENT/OPENING_ACTION_CATALOG.json",
+    "CONTENT/PASS_08/ACCESSIBILITY_SETTINGS.json",
+    "DATA/PASS10/GAME_MODE_FINAL_TUNING.json",
+    "DATA/PASS10/CUSTOM_MODE_RANGES.json",
+    "PRE_CODEX_FOUNDATION/TESTS/opening_recruitment_golden_vectors.json"
+  ],
+  "m2ExplicitInputs": [
+    "CONTENT/PASS_02/LEARN_BY_USE_SPEC.json",
+    "CONTENT/PASS_08/BATTLE_PRESENTATION_DEFINITION.json",
+    "CONTENT/PASS_08/RESULTS_PRESENTATION.json"
+  ],
+  "files": [
+    {
+      "path": "CONTENT/EARLY_UNION_FORMATIONS.json",
+      "sha256": "fa57bd42d8fd11183c2e147c38ca2aefa1d2ac58ee75c1713dee530216f3c48c"
+    },
+    {
+      "path": "CONTENT/FORECAST_INTENT_CATALOG.json",
+      "sha256": "a3ce2b52ace7f500d9813d5472836036c4140e01c3b1647e6b610bf604f963de"
+    },
+    {
+      "path": "CONTENT/OPENING_ACTION_CATALOG.json",
+      "sha256": "d99f9f35a7f8e123f9e207b3fda572ed4ce1b2647d06d51ff5e73e0247f4bb71"
+    },
+    {
+      "path": "CONTENT/OPENING_PROCEDURAL_TABLES.json",
+      "sha256": "7a94f8b9efe6c10d21f37ca8bec66b6e4e8941238ed2e42d4395e2fbd989e127"
+    },
+    {
+      "path": "CONTENT/OPENING_SIGNATURE_RECRUITS.json",
+      "sha256": "f809431e575c268c50072a270910b7a31688527c7bf5065ca5369af35b5e1267"
+    },
+    {
+      "path": "CONTENT/PASS_02/ADVANCED_CLASSES.json",
+      "sha256": "a3019717c133af466fe0debefe969b348a26d96c9132221815cfc3bded56bb9b"
+    },
+    {
+      "path": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "sha256": "4289a52a284c9bbcfa77e1b041a051d7511addd30e94f2416bde900a8e1372ba"
+    },
+    {
+      "path": "CONTENT/PASS_02/CLASS_DEFINITIONS.json",
+      "sha256": "1f59bb2edd0f8240628608ac4d53a04d2d894f35cc35890697018cf96691a1a0"
+    },
+    {
+      "path": "CONTENT/PASS_02/FORMATIONS.json",
+      "sha256": "b0d91cb6285db539e768e7d9733f71c63e2eec7fba1a998a52063faf68d891fb"
+    },
+    {
+      "path": "CONTENT/PASS_02/LEARN_BY_USE_SPEC.json",
+      "sha256": "b745f6290f21d6efc7fe6fb4821dcfade8bf1c0a7f10231d33a4d441a15f5ad5"
+    },
+    {
+      "path": "CONTENT/PASS_02/LINK_ARTS.json",
+      "sha256": "868a22053c8394be0db697aab5c2b097f423ea37d9d386c85594b13f767249c5"
+    },
+    {
+      "path": "CONTENT/PASS_02/PASS02_FIXTURES.json",
+      "sha256": "10e0faa3a52faaa749f6b21064573daa3c797cbf1bf189aed1d4472ccdb9576a"
+    },
+    {
+      "path": "CONTENT/PASS_02/UNION_COMMANDS.json",
+      "sha256": "f856e85cfba4e0bb9a3354790370f2ba61632fad488e8d49b1aef3bebcca9c43"
+    },
+    {
+      "path": "CONTENT/PASS_02/UNION_DISCIPLINES.json",
+      "sha256": "5b3ee03484e919be51de483eb22a70dc30412faef3fc4cb65d594c0d4fe9b461"
+    },
+    {
+      "path": "CONTENT/PASS_03/BOARD_PROFILES.json",
+      "sha256": "60b9ff6614e816ce8c484ff1fc233f8cec085f90d2ff47c692991329f23d8374"
+    },
+    {
+      "path": "CONTENT/PASS_03/BOSS_OPERATION_001.json",
+      "sha256": "08aa7f8b095426858438b0aff8386ef104b6705d5b867b46ff591f13530f5f55"
+    },
+    {
+      "path": "CONTENT/PASS_03/CONTRACT_DEFINITIONS.json",
+      "sha256": "b17f36da8279402a143f68aeded30b71ab4656ae37e45a302868d0df463afcac"
+    },
+    {
+      "path": "CONTENT/PASS_03/CONTRACT_EXAMPLES_30.json",
+      "sha256": "fcdbd0892ea7e546f7d2347714a085c472b5f9e356b98195f68bf71fac9ef07a"
+    },
+    {
+      "path": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "sha256": "4f5ab6d1dfd4c9a6cc1cac309767fe685b19a6030c3c878bc990aed08a2d244c"
+    },
+    {
+      "path": "CONTENT/PASS_03/ENEMY_DEFINITIONS.json",
+      "sha256": "a634df4df48cdcf524003df807b6d2237e4bf018d722d03fcf5356cdac420b85"
+    },
+    {
+      "path": "CONTENT/PASS_03/ENEMY_DOCTRINES.json",
+      "sha256": "de120ccbd75d9259e8ce43b63905cddfa963e0d2a5aaa110520b54f4d4f2a0c5"
+    },
+    {
+      "path": "CONTENT/PASS_03/ENEMY_UNIONS.json",
+      "sha256": "42ffa61eba113b1e7fae65b6850bf6ee0ffd40d16260d55380ddc17b5a40f189"
+    },
+    {
+      "path": "CONTENT/PASS_03/EVENT_CARDS.json",
+      "sha256": "5e490ebcc705654dee26c03013882a7b053b12105798e73b22a15c9d24ef23dd"
+    },
+    {
+      "path": "CONTENT/PASS_03/EVENT_CHAINS.json",
+      "sha256": "eccf453dceccccabbaa7d9153567d77c8b04af157b5d2bff79bafc8d032cc436"
+    },
+    {
+      "path": "CONTENT/PASS_03/MARGIN_INTEGRATION.json",
+      "sha256": "a74b205b5e311e20ab8e3afb803dd2938331c66ecf92329f6482cc8ae34a9d35"
+    },
+    {
+      "path": "CONTENT/PASS_03/ORDINARY_SECRETS.json",
+      "sha256": "4ae60929c2e2e6e90559a11dd2b5ecd4b5d29a8a9cb788fc900f9de393cd8dca"
+    },
+    {
+      "path": "CONTENT/PASS_03/TURNING_POINTS.json",
+      "sha256": "988803c1b26743d5473b3d159d9ca86ca3064ab05401599fa441c646915bb31e"
+    },
+    {
+      "path": "CONTENT/PASS_03/ZONE_SKYHOME_OUTER_GATEWORKS.json",
+      "sha256": "3d2dcf22399ee02d28855c90e45c2564517df4ac080103e4d63ef3b133fb84be"
+    },
+    {
+      "path": "CONTENT/PASS_04/ABYSS_SUSTAINABILITY.json",
+      "sha256": "8c594553f5f71174c44653b5f1daba3fda14b6b094c054cc01e9503932af0da3"
+    },
+    {
+      "path": "CONTENT/PASS_04/AFFIX_DEFINITIONS.json",
+      "sha256": "b20b10f9c491da9832394f950dd58ee54262b9795fb9c40d7868779e26435fa3"
+    },
+    {
+      "path": "CONTENT/PASS_04/CHOSEN_EQUIPMENT.json",
+      "sha256": "b28778aee9966123bf55efa7a1b86e7ad326f2e4cc3b194ad2f32b4eb9e851af"
+    },
+    {
+      "path": "CONTENT/PASS_04/CRAFTING_AND_GUILD_FORGE.json",
+      "sha256": "f5287b39cda9fdb799dcc0512780a2f35db245fce372de0a73a826c529ce81eb"
+    },
+    {
+      "path": "CONTENT/PASS_04/DETERMINISTIC_FIXTURES.json",
+      "sha256": "61eadd2ff7f6fce893d550a657c892593b4b89b343d23952533fa43f28dc5492"
+    },
+    {
+      "path": "CONTENT/PASS_04/EDITED_RELIC_MODIFIERS.json",
+      "sha256": "4f56d7f28ee0ebd418d935a22501433b2d6ff8a71e0bc4c4ae3c8e1bb1a14762"
+    },
+    {
+      "path": "CONTENT/PASS_04/EQUIPMENT_EVOLUTIONS.json",
+      "sha256": "a8fd74097c868ca3b9c84b9e54b8c17bcd8aba091beeef090259f49dc7cbda6e"
+    },
+    {
+      "path": "CONTENT/PASS_04/EQUIPMENT_MODEL.json",
+      "sha256": "00103243f00b25d9d1dca295ac74c585f1f37917b385f76331b1f8fc7217bcc4"
+    },
+    {
+      "path": "CONTENT/PASS_04/GREAT_SUMMON_COVENANTS.json",
+      "sha256": "26e2a39de713a42ce39fea9accd2873d8c3b5a4ffaf58654d23c4cbce9dd27e1"
+    },
+    {
+      "path": "CONTENT/PASS_04/INVOCATION_ARTIFACTS.json",
+      "sha256": "31283ce550bd10c7b111eaed922a16786f85b07dfc56e4e19c1db6aff7c53b95"
+    },
+    {
+      "path": "CONTENT/PASS_04/ITEM_QUALITY_MODEL.json",
+      "sha256": "48d4d804b6af4a9d66ea2fc3bbeddb97eff91e42e07ff5c13aaa985fa8caa35c"
+    },
+    {
+      "path": "CONTENT/PASS_04/MATERIAL_DEFINITIONS.json",
+      "sha256": "dd696af9863e096cb93fcd355852dc607f45a0fadd0a837c38a0365c4684e5f4"
+    },
+    {
+      "path": "CONTENT/PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+      "sha256": "fc402e119cbfe961fd5b17441efeb4413834335f308cd71de76dc21595860205"
+    },
+    {
+      "path": "CONTENT/PASS_04/PASS04_FIXTURES.json",
+      "sha256": "07f411f7ad6fdaa2a72b4d88a89dc25a7e02d549d06a3eed0709966c1a57a6f9"
+    },
+    {
+      "path": "CONTENT/PASS_04/REDACTOR_FORGE.json",
+      "sha256": "540f8f91fd72120f84b35a56781d776836e9caab8fb73476e335c0102e1aaf27"
+    },
+    {
+      "path": "CONTENT/PASS_04/WEAPON_FAMILIES.json",
+      "sha256": "e380599dfb68b3f81f77ebfeeca9118601d611e6bb68dc20a6ee5d264d33e105"
+    },
+    {
+      "path": "CONTENT/PASS_05/CONSTRUCTION_PROJECTS.json",
+      "sha256": "2ead92916d0a702b6f268f7e9b703a026361712c1824b944b2133152301e5a7c"
+    },
+    {
+      "path": "CONTENT/PASS_05/DETERMINISTIC_FIXTURES.json",
+      "sha256": "9de12d51dddd6e196fbed360e4f91302bd0c64987fe13499935c13dd86f0680b"
+    },
+    {
+      "path": "CONTENT/PASS_05/DUTY_ASSIGNMENTS.json",
+      "sha256": "6ed96efed0076fa95c5fe09789cde433e58c1a25ab9284683ff631b129d133ba"
+    },
+    {
+      "path": "CONTENT/PASS_05/FACILITY_DEFINITIONS.json",
+      "sha256": "028bb781db5e1be87493e48ae131cee3aac72d8bc01565bbe039a1dfbacbb07e"
+    },
+    {
+      "path": "CONTENT/PASS_05/GUILD_HALL_EVENTS.json",
+      "sha256": "4113282a2d901f48b3061fda4de079569d9372b816891c2e80908be05b9e82e7"
+    },
+    {
+      "path": "CONTENT/PASS_05/GUILD_HALL_STAGES.json",
+      "sha256": "7aa4a6a10bcc5b2d36aee63bbb9d07887c176a1fa7120b5e39c33849a134a8ae"
+    },
+    {
+      "path": "CONTENT/PASS_05/LINKED_FRONT_OPERATIONS.json",
+      "sha256": "012bdf371a157b66d2d186f416b75ba0f23c0062ee2557999945d79970297d66"
+    },
+    {
+      "path": "CONTENT/PASS_05/REPUTATION_RANK_LICENSING.json",
+      "sha256": "bf46e2b61f7c18be43ede6758a2ad85bcdd92dd7f1516d8134540c575e9e0c60"
+    },
+    {
+      "path": "CONTENT/PASS_05/STAFF_POSITIONS.json",
+      "sha256": "a659b8d847663ea03a964f92f35830f8c44401c2079e83f5b9ed495138d155ee"
+    },
+    {
+      "path": "CONTENT/PASS_06/CHRONICLE_PRESENTATION_TEMPLATES.json",
+      "sha256": "ee7e20151f04d642fa4bc52a5e20fecace075c19988ec2441292c1efcf55d728"
+    },
+    {
+      "path": "CONTENT/PASS_06/COMPATIBILITY_RULES.json",
+      "sha256": "e57b5bbd8c9ae7d8200e7a77d5eaf35ce7b2459b14fdba40e5e8c418e9c3115d"
+    },
+    {
+      "path": "CONTENT/PASS_06/DETERMINISTIC_FIXTURES.json",
+      "sha256": "fba872224a0873a039ec7b0a86cfe705d17e9e2886ef1ecf401557d3216811bd"
+    },
+    {
+      "path": "CONTENT/PASS_06/EMERGENT_LEGENDS.json",
+      "sha256": "598146c5f322f781c8a940b8ccc79a67d0ab4a75568b081fd0ddb976c0214f93"
+    },
+    {
+      "path": "CONTENT/PASS_06/GUILD_HALL_SOCIAL_EVENTS.json",
+      "sha256": "e03af46c0dd672131c17445d1e8c7781582cb9598b941e89078721f85db2e007"
+    },
+    {
+      "path": "CONTENT/PASS_06/LEGEND_ARCHETYPES.json",
+      "sha256": "b91fc3be62400eb1cb3a080f515d3dbc428081b3fe13764e24b83263c9bbca56"
+    },
+    {
+      "path": "CONTENT/PASS_06/MENTORSHIP_AND_TEACHING.json",
+      "sha256": "03d7cc567406a9ec6a128b26db454e3aac6536e7e40e7dd1cf44d2db96de388b"
+    },
+    {
+      "path": "CONTENT/PASS_06/MENTORSHIP_LESSONS.json",
+      "sha256": "c24beb4843baf340f7b26c18fd55b4c015a626b4e6acc05203d26dd501947b42"
+    },
+    {
+      "path": "CONTENT/PASS_06/OPENING_SIGNATURE_PERSONAL_QUESTS.json",
+      "sha256": "7c288e5dc7f819eadb29f5af07a20507f33c9516b1dbd0aea3bf0dcf5b9ae48f"
+    },
+    {
+      "path": "CONTENT/PASS_06/PROCEDURAL_PERSONAL_QUEST_TEMPLATES.json",
+      "sha256": "7c4746b007dd5734fcbb9594321351423533618cec6bc745266f43aefdb41a1c"
+    },
+    {
+      "path": "CONTENT/PASS_06/RELATIONSHIP_DIMENSIONS.json",
+      "sha256": "f19314e5723e65a68c21013a9bed988bace026bf07d3d1d637c3979d5889e4e7"
+    },
+    {
+      "path": "CONTENT/PASS_06/RELATIONSHIP_EVENT_CHAINS.json",
+      "sha256": "be0f4bfe03e10b1367fb613a57391b1a48fe74ec103841c703b81a7804a3913a"
+    },
+    {
+      "path": "CONTENT/PASS_06/RELATIONSHIP_MEMORY_DEFINITIONS.json",
+      "sha256": "5e620ef91c62abeee85946c359a200e1a68b0c8b4502a917101660eb8a12dadc"
+    },
+    {
+      "path": "CONTENT/PASS_06/SIGNATURE_TECHNIQUE_TEMPLATES.json",
+      "sha256": "3cffb9b2d6a1d6d7136c612d68747d314465b89d638abef5238d3d2d6c6024d3"
+    },
+    {
+      "path": "CONTENT/PASS_06/UNION_IDENTITY_AUTHORITY.json",
+      "sha256": "ee12d2bbaa8686e195c242e16291fbd2e22796b16a0c1e2a67a249704257825d"
+    },
+    {
+      "path": "CONTENT/PASS_07/ABYSS_FLOOR_PACKAGES.json",
+      "sha256": "6ab235f53aa39ce8a3559e5d8ccbab84b382011e463ca635596dbad05d647d66"
+    },
+    {
+      "path": "CONTENT/PASS_07/ABYSS_LICENSE_REQUIREMENTS.json",
+      "sha256": "3508a067d057dc06ca9b36e5efe7bf5848de252a227437af929ef6997eb54b77"
+    },
+    {
+      "path": "CONTENT/PASS_07/ABYSS_TAX_COLLECTOR.json",
+      "sha256": "a27d5071b8f5b3f3b31fe11fb5fbc8e002bc9481d892a9db4d49e9308c68bc7e"
+    },
+    {
+      "path": "CONTENT/PASS_07/CITY_ABOVE_CONSEQUENCES.json",
+      "sha256": "7d97e807a032510f6956aeb0ebc14c1387f6d73a08015b35c1ce675f8c4ff77e"
+    },
+    {
+      "path": "CONTENT/PASS_07/CIVIC_TRIALS.json",
+      "sha256": "1ebaee02e79e184abdaff076cacd26390488353c5247357d9388f0474e2b70c7"
+    },
+    {
+      "path": "CONTENT/PASS_07/DETERMINISTIC_FIXTURES_PASS07.json",
+      "sha256": "82e7b466ada404b32765c39c5149000aa70e65cf6108333e876b163d878d0d7f"
+    },
+    {
+      "path": "CONTENT/PASS_07/FLOOR_BOARD_GRAMMARS.json",
+      "sha256": "62921fceecb6aaab7bc3d8691f80c675b640373b952504f3df3c8ab208e5755a"
+    },
+    {
+      "path": "CONTENT/PASS_07/FLOOR_BOSS_OPERATIONS.json",
+      "sha256": "8ba05c6534748a5a421411f7e49e846110e9b7b768c1a175b14b7ccb813983e9"
+    },
+    {
+      "path": "CONTENT/PASS_07/FLOOR_ENEMY_DOCTRINES.json",
+      "sha256": "e3012ed84bc76f756ee5f173e26d412cc37107c5bcdde26f89390f3c39dea06d"
+    },
+    {
+      "path": "CONTENT/PASS_07/FLOOR_ENEMY_FAMILIES.json",
+      "sha256": "bf8fe9abb4ad97b12e3395c65bfdc194e0ddbcf33be75211920253e901046c9f"
+    },
+    {
+      "path": "CONTENT/PASS_07/FLOOR_ENEMY_UNIONS.json",
+      "sha256": "8c2f7a2614eb1818ee8b874ad7a3659d96c5bc7dfb1bd8760d90274611243e92"
+    },
+    {
+      "path": "CONTENT/PASS_07/FLOOR_EVENTS.json",
+      "sha256": "62c583ffe1d9c8989fffb21199d2b0ed94fde6cb77e58782a9dd3053b7d7b896"
+    },
+    {
+      "path": "CONTENT/PASS_07/FLOOR_EVENT_CHAINS.json",
+      "sha256": "b3693149f64f6b6fedefe7f24ad52086abb177fd9886488e775bf4e484906ac0"
+    },
+    {
+      "path": "CONTENT/PASS_07/FLOOR_ORDINARY_SECRETS.json",
+      "sha256": "a39e81e3c5f5185db7d06f3440aba9a02b91ce39c3ef7fe2ac12737d5e2ec9cb"
+    },
+    {
+      "path": "CONTENT/PASS_07/FLOOR_TURNING_POINTS.json",
+      "sha256": "63438b71ba058e82149d5467e47062bcacb0e69580d93d2ed19e29d7cfbd808e"
+    },
+    {
+      "path": "CONTENT/PASS_07/SAFE_ZONES_AND_EMERGENCY_EXITS.json",
+      "sha256": "f19b301f1e0168853a5c606e6ca0ffca9219841122dc28574b5cf13f723901ed"
+    },
+    {
+      "path": "CONTENT/PASS_07/SUMMON_CLUES.json",
+      "sha256": "d08aac6896b19acc5ccdbbc9cd227d3086fee15ee232fe8d8bdfa4be5822351d"
+    },
+    {
+      "path": "CONTENT/PASS_08/ACCESSIBILITY_SETTINGS.json",
+      "sha256": "bed4b7048d23bd5f8152fa1f929cae6924c589952eb8f7a793dc46e6d4306985"
+    },
+    {
+      "path": "CONTENT/PASS_08/ANCHOR_VISUAL_BRIEFS.json",
+      "sha256": "05925bfece16bf21952c50d81ebcb3eb59af31ea84d16a0a702e3376295c76be"
+    },
+    {
+      "path": "CONTENT/PASS_08/ANIMATION_SETS.json",
+      "sha256": "a953299a0f988cd026ca7be449672a8c981a591a4c83460debecd86afc0cdc33"
+    },
+    {
+      "path": "CONTENT/PASS_08/ASSET_MANIFEST.json",
+      "sha256": "c3a17fbd87699f98a8dfc1ea478864eecec30ee5886b7d5a759c583ed960a155"
+    },
+    {
+      "path": "CONTENT/PASS_08/AUDIO_CUE_DEFINITIONS.json",
+      "sha256": "a546467dbaad614e0679511280efde62a3e85216ad3714f5fb80d2cddd7aac10"
+    },
+    {
+      "path": "CONTENT/PASS_08/BATTLE_PRESENTATION_DEFINITION.json",
+      "sha256": "749f34580e29fd5e8e079f5cb7fc75482850f47bc56b969219379e0646f8cfba"
+    },
+    {
+      "path": "CONTENT/PASS_08/GREAT_SUMMON_VISUAL_BRIEFS.json",
+      "sha256": "741af8b38727cf5df9302fbbb860f38420c2f058c3eebc2c0b920b8edd406553"
+    },
+    {
+      "path": "CONTENT/PASS_08/MODULAR_PORTRAIT_DEFINITION.json",
+      "sha256": "135f4c9a2cbe53ebf07fc34ed2e3b13d0c7923f19ca6274578f6107832ddf1ed"
+    },
+    {
+      "path": "CONTENT/PASS_08/MUSIC_DEFINITIONS.json",
+      "sha256": "aaee38c538e761d7c34cba63132b3db79ee00c9acfd319af195b6b72eaecf71c"
+    },
+    {
+      "path": "CONTENT/PASS_08/RESULTS_PRESENTATION.json",
+      "sha256": "aa7114ce40a03f96c657d5d34fabf27509a023f1239a41989cc5d3a012b4ac6e"
+    },
+    {
+      "path": "CONTENT/PASS_08/TARGET_DEVICE_AND_ORIENTATION.json",
+      "sha256": "53c98328afd4d3d4e60f3ac3a8cd4c2259c957eda92c05e176c27929569a8d7a"
+    },
+    {
+      "path": "CONTENT/PASS_08/UI_INTERACTIONS.json",
+      "sha256": "d60043a38bead18d97dca4acdc25514266d21a83b1464e17cfee27004e6325fe"
+    },
+    {
+      "path": "CONTENT/PASS_08/UI_PANEL_DEFINITIONS.json",
+      "sha256": "edc433c3ca52227775946981ea93064f8cf549524a1cc7acad129de55ed745b3"
+    },
+    {
+      "path": "CONTENT/PASS_08/UI_SCREEN_DEFINITIONS.json",
+      "sha256": "7f34c5b29636b426f5a28eba9ffae14920711dcda7c9186137f3f4555e122d8a"
+    },
+    {
+      "path": "CONTENT/PASS_08/VFX_DEFINITIONS.json",
+      "sha256": "4484fedd295733044a153687e463dec095555a98e23384f91d753ef4add63174"
+    },
+    {
+      "path": "CONTENT/PASS_08/VISUAL_STYLE_DEFINITION.json",
+      "sha256": "f08eeeb3c3c0209da68b51ed3ed60c6c47260959cb3f49275a95c01a0890f50e"
+    },
+    {
+      "path": "CONTENT/RECRUITMENT_OFFICE_PROGRESSION.json",
+      "sha256": "e9b0051403496ba261d1f55846ecdb13318fb0d1eaa31d4a0a6c0c2c127a9567"
+    },
+    {
+      "path": "CONTENT/SUMMONING_AND_ABYSS_SYSTEM_LOCK_v0_8_1.json",
+      "sha256": "8ea2361b709f38ca4f5591302fed5fe9fe7b4b6e5575cfadfc4d6028d61e282b"
+    },
+    {
+      "path": "DATA/PASS09/SAVE_CHECKPOINT_AUTHORITY.json",
+      "sha256": "446d6981608e670d29a6fabbe66299a28a033afa979c10e5497af8067e107a7e"
+    },
+    {
+      "path": "DATA/PASS09/TUTORIAL_APPLICANTS.json",
+      "sha256": "4dd4ba5d0a32404a97ec430624decb920f1e65b143bf0718a10b546a203cd36a"
+    },
+    {
+      "path": "DATA/PASS10/CUSTOM_MODE_RANGES.json",
+      "sha256": "5eca121a91254f95b5cc14570f26aee288685513affb88dec64ed22c0cafc737"
+    },
+    {
+      "path": "DATA/PASS10/GAME_MODE_FINAL_TUNING.json",
+      "sha256": "a35feda298184cb26d853539cf0d9966dcd102b78d78bc3a72fdd63e6f196199"
+    },
+    {
+      "path": "IMPLEMENTATION_FREEZE/ASSET_IMPORT_PRIORITY_P0_P1_P2.json",
+      "sha256": "2d16b92fc15412ced8812886dd79f2b2349c23429f2f05e45ddae180f7b0a133"
+    },
+    {
+      "path": "IMPLEMENTATION_FREEZE/DETERMINISTIC_PARITY_FIXTURE_MANIFEST.json",
+      "sha256": "8bb93e9bfdbba5affb44be6574570b97804259d62827a1ca6839eb242465a41e"
+    },
+    {
+      "path": "IMPLEMENTATION_FREEZE/ID_DEFINITION_SHADOW_LEDGER.json",
+      "sha256": "2b922797c3e5e334a6be76bf06ddcc438628824e74c74d1f5d624174288045f1"
+    },
+    {
+      "path": "IMPLEMENTATION_FREEZE/STABLE_ID_REGISTRY.json",
+      "sha256": "8339eb1724bf2e00efe995ee67661708004b1fa5b6cdb02cf8a8950b944ff613"
+    },
+    {
+      "path": "MANGA_INTEGRATION/VOLUME_1_CODE_REGISTRY.json",
+      "sha256": "b376c2f59c8435d91a51c0a3cf6651291522ab9bea3b7b7033ec67f105c4b0f4"
+    },
+    {
+      "path": "PRE_CODEX_FOUNDATION/CONTENT/FORECAST_REFERENCE_CONTENT.json",
+      "sha256": "bc38d458e590fd217e5bbc939469a7c7944c237006ec56a24473972857eca951"
+    },
+    {
+      "path": "PRE_CODEX_FOUNDATION/TESTS/golden_vectors.json",
+      "sha256": "c0c8f1102ad97bce9793ff37478ce870b482cd40b0f82c53837493e8184dfc7f"
+    },
+    {
+      "path": "PRE_CODEX_FOUNDATION/TESTS/opening_recruitment_golden_vectors.json",
+      "sha256": "19f03315bd7b5ba1518115d25d90139868baefb98801cfc46892042ecd43d782"
+    },
+    {
+      "path": "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json",
+      "sha256": "95ff54b76b41b5513831694dc5b7b4e45f9dd7463beead28b750b5d9f1016287"
+    },
+    {
+      "path": "PRE_CODEX_FOUNDATION/TESTS/pass06_golden_vectors.json",
+      "sha256": "d954845cd78f80d99e364d055062dbe86b716248eb1eb52c2a26e91c2c97527a"
+    },
+    {
+      "path": "SAMPLES/sample_arts.json",
+      "sha256": "99110b5dc61ab352616c6e1aac52ddb276de3b78e9b0bf99127fa1a7aa3b4637"
+    },
+    {
+      "path": "SAMPLES/sample_events.json",
+      "sha256": "2ec20b6a6ca02ba301bf9398e26d13b6eb5dbfe5fadc8495c869e1f64099f1bc"
+    }
+  ]
+}

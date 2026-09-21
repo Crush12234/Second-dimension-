@@ -1,0 +1,829 @@
+{
+  "sieges": [
+    {
+      "siegeId": "SIEGE_SKYHOME_GOBLIN_WAR",
+      "worldId": "SKYHOME",
+      "name": "Skyhome Five-Lane Defense",
+      "objectiveType": "DEFEND_CITY",
+      "canonStatus": "FUTURE_CANON_LOCKED",
+      "strategicPreparation": [
+        "Assign up to ten allied Unions",
+        "Select reserve and support roles",
+        "Commit building/facility contribution snapshot",
+        "Review civilians, archives, supplies, surrender, and retreat rules"
+      ],
+      "lanes": [
+        {
+          "id": "SIEGE_SKYHOME_GOBLIN_WAR_LANE_01",
+          "name": "Approach",
+          "purpose": "Resolve approach pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_SKYHOME_GOBLIN_WAR_LANE_02",
+          "name": "Civilian Route",
+          "purpose": "Resolve civilian route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_SKYHOME_GOBLIN_WAR_LANE_03",
+          "name": "Supply Route",
+          "purpose": "Resolve supply route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_SKYHOME_GOBLIN_WAR_LANE_04",
+          "name": "Inner Defense",
+          "purpose": "Resolve inner defense pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_SKYHOME_GOBLIN_WAR_LANE_05",
+          "name": "Command Objective",
+          "purpose": "Resolve command objective pressure through strategic assignments and certified battles."
+        }
+      ],
+      "waveCount": 5,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "allowsSurrender": true,
+      "civilianRules": true,
+      "noConquestEnding": true,
+      "completionText": "Skyhome Five-Lane Defense resolves through the existing reward, campaign receipt, city consequences, and world diplomacy. It never creates a duplicate equipment drop.",
+      "worldQuestion": "Can Skyhome defend civilization without becoming a conquering force?"
+    },
+    {
+      "siegeId": "SIEGE_GOBLIN_FORTRESS_GATE",
+      "worldId": "WORLD_GOBLIN_001",
+      "name": "Goblin Fortress Gate Capture",
+      "objectiveType": "CAPTURE_GATE_WITH_SURRENDER",
+      "canonStatus": "FUTURE_CANON_LOCKED",
+      "strategicPreparation": [
+        "Assign up to ten allied Unions",
+        "Select reserve and support roles",
+        "Commit building/facility contribution snapshot",
+        "Review civilians, archives, supplies, surrender, and retreat rules"
+      ],
+      "lanes": [
+        {
+          "id": "SIEGE_GOBLIN_FORTRESS_GATE_LANE_01",
+          "name": "Approach",
+          "purpose": "Resolve approach pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_GOBLIN_FORTRESS_GATE_LANE_02",
+          "name": "Civilian Route",
+          "purpose": "Resolve civilian route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_GOBLIN_FORTRESS_GATE_LANE_03",
+          "name": "Supply Route",
+          "purpose": "Resolve supply route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_GOBLIN_FORTRESS_GATE_LANE_04",
+          "name": "Inner Defense",
+          "purpose": "Resolve inner defense pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_GOBLIN_FORTRESS_GATE_LANE_05",
+          "name": "Command Objective",
+          "purpose": "Resolve command objective pressure through strategic assignments and certified battles."
+        }
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "allowsSurrender": true,
+      "civilianRules": true,
+      "noConquestEnding": false,
+      "completionText": "Goblin Fortress Gate Capture resolves through the existing reward, campaign receipt, city consequences, and world diplomacy. It never creates a duplicate equipment drop.",
+      "worldQuestion": "Did the goblins remember Kael as savior, god, liar, or myth?"
+    },
+    {
+      "siegeId": "SIEGE_MONTH_CATHEDRAL_UPRISING",
+      "worldId": "WORLD_GOBLIN_001",
+      "name": "Month-Cathedral Uprising",
+      "objectiveType": "PROTECT_CIVILIANS_AND_RECORDS",
+      "canonStatus": "CANON_DERIVED_GAMEPLAY",
+      "strategicPreparation": [
+        "Assign up to ten allied Unions",
+        "Select reserve and support roles",
+        "Commit building/facility contribution snapshot",
+        "Review civilians, archives, supplies, surrender, and retreat rules"
+      ],
+      "lanes": [
+        {
+          "id": "SIEGE_MONTH_CATHEDRAL_UPRISING_LANE_01",
+          "name": "Approach",
+          "purpose": "Resolve approach pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_MONTH_CATHEDRAL_UPRISING_LANE_02",
+          "name": "Civilian Route",
+          "purpose": "Resolve civilian route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_MONTH_CATHEDRAL_UPRISING_LANE_03",
+          "name": "Supply Route",
+          "purpose": "Resolve supply route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_MONTH_CATHEDRAL_UPRISING_LANE_04",
+          "name": "Inner Defense",
+          "purpose": "Resolve inner defense pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_MONTH_CATHEDRAL_UPRISING_LANE_05",
+          "name": "Command Objective",
+          "purpose": "Resolve command objective pressure through strategic assignments and certified battles."
+        }
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "allowsSurrender": true,
+      "civilianRules": true,
+      "noConquestEnding": true,
+      "completionText": "Month-Cathedral Uprising resolves through the existing reward, campaign receipt, city consequences, and world diplomacy. It never creates a duplicate equipment drop.",
+      "worldQuestion": "Did the goblins remember Kael as savior, god, liar, or myth?"
+    },
+    {
+      "siegeId": "SIEGE_TUSKGATE_SHIELD_TRIAL",
+      "worldId": "WORLD_ORC_002",
+      "name": "Tuskgate Shield Trial",
+      "objectiveType": "HOLD_AND_ARBITRATE",
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE",
+      "strategicPreparation": [
+        "Assign up to ten allied Unions",
+        "Select reserve and support roles",
+        "Commit building/facility contribution snapshot",
+        "Review civilians, archives, supplies, surrender, and retreat rules"
+      ],
+      "lanes": [
+        {
+          "id": "SIEGE_TUSKGATE_SHIELD_TRIAL_LANE_01",
+          "name": "Approach",
+          "purpose": "Resolve approach pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_TUSKGATE_SHIELD_TRIAL_LANE_02",
+          "name": "Civilian Route",
+          "purpose": "Resolve civilian route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_TUSKGATE_SHIELD_TRIAL_LANE_03",
+          "name": "Supply Route",
+          "purpose": "Resolve supply route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_TUSKGATE_SHIELD_TRIAL_LANE_04",
+          "name": "Inner Defense",
+          "purpose": "Resolve inner defense pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_TUSKGATE_SHIELD_TRIAL_LANE_05",
+          "name": "Command Objective",
+          "purpose": "Resolve command objective pressure through strategic assignments and certified battles."
+        }
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "allowsSurrender": true,
+      "civilianRules": true,
+      "noConquestEnding": true,
+      "completionText": "Tuskgate Shield Trial resolves through the existing reward, campaign receipt, city consequences, and world diplomacy. It never creates a duplicate equipment drop.",
+      "worldQuestion": "Can a race built on war redefine strength?"
+    },
+    {
+      "siegeId": "SIEGE_BLACK_ARENA_BREAK",
+      "worldId": "WORLD_ORC_002",
+      "name": "Black Arena Break",
+      "objectiveType": "RESCUE_AND_BREAK_INSTITUTION",
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE",
+      "strategicPreparation": [
+        "Assign up to ten allied Unions",
+        "Select reserve and support roles",
+        "Commit building/facility contribution snapshot",
+        "Review civilians, archives, supplies, surrender, and retreat rules"
+      ],
+      "lanes": [
+        {
+          "id": "SIEGE_BLACK_ARENA_BREAK_LANE_01",
+          "name": "Approach",
+          "purpose": "Resolve approach pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_BLACK_ARENA_BREAK_LANE_02",
+          "name": "Civilian Route",
+          "purpose": "Resolve civilian route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_BLACK_ARENA_BREAK_LANE_03",
+          "name": "Supply Route",
+          "purpose": "Resolve supply route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_BLACK_ARENA_BREAK_LANE_04",
+          "name": "Inner Defense",
+          "purpose": "Resolve inner defense pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_BLACK_ARENA_BREAK_LANE_05",
+          "name": "Command Objective",
+          "purpose": "Resolve command objective pressure through strategic assignments and certified battles."
+        }
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "allowsSurrender": true,
+      "civilianRules": true,
+      "noConquestEnding": true,
+      "completionText": "Black Arena Break resolves through the existing reward, campaign receipt, city consequences, and world diplomacy. It never creates a duplicate equipment drop.",
+      "worldQuestion": "Can a race built on war redefine strength?"
+    },
+    {
+      "siegeId": "SIEGE_GOLDEN_CAGE_LIBERATION",
+      "worldId": "WORLD_BEASTKIN_003",
+      "name": "Golden Cage Liberation",
+      "objectiveType": "LIBERATE_AND_EVACUATE",
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE",
+      "strategicPreparation": [
+        "Assign up to ten allied Unions",
+        "Select reserve and support roles",
+        "Commit building/facility contribution snapshot",
+        "Review civilians, archives, supplies, surrender, and retreat rules"
+      ],
+      "lanes": [
+        {
+          "id": "SIEGE_GOLDEN_CAGE_LIBERATION_LANE_01",
+          "name": "Approach",
+          "purpose": "Resolve approach pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_GOLDEN_CAGE_LIBERATION_LANE_02",
+          "name": "Civilian Route",
+          "purpose": "Resolve civilian route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_GOLDEN_CAGE_LIBERATION_LANE_03",
+          "name": "Supply Route",
+          "purpose": "Resolve supply route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_GOLDEN_CAGE_LIBERATION_LANE_04",
+          "name": "Inner Defense",
+          "purpose": "Resolve inner defense pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_GOLDEN_CAGE_LIBERATION_LANE_05",
+          "name": "Command Objective",
+          "purpose": "Resolve command objective pressure through strategic assignments and certified battles."
+        }
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "allowsSurrender": true,
+      "civilianRules": true,
+      "noConquestEnding": true,
+      "completionText": "Golden Cage Liberation resolves through the existing reward, campaign receipt, city consequences, and world diplomacy. It never creates a duplicate equipment drop.",
+      "worldQuestion": "Does civilization protect nature or destroy it?"
+    },
+    {
+      "siegeId": "SIEGE_OPEN_COURT_DEFENSE",
+      "worldId": "WORLD_BEASTKIN_003",
+      "name": "Open Court Defense",
+      "objectiveType": "DEFEND_DIPLOMATIC_ASSEMBLY",
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE",
+      "strategicPreparation": [
+        "Assign up to ten allied Unions",
+        "Select reserve and support roles",
+        "Commit building/facility contribution snapshot",
+        "Review civilians, archives, supplies, surrender, and retreat rules"
+      ],
+      "lanes": [
+        {
+          "id": "SIEGE_OPEN_COURT_DEFENSE_LANE_01",
+          "name": "Approach",
+          "purpose": "Resolve approach pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_OPEN_COURT_DEFENSE_LANE_02",
+          "name": "Civilian Route",
+          "purpose": "Resolve civilian route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_OPEN_COURT_DEFENSE_LANE_03",
+          "name": "Supply Route",
+          "purpose": "Resolve supply route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_OPEN_COURT_DEFENSE_LANE_04",
+          "name": "Inner Defense",
+          "purpose": "Resolve inner defense pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_OPEN_COURT_DEFENSE_LANE_05",
+          "name": "Command Objective",
+          "purpose": "Resolve command objective pressure through strategic assignments and certified battles."
+        }
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "allowsSurrender": true,
+      "civilianRules": true,
+      "noConquestEnding": true,
+      "completionText": "Open Court Defense resolves through the existing reward, campaign receipt, city consequences, and world diplomacy. It never creates a duplicate equipment drop.",
+      "worldQuestion": "Does civilization protect nature or destroy it?"
+    },
+    {
+      "siegeId": "SIEGE_CONTRACTUM_SEALBREAK",
+      "worldId": "WORLD_DEMON_004",
+      "name": "Contractum Sealbreak",
+      "objectiveType": "BREAK_ILLEGAL_CONTRACTS",
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE",
+      "strategicPreparation": [
+        "Assign up to ten allied Unions",
+        "Select reserve and support roles",
+        "Commit building/facility contribution snapshot",
+        "Review civilians, archives, supplies, surrender, and retreat rules"
+      ],
+      "lanes": [
+        {
+          "id": "SIEGE_CONTRACTUM_SEALBREAK_LANE_01",
+          "name": "Approach",
+          "purpose": "Resolve approach pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_CONTRACTUM_SEALBREAK_LANE_02",
+          "name": "Civilian Route",
+          "purpose": "Resolve civilian route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_CONTRACTUM_SEALBREAK_LANE_03",
+          "name": "Supply Route",
+          "purpose": "Resolve supply route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_CONTRACTUM_SEALBREAK_LANE_04",
+          "name": "Inner Defense",
+          "purpose": "Resolve inner defense pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_CONTRACTUM_SEALBREAK_LANE_05",
+          "name": "Command Objective",
+          "purpose": "Resolve command objective pressure through strategic assignments and certified battles."
+        }
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "allowsSurrender": true,
+      "civilianRules": true,
+      "noConquestEnding": true,
+      "completionText": "Contractum Sealbreak resolves through the existing reward, campaign receipt, city consequences, and world diplomacy. It never creates a duplicate equipment drop.",
+      "worldQuestion": "Can those feared as monsters ever be trusted?"
+    },
+    {
+      "siegeId": "SIEGE_RED_ARCHIVE_EVACUATION",
+      "worldId": "WORLD_DEMON_004",
+      "name": "Red Archive Evacuation",
+      "objectiveType": "PROTECT_KNOWLEDGE_AND_PEOPLE",
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE",
+      "strategicPreparation": [
+        "Assign up to ten allied Unions",
+        "Select reserve and support roles",
+        "Commit building/facility contribution snapshot",
+        "Review civilians, archives, supplies, surrender, and retreat rules"
+      ],
+      "lanes": [
+        {
+          "id": "SIEGE_RED_ARCHIVE_EVACUATION_LANE_01",
+          "name": "Approach",
+          "purpose": "Resolve approach pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_RED_ARCHIVE_EVACUATION_LANE_02",
+          "name": "Civilian Route",
+          "purpose": "Resolve civilian route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_RED_ARCHIVE_EVACUATION_LANE_03",
+          "name": "Supply Route",
+          "purpose": "Resolve supply route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_RED_ARCHIVE_EVACUATION_LANE_04",
+          "name": "Inner Defense",
+          "purpose": "Resolve inner defense pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_RED_ARCHIVE_EVACUATION_LANE_05",
+          "name": "Command Objective",
+          "purpose": "Resolve command objective pressure through strategic assignments and certified battles."
+        }
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "allowsSurrender": true,
+      "civilianRules": true,
+      "noConquestEnding": true,
+      "completionText": "Red Archive Evacuation resolves through the existing reward, campaign receipt, city consequences, and world diplomacy. It never creates a duplicate equipment drop.",
+      "worldQuestion": "Can those feared as monsters ever be trusted?"
+    },
+    {
+      "siegeId": "SIEGE_SILVERQUIET_LOCKDOWN",
+      "worldId": "WORLD_DARK_ELF_005",
+      "name": "Silverquiet Lockdown",
+      "objectiveType": "REVEAL_WITHOUT_MASS_CASUALTY",
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE",
+      "strategicPreparation": [
+        "Assign up to ten allied Unions",
+        "Select reserve and support roles",
+        "Commit building/facility contribution snapshot",
+        "Review civilians, archives, supplies, surrender, and retreat rules"
+      ],
+      "lanes": [
+        {
+          "id": "SIEGE_SILVERQUIET_LOCKDOWN_LANE_01",
+          "name": "Approach",
+          "purpose": "Resolve approach pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_SILVERQUIET_LOCKDOWN_LANE_02",
+          "name": "Civilian Route",
+          "purpose": "Resolve civilian route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_SILVERQUIET_LOCKDOWN_LANE_03",
+          "name": "Supply Route",
+          "purpose": "Resolve supply route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_SILVERQUIET_LOCKDOWN_LANE_04",
+          "name": "Inner Defense",
+          "purpose": "Resolve inner defense pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_SILVERQUIET_LOCKDOWN_LANE_05",
+          "name": "Command Objective",
+          "purpose": "Resolve command objective pressure through strategic assignments and certified battles."
+        }
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "allowsSurrender": true,
+      "civilianRules": true,
+      "noConquestEnding": true,
+      "completionText": "Silverquiet Lockdown resolves through the existing reward, campaign receipt, city consequences, and world diplomacy. It never creates a duplicate equipment drop.",
+      "worldQuestion": "Is a painful truth better than a peaceful lie?"
+    },
+    {
+      "siegeId": "SIEGE_DUSKWOOD_TRUTH_DEFENSE",
+      "worldId": "WORLD_DARK_ELF_005",
+      "name": "Duskwood Truth Defense",
+      "objectiveType": "DEFEND_WITNESSES",
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE",
+      "strategicPreparation": [
+        "Assign up to ten allied Unions",
+        "Select reserve and support roles",
+        "Commit building/facility contribution snapshot",
+        "Review civilians, archives, supplies, surrender, and retreat rules"
+      ],
+      "lanes": [
+        {
+          "id": "SIEGE_DUSKWOOD_TRUTH_DEFENSE_LANE_01",
+          "name": "Approach",
+          "purpose": "Resolve approach pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_DUSKWOOD_TRUTH_DEFENSE_LANE_02",
+          "name": "Civilian Route",
+          "purpose": "Resolve civilian route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_DUSKWOOD_TRUTH_DEFENSE_LANE_03",
+          "name": "Supply Route",
+          "purpose": "Resolve supply route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_DUSKWOOD_TRUTH_DEFENSE_LANE_04",
+          "name": "Inner Defense",
+          "purpose": "Resolve inner defense pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_DUSKWOOD_TRUTH_DEFENSE_LANE_05",
+          "name": "Command Objective",
+          "purpose": "Resolve command objective pressure through strategic assignments and certified battles."
+        }
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "allowsSurrender": true,
+      "civilianRules": true,
+      "noConquestEnding": true,
+      "completionText": "Duskwood Truth Defense resolves through the existing reward, campaign receipt, city consequences, and world diplomacy. It never creates a duplicate equipment drop.",
+      "worldQuestion": "Is a painful truth better than a peaceful lie?"
+    },
+    {
+      "siegeId": "SIEGE_WARRENHALL_GRANARY_BLOCKADE",
+      "worldId": "WORLD_BUNNY_006",
+      "name": "Warrenhall Granary Blockade",
+      "objectiveType": "BREAK_BLOCKADE_AND_FEED_CITY",
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE",
+      "strategicPreparation": [
+        "Assign up to ten allied Unions",
+        "Select reserve and support roles",
+        "Commit building/facility contribution snapshot",
+        "Review civilians, archives, supplies, surrender, and retreat rules"
+      ],
+      "lanes": [
+        {
+          "id": "SIEGE_WARRENHALL_GRANARY_BLOCKADE_LANE_01",
+          "name": "Approach",
+          "purpose": "Resolve approach pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_WARRENHALL_GRANARY_BLOCKADE_LANE_02",
+          "name": "Civilian Route",
+          "purpose": "Resolve civilian route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_WARRENHALL_GRANARY_BLOCKADE_LANE_03",
+          "name": "Supply Route",
+          "purpose": "Resolve supply route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_WARRENHALL_GRANARY_BLOCKADE_LANE_04",
+          "name": "Inner Defense",
+          "purpose": "Resolve inner defense pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_WARRENHALL_GRANARY_BLOCKADE_LANE_05",
+          "name": "Command Objective",
+          "purpose": "Resolve command objective pressure through strategic assignments and certified battles."
+        }
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "allowsSurrender": true,
+      "civilianRules": true,
+      "noConquestEnding": true,
+      "completionText": "Warrenhall Granary Blockade resolves through the existing reward, campaign receipt, city consequences, and world diplomacy. It never creates a duplicate equipment drop.",
+      "worldQuestion": "Can everything have a price?"
+    },
+    {
+      "siegeId": "SIEGE_ROADBELL_CONVOY_DEFENSE",
+      "worldId": "WORLD_BUNNY_006",
+      "name": "Roadbell Convoy Defense",
+      "objectiveType": "ESCORT_AND_HOLD_ROUTES",
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE",
+      "strategicPreparation": [
+        "Assign up to ten allied Unions",
+        "Select reserve and support roles",
+        "Commit building/facility contribution snapshot",
+        "Review civilians, archives, supplies, surrender, and retreat rules"
+      ],
+      "lanes": [
+        {
+          "id": "SIEGE_ROADBELL_CONVOY_DEFENSE_LANE_01",
+          "name": "Approach",
+          "purpose": "Resolve approach pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_ROADBELL_CONVOY_DEFENSE_LANE_02",
+          "name": "Civilian Route",
+          "purpose": "Resolve civilian route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_ROADBELL_CONVOY_DEFENSE_LANE_03",
+          "name": "Supply Route",
+          "purpose": "Resolve supply route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_ROADBELL_CONVOY_DEFENSE_LANE_04",
+          "name": "Inner Defense",
+          "purpose": "Resolve inner defense pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_ROADBELL_CONVOY_DEFENSE_LANE_05",
+          "name": "Command Objective",
+          "purpose": "Resolve command objective pressure through strategic assignments and certified battles."
+        }
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "allowsSurrender": true,
+      "civilianRules": true,
+      "noConquestEnding": true,
+      "completionText": "Roadbell Convoy Defense resolves through the existing reward, campaign receipt, city consequences, and world diplomacy. It never creates a duplicate equipment drop.",
+      "worldQuestion": "Can everything have a price?"
+    },
+    {
+      "siegeId": "SIEGE_OATHPOST_MUTINY",
+      "worldId": "WORLD_DOG_007",
+      "name": "Oathpost Mutiny",
+      "objectiveType": "PROTECT_CIVILIANS_AND_REFUSERS",
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE",
+      "strategicPreparation": [
+        "Assign up to ten allied Unions",
+        "Select reserve and support roles",
+        "Commit building/facility contribution snapshot",
+        "Review civilians, archives, supplies, surrender, and retreat rules"
+      ],
+      "lanes": [
+        {
+          "id": "SIEGE_OATHPOST_MUTINY_LANE_01",
+          "name": "Approach",
+          "purpose": "Resolve approach pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_OATHPOST_MUTINY_LANE_02",
+          "name": "Civilian Route",
+          "purpose": "Resolve civilian route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_OATHPOST_MUTINY_LANE_03",
+          "name": "Supply Route",
+          "purpose": "Resolve supply route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_OATHPOST_MUTINY_LANE_04",
+          "name": "Inner Defense",
+          "purpose": "Resolve inner defense pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_OATHPOST_MUTINY_LANE_05",
+          "name": "Command Objective",
+          "purpose": "Resolve command objective pressure through strategic assignments and certified battles."
+        }
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "allowsSurrender": true,
+      "civilianRules": true,
+      "noConquestEnding": true,
+      "completionText": "Oathpost Mutiny resolves through the existing reward, campaign receipt, city consequences, and world diplomacy. It never creates a duplicate equipment drop.",
+      "worldQuestion": "What happens when loyalty and morality disagree?"
+    },
+    {
+      "siegeId": "SIEGE_STORMPAW_BORDER_DEFENSE",
+      "worldId": "WORLD_DOG_007",
+      "name": "Stormpaw Border Defense",
+      "objectiveType": "DEFEND_WITH_RULES_OF_ENGAGEMENT",
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE",
+      "strategicPreparation": [
+        "Assign up to ten allied Unions",
+        "Select reserve and support roles",
+        "Commit building/facility contribution snapshot",
+        "Review civilians, archives, supplies, surrender, and retreat rules"
+      ],
+      "lanes": [
+        {
+          "id": "SIEGE_STORMPAW_BORDER_DEFENSE_LANE_01",
+          "name": "Approach",
+          "purpose": "Resolve approach pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_STORMPAW_BORDER_DEFENSE_LANE_02",
+          "name": "Civilian Route",
+          "purpose": "Resolve civilian route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_STORMPAW_BORDER_DEFENSE_LANE_03",
+          "name": "Supply Route",
+          "purpose": "Resolve supply route pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_STORMPAW_BORDER_DEFENSE_LANE_04",
+          "name": "Inner Defense",
+          "purpose": "Resolve inner defense pressure through strategic assignments and certified battles."
+        },
+        {
+          "id": "SIEGE_STORMPAW_BORDER_DEFENSE_LANE_05",
+          "name": "Command Objective",
+          "purpose": "Resolve command objective pressure through strategic assignments and certified battles."
+        }
+      ],
+      "waveCount": 3,
+      "maxAlliedUnions": 10,
+      "maxEnemyUnions": 10,
+      "decisiveBattleTrigger": "Committed breach, boss engagement, or final objective state",
+      "resultModes": [
+        "VICTORY",
+        "MIXED",
+        "RETREAT",
+        "FAILURE_WITH_RECOVERY"
+      ],
+      "allowsSurrender": true,
+      "civilianRules": true,
+      "noConquestEnding": true,
+      "completionText": "Stormpaw Border Defense resolves through the existing reward, campaign receipt, city consequences, and world diplomacy. It never creates a duplicate equipment drop.",
+      "worldQuestion": "What happens when loyalty and morality disagree?"
+    }
+  ]
+}

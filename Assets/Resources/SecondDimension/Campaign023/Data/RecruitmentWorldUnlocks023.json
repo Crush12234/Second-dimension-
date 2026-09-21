@@ -1,0 +1,185 @@
+{
+  "unlocks": [
+    {
+      "worldId": "SKYHOME",
+      "displayName": "Skyhome",
+      "compatibleExistingRaceIds": [
+        "HUMAN",
+        "ORC",
+        "GOBLIN",
+        "DOG_TRIBE",
+        "DARK_ELF",
+        "DEMON_HERITAGE"
+      ],
+      "nativeVisualReady": true,
+      "nativeRaceAuthority": "",
+      "originProfileIds": [],
+      "minimumStandingTier": "ALLIANCE_NETWORK",
+      "usesRecruitAutogen010": true,
+      "runtimeGenerativeAi": false,
+      "permanentWhenSigned": true
+    },
+    {
+      "worldId": "WORLD_GOBLIN_001",
+      "displayName": "Goblin World",
+      "compatibleExistingRaceIds": [
+        "GOBLIN"
+      ],
+      "nativeVisualReady": true,
+      "nativeRaceAuthority": "GOBLIN",
+      "originProfileIds": [
+        "RECRUIT020_GOBLIN_01",
+        "RECRUIT020_GOBLIN_02",
+        "RECRUIT020_GOBLIN_03",
+        "RECRUIT020_GOBLIN_04",
+        "RECRUIT020_GOBLIN_05",
+        "RECRUIT020_GOBLIN_06",
+        "RECRUIT020_GOBLIN_07",
+        "RECRUIT020_GOBLIN_08"
+      ],
+      "minimumStandingTier": "INDEPENDENT_COOPERATION",
+      "usesRecruitAutogen010": true,
+      "runtimeGenerativeAi": false,
+      "permanentWhenSigned": true
+    },
+    {
+      "worldId": "WORLD_ORC_002",
+      "displayName": "Orc World",
+      "compatibleExistingRaceIds": [
+        "ORC"
+      ],
+      "nativeVisualReady": true,
+      "nativeRaceAuthority": "ORC",
+      "originProfileIds": [
+        "RECRUIT020_ORC_01",
+        "RECRUIT020_ORC_02",
+        "RECRUIT020_ORC_03",
+        "RECRUIT020_ORC_04",
+        "RECRUIT020_ORC_05",
+        "RECRUIT020_ORC_06",
+        "RECRUIT020_ORC_07",
+        "RECRUIT020_ORC_08"
+      ],
+      "minimumStandingTier": "INDEPENDENT_COOPERATION",
+      "usesRecruitAutogen010": true,
+      "runtimeGenerativeAi": false,
+      "permanentWhenSigned": true
+    },
+    {
+      "worldId": "WORLD_BEASTKIN_003",
+      "displayName": "Beastkin Territories",
+      "compatibleExistingRaceIds": [
+        "DOG_TRIBE"
+      ],
+      "nativeVisualReady": true,
+      "nativeRaceAuthority": "BEASTKIN_FAMILY_VIA_EXISTING_DOG_TRIBE_RIGS",
+      "originProfileIds": [
+        "RECRUIT020_BEAST_01",
+        "RECRUIT020_BEAST_02",
+        "RECRUIT020_BEAST_03",
+        "RECRUIT020_BEAST_04",
+        "RECRUIT020_BEAST_05",
+        "RECRUIT020_BEAST_06",
+        "RECRUIT020_BEAST_07",
+        "RECRUIT020_BEAST_08"
+      ],
+      "minimumStandingTier": "INDEPENDENT_COOPERATION",
+      "usesRecruitAutogen010": true,
+      "runtimeGenerativeAi": false,
+      "permanentWhenSigned": true
+    },
+    {
+      "worldId": "WORLD_DEMON_004",
+      "displayName": "Demon Realms",
+      "compatibleExistingRaceIds": [
+        "DEMON_HERITAGE"
+      ],
+      "nativeVisualReady": true,
+      "nativeRaceAuthority": "DEMON_HERITAGE",
+      "originProfileIds": [
+        "RECRUIT020_DEMON_01",
+        "RECRUIT020_DEMON_02",
+        "RECRUIT020_DEMON_03",
+        "RECRUIT020_DEMON_04",
+        "RECRUIT020_DEMON_05",
+        "RECRUIT020_DEMON_06",
+        "RECRUIT020_DEMON_07",
+        "RECRUIT020_DEMON_08"
+      ],
+      "minimumStandingTier": "INDEPENDENT_COOPERATION",
+      "usesRecruitAutogen010": true,
+      "runtimeGenerativeAi": false,
+      "permanentWhenSigned": true
+    },
+    {
+      "worldId": "WORLD_DARK_ELF_005",
+      "displayName": "Dark Elf Territories",
+      "compatibleExistingRaceIds": [
+        "DARK_ELF"
+      ],
+      "nativeVisualReady": true,
+      "nativeRaceAuthority": "DARK_ELF",
+      "originProfileIds": [
+        "RECRUIT020_DARKELF_01",
+        "RECRUIT020_DARKELF_02",
+        "RECRUIT020_DARKELF_03",
+        "RECRUIT020_DARKELF_04",
+        "RECRUIT020_DARKELF_05",
+        "RECRUIT020_DARKELF_06",
+        "RECRUIT020_DARKELF_07",
+        "RECRUIT020_DARKELF_08"
+      ],
+      "minimumStandingTier": "INDEPENDENT_COOPERATION",
+      "usesRecruitAutogen010": true,
+      "runtimeGenerativeAi": false,
+      "permanentWhenSigned": true
+    },
+    {
+      "worldId": "WORLD_BUNNY_006",
+      "displayName": "Bunny Trade Nations",
+      "compatibleExistingRaceIds": [
+        "HUMAN",
+        "GOBLIN"
+      ],
+      "nativeVisualReady": false,
+      "nativeRaceAuthority": "NATIVE_BUNNY_VISUAL_LIBRARY_REQUIRED",
+      "originProfileIds": [
+        "RECRUIT020_BUNNY_01",
+        "RECRUIT020_BUNNY_02",
+        "RECRUIT020_BUNNY_03",
+        "RECRUIT020_BUNNY_04",
+        "RECRUIT020_BUNNY_05",
+        "RECRUIT020_BUNNY_06",
+        "RECRUIT020_BUNNY_07",
+        "RECRUIT020_BUNNY_08"
+      ],
+      "minimumStandingTier": "INDEPENDENT_COOPERATION",
+      "usesRecruitAutogen010": true,
+      "runtimeGenerativeAi": false,
+      "permanentWhenSigned": true
+    },
+    {
+      "worldId": "WORLD_DOG_007",
+      "displayName": "Dog Tribe Frontiers",
+      "compatibleExistingRaceIds": [
+        "DOG_TRIBE"
+      ],
+      "nativeVisualReady": true,
+      "nativeRaceAuthority": "DOG_TRIBE",
+      "originProfileIds": [
+        "RECRUIT020_DOG_01",
+        "RECRUIT020_DOG_02",
+        "RECRUIT020_DOG_03",
+        "RECRUIT020_DOG_04",
+        "RECRUIT020_DOG_05",
+        "RECRUIT020_DOG_06",
+        "RECRUIT020_DOG_07",
+        "RECRUIT020_DOG_08"
+      ],
+      "minimumStandingTier": "INDEPENDENT_COOPERATION",
+      "usesRecruitAutogen010": true,
+      "runtimeGenerativeAi": false,
+      "permanentWhenSigned": true
+    }
+  ]
+}

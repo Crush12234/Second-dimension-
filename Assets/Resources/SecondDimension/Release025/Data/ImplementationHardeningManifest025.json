@@ -1,0 +1,39 @@
+{
+  "contentVersion": "FINAL_IMPLEMENTATION_HARDENING_025_1.0",
+  "title": "Final Implementation Hardening 025",
+  "baseVersion": "FINAL_GAME_WORLD_GATE_INTEGRATION_024_1.0",
+  "saveFormatVersion": 11,
+  "worldGateBoardCount": 130,
+  "worldGateNodeCount": 1372,
+  "cityBuildingCount": 30,
+  "defenseProfileCount": 12,
+  "canonEventCount": 36,
+  "artPresentationBindingCount": 240,
+  "weaponFamilyCount": 12,
+  "alliedUnionCapacity": 10,
+  "enemyUnionCapacity": 10,
+  "ownerReviewCaseCount": 36,
+  "assemblyBoundaryRepairCount": 1,
+  "compileRiskGateCount": 16,
+  "requiredPackages": [
+    "com.unity.nuget.newtonsoft-json",
+    "com.unity.test-framework",
+    "com.unity.ugui"
+  ],
+  "hardeningLaws": [
+    "Gameplay assembly never references Presentation, Save, Platform, UnityEngine, or UnityEditor.",
+    "Campaign 022 content contracts live in the pure Gameplay assembly.",
+    "Campaign 022 resource loading remains presentation-owned through ICampaignRegistry022.",
+    "Only one M2 battle resolver and one Forecast authority exist.",
+    "Only the existing deterministic equipment reward may create battle equipment.",
+    "Save format 11 and its migration chain remain authoritative.",
+    "Boot.unity is the first enabled build scene.",
+    "StreamingAssets contains runtime authority for built-player startup.",
+    "No compile or test failure may be packaged as an owner-review build.",
+    "No individual-member Art selection appears in Standard mode.",
+    "Ten allied and ten enemy Union positions remain supported.",
+    "No runtime generative AI or network content dependency is allowed."
+  ],
+  "embeddedFontFilesAllowed": false,
+  "unityVersion": "6000.3.22f1"
+}

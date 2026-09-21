@@ -1,0 +1,245 @@
+{
+  "contentVersion": "FINAL_IMPLEMENTATION_HARDENING_025_1.0",
+  "cases": [
+    {
+      "caseId": "FH025-001",
+      "category": "Package graph",
+      "expectedEvidence": "Minimal package manifest resolves without unused package imports",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-002",
+      "category": "Fonts",
+      "expectedEvidence": "Built-in runtime font loads and no embedded font binary is required",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-003",
+      "category": "Boot",
+      "expectedEvidence": "Boot health blocks entry when integrated content is invalid",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-004",
+      "category": "Save",
+      "expectedEvidence": "Fresh save is v10 and legacy migrations remain exact-once",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-005",
+      "category": "Recruitment",
+      "expectedEvidence": "Applicant board and signing preserve permanent identity",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-006",
+      "category": "Equipment",
+      "expectedEvidence": "Manual equipment and slot locks remain authoritative",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-007",
+      "category": "Unions",
+      "expectedEvidence": "Two legal Unions can be created and persisted",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-008",
+      "category": "City",
+      "expectedEvidence": "Building placement, staffing and adjacency persist",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-009",
+      "category": "Contract",
+      "expectedEvidence": "Contract acceptance commits deterministic content",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-010",
+      "category": "Expedition",
+      "expectedEvidence": "Committed movement and checks cannot reroll",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-011",
+      "category": "Battle",
+      "expectedEvidence": "Complete Union Forecast battle launches with no individual Art controls",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-012",
+      "category": "Reward",
+      "expectedEvidence": "Equipment reward commits and claims exactly once",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-013",
+      "category": "Relationship",
+      "expectedEvidence": "Free deferable relationship scene does not advance an operation",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-014",
+      "category": "Defense",
+      "expectedEvidence": "Strategic lane defense uses the certified battle for decisive breaches",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-015",
+      "category": "Campaign",
+      "expectedEvidence": "Campaign operation and exact-once return persist",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-016",
+      "category": "World Gate",
+      "expectedEvidence": "Board to battle to exact board return works",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-017",
+      "category": "Travel",
+      "expectedEvidence": "World travel and return to Skyhome persist",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-018",
+      "category": "Standing",
+      "expectedEvidence": "Trust, tension and civilian support persist",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-019",
+      "category": "World recruits",
+      "expectedEvidence": "World-origin applicants use Auto-Generation 010",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-020",
+      "category": "Progression",
+      "expectedEvidence": "Weapon and armor evolution spend materials exactly once",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-021",
+      "category": "Classes",
+      "expectedEvidence": "Advanced-class certification persists",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-022",
+      "category": "Abyss",
+      "expectedEvidence": "Abyss first-clear and repeat-clear rules remain bounded",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-023",
+      "category": "Invocation",
+      "expectedEvidence": "Invocation Artifact enters normal inventory",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-024",
+      "category": "Echo",
+      "expectedEvidence": "Summon Echo acts only through a complete Forecast",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-025",
+      "category": "Covenant",
+      "expectedEvidence": "Covenant trial remains voluntary and persistent",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-026",
+      "category": "Accessibility",
+      "expectedEvidence": "16:9, 4:3 and iPhone-landscape layouts remain readable",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-027",
+      "category": "Audio",
+      "expectedEvidence": "UI, battle and Guild/city cues are audible and non-clipping",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-028",
+      "category": "Resources",
+      "expectedEvidence": "All literal Resources.Load paths resolve",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-029",
+      "category": "Assemblies",
+      "expectedEvidence": "Asmdef graph is acyclic and every reference exists",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-030",
+      "category": "Runtime boundary",
+      "expectedEvidence": "No UnityEditor dependency exists in runtime source",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-031",
+      "category": "Determinism",
+      "expectedEvidence": "Presentation settings do not change authoritative hashes",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-032",
+      "category": "Anti-farm",
+      "expectedEvidence": "Repeatable rewards reach zero after the bounded streak",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-033",
+      "category": "Kael",
+      "expectedEvidence": "Kael remains 300 HP, zero stats, no equipment and True Reflection law",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-034",
+      "category": "Twenty Unions",
+      "expectedEvidence": "Ten allied and ten enemy positions remain supported",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-035",
+      "category": "Windows build",
+      "expectedEvidence": "EXE, Data folder and UnityPlayer.dll are produced together",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-036",
+      "category": "Built player",
+      "expectedEvidence": "Full owner-review path completes in the Windows player",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-037",
+      "category": "Relaunch",
+      "expectedEvidence": "Roster, city, campaign, rewards and World Gate survive relaunch",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-038",
+      "category": "Evidence",
+      "expectedEvidence": "Test XML, logs, hashes and changed-file list are retained",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-039",
+      "category": "Known issues",
+      "expectedEvidence": "Every unresolved issue is severity-ranked and documented",
+      "requiredForOwnerReview": true
+    },
+    {
+      "caseId": "FH025-040",
+      "category": "Owner approval",
+      "expectedEvidence": "Owner score meets threshold with no serious open defect",
+      "requiredForOwnerReview": true
+    }
+  ]
+}

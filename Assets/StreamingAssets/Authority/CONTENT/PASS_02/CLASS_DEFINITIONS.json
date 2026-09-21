@@ -1,0 +1,314 @@
+{
+  "contentVersion": "PASS02_0.7",
+  "classes": [
+    {
+      "id": "CLASS_GUARDIAN",
+      "displayName": "Guardian",
+      "tacticalIdentity": "Front anchor, interception, Cohesion protection",
+      "validWeaponFamilies": [
+        "SWORD",
+        "SPEAR",
+        "HAMMER",
+        "SHIELD"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 70,
+        "Mystic": 25,
+        "Restoration": 35,
+        "Support": 55,
+        "Guard": 95,
+        "Tactical": 65
+      },
+      "typicalUnionPositions": [
+        "VANGUARD",
+        "CENTER"
+      ],
+      "forecastIntentWeights": {
+        "GUARD": 145,
+        "RESCUE": 140,
+        "BALANCED": 110,
+        "BREAK": 80
+      },
+      "resourceBehavior": "AP efficient; low personal MP unless hybrid",
+      "learningProfile": "Learns fastest by intercepting meaningful damage; slow pure Mystic growth",
+      "advancedClassRoutes": [
+        "ADV_BASTION_CAPTAIN",
+        "ADV_WARD_SENTINEL",
+        "ADV_RESCUE_MARSHAL"
+      ],
+      "equipmentInteractions": [
+        "equipment gates Arts rather than permanently teaching them",
+        "locked loadout slots cannot be replaced by AI"
+      ],
+      "aiPredictionRules": [
+        "prefer actions matching forecast intent",
+        "respect individual MP",
+        "fallback to basic legal action"
+      ],
+      "beginnerTrap": "Over-specializing without a complementary Union role reduces forecast diversity.",
+      "balanceLimit": "No class receives exclusive access to a core mission function forever; cross-training routes exist."
+    },
+    {
+      "id": "CLASS_WARRIOR",
+      "displayName": "Warrior",
+      "tacticalIdentity": "Melee pressure, formation damage, finishing attacks",
+      "validWeaponFamilies": [
+        "SWORD",
+        "GREAT_AXE",
+        "HAMMER",
+        "POLEARM",
+        "SPEAR"
+      ],
+      "armorWeights": [
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 95,
+        "Mystic": 25,
+        "Restoration": 20,
+        "Support": 35,
+        "Guard": 65,
+        "Tactical": 60
+      },
+      "typicalUnionPositions": [
+        "VANGUARD",
+        "TIP",
+        "LEFT",
+        "RIGHT"
+      ],
+      "forecastIntentWeights": {
+        "OFFENSE": 145,
+        "BREAK": 140,
+        "BALANCED": 105,
+        "GUARD": 70
+      },
+      "resourceBehavior": "Consumes AP for burst; normally low MP",
+      "learningProfile": "Learns by damaging equal/stronger enemies and breaking Cohesion; can overcommit",
+      "advancedClassRoutes": [
+        "ADV_LINEBREAKER",
+        "ADV_DUEL_CAPTAIN",
+        "ADV_SPELL_EDGE"
+      ],
+      "equipmentInteractions": [
+        "equipment gates Arts rather than permanently teaching them",
+        "locked loadout slots cannot be replaced by AI"
+      ],
+      "aiPredictionRules": [
+        "prefer actions matching forecast intent",
+        "respect individual MP",
+        "fallback to basic legal action"
+      ],
+      "beginnerTrap": "Over-specializing without a complementary Union role reduces forecast diversity.",
+      "balanceLimit": "No class receives exclusive access to a core mission function forever; cross-training routes exist."
+    },
+    {
+      "id": "CLASS_RANGER",
+      "displayName": "Ranger",
+      "tacticalIdentity": "Ranged pressure, covering fire, target control",
+      "validWeaponFamilies": [
+        "BOW",
+        "SHORTBOW",
+        "LONGBOW",
+        "SPEAR"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM"
+      ],
+      "disciplineAffinities": {
+        "Martial": 75,
+        "Mystic": 40,
+        "Restoration": 35,
+        "Support": 55,
+        "Guard": 35,
+        "Tactical": 95
+      },
+      "typicalUnionPositions": [
+        "LEFT",
+        "RIGHT",
+        "REAR"
+      ],
+      "forecastIntentWeights": {
+        "TACTICAL": 145,
+        "OFFENSE": 115,
+        "AMBUSH": 120,
+        "RESCUE": 95
+      },
+      "resourceBehavior": "Moderate AP, modest MP for trick shots",
+      "learningProfile": "Learns from precision, cover, marks, terrain and objective contribution",
+      "advancedClassRoutes": [
+        "ADV_STORM_MARKSMAN",
+        "ADV_PATHFINDER_CAPTAIN",
+        "ADV_ARCANE_ARCHER"
+      ],
+      "equipmentInteractions": [
+        "equipment gates Arts rather than permanently teaching them",
+        "locked loadout slots cannot be replaced by AI"
+      ],
+      "aiPredictionRules": [
+        "prefer actions matching forecast intent",
+        "respect individual MP",
+        "fallback to basic legal action"
+      ],
+      "beginnerTrap": "Over-specializing without a complementary Union role reduces forecast diversity.",
+      "balanceLimit": "No class receives exclusive access to a core mission function forever; cross-training routes exist."
+    },
+    {
+      "id": "CLASS_ROGUE",
+      "displayName": "Rogue",
+      "tacticalIdentity": "Flanking, rear-line disruption, debuffs, opportunistic strikes",
+      "validWeaponFamilies": [
+        "DAGGER",
+        "SWORD",
+        "SHORTBOW"
+      ],
+      "armorWeights": [
+        "LIGHT"
+      ],
+      "disciplineAffinities": {
+        "Martial": 75,
+        "Mystic": 45,
+        "Restoration": 20,
+        "Support": 65,
+        "Guard": 30,
+        "Tactical": 95
+      },
+      "typicalUnionPositions": [
+        "LEFT_WING",
+        "RIGHT_WING",
+        "REAR"
+      ],
+      "forecastIntentWeights": {
+        "AMBUSH": 150,
+        "TACTICAL": 140,
+        "OFFENSE": 115,
+        "BREAK": 95
+      },
+      "resourceBehavior": "Low-to-moderate AP, selective MP",
+      "learningProfile": "Learns from rear attacks, disabling priority targets and avoiding retaliation",
+      "advancedClassRoutes": [
+        "ADV_DUSK_OPERATIVE",
+        "ADV_REARLINE_HUNTER",
+        "ADV_HEX_KNIFE"
+      ],
+      "equipmentInteractions": [
+        "equipment gates Arts rather than permanently teaching them",
+        "locked loadout slots cannot be replaced by AI"
+      ],
+      "aiPredictionRules": [
+        "prefer actions matching forecast intent",
+        "respect individual MP",
+        "fallback to basic legal action"
+      ],
+      "beginnerTrap": "Over-specializing without a complementary Union role reduces forecast diversity.",
+      "balanceLimit": "No class receives exclusive access to a core mission function forever; cross-training routes exist."
+    },
+    {
+      "id": "CLASS_MAGE",
+      "displayName": "Mage",
+      "tacticalIdentity": "Mystic damage, wards, fields, elemental control",
+      "validWeaponFamilies": [
+        "STAFF",
+        "WAND",
+        "FOCUS_TOOL"
+      ],
+      "armorWeights": [
+        "LIGHT"
+      ],
+      "disciplineAffinities": {
+        "Martial": 20,
+        "Mystic": 100,
+        "Restoration": 45,
+        "Support": 75,
+        "Guard": 25,
+        "Tactical": 55
+      },
+      "typicalUnionPositions": [
+        "FOCUS",
+        "REAR",
+        "CENTER"
+      ],
+      "forecastIntentWeights": {
+        "MYSTIC": 155,
+        "SUPPORT": 115,
+        "OFFENSE": 105,
+        "LOW_RESOURCE": 70
+      },
+      "resourceBehavior": "Personal MP is primary constraint; Union AP may remain high when exhausted",
+      "learningProfile": "Learns from effective spell interactions, counters and hitting relevant weaknesses",
+      "advancedClassRoutes": [
+        "ADV_FIELD_ARCANIST",
+        "ADV_WARD_SCHOLAR",
+        "ADV_BATTLE_MYSTIC"
+      ],
+      "equipmentInteractions": [
+        "equipment gates Arts rather than permanently teaching them",
+        "locked loadout slots cannot be replaced by AI"
+      ],
+      "aiPredictionRules": [
+        "prefer actions matching forecast intent",
+        "respect individual MP",
+        "fallback to basic legal action"
+      ],
+      "beginnerTrap": "Over-specializing without a complementary Union role reduces forecast diversity.",
+      "balanceLimit": "No class receives exclusive access to a core mission function forever; cross-training routes exist."
+    },
+    {
+      "id": "CLASS_PRIEST",
+      "displayName": "Priest",
+      "tacticalIdentity": "Healing, cleansing, morale, protection and recovery",
+      "validWeaponFamilies": [
+        "STAFF",
+        "MACE",
+        "FOCUS_TOOL"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM"
+      ],
+      "disciplineAffinities": {
+        "Martial": 30,
+        "Mystic": 60,
+        "Restoration": 100,
+        "Support": 90,
+        "Guard": 55,
+        "Tactical": 45
+      },
+      "typicalUnionPositions": [
+        "REAR",
+        "PROTECTED",
+        "CENTER"
+      ],
+      "forecastIntentWeights": {
+        "HEAL": 155,
+        "SUPPORT": 140,
+        "RESCUE": 120,
+        "GUARD": 105
+      },
+      "resourceBehavior": "Moderate MP pressure; emergency forecasts may spend aggressively",
+      "learningProfile": "Learns from meaningful healing, cleansing actual conditions and preventing losses",
+      "advancedClassRoutes": [
+        "ADV_LIFEBINDER",
+        "ADV_SANCTUARY_KEEPER",
+        "ADV_BATTLE_CHAPLAIN"
+      ],
+      "equipmentInteractions": [
+        "equipment gates Arts rather than permanently teaching them",
+        "locked loadout slots cannot be replaced by AI"
+      ],
+      "aiPredictionRules": [
+        "prefer actions matching forecast intent",
+        "respect individual MP",
+        "fallback to basic legal action"
+      ],
+      "beginnerTrap": "Over-specializing without a complementary Union role reduces forecast diversity.",
+      "balanceLimit": "No class receives exclusive access to a core mission function forever; cross-training routes exist."
+    }
+  ]
+}

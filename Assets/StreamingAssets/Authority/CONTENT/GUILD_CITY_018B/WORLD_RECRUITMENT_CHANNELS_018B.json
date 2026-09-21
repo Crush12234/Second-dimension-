@@ -1,0 +1,666 @@
+{
+  "ContentVersion": "GATES_OF_FORGOTTEN_WORLDS_018B_1.0",
+  "RecruitmentChannels": [
+    {
+      "Id": "RECRUIT_CHANNEL018B_SKYHOME_CIVIC_COUNCIL",
+      "FactionId": "FACTION018B_SKYHOME_CIVIC_COUNCIL",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "Skyhome Civic Council Applicant Channel",
+      "RequiredReputation": 20,
+      "RequiredStoryGate": "STORY_GATE_BOOK06_LAST_TREASURY",
+      "WorldId": "WORLD_SKYHOME",
+      "RaceTags": [
+        "RACE_HUMAN",
+        "RACE_GOBLIN",
+        "RACE_ORC",
+        "RACE_DEMON_HERITAGE",
+        "RACE_DOG_TRIBE"
+      ],
+      "ClassTags": [
+        "CLASS_VANGUARD",
+        "CLASS_GUARDIAN",
+        "CLASS_TACTICIAN",
+        "CLASS_ORACLE"
+      ],
+      "WeaponFamilyIds": [
+        "WEAPON_FAMILY_SWORD",
+        "WEAPON_FAMILY_SPEAR"
+      ],
+      "ProceduralOnly": true,
+      "SignatureRecruitIds": [],
+      "PermanentMembers": true,
+      "CanInvoluntarilyLeave": false,
+      "Summary": "Unlocks deterministic applicants from this faction; it is not a rarity banner or real-money gacha."
+    },
+    {
+      "Id": "RECRUIT_CHANNEL018B_SEVEN_FOUNDER_COMMAND",
+      "FactionId": "FACTION018B_SEVEN_FOUNDER_COMMAND",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "Seven Founder Command Applicant Channel",
+      "RequiredReputation": 35,
+      "RequiredStoryGate": "STORY_GATE_BOOK06_LAST_TREASURY",
+      "WorldId": "WORLD_SKYHOME",
+      "RaceTags": [
+        "RACE_HUMAN",
+        "RACE_GOBLIN",
+        "RACE_ORC",
+        "RACE_DEMON_HERITAGE",
+        "RACE_DOG_TRIBE"
+      ],
+      "ClassTags": [
+        "CLASS_GUARDIAN",
+        "CLASS_TACTICIAN",
+        "CLASS_ORACLE",
+        "CLASS_VANGUARD"
+      ],
+      "WeaponFamilyIds": [
+        "WEAPON_FAMILY_GREAT_WEAPON",
+        "WEAPON_FAMILY_BOW"
+      ],
+      "ProceduralOnly": true,
+      "SignatureRecruitIds": [],
+      "PermanentMembers": true,
+      "CanInvoluntarilyLeave": false,
+      "Summary": "Unlocks deterministic applicants from this faction; it is not a rarity banner or real-money gacha."
+    },
+    {
+      "Id": "RECRUIT_CHANNEL018B_FIRST_ARMY",
+      "FactionId": "FACTION018B_FIRST_ARMY",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "First Army Applicant Channel",
+      "RequiredReputation": 50,
+      "RequiredStoryGate": "STORY_GATE_BOOK07_GOBLIN_WAR",
+      "WorldId": "WORLD_SKYHOME_WARFRONT",
+      "RaceTags": [
+        "RACE_GOBLIN",
+        "RACE_HUMAN",
+        "RACE_ORC"
+      ],
+      "ClassTags": [
+        "CLASS_TACTICIAN",
+        "CLASS_ORACLE",
+        "CLASS_VANGUARD"
+      ],
+      "WeaponFamilyIds": [
+        "WEAPON_FAMILY_AXE",
+        "WEAPON_FAMILY_DAGGER"
+      ],
+      "ProceduralOnly": true,
+      "SignatureRecruitIds": [],
+      "PermanentMembers": true,
+      "CanInvoluntarilyLeave": false,
+      "Summary": "Unlocks deterministic applicants from this faction; it is not a rarity banner or real-money gacha."
+    },
+    {
+      "Id": "RECRUIT_CHANNEL018B_CIVIC_DEFENSE_CORPS",
+      "FactionId": "FACTION018B_CIVIC_DEFENSE_CORPS",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "Civic Defense Corps Applicant Channel",
+      "RequiredReputation": 65,
+      "RequiredStoryGate": "STORY_GATE_BOOK07_GOBLIN_WAR",
+      "WorldId": "WORLD_SKYHOME_WARFRONT",
+      "RaceTags": [
+        "RACE_GOBLIN",
+        "RACE_HUMAN",
+        "RACE_ORC"
+      ],
+      "ClassTags": [
+        "CLASS_ORACLE",
+        "CLASS_VANGUARD"
+      ],
+      "WeaponFamilyIds": [
+        "WEAPON_FAMILY_SPEAR",
+        "WEAPON_FAMILY_SHIELD"
+      ],
+      "ProceduralOnly": true,
+      "SignatureRecruitIds": [],
+      "PermanentMembers": true,
+      "CanInvoluntarilyLeave": false,
+      "Summary": "Unlocks deterministic applicants from this faction; it is not a rarity banner or real-money gacha."
+    },
+    {
+      "Id": "RECRUIT_CHANNEL018B_GOBLIN_FORTRESS_HOST",
+      "FactionId": "FACTION018B_GOBLIN_FORTRESS_HOST",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "Goblin Fortress Host Applicant Channel",
+      "RequiredReputation": 20,
+      "RequiredStoryGate": "STORY_GATE_BOOK07_GOBLIN_WAR",
+      "WorldId": "WORLD_SKYHOME_WARFRONT",
+      "RaceTags": [
+        "RACE_GOBLIN",
+        "RACE_HUMAN",
+        "RACE_ORC"
+      ],
+      "ClassTags": [
+        "CLASS_VANGUARD",
+        "CLASS_GUARDIAN",
+        "CLASS_TACTICIAN",
+        "CLASS_ORACLE"
+      ],
+      "WeaponFamilyIds": [
+        "WEAPON_FAMILY_BOW",
+        "WEAPON_FAMILY_GAUNTLET"
+      ],
+      "ProceduralOnly": true,
+      "SignatureRecruitIds": [],
+      "PermanentMembers": true,
+      "CanInvoluntarilyLeave": false,
+      "Summary": "Unlocks deterministic applicants from this faction; it is not a rarity banner or real-money gacha."
+    },
+    {
+      "Id": "RECRUIT_CHANNEL018B_FREE_GOBLIN_DEFECTORS",
+      "FactionId": "FACTION018B_FREE_GOBLIN_DEFECTORS",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "Free Goblin Defectors Applicant Channel",
+      "RequiredReputation": 35,
+      "RequiredStoryGate": "STORY_GATE_BOOK07_GOBLIN_WAR",
+      "WorldId": "WORLD_SKYHOME_WARFRONT",
+      "RaceTags": [
+        "RACE_GOBLIN",
+        "RACE_HUMAN",
+        "RACE_ORC"
+      ],
+      "ClassTags": [
+        "CLASS_GUARDIAN",
+        "CLASS_TACTICIAN",
+        "CLASS_ORACLE",
+        "CLASS_VANGUARD"
+      ],
+      "WeaponFamilyIds": [
+        "WEAPON_FAMILY_DAGGER",
+        "WEAPON_FAMILY_STAFF"
+      ],
+      "ProceduralOnly": true,
+      "SignatureRecruitIds": [],
+      "PermanentMembers": true,
+      "CanInvoluntarilyLeave": false,
+      "Summary": "Unlocks deterministic applicants from this faction; it is not a rarity banner or real-money gacha."
+    },
+    {
+      "Id": "RECRUIT_CHANNEL018B_FORTRESS_WARDENS",
+      "FactionId": "FACTION018B_FORTRESS_WARDENS",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "Fortress Wardens Applicant Channel",
+      "RequiredReputation": 50,
+      "RequiredStoryGate": "STORY_GATE_BOOK08_GOBLIN_FORTRESS",
+      "WorldId": "WORLD_GOBLIN_FORTRESS",
+      "RaceTags": [
+        "RACE_GOBLIN"
+      ],
+      "ClassTags": [
+        "CLASS_TACTICIAN",
+        "CLASS_ORACLE",
+        "CLASS_VANGUARD"
+      ],
+      "WeaponFamilyIds": [
+        "WEAPON_FAMILY_SHIELD",
+        "WEAPON_FAMILY_FOCUS"
+      ],
+      "ProceduralOnly": true,
+      "SignatureRecruitIds": [],
+      "PermanentMembers": true,
+      "CanInvoluntarilyLeave": false,
+      "Summary": "Unlocks deterministic applicants from this faction; it is not a rarity banner or real-money gacha."
+    },
+    {
+      "Id": "RECRUIT_CHANNEL018B_UNDERREALM_PRISONER_HOUSES",
+      "FactionId": "FACTION018B_UNDERREALM_PRISONER_HOUSES",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "Underrealm Prisoner Houses Applicant Channel",
+      "RequiredReputation": 65,
+      "RequiredStoryGate": "STORY_GATE_BOOK08_GOBLIN_FORTRESS",
+      "WorldId": "WORLD_GOBLIN_FORTRESS",
+      "RaceTags": [
+        "RACE_GOBLIN"
+      ],
+      "ClassTags": [
+        "CLASS_ORACLE",
+        "CLASS_VANGUARD"
+      ],
+      "WeaponFamilyIds": [
+        "WEAPON_FAMILY_GAUNTLET",
+        "WEAPON_FAMILY_ENGINEERING"
+      ],
+      "ProceduralOnly": true,
+      "SignatureRecruitIds": [],
+      "PermanentMembers": true,
+      "CanInvoluntarilyLeave": false,
+      "Summary": "Unlocks deterministic applicants from this faction; it is not a rarity banner or real-money gacha."
+    },
+    {
+      "Id": "RECRUIT_CHANNEL018B_DEEP_WARRENS_COMPACT",
+      "FactionId": "FACTION018B_DEEP_WARRENS_COMPACT",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "Deep Warrens Compact Applicant Channel",
+      "RequiredReputation": 20,
+      "RequiredStoryGate": "STORY_GATE_BOOK09_GOBLIN_WORLD",
+      "WorldId": "WORLD_GOBLIN_UNDERREALM",
+      "RaceTags": [
+        "RACE_GOBLIN"
+      ],
+      "ClassTags": [
+        "CLASS_VANGUARD",
+        "CLASS_GUARDIAN",
+        "CLASS_TACTICIAN",
+        "CLASS_ORACLE"
+      ],
+      "WeaponFamilyIds": [
+        "WEAPON_FAMILY_STAFF",
+        "WEAPON_FAMILY_HYBRID_RELIC"
+      ],
+      "ProceduralOnly": true,
+      "SignatureRecruitIds": [],
+      "PermanentMembers": true,
+      "CanInvoluntarilyLeave": false,
+      "Summary": "Unlocks deterministic applicants from this faction; it is not a rarity banner or real-money gacha."
+    },
+    {
+      "Id": "RECRUIT_CHANNEL018B_ASH_CROWN_CASTE",
+      "FactionId": "FACTION018B_ASH_CROWN_CASTE",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "Ash-Crown Caste Applicant Channel",
+      "RequiredReputation": 35,
+      "RequiredStoryGate": "STORY_GATE_BOOK09_GOBLIN_WORLD",
+      "WorldId": "WORLD_GOBLIN_UNDERREALM",
+      "RaceTags": [
+        "RACE_GOBLIN"
+      ],
+      "ClassTags": [
+        "CLASS_GUARDIAN",
+        "CLASS_TACTICIAN",
+        "CLASS_ORACLE",
+        "CLASS_VANGUARD"
+      ],
+      "WeaponFamilyIds": [
+        "WEAPON_FAMILY_FOCUS",
+        "WEAPON_FAMILY_SWORD"
+      ],
+      "ProceduralOnly": true,
+      "SignatureRecruitIds": [],
+      "PermanentMembers": true,
+      "CanInvoluntarilyLeave": false,
+      "Summary": "Unlocks deterministic applicants from this faction; it is not a rarity banner or real-money gacha."
+    },
+    {
+      "Id": "RECRUIT_CHANNEL018B_FREE_BURROW_COALITION",
+      "FactionId": "FACTION018B_FREE_BURROW_COALITION",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "Free Burrow Coalition Applicant Channel",
+      "RequiredReputation": 50,
+      "RequiredStoryGate": "STORY_GATE_BOOK09_GOBLIN_WORLD",
+      "WorldId": "WORLD_GOBLIN_UNDERREALM",
+      "RaceTags": [
+        "RACE_GOBLIN"
+      ],
+      "ClassTags": [
+        "CLASS_TACTICIAN",
+        "CLASS_ORACLE",
+        "CLASS_VANGUARD"
+      ],
+      "WeaponFamilyIds": [
+        "WEAPON_FAMILY_ENGINEERING",
+        "WEAPON_FAMILY_GREAT_WEAPON"
+      ],
+      "ProceduralOnly": true,
+      "SignatureRecruitIds": [],
+      "PermanentMembers": true,
+      "CanInvoluntarilyLeave": false,
+      "Summary": "Unlocks deterministic applicants from this faction; it is not a rarity banner or real-money gacha."
+    },
+    {
+      "Id": "RECRUIT_CHANNEL018B_REBUILDERS_CONSORTIUM",
+      "FactionId": "FACTION018B_REBUILDERS_CONSORTIUM",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Rebuilders Consortium Applicant Channel",
+      "RequiredReputation": 65,
+      "RequiredStoryGate": "STORY_GATE_BOOK10_ARCHITECT_OF_WORLDS",
+      "WorldId": "WORLD_GOBLIN_RESTORATION",
+      "RaceTags": [
+        "RACE_GOBLIN",
+        "RACE_HUMAN"
+      ],
+      "ClassTags": [
+        "CLASS_ORACLE",
+        "CLASS_VANGUARD"
+      ],
+      "WeaponFamilyIds": [
+        "WEAPON_FAMILY_HYBRID_RELIC",
+        "WEAPON_FAMILY_AXE"
+      ],
+      "ProceduralOnly": true,
+      "SignatureRecruitIds": [],
+      "PermanentMembers": true,
+      "CanInvoluntarilyLeave": false,
+      "Summary": "Unlocks deterministic applicants from this faction; it is not a rarity banner or real-money gacha."
+    },
+    {
+      "Id": "RECRUIT_CHANNEL018B_FIRST_MEMORY_SEEKERS",
+      "FactionId": "FACTION018B_FIRST_MEMORY_SEEKERS",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "First Memory Seekers Applicant Channel",
+      "RequiredReputation": 20,
+      "RequiredStoryGate": "STORY_GATE_BOOK10_ARCHITECT_OF_WORLDS",
+      "WorldId": "WORLD_GOBLIN_RESTORATION",
+      "RaceTags": [
+        "RACE_GOBLIN",
+        "RACE_HUMAN"
+      ],
+      "ClassTags": [
+        "CLASS_VANGUARD",
+        "CLASS_GUARDIAN",
+        "CLASS_TACTICIAN",
+        "CLASS_ORACLE"
+      ],
+      "WeaponFamilyIds": [
+        "WEAPON_FAMILY_SWORD",
+        "WEAPON_FAMILY_SPEAR"
+      ],
+      "ProceduralOnly": true,
+      "SignatureRecruitIds": [],
+      "PermanentMembers": true,
+      "CanInvoluntarilyLeave": false,
+      "Summary": "Unlocks deterministic applicants from this faction; it is not a rarity banner or real-money gacha."
+    },
+    {
+      "Id": "RECRUIT_CHANNEL018B_UNDERREALM_MERCHANT_LEAGUE",
+      "FactionId": "FACTION018B_UNDERREALM_MERCHANT_LEAGUE",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Underrealm Merchant League Applicant Channel",
+      "RequiredReputation": 35,
+      "RequiredStoryGate": "STORY_GATE_BOOK10_ARCHITECT_OF_WORLDS",
+      "WorldId": "WORLD_GOBLIN_RESTORATION",
+      "RaceTags": [
+        "RACE_GOBLIN",
+        "RACE_HUMAN"
+      ],
+      "ClassTags": [
+        "CLASS_GUARDIAN",
+        "CLASS_TACTICIAN",
+        "CLASS_ORACLE",
+        "CLASS_VANGUARD"
+      ],
+      "WeaponFamilyIds": [
+        "WEAPON_FAMILY_GREAT_WEAPON",
+        "WEAPON_FAMILY_BOW"
+      ],
+      "ProceduralOnly": true,
+      "SignatureRecruitIds": [],
+      "PermanentMembers": true,
+      "CanInvoluntarilyLeave": false,
+      "Summary": "Unlocks deterministic applicants from this faction; it is not a rarity banner or real-money gacha."
+    },
+    {
+      "Id": "RECRUIT_CHANNEL018B_FIRST_GATE_SURVEY_CORPS",
+      "FactionId": "FACTION018B_FIRST_GATE_SURVEY_CORPS",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "First Gate Survey Corps Applicant Channel",
+      "RequiredReputation": 50,
+      "RequiredStoryGate": "STORY_GATE_BOOK11_FIRST_GATE_ECHO",
+      "WorldId": "WORLD_FIRST_GATE_ECHO",
+      "RaceTags": [
+        "RACE_HUMAN",
+        "RACE_GOBLIN"
+      ],
+      "ClassTags": [
+        "CLASS_TACTICIAN",
+        "CLASS_ORACLE",
+        "CLASS_VANGUARD"
+      ],
+      "WeaponFamilyIds": [
+        "WEAPON_FAMILY_AXE",
+        "WEAPON_FAMILY_DAGGER"
+      ],
+      "ProceduralOnly": true,
+      "SignatureRecruitIds": [],
+      "PermanentMembers": true,
+      "CanInvoluntarilyLeave": false,
+      "Summary": "Unlocks deterministic applicants from this faction; it is not a rarity banner or real-money gacha."
+    },
+    {
+      "Id": "RECRUIT_CHANNEL018B_WORLDROAD_CARTOGRAPHERS",
+      "FactionId": "FACTION018B_WORLDROAD_CARTOGRAPHERS",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "Worldroad Cartographers Applicant Channel",
+      "RequiredReputation": 65,
+      "RequiredStoryGate": "STORY_GATE_BOOK11_FIRST_GATE_ECHO",
+      "WorldId": "WORLD_FIRST_GATE_ECHO",
+      "RaceTags": [
+        "RACE_HUMAN",
+        "RACE_GOBLIN"
+      ],
+      "ClassTags": [
+        "CLASS_ORACLE",
+        "CLASS_VANGUARD"
+      ],
+      "WeaponFamilyIds": [
+        "WEAPON_FAMILY_SPEAR",
+        "WEAPON_FAMILY_SHIELD"
+      ],
+      "ProceduralOnly": true,
+      "SignatureRecruitIds": [],
+      "PermanentMembers": true,
+      "CanInvoluntarilyLeave": false,
+      "Summary": "Unlocks deterministic applicants from this faction; it is not a rarity banner or real-money gacha."
+    },
+    {
+      "Id": "RECRUIT_CHANNEL018B_IRONROOT_CLANS",
+      "FactionId": "FACTION018B_IRONROOT_CLANS",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Ironroot Clans Applicant Channel",
+      "RequiredReputation": 20,
+      "RequiredStoryGate": "STORY_GATE_BOOK12_ORC_BLOOD_PLAINS",
+      "WorldId": "WORLD_ORC_BLOOD_PLAINS",
+      "RaceTags": [
+        "RACE_ORC"
+      ],
+      "ClassTags": [
+        "CLASS_VANGUARD",
+        "CLASS_GUARDIAN",
+        "CLASS_TACTICIAN",
+        "CLASS_ORACLE"
+      ],
+      "WeaponFamilyIds": [
+        "WEAPON_FAMILY_BOW",
+        "WEAPON_FAMILY_GAUNTLET"
+      ],
+      "ProceduralOnly": true,
+      "SignatureRecruitIds": [],
+      "PermanentMembers": true,
+      "CanInvoluntarilyLeave": false,
+      "Summary": "Unlocks deterministic applicants from this faction; it is not a rarity banner or real-money gacha."
+    },
+    {
+      "Id": "RECRUIT_CHANNEL018B_RED_SAND_CONFEDERATION",
+      "FactionId": "FACTION018B_RED_SAND_CONFEDERATION",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Red Sand Confederation Applicant Channel",
+      "RequiredReputation": 35,
+      "RequiredStoryGate": "STORY_GATE_BOOK12_ORC_BLOOD_PLAINS",
+      "WorldId": "WORLD_ORC_BLOOD_PLAINS",
+      "RaceTags": [
+        "RACE_ORC"
+      ],
+      "ClassTags": [
+        "CLASS_GUARDIAN",
+        "CLASS_TACTICIAN",
+        "CLASS_ORACLE",
+        "CLASS_VANGUARD"
+      ],
+      "WeaponFamilyIds": [
+        "WEAPON_FAMILY_DAGGER",
+        "WEAPON_FAMILY_STAFF"
+      ],
+      "ProceduralOnly": true,
+      "SignatureRecruitIds": [],
+      "PermanentMembers": true,
+      "CanInvoluntarilyLeave": false,
+      "Summary": "Unlocks deterministic applicants from this faction; it is not a rarity banner or real-money gacha."
+    },
+    {
+      "Id": "RECRUIT_CHANNEL018B_MOONFANG_PACKS",
+      "FactionId": "FACTION018B_MOONFANG_PACKS",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Moonfang Packs Applicant Channel",
+      "RequiredReputation": 50,
+      "RequiredStoryGate": "STORY_GATE_BOOK13_BEAST_MOON",
+      "WorldId": "WORLD_BEAST_MOON",
+      "RaceTags": [
+        "RACE_DOG_TRIBE",
+        "RACE_BEASTKIN"
+      ],
+      "ClassTags": [
+        "CLASS_TACTICIAN",
+        "CLASS_ORACLE",
+        "CLASS_VANGUARD"
+      ],
+      "WeaponFamilyIds": [
+        "WEAPON_FAMILY_SHIELD",
+        "WEAPON_FAMILY_FOCUS"
+      ],
+      "ProceduralOnly": true,
+      "SignatureRecruitIds": [],
+      "PermanentMembers": true,
+      "CanInvoluntarilyLeave": false,
+      "Summary": "Unlocks deterministic applicants from this faction; it is not a rarity banner or real-money gacha."
+    },
+    {
+      "Id": "RECRUIT_CHANNEL018B_VERDANT_CROWN_CIRCLES",
+      "FactionId": "FACTION018B_VERDANT_CROWN_CIRCLES",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Verdant Crown Circles Applicant Channel",
+      "RequiredReputation": 65,
+      "RequiredStoryGate": "STORY_GATE_BOOK13_BEAST_MOON",
+      "WorldId": "WORLD_BEAST_MOON",
+      "RaceTags": [
+        "RACE_DOG_TRIBE",
+        "RACE_BEASTKIN"
+      ],
+      "ClassTags": [
+        "CLASS_ORACLE",
+        "CLASS_VANGUARD"
+      ],
+      "WeaponFamilyIds": [
+        "WEAPON_FAMILY_GAUNTLET",
+        "WEAPON_FAMILY_ENGINEERING"
+      ],
+      "ProceduralOnly": true,
+      "SignatureRecruitIds": [],
+      "PermanentMembers": true,
+      "CanInvoluntarilyLeave": false,
+      "Summary": "Unlocks deterministic applicants from this faction; it is not a rarity banner or real-money gacha."
+    },
+    {
+      "Id": "RECRUIT_CHANNEL018B_ASHGLASS_COURTS",
+      "FactionId": "FACTION018B_ASHGLASS_COURTS",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Ashglass Courts Applicant Channel",
+      "RequiredReputation": 20,
+      "RequiredStoryGate": "STORY_GATE_BOOK14_DEMON_EMPIRE",
+      "WorldId": "WORLD_DEMON_EMPIRE",
+      "RaceTags": [
+        "RACE_DEMON_HERITAGE"
+      ],
+      "ClassTags": [
+        "CLASS_VANGUARD",
+        "CLASS_GUARDIAN",
+        "CLASS_TACTICIAN",
+        "CLASS_ORACLE"
+      ],
+      "WeaponFamilyIds": [
+        "WEAPON_FAMILY_STAFF",
+        "WEAPON_FAMILY_HYBRID_RELIC"
+      ],
+      "ProceduralOnly": true,
+      "SignatureRecruitIds": [],
+      "PermanentMembers": true,
+      "CanInvoluntarilyLeave": false,
+      "Summary": "Unlocks deterministic applicants from this faction; it is not a rarity banner or real-money gacha."
+    },
+    {
+      "Id": "RECRUIT_CHANNEL018B_OBSIDIAN_CHOIR_REFORMERS",
+      "FactionId": "FACTION018B_OBSIDIAN_CHOIR_REFORMERS",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Obsidian Choir Reformers Applicant Channel",
+      "RequiredReputation": 35,
+      "RequiredStoryGate": "STORY_GATE_BOOK14_DEMON_EMPIRE",
+      "WorldId": "WORLD_DEMON_EMPIRE",
+      "RaceTags": [
+        "RACE_DEMON_HERITAGE"
+      ],
+      "ClassTags": [
+        "CLASS_GUARDIAN",
+        "CLASS_TACTICIAN",
+        "CLASS_ORACLE",
+        "CLASS_VANGUARD"
+      ],
+      "WeaponFamilyIds": [
+        "WEAPON_FAMILY_FOCUS",
+        "WEAPON_FAMILY_SWORD"
+      ],
+      "ProceduralOnly": true,
+      "SignatureRecruitIds": [],
+      "PermanentMembers": true,
+      "CanInvoluntarilyLeave": false,
+      "Summary": "Unlocks deterministic applicants from this faction; it is not a rarity banner or real-money gacha."
+    },
+    {
+      "Id": "RECRUIT_CHANNEL018B_FIRST_ALLIANCE_REMNANT_NETWORK",
+      "FactionId": "FACTION018B_FIRST_ALLIANCE_REMNANT_NETWORK",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "First Alliance Remnant Network Applicant Channel",
+      "RequiredReputation": 50,
+      "RequiredStoryGate": "STORY_GATE_BOOK15_GATES_OF_FORGOTTEN_WORLDS",
+      "WorldId": "WORLD_CROSSROADS_NETWORK",
+      "RaceTags": [
+        "RACE_HUMAN",
+        "RACE_GOBLIN",
+        "RACE_ORC",
+        "RACE_DEMON_HERITAGE",
+        "RACE_DOG_TRIBE"
+      ],
+      "ClassTags": [
+        "CLASS_TACTICIAN",
+        "CLASS_ORACLE",
+        "CLASS_VANGUARD"
+      ],
+      "WeaponFamilyIds": [
+        "WEAPON_FAMILY_ENGINEERING",
+        "WEAPON_FAMILY_GREAT_WEAPON"
+      ],
+      "ProceduralOnly": true,
+      "SignatureRecruitIds": [],
+      "PermanentMembers": true,
+      "CanInvoluntarilyLeave": false,
+      "Summary": "Unlocks deterministic applicants from this faction; it is not a rarity banner or real-money gacha."
+    },
+    {
+      "Id": "RECRUIT_CHANNEL018B_SILENT_MERIDIAN_OBSERVERS",
+      "FactionId": "FACTION018B_SILENT_MERIDIAN_OBSERVERS",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "Silent Meridian Observers Applicant Channel",
+      "RequiredReputation": 65,
+      "RequiredStoryGate": "STORY_GATE_BOOK15_GATES_OF_FORGOTTEN_WORLDS",
+      "WorldId": "WORLD_CROSSROADS_NETWORK",
+      "RaceTags": [
+        "RACE_HUMAN",
+        "RACE_GOBLIN",
+        "RACE_ORC",
+        "RACE_DEMON_HERITAGE",
+        "RACE_DOG_TRIBE"
+      ],
+      "ClassTags": [
+        "CLASS_ORACLE",
+        "CLASS_VANGUARD"
+      ],
+      "WeaponFamilyIds": [
+        "WEAPON_FAMILY_HYBRID_RELIC",
+        "WEAPON_FAMILY_AXE"
+      ],
+      "ProceduralOnly": true,
+      "SignatureRecruitIds": [],
+      "PermanentMembers": true,
+      "CanInvoluntarilyLeave": false,
+      "Summary": "Unlocks deterministic applicants from this faction; it is not a rarity banner or real-money gacha."
+    }
+  ]
+}

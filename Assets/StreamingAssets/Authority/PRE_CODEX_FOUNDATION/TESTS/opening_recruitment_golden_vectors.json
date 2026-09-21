@@ -1,0 +1,2340 @@
+{
+  "applicantBoard": {
+    "applicants": [
+      {
+        "applicantRecord": {
+          "ageBandId": "ADULT",
+          "ambitionId": "AMBITION_DEFEAT_BOSS",
+          "backgroundId": "BG_TAVERN_MEDIATOR",
+          "commandBandwidth": 4,
+          "developmentPotentialScore": 742,
+          "dialogueStyleId": "VOICE_RAPID_TECHNICAL",
+          "disciplineAptitudes": {
+            "GUARD": 130,
+            "MARTIAL": 111,
+            "MYSTIC": 53,
+            "RESTORATION": 70,
+            "SUPPORT": 81,
+            "TACTICAL": 110
+          },
+          "disciplineProfileId": "DISC_FRONT_GUARD",
+          "displayName": "Gib Tinkertap",
+          "equipmentLoadout": {
+            "aggregateBonuses": {},
+            "autoEquipAllowed": false,
+            "loadoutId": "LOADOUT_PROC_C09C6123B5523C51",
+            "slots": {
+              "ACCESSORY_1": {
+                "condition": "STANDARD",
+                "instanceId": "PROC_C09C6123B5523C51_A1",
+                "itemDefinitionId": "EQ_PROC_ROUTE_CHARM",
+                "locked": false,
+                "tags": [
+                  "ACCESSORY"
+                ]
+              },
+              "ACCESSORY_2": {
+                "condition": "STANDARD",
+                "instanceId": "PROC_C09C6123B5523C51_A2",
+                "itemDefinitionId": "EQ_PROC_WAXED_STRING",
+                "locked": false,
+                "tags": [
+                  "ACCESSORY"
+                ]
+              },
+              "BODY": {
+                "condition": "STANDARD",
+                "instanceId": "PROC_C09C6123B5523C51_BODY",
+                "itemDefinitionId": "EQ_PROC_SCOUT_LEATHERS",
+                "locked": false,
+                "tags": [
+                  "ARMOR",
+                  "LIGHT",
+                  "WEATHER"
+                ]
+              },
+              "MAIN_HAND": {
+                "condition": "STANDARD",
+                "instanceId": "PROC_C09C6123B5523C51_MAIN",
+                "itemDefinitionId": "EQ_PROC_SHORTBOW",
+                "locked": false,
+                "tags": [
+                  "WEAPON",
+                  "BOW",
+                  "SHORTBOW"
+                ]
+              },
+              "OFF_HAND": {
+                "condition": "STANDARD",
+                "instanceId": "PROC_C09C6123B5523C51_OFF",
+                "itemDefinitionId": "EQ_PROC_TRAIL_KIT",
+                "locked": false,
+                "tags": [
+                  "OFFHAND",
+                  "TOOL"
+                ]
+              },
+              "TOOL_RELIC": null
+            }
+          },
+          "fearId": "FEAR_BLOOD",
+          "generationSeed": "7E4AE4C906D8B172:428E853E9040F056",
+          "growthPatternId": "GROWTH_TRUE_LATE_BLOOMER",
+          "hiddenTraitId": "HIDDEN_MENTORS_HEIR",
+          "hiddenTraitRevealed": false,
+          "homeCommunityId": "WATERWORKS",
+          "leadershipScore": 53,
+          "leadershipTendencyId": "LEAD_RELUCTANT_SERVICE",
+          "personalEventHookId": "HOOK_STOLEN_CREDIT",
+          "pronounId": "SHE_HER",
+          "raceId": "GOBLIN",
+          "recruitId": "PROC_C09C6123B5523C51",
+          "relationshipTendencyId": "REL_CROSS_CULTURE",
+          "signatureId": null,
+          "signingCostXp": 97,
+          "sourceType": "PROCEDURAL",
+          "startingArtIds": [
+            "ART_BASIC_SHOT",
+            "ART_GUARD",
+            "ART_PINNING_SHOT"
+          ],
+          "startingClassId": "CLASS_RANGER",
+          "statTendencies": {
+            "AGI": {
+              "baseIndex": 110,
+              "growthBias": 139
+            },
+            "DEF": {
+              "baseIndex": 83,
+              "growthBias": 129
+            },
+            "HP": {
+              "baseIndex": 87,
+              "growthBias": 136
+            },
+            "MAGIC": {
+              "baseIndex": 64,
+              "growthBias": 141
+            },
+            "STR": {
+              "baseIndex": 96,
+              "growthBias": 137
+            },
+            "WILL": {
+              "baseIndex": 116,
+              "growthBias": 143
+            }
+          },
+          "variantFlags": [
+            "GOBLIN_WIRY",
+            "DEEP_MOSS",
+            "BRAID",
+            "WHITE",
+            "AMBER",
+            "EAR_LONG",
+            "HEALER",
+            "NECKLACE"
+          ],
+          "visibleTraitIds": [
+            "TRAIT_DISCIPLINED",
+            "TRAIT_VENGEFUL"
+          ],
+          "visualSeed": "D5AC672835778E806686F824",
+          "weaponAptitudeProfileId": "WEAPON_PROFILE_SHORTBOW_KIT",
+          "weaponAptitudes": {
+            "BOW": 115,
+            "REMEDY_KIT": 127
+          }
+        },
+        "guaranteed": true,
+        "recruitId": "PROC_C09C6123B5523C51",
+        "scoutingReport": {
+          "backgroundId": "BG_TAVERN_MEDIATOR",
+          "disciplineEstimates": {
+            "GUARD": {
+              "estimatedRange": [
+                110,
+                144
+              ],
+              "label": "EXCEPTIONAL"
+            },
+            "MARTIAL": {
+              "estimatedRange": [
+                99,
+                133
+              ],
+              "label": "STRONG"
+            },
+            "MYSTIC": {
+              "estimatedRange": [
+                35,
+                65
+              ],
+              "label": "LIMITED"
+            },
+            "RESTORATION": {
+              "estimatedRange": [
+                66,
+                100
+              ],
+              "label": "DEVELOPING"
+            },
+            "SUPPORT": {
+              "estimatedRange": [
+                51,
+                85
+              ],
+              "label": "LIMITED"
+            },
+            "TACTICAL": {
+              "estimatedRange": [
+                105,
+                139
+              ],
+              "label": "EXCEPTIONAL"
+            }
+          },
+          "displayName": "Gib Tinkertap",
+          "exactPotentialDisplayed": false,
+          "growthAssessment": "UNREMARKABLE_NOW",
+          "hiddenDataWithheld": true,
+          "hiddenTraitRevealed": false,
+          "homeCommunityId": "WATERWORKS",
+          "leadershipEstimate": {
+            "confidence": 57,
+            "range": [
+              36,
+              70
+            ]
+          },
+          "qualityProfile": "STEADY_OR_SPECIALIZED",
+          "raceId": "GOBLIN",
+          "recruitId": "PROC_C09C6123B5523C51",
+          "scoutingAccuracy": 57,
+          "startingClassId": "CLASS_RANGER",
+          "visibleTraitIds": [
+            "TRAIT_DISCIPLINED",
+            "TRAIT_VENGEFUL"
+          ]
+        },
+        "signatureId": null,
+        "signingCostXp": 97,
+        "slotIndex": 0,
+        "sourceChannel": "GUILD_BOARD",
+        "sourceType": "PROCEDURAL"
+      },
+      {
+        "applicantRecord": {
+          "ageBandId": "YOUNG_ADULT",
+          "ambitionId": "AMBITION_NO_ONE_LEFT_AT_GATE",
+          "backgroundId": "BG_GATE_WATCH_AUXILIARY",
+          "commandBandwidth": 4,
+          "developmentPotentialScore": 639,
+          "dialogueStyleId": "VOICE_DIRECT_WARM",
+          "disciplineAptitudes": {
+            "GUARD": 132,
+            "MARTIAL": 108,
+            "MYSTIC": 65,
+            "RESTORATION": 76,
+            "SUPPORT": 92,
+            "TACTICAL": 104
+          },
+          "disciplineProfileId": "SIGNATURE_CUSTOM",
+          "displayName": "Maren Holt",
+          "equipmentLoadout": {
+            "aggregateBonuses": {
+              "COHESION": 2,
+              "DEF": 4
+            },
+            "autoEquipAllowed": false,
+            "loadoutId": "LOADOUT_SIGI_6EDD1E84682CF7A9",
+            "slots": {
+              "ACCESSORY_1": {
+                "condition": "WORN",
+                "instanceId": "SIGI_6EDD1E84682CF7A9_ACCESSORY_1",
+                "itemDefinitionId": "EQ_COPPER_WHISTLE",
+                "locked": false,
+                "tags": [
+                  "ACCESSORY"
+                ]
+              },
+              "ACCESSORY_2": {
+                "condition": "WORN",
+                "instanceId": "SIGI_6EDD1E84682CF7A9_ACCESSORY_2",
+                "itemDefinitionId": "EQ_FAMILY_THREAD",
+                "locked": false,
+                "tags": [
+                  "ACCESSORY"
+                ]
+              },
+              "BODY": {
+                "condition": "WORN",
+                "instanceId": "SIGI_6EDD1E84682CF7A9_BODY",
+                "itemDefinitionId": "EQ_GATEWARD_PADDED_COAT",
+                "locked": false,
+                "tags": [
+                  "ARMOR",
+                  "MEDIUM"
+                ]
+              },
+              "MAIN_HAND": {
+                "condition": "WORN",
+                "instanceId": "SIGI_6EDD1E84682CF7A9_MAIN_HAND",
+                "itemDefinitionId": "EQ_GATE_IRON_SPEAR",
+                "locked": false,
+                "tags": [
+                  "WEAPON",
+                  "SPEAR",
+                  "REACH"
+                ]
+              },
+              "OFF_HAND": {
+                "condition": "WORN",
+                "instanceId": "SIGI_6EDD1E84682CF7A9_OFF_HAND",
+                "itemDefinitionId": "EQ_REPAIRED_ROUND_SHIELD",
+                "locked": false,
+                "tags": [
+                  "OFFHAND",
+                  "SHIELD"
+                ]
+              },
+              "TOOL_RELIC": null
+            }
+          },
+          "fearId": "FEAR_FAILED_EVACUATION",
+          "generationSeed": "C3C89E16DE2CEB7F:D2563C40A901903A",
+          "growthPatternId": "GROWTH_STEADY_VANGUARD",
+          "hiddenTraitId": "HIDDEN_CLEAR_ORDERS",
+          "hiddenTraitRevealed": false,
+          "homeCommunityId": "SKYHOME_GATEWARD",
+          "leadershipScore": 76,
+          "leadershipTendencyId": "LEAD_STEADY_EXAMPLE",
+          "personalEventHookId": "QUEST_THE_THIRD_BELL",
+          "pronounId": "SHE_HER",
+          "raceId": "HUMAN",
+          "recruitId": "SIGI_6EDD1E84682CF7A9",
+          "relationshipTendencyId": "SIGNATURE_CUSTOM",
+          "signatureId": "SIG_W01_01",
+          "signingCostXp": 100,
+          "sourceType": "SIGNATURE",
+          "startingArtIds": [
+            "ART_BASIC_THRUST",
+            "ART_GUARD",
+            "ART_SHIELD_BRACE",
+            "ART_INTERCEPT_STEP"
+          ],
+          "startingClassId": "CLASS_GUARDIAN",
+          "statTendencies": {
+            "AGI": {
+              "baseIndex": 92,
+              "growthBias": 98
+            },
+            "DEF": {
+              "baseIndex": 118,
+              "growthBias": 112
+            },
+            "HP": {
+              "baseIndex": 112,
+              "growthBias": 108
+            },
+            "MAGIC": {
+              "baseIndex": 62,
+              "growthBias": 80
+            },
+            "STR": {
+              "baseIndex": 96,
+              "growthBias": 100
+            },
+            "WILL": {
+              "baseIndex": 106,
+              "growthBias": 108
+            }
+          },
+          "variantFlags": [
+            "START_LEVEL_3",
+            "EQUIPMENT_WORN",
+            "SECONDARY_TRAIT_COMPETITIVE",
+            "GROWTH_VARIANCE_-1"
+          ],
+          "visibleTraitIds": [
+            "TRAIT_PROTECTIVE",
+            "TRAIT_COMPETITIVE"
+          ],
+          "visualSeed": "860E1F32FA3CC6E1A43B8D07",
+          "weaponAptitudeProfileId": "SIGNATURE_CUSTOM",
+          "weaponAptitudes": {
+            "SHIELD": 150,
+            "SPEAR": 130,
+            "SWORD": 80
+          }
+        },
+        "guaranteed": true,
+        "recruitId": "SIGI_6EDD1E84682CF7A9",
+        "scoutingReport": {
+          "backgroundId": "BG_GATE_WATCH_AUXILIARY",
+          "disciplineEstimates": {
+            "GUARD": {
+              "estimatedRange": [
+                104,
+                138
+              ],
+              "label": "EXCEPTIONAL"
+            },
+            "MARTIAL": {
+              "estimatedRange": [
+                101,
+                135
+              ],
+              "label": "STRONG"
+            },
+            "MYSTIC": {
+              "estimatedRange": [
+                41,
+                75
+              ],
+              "label": "LIMITED"
+            },
+            "RESTORATION": {
+              "estimatedRange": [
+                48,
+                82
+              ],
+              "label": "LIMITED"
+            },
+            "SUPPORT": {
+              "estimatedRange": [
+                74,
+                108
+              ],
+              "label": "CAPABLE"
+            },
+            "TACTICAL": {
+              "estimatedRange": [
+                81,
+                115
+              ],
+              "label": "CAPABLE"
+            }
+          },
+          "displayName": "Maren Holt",
+          "exactPotentialDisplayed": false,
+          "growthAssessment": "AUTHORED_DEVELOPMENT_PATTERN",
+          "hiddenDataWithheld": true,
+          "hiddenTraitRevealed": false,
+          "homeCommunityId": "SKYHOME_GATEWARD",
+          "leadershipEstimate": {
+            "confidence": 57,
+            "range": [
+              59,
+              93
+            ]
+          },
+          "qualityProfile": "STEADY_OR_SPECIALIZED",
+          "raceId": "HUMAN",
+          "recruitId": "SIGI_6EDD1E84682CF7A9",
+          "scoutingAccuracy": 57,
+          "startingClassId": "CLASS_GUARDIAN",
+          "visibleTraitIds": [
+            "TRAIT_PROTECTIVE",
+            "TRAIT_COMPETITIVE"
+          ]
+        },
+        "signatureId": "SIG_W01_01",
+        "signingCostXp": 100,
+        "slotIndex": 1,
+        "sourceChannel": "REFERRAL",
+        "sourceType": "SIGNATURE"
+      },
+      {
+        "applicantRecord": {
+          "ageBandId": "ADULT",
+          "ambitionId": "AMBITION_PUBLIC_WARD_SCHOOL",
+          "backgroundId": "BG_ARCANE_BAILIFF",
+          "commandBandwidth": 4,
+          "developmentPotentialScore": 696,
+          "dialogueStyleId": "VOICE_FORMAL_CONTROLLED",
+          "disciplineAptitudes": {
+            "GUARD": 122,
+            "MARTIAL": 108,
+            "MYSTIC": 132,
+            "RESTORATION": 72,
+            "SUPPORT": 102,
+            "TACTICAL": 96
+          },
+          "disciplineProfileId": "SIGNATURE_CUSTOM",
+          "displayName": "Veyra Ashglass",
+          "equipmentLoadout": {
+            "aggregateBonuses": {
+              "DEF": 3,
+              "MAGIC": 3,
+              "MAGIC_RESIST": 6
+            },
+            "autoEquipAllowed": false,
+            "loadoutId": "LOADOUT_SIGI_ADA7FB1F8B67B1B7",
+            "slots": {
+              "ACCESSORY_1": {
+                "condition": "STANDARD",
+                "instanceId": "SIGI_ADA7FB1F8B67B1B7_ACCESSORY_1",
+                "itemDefinitionId": "EQ_OATH_SHARD",
+                "locked": false,
+                "tags": [
+                  "ACCESSORY"
+                ]
+              },
+              "ACCESSORY_2": {
+                "condition": "STANDARD",
+                "instanceId": "SIGI_ADA7FB1F8B67B1B7_ACCESSORY_2",
+                "itemDefinitionId": "EQ_COOLING_CHAIN",
+                "locked": false,
+                "tags": [
+                  "ACCESSORY"
+                ]
+              },
+              "BODY": {
+                "condition": "STANDARD",
+                "instanceId": "SIGI_ADA7FB1F8B67B1B7_BODY",
+                "itemDefinitionId": "EQ_ENCLAVE_BAILIFF_COAT",
+                "locked": false,
+                "tags": [
+                  "ARMOR",
+                  "MEDIUM",
+                  "MAGIC_RESIST"
+                ]
+              },
+              "MAIN_HAND": {
+                "condition": "STANDARD",
+                "instanceId": "SIGI_ADA7FB1F8B67B1B7_MAIN_HAND",
+                "itemDefinitionId": "EQ_ASHGLASS_SABER",
+                "locked": false,
+                "tags": [
+                  "WEAPON",
+                  "SWORD",
+                  "ARCANE_CONDUCTOR"
+                ]
+              },
+              "OFF_HAND": {
+                "condition": "STANDARD",
+                "instanceId": "SIGI_ADA7FB1F8B67B1B7_OFF_HAND",
+                "itemDefinitionId": "EQ_TRANSPARENT_WARD_BUCKLER",
+                "locked": false,
+                "tags": [
+                  "OFFHAND",
+                  "SHIELD",
+                  "FOCUS"
+                ]
+              },
+              "TOOL_RELIC": null
+            }
+          },
+          "fearId": "FEAR_LOSS_OF_CONTROL",
+          "generationSeed": "5342F4D6ACC67D7B:D432E443BCC7D29D",
+          "growthPatternId": "GROWTH_UNUSUAL_HYBRID",
+          "hiddenTraitId": "HIDDEN_WARD_BLADE_CIRCUIT",
+          "hiddenTraitRevealed": false,
+          "homeCommunityId": "ASHGLASS_ENCLAVE",
+          "leadershipScore": 68,
+          "leadershipTendencyId": "LEAD_FORMAL_RESTRAINT",
+          "personalEventHookId": "QUEST_THE_WARD_THAT_HELD",
+          "pronounId": "SHE_HER",
+          "raceId": "DEMON_HERITAGE",
+          "recruitId": "SIGI_ADA7FB1F8B67B1B7",
+          "relationshipTendencyId": "SIGNATURE_CUSTOM",
+          "signatureId": "SIG_W01_05",
+          "signingCostXp": 85,
+          "sourceType": "SIGNATURE",
+          "startingArtIds": [
+            "ART_BASIC_SABER_CUT",
+            "ART_GUARD",
+            "ART_ARCANE_GUARD",
+            "ART_RUNE_EDGE"
+          ],
+          "startingClassId": "CLASS_GUARDIAN",
+          "statTendencies": {
+            "AGI": {
+              "baseIndex": 98,
+              "growthBias": 104
+            },
+            "DEF": {
+              "baseIndex": 112,
+              "growthBias": 110
+            },
+            "HP": {
+              "baseIndex": 104,
+              "growthBias": 106
+            },
+            "MAGIC": {
+              "baseIndex": 124,
+              "growthBias": 116
+            },
+            "STR": {
+              "baseIndex": 100,
+              "growthBias": 102
+            },
+            "WILL": {
+              "baseIndex": 118,
+              "growthBias": 110
+            }
+          },
+          "variantFlags": [
+            "START_LEVEL_1",
+            "EQUIPMENT_STANDARD",
+            "SECONDARY_TRAIT_NURTURING",
+            "GROWTH_VARIANCE_-4"
+          ],
+          "visibleTraitIds": [
+            "TRAIT_DISCIPLINED",
+            "TRAIT_NURTURING"
+          ],
+          "visualSeed": "E440D1AA043650C107482679",
+          "weaponAptitudeProfileId": "SIGNATURE_CUSTOM",
+          "weaponAptitudes": {
+            "FOCUS_TOOL": 110,
+            "SWORD": 125,
+            "WARD_BUCKLER": 150
+          }
+        },
+        "guaranteed": false,
+        "recruitId": "SIGI_ADA7FB1F8B67B1B7",
+        "scoutingReport": {
+          "backgroundId": "BG_ARCANE_BAILIFF",
+          "disciplineEstimates": {
+            "GUARD": {
+              "estimatedRange": [
+                90,
+                124
+              ],
+              "label": "STRONG"
+            },
+            "MARTIAL": {
+              "estimatedRange": [
+                96,
+                130
+              ],
+              "label": "STRONG"
+            },
+            "MYSTIC": {
+              "estimatedRange": [
+                117,
+                151
+              ],
+              "label": "EXCEPTIONAL"
+            },
+            "RESTORATION": {
+              "estimatedRange": [
+                45,
+                79
+              ],
+              "label": "LIMITED"
+            },
+            "SUPPORT": {
+              "estimatedRange": [
+                74,
+                108
+              ],
+              "label": "CAPABLE"
+            },
+            "TACTICAL": {
+              "estimatedRange": [
+                68,
+                102
+              ],
+              "label": "DEVELOPING"
+            }
+          },
+          "displayName": "Veyra Ashglass",
+          "exactPotentialDisplayed": false,
+          "growthAssessment": "AUTHORED_DEVELOPMENT_PATTERN",
+          "hiddenDataWithheld": true,
+          "hiddenTraitRevealed": false,
+          "homeCommunityId": "ASHGLASS_ENCLAVE",
+          "leadershipEstimate": {
+            "confidence": 57,
+            "range": [
+              51,
+              85
+            ]
+          },
+          "qualityProfile": "PROMISING",
+          "raceId": "DEMON_HERITAGE",
+          "recruitId": "SIGI_ADA7FB1F8B67B1B7",
+          "scoutingAccuracy": 57,
+          "startingClassId": "CLASS_GUARDIAN",
+          "visibleTraitIds": [
+            "TRAIT_DISCIPLINED",
+            "TRAIT_NURTURING"
+          ]
+        },
+        "signatureId": "SIG_W01_05",
+        "signingCostXp": 85,
+        "slotIndex": 2,
+        "sourceChannel": "GUILD_BOARD",
+        "sourceType": "SIGNATURE"
+      },
+      {
+        "applicantRecord": {
+          "ageBandId": "ADULT",
+          "ambitionId": "AMBITION_ROAD_HOME_FROM_ANY_WORLD",
+          "backgroundId": "BG_ROUTE_CAPTAIN",
+          "commandBandwidth": 5,
+          "developmentPotentialScore": 678,
+          "dialogueStyleId": "VOICE_DRY_COMMAND",
+          "disciplineAptitudes": {
+            "GUARD": 122,
+            "MARTIAL": 106,
+            "MYSTIC": 70,
+            "RESTORATION": 82,
+            "SUPPORT": 120,
+            "TACTICAL": 146
+          },
+          "disciplineProfileId": "SIGNATURE_CUSTOM",
+          "displayName": "Tala Stormroad",
+          "equipmentLoadout": {
+            "aggregateBonuses": {
+              "AGI": 3,
+              "COMMAND": 7,
+              "TACTICAL": 4
+            },
+            "autoEquipAllowed": false,
+            "loadoutId": "LOADOUT_SIGI_4BB378B59C778818",
+            "slots": {
+              "ACCESSORY_1": {
+                "condition": "WORN",
+                "instanceId": "SIGI_4BB378B59C778818_ACCESSORY_1",
+                "itemDefinitionId": "EQ_ROUTE_COUNCIL_MARK",
+                "locked": false,
+                "tags": [
+                  "ACCESSORY"
+                ]
+              },
+              "ACCESSORY_2": {
+                "condition": "WORN",
+                "instanceId": "SIGI_4BB378B59C778818_ACCESSORY_2",
+                "itemDefinitionId": "EQ_RETURN_BELL",
+                "locked": false,
+                "tags": [
+                  "ACCESSORY"
+                ]
+              },
+              "BODY": {
+                "condition": "WORN",
+                "instanceId": "SIGI_4BB378B59C778818_BODY",
+                "itemDefinitionId": "EQ_STORM_CAPTAIN_CLOAK",
+                "locked": false,
+                "tags": [
+                  "ARMOR",
+                  "LIGHT",
+                  "WEATHER"
+                ]
+              },
+              "MAIN_HAND": {
+                "condition": "WORN",
+                "instanceId": "SIGI_4BB378B59C778818_MAIN_HAND",
+                "itemDefinitionId": "EQ_STORMROAD_LONGBOW",
+                "locked": false,
+                "tags": [
+                  "WEAPON",
+                  "LONGBOW",
+                  "RANGED"
+                ]
+              },
+              "OFF_HAND": {
+                "condition": "WORN",
+                "instanceId": "SIGI_4BB378B59C778818_OFF_HAND",
+                "itemDefinitionId": "EQ_ROUTE_SIGNAL_KIT",
+                "locked": false,
+                "tags": [
+                  "OFFHAND",
+                  "SIGNAL_KIT",
+                  "COMMAND"
+                ]
+              },
+              "TOOL_RELIC": {
+                "condition": "WORN",
+                "instanceId": "SIGI_4BB378B59C778818_TOOL_RELIC",
+                "itemDefinitionId": "EQ_FOLDING_ROUTE_MAP",
+                "locked": false,
+                "tags": [
+                  "TOOL",
+                  "RELIC_COMPATIBLE"
+                ]
+              }
+            }
+          },
+          "fearId": "FEAR_WRONG_RETREAT",
+          "generationSeed": "65B05B01EB3429C3:1D710E558B8AE10C",
+          "growthPatternId": "GROWTH_NATURAL_LEADER",
+          "hiddenTraitId": "HIDDEN_ROUTE_AUTHORITY",
+          "hiddenTraitRevealed": false,
+          "homeCommunityId": "STORMROAD_CAMP",
+          "leadershipScore": 94,
+          "leadershipTendencyId": "LEAD_ROUTE_AUTHORITY",
+          "personalEventHookId": "QUEST_THE_ROUTE_THAT_RETURNED_EMPTY",
+          "pronounId": "SHE_HER",
+          "raceId": "DOG_TRIBE",
+          "recruitId": "SIGI_4BB378B59C778818",
+          "relationshipTendencyId": "SIGNATURE_CUSTOM",
+          "signatureId": "SIG_W01_07",
+          "signingCostXp": 94,
+          "sourceType": "SIGNATURE",
+          "startingArtIds": [
+            "ART_BASIC_LONGBOW_SHOT",
+            "ART_GUARD",
+            "ART_ROUTE_ORDER",
+            "ART_COVERING_VOLLEY"
+          ],
+          "startingClassId": "CLASS_RANGER",
+          "statTendencies": {
+            "AGI": {
+              "baseIndex": 120,
+              "growthBias": 110
+            },
+            "DEF": {
+              "baseIndex": 98,
+              "growthBias": 104
+            },
+            "HP": {
+              "baseIndex": 102,
+              "growthBias": 104
+            },
+            "MAGIC": {
+              "baseIndex": 68,
+              "growthBias": 82
+            },
+            "STR": {
+              "baseIndex": 92,
+              "growthBias": 98
+            },
+            "WILL": {
+              "baseIndex": 124,
+              "growthBias": 112
+            }
+          },
+          "variantFlags": [
+            "START_LEVEL_2",
+            "EQUIPMENT_WORN",
+            "SECONDARY_TRAIT_RESOURCEFUL",
+            "GROWTH_VARIANCE_-2"
+          ],
+          "visibleTraitIds": [
+            "TRAIT_DECISIVE",
+            "TRAIT_RESOURCEFUL"
+          ],
+          "visualSeed": "6CD9215804534153E26DB54A",
+          "weaponAptitudeProfileId": "SIGNATURE_CUSTOM",
+          "weaponAptitudes": {
+            "LONGBOW": 140,
+            "SHORT_SPEAR": 95,
+            "SIGNAL_KIT": 135
+          }
+        },
+        "guaranteed": false,
+        "recruitId": "SIGI_4BB378B59C778818",
+        "scoutingReport": {
+          "backgroundId": "BG_ROUTE_CAPTAIN",
+          "disciplineEstimates": {
+            "GUARD": {
+              "estimatedRange": [
+                115,
+                149
+              ],
+              "label": "EXCEPTIONAL"
+            },
+            "MARTIAL": {
+              "estimatedRange": [
+                95,
+                129
+              ],
+              "label": "STRONG"
+            },
+            "MYSTIC": {
+              "estimatedRange": [
+                56,
+                90
+              ],
+              "label": "LIMITED"
+            },
+            "RESTORATION": {
+              "estimatedRange": [
+                59,
+                93
+              ],
+              "label": "DEVELOPING"
+            },
+            "SUPPORT": {
+              "estimatedRange": [
+                105,
+                139
+              ],
+              "label": "EXCEPTIONAL"
+            },
+            "TACTICAL": {
+              "estimatedRange": [
+                128,
+                162
+              ],
+              "label": "RARE_APTITUDE"
+            }
+          },
+          "displayName": "Tala Stormroad",
+          "exactPotentialDisplayed": false,
+          "growthAssessment": "COMMANDS_ATTENTION",
+          "hiddenDataWithheld": true,
+          "hiddenTraitRevealed": false,
+          "homeCommunityId": "STORMROAD_CAMP",
+          "leadershipEstimate": {
+            "confidence": 57,
+            "range": [
+              77,
+              100
+            ]
+          },
+          "qualityProfile": "UNUSUAL_MEASUREMENTS",
+          "raceId": "DOG_TRIBE",
+          "recruitId": "SIGI_4BB378B59C778818",
+          "scoutingAccuracy": 57,
+          "startingClassId": "CLASS_RANGER",
+          "visibleTraitIds": [
+            "TRAIT_DECISIVE",
+            "TRAIT_RESOURCEFUL"
+          ]
+        },
+        "signatureId": "SIG_W01_07",
+        "signingCostXp": 94,
+        "slotIndex": 3,
+        "sourceChannel": "GUILD_BOARD",
+        "sourceType": "SIGNATURE"
+      },
+      {
+        "applicantRecord": {
+          "ageBandId": "LATE_TEEN",
+          "ambitionId": "AMBITION_FOUND_WORKSHOP",
+          "backgroundId": "BG_COURIER",
+          "commandBandwidth": 5,
+          "developmentPotentialScore": 673,
+          "dialogueStyleId": "VOICE_PRACTICAL_LISTS",
+          "disciplineAptitudes": {
+            "GUARD": 117,
+            "MARTIAL": 100,
+            "MYSTIC": 57,
+            "RESTORATION": 79,
+            "SUPPORT": 125,
+            "TACTICAL": 143
+          },
+          "disciplineProfileId": "DISC_COMMAND_SCOUT",
+          "displayName": "Nali Softpaw",
+          "equipmentLoadout": {
+            "aggregateBonuses": {},
+            "autoEquipAllowed": false,
+            "loadoutId": "LOADOUT_PROC_7841AE5FF349719E",
+            "slots": {
+              "ACCESSORY_1": {
+                "condition": "STANDARD",
+                "instanceId": "PROC_7841AE5FF349719E_A1",
+                "itemDefinitionId": "EQ_PROC_HERB_TAG",
+                "locked": false,
+                "tags": [
+                  "ACCESSORY"
+                ]
+              },
+              "ACCESSORY_2": {
+                "condition": "STANDARD",
+                "instanceId": "PROC_7841AE5FF349719E_A2",
+                "itemDefinitionId": "EQ_PROC_SCENT_CLOTH",
+                "locked": false,
+                "tags": [
+                  "ACCESSORY"
+                ]
+              },
+              "BODY": {
+                "condition": "STANDARD",
+                "instanceId": "PROC_7841AE5FF349719E_BODY",
+                "itemDefinitionId": "EQ_PROC_TRAIL_LEATHERS",
+                "locked": false,
+                "tags": [
+                  "ARMOR",
+                  "LIGHT",
+                  "WEATHER"
+                ]
+              },
+              "MAIN_HAND": {
+                "condition": "STANDARD",
+                "instanceId": "PROC_7841AE5FF349719E_MAIN",
+                "itemDefinitionId": "EQ_PROC_TRAIL_BOW",
+                "locked": false,
+                "tags": [
+                  "WEAPON",
+                  "BOW",
+                  "SHORTBOW"
+                ]
+              },
+              "OFF_HAND": {
+                "condition": "STANDARD",
+                "instanceId": "PROC_7841AE5FF349719E_OFF",
+                "itemDefinitionId": "EQ_PROC_TONIC_SATCHEL",
+                "locked": false,
+                "tags": [
+                  "OFFHAND",
+                  "REMEDY_KIT",
+                  "ALCHEMY"
+                ]
+              },
+              "TOOL_RELIC": null
+            }
+          },
+          "fearId": "FEAR_ABANDONMENT",
+          "generationSeed": "D5F0FEBF7688FA67:A7C6ED104FF123C9",
+          "growthPatternId": "GROWTH_ADAPTIVE_GENERALIST",
+          "hiddenTraitId": "HIDDEN_RESOURCE_SAVANT",
+          "hiddenTraitRevealed": false,
+          "homeCommunityId": "STORMROAD_CAMP",
+          "leadershipScore": 77,
+          "leadershipTendencyId": "LEAD_CONSENSUS",
+          "personalEventHookId": "HOOK_SECRET_DEBT",
+          "pronounId": "THEY_THEM",
+          "raceId": "DOG_TRIBE",
+          "recruitId": "PROC_7841AE5FF349719E",
+          "relationshipTendencyId": "REL_FORGIVENESS_PATH",
+          "signatureId": null,
+          "signingCostXp": 84,
+          "sourceType": "PROCEDURAL",
+          "startingArtIds": [
+            "ART_BASIC_SHOT",
+            "ART_GUARD",
+            "ART_FIELD_TONIC"
+          ],
+          "startingClassId": "CLASS_RANGER",
+          "statTendencies": {
+            "AGI": {
+              "baseIndex": 110,
+              "growthBias": 118
+            },
+            "DEF": {
+              "baseIndex": 71,
+              "growthBias": 106
+            },
+            "HP": {
+              "baseIndex": 85,
+              "growthBias": 120
+            },
+            "MAGIC": {
+              "baseIndex": 85,
+              "growthBias": 105
+            },
+            "STR": {
+              "baseIndex": 91,
+              "growthBias": 108
+            },
+            "WILL": {
+              "baseIndex": 104,
+              "growthBias": 119
+            }
+          },
+          "variantFlags": [
+            "DOG_TRIBE_ATHLETIC",
+            "CREAM",
+            "LONG",
+            "FUR_MATCH",
+            "BLUE",
+            "EAR_MIXED",
+            "SIGNALER",
+            "GLOVES"
+          ],
+          "visibleTraitIds": [
+            "TRAIT_EMPATHETIC",
+            "TRAIT_CALM"
+          ],
+          "visualSeed": "7696B70BEF07F43E18AB8B40",
+          "weaponAptitudeProfileId": "WEAPON_PROFILE_SHORTBOW_KIT",
+          "weaponAptitudes": {
+            "BOW": 122,
+            "REMEDY_KIT": 123
+          }
+        },
+        "guaranteed": false,
+        "recruitId": "PROC_7841AE5FF349719E",
+        "scoutingReport": {
+          "backgroundId": "BG_COURIER",
+          "disciplineEstimates": {
+            "GUARD": {
+              "estimatedRange": [
+                99,
+                133
+              ],
+              "label": "STRONG"
+            },
+            "MARTIAL": {
+              "estimatedRange": [
+                77,
+                111
+              ],
+              "label": "CAPABLE"
+            },
+            "MYSTIC": {
+              "estimatedRange": [
+                35,
+                59
+              ],
+              "label": "LIMITED"
+            },
+            "RESTORATION": {
+              "estimatedRange": [
+                53,
+                87
+              ],
+              "label": "LIMITED"
+            },
+            "SUPPORT": {
+              "estimatedRange": [
+                110,
+                144
+              ],
+              "label": "EXCEPTIONAL"
+            },
+            "TACTICAL": {
+              "estimatedRange": [
+                142,
+                165
+              ],
+              "label": "RARE_APTITUDE"
+            }
+          },
+          "displayName": "Nali Softpaw",
+          "exactPotentialDisplayed": false,
+          "growthAssessment": "BROAD_OPTIONS",
+          "hiddenDataWithheld": true,
+          "hiddenTraitRevealed": false,
+          "homeCommunityId": "STORMROAD_CAMP",
+          "leadershipEstimate": {
+            "confidence": 57,
+            "range": [
+              60,
+              94
+            ]
+          },
+          "qualityProfile": "PROMISING",
+          "raceId": "DOG_TRIBE",
+          "recruitId": "PROC_7841AE5FF349719E",
+          "scoutingAccuracy": 57,
+          "startingClassId": "CLASS_RANGER",
+          "visibleTraitIds": [
+            "TRAIT_EMPATHETIC",
+            "TRAIT_CALM"
+          ]
+        },
+        "signatureId": null,
+        "signingCostXp": 84,
+        "slotIndex": 4,
+        "sourceChannel": "GUILD_BOARD",
+        "sourceType": "PROCEDURAL"
+      },
+      {
+        "applicantRecord": {
+          "ageBandId": "OLDER_ADULT",
+          "ambitionId": "AMBITION_BUILD_GUILD_HALL",
+          "backgroundId": "BG_KITCHEN_HAND",
+          "commandBandwidth": 5,
+          "developmentPotentialScore": 541,
+          "dialogueStyleId": "VOICE_SOMBER_POETIC",
+          "disciplineAptitudes": {
+            "GUARD": 82,
+            "MARTIAL": 110,
+            "MYSTIC": 118,
+            "RESTORATION": 52,
+            "SUPPORT": 101,
+            "TACTICAL": 136
+          },
+          "disciplineProfileId": "DISC_DUSK_STALKER",
+          "displayName": "Ozza Brassbutton",
+          "equipmentLoadout": {
+            "aggregateBonuses": {},
+            "autoEquipAllowed": false,
+            "loadoutId": "LOADOUT_PROC_B5381033C1D24285",
+            "slots": {
+              "ACCESSORY_1": {
+                "condition": "STANDARD",
+                "instanceId": "PROC_B5381033C1D24285_A1",
+                "itemDefinitionId": "EQ_PROC_CREDENTIAL",
+                "locked": false,
+                "tags": [
+                  "ACCESSORY"
+                ]
+              },
+              "ACCESSORY_2": {
+                "condition": "STANDARD",
+                "instanceId": "PROC_B5381033C1D24285_A2",
+                "itemDefinitionId": "EQ_PROC_INK_THREAD",
+                "locked": false,
+                "tags": [
+                  "ACCESSORY"
+                ]
+              },
+              "BODY": {
+                "condition": "STANDARD",
+                "instanceId": "PROC_B5381033C1D24285_BODY",
+                "itemDefinitionId": "EQ_PROC_RECORD_COAT",
+                "locked": false,
+                "tags": [
+                  "ARMOR",
+                  "LIGHT",
+                  "STEALTH"
+                ]
+              },
+              "MAIN_HAND": {
+                "condition": "STANDARD",
+                "instanceId": "PROC_B5381033C1D24285_MAIN",
+                "itemDefinitionId": "EQ_PROC_MEMORY_DAGGERS",
+                "locked": false,
+                "tags": [
+                  "WEAPON",
+                  "DAGGER",
+                  "TWIN",
+                  "MEMORY"
+                ]
+              },
+              "OFF_HAND": {
+                "condition": "STANDARD",
+                "instanceId": "PROC_B5381033C1D24285_OFF",
+                "itemDefinitionId": "EQ_PROC_MEMORY_LENS",
+                "locked": false,
+                "tags": [
+                  "OFFHAND",
+                  "FOCUS",
+                  "SCOUTING"
+                ]
+              },
+              "TOOL_RELIC": null
+            }
+          },
+          "fearId": "FEAR_PRAISE",
+          "generationSeed": "A9EF421196B1F7DB:3920F24D53E31E63",
+          "growthPatternId": "GROWTH_EARLY_BLOOMER",
+          "hiddenTraitId": "HIDDEN_GUILD_HEART",
+          "hiddenTraitRevealed": false,
+          "homeCommunityId": "WATERWORKS",
+          "leadershipScore": 71,
+          "leadershipTendencyId": "LEAD_FORMAL_RESTRAINT",
+          "personalEventHookId": "HOOK_CURSED_TOOL",
+          "pronounId": "HE_HIM",
+          "raceId": "GOBLIN",
+          "recruitId": "PROC_B5381033C1D24285",
+          "relationshipTendencyId": "REL_TRADITION_KEEPER",
+          "signatureId": null,
+          "signingCostXp": 61,
+          "sourceType": "PROCEDURAL",
+          "startingArtIds": [
+            "ART_BASIC_DAGGER_CUT",
+            "ART_GUARD",
+            "ART_SMOKE_VEIL"
+          ],
+          "startingClassId": "CLASS_ROGUE",
+          "statTendencies": {
+            "AGI": {
+              "baseIndex": 134,
+              "growthBias": 89
+            },
+            "DEF": {
+              "baseIndex": 61,
+              "growthBias": 80
+            },
+            "HP": {
+              "baseIndex": 77,
+              "growthBias": 97
+            },
+            "MAGIC": {
+              "baseIndex": 67,
+              "growthBias": 89
+            },
+            "STR": {
+              "baseIndex": 88,
+              "growthBias": 83
+            },
+            "WILL": {
+              "baseIndex": 100,
+              "growthBias": 78
+            }
+          },
+          "variantFlags": [
+            "GOBLIN_TALL",
+            "DEEP_MOSS",
+            "TUFT",
+            "BLACK",
+            "VIOLET",
+            "NOSE_SMALL",
+            "HEALER",
+            "EARRINGS"
+          ],
+          "visibleTraitIds": [
+            "TRAIT_KIND",
+            "TRAIT_CURIOUS"
+          ],
+          "visualSeed": "1E7D1F1A291A8ECF1B667593",
+          "weaponAptitudeProfileId": "WEAPON_PROFILE_DUAL_DAGGER",
+          "weaponAptitudes": {
+            "DAGGER": 139,
+            "SHORTBOW": 95
+          }
+        },
+        "guaranteed": false,
+        "recruitId": "PROC_B5381033C1D24285",
+        "scoutingReport": {
+          "backgroundId": "BG_KITCHEN_HAND",
+          "disciplineEstimates": {
+            "GUARD": {
+              "estimatedRange": [
+                78,
+                112
+              ],
+              "label": "CAPABLE"
+            },
+            "MARTIAL": {
+              "estimatedRange": [
+                85,
+                119
+              ],
+              "label": "CAPABLE"
+            },
+            "MYSTIC": {
+              "estimatedRange": [
+                115,
+                149
+              ],
+              "label": "EXCEPTIONAL"
+            },
+            "RESTORATION": {
+              "estimatedRange": [
+                52,
+                86
+              ],
+              "label": "LIMITED"
+            },
+            "SUPPORT": {
+              "estimatedRange": [
+                67,
+                101
+              ],
+              "label": "DEVELOPING"
+            },
+            "TACTICAL": {
+              "estimatedRange": [
+                109,
+                143
+              ],
+              "label": "EXCEPTIONAL"
+            }
+          },
+          "displayName": "Ozza Brassbutton",
+          "exactPotentialDisplayed": false,
+          "growthAssessment": "READY_NOW",
+          "hiddenDataWithheld": true,
+          "hiddenTraitRevealed": false,
+          "homeCommunityId": "WATERWORKS",
+          "leadershipEstimate": {
+            "confidence": 57,
+            "range": [
+              54,
+              88
+            ]
+          },
+          "qualityProfile": "PROMISING",
+          "raceId": "GOBLIN",
+          "recruitId": "PROC_B5381033C1D24285",
+          "scoutingAccuracy": 57,
+          "startingClassId": "CLASS_ROGUE",
+          "visibleTraitIds": [
+            "TRAIT_KIND",
+            "TRAIT_CURIOUS"
+          ]
+        },
+        "signatureId": null,
+        "signingCostXp": 61,
+        "slotIndex": 5,
+        "sourceChannel": "GUILD_BOARD",
+        "sourceType": "PROCEDURAL"
+      }
+    ],
+    "boardId": "BOARD_3D298B124B5C6607_D0002_R00",
+    "campaignSeedHash": "A1BF83619B4B",
+    "committed": true,
+    "dryStreakAfter": 0,
+    "dryStreakBefore": 4,
+    "expiresAfterGuildDay": 3,
+    "generationSeed": "DB12982ACE80B679:90D75377A8540CBA",
+    "guildDay": 2,
+    "mercyCharterTriggered": false,
+    "officeState": {
+      "boardSize": 6,
+      "dryStreak": 4,
+      "freeRefreshesPerDay": 1,
+      "manualRefreshBaseXp": 45,
+      "refreshIndexToday": 0,
+      "scoutingAccuracyBase": 48,
+      "signatureBonusBasisPoints": 100,
+      "targetedScouting": true,
+      "tier": 2
+    },
+    "refreshIndex": 0,
+    "signatureChanceBasisPoints": 700,
+    "stateHash": "3D298B124B5C6607740B",
+    "worldIds": [
+      "WORLD_GATE_01"
+    ]
+  },
+  "forecasts": [
+    {
+      "broadTacticalIntent": "Break Their Center",
+      "combinedPredictedMpCost": 0,
+      "commandText": "Break through their center!",
+      "fallbackPolicy": [
+        "RETARGET_SAME_SIDE",
+        "MATCH_SAME_INTENT",
+        "AFFORDABLE_BASIC_OR_GUARD",
+        "NO_REROLL_ON_MENU_REOPEN"
+      ],
+      "forecastId": "BATTLE_GOLDEN_01_R02_UNION_GATEWARD_LANTERNS_F00_628E17",
+      "generationSeed": "7D6C9FBA0AE5FD69:1A8CE5DC2883568B",
+      "intentId": "INTENT_BREAK_CENTER",
+      "learningOpportunityTags": [
+        "GUARD_MASTERY",
+        "RESCUE_GUARD_BRANCH"
+      ],
+      "memberActions": [
+        {
+          "apCost": 3,
+          "fallbackFamily": "GUARD",
+          "learningOpportunityTags": [
+            "RESCUE_GUARD_BRANCH"
+          ],
+          "memberDisplayName": "Maren Holt",
+          "memberRecruitId": "SIGI_6EDD1E84682CF7A9",
+          "mpCost": 0,
+          "predictedArtId": "ART_INTERCEPT_STEP",
+          "predictionOnly": true,
+          "targetId": "ENEMY_ASH_CLAW"
+        },
+        {
+          "apCost": 0,
+          "fallbackFamily": "BASIC",
+          "learningOpportunityTags": [],
+          "memberDisplayName": "Odelia Fen",
+          "memberRecruitId": "SIGI_43DEFF78331857BB",
+          "mpCost": 0,
+          "predictedArtId": "ART_BASIC_STAFF_TAP",
+          "predictionOnly": true,
+          "targetId": "ENEMY_ASH_CLAW"
+        },
+        {
+          "apCost": 0,
+          "fallbackFamily": "GUARD",
+          "learningOpportunityTags": [
+            "GUARD_MASTERY"
+          ],
+          "memberDisplayName": "Rusk Fenrunner",
+          "memberRecruitId": "SIGI_DBEB52C33B71D6E4",
+          "mpCost": 0,
+          "predictedArtId": "ART_GUARD",
+          "predictionOnly": true,
+          "targetId": "ENEMY_ASH_CLAW"
+        },
+        {
+          "apCost": 0,
+          "fallbackFamily": "GUARD",
+          "learningOpportunityTags": [
+            "GUARD_MASTERY"
+          ],
+          "memberDisplayName": "Tovvi Copperspark",
+          "memberRecruitId": "SIGI_E99F7111284007BE",
+          "mpCost": 0,
+          "predictedArtId": "ART_GUARD",
+          "predictionOnly": true,
+          "targetId": "ENEMY_ASH_CLAW"
+        }
+      ],
+      "playerSelectsExactArt": false,
+      "predictedEffects": [
+        "HIGH_COHESION_DAMAGE",
+        "FRONT_PRESSURE"
+      ],
+      "riskTags": [
+        "EXPOSED_IF_RESISTED"
+      ],
+      "roundIndex": 2,
+      "sharedApCost": 3,
+      "stateHash": "B60363C6BF475D6E0B8FC4DE",
+      "targetId": "ENEMY_ASH_CLAW",
+      "unionId": "UNION_GATEWARD_LANTERNS"
+    },
+    {
+      "broadTacticalIntent": "Take the Objective",
+      "combinedPredictedMpCost": 0,
+      "commandText": "Move on the marked position!",
+      "fallbackPolicy": [
+        "RETARGET_SAME_SIDE",
+        "MATCH_SAME_INTENT",
+        "AFFORDABLE_BASIC_OR_GUARD",
+        "NO_REROLL_ON_MENU_REOPEN"
+      ],
+      "forecastId": "BATTLE_GOLDEN_01_R02_UNION_GATEWARD_LANTERNS_F01_4D1009",
+      "generationSeed": "712CFBD7304B073A:DE10E9E12FCE35D9",
+      "intentId": "INTENT_TAKE_OBJECTIVE",
+      "learningOpportunityTags": [
+        "GUARD_MASTERY",
+        "INTERCEPT_BRANCH"
+      ],
+      "memberActions": [
+        {
+          "apCost": 2,
+          "fallbackFamily": "GUARD",
+          "learningOpportunityTags": [
+            "INTERCEPT_BRANCH"
+          ],
+          "memberDisplayName": "Maren Holt",
+          "memberRecruitId": "SIGI_6EDD1E84682CF7A9",
+          "mpCost": 0,
+          "predictedArtId": "ART_SHIELD_BRACE",
+          "predictionOnly": true,
+          "targetId": "GATE_CRANK"
+        },
+        {
+          "apCost": 0,
+          "fallbackFamily": "GUARD",
+          "learningOpportunityTags": [
+            "GUARD_MASTERY"
+          ],
+          "memberDisplayName": "Odelia Fen",
+          "memberRecruitId": "SIGI_43DEFF78331857BB",
+          "mpCost": 0,
+          "predictedArtId": "ART_GUARD",
+          "predictionOnly": true,
+          "targetId": "GATE_CRANK"
+        },
+        {
+          "apCost": 0,
+          "fallbackFamily": "GUARD",
+          "learningOpportunityTags": [
+            "GUARD_MASTERY"
+          ],
+          "memberDisplayName": "Rusk Fenrunner",
+          "memberRecruitId": "SIGI_DBEB52C33B71D6E4",
+          "mpCost": 0,
+          "predictedArtId": "ART_GUARD",
+          "predictionOnly": true,
+          "targetId": "GATE_CRANK"
+        },
+        {
+          "apCost": 0,
+          "fallbackFamily": "GUARD",
+          "learningOpportunityTags": [
+            "GUARD_MASTERY"
+          ],
+          "memberDisplayName": "Tovvi Copperspark",
+          "memberRecruitId": "SIGI_E99F7111284007BE",
+          "mpCost": 0,
+          "predictedArtId": "ART_GUARD",
+          "predictionOnly": true,
+          "targetId": "GATE_CRANK"
+        }
+      ],
+      "playerSelectsExactArt": false,
+      "predictedEffects": [
+        "OBJECTIVE_PROGRESS",
+        "REPOSITION"
+      ],
+      "riskTags": [
+        "MAY_IGNORE_DAMAGE_TARGET"
+      ],
+      "roundIndex": 2,
+      "sharedApCost": 2,
+      "stateHash": "B60363C6BF475D6E0B8FC4DE",
+      "targetId": "GATE_CRANK",
+      "unionId": "UNION_GATEWARD_LANTERNS"
+    },
+    {
+      "broadTacticalIntent": "Balanced Pressure",
+      "combinedPredictedMpCost": 0,
+      "commandText": "Wear them down together!",
+      "fallbackPolicy": [
+        "RETARGET_SAME_SIDE",
+        "MATCH_SAME_INTENT",
+        "AFFORDABLE_BASIC_OR_GUARD",
+        "NO_REROLL_ON_MENU_REOPEN"
+      ],
+      "forecastId": "BATTLE_GOLDEN_01_R02_UNION_GATEWARD_LANTERNS_F02_7B5987",
+      "generationSeed": "CBDA28F8CCEFF842:04E64D16D03B91D4",
+      "intentId": "INTENT_BALANCED_PRESSURE",
+      "learningOpportunityTags": [
+        "GUARD_MASTERY",
+        "RESCUE_GUARD_BRANCH"
+      ],
+      "memberActions": [
+        {
+          "apCost": 3,
+          "fallbackFamily": "GUARD",
+          "learningOpportunityTags": [
+            "RESCUE_GUARD_BRANCH"
+          ],
+          "memberDisplayName": "Maren Holt",
+          "memberRecruitId": "SIGI_6EDD1E84682CF7A9",
+          "mpCost": 0,
+          "predictedArtId": "ART_INTERCEPT_STEP",
+          "predictionOnly": true,
+          "targetId": "ENEMY_ASH_CLAW"
+        },
+        {
+          "apCost": 0,
+          "fallbackFamily": "GUARD",
+          "learningOpportunityTags": [
+            "GUARD_MASTERY"
+          ],
+          "memberDisplayName": "Odelia Fen",
+          "memberRecruitId": "SIGI_43DEFF78331857BB",
+          "mpCost": 0,
+          "predictedArtId": "ART_GUARD",
+          "predictionOnly": true,
+          "targetId": "ENEMY_ASH_CLAW"
+        },
+        {
+          "apCost": 0,
+          "fallbackFamily": "GUARD",
+          "learningOpportunityTags": [
+            "GUARD_MASTERY"
+          ],
+          "memberDisplayName": "Rusk Fenrunner",
+          "memberRecruitId": "SIGI_DBEB52C33B71D6E4",
+          "mpCost": 0,
+          "predictedArtId": "ART_GUARD",
+          "predictionOnly": true,
+          "targetId": "ENEMY_ASH_CLAW"
+        },
+        {
+          "apCost": 0,
+          "fallbackFamily": "GUARD",
+          "learningOpportunityTags": [
+            "GUARD_MASTERY"
+          ],
+          "memberDisplayName": "Tovvi Copperspark",
+          "memberRecruitId": "SIGI_E99F7111284007BE",
+          "mpCost": 0,
+          "predictedArtId": "ART_GUARD",
+          "predictionOnly": true,
+          "targetId": "ENEMY_ASH_CLAW"
+        }
+      ],
+      "playerSelectsExactArt": false,
+      "predictedEffects": [
+        "STEADY_HP_DAMAGE",
+        "MIXED_DISCIPLINE_GROWTH"
+      ],
+      "riskTags": [
+        "NO_SPECIALIZATION"
+      ],
+      "roundIndex": 2,
+      "sharedApCost": 3,
+      "stateHash": "B60363C6BF475D6E0B8FC4DE",
+      "targetId": "ENEMY_ASH_CLAW",
+      "unionId": "UNION_GATEWARD_LANTERNS"
+    },
+    {
+      "broadTacticalIntent": "Mystic Barrage",
+      "combinedPredictedMpCost": 0,
+      "commandText": "Overwhelm them with magic!",
+      "fallbackPolicy": [
+        "RETARGET_SAME_SIDE",
+        "MATCH_SAME_INTENT",
+        "AFFORDABLE_BASIC_OR_GUARD",
+        "NO_REROLL_ON_MENU_REOPEN"
+      ],
+      "forecastId": "BATTLE_GOLDEN_01_R02_UNION_GATEWARD_LANTERNS_F03_E0E228",
+      "generationSeed": "E33481509E6D5381:71FF3D4F56302B64",
+      "intentId": "INTENT_MYSTIC_BARRAGE",
+      "learningOpportunityTags": [
+        "GUARD_MASTERY"
+      ],
+      "memberActions": [
+        {
+          "apCost": 0,
+          "fallbackFamily": "GUARD",
+          "learningOpportunityTags": [
+            "GUARD_MASTERY"
+          ],
+          "memberDisplayName": "Maren Holt",
+          "memberRecruitId": "SIGI_6EDD1E84682CF7A9",
+          "mpCost": 0,
+          "predictedArtId": "ART_GUARD",
+          "predictionOnly": true,
+          "targetId": "ENEMY_ASH_CLAW"
+        },
+        {
+          "apCost": 0,
+          "fallbackFamily": "BASIC",
+          "learningOpportunityTags": [],
+          "memberDisplayName": "Odelia Fen",
+          "memberRecruitId": "SIGI_43DEFF78331857BB",
+          "mpCost": 0,
+          "predictedArtId": "ART_BASIC_STAFF_TAP",
+          "predictionOnly": true,
+          "targetId": "ENEMY_ASH_CLAW"
+        },
+        {
+          "apCost": 0,
+          "fallbackFamily": "GUARD",
+          "learningOpportunityTags": [
+            "GUARD_MASTERY"
+          ],
+          "memberDisplayName": "Rusk Fenrunner",
+          "memberRecruitId": "SIGI_DBEB52C33B71D6E4",
+          "mpCost": 0,
+          "predictedArtId": "ART_GUARD",
+          "predictionOnly": true,
+          "targetId": "ENEMY_ASH_CLAW"
+        },
+        {
+          "apCost": 0,
+          "fallbackFamily": "GUARD",
+          "learningOpportunityTags": [
+            "GUARD_MASTERY"
+          ],
+          "memberDisplayName": "Tovvi Copperspark",
+          "memberRecruitId": "SIGI_E99F7111284007BE",
+          "mpCost": 0,
+          "predictedArtId": "ART_GUARD",
+          "predictionOnly": true,
+          "targetId": "ENEMY_ASH_CLAW"
+        }
+      ],
+      "playerSelectsExactArt": false,
+      "predictedEffects": [
+        "MAGIC_DAMAGE",
+        "POSSIBLE_AREA_CONTROL"
+      ],
+      "riskTags": [
+        "HIGH_MP_SPEND"
+      ],
+      "roundIndex": 2,
+      "sharedApCost": 0,
+      "stateHash": "B60363C6BF475D6E0B8FC4DE",
+      "targetId": "ENEMY_ASH_CLAW",
+      "unionId": "UNION_GATEWARD_LANTERNS"
+    }
+  ],
+  "proceduralRecruit": {
+    "ageBandId": "YOUNG_ADULT",
+    "ambitionId": "AMBITION_BE_REMEMBERED_CORRECTLY",
+    "backgroundId": "BG_TAVERN_MEDIATOR",
+    "commandBandwidth": 4,
+    "developmentPotentialScore": 624,
+    "dialogueStyleId": "VOICE_FRIENDLY_OBSERVANT",
+    "disciplineAptitudes": {
+      "GUARD": 105,
+      "MARTIAL": 100,
+      "MYSTIC": 104,
+      "RESTORATION": 80,
+      "SUPPORT": 85,
+      "TACTICAL": 87
+    },
+    "disciplineProfileId": "DISC_BALANCED",
+    "displayName": "Morga Wolfscar",
+    "equipmentLoadout": {
+      "aggregateBonuses": {},
+      "autoEquipAllowed": false,
+      "loadoutId": "LOADOUT_PROC_EF80D0CC2FBF14E6",
+      "slots": {
+        "ACCESSORY_1": {
+          "condition": "STANDARD",
+          "instanceId": "PROC_EF80D0CC2FBF14E6_A1",
+          "itemDefinitionId": "EQ_PROC_REED",
+          "locked": false,
+          "tags": [
+            "ACCESSORY"
+          ]
+        },
+        "ACCESSORY_2": {
+          "condition": "STANDARD",
+          "instanceId": "PROC_EF80D0CC2FBF14E6_A2",
+          "itemDefinitionId": "EQ_PROC_ROUTE_FLAG",
+          "locked": false,
+          "tags": [
+            "ACCESSORY"
+          ]
+        },
+        "BODY": {
+          "condition": "STANDARD",
+          "instanceId": "PROC_EF80D0CC2FBF14E6_BODY",
+          "itemDefinitionId": "EQ_PROC_SIGNAL_COAT",
+          "locked": false,
+          "tags": [
+            "ARMOR",
+            "LIGHT",
+            "SUPPORT"
+          ]
+        },
+        "MAIN_HAND": {
+          "condition": "STANDARD",
+          "instanceId": "PROC_EF80D0CC2FBF14E6_MAIN",
+          "itemDefinitionId": "EQ_PROC_SIGNAL_HORN",
+          "locked": false,
+          "tags": [
+            "WEAPON",
+            "SIGNAL_HORN",
+            "FOCUS",
+            "COMMAND"
+          ]
+        },
+        "OFF_HAND": {
+          "condition": "STANDARD",
+          "instanceId": "PROC_EF80D0CC2FBF14E6_OFF",
+          "itemDefinitionId": "EQ_PROC_SIGNAL_BATON",
+          "locked": false,
+          "tags": [
+            "OFFHAND",
+            "SIGNAL_KIT"
+          ]
+        },
+        "TOOL_RELIC": null
+      }
+    },
+    "fearId": "FEAR_FORGOTTEN_RECORDS",
+    "generationSeed": "70943B3B85283DD6:67BD750FBD631149",
+    "growthPatternId": "GROWTH_ADAPTIVE_GENERALIST",
+    "hiddenTraitId": "HIDDEN_RIFT_SENSE",
+    "hiddenTraitRevealed": false,
+    "homeCommunityId": "FURNACE_ROW",
+    "leadershipScore": 56,
+    "leadershipTendencyId": "LEAD_TECHNICAL_ARGUMENT",
+    "personalEventHookId": "HOOK_FAILED_RESCUE",
+    "pronounId": "SHE_HER",
+    "raceId": "ORC",
+    "recruitId": "PROC_EF80D0CC2FBF14E6",
+    "relationshipTendencyId": "REL_SCHOLAR_DEBATE",
+    "signatureId": null,
+    "signingCostXp": 72,
+    "sourceType": "PROCEDURAL",
+    "startingArtIds": [
+      "ART_BASIC_RESONANT_TAP",
+      "ART_GUARD",
+      "ART_BRASS_RALLY"
+    ],
+    "startingClassId": "CLASS_MAGE",
+    "statTendencies": {
+      "AGI": {
+        "baseIndex": 103,
+        "growthBias": 122
+      },
+      "DEF": {
+        "baseIndex": 61,
+        "growthBias": 108
+      },
+      "HP": {
+        "baseIndex": 92,
+        "growthBias": 118
+      },
+      "MAGIC": {
+        "baseIndex": 140,
+        "growthBias": 123
+      },
+      "STR": {
+        "baseIndex": 42,
+        "growthBias": 101
+      },
+      "WILL": {
+        "baseIndex": 118,
+        "growthBias": 104
+      }
+    },
+    "variantFlags": [
+      "ORC_TALL",
+      "DEEP_GREEN",
+      "CROP",
+      "BLACK",
+      "GRAY",
+      "TUSK_CURVED",
+      "ARCHIVIST",
+      "EARRINGS"
+    ],
+    "visibleTraitIds": [
+      "TRAIT_FEARLESS",
+      "TRAIT_CAUTIOUS"
+    ],
+    "visualSeed": "E1D6F4B16ACE116E19D6A488",
+    "weaponAptitudeProfileId": "WEAPON_PROFILE_SIGNAL_FOCUS",
+    "weaponAptitudes": {
+      "FOCUS_TOOL": 113,
+      "SIGNAL_HORN": 146
+    }
+  },
+  "scoutingReport": {
+    "backgroundId": "BG_TAVERN_MEDIATOR",
+    "disciplineEstimates": {
+      "GUARD": {
+        "estimatedRange": [
+          82,
+          116
+        ],
+        "label": "CAPABLE"
+      },
+      "MARTIAL": {
+        "estimatedRange": [
+          67,
+          101
+        ],
+        "label": "DEVELOPING"
+      },
+      "MYSTIC": {
+        "estimatedRange": [
+          94,
+          128
+        ],
+        "label": "STRONG"
+      },
+      "RESTORATION": {
+        "estimatedRange": [
+          67,
+          101
+        ],
+        "label": "DEVELOPING"
+      },
+      "SUPPORT": {
+        "estimatedRange": [
+          83,
+          117
+        ],
+        "label": "CAPABLE"
+      },
+      "TACTICAL": {
+        "estimatedRange": [
+          80,
+          114
+        ],
+        "label": "CAPABLE"
+      }
+    },
+    "displayName": "Morga Wolfscar",
+    "exactPotentialDisplayed": false,
+    "growthAssessment": "BROAD_OPTIONS",
+    "hiddenDataWithheld": true,
+    "hiddenTraitRevealed": false,
+    "homeCommunityId": "FURNACE_ROW",
+    "leadershipEstimate": {
+      "confidence": 57,
+      "range": [
+        39,
+        73
+      ]
+    },
+    "qualityProfile": "STEADY_OR_SPECIALIZED",
+    "raceId": "ORC",
+    "recruitId": "PROC_EF80D0CC2FBF14E6",
+    "scoutingAccuracy": 57,
+    "startingClassId": "CLASS_MAGE",
+    "visibleTraitIds": [
+      "TRAIT_FEARLESS",
+      "TRAIT_CAUTIOUS"
+    ]
+  },
+  "specVersion": "OPENING_RECRUITMENT_REFERENCE_0.6",
+  "union": {
+    "currentAp": 16,
+    "currentCohesion": 98,
+    "disciplineRanks": {
+      "GUARD": 2,
+      "MARTIAL": 2,
+      "MYSTIC": 2,
+      "RESTORATION": 2,
+      "SUPPORT": 3,
+      "TACTICAL": 3
+    },
+    "displayName": "Gateward Lanterns",
+    "doctrineId": "DOCTRINE_BALANCED",
+    "formationId": "FORMATION_SHIELD_WALL",
+    "leaderRecruitId": "SIGI_6EDD1E84682CF7A9",
+    "maxAp": 23,
+    "maxCohesion": 100,
+    "members": [
+      {
+        "currentHp": 153,
+        "currentMp": 11,
+        "disciplineAptitudes": {
+          "GUARD": 132,
+          "MARTIAL": 108,
+          "MYSTIC": 65,
+          "RESTORATION": 76,
+          "SUPPORT": 92,
+          "TACTICAL": 104
+        },
+        "displayName": "Maren Holt",
+        "equipmentLoadout": {
+          "aggregateBonuses": {
+            "COHESION": 2,
+            "DEF": 4
+          },
+          "autoEquipAllowed": false,
+          "loadoutId": "LOADOUT_SIGI_6EDD1E84682CF7A9",
+          "slots": {
+            "ACCESSORY_1": {
+              "condition": "WELL_KEPT",
+              "instanceId": "SIGI_6EDD1E84682CF7A9_ACCESSORY_1",
+              "itemDefinitionId": "EQ_COPPER_WHISTLE",
+              "locked": false,
+              "tags": [
+                "ACCESSORY"
+              ]
+            },
+            "ACCESSORY_2": {
+              "condition": "WELL_KEPT",
+              "instanceId": "SIGI_6EDD1E84682CF7A9_ACCESSORY_2",
+              "itemDefinitionId": "EQ_FAMILY_THREAD",
+              "locked": false,
+              "tags": [
+                "ACCESSORY"
+              ]
+            },
+            "BODY": {
+              "condition": "WELL_KEPT",
+              "instanceId": "SIGI_6EDD1E84682CF7A9_BODY",
+              "itemDefinitionId": "EQ_GATEWARD_PADDED_COAT",
+              "locked": false,
+              "tags": [
+                "ARMOR",
+                "MEDIUM"
+              ]
+            },
+            "MAIN_HAND": {
+              "condition": "WELL_KEPT",
+              "instanceId": "SIGI_6EDD1E84682CF7A9_MAIN_HAND",
+              "itemDefinitionId": "EQ_GATE_IRON_SPEAR",
+              "locked": false,
+              "tags": [
+                "WEAPON",
+                "SPEAR",
+                "REACH"
+              ]
+            },
+            "OFF_HAND": {
+              "condition": "WELL_KEPT",
+              "instanceId": "SIGI_6EDD1E84682CF7A9_OFF_HAND",
+              "itemDefinitionId": "EQ_REPAIRED_ROUND_SHIELD",
+              "locked": false,
+              "tags": [
+                "OFFHAND",
+                "SHIELD"
+              ]
+            },
+            "TOOL_RELIC": null
+          }
+        },
+        "formationPosition": "VANGUARD",
+        "leadershipScore": 76,
+        "learnedArtIds": [
+          "ART_BASIC_THRUST",
+          "ART_GUARD",
+          "ART_SHIELD_BRACE",
+          "ART_INTERCEPT_STEP"
+        ],
+        "maxHp": 279,
+        "maxMp": 11,
+        "recruitId": "SIGI_6EDD1E84682CF7A9",
+        "visibleTraitIds": [
+          "TRAIT_PROTECTIVE",
+          "TRAIT_FRUGAL"
+        ]
+      },
+      {
+        "currentHp": 231,
+        "currentMp": 32,
+        "disciplineAptitudes": {
+          "GUARD": 78,
+          "MARTIAL": 58,
+          "MYSTIC": 96,
+          "RESTORATION": 142,
+          "SUPPORT": 132,
+          "TACTICAL": 92
+        },
+        "displayName": "Odelia Fen",
+        "equipmentLoadout": {
+          "aggregateBonuses": {
+            "MAGIC": 4,
+            "RESTORATION": 6
+          },
+          "autoEquipAllowed": false,
+          "loadoutId": "LOADOUT_SIGI_43DEFF78331857BB",
+          "slots": {
+            "ACCESSORY_1": {
+              "condition": "STANDARD",
+              "instanceId": "SIGI_43DEFF78331857BB_ACCESSORY_1",
+              "itemDefinitionId": "EQ_TRIAGE_THREAD",
+              "locked": false,
+              "tags": [
+                "ACCESSORY"
+              ]
+            },
+            "ACCESSORY_2": {
+              "condition": "STANDARD",
+              "instanceId": "SIGI_43DEFF78331857BB_ACCESSORY_2",
+              "itemDefinitionId": "EQ_BROKEN_NAMEPLATE",
+              "locked": false,
+              "tags": [
+                "ACCESSORY"
+              ]
+            },
+            "BODY": {
+              "condition": "STANDARD",
+              "instanceId": "SIGI_43DEFF78331857BB_BODY",
+              "itemDefinitionId": "EQ_SOUTH_ANNEX_ROBES",
+              "locked": false,
+              "tags": [
+                "ARMOR",
+                "LIGHT",
+                "HEALING"
+              ]
+            },
+            "MAIN_HAND": {
+              "condition": "STANDARD",
+              "instanceId": "SIGI_43DEFF78331857BB_MAIN_HAND",
+              "itemDefinitionId": "EQ_ASHWOOD_MEDIC_STAFF",
+              "locked": false,
+              "tags": [
+                "WEAPON",
+                "STAFF",
+                "FOCUS"
+              ]
+            },
+            "OFF_HAND": {
+              "condition": "STANDARD",
+              "instanceId": "SIGI_43DEFF78331857BB_OFF_HAND",
+              "itemDefinitionId": "EQ_FIELD_REMEDY_KIT",
+              "locked": false,
+              "tags": [
+                "OFFHAND",
+                "REMEDY_KIT"
+              ]
+            },
+            "TOOL_RELIC": {
+              "condition": "STANDARD",
+              "instanceId": "SIGI_43DEFF78331857BB_TOOL_RELIC",
+              "itemDefinitionId": "EQ_FOLDING_SPLINT",
+              "locked": false,
+              "tags": [
+                "TOOL",
+                "RELIC_COMPATIBLE"
+              ]
+            }
+          }
+        },
+        "formationPosition": "VANGUARD",
+        "leadershipScore": 71,
+        "learnedArtIds": [
+          "ART_BASIC_STAFF_TAP",
+          "ART_GUARD",
+          "ART_FIELD_MEND",
+          "ART_STEADYING_WORD"
+        ],
+        "maxHp": 231,
+        "maxMp": 32,
+        "recruitId": "SIGI_43DEFF78331857BB",
+        "visibleTraitIds": [
+          "TRAIT_EMPATHETIC",
+          "TRAIT_PRACTICAL"
+        ]
+      },
+      {
+        "currentHp": 239,
+        "currentMp": 16,
+        "disciplineAptitudes": {
+          "GUARD": 74,
+          "MARTIAL": 102,
+          "MYSTIC": 72,
+          "RESTORATION": 112,
+          "SUPPORT": 114,
+          "TACTICAL": 136
+        },
+        "displayName": "Rusk Fenrunner",
+        "equipmentLoadout": {
+          "aggregateBonuses": {
+            "AGI": 3,
+            "RESTORATION": 2,
+            "SURVIVAL": 6
+          },
+          "autoEquipAllowed": false,
+          "loadoutId": "LOADOUT_SIGI_DBEB52C33B71D6E4",
+          "slots": {
+            "ACCESSORY_1": {
+              "condition": "STANDARD",
+              "instanceId": "SIGI_DBEB52C33B71D6E4_ACCESSORY_1",
+              "itemDefinitionId": "EQ_SCENT_CHARM",
+              "locked": false,
+              "tags": [
+                "ACCESSORY"
+              ]
+            },
+            "ACCESSORY_2": {
+              "condition": "STANDARD",
+              "instanceId": "SIGI_DBEB52C33B71D6E4_ACCESSORY_2",
+              "itemDefinitionId": "EQ_WATERPROOF_LABELS",
+              "locked": false,
+              "tags": [
+                "ACCESSORY"
+              ]
+            },
+            "BODY": {
+              "condition": "STANDARD",
+              "instanceId": "SIGI_DBEB52C33B71D6E4_BODY",
+              "itemDefinitionId": "EQ_STORMROAD_TRAVEL_LEATHERS",
+              "locked": false,
+              "tags": [
+                "ARMOR",
+                "LIGHT",
+                "WEATHER"
+              ]
+            },
+            "MAIN_HAND": {
+              "condition": "STANDARD",
+              "instanceId": "SIGI_DBEB52C33B71D6E4_MAIN_HAND",
+              "itemDefinitionId": "EQ_FENRUNNER_SHORTBOW",
+              "locked": false,
+              "tags": [
+                "WEAPON",
+                "BOW",
+                "LIGHT"
+              ]
+            },
+            "OFF_HAND": {
+              "condition": "STANDARD",
+              "instanceId": "SIGI_DBEB52C33B71D6E4_OFF_HAND",
+              "itemDefinitionId": "EQ_TRAILBREW_SATCHEL",
+              "locked": false,
+              "tags": [
+                "OFFHAND",
+                "REMEDY_KIT",
+                "ALCHEMY"
+              ]
+            },
+            "TOOL_RELIC": {
+              "condition": "STANDARD",
+              "instanceId": "SIGI_DBEB52C33B71D6E4_TOOL_RELIC",
+              "itemDefinitionId": "EQ_FOLDING_MORTAR",
+              "locked": false,
+              "tags": [
+                "TOOL",
+                "RELIC_COMPATIBLE"
+              ]
+            }
+          }
+        },
+        "formationPosition": "CENTER",
+        "leadershipScore": 55,
+        "learnedArtIds": [
+          "ART_BASIC_SHOT",
+          "ART_GUARD",
+          "ART_PINNING_SHOT",
+          "ART_FIELD_TONIC"
+        ],
+        "maxHp": 239,
+        "maxMp": 16,
+        "recruitId": "SIGI_DBEB52C33B71D6E4",
+        "visibleTraitIds": [
+          "TRAIT_CURIOUS",
+          "TRAIT_SUSPICIOUS"
+        ]
+      },
+      {
+        "currentHp": 207,
+        "currentMp": 29,
+        "disciplineAptitudes": {
+          "GUARD": 72,
+          "MARTIAL": 64,
+          "MYSTIC": 120,
+          "RESTORATION": 86,
+          "SUPPORT": 136,
+          "TACTICAL": 126
+        },
+        "displayName": "Tovvi Copperspark",
+        "equipmentLoadout": {
+          "aggregateBonuses": {
+            "CRAFTING": 6,
+            "MYSTIC": 4,
+            "SUPPORT": 4
+          },
+          "autoEquipAllowed": false,
+          "loadoutId": "LOADOUT_SIGI_E99F7111284007BE",
+          "slots": {
+            "ACCESSORY_1": {
+              "condition": "WORN",
+              "instanceId": "SIGI_E99F7111284007BE_ACCESSORY_1",
+              "itemDefinitionId": "EQ_CALIBRATION_BEAD",
+              "locked": false,
+              "tags": [
+                "ACCESSORY"
+              ]
+            },
+            "ACCESSORY_2": {
+              "condition": "WORN",
+              "instanceId": "SIGI_E99F7111284007BE_ACCESSORY_2",
+              "itemDefinitionId": "EQ_MISPRINTED_BADGE",
+              "locked": false,
+              "tags": [
+                "ACCESSORY"
+              ]
+            },
+            "BODY": {
+              "condition": "WORN",
+              "instanceId": "SIGI_E99F7111284007BE_BODY",
+              "itemDefinitionId": "EQ_WATERWORK_UTILITY_RIG",
+              "locked": false,
+              "tags": [
+                "ARMOR",
+                "LIGHT",
+                "UTILITY"
+              ]
+            },
+            "MAIN_HAND": {
+              "condition": "WORN",
+              "instanceId": "SIGI_E99F7111284007BE_MAIN_HAND",
+              "itemDefinitionId": "EQ_FOLDING_RUNE_FRAME",
+              "locked": false,
+              "tags": [
+                "WEAPON",
+                "FOCUS_TOOL",
+                "RUNE"
+              ]
+            },
+            "OFF_HAND": {
+              "condition": "WORN",
+              "instanceId": "SIGI_E99F7111284007BE_OFF_HAND",
+              "itemDefinitionId": "EQ_COPPER_MEASURE_GAUGE",
+              "locked": false,
+              "tags": [
+                "OFFHAND",
+                "TOOL"
+              ]
+            },
+            "TOOL_RELIC": {
+              "condition": "WORN",
+              "instanceId": "SIGI_E99F7111284007BE_TOOL_RELIC",
+              "itemDefinitionId": "EQ_CHALK_REEL",
+              "locked": false,
+              "tags": [
+                "TOOL",
+                "RELIC_COMPATIBLE"
+              ]
+            }
+          }
+        },
+        "formationPosition": "REAR",
+        "leadershipScore": 49,
+        "learnedArtIds": [
+          "ART_BASIC_RUNE_BOLT",
+          "ART_GUARD",
+          "ART_SPARK_RUNE",
+          "ART_WARD_SIGIL"
+        ],
+        "maxHp": 207,
+        "maxMp": 29,
+        "recruitId": "SIGI_E99F7111284007BE",
+        "visibleTraitIds": [
+          "TRAIT_CURIOUS",
+          "TRAIT_WITTY"
+        ]
+      }
+    ],
+    "unionId": "UNION_GATEWARD_LANTERNS"
+  }
+}

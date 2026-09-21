@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Character Progression Manifests",
+  "type": "object",
+  "required": [
+    "contentVersion",
+    "characterProgressionManifests"
+  ],
+  "properties": {
+    "contentVersion": {
+      "type": "string"
+    },
+    "characterProgressionManifests": {
+      "type": "array",
+      "minItems": 300,
+      "maxItems": 300
+    }
+  },
+  "additionalProperties": true
+}

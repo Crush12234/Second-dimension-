@@ -1,0 +1,1545 @@
+{
+  "contentVersion": "GOW_PASS05_0.10",
+  "staffPositionCount": 57,
+  "staffPositions": [
+    {
+      "id": "STAFF_RECRUITMENT_OFFICE_01",
+      "displayName": "Recruitment Steward",
+      "facilityId": "FACILITY_RECRUITMENT_OFFICE",
+      "minimumFacilityLevel": 1,
+      "primaryAptitudes": [
+        "LEADERSHIP",
+        "DIPLOMACY",
+        "PERCEPTION"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 80,
+        "eventRiskReductionBasisPoints": 100,
+        "assignmentQualityBonus": 1
+      },
+      "characterMomentTags": [
+        "RECRUITMENT_OFFICE",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_RECRUITMENT_OFFICE_02",
+      "displayName": "Field Scout Coordinator",
+      "facilityId": "FACILITY_RECRUITMENT_OFFICE",
+      "minimumFacilityLevel": 2,
+      "primaryAptitudes": [
+        "LEADERSHIP",
+        "DIPLOMACY",
+        "PERCEPTION"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 120,
+        "eventRiskReductionBasisPoints": 150,
+        "assignmentQualityBonus": 2
+      },
+      "characterMomentTags": [
+        "RECRUITMENT_OFFICE",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_RECRUITMENT_OFFICE_03",
+      "displayName": "Applicant Advocate",
+      "facilityId": "FACILITY_RECRUITMENT_OFFICE",
+      "minimumFacilityLevel": 4,
+      "primaryAptitudes": [
+        "LEADERSHIP",
+        "DIPLOMACY",
+        "PERCEPTION"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 160,
+        "eventRiskReductionBasisPoints": 200,
+        "assignmentQualityBonus": 3
+      },
+      "characterMomentTags": [
+        "RECRUITMENT_OFFICE",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_DORMITORIES_01",
+      "displayName": "Residence Steward",
+      "facilityId": "FACILITY_DORMITORIES",
+      "minimumFacilityLevel": 1,
+      "primaryAptitudes": [
+        "SUPPORT",
+        "DIPLOMACY",
+        "COURAGE"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 80,
+        "eventRiskReductionBasisPoints": 100,
+        "assignmentQualityBonus": 1
+      },
+      "characterMomentTags": [
+        "DORMITORIES",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_DORMITORIES_02",
+      "displayName": "Quarter Warden",
+      "facilityId": "FACILITY_DORMITORIES",
+      "minimumFacilityLevel": 2,
+      "primaryAptitudes": [
+        "SUPPORT",
+        "DIPLOMACY",
+        "COURAGE"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 120,
+        "eventRiskReductionBasisPoints": 150,
+        "assignmentQualityBonus": 2
+      },
+      "characterMomentTags": [
+        "DORMITORIES",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_DORMITORIES_03",
+      "displayName": "Community Mediator",
+      "facilityId": "FACILITY_DORMITORIES",
+      "minimumFacilityLevel": 4,
+      "primaryAptitudes": [
+        "SUPPORT",
+        "DIPLOMACY",
+        "COURAGE"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 160,
+        "eventRiskReductionBasisPoints": 200,
+        "assignmentQualityBonus": 3
+      },
+      "characterMomentTags": [
+        "DORMITORIES",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_UNION_COMMAND_TABLE_01",
+      "displayName": "Union Registrar",
+      "facilityId": "FACILITY_UNION_COMMAND_TABLE",
+      "minimumFacilityLevel": 1,
+      "primaryAptitudes": [
+        "LEADERSHIP",
+        "TACTICAL",
+        "KNOWLEDGE"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 80,
+        "eventRiskReductionBasisPoints": 100,
+        "assignmentQualityBonus": 1
+      },
+      "characterMomentTags": [
+        "UNION_COMMAND_TABLE",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_UNION_COMMAND_TABLE_02",
+      "displayName": "Formation Recorder",
+      "facilityId": "FACILITY_UNION_COMMAND_TABLE",
+      "minimumFacilityLevel": 2,
+      "primaryAptitudes": [
+        "LEADERSHIP",
+        "TACTICAL",
+        "KNOWLEDGE"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 120,
+        "eventRiskReductionBasisPoints": 150,
+        "assignmentQualityBonus": 2
+      },
+      "characterMomentTags": [
+        "UNION_COMMAND_TABLE",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_UNION_COMMAND_TABLE_03",
+      "displayName": "Reserve Marshal",
+      "facilityId": "FACILITY_UNION_COMMAND_TABLE",
+      "minimumFacilityLevel": 4,
+      "primaryAptitudes": [
+        "LEADERSHIP",
+        "TACTICAL",
+        "KNOWLEDGE"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 160,
+        "eventRiskReductionBasisPoints": 200,
+        "assignmentQualityBonus": 3
+      },
+      "characterMomentTags": [
+        "UNION_COMMAND_TABLE",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_TRAINING_HALL_01",
+      "displayName": "Drill Instructor",
+      "facilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 1,
+      "primaryAptitudes": [
+        "MARTIAL",
+        "LEADERSHIP",
+        "TEACHING"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 80,
+        "eventRiskReductionBasisPoints": 100,
+        "assignmentQualityBonus": 1
+      },
+      "characterMomentTags": [
+        "TRAINING_HALL",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_TRAINING_HALL_02",
+      "displayName": "Mentor Coordinator",
+      "facilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 2,
+      "primaryAptitudes": [
+        "MARTIAL",
+        "LEADERSHIP",
+        "TEACHING"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 120,
+        "eventRiskReductionBasisPoints": 150,
+        "assignmentQualityBonus": 2
+      },
+      "characterMomentTags": [
+        "TRAINING_HALL",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_TRAINING_HALL_03",
+      "displayName": "Safety Observer",
+      "facilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 4,
+      "primaryAptitudes": [
+        "MARTIAL",
+        "LEADERSHIP",
+        "TEACHING"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 160,
+        "eventRiskReductionBasisPoints": 200,
+        "assignmentQualityBonus": 3
+      },
+      "characterMomentTags": [
+        "TRAINING_HALL",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_INFIRMARY_01",
+      "displayName": "Medical Lead",
+      "facilityId": "FACILITY_INFIRMARY",
+      "minimumFacilityLevel": 1,
+      "primaryAptitudes": [
+        "MEDICINE",
+        "RESTORATION",
+        "EMPATHY"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 80,
+        "eventRiskReductionBasisPoints": 100,
+        "assignmentQualityBonus": 1
+      },
+      "characterMomentTags": [
+        "INFIRMARY",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_INFIRMARY_02",
+      "displayName": "Recovery Coordinator",
+      "facilityId": "FACILITY_INFIRMARY",
+      "minimumFacilityLevel": 2,
+      "primaryAptitudes": [
+        "MEDICINE",
+        "RESTORATION",
+        "EMPATHY"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 120,
+        "eventRiskReductionBasisPoints": 150,
+        "assignmentQualityBonus": 2
+      },
+      "characterMomentTags": [
+        "INFIRMARY",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_INFIRMARY_03",
+      "displayName": "Patient Advocate",
+      "facilityId": "FACILITY_INFIRMARY",
+      "minimumFacilityLevel": 4,
+      "primaryAptitudes": [
+        "MEDICINE",
+        "RESTORATION",
+        "EMPATHY"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 160,
+        "eventRiskReductionBasisPoints": 200,
+        "assignmentQualityBonus": 3
+      },
+      "characterMomentTags": [
+        "INFIRMARY",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_GUILD_FORGE_01",
+      "displayName": "Forge Master",
+      "facilityId": "FACILITY_GUILD_FORGE",
+      "minimumFacilityLevel": 1,
+      "primaryAptitudes": [
+        "CRAFTING",
+        "KNOWLEDGE",
+        "GUARD"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 80,
+        "eventRiskReductionBasisPoints": 100,
+        "assignmentQualityBonus": 1
+      },
+      "characterMomentTags": [
+        "GUILD_FORGE",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_GUILD_FORGE_02",
+      "displayName": "Repair Smith",
+      "facilityId": "FACILITY_GUILD_FORGE",
+      "minimumFacilityLevel": 2,
+      "primaryAptitudes": [
+        "CRAFTING",
+        "KNOWLEDGE",
+        "GUARD"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 120,
+        "eventRiskReductionBasisPoints": 150,
+        "assignmentQualityBonus": 2
+      },
+      "characterMomentTags": [
+        "GUILD_FORGE",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_GUILD_FORGE_03",
+      "displayName": "Artifact Technician",
+      "facilityId": "FACILITY_GUILD_FORGE",
+      "minimumFacilityLevel": 4,
+      "primaryAptitudes": [
+        "CRAFTING",
+        "KNOWLEDGE",
+        "GUARD"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 160,
+        "eventRiskReductionBasisPoints": 200,
+        "assignmentQualityBonus": 3
+      },
+      "characterMomentTags": [
+        "GUILD_FORGE",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_ALCHEMY_WORKSHOP_01",
+      "displayName": "Lead Alchemist",
+      "facilityId": "FACILITY_ALCHEMY_WORKSHOP",
+      "minimumFacilityLevel": 1,
+      "primaryAptitudes": [
+        "CRAFTING",
+        "MEDICINE",
+        "KNOWLEDGE"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 80,
+        "eventRiskReductionBasisPoints": 100,
+        "assignmentQualityBonus": 1
+      },
+      "characterMomentTags": [
+        "ALCHEMY_WORKSHOP",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_ALCHEMY_WORKSHOP_02",
+      "displayName": "Ingredient Keeper",
+      "facilityId": "FACILITY_ALCHEMY_WORKSHOP",
+      "minimumFacilityLevel": 2,
+      "primaryAptitudes": [
+        "CRAFTING",
+        "MEDICINE",
+        "KNOWLEDGE"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 120,
+        "eventRiskReductionBasisPoints": 150,
+        "assignmentQualityBonus": 2
+      },
+      "characterMomentTags": [
+        "ALCHEMY_WORKSHOP",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_ALCHEMY_WORKSHOP_03",
+      "displayName": "Field Remedy Brewer",
+      "facilityId": "FACILITY_ALCHEMY_WORKSHOP",
+      "minimumFacilityLevel": 4,
+      "primaryAptitudes": [
+        "CRAFTING",
+        "MEDICINE",
+        "KNOWLEDGE"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 160,
+        "eventRiskReductionBasisPoints": 200,
+        "assignmentQualityBonus": 3
+      },
+      "characterMomentTags": [
+        "ALCHEMY_WORKSHOP",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_TAVERN_01",
+      "displayName": "Commons Keeper",
+      "facilityId": "FACILITY_TAVERN",
+      "minimumFacilityLevel": 1,
+      "primaryAptitudes": [
+        "DIPLOMACY",
+        "SUPPORT",
+        "EMPATHY"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 80,
+        "eventRiskReductionBasisPoints": 100,
+        "assignmentQualityBonus": 1
+      },
+      "characterMomentTags": [
+        "TAVERN",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_TAVERN_02",
+      "displayName": "Cook and Provisioner",
+      "facilityId": "FACILITY_TAVERN",
+      "minimumFacilityLevel": 2,
+      "primaryAptitudes": [
+        "DIPLOMACY",
+        "SUPPORT",
+        "EMPATHY"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 120,
+        "eventRiskReductionBasisPoints": 150,
+        "assignmentQualityBonus": 2
+      },
+      "characterMomentTags": [
+        "TAVERN",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_TAVERN_03",
+      "displayName": "Event Host",
+      "facilityId": "FACILITY_TAVERN",
+      "minimumFacilityLevel": 4,
+      "primaryAptitudes": [
+        "DIPLOMACY",
+        "SUPPORT",
+        "EMPATHY"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 160,
+        "eventRiskReductionBasisPoints": 200,
+        "assignmentQualityBonus": 3
+      },
+      "characterMomentTags": [
+        "TAVERN",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_LIBRARY_01",
+      "displayName": "Archivist",
+      "facilityId": "FACILITY_LIBRARY",
+      "minimumFacilityLevel": 1,
+      "primaryAptitudes": [
+        "KNOWLEDGE",
+        "ARCANA",
+        "TEACHING"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 80,
+        "eventRiskReductionBasisPoints": 100,
+        "assignmentQualityBonus": 1
+      },
+      "characterMomentTags": [
+        "LIBRARY",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_LIBRARY_02",
+      "displayName": "Translator",
+      "facilityId": "FACILITY_LIBRARY",
+      "minimumFacilityLevel": 2,
+      "primaryAptitudes": [
+        "KNOWLEDGE",
+        "ARCANA",
+        "TEACHING"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 120,
+        "eventRiskReductionBasisPoints": 150,
+        "assignmentQualityBonus": 2
+      },
+      "characterMomentTags": [
+        "LIBRARY",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_LIBRARY_03",
+      "displayName": "Manual Curator",
+      "facilityId": "FACILITY_LIBRARY",
+      "minimumFacilityLevel": 4,
+      "primaryAptitudes": [
+        "KNOWLEDGE",
+        "ARCANA",
+        "TEACHING"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 160,
+        "eventRiskReductionBasisPoints": 200,
+        "assignmentQualityBonus": 3
+      },
+      "characterMomentTags": [
+        "LIBRARY",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_STRATEGY_ROOM_01",
+      "displayName": "Operations Planner",
+      "facilityId": "FACILITY_STRATEGY_ROOM",
+      "minimumFacilityLevel": 1,
+      "primaryAptitudes": [
+        "TACTICAL",
+        "LEADERSHIP",
+        "PERCEPTION"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 80,
+        "eventRiskReductionBasisPoints": 100,
+        "assignmentQualityBonus": 1
+      },
+      "characterMomentTags": [
+        "STRATEGY_ROOM",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_STRATEGY_ROOM_02",
+      "displayName": "Front Coordinator",
+      "facilityId": "FACILITY_STRATEGY_ROOM",
+      "minimumFacilityLevel": 2,
+      "primaryAptitudes": [
+        "TACTICAL",
+        "LEADERSHIP",
+        "PERCEPTION"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 120,
+        "eventRiskReductionBasisPoints": 150,
+        "assignmentQualityBonus": 2
+      },
+      "characterMomentTags": [
+        "STRATEGY_ROOM",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_STRATEGY_ROOM_03",
+      "displayName": "Consequence Recorder",
+      "facilityId": "FACILITY_STRATEGY_ROOM",
+      "minimumFacilityLevel": 4,
+      "primaryAptitudes": [
+        "TACTICAL",
+        "LEADERSHIP",
+        "PERCEPTION"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 160,
+        "eventRiskReductionBasisPoints": 200,
+        "assignmentQualityBonus": 3
+      },
+      "characterMomentTags": [
+        "STRATEGY_ROOM",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_SYSTEM_ARCHIVE_01",
+      "displayName": "Archive Custodian",
+      "facilityId": "FACILITY_SYSTEM_ARCHIVE",
+      "minimumFacilityLevel": 1,
+      "primaryAptitudes": [
+        "KNOWLEDGE",
+        "ARCANA",
+        "INTEGRITY"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 80,
+        "eventRiskReductionBasisPoints": 100,
+        "assignmentQualityBonus": 1
+      },
+      "characterMomentTags": [
+        "SYSTEM_ARCHIVE",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_SYSTEM_ARCHIVE_02",
+      "displayName": "Entitlement Registrar",
+      "facilityId": "FACILITY_SYSTEM_ARCHIVE",
+      "minimumFacilityLevel": 2,
+      "primaryAptitudes": [
+        "KNOWLEDGE",
+        "ARCANA",
+        "INTEGRITY"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 120,
+        "eventRiskReductionBasisPoints": 150,
+        "assignmentQualityBonus": 2
+      },
+      "characterMomentTags": [
+        "SYSTEM_ARCHIVE",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_SYSTEM_ARCHIVE_03",
+      "displayName": "Privacy Auditor",
+      "facilityId": "FACILITY_SYSTEM_ARCHIVE",
+      "minimumFacilityLevel": 4,
+      "primaryAptitudes": [
+        "KNOWLEDGE",
+        "ARCANA",
+        "INTEGRITY"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 160,
+        "eventRiskReductionBasisPoints": 200,
+        "assignmentQualityBonus": 3
+      },
+      "characterMomentTags": [
+        "SYSTEM_ARCHIVE",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_EMBASSY_HALL_01",
+      "displayName": "Chief Liaison",
+      "facilityId": "FACILITY_EMBASSY_HALL",
+      "minimumFacilityLevel": 1,
+      "primaryAptitudes": [
+        "DIPLOMACY",
+        "LEADERSHIP",
+        "CULTURAL_KNOWLEDGE"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 80,
+        "eventRiskReductionBasisPoints": 100,
+        "assignmentQualityBonus": 1
+      },
+      "characterMomentTags": [
+        "EMBASSY_HALL",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_EMBASSY_HALL_02",
+      "displayName": "Protocol Mediator",
+      "facilityId": "FACILITY_EMBASSY_HALL",
+      "minimumFacilityLevel": 2,
+      "primaryAptitudes": [
+        "DIPLOMACY",
+        "LEADERSHIP",
+        "CULTURAL_KNOWLEDGE"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 120,
+        "eventRiskReductionBasisPoints": 150,
+        "assignmentQualityBonus": 2
+      },
+      "characterMomentTags": [
+        "EMBASSY_HALL",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_EMBASSY_HALL_03",
+      "displayName": "Petition Recorder",
+      "facilityId": "FACILITY_EMBASSY_HALL",
+      "minimumFacilityLevel": 4,
+      "primaryAptitudes": [
+        "DIPLOMACY",
+        "LEADERSHIP",
+        "CULTURAL_KNOWLEDGE"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 160,
+        "eventRiskReductionBasisPoints": 200,
+        "assignmentQualityBonus": 3
+      },
+      "characterMomentTags": [
+        "EMBASSY_HALL",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_GATE_OPERATIONS_01",
+      "displayName": "Route Controller",
+      "facilityId": "FACILITY_GATE_OPERATIONS",
+      "minimumFacilityLevel": 1,
+      "primaryAptitudes": [
+        "TACTICAL",
+        "PERCEPTION",
+        "CRAFTING"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 80,
+        "eventRiskReductionBasisPoints": 100,
+        "assignmentQualityBonus": 1
+      },
+      "characterMomentTags": [
+        "GATE_OPERATIONS",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_GATE_OPERATIONS_02",
+      "displayName": "Extraction Coordinator",
+      "facilityId": "FACILITY_GATE_OPERATIONS",
+      "minimumFacilityLevel": 2,
+      "primaryAptitudes": [
+        "TACTICAL",
+        "PERCEPTION",
+        "CRAFTING"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 120,
+        "eventRiskReductionBasisPoints": 150,
+        "assignmentQualityBonus": 2
+      },
+      "characterMomentTags": [
+        "GATE_OPERATIONS",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_GATE_OPERATIONS_03",
+      "displayName": "Traffic Warden",
+      "facilityId": "FACILITY_GATE_OPERATIONS",
+      "minimumFacilityLevel": 4,
+      "primaryAptitudes": [
+        "TACTICAL",
+        "PERCEPTION",
+        "CRAFTING"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 160,
+        "eventRiskReductionBasisPoints": 200,
+        "assignmentQualityBonus": 3
+      },
+      "characterMomentTags": [
+        "GATE_OPERATIONS",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_ABYSS_LICENSING_DESK_01",
+      "displayName": "Licensing Steward",
+      "facilityId": "FACILITY_ABYSS_LICENSING_DESK",
+      "minimumFacilityLevel": 1,
+      "primaryAptitudes": [
+        "KNOWLEDGE",
+        "INTEGRITY",
+        "LEADERSHIP"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 80,
+        "eventRiskReductionBasisPoints": 100,
+        "assignmentQualityBonus": 1
+      },
+      "characterMomentTags": [
+        "ABYSS_LICENSING_DESK",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_ABYSS_LICENSING_DESK_02",
+      "displayName": "Safety Auditor",
+      "facilityId": "FACILITY_ABYSS_LICENSING_DESK",
+      "minimumFacilityLevel": 2,
+      "primaryAptitudes": [
+        "KNOWLEDGE",
+        "INTEGRITY",
+        "LEADERSHIP"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 120,
+        "eventRiskReductionBasisPoints": 150,
+        "assignmentQualityBonus": 2
+      },
+      "characterMomentTags": [
+        "ABYSS_LICENSING_DESK",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_ABYSS_LICENSING_DESK_03",
+      "displayName": "Abyss Records Clerk",
+      "facilityId": "FACILITY_ABYSS_LICENSING_DESK",
+      "minimumFacilityLevel": 4,
+      "primaryAptitudes": [
+        "KNOWLEDGE",
+        "INTEGRITY",
+        "LEADERSHIP"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 160,
+        "eventRiskReductionBasisPoints": 200,
+        "assignmentQualityBonus": 3
+      },
+      "characterMomentTags": [
+        "ABYSS_LICENSING_DESK",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_TROPHY_CHRONICLE_HALL_01",
+      "displayName": "Chronicle Keeper",
+      "facilityId": "FACILITY_TROPHY_CHRONICLE_HALL",
+      "minimumFacilityLevel": 1,
+      "primaryAptitudes": [
+        "KNOWLEDGE",
+        "EMPATHY",
+        "LEADERSHIP"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 80,
+        "eventRiskReductionBasisPoints": 100,
+        "assignmentQualityBonus": 1
+      },
+      "characterMomentTags": [
+        "TROPHY_CHRONICLE_HALL",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_TROPHY_CHRONICLE_HALL_02",
+      "displayName": "Memorial Curator",
+      "facilityId": "FACILITY_TROPHY_CHRONICLE_HALL",
+      "minimumFacilityLevel": 2,
+      "primaryAptitudes": [
+        "KNOWLEDGE",
+        "EMPATHY",
+        "LEADERSHIP"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 120,
+        "eventRiskReductionBasisPoints": 150,
+        "assignmentQualityBonus": 2
+      },
+      "characterMomentTags": [
+        "TROPHY_CHRONICLE_HALL",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_TROPHY_CHRONICLE_HALL_03",
+      "displayName": "Emergent Legend Recorder",
+      "facilityId": "FACILITY_TROPHY_CHRONICLE_HALL",
+      "minimumFacilityLevel": 4,
+      "primaryAptitudes": [
+        "KNOWLEDGE",
+        "EMPATHY",
+        "LEADERSHIP"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 160,
+        "eventRiskReductionBasisPoints": 200,
+        "assignmentQualityBonus": 3
+      },
+      "characterMomentTags": [
+        "TROPHY_CHRONICLE_HALL",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_GARDEN_01",
+      "displayName": "Garden Steward",
+      "facilityId": "FACILITY_GARDEN",
+      "minimumFacilityLevel": 1,
+      "primaryAptitudes": [
+        "SURVIVAL",
+        "MEDICINE",
+        "CULTURAL_KNOWLEDGE"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 80,
+        "eventRiskReductionBasisPoints": 100,
+        "assignmentQualityBonus": 1
+      },
+      "characterMomentTags": [
+        "GARDEN",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_GARDEN_02",
+      "displayName": "Cultural Plot Keeper",
+      "facilityId": "FACILITY_GARDEN",
+      "minimumFacilityLevel": 2,
+      "primaryAptitudes": [
+        "SURVIVAL",
+        "MEDICINE",
+        "CULTURAL_KNOWLEDGE"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 120,
+        "eventRiskReductionBasisPoints": 150,
+        "assignmentQualityBonus": 2
+      },
+      "characterMomentTags": [
+        "GARDEN",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_GARDEN_03",
+      "displayName": "Recovery Herbalist",
+      "facilityId": "FACILITY_GARDEN",
+      "minimumFacilityLevel": 4,
+      "primaryAptitudes": [
+        "SURVIVAL",
+        "MEDICINE",
+        "CULTURAL_KNOWLEDGE"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 160,
+        "eventRiskReductionBasisPoints": 200,
+        "assignmentQualityBonus": 3
+      },
+      "characterMomentTags": [
+        "GARDEN",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_RESEARCH_ROOM_01",
+      "displayName": "Research Lead",
+      "facilityId": "FACILITY_RESEARCH_ROOM",
+      "minimumFacilityLevel": 1,
+      "primaryAptitudes": [
+        "KNOWLEDGE",
+        "ARCANA",
+        "CRAFTING"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 80,
+        "eventRiskReductionBasisPoints": 100,
+        "assignmentQualityBonus": 1
+      },
+      "characterMomentTags": [
+        "RESEARCH_ROOM",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_RESEARCH_ROOM_02",
+      "displayName": "Containment Specialist",
+      "facilityId": "FACILITY_RESEARCH_ROOM",
+      "minimumFacilityLevel": 2,
+      "primaryAptitudes": [
+        "KNOWLEDGE",
+        "ARCANA",
+        "CRAFTING"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 120,
+        "eventRiskReductionBasisPoints": 150,
+        "assignmentQualityBonus": 2
+      },
+      "characterMomentTags": [
+        "RESEARCH_ROOM",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_RESEARCH_ROOM_03",
+      "displayName": "Invocation Analyst",
+      "facilityId": "FACILITY_RESEARCH_ROOM",
+      "minimumFacilityLevel": 4,
+      "primaryAptitudes": [
+        "KNOWLEDGE",
+        "ARCANA",
+        "CRAFTING"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 160,
+        "eventRiskReductionBasisPoints": 200,
+        "assignmentQualityBonus": 3
+      },
+      "characterMomentTags": [
+        "RESEARCH_ROOM",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_QUARTERMASTER_01",
+      "displayName": "Quartermaster",
+      "facilityId": "FACILITY_QUARTERMASTER",
+      "minimumFacilityLevel": 1,
+      "primaryAptitudes": [
+        "LOGISTICS",
+        "CRAFTING",
+        "INTEGRITY"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 80,
+        "eventRiskReductionBasisPoints": 100,
+        "assignmentQualityBonus": 1
+      },
+      "characterMomentTags": [
+        "QUARTERMASTER",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_QUARTERMASTER_02",
+      "displayName": "Loadout Keeper",
+      "facilityId": "FACILITY_QUARTERMASTER",
+      "minimumFacilityLevel": 2,
+      "primaryAptitudes": [
+        "LOGISTICS",
+        "CRAFTING",
+        "INTEGRITY"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 120,
+        "eventRiskReductionBasisPoints": 150,
+        "assignmentQualityBonus": 2
+      },
+      "characterMomentTags": [
+        "QUARTERMASTER",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_QUARTERMASTER_03",
+      "displayName": "Reserve Supply Clerk",
+      "facilityId": "FACILITY_QUARTERMASTER",
+      "minimumFacilityLevel": 4,
+      "primaryAptitudes": [
+        "LOGISTICS",
+        "CRAFTING",
+        "INTEGRITY"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 160,
+        "eventRiskReductionBasisPoints": 200,
+        "assignmentQualityBonus": 3
+      },
+      "characterMomentTags": [
+        "QUARTERMASTER",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_EMERGENCY_SHELTER_01",
+      "displayName": "Shelter Coordinator",
+      "facilityId": "FACILITY_EMERGENCY_SHELTER",
+      "minimumFacilityLevel": 1,
+      "primaryAptitudes": [
+        "COURAGE",
+        "LEADERSHIP",
+        "MEDICINE"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 80,
+        "eventRiskReductionBasisPoints": 100,
+        "assignmentQualityBonus": 1
+      },
+      "characterMomentTags": [
+        "EMERGENCY_SHELTER",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_EMERGENCY_SHELTER_02",
+      "displayName": "Evacuation Warden",
+      "facilityId": "FACILITY_EMERGENCY_SHELTER",
+      "minimumFacilityLevel": 2,
+      "primaryAptitudes": [
+        "COURAGE",
+        "LEADERSHIP",
+        "MEDICINE"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 120,
+        "eventRiskReductionBasisPoints": 150,
+        "assignmentQualityBonus": 2
+      },
+      "characterMomentTags": [
+        "EMERGENCY_SHELTER",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    },
+    {
+      "id": "STAFF_EMERGENCY_SHELTER_03",
+      "displayName": "Family Liaison",
+      "facilityId": "FACILITY_EMERGENCY_SHELTER",
+      "minimumFacilityLevel": 4,
+      "primaryAptitudes": [
+        "COURAGE",
+        "LEADERSHIP",
+        "MEDICINE"
+      ],
+      "availabilityPolicy": "PRIMARY_DUTY; can deploy only after player confirms temporary replacement or vacancy.",
+      "effects": {
+        "facilityOutputPermille": 160,
+        "eventRiskReductionBasisPoints": 200,
+        "assignmentQualityBonus": 3
+      },
+      "characterMomentTags": [
+        "EMERGENCY_SHELTER",
+        "STAFF",
+        "GUILD_LIFE"
+      ],
+      "cannotBeFilledBy": [
+        "KAEL",
+        "SEVEN_FOUNDERS_AS_OWNED_STAFF",
+        "GREAT_SUMMON"
+      ]
+    }
+  ]
+}

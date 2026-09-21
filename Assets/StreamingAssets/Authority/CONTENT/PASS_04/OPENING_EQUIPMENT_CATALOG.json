@@ -1,0 +1,4921 @@
+{
+  "contentVersion": "GOW_PASS04_0.9",
+  "counts": {
+    "weapons": 60,
+    "bodyArmor": 24,
+    "accessories": 30,
+    "toolsRelics": 18,
+    "offHands": 12,
+    "craftingSpecial": 12
+  },
+  "weapons": [
+    {
+      "id": "EQUIP_WEAPON_GATEWATCH_SABER",
+      "displayName": "Gatewatch Saber",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_SWORD",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "BALANCED",
+      "basePower": 14,
+      "protection": 0,
+      "weight": 6,
+      "equipmentTags": [
+        "SWORD"
+      ],
+      "tacticalIdentity": "Balanced reaction weapon that raises Guard-forecast weight after the wielder is targeted.",
+      "forecastWeightModifiers": {
+        "GUARD": 80,
+        "BALANCED": 70
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_SWORD",
+        "VIS_QUALITY_BALANCED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_ROADWARDEN_BLADE",
+      "displayName": "Roadwarden Blade",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_SWORD",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "SERVICEABLE",
+      "basePower": 13,
+      "protection": 0,
+      "weight": 7,
+      "equipmentTags": [
+        "SWORD"
+      ],
+      "tacticalIdentity": "Grants a rescue-weight bonus while the Union is escorting or extracting civilians.",
+      "forecastWeightModifiers": {
+        "RESCUE": 130
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_SWORD",
+        "VIS_QUALITY_SERVICEABLE"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_COPPERLINE_DUELLING_SWORD",
+      "displayName": "Copperline Duelling Sword",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_SWORD",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "BALANCED",
+      "basePower": 15,
+      "protection": 0,
+      "weight": 4,
+      "equipmentTags": [
+        "SWORD"
+      ],
+      "tacticalIdentity": "Low weight and stronger single-target prediction against exposed leaders.",
+      "forecastWeightModifiers": {
+        "REARLINE": 80,
+        "OFFENSE": 40
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_SWORD",
+        "VIS_QUALITY_BALANCED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_OATHKEEPER_FALCHION",
+      "displayName": "Oathkeeper Falchion",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_SWORD",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "REINFORCED",
+      "basePower": 17,
+      "protection": 0,
+      "weight": 8,
+      "equipmentTags": [
+        "SWORD"
+      ],
+      "tacticalIdentity": "Meaningful protection actions add an earned Guard mastery bonus to later attacks.",
+      "forecastWeightModifiers": {
+        "GUARD": 70,
+        "OFFENSE": 50
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_SWORD",
+        "VIS_QUALITY_REINFORCED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_ASH_MAP_LONGSWORD",
+      "displayName": "Ash-Map Longsword",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_SWORD",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "RESONANT",
+      "basePower": 16,
+      "protection": 0,
+      "weight": 6,
+      "equipmentTags": [
+        "SWORD",
+        "COMMAND"
+      ],
+      "tacticalIdentity": "Revealed enemy intents improve Tactical Art weighting for the wielder.",
+      "forecastWeightModifiers": {
+        "TACTICAL": 100
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_SWORD",
+        "VIS_QUALITY_RESONANT"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_WALLBREAKER_MAUL",
+      "displayName": "Wallbreaker Maul",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "handedness": "TWO_HANDED",
+      "baseQuality": "REINFORCED",
+      "basePower": 25,
+      "protection": 0,
+      "weight": 16,
+      "equipmentTags": [
+        "HAMMER"
+      ],
+      "tacticalIdentity": "High Cohesion damage; forecast risk rises if the wielder is already exposed.",
+      "forecastWeightModifiers": {
+        "BREAK": 170
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_GREAT_WEAPON",
+        "VIS_QUALITY_REINFORCED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_EMBERWALL_GREAT_AXE",
+      "displayName": "Emberwall Great Axe",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "handedness": "TWO_HANDED",
+      "baseQuality": "BALANCED",
+      "basePower": 27,
+      "protection": 0,
+      "weight": 18,
+      "equipmentTags": [
+        "GREAT_AXE"
+      ],
+      "tacticalIdentity": "Gains extra formation pressure after an ally successfully Guards.",
+      "forecastWeightModifiers": {
+        "BREAK": 130,
+        "OFFENSE": 80
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_GREAT_WEAPON",
+        "VIS_QUALITY_BALANCED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_PYLON_SHEAR_POLEHAMMER",
+      "displayName": "Pylon-Shear Polehammer",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "handedness": "TWO_HANDED",
+      "baseQuality": "MASTERWORK",
+      "basePower": 26,
+      "protection": 0,
+      "weight": 17,
+      "equipmentTags": [
+        "HAMMER",
+        "POLEARM"
+      ],
+      "tacticalIdentity": "Deals bonus objective damage to constructs, pylons, and fortified nodes.",
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 160
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_GREAT_WEAPON",
+        "VIS_QUALITY_MASTERWORK"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_MERCY_BELL_HAMMER",
+      "displayName": "Mercy Bell Hammer",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "handedness": "TWO_HANDED",
+      "baseQuality": "STORIED",
+      "basePower": 24,
+      "protection": 0,
+      "weight": 15,
+      "equipmentTags": [
+        "HAMMER"
+      ],
+      "tacticalIdentity": "Cannot trigger execution behavior; instead grants Cohesion recovery when it incapacitates a threat.",
+      "forecastWeightModifiers": {
+        "SUPPORT": 70,
+        "BREAK": 90
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_GREAT_WEAPON",
+        "VIS_QUALITY_STORIED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_TRENCH_CLEAVER",
+      "displayName": "Trench-Cleaver",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "handedness": "TWO_HANDED",
+      "baseQuality": "ABYSS_MARKED",
+      "basePower": 28,
+      "protection": 0,
+      "weight": 19,
+      "equipmentTags": [
+        "GREAT_AXE"
+      ],
+      "tacticalIdentity": "Sweeping forecasts become more likely against multi-member enemy Unions.",
+      "forecastWeightModifiers": {
+        "ALL_OUT": 130
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_GREAT_WEAPON",
+        "VIS_QUALITY_ABYSS_MARKED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_RIVET_AXE",
+      "displayName": "Rivet Axe",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_AXE",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "SERVICEABLE",
+      "basePower": 18,
+      "protection": 0,
+      "weight": 9,
+      "equipmentTags": [
+        "AXE"
+      ],
+      "tacticalIdentity": "Dismantles enemy armor and improves salvage quality against constructs.",
+      "forecastWeightModifiers": {
+        "BREAK": 70
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_AXE",
+        "VIS_QUALITY_SERVICEABLE"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_MARCHLAND_HAND_AXE",
+      "displayName": "Marchland Hand Axe",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_AXE",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "BALANCED",
+      "basePower": 17,
+      "protection": 0,
+      "weight": 7,
+      "equipmentTags": [
+        "AXE"
+      ],
+      "tacticalIdentity": "Can be dual-wielded; low AP fallback remains available after burst.",
+      "forecastWeightModifiers": {
+        "OFFENSE": 60
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_AXE",
+        "VIS_QUALITY_BALANCED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_RESCUE_HOOK_AXE",
+      "displayName": "Rescue Hook Axe",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_AXE",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "REINFORCED",
+      "basePower": 16,
+      "protection": 0,
+      "weight": 8,
+      "equipmentTags": [
+        "AXE",
+        "TOOL"
+      ],
+      "tacticalIdentity": "Adds drag-and-extract behavior to rescue forecasts.",
+      "forecastWeightModifiers": {
+        "RESCUE": 120
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_AXE",
+        "VIS_QUALITY_REINFORCED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_BANNER_HEWING_AXE",
+      "displayName": "Banner-Hewing Axe",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_AXE",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "STORIED",
+      "basePower": 19,
+      "protection": 0,
+      "weight": 10,
+      "equipmentTags": [
+        "AXE"
+      ],
+      "tacticalIdentity": "Breaking an enemy morale banner grants Support progress instead of extra damage.",
+      "forecastWeightModifiers": {
+        "BREAK": 90,
+        "SUPPORT": 60
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_AXE",
+        "VIS_QUALITY_STORIED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_GATE_TOOTH_BEARDED_AXE",
+      "displayName": "Gate-Tooth Bearded Axe",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_AXE",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "ABYSS_MARKED",
+      "basePower": 21,
+      "protection": 0,
+      "weight": 12,
+      "equipmentTags": [
+        "AXE"
+      ],
+      "tacticalIdentity": "Punishes barrier and ward effects but is less accurate against mobile targets.",
+      "forecastWeightModifiers": {
+        "ANTI_MYSTIC": 120
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_AXE",
+        "VIS_QUALITY_ABYSS_MARKED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_CAUSEWAY_SPEAR",
+      "displayName": "Causeway Spear",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "handedness": "TWO_HANDED",
+      "baseQuality": "SERVICEABLE",
+      "basePower": 17,
+      "protection": 0,
+      "weight": 9,
+      "equipmentTags": [
+        "SPEAR"
+      ],
+      "tacticalIdentity": "Improves intercept reach from center formation slots.",
+      "forecastWeightModifiers": {
+        "GUARD": 80
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_SPEAR_POLEARM",
+        "VIS_QUALITY_SERVICEABLE"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_STORMROAD_GLAIVE",
+      "displayName": "Stormroad Glaive",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "handedness": "TWO_HANDED",
+      "baseQuality": "BALANCED",
+      "basePower": 20,
+      "protection": 0,
+      "weight": 11,
+      "equipmentTags": [
+        "POLEARM"
+      ],
+      "tacticalIdentity": "Flank forecasts gain weight after a successful movement action.",
+      "forecastWeightModifiers": {
+        "FLANK": 120
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_SPEAR_POLEARM",
+        "VIS_QUALITY_BALANCED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_BRIDGEWARDEN_PIKE",
+      "displayName": "Bridgewarden Pike",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "handedness": "TWO_HANDED",
+      "baseQuality": "REINFORCED",
+      "basePower": 22,
+      "protection": 0,
+      "weight": 14,
+      "equipmentTags": [
+        "SPEAR",
+        "POLEARM"
+      ],
+      "tacticalIdentity": "Protects rear members from charge-type attacks.",
+      "forecastWeightModifiers": {
+        "GUARD": 100
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_SPEAR_POLEARM",
+        "VIS_QUALITY_REINFORCED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_ARROW_RAIN_STANDARD_SPEAR",
+      "displayName": "Arrow-Rain Standard Spear",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "handedness": "TWO_HANDED",
+      "baseQuality": "ABYSS_MARKED",
+      "basePower": 19,
+      "protection": 0,
+      "weight": 12,
+      "equipmentTags": [
+        "SPEAR",
+        "BRACE"
+      ],
+      "tacticalIdentity": "While braced, reduces ranged Cohesion damage to the Union.",
+      "forecastWeightModifiers": {
+        "SURVIVE": 100
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_SPEAR_POLEARM",
+        "VIS_QUALITY_ABYSS_MARKED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_BLOODLESS_RIVER_TRIDENT",
+      "displayName": "Bloodless River Trident",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "handedness": "TWO_HANDED",
+      "baseQuality": "RESONANT",
+      "basePower": 21,
+      "protection": 0,
+      "weight": 13,
+      "equipmentTags": [
+        "SPEAR",
+        "FOCUS"
+      ],
+      "tacticalIdentity": "Adds purification weighting against corrupted terrain and fluid hazards.",
+      "forecastWeightModifiers": {
+        "CLEANSE": 100
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_SPEAR_POLEARM",
+        "VIS_QUALITY_RESONANT"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_GATEWORK_SHORTBOW",
+      "displayName": "Gatework Shortbow",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_BOW",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "handedness": "TWO_HANDED",
+      "baseQuality": "SERVICEABLE",
+      "basePower": 13,
+      "protection": 0,
+      "weight": 4,
+      "equipmentTags": [
+        "BOW",
+        "SHORTBOW"
+      ],
+      "tacticalIdentity": "Reliable low-AP covering fire and quick target switching.",
+      "forecastWeightModifiers": {
+        "RANGED": 80,
+        "RESCUE": 40
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_BOW",
+        "VIS_QUALITY_SERVICEABLE"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_STORMLINE_LONGBOW",
+      "displayName": "Stormline Longbow",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_BOW",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "handedness": "TWO_HANDED",
+      "baseQuality": "BALANCED",
+      "basePower": 18,
+      "protection": 0,
+      "weight": 9,
+      "equipmentTags": [
+        "BOW",
+        "LONGBOW"
+      ],
+      "tacticalIdentity": "Increased rear-line targeting when an ally has marked the target.",
+      "forecastWeightModifiers": {
+        "REARLINE": 140
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_BOW",
+        "VIS_QUALITY_BALANCED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_SIGNAL_FLETCHED_RECURVE",
+      "displayName": "Signal-Fletched Recurve",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_BOW",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "handedness": "TWO_HANDED",
+      "baseQuality": "MASTERWORK",
+      "basePower": 16,
+      "protection": 0,
+      "weight": 6,
+      "equipmentTags": [
+        "BOW"
+      ],
+      "tacticalIdentity": "Successful shots improve the next Union forecast preview accuracy.",
+      "forecastWeightModifiers": {
+        "TACTICAL": 100
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_BOW",
+        "VIS_QUALITY_MASTERWORK"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_ARROW_RAIN_DEFLECTOR_BOW",
+      "displayName": "Arrow-Rain Deflector Bow",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_BOW",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "handedness": "TWO_HANDED",
+      "baseQuality": "ABYSS_MARKED",
+      "basePower": 17,
+      "protection": 0,
+      "weight": 8,
+      "equipmentTags": [
+        "BOW",
+        "LONGBOW"
+      ],
+      "tacticalIdentity": "May generate a defensive volley forecast against incoming ranged attacks.",
+      "forecastWeightModifiers": {
+        "SURVIVE": 110
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_BOW",
+        "VIS_QUALITY_ABYSS_MARKED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_FENRUNNER_FIELD_BOW",
+      "displayName": "Fenrunner Field Bow",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_BOW",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "handedness": "TWO_HANDED",
+      "baseQuality": "STORIED",
+      "basePower": 15,
+      "protection": 0,
+      "weight": 5,
+      "equipmentTags": [
+        "BOW",
+        "SCOUTING"
+      ],
+      "tacticalIdentity": "Adds Survival and Perception check utility on expedition boards.",
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 70
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_BOW",
+        "VIS_QUALITY_STORIED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_SURVEYOR_KNIFE",
+      "displayName": "Surveyor Knife",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_DAGGER",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "SERVICEABLE",
+      "basePower": 10,
+      "protection": 0,
+      "weight": 2,
+      "equipmentTags": [
+        "DAGGER",
+        "TOOL"
+      ],
+      "tacticalIdentity": "Adds Crafting and Perception utility without sacrificing a legal dagger fallback.",
+      "forecastWeightModifiers": {
+        "TACTICAL": 50
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_DAGGER",
+        "VIS_QUALITY_SERVICEABLE"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_DUSKWOOD_TWIN_BLADE",
+      "displayName": "Duskwood Twin Blade",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_DAGGER",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "BALANCED",
+      "basePower": 13,
+      "protection": 0,
+      "weight": 3,
+      "equipmentTags": [
+        "DAGGER"
+      ],
+      "tacticalIdentity": "Dual-wield setup improves rear-line action weighting but lowers Guard.",
+      "forecastWeightModifiers": {
+        "REARLINE": 130
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_DAGGER",
+        "VIS_QUALITY_BALANCED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_MERCY_SCALPEL",
+      "displayName": "Mercy Scalpel",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_DAGGER",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "MASTERWORK",
+      "basePower": 8,
+      "protection": 0,
+      "weight": 1,
+      "equipmentTags": [
+        "DAGGER",
+        "REMEDY_KIT"
+      ],
+      "tacticalIdentity": "Medicine checks and emergency-heal setup improve when equipped off hand.",
+      "forecastWeightModifiers": {
+        "HEAL": 80
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_DAGGER",
+        "VIS_QUALITY_MASTERWORK"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_SIGNAL_CUT_DIRK",
+      "displayName": "Signal-Cut Dirk",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_DAGGER",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "RESONANT",
+      "basePower": 12,
+      "protection": 0,
+      "weight": 3,
+      "equipmentTags": [
+        "DAGGER",
+        "SIGNAL_KIT"
+      ],
+      "tacticalIdentity": "Interrupts enemy command and signal Arts more often.",
+      "forecastWeightModifiers": {
+        "INTERRUPT": 100
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_DAGGER",
+        "VIS_QUALITY_RESONANT"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_MEMORY_SHARD_STILETTO",
+      "displayName": "Memory-Shard Stiletto",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_DAGGER",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "ABYSS_MARKED",
+      "basePower": 11,
+      "protection": 0,
+      "weight": 2,
+      "equipmentTags": [
+        "DAGGER"
+      ],
+      "tacticalIdentity": "Observing an enemy technique grants small Discovery progress to compatible Arts.",
+      "forecastWeightModifiers": {
+        "TACTICAL": 80
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_DAGGER",
+        "VIS_QUALITY_ABYSS_MARKED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_GATEWATCH_ROUND_SHIELD",
+      "displayName": "Gatewatch Round Shield",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_SHIELD",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "SERVICEABLE",
+      "basePower": 5,
+      "protection": 0,
+      "weight": 18,
+      "equipmentTags": [
+        "SHIELD"
+      ],
+      "tacticalIdentity": "Beginner-safe interception and Cohesion protection.",
+      "forecastWeightModifiers": {
+        "GUARD": 150
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_SHIELD",
+        "VIS_QUALITY_SERVICEABLE"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_ROADSIDE_RESCUE_SHIELD",
+      "displayName": "Roadside Rescue Shield",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_SHIELD",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "BALANCED",
+      "basePower": 4,
+      "protection": 0,
+      "weight": 16,
+      "equipmentTags": [
+        "SHIELD"
+      ],
+      "tacticalIdentity": "Protect-another-Union forecasts cost 1 less AP once per round.",
+      "forecastWeightModifiers": {
+        "RESCUE": 150
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_SHIELD",
+        "VIS_QUALITY_BALANCED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_PYLON_WARD_BUCKLER",
+      "displayName": "Pylon Ward Buckler",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_SHIELD",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "RESONANT",
+      "basePower": 3,
+      "protection": 0,
+      "weight": 11,
+      "equipmentTags": [
+        "SHIELD",
+        "WARD_BUCKLER"
+      ],
+      "tacticalIdentity": "Anti-Mystic defense with lower weight than a tower shield.",
+      "forecastWeightModifiers": {
+        "ANTI_MYSTIC": 130
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_SHIELD",
+        "VIS_QUALITY_RESONANT"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_IRON_MARCH_TOWER_SHIELD",
+      "displayName": "Iron March Tower Shield",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_SHIELD",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "ABYSS_MARKED",
+      "basePower": 2,
+      "protection": 0,
+      "weight": 28,
+      "equipmentTags": [
+        "SHIELD",
+        "BRACE"
+      ],
+      "tacticalIdentity": "Greatly improves Shield Wall but penalizes Tactical movement.",
+      "forecastWeightModifiers": {
+        "GUARD": 180
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_SHIELD",
+        "VIS_QUALITY_ABYSS_MARKED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_AEGIS_PRACTICE_PLATE",
+      "displayName": "Aegis Practice Plate",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_SHIELD",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "CHOSEN",
+      "basePower": 4,
+      "protection": 0,
+      "weight": 20,
+      "equipmentTags": [
+        "SHIELD",
+        "SHIELD_COMPATIBLE"
+      ],
+      "tacticalIdentity": "Protection trials and meaningful intercepts accelerate Guard learning.",
+      "forecastWeightModifiers": {
+        "GUARD": 160
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": true,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_SHIELD",
+        "VIS_QUALITY_CHOSEN"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_GATEWORKER_GRIP",
+      "displayName": "Gateworker Grip",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_GAUNTLET",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "SERVICEABLE",
+      "basePower": 11,
+      "protection": 0,
+      "weight": 5,
+      "equipmentTags": [
+        "GAUNTLET",
+        "TOOL"
+      ],
+      "tacticalIdentity": "Improves Strength checks and object manipulation.",
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 80
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_GAUNTLET",
+        "VIS_QUALITY_SERVICEABLE"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_STORMSTEP_BRACERS",
+      "displayName": "Stormstep Bracers",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_GAUNTLET",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "BALANCED",
+      "basePower": 12,
+      "protection": 0,
+      "weight": 4,
+      "equipmentTags": [
+        "GAUNTLET"
+      ],
+      "tacticalIdentity": "Movement and flank forecasts use less AP after a successful evade.",
+      "forecastWeightModifiers": {
+        "FLANK": 110
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_GAUNTLET",
+        "VIS_QUALITY_BALANCED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_RESCUE_MARSHAL_GAUNTLETS",
+      "displayName": "Rescue Marshal Gauntlets",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_GAUNTLET",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "REINFORCED",
+      "basePower": 10,
+      "protection": 0,
+      "weight": 7,
+      "equipmentTags": [
+        "GAUNTLET"
+      ],
+      "tacticalIdentity": "Can pull a wounded ally into a safer slot during a rescue forecast.",
+      "forecastWeightModifiers": {
+        "RESCUE": 150
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_GAUNTLET",
+        "VIS_QUALITY_REINFORCED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_TRENCH_GRAPPLERS",
+      "displayName": "Trench Grapplers",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_GAUNTLET",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "ABYSS_MARKED",
+      "basePower": 14,
+      "protection": 0,
+      "weight": 8,
+      "equipmentTags": [
+        "GAUNTLET"
+      ],
+      "tacticalIdentity": "Control enemy formation position and gain Guard progress through body blocks.",
+      "forecastWeightModifiers": {
+        "BREAK": 80,
+        "GUARD": 80
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_GAUNTLET",
+        "VIS_QUALITY_ABYSS_MARKED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_RUNE_KNUCKLE_PAIR",
+      "displayName": "Rune-Knuckle Pair",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_GAUNTLET",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "RESONANT",
+      "basePower": 13,
+      "protection": 0,
+      "weight": 6,
+      "equipmentTags": [
+        "GAUNTLET",
+        "FOCUS_TOOL"
+      ],
+      "tacticalIdentity": "Converts a portion of Mystic proficiency into controlled close-range wards.",
+      "forecastWeightModifiers": {
+        "MYSTIC": 90
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_GAUNTLET",
+        "VIS_QUALITY_RESONANT"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_FIELD_MEDIC_STAFF",
+      "displayName": "Field Medic Staff",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_STAFF",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "handedness": "TWO_HANDED",
+      "baseQuality": "SERVICEABLE",
+      "basePower": 6,
+      "protection": 0,
+      "weight": 7,
+      "equipmentTags": [
+        "STAFF",
+        "REMEDY_KIT"
+      ],
+      "tacticalIdentity": "Extends Restoration range and prioritizes critically wounded targets.",
+      "forecastWeightModifiers": {
+        "HEAL": 150
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "WOOD",
+        "RUNE"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_STAFF",
+        "VIS_QUALITY_SERVICEABLE"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_GATEGLASS_CHANNEL_STAFF",
+      "displayName": "Gateglass Channel Staff",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_STAFF",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "handedness": "TWO_HANDED",
+      "baseQuality": "RESONANT",
+      "basePower": 8,
+      "protection": 0,
+      "weight": 9,
+      "equipmentTags": [
+        "STAFF",
+        "ARCANE_CONDUCTOR"
+      ],
+      "tacticalIdentity": "Reduces MP for the first Mystic action each battle.",
+      "forecastWeightModifiers": {
+        "MYSTIC": 130
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "WOOD",
+        "RUNE"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_STAFF",
+        "VIS_QUALITY_RESONANT"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_QUIET_ARCHIVE_STAFF",
+      "displayName": "Quiet Archive Staff",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_STAFF",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "handedness": "TWO_HANDED",
+      "baseQuality": "MASTERWORK",
+      "basePower": 5,
+      "protection": 0,
+      "weight": 6,
+      "equipmentTags": [
+        "STAFF"
+      ],
+      "tacticalIdentity": "Knowledge and Arcana checks gain a modest bonus; low threat generation.",
+      "forecastWeightModifiers": {
+        "CONTROLLED_MAGIC": 110
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "WOOD",
+        "RUNE"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_STAFF",
+        "VIS_QUALITY_MASTERWORK"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_BLOODLESS_RIVER_CROOK",
+      "displayName": "Bloodless River Crook",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_STAFF",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "handedness": "TWO_HANDED",
+      "baseQuality": "ABYSS_MARKED",
+      "basePower": 7,
+      "protection": 0,
+      "weight": 8,
+      "equipmentTags": [
+        "STAFF",
+        "FOCUS"
+      ],
+      "tacticalIdentity": "Cleansing and purification forecasts gain weight near corrupted terrain.",
+      "forecastWeightModifiers": {
+        "CLEANSE": 150
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "WOOD",
+        "RUNE"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_STAFF",
+        "VIS_QUALITY_ABYSS_MARKED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_RESONANCE_SHEPHERD_STAFF",
+      "displayName": "Resonance Shepherd Staff",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_STAFF",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "handedness": "TWO_HANDED",
+      "baseQuality": "STORIED",
+      "basePower": 6,
+      "protection": 0,
+      "weight": 8,
+      "equipmentTags": [
+        "STAFF",
+        "FOCUS_TOOL"
+      ],
+      "tacticalIdentity": "Invocation Artifact MP costs are reduced by 1, never below 1.",
+      "forecastWeightModifiers": {
+        "INVOCATION": 140
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "WOOD",
+        "RUNE"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_STAFF",
+        "VIS_QUALITY_STORIED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_COPPER_RUNE_FOCUS",
+      "displayName": "Copper Rune Focus",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_FOCUS",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "SERVICEABLE",
+      "basePower": 4,
+      "protection": 0,
+      "weight": 2,
+      "equipmentTags": [
+        "FOCUS_TOOL"
+      ],
+      "tacticalIdentity": "Compact beginner focus for basic Mystic and Support Arts.",
+      "forecastWeightModifiers": {
+        "MYSTIC": 80,
+        "SUPPORT": 60
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "WOOD",
+        "RUNE"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_FOCUS",
+        "VIS_QUALITY_SERVICEABLE"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_WARDGLASS_PRISM",
+      "displayName": "Wardglass Prism",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_FOCUS",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "RESONANT",
+      "basePower": 5,
+      "protection": 0,
+      "weight": 3,
+      "equipmentTags": [
+        "FOCUS_TOOL",
+        "WARD_BUCKLER"
+      ],
+      "tacticalIdentity": "Improves barrier behavior and anti-Mystic forecasts.",
+      "forecastWeightModifiers": {
+        "ANTI_MYSTIC": 130
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "WOOD",
+        "RUNE"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_FOCUS",
+        "VIS_QUALITY_RESONANT"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_SIGNAL_FLAME_WAND",
+      "displayName": "Signal Flame Wand",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_FOCUS",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "BALANCED",
+      "basePower": 6,
+      "protection": 0,
+      "weight": 2,
+      "equipmentTags": [
+        "WAND",
+        "SIGNAL_KIT"
+      ],
+      "tacticalIdentity": "Improves command visibility and Support setup.",
+      "forecastWeightModifiers": {
+        "SUPPORT": 120
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "WOOD",
+        "RUNE"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_FOCUS",
+        "VIS_QUALITY_BALANCED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_ASH_GENERAL_MAP_FOCUS",
+      "displayName": "Ash General Map Focus",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_FOCUS",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "ABYSS_MARKED",
+      "basePower": 7,
+      "protection": 0,
+      "weight": 4,
+      "equipmentTags": [
+        "FOCUS_TOOL",
+        "COMMAND"
+      ],
+      "tacticalIdentity": "Enemy formation reveals increase Tactical forecast diversity.",
+      "forecastWeightModifiers": {
+        "TACTICAL": 130
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "WOOD",
+        "RUNE"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_FOCUS",
+        "VIS_QUALITY_ABYSS_MARKED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_DUAL_CURRENT_CATALYST",
+      "displayName": "Dual-Current Catalyst",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_FOCUS",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "MASTERWORK",
+      "basePower": 6,
+      "protection": 0,
+      "weight": 3,
+      "equipmentTags": [
+        "FOCUS_TOOL",
+        "HYBRID_RELIC"
+      ],
+      "tacticalIdentity": "Permits one Martial/Mystic hybrid Art family when paired with a one-handed weapon.",
+      "forecastWeightModifiers": {
+        "MYSTIC": 100,
+        "OFFENSE": 40
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "WOOD",
+        "RUNE"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_FOCUS",
+        "VIS_QUALITY_MASTERWORK"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_COPPERSPARK_FIELD_RIG",
+      "displayName": "Copperspark Field Rig",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "SERVICEABLE",
+      "basePower": 8,
+      "protection": 0,
+      "weight": 10,
+      "equipmentTags": [
+        "TOOL",
+        "ARCANE_CONDUCTOR"
+      ],
+      "tacticalIdentity": "Deploys simple cover and improves Crafting checks.",
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 130
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_ENGINEERING_TOOL",
+        "VIS_QUALITY_SERVICEABLE"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_BRASSWHISTLE_SIGNAL_HORN",
+      "displayName": "Brasswhistle Signal Horn",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "BALANCED",
+      "basePower": 5,
+      "protection": 0,
+      "weight": 6,
+      "equipmentTags": [
+        "SIGNAL_HORN",
+        "SIGNAL_KIT"
+      ],
+      "tacticalIdentity": "Raises Support and multi-Union coordination weights.",
+      "forecastWeightModifiers": {
+        "SUPPORT": 150,
+        "COORDINATE": 120
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_ENGINEERING_TOOL",
+        "VIS_QUALITY_BALANCED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_PYLON_DISRUPTOR",
+      "displayName": "Pylon Disruptor",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "MASTERWORK",
+      "basePower": 9,
+      "protection": 0,
+      "weight": 12,
+      "equipmentTags": [
+        "TOOL",
+        "ARCANE_CONDUCTOR"
+      ],
+      "tacticalIdentity": "Boss-interruption forecasts become available near constructs.",
+      "forecastWeightModifiers": {
+        "INTERRUPT": 170
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_ENGINEERING_TOOL",
+        "VIS_QUALITY_MASTERWORK"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_PORTABLE_ALCHEMY_PROJECTOR",
+      "displayName": "Portable Alchemy Projector",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "RESONANT",
+      "basePower": 7,
+      "protection": 0,
+      "weight": 9,
+      "equipmentTags": [
+        "ALCHEMY",
+        "TOOL"
+      ],
+      "tacticalIdentity": "Uses prepared mixtures for terrain, cleansing, or healing forecasts.",
+      "forecastWeightModifiers": {
+        "CLEANSE": 100,
+        "HEAL": 80
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_ENGINEERING_TOOL",
+        "VIS_QUALITY_RESONANT"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_SILENT_CAMP_STOVE",
+      "displayName": "Silent Camp Stove",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "ABYSS_MARKED",
+      "basePower": 3,
+      "protection": 0,
+      "weight": 8,
+      "equipmentTags": [
+        "TOOL"
+      ],
+      "tacticalIdentity": "Improves camp recovery and supply efficiency; modest Support action in combat.",
+      "forecastWeightModifiers": {
+        "CONSERVE": 120
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_ENGINEERING_TOOL",
+        "VIS_QUALITY_ABYSS_MARKED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_GATE_RUNE_SPELLBLADE",
+      "displayName": "Gate-Rune Spellblade",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "validSlots": [
+        "SLOT_MAIN_HAND",
+        "SLOT_OFF_HAND"
+      ],
+      "handedness": "ONE_HANDED",
+      "baseQuality": "RESONANT",
+      "basePower": 18,
+      "protection": 0,
+      "weight": 9,
+      "equipmentTags": [
+        "HYBRID_RELIC",
+        "SWORD",
+        "FOCUS_TOOL"
+      ],
+      "tacticalIdentity": "One-handed sword/focus hybrid enabling controlled Martial-Mystic forecasts.",
+      "forecastWeightModifiers": {
+        "MYSTIC": 90,
+        "OFFENSE": 90
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_HYBRID_RELIC_WEAPON",
+        "VIS_QUALITY_RESONANT"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_MOONFANG_RESONANCE_CLAW",
+      "displayName": "Moonfang Resonance Claw",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "handedness": "TWO_HANDED",
+      "baseQuality": "STORIED",
+      "basePower": 17,
+      "protection": 0,
+      "weight": 8,
+      "equipmentTags": [
+        "HYBRID_RELIC",
+        "GAUNTLET"
+      ],
+      "tacticalIdentity": "Fast melee strikes can mark targets for Invocation Echoes.",
+      "forecastWeightModifiers": {
+        "INVOCATION": 100,
+        "REARLINE": 60
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_HYBRID_RELIC_WEAPON",
+        "VIS_QUALITY_STORIED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_NIGHTVEIL_MEMORY_SABER",
+      "displayName": "Nightveil Memory Saber",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "handedness": "TWO_HANDED",
+      "baseQuality": "CHOSEN",
+      "basePower": 19,
+      "protection": 0,
+      "weight": 10,
+      "equipmentTags": [
+        "HYBRID_RELIC",
+        "SWORD",
+        "FOCUS_TOOL"
+      ],
+      "tacticalIdentity": "Observed enemy spells can influence the next legal forecast.",
+      "forecastWeightModifiers": {
+        "TACTICAL": 120,
+        "ANTI_MYSTIC": 80
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": true,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_HYBRID_RELIC_WEAPON",
+        "VIS_QUALITY_CHOSEN"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_AEGIS_CONDUCTOR_LANCE",
+      "displayName": "Aegis Conductor Lance",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "handedness": "TWO_HANDED",
+      "baseQuality": "ABYSS_MARKED",
+      "basePower": 21,
+      "protection": 0,
+      "weight": 14,
+      "equipmentTags": [
+        "HYBRID_RELIC",
+        "SPEAR",
+        "ARCANE_CONDUCTOR"
+      ],
+      "tacticalIdentity": "Guard and Mystic barrier actions can share a forecast.",
+      "forecastWeightModifiers": {
+        "GUARD": 120,
+        "MYSTIC": 80
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_HYBRID_RELIC_WEAPON",
+        "VIS_QUALITY_ABYSS_MARKED"
+      ]
+    },
+    {
+      "id": "EQUIP_WEAPON_WORLDROAD_FOLDING_WEAPON",
+      "displayName": "Worldroad Folding Weapon",
+      "category": "WEAPON",
+      "weaponFamilyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "validSlots": [
+        "SLOT_MAIN_HAND"
+      ],
+      "handedness": "TWO_HANDED",
+      "baseQuality": "EVOLVED",
+      "basePower": 20,
+      "protection": 0,
+      "weight": 12,
+      "equipmentTags": [
+        "HYBRID_RELIC",
+        "SWORD",
+        "SPEAR",
+        "FOCUS_TOOL"
+      ],
+      "tacticalIdentity": "Can switch legal family between sword, spear, and focus only at camps or Guild Hall.",
+      "forecastWeightModifiers": {
+        "TACTICAL": 130
+      },
+      "disciplineModifiersPermille": {},
+      "skillCheckModifiers": {},
+      "formationInteraction": "Uses family authority; named behavior can add context-specific weighting.",
+      "craftingMaterialTags": [
+        "METAL",
+        "WOOD"
+      ],
+      "evolutionPotential": true,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "autoEquipAllowedOnlyWhenPlayerTriggered": true,
+      "visualTags": [
+        "VIS_HYBRID_RELIC_WEAPON",
+        "VIS_QUALITY_EVOLVED"
+      ]
+    }
+  ],
+  "bodyArmor": [
+    {
+      "id": "EQUIP_ARMOR_SURVEYOR_COAT",
+      "displayName": "Surveyor Coat",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 6,
+      "weight": 6,
+      "equipmentTags": [
+        "ARMOR_LIGHT"
+      ],
+      "tacticalIdentity": "Perception and movement; low protection.",
+      "forecastWeightModifiers": {
+        "TACTICAL": 80
+      },
+      "skillCheckModifiers": {
+        "Perception": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT"
+      ]
+    },
+    {
+      "id": "EQUIP_ARMOR_RUNE_LINED_FIELD_ROBE",
+      "displayName": "Rune-Lined Field Robe",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 4,
+      "weight": 5,
+      "equipmentTags": [
+        "ARMOR_LIGHT"
+      ],
+      "tacticalIdentity": "Improves controlled Mystic forecasts and MP recovery at camps.",
+      "forecastWeightModifiers": {
+        "CONTROLLED_MAGIC": 100
+      },
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT"
+      ]
+    },
+    {
+      "id": "EQUIP_ARMOR_FENRUNNER_TRAIL_LEATHERS",
+      "displayName": "Fenrunner Trail Leathers",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 7,
+      "weight": 7,
+      "equipmentTags": [
+        "ARMOR_LIGHT"
+      ],
+      "tacticalIdentity": "Survival checks and fatigue resistance.",
+      "forecastWeightModifiers": {
+        "RESCUE": 50
+      },
+      "skillCheckModifiers": {
+        "Survival": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT"
+      ]
+    },
+    {
+      "id": "EQUIP_ARMOR_DUSK_SURVEY_MANTLE",
+      "displayName": "Dusk Survey Mantle",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 5,
+      "weight": 4,
+      "equipmentTags": [
+        "ARMOR_LIGHT"
+      ],
+      "tacticalIdentity": "Reduces exposure after scouting or revealing a secret.",
+      "forecastWeightModifiers": {
+        "REARLINE": 70
+      },
+      "skillCheckModifiers": {
+        "Perception": 1,
+        "Deception": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT"
+      ]
+    },
+    {
+      "id": "EQUIP_ARMOR_SIGNAL_WEAVER_JACKET",
+      "displayName": "Signal Weaver Jacket",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 5,
+      "weight": 5,
+      "equipmentTags": [
+        "ARMOR_LIGHT"
+      ],
+      "tacticalIdentity": "Support and multi-Union command visibility.",
+      "forecastWeightModifiers": {
+        "SUPPORT": 100
+      },
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT"
+      ]
+    },
+    {
+      "id": "EQUIP_ARMOR_RIVER_CLEANSE_VESTMENTS",
+      "displayName": "River-Cleanse Vestments",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 4,
+      "weight": 6,
+      "equipmentTags": [
+        "ARMOR_LIGHT"
+      ],
+      "tacticalIdentity": "Cleansing and Medicine behavior near hazards.",
+      "forecastWeightModifiers": {
+        "CLEANSE": 110
+      },
+      "skillCheckModifiers": {
+        "Medicine": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT"
+      ]
+    },
+    {
+      "id": "EQUIP_ARMOR_GATEGLASS_ADEPT_WRAP",
+      "displayName": "Gateglass Adept Wrap",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 3,
+      "weight": 4,
+      "equipmentTags": [
+        "ARMOR_LIGHT"
+      ],
+      "tacticalIdentity": "First Mystic MP expenditure is reduced by 1.",
+      "forecastWeightModifiers": {
+        "MYSTIC": 90
+      },
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT"
+      ]
+    },
+    {
+      "id": "EQUIP_ARMOR_SILENT_CAMP_QUARTERMASTER_COAT",
+      "displayName": "Silent Camp Quartermaster Coat",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 6,
+      "weight": 7,
+      "equipmentTags": [
+        "ARMOR_LIGHT"
+      ],
+      "tacticalIdentity": "Supplies last longer and retreat forecasts gain weight when low.",
+      "forecastWeightModifiers": {
+        "RETREAT": 70,
+        "CONSERVE": 100
+      },
+      "skillCheckModifiers": {
+        "Knowledge": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT"
+      ]
+    },
+    {
+      "id": "EQUIP_ARMOR_ROADWARDEN_LAMELLAR",
+      "displayName": "Roadwarden Lamellar",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 13,
+      "weight": 16,
+      "equipmentTags": [
+        "ARMOR_MEDIUM"
+      ],
+      "tacticalIdentity": "Balanced Guard and movement.",
+      "forecastWeightModifiers": {
+        "GUARD": 80
+      },
+      "skillCheckModifiers": {
+        "Courage": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM"
+      ]
+    },
+    {
+      "id": "EQUIP_ARMOR_STORMROAD_SCALE_COAT",
+      "displayName": "Stormroad Scale Coat",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 12,
+      "weight": 14,
+      "equipmentTags": [
+        "ARMOR_MEDIUM"
+      ],
+      "tacticalIdentity": "Flanking resistance and controlled movement.",
+      "forecastWeightModifiers": {
+        "TACTICAL": 80
+      },
+      "skillCheckModifiers": {
+        "Agility": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM"
+      ]
+    },
+    {
+      "id": "EQUIP_ARMOR_GOBLIN_UTILITY_HARNESS",
+      "displayName": "Goblin Utility Harness",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 10,
+      "weight": 12,
+      "equipmentTags": [
+        "ARMOR_MEDIUM"
+      ],
+      "tacticalIdentity": "Tool compatibility and Crafting assistance.",
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 100
+      },
+      "skillCheckModifiers": {
+        "Crafting": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM"
+      ]
+    },
+    {
+      "id": "EQUIP_ARMOR_ASH_MAP_COMMAND_ARMOR",
+      "displayName": "Ash-Map Command Armor",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 11,
+      "weight": 15,
+      "equipmentTags": [
+        "ARMOR_MEDIUM"
+      ],
+      "tacticalIdentity": "Leadership and forecast preview clarity.",
+      "forecastWeightModifiers": {
+        "COORDINATE": 100
+      },
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM"
+      ]
+    },
+    {
+      "id": "EQUIP_ARMOR_BLOODLESS_RIVER_GUARDCOAT",
+      "displayName": "Bloodless River Guardcoat",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 12,
+      "weight": 14,
+      "equipmentTags": [
+        "ARMOR_MEDIUM"
+      ],
+      "tacticalIdentity": "Hazard and purification resistance.",
+      "forecastWeightModifiers": {
+        "CLEANSE": 80
+      },
+      "skillCheckModifiers": {
+        "Survival": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM"
+      ]
+    },
+    {
+      "id": "EQUIP_ARMOR_RESCUE_MARSHAL_BRIGANDINE",
+      "displayName": "Rescue Marshal Brigandine",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 14,
+      "weight": 17,
+      "equipmentTags": [
+        "ARMOR_MEDIUM"
+      ],
+      "tacticalIdentity": "Protect-wounded and extraction actions.",
+      "forecastWeightModifiers": {
+        "RESCUE": 130
+      },
+      "skillCheckModifiers": {
+        "Medicine": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM"
+      ]
+    },
+    {
+      "id": "EQUIP_ARMOR_WAR_BEAST_HANDLER_MAIL",
+      "displayName": "War-Beast Handler Mail",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 11,
+      "weight": 13,
+      "equipmentTags": [
+        "ARMOR_MEDIUM"
+      ],
+      "tacticalIdentity": "Reduces fear and improves nonhostile creature events.",
+      "forecastWeightModifiers": {
+        "SUPPORT": 70
+      },
+      "skillCheckModifiers": {
+        "Courage": 1,
+        "Diplomacy": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM"
+      ]
+    },
+    {
+      "id": "EQUIP_ARMOR_GATEWATCH_HYBRID_CUIRASS",
+      "displayName": "Gatewatch Hybrid Cuirass",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 13,
+      "weight": 15,
+      "equipmentTags": [
+        "ARMOR_MEDIUM"
+      ],
+      "tacticalIdentity": "Supports a one-handed weapon plus focus hybrid without overload.",
+      "forecastWeightModifiers": {
+        "MYSTIC": 60,
+        "OFFENSE": 60
+      },
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM"
+      ]
+    },
+    {
+      "id": "EQUIP_ARMOR_OUTER_ROAD_PLATE",
+      "displayName": "Outer Road Plate",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 22,
+      "weight": 30,
+      "equipmentTags": [
+        "ARMOR_HEAVY"
+      ],
+      "tacticalIdentity": "High protection and reliable Shield Wall behavior.",
+      "forecastWeightModifiers": {
+        "GUARD": 150
+      },
+      "skillCheckModifiers": {
+        "Courage": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY"
+      ]
+    },
+    {
+      "id": "EQUIP_ARMOR_IRON_MARCH_HARNESS",
+      "displayName": "Iron March Harness",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 24,
+      "weight": 34,
+      "equipmentTags": [
+        "ARMOR_HEAVY"
+      ],
+      "tacticalIdentity": "Cohesion protection, but reduced flank mobility.",
+      "forecastWeightModifiers": {
+        "GUARD": 170
+      },
+      "skillCheckModifiers": {
+        "Strength": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY"
+      ]
+    },
+    {
+      "id": "EQUIP_ARMOR_COLLAPSED_WALL_ENGINEER_PLATE",
+      "displayName": "Collapsed Wall Engineer Plate",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 20,
+      "weight": 29,
+      "equipmentTags": [
+        "ARMOR_HEAVY"
+      ],
+      "tacticalIdentity": "Objective resistance and construct work.",
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 130
+      },
+      "skillCheckModifiers": {
+        "Crafting": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY"
+      ]
+    },
+    {
+      "id": "EQUIP_ARMOR_AEGIS_TRIAL_ARMOR",
+      "displayName": "Aegis Trial Armor",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 23,
+      "weight": 32,
+      "equipmentTags": [
+        "ARMOR_HEAVY"
+      ],
+      "tacticalIdentity": "Meaningful civilian protection increases evolution progress.",
+      "forecastWeightModifiers": {
+        "RESCUE": 120,
+        "SURVIVE": 120
+      },
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY"
+      ]
+    },
+    {
+      "id": "EQUIP_ARMOR_PYLON_GROUNDING_PLATE",
+      "displayName": "Pylon Grounding Plate",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 21,
+      "weight": 31,
+      "equipmentTags": [
+        "ARMOR_HEAVY"
+      ],
+      "tacticalIdentity": "Strong anti-Mystic defense, vulnerable to mobility control.",
+      "forecastWeightModifiers": {
+        "ANTI_MYSTIC": 150
+      },
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY"
+      ]
+    },
+    {
+      "id": "EQUIP_ARMOR_MOUNTAIN_LINE_BULWARK",
+      "displayName": "Mountain-Line Bulwark",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 25,
+      "weight": 36,
+      "equipmentTags": [
+        "ARMOR_HEAVY"
+      ],
+      "tacticalIdentity": "Formation center anchor; high fatigue on long boards.",
+      "forecastWeightModifiers": {
+        "GUARD": 160
+      },
+      "skillCheckModifiers": {
+        "Strength": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY"
+      ]
+    },
+    {
+      "id": "EQUIP_ARMOR_BANNER_HILL_HONOR_PLATE",
+      "displayName": "Banner Hill Honor Plate",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 22,
+      "weight": 31,
+      "equipmentTags": [
+        "ARMOR_HEAVY"
+      ],
+      "tacticalIdentity": "Support progress from protecting morale objectives.",
+      "forecastWeightModifiers": {
+        "SUPPORT": 100,
+        "GUARD": 100
+      },
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY"
+      ]
+    },
+    {
+      "id": "EQUIP_ARMOR_GATEBOUND_COLOSSUS_SALVAGE_PLATE",
+      "displayName": "Gatebound Colossus Salvage Plate",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 26,
+      "weight": 39,
+      "equipmentTags": [
+        "ARMOR_HEAVY"
+      ],
+      "tacticalIdentity": "Boss telegraph survival, difficult to repair.",
+      "forecastWeightModifiers": {
+        "SURVIVE": 180
+      },
+      "skillCheckModifiers": {
+        "Courage": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY"
+      ]
+    }
+  ],
+  "accessories": [
+    {
+      "id": "EQUIP_ACCESSORY_CARDBOARD_WING_CHARM",
+      "displayName": "Cardboard Wing Charm",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Once per expedition, converts a minor fatigue cost into morale.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Courage": 1
+      },
+      "forecastWeightModifiers": {
+        "RESCUE": 40
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_GATEWORKER_ID_TAG",
+      "displayName": "Gateworker ID Tag",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Improves Diplomacy with Gateworks labor crews.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Diplomacy": 1
+      },
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 40
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_COPPER_ROUTE_COMPASS",
+      "displayName": "Copper Route Compass",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Increases scouting clarity and hidden-route discovery.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Perception": 1
+      },
+      "forecastWeightModifiers": {
+        "TACTICAL": 50
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_MEDIC_S_TRIAGE_RIBBON",
+      "displayName": "Medic’s Triage Ribbon",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Emergency-heal forecasts receive higher weight.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Medicine": 1
+      },
+      "forecastWeightModifiers": {
+        "EMERGENCY_HEAL": 100
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_RIVET_COUNTER",
+      "displayName": "Rivet Counter",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Dismantling and repair yields are easier to predict.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Crafting": 1
+      },
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 40
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_STORMGLASS_LENS",
+      "displayName": "Stormglass Lens",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Ranged marking and Arcana checks.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Perception": 1,
+        "Arcana": 1
+      },
+      "forecastWeightModifiers": {
+        "RANGED": 70
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_BANNER_THREAD_BRACELET",
+      "displayName": "Banner Thread Bracelet",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Morale support after a Union loses Cohesion.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "forecastWeightModifiers": {
+        "SUPPORT": 80
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_RIVER_PURITY_BEAD",
+      "displayName": "River Purity Bead",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Cleansing and hazard resistance.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Survival": 1
+      },
+      "forecastWeightModifiers": {
+        "CLEANSE": 80
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_SILENT_CAMP_SPOON",
+      "displayName": "Silent Camp Spoon",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Camp recovery consumes one fewer supply once per expedition.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Survival": 1
+      },
+      "forecastWeightModifiers": {
+        "CONSERVE": 70
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_ASH_MAP_TOKEN",
+      "displayName": "Ash-Map Token",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Shows one additional broad risk tag on a forecast.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Knowledge": 1
+      },
+      "forecastWeightModifiers": {
+        "TACTICAL": 70
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_RESCUE_WHISTLE",
+      "displayName": "Rescue Whistle",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Raises the chance that a rescue forecast appears when an ally is isolated.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "forecastWeightModifiers": {
+        "RESCUE": 100
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_RUNE_GROUNDING_RING",
+      "displayName": "Rune Grounding Ring",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Reduces anti-Mystic vulnerability but slightly raises weight.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "forecastWeightModifiers": {
+        "ANTI_MYSTIC": 80
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_DUELIST_S_BALANCE_CHAIN",
+      "displayName": "Duelist’s Balance Chain",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "One-handed weapon loadouts reduce AP cost of the first Martial Art by 1.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Agility": 1
+      },
+      "forecastWeightModifiers": {
+        "OFFENSE": 50
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_QUARTERMASTER_S_SEAL",
+      "displayName": "Quartermaster’s Seal",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Improves legal salvage value and supply accounting.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Knowledge": 1
+      },
+      "forecastWeightModifiers": {
+        "CONSERVE": 80
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_DOG_TRIBE_SCENT_CHARM",
+      "displayName": "Dog-Tribe Scent Charm",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Tracking and hunt-contract options.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Survival": 1,
+        "Perception": 1
+      },
+      "forecastWeightModifiers": {
+        "HUNT": 90
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_GOBLIN_MEASURE_LOOP",
+      "displayName": "Goblin Measure Loop",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Crafting assistance does not add fatigue on mixed outcomes.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Crafting": 1
+      },
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 80
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_ORC_OATH_CLASP",
+      "displayName": "Orc Oath Clasp",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Guard progress improves when protecting a weaker ally.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Courage": 1
+      },
+      "forecastWeightModifiers": {
+        "GUARD": 90
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_DARK_ELF_NIGHT_PIN",
+      "displayName": "Dark-Elf Night Pin",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Deception and rear-line target discovery.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Deception": 1
+      },
+      "forecastWeightModifiers": {
+        "REARLINE": 90
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_DEMON_HERITAGE_WARD_KNOT",
+      "displayName": "Demon-Heritage Ward Knot",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Controlled spell forecasts are favored over all-out spells at low MP.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "forecastWeightModifiers": {
+        "CONTROLLED_MAGIC": 100
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_HUMAN_ADAPTATION_COIN",
+      "displayName": "Human Adaptation Coin",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Small proficiency bonus when using a newly trained family.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Knowledge": 1
+      },
+      "forecastWeightModifiers": {
+        "BALANCED": 60
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_AEGIS_CORE_SLIVER",
+      "displayName": "Aegis Core Sliver",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Civilian protection contributes to equipment evolution history.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "forecastWeightModifiers": {
+        "SURVIVE": 100
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_GATE_TOLL_COUNTERMARK",
+      "displayName": "Gate-Toll Countermark",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Reduces repeat contract penalty once per day for a different contract type.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Knowledge": 1
+      },
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 50
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_MEMORY_WATER_VIAL",
+      "displayName": "Memory-Water Vial",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Observational learning gains modest progress once per battle.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "forecastWeightModifiers": {
+        "TACTICAL": 70
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_PHOENIX_ASH_THREAD",
+      "displayName": "Phoenix Ash Thread",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Prevents one nonlethal injury escalation per expedition; consumed only on use.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Medicine": 1
+      },
+      "forecastWeightModifiers": {
+        "EMERGENCY_HEAL": 100
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "acquisitionPaths": [
+        "ABYSS_SUMMON_CLUE_RESEARCH",
+        "COVENANT_PREPARATION_EVENT"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_FENRIR_TRAIL_FANG",
+      "displayName": "Fenrir Trail Fang",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Hunt objectives and enemy marking.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Survival": 1
+      },
+      "forecastWeightModifiers": {
+        "HUNT": 110
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "acquisitionPaths": [
+        "ABYSS_SUMMON_CLUE_RESEARCH",
+        "COVENANT_PREPARATION_EVENT"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_CARBUNCLE_GLASS_STUD",
+      "displayName": "Carbuncle Glass Stud",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Barrier and reflect-like ward support without copying True Reflection.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "forecastWeightModifiers": {
+        "GUARD": 70,
+        "ANTI_MYSTIC": 70
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "acquisitionPaths": [
+        "ABYSS_SUMMON_CLUE_RESEARCH",
+        "COVENANT_PREPARATION_EVENT"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_TERRA_TITAN_GRAVEL_SEAL",
+      "displayName": "Terra Titan Gravel Seal",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Objective and wall-defense checks.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Strength": 1,
+        "Crafting": 1
+      },
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 100
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "acquisitionPaths": [
+        "ABYSS_SUMMON_CLUE_RESEARCH",
+        "COVENANT_PREPARATION_EVENT"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_SYLPH_ROUTE_FEATHER",
+      "displayName": "Sylph Route Feather",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Movement and evacuation forecasts.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Agility": 1
+      },
+      "forecastWeightModifiers": {
+        "RESCUE": 90,
+        "FLANK": 60
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "acquisitionPaths": [
+        "ABYSS_SUMMON_CLUE_RESEARCH",
+        "COVENANT_PREPARATION_EVENT"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_LEVIATHAN_MEMORY_SCALE",
+      "displayName": "Leviathan Memory Scale",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Knowledge and water-hazard checks.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Knowledge": 1
+      },
+      "forecastWeightModifiers": {
+        "CLEANSE": 70
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "acquisitionPaths": [
+        "ABYSS_SUMMON_CLUE_RESEARCH",
+        "COVENANT_PREPARATION_EVENT"
+      ]
+    },
+    {
+      "id": "EQUIP_ACCESSORY_IFRIT_FORGE_EMBER",
+      "displayName": "Ifrit Forge Ember",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Forge quality influence; does not grant a Great Summon.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Crafting": 1
+      },
+      "forecastWeightModifiers": {
+        "OFFENSE": 50
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "acquisitionPaths": [
+        "ABYSS_SUMMON_CLUE_RESEARCH",
+        "COVENANT_PREPARATION_EVENT"
+      ]
+    }
+  ],
+  "toolsRelics": [
+    {
+      "id": "EQUIP_TOOL_FIELD_REMEDY_KIT",
+      "displayName": "Field Remedy Kit",
+      "category": "TOOL_RELIC",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 3,
+      "equipmentTags": [
+        "REMEDY_KIT",
+        "TOOL"
+      ],
+      "tacticalIdentity": "Medicine checks, injury stabilization, and emergency healing forecasts.",
+      "skillCheckModifiers": {
+        "Medicine": 2
+      },
+      "forecastWeightModifiers": {
+        "EMERGENCY_HEAL": 130
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_TOOL_RELIC"
+      ]
+    },
+    {
+      "id": "EQUIP_TOOL_SURVEY_PRISM",
+      "displayName": "Survey Prism",
+      "category": "TOOL_RELIC",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 3,
+      "equipmentTags": [
+        "SCOUTING",
+        "FOCUS_TOOL"
+      ],
+      "tacticalIdentity": "Perception, ordinary secret discovery, and map clarity.",
+      "skillCheckModifiers": {
+        "Perception": 2
+      },
+      "forecastWeightModifiers": {
+        "TACTICAL": 100
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_TOOL_RELIC"
+      ]
+    },
+    {
+      "id": "EQUIP_TOOL_PORTABLE_GATE_METER",
+      "displayName": "Portable Gate Meter",
+      "category": "TOOL_RELIC",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 3,
+      "equipmentTags": [
+        "TOOL",
+        "ARCANE_CONDUCTOR"
+      ],
+      "tacticalIdentity": "Arcana and anomaly-containment contracts.",
+      "skillCheckModifiers": {
+        "Arcana": 2
+      },
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 120
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_TOOL_RELIC"
+      ]
+    },
+    {
+      "id": "EQUIP_TOOL_QUARTERMASTER_LEDGER",
+      "displayName": "Quartermaster Ledger",
+      "category": "TOOL_RELIC",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 3,
+      "equipmentTags": [
+        "COMMAND",
+        "TOOL"
+      ],
+      "tacticalIdentity": "Supply conservation and Guild Treasury reporting.",
+      "skillCheckModifiers": {
+        "Knowledge": 2
+      },
+      "forecastWeightModifiers": {
+        "CONSERVE": 130
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_TOOL_RELIC"
+      ]
+    },
+    {
+      "id": "EQUIP_TOOL_RESCUE_HARNESS",
+      "displayName": "Rescue Harness",
+      "category": "TOOL_RELIC",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 3,
+      "equipmentTags": [
+        "TOOL"
+      ],
+      "tacticalIdentity": "Reduces fatigue from carrying injured allies.",
+      "skillCheckModifiers": {
+        "Strength": 1,
+        "Medicine": 1
+      },
+      "forecastWeightModifiers": {
+        "RESCUE": 130
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_TOOL_RELIC"
+      ]
+    },
+    {
+      "id": "EQUIP_TOOL_SIGNAL_KIT",
+      "displayName": "Signal Kit",
+      "category": "TOOL_RELIC",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 3,
+      "equipmentTags": [
+        "SIGNAL_KIT",
+        "TOOL"
+      ],
+      "tacticalIdentity": "Support, coordination, and split-Union regrouping.",
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "forecastWeightModifiers": {
+        "COORDINATE": 140
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_TOOL_RELIC"
+      ]
+    },
+    {
+      "id": "EQUIP_TOOL_PORTABLE_WARD_STAKES",
+      "displayName": "Portable Ward Stakes",
+      "category": "TOOL_RELIC",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 3,
+      "equipmentTags": [
+        "FOCUS_TOOL",
+        "WARD_BUCKLER"
+      ],
+      "tacticalIdentity": "Deployable anti-Mystic terrain.",
+      "skillCheckModifiers": {
+        "Arcana": 1,
+        "Crafting": 1
+      },
+      "forecastWeightModifiers": {
+        "ANTI_MYSTIC": 130
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_TOOL_RELIC"
+      ]
+    },
+    {
+      "id": "EQUIP_TOOL_CAMP_FIELD_STOVE",
+      "displayName": "Camp Field Stove",
+      "category": "TOOL_RELIC",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 3,
+      "equipmentTags": [
+        "TOOL"
+      ],
+      "tacticalIdentity": "Improves camp recovery and protects rations.",
+      "skillCheckModifiers": {
+        "Survival": 1
+      },
+      "forecastWeightModifiers": {
+        "CONSERVE": 100
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_TOOL_RELIC"
+      ]
+    },
+    {
+      "id": "EQUIP_TOOL_SALVAGE_CERTIFICATION_SEAL",
+      "displayName": "Salvage Certification Seal",
+      "category": "TOOL_RELIC",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 3,
+      "equipmentTags": [
+        "TOOL"
+      ],
+      "tacticalIdentity": "Improves legal salvage outcomes; no combat power.",
+      "skillCheckModifiers": {
+        "Diplomacy": 1,
+        "Knowledge": 1
+      },
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 70
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_TOOL_RELIC"
+      ]
+    },
+    {
+      "id": "EQUIP_TOOL_MONSTER_CARE_SATCHEL",
+      "displayName": "Monster Care Satchel",
+      "category": "TOOL_RELIC",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 3,
+      "equipmentTags": [
+        "REMEDY_KIT",
+        "TOOL"
+      ],
+      "tacticalIdentity": "Nonhostile creature events and War Beast Pens ethics.",
+      "skillCheckModifiers": {
+        "Medicine": 1,
+        "Diplomacy": 1
+      },
+      "forecastWeightModifiers": {
+        "SUPPORT": 70
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_TOOL_RELIC"
+      ]
+    },
+    {
+      "id": "EQUIP_TOOL_RUNE_CHALK_CASE",
+      "displayName": "Rune Chalk Case",
+      "category": "TOOL_RELIC",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 3,
+      "equipmentTags": [
+        "FOCUS_TOOL",
+        "TOOL"
+      ],
+      "tacticalIdentity": "Crafting, Arcana, and formation preparation.",
+      "skillCheckModifiers": {
+        "Crafting": 1,
+        "Arcana": 1
+      },
+      "forecastWeightModifiers": {
+        "PREPARE_LINK": 80
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_TOOL_RELIC"
+      ]
+    },
+    {
+      "id": "EQUIP_TOOL_EMERGENCY_EXTRACTION_BEACON",
+      "displayName": "Emergency Extraction Beacon",
+      "category": "TOOL_RELIC",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 3,
+      "equipmentTags": [
+        "SIGNAL_KIT",
+        "ARCANE_CONDUCTOR"
+      ],
+      "tacticalIdentity": "Raises controlled-withdrawal forecast weight at critical risk.",
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "forecastWeightModifiers": {
+        "RETREAT": 160
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_TOOL_RELIC"
+      ]
+    },
+    {
+      "id": "EQUIP_TOOL_ASH_COMMAND_TABLE_FRAGMENT",
+      "displayName": "Ash Command Table Fragment",
+      "category": "TOOL_RELIC",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 3,
+      "equipmentTags": [
+        "COMMAND",
+        "TOOL"
+      ],
+      "tacticalIdentity": "Improves leader forecast diversity after scouting.",
+      "skillCheckModifiers": {
+        "Knowledge": 1,
+        "Leadership": 1
+      },
+      "forecastWeightModifiers": {
+        "TACTICAL": 120
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_TOOL_RELIC"
+      ]
+    },
+    {
+      "id": "EQUIP_TOOL_BLOODLESS_RIVER_FILTER",
+      "displayName": "Bloodless River Filter",
+      "category": "TOOL_RELIC",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 3,
+      "equipmentTags": [
+        "TOOL"
+      ],
+      "tacticalIdentity": "Water hazard protection and cleansing checks.",
+      "skillCheckModifiers": {
+        "Survival": 1
+      },
+      "forecastWeightModifiers": {
+        "CLEANSE": 100
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_TOOL_RELIC"
+      ]
+    },
+    {
+      "id": "EQUIP_TOOL_AEGIS_CIVILIAN_MARKER",
+      "displayName": "Aegis Civilian Marker",
+      "category": "TOOL_RELIC",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 3,
+      "equipmentTags": [
+        "COMMAND",
+        "WARD_BUCKLER"
+      ],
+      "tacticalIdentity": "Boss protection objectives become clearer.",
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "forecastWeightModifiers": {
+        "SURVIVE": 130
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_TOOL_RELIC"
+      ]
+    },
+    {
+      "id": "EQUIP_TOOL_QUIET_ARCHIVE_RECORDER",
+      "displayName": "Quiet Archive Recorder",
+      "category": "TOOL_RELIC",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 3,
+      "equipmentTags": [
+        "TOOL",
+        "FOCUS_TOOL"
+      ],
+      "tacticalIdentity": "Records enemy Arts for observation without stealing them.",
+      "skillCheckModifiers": {
+        "Knowledge": 1
+      },
+      "forecastWeightModifiers": {
+        "TACTICAL": 90
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_TOOL_RELIC"
+      ]
+    },
+    {
+      "id": "EQUIP_TOOL_COPPERSPARK_MULTI_TOOL",
+      "displayName": "Copperspark Multi-Tool",
+      "category": "TOOL_RELIC",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 3,
+      "equipmentTags": [
+        "TOOL",
+        "ALCHEMY"
+      ],
+      "tacticalIdentity": "Repair and improvisation during expeditions.",
+      "skillCheckModifiers": {
+        "Crafting": 2
+      },
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 100
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_TOOL_RELIC"
+      ]
+    },
+    {
+      "id": "EQUIP_TOOL_FOUNDERS_CIVIC_CHARTER_COPY",
+      "displayName": "Founders’ Civic Charter Copy",
+      "category": "TOOL_RELIC",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 3,
+      "equipmentTags": [
+        "COMMAND"
+      ],
+      "tacticalIdentity": "Diplomacy support and reminder that power serves people; no ownership authority.",
+      "skillCheckModifiers": {
+        "Diplomacy": 1,
+        "Leadership": 1
+      },
+      "forecastWeightModifiers": {
+        "SUPPORT": 90
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_TOOL_RELIC"
+      ]
+    }
+  ],
+  "offHands": [
+    {
+      "id": "EQUIP_OFFHAND_GATEWATCH_BUCKLER",
+      "displayName": "Gatewatch Buckler",
+      "category": "SHIELD",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 9,
+      "weight": 7,
+      "equipmentTags": [
+        "SHIELD",
+        "WARD_BUCKLER"
+      ],
+      "tacticalIdentity": "Light defensive reaction.",
+      "forecastWeightModifiers": {
+        "GUARD": 90
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND"
+      ]
+    },
+    {
+      "id": "EQUIP_OFFHAND_ROADWARDEN_HEATER_SHIELD",
+      "displayName": "Roadwarden Heater Shield",
+      "category": "SHIELD",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 14,
+      "weight": 14,
+      "equipmentTags": [
+        "SHIELD"
+      ],
+      "tacticalIdentity": "Balanced rescue protection.",
+      "forecastWeightModifiers": {
+        "GUARD": 130,
+        "RESCUE": 70
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND"
+      ]
+    },
+    {
+      "id": "EQUIP_OFFHAND_IRON_MARCH_TOWER_PLATE",
+      "displayName": "Iron March Tower Plate",
+      "category": "SHIELD",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 22,
+      "weight": 25,
+      "equipmentTags": [
+        "SHIELD",
+        "BRACE"
+      ],
+      "tacticalIdentity": "Stationary formation anchor.",
+      "forecastWeightModifiers": {
+        "GUARD": 170
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND"
+      ]
+    },
+    {
+      "id": "EQUIP_OFFHAND_PYLON_GROUNDING_SCREEN",
+      "displayName": "Pylon Grounding Screen",
+      "category": "SHIELD",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 12,
+      "weight": 12,
+      "equipmentTags": [
+        "SHIELD",
+        "ARCANE_CONDUCTOR"
+      ],
+      "tacticalIdentity": "Mystic grounding off hand.",
+      "forecastWeightModifiers": {
+        "ANTI_MYSTIC": 140
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND"
+      ]
+    },
+    {
+      "id": "EQUIP_OFFHAND_MEDIC_S_GUARD_TRAY",
+      "displayName": "Medic’s Guard Tray",
+      "category": "SHIELD",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 8,
+      "weight": 8,
+      "equipmentTags": [
+        "SHIELD",
+        "REMEDY_KIT"
+      ],
+      "tacticalIdentity": "Protects a healer while treating allies.",
+      "forecastWeightModifiers": {
+        "HEAL": 70,
+        "GUARD": 70
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND"
+      ]
+    },
+    {
+      "id": "EQUIP_OFFHAND_SIGNAL_MIRROR",
+      "displayName": "Signal Mirror",
+      "category": "FOCUS",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 3,
+      "weight": 3,
+      "equipmentTags": [
+        "FOCUS_TOOL",
+        "SIGNAL_KIT"
+      ],
+      "tacticalIdentity": "Reflects visible signals, not damage.",
+      "forecastWeightModifiers": {
+        "SUPPORT": 100
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND"
+      ]
+    },
+    {
+      "id": "EQUIP_OFFHAND_RUNE_LEDGER_FOCUS",
+      "displayName": "Rune Ledger Focus",
+      "category": "FOCUS",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 2,
+      "weight": 2,
+      "equipmentTags": [
+        "FOCUS_TOOL",
+        "COMMAND"
+      ],
+      "tacticalIdentity": "Command and accounting support.",
+      "forecastWeightModifiers": {
+        "TACTICAL": 90
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND"
+      ]
+    },
+    {
+      "id": "EQUIP_OFFHAND_ALCHEMY_CANISTER_RACK",
+      "displayName": "Alchemy Canister Rack",
+      "category": "FOCUS",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 4,
+      "weight": 5,
+      "equipmentTags": [
+        "ALCHEMY",
+        "TOOL"
+      ],
+      "tacticalIdentity": "Prepared mixture off hand.",
+      "forecastWeightModifiers": {
+        "CLEANSE": 80
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND"
+      ]
+    },
+    {
+      "id": "EQUIP_OFFHAND_RESCUE_LINE_SPOOL",
+      "displayName": "Rescue Line Spool",
+      "category": "FOCUS",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 2,
+      "weight": 4,
+      "equipmentTags": [
+        "TOOL"
+      ],
+      "tacticalIdentity": "Extraction and board movement utility.",
+      "forecastWeightModifiers": {
+        "RESCUE": 110
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND"
+      ]
+    },
+    {
+      "id": "EQUIP_OFFHAND_DUEL_CATCHER",
+      "displayName": "Duel Catcher",
+      "category": "FOCUS",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 5,
+      "weight": 3,
+      "equipmentTags": [
+        "DAGGER",
+        "TOOL"
+      ],
+      "tacticalIdentity": "Parrying off-hand implement.",
+      "forecastWeightModifiers": {
+        "OFFENSE": 50,
+        "GUARD": 50
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND"
+      ]
+    },
+    {
+      "id": "EQUIP_OFFHAND_GATEGLASS_MINI_PRISM",
+      "displayName": "Gateglass Mini-Prism",
+      "category": "FOCUS",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 3,
+      "weight": 2,
+      "equipmentTags": [
+        "FOCUS_TOOL",
+        "WARD_BUCKLER"
+      ],
+      "tacticalIdentity": "Compact ward focus.",
+      "forecastWeightModifiers": {
+        "ANTI_MYSTIC": 100
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND"
+      ]
+    },
+    {
+      "id": "EQUIP_OFFHAND_WORLDROAD_FOLDING_BRACE",
+      "displayName": "Worldroad Folding Brace",
+      "category": "FOCUS",
+      "validSlots": [
+        "SLOT_OFF_HAND"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 7,
+      "weight": 6,
+      "equipmentTags": [
+        "SHIELD_COMPATIBLE",
+        "HYBRID_RELIC"
+      ],
+      "tacticalIdentity": "Hybrid brace for relic weapons.",
+      "forecastWeightModifiers": {
+        "BALANCED": 80
+      },
+      "skillCheckModifiers": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_OFFHAND"
+      ]
+    }
+  ],
+  "craftingSpecial": [
+    {
+      "id": "ITEM_REPAIR_PATCH",
+      "displayName": "Field Repair Patch",
+      "category": "CRAFTING_SPECIAL",
+      "function": "Restore limited durability outside the Guild Forge.",
+      "consumedOnUse": true
+    },
+    {
+      "id": "ITEM_RUNE_BLANK",
+      "displayName": "Blank Rune Plate",
+      "category": "CRAFTING_SPECIAL",
+      "function": "Base for installing a deterministic rune modifier.",
+      "consumedOnUse": true
+    },
+    {
+      "id": "ITEM_STABILIZATION_SALT",
+      "displayName": "XP Stabilization Salt",
+      "category": "CRAFTING_SPECIAL",
+      "function": "Makes unstable Abyss material safe for public Forge work.",
+      "consumedOnUse": true
+    },
+    {
+      "id": "ITEM_BLUEPRINT_CASE",
+      "displayName": "Sealed Blueprint Case",
+      "category": "CRAFTING_SPECIAL",
+      "function": "Stores one discovered recipe without inventory rerolls.",
+      "consumedOnUse": false
+    },
+    {
+      "id": "ITEM_FORGE_COAL_GATE",
+      "displayName": "Gate-Heat Coal",
+      "category": "CRAFTING_SPECIAL",
+      "function": "Heat source for early public Forge refinement.",
+      "consumedOnUse": true
+    },
+    {
+      "id": "ITEM_RESONANCE_THREAD",
+      "displayName": "Resonance Thread",
+      "category": "CRAFTING_SPECIAL",
+      "function": "Repairs Invocation Artifacts without affecting their identity.",
+      "consumedOnUse": true
+    },
+    {
+      "id": "ITEM_SOCKET_CHISEL",
+      "displayName": "Rune Socket Chisel",
+      "category": "CRAFTING_SPECIAL",
+      "function": "Adds a socket only when the item and Forge stage permit it.",
+      "consumedOnUse": false
+    },
+    {
+      "id": "ITEM_HISTORY_INK",
+      "displayName": "History Ink",
+      "category": "CRAFTING_SPECIAL",
+      "function": "Records a player-approved custom name and description.",
+      "consumedOnUse": true
+    },
+    {
+      "id": "ITEM_CHOSEN_WRAPPING",
+      "displayName": "Dormant Relic Wrapping",
+      "category": "CRAFTING_SPECIAL",
+      "function": "Safely transports a dormant Chosen item; does not force acceptance.",
+      "consumedOnUse": false
+    },
+    {
+      "id": "ITEM_ABYSS_AUDIT_SEAL",
+      "displayName": "Abyss Audit Seal",
+      "category": "CRAFTING_SPECIAL",
+      "function": "Records sustainable extraction and prevents misreporting.",
+      "consumedOnUse": false
+    },
+    {
+      "id": "ITEM_EDIT_SHARD_CASE",
+      "displayName": "Sealed Edit Shard Case",
+      "category": "CRAFTING_SPECIAL",
+      "function": "Private storage recognized only after valid Margin authorization.",
+      "consumedOnUse": false
+    },
+    {
+      "id": "ITEM_COVENANT_OFFERING_VESSEL",
+      "displayName": "Covenant Offering Vessel",
+      "category": "CRAFTING_SPECIAL",
+      "function": "Future civic artifact for negotiated Great Summon offerings; never contains a summon.",
+      "consumedOnUse": false
+    }
+  ]
+}

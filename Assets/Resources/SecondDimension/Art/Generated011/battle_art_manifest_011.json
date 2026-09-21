@@ -1,0 +1,1379 @@
+{
+  "contentVersion": "GOW_BATTLE_ART_011",
+  "canvas": {
+    "width": 768,
+    "height": 1152,
+    "characterPivot": [
+      0.5,
+      0.045
+    ]
+  },
+  "characters": [
+    {
+      "stableId": "SIGREC_MAREN_HOLT",
+      "displayName": "Maren Holt",
+      "side": "ALLY",
+      "role": "Guardian / Leader",
+      "weaponFamily": "Spear/Polearm",
+      "orientation": "RIGHT",
+      "poses": [
+        {
+          "poseId": "IDLE_READY",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/SIGREC_MAREN_HOLT/SIGREC_MAREN_HOLT_IDLE_READY",
+          "productionStatus": "APPROVED_SOURCE_DERIVATIVE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "ANTICIPATION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/SIGREC_MAREN_HOLT/SIGREC_MAREN_HOLT_ANTICIPATION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "PRIMARY_ACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/SIGREC_MAREN_HOLT/SIGREC_MAREN_HOLT_PRIMARY_ACTION",
+          "productionStatus": "APPROVED_SOURCE_DERIVATIVE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "ROLE_ACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/SIGREC_MAREN_HOLT/SIGREC_MAREN_HOLT_ROLE_ACTION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "GUARD_CAST_SUPPORT",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/SIGREC_MAREN_HOLT/SIGREC_MAREN_HOLT_GUARD_CAST_SUPPORT",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "HIT_REACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/SIGREC_MAREN_HOLT/SIGREC_MAREN_HOLT_HIT_REACTION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "DOWNED",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/SIGREC_MAREN_HOLT/SIGREC_MAREN_HOLT_DOWNED",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "VICTORY",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/SIGREC_MAREN_HOLT/SIGREC_MAREN_HOLT_VICTORY",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        }
+      ]
+    },
+    {
+      "stableId": "SIGREC_ODELIA_FEN",
+      "displayName": "Odelia Fen",
+      "side": "ALLY",
+      "role": "Restoration / Mystic",
+      "weaponFamily": "Staff",
+      "orientation": "RIGHT",
+      "poses": [
+        {
+          "poseId": "IDLE_READY",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/SIGREC_ODELIA_FEN/SIGREC_ODELIA_FEN_IDLE_READY",
+          "productionStatus": "APPROVED_SOURCE_DERIVATIVE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "ANTICIPATION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/SIGREC_ODELIA_FEN/SIGREC_ODELIA_FEN_ANTICIPATION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "PRIMARY_ACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/SIGREC_ODELIA_FEN/SIGREC_ODELIA_FEN_PRIMARY_ACTION",
+          "productionStatus": "TEMP_PROXY_REQUIRES_BESPOKE_ODELIA_CAST",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "ROLE_ACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/SIGREC_ODELIA_FEN/SIGREC_ODELIA_FEN_ROLE_ACTION",
+          "productionStatus": "TEMP_PROXY_REQUIRES_BESPOKE_ODELIA_CAST",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "GUARD_CAST_SUPPORT",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/SIGREC_ODELIA_FEN/SIGREC_ODELIA_FEN_GUARD_CAST_SUPPORT",
+          "productionStatus": "TEMP_PROXY_REQUIRES_BESPOKE_ODELIA_CAST",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "HIT_REACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/SIGREC_ODELIA_FEN/SIGREC_ODELIA_FEN_HIT_REACTION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "DOWNED",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/SIGREC_ODELIA_FEN/SIGREC_ODELIA_FEN_DOWNED",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "VICTORY",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/SIGREC_ODELIA_FEN/SIGREC_ODELIA_FEN_VICTORY",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        }
+      ]
+    },
+    {
+      "stableId": "PROC_36344E2400DC98B6",
+      "displayName": "Gara Redtail",
+      "side": "ALLY",
+      "role": "Guardian / Counter",
+      "weaponFamily": "Sword + Shield",
+      "orientation": "RIGHT",
+      "poses": [
+        {
+          "poseId": "IDLE_READY",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_36344E2400DC98B6/PROC_36344E2400DC98B6_IDLE_READY",
+          "productionStatus": "APPROVED_SOURCE_DERIVATIVE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "ANTICIPATION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_36344E2400DC98B6/PROC_36344E2400DC98B6_ANTICIPATION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "PRIMARY_ACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_36344E2400DC98B6/PROC_36344E2400DC98B6_PRIMARY_ACTION",
+          "productionStatus": "APPROVED_SOURCE_DERIVATIVE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "ROLE_ACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_36344E2400DC98B6/PROC_36344E2400DC98B6_ROLE_ACTION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "GUARD_CAST_SUPPORT",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_36344E2400DC98B6/PROC_36344E2400DC98B6_GUARD_CAST_SUPPORT",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "HIT_REACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_36344E2400DC98B6/PROC_36344E2400DC98B6_HIT_REACTION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "DOWNED",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_36344E2400DC98B6/PROC_36344E2400DC98B6_DOWNED",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "VICTORY",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_36344E2400DC98B6/PROC_36344E2400DC98B6_VICTORY",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        }
+      ]
+    },
+    {
+      "stableId": "PROC_F85A4CAA747BC8C6",
+      "displayName": "Daeven Fellstar",
+      "side": "ALLY",
+      "role": "Warrior / Control",
+      "weaponFamily": "Hookstaff / Great Weapon",
+      "orientation": "RIGHT",
+      "poses": [
+        {
+          "poseId": "IDLE_READY",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_F85A4CAA747BC8C6/PROC_F85A4CAA747BC8C6_IDLE_READY",
+          "productionStatus": "APPROVED_SOURCE_DERIVATIVE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "ANTICIPATION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_F85A4CAA747BC8C6/PROC_F85A4CAA747BC8C6_ANTICIPATION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "PRIMARY_ACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_F85A4CAA747BC8C6/PROC_F85A4CAA747BC8C6_PRIMARY_ACTION",
+          "productionStatus": "APPROVED_SOURCE_DERIVATIVE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "ROLE_ACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_F85A4CAA747BC8C6/PROC_F85A4CAA747BC8C6_ROLE_ACTION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "GUARD_CAST_SUPPORT",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_F85A4CAA747BC8C6/PROC_F85A4CAA747BC8C6_GUARD_CAST_SUPPORT",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "HIT_REACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_F85A4CAA747BC8C6/PROC_F85A4CAA747BC8C6_HIT_REACTION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "DOWNED",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_F85A4CAA747BC8C6/PROC_F85A4CAA747BC8C6_DOWNED",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "VICTORY",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_F85A4CAA747BC8C6/PROC_F85A4CAA747BC8C6_VICTORY",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        }
+      ]
+    },
+    {
+      "stableId": "PROC_5B14E7816E55FFB5",
+      "displayName": "Tazren Warmask",
+      "side": "ALLY",
+      "role": "Ranger / Support",
+      "weaponFamily": "Spear/Polearm",
+      "orientation": "RIGHT",
+      "poses": [
+        {
+          "poseId": "IDLE_READY",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_5B14E7816E55FFB5/PROC_5B14E7816E55FFB5_IDLE_READY",
+          "productionStatus": "APPROVED_SOURCE_DERIVATIVE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "ANTICIPATION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_5B14E7816E55FFB5/PROC_5B14E7816E55FFB5_ANTICIPATION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "PRIMARY_ACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_5B14E7816E55FFB5/PROC_5B14E7816E55FFB5_PRIMARY_ACTION",
+          "productionStatus": "APPROVED_SOURCE_DERIVATIVE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "ROLE_ACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_5B14E7816E55FFB5/PROC_5B14E7816E55FFB5_ROLE_ACTION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "GUARD_CAST_SUPPORT",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_5B14E7816E55FFB5/PROC_5B14E7816E55FFB5_GUARD_CAST_SUPPORT",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "HIT_REACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_5B14E7816E55FFB5/PROC_5B14E7816E55FFB5_HIT_REACTION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "DOWNED",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_5B14E7816E55FFB5/PROC_5B14E7816E55FFB5_DOWNED",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "VICTORY",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_5B14E7816E55FFB5/PROC_5B14E7816E55FFB5_VICTORY",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        }
+      ]
+    },
+    {
+      "stableId": "PROC_748DD03A23E1FEB0",
+      "displayName": "Jazzi Wirewick",
+      "side": "ALLY",
+      "role": "Engineering / Restoration",
+      "weaponFamily": "Engineering Tool / Staff",
+      "orientation": "RIGHT",
+      "poses": [
+        {
+          "poseId": "IDLE_READY",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_748DD03A23E1FEB0/PROC_748DD03A23E1FEB0_IDLE_READY",
+          "productionStatus": "APPROVED_SOURCE_DERIVATIVE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "ANTICIPATION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_748DD03A23E1FEB0/PROC_748DD03A23E1FEB0_ANTICIPATION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "PRIMARY_ACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_748DD03A23E1FEB0/PROC_748DD03A23E1FEB0_PRIMARY_ACTION",
+          "productionStatus": "APPROVED_SOURCE_DERIVATIVE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "ROLE_ACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_748DD03A23E1FEB0/PROC_748DD03A23E1FEB0_ROLE_ACTION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "GUARD_CAST_SUPPORT",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_748DD03A23E1FEB0/PROC_748DD03A23E1FEB0_GUARD_CAST_SUPPORT",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "HIT_REACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_748DD03A23E1FEB0/PROC_748DD03A23E1FEB0_HIT_REACTION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "DOWNED",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_748DD03A23E1FEB0/PROC_748DD03A23E1FEB0_DOWNED",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "VICTORY",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/PROC_748DD03A23E1FEB0/PROC_748DD03A23E1FEB0_VICTORY",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        }
+      ]
+    },
+    {
+      "stableId": "ENEMY_GATE_GNAWER_01",
+      "displayName": "Gate Gnawer",
+      "side": "ENEMY",
+      "role": "Skirmisher",
+      "weaponFamily": "Natural Weapon",
+      "orientation": "LEFT",
+      "poses": [
+        {
+          "poseId": "IDLE_READY",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/ENEMY_GATE_GNAWER_01/ENEMY_GATE_GNAWER_01_IDLE_READY",
+          "productionStatus": "APPROVED_SOURCE_DERIVATIVE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "ANTICIPATION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/ENEMY_GATE_GNAWER_01/ENEMY_GATE_GNAWER_01_ANTICIPATION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "PRIMARY_ACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/ENEMY_GATE_GNAWER_01/ENEMY_GATE_GNAWER_01_PRIMARY_ACTION",
+          "productionStatus": "APPROVED_SOURCE_DERIVATIVE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "ROLE_ACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/ENEMY_GATE_GNAWER_01/ENEMY_GATE_GNAWER_01_ROLE_ACTION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "GUARD_CAST_SUPPORT",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/ENEMY_GATE_GNAWER_01/ENEMY_GATE_GNAWER_01_GUARD_CAST_SUPPORT",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "HIT_REACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/ENEMY_GATE_GNAWER_01/ENEMY_GATE_GNAWER_01_HIT_REACTION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "DOWNED",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/ENEMY_GATE_GNAWER_01/ENEMY_GATE_GNAWER_01_DOWNED",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "VICTORY",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/ENEMY_GATE_GNAWER_01/ENEMY_GATE_GNAWER_01_VICTORY",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        }
+      ]
+    },
+    {
+      "stableId": "ENEMY_GATE_GNAWER_SCOUT",
+      "displayName": "Gate Gnawer Scout",
+      "side": "ENEMY",
+      "role": "Ambusher",
+      "weaponFamily": "Natural Weapon",
+      "orientation": "LEFT",
+      "poses": [
+        {
+          "poseId": "IDLE_READY",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/ENEMY_GATE_GNAWER_SCOUT/ENEMY_GATE_GNAWER_SCOUT_IDLE_READY",
+          "productionStatus": "APPROVED_SOURCE_DERIVATIVE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "ANTICIPATION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/ENEMY_GATE_GNAWER_SCOUT/ENEMY_GATE_GNAWER_SCOUT_ANTICIPATION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "PRIMARY_ACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/ENEMY_GATE_GNAWER_SCOUT/ENEMY_GATE_GNAWER_SCOUT_PRIMARY_ACTION",
+          "productionStatus": "APPROVED_SOURCE_DERIVATIVE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "ROLE_ACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/ENEMY_GATE_GNAWER_SCOUT/ENEMY_GATE_GNAWER_SCOUT_ROLE_ACTION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "GUARD_CAST_SUPPORT",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/ENEMY_GATE_GNAWER_SCOUT/ENEMY_GATE_GNAWER_SCOUT_GUARD_CAST_SUPPORT",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "HIT_REACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/ENEMY_GATE_GNAWER_SCOUT/ENEMY_GATE_GNAWER_SCOUT_HIT_REACTION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "DOWNED",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/ENEMY_GATE_GNAWER_SCOUT/ENEMY_GATE_GNAWER_SCOUT_DOWNED",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "VICTORY",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/ENEMY_GATE_GNAWER_SCOUT/ENEMY_GATE_GNAWER_SCOUT_VICTORY",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        }
+      ]
+    },
+    {
+      "stableId": "ENEMY_GATE_GNAWER_BULWARK",
+      "displayName": "Gate Gnawer Bulwark",
+      "side": "ENEMY",
+      "role": "Heavy Breaker",
+      "weaponFamily": "Shielded Carapace",
+      "orientation": "LEFT",
+      "poses": [
+        {
+          "poseId": "IDLE_READY",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/ENEMY_GATE_GNAWER_BULWARK/ENEMY_GATE_GNAWER_BULWARK_IDLE_READY",
+          "productionStatus": "APPROVED_SOURCE_DERIVATIVE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "ANTICIPATION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/ENEMY_GATE_GNAWER_BULWARK/ENEMY_GATE_GNAWER_BULWARK_ANTICIPATION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "PRIMARY_ACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/ENEMY_GATE_GNAWER_BULWARK/ENEMY_GATE_GNAWER_BULWARK_PRIMARY_ACTION",
+          "productionStatus": "APPROVED_SOURCE_DERIVATIVE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "ROLE_ACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/ENEMY_GATE_GNAWER_BULWARK/ENEMY_GATE_GNAWER_BULWARK_ROLE_ACTION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "GUARD_CAST_SUPPORT",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/ENEMY_GATE_GNAWER_BULWARK/ENEMY_GATE_GNAWER_BULWARK_GUARD_CAST_SUPPORT",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "HIT_REACTION",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/ENEMY_GATE_GNAWER_BULWARK/ENEMY_GATE_GNAWER_BULWARK_HIT_REACTION",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "DOWNED",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/ENEMY_GATE_GNAWER_BULWARK/ENEMY_GATE_GNAWER_BULWARK_DOWNED",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        },
+        {
+          "poseId": "VICTORY",
+          "resourcesPath": "SecondDimension/Art/Generated011/Characters/ENEMY_GATE_GNAWER_BULWARK/ENEMY_GATE_GNAWER_BULWARK_VICTORY",
+          "productionStatus": "MOTION_DERIVED_PROXY_REPLACEABLE",
+          "pivot": [
+            0.5,
+            0.045
+          ],
+          "canvas": [
+            768,
+            1152
+          ]
+        }
+      ]
+    }
+  ],
+  "vfx": [
+    {
+      "assetId": "VFX011_FLAME_CAST",
+      "category": "CAST",
+      "school": "FLAME",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_FLAME_CAST",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_FLAME_IMPACT",
+      "category": "IMPACT",
+      "school": "FLAME",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_FLAME_IMPACT",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_FROST_CAST",
+      "category": "CAST",
+      "school": "FROST",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_FROST_CAST",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_FROST_IMPACT",
+      "category": "IMPACT",
+      "school": "FROST",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_FROST_IMPACT",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_STORM_CAST",
+      "category": "CAST",
+      "school": "STORM",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_STORM_CAST",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_STORM_IMPACT",
+      "category": "IMPACT",
+      "school": "STORM",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_STORM_IMPACT",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_EARTH_CAST",
+      "category": "CAST",
+      "school": "EARTH",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_EARTH_CAST",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_EARTH_IMPACT",
+      "category": "IMPACT",
+      "school": "EARTH",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_EARTH_IMPACT",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_AETHER_CAST",
+      "category": "CAST",
+      "school": "AETHER",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_AETHER_CAST",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_AETHER_IMPACT",
+      "category": "IMPACT",
+      "school": "AETHER",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_AETHER_IMPACT",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_SHADOW_CAST",
+      "category": "CAST",
+      "school": "SHADOW",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_SHADOW_CAST",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_SHADOW_IMPACT",
+      "category": "IMPACT",
+      "school": "SHADOW",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_SHADOW_IMPACT",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_RESTORATION_CAST",
+      "category": "CAST",
+      "school": "RESTORATION",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_RESTORATION_CAST",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_RESTORATION_IMPACT",
+      "category": "IMPACT",
+      "school": "RESTORATION",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_RESTORATION_IMPACT",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_WARDING_CAST",
+      "category": "CAST",
+      "school": "WARDING",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_WARDING_CAST",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_WARDING_IMPACT",
+      "category": "IMPACT",
+      "school": "WARDING",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_WARDING_IMPACT",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_TRAIL_SWORD",
+      "category": "WEAPON_TRAIL",
+      "weaponFamily": "SWORD",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_TRAIL_SWORD",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_TRAIL_GREAT_WEAPON",
+      "category": "WEAPON_TRAIL",
+      "weaponFamily": "GREAT_WEAPON",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_TRAIL_GREAT_WEAPON",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_TRAIL_AXE",
+      "category": "WEAPON_TRAIL",
+      "weaponFamily": "AXE",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_TRAIL_AXE",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_TRAIL_SPEAR_POLEARM",
+      "category": "WEAPON_TRAIL",
+      "weaponFamily": "SPEAR_POLEARM",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_TRAIL_SPEAR_POLEARM",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_TRAIL_BOW",
+      "category": "WEAPON_TRAIL",
+      "weaponFamily": "BOW",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_TRAIL_BOW",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_TRAIL_DAGGER",
+      "category": "WEAPON_TRAIL",
+      "weaponFamily": "DAGGER",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_TRAIL_DAGGER",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_TRAIL_SHIELD",
+      "category": "WEAPON_TRAIL",
+      "weaponFamily": "SHIELD",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_TRAIL_SHIELD",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_TRAIL_GAUNTLET",
+      "category": "WEAPON_TRAIL",
+      "weaponFamily": "GAUNTLET",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_TRAIL_GAUNTLET",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_TRAIL_STAFF",
+      "category": "WEAPON_TRAIL",
+      "weaponFamily": "STAFF",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_TRAIL_STAFF",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_TRAIL_CATALYST",
+      "category": "WEAPON_TRAIL",
+      "weaponFamily": "CATALYST",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_TRAIL_CATALYST",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_TRAIL_ENGINEERING",
+      "category": "WEAPON_TRAIL",
+      "weaponFamily": "ENGINEERING",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_TRAIL_ENGINEERING",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "VFX011_TRAIL_HYBRID_RELIC",
+      "category": "WEAPON_TRAIL",
+      "weaponFamily": "HYBRID_RELIC",
+      "resourcesPath": "SecondDimension/Art/Generated011/VFX/VFX011_TRAIL_HYBRID_RELIC",
+      "productionStatus": "CLEAN_STYLE_PROXY_REPLACEABLE"
+    }
+  ],
+  "icons": [
+    {
+      "assetId": "ICON011_DEADLOCK",
+      "semantic": "DEADLOCK",
+      "resourcesPath": "SecondDimension/Art/Generated011/Icons/ICON011_DEADLOCK",
+      "productionStatus": "CLEAN_VECTOR_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "ICON011_SIDE_STRIKE",
+      "semantic": "SIDE_STRIKE",
+      "resourcesPath": "SecondDimension/Art/Generated011/Icons/ICON011_SIDE_STRIKE",
+      "productionStatus": "CLEAN_VECTOR_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "ICON011_REAR_ATTACK",
+      "semantic": "REAR_ATTACK",
+      "resourcesPath": "SecondDimension/Art/Generated011/Icons/ICON011_REAR_ATTACK",
+      "productionStatus": "CLEAN_VECTOR_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "ICON011_INTERFERENCE",
+      "semantic": "INTERFERENCE",
+      "resourcesPath": "SecondDimension/Art/Generated011/Icons/ICON011_INTERFERENCE",
+      "productionStatus": "CLEAN_VECTOR_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "ICON011_GUARD",
+      "semantic": "GUARD",
+      "resourcesPath": "SecondDimension/Art/Generated011/Icons/ICON011_GUARD",
+      "productionStatus": "CLEAN_VECTOR_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "ICON011_PROTECT",
+      "semantic": "PROTECT",
+      "resourcesPath": "SecondDimension/Art/Generated011/Icons/ICON011_PROTECT",
+      "productionStatus": "CLEAN_VECTOR_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "ICON011_RESCUE",
+      "semantic": "RESCUE",
+      "resourcesPath": "SecondDimension/Art/Generated011/Icons/ICON011_RESCUE",
+      "productionStatus": "CLEAN_VECTOR_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "ICON011_SUPPORT",
+      "semantic": "SUPPORT",
+      "resourcesPath": "SecondDimension/Art/Generated011/Icons/ICON011_SUPPORT",
+      "productionStatus": "CLEAN_VECTOR_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "ICON011_DANGER",
+      "semantic": "DANGER",
+      "resourcesPath": "SecondDimension/Art/Generated011/Icons/ICON011_DANGER",
+      "productionStatus": "CLEAN_VECTOR_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "ICON011_COMBAT",
+      "semantic": "COMBAT",
+      "resourcesPath": "SecondDimension/Art/Generated011/Icons/ICON011_COMBAT",
+      "productionStatus": "CLEAN_VECTOR_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "ICON011_MYSTIC",
+      "semantic": "MYSTIC",
+      "resourcesPath": "SecondDimension/Art/Generated011/Icons/ICON011_MYSTIC",
+      "productionStatus": "CLEAN_VECTOR_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "ICON011_RESTORATION",
+      "semantic": "RESTORATION",
+      "resourcesPath": "SecondDimension/Art/Generated011/Icons/ICON011_RESTORATION",
+      "productionStatus": "CLEAN_VECTOR_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "ICON011_WARDING",
+      "semantic": "WARDING",
+      "resourcesPath": "SecondDimension/Art/Generated011/Icons/ICON011_WARDING",
+      "productionStatus": "CLEAN_VECTOR_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "ICON011_BREAK",
+      "semantic": "BREAK",
+      "resourcesPath": "SecondDimension/Art/Generated011/Icons/ICON011_BREAK",
+      "productionStatus": "CLEAN_VECTOR_PROXY_REPLACEABLE"
+    },
+    {
+      "assetId": "ICON011_SIGNATURE",
+      "semantic": "SIGNATURE",
+      "resourcesPath": "SecondDimension/Art/Generated011/Icons/ICON011_SIGNATURE",
+      "productionStatus": "CLEAN_VECTOR_PROXY_REPLACEABLE"
+    }
+  ],
+  "motionProfiles": [
+    {
+      "profileId": "MOTION011_COMBAT_FAST",
+      "anticipation": 0.18,
+      "approach": 0.2,
+      "contact": 0.08,
+      "consequence": 0.18,
+      "recovery": 0.22
+    },
+    {
+      "profileId": "MOTION011_COMBAT_HEAVY",
+      "anticipation": 0.28,
+      "approach": 0.25,
+      "contact": 0.1,
+      "consequence": 0.26,
+      "recovery": 0.32
+    },
+    {
+      "profileId": "MOTION011_MYSTIC",
+      "anticipation": 0.34,
+      "approach": 0,
+      "contact": 0.12,
+      "consequence": 0.28,
+      "recovery": 0.3
+    },
+    {
+      "profileId": "MOTION011_RESTORATION",
+      "anticipation": 0.3,
+      "approach": 0,
+      "contact": 0.16,
+      "consequence": 0.34,
+      "recovery": 0.25
+    },
+    {
+      "profileId": "MOTION011_GUARD",
+      "anticipation": 0.22,
+      "approach": 0.08,
+      "contact": 0.08,
+      "consequence": 0.24,
+      "recovery": 0.2
+    }
+  ],
+  "laws": {
+    "presentationOnly": true,
+    "changesBattleResolution": false,
+    "individualArtSelectableInStandard": false,
+    "supportsAlliedUnionSlots": 10,
+    "supportsEnemyUnionSlots": 10,
+    "runtimeGenerativeAI": false
+  }
+}

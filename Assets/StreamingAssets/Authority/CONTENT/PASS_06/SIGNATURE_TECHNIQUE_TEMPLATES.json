@@ -1,0 +1,455 @@
+{
+  "contentVersion": "GOW_PASS06_0.11",
+  "templates": [
+    {
+      "id": "SIG_TECH_TEMPLATE_RETURN_ROUTE",
+      "displayName": "Return Route",
+      "domain": "Rescue",
+      "description": "The Union creates a safe extraction path while protecting the slowest member.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_LAST_STEP_GUARD",
+      "displayName": "Last-Step Guard",
+      "domain": "Guard",
+      "description": "A coordinated final-position defense that cannot trigger without a threatened ally.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_EMPTY_HAND_PROMISE",
+      "displayName": "Empty-Hand Promise",
+      "domain": "Support",
+      "description": "Gives up personal loot priority to restore Union Cohesion and civic reward.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_SECOND_LINE_RISES",
+      "displayName": "Second Line Rises",
+      "domain": "Mentorship",
+      "description": "Apprentices execute a prepared fallback without direct Art selection.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_MAP_OF_NEGATIVE_SPACE",
+      "displayName": "Map of Negative Space",
+      "domain": "Tactical",
+      "description": "Reveals a route or weak formation by recognizing what is missing.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_BANNER_REPAIRED",
+      "displayName": "Banner Repaired",
+      "domain": "Morale",
+      "description": "Recovers from a Union break after accountability memory.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_WITNESS_THE_COST",
+      "displayName": "Witness the Cost",
+      "domain": "Support",
+      "description": "Makes the consequences of an enemy action visible and improves defensive Forecast weighting.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_FORGE_HEART_BEAT",
+      "displayName": "Forge-Heart Beat",
+      "domain": "Crafting",
+      "description": "An equipped storied item supports a legal Union action based on its history.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_RIVER_REMEMBERS",
+      "displayName": "The River Remembers",
+      "domain": "Mystic",
+      "description": "Uses memory and water tags to cleanse a harmful field without ownership of a summon.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_NO_ONE_IN_FOG",
+      "displayName": "No One in Fog",
+      "domain": "Scouting",
+      "description": "Prevents an isolated Union from becoming unreachable.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_HEALER_STAYS",
+      "displayName": "The Healer Stays",
+      "domain": "Restoration",
+      "description": "Emergency Restoration persists through one interruption at significant MP cost.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_RIVALRY_WITHOUT_HATE",
+      "displayName": "Rivalry Without Hate",
+      "domain": "Martial",
+      "description": "Two rivals coordinate a formation break if Respect exceeds Friction.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_GATE_LANGUAGE",
+      "displayName": "Gate Language",
+      "domain": "Cultural",
+      "description": "Mixed-culture callouts reduce coordination penalties after valid teaching.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_CIVILIAN_FIRST",
+      "displayName": "Civilian First",
+      "domain": "Guard",
+      "description": "Redirects a boss objective toward protection and increases civic reward.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_THE_QUIET_ORDER",
+      "displayName": "The Quiet Order",
+      "domain": "Leadership",
+      "description": "A low-cost withdrawal command appears when panic would normally suppress it.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_ECHO_ASKED_NOT_ORDERED",
+      "displayName": "Echo Asked, Not Ordered",
+      "domain": "Invocation",
+      "description": "An Artifact Echo chooses a context-appropriate aid action with improved Resonance gain.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_COUNT_THE_WOUNDED",
+      "displayName": "Count the Wounded",
+      "domain": "Triage",
+      "description": "Prioritizes meaningful healing and suppresses wasteful Restoration actions.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_STORIED_EDGE",
+      "displayName": "Storied Edge",
+      "domain": "Equipment",
+      "description": "A weapon evolution history unlocks a sidegrade Forecast, not raw universal power.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_SHARED_WATCH",
+      "displayName": "Shared Watch",
+      "domain": "Survival",
+      "description": "A camp or defense action converts familiarity into morale stability.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_UNBROKEN_ARCHIVE",
+      "displayName": "Unbroken Archive",
+      "domain": "Knowledge",
+      "description": "Preserves event and enemy information after retreat.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_APOLOGY_IN_ACTION",
+      "displayName": "Apology in Action",
+      "domain": "Repair",
+      "description": "A character accepts a risk or duty to demonstrate restitution.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_OPEN_DOOR_FORMATION",
+      "displayName": "Open Door Formation",
+      "domain": "Formation",
+      "description": "Allows a newcomer to join a veteran formation with reduced induction penalty.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_FIVE_HANDS",
+      "displayName": "Five Hands",
+      "domain": "Full Union",
+      "description": "Full-Union action requiring every member, high Cohesion, and legal resources.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_HOME_SIGNAL",
+      "displayName": "Signal Home",
+      "domain": "Diplomacy",
+      "description": "Creates a world-home connection that supports morale and alliance trust.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_FATE_SCAR_READ",
+      "displayName": "Read the Scar",
+      "domain": "Tactical",
+      "description": "Uses a prior critical-failure memory to recognize a repeated hazard.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_BROKEN_TOOL_MENDED",
+      "displayName": "Broken Tool Mended",
+      "domain": "Crafting",
+      "description": "Repairs a disabled tool in combat at AP and material cost.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_REFUSAL_RESPECTED",
+      "displayName": "Refusal Respected",
+      "domain": "Support",
+      "description": "Turns a declined equipment or social request into Trust and Cohesion recovery.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_THIRD_BELL",
+      "displayName": "The Third Bell",
+      "domain": "Withdrawal",
+      "description": "Guarantees a legal retreat forecast after two prior warnings.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_UNWRITTEN_BRANCH",
+      "displayName": "Unwritten Branch",
+      "domain": "Hybrid",
+      "description": "Opens one legal hybrid Art opportunity earned through cross-discipline history.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    },
+    {
+      "id": "SIG_TECH_TEMPLATE_THE_NAME_RETURNED",
+      "displayName": "The Name Returned",
+      "domain": "Chronicle",
+      "description": "Restores a recruit or Union epithet after disgrace and recovery.",
+      "eligibility": [
+        "EMERGENT_LEGEND_PROMOTED",
+        "MATCHING_ARCHETYPE_HISTORY",
+        "MEANINGFUL_SETUP"
+      ],
+      "forecastOnlyInStandard": true,
+      "directIndividualSelection": false,
+      "powerBudget": "IDENTITY_SIDEGRADE",
+      "interruptionRules": "Fails safely into legal member fallbacks; resources are never overspent."
+    }
+  ]
+}

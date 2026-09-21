@@ -1,0 +1,518 @@
+{
+  "schemaVersion": 3,
+  "heroCount": 10,
+  "rarity": "SSS",
+  "preserveExistingSsTier": true,
+  "additiveRosterPolicy": "Add these ten named identities; migrate the three legacy SS aliases without duplicates. Do not replace existing 300 heroes. If none exist, authored roster becomes 310.",
+  "heroes": [
+    {
+      "id": "SSS_RYLEN_STONEBOND",
+      "index": 1,
+      "displayName": "Rylen Stonebond",
+      "rarity": "SSS",
+      "role": "Monster Tamer",
+      "autoLeader": true,
+      "scaling": "FamilyDefeats",
+      "legacyIds": [
+        "SS_RYLEN_STONEBOND",
+        "HERO_SS_RYLEN_STONEBOND"
+      ],
+      "startingTreeTags": [
+        "Beastcraft",
+        "Survival"
+      ],
+      "additionalLearnableTreeTags": [
+        "Warding",
+        "Leadership"
+      ],
+      "treesRequireLiveIdMapping": true,
+      "statAllocationWeights": {
+        "hp": 19,
+        "mp": 10,
+        "attack": 19,
+        "magic": 9,
+        "defense": 16,
+        "resistance": 13,
+        "agility": 14
+      },
+      "statWeightsAreNotLiveNumericStats": true,
+      "goldCommandId": "SSS_CMD_RYLEN_STONEBOND",
+      "signatureName": "Call the Tamed Union",
+      "effect": "SpawnSixMonsterUnion",
+      "familyUnlockDefeats": 10,
+      "specialOncePerBattle": true,
+      "suggestedSpecialCooldownRounds": 0,
+      "masteryPercentPerStep": 2,
+      "artStatus": "STANDALONE_HERO_SPRITES_NOT_PRODUCED",
+      "artPaths": {
+        "idle": null,
+        "attack": null,
+        "portrait": null
+      },
+      "visualBrief": "Brown tousled hair; cream fur collar; dark brown leather and bronze light armor; green scarf; carved taming staff; youthful adult human male. Preserve the approved Rylen face and outfit. No companion animals in his runtime sprite.",
+      "ascension": {
+        "initialRank": 0,
+        "maximumRank": 10,
+        "creditPerRank": 1,
+        "manualApplication": true,
+        "masteryIndependentAndUncapped": true
+      }
+    },
+    {
+      "id": "SSS_ELYSIA_NIGHTCALL",
+      "index": 2,
+      "displayName": "Elysia Nightcall",
+      "rarity": "SSS",
+      "role": "Pact Summoner",
+      "autoLeader": true,
+      "scaling": "FamilyDefeats",
+      "legacyIds": [
+        "SS_ELYSIA_NIGHTCALL",
+        "HERO_SS_ELYSIA_NIGHTCALL"
+      ],
+      "startingTreeTags": [
+        "Conjuration",
+        "Warding"
+      ],
+      "additionalLearnableTreeTags": [
+        "Restoration",
+        "Arcane"
+      ],
+      "treesRequireLiveIdMapping": true,
+      "statAllocationWeights": {
+        "hp": 14,
+        "mp": 22,
+        "attack": 7,
+        "magic": 25,
+        "defense": 8,
+        "resistance": 16,
+        "agility": 8
+      },
+      "statWeightsAreNotLiveNumericStats": true,
+      "goldCommandId": "SSS_CMD_ELYSIA_NIGHTCALL",
+      "signatureName": "Manifest the Pact",
+      "effect": "SpawnSingleGuestUnion",
+      "familyUnlockDefeats": 10,
+      "specialOncePerBattle": true,
+      "suggestedSpecialCooldownRounds": 0,
+      "masteryPercentPerStep": 2,
+      "artStatus": "STANDALONE_HERO_SPRITES_NOT_PRODUCED",
+      "artPaths": {
+        "idle": null,
+        "attack": null,
+        "portrait": null
+      },
+      "visualBrief": "Long silver-lilac hair; adult elven woman; violet eyes; black-violet layered mage gown with gold filigree; crescent violet-crystal staff; elegant full-length boots and sleeves. Preserve the approved Elysia identity.",
+      "ascension": {
+        "initialRank": 0,
+        "maximumRank": 10,
+        "creditPerRank": 1,
+        "manualApplication": true,
+        "masteryIndependentAndUncapped": true
+      }
+    },
+    {
+      "id": "SSS_VAELIS_MANYFORM",
+      "index": 3,
+      "displayName": "Vaelis Manyform",
+      "rarity": "SSS",
+      "role": "Union Shapeshifter",
+      "autoLeader": true,
+      "scaling": "FamilyDefeats",
+      "legacyIds": [
+        "SS_VAELIS_MANYFORM",
+        "HERO_SS_VAELIS_MANYFORM"
+      ],
+      "startingTreeTags": [
+        "Metamorphosis",
+        "Instinct"
+      ],
+      "additionalLearnableTreeTags": [
+        "Combat",
+        "Warding"
+      ],
+      "treesRequireLiveIdMapping": true,
+      "statAllocationWeights": {
+        "hp": 21,
+        "mp": 10,
+        "attack": 21,
+        "magic": 15,
+        "defense": 15,
+        "resistance": 10,
+        "agility": 8
+      },
+      "statWeightsAreNotLiveNumericStats": true,
+      "goldCommandId": "SSS_CMD_VAELIS_MANYFORM",
+      "signatureName": "Union Metamorphosis",
+      "effect": "ReplaceSourceUnion",
+      "familyUnlockDefeats": 10,
+      "specialOncePerBattle": true,
+      "suggestedSpecialCooldownRounds": 0,
+      "masteryPercentPerStep": 2,
+      "artStatus": "STANDALONE_HERO_SPRITES_NOT_PRODUCED",
+      "artPaths": {
+        "idle": null,
+        "attack": null,
+        "portrait": null
+      },
+      "visualBrief": "Adult androgynous shapeshifter with short white hair, amber eyes, obsidian scale mantle, fitted black and burgundy armor, bronze claws and restrained crimson morph energy. Humanoid base form, not already a giant monster.",
+      "ascension": {
+        "initialRank": 0,
+        "maximumRank": 10,
+        "creditPerRank": 1,
+        "manualApplication": true,
+        "masteryIndependentAndUncapped": true
+      }
+    },
+    {
+      "id": "SSS_NERIS_DAWNWELL",
+      "index": 4,
+      "displayName": "Neris Dawnwell",
+      "rarity": "SSS",
+      "role": "Lifeweaver",
+      "autoLeader": true,
+      "scaling": "TotalDefeats",
+      "legacyIds": [],
+      "startingTreeTags": [
+        "Restoration",
+        "Warding"
+      ],
+      "additionalLearnableTreeTags": [
+        "Leadership",
+        "Arcane"
+      ],
+      "treesRequireLiveIdMapping": true,
+      "statAllocationWeights": {
+        "hp": 16,
+        "mp": 23,
+        "attack": 5,
+        "magic": 23,
+        "defense": 9,
+        "resistance": 17,
+        "agility": 7
+      },
+      "statWeightsAreNotLiveNumericStats": true,
+      "goldCommandId": "SSS_CMD_NERIS_DAWNWELL",
+      "signatureName": "Mercy Beyond Measure",
+      "effect": "HealAllAlliedUnions",
+      "familyUnlockDefeats": 0,
+      "specialOncePerBattle": false,
+      "suggestedSpecialCooldownRounds": 3,
+      "masteryPercentPerStep": 2,
+      "artStatus": "STANDALONE_HERO_SPRITES_NOT_PRODUCED",
+      "artPaths": {
+        "idle": null,
+        "attack": null,
+        "portrait": null
+      },
+      "visualBrief": "Adult woman with warm brown skin, white-gold braided hair, ivory and pale jade healer robes, sun-gold staff with open lotus head, small turquoise beads and soft gold restorative light.",
+      "ascension": {
+        "initialRank": 0,
+        "maximumRank": 10,
+        "creditPerRank": 1,
+        "manualApplication": true,
+        "masteryIndependentAndUncapped": true
+      }
+    },
+    {
+      "id": "SSS_MYRIEN_STARFALL",
+      "index": 5,
+      "displayName": "Myrien Starfall",
+      "rarity": "SSS",
+      "role": "Astral Archmage",
+      "autoLeader": true,
+      "scaling": "TotalDefeats",
+      "legacyIds": [],
+      "startingTreeTags": [
+        "Astral",
+        "Elemental"
+      ],
+      "additionalLearnableTreeTags": [
+        "Hexcraft",
+        "Warding"
+      ],
+      "treesRequireLiveIdMapping": true,
+      "statAllocationWeights": {
+        "hp": 12,
+        "mp": 24,
+        "attack": 5,
+        "magic": 30,
+        "defense": 7,
+        "resistance": 14,
+        "agility": 8
+      },
+      "statWeightsAreNotLiveNumericStats": true,
+      "goldCommandId": "SSS_CMD_MYRIEN_STARFALL",
+      "signatureName": "Astral Cataclysm",
+      "effect": "DamageAllEnemyUnions",
+      "familyUnlockDefeats": 0,
+      "specialOncePerBattle": false,
+      "suggestedSpecialCooldownRounds": 3,
+      "masteryPercentPerStep": 2,
+      "artStatus": "STANDALONE_HERO_SPRITES_NOT_PRODUCED",
+      "artPaths": {
+        "idle": null,
+        "attack": null,
+        "portrait": null
+      },
+      "visualBrief": "Adult dark-haired male archmage with a long cobalt coat, silver constellation embroidery, asymmetrical ivory shoulder cape, floating small astrolabe focus and blue-white meteor magic. No background starscape.",
+      "ascension": {
+        "initialRank": 0,
+        "maximumRank": 10,
+        "creditPerRank": 1,
+        "manualApplication": true,
+        "masteryIndependentAndUncapped": true
+      }
+    },
+    {
+      "id": "SSS_ASTERION_SUNWARD",
+      "index": 6,
+      "displayName": "Asterion Sunward",
+      "rarity": "SSS",
+      "role": "Dawn Marshal",
+      "autoLeader": true,
+      "scaling": "WorldProgress",
+      "legacyIds": [],
+      "startingTreeTags": [
+        "Leadership",
+        "Warding"
+      ],
+      "additionalLearnableTreeTags": [
+        "Combat",
+        "Restoration"
+      ],
+      "treesRequireLiveIdMapping": true,
+      "statAllocationWeights": {
+        "hp": 18,
+        "mp": 13,
+        "attack": 17,
+        "magic": 16,
+        "defense": 16,
+        "resistance": 12,
+        "agility": 8
+      },
+      "statWeightsAreNotLiveNumericStats": true,
+      "goldCommandId": "SSS_CMD_ASTERION_SUNWARD",
+      "signatureName": "Banner of Ten Thousand Dawns",
+      "effect": "BuffAllAlliedUnions",
+      "familyUnlockDefeats": 0,
+      "specialOncePerBattle": false,
+      "suggestedSpecialCooldownRounds": 3,
+      "masteryPercentPerStep": 1,
+      "artStatus": "STANDALONE_HERO_SPRITES_NOT_PRODUCED",
+      "artPaths": {
+        "idle": null,
+        "attack": null,
+        "portrait": null
+      },
+      "visualBrief": "Adult male commander with dark skin, close-cropped silver hair, sun-gold and navy armor, compact pennant spear and blue cape. Resolute leader silhouette; warm amber rally effect.",
+      "ascension": {
+        "initialRank": 0,
+        "maximumRank": 10,
+        "creditPerRank": 1,
+        "manualApplication": true,
+        "masteryIndependentAndUncapped": true
+      }
+    },
+    {
+      "id": "SSS_SOLENNE_AEGIS",
+      "index": 7,
+      "displayName": "Solenne Aegis",
+      "rarity": "SSS",
+      "role": "Bastion Oracle",
+      "autoLeader": true,
+      "scaling": "WorldProgress",
+      "legacyIds": [],
+      "startingTreeTags": [
+        "Warding",
+        "Restoration"
+      ],
+      "additionalLearnableTreeTags": [
+        "Leadership",
+        "Arcane"
+      ],
+      "treesRequireLiveIdMapping": true,
+      "statAllocationWeights": {
+        "hp": 23,
+        "mp": 15,
+        "attack": 9,
+        "magic": 14,
+        "defense": 21,
+        "resistance": 13,
+        "agility": 5
+      },
+      "statWeightsAreNotLiveNumericStats": true,
+      "goldCommandId": "SSS_CMD_SOLENNE_AEGIS",
+      "signatureName": "Citadel Without End",
+      "effect": "BarrierAllAlliedUnions",
+      "familyUnlockDefeats": 0,
+      "specialOncePerBattle": false,
+      "suggestedSpecialCooldownRounds": 3,
+      "masteryPercentPerStep": 1,
+      "artStatus": "STANDALONE_HERO_SPRITES_NOT_PRODUCED",
+      "artPaths": {
+        "idle": null,
+        "attack": null,
+        "portrait": null
+      },
+      "visualBrief": "Adult woman with a short platinum bob, heavy pearl-white and sapphire armor, wide angular tower shield with blue gem, short mace, translucent blue shielding arcs and a compact white cape.",
+      "ascension": {
+        "initialRank": 0,
+        "maximumRank": 10,
+        "creditPerRank": 1,
+        "manualApplication": true,
+        "masteryIndependentAndUncapped": true
+      }
+    },
+    {
+      "id": "SSS_CAEDRAN_TEMPEST",
+      "index": 8,
+      "displayName": "Caedran Tempest",
+      "rarity": "SSS",
+      "role": "Tempest Sovereign",
+      "autoLeader": true,
+      "scaling": "WorldProgress",
+      "legacyIds": [],
+      "startingTreeTags": [
+        "Storm",
+        "Arcane"
+      ],
+      "additionalLearnableTreeTags": [
+        "Elemental",
+        "Leadership"
+      ],
+      "treesRequireLiveIdMapping": true,
+      "statAllocationWeights": {
+        "hp": 14,
+        "mp": 19,
+        "attack": 7,
+        "magic": 25,
+        "defense": 10,
+        "resistance": 12,
+        "agility": 13
+      },
+      "statWeightsAreNotLiveNumericStats": true,
+      "goldCommandId": "SSS_CMD_CAEDRAN_TEMPEST",
+      "signatureName": "Storm Across Worlds",
+      "effect": "DamageAllEnemyUnions",
+      "familyUnlockDefeats": 0,
+      "specialOncePerBattle": false,
+      "suggestedSpecialCooldownRounds": 3,
+      "masteryPercentPerStep": 1,
+      "artStatus": "STANDALONE_HERO_SPRITES_NOT_PRODUCED",
+      "artPaths": {
+        "idle": null,
+        "attack": null,
+        "portrait": null
+      },
+      "visualBrief": "Adult male mystic with dark teal swept hair, storm-grey and turquoise layered battle robes, gold lightning bracers, forked conducting staff and focused electric-blue arcs.",
+      "ascension": {
+        "initialRank": 0,
+        "maximumRank": 10,
+        "creditPerRank": 1,
+        "manualApplication": true,
+        "masteryIndependentAndUncapped": true
+      }
+    },
+    {
+      "id": "SSS_ISOLDE_ECLIPSERIFT",
+      "index": 9,
+      "displayName": "Isolde Eclipserift",
+      "rarity": "SSS",
+      "role": "Eclipse Arcanist",
+      "autoLeader": true,
+      "scaling": "WorldProgress",
+      "legacyIds": [],
+      "startingTreeTags": [
+        "Void",
+        "Hexcraft"
+      ],
+      "additionalLearnableTreeTags": [
+        "Arcane",
+        "Warding"
+      ],
+      "treesRequireLiveIdMapping": true,
+      "statAllocationWeights": {
+        "hp": 13,
+        "mp": 20,
+        "attack": 7,
+        "magic": 27,
+        "defense": 9,
+        "resistance": 17,
+        "agility": 7
+      },
+      "statWeightsAreNotLiveNumericStats": true,
+      "goldCommandId": "SSS_CMD_ISOLDE_ECLIPSERIFT",
+      "signatureName": "Eclipse of Every Front",
+      "effect": "DamageDebuffAllEnemyUnions",
+      "familyUnlockDefeats": 0,
+      "specialOncePerBattle": false,
+      "suggestedSpecialCooldownRounds": 3,
+      "masteryPercentPerStep": 1,
+      "artStatus": "STANDALONE_HERO_SPRITES_NOT_PRODUCED",
+      "artPaths": {
+        "idle": null,
+        "attack": null,
+        "portrait": null
+      },
+      "visualBrief": "Adult woman with long black hair and a white forelock, violet eyes, plum-black armored robes, a circular eclipse scepter, silver sharp jewelry and black-violet crescent magic. No giant portal behind her.",
+      "ascension": {
+        "initialRank": 0,
+        "maximumRank": 10,
+        "creditPerRank": 1,
+        "manualApplication": true,
+        "masteryIndependentAndUncapped": true
+      }
+    },
+    {
+      "id": "SSS_ORINTH_WORLDSONG",
+      "index": 10,
+      "displayName": "Orinth Worldsong",
+      "rarity": "SSS",
+      "role": "Worldsinger",
+      "autoLeader": true,
+      "scaling": "WorldProgress",
+      "legacyIds": [],
+      "startingTreeTags": [
+        "Harmonics",
+        "Leadership"
+      ],
+      "additionalLearnableTreeTags": [
+        "Restoration",
+        "Warding"
+      ],
+      "treesRequireLiveIdMapping": true,
+      "statAllocationWeights": {
+        "hp": 16,
+        "mp": 19,
+        "attack": 8,
+        "magic": 19,
+        "defense": 12,
+        "resistance": 16,
+        "agility": 10
+      },
+      "statWeightsAreNotLiveNumericStats": true,
+      "goldCommandId": "SSS_CMD_ORINTH_WORLDSONG",
+      "signatureName": "Concordance of Worlds",
+      "effect": "BuffAllAlliedUnions",
+      "familyUnlockDefeats": 0,
+      "specialOncePerBattle": false,
+      "suggestedSpecialCooldownRounds": 3,
+      "masteryPercentPerStep": 1,
+      "artStatus": "STANDALONE_HERO_SPRITES_NOT_PRODUCED",
+      "artPaths": {
+        "idle": null,
+        "attack": null,
+        "portrait": null
+      },
+      "visualBrief": "Adult elven male with copper-red hair in a long braid, emerald and cream traveling regalia, gold shoulder ornaments, small crescent lyre and green-gold harmonic ribbons; full boots and cloak visible.",
+      "ascension": {
+        "initialRank": 0,
+        "maximumRank": 10,
+        "creditPerRank": 1,
+        "manualApplication": true,
+        "masteryIndependentAndUncapped": true
+      }
+    }
+  ]
+}

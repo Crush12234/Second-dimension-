@@ -1,0 +1,2468 @@
+{
+  "events": [
+    {
+      "eventId": "EVENT018_GOBLIN_01",
+      "worldId": "WORLD_GOBLIN_001",
+      "title": "The School of Seven Kiri Stories",
+      "category": "CIVIC",
+      "region": "Gear-Crown Republic",
+      "setup": "Children compare seven contradictory versions of Kiri and ask which one the visitors intend to punish.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves The School of Seven Kiri Stories while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in The School of Seven Kiri Stories is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "The School of Seven Kiri Stories advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_GOBLIN_02",
+      "worldId": "WORLD_GOBLIN_001",
+      "title": "The Repair Vote Before War",
+      "category": "CIVIC",
+      "region": "Burrow Choir Confederacy",
+      "setup": "A worker assembly refuses to release bridge crews until the council funds housing repairs before another weapon.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves The Repair Vote Before War while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in The Repair Vote Before War is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "The Repair Vote Before War advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_GOBLIN_03",
+      "worldId": "WORLD_GOBLIN_001",
+      "title": "Lantern Prince Safe Passage",
+      "category": "DIPLOMACY",
+      "region": "Iron Lantern Principalities",
+      "setup": "A rival principality requests passage for families while its soldiers remain officially hostile.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Lantern Prince Safe Passage while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Lantern Prince Safe Passage is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Lantern Prince Safe Passage advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_GOBLIN_04",
+      "worldId": "WORLD_GOBLIN_001",
+      "title": "The Foreman’s Impossible Offer",
+      "category": "DIPLOMACY",
+      "region": "Saint Kiri Foundries",
+      "setup": "A powerful foundry will repair the route if Skyhome recognizes its ownership of every worker born there.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves The Foreman’s Impossible Offer while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in The Foreman’s Impossible Offer is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "The Foreman’s Impossible Offer advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_GOBLIN_05",
+      "worldId": "WORLD_GOBLIN_001",
+      "title": "The Archive of Abandoned Months",
+      "category": "EXPLORATION",
+      "region": "Broken Promise Marches",
+      "setup": "A buried calendar vault proves both reformers and traditionalists edited the same historic promise.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves The Archive of Abandoned Months while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in The Archive of Abandoned Months is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "The Archive of Abandoned Months advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_GOBLIN_06",
+      "worldId": "WORLD_GOBLIN_001",
+      "title": "Thirty Breakfasts in One Day",
+      "category": "EXPLORATION",
+      "region": "Gear-Crown Republic",
+      "setup": "The Guild shares a market meal while accelerated time reveals who can afford to keep pace with history.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Thirty Breakfasts in One Day while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Thirty Breakfasts in One Day is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Thirty Breakfasts in One Day advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_GOBLIN_07",
+      "worldId": "WORLD_GOBLIN_001",
+      "title": "Rust Plague at the Bridge",
+      "category": "CRISIS",
+      "region": "Burrow Choir Confederacy",
+      "setup": "A route failure traps medicine on one side and civilians on the other as infected gears begin to collapse.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Rust Plague at the Bridge while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Rust Plague at the Bridge is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Rust Plague at the Bridge advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_GOBLIN_08",
+      "worldId": "WORLD_GOBLIN_001",
+      "title": "The Forty-Fourth Calendar Rumor",
+      "category": "CRISIS",
+      "region": "Iron Lantern Principalities",
+      "setup": "A false report claims Skyhome plans to choose the next goblin calendar, pushing border militias toward war.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves The Forty-Fourth Calendar Rumor while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in The Forty-Fourth Calendar Rumor is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "The Forty-Fourth Calendar Rumor advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_ORC_01",
+      "worldId": "WORLD_ORC_002",
+      "title": "The School Without Spears",
+      "category": "CIVIC",
+      "region": "Red Hearth Clans",
+      "setup": "Children ask visiting warriors to leave every weapon outside before entering their classroom.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves The School Without Spears while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in The School Without Spears is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "The School Without Spears advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Can a race built on war redefine strength?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_ORC_02",
+      "worldId": "WORLD_ORC_002",
+      "title": "Hearth Before Honor",
+      "category": "CIVIC",
+      "region": "Mountain-Banner Holds",
+      "setup": "A clan council refuses to debate war until the hungry are served from the same pot.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Hearth Before Honor while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Hearth Before Honor is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Hearth Before Honor advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Can a race built on war redefine strength?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_ORC_03",
+      "worldId": "WORLD_ORC_002",
+      "title": "Salt-Tusk Refuge Passage",
+      "category": "DIPLOMACY",
+      "region": "Salt-Tusk Coast",
+      "setup": "A traditionalist captain requests safe passage for families he cannot publicly admit he protected.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Salt-Tusk Refuge Passage while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Salt-Tusk Refuge Passage is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Salt-Tusk Refuge Passage advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Can a race built on war redefine strength?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_ORC_04",
+      "worldId": "WORLD_ORC_002",
+      "title": "The Arena Saints’ Bargain",
+      "category": "DIPLOMACY",
+      "region": "Shield-Child Sanctuaries",
+      "setup": "Arena priests offer military aid if the Guild returns runaway child-fighters.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves The Arena Saints’ Bargain while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in The Arena Saints’ Bargain is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "The Arena Saints’ Bargain advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Can a race built on war redefine strength?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_ORC_05",
+      "worldId": "WORLD_ORC_002",
+      "title": "The First Shame Wall",
+      "category": "EXPLORATION",
+      "region": "Black Arena Cities",
+      "setup": "A carved record names celebrated victories beside the children conscripted to win them.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves The First Shame Wall while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in The First Shame Wall is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "The First Shame Wall advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Can a race built on war redefine strength?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_ORC_06",
+      "worldId": "WORLD_ORC_002",
+      "title": "Toy Forge Festival",
+      "category": "EXPLORATION",
+      "region": "Red Hearth Clans",
+      "setup": "Families reshape discarded spearheads into toys while veterans argue whether this dishonors the dead.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Toy Forge Festival while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Toy Forge Festival is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Toy Forge Festival advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Can a race built on war redefine strength?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_ORC_07",
+      "worldId": "WORLD_ORC_002",
+      "title": "Shieldhome Winter Breach",
+      "category": "CRISIS",
+      "region": "Mountain-Banner Holds",
+      "setup": "A supply route collapses during a storm with refugees and weapon shipments competing for transport.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Shieldhome Winter Breach while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Shieldhome Winter Breach is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Shieldhome Winter Breach advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Can a race built on war redefine strength?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_ORC_08",
+      "worldId": "WORLD_ORC_002",
+      "title": "The False Challenge Drum",
+      "category": "CRISIS",
+      "region": "Salt-Tusk Coast",
+      "setup": "A forged challenge threatens to force two reform clans into a blood-oath war.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves The False Challenge Drum while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in The False Challenge Drum is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "The False Challenge Drum advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Can a race built on war redefine strength?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_BEASTKIN_01",
+      "worldId": "WORLD_BEASTKIN_003",
+      "title": "The Den With No Locked Door",
+      "category": "CIVIC",
+      "region": "Wolfroad Packs",
+      "setup": "A school asks whether safety requires walls if every child can leave.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves The Den With No Locked Door while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in The Den With No Locked Door is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "The Den With No Locked Door advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Does civilization protect nature or destroy it?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_BEASTKIN_02",
+      "worldId": "WORLD_BEASTKIN_003",
+      "title": "Water for Rival Packs",
+      "category": "CIVIC",
+      "region": "Cat-Sun Courts",
+      "setup": "Migration leaders demand that the next civic work project repair shared wells before fortifications.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Water for Rival Packs while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Water for Rival Packs is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Water for Rival Packs advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Does civilization protect nature or destroy it?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_BEASTKIN_03",
+      "worldId": "WORLD_BEASTKIN_003",
+      "title": "Bearroot Crossing",
+      "category": "DIPLOMACY",
+      "region": "Bearroot Holds",
+      "setup": "A territorial elder offers passage if the Guild accepts local rules against armed pursuit.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Bearroot Crossing while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Bearroot Crossing is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Bearroot Crossing advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Does civilization protect nature or destroy it?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_BEASTKIN_04",
+      "worldId": "WORLD_BEASTKIN_003",
+      "title": "The Golden Cage Hunter",
+      "category": "DIPLOMACY",
+      "region": "Skyfeather Aeries",
+      "setup": "A former slaver offers maps and captives in exchange for immunity and one final hunt.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves The Golden Cage Hunter while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in The Golden Cage Hunter is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "The Golden Cage Hunter advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Does civilization protect nature or destroy it?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_BEASTKIN_05",
+      "worldId": "WORLD_BEASTKIN_003",
+      "title": "Collar-Maker Ruins",
+      "category": "EXPLORATION",
+      "region": "Foxfire Treaty Paths",
+      "setup": "A workshop preserves proof that several respected courts once funded the Great Collaring.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Collar-Maker Ruins while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Collar-Maker Ruins is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Collar-Maker Ruins advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Does civilization protect nature or destroy it?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_BEASTKIN_06",
+      "worldId": "WORLD_BEASTKIN_003",
+      "title": "Foxfire Supper",
+      "category": "EXPLORATION",
+      "region": "Wolfroad Packs",
+      "setup": "A meal communicates agreements through scent and seating, creating a misunderstanding no translator catches.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Foxfire Supper while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Foxfire Supper is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Foxfire Supper advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Does civilization protect nature or destroy it?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_BEASTKIN_07",
+      "worldId": "WORLD_BEASTKIN_003",
+      "title": "Wildfire Migration",
+      "category": "CRISIS",
+      "region": "Cat-Sun Courts",
+      "setup": "A burning route forces a choice between saving supplies, opening a forbidden sanctuary, or splitting the party.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Wildfire Migration while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Wildfire Migration is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Wildfire Migration advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Does civilization protect nature or destroy it?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_BEASTKIN_08",
+      "worldId": "WORLD_BEASTKIN_003",
+      "title": "Predator Rumor",
+      "category": "CRISIS",
+      "region": "Bearroot Holds",
+      "setup": "A single missing traveler is blamed on an entire pack before evidence is gathered.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Predator Rumor while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Predator Rumor is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Predator Rumor advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Does civilization protect nature or destroy it?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_DEMON_01",
+      "worldId": "WORLD_DEMON_004",
+      "title": "Consent Before Healing",
+      "category": "CIVIC",
+      "region": "Crimson Library States",
+      "setup": "A clinic refuses an urgent magical treatment until the unconscious patient’s prior wishes are located.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Consent Before Healing while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Consent Before Healing is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Consent Before Healing advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Can those feared as monsters ever be trusted?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_DEMON_02",
+      "worldId": "WORLD_DEMON_004",
+      "title": "The Public Contract School",
+      "category": "CIVIC",
+      "region": "Thorn-Crown Duchies",
+      "setup": "Parents demand practical contract education before another defensive monument.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves The Public Contract School while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in The Public Contract School is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "The Public Contract School advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Can those feared as monsters ever be trusted?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_DEMON_03",
+      "worldId": "WORLD_DEMON_004",
+      "title": "Mael’s Safe Conduct",
+      "category": "DIPLOMACY",
+      "region": "Ash Contract Courts",
+      "setup": "A contract-breaker requests passage while carrying evidence that could collapse a lawful court.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Mael’s Safe Conduct while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Mael’s Safe Conduct is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Mael’s Safe Conduct advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Can those feared as monsters ever be trusted?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_DEMON_04",
+      "worldId": "WORLD_DEMON_004",
+      "title": "The Living Signature Offer",
+      "category": "DIPLOMACY",
+      "region": "Dreamglass Salons",
+      "setup": "A duke offers archive access if one recruit signs away the right to refuse future testimony.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves The Living Signature Offer while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in The Living Signature Offer is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "The Living Signature Offer advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Can those feared as monsters ever be trusted?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_DEMON_05",
+      "worldId": "WORLD_DEMON_004",
+      "title": "The Mercy Index Cellar",
+      "category": "EXPLORATION",
+      "region": "Ember Monasteries",
+      "setup": "A sealed collection proves forbidden scholars documented consent long before current reformers.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves The Mercy Index Cellar while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in The Mercy Index Cellar is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "The Mercy Index Cellar advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Can those feared as monsters ever be trusted?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_DEMON_06",
+      "worldId": "WORLD_DEMON_004",
+      "title": "Ashbread Salon",
+      "category": "EXPLORATION",
+      "region": "Crimson Library States",
+      "setup": "A public meal reveals how contract famine shaped etiquette, shame, and generosity.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Ashbread Salon while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Ashbread Salon is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Ashbread Salon advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Can those feared as monsters ever be trusted?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_DEMON_07",
+      "worldId": "WORLD_DEMON_004",
+      "title": "Name-Seal Cascade",
+      "category": "CRISIS",
+      "region": "Thorn-Crown Duchies",
+      "setup": "A failed seal begins transferring legal ownership of homes, medicine, and identities across a district.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Name-Seal Cascade while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Name-Seal Cascade is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Name-Seal Cascade advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Can those feared as monsters ever be trusted?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_DEMON_08",
+      "worldId": "WORLD_DEMON_004",
+      "title": "The Red Judge Is Dead Rumor",
+      "category": "CRISIS",
+      "region": "Ash Contract Courts",
+      "setup": "A false death report triggers revenge contracts and opportunistic purges.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves The Red Judge Is Dead Rumor while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in The Red Judge Is Dead Rumor is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "The Red Judge Is Dead Rumor advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Can those feared as monsters ever be trusted?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_DARKELF_01",
+      "worldId": "WORLD_DARK_ELF_005",
+      "title": "The Lesson With Two Histories",
+      "category": "CIVIC",
+      "region": "Duskwood Courts",
+      "setup": "A teacher presents mutually exclusive accounts and asks children what evidence would let both victims speak.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves The Lesson With Two Histories while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in The Lesson With Two Histories is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "The Lesson With Two Histories advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Is a painful truth better than a peaceful lie?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_DARKELF_02",
+      "worldId": "WORLD_DARK_ELF_005",
+      "title": "Repair the Census First",
+      "category": "CIVIC",
+      "region": "Veil-City Compact",
+      "setup": "Archive workers refuse a new intelligence tower until erased citizens are restored to the public record.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Repair the Census First while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Repair the Census First is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Repair the Census First advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Is a painful truth better than a peaceful lie?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_DARKELF_03",
+      "worldId": "WORLD_DARK_ELF_005",
+      "title": "Gentle Knife Passage",
+      "category": "DIPLOMACY",
+      "region": "Silver Quiet Archives",
+      "setup": "A retired assassin seeks safe passage for witnesses her old court wants quietly protected and permanently silent.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Gentle Knife Passage while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Gentle Knife Passage is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Gentle Knife Passage advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Is a painful truth better than a peaceful lie?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_DARKELF_04",
+      "worldId": "WORLD_DARK_ELF_005",
+      "title": "The Peace Regent’s Gift",
+      "category": "DIPLOMACY",
+      "region": "Blackroot Sanctuaries",
+      "setup": "A stable ruler offers famine relief if the Guild agrees not to open one archive.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves The Peace Regent’s Gift while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in The Peace Regent’s Gift is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "The Peace Regent’s Gift advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Is a painful truth better than a peaceful lie?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_DARKELF_05",
+      "worldId": "WORLD_DARK_ELF_005",
+      "title": "Lanternless Testimony",
+      "category": "EXPLORATION",
+      "region": "Lanternless Roads",
+      "setup": "A road shrine contains names that contradict the official cause of the White Lie Famine.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Lanternless Testimony while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Lanternless Testimony is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Lanternless Testimony advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Is a painful truth better than a peaceful lie?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_DARKELF_06",
+      "worldId": "WORLD_DARK_ELF_005",
+      "title": "Nocthane Supper",
+      "category": "EXPLORATION",
+      "region": "Duskwood Courts",
+      "setup": "Guests speak through omissions at a meal where asking directly can be considered violence.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Nocthane Supper while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Nocthane Supper is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Nocthane Supper advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Is a painful truth better than a peaceful lie?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_DARKELF_07",
+      "worldId": "WORLD_DARK_ELF_005",
+      "title": "The Vanishing Census Returns",
+      "category": "CRISIS",
+      "region": "Veil-City Compact",
+      "setup": "Thousands of deleted citizens reappear in the record at once, overwhelming aid and legal systems.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves The Vanishing Census Returns while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in The Vanishing Census Returns is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "The Vanishing Census Returns advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Is a painful truth better than a peaceful lie?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_DARKELF_08",
+      "worldId": "WORLD_DARK_ELF_005",
+      "title": "Assassin Mercy Rumor",
+      "category": "CRISIS",
+      "region": "Silver Quiet Archives",
+      "setup": "A rumor claims the Guild rewards killers who describe themselves as compassionate.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Assassin Mercy Rumor while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Assassin Mercy Rumor is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Assassin Mercy Rumor advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Is a painful truth better than a peaceful lie?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_BUNNY_01",
+      "worldId": "WORLD_BUNNY_006",
+      "title": "Debt Before Arithmetic",
+      "category": "CIVIC",
+      "region": "Silverstep Exchange",
+      "setup": "A school teaches contract clauses before mathematics, and parents disagree whether this is protection or surrender.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Debt Before Arithmetic while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Debt Before Arithmetic is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Debt Before Arithmetic advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Can everything have a price?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_BUNNY_02",
+      "worldId": "WORLD_BUNNY_006",
+      "title": "Granary Repair Referendum",
+      "category": "CIVIC",
+      "region": "Golden Warren Banks",
+      "setup": "Workers demand public storage repairs before a new trade monument.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Granary Repair Referendum while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Granary Repair Referendum is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Granary Repair Referendum advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Can everything have a price?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_BUNNY_03",
+      "worldId": "WORLD_BUNNY_006",
+      "title": "Roadbell Neutral Passage",
+      "category": "DIPLOMACY",
+      "region": "Roadbell Caravan League",
+      "setup": "A caravan league requests armed escort while insisting the Guild cannot inspect its sealed medicine cargo.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Roadbell Neutral Passage while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Roadbell Neutral Passage is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Roadbell Neutral Passage advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Can everything have a price?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_BUNNY_04",
+      "worldId": "WORLD_BUNNY_006",
+      "title": "The Smiling Auction Offer",
+      "category": "DIPLOMACY",
+      "region": "Orchard Ports",
+      "setup": "An auction house offers every needed supply if Skyhome guarantees the debts of unknown families.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves The Smiling Auction Offer while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in The Smiling Auction Offer is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "The Smiling Auction Offer advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Can everything have a price?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_BUNNY_05",
+      "worldId": "WORLD_BUNNY_006",
+      "title": "The First Price Ledger",
+      "category": "EXPLORATION",
+      "region": "Free Basket Cities",
+      "setup": "A hidden ledger proves famine prices were coordinated by institutions still considered respectable.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves The First Price Ledger while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in The First Price Ledger is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "The First Price Ledger advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Can everything have a price?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_BUNNY_06",
+      "worldId": "WORLD_BUNNY_006",
+      "title": "Breakfast Exchange",
+      "category": "EXPLORATION",
+      "region": "Silverstep Exchange",
+      "setup": "A market meal changes price three times while the Guild is eating, revealing who bears the risk of speed.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Breakfast Exchange while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Breakfast Exchange is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Breakfast Exchange advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Can everything have a price?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_BUNNY_07",
+      "worldId": "WORLD_BUNNY_006",
+      "title": "Medicine Convoy Default",
+      "category": "CRISIS",
+      "region": "Golden Warren Banks",
+      "setup": "A route collapse forces the Guild to choose which contracted destination receives limited medicine first.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Medicine Convoy Default while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Medicine Convoy Default is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Medicine Convoy Default advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Can everything have a price?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_BUNNY_08",
+      "worldId": "WORLD_BUNNY_006",
+      "title": "Bank Run Bell",
+      "category": "CRISIS",
+      "region": "Roadbell Caravan League",
+      "setup": "A false insolvency rumor begins emptying community stores faster than any enemy raid.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Bank Run Bell while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Bank Run Bell is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Bank Run Bell advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "Can everything have a price?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_DOG_01",
+      "worldId": "WORLD_DOG_007",
+      "title": "The Right to Refuse Class",
+      "category": "CIVIC",
+      "region": "Stormpaw Ranges",
+      "setup": "A border school teaches children how to identify an unlawful order without teaching contempt for duty.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves The Right to Refuse Class while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in The Right to Refuse Class is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "The Right to Refuse Class advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "What happens when loyalty and morality disagree?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_DOG_02",
+      "worldId": "WORLD_DOG_007",
+      "title": "Patrol Wages Before a Monument",
+      "category": "CIVIC",
+      "region": "Oathpost Settlements",
+      "setup": "Watchers demand safe equipment and family support before another ceremonial gate.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Patrol Wages Before a Monument while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Patrol Wages Before a Monument is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Patrol Wages Before a Monument advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "What happens when loyalty and morality disagree?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_DOG_03",
+      "worldId": "WORLD_DOG_007",
+      "title": "Rivernose Witness Passage",
+      "category": "DIPLOMACY",
+      "region": "Rivernose Watch",
+      "setup": "A patrol captain requests safe passage for a witness whose testimony will condemn his own command.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Rivernose Witness Passage while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Rivernose Witness Passage is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Rivernose Witness Passage advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "What happens when loyalty and morality disagree?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_DOG_04",
+      "worldId": "WORLD_DOG_007",
+      "title": "The Oath-Eater’s Map",
+      "category": "DIPLOMACY",
+      "region": "Hearthhound Villages",
+      "setup": "A notorious informant offers the true border route if the Guild swears never to reveal who helped.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves The Oath-Eater’s Map while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in The Oath-Eater’s Map is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "The Oath-Eater’s Map advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "What happens when loyalty and morality disagree?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_DOG_05",
+      "worldId": "WORLD_DOG_007",
+      "title": "The False Scent Archive",
+      "category": "EXPLORATION",
+      "region": "Gray Trail Compact",
+      "setup": "Preserved scent records show an entire war began from evidence commanders knew was fabricated.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves The False Scent Archive while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in The False Scent Archive is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "The False Scent Archive advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "What happens when loyalty and morality disagree?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_DOG_06",
+      "worldId": "WORLD_DOG_007",
+      "title": "Hearthhound Supper",
+      "category": "EXPLORATION",
+      "region": "Stormpaw Ranges",
+      "setup": "A village feeds accused travelers and patrol officers at the same table before testimony begins.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Hearthhound Supper while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Hearthhound Supper is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Hearthhound Supper advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "What happens when loyalty and morality disagree?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_DOG_07",
+      "worldId": "WORLD_DOG_007",
+      "title": "Lost Pack Signal",
+      "category": "CRISIS",
+      "region": "Oathpost Settlements",
+      "setup": "A rescue beacon conflicts with orders to hold a strategic border position.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves Lost Pack Signal while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in Lost Pack Signal is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "Lost Pack Signal advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "What happens when loyalty and morality disagree?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    },
+    {
+      "eventId": "EVENT018_DOG_08",
+      "worldId": "WORLD_DOG_007",
+      "title": "School Burning Rumor",
+      "category": "CRISIS",
+      "region": "Rivernose Watch",
+      "setup": "A false report blames refugees for an attack and threatens immediate collective punishment.",
+      "actingRole": "Select a recruit whose actual skill, relationship, staff duty, or equipment applies; the exact action is committed before the roll.",
+      "choices": [
+        {
+          "id": "PROTECT",
+          "label": "Protect people first",
+          "knownCost": "Supplies, urgency, or route access",
+          "check": "Guard / Restoration / Leadership"
+        },
+        {
+          "id": "PRESERVE",
+          "label": "Preserve evidence and infrastructure",
+          "knownCost": "Fatigue, materials, or faction trust",
+          "check": "Engineering / Research / Scouting"
+        },
+        {
+          "id": "NEGOTIATE",
+          "label": "Negotiate a lawful compromise",
+          "knownCost": "Political concession or delayed objective",
+          "check": "Leadership / Diplomacy / Relationship"
+        },
+        {
+          "id": "ACCEPT_COST",
+          "label": "Accept a recoverable setback to avoid coercion",
+          "knownCost": "Local objective or reward reduced",
+          "check": "No reroll; guaranteed ethical fallback"
+        }
+      ],
+      "criticalSuccess": "The Guild resolves School Burning Rumor while protecting people, preserving evidence, and creating a positive relationship or city consequence.",
+      "success": "The main problem in School Burning Rumor is resolved with one bounded cost and a clear memory of who helped.",
+      "mixed": "School Burning Rumor advances, but a faction, supply, civic, or relationship consequence becomes a later quest.",
+      "setback": "The immediate problem worsens without deleting members; recovery, repair, or diplomacy content is created.",
+      "criticalSetback": "The Guild must withdraw or accept a major civic consequence, but permanent recruits remain recoverable and the event cannot reroll on reload.",
+      "worldQuestion": "What happens when loyalty and morality disagree?",
+      "relationshipSceneCostsOperation": false,
+      "committedBeforeReveal": true,
+      "canRemoveRecruit": false
+    }
+  ]
+}

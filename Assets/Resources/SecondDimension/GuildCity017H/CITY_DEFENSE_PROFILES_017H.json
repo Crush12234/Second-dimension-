@@ -1,0 +1,829 @@
+{
+  "contentVersion": "GUILD_CITY_DEFENSE_017H_1.0",
+  "resolutionModel": "HYBRID_STRATEGIC_LANES_PLUS_CERTIFIED_UNION_BATTLE",
+  "createsSecondCombatEngine": false,
+  "maximumAlliedUnions": 10,
+  "maximumEnemyUnions": 10,
+  "lanes": [
+    {
+      "id": "DEF_LANE_WESTERN_RIDGE",
+      "displayName": "Western Ridge",
+      "summary": "High approach route vulnerable to scouts, archers, and siege crews.",
+      "preferredDefenseTags": [
+        "SCOUT",
+        "RANGED",
+        "WATCH"
+      ]
+    },
+    {
+      "id": "DEF_LANE_MAIN_GATE",
+      "displayName": "Main Gate",
+      "summary": "Primary breach lane where walls, Gatehouse, Guard, and heavy Unions matter.",
+      "preferredDefenseTags": [
+        "WALL",
+        "GATE",
+        "GUARD"
+      ]
+    },
+    {
+      "id": "DEF_LANE_MARKET_ROAD",
+      "displayName": "Market Road",
+      "summary": "Civilian and supply route requiring escorts, traps, and rapid response.",
+      "preferredDefenseTags": [
+        "SUPPLY",
+        "TRAP",
+        "MOBILE"
+      ]
+    },
+    {
+      "id": "DEF_LANE_LOWER_WORKS",
+      "displayName": "Lower Works",
+      "summary": "Workshops and service tunnels vulnerable to infiltrators and sabotage.",
+      "preferredDefenseTags": [
+        "ENGINEERING",
+        "TRAP",
+        "MILITIA"
+      ]
+    },
+    {
+      "id": "DEF_LANE_FIRST_GATE_APRON",
+      "displayName": "First Gate Apron",
+      "summary": "Mystic threshold lane where pylons, Gate research, and Warding matter.",
+      "preferredDefenseTags": [
+        "WARD",
+        "MYSTIC",
+        "GATE"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "id": "DEF_PROFILE_FIRST_BELL_DRILL",
+      "displayName": "First Bell Defense Drill",
+      "classification": "CANON_ECHO",
+      "requiredStoryGate": "STORY_GATE_OPENING_GUILD",
+      "availableInOpening": true,
+      "futureLocked": false,
+      "difficulty": 1,
+      "laneIds": [
+        "DEF_LANE_MAIN_GATE"
+      ],
+      "waves": [
+        {
+          "waveIndex": 1,
+          "displayName": "Wave 1: Probe",
+          "laneIds": [
+            "DEF_LANE_MAIN_GATE"
+          ],
+          "enemyPower": 12,
+          "supportResolutionThreshold": 13,
+          "decisiveBattle": false,
+          "enemyUnionCount": 1,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 37,
+          "rewardCivicHallXp": 30,
+          "defenseMasteryXp": 18
+        },
+        {
+          "waveIndex": 2,
+          "displayName": "Wave 2: Pressure",
+          "laneIds": [
+            "DEF_LANE_MAIN_GATE"
+          ],
+          "enemyPower": 17,
+          "supportResolutionThreshold": 16,
+          "decisiveBattle": false,
+          "enemyUnionCount": 2,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 47,
+          "rewardCivicHallXp": 38,
+          "defenseMasteryXp": 23
+        },
+        {
+          "waveIndex": 3,
+          "displayName": "Wave 3: Decisive Breach",
+          "laneIds": [
+            "DEF_LANE_MAIN_GATE"
+          ],
+          "enemyPower": 22,
+          "supportResolutionThreshold": 19,
+          "decisiveBattle": true,
+          "enemyUnionCount": 3,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 57,
+          "rewardCivicHallXp": 46,
+          "defenseMasteryXp": 28
+        }
+      ],
+      "summary": "Strategic lane and wave defense that escalates into the existing Union battle engine for decisive breaches."
+    },
+    {
+      "id": "DEF_PROFILE_GATE_GNAWER_RAID",
+      "displayName": "Gate Gnawer Raid",
+      "classification": "CANON_ECHO",
+      "requiredStoryGate": "STORY_GATE_OPENING_GUILD",
+      "availableInOpening": true,
+      "futureLocked": false,
+      "difficulty": 2,
+      "laneIds": [
+        "DEF_LANE_MAIN_GATE",
+        "DEF_LANE_LOWER_WORKS"
+      ],
+      "waves": [
+        {
+          "waveIndex": 1,
+          "displayName": "Wave 1: Probe",
+          "laneIds": [
+            "DEF_LANE_MAIN_GATE",
+            "DEF_LANE_LOWER_WORKS"
+          ],
+          "enemyPower": 16,
+          "supportResolutionThreshold": 16,
+          "decisiveBattle": false,
+          "enemyUnionCount": 2,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 49,
+          "rewardCivicHallXp": 40,
+          "defenseMasteryXp": 24
+        },
+        {
+          "waveIndex": 2,
+          "displayName": "Wave 2: Pressure",
+          "laneIds": [
+            "DEF_LANE_MAIN_GATE",
+            "DEF_LANE_LOWER_WORKS"
+          ],
+          "enemyPower": 22,
+          "supportResolutionThreshold": 19,
+          "decisiveBattle": false,
+          "enemyUnionCount": 3,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 59,
+          "rewardCivicHallXp": 48,
+          "defenseMasteryXp": 29
+        },
+        {
+          "waveIndex": 3,
+          "displayName": "Wave 3: Decisive Breach",
+          "laneIds": [
+            "DEF_LANE_MAIN_GATE",
+            "DEF_LANE_LOWER_WORKS"
+          ],
+          "enemyPower": 28,
+          "supportResolutionThreshold": 22,
+          "decisiveBattle": true,
+          "enemyUnionCount": 4,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 69,
+          "rewardCivicHallXp": 56,
+          "defenseMasteryXp": 34
+        }
+      ],
+      "summary": "Strategic lane and wave defense that escalates into the existing Union battle engine for decisive breaches."
+    },
+    {
+      "id": "DEF_PROFILE_WESTERN_RIDGE_SCOUTS",
+      "displayName": "Western Ridge Scouts",
+      "classification": "CANON_ECHO",
+      "requiredStoryGate": "STORY_GATE_OPENING_GUILD",
+      "availableInOpening": true,
+      "futureLocked": false,
+      "difficulty": 2,
+      "laneIds": [
+        "DEF_LANE_WESTERN_RIDGE"
+      ],
+      "waves": [
+        {
+          "waveIndex": 1,
+          "displayName": "Wave 1: Probe",
+          "laneIds": [
+            "DEF_LANE_WESTERN_RIDGE"
+          ],
+          "enemyPower": 16,
+          "supportResolutionThreshold": 16,
+          "decisiveBattle": false,
+          "enemyUnionCount": 2,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 49,
+          "rewardCivicHallXp": 40,
+          "defenseMasteryXp": 24
+        },
+        {
+          "waveIndex": 2,
+          "displayName": "Wave 2: Pressure",
+          "laneIds": [
+            "DEF_LANE_WESTERN_RIDGE"
+          ],
+          "enemyPower": 22,
+          "supportResolutionThreshold": 19,
+          "decisiveBattle": false,
+          "enemyUnionCount": 3,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 59,
+          "rewardCivicHallXp": 48,
+          "defenseMasteryXp": 29
+        },
+        {
+          "waveIndex": 3,
+          "displayName": "Wave 3: Decisive Breach",
+          "laneIds": [
+            "DEF_LANE_WESTERN_RIDGE"
+          ],
+          "enemyPower": 28,
+          "supportResolutionThreshold": 22,
+          "decisiveBattle": true,
+          "enemyUnionCount": 4,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 69,
+          "rewardCivicHallXp": 56,
+          "defenseMasteryXp": 34
+        }
+      ],
+      "summary": "Strategic lane and wave defense that escalates into the existing Union battle engine for decisive breaches."
+    },
+    {
+      "id": "DEF_PROFILE_RELIEF_CONVOY_ATTACK",
+      "displayName": "Relief Convoy Under Attack",
+      "classification": "CANON_ECHO",
+      "requiredStoryGate": "STORY_GATE_OPENING_GUILD",
+      "availableInOpening": true,
+      "futureLocked": false,
+      "difficulty": 2,
+      "laneIds": [
+        "DEF_LANE_MARKET_ROAD"
+      ],
+      "waves": [
+        {
+          "waveIndex": 1,
+          "displayName": "Wave 1: Probe",
+          "laneIds": [
+            "DEF_LANE_MARKET_ROAD"
+          ],
+          "enemyPower": 16,
+          "supportResolutionThreshold": 16,
+          "decisiveBattle": false,
+          "enemyUnionCount": 2,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 49,
+          "rewardCivicHallXp": 40,
+          "defenseMasteryXp": 24
+        },
+        {
+          "waveIndex": 2,
+          "displayName": "Wave 2: Pressure",
+          "laneIds": [
+            "DEF_LANE_MARKET_ROAD"
+          ],
+          "enemyPower": 22,
+          "supportResolutionThreshold": 19,
+          "decisiveBattle": false,
+          "enemyUnionCount": 3,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 59,
+          "rewardCivicHallXp": 48,
+          "defenseMasteryXp": 29
+        },
+        {
+          "waveIndex": 3,
+          "displayName": "Wave 3: Decisive Breach",
+          "laneIds": [
+            "DEF_LANE_MARKET_ROAD"
+          ],
+          "enemyPower": 28,
+          "supportResolutionThreshold": 22,
+          "decisiveBattle": true,
+          "enemyUnionCount": 4,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 69,
+          "rewardCivicHallXp": 56,
+          "defenseMasteryXp": 34
+        }
+      ],
+      "summary": "Strategic lane and wave defense that escalates into the existing Union battle engine for decisive breaches."
+    },
+    {
+      "id": "DEF_PROFILE_MYSTIC_BOMBARDMENT",
+      "displayName": "Mystic Bombardment",
+      "classification": "CANON_ECHO",
+      "requiredStoryGate": "STORY_GATE_CITY_STAGE_2",
+      "availableInOpening": false,
+      "futureLocked": false,
+      "difficulty": 3,
+      "laneIds": [
+        "DEF_LANE_FIRST_GATE_APRON",
+        "DEF_LANE_MAIN_GATE"
+      ],
+      "waves": [
+        {
+          "waveIndex": 1,
+          "displayName": "Wave 1: Probe",
+          "laneIds": [
+            "DEF_LANE_FIRST_GATE_APRON",
+            "DEF_LANE_MAIN_GATE"
+          ],
+          "enemyPower": 20,
+          "supportResolutionThreshold": 19,
+          "decisiveBattle": false,
+          "enemyUnionCount": 2,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 61,
+          "rewardCivicHallXp": 50,
+          "defenseMasteryXp": 30
+        },
+        {
+          "waveIndex": 2,
+          "displayName": "Wave 2: Pressure",
+          "laneIds": [
+            "DEF_LANE_FIRST_GATE_APRON",
+            "DEF_LANE_MAIN_GATE"
+          ],
+          "enemyPower": 27,
+          "supportResolutionThreshold": 22,
+          "decisiveBattle": false,
+          "enemyUnionCount": 3,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 71,
+          "rewardCivicHallXp": 58,
+          "defenseMasteryXp": 35
+        },
+        {
+          "waveIndex": 3,
+          "displayName": "Wave 3: Decisive Breach",
+          "laneIds": [
+            "DEF_LANE_FIRST_GATE_APRON",
+            "DEF_LANE_MAIN_GATE"
+          ],
+          "enemyPower": 34,
+          "supportResolutionThreshold": 25,
+          "decisiveBattle": true,
+          "enemyUnionCount": 4,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 81,
+          "rewardCivicHallXp": 66,
+          "defenseMasteryXp": 40
+        }
+      ],
+      "summary": "Strategic lane and wave defense that escalates into the existing Union battle engine for decisive breaches."
+    },
+    {
+      "id": "DEF_PROFILE_UNDERCITY_INFILTRATION",
+      "displayName": "Undercity Infiltration",
+      "classification": "CANON_ECHO",
+      "requiredStoryGate": "STORY_GATE_CITY_STAGE_2",
+      "availableInOpening": false,
+      "futureLocked": false,
+      "difficulty": 3,
+      "laneIds": [
+        "DEF_LANE_LOWER_WORKS",
+        "DEF_LANE_MARKET_ROAD"
+      ],
+      "waves": [
+        {
+          "waveIndex": 1,
+          "displayName": "Wave 1: Probe",
+          "laneIds": [
+            "DEF_LANE_LOWER_WORKS",
+            "DEF_LANE_MARKET_ROAD"
+          ],
+          "enemyPower": 20,
+          "supportResolutionThreshold": 19,
+          "decisiveBattle": false,
+          "enemyUnionCount": 2,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 61,
+          "rewardCivicHallXp": 50,
+          "defenseMasteryXp": 30
+        },
+        {
+          "waveIndex": 2,
+          "displayName": "Wave 2: Pressure",
+          "laneIds": [
+            "DEF_LANE_LOWER_WORKS",
+            "DEF_LANE_MARKET_ROAD"
+          ],
+          "enemyPower": 27,
+          "supportResolutionThreshold": 22,
+          "decisiveBattle": false,
+          "enemyUnionCount": 3,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 71,
+          "rewardCivicHallXp": 58,
+          "defenseMasteryXp": 35
+        },
+        {
+          "waveIndex": 3,
+          "displayName": "Wave 3: Decisive Breach",
+          "laneIds": [
+            "DEF_LANE_LOWER_WORKS",
+            "DEF_LANE_MARKET_ROAD"
+          ],
+          "enemyPower": 34,
+          "supportResolutionThreshold": 25,
+          "decisiveBattle": true,
+          "enemyUnionCount": 4,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 81,
+          "rewardCivicHallXp": 66,
+          "defenseMasteryXp": 40
+        }
+      ],
+      "summary": "Strategic lane and wave defense that escalates into the existing Union battle engine for decisive breaches."
+    },
+    {
+      "id": "DEF_PROFILE_EVACUATION_UNDER_FIRE",
+      "displayName": "Evacuation Under Fire",
+      "classification": "CANON_ECHO",
+      "requiredStoryGate": "STORY_GATE_CITY_STAGE_2",
+      "availableInOpening": false,
+      "futureLocked": false,
+      "difficulty": 3,
+      "laneIds": [
+        "DEF_LANE_MARKET_ROAD",
+        "DEF_LANE_MAIN_GATE"
+      ],
+      "waves": [
+        {
+          "waveIndex": 1,
+          "displayName": "Wave 1: Probe",
+          "laneIds": [
+            "DEF_LANE_MARKET_ROAD",
+            "DEF_LANE_MAIN_GATE"
+          ],
+          "enemyPower": 20,
+          "supportResolutionThreshold": 19,
+          "decisiveBattle": false,
+          "enemyUnionCount": 2,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 61,
+          "rewardCivicHallXp": 50,
+          "defenseMasteryXp": 30
+        },
+        {
+          "waveIndex": 2,
+          "displayName": "Wave 2: Pressure",
+          "laneIds": [
+            "DEF_LANE_MARKET_ROAD",
+            "DEF_LANE_MAIN_GATE"
+          ],
+          "enemyPower": 27,
+          "supportResolutionThreshold": 22,
+          "decisiveBattle": false,
+          "enemyUnionCount": 3,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 71,
+          "rewardCivicHallXp": 58,
+          "defenseMasteryXp": 35
+        },
+        {
+          "waveIndex": 3,
+          "displayName": "Wave 3: Decisive Breach",
+          "laneIds": [
+            "DEF_LANE_MARKET_ROAD",
+            "DEF_LANE_MAIN_GATE"
+          ],
+          "enemyPower": 34,
+          "supportResolutionThreshold": 25,
+          "decisiveBattle": true,
+          "enemyUnionCount": 4,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 81,
+          "rewardCivicHallXp": 66,
+          "defenseMasteryXp": 40
+        }
+      ],
+      "summary": "Strategic lane and wave defense that escalates into the existing Union battle engine for decisive breaches."
+    },
+    {
+      "id": "DEF_PROFILE_FIRST_GATE_ANOMALY",
+      "displayName": "First Gate Anomaly",
+      "classification": "CANON_ECHO",
+      "requiredStoryGate": "STORY_GATE_FIRST_GATE_AWAKENED",
+      "availableInOpening": false,
+      "futureLocked": false,
+      "difficulty": 4,
+      "laneIds": [
+        "DEF_LANE_FIRST_GATE_APRON"
+      ],
+      "waves": [
+        {
+          "waveIndex": 1,
+          "displayName": "Wave 1: Probe",
+          "laneIds": [
+            "DEF_LANE_FIRST_GATE_APRON"
+          ],
+          "enemyPower": 24,
+          "supportResolutionThreshold": 22,
+          "decisiveBattle": false,
+          "enemyUnionCount": 3,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 73,
+          "rewardCivicHallXp": 60,
+          "defenseMasteryXp": 36
+        },
+        {
+          "waveIndex": 2,
+          "displayName": "Wave 2: Pressure",
+          "laneIds": [
+            "DEF_LANE_FIRST_GATE_APRON"
+          ],
+          "enemyPower": 32,
+          "supportResolutionThreshold": 25,
+          "decisiveBattle": false,
+          "enemyUnionCount": 4,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 83,
+          "rewardCivicHallXp": 68,
+          "defenseMasteryXp": 41
+        },
+        {
+          "waveIndex": 3,
+          "displayName": "Wave 3: Decisive Breach",
+          "laneIds": [
+            "DEF_LANE_FIRST_GATE_APRON"
+          ],
+          "enemyPower": 40,
+          "supportResolutionThreshold": 28,
+          "decisiveBattle": true,
+          "enemyUnionCount": 5,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 93,
+          "rewardCivicHallXp": 76,
+          "defenseMasteryXp": 46
+        }
+      ],
+      "summary": "Strategic lane and wave defense that escalates into the existing Union battle engine for decisive breaches."
+    },
+    {
+      "id": "DEF_PROFILE_LAST_FORTRESS_CHRONICLE",
+      "displayName": "Last Fortress Chronicle Defense",
+      "classification": "HISTORICAL_CHRONICLE",
+      "requiredStoryGate": "STORY_GATE_CHRONICLE_UNLOCKED",
+      "availableInOpening": false,
+      "futureLocked": false,
+      "difficulty": 4,
+      "laneIds": [
+        "DEF_LANE_MAIN_GATE",
+        "DEF_LANE_WESTERN_RIDGE"
+      ],
+      "waves": [
+        {
+          "waveIndex": 1,
+          "displayName": "Wave 1: Probe",
+          "laneIds": [
+            "DEF_LANE_MAIN_GATE",
+            "DEF_LANE_WESTERN_RIDGE"
+          ],
+          "enemyPower": 24,
+          "supportResolutionThreshold": 22,
+          "decisiveBattle": false,
+          "enemyUnionCount": 3,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 73,
+          "rewardCivicHallXp": 60,
+          "defenseMasteryXp": 36
+        },
+        {
+          "waveIndex": 2,
+          "displayName": "Wave 2: Pressure",
+          "laneIds": [
+            "DEF_LANE_MAIN_GATE",
+            "DEF_LANE_WESTERN_RIDGE"
+          ],
+          "enemyPower": 32,
+          "supportResolutionThreshold": 25,
+          "decisiveBattle": false,
+          "enemyUnionCount": 4,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 83,
+          "rewardCivicHallXp": 68,
+          "defenseMasteryXp": 41
+        },
+        {
+          "waveIndex": 3,
+          "displayName": "Wave 3: Decisive Breach",
+          "laneIds": [
+            "DEF_LANE_MAIN_GATE",
+            "DEF_LANE_WESTERN_RIDGE"
+          ],
+          "enemyPower": 40,
+          "supportResolutionThreshold": 28,
+          "decisiveBattle": true,
+          "enemyUnionCount": 5,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 93,
+          "rewardCivicHallXp": 76,
+          "defenseMasteryXp": 46
+        }
+      ],
+      "summary": "Strategic lane and wave defense that escalates into the existing Union battle engine for decisive breaches."
+    },
+    {
+      "id": "DEF_PROFILE_GOBLIN_FORTRESS_SCOUTING",
+      "displayName": "Goblin Fortress Scouting Response",
+      "classification": "CAMPAIGN_CANON",
+      "requiredStoryGate": "STORY_GATE_GOBLIN_FORTRESS_CONTACT",
+      "availableInOpening": false,
+      "futureLocked": false,
+      "difficulty": 5,
+      "laneIds": [
+        "DEF_LANE_WESTERN_RIDGE",
+        "DEF_LANE_FIRST_GATE_APRON"
+      ],
+      "waves": [
+        {
+          "waveIndex": 1,
+          "displayName": "Wave 1: Probe",
+          "laneIds": [
+            "DEF_LANE_WESTERN_RIDGE",
+            "DEF_LANE_FIRST_GATE_APRON"
+          ],
+          "enemyPower": 28,
+          "supportResolutionThreshold": 25,
+          "decisiveBattle": false,
+          "enemyUnionCount": 3,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 85,
+          "rewardCivicHallXp": 70,
+          "defenseMasteryXp": 42
+        },
+        {
+          "waveIndex": 2,
+          "displayName": "Wave 2: Pressure",
+          "laneIds": [
+            "DEF_LANE_WESTERN_RIDGE",
+            "DEF_LANE_FIRST_GATE_APRON"
+          ],
+          "enemyPower": 37,
+          "supportResolutionThreshold": 28,
+          "decisiveBattle": true,
+          "enemyUnionCount": 4,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 95,
+          "rewardCivicHallXp": 78,
+          "defenseMasteryXp": 47
+        },
+        {
+          "waveIndex": 3,
+          "displayName": "Wave 3: Decisive Breach",
+          "laneIds": [
+            "DEF_LANE_WESTERN_RIDGE",
+            "DEF_LANE_FIRST_GATE_APRON"
+          ],
+          "enemyPower": 46,
+          "supportResolutionThreshold": 31,
+          "decisiveBattle": true,
+          "enemyUnionCount": 5,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 105,
+          "rewardCivicHallXp": 86,
+          "defenseMasteryXp": 52
+        }
+      ],
+      "summary": "Strategic lane and wave defense that escalates into the existing Union battle engine for decisive breaches."
+    },
+    {
+      "id": "DEF_PROFILE_GOBLIN_FORTRESS_WAR",
+      "displayName": "Goblin Fortress War",
+      "classification": "FUTURE_LOCKED",
+      "requiredStoryGate": "STORY_GATE_KAEL_ABYSS_DEPARTURE_AND_SECOND_EVOLUTION",
+      "availableInOpening": false,
+      "futureLocked": true,
+      "difficulty": 10,
+      "laneIds": [
+        "DEF_LANE_WESTERN_RIDGE",
+        "DEF_LANE_MAIN_GATE",
+        "DEF_LANE_MARKET_ROAD",
+        "DEF_LANE_LOWER_WORKS",
+        "DEF_LANE_FIRST_GATE_APRON"
+      ],
+      "waves": [
+        {
+          "waveIndex": 1,
+          "displayName": "Wave 1: Probe",
+          "laneIds": [
+            "DEF_LANE_WESTERN_RIDGE",
+            "DEF_LANE_MAIN_GATE",
+            "DEF_LANE_MARKET_ROAD",
+            "DEF_LANE_LOWER_WORKS",
+            "DEF_LANE_FIRST_GATE_APRON"
+          ],
+          "enemyPower": 48,
+          "supportResolutionThreshold": 40,
+          "decisiveBattle": false,
+          "enemyUnionCount": 6,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 145,
+          "rewardCivicHallXp": 120,
+          "defenseMasteryXp": 72
+        },
+        {
+          "waveIndex": 2,
+          "displayName": "Wave 2: Pressure",
+          "laneIds": [
+            "DEF_LANE_WESTERN_RIDGE",
+            "DEF_LANE_MAIN_GATE",
+            "DEF_LANE_MARKET_ROAD",
+            "DEF_LANE_LOWER_WORKS",
+            "DEF_LANE_FIRST_GATE_APRON"
+          ],
+          "enemyPower": 62,
+          "supportResolutionThreshold": 43,
+          "decisiveBattle": true,
+          "enemyUnionCount": 7,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 155,
+          "rewardCivicHallXp": 128,
+          "defenseMasteryXp": 77
+        },
+        {
+          "waveIndex": 3,
+          "displayName": "Wave 3: Decisive Breach",
+          "laneIds": [
+            "DEF_LANE_WESTERN_RIDGE",
+            "DEF_LANE_MAIN_GATE",
+            "DEF_LANE_MARKET_ROAD",
+            "DEF_LANE_LOWER_WORKS",
+            "DEF_LANE_FIRST_GATE_APRON"
+          ],
+          "enemyPower": 76,
+          "supportResolutionThreshold": 46,
+          "decisiveBattle": true,
+          "enemyUnionCount": 8,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 165,
+          "rewardCivicHallXp": 136,
+          "defenseMasteryXp": 82
+        }
+      ],
+      "summary": "Strategic lane and wave defense that escalates into the existing Union battle engine for decisive breaches."
+    },
+    {
+      "id": "DEF_PROFILE_SKYHOME_THREE_FRONT_SIEGE",
+      "displayName": "Skyhome Three-Front Siege",
+      "classification": "FUTURE_LOCKED",
+      "requiredStoryGate": "STORY_GATE_GOBLIN_WAR_CAMPAIGN_COMPLETE",
+      "availableInOpening": false,
+      "futureLocked": true,
+      "difficulty": 10,
+      "laneIds": [
+        "DEF_LANE_WESTERN_RIDGE",
+        "DEF_LANE_MAIN_GATE",
+        "DEF_LANE_FIRST_GATE_APRON"
+      ],
+      "waves": [
+        {
+          "waveIndex": 1,
+          "displayName": "Wave 1: Probe",
+          "laneIds": [
+            "DEF_LANE_WESTERN_RIDGE",
+            "DEF_LANE_MAIN_GATE",
+            "DEF_LANE_FIRST_GATE_APRON"
+          ],
+          "enemyPower": 48,
+          "supportResolutionThreshold": 40,
+          "decisiveBattle": false,
+          "enemyUnionCount": 6,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 145,
+          "rewardCivicHallXp": 120,
+          "defenseMasteryXp": 72
+        },
+        {
+          "waveIndex": 2,
+          "displayName": "Wave 2: Pressure",
+          "laneIds": [
+            "DEF_LANE_WESTERN_RIDGE",
+            "DEF_LANE_MAIN_GATE",
+            "DEF_LANE_FIRST_GATE_APRON"
+          ],
+          "enemyPower": 62,
+          "supportResolutionThreshold": 43,
+          "decisiveBattle": true,
+          "enemyUnionCount": 7,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 155,
+          "rewardCivicHallXp": 128,
+          "defenseMasteryXp": 77
+        },
+        {
+          "waveIndex": 3,
+          "displayName": "Wave 3: Decisive Breach",
+          "laneIds": [
+            "DEF_LANE_WESTERN_RIDGE",
+            "DEF_LANE_MAIN_GATE",
+            "DEF_LANE_FIRST_GATE_APRON"
+          ],
+          "enemyPower": 76,
+          "supportResolutionThreshold": 46,
+          "decisiveBattle": true,
+          "enemyUnionCount": 8,
+          "objective": "Hold the city and preserve its people.",
+          "rewardGuildXp": 165,
+          "rewardCivicHallXp": 136,
+          "defenseMasteryXp": 82
+        }
+      ],
+      "summary": "Strategic lane and wave defense that escalates into the existing Union battle engine for decisive breaches."
+    }
+  ]
+}

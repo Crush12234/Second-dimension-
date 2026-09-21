@@ -1,0 +1,68 @@
+{
+  "contentVersion": "GOW_PASS08_0.13",
+  "orientation": "LANDSCAPE_ONLY_DURING_GAMEPLAY",
+  "referenceResolutions": [
+    {
+      "id": "IPHONE_REF_BASE",
+      "logicalResolution": [
+        2796,
+        1290
+      ],
+      "aspect": "~19.5:9",
+      "usage": "primary landscape reference"
+    },
+    {
+      "id": "IPHONE_REF_COMPACT",
+      "logicalResolution": [
+        2556,
+        1179
+      ],
+      "aspect": "~19.5:9",
+      "usage": "compact landscape validation"
+    },
+    {
+      "id": "TABLET_REF",
+      "logicalResolution": [
+        2732,
+        2048
+      ],
+      "aspect": "4:3",
+      "usage": "future tablet scaling"
+    }
+  ],
+  "safeAreaPolicy": {
+    "horizontalInsetMinPxAtBase": 96,
+    "verticalInsetMinPxAtBase": 42,
+    "dynamicIslandSideAware": true,
+    "criticalActionsNeverUnderCutout": true,
+    "screenshotSafeInsetPx": 120
+  },
+  "touch": {
+    "minimumTargetPt": 44,
+    "preferredPrimaryTargetPt": 52,
+    "dragAlternativesRequired": true,
+    "holdAlternativesRequired": true
+  },
+  "typography": {
+    "bodyMinPt": 16,
+    "bodyPreferredPt": 18,
+    "forecastPrimaryPt": 20,
+    "headingPt": 26,
+    "criticalNumbersPt": 22,
+    "scalingRange": [
+      0.85,
+      1.45
+    ]
+  },
+  "input": {
+    "touch": true,
+    "mouseKeyboardFallback": true,
+    "controllerFallback": true,
+    "oneHanded": "menus only; core landscape combat assumes two-handed"
+  },
+  "performance": {
+    "targetFps": 60,
+    "fallbackFps": 30,
+    "noGameplayDifferenceByFps": true
+  }
+}

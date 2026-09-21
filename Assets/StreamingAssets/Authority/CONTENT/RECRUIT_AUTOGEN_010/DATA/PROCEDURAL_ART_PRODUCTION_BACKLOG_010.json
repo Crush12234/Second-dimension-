@@ -1,0 +1,57 @@
+{
+  "contentVersion": "RECRUIT_AUTOGEN_010_1.0",
+  "purpose": "Turn the deterministic recipe system into genuinely premium composed portraits and moving 2.5D battle puppets.",
+  "pieceCountByLayer": {
+    "L01_BASE_RACE": 6,
+    "L02_BUILD": 24,
+    "L03_FACE": 48,
+    "L04_SKIN": 31,
+    "L05_EYES": 29,
+    "L06_BROWS": 24,
+    "L07_EARS_HORNS": 24,
+    "L08_HAIR_BACK": 33,
+    "L09_FACIAL_HAIR": 24,
+    "L10_MARKINGS": 36,
+    "L11_SCARS": 36,
+    "L12_OUTFIT": 10,
+    "L13_ARMOR": 24,
+    "L14_HAIR_FRONT": 33,
+    "L15_ACCESSORY": 10,
+    "L16_WEAPON": 12,
+    "L17_EXPRESSION": 8,
+    "L18_INJURY": 4,
+    "L19_TURNING_POINT": 8,
+    "L20_LEGEND": 8,
+    "L21_LIGHT": 4,
+    "L22_WORLD_FX": 8
+  },
+  "totalPieceContracts": 444,
+  "priorityBatches": [
+    {
+      "priority": "P0",
+      "scope": "Six opening peoples: required L01-L06, L08, L12, L14, L17, L21 plus all 12 weapon silhouettes.",
+      "releaseGate": "Required for generalized Applicant Board portraits."
+    },
+    {
+      "priority": "P0",
+      "scope": "Six race/build battle body rigs and weapon-prop sockets for the 12 weapon families.",
+      "releaseGate": "Required before generated recruits can appear as professional battle combatants."
+    },
+    {
+      "priority": "P1",
+      "scope": "Armor overlays, accessories, scars, markings, ears/horns, facial hair, offhands.",
+      "releaseGate": "Required for identity breadth and equipment readability."
+    },
+    {
+      "priority": "P1",
+      "scope": "Eight expressions, injury, Turning Point, and Emergent Legend overlays.",
+      "releaseGate": "Required for dialogue, progression, and long-term identity."
+    },
+    {
+      "priority": "P2",
+      "scope": "World FX, advanced lighting, bespoke Signature overrides beyond the opening roster.",
+      "releaseGate": "Scale after first-world certification."
+    }
+  ],
+  "professionalRule": "Do not claim geometric placeholders, palette-only clones, or missing-layer silhouettes as final character art."
+}

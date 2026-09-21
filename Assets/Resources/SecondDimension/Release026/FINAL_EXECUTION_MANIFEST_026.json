@@ -1,0 +1,29 @@
+{
+  "contentVersion": "FINAL_EXECUTION_READINESS_026_1.0",
+  "saveFormatVersion": 11,
+  "requiredUnityVersion": "6000.3.22f1",
+  "inheritedVersion": "FINAL_IMPLEMENTATION_HARDENING_025",
+  "expectedCoordinatorInterfaceCount": 9,
+  "expectedWorldGateBoards": 130,
+  "expectedWorldGateNodes": 1372,
+  "expectedCityBuildings": 30,
+  "expectedArtBindings": 240,
+  "alliedUnionCapacity": 10,
+  "enemyUnionCapacity": 10,
+  "expectedCompileRiskGates": 16,
+  "criticalRegistryFamilies": [
+    "FinalImplementation025",
+    "FinalIntegration024",
+    "Campaign019",
+    "Campaign020",
+    "Campaign021",
+    "Campaign022",
+    "Campaign023",
+    "GuildCity017D",
+    "GuildCity017H"
+  ],
+  "primaryGoal": "Compile, test, build, launch and prove one authoritative full-game path without adding another system.",
+  "runtimeGenerativeAi": false,
+  "individualArtSelection": false,
+  "duplicateBattleSystemsAllowed": false
+}

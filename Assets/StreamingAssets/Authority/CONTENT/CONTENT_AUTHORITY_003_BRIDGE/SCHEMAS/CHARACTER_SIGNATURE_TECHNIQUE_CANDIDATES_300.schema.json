@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Character Signature Technique Candidates",
+  "type": "object",
+  "required": [
+    "contentVersion",
+    "signatureTechniqueCandidates"
+  ],
+  "properties": {
+    "contentVersion": {
+      "type": "string"
+    },
+    "signatureTechniqueCandidates": {
+      "type": "array",
+      "minItems": 300,
+      "maxItems": 300
+    }
+  },
+  "additionalProperties": true
+}

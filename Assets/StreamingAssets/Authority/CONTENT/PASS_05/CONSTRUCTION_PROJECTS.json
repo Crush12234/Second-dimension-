@@ -1,0 +1,2680 @@
+{
+  "contentVersion": "GOW_PASS05_0.10",
+  "projects": [
+    {
+      "id": "PROJECT_FACILITY_RECRUITMENT_OFFICE_L1",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Recruitment Office: Recruitment Desk",
+      "facilityId": "FACILITY_RECRUITMENT_OFFICE",
+      "targetLevel": 1,
+      "minimumHallStage": 1,
+      "requiredFacilityLevel": 0,
+      "requiredGuildRankId": "GUILD_RANK_COPPER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 900,
+      "materialCosts": {
+        "MATERIAL_IRON": 8,
+        "MATERIAL_ASHWOOD": 6,
+        "MATERIAL_FIELD_CLOTH": 4
+      },
+      "baseBuildTimeDays": 1,
+      "visibleCompletion": [
+        "The recruitment area becomes Recruitment Desk, adding visible interview space, public rules, and applicant records."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_RECRUITMENT_OFFICE_L2",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Recruitment Office: Applicant Office",
+      "facilityId": "FACILITY_RECRUITMENT_OFFICE",
+      "targetLevel": 2,
+      "minimumHallStage": 2,
+      "requiredFacilityLevel": 1,
+      "requiredGuildRankId": "GUILD_RANK_IRON",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 2600,
+      "materialCosts": {
+        "MATERIAL_STEEL": 10,
+        "MATERIAL_FIELD_CLOTH": 8,
+        "MATERIAL_BLANK_RUNE": 2
+      },
+      "baseBuildTimeDays": 2,
+      "visibleCompletion": [
+        "The recruitment area becomes Applicant Office, adding visible interview space, public rules, and applicant records."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_RECRUITMENT_OFFICE_L3",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Recruitment Office: Scout Network",
+      "facilityId": "FACILITY_RECRUITMENT_OFFICE",
+      "targetLevel": 3,
+      "minimumHallStage": 3,
+      "requiredFacilityLevel": 2,
+      "requiredGuildRankId": "GUILD_RANK_SILVER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 6500,
+      "materialCosts": {
+        "MATERIAL_STEEL": 16,
+        "MATERIAL_GATE_BRONZE": 8,
+        "MATERIAL_STONE_CORE": 4
+      },
+      "baseBuildTimeDays": 3,
+      "visibleCompletion": [
+        "The recruitment area becomes Scout Network, adding visible interview space, public rules, and applicant records."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_RECRUITMENT_OFFICE_L4",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Recruitment Office: Gate Recruitment Hall",
+      "facilityId": "FACILITY_RECRUITMENT_OFFICE",
+      "targetLevel": 4,
+      "minimumHallStage": 4,
+      "requiredFacilityLevel": 3,
+      "requiredGuildRankId": "GUILD_RANK_GOLD",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 15000,
+      "materialCosts": {
+        "MATERIAL_GATE_BRONZE": 16,
+        "MATERIAL_GATE_GLASS": 8,
+        "MATERIAL_PYLON_CRYSTAL": 3
+      },
+      "baseBuildTimeDays": 5,
+      "visibleCompletion": [
+        "The recruitment area becomes Gate Recruitment Hall, adding visible interview space, public rules, and applicant records."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_RECRUITMENT_OFFICE_L5",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Recruitment Office: World Liaison Office",
+      "facilityId": "FACILITY_RECRUITMENT_OFFICE",
+      "targetLevel": 5,
+      "minimumHallStage": 5,
+      "requiredFacilityLevel": 4,
+      "requiredGuildRankId": "GUILD_RANK_GATEWARDEN",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 33000,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 10,
+        "MATERIAL_GATE_GLASS": 15,
+        "MATERIAL_MEMORY_WATER": 4
+      },
+      "baseBuildTimeDays": 8,
+      "visibleCompletion": [
+        "The recruitment area becomes World Liaison Office, adding visible interview space, public rules, and applicant records."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_RECRUITMENT_OFFICE_L6",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Recruitment Office: First Alliance Registry",
+      "facilityId": "FACILITY_RECRUITMENT_OFFICE",
+      "targetLevel": 6,
+      "minimumHallStage": 6,
+      "requiredFacilityLevel": 5,
+      "requiredGuildRankId": "GUILD_RANK_FIRST_ALLIANCE",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 70000,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 24,
+        "MATERIAL_PYLON_CRYSTAL": 10,
+        "MATERIAL_MEMORY_WATER": 10
+      },
+      "baseBuildTimeDays": 12,
+      "visibleCompletion": [
+        "The recruitment area becomes First Alliance Registry, adding visible interview space, public rules, and applicant records."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_DORMITORIES_L1",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Dormitories: Shared Quarters",
+      "facilityId": "FACILITY_DORMITORIES",
+      "targetLevel": 1,
+      "minimumHallStage": 1,
+      "requiredFacilityLevel": 0,
+      "requiredGuildRankId": "GUILD_RANK_COPPER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 1170,
+      "materialCosts": {
+        "MATERIAL_IRON": 10,
+        "MATERIAL_ASHWOOD": 7,
+        "MATERIAL_FIELD_CLOTH": 5
+      },
+      "baseBuildTimeDays": 1,
+      "visibleCompletion": [
+        "The sleeping wing becomes Shared Quarters, adding private storage, common spaces, and culturally adaptable rooms."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_DORMITORIES_L2",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Dormitories: Company Dormitory",
+      "facilityId": "FACILITY_DORMITORIES",
+      "targetLevel": 2,
+      "minimumHallStage": 2,
+      "requiredFacilityLevel": 1,
+      "requiredGuildRankId": "GUILD_RANK_IRON",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 3380,
+      "materialCosts": {
+        "MATERIAL_STEEL": 13,
+        "MATERIAL_FIELD_CLOTH": 10,
+        "MATERIAL_BLANK_RUNE": 2
+      },
+      "baseBuildTimeDays": 2,
+      "visibleCompletion": [
+        "The sleeping wing becomes Company Dormitory, adding private storage, common spaces, and culturally adaptable rooms."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_DORMITORIES_L3",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Dormitories: Winged Residence",
+      "facilityId": "FACILITY_DORMITORIES",
+      "targetLevel": 3,
+      "minimumHallStage": 3,
+      "requiredFacilityLevel": 2,
+      "requiredGuildRankId": "GUILD_RANK_SILVER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 8450,
+      "materialCosts": {
+        "MATERIAL_STEEL": 20,
+        "MATERIAL_GATE_BRONZE": 10,
+        "MATERIAL_STONE_CORE": 5
+      },
+      "baseBuildTimeDays": 3,
+      "visibleCompletion": [
+        "The sleeping wing becomes Winged Residence, adding private storage, common spaces, and culturally adaptable rooms."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_DORMITORIES_L4",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Dormitories: Gatehouse Barracks",
+      "facilityId": "FACILITY_DORMITORIES",
+      "targetLevel": 4,
+      "minimumHallStage": 4,
+      "requiredFacilityLevel": 3,
+      "requiredGuildRankId": "GUILD_RANK_GOLD",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 19500,
+      "materialCosts": {
+        "MATERIAL_GATE_BRONZE": 20,
+        "MATERIAL_GATE_GLASS": 10,
+        "MATERIAL_PYLON_CRYSTAL": 3
+      },
+      "baseBuildTimeDays": 5,
+      "visibleCompletion": [
+        "The sleeping wing becomes Gatehouse Barracks, adding private storage, common spaces, and culturally adaptable rooms."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_DORMITORIES_L5",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Dormitories: Worldhouse Residence",
+      "facilityId": "FACILITY_DORMITORIES",
+      "targetLevel": 5,
+      "minimumHallStage": 5,
+      "requiredFacilityLevel": 4,
+      "requiredGuildRankId": "GUILD_RANK_GATEWARDEN",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 42900,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 13,
+        "MATERIAL_GATE_GLASS": 19,
+        "MATERIAL_MEMORY_WATER": 5
+      },
+      "baseBuildTimeDays": 8,
+      "visibleCompletion": [
+        "The sleeping wing becomes Worldhouse Residence, adding private storage, common spaces, and culturally adaptable rooms."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_DORMITORIES_L6",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Dormitories: First Alliance Commons",
+      "facilityId": "FACILITY_DORMITORIES",
+      "targetLevel": 6,
+      "minimumHallStage": 6,
+      "requiredFacilityLevel": 5,
+      "requiredGuildRankId": "GUILD_RANK_FIRST_ALLIANCE",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 91000,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 31,
+        "MATERIAL_PYLON_CRYSTAL": 13,
+        "MATERIAL_MEMORY_WATER": 13
+      },
+      "baseBuildTimeDays": 12,
+      "visibleCompletion": [
+        "The sleeping wing becomes First Alliance Commons, adding private storage, common spaces, and culturally adaptable rooms."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_UNION_COMMAND_TABLE_L1",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Union Command Table: Charter Table",
+      "facilityId": "FACILITY_UNION_COMMAND_TABLE",
+      "targetLevel": 1,
+      "minimumHallStage": 1,
+      "requiredFacilityLevel": 0,
+      "requiredGuildRankId": "GUILD_RANK_COPPER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 1080,
+      "materialCosts": {
+        "MATERIAL_IRON": 9,
+        "MATERIAL_ASHWOOD": 7,
+        "MATERIAL_FIELD_CLOTH": 4
+      },
+      "baseBuildTimeDays": 1,
+      "visibleCompletion": [
+        "The command space becomes Charter Table, with larger formation markers and persistent Union records."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_UNION_COMMAND_TABLE_L2",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Union Command Table: Union Desk",
+      "facilityId": "FACILITY_UNION_COMMAND_TABLE",
+      "targetLevel": 2,
+      "minimumHallStage": 2,
+      "requiredFacilityLevel": 1,
+      "requiredGuildRankId": "GUILD_RANK_IRON",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 3120,
+      "materialCosts": {
+        "MATERIAL_STEEL": 12,
+        "MATERIAL_FIELD_CLOTH": 9,
+        "MATERIAL_BLANK_RUNE": 2
+      },
+      "baseBuildTimeDays": 2,
+      "visibleCompletion": [
+        "The command space becomes Union Desk, with larger formation markers and persistent Union records."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_UNION_COMMAND_TABLE_L3",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Union Command Table: War-Room Table",
+      "facilityId": "FACILITY_UNION_COMMAND_TABLE",
+      "targetLevel": 3,
+      "minimumHallStage": 3,
+      "requiredFacilityLevel": 2,
+      "requiredGuildRankId": "GUILD_RANK_SILVER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 7800,
+      "materialCosts": {
+        "MATERIAL_STEEL": 19,
+        "MATERIAL_GATE_BRONZE": 9,
+        "MATERIAL_STONE_CORE": 4
+      },
+      "baseBuildTimeDays": 3,
+      "visibleCompletion": [
+        "The command space becomes War-Room Table, with larger formation markers and persistent Union records."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_UNION_COMMAND_TABLE_L4",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Union Command Table: Gatefront Command",
+      "facilityId": "FACILITY_UNION_COMMAND_TABLE",
+      "targetLevel": 4,
+      "minimumHallStage": 4,
+      "requiredFacilityLevel": 3,
+      "requiredGuildRankId": "GUILD_RANK_GOLD",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 18000,
+      "materialCosts": {
+        "MATERIAL_GATE_BRONZE": 19,
+        "MATERIAL_GATE_GLASS": 9,
+        "MATERIAL_PYLON_CRYSTAL": 3
+      },
+      "baseBuildTimeDays": 5,
+      "visibleCompletion": [
+        "The command space becomes Gatefront Command, with larger formation markers and persistent Union records."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_UNION_COMMAND_TABLE_L5",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Union Command Table: Worldfront Command",
+      "facilityId": "FACILITY_UNION_COMMAND_TABLE",
+      "targetLevel": 5,
+      "minimumHallStage": 5,
+      "requiredFacilityLevel": 4,
+      "requiredGuildRankId": "GUILD_RANK_GATEWARDEN",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 39600,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 12,
+        "MATERIAL_GATE_GLASS": 18,
+        "MATERIAL_MEMORY_WATER": 4
+      },
+      "baseBuildTimeDays": 8,
+      "visibleCompletion": [
+        "The command space becomes Worldfront Command, with larger formation markers and persistent Union records."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_UNION_COMMAND_TABLE_L6",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Union Command Table: First Alliance Operations",
+      "facilityId": "FACILITY_UNION_COMMAND_TABLE",
+      "targetLevel": 6,
+      "minimumHallStage": 6,
+      "requiredFacilityLevel": 5,
+      "requiredGuildRankId": "GUILD_RANK_FIRST_ALLIANCE",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 84000,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 28,
+        "MATERIAL_PYLON_CRYSTAL": 12,
+        "MATERIAL_MEMORY_WATER": 12
+      },
+      "baseBuildTimeDays": 12,
+      "visibleCompletion": [
+        "The command space becomes First Alliance Operations, with larger formation markers and persistent Union records."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_TRAINING_HALL_L1",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Training Hall: Covered Practice Floor",
+      "facilityId": "FACILITY_TRAINING_HALL",
+      "targetLevel": 1,
+      "minimumHallStage": 1,
+      "requiredFacilityLevel": 0,
+      "requiredGuildRankId": "GUILD_RANK_COPPER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 1035,
+      "materialCosts": {
+        "MATERIAL_IRON": 9,
+        "MATERIAL_ASHWOOD": 6,
+        "MATERIAL_FIELD_CLOTH": 4
+      },
+      "baseBuildTimeDays": 1,
+      "visibleCompletion": [
+        "The practice area becomes Covered Practice Floor, adding safe drills, spectator benches, and mentor stations."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_TRAINING_HALL_L2",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Training Hall: Discipline Hall",
+      "facilityId": "FACILITY_TRAINING_HALL",
+      "targetLevel": 2,
+      "minimumHallStage": 2,
+      "requiredFacilityLevel": 1,
+      "requiredGuildRankId": "GUILD_RANK_IRON",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 2990,
+      "materialCosts": {
+        "MATERIAL_STEEL": 11,
+        "MATERIAL_FIELD_CLOTH": 9,
+        "MATERIAL_BLANK_RUNE": 2
+      },
+      "baseBuildTimeDays": 2,
+      "visibleCompletion": [
+        "The practice area becomes Discipline Hall, adding safe drills, spectator benches, and mentor stations."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_TRAINING_HALL_L3",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Training Hall: Mentor Galleries",
+      "facilityId": "FACILITY_TRAINING_HALL",
+      "targetLevel": 3,
+      "minimumHallStage": 3,
+      "requiredFacilityLevel": 2,
+      "requiredGuildRankId": "GUILD_RANK_SILVER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 7475,
+      "materialCosts": {
+        "MATERIAL_STEEL": 18,
+        "MATERIAL_GATE_BRONZE": 9,
+        "MATERIAL_STONE_CORE": 4
+      },
+      "baseBuildTimeDays": 3,
+      "visibleCompletion": [
+        "The practice area becomes Mentor Galleries, adding safe drills, spectator benches, and mentor stations."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_TRAINING_HALL_L4",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Training Hall: Gate Simulation Hall",
+      "facilityId": "FACILITY_TRAINING_HALL",
+      "targetLevel": 4,
+      "minimumHallStage": 4,
+      "requiredFacilityLevel": 3,
+      "requiredGuildRankId": "GUILD_RANK_GOLD",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 17250,
+      "materialCosts": {
+        "MATERIAL_GATE_BRONZE": 18,
+        "MATERIAL_GATE_GLASS": 9,
+        "MATERIAL_PYLON_CRYSTAL": 3
+      },
+      "baseBuildTimeDays": 5,
+      "visibleCompletion": [
+        "The practice area becomes Gate Simulation Hall, adding safe drills, spectator benches, and mentor stations."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_TRAINING_HALL_L5",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Training Hall: Interworld Academy",
+      "facilityId": "FACILITY_TRAINING_HALL",
+      "targetLevel": 5,
+      "minimumHallStage": 5,
+      "requiredFacilityLevel": 4,
+      "requiredGuildRankId": "GUILD_RANK_GATEWARDEN",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 37950,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 11,
+        "MATERIAL_GATE_GLASS": 17,
+        "MATERIAL_MEMORY_WATER": 4
+      },
+      "baseBuildTimeDays": 8,
+      "visibleCompletion": [
+        "The practice area becomes Interworld Academy, adding safe drills, spectator benches, and mentor stations."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_TRAINING_HALL_L6",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Training Hall: First Alliance College",
+      "facilityId": "FACILITY_TRAINING_HALL",
+      "targetLevel": 6,
+      "minimumHallStage": 6,
+      "requiredFacilityLevel": 5,
+      "requiredGuildRankId": "GUILD_RANK_FIRST_ALLIANCE",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 80500,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 27,
+        "MATERIAL_PYLON_CRYSTAL": 11,
+        "MATERIAL_MEMORY_WATER": 11
+      },
+      "baseBuildTimeDays": 12,
+      "visibleCompletion": [
+        "The practice area becomes First Alliance College, adding safe drills, spectator benches, and mentor stations."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_INFIRMARY_L1",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Infirmary: Aid Ward",
+      "facilityId": "FACILITY_INFIRMARY",
+      "targetLevel": 1,
+      "minimumHallStage": 1,
+      "requiredFacilityLevel": 0,
+      "requiredGuildRankId": "GUILD_RANK_COPPER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 1125,
+      "materialCosts": {
+        "MATERIAL_IRON": 10,
+        "MATERIAL_ASHWOOD": 7,
+        "MATERIAL_FIELD_CLOTH": 5
+      },
+      "baseBuildTimeDays": 1,
+      "visibleCompletion": [
+        "The medical area becomes Aid Ward, adding consent screens, treatment space, and family visitation."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_INFIRMARY_L2",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Infirmary: Licensed Infirmary",
+      "facilityId": "FACILITY_INFIRMARY",
+      "targetLevel": 2,
+      "minimumHallStage": 2,
+      "requiredFacilityLevel": 1,
+      "requiredGuildRankId": "GUILD_RANK_IRON",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 3250,
+      "materialCosts": {
+        "MATERIAL_STEEL": 12,
+        "MATERIAL_FIELD_CLOTH": 10,
+        "MATERIAL_BLANK_RUNE": 2
+      },
+      "baseBuildTimeDays": 2,
+      "visibleCompletion": [
+        "The medical area becomes Licensed Infirmary, adding consent screens, treatment space, and family visitation."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_INFIRMARY_L3",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Infirmary: Surgical Wing",
+      "facilityId": "FACILITY_INFIRMARY",
+      "targetLevel": 3,
+      "minimumHallStage": 3,
+      "requiredFacilityLevel": 2,
+      "requiredGuildRankId": "GUILD_RANK_SILVER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 8125,
+      "materialCosts": {
+        "MATERIAL_STEEL": 20,
+        "MATERIAL_GATE_BRONZE": 10,
+        "MATERIAL_STONE_CORE": 5
+      },
+      "baseBuildTimeDays": 3,
+      "visibleCompletion": [
+        "The medical area becomes Surgical Wing, adding consent screens, treatment space, and family visitation."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_INFIRMARY_L4",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Infirmary: Gate Trauma Center",
+      "facilityId": "FACILITY_INFIRMARY",
+      "targetLevel": 4,
+      "minimumHallStage": 4,
+      "requiredFacilityLevel": 3,
+      "requiredGuildRankId": "GUILD_RANK_GOLD",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 18750,
+      "materialCosts": {
+        "MATERIAL_GATE_BRONZE": 20,
+        "MATERIAL_GATE_GLASS": 10,
+        "MATERIAL_PYLON_CRYSTAL": 3
+      },
+      "baseBuildTimeDays": 5,
+      "visibleCompletion": [
+        "The medical area becomes Gate Trauma Center, adding consent screens, treatment space, and family visitation."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_INFIRMARY_L5",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Infirmary: World Recovery Institute",
+      "facilityId": "FACILITY_INFIRMARY",
+      "targetLevel": 5,
+      "minimumHallStage": 5,
+      "requiredFacilityLevel": 4,
+      "requiredGuildRankId": "GUILD_RANK_GATEWARDEN",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 41250,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 12,
+        "MATERIAL_GATE_GLASS": 18,
+        "MATERIAL_MEMORY_WATER": 5
+      },
+      "baseBuildTimeDays": 8,
+      "visibleCompletion": [
+        "The medical area becomes World Recovery Institute, adding consent screens, treatment space, and family visitation."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_INFIRMARY_L6",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Infirmary: First Alliance Hospital",
+      "facilityId": "FACILITY_INFIRMARY",
+      "targetLevel": 6,
+      "minimumHallStage": 6,
+      "requiredFacilityLevel": 5,
+      "requiredGuildRankId": "GUILD_RANK_FIRST_ALLIANCE",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 87500,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 30,
+        "MATERIAL_PYLON_CRYSTAL": 12,
+        "MATERIAL_MEMORY_WATER": 12
+      },
+      "baseBuildTimeDays": 12,
+      "visibleCompletion": [
+        "The medical area becomes First Alliance Hospital, adding consent screens, treatment space, and family visitation."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_GUILD_FORGE_L1",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Guild Forge: Repair Hearth",
+      "facilityId": "FACILITY_GUILD_FORGE",
+      "targetLevel": 1,
+      "minimumHallStage": 1,
+      "requiredFacilityLevel": 0,
+      "requiredGuildRankId": "GUILD_RANK_COPPER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 1260,
+      "materialCosts": {
+        "MATERIAL_IRON": 11,
+        "MATERIAL_ASHWOOD": 8,
+        "MATERIAL_FIELD_CLOTH": 5
+      },
+      "baseBuildTimeDays": 1,
+      "visibleCompletion": [
+        "The Forge becomes Repair Hearth, visibly expanding tools, ventilation, storage, and safety wards."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_GUILD_FORGE_L2",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Guild Forge: Contract Forge",
+      "facilityId": "FACILITY_GUILD_FORGE",
+      "targetLevel": 2,
+      "minimumHallStage": 2,
+      "requiredFacilityLevel": 1,
+      "requiredGuildRankId": "GUILD_RANK_IRON",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 3640,
+      "materialCosts": {
+        "MATERIAL_STEEL": 14,
+        "MATERIAL_FIELD_CLOTH": 11,
+        "MATERIAL_BLANK_RUNE": 2
+      },
+      "baseBuildTimeDays": 2,
+      "visibleCompletion": [
+        "The Forge becomes Contract Forge, visibly expanding tools, ventilation, storage, and safety wards."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_GUILD_FORGE_L3",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Guild Forge: Resonance Works",
+      "facilityId": "FACILITY_GUILD_FORGE",
+      "targetLevel": 3,
+      "minimumHallStage": 3,
+      "requiredFacilityLevel": 2,
+      "requiredGuildRankId": "GUILD_RANK_SILVER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 9100,
+      "materialCosts": {
+        "MATERIAL_STEEL": 22,
+        "MATERIAL_GATE_BRONZE": 11,
+        "MATERIAL_STONE_CORE": 5
+      },
+      "baseBuildTimeDays": 3,
+      "visibleCompletion": [
+        "The Forge becomes Resonance Works, visibly expanding tools, ventilation, storage, and safety wards."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_GUILD_FORGE_L4",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Guild Forge: Masterwork Hall",
+      "facilityId": "FACILITY_GUILD_FORGE",
+      "targetLevel": 4,
+      "minimumHallStage": 4,
+      "requiredFacilityLevel": 3,
+      "requiredGuildRankId": "GUILD_RANK_GOLD",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 21000,
+      "materialCosts": {
+        "MATERIAL_GATE_BRONZE": 22,
+        "MATERIAL_GATE_GLASS": 11,
+        "MATERIAL_PYLON_CRYSTAL": 4
+      },
+      "baseBuildTimeDays": 5,
+      "visibleCompletion": [
+        "The Forge becomes Masterwork Hall, visibly expanding tools, ventilation, storage, and safety wards."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_GUILD_FORGE_L5",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Guild Forge: Worldroad Forge",
+      "facilityId": "FACILITY_GUILD_FORGE",
+      "targetLevel": 5,
+      "minimumHallStage": 5,
+      "requiredFacilityLevel": 4,
+      "requiredGuildRankId": "GUILD_RANK_GATEWARDEN",
+      "requiredStoryFlags": [
+        "STORY_WORLDROAD_FORGE_KNOWLEDGE"
+      ],
+      "treasuryXpCost": 46200,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 14,
+        "MATERIAL_GATE_GLASS": 21,
+        "MATERIAL_MEMORY_WATER": 5
+      },
+      "baseBuildTimeDays": 8,
+      "visibleCompletion": [
+        "The Forge becomes Worldroad Forge, visibly expanding tools, ventilation, storage, and safety wards."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_ALCHEMY_WORKSHOP_L1",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Alchemy Workshop: Herb Bench",
+      "facilityId": "FACILITY_ALCHEMY_WORKSHOP",
+      "targetLevel": 1,
+      "minimumHallStage": 1,
+      "requiredFacilityLevel": 0,
+      "requiredGuildRankId": "GUILD_RANK_COPPER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 990,
+      "materialCosts": {
+        "MATERIAL_IRON": 8,
+        "MATERIAL_ASHWOOD": 6,
+        "MATERIAL_FIELD_CLOTH": 4
+      },
+      "baseBuildTimeDays": 1,
+      "visibleCompletion": [
+        "The workshop becomes Herb Bench, adding labeled ingredients, clean benches, and containment glass."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_ALCHEMY_WORKSHOP_L2",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Alchemy Workshop: Licensed Lab",
+      "facilityId": "FACILITY_ALCHEMY_WORKSHOP",
+      "targetLevel": 2,
+      "minimumHallStage": 2,
+      "requiredFacilityLevel": 1,
+      "requiredGuildRankId": "GUILD_RANK_IRON",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 2860,
+      "materialCosts": {
+        "MATERIAL_STEEL": 11,
+        "MATERIAL_FIELD_CLOTH": 8,
+        "MATERIAL_BLANK_RUNE": 2
+      },
+      "baseBuildTimeDays": 2,
+      "visibleCompletion": [
+        "The workshop becomes Licensed Lab, adding labeled ingredients, clean benches, and containment glass."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_ALCHEMY_WORKSHOP_L3",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Alchemy Workshop: Catalyst Room",
+      "facilityId": "FACILITY_ALCHEMY_WORKSHOP",
+      "targetLevel": 3,
+      "minimumHallStage": 3,
+      "requiredFacilityLevel": 2,
+      "requiredGuildRankId": "GUILD_RANK_SILVER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 7150,
+      "materialCosts": {
+        "MATERIAL_STEEL": 17,
+        "MATERIAL_GATE_BRONZE": 8,
+        "MATERIAL_STONE_CORE": 4
+      },
+      "baseBuildTimeDays": 3,
+      "visibleCompletion": [
+        "The workshop becomes Catalyst Room, adding labeled ingredients, clean benches, and containment glass."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_ALCHEMY_WORKSHOP_L4",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Alchemy Workshop: Gate Alchemy Lab",
+      "facilityId": "FACILITY_ALCHEMY_WORKSHOP",
+      "targetLevel": 4,
+      "minimumHallStage": 4,
+      "requiredFacilityLevel": 3,
+      "requiredGuildRankId": "GUILD_RANK_GOLD",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 16500,
+      "materialCosts": {
+        "MATERIAL_GATE_BRONZE": 17,
+        "MATERIAL_GATE_GLASS": 8,
+        "MATERIAL_PYLON_CRYSTAL": 3
+      },
+      "baseBuildTimeDays": 5,
+      "visibleCompletion": [
+        "The workshop becomes Gate Alchemy Lab, adding labeled ingredients, clean benches, and containment glass."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_ALCHEMY_WORKSHOP_L5",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Alchemy Workshop: World Apothecary",
+      "facilityId": "FACILITY_ALCHEMY_WORKSHOP",
+      "targetLevel": 5,
+      "minimumHallStage": 5,
+      "requiredFacilityLevel": 4,
+      "requiredGuildRankId": "GUILD_RANK_GATEWARDEN",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 36300,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 11,
+        "MATERIAL_GATE_GLASS": 16,
+        "MATERIAL_MEMORY_WATER": 4
+      },
+      "baseBuildTimeDays": 8,
+      "visibleCompletion": [
+        "The workshop becomes World Apothecary, adding labeled ingredients, clean benches, and containment glass."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_ALCHEMY_WORKSHOP_L6",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Alchemy Workshop: First Alliance Conservatory",
+      "facilityId": "FACILITY_ALCHEMY_WORKSHOP",
+      "targetLevel": 6,
+      "minimumHallStage": 6,
+      "requiredFacilityLevel": 5,
+      "requiredGuildRankId": "GUILD_RANK_FIRST_ALLIANCE",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 77000,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 26,
+        "MATERIAL_PYLON_CRYSTAL": 11,
+        "MATERIAL_MEMORY_WATER": 11
+      },
+      "baseBuildTimeDays": 12,
+      "visibleCompletion": [
+        "The workshop becomes First Alliance Conservatory, adding labeled ingredients, clean benches, and containment glass."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_TAVERN_L1",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Tavern and Commons: Adventurer Taproom",
+      "facilityId": "FACILITY_TAVERN",
+      "targetLevel": 1,
+      "minimumHallStage": 1,
+      "requiredFacilityLevel": 0,
+      "requiredGuildRankId": "GUILD_RANK_COPPER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 720,
+      "materialCosts": {
+        "MATERIAL_IRON": 6,
+        "MATERIAL_ASHWOOD": 4,
+        "MATERIAL_FIELD_CLOTH": 3
+      },
+      "baseBuildTimeDays": 1,
+      "visibleCompletion": [
+        "The commons becomes Adventurer Taproom, adding tables, kitchens, performance space, and notice walls."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_TAVERN_L2",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Tavern and Commons: Contract Tavern",
+      "facilityId": "FACILITY_TAVERN",
+      "targetLevel": 2,
+      "minimumHallStage": 2,
+      "requiredFacilityLevel": 1,
+      "requiredGuildRankId": "GUILD_RANK_IRON",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 2080,
+      "materialCosts": {
+        "MATERIAL_STEEL": 8,
+        "MATERIAL_FIELD_CLOTH": 6,
+        "MATERIAL_BLANK_RUNE": 1
+      },
+      "baseBuildTimeDays": 2,
+      "visibleCompletion": [
+        "The commons becomes Contract Tavern, adding tables, kitchens, performance space, and notice walls."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_TAVERN_L3",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Tavern and Commons: Guild Commons",
+      "facilityId": "FACILITY_TAVERN",
+      "targetLevel": 3,
+      "minimumHallStage": 3,
+      "requiredFacilityLevel": 2,
+      "requiredGuildRankId": "GUILD_RANK_SILVER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 5200,
+      "materialCosts": {
+        "MATERIAL_STEEL": 12,
+        "MATERIAL_GATE_BRONZE": 6,
+        "MATERIAL_STONE_CORE": 3
+      },
+      "baseBuildTimeDays": 3,
+      "visibleCompletion": [
+        "The commons becomes Guild Commons, adding tables, kitchens, performance space, and notice walls."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_TAVERN_L4",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Tavern and Commons: Gatehouse Feast Hall",
+      "facilityId": "FACILITY_TAVERN",
+      "targetLevel": 4,
+      "minimumHallStage": 4,
+      "requiredFacilityLevel": 3,
+      "requiredGuildRankId": "GUILD_RANK_GOLD",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 12000,
+      "materialCosts": {
+        "MATERIAL_GATE_BRONZE": 12,
+        "MATERIAL_GATE_GLASS": 6,
+        "MATERIAL_PYLON_CRYSTAL": 2
+      },
+      "baseBuildTimeDays": 5,
+      "visibleCompletion": [
+        "The commons becomes Gatehouse Feast Hall, adding tables, kitchens, performance space, and notice walls."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_TAVERN_L5",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Tavern and Commons: Worlds' Table",
+      "facilityId": "FACILITY_TAVERN",
+      "targetLevel": 5,
+      "minimumHallStage": 5,
+      "requiredFacilityLevel": 4,
+      "requiredGuildRankId": "GUILD_RANK_GATEWARDEN",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 26400,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 8,
+        "MATERIAL_GATE_GLASS": 12,
+        "MATERIAL_MEMORY_WATER": 3
+      },
+      "baseBuildTimeDays": 8,
+      "visibleCompletion": [
+        "The commons becomes Worlds' Table, adding tables, kitchens, performance space, and notice walls."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_TAVERN_L6",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Tavern and Commons: First Alliance Hearth",
+      "facilityId": "FACILITY_TAVERN",
+      "targetLevel": 6,
+      "minimumHallStage": 6,
+      "requiredFacilityLevel": 5,
+      "requiredGuildRankId": "GUILD_RANK_FIRST_ALLIANCE",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 56000,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 19,
+        "MATERIAL_PYLON_CRYSTAL": 8,
+        "MATERIAL_MEMORY_WATER": 8
+      },
+      "baseBuildTimeDays": 12,
+      "visibleCompletion": [
+        "The commons becomes First Alliance Hearth, adding tables, kitchens, performance space, and notice walls."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_LIBRARY_L1",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Library: Contract Archive",
+      "facilityId": "FACILITY_LIBRARY",
+      "targetLevel": 1,
+      "minimumHallStage": 1,
+      "requiredFacilityLevel": 0,
+      "requiredGuildRankId": "GUILD_RANK_COPPER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 855,
+      "materialCosts": {
+        "MATERIAL_IRON": 7,
+        "MATERIAL_ASHWOOD": 5,
+        "MATERIAL_FIELD_CLOTH": 3
+      },
+      "baseBuildTimeDays": 1,
+      "visibleCompletion": [
+        "The archive becomes Contract Archive, adding protected shelves, study desks, and translation stations."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_LIBRARY_L2",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Library: Art Library",
+      "facilityId": "FACILITY_LIBRARY",
+      "targetLevel": 2,
+      "minimumHallStage": 2,
+      "requiredFacilityLevel": 1,
+      "requiredGuildRankId": "GUILD_RANK_IRON",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 2470,
+      "materialCosts": {
+        "MATERIAL_STEEL": 9,
+        "MATERIAL_FIELD_CLOTH": 7,
+        "MATERIAL_BLANK_RUNE": 1
+      },
+      "baseBuildTimeDays": 2,
+      "visibleCompletion": [
+        "The archive becomes Art Library, adding protected shelves, study desks, and translation stations."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_LIBRARY_L3",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Library: World Record Wing",
+      "facilityId": "FACILITY_LIBRARY",
+      "targetLevel": 3,
+      "minimumHallStage": 3,
+      "requiredFacilityLevel": 2,
+      "requiredGuildRankId": "GUILD_RANK_SILVER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 6175,
+      "materialCosts": {
+        "MATERIAL_STEEL": 15,
+        "MATERIAL_GATE_BRONZE": 7,
+        "MATERIAL_STONE_CORE": 3
+      },
+      "baseBuildTimeDays": 3,
+      "visibleCompletion": [
+        "The archive becomes World Record Wing, adding protected shelves, study desks, and translation stations."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_LIBRARY_L4",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Library: Gate Codex Hall",
+      "facilityId": "FACILITY_LIBRARY",
+      "targetLevel": 4,
+      "minimumHallStage": 4,
+      "requiredFacilityLevel": 3,
+      "requiredGuildRankId": "GUILD_RANK_GOLD",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 14250,
+      "materialCosts": {
+        "MATERIAL_GATE_BRONZE": 15,
+        "MATERIAL_GATE_GLASS": 7,
+        "MATERIAL_PYLON_CRYSTAL": 2
+      },
+      "baseBuildTimeDays": 5,
+      "visibleCompletion": [
+        "The archive becomes Gate Codex Hall, adding protected shelves, study desks, and translation stations."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_LIBRARY_L5",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Library: Interworld Library",
+      "facilityId": "FACILITY_LIBRARY",
+      "targetLevel": 5,
+      "minimumHallStage": 5,
+      "requiredFacilityLevel": 4,
+      "requiredGuildRankId": "GUILD_RANK_GATEWARDEN",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 31350,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 9,
+        "MATERIAL_GATE_GLASS": 14,
+        "MATERIAL_MEMORY_WATER": 3
+      },
+      "baseBuildTimeDays": 8,
+      "visibleCompletion": [
+        "The archive becomes Interworld Library, adding protected shelves, study desks, and translation stations."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_LIBRARY_L6",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Library: First Memory Reading Room",
+      "facilityId": "FACILITY_LIBRARY",
+      "targetLevel": 6,
+      "minimumHallStage": 6,
+      "requiredFacilityLevel": 5,
+      "requiredGuildRankId": "GUILD_RANK_FIRST_ALLIANCE",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 66500,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 22,
+        "MATERIAL_PYLON_CRYSTAL": 9,
+        "MATERIAL_MEMORY_WATER": 9
+      },
+      "baseBuildTimeDays": 12,
+      "visibleCompletion": [
+        "The archive becomes First Memory Reading Room, adding protected shelves, study desks, and translation stations."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_STRATEGY_ROOM_L1",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Strategy Room: Planning Nook",
+      "facilityId": "FACILITY_STRATEGY_ROOM",
+      "targetLevel": 1,
+      "minimumHallStage": 1,
+      "requiredFacilityLevel": 0,
+      "requiredGuildRankId": "GUILD_RANK_COPPER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 1170,
+      "materialCosts": {
+        "MATERIAL_IRON": 10,
+        "MATERIAL_ASHWOOD": 7,
+        "MATERIAL_FIELD_CLOTH": 5
+      },
+      "baseBuildTimeDays": 1,
+      "visibleCompletion": [
+        "The planning room becomes Planning Nook, adding linked-front displays and consequence tracking."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_STRATEGY_ROOM_L2",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Strategy Room: Strategy Chamber",
+      "facilityId": "FACILITY_STRATEGY_ROOM",
+      "targetLevel": 2,
+      "minimumHallStage": 2,
+      "requiredFacilityLevel": 1,
+      "requiredGuildRankId": "GUILD_RANK_IRON",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 3380,
+      "materialCosts": {
+        "MATERIAL_STEEL": 13,
+        "MATERIAL_FIELD_CLOTH": 10,
+        "MATERIAL_BLANK_RUNE": 2
+      },
+      "baseBuildTimeDays": 2,
+      "visibleCompletion": [
+        "The planning room becomes Strategy Chamber, adding linked-front displays and consequence tracking."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_STRATEGY_ROOM_L3",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Strategy Room: Multi-Union Theater",
+      "facilityId": "FACILITY_STRATEGY_ROOM",
+      "targetLevel": 3,
+      "minimumHallStage": 3,
+      "requiredFacilityLevel": 2,
+      "requiredGuildRankId": "GUILD_RANK_SILVER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 8450,
+      "materialCosts": {
+        "MATERIAL_STEEL": 20,
+        "MATERIAL_GATE_BRONZE": 10,
+        "MATERIAL_STONE_CORE": 5
+      },
+      "baseBuildTimeDays": 3,
+      "visibleCompletion": [
+        "The planning room becomes Multi-Union Theater, adding linked-front displays and consequence tracking."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_STRATEGY_ROOM_L4",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Strategy Room: Gatefront Operations",
+      "facilityId": "FACILITY_STRATEGY_ROOM",
+      "targetLevel": 4,
+      "minimumHallStage": 4,
+      "requiredFacilityLevel": 3,
+      "requiredGuildRankId": "GUILD_RANK_GOLD",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 19500,
+      "materialCosts": {
+        "MATERIAL_GATE_BRONZE": 20,
+        "MATERIAL_GATE_GLASS": 10,
+        "MATERIAL_PYLON_CRYSTAL": 3
+      },
+      "baseBuildTimeDays": 5,
+      "visibleCompletion": [
+        "The planning room becomes Gatefront Operations, adding linked-front displays and consequence tracking."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_STRATEGY_ROOM_L5",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Strategy Room: Linked-Front Nexus",
+      "facilityId": "FACILITY_STRATEGY_ROOM",
+      "targetLevel": 5,
+      "minimumHallStage": 5,
+      "requiredFacilityLevel": 4,
+      "requiredGuildRankId": "GUILD_RANK_GATEWARDEN",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 42900,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 13,
+        "MATERIAL_GATE_GLASS": 19,
+        "MATERIAL_MEMORY_WATER": 5
+      },
+      "baseBuildTimeDays": 8,
+      "visibleCompletion": [
+        "The planning room becomes Linked-Front Nexus, adding linked-front displays and consequence tracking."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_STRATEGY_ROOM_L6",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Strategy Room: First Alliance Command Gallery",
+      "facilityId": "FACILITY_STRATEGY_ROOM",
+      "targetLevel": 6,
+      "minimumHallStage": 6,
+      "requiredFacilityLevel": 5,
+      "requiredGuildRankId": "GUILD_RANK_FIRST_ALLIANCE",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 91000,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 31,
+        "MATERIAL_PYLON_CRYSTAL": 13,
+        "MATERIAL_MEMORY_WATER": 13
+      },
+      "baseBuildTimeDays": 12,
+      "visibleCompletion": [
+        "The planning room becomes First Alliance Command Gallery, adding linked-front displays and consequence tracking."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_SYSTEM_ARCHIVE_L1",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade System Archive: Reader Console",
+      "facilityId": "FACILITY_SYSTEM_ARCHIVE",
+      "targetLevel": 1,
+      "minimumHallStage": 1,
+      "requiredFacilityLevel": 0,
+      "requiredGuildRankId": "GUILD_RANK_COPPER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 945,
+      "materialCosts": {
+        "MATERIAL_IRON": 8,
+        "MATERIAL_ASHWOOD": 6,
+        "MATERIAL_FIELD_CLOTH": 4
+      },
+      "baseBuildTimeDays": 1,
+      "visibleCompletion": [
+        "The System area becomes Reader Console, adding public terminals and private entitlement safeguards."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_SYSTEM_ARCHIVE_L2",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade System Archive: Chronicle Index",
+      "facilityId": "FACILITY_SYSTEM_ARCHIVE",
+      "targetLevel": 2,
+      "minimumHallStage": 2,
+      "requiredFacilityLevel": 1,
+      "requiredGuildRankId": "GUILD_RANK_IRON",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 2730,
+      "materialCosts": {
+        "MATERIAL_STEEL": 10,
+        "MATERIAL_FIELD_CLOTH": 8,
+        "MATERIAL_BLANK_RUNE": 2
+      },
+      "baseBuildTimeDays": 2,
+      "visibleCompletion": [
+        "The System area becomes Chronicle Index, adding public terminals and private entitlement safeguards."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_SYSTEM_ARCHIVE_L3",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade System Archive: Secure Entitlement Vault",
+      "facilityId": "FACILITY_SYSTEM_ARCHIVE",
+      "targetLevel": 3,
+      "minimumHallStage": 3,
+      "requiredFacilityLevel": 2,
+      "requiredGuildRankId": "GUILD_RANK_SILVER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 6825,
+      "materialCosts": {
+        "MATERIAL_STEEL": 16,
+        "MATERIAL_GATE_BRONZE": 8,
+        "MATERIAL_STONE_CORE": 4
+      },
+      "baseBuildTimeDays": 3,
+      "visibleCompletion": [
+        "The System area becomes Secure Entitlement Vault, adding public terminals and private entitlement safeguards."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_SYSTEM_ARCHIVE_L4",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade System Archive: Gate Archive",
+      "facilityId": "FACILITY_SYSTEM_ARCHIVE",
+      "targetLevel": 4,
+      "minimumHallStage": 4,
+      "requiredFacilityLevel": 3,
+      "requiredGuildRankId": "GUILD_RANK_GOLD",
+      "requiredStoryFlags": [
+        "STORY_GATE_ARCHIVE_RECOVERED"
+      ],
+      "treasuryXpCost": 15750,
+      "materialCosts": {
+        "MATERIAL_GATE_BRONZE": 16,
+        "MATERIAL_GATE_GLASS": 8,
+        "MATERIAL_PYLON_CRYSTAL": 3
+      },
+      "baseBuildTimeDays": 5,
+      "visibleCompletion": [
+        "The System area becomes Gate Archive, adding public terminals and private entitlement safeguards."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_SYSTEM_ARCHIVE_L5",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade System Archive: World Chronicle Network",
+      "facilityId": "FACILITY_SYSTEM_ARCHIVE",
+      "targetLevel": 5,
+      "minimumHallStage": 5,
+      "requiredFacilityLevel": 4,
+      "requiredGuildRankId": "GUILD_RANK_GATEWARDEN",
+      "requiredStoryFlags": [
+        "STORY_GATE_ARCHIVE_RECOVERED"
+      ],
+      "treasuryXpCost": 34650,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 10,
+        "MATERIAL_GATE_GLASS": 15,
+        "MATERIAL_MEMORY_WATER": 4
+      },
+      "baseBuildTimeDays": 8,
+      "visibleCompletion": [
+        "The System area becomes World Chronicle Network, adding public terminals and private entitlement safeguards."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_SYSTEM_ARCHIVE_L6",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade System Archive: First Alliance Archive",
+      "facilityId": "FACILITY_SYSTEM_ARCHIVE",
+      "targetLevel": 6,
+      "minimumHallStage": 6,
+      "requiredFacilityLevel": 5,
+      "requiredGuildRankId": "GUILD_RANK_FIRST_ALLIANCE",
+      "requiredStoryFlags": [
+        "STORY_GATE_ARCHIVE_RECOVERED"
+      ],
+      "treasuryXpCost": 73500,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 25,
+        "MATERIAL_PYLON_CRYSTAL": 10,
+        "MATERIAL_MEMORY_WATER": 10
+      },
+      "baseBuildTimeDays": 12,
+      "visibleCompletion": [
+        "The System area becomes First Alliance Archive, adding public terminals and private entitlement safeguards."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_EMBASSY_HALL_L1",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Embassy Hall: Petition Room",
+      "facilityId": "FACILITY_EMBASSY_HALL",
+      "targetLevel": 1,
+      "minimumHallStage": 1,
+      "requiredFacilityLevel": 0,
+      "requiredGuildRankId": "GUILD_RANK_COPPER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 1080,
+      "materialCosts": {
+        "MATERIAL_IRON": 9,
+        "MATERIAL_ASHWOOD": 7,
+        "MATERIAL_FIELD_CLOTH": 4
+      },
+      "baseBuildTimeDays": 1,
+      "visibleCompletion": [
+        "The liaison area becomes Petition Room, adding equal seating, interpreters, and cultural protocol spaces."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_EMBASSY_HALL_L2",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Embassy Hall: Cultural Liaison Hall",
+      "facilityId": "FACILITY_EMBASSY_HALL",
+      "targetLevel": 2,
+      "minimumHallStage": 2,
+      "requiredFacilityLevel": 1,
+      "requiredGuildRankId": "GUILD_RANK_IRON",
+      "requiredStoryFlags": [
+        "STORY_FIRST_ALLIANCE_PETITION"
+      ],
+      "treasuryXpCost": 3120,
+      "materialCosts": {
+        "MATERIAL_STEEL": 12,
+        "MATERIAL_FIELD_CLOTH": 9,
+        "MATERIAL_BLANK_RUNE": 2
+      },
+      "baseBuildTimeDays": 2,
+      "visibleCompletion": [
+        "The liaison area becomes Cultural Liaison Hall, adding equal seating, interpreters, and cultural protocol spaces."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_EMBASSY_HALL_L3",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Embassy Hall: Charter Gallery",
+      "facilityId": "FACILITY_EMBASSY_HALL",
+      "targetLevel": 3,
+      "minimumHallStage": 3,
+      "requiredFacilityLevel": 2,
+      "requiredGuildRankId": "GUILD_RANK_SILVER",
+      "requiredStoryFlags": [
+        "STORY_FIRST_ALLIANCE_PETITION"
+      ],
+      "treasuryXpCost": 7800,
+      "materialCosts": {
+        "MATERIAL_STEEL": 19,
+        "MATERIAL_GATE_BRONZE": 9,
+        "MATERIAL_STONE_CORE": 4
+      },
+      "baseBuildTimeDays": 3,
+      "visibleCompletion": [
+        "The liaison area becomes Charter Gallery, adding equal seating, interpreters, and cultural protocol spaces."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_EMBASSY_HALL_L4",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Embassy Hall: Gate Embassy",
+      "facilityId": "FACILITY_EMBASSY_HALL",
+      "targetLevel": 4,
+      "minimumHallStage": 4,
+      "requiredFacilityLevel": 3,
+      "requiredGuildRankId": "GUILD_RANK_GOLD",
+      "requiredStoryFlags": [
+        "STORY_FIRST_ALLIANCE_PETITION"
+      ],
+      "treasuryXpCost": 18000,
+      "materialCosts": {
+        "MATERIAL_GATE_BRONZE": 19,
+        "MATERIAL_GATE_GLASS": 9,
+        "MATERIAL_PYLON_CRYSTAL": 3
+      },
+      "baseBuildTimeDays": 5,
+      "visibleCompletion": [
+        "The liaison area becomes Gate Embassy, adding equal seating, interpreters, and cultural protocol spaces."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_EMBASSY_HALL_L5",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Embassy Hall: World Embassy Hall",
+      "facilityId": "FACILITY_EMBASSY_HALL",
+      "targetLevel": 5,
+      "minimumHallStage": 5,
+      "requiredFacilityLevel": 4,
+      "requiredGuildRankId": "GUILD_RANK_GATEWARDEN",
+      "requiredStoryFlags": [
+        "STORY_FIRST_ALLIANCE_PETITION"
+      ],
+      "treasuryXpCost": 39600,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 12,
+        "MATERIAL_GATE_GLASS": 18,
+        "MATERIAL_MEMORY_WATER": 4
+      },
+      "baseBuildTimeDays": 8,
+      "visibleCompletion": [
+        "The liaison area becomes World Embassy Hall, adding equal seating, interpreters, and cultural protocol spaces."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_EMBASSY_HALL_L6",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Embassy Hall: First Alliance Forum",
+      "facilityId": "FACILITY_EMBASSY_HALL",
+      "targetLevel": 6,
+      "minimumHallStage": 6,
+      "requiredFacilityLevel": 5,
+      "requiredGuildRankId": "GUILD_RANK_FIRST_ALLIANCE",
+      "requiredStoryFlags": [
+        "STORY_FIRST_ALLIANCE_PETITION"
+      ],
+      "treasuryXpCost": 84000,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 28,
+        "MATERIAL_PYLON_CRYSTAL": 12,
+        "MATERIAL_MEMORY_WATER": 12
+      },
+      "baseBuildTimeDays": 12,
+      "visibleCompletion": [
+        "The liaison area becomes First Alliance Forum, adding equal seating, interpreters, and cultural protocol spaces."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_GATE_OPERATIONS_L1",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Gate Operations: Route Desk",
+      "facilityId": "FACILITY_GATE_OPERATIONS",
+      "targetLevel": 1,
+      "minimumHallStage": 1,
+      "requiredFacilityLevel": 0,
+      "requiredGuildRankId": "GUILD_RANK_COPPER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 1260,
+      "materialCosts": {
+        "MATERIAL_IRON": 11,
+        "MATERIAL_ASHWOOD": 8,
+        "MATERIAL_FIELD_CLOTH": 5
+      },
+      "baseBuildTimeDays": 1,
+      "visibleCompletion": [
+        "The route office becomes Route Desk, adding departure boards, rescue signals, and traffic controls."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_GATE_OPERATIONS_L2",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Gate Operations: Licensed Gate Office",
+      "facilityId": "FACILITY_GATE_OPERATIONS",
+      "targetLevel": 2,
+      "minimumHallStage": 2,
+      "requiredFacilityLevel": 1,
+      "requiredGuildRankId": "GUILD_RANK_IRON",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 3640,
+      "materialCosts": {
+        "MATERIAL_STEEL": 14,
+        "MATERIAL_FIELD_CLOTH": 11,
+        "MATERIAL_BLANK_RUNE": 2
+      },
+      "baseBuildTimeDays": 2,
+      "visibleCompletion": [
+        "The route office becomes Licensed Gate Office, adding departure boards, rescue signals, and traffic controls."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_GATE_OPERATIONS_L3",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Gate Operations: Expedition Control",
+      "facilityId": "FACILITY_GATE_OPERATIONS",
+      "targetLevel": 3,
+      "minimumHallStage": 3,
+      "requiredFacilityLevel": 2,
+      "requiredGuildRankId": "GUILD_RANK_SILVER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 9100,
+      "materialCosts": {
+        "MATERIAL_STEEL": 22,
+        "MATERIAL_GATE_BRONZE": 11,
+        "MATERIAL_STONE_CORE": 5
+      },
+      "baseBuildTimeDays": 3,
+      "visibleCompletion": [
+        "The route office becomes Expedition Control, adding departure boards, rescue signals, and traffic controls."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_GATE_OPERATIONS_L4",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Gate Operations: Gate Traffic Hall",
+      "facilityId": "FACILITY_GATE_OPERATIONS",
+      "targetLevel": 4,
+      "minimumHallStage": 4,
+      "requiredFacilityLevel": 3,
+      "requiredGuildRankId": "GUILD_RANK_GOLD",
+      "requiredStoryFlags": [
+        "STORY_GATE_GUILD_AUTHORIZED"
+      ],
+      "treasuryXpCost": 21000,
+      "materialCosts": {
+        "MATERIAL_GATE_BRONZE": 22,
+        "MATERIAL_GATE_GLASS": 11,
+        "MATERIAL_PYLON_CRYSTAL": 4
+      },
+      "baseBuildTimeDays": 5,
+      "visibleCompletion": [
+        "The route office becomes Gate Traffic Hall, adding departure boards, rescue signals, and traffic controls."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_GATE_OPERATIONS_L5",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Gate Operations: Worldroad Authority",
+      "facilityId": "FACILITY_GATE_OPERATIONS",
+      "targetLevel": 5,
+      "minimumHallStage": 5,
+      "requiredFacilityLevel": 4,
+      "requiredGuildRankId": "GUILD_RANK_GATEWARDEN",
+      "requiredStoryFlags": [
+        "STORY_GATE_GUILD_AUTHORIZED"
+      ],
+      "treasuryXpCost": 46200,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 14,
+        "MATERIAL_GATE_GLASS": 21,
+        "MATERIAL_MEMORY_WATER": 5
+      },
+      "baseBuildTimeDays": 8,
+      "visibleCompletion": [
+        "The route office becomes Worldroad Authority, adding departure boards, rescue signals, and traffic controls."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_GATE_OPERATIONS_L6",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Gate Operations: First Alliance Transit Nexus",
+      "facilityId": "FACILITY_GATE_OPERATIONS",
+      "targetLevel": 6,
+      "minimumHallStage": 6,
+      "requiredFacilityLevel": 5,
+      "requiredGuildRankId": "GUILD_RANK_FIRST_ALLIANCE",
+      "requiredStoryFlags": [
+        "STORY_GATE_GUILD_AUTHORIZED"
+      ],
+      "treasuryXpCost": 98000,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 33,
+        "MATERIAL_PYLON_CRYSTAL": 14,
+        "MATERIAL_MEMORY_WATER": 14
+      },
+      "baseBuildTimeDays": 12,
+      "visibleCompletion": [
+        "The route office becomes First Alliance Transit Nexus, adding departure boards, rescue signals, and traffic controls."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_ABYSS_LICENSING_DESK_L1",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Abyss Licensing Desk: Copper Registry",
+      "facilityId": "FACILITY_ABYSS_LICENSING_DESK",
+      "targetLevel": 1,
+      "minimumHallStage": 1,
+      "requiredFacilityLevel": 0,
+      "requiredGuildRankId": "GUILD_RANK_COPPER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 900,
+      "materialCosts": {
+        "MATERIAL_IRON": 8,
+        "MATERIAL_ASHWOOD": 6,
+        "MATERIAL_FIELD_CLOTH": 4
+      },
+      "baseBuildTimeDays": 1,
+      "visibleCompletion": [
+        "The licensing area becomes Copper Registry, adding transparent audits, team records, and safety notices."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_ABYSS_LICENSING_DESK_L2",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Abyss Licensing Desk: Iron Registry",
+      "facilityId": "FACILITY_ABYSS_LICENSING_DESK",
+      "targetLevel": 2,
+      "minimumHallStage": 2,
+      "requiredFacilityLevel": 1,
+      "requiredGuildRankId": "GUILD_RANK_IRON",
+      "requiredStoryFlags": [
+        "STORY_ABYSS_LICENSE_TIER_2_AUTHORIZED"
+      ],
+      "treasuryXpCost": 2600,
+      "materialCosts": {
+        "MATERIAL_STEEL": 10,
+        "MATERIAL_FIELD_CLOTH": 8,
+        "MATERIAL_BLANK_RUNE": 2
+      },
+      "baseBuildTimeDays": 2,
+      "visibleCompletion": [
+        "The licensing area becomes Iron Registry, adding transparent audits, team records, and safety notices."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_ABYSS_LICENSING_DESK_L3",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Abyss Licensing Desk: Silver Audit Office",
+      "facilityId": "FACILITY_ABYSS_LICENSING_DESK",
+      "targetLevel": 3,
+      "minimumHallStage": 3,
+      "requiredFacilityLevel": 2,
+      "requiredGuildRankId": "GUILD_RANK_SILVER",
+      "requiredStoryFlags": [
+        "STORY_ABYSS_LICENSE_TIER_3_AUTHORIZED"
+      ],
+      "treasuryXpCost": 6500,
+      "materialCosts": {
+        "MATERIAL_STEEL": 16,
+        "MATERIAL_GATE_BRONZE": 8,
+        "MATERIAL_STONE_CORE": 4
+      },
+      "baseBuildTimeDays": 3,
+      "visibleCompletion": [
+        "The licensing area becomes Silver Audit Office, adding transparent audits, team records, and safety notices."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_ABYSS_LICENSING_DESK_L4",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Abyss Licensing Desk: Guild Realms Bureau",
+      "facilityId": "FACILITY_ABYSS_LICENSING_DESK",
+      "targetLevel": 4,
+      "minimumHallStage": 4,
+      "requiredFacilityLevel": 3,
+      "requiredGuildRankId": "GUILD_RANK_GOLD",
+      "requiredStoryFlags": [
+        "STORY_ABYSS_LICENSE_TIER_4_AUTHORIZED"
+      ],
+      "treasuryXpCost": 15000,
+      "materialCosts": {
+        "MATERIAL_GATE_BRONZE": 16,
+        "MATERIAL_GATE_GLASS": 8,
+        "MATERIAL_PYLON_CRYSTAL": 3
+      },
+      "baseBuildTimeDays": 5,
+      "visibleCompletion": [
+        "The licensing area becomes Guild Realms Bureau, adding transparent audits, team records, and safety notices."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_ABYSS_LICENSING_DESK_L5",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Abyss Licensing Desk: Stewardship Council",
+      "facilityId": "FACILITY_ABYSS_LICENSING_DESK",
+      "targetLevel": 5,
+      "minimumHallStage": 5,
+      "requiredFacilityLevel": 4,
+      "requiredGuildRankId": "GUILD_RANK_GATEWARDEN",
+      "requiredStoryFlags": [
+        "STORY_ABYSS_LICENSE_TIER_5_AUTHORIZED"
+      ],
+      "treasuryXpCost": 33000,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 10,
+        "MATERIAL_GATE_GLASS": 15,
+        "MATERIAL_MEMORY_WATER": 4
+      },
+      "baseBuildTimeDays": 8,
+      "visibleCompletion": [
+        "The licensing area becomes Stewardship Council, adding transparent audits, team records, and safety notices."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_ABYSS_LICENSING_DESK_L6",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Abyss Licensing Desk: Caretaker Liaison Chamber",
+      "facilityId": "FACILITY_ABYSS_LICENSING_DESK",
+      "targetLevel": 6,
+      "minimumHallStage": 6,
+      "requiredFacilityLevel": 5,
+      "requiredGuildRankId": "GUILD_RANK_FIRST_ALLIANCE",
+      "requiredStoryFlags": [
+        "STORY_ABYSS_LICENSE_TIER_6_AUTHORIZED"
+      ],
+      "treasuryXpCost": 70000,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 24,
+        "MATERIAL_PYLON_CRYSTAL": 10,
+        "MATERIAL_MEMORY_WATER": 10
+      },
+      "baseBuildTimeDays": 12,
+      "visibleCompletion": [
+        "The licensing area becomes Caretaker Liaison Chamber, adding transparent audits, team records, and safety notices."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_TROPHY_CHRONICLE_HALL_L1",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Trophy and Chronicle Hall: Contract Gallery",
+      "facilityId": "FACILITY_TROPHY_CHRONICLE_HALL",
+      "targetLevel": 1,
+      "minimumHallStage": 1,
+      "requiredFacilityLevel": 0,
+      "requiredGuildRankId": "GUILD_RANK_COPPER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 765,
+      "materialCosts": {
+        "MATERIAL_IRON": 6,
+        "MATERIAL_ASHWOOD": 5,
+        "MATERIAL_FIELD_CLOTH": 3
+      },
+      "baseBuildTimeDays": 1,
+      "visibleCompletion": [
+        "The memory hall becomes Contract Gallery, adding rescue stories, memorials, and changing character records."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_TROPHY_CHRONICLE_HALL_L2",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Trophy and Chronicle Hall: Union Chronicle Hall",
+      "facilityId": "FACILITY_TROPHY_CHRONICLE_HALL",
+      "targetLevel": 2,
+      "minimumHallStage": 2,
+      "requiredFacilityLevel": 1,
+      "requiredGuildRankId": "GUILD_RANK_IRON",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 2210,
+      "materialCosts": {
+        "MATERIAL_STEEL": 8,
+        "MATERIAL_FIELD_CLOTH": 6,
+        "MATERIAL_BLANK_RUNE": 1
+      },
+      "baseBuildTimeDays": 2,
+      "visibleCompletion": [
+        "The memory hall becomes Union Chronicle Hall, adding rescue stories, memorials, and changing character records."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_TROPHY_CHRONICLE_HALL_L3",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Trophy and Chronicle Hall: Hall of Emergent Names",
+      "facilityId": "FACILITY_TROPHY_CHRONICLE_HALL",
+      "targetLevel": 3,
+      "minimumHallStage": 3,
+      "requiredFacilityLevel": 2,
+      "requiredGuildRankId": "GUILD_RANK_SILVER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 5525,
+      "materialCosts": {
+        "MATERIAL_STEEL": 13,
+        "MATERIAL_GATE_BRONZE": 6,
+        "MATERIAL_STONE_CORE": 3
+      },
+      "baseBuildTimeDays": 3,
+      "visibleCompletion": [
+        "The memory hall becomes Hall of Emergent Names, adding rescue stories, memorials, and changing character records."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_TROPHY_CHRONICLE_HALL_L4",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Trophy and Chronicle Hall: Gate Legends Gallery",
+      "facilityId": "FACILITY_TROPHY_CHRONICLE_HALL",
+      "targetLevel": 4,
+      "minimumHallStage": 4,
+      "requiredFacilityLevel": 3,
+      "requiredGuildRankId": "GUILD_RANK_GOLD",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 12750,
+      "materialCosts": {
+        "MATERIAL_GATE_BRONZE": 13,
+        "MATERIAL_GATE_GLASS": 6,
+        "MATERIAL_PYLON_CRYSTAL": 2
+      },
+      "baseBuildTimeDays": 5,
+      "visibleCompletion": [
+        "The memory hall becomes Gate Legends Gallery, adding rescue stories, memorials, and changing character records."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_TROPHY_CHRONICLE_HALL_L5",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Trophy and Chronicle Hall: Worlds Chronicle",
+      "facilityId": "FACILITY_TROPHY_CHRONICLE_HALL",
+      "targetLevel": 5,
+      "minimumHallStage": 5,
+      "requiredFacilityLevel": 4,
+      "requiredGuildRankId": "GUILD_RANK_GATEWARDEN",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 28050,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 8,
+        "MATERIAL_GATE_GLASS": 12,
+        "MATERIAL_MEMORY_WATER": 3
+      },
+      "baseBuildTimeDays": 8,
+      "visibleCompletion": [
+        "The memory hall becomes Worlds Chronicle, adding rescue stories, memorials, and changing character records."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_TROPHY_CHRONICLE_HALL_L6",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Trophy and Chronicle Hall: First Alliance Memory Hall",
+      "facilityId": "FACILITY_TROPHY_CHRONICLE_HALL",
+      "targetLevel": 6,
+      "minimumHallStage": 6,
+      "requiredFacilityLevel": 5,
+      "requiredGuildRankId": "GUILD_RANK_FIRST_ALLIANCE",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 59500,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 20,
+        "MATERIAL_PYLON_CRYSTAL": 8,
+        "MATERIAL_MEMORY_WATER": 8
+      },
+      "baseBuildTimeDays": 12,
+      "visibleCompletion": [
+        "The memory hall becomes First Alliance Memory Hall, adding rescue stories, memorials, and changing character records."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_GARDEN_L1",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Guild Garden: Kitchen Garden",
+      "facilityId": "FACILITY_GARDEN",
+      "targetLevel": 1,
+      "minimumHallStage": 1,
+      "requiredFacilityLevel": 0,
+      "requiredGuildRankId": "GUILD_RANK_COPPER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 675,
+      "materialCosts": {
+        "MATERIAL_IRON": 6,
+        "MATERIAL_ASHWOOD": 4,
+        "MATERIAL_FIELD_CLOTH": 3
+      },
+      "baseBuildTimeDays": 1,
+      "visibleCompletion": [
+        "The garden becomes Kitchen Garden, adding useful crops, quiet recovery paths, and cultural plots."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_GARDEN_L2",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Guild Garden: Recovery Courtyard",
+      "facilityId": "FACILITY_GARDEN",
+      "targetLevel": 2,
+      "minimumHallStage": 2,
+      "requiredFacilityLevel": 1,
+      "requiredGuildRankId": "GUILD_RANK_IRON",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 1950,
+      "materialCosts": {
+        "MATERIAL_STEEL": 7,
+        "MATERIAL_FIELD_CLOTH": 6,
+        "MATERIAL_BLANK_RUNE": 1
+      },
+      "baseBuildTimeDays": 2,
+      "visibleCompletion": [
+        "The garden becomes Recovery Courtyard, adding useful crops, quiet recovery paths, and cultural plots."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_GARDEN_L3",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Guild Garden: Cultural Gardens",
+      "facilityId": "FACILITY_GARDEN",
+      "targetLevel": 3,
+      "minimumHallStage": 3,
+      "requiredFacilityLevel": 2,
+      "requiredGuildRankId": "GUILD_RANK_SILVER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 4875,
+      "materialCosts": {
+        "MATERIAL_STEEL": 12,
+        "MATERIAL_GATE_BRONZE": 6,
+        "MATERIAL_STONE_CORE": 3
+      },
+      "baseBuildTimeDays": 3,
+      "visibleCompletion": [
+        "The garden becomes Cultural Gardens, adding useful crops, quiet recovery paths, and cultural plots."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_GARDEN_L4",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Guild Garden: Gateglass Conservatory",
+      "facilityId": "FACILITY_GARDEN",
+      "targetLevel": 4,
+      "minimumHallStage": 4,
+      "requiredFacilityLevel": 3,
+      "requiredGuildRankId": "GUILD_RANK_GOLD",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 11250,
+      "materialCosts": {
+        "MATERIAL_GATE_BRONZE": 12,
+        "MATERIAL_GATE_GLASS": 6,
+        "MATERIAL_PYLON_CRYSTAL": 2
+      },
+      "baseBuildTimeDays": 5,
+      "visibleCompletion": [
+        "The garden becomes Gateglass Conservatory, adding useful crops, quiet recovery paths, and cultural plots."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_GARDEN_L5",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Guild Garden: Worldseed Terraces",
+      "facilityId": "FACILITY_GARDEN",
+      "targetLevel": 5,
+      "minimumHallStage": 5,
+      "requiredFacilityLevel": 4,
+      "requiredGuildRankId": "GUILD_RANK_GATEWARDEN",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 24750,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 7,
+        "MATERIAL_GATE_GLASS": 11,
+        "MATERIAL_MEMORY_WATER": 3
+      },
+      "baseBuildTimeDays": 8,
+      "visibleCompletion": [
+        "The garden becomes Worldseed Terraces, adding useful crops, quiet recovery paths, and cultural plots."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_GARDEN_L6",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Guild Garden: First Alliance Living Garden",
+      "facilityId": "FACILITY_GARDEN",
+      "targetLevel": 6,
+      "minimumHallStage": 6,
+      "requiredFacilityLevel": 5,
+      "requiredGuildRankId": "GUILD_RANK_FIRST_ALLIANCE",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 52500,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 18,
+        "MATERIAL_PYLON_CRYSTAL": 7,
+        "MATERIAL_MEMORY_WATER": 7
+      },
+      "baseBuildTimeDays": 12,
+      "visibleCompletion": [
+        "The garden becomes First Alliance Living Garden, adding useful crops, quiet recovery paths, and cultural plots."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_RESEARCH_ROOM_L1",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Research Room: Survey Lab",
+      "facilityId": "FACILITY_RESEARCH_ROOM",
+      "targetLevel": 1,
+      "minimumHallStage": 1,
+      "requiredFacilityLevel": 0,
+      "requiredGuildRankId": "GUILD_RANK_COPPER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 1125,
+      "materialCosts": {
+        "MATERIAL_IRON": 10,
+        "MATERIAL_ASHWOOD": 7,
+        "MATERIAL_FIELD_CLOTH": 5
+      },
+      "baseBuildTimeDays": 1,
+      "visibleCompletion": [
+        "The laboratory becomes Survey Lab, adding isolation bays, review boards, and artifact workstations."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_RESEARCH_ROOM_L2",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Research Room: Art and Artifact Lab",
+      "facilityId": "FACILITY_RESEARCH_ROOM",
+      "targetLevel": 2,
+      "minimumHallStage": 2,
+      "requiredFacilityLevel": 1,
+      "requiredGuildRankId": "GUILD_RANK_IRON",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 3250,
+      "materialCosts": {
+        "MATERIAL_STEEL": 12,
+        "MATERIAL_FIELD_CLOTH": 10,
+        "MATERIAL_BLANK_RUNE": 2
+      },
+      "baseBuildTimeDays": 2,
+      "visibleCompletion": [
+        "The laboratory becomes Art and Artifact Lab, adding isolation bays, review boards, and artifact workstations."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_RESEARCH_ROOM_L3",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Research Room: Gate Anomaly Lab",
+      "facilityId": "FACILITY_RESEARCH_ROOM",
+      "targetLevel": 3,
+      "minimumHallStage": 3,
+      "requiredFacilityLevel": 2,
+      "requiredGuildRankId": "GUILD_RANK_SILVER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 8125,
+      "materialCosts": {
+        "MATERIAL_STEEL": 20,
+        "MATERIAL_GATE_BRONZE": 10,
+        "MATERIAL_STONE_CORE": 5
+      },
+      "baseBuildTimeDays": 3,
+      "visibleCompletion": [
+        "The laboratory becomes Gate Anomaly Lab, adding isolation bays, review boards, and artifact workstations."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_RESEARCH_ROOM_L4",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Research Room: Invocation Research Wing",
+      "facilityId": "FACILITY_RESEARCH_ROOM",
+      "targetLevel": 4,
+      "minimumHallStage": 4,
+      "requiredFacilityLevel": 3,
+      "requiredGuildRankId": "GUILD_RANK_GOLD",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 18750,
+      "materialCosts": {
+        "MATERIAL_GATE_BRONZE": 20,
+        "MATERIAL_GATE_GLASS": 10,
+        "MATERIAL_PYLON_CRYSTAL": 3
+      },
+      "baseBuildTimeDays": 5,
+      "visibleCompletion": [
+        "The laboratory becomes Invocation Research Wing, adding isolation bays, review boards, and artifact workstations."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_RESEARCH_ROOM_L5",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Research Room: Interworld Research Institute",
+      "facilityId": "FACILITY_RESEARCH_ROOM",
+      "targetLevel": 5,
+      "minimumHallStage": 5,
+      "requiredFacilityLevel": 4,
+      "requiredGuildRankId": "GUILD_RANK_GATEWARDEN",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 41250,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 12,
+        "MATERIAL_GATE_GLASS": 18,
+        "MATERIAL_MEMORY_WATER": 5
+      },
+      "baseBuildTimeDays": 8,
+      "visibleCompletion": [
+        "The laboratory becomes Interworld Research Institute, adding isolation bays, review boards, and artifact workstations."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_RESEARCH_ROOM_L6",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Research Room: First Alliance Observatory",
+      "facilityId": "FACILITY_RESEARCH_ROOM",
+      "targetLevel": 6,
+      "minimumHallStage": 6,
+      "requiredFacilityLevel": 5,
+      "requiredGuildRankId": "GUILD_RANK_FIRST_ALLIANCE",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 87500,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 30,
+        "MATERIAL_PYLON_CRYSTAL": 12,
+        "MATERIAL_MEMORY_WATER": 12
+      },
+      "baseBuildTimeDays": 12,
+      "visibleCompletion": [
+        "The laboratory becomes First Alliance Observatory, adding isolation bays, review boards, and artifact workstations."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_QUARTERMASTER_L1",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Quartermaster: Supply Cage",
+      "facilityId": "FACILITY_QUARTERMASTER",
+      "targetLevel": 1,
+      "minimumHallStage": 1,
+      "requiredFacilityLevel": 0,
+      "requiredGuildRankId": "GUILD_RANK_COPPER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 900,
+      "materialCosts": {
+        "MATERIAL_IRON": 8,
+        "MATERIAL_ASHWOOD": 6,
+        "MATERIAL_FIELD_CLOTH": 4
+      },
+      "baseBuildTimeDays": 1,
+      "visibleCompletion": [
+        "The storehouse becomes Supply Cage, adding transparent custody tags, loadout racks, and reserve kits."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_QUARTERMASTER_L2",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Quartermaster: Licensed Quartermaster",
+      "facilityId": "FACILITY_QUARTERMASTER",
+      "targetLevel": 2,
+      "minimumHallStage": 2,
+      "requiredFacilityLevel": 1,
+      "requiredGuildRankId": "GUILD_RANK_IRON",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 2600,
+      "materialCosts": {
+        "MATERIAL_STEEL": 10,
+        "MATERIAL_FIELD_CLOTH": 8,
+        "MATERIAL_BLANK_RUNE": 2
+      },
+      "baseBuildTimeDays": 2,
+      "visibleCompletion": [
+        "The storehouse becomes Licensed Quartermaster, adding transparent custody tags, loadout racks, and reserve kits."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_QUARTERMASTER_L3",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Quartermaster: Union Loadout Hall",
+      "facilityId": "FACILITY_QUARTERMASTER",
+      "targetLevel": 3,
+      "minimumHallStage": 3,
+      "requiredFacilityLevel": 2,
+      "requiredGuildRankId": "GUILD_RANK_SILVER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 6500,
+      "materialCosts": {
+        "MATERIAL_STEEL": 16,
+        "MATERIAL_GATE_BRONZE": 8,
+        "MATERIAL_STONE_CORE": 4
+      },
+      "baseBuildTimeDays": 3,
+      "visibleCompletion": [
+        "The storehouse becomes Union Loadout Hall, adding transparent custody tags, loadout racks, and reserve kits."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_QUARTERMASTER_L4",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Quartermaster: Gate Logistics Depot",
+      "facilityId": "FACILITY_QUARTERMASTER",
+      "targetLevel": 4,
+      "minimumHallStage": 4,
+      "requiredFacilityLevel": 3,
+      "requiredGuildRankId": "GUILD_RANK_GOLD",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 15000,
+      "materialCosts": {
+        "MATERIAL_GATE_BRONZE": 16,
+        "MATERIAL_GATE_GLASS": 8,
+        "MATERIAL_PYLON_CRYSTAL": 3
+      },
+      "baseBuildTimeDays": 5,
+      "visibleCompletion": [
+        "The storehouse becomes Gate Logistics Depot, adding transparent custody tags, loadout racks, and reserve kits."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_QUARTERMASTER_L5",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Quartermaster: Worldroad Warehouse",
+      "facilityId": "FACILITY_QUARTERMASTER",
+      "targetLevel": 5,
+      "minimumHallStage": 5,
+      "requiredFacilityLevel": 4,
+      "requiredGuildRankId": "GUILD_RANK_GATEWARDEN",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 33000,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 10,
+        "MATERIAL_GATE_GLASS": 15,
+        "MATERIAL_MEMORY_WATER": 4
+      },
+      "baseBuildTimeDays": 8,
+      "visibleCompletion": [
+        "The storehouse becomes Worldroad Warehouse, adding transparent custody tags, loadout racks, and reserve kits."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_QUARTERMASTER_L6",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Quartermaster: First Alliance Logistics Network",
+      "facilityId": "FACILITY_QUARTERMASTER",
+      "targetLevel": 6,
+      "minimumHallStage": 6,
+      "requiredFacilityLevel": 5,
+      "requiredGuildRankId": "GUILD_RANK_FIRST_ALLIANCE",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 70000,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 24,
+        "MATERIAL_PYLON_CRYSTAL": 10,
+        "MATERIAL_MEMORY_WATER": 10
+      },
+      "baseBuildTimeDays": 12,
+      "visibleCompletion": [
+        "The storehouse becomes First Alliance Logistics Network, adding transparent custody tags, loadout racks, and reserve kits."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_EMERGENCY_SHELTER_L1",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Emergency Shelter: Storm Shelter",
+      "facilityId": "FACILITY_EMERGENCY_SHELTER",
+      "targetLevel": 1,
+      "minimumHallStage": 1,
+      "requiredFacilityLevel": 0,
+      "requiredGuildRankId": "GUILD_RANK_COPPER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 990,
+      "materialCosts": {
+        "MATERIAL_IRON": 8,
+        "MATERIAL_ASHWOOD": 6,
+        "MATERIAL_FIELD_CLOTH": 4
+      },
+      "baseBuildTimeDays": 1,
+      "visibleCompletion": [
+        "The shelter becomes Storm Shelter, adding marked exits, family spaces, supplies, and multilingual instructions."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_EMERGENCY_SHELTER_L2",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Emergency Shelter: Civic Refuge Hall",
+      "facilityId": "FACILITY_EMERGENCY_SHELTER",
+      "targetLevel": 2,
+      "minimumHallStage": 2,
+      "requiredFacilityLevel": 1,
+      "requiredGuildRankId": "GUILD_RANK_IRON",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 2860,
+      "materialCosts": {
+        "MATERIAL_STEEL": 11,
+        "MATERIAL_FIELD_CLOTH": 8,
+        "MATERIAL_BLANK_RUNE": 2
+      },
+      "baseBuildTimeDays": 2,
+      "visibleCompletion": [
+        "The shelter becomes Civic Refuge Hall, adding marked exits, family spaces, supplies, and multilingual instructions."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_EMERGENCY_SHELTER_L3",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Emergency Shelter: Mass-Casualty Shelter",
+      "facilityId": "FACILITY_EMERGENCY_SHELTER",
+      "targetLevel": 3,
+      "minimumHallStage": 3,
+      "requiredFacilityLevel": 2,
+      "requiredGuildRankId": "GUILD_RANK_SILVER",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 7150,
+      "materialCosts": {
+        "MATERIAL_STEEL": 17,
+        "MATERIAL_GATE_BRONZE": 8,
+        "MATERIAL_STONE_CORE": 4
+      },
+      "baseBuildTimeDays": 3,
+      "visibleCompletion": [
+        "The shelter becomes Mass-Casualty Shelter, adding marked exits, family spaces, supplies, and multilingual instructions."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_EMERGENCY_SHELTER_L4",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Emergency Shelter: Gate Evacuation Center",
+      "facilityId": "FACILITY_EMERGENCY_SHELTER",
+      "targetLevel": 4,
+      "minimumHallStage": 4,
+      "requiredFacilityLevel": 3,
+      "requiredGuildRankId": "GUILD_RANK_GOLD",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 16500,
+      "materialCosts": {
+        "MATERIAL_GATE_BRONZE": 17,
+        "MATERIAL_GATE_GLASS": 8,
+        "MATERIAL_PYLON_CRYSTAL": 3
+      },
+      "baseBuildTimeDays": 5,
+      "visibleCompletion": [
+        "The shelter becomes Gate Evacuation Center, adding marked exits, family spaces, supplies, and multilingual instructions."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_EMERGENCY_SHELTER_L5",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Emergency Shelter: World Refuge Complex",
+      "facilityId": "FACILITY_EMERGENCY_SHELTER",
+      "targetLevel": 5,
+      "minimumHallStage": 5,
+      "requiredFacilityLevel": 4,
+      "requiredGuildRankId": "GUILD_RANK_GATEWARDEN",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 36300,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 11,
+        "MATERIAL_GATE_GLASS": 16,
+        "MATERIAL_MEMORY_WATER": 4
+      },
+      "baseBuildTimeDays": 8,
+      "visibleCompletion": [
+        "The shelter becomes World Refuge Complex, adding marked exits, family spaces, supplies, and multilingual instructions."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_FACILITY_EMERGENCY_SHELTER_L6",
+      "projectType": "FACILITY_UPGRADE",
+      "displayName": "Upgrade Emergency Shelter: First Alliance Sanctuary",
+      "facilityId": "FACILITY_EMERGENCY_SHELTER",
+      "targetLevel": 6,
+      "minimumHallStage": 6,
+      "requiredFacilityLevel": 5,
+      "requiredGuildRankId": "GUILD_RANK_FIRST_ALLIANCE",
+      "requiredStoryFlags": [],
+      "treasuryXpCost": 77000,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 26,
+        "MATERIAL_PYLON_CRYSTAL": 11,
+        "MATERIAL_MEMORY_WATER": 11
+      },
+      "baseBuildTimeDays": 12,
+      "visibleCompletion": [
+        "The shelter becomes First Alliance Sanctuary, adding marked exits, family spaces, supplies, and multilingual instructions."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_HALL_STAGE_CHARTERED_HALL",
+      "projectType": "HALL_UPGRADE",
+      "displayName": "Build Chartered Hall",
+      "targetHallStage": 1,
+      "minimumHallStage": 0,
+      "requiredHallStage": 0,
+      "requiredGuildRankId": "GUILD_RANK_COPPER",
+      "requiredStoryFlags": [
+        "STORY_CHARTER_GRANTED"
+      ],
+      "treasuryXpCost": 6000,
+      "materialCosts": {
+        "MATERIAL_IRON": 20,
+        "MATERIAL_FIELD_CLOTH": 16,
+        "MATERIAL_ASHWOOD": 20
+      },
+      "baseBuildTimeDays": 2,
+      "visibleCompletion": [
+        "The front wall is rebuilt around a visible civic charter and guild seal.",
+        "A real common room, three Union planning alcoves, and separate sleeping quarters open.",
+        "Workers add a public counter so citizens can ask for help without entering private rooms."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_HALL_STAGE_RISING_GUILD",
+      "projectType": "HALL_UPGRADE",
+      "displayName": "Build Rising Guild",
+      "targetHallStage": 2,
+      "minimumHallStage": 1,
+      "requiredHallStage": 1,
+      "requiredGuildRankId": "GUILD_RANK_IRON",
+      "requiredStoryFlags": [
+        "STORY_FIRST_BOSS_OPERATION_COMPLETE"
+      ],
+      "treasuryXpCost": 18000,
+      "materialCosts": {
+        "MATERIAL_STEEL": 30,
+        "MATERIAL_GATE_BRONZE": 10,
+        "MATERIAL_FIELD_CLOTH": 25,
+        "MATERIAL_STONE_CORE": 8
+      },
+      "baseBuildTimeDays": 4,
+      "visibleCompletion": [
+        "A second story rises above the repaired annex with windows overlooking the Gateworks.",
+        "Purpose-built training, medical, archive, and workshop rooms replace improvised corners.",
+        "A stone memorial records rescues and public works alongside victories."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_HALL_STAGE_REGIONAL_GUILD",
+      "projectType": "HALL_UPGRADE",
+      "displayName": "Build Regional Guild",
+      "targetHallStage": 3,
+      "minimumHallStage": 2,
+      "requiredHallStage": 2,
+      "requiredGuildRankId": "GUILD_RANK_SILVER",
+      "requiredStoryFlags": [
+        "STORY_REGIONAL_CHARTER_AVAILABLE"
+      ],
+      "treasuryXpCost": 45000,
+      "materialCosts": {
+        "MATERIAL_STEEL": 60,
+        "MATERIAL_GATE_BRONZE": 25,
+        "MATERIAL_SILKWEAVE": 20,
+        "MATERIAL_PYLON_CRYSTAL": 6
+      },
+      "baseBuildTimeDays": 7,
+      "visibleCompletion": [
+        "Two connected wings form a protected courtyard used for formations and festivals.",
+        "A regional map chamber tracks roads, settlements, hazards, and public requests.",
+        "Families of deployed adventurers receive a staffed waiting room instead of a notice board."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_HALL_STAGE_GATE_GUILD",
+      "projectType": "HALL_UPGRADE",
+      "displayName": "Build Gate Guild",
+      "targetHallStage": 4,
+      "minimumHallStage": 3,
+      "requiredHallStage": 3,
+      "requiredGuildRankId": "GUILD_RANK_GOLD",
+      "requiredStoryFlags": [
+        "STORY_GATE_GUILD_AUTHORIZED"
+      ],
+      "treasuryXpCost": 100000,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 20,
+        "MATERIAL_GATE_GLASS": 30,
+        "MATERIAL_PYLON_CRYSTAL": 20,
+        "MATERIAL_COMMAND_TABLE_RUNE": 5
+      },
+      "baseBuildTimeDays": 12,
+      "visibleCompletion": [
+        "Gate-glass galleries display live route conditions without concealing who controls access.",
+        "A dedicated operations tower connects scouts, healers, quartermasters, and Union leaders.",
+        "The public shelter expands beneath the hall with marked exits and multilingual signs."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_HALL_STAGE_GUILD_OF_WORLDS",
+      "projectType": "HALL_UPGRADE",
+      "displayName": "Build Guild of Worlds",
+      "targetHallStage": 5,
+      "minimumHallStage": 4,
+      "requiredHallStage": 4,
+      "requiredGuildRankId": "GUILD_RANK_GATEWARDEN",
+      "requiredStoryFlags": [
+        "STORY_FIRST_WORLD_ALLIANCE_CHARTER"
+      ],
+      "treasuryXpCost": 220000,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 50,
+        "MATERIAL_SILKWEAVE": 50,
+        "MATERIAL_MEMORY_WATER": 20,
+        "MATERIAL_GATE_GLASS": 40
+      },
+      "baseBuildTimeDays": 20,
+      "visibleCompletion": [
+        "Distinct cultural wings surround a shared central chamber without reducing any world to decoration.",
+        "A world-map ceiling updates as equal alliances are signed rather than conquered.",
+        "The guild kitchens, gardens, shrines, workshops, and dormitories visibly serve multiple peoples."
+      ],
+      "storyGateBypassable": false
+    },
+    {
+      "id": "PROJECT_HALL_STAGE_FIRST_ALLIANCE_HALL",
+      "projectType": "HALL_UPGRADE",
+      "displayName": "Build First Alliance Hall",
+      "targetHallStage": 6,
+      "minimumHallStage": 5,
+      "requiredHallStage": 5,
+      "requiredGuildRankId": "GUILD_RANK_FIRST_ALLIANCE",
+      "requiredStoryFlags": [
+        "STORY_FIRST_ALLIANCE_RECOGNIZED"
+      ],
+      "treasuryXpCost": 450000,
+      "materialCosts": {
+        "MATERIAL_WORLDROAD_ALLOY": 100,
+        "MATERIAL_PYLON_CRYSTAL": 50,
+        "MATERIAL_MEMORY_WATER": 50,
+        "MATERIAL_GATE_GLASS": 80
+      },
+      "baseBuildTimeDays": 30,
+      "visibleCompletion": [
+        "The original ruined wall remains visible inside the completed hall as proof of where the guild began.",
+        "Ten operations galleries can coordinate separate fronts while one central table shows shared consequences.",
+        "A public forum, sanctuary, archive, gardens, clinics, and embassies make the hall a living piece of civilization."
+      ],
+      "storyGateBypassable": false
+    }
+  ]
+}

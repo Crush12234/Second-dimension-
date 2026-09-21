@@ -1,0 +1,1664 @@
+{
+  "operations": [
+    {
+      "operationId": "ABYSS_OP022_01_RECON",
+      "floorId": "ABYSS_FLOOR_001_MUD_TRENCHES",
+      "kind": "RECON",
+      "displayName": "Mud Trenches — Recon",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_01_RECON_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Mud Trenches Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_01_RECON_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_01_RECON_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_01_RECON_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Complete Recon Objective",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_01_RECON_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": false,
+      "rewardMaterialIds": [
+        "MAT020_SKYHOME_04",
+        "MAT020_BUNNY_03"
+      ],
+      "guildXp": 25,
+      "hallXp": 19,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_01_TRIAL",
+      "floorId": "ABYSS_FLOOR_001_MUD_TRENCHES",
+      "kind": "TRIAL",
+      "displayName": "Mud Trenches — Trial",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_01_TRIAL_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Mud Trenches Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_01_TRIAL_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_01_TRIAL_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_01_TRIAL_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Complete Trial Objective",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_01_TRIAL_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": false,
+      "rewardMaterialIds": [
+        "MAT020_SKYHOME_05",
+        "MAT020_BUNNY_04"
+      ],
+      "guildXp": 25,
+      "hallXp": 19,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_01_GUARDIAN",
+      "floorId": "ABYSS_FLOOR_001_MUD_TRENCHES",
+      "kind": "GUARDIAN",
+      "displayName": "Mud Trenches — Guardian",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_01_GUARDIAN_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Mud Trenches Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_01_GUARDIAN_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_01_GUARDIAN_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_01_GUARDIAN_BATTLE",
+          "kind": "CERTIFIED_BATTLE",
+          "title": "Guardian Judgment",
+          "requiresBattle": true,
+          "bossId": "ABYSS_BOSS022_01",
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_01_GUARDIAN_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": true,
+      "requiresPreviousFloorClear": false,
+      "rewardMaterialIds": [
+        "MAT020_SKYHOME_06",
+        "MAT020_BUNNY_05"
+      ],
+      "guildXp": 25,
+      "hallXp": 19,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_02_RECON",
+      "floorId": "ABYSS_FLOOR_002_ARROW_RAIN_FIELD",
+      "kind": "RECON",
+      "displayName": "Arrow Rain Field — Recon",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_02_RECON_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Arrow Rain Field Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_02_RECON_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_02_RECON_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_02_RECON_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Complete Recon Objective",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_02_RECON_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_BEAST_01",
+        "MAT020_DARKELF_02"
+      ],
+      "guildXp": 30,
+      "hallXp": 23,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_02_TRIAL",
+      "floorId": "ABYSS_FLOOR_002_ARROW_RAIN_FIELD",
+      "kind": "TRIAL",
+      "displayName": "Arrow Rain Field — Trial",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_02_TRIAL_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Arrow Rain Field Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_02_TRIAL_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_02_TRIAL_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_02_TRIAL_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Complete Trial Objective",
+          "requiresBattle": true,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_02_TRIAL_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_BEAST_02",
+        "MAT020_DARKELF_03"
+      ],
+      "guildXp": 30,
+      "hallXp": 23,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_02_GUARDIAN",
+      "floorId": "ABYSS_FLOOR_002_ARROW_RAIN_FIELD",
+      "kind": "GUARDIAN",
+      "displayName": "Arrow Rain Field — Guardian",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_02_GUARDIAN_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Arrow Rain Field Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_02_GUARDIAN_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_02_GUARDIAN_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_02_GUARDIAN_BATTLE",
+          "kind": "CERTIFIED_BATTLE",
+          "title": "Guardian Judgment",
+          "requiresBattle": true,
+          "bossId": "ABYSS_BOSS022_02",
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_02_GUARDIAN_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": true,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_BEAST_03",
+        "MAT020_DARKELF_04"
+      ],
+      "guildXp": 30,
+      "hallXp": 23,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_03_RECON",
+      "floorId": "ABYSS_FLOOR_003_SILENT_CAMP",
+      "kind": "RECON",
+      "displayName": "Silent Camp — Recon",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_03_RECON_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Silent Camp Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_03_RECON_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_03_RECON_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_03_RECON_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Complete Recon Objective",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_03_RECON_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_BEAST_04",
+        "MAT020_DEMON_01"
+      ],
+      "guildXp": 35,
+      "hallXp": 27,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_03_TRIAL",
+      "floorId": "ABYSS_FLOOR_003_SILENT_CAMP",
+      "kind": "TRIAL",
+      "displayName": "Silent Camp — Trial",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_03_TRIAL_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Silent Camp Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_03_TRIAL_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_03_TRIAL_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_03_TRIAL_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Complete Trial Objective",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_03_TRIAL_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_BEAST_05",
+        "MAT020_DEMON_02"
+      ],
+      "guildXp": 35,
+      "hallXp": 27,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_03_GUARDIAN",
+      "floorId": "ABYSS_FLOOR_003_SILENT_CAMP",
+      "kind": "GUARDIAN",
+      "displayName": "Silent Camp — Guardian",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_03_GUARDIAN_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Silent Camp Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_03_GUARDIAN_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_03_GUARDIAN_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_03_GUARDIAN_BATTLE",
+          "kind": "CERTIFIED_BATTLE",
+          "title": "Guardian Judgment",
+          "requiresBattle": true,
+          "bossId": "ABYSS_BOSS022_03",
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_03_GUARDIAN_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": true,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_BEAST_06",
+        "MAT020_DEMON_03"
+      ],
+      "guildXp": 35,
+      "hallXp": 27,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_04_RECON",
+      "floorId": "ABYSS_FLOOR_004_COLLAPSED_SIEGE_WALL",
+      "kind": "RECON",
+      "displayName": "Collapsed Siege Wall — Recon",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_04_RECON_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Collapsed Siege Wall Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_04_RECON_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_04_RECON_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_04_RECON_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Complete Recon Objective",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_04_RECON_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_BUNNY_01",
+        "MAT020_DEMON_06"
+      ],
+      "guildXp": 40,
+      "hallXp": 31,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_04_TRIAL",
+      "floorId": "ABYSS_FLOOR_004_COLLAPSED_SIEGE_WALL",
+      "kind": "TRIAL",
+      "displayName": "Collapsed Siege Wall — Trial",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_04_TRIAL_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Collapsed Siege Wall Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_04_TRIAL_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_04_TRIAL_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_04_TRIAL_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Complete Trial Objective",
+          "requiresBattle": true,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_04_TRIAL_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_BUNNY_02",
+        "MAT020_DOG_01"
+      ],
+      "guildXp": 40,
+      "hallXp": 31,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_04_GUARDIAN",
+      "floorId": "ABYSS_FLOOR_004_COLLAPSED_SIEGE_WALL",
+      "kind": "GUARDIAN",
+      "displayName": "Collapsed Siege Wall — Guardian",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_04_GUARDIAN_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Collapsed Siege Wall Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_04_GUARDIAN_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_04_GUARDIAN_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_04_GUARDIAN_BATTLE",
+          "kind": "CERTIFIED_BATTLE",
+          "title": "Guardian Judgment",
+          "requiresBattle": true,
+          "bossId": "ABYSS_BOSS022_04",
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_04_GUARDIAN_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": true,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_BUNNY_03",
+        "MAT020_DOG_02"
+      ],
+      "guildXp": 40,
+      "hallXp": 31,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_05_RECON",
+      "floorId": "ABYSS_FLOOR_005_GRAVE_BANNER_HILL",
+      "kind": "RECON",
+      "displayName": "Grave Banner Hill — Recon",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_05_RECON_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Grave Banner Hill Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_05_RECON_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_05_RECON_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_05_RECON_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Complete Recon Objective",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_05_RECON_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_BUNNY_04",
+        "MAT020_DOG_05"
+      ],
+      "guildXp": 45,
+      "hallXp": 35,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_05_TRIAL",
+      "floorId": "ABYSS_FLOOR_005_GRAVE_BANNER_HILL",
+      "kind": "TRIAL",
+      "displayName": "Grave Banner Hill — Trial",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_05_TRIAL_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Grave Banner Hill Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_05_TRIAL_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_05_TRIAL_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_05_TRIAL_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Complete Trial Objective",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_05_TRIAL_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_BUNNY_05",
+        "MAT020_DOG_06"
+      ],
+      "guildXp": 45,
+      "hallXp": 35,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_05_GUARDIAN",
+      "floorId": "ABYSS_FLOOR_005_GRAVE_BANNER_HILL",
+      "kind": "GUARDIAN",
+      "displayName": "Grave Banner Hill — Guardian",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_05_GUARDIAN_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Grave Banner Hill Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_05_GUARDIAN_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_05_GUARDIAN_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_05_GUARDIAN_BATTLE",
+          "kind": "CERTIFIED_BATTLE",
+          "title": "Guardian Judgment",
+          "requiresBattle": true,
+          "bossId": "ABYSS_BOSS022_05",
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_05_GUARDIAN_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": true,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_BUNNY_06",
+        "MAT020_GOBLIN_01"
+      ],
+      "guildXp": 45,
+      "hallXp": 35,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_06_RECON",
+      "floorId": "ABYSS_FLOOR_006_IRON_MARCH",
+      "kind": "RECON",
+      "displayName": "Iron March — Recon",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_06_RECON_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Iron March Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_06_RECON_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_06_RECON_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_06_RECON_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Complete Recon Objective",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_06_RECON_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_DARKELF_01",
+        "MAT020_GOBLIN_04"
+      ],
+      "guildXp": 50,
+      "hallXp": 39,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_06_TRIAL",
+      "floorId": "ABYSS_FLOOR_006_IRON_MARCH",
+      "kind": "TRIAL",
+      "displayName": "Iron March — Trial",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_06_TRIAL_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Iron March Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_06_TRIAL_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_06_TRIAL_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_06_TRIAL_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Complete Trial Objective",
+          "requiresBattle": true,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_06_TRIAL_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_DARKELF_02",
+        "MAT020_GOBLIN_05"
+      ],
+      "guildXp": 50,
+      "hallXp": 39,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_06_GUARDIAN",
+      "floorId": "ABYSS_FLOOR_006_IRON_MARCH",
+      "kind": "GUARDIAN",
+      "displayName": "Iron March — Guardian",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_06_GUARDIAN_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Iron March Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_06_GUARDIAN_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_06_GUARDIAN_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_06_GUARDIAN_BATTLE",
+          "kind": "CERTIFIED_BATTLE",
+          "title": "Guardian Judgment",
+          "requiresBattle": true,
+          "bossId": "ABYSS_BOSS022_06",
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_06_GUARDIAN_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": true,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_DARKELF_03",
+        "MAT020_GOBLIN_06"
+      ],
+      "guildXp": 50,
+      "hallXp": 39,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_07_RECON",
+      "floorId": "ABYSS_FLOOR_007_BLOODLESS_RIVER",
+      "kind": "RECON",
+      "displayName": "Bloodless River — Recon",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_07_RECON_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Bloodless River Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_07_RECON_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_07_RECON_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_07_RECON_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Complete Recon Objective",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_07_RECON_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_DARKELF_04",
+        "MAT020_ORC_03"
+      ],
+      "guildXp": 55,
+      "hallXp": 43,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_07_TRIAL",
+      "floorId": "ABYSS_FLOOR_007_BLOODLESS_RIVER",
+      "kind": "TRIAL",
+      "displayName": "Bloodless River — Trial",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_07_TRIAL_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Bloodless River Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_07_TRIAL_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_07_TRIAL_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_07_TRIAL_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Complete Trial Objective",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_07_TRIAL_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_DARKELF_05",
+        "MAT020_ORC_04"
+      ],
+      "guildXp": 55,
+      "hallXp": 43,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_07_GUARDIAN",
+      "floorId": "ABYSS_FLOOR_007_BLOODLESS_RIVER",
+      "kind": "GUARDIAN",
+      "displayName": "Bloodless River — Guardian",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_07_GUARDIAN_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Bloodless River Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_07_GUARDIAN_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_07_GUARDIAN_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_07_GUARDIAN_BATTLE",
+          "kind": "CERTIFIED_BATTLE",
+          "title": "Guardian Judgment",
+          "requiresBattle": true,
+          "bossId": "ABYSS_BOSS022_07",
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_07_GUARDIAN_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": true,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_DARKELF_06",
+        "MAT020_ORC_05"
+      ],
+      "guildXp": 55,
+      "hallXp": 43,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_08_RECON",
+      "floorId": "ABYSS_FLOOR_008_WAR_BEAST_PENS",
+      "kind": "RECON",
+      "displayName": "War Beast Pens — Recon",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_08_RECON_BRIEF",
+          "kind": "BRIEFING",
+          "title": "War Beast Pens Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_08_RECON_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_08_RECON_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_08_RECON_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Complete Recon Objective",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_08_RECON_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_DEMON_01",
+        "MAT020_SKYHOME_02"
+      ],
+      "guildXp": 60,
+      "hallXp": 47,
+      "summonResonance": 8,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_08_TRIAL",
+      "floorId": "ABYSS_FLOOR_008_WAR_BEAST_PENS",
+      "kind": "TRIAL",
+      "displayName": "War Beast Pens — Trial",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_08_TRIAL_BRIEF",
+          "kind": "BRIEFING",
+          "title": "War Beast Pens Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_08_TRIAL_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_08_TRIAL_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_08_TRIAL_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Complete Trial Objective",
+          "requiresBattle": true,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_08_TRIAL_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_DEMON_02",
+        "MAT020_SKYHOME_03"
+      ],
+      "guildXp": 60,
+      "hallXp": 47,
+      "summonResonance": 8,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_08_GUARDIAN",
+      "floorId": "ABYSS_FLOOR_008_WAR_BEAST_PENS",
+      "kind": "GUARDIAN",
+      "displayName": "War Beast Pens — Guardian",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_08_GUARDIAN_BRIEF",
+          "kind": "BRIEFING",
+          "title": "War Beast Pens Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_08_GUARDIAN_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_08_GUARDIAN_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_08_GUARDIAN_BATTLE",
+          "kind": "CERTIFIED_BATTLE",
+          "title": "Guardian Judgment",
+          "requiresBattle": true,
+          "bossId": "ABYSS_BOSS022_08",
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_08_GUARDIAN_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": true,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_DEMON_03",
+        "MAT020_SKYHOME_04"
+      ],
+      "guildXp": 60,
+      "hallXp": 47,
+      "summonResonance": 8,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_09_RECON",
+      "floorId": "ABYSS_FLOOR_009_ASH_COMMAND_TENT",
+      "kind": "RECON",
+      "displayName": "Ash Command Tent — Recon",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_09_RECON_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Ash Command Tent Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_09_RECON_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_09_RECON_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_09_RECON_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Complete Recon Objective",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_09_RECON_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_DEMON_04",
+        "MAT020_BEAST_01"
+      ],
+      "guildXp": 65,
+      "hallXp": 51,
+      "summonResonance": 9,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_09_TRIAL",
+      "floorId": "ABYSS_FLOOR_009_ASH_COMMAND_TENT",
+      "kind": "TRIAL",
+      "displayName": "Ash Command Tent — Trial",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_09_TRIAL_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Ash Command Tent Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_09_TRIAL_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_09_TRIAL_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_09_TRIAL_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Complete Trial Objective",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_09_TRIAL_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_DEMON_05",
+        "MAT020_BEAST_02"
+      ],
+      "guildXp": 65,
+      "hallXp": 51,
+      "summonResonance": 9,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_09_GUARDIAN",
+      "floorId": "ABYSS_FLOOR_009_ASH_COMMAND_TENT",
+      "kind": "GUARDIAN",
+      "displayName": "Ash Command Tent — Guardian",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_09_GUARDIAN_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Ash Command Tent Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_09_GUARDIAN_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_09_GUARDIAN_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_09_GUARDIAN_BATTLE",
+          "kind": "CERTIFIED_BATTLE",
+          "title": "Guardian Judgment",
+          "requiresBattle": true,
+          "bossId": "ABYSS_BOSS022_09",
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_09_GUARDIAN_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": true,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_DEMON_06",
+        "MAT020_BEAST_03"
+      ],
+      "guildXp": 65,
+      "hallXp": 51,
+      "summonResonance": 9,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_10_RECON",
+      "floorId": "ABYSS_FLOOR_010_AEGIS_GATE",
+      "kind": "RECON",
+      "displayName": "Aegis Gate — Recon",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_10_RECON_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Aegis Gate Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_10_RECON_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_10_RECON_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_10_RECON_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Complete Recon Objective",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_10_RECON_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_DOG_01",
+        "MAT020_BEAST_06"
+      ],
+      "guildXp": 70,
+      "hallXp": 55,
+      "summonResonance": 10,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_10_TRIAL",
+      "floorId": "ABYSS_FLOOR_010_AEGIS_GATE",
+      "kind": "TRIAL",
+      "displayName": "Aegis Gate — Trial",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_10_TRIAL_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Aegis Gate Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_10_TRIAL_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_10_TRIAL_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_10_TRIAL_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Complete Trial Objective",
+          "requiresBattle": true,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_10_TRIAL_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_DOG_02",
+        "MAT020_BUNNY_01"
+      ],
+      "guildXp": 70,
+      "hallXp": 55,
+      "summonResonance": 10,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP022_10_GUARDIAN",
+      "floorId": "ABYSS_FLOOR_010_AEGIS_GATE",
+      "kind": "GUARDIAN",
+      "displayName": "Aegis Gate — Guardian",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP022_10_GUARDIAN_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Aegis Gate Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_10_GUARDIAN_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_10_GUARDIAN_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_10_GUARDIAN_BATTLE",
+          "kind": "CERTIFIED_BATTLE",
+          "title": "Guardian Judgment",
+          "requiresBattle": true,
+          "bossId": "ABYSS_BOSS022_10",
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP022_10_GUARDIAN_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": true,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_DOG_03",
+        "MAT020_BUNNY_02"
+      ],
+      "guildXp": 70,
+      "hallXp": 55,
+      "summonResonance": 10,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    }
+  ]
+}

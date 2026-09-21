@@ -1,0 +1,125 @@
+{
+  "contentVersion": "GOW_PASS03_0.8",
+  "profiles": [
+    {
+      "id": "BOARD_SHORT",
+      "displayName": "Short Contract",
+      "nodeMin": 10,
+      "nodeMax": 13,
+      "criticalMin": 6,
+      "criticalMax": 7,
+      "branchMin": 2,
+      "branchMax": 3,
+      "ordinarySecretsMin": 1,
+      "ordinarySecretsMax": 1,
+      "campCount": 1,
+      "resourceCount": 1,
+      "eliteCount": 0,
+      "bossRequired": false,
+      "expectedMinutes": [
+        8,
+        15
+      ]
+    },
+    {
+      "id": "BOARD_NORMAL",
+      "displayName": "Normal Contract",
+      "nodeMin": 15,
+      "nodeMax": 19,
+      "criticalMin": 8,
+      "criticalMax": 10,
+      "branchMin": 3,
+      "branchMax": 5,
+      "ordinarySecretsMin": 1,
+      "ordinarySecretsMax": 2,
+      "campCount": 1,
+      "resourceCount": 2,
+      "eliteCount": 1,
+      "bossRequired": false,
+      "expectedMinutes": [
+        18,
+        30
+      ]
+    },
+    {
+      "id": "BOARD_LONG",
+      "displayName": "Long Expedition",
+      "nodeMin": 22,
+      "nodeMax": 28,
+      "criticalMin": 10,
+      "criticalMax": 13,
+      "branchMin": 5,
+      "branchMax": 8,
+      "ordinarySecretsMin": 2,
+      "ordinarySecretsMax": 3,
+      "campCount": 2,
+      "resourceCount": 3,
+      "eliteCount": 2,
+      "bossRequired": false,
+      "expectedMinutes": [
+        35,
+        55
+      ]
+    },
+    {
+      "id": "BOARD_STORY",
+      "displayName": "Story Operation",
+      "nodeMin": 20,
+      "nodeMax": 24,
+      "criticalMin": 11,
+      "criticalMax": 12,
+      "branchMin": 4,
+      "branchMax": 6,
+      "ordinarySecretsMin": 1,
+      "ordinarySecretsMax": 2,
+      "campCount": 2,
+      "resourceCount": 2,
+      "eliteCount": 1,
+      "bossRequired": true,
+      "expectedMinutes": [
+        35,
+        50
+      ]
+    },
+    {
+      "id": "BOARD_BOSS",
+      "displayName": "Boss Operation",
+      "nodeMin": 25,
+      "nodeMax": 30,
+      "criticalMin": 12,
+      "criticalMax": 14,
+      "branchMin": 6,
+      "branchMax": 8,
+      "ordinarySecretsMin": 2,
+      "ordinarySecretsMax": 3,
+      "campCount": 2,
+      "resourceCount": 3,
+      "eliteCount": 2,
+      "bossRequired": true,
+      "expectedMinutes": [
+        45,
+        70
+      ]
+    }
+  ],
+  "nodeWeights": {
+    "EVENT": 18,
+    "BATTLE": 20,
+    "HAZARD": 12,
+    "RESOURCE": 10,
+    "MYSTERY": 10,
+    "SKILL_CHECK": 12,
+    "RESCUE": 7,
+    "WORLD_EVENT": 5,
+    "ELITE_BATTLE": 4,
+    "CAMP": 2
+  },
+  "generationRules": {
+    "criticalPath": "Always connected from START to EXIT. Mandatory objectives and boss prerequisites are placed only on visible critical nodes.",
+    "branches": "Attach to a critical node; most reconnect to a later critical node, while capped dead ends hold optional rewards or secrets.",
+    "starvationProtection": "At least one CAMP and one RESOURCE occur before the final required encounter; longer boards guarantee more.",
+    "bossOrdering": "Boss nodes require a flag granted by an earlier visible objective node. Validation rejects any boss without a reachable prerequisite.",
+    "ordinarySecrets": "Optional hidden edges discoverable by Perception, culture, tools, or puzzles. Never mandatory.",
+    "margin": "Exactly one private node connected through one private edge to a noncritical-safe anchor. Never required, never in normal completion counts."
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "contentVersion": "GOW_PASS04_0.9",
+  "evolutionPaths": [
+    {
+      "id": "EVOLUTION_PATH_001",
+      "baseDisplayName": "Gatewatch Saber",
+      "stageOneName": "Gatewatch Defender",
+      "stageTwoName": "Oath of the Outer Road",
+      "meaningfulHistoryTrigger": "Protect allies in five meaningful Gateworks encounters; complete a rescue with no civilian loss.",
+      "forgeStageRequired": 2,
+      "materialRequirements": [
+        "MATERIAL_EQUIPMENT_FRAGMENT"
+      ],
+      "behaviorChange": "Adds a context-specific behavior and records its reason; not a flat +1/+2/+3 ladder.",
+      "historyRequired": true
+    },
+    {
+      "id": "EVOLUTION_PATH_002",
+      "baseDisplayName": "Roadwarden Blade",
+      "stageOneName": "Roadwarden Promise",
+      "stageTwoName": "Road That Returns Everyone",
+      "meaningfulHistoryTrigger": "Complete escort and extraction histories with the same Union.",
+      "forgeStageRequired": 2,
+      "materialRequirements": [
+        "MATERIAL_EQUIPMENT_FRAGMENT"
+      ],
+      "behaviorChange": "Adds a context-specific behavior and records its reason; not a flat +1/+2/+3 ladder.",
+      "historyRequired": true
+    },
+    {
+      "id": "EVOLUTION_PATH_003",
+      "baseDisplayName": "Wallbreaker Maul",
+      "stageOneName": "Wall-Opening Maul",
+      "stageTwoName": "Builder After Battle",
+      "meaningfulHistoryTrigger": "Break hostile fortifications, then use recovered material in a civic repair.",
+      "forgeStageRequired": 2,
+      "materialRequirements": [
+        "MATERIAL_EQUIPMENT_FRAGMENT"
+      ],
+      "behaviorChange": "Adds a context-specific behavior and records its reason; not a flat +1/+2/+3 ladder.",
+      "historyRequired": true
+    },
+    {
+      "id": "EVOLUTION_PATH_004",
+      "baseDisplayName": "Mercy Bell Hammer",
+      "stageOneName": "Mercy Bell",
+      "stageTwoName": "No Victory Without Return",
+      "meaningfulHistoryTrigger": "Resolve three dangerous encounters nonlethally and rescue a former enemy.",
+      "forgeStageRequired": 2,
+      "materialRequirements": [
+        "MATERIAL_EQUIPMENT_FRAGMENT"
+      ],
+      "behaviorChange": "Adds a context-specific behavior and records its reason; not a flat +1/+2/+3 ladder.",
+      "historyRequired": true
+    },
+    {
+      "id": "EVOLUTION_PATH_005",
+      "baseDisplayName": "Causeway Spear",
+      "stageOneName": "Causeway Keeper",
+      "stageTwoName": "Bridge Between Worlds",
+      "meaningfulHistoryTrigger": "Hold a crossing while another Union completes an objective.",
+      "forgeStageRequired": 2,
+      "materialRequirements": [
+        "MATERIAL_EQUIPMENT_FRAGMENT"
+      ],
+      "behaviorChange": "Adds a context-specific behavior and records its reason; not a flat +1/+2/+3 ladder.",
+      "historyRequired": true
+    },
+    {
+      "id": "EVOLUTION_PATH_006",
+      "baseDisplayName": "Stormroad Glaive",
+      "stageOneName": "Stormroad Guide",
+      "stageTwoName": "Road Before the Storm",
+      "meaningfulHistoryTrigger": "Flank without abandoning an injured ally.",
+      "forgeStageRequired": 2,
+      "materialRequirements": [
+        "MATERIAL_EQUIPMENT_FRAGMENT"
+      ],
+      "behaviorChange": "Adds a context-specific behavior and records its reason; not a flat +1/+2/+3 ladder.",
+      "historyRequired": true
+    },
+    {
+      "id": "EVOLUTION_PATH_007",
+      "baseDisplayName": "Gatework Shortbow",
+      "stageOneName": "Gatewatch Cover Bow",
+      "stageTwoName": "No One Crosses Alone",
+      "meaningfulHistoryTrigger": "Provide covering fire in five rescues.",
+      "forgeStageRequired": 2,
+      "materialRequirements": [
+        "MATERIAL_EQUIPMENT_FRAGMENT"
+      ],
+      "behaviorChange": "Adds a context-specific behavior and records its reason; not a flat +1/+2/+3 ladder.",
+      "historyRequired": true
+    },
+    {
+      "id": "EVOLUTION_PATH_008",
+      "baseDisplayName": "Fenrunner Field Bow",
+      "stageOneName": "Fenrunner Pathfinder",
+      "stageTwoName": "Tracks Across Worlds",
+      "meaningfulHistoryTrigger": "Complete Hunt, Rescue, and Exploration contracts.",
+      "forgeStageRequired": 2,
+      "materialRequirements": [
+        "MATERIAL_EQUIPMENT_FRAGMENT"
+      ],
+      "behaviorChange": "Adds a context-specific behavior and records its reason; not a flat +1/+2/+3 ladder.",
+      "historyRequired": true
+    },
+    {
+      "id": "EVOLUTION_PATH_009",
+      "baseDisplayName": "Duskwood Twin Blade",
+      "stageOneName": "Duskwood Quiet Pair",
+      "stageTwoName": "Truth Behind the Guard",
+      "meaningfulHistoryTrigger": "Reveal three hidden threats and spare a surrendered target.",
+      "forgeStageRequired": 2,
+      "materialRequirements": [
+        "MATERIAL_EQUIPMENT_FRAGMENT"
+      ],
+      "behaviorChange": "Adds a context-specific behavior and records its reason; not a flat +1/+2/+3 ladder.",
+      "historyRequired": true
+    },
+    {
+      "id": "EVOLUTION_PATH_010",
+      "baseDisplayName": "Mercy Scalpel",
+      "stageOneName": "Field Surgeon’s Edge",
+      "stageTwoName": "Hands That Refused the Count",
+      "meaningfulHistoryTrigger": "Perform meaningful emergency healing after a failed check.",
+      "forgeStageRequired": 2,
+      "materialRequirements": [
+        "MATERIAL_EQUIPMENT_FRAGMENT"
+      ],
+      "behaviorChange": "Adds a context-specific behavior and records its reason; not a flat +1/+2/+3 ladder.",
+      "historyRequired": true
+    },
+    {
+      "id": "EVOLUTION_PATH_011",
+      "baseDisplayName": "Gatewatch Round Shield",
+      "stageOneName": "Gatewatch Bulwark",
+      "stageTwoName": "First Wall of the Guild",
+      "meaningfulHistoryTrigger": "Intercept lethal attacks and keep Cohesion above zero.",
+      "forgeStageRequired": 2,
+      "materialRequirements": [
+        "MATERIAL_EQUIPMENT_FRAGMENT"
+      ],
+      "behaviorChange": "Adds a context-specific behavior and records its reason; not a flat +1/+2/+3 ladder.",
+      "historyRequired": true
+    },
+    {
+      "id": "EVOLUTION_PATH_012",
+      "baseDisplayName": "Aegis Practice Plate",
+      "stageOneName": "Aegis Covenant Plate",
+      "stageTwoName": "Shield Chosen by Civilians",
+      "meaningfulHistoryTrigger": "Pass Floor 10 protection trial and receive Aegis acceptance.",
+      "forgeStageRequired": 2,
+      "materialRequirements": [
+        "MATERIAL_EQUIPMENT_FRAGMENT"
+      ],
+      "behaviorChange": "Adds a context-specific behavior and records its reason; not a flat +1/+2/+3 ladder.",
+      "historyRequired": true
+    },
+    {
+      "id": "EVOLUTION_PATH_013",
+      "baseDisplayName": "Gateworker Grip",
+      "stageOneName": "Builder’s Grip",
+      "stageTwoName": "Hands That Raised Skyhome",
+      "meaningfulHistoryTrigger": "Complete construction and rescue checks.",
+      "forgeStageRequired": 4,
+      "materialRequirements": [
+        "MATERIAL_EQUIPMENT_FRAGMENT"
+      ],
+      "behaviorChange": "Adds a context-specific behavior and records its reason; not a flat +1/+2/+3 ladder.",
+      "historyRequired": true
+    },
+    {
+      "id": "EVOLUTION_PATH_014",
+      "baseDisplayName": "Rescue Marshal Gauntlets",
+      "stageOneName": "Rescue Marshal Hands",
+      "stageTwoName": "No One Left in the Margin of the Map",
+      "meaningfulHistoryTrigger": "Extract three isolated allies from different boards.",
+      "forgeStageRequired": 4,
+      "materialRequirements": [
+        "MATERIAL_EQUIPMENT_FRAGMENT"
+      ],
+      "behaviorChange": "Adds a context-specific behavior and records its reason; not a flat +1/+2/+3 ladder.",
+      "historyRequired": true
+    },
+    {
+      "id": "EVOLUTION_PATH_015",
+      "baseDisplayName": "Field Medic Staff",
+      "stageOneName": "Triage Staff",
+      "stageTwoName": "Hospital Before Monument",
+      "meaningfulHistoryTrigger": "Contribute Abyss rewards to an infirmary upgrade.",
+      "forgeStageRequired": 4,
+      "materialRequirements": [
+        "MATERIAL_EQUIPMENT_FRAGMENT"
+      ],
+      "behaviorChange": "Adds a context-specific behavior and records its reason; not a flat +1/+2/+3 ladder.",
+      "historyRequired": true
+    },
+    {
+      "id": "EVOLUTION_PATH_016",
+      "baseDisplayName": "Resonance Shepherd Staff",
+      "stageOneName": "Echo Shepherd Staff",
+      "stageTwoName": "Covenant Without Ownership",
+      "meaningfulHistoryTrigger": "Meaningfully invoke three different Echo roles without exploitative use.",
+      "forgeStageRequired": 4,
+      "materialRequirements": [
+        "MATERIAL_EQUIPMENT_FRAGMENT",
+        "MATERIAL_RESONANCE_THREAD"
+      ],
+      "behaviorChange": "Adds a context-specific behavior and records its reason; not a flat +1/+2/+3 ladder.",
+      "historyRequired": true
+    },
+    {
+      "id": "EVOLUTION_PATH_017",
+      "baseDisplayName": "Copper Rune Focus",
+      "stageOneName": "Gate-Rune Focus",
+      "stageTwoName": "A Rule Shared Freely",
+      "meaningfulHistoryTrigger": "Teach a compatible Art through mentorship.",
+      "forgeStageRequired": 4,
+      "materialRequirements": [
+        "MATERIAL_EQUIPMENT_FRAGMENT",
+        "MATERIAL_RESONANCE_THREAD"
+      ],
+      "behaviorChange": "Adds a context-specific behavior and records its reason; not a flat +1/+2/+3 ladder.",
+      "historyRequired": true
+    },
+    {
+      "id": "EVOLUTION_PATH_018",
+      "baseDisplayName": "Ash General Map Focus",
+      "stageOneName": "Ash Strategy Focus",
+      "stageTwoName": "Victory Without Sacrifice",
+      "meaningfulHistoryTrigger": "Win a multi-Union battle with no incapacitated allies.",
+      "forgeStageRequired": 4,
+      "materialRequirements": [
+        "MATERIAL_EQUIPMENT_FRAGMENT",
+        "MATERIAL_RESONANCE_THREAD"
+      ],
+      "behaviorChange": "Adds a context-specific behavior and records its reason; not a flat +1/+2/+3 ladder.",
+      "historyRequired": true
+    },
+    {
+      "id": "EVOLUTION_PATH_019",
+      "baseDisplayName": "Copperspark Field Rig",
+      "stageOneName": "Copperspark Builder Rig",
+      "stageTwoName": "Workshop Beyond the Gate",
+      "meaningfulHistoryTrigger": "Repair a route, artifact, and Guild facility.",
+      "forgeStageRequired": 4,
+      "materialRequirements": [
+        "MATERIAL_EQUIPMENT_FRAGMENT",
+        "MATERIAL_RESONANCE_THREAD"
+      ],
+      "behaviorChange": "Adds a context-specific behavior and records its reason; not a flat +1/+2/+3 ladder.",
+      "historyRequired": true
+    },
+    {
+      "id": "EVOLUTION_PATH_020",
+      "baseDisplayName": "Brasswhistle Signal Horn",
+      "stageOneName": "Guild Signal Horn",
+      "stageTwoName": "Every Union Hears",
+      "meaningfulHistoryTrigger": "Coordinate three Unions in one operation.",
+      "forgeStageRequired": 4,
+      "materialRequirements": [
+        "MATERIAL_EQUIPMENT_FRAGMENT",
+        "MATERIAL_RESONANCE_THREAD"
+      ],
+      "behaviorChange": "Adds a context-specific behavior and records its reason; not a flat +1/+2/+3 ladder.",
+      "historyRequired": true
+    },
+    {
+      "id": "EVOLUTION_PATH_021",
+      "baseDisplayName": "Gate-Rune Spellblade",
+      "stageOneName": "Worldroad Spellblade",
+      "stageTwoName": "Edge Between Laws",
+      "meaningfulHistoryTrigger": "Qualify for a Martial/Mystic advanced class through meaningful use.",
+      "forgeStageRequired": 4,
+      "materialRequirements": [
+        "MATERIAL_EQUIPMENT_FRAGMENT",
+        "MATERIAL_RESONANCE_THREAD"
+      ],
+      "behaviorChange": "Adds a context-specific behavior and records its reason; not a flat +1/+2/+3 ladder.",
+      "historyRequired": true
+    },
+    {
+      "id": "EVOLUTION_PATH_022",
+      "baseDisplayName": "Aegis Conductor Lance",
+      "stageOneName": "Aegis Resonance Lance",
+      "stageTwoName": "Barrier That Answers",
+      "meaningfulHistoryTrigger": "Combine Guard and Mystic protection during a boss telegraph.",
+      "forgeStageRequired": 4,
+      "materialRequirements": [
+        "MATERIAL_EQUIPMENT_FRAGMENT",
+        "MATERIAL_RESONANCE_THREAD"
+      ],
+      "behaviorChange": "Adds a context-specific behavior and records its reason; not a flat +1/+2/+3 ladder.",
+      "historyRequired": true
+    },
+    {
+      "id": "EVOLUTION_PATH_023",
+      "baseDisplayName": "Cardboard Wing Charm",
+      "stageOneName": "Mended Wing Charm",
+      "stageTwoName": "The Small Thing That Came Home",
+      "meaningfulHistoryTrigger": "Survive five expeditions and record a relationship memory.",
+      "forgeStageRequired": 4,
+      "materialRequirements": [
+        "MATERIAL_EQUIPMENT_FRAGMENT",
+        "MATERIAL_RESONANCE_THREAD"
+      ],
+      "behaviorChange": "Adds a context-specific behavior and records its reason; not a flat +1/+2/+3 ladder.",
+      "historyRequired": true
+    },
+    {
+      "id": "EVOLUTION_PATH_024",
+      "baseDisplayName": "Survey Prism",
+      "stageOneName": "World Survey Prism",
+      "stageTwoName": "Map That Includes Everyone",
+      "meaningfulHistoryTrigger": "Discover ordinary secrets in five distinct board profiles.",
+      "forgeStageRequired": 4,
+      "materialRequirements": [
+        "MATERIAL_EQUIPMENT_FRAGMENT",
+        "MATERIAL_RESONANCE_THREAD"
+      ],
+      "behaviorChange": "Adds a context-specific behavior and records its reason; not a flat +1/+2/+3 ladder.",
+      "historyRequired": true
+    }
+  ]
+}

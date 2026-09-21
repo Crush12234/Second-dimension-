@@ -1,0 +1,59 @@
+{
+  "contentVersion": "FINAL_SUPERSESSION_PIPELINE_030_1.0",
+  "title": "Final Supersession and Pipeline Reconciliation 030",
+  "baseContentVersion": "FINAL_PEOPLE_CREATOR_CONSOLIDATION_029_1.0",
+  "saveFormatVersion": 11,
+  "activeBuildLabel": "0.30.0-owner-review",
+  "activePipeline": "05_RUN_COMPLETE_FINAL_SUPERSESSION_PIPELINE_030.cmd",
+  "requiredPackages": [
+    "com.unity.nuget.newtonsoft-json",
+    "com.unity.test-framework",
+    "com.unity.ugui"
+  ],
+  "forbiddenPackages": [
+    "com.unity.cinemachine",
+    "com.unity.ai.navigation",
+    "com.unity.animation.rigging",
+    "com.unity.behavior",
+    "com.unity.recorder",
+    "com.unity.timeline",
+    "com.unity.dt.app-ui"
+  ],
+  "releaseManifests": [
+    {
+      "resourcePath": "SecondDimension/Release023/Data/FinalGameReleaseManifest023",
+      "minimumSaveVersion": 10
+    },
+    {
+      "resourcePath": "SecondDimension/Release024/Data/FullGameIntegrationManifest024",
+      "minimumSaveVersion": 10
+    },
+    {
+      "resourcePath": "SecondDimension/Release025/Data/ImplementationHardeningManifest025",
+      "minimumSaveVersion": 10
+    },
+    {
+      "resourcePath": "SecondDimension/Release026/FINAL_EXECUTION_MANIFEST_026",
+      "minimumSaveVersion": 10
+    },
+    {
+      "resourcePath": "SecondDimension/Release029/Data/FinalPeopleCreatorManifest029",
+      "minimumSaveVersion": 11
+    },
+    {
+      "resourcePath": "SecondDimension/Creator028/Data/CreatorManifest028",
+      "minimumSaveVersion": 11
+    }
+  ],
+  "migrationIds": [
+    "save_v9_to_v10_world_gate_expedition_runtime_023_defaults",
+    "save_v10_to_v11_creator_codes_rooms_028_defaults"
+  ],
+  "hardLaws": [
+    "Older validators and tests assert minimum introduced save schemas, never permanent ownership of the newest schema.",
+    "Save format 11 remains authoritative and retains the complete v1 through v11 migration chain.",
+    "Cinemachine and other removed packages remain forbidden unless active source creates a concrete compile dependency.",
+    "Legacy launchers route to the active Release 030 pipeline rather than building obsolete branches.",
+    "No gameplay, reward, battle, campaign, relationship, Creator, People, or save authority is duplicated."
+  ]
+}

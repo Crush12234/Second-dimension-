@@ -1,0 +1,150 @@
+{
+  "contractVersion": "1.0",
+  "fixtures": [
+    {
+      "path": "CONTENT/APPLICANT_BOARD_EXAMPLES_20.json",
+      "sha256": "07a4dc26ea71321591fc471ba908b8ade3fb7de05294f9306321306cdeef40e8",
+      "bytes": 939448
+    },
+    {
+      "path": "CONTENT/APPLICANT_BOARD_FIXTURE_INDEX.md",
+      "sha256": "b7618e27cb92fea2b2fcb01431e727571d1ac39e5062191dcef66eda99567e4e",
+      "bytes": 1634
+    },
+    {
+      "path": "CONTENT/FORECAST_SCENARIO_EXAMPLES.json",
+      "sha256": "888cae9f20828664805430bcb542c4c87b2122ee4e6e52eda5b47fbc8d9d3618",
+      "bytes": 230889
+    },
+    {
+      "path": "CONTENT/OPENING_PROCEDURAL_RECRUIT_EXAMPLES.json",
+      "sha256": "dda2e32ac5ef926bfdc8bda26b7eaa863692e04ecb2aa883f84906cfbf090d70",
+      "bytes": 233137
+    },
+    {
+      "path": "CONTENT/PASS_02/DETERMINISTIC_FIXTURES.json",
+      "sha256": "953c5df9ad856d8d67469816af37b4d8836ec575e87063b32a5879342cbca6f4",
+      "bytes": 2525
+    },
+    {
+      "path": "CONTENT/PASS_02/PASS02_FIXTURES.json",
+      "sha256": "10e0faa3a52faaa749f6b21064573daa3c797cbf1bf189aed1d4472ccdb9576a",
+      "bytes": 977
+    },
+    {
+      "path": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "sha256": "4f5ab6d1dfd4c9a6cc1cac309767fe685b19a6030c3c878bc990aed08a2d244c",
+      "bytes": 87315
+    },
+    {
+      "path": "CONTENT/PASS_04/DETERMINISTIC_FIXTURES.json",
+      "sha256": "61eadd2ff7f6fce893d550a657c892593b4b89b343d23952533fa43f28dc5492",
+      "bytes": 33326
+    },
+    {
+      "path": "CONTENT/PASS_04/PASS04_FIXTURES.json",
+      "sha256": "07f411f7ad6fdaa2a72b4d88a89dc25a7e02d549d06a3eed0709966c1a57a6f9",
+      "bytes": 48857
+    },
+    {
+      "path": "CONTENT/PASS_05/DETERMINISTIC_FIXTURES.json",
+      "sha256": "9de12d51dddd6e196fbed360e4f91302bd0c64987fe13499935c13dd86f0680b",
+      "bytes": 2400
+    },
+    {
+      "path": "CONTENT/PASS_06/DETERMINISTIC_FIXTURES.json",
+      "sha256": "fba872224a0873a039ec7b0a86cfe705d17e9e2886ef1ecf401557d3216811bd",
+      "bytes": 13732
+    },
+    {
+      "path": "CONTENT/PASS_07/DETERMINISTIC_FIXTURES_PASS07.json",
+      "sha256": "82e7b466ada404b32765c39c5149000aa70e65cf6108333e876b163d878d0d7f",
+      "bytes": 14208
+    },
+    {
+      "path": "DATA/PASS09/PACING_FIXTURES_10000.json",
+      "sha256": "d0ef83a9772d71a905f6fef4e2bdcc290b8ec8c3974db7f643a411da27542c71",
+      "bytes": 1627502
+    },
+    {
+      "path": "DETERMINISTIC_FIXTURE_INDEX.md",
+      "sha256": "ebedcbcac39dc332815e8e577dae0b0d97e496171a49eb999737bcda0e2dd2f3",
+      "bytes": 3142
+    },
+    {
+      "path": "DETERMINISTIC_FIXTURE_INDEX_PASS04.md",
+      "sha256": "726f225d3bc2db4f8b45e383b8d8cee87959a4bcf41f03a71e2026eeb2a8d356",
+      "bytes": 489
+    },
+    {
+      "path": "DETERMINISTIC_FIXTURE_INDEX_PASS05.md",
+      "sha256": "4f289b4ea8c5cf7df033d7363836c40882d1cda1fe220f64853e60c7e97edc48",
+      "bytes": 749
+    },
+    {
+      "path": "DETERMINISTIC_FIXTURE_INDEX_PASS06.md",
+      "sha256": "567a6031e235e8066e74d1af69d3f22380637e76f076605091aac122e58e688a",
+      "bytes": 1227
+    },
+    {
+      "path": "DETERMINISTIC_FIXTURE_INDEX_PASS07.md",
+      "sha256": "9e4dd1a0db0325da744b5f6c51e7a95ad1a04ccf33ad76cf478b0693278a8729",
+      "bytes": 291
+    },
+    {
+      "path": "PRE_CODEX_FOUNDATION/TECH/PORTABLE_RNG_SPEC.md",
+      "sha256": "b27ab8dfe9a59e939cae7d5cec4c707868e430653311253651c3cc287dbfd95f",
+      "bytes": 2391
+    },
+    {
+      "path": "PRE_CODEX_FOUNDATION/TESTS/golden_vectors.json",
+      "sha256": "c0c8f1102ad97bce9793ff37478ce870b482cd40b0f82c53837493e8184dfc7f",
+      "bytes": 6430
+    },
+    {
+      "path": "PRE_CODEX_FOUNDATION/TESTS/opening_recruitment_golden_vectors.json",
+      "sha256": "19f03315bd7b5ba1518115d25d90139868baefb98801cfc46892042ecd43d782",
+      "bytes": 69560
+    },
+    {
+      "path": "PRE_CODEX_FOUNDATION/TESTS/pass02_golden_vectors.json",
+      "sha256": "9461f2afb0d815e4c8fd603f4f7713c6df120706d12b94264bfb70aa1afd34e0",
+      "bytes": 2946
+    },
+    {
+      "path": "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json",
+      "sha256": "95ff54b76b41b5513831694dc5b7b4e45f9dd7463beead28b750b5d9f1016287",
+      "bytes": 165807
+    },
+    {
+      "path": "PRE_CODEX_FOUNDATION/TESTS/pass04_golden_vectors.json",
+      "sha256": "61eadd2ff7f6fce893d550a657c892593b4b89b343d23952533fa43f28dc5492",
+      "bytes": 33326
+    },
+    {
+      "path": "PRE_CODEX_FOUNDATION/TESTS/pass05_golden_vectors.json",
+      "sha256": "0939e225529e48f26da5d8e4576bbffe2513ab09aff097152be992ee0cb7f1a8",
+      "bytes": 6451
+    },
+    {
+      "path": "PRE_CODEX_FOUNDATION/TESTS/pass06_golden_vectors.json",
+      "sha256": "d954845cd78f80d99e364d055062dbe86b716248eb1eb52c2a26e91c2c97527a",
+      "bytes": 4018
+    },
+    {
+      "path": "PRE_CODEX_FOUNDATION/TESTS/pass07_golden_vectors.json",
+      "sha256": "1d79a9e6cb483c98a905a80f2c61fe6dbd8495b670b28344436aa523cda56999",
+      "bytes": 11804
+    },
+    {
+      "path": "PRE_CODEX_FOUNDATION/TESTS/recruitment_forecast_golden_vectors.json",
+      "sha256": "379e394aaa6e4adf9d4f4adfa71abb39575786942705e98e9ca892900ab06fb2",
+      "bytes": 8865
+    },
+    {
+      "path": "SAMPLES/sample_opening_golden_vectors.json",
+      "sha256": "19f03315bd7b5ba1518115d25d90139868baefb98801cfc46892042ecd43d782",
+      "bytes": 69560
+    }
+  ]
+}

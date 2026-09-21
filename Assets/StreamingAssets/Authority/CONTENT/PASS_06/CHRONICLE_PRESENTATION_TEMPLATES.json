@@ -1,0 +1,269 @@
+{
+  "contentVersion": "GOW_PASS06_0.11",
+  "templates": [
+    {
+      "id": "CHRONICLE_TEMPLATE_01",
+      "titlePattern": "{name}, {epithet}",
+      "bodyPattern": "{name} became known not for a number, but for {history}.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_02",
+      "titlePattern": "The Day {name} Returned",
+      "bodyPattern": "The guild remembers {name} because {history} changed who could come home.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_03",
+      "titlePattern": "What the {union} Remembered",
+      "bodyPattern": "{union} records that {name} chose {history} when another path was easier.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_04",
+      "titlePattern": "The Tool That Learned {name}",
+      "bodyPattern": "The item {item} carries the marks of {history}.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_05",
+      "titlePattern": "A Road Built by {name}",
+      "bodyPattern": "Citizens tell the story of {history}, while the official Chronicle preserves the cost.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_06",
+      "titlePattern": "When {name} Refused the Easy Victory",
+      "bodyPattern": "The record leaves room for disagreement: {history}.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_07",
+      "titlePattern": "{name}, {epithet}",
+      "bodyPattern": "{name} became known not for a number, but for {history}.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_08",
+      "titlePattern": "The Day {name} Returned",
+      "bodyPattern": "The guild remembers {name} because {history} changed who could come home.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_09",
+      "titlePattern": "What the {union} Remembered",
+      "bodyPattern": "{union} records that {name} chose {history} when another path was easier.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_10",
+      "titlePattern": "The Tool That Learned {name}",
+      "bodyPattern": "The item {item} carries the marks of {history}.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_11",
+      "titlePattern": "A Road Built by {name}",
+      "bodyPattern": "Citizens tell the story of {history}, while the official Chronicle preserves the cost.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_12",
+      "titlePattern": "When {name} Refused the Easy Victory",
+      "bodyPattern": "The record leaves room for disagreement: {history}.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_13",
+      "titlePattern": "{name}, {epithet}",
+      "bodyPattern": "{name} became known not for a number, but for {history}.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_14",
+      "titlePattern": "The Day {name} Returned",
+      "bodyPattern": "The guild remembers {name} because {history} changed who could come home.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_15",
+      "titlePattern": "What the {union} Remembered",
+      "bodyPattern": "{union} records that {name} chose {history} when another path was easier.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_16",
+      "titlePattern": "The Tool That Learned {name}",
+      "bodyPattern": "The item {item} carries the marks of {history}.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_17",
+      "titlePattern": "A Road Built by {name}",
+      "bodyPattern": "Citizens tell the story of {history}, while the official Chronicle preserves the cost.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_18",
+      "titlePattern": "When {name} Refused the Easy Victory",
+      "bodyPattern": "The record leaves room for disagreement: {history}.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_19",
+      "titlePattern": "{name}, {epithet}",
+      "bodyPattern": "{name} became known not for a number, but for {history}.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_20",
+      "titlePattern": "The Day {name} Returned",
+      "bodyPattern": "The guild remembers {name} because {history} changed who could come home.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_21",
+      "titlePattern": "What the {union} Remembered",
+      "bodyPattern": "{union} records that {name} chose {history} when another path was easier.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_22",
+      "titlePattern": "The Tool That Learned {name}",
+      "bodyPattern": "The item {item} carries the marks of {history}.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_23",
+      "titlePattern": "A Road Built by {name}",
+      "bodyPattern": "Citizens tell the story of {history}, while the official Chronicle preserves the cost.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    },
+    {
+      "id": "CHRONICLE_TEMPLATE_24",
+      "titlePattern": "When {name} Refused the Easy Victory",
+      "bodyPattern": "The record leaves room for disagreement: {history}.",
+      "requiredFields": [
+        "name",
+        "epithet",
+        "history"
+      ],
+      "neverClaimsOwnership": true
+    }
+  ]
+}

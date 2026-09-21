@@ -1,0 +1,649 @@
+{
+  "contentVersion": "GUILD_CITY_CANON_EVENTS_017H_1.0",
+  "classifications": [
+    "HISTORICAL_CHRONICLE",
+    "CANON_ECHO",
+    "CAMPAIGN_CANON",
+    "FUTURE_LOCKED",
+    "WHAT_IF_SANDBOX"
+  ],
+  "sandboxEnabled": false,
+  "events": [
+    {
+      "id": "CANON_HIST_FIVE_MINUTE_WAR",
+      "displayName": "Chronicle: The Five Minute War",
+      "classification": "HISTORICAL_CHRONICLE",
+      "requiredStoryGate": "STORY_GATE_CHRONICLE_UNLOCKED",
+      "availableInOpening": false,
+      "outcomeLocked": true,
+      "defenseProfileId": "",
+      "summary": "Replays the ethical and tactical lesson of the first decisive battle without changing its outcome.",
+      "sourceAuthority": [
+        "Book One: Five Minute War"
+      ],
+      "consequences": [],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_HIST_FIRST_CITIZENS",
+      "displayName": "Chronicle: The First Citizens",
+      "classification": "HISTORICAL_CHRONICLE",
+      "requiredStoryGate": "STORY_GATE_CHRONICLE_UNLOCKED",
+      "availableInOpening": false,
+      "outcomeLocked": true,
+      "defenseProfileId": "",
+      "summary": "Preserves the choice to make mercy into citizenship and law.",
+      "sourceAuthority": [
+        "Book One: First Citizens"
+      ],
+      "consequences": [],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_HIST_FIRST_KINGDOM",
+      "displayName": "Chronicle: The First Kingdom",
+      "classification": "HISTORICAL_CHRONICLE",
+      "requiredStoryGate": "STORY_GATE_CHRONICLE_UNLOCKED",
+      "availableInOpening": false,
+      "outcomeLocked": true,
+      "defenseProfileId": "",
+      "summary": "Shows shelter, food, work, protection, and law becoming a mixed civilization.",
+      "sourceAuthority": [
+        "Book One: First Kingdom/First City"
+      ],
+      "consequences": [],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_HIST_LAST_FORTRESS_WAR",
+      "displayName": "Chronicle: The Last Fortress War",
+      "classification": "HISTORICAL_CHRONICLE",
+      "requiredStoryGate": "STORY_GATE_CHRONICLE_UNLOCKED",
+      "availableInOpening": false,
+      "outcomeLocked": true,
+      "defenseProfileId": "DEF_PROFILE_LAST_FORTRESS_CHRONICLE",
+      "summary": "A tactical defense chronicle of the fortress conflict that cannot rewrite the published victory.",
+      "sourceAuthority": [
+        "Book One: Last Fortress War"
+      ],
+      "consequences": [],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_HIST_SKYHOME_FEAR",
+      "displayName": "Chronicle: Skyhome at the Wall",
+      "classification": "HISTORICAL_CHRONICLE",
+      "requiredStoryGate": "STORY_GATE_CHRONICLE_UNLOCKED",
+      "availableInOpening": false,
+      "outcomeLocked": true,
+      "defenseProfileId": "",
+      "summary": "Examines how an isolated fortress mistook a mixed alliance for invasion.",
+      "sourceAuthority": [
+        "Book One: Skyhome defensive fear"
+      ],
+      "consequences": [],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_HIST_FIRST_GATE_AWAKENS",
+      "displayName": "Chronicle: The First Gate Awakens",
+      "classification": "HISTORICAL_CHRONICLE",
+      "requiredStoryGate": "STORY_GATE_FIRST_GATE_AWAKENED",
+      "availableInOpening": false,
+      "outcomeLocked": true,
+      "defenseProfileId": "",
+      "summary": "Records the First Gate awakening without revealing final System truth.",
+      "sourceAuthority": [
+        "Book One: First Gate"
+      ],
+      "consequences": [],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_HIST_REMNANT_WALL",
+      "displayName": "Chronicle: The Remnant Wall",
+      "classification": "HISTORICAL_CHRONICLE",
+      "requiredStoryGate": "STORY_GATE_CHRONICLE_UNLOCKED",
+      "availableInOpening": false,
+      "outcomeLocked": true,
+      "defenseProfileId": "",
+      "summary": "Preserves public memory and the cost of survival.",
+      "sourceAuthority": [
+        "Book One: Remnant Wall"
+      ],
+      "consequences": [],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_HIST_MERCY_EXCHANGE",
+      "displayName": "Chronicle: Mercy Exchange",
+      "classification": "HISTORICAL_CHRONICLE",
+      "requiredStoryGate": "STORY_GATE_CHRONICLE_UNLOCKED",
+      "availableInOpening": false,
+      "outcomeLocked": true,
+      "defenseProfileId": "",
+      "summary": "Frames XP and trade as civic responsibility rather than exploitation.",
+      "sourceAuthority": [
+        "Book One: Mercy Exchange"
+      ],
+      "consequences": [],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_HIST_CHAMBER_MEMORIES",
+      "displayName": "Chronicle: Chamber of Memories",
+      "classification": "HISTORICAL_CHRONICLE",
+      "requiredStoryGate": "STORY_GATE_CHRONICLE_UNLOCKED",
+      "availableInOpening": false,
+      "outcomeLocked": true,
+      "defenseProfileId": "",
+      "summary": "Preserves memory, children, and civic identity.",
+      "sourceAuthority": [
+        "Book One: Chamber of Memories"
+      ],
+      "consequences": [],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_HIST_FOUNDERS_OATHS",
+      "displayName": "Chronicle: The Seven Oaths",
+      "classification": "HISTORICAL_CHRONICLE",
+      "requiredStoryGate": "STORY_GATE_CHRONICLE_UNLOCKED",
+      "availableInOpening": false,
+      "outcomeLocked": true,
+      "defenseProfileId": "",
+      "summary": "Rehearses the Founders as independent civic leaders, never owned units.",
+      "sourceAuthority": [
+        "Book One: Seven Founders"
+      ],
+      "consequences": [],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_HIST_MIXED_ARMY_ROAD",
+      "displayName": "Chronicle: The Mixed Army Road",
+      "classification": "HISTORICAL_CHRONICLE",
+      "requiredStoryGate": "STORY_GATE_CHRONICLE_UNLOCKED",
+      "availableInOpening": false,
+      "outcomeLocked": true,
+      "defenseProfileId": "",
+      "summary": "Shows former enemies defending one civilization together.",
+      "sourceAuthority": [
+        "Book One: mixed army/ancient road"
+      ],
+      "consequences": [],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_HIST_ACCORD",
+      "displayName": "Chronicle: The Accord",
+      "classification": "HISTORICAL_CHRONICLE",
+      "requiredStoryGate": "STORY_GATE_ACCORD_SIGNED",
+      "availableInOpening": false,
+      "outcomeLocked": true,
+      "defenseProfileId": "",
+      "summary": "Records bounded institutions and international responsibility.",
+      "sourceAuthority": [
+        "Reader First Book Three: Accord"
+      ],
+      "consequences": [],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_ECHO_BELL_WARNING",
+      "displayName": "The Bell Rings Twice",
+      "classification": "CANON_ECHO",
+      "requiredStoryGate": "STORY_GATE_OPENING_GUILD",
+      "availableInOpening": true,
+      "outcomeLocked": false,
+      "defenseProfileId": "DEF_PROFILE_FIRST_BELL_DRILL",
+      "summary": "A warning bell creates a defense contract and rescue obligation.",
+      "sourceAuthority": [],
+      "consequences": [
+        "Guild/Civic growth",
+        "Relationship memory",
+        "Possible defense operation"
+      ],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_ECHO_GATE_GNAWERS",
+      "displayName": "Gnawers at the Service Gate",
+      "classification": "CANON_ECHO",
+      "requiredStoryGate": "STORY_GATE_OPENING_GUILD",
+      "availableInOpening": true,
+      "outcomeLocked": false,
+      "defenseProfileId": "DEF_PROFILE_GATE_GNAWER_RAID",
+      "summary": "A small hostile pack tests the city without defining all goblins as enemies.",
+      "sourceAuthority": [],
+      "consequences": [
+        "Guild/Civic growth",
+        "Relationship memory",
+        "Possible defense operation"
+      ],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_ECHO_RIDGE_SMOKE",
+      "displayName": "Smoke on the Western Ridge",
+      "classification": "CANON_ECHO",
+      "requiredStoryGate": "STORY_GATE_OPENING_GUILD",
+      "availableInOpening": true,
+      "outcomeLocked": false,
+      "defenseProfileId": "DEF_PROFILE_WESTERN_RIDGE_SCOUTS",
+      "summary": "Scouts report movement and the player chooses preparation over panic.",
+      "sourceAuthority": [],
+      "consequences": [
+        "Guild/Civic growth",
+        "Relationship memory",
+        "Possible defense operation"
+      ],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_ECHO_RELIEF_ROAD",
+      "displayName": "Relief Road Alarm",
+      "classification": "CANON_ECHO",
+      "requiredStoryGate": "STORY_GATE_OPENING_GUILD",
+      "availableInOpening": true,
+      "outcomeLocked": false,
+      "defenseProfileId": "DEF_PROFILE_RELIEF_CONVOY_ATTACK",
+      "summary": "A convoy attack ties defense to supplies and civilians.",
+      "sourceAuthority": [],
+      "consequences": [
+        "Guild/Civic growth",
+        "Relationship memory",
+        "Possible defense operation"
+      ],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_ECHO_MYSTIC_SHELLING",
+      "displayName": "Wardglass Under Fire",
+      "classification": "CANON_ECHO",
+      "requiredStoryGate": "STORY_GATE_OPENING_GUILD",
+      "availableInOpening": true,
+      "outcomeLocked": false,
+      "defenseProfileId": "DEF_PROFILE_MYSTIC_BOMBARDMENT",
+      "summary": "Mystic bombardment tests Ward pylons and healers.",
+      "sourceAuthority": [],
+      "consequences": [
+        "Guild/Civic growth",
+        "Relationship memory",
+        "Possible defense operation"
+      ],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_ECHO_LOWER_WORKS",
+      "displayName": "Saboteurs in the Lower Works",
+      "classification": "CANON_ECHO",
+      "requiredStoryGate": "STORY_GATE_OPENING_GUILD",
+      "availableInOpening": true,
+      "outcomeLocked": false,
+      "defenseProfileId": "DEF_PROFILE_UNDERCITY_INFILTRATION",
+      "summary": "Infiltrators threaten workshops and service tunnels.",
+      "sourceAuthority": [],
+      "consequences": [
+        "Guild/Civic growth",
+        "Relationship memory",
+        "Possible defense operation"
+      ],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_ECHO_EVACUATION",
+      "displayName": "Move the Children First",
+      "classification": "CANON_ECHO",
+      "requiredStoryGate": "STORY_GATE_OPENING_GUILD",
+      "availableInOpening": true,
+      "outcomeLocked": false,
+      "defenseProfileId": "DEF_PROFILE_EVACUATION_UNDER_FIRE",
+      "summary": "Defense prioritizes evacuation and shelter integrity.",
+      "sourceAuthority": [],
+      "consequences": [
+        "Guild/Civic growth",
+        "Relationship memory",
+        "Possible defense operation"
+      ],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_ECHO_FIRST_GATE_PULSE",
+      "displayName": "A Pulse from the First Gate",
+      "classification": "CANON_ECHO",
+      "requiredStoryGate": "STORY_GATE_OPENING_GUILD",
+      "availableInOpening": true,
+      "outcomeLocked": false,
+      "defenseProfileId": "DEF_PROFILE_FIRST_GATE_ANOMALY",
+      "summary": "A contained anomaly produces a defense operation without revealing final truth.",
+      "sourceAuthority": [],
+      "consequences": [
+        "Guild/Civic growth",
+        "Relationship memory",
+        "Possible defense operation"
+      ],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_ECHO_SUPPLY_FIRE",
+      "displayName": "Warehouse Fire Under Attack",
+      "classification": "CANON_ECHO",
+      "requiredStoryGate": "STORY_GATE_OPENING_GUILD",
+      "availableInOpening": true,
+      "outcomeLocked": false,
+      "defenseProfileId": "",
+      "summary": "Logistics staff and combat Unions must preserve supplies.",
+      "sourceAuthority": [],
+      "consequences": [
+        "Guild/Civic growth",
+        "Relationship memory",
+        "Possible defense operation"
+      ],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_ECHO_RECRUIT_DRILL",
+      "displayName": "Applicants at the Alarm",
+      "classification": "CANON_ECHO",
+      "requiredStoryGate": "STORY_GATE_OPENING_GUILD",
+      "availableInOpening": true,
+      "outcomeLocked": false,
+      "defenseProfileId": "DEF_PROFILE_FIRST_BELL_DRILL",
+      "summary": "Applicants observe a defense drill that affects recruitment and trust.",
+      "sourceAuthority": [],
+      "consequences": [
+        "Guild/Civic growth",
+        "Relationship memory",
+        "Possible defense operation"
+      ],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_ECHO_MEMORY_FESTIVAL",
+      "displayName": "Festival of the Remnant Wall",
+      "classification": "CANON_ECHO",
+      "requiredStoryGate": "STORY_GATE_OPENING_GUILD",
+      "availableInOpening": true,
+      "outcomeLocked": false,
+      "defenseProfileId": "",
+      "summary": "A public Chronicle event grants growth through history rather than combat alone.",
+      "sourceAuthority": [],
+      "consequences": [
+        "Guild/Civic growth",
+        "Relationship memory",
+        "Possible defense operation"
+      ],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_ECHO_CIVIC_COUNCIL",
+      "displayName": "Council Under Warning",
+      "classification": "CANON_ECHO",
+      "requiredStoryGate": "STORY_GATE_OPENING_GUILD",
+      "availableInOpening": true,
+      "outcomeLocked": false,
+      "defenseProfileId": "",
+      "summary": "The city makes a reversible defense decision with visible costs.",
+      "sourceAuthority": [],
+      "consequences": [
+        "Guild/Civic growth",
+        "Relationship memory",
+        "Possible defense operation"
+      ],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_FUTURE_XP_COUNCIL",
+      "displayName": "The Last Treasury Council",
+      "classification": "FUTURE_LOCKED",
+      "requiredStoryGate": "STORY_GATE_BOOK6_LAST_TREASURY",
+      "availableInOpening": false,
+      "outcomeLocked": true,
+      "defenseProfileId": "",
+      "summary": "The city confronts the true XP cost of food, medicine, roads, research, and defense.",
+      "sourceAuthority": [
+        "Locked later canon"
+      ],
+      "consequences": [],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_FUTURE_SECOND_EVOLUTION",
+      "displayName": "Second Evolution Ceremony",
+      "classification": "FUTURE_LOCKED",
+      "requiredStoryGate": "STORY_GATE_BOOK6_SECOND_EVOLUTION",
+      "availableInOpening": false,
+      "outcomeLocked": true,
+      "defenseProfileId": "",
+      "summary": "The Founders evolve through authored story authority; this is never a normal recruit upgrade.",
+      "sourceAuthority": [
+        "Locked later canon"
+      ],
+      "consequences": [],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_FUTURE_KAEL_ABYSS",
+      "displayName": "Kael Descends",
+      "classification": "FUTURE_LOCKED",
+      "requiredStoryGate": "STORY_GATE_KAEL_ABYSS_DEPARTURE",
+      "availableInOpening": false,
+      "outcomeLocked": true,
+      "defenseProfileId": "",
+      "summary": "Kael enters the Abyss while Skyhome must prove it can survive without him.",
+      "sourceAuthority": [
+        "Locked later canon"
+      ],
+      "consequences": [],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_FUTURE_GOBLIN_SCOUTS",
+      "displayName": "Goblin Fortress Scouts",
+      "classification": "FUTURE_LOCKED",
+      "requiredStoryGate": "STORY_GATE_GOBLIN_FORTRESS_CONTACT",
+      "availableInOpening": false,
+      "outcomeLocked": true,
+      "defenseProfileId": "DEF_PROFILE_GOBLIN_FORTRESS_SCOUTING",
+      "summary": "The nearest hostile fortress confirms Skyhome as a target.",
+      "sourceAuthority": [
+        "Locked later canon"
+      ],
+      "consequences": [],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_FUTURE_GOBLIN_WAR",
+      "displayName": "The Goblin Fortress War",
+      "classification": "FUTURE_LOCKED",
+      "requiredStoryGate": "STORY_GATE_KAEL_ABYSS_DEPARTURE_AND_SECOND_EVOLUTION",
+      "availableInOpening": false,
+      "outcomeLocked": true,
+      "defenseProfileId": "DEF_PROFILE_GOBLIN_FORTRESS_WAR",
+      "summary": "A mass invasion of Skyhome resolved as a multi-front campaign using the certified Union battle engine.",
+      "sourceAuthority": [
+        "Locked later canon"
+      ],
+      "consequences": [],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_FUTURE_KIRI_GENERAL",
+      "displayName": "Kiri and the Invading General",
+      "classification": "FUTURE_LOCKED",
+      "requiredStoryGate": "STORY_GATE_GOBLIN_WAR_FINAL_WAVE",
+      "availableInOpening": false,
+      "outcomeLocked": true,
+      "defenseProfileId": "",
+      "summary": "Kiri confronts the enemy general and reframes goblin identity toward creation.",
+      "sourceAuthority": [
+        "Locked later canon"
+      ],
+      "consequences": [],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_FUTURE_GOBLIN_JOIN",
+      "displayName": "Ten Thousand Choose Skyhome",
+      "classification": "FUTURE_LOCKED",
+      "requiredStoryGate": "STORY_GATE_GOBLIN_WAR_AFTERMATH",
+      "availableInOpening": false,
+      "outcomeLocked": true,
+      "defenseProfileId": "",
+      "summary": "Some goblins voluntarily join after witnessing free goblin leadership; no species-wide moral claim is made.",
+      "sourceAuthority": [
+        "Locked later canon"
+      ],
+      "consequences": [],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_FUTURE_FORTRESS_CAPTURED",
+      "displayName": "The Captured Goblin Fortress",
+      "classification": "FUTURE_LOCKED",
+      "requiredStoryGate": "STORY_GATE_GOBLIN_WAR_CAMPAIGN_COMPLETE",
+      "availableInOpening": false,
+      "outcomeLocked": true,
+      "defenseProfileId": "DEF_PROFILE_SKYHOME_THREE_FRONT_SIEGE",
+      "summary": "The fortress is secured and reveals a controlled route toward the Goblin World.",
+      "sourceAuthority": [
+        "Locked later canon"
+      ],
+      "consequences": [],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_FUTURE_GOBLIN_GATE",
+      "displayName": "Threshold to the Goblin World",
+      "classification": "FUTURE_LOCKED",
+      "requiredStoryGate": "STORY_GATE_GOBLIN_FORTRESS_CAPTURED",
+      "availableInOpening": false,
+      "outcomeLocked": true,
+      "defenseProfileId": "",
+      "summary": "The route exists but remains controlled and story-gated.",
+      "sourceAuthority": [
+        "Locked later canon"
+      ],
+      "consequences": [],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_FUTURE_TIME_LAW",
+      "displayName": "The Unequal Clocks",
+      "classification": "FUTURE_LOCKED",
+      "requiredStoryGate": "STORY_GATE_GOBLIN_WORLD_THRESHOLD",
+      "availableInOpening": false,
+      "outcomeLocked": true,
+      "defenseProfileId": "",
+      "summary": "Cross-world time affects supply, consent, planning, and return without becoming a universal simple ratio.",
+      "sourceAuthority": [
+        "Locked later canon"
+      ],
+      "consequences": [],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_FUTURE_SKYHOME_SURVIVES",
+      "displayName": "Skyhome Survives Without Kael",
+      "classification": "FUTURE_LOCKED",
+      "requiredStoryGate": "STORY_GATE_GOBLIN_WAR_CAMPAIGN_COMPLETE",
+      "availableInOpening": false,
+      "outcomeLocked": true,
+      "defenseProfileId": "",
+      "summary": "The System confirms the city survived through its people and institutions.",
+      "sourceAuthority": [
+        "Locked later canon"
+      ],
+      "consequences": [],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    },
+    {
+      "id": "CANON_FUTURE_FIRST_ALLIANCE_HINT",
+      "displayName": "Architecture of a Forgotten Alliance",
+      "classification": "FUTURE_LOCKED",
+      "requiredStoryGate": "STORY_GATE_GOBLIN_FORTRESS_CAPTURED",
+      "availableInOpening": false,
+      "outcomeLocked": true,
+      "defenseProfileId": "",
+      "summary": "Records and architecture foreshadow the First Alliance without revealing final World Cycle truth.",
+      "sourceAuthority": [
+        "Locked later canon"
+      ],
+      "consequences": [],
+      "canRewritePublishedCanon": false,
+      "revealsProtectedSystemTruth": false,
+      "canCauseInvoluntaryDeparture": false
+    }
+  ]
+}

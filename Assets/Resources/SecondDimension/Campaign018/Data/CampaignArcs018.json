@@ -1,0 +1,262 @@
+{
+  "arcs": [
+    {
+      "id": "ARC018_FIRST_GATE_ECHOES",
+      "name": "First Gate Echoes",
+      "worldId": "SKYHOME",
+      "order": 1,
+      "canonStatus": "CANON_DERIVED_CURRENT_ERA",
+      "chapterIds": [
+        "CH018_001",
+        "CH018_002",
+        "CH018_003",
+        "CH018_004",
+        "CH018_005",
+        "CH018_006"
+      ],
+      "previousArcId": null,
+      "nextArcId": "ARC018_LAST_TREASURY",
+      "requiresOwnerOrStoryGate": false,
+      "completionOutcome": "Unlock next story gate, world access, city specialization, or recoverable alternate route.",
+      "noConquestChecklist": true
+    },
+    {
+      "id": "ARC018_LAST_TREASURY",
+      "name": "The Last Treasury and Seven Stars",
+      "worldId": "SKYHOME",
+      "order": 2,
+      "canonStatus": "FUTURE_CANON_LOCKED",
+      "chapterIds": [
+        "CH018_007",
+        "CH018_008",
+        "CH018_009",
+        "CH018_010",
+        "CH018_011",
+        "CH018_012"
+      ],
+      "previousArcId": "ARC018_FIRST_GATE_ECHOES",
+      "nextArcId": "ARC018_GOBLIN_FORTRESS_WAR",
+      "requiresOwnerOrStoryGate": true,
+      "completionOutcome": "Unlock next story gate, world access, city specialization, or recoverable alternate route.",
+      "noConquestChecklist": true,
+      "unlockGates": [
+        "COMPLETE:ARC018_FIRST_GATE_ECHOES"
+      ]
+    },
+    {
+      "id": "ARC018_GOBLIN_FORTRESS_WAR",
+      "name": "The Goblin Fortress War",
+      "worldId": "WORLD_GOBLIN_001",
+      "order": 3,
+      "canonStatus": "FUTURE_CANON_LOCKED",
+      "chapterIds": [
+        "CH018_013",
+        "CH018_014",
+        "CH018_015",
+        "CH018_016",
+        "CH018_017",
+        "CH018_018",
+        "CH018_019",
+        "CH018_020",
+        "CH018_021",
+        "CH018_022"
+      ],
+      "previousArcId": "ARC018_LAST_TREASURY",
+      "nextArcId": "ARC018_GOBLIN_WORLD",
+      "requiresOwnerOrStoryGate": true,
+      "completionOutcome": "Unlock next story gate, world access, city specialization, or recoverable alternate route.",
+      "noConquestChecklist": true,
+      "unlockGates": [
+        "COMPLETE:ARC018_LAST_TREASURY",
+        "STORY:KAEL_IN_ENDLESS_ABYSS",
+        "STORY:FOUNDERS_SECOND_EVOLUTION_COMPLETE"
+      ]
+    },
+    {
+      "id": "ARC018_GOBLIN_WORLD",
+      "name": "Goblin World: The Broken Promise Calendar",
+      "worldId": "WORLD_GOBLIN_001",
+      "order": 4,
+      "canonStatus": "CANON_FOUNDATION_CAMPAIGN_IMPLEMENTATION",
+      "chapterIds": [
+        "CH018_023",
+        "CH018_024",
+        "CH018_025",
+        "CH018_026",
+        "CH018_027",
+        "CH018_028",
+        "CH018_029",
+        "CH018_030",
+        "CH018_031",
+        "CH018_032",
+        "CH018_033",
+        "CH018_034"
+      ],
+      "previousArcId": "ARC018_GOBLIN_FORTRESS_WAR",
+      "nextArcId": "ARC018_ORC_WORLD",
+      "requiresOwnerOrStoryGate": false,
+      "completionOutcome": "Unlock next story gate, world access, city specialization, or recoverable alternate route.",
+      "noConquestChecklist": true,
+      "unlockGates": [
+        "COMPLETE:ARC018_GOBLIN_FORTRESS_WAR",
+        "STORY:GOBLIN_FORTRESS_CAPTURED"
+      ]
+    },
+    {
+      "id": "ARC018_ORC_WORLD",
+      "name": "Orc World: The Shield Reformation",
+      "worldId": "WORLD_ORC_002",
+      "order": 5,
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE_CANON_SAFE",
+      "chapterIds": [
+        "CH018_035",
+        "CH018_036",
+        "CH018_037",
+        "CH018_038",
+        "CH018_039",
+        "CH018_040",
+        "CH018_041",
+        "CH018_042"
+      ],
+      "previousArcId": "ARC018_GOBLIN_WORLD",
+      "nextArcId": "ARC018_BEASTKIN_WORLD",
+      "requiresOwnerOrStoryGate": false,
+      "completionOutcome": "Unlock next story gate, world access, city specialization, or recoverable alternate route.",
+      "noConquestChecklist": true,
+      "unlockGates": [
+        "COMPLETE:ARC018_GOBLIN_WORLD",
+        "OWNER_OR_CAMPAIGN_ORDER_APPROVAL"
+      ]
+    },
+    {
+      "id": "ARC018_BEASTKIN_WORLD",
+      "name": "Beastkin Territories: The Open Wild Council",
+      "worldId": "WORLD_BEASTKIN_003",
+      "order": 6,
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE_CANON_SAFE",
+      "chapterIds": [
+        "CH018_043",
+        "CH018_044",
+        "CH018_045",
+        "CH018_046",
+        "CH018_047",
+        "CH018_048",
+        "CH018_049",
+        "CH018_050"
+      ],
+      "previousArcId": "ARC018_ORC_WORLD",
+      "nextArcId": "ARC018_DEMON_WORLD",
+      "requiresOwnerOrStoryGate": false,
+      "completionOutcome": "Unlock next story gate, world access, city specialization, or recoverable alternate route.",
+      "noConquestChecklist": true,
+      "unlockGates": [
+        "COMPLETE:ARC018_ORC_WORLD",
+        "OWNER_OR_CAMPAIGN_ORDER_APPROVAL"
+      ]
+    },
+    {
+      "id": "ARC018_DEMON_WORLD",
+      "name": "Demon Realms: The Mercy Trial",
+      "worldId": "WORLD_DEMON_004",
+      "order": 7,
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE_CANON_SAFE",
+      "chapterIds": [
+        "CH018_051",
+        "CH018_052",
+        "CH018_053",
+        "CH018_054",
+        "CH018_055",
+        "CH018_056",
+        "CH018_057",
+        "CH018_058"
+      ],
+      "previousArcId": "ARC018_BEASTKIN_WORLD",
+      "nextArcId": "ARC018_DARK_ELF_WORLD",
+      "requiresOwnerOrStoryGate": false,
+      "completionOutcome": "Unlock next story gate, world access, city specialization, or recoverable alternate route.",
+      "noConquestChecklist": true,
+      "unlockGates": [
+        "COMPLETE:ARC018_BEASTKIN_WORLD",
+        "OWNER_OR_CAMPAIGN_ORDER_APPROVAL"
+      ]
+    },
+    {
+      "id": "ARC018_DARK_ELF_WORLD",
+      "name": "Dark Elf Territories: The Open Archive",
+      "worldId": "WORLD_DARK_ELF_005",
+      "order": 8,
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE_CANON_SAFE",
+      "chapterIds": [
+        "CH018_059",
+        "CH018_060",
+        "CH018_061",
+        "CH018_062",
+        "CH018_063",
+        "CH018_064",
+        "CH018_065",
+        "CH018_066"
+      ],
+      "previousArcId": "ARC018_DEMON_WORLD",
+      "nextArcId": "ARC018_BUNNY_WORLD",
+      "requiresOwnerOrStoryGate": false,
+      "completionOutcome": "Unlock next story gate, world access, city specialization, or recoverable alternate route.",
+      "noConquestChecklist": true,
+      "unlockGates": [
+        "COMPLETE:ARC018_DEMON_WORLD",
+        "OWNER_OR_CAMPAIGN_ORDER_APPROVAL"
+      ]
+    },
+    {
+      "id": "ARC018_BUNNY_WORLD",
+      "name": "Bunny Trade Nations: The Price of Survival",
+      "worldId": "WORLD_BUNNY_006",
+      "order": 9,
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE_CANON_SAFE",
+      "chapterIds": [
+        "CH018_067",
+        "CH018_068",
+        "CH018_069",
+        "CH018_070",
+        "CH018_071",
+        "CH018_072",
+        "CH018_073",
+        "CH018_074"
+      ],
+      "previousArcId": "ARC018_DARK_ELF_WORLD",
+      "nextArcId": "ARC018_DOG_WORLD",
+      "requiresOwnerOrStoryGate": false,
+      "completionOutcome": "Unlock next story gate, world access, city specialization, or recoverable alternate route.",
+      "noConquestChecklist": true,
+      "unlockGates": [
+        "COMPLETE:ARC018_DARK_ELF_WORLD",
+        "OWNER_OR_CAMPAIGN_ORDER_APPROVAL"
+      ]
+    },
+    {
+      "id": "ARC018_DOG_WORLD",
+      "name": "Dog Tribe Frontiers: The Moral Patrol",
+      "worldId": "WORLD_DOG_007",
+      "order": 10,
+      "canonStatus": "GAME_CAMPAIGN_CANDIDATE_CANON_SAFE",
+      "chapterIds": [
+        "CH018_075",
+        "CH018_076",
+        "CH018_077",
+        "CH018_078",
+        "CH018_079",
+        "CH018_080",
+        "CH018_081",
+        "CH018_082"
+      ],
+      "previousArcId": "ARC018_BUNNY_WORLD",
+      "nextArcId": null,
+      "requiresOwnerOrStoryGate": false,
+      "completionOutcome": "Unlock next story gate, world access, city specialization, or recoverable alternate route.",
+      "noConquestChecklist": true,
+      "unlockGates": [
+        "COMPLETE:ARC018_BUNNY_WORLD",
+        "OWNER_OR_CAMPAIGN_ORDER_APPROVAL"
+      ]
+    }
+  ]
+}

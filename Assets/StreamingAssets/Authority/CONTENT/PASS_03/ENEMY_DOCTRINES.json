@@ -1,0 +1,277 @@
+{
+  "contentVersion": "GOW_PASS03_0.8",
+  "doctrineCount": 8,
+  "doctrines": [
+    {
+      "id": "ENEMY_DOCTRINE_PACK_HUNT",
+      "name": "Pack Hunt",
+      "description": "Targets visibly wounded or marked enemies, circles exposed flanks, and retreats if isolated.",
+      "informationPolicy": {
+        "allowedInputs": [
+          "VISIBLE_WOUNDED",
+          "VISIBLE_MARKS",
+          "KNOWN_FORMATION"
+        ],
+        "forbiddenInputs": [
+          "PRIVATE_MP",
+          "HIDDEN_TRAITS",
+          "UNREVEALED_ROUTE"
+        ],
+        "noOmniscientCheating": true
+      },
+      "decisionPriority": [
+        "SURVIVE_TELEGRAPH",
+        "PROTECT_REQUIRED_ROLE",
+        "PURSUE_OBJECTIVE",
+        "EXPLOIT_VISIBLE_WEAKNESS",
+        "CONSERVE_RESOURCES"
+      ],
+      "resourcePolicy": {
+        "reserveApBelowPercent": 20,
+        "reserveMpBelowPercent": 25,
+        "allowZeroCostFallbacks": true
+      },
+      "retreatPolicy": {
+        "allowed": true,
+        "thresholdCohesionPercent": 20
+      },
+      "deterministicTieBreak": "PCG32_FROM_BATTLE_SEED_ROUND_UNION_STATE_HASH"
+    },
+    {
+      "id": "ENEMY_DOCTRINE_MAINTENANCE_ORDER",
+      "name": "Maintenance Order",
+      "description": "Prioritizes structures, pylons, and declared objectives before damage.",
+      "informationPolicy": {
+        "allowedInputs": [
+          "VISIBLE_OBJECTIVES",
+          "OWN_PYLON_STATE",
+          "KNOWN_ROUTE"
+        ],
+        "forbiddenInputs": [
+          "PLAYER_FUTURE_CHOICE",
+          "HIDDEN_EVENT_FLAGS"
+        ],
+        "noOmniscientCheating": true
+      },
+      "decisionPriority": [
+        "SURVIVE_TELEGRAPH",
+        "PROTECT_REQUIRED_ROLE",
+        "PURSUE_OBJECTIVE",
+        "EXPLOIT_VISIBLE_WEAKNESS",
+        "CONSERVE_RESOURCES"
+      ],
+      "resourcePolicy": {
+        "reserveApBelowPercent": 20,
+        "reserveMpBelowPercent": 25,
+        "allowZeroCostFallbacks": true
+      },
+      "retreatPolicy": {
+        "allowed": true,
+        "thresholdCohesionPercent": 20
+      },
+      "deterministicTieBreak": "PCG32_FROM_BATTLE_SEED_ROUND_UNION_STATE_HASH"
+    },
+    {
+      "id": "ENEMY_DOCTRINE_SALVAGE_RAID",
+      "name": "Salvage Raid",
+      "description": "Attempts to seize exposed supplies and withdraw after meeting a visible loot threshold.",
+      "informationPolicy": {
+        "allowedInputs": [
+          "VISIBLE_SUPPLY_CARRIER",
+          "DROPPED_LOOT",
+          "EXIT_ROUTE"
+        ],
+        "forbiddenInputs": [
+          "INVENTORY_NOT_DISPLAYED",
+          "MARGIN_STATE"
+        ],
+        "noOmniscientCheating": true
+      },
+      "decisionPriority": [
+        "SURVIVE_TELEGRAPH",
+        "PROTECT_REQUIRED_ROLE",
+        "PURSUE_OBJECTIVE",
+        "EXPLOIT_VISIBLE_WEAKNESS",
+        "CONSERVE_RESOURCES"
+      ],
+      "resourcePolicy": {
+        "reserveApBelowPercent": 20,
+        "reserveMpBelowPercent": 25,
+        "allowZeroCostFallbacks": true
+      },
+      "retreatPolicy": {
+        "allowed": true,
+        "thresholdCohesionPercent": 20
+      },
+      "deterministicTieBreak": "PCG32_FROM_BATTLE_SEED_ROUND_UNION_STATE_HASH"
+    },
+    {
+      "id": "ENEMY_DOCTRINE_REARLINE_PRESSURE",
+      "name": "Rear-Line Pressure",
+      "description": "Uses visible formation geometry to threaten exposed support members.",
+      "informationPolicy": {
+        "allowedInputs": [
+          "KNOWN_FORMATION",
+          "VISIBLE_CASTING",
+          "VISIBLE_HEALING"
+        ],
+        "forbiddenInputs": [
+          "HIDDEN_ARTS",
+          "UNREVEALED_MP_TOTAL"
+        ],
+        "noOmniscientCheating": true
+      },
+      "decisionPriority": [
+        "SURVIVE_TELEGRAPH",
+        "PROTECT_REQUIRED_ROLE",
+        "PURSUE_OBJECTIVE",
+        "EXPLOIT_VISIBLE_WEAKNESS",
+        "CONSERVE_RESOURCES"
+      ],
+      "resourcePolicy": {
+        "reserveApBelowPercent": 20,
+        "reserveMpBelowPercent": 25,
+        "allowZeroCostFallbacks": true
+      },
+      "retreatPolicy": {
+        "allowed": true,
+        "thresholdCohesionPercent": 20
+      },
+      "deterministicTieBreak": "PCG32_FROM_BATTLE_SEED_ROUND_UNION_STATE_HASH"
+    },
+    {
+      "id": "ENEMY_DOCTRINE_PROTECT_THE_SCRIBE",
+      "name": "Protect the Scribe",
+      "description": "Front Unions intercept threats while a visible support Union sustains the group.",
+      "informationPolicy": {
+        "allowedInputs": [
+          "OWN_UNION_HP",
+          "OWN_UNION_MP",
+          "VISIBLE_THREATS"
+        ],
+        "forbiddenInputs": [
+          "PLAYER_HIDDEN_TARGETING_WEIGHTS"
+        ],
+        "noOmniscientCheating": true
+      },
+      "decisionPriority": [
+        "SURVIVE_TELEGRAPH",
+        "PROTECT_REQUIRED_ROLE",
+        "PURSUE_OBJECTIVE",
+        "EXPLOIT_VISIBLE_WEAKNESS",
+        "CONSERVE_RESOURCES"
+      ],
+      "resourcePolicy": {
+        "reserveApBelowPercent": 20,
+        "reserveMpBelowPercent": 25,
+        "allowZeroCostFallbacks": true
+      },
+      "retreatPolicy": {
+        "allowed": true,
+        "thresholdCohesionPercent": 20
+      },
+      "deterministicTieBreak": "PCG32_FROM_BATTLE_SEED_ROUND_UNION_STATE_HASH"
+    },
+    {
+      "id": "ENEMY_DOCTRINE_BROKEN_CHARTER",
+      "name": "Broken Charter",
+      "description": "Uses bluff, surrender demands, and false retreats based on observed morale and evidence.",
+      "informationPolicy": {
+        "allowedInputs": [
+          "VISIBLE_MORALE_STATE",
+          "PUBLIC_EVIDENCE_FLAGS",
+          "KNOWN_OBJECTIVE"
+        ],
+        "forbiddenInputs": [
+          "PRIVATE_RELATIONSHIPS",
+          "SECRET_CHECK_MODIFIERS"
+        ],
+        "noOmniscientCheating": true
+      },
+      "decisionPriority": [
+        "SURVIVE_TELEGRAPH",
+        "PROTECT_REQUIRED_ROLE",
+        "PURSUE_OBJECTIVE",
+        "EXPLOIT_VISIBLE_WEAKNESS",
+        "CONSERVE_RESOURCES"
+      ],
+      "resourcePolicy": {
+        "reserveApBelowPercent": 20,
+        "reserveMpBelowPercent": 25,
+        "allowZeroCostFallbacks": true
+      },
+      "retreatPolicy": {
+        "allowed": true,
+        "thresholdCohesionPercent": 20
+      },
+      "deterministicTieBreak": "PCG32_FROM_BATTLE_SEED_ROUND_UNION_STATE_HASH"
+    },
+    {
+      "id": "ENEMY_DOCTRINE_GATE_RESET",
+      "name": "Gate Reset Protocol",
+      "description": "Telegraphs a major field reset, protects active pylons, then executes if not interrupted.",
+      "informationPolicy": {
+        "allowedInputs": [
+          "OWN_PYLON_STATE",
+          "VISIBLE_FORMATIONS",
+          "TELEGRAPH_STATE"
+        ],
+        "forbiddenInputs": [
+          "PLAYER_MENU_SELECTION",
+          "HIDDEN_RNG"
+        ],
+        "noOmniscientCheating": true
+      },
+      "decisionPriority": [
+        "SURVIVE_TELEGRAPH",
+        "PROTECT_REQUIRED_ROLE",
+        "PURSUE_OBJECTIVE",
+        "EXPLOIT_VISIBLE_WEAKNESS",
+        "CONSERVE_RESOURCES"
+      ],
+      "resourcePolicy": {
+        "reserveApBelowPercent": 20,
+        "reserveMpBelowPercent": 25,
+        "allowZeroCostFallbacks": true
+      },
+      "retreatPolicy": {
+        "allowed": false,
+        "thresholdCohesionPercent": 20
+      },
+      "deterministicTieBreak": "PCG32_FROM_BATTLE_SEED_ROUND_UNION_STATE_HASH"
+    },
+    {
+      "id": "ENEMY_DOCTRINE_TRIAGE_HIERARCHY",
+      "name": "Obsolete Triage Hierarchy",
+      "description": "Heals the ally with the highest visible command rank instead of the most vulnerable.",
+      "informationPolicy": {
+        "allowedInputs": [
+          "OWN_VISIBLE_RANK",
+          "OWN_HP",
+          "KNOWN_STATUS"
+        ],
+        "forbiddenInputs": [
+          "PLAYER_HIDDEN_LEADERSHIP_GROWTH"
+        ],
+        "noOmniscientCheating": true
+      },
+      "decisionPriority": [
+        "SURVIVE_TELEGRAPH",
+        "PROTECT_REQUIRED_ROLE",
+        "PURSUE_OBJECTIVE",
+        "EXPLOIT_VISIBLE_WEAKNESS",
+        "CONSERVE_RESOURCES"
+      ],
+      "resourcePolicy": {
+        "reserveApBelowPercent": 20,
+        "reserveMpBelowPercent": 25,
+        "allowZeroCostFallbacks": true
+      },
+      "retreatPolicy": {
+        "allowed": true,
+        "thresholdCohesionPercent": 20
+      },
+      "deterministicTieBreak": "PCG32_FROM_BATTLE_SEED_ROUND_UNION_STATE_HASH"
+    }
+  ]
+}

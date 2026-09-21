@@ -1,0 +1,347 @@
+{
+  "contentVersion": "GOW_PASS08_0.13",
+  "vfx": [
+    {
+      "id": "VFX_WEAPON_IMPACT",
+      "category": "WEAPON_IMPACT",
+      "tiers": {
+        "low": {
+          "particlesMax": 24,
+          "lights": 0
+        },
+        "medium": {
+          "particlesMax": 60,
+          "lights": 1
+        },
+        "high": {
+          "particlesMax": 120,
+          "lights": 2
+        }
+      },
+      "telegraphClarityOverSpectacle": true
+    },
+    {
+      "id": "VFX_FIRE",
+      "category": "FIRE",
+      "tiers": {
+        "low": {
+          "particlesMax": 24,
+          "lights": 0
+        },
+        "medium": {
+          "particlesMax": 60,
+          "lights": 1
+        },
+        "high": {
+          "particlesMax": 120,
+          "lights": 2
+        }
+      },
+      "telegraphClarityOverSpectacle": true
+    },
+    {
+      "id": "VFX_WATER",
+      "category": "WATER",
+      "tiers": {
+        "low": {
+          "particlesMax": 24,
+          "lights": 0
+        },
+        "medium": {
+          "particlesMax": 60,
+          "lights": 1
+        },
+        "high": {
+          "particlesMax": 120,
+          "lights": 2
+        }
+      },
+      "telegraphClarityOverSpectacle": true
+    },
+    {
+      "id": "VFX_WIND",
+      "category": "WIND",
+      "tiers": {
+        "low": {
+          "particlesMax": 24,
+          "lights": 0
+        },
+        "medium": {
+          "particlesMax": 60,
+          "lights": 1
+        },
+        "high": {
+          "particlesMax": 120,
+          "lights": 2
+        }
+      },
+      "telegraphClarityOverSpectacle": true
+    },
+    {
+      "id": "VFX_EARTH",
+      "category": "EARTH",
+      "tiers": {
+        "low": {
+          "particlesMax": 24,
+          "lights": 0
+        },
+        "medium": {
+          "particlesMax": 60,
+          "lights": 1
+        },
+        "high": {
+          "particlesMax": 120,
+          "lights": 2
+        }
+      },
+      "telegraphClarityOverSpectacle": true
+    },
+    {
+      "id": "VFX_LIGHT",
+      "category": "LIGHT",
+      "tiers": {
+        "low": {
+          "particlesMax": 24,
+          "lights": 0
+        },
+        "medium": {
+          "particlesMax": 60,
+          "lights": 1
+        },
+        "high": {
+          "particlesMax": 120,
+          "lights": 2
+        }
+      },
+      "telegraphClarityOverSpectacle": true
+    },
+    {
+      "id": "VFX_SHADOW",
+      "category": "SHADOW",
+      "tiers": {
+        "low": {
+          "particlesMax": 24,
+          "lights": 0
+        },
+        "medium": {
+          "particlesMax": 60,
+          "lights": 1
+        },
+        "high": {
+          "particlesMax": 120,
+          "lights": 2
+        }
+      },
+      "telegraphClarityOverSpectacle": true
+    },
+    {
+      "id": "VFX_RESTORATION",
+      "category": "RESTORATION",
+      "tiers": {
+        "low": {
+          "particlesMax": 24,
+          "lights": 0
+        },
+        "medium": {
+          "particlesMax": 60,
+          "lights": 1
+        },
+        "high": {
+          "particlesMax": 120,
+          "lights": 2
+        }
+      },
+      "telegraphClarityOverSpectacle": true
+    },
+    {
+      "id": "VFX_SUPPORT",
+      "category": "SUPPORT",
+      "tiers": {
+        "low": {
+          "particlesMax": 24,
+          "lights": 0
+        },
+        "medium": {
+          "particlesMax": 60,
+          "lights": 1
+        },
+        "high": {
+          "particlesMax": 120,
+          "lights": 2
+        }
+      },
+      "telegraphClarityOverSpectacle": true
+    },
+    {
+      "id": "VFX_GUARD",
+      "category": "GUARD",
+      "tiers": {
+        "low": {
+          "particlesMax": 24,
+          "lights": 0
+        },
+        "medium": {
+          "particlesMax": 60,
+          "lights": 1
+        },
+        "high": {
+          "particlesMax": 120,
+          "lights": 2
+        }
+      },
+      "telegraphClarityOverSpectacle": true
+    },
+    {
+      "id": "VFX_TACTICAL",
+      "category": "TACTICAL",
+      "tiers": {
+        "low": {
+          "particlesMax": 24,
+          "lights": 0
+        },
+        "medium": {
+          "particlesMax": 60,
+          "lights": 1
+        },
+        "high": {
+          "particlesMax": 120,
+          "lights": 2
+        }
+      },
+      "telegraphClarityOverSpectacle": true
+    },
+    {
+      "id": "VFX_COHESION",
+      "category": "COHESION",
+      "tiers": {
+        "low": {
+          "particlesMax": 24,
+          "lights": 0
+        },
+        "medium": {
+          "particlesMax": 60,
+          "lights": 1
+        },
+        "high": {
+          "particlesMax": 120,
+          "lights": 2
+        }
+      },
+      "telegraphClarityOverSpectacle": true
+    },
+    {
+      "id": "VFX_LINK_ART",
+      "category": "LINK_ART",
+      "tiers": {
+        "low": {
+          "particlesMax": 24,
+          "lights": 0
+        },
+        "medium": {
+          "particlesMax": 60,
+          "lights": 1
+        },
+        "high": {
+          "particlesMax": 120,
+          "lights": 2
+        }
+      },
+      "telegraphClarityOverSpectacle": true
+    },
+    {
+      "id": "VFX_INVOCATION",
+      "category": "INVOCATION",
+      "tiers": {
+        "low": {
+          "particlesMax": 24,
+          "lights": 0
+        },
+        "medium": {
+          "particlesMax": 60,
+          "lights": 1
+        },
+        "high": {
+          "particlesMax": 120,
+          "lights": 2
+        }
+      },
+      "telegraphClarityOverSpectacle": true
+    },
+    {
+      "id": "VFX_GREAT_SUMMON",
+      "category": "GREAT_SUMMON",
+      "tiers": {
+        "low": {
+          "particlesMax": 24,
+          "lights": 0
+        },
+        "medium": {
+          "particlesMax": 60,
+          "lights": 1
+        },
+        "high": {
+          "particlesMax": 120,
+          "lights": 2
+        }
+      },
+      "telegraphClarityOverSpectacle": true
+    },
+    {
+      "id": "VFX_GATE",
+      "category": "GATE",
+      "tiers": {
+        "low": {
+          "particlesMax": 24,
+          "lights": 0
+        },
+        "medium": {
+          "particlesMax": 60,
+          "lights": 1
+        },
+        "high": {
+          "particlesMax": 120,
+          "lights": 2
+        }
+      },
+      "telegraphClarityOverSpectacle": true
+    },
+    {
+      "id": "VFX_ABYSS",
+      "category": "ABYSS",
+      "tiers": {
+        "low": {
+          "particlesMax": 24,
+          "lights": 0
+        },
+        "medium": {
+          "particlesMax": 60,
+          "lights": 1
+        },
+        "high": {
+          "particlesMax": 120,
+          "lights": 2
+        }
+      },
+      "telegraphClarityOverSpectacle": true
+    },
+    {
+      "id": "VFX_MARGIN",
+      "category": "MARGIN",
+      "tiers": {
+        "low": {
+          "particlesMax": 24,
+          "lights": 0
+        },
+        "medium": {
+          "particlesMax": 60,
+          "lights": 1
+        },
+        "high": {
+          "particlesMax": 120,
+          "lights": 2
+        }
+      },
+      "telegraphClarityOverSpectacle": true
+    }
+  ]
+}

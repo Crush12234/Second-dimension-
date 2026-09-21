@@ -1,0 +1,426 @@
+{
+  "schemaVersion": 3,
+  "status": "TEN_WEAPON_AND_TEN_CREDIT_DEFINITIONS_AUTHORED_OMEGA_PARITY_AND_ART_PENDING",
+  "items": [
+    {
+      "id": "SSS_WEAPON_RYLEN_STONEBOND",
+      "heroId": "SSS_RYLEN_STONEBOND",
+      "name": "Wild Covenant",
+      "weaponFamilyTag": "Taming staff",
+      "uniquePerSave": true,
+      "autoEquip": false,
+      "statStatus": "LIVE_OMEGA_REFERENCE_AND_NUMERIC_BUDGET_NOT_RESOLVED",
+      "artStatus": "WEAPON_ART_NOT_PRODUCED",
+      "code": "SDGOW-SSS-BOND-WEAPON",
+      "rarity": "SSS_SIGNATURE",
+      "powerTier": "OMEGA_EQUIVALENT",
+      "equippableOnlyByHeroId": "SSS_RYLEN_STONEBOND",
+      "omegaParity": {
+        "referenceItemId": null,
+        "referenceResolution": "Resolve the current live Omega-equivalent weapon for this role from the authoritative item registry; do not guess numeric stats.",
+        "relativeTotalPowerBudget": 1.0,
+        "includeSignatureEffectInBudget": true,
+        "parityVerified": false
+      },
+      "unlockQuestId": "SSS_OMEGA_HUNT_070_V1",
+      "naturalClaimRequiresOwnedHero": true,
+      "weaponCodeBypassesHunt": true,
+      "grantPathsShareUniqueEntitlement": true,
+      "signatureEffect": {
+        "name": "Covenant Rally",
+        "design": "Tamed Union gains a bounded guard and coordinated-attack enhancement; use the existing ally/Union status system, not six full boss budgets.",
+        "liveHandlerId": null,
+        "implementationStatus": "HOST_EFFECT_HANDLER_AND_BALANCE_BINDING_REQUIRED"
+      }
+    },
+    {
+      "id": "SSS_ASCENSION_CREDIT_RYLEN_STONEBOND",
+      "heroId": "SSS_RYLEN_STONEBOND",
+      "name": "Rylen Stonebond Ascension Credit",
+      "kind": "HeroBoundAscensionResource",
+      "autoApply": false,
+      "repeatableStack": true,
+      "application": "Manual spend: one matching credit raises its owned SSS hero by one rank from A0 up to A10; no other mandatory material in the default design. Atomic item/rank/save transaction; no spending at A10; kill and world mastery never reset.",
+      "ascensionMax": 10,
+      "ranksPerCredit": 1
+    },
+    {
+      "id": "SSS_WEAPON_ELYSIA_NIGHTCALL",
+      "heroId": "SSS_ELYSIA_NIGHTCALL",
+      "name": "Astral Pact",
+      "weaponFamilyTag": "Summoning staff",
+      "uniquePerSave": true,
+      "autoEquip": false,
+      "statStatus": "LIVE_OMEGA_REFERENCE_AND_NUMERIC_BUDGET_NOT_RESOLVED",
+      "artStatus": "WEAPON_ART_NOT_PRODUCED",
+      "code": "SDGOW-SSS-PACT-WEAPON",
+      "rarity": "SSS_SIGNATURE",
+      "powerTier": "OMEGA_EQUIVALENT",
+      "equippableOnlyByHeroId": "SSS_ELYSIA_NIGHTCALL",
+      "omegaParity": {
+        "referenceItemId": null,
+        "referenceResolution": "Resolve the current live Omega-equivalent weapon for this role from the authoritative item registry; do not guess numeric stats.",
+        "relativeTotalPowerBudget": 1.0,
+        "includeSignatureEffectInBudget": true,
+        "parityVerified": false
+      },
+      "unlockQuestId": "SSS_OMEGA_HUNT_070_V1",
+      "naturalClaimRequiresOwnedHero": true,
+      "weaponCodeBypassesHunt": true,
+      "grantPathsShareUniqueEntitlement": true,
+      "signatureEffect": {
+        "name": "Pact Resonance",
+        "design": "The active single guest receives a bounded potency/ward benefit at a legal command boundary; no additional guest slots.",
+        "liveHandlerId": null,
+        "implementationStatus": "HOST_EFFECT_HANDLER_AND_BALANCE_BINDING_REQUIRED"
+      }
+    },
+    {
+      "id": "SSS_ASCENSION_CREDIT_ELYSIA_NIGHTCALL",
+      "heroId": "SSS_ELYSIA_NIGHTCALL",
+      "name": "Elysia Nightcall Ascension Credit",
+      "kind": "HeroBoundAscensionResource",
+      "autoApply": false,
+      "repeatableStack": true,
+      "application": "Manual spend: one matching credit raises its owned SSS hero by one rank from A0 up to A10; no other mandatory material in the default design. Atomic item/rank/save transaction; no spending at A10; kill and world mastery never reset.",
+      "ascensionMax": 10,
+      "ranksPerCredit": 1
+    },
+    {
+      "id": "SSS_WEAPON_VAELIS_MANYFORM",
+      "heroId": "SSS_VAELIS_MANYFORM",
+      "name": "Manyform Talons",
+      "weaponFamilyTag": "Claw focus",
+      "uniquePerSave": true,
+      "autoEquip": false,
+      "statStatus": "LIVE_OMEGA_REFERENCE_AND_NUMERIC_BUDGET_NOT_RESOLVED",
+      "artStatus": "WEAPON_ART_NOT_PRODUCED",
+      "code": "SDGOW-SSS-FORM-WEAPON",
+      "rarity": "SSS_SIGNATURE",
+      "powerTier": "OMEGA_EQUIVALENT",
+      "equippableOnlyByHeroId": "SSS_VAELIS_MANYFORM",
+      "omegaParity": {
+        "referenceItemId": null,
+        "referenceResolution": "Resolve the current live Omega-equivalent weapon for this role from the authoritative item registry; do not guess numeric stats.",
+        "relativeTotalPowerBudget": 1.0,
+        "includeSignatureEffectInBudget": true,
+        "parityVerified": false
+      },
+      "unlockQuestId": "SSS_OMEGA_HUNT_070_V1",
+      "naturalClaimRequiresOwnedHero": true,
+      "weaponCodeBypassesHunt": true,
+      "grantPathsShareUniqueEntitlement": true,
+      "signatureEffect": {
+        "name": "Perfect Confluence",
+        "design": "The transformed form gains a role-appropriate protection/potency modifier; include this item once in the frozen original Union snapshot, never twice.",
+        "liveHandlerId": null,
+        "implementationStatus": "HOST_EFFECT_HANDLER_AND_BALANCE_BINDING_REQUIRED"
+      }
+    },
+    {
+      "id": "SSS_ASCENSION_CREDIT_VAELIS_MANYFORM",
+      "heroId": "SSS_VAELIS_MANYFORM",
+      "name": "Vaelis Manyform Ascension Credit",
+      "kind": "HeroBoundAscensionResource",
+      "autoApply": false,
+      "repeatableStack": true,
+      "application": "Manual spend: one matching credit raises its owned SSS hero by one rank from A0 up to A10; no other mandatory material in the default design. Atomic item/rank/save transaction; no spending at A10; kill and world mastery never reset.",
+      "ascensionMax": 10,
+      "ranksPerCredit": 1
+    },
+    {
+      "id": "SSS_WEAPON_NERIS_DAWNWELL",
+      "heroId": "SSS_NERIS_DAWNWELL",
+      "name": "Dawnwell Mercy",
+      "weaponFamilyTag": "Restoration staff",
+      "uniquePerSave": true,
+      "autoEquip": false,
+      "statStatus": "LIVE_OMEGA_REFERENCE_AND_NUMERIC_BUDGET_NOT_RESOLVED",
+      "artStatus": "WEAPON_ART_NOT_PRODUCED",
+      "code": "SDGOW-SSS-MERCY-WEAPON",
+      "rarity": "SSS_SIGNATURE",
+      "powerTier": "OMEGA_EQUIVALENT",
+      "equippableOnlyByHeroId": "SSS_NERIS_DAWNWELL",
+      "omegaParity": {
+        "referenceItemId": null,
+        "referenceResolution": "Resolve the current live Omega-equivalent weapon for this role from the authoritative item registry; do not guess numeric stats.",
+        "relativeTotalPowerBudget": 1.0,
+        "includeSignatureEffectInBudget": true,
+        "parityVerified": false
+      },
+      "unlockQuestId": "SSS_OMEGA_HUNT_070_V1",
+      "naturalClaimRequiresOwnedHero": true,
+      "weaponCodeBypassesHunt": true,
+      "grantPathsShareUniqueEntitlement": true,
+      "signatureEffect": {
+        "name": "Mercy Overflow",
+        "design": "A bounded fraction of actual overheal becomes an across-allied-Unions barrier; cannot revive or award healing mastery on missing/dead targets.",
+        "liveHandlerId": null,
+        "implementationStatus": "HOST_EFFECT_HANDLER_AND_BALANCE_BINDING_REQUIRED"
+      }
+    },
+    {
+      "id": "SSS_ASCENSION_CREDIT_NERIS_DAWNWELL",
+      "heroId": "SSS_NERIS_DAWNWELL",
+      "name": "Neris Dawnwell Ascension Credit",
+      "kind": "HeroBoundAscensionResource",
+      "autoApply": false,
+      "repeatableStack": true,
+      "application": "Manual spend: one matching credit raises its owned SSS hero by one rank from A0 up to A10; no other mandatory material in the default design. Atomic item/rank/save transaction; no spending at A10; kill and world mastery never reset.",
+      "ascensionMax": 10,
+      "ranksPerCredit": 1
+    },
+    {
+      "id": "SSS_WEAPON_MYRIEN_STARFALL",
+      "heroId": "SSS_MYRIEN_STARFALL",
+      "name": "Falling Heaven",
+      "weaponFamilyTag": "Astrolabe focus",
+      "uniquePerSave": true,
+      "autoEquip": false,
+      "statStatus": "LIVE_OMEGA_REFERENCE_AND_NUMERIC_BUDGET_NOT_RESOLVED",
+      "artStatus": "WEAPON_ART_NOT_PRODUCED",
+      "code": "SDGOW-SSS-NOVA-WEAPON",
+      "rarity": "SSS_SIGNATURE",
+      "powerTier": "OMEGA_EQUIVALENT",
+      "equippableOnlyByHeroId": "SSS_MYRIEN_STARFALL",
+      "omegaParity": {
+        "referenceItemId": null,
+        "referenceResolution": "Resolve the current live Omega-equivalent weapon for this role from the authoritative item registry; do not guess numeric stats.",
+        "relativeTotalPowerBudget": 1.0,
+        "includeSignatureEffectInBudget": true,
+        "parityVerified": false
+      },
+      "unlockQuestId": "SSS_OMEGA_HUNT_070_V1",
+      "naturalClaimRequiresOwnedHero": true,
+      "weaponCodeBypassesHunt": true,
+      "grantPathsShareUniqueEntitlement": true,
+      "signatureEffect": {
+        "name": "Falling Constellation",
+        "design": "The signature Mystic gains a bounded resistance-piercing component across living enemy Unions; no secondary duplicate damage event.",
+        "liveHandlerId": null,
+        "implementationStatus": "HOST_EFFECT_HANDLER_AND_BALANCE_BINDING_REQUIRED"
+      }
+    },
+    {
+      "id": "SSS_ASCENSION_CREDIT_MYRIEN_STARFALL",
+      "heroId": "SSS_MYRIEN_STARFALL",
+      "name": "Myrien Starfall Ascension Credit",
+      "kind": "HeroBoundAscensionResource",
+      "autoApply": false,
+      "repeatableStack": true,
+      "application": "Manual spend: one matching credit raises its owned SSS hero by one rank from A0 up to A10; no other mandatory material in the default design. Atomic item/rank/save transaction; no spending at A10; kill and world mastery never reset.",
+      "ascensionMax": 10,
+      "ranksPerCredit": 1
+    },
+    {
+      "id": "SSS_WEAPON_ASTERION_SUNWARD",
+      "heroId": "SSS_ASTERION_SUNWARD",
+      "name": "First Dawn Standard",
+      "weaponFamilyTag": "Pennant spear",
+      "uniquePerSave": true,
+      "autoEquip": false,
+      "statStatus": "LIVE_OMEGA_REFERENCE_AND_NUMERIC_BUDGET_NOT_RESOLVED",
+      "artStatus": "WEAPON_ART_NOT_PRODUCED",
+      "code": "SDGOW-SSS-DAWN-WEAPON",
+      "rarity": "SSS_SIGNATURE",
+      "powerTier": "OMEGA_EQUIVALENT",
+      "equippableOnlyByHeroId": "SSS_ASTERION_SUNWARD",
+      "omegaParity": {
+        "referenceItemId": null,
+        "referenceResolution": "Resolve the current live Omega-equivalent weapon for this role from the authoritative item registry; do not guess numeric stats.",
+        "relativeTotalPowerBudget": 1.0,
+        "includeSignatureEffectInBudget": true,
+        "parityVerified": false
+      },
+      "unlockQuestId": "SSS_OMEGA_HUNT_070_V1",
+      "naturalClaimRequiresOwnedHero": true,
+      "weaponCodeBypassesHunt": true,
+      "grantPathsShareUniqueEntitlement": true,
+      "signatureEffect": {
+        "name": "Dawn Standard",
+        "design": "Rally buffs across allied Unions become stronger through the existing non-stacking/refreshing status rules.",
+        "liveHandlerId": null,
+        "implementationStatus": "HOST_EFFECT_HANDLER_AND_BALANCE_BINDING_REQUIRED"
+      }
+    },
+    {
+      "id": "SSS_ASCENSION_CREDIT_ASTERION_SUNWARD",
+      "heroId": "SSS_ASTERION_SUNWARD",
+      "name": "Asterion Sunward Ascension Credit",
+      "kind": "HeroBoundAscensionResource",
+      "autoApply": false,
+      "repeatableStack": true,
+      "application": "Manual spend: one matching credit raises its owned SSS hero by one rank from A0 up to A10; no other mandatory material in the default design. Atomic item/rank/save transaction; no spending at A10; kill and world mastery never reset.",
+      "ascensionMax": 10,
+      "ranksPerCredit": 1
+    },
+    {
+      "id": "SSS_WEAPON_SOLENNE_AEGIS",
+      "heroId": "SSS_SOLENNE_AEGIS",
+      "name": "Unbroken Horizon",
+      "weaponFamilyTag": "Shield",
+      "uniquePerSave": true,
+      "autoEquip": false,
+      "statStatus": "LIVE_OMEGA_REFERENCE_AND_NUMERIC_BUDGET_NOT_RESOLVED",
+      "artStatus": "WEAPON_ART_NOT_PRODUCED",
+      "code": "SDGOW-SSS-AEGIS-WEAPON",
+      "rarity": "SSS_SIGNATURE",
+      "powerTier": "OMEGA_EQUIVALENT",
+      "equippableOnlyByHeroId": "SSS_SOLENNE_AEGIS",
+      "omegaParity": {
+        "referenceItemId": null,
+        "referenceResolution": "Resolve the current live Omega-equivalent weapon for this role from the authoritative item registry; do not guess numeric stats.",
+        "relativeTotalPowerBudget": 1.0,
+        "includeSignatureEffectInBudget": true,
+        "parityVerified": false
+      },
+      "unlockQuestId": "SSS_OMEGA_HUNT_070_V1",
+      "naturalClaimRequiresOwnedHero": true,
+      "weaponCodeBypassesHunt": true,
+      "grantPathsShareUniqueEntitlement": true,
+      "signatureEffect": {
+        "name": "Horizon Ward",
+        "design": "Across-allied-Unions barriers gain a bounded reserve; repeated application refreshes or replaces, never stacks indefinitely.",
+        "liveHandlerId": null,
+        "implementationStatus": "HOST_EFFECT_HANDLER_AND_BALANCE_BINDING_REQUIRED"
+      }
+    },
+    {
+      "id": "SSS_ASCENSION_CREDIT_SOLENNE_AEGIS",
+      "heroId": "SSS_SOLENNE_AEGIS",
+      "name": "Solenne Aegis Ascension Credit",
+      "kind": "HeroBoundAscensionResource",
+      "autoApply": false,
+      "repeatableStack": true,
+      "application": "Manual spend: one matching credit raises its owned SSS hero by one rank from A0 up to A10; no other mandatory material in the default design. Atomic item/rank/save transaction; no spending at A10; kill and world mastery never reset.",
+      "ascensionMax": 10,
+      "ranksPerCredit": 1
+    },
+    {
+      "id": "SSS_WEAPON_CAEDRAN_TEMPEST",
+      "heroId": "SSS_CAEDRAN_TEMPEST",
+      "name": "Skybreaker Conductor",
+      "weaponFamilyTag": "Mystic staff",
+      "uniquePerSave": true,
+      "autoEquip": false,
+      "statStatus": "LIVE_OMEGA_REFERENCE_AND_NUMERIC_BUDGET_NOT_RESOLVED",
+      "artStatus": "WEAPON_ART_NOT_PRODUCED",
+      "code": "SDGOW-SSS-STORM-WEAPON",
+      "rarity": "SSS_SIGNATURE",
+      "powerTier": "OMEGA_EQUIVALENT",
+      "equippableOnlyByHeroId": "SSS_CAEDRAN_TEMPEST",
+      "omegaParity": {
+        "referenceItemId": null,
+        "referenceResolution": "Resolve the current live Omega-equivalent weapon for this role from the authoritative item registry; do not guess numeric stats.",
+        "relativeTotalPowerBudget": 1.0,
+        "includeSignatureEffectInBudget": true,
+        "parityVerified": false
+      },
+      "unlockQuestId": "SSS_OMEGA_HUNT_070_V1",
+      "naturalClaimRequiresOwnedHero": true,
+      "weaponCodeBypassesHunt": true,
+      "grantPathsShareUniqueEntitlement": true,
+      "signatureEffect": {
+        "name": "Tempest Conductor",
+        "design": "Storm Mystic strikes across living enemy Unions receive a bounded break-pressure enhancement.",
+        "liveHandlerId": null,
+        "implementationStatus": "HOST_EFFECT_HANDLER_AND_BALANCE_BINDING_REQUIRED"
+      }
+    },
+    {
+      "id": "SSS_ASCENSION_CREDIT_CAEDRAN_TEMPEST",
+      "heroId": "SSS_CAEDRAN_TEMPEST",
+      "name": "Caedran Tempest Ascension Credit",
+      "kind": "HeroBoundAscensionResource",
+      "autoApply": false,
+      "repeatableStack": true,
+      "application": "Manual spend: one matching credit raises its owned SSS hero by one rank from A0 up to A10; no other mandatory material in the default design. Atomic item/rank/save transaction; no spending at A10; kill and world mastery never reset.",
+      "ascensionMax": 10,
+      "ranksPerCredit": 1
+    },
+    {
+      "id": "SSS_WEAPON_ISOLDE_ECLIPSERIFT",
+      "heroId": "SSS_ISOLDE_ECLIPSERIFT",
+      "name": "Eclipse Meridian",
+      "weaponFamilyTag": "Scepter",
+      "uniquePerSave": true,
+      "autoEquip": false,
+      "statStatus": "LIVE_OMEGA_REFERENCE_AND_NUMERIC_BUDGET_NOT_RESOLVED",
+      "artStatus": "WEAPON_ART_NOT_PRODUCED",
+      "code": "SDGOW-SSS-ECLIPSE-WEAPON",
+      "rarity": "SSS_SIGNATURE",
+      "powerTier": "OMEGA_EQUIVALENT",
+      "equippableOnlyByHeroId": "SSS_ISOLDE_ECLIPSERIFT",
+      "omegaParity": {
+        "referenceItemId": null,
+        "referenceResolution": "Resolve the current live Omega-equivalent weapon for this role from the authoritative item registry; do not guess numeric stats.",
+        "relativeTotalPowerBudget": 1.0,
+        "includeSignatureEffectInBudget": true,
+        "parityVerified": false
+      },
+      "unlockQuestId": "SSS_OMEGA_HUNT_070_V1",
+      "naturalClaimRequiresOwnedHero": true,
+      "weaponCodeBypassesHunt": true,
+      "grantPathsShareUniqueEntitlement": true,
+      "signatureEffect": {
+        "name": "Eclipse Meridian",
+        "design": "Eclipse Mystic damage applies a bounded vulnerability status with normal immunity/resistance rules.",
+        "liveHandlerId": null,
+        "implementationStatus": "HOST_EFFECT_HANDLER_AND_BALANCE_BINDING_REQUIRED"
+      }
+    },
+    {
+      "id": "SSS_ASCENSION_CREDIT_ISOLDE_ECLIPSERIFT",
+      "heroId": "SSS_ISOLDE_ECLIPSERIFT",
+      "name": "Isolde Eclipserift Ascension Credit",
+      "kind": "HeroBoundAscensionResource",
+      "autoApply": false,
+      "repeatableStack": true,
+      "application": "Manual spend: one matching credit raises its owned SSS hero by one rank from A0 up to A10; no other mandatory material in the default design. Atomic item/rank/save transaction; no spending at A10; kill and world mastery never reset.",
+      "ascensionMax": 10,
+      "ranksPerCredit": 1
+    },
+    {
+      "id": "SSS_WEAPON_ORINTH_WORLDSONG",
+      "heroId": "SSS_ORINTH_WORLDSONG",
+      "name": "Worldsong Accord",
+      "weaponFamilyTag": "Lyre focus",
+      "uniquePerSave": true,
+      "autoEquip": false,
+      "statStatus": "LIVE_OMEGA_REFERENCE_AND_NUMERIC_BUDGET_NOT_RESOLVED",
+      "artStatus": "WEAPON_ART_NOT_PRODUCED",
+      "code": "SDGOW-SSS-SONG-WEAPON",
+      "rarity": "SSS_SIGNATURE",
+      "powerTier": "OMEGA_EQUIVALENT",
+      "equippableOnlyByHeroId": "SSS_ORINTH_WORLDSONG",
+      "omegaParity": {
+        "referenceItemId": null,
+        "referenceResolution": "Resolve the current live Omega-equivalent weapon for this role from the authoritative item registry; do not guess numeric stats.",
+        "relativeTotalPowerBudget": 1.0,
+        "includeSignatureEffectInBudget": true,
+        "parityVerified": false
+      },
+      "unlockQuestId": "SSS_OMEGA_HUNT_070_V1",
+      "naturalClaimRequiresOwnedHero": true,
+      "weaponCodeBypassesHunt": true,
+      "grantPathsShareUniqueEntitlement": true,
+      "signatureEffect": {
+        "name": "Worldsong Harmony",
+        "design": "Across-allied-Unions support Arts gain a bounded potency/duration improvement; maintain current AP/MP and initiative limits.",
+        "liveHandlerId": null,
+        "implementationStatus": "HOST_EFFECT_HANDLER_AND_BALANCE_BINDING_REQUIRED"
+      }
+    },
+    {
+      "id": "SSS_ASCENSION_CREDIT_ORINTH_WORLDSONG",
+      "heroId": "SSS_ORINTH_WORLDSONG",
+      "name": "Orinth Worldsong Ascension Credit",
+      "kind": "HeroBoundAscensionResource",
+      "autoApply": false,
+      "repeatableStack": true,
+      "application": "Manual spend: one matching credit raises its owned SSS hero by one rank from A0 up to A10; no other mandatory material in the default design. Atomic item/rank/save transaction; no spending at A10; kill and world mastery never reset.",
+      "ascensionMax": 10,
+      "ranksPerCredit": 1
+    }
+  ]
+}

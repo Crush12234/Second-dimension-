@@ -1,0 +1,267 @@
+{
+  "id": "ZONE_SKYHOME_OUTER_GATEWORKS",
+  "contentVersion": "GOW_PASS03_0.8",
+  "displayName": "Skyhome Outer Gateworks",
+  "regionRelationship": {
+    "summary": "A repaired civic frontier immediately beyond Skyhome’s inhabited wall districts, where old fortress infrastructure meets the unstable approaches to the First Gate.",
+    "travelFromGuildMinutes": 18,
+    "administrativeStatus": "Shared civic work zone under Skyhome review; no Founder or Guildmaster owns the land or its people.",
+    "guildMandate": "The new guild handles rescue, survey, escort, anomaly containment, contract mediation, and threats too small or scattered for standing civic forces but too dangerous for ordinary workers."
+  },
+  "visualIdentity": {
+    "palette": [
+      "weathered basalt",
+      "gate-blue light",
+      "repair brass",
+      "chalk-white survey marks",
+      "warm worker lanterns",
+      "rust-red warning cloth"
+    ],
+    "silhouetteLanguage": "Massive incomplete arches, repaired bridges, pulley cranes, scaffold towers, conduit ribs, and temporary homes built against architecture older than current memory.",
+    "environmentalStorytelling": [
+      "Old kill-zones have become kitchens, clinics, and tool depots.",
+      "Former enemy warning symbols are overwritten by multilingual civic directions rather than erased.",
+      "Fresh repairs use visible mixed-race techniques so cooperation is literally built into the walls.",
+      "Unclaimed rooms still contain pre-Forgetting maintenance marks whose purpose is not understood.",
+      "Children paint route colors on stones while surveyors argue over whether the gate is waking or remembering."
+    ],
+    "boardGameLanguage": "An illustrated raised-relief expedition board: route cords illuminate between large encounter spaces; node cards feel like stamped guild records placed over a living map.",
+    "combatArenaLanguage": "Compact tactical arenas built from work platforms, broken arches, relief roads, suspended chains, salvage stacks, and active gate conduits. Objectives and hazards are visually readable before forecasts are chosen."
+  },
+  "architecture": [
+    {
+      "id": "ARCH_GATE_RIBS",
+      "name": "Gate Ribs",
+      "use": "Ancient curved supports that hum during anomalies; create cover, elevation, and Arcana checks."
+    },
+    {
+      "id": "ARCH_REPAIR_WALKS",
+      "name": "Repair Walks",
+      "use": "Modular bridges and scaffold lanes used by workers; can collapse, reroute, or become escort objectives."
+    },
+    {
+      "id": "ARCH_RELIEF_ARCHES",
+      "name": "Relief Arches",
+      "use": "Converted checkpoints providing food, medicine, and contract witnesses."
+    },
+    {
+      "id": "ARCH_WINCH_TOWERS",
+      "name": "Winch Towers",
+      "use": "Goblin and human rebuilt cranes used for salvage, traversal, and environmental combat actions."
+    },
+    {
+      "id": "ARCH_WORLD_MARKERS",
+      "name": "World Markers",
+      "use": "Stone-and-brass survey posts recording gate pulses, routes, and cultural boundaries."
+    },
+    {
+      "id": "ARCH_OLD_SERVICE_WALLS",
+      "name": "Old Service Walls",
+      "use": "Thick maintenance partitions containing ordinary secrets and, for authorized profiles only, a noncanonical Margin entrance."
+    }
+  ],
+  "terrainTags": [
+    "GATE_ROAD",
+    "SCAFFOLD",
+    "BASALT_RIDGE",
+    "SALVAGE_YARD",
+    "RELIEF_CAMP",
+    "CONDUIT_TRENCH",
+    "BROKEN_BRIDGE",
+    "SERVICE_TUNNEL"
+  ],
+  "weatherProfiles": [
+    {
+      "id": "WEATHER_CLEAR_GATEWIND",
+      "weight": 35,
+      "effects": {
+        "Perception": 1,
+        "RangedAccuracyPermille": 1025
+      },
+      "description": "Cold blue wind carries distant gate chimes."
+    },
+    {
+      "id": "WEATHER_BRASS_RAIN",
+      "weight": 20,
+      "effects": {
+        "Crafting": 1,
+        "Agility": -1
+      },
+      "description": "Metal-rich condensation falls from ancient ribs and makes walkways slick."
+    },
+    {
+      "id": "WEATHER_ETHER_SQUALL",
+      "weight": 15,
+      "effects": {
+        "Arcana": 1,
+        "MysticMpCostPermille": 1100
+      },
+      "description": "Brief visible currents interfere with spell shaping and awaken constructs."
+    },
+    {
+      "id": "WEATHER_DUST_VEIL",
+      "weight": 20,
+      "effects": {
+        "Perception": -1,
+        "Deception": 1
+      },
+      "description": "Repair dust and wind reduce sight lines."
+    },
+    {
+      "id": "WEATHER_LANTERN_NIGHT",
+      "weight": 10,
+      "effects": {
+        "Courage": 1,
+        "DarkElfKnowledge": 1
+      },
+      "description": "Worker lanterns form islands of warmth against gate-blue darkness."
+    }
+  ],
+  "lightingVariants": [
+    "DAWN_REPAIR_GOLD",
+    "DAY_GATE_BLUE",
+    "STORM_GREENBLUE",
+    "LANTERN_NIGHT"
+  ],
+  "musicDirection": {
+    "exploration": "Measured hand percussion, hammered dulcimer, low strings, distant metallic gate tones, and hopeful woodwinds that enter near civic spaces.",
+    "danger": "Irregular chain percussion and reversed gate chimes without losing the human worker rhythm.",
+    "boss": "The worker rhythm becomes the tactical pulse; the gate motif fragments among enemy Unions and resolves only when support pylons are silenced."
+  },
+  "ambientSound": [
+    "wind through gate ribs",
+    "hammer crews",
+    "multilingual route calls",
+    "chain lifts",
+    "distant creatures",
+    "soft System pulses",
+    "relief-camp cooking"
+  ],
+  "inhabitantGroups": [
+    {
+      "id": "GROUP_GATEWORKERS",
+      "roles": [
+        "engineers",
+        "riggers",
+        "mortar crews",
+        "surveyors"
+      ],
+      "storyUse": "Witnesses, rescue targets, assistants, and source of practical events."
+    },
+    {
+      "id": "GROUP_RELIEF_RESIDENTS",
+      "roles": [
+        "refugees",
+        "travelers",
+        "families",
+        "healers"
+      ],
+      "storyUse": "Civic stakes and relationship events; never generic loot dispensers."
+    },
+    {
+      "id": "GROUP_CHARTERED_SALVAGERS",
+      "roles": [
+        "licensed crews",
+        "independent scavengers",
+        "questionable brokers"
+      ],
+      "storyUse": "Trade, rivalry, fraud, and recovery contracts."
+    },
+    {
+      "id": "GROUP_WORLD_TRAVELERS",
+      "roles": [
+        "messengers",
+        "pilgrims",
+        "cultural envoys"
+      ],
+      "storyUse": "Early hints that the Gateworks belongs to more than one people."
+    },
+    {
+      "id": "GROUP_GUILD_FIELD_STAFF",
+      "roles": [
+        "contract clerk",
+        "quartermaster",
+        "scout liaison",
+        "field medic"
+      ],
+      "storyUse": "Tutorial and persistence support without replacing random recruits."
+    }
+  ],
+  "wildlife": [
+    {
+      "id": "WILD_LANTERN_MOTHS",
+      "behavior": "Harmless unless drawn into an active conduit."
+    },
+    {
+      "id": "WILD_STONE_SWIFTS",
+      "behavior": "Nest in warm gate seams and reveal weather shifts."
+    },
+    {
+      "id": "WILD_RUSTBACK_GRAZERS",
+      "behavior": "Normally docile pack animals; panic around broken signals."
+    }
+  ],
+  "hostileFamilies": [
+    "ENEMY_GATE_GNAWER",
+    "ENEMY_RUSTBACK_HOUND",
+    "ENEMY_HOLLOW_SALVAGER",
+    "ENEMY_SHARDWING_SWARM",
+    "ENEMY_TOLLROAD_CUTTER",
+    "ENEMY_RIFT_MOLD"
+  ],
+  "factions": [
+    {
+      "id": "FACTION_BROKEN_CHARTER",
+      "name": "Broken Charter Crew",
+      "motive": "Control valuable salvage routes and hide earlier contract failures; members can retreat, bargain, or reform."
+    },
+    {
+      "id": "FACTION_AWAKENED_MAINTENANCE",
+      "name": "Awakened Maintenance Network",
+      "motive": "Ancient systems interpret current repairs as contamination and attempt to restore an obsolete defensive state."
+    },
+    {
+      "id": "FACTION_UNCLAIMED_PREDATORS",
+      "name": "Gate-Touched Predators",
+      "motive": "Animals and growths displaced or altered by gate pulses; not uniformly evil."
+    }
+  ],
+  "resourcePools": [
+    "GATE_BRONZE",
+    "CONDUIT_GLASS",
+    "SALVAGE_TIMBER",
+    "REPAIR_CLOTH",
+    "MEDICINAL_MOSS",
+    "CIVIC_SUPPLY_CRATE",
+    "SYSTEM_DUST"
+  ],
+  "hazardPools": [
+    "HAZARD_LIVE_CONDUIT",
+    "HAZARD_COLLAPSING_WALK",
+    "HAZARD_ETHER_SQUALL",
+    "HAZARD_SALVAGE_SHIFT",
+    "HAZARD_FALSE_ROUTE_MARK",
+    "HAZARD_RIFT_MOLD_SPORES"
+  ],
+  "mysteries": [
+    "The gate sometimes rings once for people who have never crossed it.",
+    "Maintenance diagrams depict roads into worlds with erased names.",
+    "Some wall repairs are newer than Skyhome records but use no known tools.",
+    "The First Gate responds differently to mixed-race Unions than to isolated groups."
+  ],
+  "ordinarySecretLanguage": "All-player secrets use visible world logic: mismatched mortar, airflow, scent, old survey codes, breakable braces, and solvable terminals.",
+  "marginTreatment": "The authorized Margin appears as a clean page-shaped absence behind an ordinary service wall. Local textures continue around it but do not enter it; sound drops to a paper-soft hush. This presentation is explicitly noncanon and unavailable to normal profiles.",
+  "storyBoundaries": [
+    "The guild serves Skyhome; it does not replace civic institutions or Founder authority.",
+    "The zone may foreshadow gates and the Great Forgetting but cannot reveal protected final answers.",
+    "Kael and the Seven Founders may be referenced as public figures but do not become owned applicants or routine tutorial companions.",
+    "Residents retain agency; rescue does not imply ownership, debt bondage, or forced recruitment."
+  ],
+  "futureHooks": [
+    "Gate pulse patterns that match another world",
+    "A missing maintenance route beneath the First Gate",
+    "A Broken Charter survivor seeking lawful appeal",
+    "A nonhostile creature carrying an ancient route token",
+    "Evidence that the awakened network is obeying a damaged instruction rather than malice"
+  ]
+}

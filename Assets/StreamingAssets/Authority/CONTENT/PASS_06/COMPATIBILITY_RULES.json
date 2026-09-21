@@ -1,0 +1,583 @@
+{
+  "contentVersion": "GOW_PASS06_0.11",
+  "ruleCount": 36,
+  "rules": [
+    {
+      "id": "COMPAT_PROTECTIVE_WITH_RELIABLE",
+      "actorTags": [
+        "TRAIT_PROTECTIVE"
+      ],
+      "targetTags": [
+        "TRAIT_RELIABLE"
+      ],
+      "primaryDimension": "REL_TRUST",
+      "eventWeightDelta": 70,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Protective characters respond well to people who consistently finish what they promise.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_COMPETITIVE_WITH_BOLD",
+      "actorTags": [
+        "TRAIT_COMPETITIVE"
+      ],
+      "targetTags": [
+        "TRAIT_BOLD"
+      ],
+      "primaryDimension": "REL_RIVALRY",
+      "eventWeightDelta": 80,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Competition becomes productive when both people accept real risk.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_CAUTIOUS_WITH_METHODICAL",
+      "actorTags": [
+        "TRAIT_CAUTIOUS"
+      ],
+      "targetTags": [
+        "TRAIT_METHODICAL"
+      ],
+      "primaryDimension": "REL_RESPECT",
+      "eventWeightDelta": 65,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Shared preparation makes difficult expeditions feel safe.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_RECKLESS_WITH_PROTECTIVE",
+      "actorTags": [
+        "TRAIT_RECKLESS"
+      ],
+      "targetTags": [
+        "TRAIT_PROTECTIVE"
+      ],
+      "primaryDimension": "REL_FRICTION",
+      "eventWeightDelta": 75,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Protection may feel like restraint until consent and trust are established.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_CURIOUS_WITH_SCHOLARLY",
+      "actorTags": [
+        "TRAIT_CURIOUS"
+      ],
+      "targetTags": [
+        "TRAIT_SCHOLARLY"
+      ],
+      "primaryDimension": "REL_CAMARADERIE",
+      "eventWeightDelta": 55,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Questions and patient explanation create easy conversation.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_BLUNT_WITH_SENSITIVE",
+      "actorTags": [
+        "TRAIT_BLUNT"
+      ],
+      "targetTags": [
+        "TRAIT_SENSITIVE"
+      ],
+      "primaryDimension": "REL_FRICTION",
+      "eventWeightDelta": 60,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Direct speech can wound without intent; repair remains possible.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_PATIENT_WITH_ANXIOUS",
+      "actorTags": [
+        "TRAIT_PATIENT"
+      ],
+      "targetTags": [
+        "TRAIT_ANXIOUS"
+      ],
+      "primaryDimension": "REL_TRUST",
+      "eventWeightDelta": 70,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Predictable support helps anxious recruits act without being controlled.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_INDEPENDENT_WITH_CONTROLLING",
+      "actorTags": [
+        "TRAIT_INDEPENDENT"
+      ],
+      "targetTags": [
+        "TRAIT_CONTROLLING"
+      ],
+      "primaryDimension": "REL_FRICTION",
+      "eventWeightDelta": 90,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Autonomy conflict requires explicit boundaries.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_DUTIFUL_WITH_CIVIC",
+      "actorTags": [
+        "TRAIT_DUTIFUL"
+      ],
+      "targetTags": [
+        "TRAIT_CIVIC_MINDED"
+      ],
+      "primaryDimension": "REL_RESPECT",
+      "eventWeightDelta": 70,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Public service provides common ground.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_HUMOR_DRY_WITH_HUMOR_DRY",
+      "actorTags": [
+        "HUMOR_DRY"
+      ],
+      "targetTags": [
+        "HUMOR_DRY"
+      ],
+      "primaryDimension": "REL_CAMARADERIE",
+      "eventWeightDelta": 50,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Compatible humor makes routine duties easier.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_IDEALIST_WITH_PRAGMATIST",
+      "actorTags": [
+        "IDEOLOGY_IDEALIST"
+      ],
+      "targetTags": [
+        "IDEOLOGY_PRAGMATIST"
+      ],
+      "primaryDimension": "REL_RIVALRY",
+      "eventWeightDelta": 55,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "The disagreement can sharpen plans when Trust remains positive.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_FORMAL_WITH_INFORMAL",
+      "actorTags": [
+        "SOCIAL_FORMAL"
+      ],
+      "targetTags": [
+        "SOCIAL_INFORMAL"
+      ],
+      "primaryDimension": "REL_FRICTION",
+      "eventWeightDelta": 35,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Different etiquette produces small misunderstandings, not destiny.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_MENTOR_PATIENT_WITH_SEEKER",
+      "actorTags": [
+        "MENTOR_PATIENT"
+      ],
+      "targetTags": [
+        "REL_MENTOR_SEEKER"
+      ],
+      "primaryDimension": "REL_MENTORSHIP",
+      "eventWeightDelta": 90,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Teaching pace matches the apprentice’s need for explanation.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_MENTOR_HARD_WITH_FRAGILE",
+      "actorTags": [
+        "MENTOR_HARD"
+      ],
+      "targetTags": [
+        "GROWTH_FRAGILE_PRODIGY"
+      ],
+      "primaryDimension": "REL_FRICTION",
+      "eventWeightDelta": 70,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "High-pressure teaching risks burnout but can be repaired.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_CULTURAL_CURIOUS_WITH_PRIVATE",
+      "actorTags": [
+        "CULTURAL_CURIOUS"
+      ],
+      "targetTags": [
+        "PRIVACY_HIGH"
+      ],
+      "primaryDimension": "REL_TRUST",
+      "eventWeightDelta": -20,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Curiosity must be balanced with permission.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_CRAFTING_WITH_EQUIPMENT_IDENTITY",
+      "actorTags": [
+        "APTITUDE_CRAFTING"
+      ],
+      "targetTags": [
+        "HOOK_BROKEN_WEAPON"
+      ],
+      "primaryDimension": "REL_CAMARADERIE",
+      "eventWeightDelta": 60,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Shared work on equipment creates relationship memories.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_HEALER_WITH_STOIC",
+      "actorTags": [
+        "ROLE_HEALER"
+      ],
+      "targetTags": [
+        "TRAIT_STOIC"
+      ],
+      "primaryDimension": "REL_TRUST",
+      "eventWeightDelta": 40,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Care is appreciated only when autonomy is respected.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_LEADER_WITH_LEADER",
+      "actorTags": [
+        "LEADERSHIP_HIGH"
+      ],
+      "targetTags": [
+        "LEADERSHIP_HIGH"
+      ],
+      "primaryDimension": "REL_RIVALRY",
+      "eventWeightDelta": 65,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Two leaders may compete or form a powerful shared command.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_FORMER_ENEMIES",
+      "actorTags": [
+        "FORMER_ENEMY"
+      ],
+      "targetTags": [
+        "FORMER_ENEMY"
+      ],
+      "primaryDimension": "REL_FRICTION",
+      "eventWeightDelta": 80,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "History raises event probability but does not prevent trust.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_SAME_HOME",
+      "actorTags": [
+        "SAME_HOME"
+      ],
+      "targetTags": [
+        "SAME_HOME"
+      ],
+      "primaryDimension": "REL_FAMILIARITY",
+      "eventWeightDelta": 55,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Shared references make first conversations easier.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_DIFFERENT_WORLDS",
+      "actorTags": [
+        "DIFFERENT_WORLD"
+      ],
+      "targetTags": [
+        "CULTURAL_CURIOUS"
+      ],
+      "primaryDimension": "REL_CULTURAL_UNDERSTANDING",
+      "eventWeightDelta": 45,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Curiosity can become understanding through repeated conduct.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_GRIEF_WITH_LISTENER",
+      "actorTags": [
+        "GRIEF_ACTIVE"
+      ],
+      "targetTags": [
+        "TRAIT_GOOD_LISTENER"
+      ],
+      "primaryDimension": "REL_TRUST",
+      "eventWeightDelta": 75,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Listening without fixing creates trust.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_RIVAL_WITH_HUMBLE",
+      "actorTags": [
+        "RIVALRY_HIGH"
+      ],
+      "targetTags": [
+        "TRAIT_HUMBLE"
+      ],
+      "primaryDimension": "REL_RESPECT",
+      "eventWeightDelta": 45,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "A humble rival keeps competition from becoming humiliation.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_SECRETIVE_WITH_RECORD_KEEPER",
+      "actorTags": [
+        "TRAIT_SECRETIVE"
+      ],
+      "targetTags": [
+        "ROLE_RECORD_KEEPER"
+      ],
+      "primaryDimension": "REL_FRICTION",
+      "eventWeightDelta": 45,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Records feel threatening until boundaries are negotiated.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_WORKER_WITH_ARISTOCRAT",
+      "actorTags": [
+        "BACKGROUND_WORKER"
+      ],
+      "targetTags": [
+        "BACKGROUND_ARISTOCRAT"
+      ],
+      "primaryDimension": "REL_RIVALRY",
+      "eventWeightDelta": 35,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Class assumptions create event hooks, not fixed hostility.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_RESCUE_FIRST_WITH_OBJECTIVE_FIRST",
+      "actorTags": [
+        "DOCTRINE_RESCUE_FIRST"
+      ],
+      "targetTags": [
+        "DOCTRINE_OBJECTIVE_FIRST"
+      ],
+      "primaryDimension": "REL_FRICTION",
+      "eventWeightDelta": 50,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Different priorities require command clarity.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_MYSTIC_WITH_ENGINEER",
+      "actorTags": [
+        "ROLE_MYSTIC"
+      ],
+      "targetTags": [
+        "APTITUDE_CRAFTING"
+      ],
+      "primaryDimension": "REL_CAMARADERIE",
+      "eventWeightDelta": 45,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Magic and engineering create productive argument.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_QUIET_WITH_QUIET",
+      "actorTags": [
+        "SOCIAL_LOW_ENERGY"
+      ],
+      "targetTags": [
+        "SOCIAL_LOW_ENERGY"
+      ],
+      "primaryDimension": "REL_FAMILIARITY",
+      "eventWeightDelta": 45,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Silence can become comfortable rather than empty.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_EXTROVERT_WITH_PRIVATE",
+      "actorTags": [
+        "SOCIAL_HIGH_ENERGY"
+      ],
+      "targetTags": [
+        "PRIVACY_HIGH"
+      ],
+      "primaryDimension": "REL_FRICTION",
+      "eventWeightDelta": 35,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Different social needs require scheduling and consent.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_HONEST_WITH_DECEPTIVE_STYLE",
+      "actorTags": [
+        "TRAIT_HONEST"
+      ],
+      "targetTags": [
+        "CONFLICT_EVASIVE"
+      ],
+      "primaryDimension": "REL_TRUST",
+      "eventWeightDelta": -60,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Evasion damages trust until its cause is understood.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_APOLOGY_ACTION_WITH_APOLOGY_WORDS",
+      "actorTags": [
+        "APOLOGY_ACTION"
+      ],
+      "targetTags": [
+        "APOLOGY_WORDS"
+      ],
+      "primaryDimension": "REL_FAMILIARITY",
+      "eventWeightDelta": 30,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Different apology styles create follow-up scenes.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_GUARDIAN_WITH_RISK_TAKER",
+      "actorTags": [
+        "ROLE_GUARDIAN"
+      ],
+      "targetTags": [
+        "RISK_HIGH"
+      ],
+      "primaryDimension": "REL_PROTECTIVENESS",
+      "eventWeightDelta": 55,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Guard behavior rises, with possible autonomy friction.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_ARCHIVIST_WITH_FORGETFUL",
+      "actorTags": [
+        "ROLE_ARCHIVIST"
+      ],
+      "targetTags": [
+        "TRAIT_FORGETFUL"
+      ],
+      "primaryDimension": "REL_CAMARADERIE",
+      "eventWeightDelta": 25,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Practical help can become friendship or resentment.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_WORLD_LIAISON_WITH_HOMEBOUND",
+      "actorTags": [
+        "ROLE_DIPLOMAT"
+      ],
+      "targetTags": [
+        "HOMESICK"
+      ],
+      "primaryDimension": "REL_CULTURAL_UNDERSTANDING",
+      "eventWeightDelta": 60,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "A good liaison helps someone maintain home ties.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_SAME_UNION_LONG_TERM",
+      "actorTags": [
+        "SAME_UNION_20_MISSIONS"
+      ],
+      "targetTags": [
+        "SAME_UNION_20_MISSIONS"
+      ],
+      "primaryDimension": "REL_FAMILIARITY",
+      "eventWeightDelta": 100,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Long service increases familiarity without guaranteeing affection.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    },
+    {
+      "id": "COMPAT_SHARED_FAILURE",
+      "actorTags": [
+        "SHARED_FAILURE"
+      ],
+      "targetTags": [
+        "ACCOUNTABILITY_HIGH"
+      ],
+      "primaryDimension": "REL_TRUST",
+      "eventWeightDelta": 65,
+      "initialDescriptorOnly": true,
+      "deterministicDestiny": false,
+      "description": "Owning a failure together can create stronger trust than easy success.",
+      "reconciliationAlwaysPossible": true,
+      "cannotRepresentWholeCulture": true
+    }
+  ],
+  "authority": "Compatibility changes event weights and starting descriptors only. Shared history can override every compatibility prediction."
+}

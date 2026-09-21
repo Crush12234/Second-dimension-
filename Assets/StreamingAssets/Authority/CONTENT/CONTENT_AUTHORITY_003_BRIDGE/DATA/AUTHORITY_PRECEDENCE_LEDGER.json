@@ -1,0 +1,122 @@
+{
+  "contentVersion": "GOW_CONTENT_AUTHORITY_BRIDGE_003",
+  "rule": "The most specific later user-approved lock wins only where it explicitly changes behavior. Otherwise frozen Pass authority remains canonical and Bridge 003 is additive.",
+  "domains": [
+    {
+      "domain": "COMBAT_COMMAND_LAW",
+      "canonicalSources": [
+        "CONTENT/PASS_02/UNION_COMMANDS.json",
+        "CONTENT/PASS_08/BATTLE_PRESENTATION_DEFINITION.json",
+        "CONTENT_AUTHORITY_002/DATA/PROGRESSION_AND_REWARD_RULES.json"
+      ],
+      "bridgeAction": "REFERENCE_ONLY",
+      "mergeRule": "Keep complete Union Forecast selection, shared AP, personal MP, visible non-clickable predictions, and no grid/direct movement."
+    },
+    {
+      "domain": "OPENING_SIGNATURE_RECRUITS_1_TO_10",
+      "canonicalSources": [
+        "CONTENT/OPENING_SIGNATURE_RECRUITS.json"
+      ],
+      "bridgeAction": "SUPPLEMENT_WITH_PROGRESSION_MANIFESTS",
+      "mergeRule": "Identity records remain byte-authoritative. Bridge 003 adds fixed-family/progression adapters without rewriting source records."
+    },
+    {
+      "domain": "SIGNATURE_RECRUITS_11_TO_300",
+      "canonicalSources": [
+        "CONTENT_AUTHORITY_002/DATA/SIGNATURE_RECRUITS_300.json"
+      ],
+      "bridgeAction": "SUPPLEMENT_WITH_PROGRESSION_MANIFESTS_AND_WORLD_SHARDS",
+      "mergeRule": "Use CA002 identity IDs and Bridge 003 personalization. Do not invent replacements."
+    },
+    {
+      "domain": "CLASSES",
+      "canonicalSources": [
+        "CONTENT/PASS_02/CLASS_DEFINITIONS.json",
+        "CONTENT/PASS_02/ADVANCED_CLASSES.json",
+        "CONTENT_AUTHORITY_002/DATA/CLASS_FOUNDATIONS_10.json"
+      ],
+      "bridgeAction": "EXPLICIT_ADDITIVE_MERGE",
+      "mergeRule": "The six starting classes and eighteen advanced classes remain canonical; four CA002 hybrid foundations are additive use-unlocked routes."
+    },
+    {
+      "domain": "ARTS_AND_SKILL_TREES",
+      "canonicalSources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json",
+        "CONTENT/PASS_02/ART_DEFINITIONS.json",
+        "CONTENT_AUTHORITY_002/DATA/SKILL_TREES_30.json",
+        "CONTENT_AUTHORITY_002/DATA/SKILL_NODES_360.json"
+      ],
+      "bridgeAction": "LEGACY_ID_BINDING_NOT_REPLACEMENT",
+      "mergeRule": "Existing 147 Art IDs retain their effects and stable IDs. CA002 nodes organize learn-by-use progression and may reference legacy Arts; they do not rename them."
+    },
+    {
+      "domain": "WEAPON_FAMILIES_AND_OPENING_EQUIPMENT",
+      "canonicalSources": [
+        "CONTENT/PASS_04/WEAPON_FAMILIES.json",
+        "CONTENT/PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      ],
+      "bridgeAction": "FIELD_IDENTICAL_OVERLAY_PLUS_ADDITIVE_ITEMS",
+      "mergeRule": "Existing 60 weapons, 24 body armors, 12 offhands, and 30 accessories remain field-identical. Only CA002 metadata is overlaid; new CA002 IDs are additive."
+    },
+    {
+      "domain": "WEAPON_EVOLUTION_AND_LEARNING",
+      "canonicalSources": [
+        "CONTENT/PASS_04/EQUIPMENT_EVOLUTIONS.json",
+        "CONTENT_AUTHORITY_002/DATA/WEAPON_EVOLUTION_PATHS_36.json",
+        "CONTENT_AUTHORITY_003_BRIDGE/DATA/WEAPON_ART_BINDINGS_264.json"
+      ],
+      "bridgeAction": "ADDITIVE_SCALING",
+      "mergeRule": "Existing 24 opening paths remain valid. CA002 extends each family to three Training-to-Godly paths; Bridge 003 binds tier to Art discovery without auto-learning."
+    },
+    {
+      "domain": "MISSIONS_AND_EXPEDITIONS",
+      "canonicalSources": [
+        "CONTENT/PASS_03",
+        "CONTENT/PASS_07"
+      ],
+      "bridgeAction": "REFERENCE_EXISTING_SYSTEMS",
+      "mergeRule": "Do not create a second mission engine. CA002 world loot tables attach rewards to existing contract/board/operation authority."
+    },
+    {
+      "domain": "CITY_AND_GUILD_HALL",
+      "canonicalSources": [
+        "CONTENT/PASS_05"
+      ],
+      "bridgeAction": "REFERENCE_EXISTING_19_FACILITIES",
+      "mergeRule": "Do not replace the existing city builder. CA002 facility hooks connect the 30 trees to existing facilities and preserve separate XP ledgers."
+    },
+    {
+      "domain": "RELATIONSHIPS_AND_PERSONAL_QUESTS",
+      "canonicalSources": [
+        "CONTENT/PASS_06",
+        "CONTENT_AUTHORITY_002/DATA/SIGNATURE_RECRUITS_300.json"
+      ],
+      "bridgeAction": "SYSTEM_PLUS_IDENTITY_MERGE",
+      "mergeRule": "Use Pass 06 event/relationship systems and CA002 character quest seeds. Bridge signature techniques remain implementation candidates until presentation assets exist."
+    },
+    {
+      "domain": "PRESENTATION",
+      "canonicalSources": [
+        "BATTLE_SLICE_021_RUNTIME",
+        "CONTENT/PASS_08"
+      ],
+      "bridgeAction": "READ_ONLY",
+      "mergeRule": "ZIP 21 remains the visual floor. Content import cannot redesign accepted screens, camera, scene, art, or battle flow."
+    },
+    {
+      "domain": "KAEL_AND_FOUNDERS",
+      "canonicalSources": [
+        "CONTENT_AUTHORITY_002/DATA/PROTECTED_CANON_ACTORS.json",
+        "SECOND_DIMENSION_CANON"
+      ],
+      "bridgeAction": "PROTECTED",
+      "mergeRule": "Never normalize into the 300-recruit/equipment/progression system. Kael remains 300/300, zero normal stats, unequipped, one-person Union, automatic same-value True Reflection."
+    }
+  ],
+  "forbiddenResolution": [
+    "Do not ask Codex to choose between duplicate systems.",
+    "Do not copy CA002 records over frozen Pass files.",
+    "Do not delete stable IDs merely because an adapter is easier.",
+    "Do not import every content file into one model or prompt."
+  ]
+}

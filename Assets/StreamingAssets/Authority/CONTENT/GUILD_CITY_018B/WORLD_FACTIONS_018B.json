@@ -1,0 +1,221 @@
+{
+  "ContentVersion": "GATES_OF_FORGOTTEN_WORLDS_018B_1.0",
+  "Factions": [
+    {
+      "Id": "FACTION018B_SKYHOME_CIVIC_COUNCIL",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "Skyhome Civic Council",
+      "WorldTag": "WORLD_SKYHOME",
+      "Status": "ALLIED",
+      "Summary": "Skyhome Civic Council participates in The Last Treasury through its own interests, laws, and internal factions.",
+      "CanBeSpeciesWideMoralClaim": false
+    },
+    {
+      "Id": "FACTION018B_SEVEN_FOUNDER_COMMAND",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "Seven Founder Command",
+      "WorldTag": "WORLD_SKYHOME",
+      "Status": "PROTECTED_ALLIED",
+      "Summary": "Seven Founder Command participates in The Last Treasury through its own interests, laws, and internal factions.",
+      "CanBeSpeciesWideMoralClaim": false
+    },
+    {
+      "Id": "FACTION018B_FIRST_ARMY",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "First Army",
+      "WorldTag": "WORLD_SKYHOME_WARFRONT",
+      "Status": "ALLIED",
+      "Summary": "First Army participates in The Descent and the Goblin War through its own interests, laws, and internal factions.",
+      "CanBeSpeciesWideMoralClaim": false
+    },
+    {
+      "Id": "FACTION018B_CIVIC_DEFENSE_CORPS",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "Civic Defense Corps",
+      "WorldTag": "WORLD_SKYHOME_WARFRONT",
+      "Status": "ALLIED",
+      "Summary": "Civic Defense Corps participates in The Descent and the Goblin War through its own interests, laws, and internal factions.",
+      "CanBeSpeciesWideMoralClaim": false
+    },
+    {
+      "Id": "FACTION018B_GOBLIN_FORTRESS_HOST",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "Goblin Fortress Host",
+      "WorldTag": "WORLD_SKYHOME_WARFRONT",
+      "Status": "HOSTILE",
+      "Summary": "Goblin Fortress Host participates in The Descent and the Goblin War through its own interests, laws, and internal factions.",
+      "CanBeSpeciesWideMoralClaim": false
+    },
+    {
+      "Id": "FACTION018B_FREE_GOBLIN_DEFECTORS",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "Free Goblin Defectors",
+      "WorldTag": "WORLD_SKYHOME_WARFRONT",
+      "Status": "EMERGING_ALLIED",
+      "Summary": "Free Goblin Defectors participates in The Descent and the Goblin War through its own interests, laws, and internal factions.",
+      "CanBeSpeciesWideMoralClaim": false
+    },
+    {
+      "Id": "FACTION018B_FORTRESS_WARDENS",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "Fortress Wardens",
+      "WorldTag": "WORLD_GOBLIN_FORTRESS",
+      "Status": "MIXED",
+      "Summary": "Fortress Wardens participates in The Captured Goblin Fortress through its own interests, laws, and internal factions.",
+      "CanBeSpeciesWideMoralClaim": false
+    },
+    {
+      "Id": "FACTION018B_UNDERREALM_PRISONER_HOUSES",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "Underrealm Prisoner Houses",
+      "WorldTag": "WORLD_GOBLIN_FORTRESS",
+      "Status": "MIXED",
+      "Summary": "Underrealm Prisoner Houses participates in The Captured Goblin Fortress through its own interests, laws, and internal factions.",
+      "CanBeSpeciesWideMoralClaim": false
+    },
+    {
+      "Id": "FACTION018B_DEEP_WARRENS_COMPACT",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "Deep Warrens Compact",
+      "WorldTag": "WORLD_GOBLIN_UNDERREALM",
+      "Status": "NEUTRAL",
+      "Summary": "Deep Warrens Compact participates in The Goblin Underrealm through its own interests, laws, and internal factions.",
+      "CanBeSpeciesWideMoralClaim": false
+    },
+    {
+      "Id": "FACTION018B_ASH_CROWN_CASTE",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "Ash-Crown Caste",
+      "WorldTag": "WORLD_GOBLIN_UNDERREALM",
+      "Status": "HOSTILE",
+      "Summary": "Ash-Crown Caste participates in The Goblin Underrealm through its own interests, laws, and internal factions.",
+      "CanBeSpeciesWideMoralClaim": false
+    },
+    {
+      "Id": "FACTION018B_FREE_BURROW_COALITION",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "Free Burrow Coalition",
+      "WorldTag": "WORLD_GOBLIN_UNDERREALM",
+      "Status": "ALLIED",
+      "Summary": "Free Burrow Coalition participates in The Goblin Underrealm through its own interests, laws, and internal factions.",
+      "CanBeSpeciesWideMoralClaim": false
+    },
+    {
+      "Id": "FACTION018B_REBUILDERS_CONSORTIUM",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Rebuilders Consortium",
+      "WorldTag": "WORLD_GOBLIN_RESTORATION",
+      "Status": "ALLIED",
+      "Summary": "Rebuilders Consortium participates in Architect of Worlds through its own interests, laws, and internal factions.",
+      "CanBeSpeciesWideMoralClaim": false
+    },
+    {
+      "Id": "FACTION018B_FIRST_MEMORY_SEEKERS",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "First Memory Seekers",
+      "WorldTag": "WORLD_GOBLIN_RESTORATION",
+      "Status": "NEUTRAL",
+      "Summary": "First Memory Seekers participates in Architect of Worlds through its own interests, laws, and internal factions.",
+      "CanBeSpeciesWideMoralClaim": false
+    },
+    {
+      "Id": "FACTION018B_UNDERREALM_MERCHANT_LEAGUE",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Underrealm Merchant League",
+      "WorldTag": "WORLD_GOBLIN_RESTORATION",
+      "Status": "ALLIED",
+      "Summary": "Underrealm Merchant League participates in Architect of Worlds through its own interests, laws, and internal factions.",
+      "CanBeSpeciesWideMoralClaim": false
+    },
+    {
+      "Id": "FACTION018B_FIRST_GATE_SURVEY_CORPS",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "First Gate Survey Corps",
+      "WorldTag": "WORLD_FIRST_GATE_ECHO",
+      "Status": "ALLIED",
+      "Summary": "First Gate Survey Corps participates in The First Gate Echo through its own interests, laws, and internal factions.",
+      "CanBeSpeciesWideMoralClaim": false
+    },
+    {
+      "Id": "FACTION018B_WORLDROAD_CARTOGRAPHERS",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "Worldroad Cartographers",
+      "WorldTag": "WORLD_FIRST_GATE_ECHO",
+      "Status": "ALLIED",
+      "Summary": "Worldroad Cartographers participates in The First Gate Echo through its own interests, laws, and internal factions.",
+      "CanBeSpeciesWideMoralClaim": false
+    },
+    {
+      "Id": "FACTION018B_IRONROOT_CLANS",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Ironroot Clans",
+      "WorldTag": "WORLD_ORC_BLOOD_PLAINS",
+      "Status": "MIXED",
+      "Summary": "Ironroot Clans participates in Orc Blood Plains through its own interests, laws, and internal factions.",
+      "CanBeSpeciesWideMoralClaim": false
+    },
+    {
+      "Id": "FACTION018B_RED_SAND_CONFEDERATION",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Red Sand Confederation",
+      "WorldTag": "WORLD_ORC_BLOOD_PLAINS",
+      "Status": "MIXED",
+      "Summary": "Red Sand Confederation participates in Orc Blood Plains through its own interests, laws, and internal factions.",
+      "CanBeSpeciesWideMoralClaim": false
+    },
+    {
+      "Id": "FACTION018B_MOONFANG_PACKS",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Moonfang Packs",
+      "WorldTag": "WORLD_BEAST_MOON",
+      "Status": "MIXED",
+      "Summary": "Moonfang Packs participates in Beast Moon Territories through its own interests, laws, and internal factions.",
+      "CanBeSpeciesWideMoralClaim": false
+    },
+    {
+      "Id": "FACTION018B_VERDANT_CROWN_CIRCLES",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Verdant Crown Circles",
+      "WorldTag": "WORLD_BEAST_MOON",
+      "Status": "NEUTRAL",
+      "Summary": "Verdant Crown Circles participates in Beast Moon Territories through its own interests, laws, and internal factions.",
+      "CanBeSpeciesWideMoralClaim": false
+    },
+    {
+      "Id": "FACTION018B_ASHGLASS_COURTS",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Ashglass Courts",
+      "WorldTag": "WORLD_DEMON_EMPIRE",
+      "Status": "MIXED",
+      "Summary": "Ashglass Courts participates in Demon Empire through its own interests, laws, and internal factions.",
+      "CanBeSpeciesWideMoralClaim": false
+    },
+    {
+      "Id": "FACTION018B_OBSIDIAN_CHOIR_REFORMERS",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Obsidian Choir Reformers",
+      "WorldTag": "WORLD_DEMON_EMPIRE",
+      "Status": "EMERGING_ALLIED",
+      "Summary": "Obsidian Choir Reformers participates in Demon Empire through its own interests, laws, and internal factions.",
+      "CanBeSpeciesWideMoralClaim": false
+    },
+    {
+      "Id": "FACTION018B_FIRST_ALLIANCE_REMNANT_NETWORK",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "First Alliance Remnant Network",
+      "WorldTag": "WORLD_CROSSROADS_NETWORK",
+      "Status": "UNKNOWN",
+      "Summary": "First Alliance Remnant Network participates in The Gates of Forgotten Worlds through its own interests, laws, and internal factions.",
+      "CanBeSpeciesWideMoralClaim": false
+    },
+    {
+      "Id": "FACTION018B_SILENT_MERIDIAN_OBSERVERS",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "Silent Meridian Observers",
+      "WorldTag": "WORLD_CROSSROADS_NETWORK",
+      "Status": "UNKNOWN",
+      "Summary": "Silent Meridian Observers participates in The Gates of Forgotten Worlds through its own interests, laws, and internal factions.",
+      "CanBeSpeciesWideMoralClaim": false
+    }
+  ]
+}

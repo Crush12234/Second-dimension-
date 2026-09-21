@@ -1,0 +1,2282 @@
+{
+  "contentVersion": "GOW_PASS04_0.9",
+  "stations": [
+    {
+      "id": "STATION_REPAIR_BENCH",
+      "functions": [
+        "REPAIR",
+        "FIELD_PATCH"
+      ]
+    },
+    {
+      "id": "STATION_ANVIL",
+      "functions": [
+        "WEAPON",
+        "ARMOR",
+        "REINFORCE"
+      ]
+    },
+    {
+      "id": "STATION_RUNE_TABLE",
+      "functions": [
+        "RUNE_INSTALL",
+        "FOCUS",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "STATION_MATERIAL_KILN",
+      "functions": [
+        "REFINE",
+        "STABILIZE"
+      ]
+    }
+  ],
+  "forgeStages": [
+    {
+      "stage": 0,
+      "id": "FORGE_BROKEN_BENCH",
+      "displayName": "Broken Bench",
+      "treasuryXpCost": 0,
+      "unlocks": [
+        "INSPECT",
+        "FIELD_PATCH"
+      ],
+      "memberCapacity": 1
+    },
+    {
+      "stage": 1,
+      "id": "FORGE_REPAIR_HEARTH",
+      "displayName": "Repair Hearth",
+      "treasuryXpCost": 1200,
+      "unlocks": [
+        "REPAIR",
+        "BASIC_CRAFT",
+        "DISMANTLE"
+      ],
+      "memberCapacity": 2
+    },
+    {
+      "stage": 2,
+      "id": "FORGE_GUILD_ANVIL",
+      "displayName": "Guild Anvil",
+      "treasuryXpCost": 3500,
+      "unlocks": [
+        "BLUEPRINT_CRAFT",
+        "REFINE_MATERIAL",
+        "REINFORCE"
+      ],
+      "memberCapacity": 3
+    },
+    {
+      "stage": 3,
+      "id": "FORGE_RUNE_GALLERY",
+      "displayName": "Rune Gallery",
+      "treasuryXpCost": 8000,
+      "unlocks": [
+        "INSTALL_RUNE",
+        "REMOVE_RUNE_SAFE",
+        "ARTIFACT_REPAIR"
+      ],
+      "memberCapacity": 4
+    },
+    {
+      "stage": 4,
+      "id": "FORGE_RESONANCE_HALL",
+      "displayName": "Resonance Hall",
+      "treasuryXpCost": 18000,
+      "unlocks": [
+        "WEAPON_EVOLUTION",
+        "ABYSS_STABILIZATION",
+        "ARTIFACT_EVOLUTION"
+      ],
+      "memberCapacity": 5
+    },
+    {
+      "stage": 5,
+      "id": "FORGE_CIVIC_MASTERWORKS",
+      "displayName": "Civic Masterworks Forge",
+      "treasuryXpCost": 45000,
+      "unlocks": [
+        "CHOSEN_DORMANT_CARE",
+        "HIGH_TIER_CRAFT",
+        "WORLD_MATERIAL_INTEGRATION"
+      ],
+      "memberCapacity": 6,
+      "boundary": "Prepares future relationship with the Eternal Forge but does not grant Eternal Forge authority."
+    }
+  ],
+  "recipes": [
+    {
+      "id": "RECIPE_EQUIP_WEAPON_GATEWATCH_SABER",
+      "displayName": "Blueprint: Gatewatch Saber",
+      "outputDefinitionId": "EQUIP_WEAPON_GATEWATCH_SABER",
+      "forgeStageRequired": 1,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 2
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 30,
+      "baseDifficulty": 8,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_ROADWARDEN_BLADE",
+      "displayName": "Blueprint: Roadwarden Blade",
+      "outputDefinitionId": "EQUIP_WEAPON_ROADWARDEN_BLADE",
+      "forgeStageRequired": 1,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 3
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 33,
+      "baseDifficulty": 9,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_COPPERLINE_DUELLING_SWORD",
+      "displayName": "Blueprint: Copperline Duelling Sword",
+      "outputDefinitionId": "EQUIP_WEAPON_COPPERLINE_DUELLING_SWORD",
+      "forgeStageRequired": 1,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 4
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 36,
+      "baseDifficulty": 10,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_OATHKEEPER_FALCHION",
+      "displayName": "Blueprint: Oathkeeper Falchion",
+      "outputDefinitionId": "EQUIP_WEAPON_OATHKEEPER_FALCHION",
+      "forgeStageRequired": 1,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 2
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 39,
+      "baseDifficulty": 11,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_ASH_MAP_LONGSWORD",
+      "displayName": "Blueprint: Ash-Map Longsword",
+      "outputDefinitionId": "EQUIP_WEAPON_ASH_MAP_LONGSWORD",
+      "forgeStageRequired": 1,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 3
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 42,
+      "baseDifficulty": 12,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_WALLBREAKER_MAUL",
+      "displayName": "Blueprint: Wallbreaker Maul",
+      "outputDefinitionId": "EQUIP_WEAPON_WALLBREAKER_MAUL",
+      "forgeStageRequired": 1,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 4
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 45,
+      "baseDifficulty": 13,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_EMBERWALL_GREAT_AXE",
+      "displayName": "Blueprint: Emberwall Great Axe",
+      "outputDefinitionId": "EQUIP_WEAPON_EMBERWALL_GREAT_AXE",
+      "forgeStageRequired": 1,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 2
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 48,
+      "baseDifficulty": 14,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_PYLON_SHEAR_POLEHAMMER",
+      "displayName": "Blueprint: Pylon-Shear Polehammer",
+      "outputDefinitionId": "EQUIP_WEAPON_PYLON_SHEAR_POLEHAMMER",
+      "forgeStageRequired": 1,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 3
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 51,
+      "baseDifficulty": 8,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_MERCY_BELL_HAMMER",
+      "displayName": "Blueprint: Mercy Bell Hammer",
+      "outputDefinitionId": "EQUIP_WEAPON_MERCY_BELL_HAMMER",
+      "forgeStageRequired": 1,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 4
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 54,
+      "baseDifficulty": 9,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_TRENCH_CLEAVER",
+      "displayName": "Blueprint: Trench-Cleaver",
+      "outputDefinitionId": "EQUIP_WEAPON_TRENCH_CLEAVER",
+      "forgeStageRequired": 1,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 2
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 57,
+      "baseDifficulty": 10,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_RIVET_AXE",
+      "displayName": "Blueprint: Rivet Axe",
+      "outputDefinitionId": "EQUIP_WEAPON_RIVET_AXE",
+      "forgeStageRequired": 1,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 3
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 60,
+      "baseDifficulty": 11,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_MARCHLAND_HAND_AXE",
+      "displayName": "Blueprint: Marchland Hand Axe",
+      "outputDefinitionId": "EQUIP_WEAPON_MARCHLAND_HAND_AXE",
+      "forgeStageRequired": 1,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 4
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 63,
+      "baseDifficulty": 12,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_RESCUE_HOOK_AXE",
+      "displayName": "Blueprint: Rescue Hook Axe",
+      "outputDefinitionId": "EQUIP_WEAPON_RESCUE_HOOK_AXE",
+      "forgeStageRequired": 1,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 2
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 66,
+      "baseDifficulty": 13,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_BANNER_HEWING_AXE",
+      "displayName": "Blueprint: Banner-Hewing Axe",
+      "outputDefinitionId": "EQUIP_WEAPON_BANNER_HEWING_AXE",
+      "forgeStageRequired": 1,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 3
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 69,
+      "baseDifficulty": 14,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_GATE_TOOTH_BEARDED_AXE",
+      "displayName": "Blueprint: Gate-Tooth Bearded Axe",
+      "outputDefinitionId": "EQUIP_WEAPON_GATE_TOOTH_BEARDED_AXE",
+      "forgeStageRequired": 1,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 4
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 72,
+      "baseDifficulty": 8,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_CAUSEWAY_SPEAR",
+      "displayName": "Blueprint: Causeway Spear",
+      "outputDefinitionId": "EQUIP_WEAPON_CAUSEWAY_SPEAR",
+      "forgeStageRequired": 1,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 2
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 75,
+      "baseDifficulty": 9,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_STORMROAD_GLAIVE",
+      "displayName": "Blueprint: Stormroad Glaive",
+      "outputDefinitionId": "EQUIP_WEAPON_STORMROAD_GLAIVE",
+      "forgeStageRequired": 1,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 3
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 78,
+      "baseDifficulty": 10,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_BRIDGEWARDEN_PIKE",
+      "displayName": "Blueprint: Bridgewarden Pike",
+      "outputDefinitionId": "EQUIP_WEAPON_BRIDGEWARDEN_PIKE",
+      "forgeStageRequired": 1,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 4
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 81,
+      "baseDifficulty": 11,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_ARROW_RAIN_STANDARD_SPEAR",
+      "displayName": "Blueprint: Arrow-Rain Standard Spear",
+      "outputDefinitionId": "EQUIP_WEAPON_ARROW_RAIN_STANDARD_SPEAR",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 2
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 84,
+      "baseDifficulty": 12,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_BLOODLESS_RIVER_TRIDENT",
+      "displayName": "Blueprint: Bloodless River Trident",
+      "outputDefinitionId": "EQUIP_WEAPON_BLOODLESS_RIVER_TRIDENT",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 3
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 87,
+      "baseDifficulty": 13,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_GATEWORK_SHORTBOW",
+      "displayName": "Blueprint: Gatework Shortbow",
+      "outputDefinitionId": "EQUIP_WEAPON_GATEWORK_SHORTBOW",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 4
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 90,
+      "baseDifficulty": 14,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_STORMLINE_LONGBOW",
+      "displayName": "Blueprint: Stormline Longbow",
+      "outputDefinitionId": "EQUIP_WEAPON_STORMLINE_LONGBOW",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 2
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 93,
+      "baseDifficulty": 8,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_SIGNAL_FLETCHED_RECURVE",
+      "displayName": "Blueprint: Signal-Fletched Recurve",
+      "outputDefinitionId": "EQUIP_WEAPON_SIGNAL_FLETCHED_RECURVE",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 3
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 96,
+      "baseDifficulty": 9,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_ARROW_RAIN_DEFLECTOR_BOW",
+      "displayName": "Blueprint: Arrow-Rain Deflector Bow",
+      "outputDefinitionId": "EQUIP_WEAPON_ARROW_RAIN_DEFLECTOR_BOW",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 4
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 99,
+      "baseDifficulty": 10,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_FENRUNNER_FIELD_BOW",
+      "displayName": "Blueprint: Fenrunner Field Bow",
+      "outputDefinitionId": "EQUIP_WEAPON_FENRUNNER_FIELD_BOW",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 2
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 102,
+      "baseDifficulty": 11,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_SURVEYOR_KNIFE",
+      "displayName": "Blueprint: Surveyor Knife",
+      "outputDefinitionId": "EQUIP_WEAPON_SURVEYOR_KNIFE",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 3
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 105,
+      "baseDifficulty": 12,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_DUSKWOOD_TWIN_BLADE",
+      "displayName": "Blueprint: Duskwood Twin Blade",
+      "outputDefinitionId": "EQUIP_WEAPON_DUSKWOOD_TWIN_BLADE",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 4
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 108,
+      "baseDifficulty": 13,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_MERCY_SCALPEL",
+      "displayName": "Blueprint: Mercy Scalpel",
+      "outputDefinitionId": "EQUIP_WEAPON_MERCY_SCALPEL",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 2
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 111,
+      "baseDifficulty": 14,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_SIGNAL_CUT_DIRK",
+      "displayName": "Blueprint: Signal-Cut Dirk",
+      "outputDefinitionId": "EQUIP_WEAPON_SIGNAL_CUT_DIRK",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 3
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 114,
+      "baseDifficulty": 8,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_MEMORY_SHARD_STILETTO",
+      "displayName": "Blueprint: Memory-Shard Stiletto",
+      "outputDefinitionId": "EQUIP_WEAPON_MEMORY_SHARD_STILETTO",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 4
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 117,
+      "baseDifficulty": 9,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_GATEWATCH_ROUND_SHIELD",
+      "displayName": "Blueprint: Gatewatch Round Shield",
+      "outputDefinitionId": "EQUIP_WEAPON_GATEWATCH_ROUND_SHIELD",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 2
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 120,
+      "baseDifficulty": 10,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_ROADSIDE_RESCUE_SHIELD",
+      "displayName": "Blueprint: Roadside Rescue Shield",
+      "outputDefinitionId": "EQUIP_WEAPON_ROADSIDE_RESCUE_SHIELD",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 3
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 123,
+      "baseDifficulty": 11,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_PYLON_WARD_BUCKLER",
+      "displayName": "Blueprint: Pylon Ward Buckler",
+      "outputDefinitionId": "EQUIP_WEAPON_PYLON_WARD_BUCKLER",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 4
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 126,
+      "baseDifficulty": 12,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_IRON_MARCH_TOWER_SHIELD",
+      "displayName": "Blueprint: Iron March Tower Shield",
+      "outputDefinitionId": "EQUIP_WEAPON_IRON_MARCH_TOWER_SHIELD",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 2
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 129,
+      "baseDifficulty": 13,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_AEGIS_PRACTICE_PLATE",
+      "displayName": "Blueprint: Aegis Practice Plate",
+      "outputDefinitionId": "EQUIP_WEAPON_AEGIS_PRACTICE_PLATE",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 3
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 132,
+      "baseDifficulty": 14,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_GATEWORKER_GRIP",
+      "displayName": "Blueprint: Gateworker Grip",
+      "outputDefinitionId": "EQUIP_WEAPON_GATEWORKER_GRIP",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 4
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 135,
+      "baseDifficulty": 8,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_STORMSTEP_BRACERS",
+      "displayName": "Blueprint: Stormstep Bracers",
+      "outputDefinitionId": "EQUIP_WEAPON_STORMSTEP_BRACERS",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 2
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 138,
+      "baseDifficulty": 9,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_RESCUE_MARSHAL_GAUNTLETS",
+      "displayName": "Blueprint: Rescue Marshal Gauntlets",
+      "outputDefinitionId": "EQUIP_WEAPON_RESCUE_MARSHAL_GAUNTLETS",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 3
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 141,
+      "baseDifficulty": 10,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_TRENCH_GRAPPLERS",
+      "displayName": "Blueprint: Trench Grapplers",
+      "outputDefinitionId": "EQUIP_WEAPON_TRENCH_GRAPPLERS",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 4
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 144,
+      "baseDifficulty": 11,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_RUNE_KNUCKLE_PAIR",
+      "displayName": "Blueprint: Rune-Knuckle Pair",
+      "outputDefinitionId": "EQUIP_WEAPON_RUNE_KNUCKLE_PAIR",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 2
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 147,
+      "baseDifficulty": 12,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_FIELD_MEDIC_STAFF",
+      "displayName": "Blueprint: Field Medic Staff",
+      "outputDefinitionId": "EQUIP_WEAPON_FIELD_MEDIC_STAFF",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 3
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 150,
+      "baseDifficulty": 13,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_GATEGLASS_CHANNEL_STAFF",
+      "displayName": "Blueprint: Gateglass Channel Staff",
+      "outputDefinitionId": "EQUIP_WEAPON_GATEGLASS_CHANNEL_STAFF",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 4
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 153,
+      "baseDifficulty": 14,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_QUIET_ARCHIVE_STAFF",
+      "displayName": "Blueprint: Quiet Archive Staff",
+      "outputDefinitionId": "EQUIP_WEAPON_QUIET_ARCHIVE_STAFF",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 2
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 156,
+      "baseDifficulty": 8,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_BLOODLESS_RIVER_CROOK",
+      "displayName": "Blueprint: Bloodless River Crook",
+      "outputDefinitionId": "EQUIP_WEAPON_BLOODLESS_RIVER_CROOK",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 3
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 159,
+      "baseDifficulty": 9,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_RESONANCE_SHEPHERD_STAFF",
+      "displayName": "Blueprint: Resonance Shepherd Staff",
+      "outputDefinitionId": "EQUIP_WEAPON_RESONANCE_SHEPHERD_STAFF",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 4
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 162,
+      "baseDifficulty": 10,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_COPPER_RUNE_FOCUS",
+      "displayName": "Blueprint: Copper Rune Focus",
+      "outputDefinitionId": "EQUIP_WEAPON_COPPER_RUNE_FOCUS",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 2
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 165,
+      "baseDifficulty": 11,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_WARDGLASS_PRISM",
+      "displayName": "Blueprint: Wardglass Prism",
+      "outputDefinitionId": "EQUIP_WEAPON_WARDGLASS_PRISM",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 3
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 168,
+      "baseDifficulty": 12,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_WEAPON_SIGNAL_FLAME_WAND",
+      "displayName": "Blueprint: Signal Flame Wand",
+      "outputDefinitionId": "EQUIP_WEAPON_SIGNAL_FLAME_WAND",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 4
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 171,
+      "baseDifficulty": 13,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_ARMOR_SURVEYOR_COAT",
+      "displayName": "Blueprint: Surveyor Coat",
+      "outputDefinitionId": "EQUIP_ARMOR_SURVEYOR_COAT",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_FIELD_CLOTH",
+          "quantity": 2
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_FIELD_CLOTH",
+          "MATERIAL_ROAD_LEATHER"
+        ]
+      ],
+      "treasuryXpCost": 174,
+      "baseDifficulty": 14,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_ARMOR_RUNE_LINED_FIELD_ROBE",
+      "displayName": "Blueprint: Rune-Lined Field Robe",
+      "outputDefinitionId": "EQUIP_ARMOR_RUNE_LINED_FIELD_ROBE",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_FIELD_CLOTH",
+          "quantity": 3
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_FIELD_CLOTH",
+          "MATERIAL_ROAD_LEATHER"
+        ]
+      ],
+      "treasuryXpCost": 177,
+      "baseDifficulty": 8,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_ARMOR_FENRUNNER_TRAIL_LEATHERS",
+      "displayName": "Blueprint: Fenrunner Trail Leathers",
+      "outputDefinitionId": "EQUIP_ARMOR_FENRUNNER_TRAIL_LEATHERS",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_FIELD_CLOTH",
+          "quantity": 4
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_FIELD_CLOTH",
+          "MATERIAL_ROAD_LEATHER"
+        ]
+      ],
+      "treasuryXpCost": 180,
+      "baseDifficulty": 9,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_ARMOR_DUSK_SURVEY_MANTLE",
+      "displayName": "Blueprint: Dusk Survey Mantle",
+      "outputDefinitionId": "EQUIP_ARMOR_DUSK_SURVEY_MANTLE",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_FIELD_CLOTH",
+          "quantity": 2
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_FIELD_CLOTH",
+          "MATERIAL_ROAD_LEATHER"
+        ]
+      ],
+      "treasuryXpCost": 183,
+      "baseDifficulty": 10,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_ARMOR_SIGNAL_WEAVER_JACKET",
+      "displayName": "Blueprint: Signal Weaver Jacket",
+      "outputDefinitionId": "EQUIP_ARMOR_SIGNAL_WEAVER_JACKET",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_FIELD_CLOTH",
+          "quantity": 3
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_FIELD_CLOTH",
+          "MATERIAL_ROAD_LEATHER"
+        ]
+      ],
+      "treasuryXpCost": 186,
+      "baseDifficulty": 11,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_ARMOR_RIVER_CLEANSE_VESTMENTS",
+      "displayName": "Blueprint: River-Cleanse Vestments",
+      "outputDefinitionId": "EQUIP_ARMOR_RIVER_CLEANSE_VESTMENTS",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_FIELD_CLOTH",
+          "quantity": 4
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_FIELD_CLOTH",
+          "MATERIAL_ROAD_LEATHER"
+        ]
+      ],
+      "treasuryXpCost": 189,
+      "baseDifficulty": 12,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_ARMOR_GATEGLASS_ADEPT_WRAP",
+      "displayName": "Blueprint: Gateglass Adept Wrap",
+      "outputDefinitionId": "EQUIP_ARMOR_GATEGLASS_ADEPT_WRAP",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_FIELD_CLOTH",
+          "quantity": 2
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_FIELD_CLOTH",
+          "MATERIAL_ROAD_LEATHER"
+        ]
+      ],
+      "treasuryXpCost": 192,
+      "baseDifficulty": 13,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_ARMOR_SILENT_CAMP_QUARTERMASTER_COAT",
+      "displayName": "Blueprint: Silent Camp Quartermaster Coat",
+      "outputDefinitionId": "EQUIP_ARMOR_SILENT_CAMP_QUARTERMASTER_COAT",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_FIELD_CLOTH",
+          "quantity": 3
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_FIELD_CLOTH",
+          "MATERIAL_ROAD_LEATHER"
+        ]
+      ],
+      "treasuryXpCost": 195,
+      "baseDifficulty": 14,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_ARMOR_ROADWARDEN_LAMELLAR",
+      "displayName": "Blueprint: Roadwarden Lamellar",
+      "outputDefinitionId": "EQUIP_ARMOR_ROADWARDEN_LAMELLAR",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_FIELD_CLOTH",
+          "quantity": 4
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_FIELD_CLOTH",
+          "MATERIAL_ROAD_LEATHER"
+        ]
+      ],
+      "treasuryXpCost": 198,
+      "baseDifficulty": 8,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_ARMOR_STORMROAD_SCALE_COAT",
+      "displayName": "Blueprint: Stormroad Scale Coat",
+      "outputDefinitionId": "EQUIP_ARMOR_STORMROAD_SCALE_COAT",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_FIELD_CLOTH",
+          "quantity": 2
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_FIELD_CLOTH",
+          "MATERIAL_ROAD_LEATHER"
+        ]
+      ],
+      "treasuryXpCost": 201,
+      "baseDifficulty": 9,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_ARMOR_GOBLIN_UTILITY_HARNESS",
+      "displayName": "Blueprint: Goblin Utility Harness",
+      "outputDefinitionId": "EQUIP_ARMOR_GOBLIN_UTILITY_HARNESS",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_FIELD_CLOTH",
+          "quantity": 3
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_FIELD_CLOTH",
+          "MATERIAL_ROAD_LEATHER"
+        ]
+      ],
+      "treasuryXpCost": 204,
+      "baseDifficulty": 10,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_ARMOR_ASH_MAP_COMMAND_ARMOR",
+      "displayName": "Blueprint: Ash-Map Command Armor",
+      "outputDefinitionId": "EQUIP_ARMOR_ASH_MAP_COMMAND_ARMOR",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_FIELD_CLOTH",
+          "quantity": 4
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_FIELD_CLOTH",
+          "MATERIAL_ROAD_LEATHER"
+        ]
+      ],
+      "treasuryXpCost": 207,
+      "baseDifficulty": 11,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_OFFHAND_GATEWATCH_BUCKLER",
+      "displayName": "Blueprint: Gatewatch Buckler",
+      "outputDefinitionId": "EQUIP_OFFHAND_GATEWATCH_BUCKLER",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 2
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 210,
+      "baseDifficulty": 12,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_OFFHAND_ROADWARDEN_HEATER_SHIELD",
+      "displayName": "Blueprint: Roadwarden Heater Shield",
+      "outputDefinitionId": "EQUIP_OFFHAND_ROADWARDEN_HEATER_SHIELD",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 3
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 213,
+      "baseDifficulty": 13,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_OFFHAND_IRON_MARCH_TOWER_PLATE",
+      "displayName": "Blueprint: Iron March Tower Plate",
+      "outputDefinitionId": "EQUIP_OFFHAND_IRON_MARCH_TOWER_PLATE",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 4
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 216,
+      "baseDifficulty": 14,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_OFFHAND_PYLON_GROUNDING_SCREEN",
+      "displayName": "Blueprint: Pylon Grounding Screen",
+      "outputDefinitionId": "EQUIP_OFFHAND_PYLON_GROUNDING_SCREEN",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 2
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 219,
+      "baseDifficulty": 8,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_OFFHAND_MEDIC_S_GUARD_TRAY",
+      "displayName": "Blueprint: Medic’s Guard Tray",
+      "outputDefinitionId": "EQUIP_OFFHAND_MEDIC_S_GUARD_TRAY",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_IRON",
+          "quantity": 3
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_IRON",
+          "MATERIAL_GATE_BRONZE"
+        ]
+      ],
+      "treasuryXpCost": 222,
+      "baseDifficulty": 9,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_OFFHAND_SIGNAL_MIRROR",
+      "displayName": "Blueprint: Signal Mirror",
+      "outputDefinitionId": "EQUIP_OFFHAND_SIGNAL_MIRROR",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_FIELD_CLOTH",
+          "quantity": 4
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_FIELD_CLOTH",
+          "MATERIAL_ROAD_LEATHER"
+        ]
+      ],
+      "treasuryXpCost": 225,
+      "baseDifficulty": 10,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_TOOL_FIELD_REMEDY_KIT",
+      "displayName": "Blueprint: Field Remedy Kit",
+      "outputDefinitionId": "EQUIP_TOOL_FIELD_REMEDY_KIT",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_FIELD_CLOTH",
+          "quantity": 2
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_FIELD_CLOTH",
+          "MATERIAL_ROAD_LEATHER"
+        ]
+      ],
+      "treasuryXpCost": 228,
+      "baseDifficulty": 11,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_TOOL_SURVEY_PRISM",
+      "displayName": "Blueprint: Survey Prism",
+      "outputDefinitionId": "EQUIP_TOOL_SURVEY_PRISM",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_FIELD_CLOTH",
+          "quantity": 3
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_FIELD_CLOTH",
+          "MATERIAL_ROAD_LEATHER"
+        ]
+      ],
+      "treasuryXpCost": 231,
+      "baseDifficulty": 12,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_TOOL_PORTABLE_GATE_METER",
+      "displayName": "Blueprint: Portable Gate Meter",
+      "outputDefinitionId": "EQUIP_TOOL_PORTABLE_GATE_METER",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_FIELD_CLOTH",
+          "quantity": 4
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_FIELD_CLOTH",
+          "MATERIAL_ROAD_LEATHER"
+        ]
+      ],
+      "treasuryXpCost": 234,
+      "baseDifficulty": 13,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_TOOL_QUARTERMASTER_LEDGER",
+      "displayName": "Blueprint: Quartermaster Ledger",
+      "outputDefinitionId": "EQUIP_TOOL_QUARTERMASTER_LEDGER",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_FIELD_CLOTH",
+          "quantity": 2
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_FIELD_CLOTH",
+          "MATERIAL_ROAD_LEATHER"
+        ]
+      ],
+      "treasuryXpCost": 237,
+      "baseDifficulty": 14,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_TOOL_RESCUE_HARNESS",
+      "displayName": "Blueprint: Rescue Harness",
+      "outputDefinitionId": "EQUIP_TOOL_RESCUE_HARNESS",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_FIELD_CLOTH",
+          "quantity": 3
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 1
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_FIELD_CLOTH",
+          "MATERIAL_ROAD_LEATHER"
+        ]
+      ],
+      "treasuryXpCost": 240,
+      "baseDifficulty": 8,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    },
+    {
+      "id": "RECIPE_EQUIP_TOOL_SIGNAL_KIT",
+      "displayName": "Blueprint: Signal Kit",
+      "outputDefinitionId": "EQUIP_TOOL_SIGNAL_KIT",
+      "forgeStageRequired": 2,
+      "materials": [
+        {
+          "materialId": "MATERIAL_FIELD_CLOTH",
+          "quantity": 4
+        },
+        {
+          "materialId": "MATERIAL_EQUIPMENT_FRAGMENT",
+          "quantity": 2
+        }
+      ],
+      "substitutionGroups": [
+        [
+          "MATERIAL_FIELD_CLOTH",
+          "MATERIAL_ROAD_LEATHER"
+        ]
+      ],
+      "treasuryXpCost": 243,
+      "baseDifficulty": 9,
+      "qualityOutcomeRule": "2d6 + Crafting + assistants versus baseDifficulty; failure preserves at least half nonvolatile materials.",
+      "blueprintSources": [
+        "CONTRACT",
+        "ABYSS_FLOOR",
+        "GUILD_RESEARCH"
+      ]
+    }
+  ],
+  "assistantRule": "Up to two assistants contribute capped +1 each when their Crafting proficiency is relevant; helpers gain observation progress, not full crafter credit.",
+  "failureSafety": "No ordinary failed craft destroys a unique chosen item. Volatile materials may be partly lost only after a visible warning.",
+  "materialSubstitution": "Recipes define explicit substitution groups; arbitrary substitutions are illegal.",
+  "dismantling": {
+    "baseYieldPermille": 550,
+    "historyPreservedAsRecord": true,
+    "lockedItemsRequireAuthorization": true
+  },
+  "repair": {
+    "durabilityNotTedium": "Durability primarily follows injuries, boss failures, and explicit hazards; ordinary attacks do not constantly degrade gear."
+  }
+}

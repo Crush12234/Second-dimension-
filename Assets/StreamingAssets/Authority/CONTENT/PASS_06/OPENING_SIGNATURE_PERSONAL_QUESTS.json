@@ -1,0 +1,2486 @@
+{
+  "contentVersion": "GOW_PASS06_0.11",
+  "questCount": 10,
+  "personalQuests": [
+    {
+      "id": "PERSONAL_QUEST_MAREN_HOLT",
+      "recruitId": "SIGREC_MAREN_HOLT",
+      "title": "The Third Bell",
+      "personalConflict": "Maren fears that a disciplined retreat will be remembered as cowardice.",
+      "minimumSubstantiveStages": 5,
+      "stages": [
+        {
+          "id": "PERSONAL_QUEST_MAREN_HOLT_STAGE_01",
+          "stageIndex": 1,
+          "title": "A Bell That Did Not Ring",
+          "stageType": "GUILD_HALL",
+          "summary": "Maren discovers the old Gatewatch withdrawal bell was deliberately silenced during a fatal retreat.",
+          "eligibility": {
+            "requiredPreviousStage": null,
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "GUILD_HALL"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "Maren discovers the old Gatewatch withdrawal bell was deliberately silenced during a fatal retreat."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_MAREN_HOLT_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_MAREN_HOLT_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_MAREN_HOLT_TRADEOFF_01",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_MAREN_HOLT_RECOVERY_01",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_MAREN_HOLT_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_MAREN_HOLT_STAGE_02",
+          "stageIndex": 2,
+          "title": "Witnesses of the Causeway",
+          "stageType": "INVESTIGATION",
+          "summary": "Interview survivors whose accounts disagree about whether the retreat saved lives.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_MAREN_HOLT_STAGE_01",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "INVESTIGATION"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "Interview survivors whose accounts disagree about whether the retreat saved lives."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_MAREN_HOLT_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_MAREN_HOLT_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_MAREN_HOLT_TRADEOFF_02",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_MAREN_HOLT_RECOVERY_02",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_MAREN_HOLT_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_MAREN_HOLT_STAGE_03",
+          "stageIndex": 3,
+          "title": "Hold or Withdraw",
+          "stageType": "EXPEDITION",
+          "summary": "Lead a contract with an optional objective that becomes unsafe when weather changes.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_MAREN_HOLT_STAGE_02",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "EXPEDITION"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "EXPEDITION_OR_COMBAT",
+              "description": "Lead a contract with an optional objective that becomes unsafe when weather changes."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_MAREN_HOLT_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_MAREN_HOLT_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_MAREN_HOLT_TRADEOFF_03",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_MAREN_HOLT_RECOVERY_03",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_MAREN_HOLT_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_MAREN_HOLT_STAGE_04",
+          "stageIndex": 4,
+          "title": "The Public Report",
+          "stageType": "CHOICE",
+          "summary": "Choose how much institutional failure to publish and who bears responsibility.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_MAREN_HOLT_STAGE_03",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "CHOICE"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "Choose how much institutional failure to publish and who bears responsibility."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_MAREN_HOLT_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_MAREN_HOLT_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_MAREN_HOLT_TRADEOFF_04",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_MAREN_HOLT_RECOVERY_04",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_MAREN_HOLT_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_MAREN_HOLT_STAGE_05",
+          "stageIndex": 5,
+          "title": "The Third Bell",
+          "stageType": "ECHO",
+          "summary": "A later operation tests whether Maren can order withdrawal before pride turns lethal.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_MAREN_HOLT_STAGE_04",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "ECHO"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "EXPEDITION_OR_COMBAT",
+              "description": "A later operation tests whether Maren can order withdrawal before pride turns lethal."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_MAREN_HOLT_TRADEOFF_05",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_MAREN_HOLT_RECOVERY_05",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": false
+        }
+      ],
+      "relationshipChoices": [
+        "LISTEN_WITHOUT_FIXING",
+        "CHALLENGE_WITH_EVIDENCE",
+        "OFFER_HELP_WITH_CONSENT"
+      ],
+      "hooks": {
+        "advancedClassTags": [
+          "CLASS_WALL_CAPTAIN"
+        ],
+        "artTags": [
+          "BRANCH_SPEAR_CONTROL"
+        ],
+        "equipmentEvolution": "EVOLUTION_HOOK_MAREN_HOLT",
+        "mentorship": "MENTOR_HOOK_MAREN_HOLT",
+        "turningPoint": "TP_HOOK_MAREN_HOLT"
+      },
+      "guildHallSceneRequired": true,
+      "futureEcho": "A later operation tests whether Maren can order withdrawal before pride turns lethal.",
+      "balanceNotes": "Quest rewards identity, legal path access, memories, or equipment evolution. It does not make the Signature Recruit automatically stronger than procedural recruits."
+    },
+    {
+      "id": "PERSONAL_QUEST_BRAKKA_EMBERWALL",
+      "recruitId": "SIGREC_BRAKKA_EMBERWALL",
+      "title": "Ash in the Lungs",
+      "personalConflict": "Brakka must decide whether worker loyalty means protecting a respected foreman or exposing unsafe practices.",
+      "minimumSubstantiveStages": 5,
+      "stages": [
+        {
+          "id": "PERSONAL_QUEST_BRAKKA_EMBERWALL_STAGE_01",
+          "stageIndex": 1,
+          "title": "The Coughing Shift",
+          "stageType": "GUILD_HALL",
+          "summary": "Former furnace workers arrive at the Infirmary with the same hidden injury.",
+          "eligibility": {
+            "requiredPreviousStage": null,
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "GUILD_HALL"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "Former furnace workers arrive at the Infirmary with the same hidden injury."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_BRAKKA_EMBERWALL_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_BRAKKA_EMBERWALL_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_BRAKKA_EMBERWALL_TRADEOFF_01",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_BRAKKA_EMBERWALL_RECOVERY_01",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_BRAKKA_EMBERWALL_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_BRAKKA_EMBERWALL_STAGE_02",
+          "stageIndex": 2,
+          "title": "Records Under Slag",
+          "stageType": "NONCOMBAT",
+          "summary": "Crafting and Knowledge checks recover maintenance records without blaming workers.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_BRAKKA_EMBERWALL_STAGE_01",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "NONCOMBAT"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "Crafting and Knowledge checks recover maintenance records without blaming workers."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_BRAKKA_EMBERWALL_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_BRAKKA_EMBERWALL_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_BRAKKA_EMBERWALL_TRADEOFF_02",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_BRAKKA_EMBERWALL_RECOVERY_02",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_BRAKKA_EMBERWALL_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_BRAKKA_EMBERWALL_STAGE_03",
+          "stageIndex": 3,
+          "title": "Furnace Row Pushback",
+          "stageType": "SOCIAL",
+          "summary": "Brakka confronts a foreman who once protected her but falsified reports.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_BRAKKA_EMBERWALL_STAGE_02",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "SOCIAL"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "Brakka confronts a foreman who once protected her but falsified reports."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_BRAKKA_EMBERWALL_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_BRAKKA_EMBERWALL_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_BRAKKA_EMBERWALL_TRADEOFF_03",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_BRAKKA_EMBERWALL_RECOVERY_03",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_BRAKKA_EMBERWALL_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_BRAKKA_EMBERWALL_STAGE_04",
+          "stageIndex": 4,
+          "title": "The Hot Chamber",
+          "stageType": "COMBAT",
+          "summary": "A rescue inside an unstable forge rewards restraint and coordinated Guard.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_BRAKKA_EMBERWALL_STAGE_03",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "COMBAT"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "EXPEDITION_OR_COMBAT",
+              "description": "A rescue inside an unstable forge rewards restraint and coordinated Guard."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_BRAKKA_EMBERWALL_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_BRAKKA_EMBERWALL_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_BRAKKA_EMBERWALL_TRADEOFF_04",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_BRAKKA_EMBERWALL_RECOVERY_04",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_BRAKKA_EMBERWALL_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_BRAKKA_EMBERWALL_STAGE_05",
+          "stageIndex": 5,
+          "title": "A Forge for Children",
+          "stageType": "ECHO",
+          "summary": "The resolution funds or delays Brakka’s dream of a teaching forge.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_BRAKKA_EMBERWALL_STAGE_04",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "ECHO"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "EXPEDITION_OR_COMBAT",
+              "description": "The resolution funds or delays Brakka’s dream of a teaching forge."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_BRAKKA_EMBERWALL_TRADEOFF_05",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_BRAKKA_EMBERWALL_RECOVERY_05",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": false
+        }
+      ],
+      "relationshipChoices": [
+        "LISTEN_WITHOUT_FIXING",
+        "CHALLENGE_WITH_EVIDENCE",
+        "OFFER_HELP_WITH_CONSENT"
+      ],
+      "hooks": {
+        "advancedClassTags": [
+          "CLASS_LINEBREAKER"
+        ],
+        "artTags": [
+          "BRANCH_GREAT_AXE"
+        ],
+        "equipmentEvolution": "EVOLUTION_HOOK_BRAKKA_EMBERWALL",
+        "mentorship": "MENTOR_HOOK_BRAKKA_EMBERWALL",
+        "turningPoint": "TP_HOOK_BRAKKA_EMBERWALL"
+      },
+      "guildHallSceneRequired": true,
+      "futureEcho": "The resolution funds or delays Brakka’s dream of a teaching forge.",
+      "balanceNotes": "Quest rewards identity, legal path access, memories, or equipment evolution. It does not make the Signature Recruit automatically stronger than procedural recruits."
+    },
+    {
+      "id": "PERSONAL_QUEST_ODELIA_FEN",
+      "recruitId": "SIGREC_ODELIA_FEN",
+      "title": "The Missing Name",
+      "personalConflict": "Odelia keeps a list of patients she could not save, but one name does not belong to a dead person.",
+      "minimumSubstantiveStages": 5,
+      "stages": [
+        {
+          "id": "PERSONAL_QUEST_ODELIA_FEN_STAGE_01",
+          "stageIndex": 1,
+          "title": "A Name Repeated",
+          "stageType": "INFIRMARY",
+          "summary": "Odelia says the same unknown name while treating an injured recruit.",
+          "eligibility": {
+            "requiredPreviousStage": null,
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "INFIRMARY"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "Odelia says the same unknown name while treating an injured recruit."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_ODELIA_FEN_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_ODELIA_FEN_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_ODELIA_FEN_TRADEOFF_01",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_ODELIA_FEN_RECOVERY_01",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_ODELIA_FEN_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_ODELIA_FEN_STAGE_02",
+          "stageIndex": 2,
+          "title": "The Ward Ledger",
+          "stageType": "INVESTIGATION",
+          "summary": "Archive records reveal a patient transferred under emergency secrecy.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_ODELIA_FEN_STAGE_01",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "INVESTIGATION"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "Archive records reveal a patient transferred under emergency secrecy."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_ODELIA_FEN_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_ODELIA_FEN_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_ODELIA_FEN_TRADEOFF_02",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_ODELIA_FEN_RECOVERY_02",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_ODELIA_FEN_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_ODELIA_FEN_STAGE_03",
+          "stageIndex": 3,
+          "title": "Care Without Ownership",
+          "stageType": "SOCIAL",
+          "summary": "The survivor refuses to be turned into Odelia’s redemption story.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_ODELIA_FEN_STAGE_02",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "SOCIAL"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "The survivor refuses to be turned into Odelia’s redemption story."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_ODELIA_FEN_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_ODELIA_FEN_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_ODELIA_FEN_TRADEOFF_03",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_ODELIA_FEN_RECOVERY_03",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_ODELIA_FEN_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_ODELIA_FEN_STAGE_04",
+          "stageIndex": 4,
+          "title": "The Long Carry",
+          "stageType": "EXPEDITION",
+          "summary": "A rescue requires Odelia to delegate healing and trust another member.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_ODELIA_FEN_STAGE_03",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "EXPEDITION"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "EXPEDITION_OR_COMBAT",
+              "description": "A rescue requires Odelia to delegate healing and trust another member."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_ODELIA_FEN_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_ODELIA_FEN_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_ODELIA_FEN_TRADEOFF_04",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_ODELIA_FEN_RECOVERY_04",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_ODELIA_FEN_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_ODELIA_FEN_STAGE_05",
+          "stageIndex": 5,
+          "title": "Leave the Name Open",
+          "stageType": "ECHO",
+          "summary": "Odelia chooses how to remember failure without claiming another person’s life.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_ODELIA_FEN_STAGE_04",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "ECHO"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "EXPEDITION_OR_COMBAT",
+              "description": "Odelia chooses how to remember failure without claiming another person’s life."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_ODELIA_FEN_TRADEOFF_05",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_ODELIA_FEN_RECOVERY_05",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": false
+        }
+      ],
+      "relationshipChoices": [
+        "LISTEN_WITHOUT_FIXING",
+        "CHALLENGE_WITH_EVIDENCE",
+        "OFFER_HELP_WITH_CONSENT"
+      ],
+      "hooks": {
+        "advancedClassTags": [
+          "CLASS_FIELD_SURGEON"
+        ],
+        "artTags": [
+          "BRANCH_DIRECT_HEALING"
+        ],
+        "equipmentEvolution": "EVOLUTION_HOOK_ODELIA_FEN",
+        "mentorship": "MENTOR_HOOK_ODELIA_FEN",
+        "turningPoint": "TP_HOOK_ODELIA_FEN"
+      },
+      "guildHallSceneRequired": true,
+      "futureEcho": "Odelia chooses how to remember failure without claiming another person’s life.",
+      "balanceNotes": "Quest rewards identity, legal path access, memories, or equipment evolution. It does not make the Signature Recruit automatically stronger than procedural recruits."
+    },
+    {
+      "id": "PERSONAL_QUEST_TOVVI_COPPERSPARK",
+      "recruitId": "SIGREC_TOVVI_COPPERSPARK",
+      "title": "Names Under the Pipe",
+      "personalConflict": "Tovvi finds worker names hidden inside infrastructure everyone credits to famous engineers.",
+      "minimumSubstantiveStages": 5,
+      "stages": [
+        {
+          "id": "PERSONAL_QUEST_TOVVI_COPPERSPARK_STAGE_01",
+          "stageIndex": 1,
+          "title": "The Rattle in the Wall",
+          "stageType": "GUILD_HALL",
+          "summary": "A repair reveals names scratched inside a water pipe.",
+          "eligibility": {
+            "requiredPreviousStage": null,
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "GUILD_HALL"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "A repair reveals names scratched inside a water pipe."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_TOVVI_COPPERSPARK_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_TOVVI_COPPERSPARK_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_TOVVI_COPPERSPARK_TRADEOFF_01",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_TOVVI_COPPERSPARK_RECOVERY_01",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_TOVVI_COPPERSPARK_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_TOVVI_COPPERSPARK_STAGE_02",
+          "stageIndex": 2,
+          "title": "Who Built Skyhome",
+          "stageType": "RESEARCH",
+          "summary": "Tovvi traces overlooked labor across civic systems.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_TOVVI_COPPERSPARK_STAGE_01",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "RESEARCH"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "Tovvi traces overlooked labor across civic systems."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_TOVVI_COPPERSPARK_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_TOVVI_COPPERSPARK_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_TOVVI_COPPERSPARK_TRADEOFF_02",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_TOVVI_COPPERSPARK_RECOVERY_02",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_TOVVI_COPPERSPARK_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_TOVVI_COPPERSPARK_STAGE_03",
+          "stageIndex": 3,
+          "title": "Credit Is a Structure",
+          "stageType": "SOCIAL",
+          "summary": "A senior engineer offers Tovvi sole credit for the discovery.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_TOVVI_COPPERSPARK_STAGE_02",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "SOCIAL"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "A senior engineer offers Tovvi sole credit for the discovery."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_TOVVI_COPPERSPARK_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_TOVVI_COPPERSPARK_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_TOVVI_COPPERSPARK_TRADEOFF_03",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_TOVVI_COPPERSPARK_RECOVERY_03",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_TOVVI_COPPERSPARK_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_TOVVI_COPPERSPARK_STAGE_04",
+          "stageIndex": 4,
+          "title": "Pressure Failure",
+          "stageType": "EXPEDITION",
+          "summary": "A damaged line can be saved only by using the hidden workers’ method.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_TOVVI_COPPERSPARK_STAGE_03",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "EXPEDITION"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "EXPEDITION_OR_COMBAT",
+              "description": "A damaged line can be saved only by using the hidden workers’ method."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_TOVVI_COPPERSPARK_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_TOVVI_COPPERSPARK_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_TOVVI_COPPERSPARK_TRADEOFF_04",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_TOVVI_COPPERSPARK_RECOVERY_04",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_TOVVI_COPPERSPARK_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_TOVVI_COPPERSPARK_STAGE_05",
+          "stageIndex": 5,
+          "title": "The Builders’ Wall",
+          "stageType": "ECHO",
+          "summary": "A public memorial changes how goblin engineering is remembered.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_TOVVI_COPPERSPARK_STAGE_04",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "ECHO"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "EXPEDITION_OR_COMBAT",
+              "description": "A public memorial changes how goblin engineering is remembered."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_TOVVI_COPPERSPARK_TRADEOFF_05",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_TOVVI_COPPERSPARK_RECOVERY_05",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": false
+        }
+      ],
+      "relationshipChoices": [
+        "LISTEN_WITHOUT_FIXING",
+        "CHALLENGE_WITH_EVIDENCE",
+        "OFFER_HELP_WITH_CONSENT"
+      ],
+      "hooks": {
+        "advancedClassTags": [
+          "CLASS_RUNE_ENGINEER"
+        ],
+        "artTags": [
+          "BRANCH_RUNE_SUPPORT"
+        ],
+        "equipmentEvolution": "EVOLUTION_HOOK_TOVVI_COPPERSPARK",
+        "mentorship": "MENTOR_HOOK_TOVVI_COPPERSPARK",
+        "turningPoint": "TP_HOOK_TOVVI_COPPERSPARK"
+      },
+      "guildHallSceneRequired": true,
+      "futureEcho": "A public memorial changes how goblin engineering is remembered.",
+      "balanceNotes": "Quest rewards identity, legal path access, memories, or equipment evolution. It does not make the Signature Recruit automatically stronger than procedural recruits."
+    },
+    {
+      "id": "PERSONAL_QUEST_VEYRA_ASHGLASS",
+      "recruitId": "SIGREC_VEYRA_ASHGLASS",
+      "title": "The Ward That Held",
+      "personalConflict": "Veyra’s most celebrated ward protected a district by sealing people on the wrong side.",
+      "minimumSubstantiveStages": 5,
+      "stages": [
+        {
+          "id": "PERSONAL_QUEST_VEYRA_ASHGLASS_STAGE_01",
+          "stageIndex": 1,
+          "title": "A Perfect Diagram",
+          "stageType": "LIBRARY",
+          "summary": "Veyra discovers the original ward diagram is being taught as a flawless victory.",
+          "eligibility": {
+            "requiredPreviousStage": null,
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "LIBRARY"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "Veyra discovers the original ward diagram is being taught as a flawless victory."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_VEYRA_ASHGLASS_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_VEYRA_ASHGLASS_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_VEYRA_ASHGLASS_TRADEOFF_01",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_VEYRA_ASHGLASS_RECOVERY_01",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_VEYRA_ASHGLASS_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_VEYRA_ASHGLASS_STAGE_02",
+          "stageIndex": 2,
+          "title": "Voices Outside the Line",
+          "stageType": "INVESTIGATION",
+          "summary": "Survivor testimony contradicts the official record.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_VEYRA_ASHGLASS_STAGE_01",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "INVESTIGATION"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "Survivor testimony contradicts the official record."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_VEYRA_ASHGLASS_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_VEYRA_ASHGLASS_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_VEYRA_ASHGLASS_TRADEOFF_02",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_VEYRA_ASHGLASS_RECOVERY_02",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_VEYRA_ASHGLASS_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_VEYRA_ASHGLASS_STAGE_03",
+          "stageIndex": 3,
+          "title": "Break Her Own Pattern",
+          "stageType": "TRAINING",
+          "summary": "Veyra must teach apprentices how to leave humane escape paths.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_VEYRA_ASHGLASS_STAGE_02",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "TRAINING"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "Veyra must teach apprentices how to leave humane escape paths."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_VEYRA_ASHGLASS_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_VEYRA_ASHGLASS_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_VEYRA_ASHGLASS_TRADEOFF_03",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_VEYRA_ASHGLASS_RECOVERY_03",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_VEYRA_ASHGLASS_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_VEYRA_ASHGLASS_STAGE_04",
+          "stageIndex": 4,
+          "title": "The Returning Surge",
+          "stageType": "COMBAT",
+          "summary": "A similar gate surge tests whether she repeats the old solution.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_VEYRA_ASHGLASS_STAGE_03",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "COMBAT"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "EXPEDITION_OR_COMBAT",
+              "description": "A similar gate surge tests whether she repeats the old solution."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_VEYRA_ASHGLASS_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_VEYRA_ASHGLASS_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_VEYRA_ASHGLASS_TRADEOFF_04",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_VEYRA_ASHGLASS_RECOVERY_04",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_VEYRA_ASHGLASS_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_VEYRA_ASHGLASS_STAGE_05",
+          "stageIndex": 5,
+          "title": "A Ward With a Door",
+          "stageType": "ECHO",
+          "summary": "Veyra’s evolved ward becomes safer but less absolute.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_VEYRA_ASHGLASS_STAGE_04",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "ECHO"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "EXPEDITION_OR_COMBAT",
+              "description": "Veyra’s evolved ward becomes safer but less absolute."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_VEYRA_ASHGLASS_TRADEOFF_05",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_VEYRA_ASHGLASS_RECOVERY_05",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": false
+        }
+      ],
+      "relationshipChoices": [
+        "LISTEN_WITHOUT_FIXING",
+        "CHALLENGE_WITH_EVIDENCE",
+        "OFFER_HELP_WITH_CONSENT"
+      ],
+      "hooks": {
+        "advancedClassTags": [
+          "CLASS_ARCANE_SENTINEL"
+        ],
+        "artTags": [
+          "BRANCH_WARD_BLADE"
+        ],
+        "equipmentEvolution": "EVOLUTION_HOOK_VEYRA_ASHGLASS",
+        "mentorship": "MENTOR_HOOK_VEYRA_ASHGLASS",
+        "turningPoint": "TP_HOOK_VEYRA_ASHGLASS"
+      },
+      "guildHallSceneRequired": true,
+      "futureEcho": "Veyra’s evolved ward becomes safer but less absolute.",
+      "balanceNotes": "Quest rewards identity, legal path access, memories, or equipment evolution. It does not make the Signature Recruit automatically stronger than procedural recruits."
+    },
+    {
+      "id": "PERSONAL_QUEST_RUSK_FENRUNNER",
+      "recruitId": "SIGREC_RUSK_FENRUNNER",
+      "title": "Bitter Leaf",
+      "personalConflict": "Rusk’s field remedy is effective because it uses a plant gathered from disputed land.",
+      "minimumSubstantiveStages": 5,
+      "stages": [
+        {
+          "id": "PERSONAL_QUEST_RUSK_FENRUNNER_STAGE_01",
+          "stageIndex": 1,
+          "title": "The Last Bundle",
+          "stageType": "ALCHEMY",
+          "summary": "The guild’s supply is nearly gone.",
+          "eligibility": {
+            "requiredPreviousStage": null,
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "ALCHEMY"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "The guild’s supply is nearly gone."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_RUSK_FENRUNNER_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_RUSK_FENRUNNER_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_RUSK_FENRUNNER_TRADEOFF_01",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_RUSK_FENRUNNER_RECOVERY_01",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_RUSK_FENRUNNER_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_RUSK_FENRUNNER_STAGE_02",
+          "stageIndex": 2,
+          "title": "Who Owns the Meadow",
+          "stageType": "DIPLOMACY",
+          "summary": "Local gatherers and beastkin stewards describe incompatible rights.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_RUSK_FENRUNNER_STAGE_01",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "DIPLOMACY"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "Local gatherers and beastkin stewards describe incompatible rights."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_RUSK_FENRUNNER_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_RUSK_FENRUNNER_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_RUSK_FENRUNNER_TRADEOFF_02",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_RUSK_FENRUNNER_RECOVERY_02",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_RUSK_FENRUNNER_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_RUSK_FENRUNNER_STAGE_03",
+          "stageIndex": 3,
+          "title": "A Cure With a Cost",
+          "stageType": "CHOICE",
+          "summary": "Rusk must choose between immediate medicine and sustainable access.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_RUSK_FENRUNNER_STAGE_02",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "CHOICE"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "Rusk must choose between immediate medicine and sustainable access."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_RUSK_FENRUNNER_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_RUSK_FENRUNNER_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_RUSK_FENRUNNER_TRADEOFF_03",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_RUSK_FENRUNNER_RECOVERY_03",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_RUSK_FENRUNNER_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_RUSK_FENRUNNER_STAGE_04",
+          "stageIndex": 4,
+          "title": "The Poisoned Trail",
+          "stageType": "EXPEDITION",
+          "summary": "A rescue reveals why the meadow became dangerous.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_RUSK_FENRUNNER_STAGE_03",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "EXPEDITION"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "EXPEDITION_OR_COMBAT",
+              "description": "A rescue reveals why the meadow became dangerous."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_RUSK_FENRUNNER_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_RUSK_FENRUNNER_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_RUSK_FENRUNNER_TRADEOFF_04",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_RUSK_FENRUNNER_RECOVERY_04",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_RUSK_FENRUNNER_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_RUSK_FENRUNNER_STAGE_05",
+          "stageIndex": 5,
+          "title": "Garden of Shared Hands",
+          "stageType": "ECHO",
+          "summary": "The Guild Garden may become a joint cultivation site rather than a resource claim.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_RUSK_FENRUNNER_STAGE_04",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "ECHO"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "EXPEDITION_OR_COMBAT",
+              "description": "The Guild Garden may become a joint cultivation site rather than a resource claim."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_RUSK_FENRUNNER_TRADEOFF_05",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_RUSK_FENRUNNER_RECOVERY_05",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": false
+        }
+      ],
+      "relationshipChoices": [
+        "LISTEN_WITHOUT_FIXING",
+        "CHALLENGE_WITH_EVIDENCE",
+        "OFFER_HELP_WITH_CONSENT"
+      ],
+      "hooks": {
+        "advancedClassTags": [
+          "CLASS_TRAIL_WARDEN"
+        ],
+        "artTags": [
+          "BRANCH_BOW_CONTROL"
+        ],
+        "equipmentEvolution": "EVOLUTION_HOOK_RUSK_FENRUNNER",
+        "mentorship": "MENTOR_HOOK_RUSK_FENRUNNER",
+        "turningPoint": "TP_HOOK_RUSK_FENRUNNER"
+      },
+      "guildHallSceneRequired": true,
+      "futureEcho": "The Guild Garden may become a joint cultivation site rather than a resource claim.",
+      "balanceNotes": "Quest rewards identity, legal path access, memories, or equipment evolution. It does not make the Signature Recruit automatically stronger than procedural recruits."
+    },
+    {
+      "id": "PERSONAL_QUEST_TALA_STORMROAD",
+      "recruitId": "SIGREC_TALA_STORMROAD",
+      "title": "The Route That Returned Empty",
+      "personalConflict": "Tala once led a scouting route that returned safely without the people it was meant to find.",
+      "minimumSubstantiveStages": 5,
+      "stages": [
+        {
+          "id": "PERSONAL_QUEST_TALA_STORMROAD_STAGE_01",
+          "stageIndex": 1,
+          "title": "An Old Route Marker",
+          "stageType": "STRATEGY_ROOM",
+          "summary": "A recovered marker carries Tala’s old command notation.",
+          "eligibility": {
+            "requiredPreviousStage": null,
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "STRATEGY_ROOM"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "A recovered marker carries Tala’s old command notation."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_TALA_STORMROAD_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_TALA_STORMROAD_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_TALA_STORMROAD_TRADEOFF_01",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_TALA_STORMROAD_RECOVERY_01",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_TALA_STORMROAD_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_TALA_STORMROAD_STAGE_02",
+          "stageIndex": 2,
+          "title": "The Missing Search Window",
+          "stageType": "INVESTIGATION",
+          "summary": "The route was closed before a second search could begin.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_TALA_STORMROAD_STAGE_01",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "INVESTIGATION"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "The route was closed before a second search could begin."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_TALA_STORMROAD_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_TALA_STORMROAD_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_TALA_STORMROAD_TRADEOFF_02",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_TALA_STORMROAD_RECOVERY_02",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_TALA_STORMROAD_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_TALA_STORMROAD_STAGE_03",
+          "stageIndex": 3,
+          "title": "Command Without Certainty",
+          "stageType": "MENTORSHIP",
+          "summary": "Tala trains apprentices to challenge her decisions with evidence.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_TALA_STORMROAD_STAGE_02",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "MENTORSHIP"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "Tala trains apprentices to challenge her decisions with evidence."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_TALA_STORMROAD_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_TALA_STORMROAD_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_TALA_STORMROAD_TRADEOFF_03",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_TALA_STORMROAD_RECOVERY_03",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_TALA_STORMROAD_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_TALA_STORMROAD_STAGE_04",
+          "stageIndex": 4,
+          "title": "The Same Storm",
+          "stageType": "OPERATION",
+          "summary": "A new disappearance recreates the old time pressure.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_TALA_STORMROAD_STAGE_03",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "OPERATION"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "EXPEDITION_OR_COMBAT",
+              "description": "A new disappearance recreates the old time pressure."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_TALA_STORMROAD_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_TALA_STORMROAD_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_TALA_STORMROAD_TRADEOFF_04",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_TALA_STORMROAD_RECOVERY_04",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_TALA_STORMROAD_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_TALA_STORMROAD_STAGE_05",
+          "stageIndex": 5,
+          "title": "What a Leader Owes",
+          "stageType": "ECHO",
+          "summary": "Tala’s authority changes depending on whether she shares command or takes it alone.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_TALA_STORMROAD_STAGE_04",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "ECHO"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "EXPEDITION_OR_COMBAT",
+              "description": "Tala’s authority changes depending on whether she shares command or takes it alone."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_TALA_STORMROAD_TRADEOFF_05",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_TALA_STORMROAD_RECOVERY_05",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": false
+        }
+      ],
+      "relationshipChoices": [
+        "LISTEN_WITHOUT_FIXING",
+        "CHALLENGE_WITH_EVIDENCE",
+        "OFFER_HELP_WITH_CONSENT"
+      ],
+      "hooks": {
+        "advancedClassTags": [
+          "CLASS_STORM_CAPTAIN"
+        ],
+        "artTags": [
+          "BRANCH_COMMAND"
+        ],
+        "equipmentEvolution": "EVOLUTION_HOOK_TALA_STORMROAD",
+        "mentorship": "MENTOR_HOOK_TALA_STORMROAD",
+        "turningPoint": "TP_HOOK_TALA_STORMROAD"
+      },
+      "guildHallSceneRequired": true,
+      "futureEcho": "Tala’s authority changes depending on whether she shares command or takes it alone.",
+      "balanceNotes": "Quest rewards identity, legal path access, memories, or equipment evolution. It does not make the Signature Recruit automatically stronger than procedural recruits."
+    },
+    {
+      "id": "PERSONAL_QUEST_ORREN_CLAY",
+      "recruitId": "SIGREC_ORREN_CLAY",
+      "title": "Manifest of the Missing",
+      "personalConflict": "Orren’s unremarkable work records contain patterns others ignored.",
+      "minimumSubstantiveStages": 5,
+      "stages": [
+        {
+          "id": "PERSONAL_QUEST_ORREN_CLAY_STAGE_01",
+          "stageIndex": 1,
+          "title": "The Quiet Ledger",
+          "stageType": "QUARTERMASTER",
+          "summary": "Orren notices supply discrepancies tied to missing workers.",
+          "eligibility": {
+            "requiredPreviousStage": null,
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "QUARTERMASTER"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "Orren notices supply discrepancies tied to missing workers."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_ORREN_CLAY_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_ORREN_CLAY_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_ORREN_CLAY_TRADEOFF_01",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_ORREN_CLAY_RECOVERY_01",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_ORREN_CLAY_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_ORREN_CLAY_STAGE_02",
+          "stageIndex": 2,
+          "title": "No One Asked Him",
+          "stageType": "SOCIAL",
+          "summary": "Senior staff dismiss his concern because he lacks status.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_ORREN_CLAY_STAGE_01",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "SOCIAL"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "Senior staff dismiss his concern because he lacks status."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_ORREN_CLAY_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_ORREN_CLAY_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_ORREN_CLAY_TRADEOFF_02",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_ORREN_CLAY_RECOVERY_02",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_ORREN_CLAY_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_ORREN_CLAY_STAGE_03",
+          "stageIndex": 3,
+          "title": "Follow the Small Numbers",
+          "stageType": "INVESTIGATION",
+          "summary": "A sequence of minor checks reveals a larger trafficking or fraud route.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_ORREN_CLAY_STAGE_02",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "INVESTIGATION"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "A sequence of minor checks reveals a larger trafficking or fraud route."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_ORREN_CLAY_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_ORREN_CLAY_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_ORREN_CLAY_TRADEOFF_03",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_ORREN_CLAY_RECOVERY_03",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_ORREN_CLAY_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_ORREN_CLAY_STAGE_04",
+          "stageIndex": 4,
+          "title": "Stand at the Front",
+          "stageType": "COMBAT",
+          "summary": "Orren must choose whether to lead despite weak early combat reputation.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_ORREN_CLAY_STAGE_03",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "COMBAT"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "EXPEDITION_OR_COMBAT",
+              "description": "Orren must choose whether to lead despite weak early combat reputation."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_ORREN_CLAY_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_ORREN_CLAY_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_ORREN_CLAY_TRADEOFF_04",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_ORREN_CLAY_RECOVERY_04",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_ORREN_CLAY_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_ORREN_CLAY_STAGE_05",
+          "stageIndex": 5,
+          "title": "The Name People Ask For",
+          "stageType": "ECHO",
+          "summary": "His late-bloomer path begins through earned recognition, not a sudden stat gift.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_ORREN_CLAY_STAGE_04",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "ECHO"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "EXPEDITION_OR_COMBAT",
+              "description": "His late-bloomer path begins through earned recognition, not a sudden stat gift."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_ORREN_CLAY_TRADEOFF_05",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_ORREN_CLAY_RECOVERY_05",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": false
+        }
+      ],
+      "relationshipChoices": [
+        "LISTEN_WITHOUT_FIXING",
+        "CHALLENGE_WITH_EVIDENCE",
+        "OFFER_HELP_WITH_CONSENT"
+      ],
+      "hooks": {
+        "advancedClassTags": [
+          "CLASS_BASTION_PORTER"
+        ],
+        "artTags": [
+          "BRANCH_LOAD_BEARING"
+        ],
+        "equipmentEvolution": "EVOLUTION_HOOK_ORREN_CLAY",
+        "mentorship": "MENTOR_HOOK_ORREN_CLAY",
+        "turningPoint": "TP_HOOK_ORREN_CLAY"
+      },
+      "guildHallSceneRequired": true,
+      "futureEcho": "His late-bloomer path begins through earned recognition, not a sudden stat gift.",
+      "balanceNotes": "Quest rewards identity, legal path access, memories, or equipment evolution. It does not make the Signature Recruit automatically stronger than procedural recruits."
+    },
+    {
+      "id": "PERSONAL_QUEST_BESSA_BRASSWHISTLE",
+      "recruitId": "SIGREC_BESSA_BRASSWHISTLE",
+      "title": "The Signal No One Heard",
+      "personalConflict": "Bessa’s warning system worked, but the people in danger had never been taught what it meant.",
+      "minimumSubstantiveStages": 5,
+      "stages": [
+        {
+          "id": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_STAGE_01",
+          "stageIndex": 1,
+          "title": "Perfect Tone, Empty Hall",
+          "stageType": "GUILD_HALL",
+          "summary": "Bessa demonstrates a signal everyone praises but few understand.",
+          "eligibility": {
+            "requiredPreviousStage": null,
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "GUILD_HALL"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "Bessa demonstrates a signal everyone praises but few understand."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_TRADEOFF_01",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_RECOVERY_01",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_STAGE_02",
+          "stageIndex": 2,
+          "title": "Languages of Alarm",
+          "stageType": "CULTURAL",
+          "summary": "Different communities explain how they signal danger.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_STAGE_01",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "CULTURAL"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "Different communities explain how they signal danger."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_TRADEOFF_02",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_RECOVERY_02",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_STAGE_03",
+          "stageIndex": 3,
+          "title": "Who Gets the Simple Version",
+          "stageType": "CHOICE",
+          "summary": "Bessa must choose between technical precision and broad access.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_STAGE_02",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "CHOICE"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "Bessa must choose between technical precision and broad access."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_TRADEOFF_03",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_RECOVERY_03",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_STAGE_04",
+          "stageIndex": 4,
+          "title": "Smoke Over the Gateworks",
+          "stageType": "OPERATION",
+          "summary": "A crisis tests the revised signal network.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_STAGE_03",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "OPERATION"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "EXPEDITION_OR_COMBAT",
+              "description": "A crisis tests the revised signal network."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_TRADEOFF_04",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_RECOVERY_04",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_STAGE_05",
+          "stageIndex": 5,
+          "title": "The Sound That Means Home",
+          "stageType": "ECHO",
+          "summary": "The signal becomes a shared civic language without erasing local traditions.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_STAGE_04",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "ECHO"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "EXPEDITION_OR_COMBAT",
+              "description": "The signal becomes a shared civic language without erasing local traditions."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_TRADEOFF_05",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_BESSA_BRASSWHISTLE_RECOVERY_05",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": false
+        }
+      ],
+      "relationshipChoices": [
+        "LISTEN_WITHOUT_FIXING",
+        "CHALLENGE_WITH_EVIDENCE",
+        "OFFER_HELP_WITH_CONSENT"
+      ],
+      "hooks": {
+        "advancedClassTags": [
+          "CLASS_BATTLE_SIGNALER"
+        ],
+        "artTags": [
+          "BRANCH_MORALE"
+        ],
+        "equipmentEvolution": "EVOLUTION_HOOK_BESSA_BRASSWHISTLE",
+        "mentorship": "MENTOR_HOOK_BESSA_BRASSWHISTLE",
+        "turningPoint": "TP_HOOK_BESSA_BRASSWHISTLE"
+      },
+      "guildHallSceneRequired": true,
+      "futureEcho": "The signal becomes a shared civic language without erasing local traditions.",
+      "balanceNotes": "Quest rewards identity, legal path access, memories, or equipment evolution. It does not make the Signature Recruit automatically stronger than procedural recruits."
+    },
+    {
+      "id": "PERSONAL_QUEST_VAELIS_NOCT",
+      "recruitId": "SIGREC_VAELIS_NOCT",
+      "title": "The Record That Watches Back",
+      "personalConflict": "Vaelis discovers an intelligence record that changes itself according to who reads it.",
+      "minimumSubstantiveStages": 5,
+      "stages": [
+        {
+          "id": "PERSONAL_QUEST_VAELIS_NOCT_STAGE_01",
+          "stageIndex": 1,
+          "title": "Ink That Moves",
+          "stageType": "LIBRARY",
+          "summary": "A sealed report displays a different accusation to each reader.",
+          "eligibility": {
+            "requiredPreviousStage": null,
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "LIBRARY"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "A sealed report displays a different accusation to each reader."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_VAELIS_NOCT_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_VAELIS_NOCT_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_VAELIS_NOCT_TRADEOFF_01",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_VAELIS_NOCT_RECOVERY_01",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_VAELIS_NOCT_STAGE_02",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_VAELIS_NOCT_STAGE_02",
+          "stageIndex": 2,
+          "title": "The Cost of Knowing",
+          "stageType": "INVESTIGATION",
+          "summary": "Vaelis must decide how much dangerous information to share.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_VAELIS_NOCT_STAGE_01",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "INVESTIGATION"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "Vaelis must decide how much dangerous information to share."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_VAELIS_NOCT_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_VAELIS_NOCT_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_VAELIS_NOCT_TRADEOFF_02",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_VAELIS_NOCT_RECOVERY_02",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_VAELIS_NOCT_STAGE_03",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_VAELIS_NOCT_STAGE_03",
+          "stageIndex": 3,
+          "title": "Trust Without Blindness",
+          "stageType": "RELATIONSHIP",
+          "summary": "A chosen partner may inspect the record with him, changing their bond.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_VAELIS_NOCT_STAGE_02",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "RELATIONSHIP"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "SOCIAL_OR_SKILL",
+              "description": "A chosen partner may inspect the record with him, changing their bond."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_VAELIS_NOCT_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_VAELIS_NOCT_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_VAELIS_NOCT_TRADEOFF_03",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_VAELIS_NOCT_RECOVERY_03",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_VAELIS_NOCT_STAGE_04",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_VAELIS_NOCT_STAGE_04",
+          "stageIndex": 4,
+          "title": "Ambush Written First",
+          "stageType": "COMBAT",
+          "summary": "Enemy behavior follows the record unless the Union acts unpredictably.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_VAELIS_NOCT_STAGE_03",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "COMBAT"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "EXPEDITION_OR_COMBAT",
+              "description": "Enemy behavior follows the record unless the Union acts unpredictably."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_VAELIS_NOCT_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": "PERSONAL_QUEST_VAELIS_NOCT_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_VAELIS_NOCT_TRADEOFF_04",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_VAELIS_NOCT_RECOVERY_04",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": "PERSONAL_QUEST_VAELIS_NOCT_STAGE_05",
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": true
+        },
+        {
+          "id": "PERSONAL_QUEST_VAELIS_NOCT_STAGE_05",
+          "stageIndex": 5,
+          "title": "Archive of Limits",
+          "stageType": "ECHO",
+          "summary": "Vaelis helps create rules for intelligence that preserve evidence and agency.",
+          "eligibility": {
+            "requiredPreviousStage": "PERSONAL_QUEST_VAELIS_NOCT_STAGE_04",
+            "requiredFlags": [],
+            "facilityOrZoneTags": [
+              "ECHO"
+            ]
+          },
+          "objectives": [
+            {
+              "type": "EXPEDITION_OR_COMBAT",
+              "description": "Vaelis helps create rules for intelligence that preserve evidence and agency."
+            }
+          ],
+          "outcomes": {
+            "SUCCESS": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "recoveryRequired": false
+            },
+            "MIXED_SUCCESS": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_PERSONAL_QUEST_CHOICE",
+              "tradeoffTag": "PERSONAL_QUEST_VAELIS_NOCT_TRADEOFF_05",
+              "recoveryRequired": false
+            },
+            "FAILURE": {
+              "nextStage": "PERSONAL_QUEST_VAELIS_NOCT_RECOVERY_05",
+              "memoryTypeId": "REL_MEMORY_DUTY_FAILURE_ACCOUNTABILITY",
+              "recoveryRequired": true
+            },
+            "RECOVERY": {
+              "nextStage": null,
+              "memoryTypeId": "REL_MEMORY_RECONCILIATION",
+              "recoveryRequired": false
+            }
+          },
+          "noLifetimeConflictInstantResolution": false
+        }
+      ],
+      "relationshipChoices": [
+        "LISTEN_WITHOUT_FIXING",
+        "CHALLENGE_WITH_EVIDENCE",
+        "OFFER_HELP_WITH_CONSENT"
+      ],
+      "hooks": {
+        "advancedClassTags": [
+          "CLASS_DUSK_COMMANDER"
+        ],
+        "artTags": [
+          "BRANCH_PRECISION"
+        ],
+        "equipmentEvolution": "EVOLUTION_HOOK_VAELIS_NOCT",
+        "mentorship": "MENTOR_HOOK_VAELIS_NOCT",
+        "turningPoint": "TP_HOOK_VAELIS_NOCT"
+      },
+      "guildHallSceneRequired": true,
+      "futureEcho": "Vaelis helps create rules for intelligence that preserve evidence and agency.",
+      "balanceNotes": "Quest rewards identity, legal path access, memories, or equipment evolution. It does not make the Signature Recruit automatically stronger than procedural recruits."
+    }
+  ]
+}

@@ -1,0 +1,2225 @@
+{
+  "ContentVersion": "GATES_OF_FORGOTTEN_WORLDS_018B_1.0",
+  "Events": [
+    {
+      "Id": "EVENT018B_B06_01",
+      "ArcId": "ARC018B_B06",
+      "MapId": "MAP018B_B06_LAST_TREASURY",
+      "DisplayName": "Citizens’ Gallery",
+      "SkillId": "SCOUTING",
+      "Difficulty": 9,
+      "Summary": "The Last Treasury: Citizens’ Gallery requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B06_02",
+      "ArcId": "ARC018B_B06",
+      "MapId": "MAP018B_B06_LAST_TREASURY",
+      "DisplayName": "Council Chamber",
+      "SkillId": "DIPLOMACY",
+      "Difficulty": 10,
+      "Summary": "The Last Treasury: Council Chamber requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B06_03",
+      "ArcId": "ARC018B_B06",
+      "MapId": "MAP018B_B06_LAST_TREASURY",
+      "DisplayName": "Commanders’ Hall",
+      "SkillId": "ENGINEERING",
+      "Difficulty": 11,
+      "Summary": "The Last Treasury: Commanders’ Hall requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B06_04",
+      "ArcId": "ARC018B_B06",
+      "MapId": "MAP018B_B06_LAST_TREASURY",
+      "DisplayName": "Evolution Dais",
+      "SkillId": "RESTORATION",
+      "Difficulty": 12,
+      "Summary": "The Last Treasury: Evolution Dais requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B06_05",
+      "ArcId": "ARC018B_B06",
+      "MapId": "MAP018B_B06_LAST_TREASURY",
+      "DisplayName": "Final Letters",
+      "SkillId": "LEADERSHIP",
+      "Difficulty": 13,
+      "Summary": "The Last Treasury: Final Letters requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B06_06",
+      "ArcId": "ARC018B_B06",
+      "MapId": "MAP018B_B06_LAST_TREASURY",
+      "DisplayName": "Descent Check",
+      "SkillId": "MYSTIC_RESEARCH",
+      "Difficulty": 14,
+      "Summary": "The Last Treasury: Descent Check requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B07_01",
+      "ArcId": "ARC018B_B07",
+      "MapId": "MAP018B_B07_GOBLIN_WAR",
+      "DisplayName": "Market Panic",
+      "SkillId": "SCOUTING",
+      "Difficulty": 9,
+      "Summary": "The Descent and the Goblin War: Market Panic requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B07_02",
+      "ArcId": "ARC018B_B07",
+      "MapId": "MAP018B_B07_GOBLIN_WAR",
+      "DisplayName": "First Goblin Pack",
+      "SkillId": "DIPLOMACY",
+      "Difficulty": 10,
+      "Summary": "The Descent and the Goblin War: First Goblin Pack requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B07_03",
+      "ArcId": "ARC018B_B07",
+      "MapId": "MAP018B_B07_GOBLIN_WAR",
+      "DisplayName": "Broken Signals",
+      "SkillId": "ENGINEERING",
+      "Difficulty": 11,
+      "Summary": "The Descent and the Goblin War: Broken Signals requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B07_04",
+      "ArcId": "ARC018B_B07",
+      "MapId": "MAP018B_B07_GOBLIN_WAR",
+      "DisplayName": "Main Gate Objective",
+      "SkillId": "RESTORATION",
+      "Difficulty": 12,
+      "Summary": "The Descent and the Goblin War: Main Gate Objective requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B07_05",
+      "ArcId": "ARC018B_B07",
+      "MapId": "MAP018B_B07_GOBLIN_WAR",
+      "DisplayName": "Prisoner Event",
+      "SkillId": "LEADERSHIP",
+      "Difficulty": 13,
+      "Summary": "The Descent and the Goblin War: Prisoner Event requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B07_06",
+      "ArcId": "ARC018B_B07",
+      "MapId": "MAP018B_B07_GOBLIN_WAR",
+      "DisplayName": "Wall Integrity Check",
+      "SkillId": "MYSTIC_RESEARCH",
+      "Difficulty": 14,
+      "Summary": "The Descent and the Goblin War: Wall Integrity Check requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B08_01",
+      "ArcId": "ARC018B_B08",
+      "MapId": "MAP018B_B08_GOBLIN_FORTRESS",
+      "DisplayName": "Prisoner Yard",
+      "SkillId": "SCOUTING",
+      "Difficulty": 9,
+      "Summary": "The Captured Goblin Fortress: Prisoner Yard requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B08_02",
+      "ArcId": "ARC018B_B08",
+      "MapId": "MAP018B_B08_GOBLIN_FORTRESS",
+      "DisplayName": "Outer District Battle",
+      "SkillId": "DIPLOMACY",
+      "Difficulty": 10,
+      "Summary": "The Captured Goblin Fortress: Outer District Battle requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B08_03",
+      "ArcId": "ARC018B_B08",
+      "MapId": "MAP018B_B08_GOBLIN_FORTRESS",
+      "DisplayName": "Mercy Event",
+      "SkillId": "ENGINEERING",
+      "Difficulty": 11,
+      "Summary": "The Captured Goblin Fortress: Mercy Event requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B08_04",
+      "ArcId": "ARC018B_B08",
+      "MapId": "MAP018B_B08_GOBLIN_FORTRESS",
+      "DisplayName": "Engine Chamber",
+      "SkillId": "RESTORATION",
+      "Difficulty": 12,
+      "Summary": "The Captured Goblin Fortress: Engine Chamber requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B08_05",
+      "ArcId": "ARC018B_B08",
+      "MapId": "MAP018B_B08_GOBLIN_FORTRESS",
+      "DisplayName": "Scholar Event",
+      "SkillId": "LEADERSHIP",
+      "Difficulty": 13,
+      "Summary": "The Captured Goblin Fortress: Scholar Event requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B08_06",
+      "ArcId": "ARC018B_B08",
+      "MapId": "MAP018B_B08_GOBLIN_FORTRESS",
+      "DisplayName": "Citadel Seal Check",
+      "SkillId": "MYSTIC_RESEARCH",
+      "Difficulty": 14,
+      "Summary": "The Captured Goblin Fortress: Citadel Seal Check requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B09_01",
+      "ArcId": "ARC018B_B09",
+      "MapId": "MAP018B_B09_GOBLIN_UNDERREALM",
+      "DisplayName": "Caste Toll",
+      "SkillId": "SCOUTING",
+      "Difficulty": 9,
+      "Summary": "The Goblin Underrealm: Caste Toll requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B09_02",
+      "ArcId": "ARC018B_B09",
+      "MapId": "MAP018B_B09_GOBLIN_UNDERREALM",
+      "DisplayName": "Burrow Patrol",
+      "SkillId": "DIPLOMACY",
+      "Difficulty": 10,
+      "Summary": "The Goblin Underrealm: Burrow Patrol requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B09_03",
+      "ArcId": "ARC018B_B09",
+      "MapId": "MAP018B_B09_GOBLIN_UNDERREALM",
+      "DisplayName": "House Dispute",
+      "SkillId": "ENGINEERING",
+      "Difficulty": 11,
+      "Summary": "The Goblin Underrealm: House Dispute requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B09_04",
+      "ArcId": "ARC018B_B09",
+      "MapId": "MAP018B_B09_GOBLIN_UNDERREALM",
+      "DisplayName": "Memory Quarry",
+      "SkillId": "RESTORATION",
+      "Difficulty": 12,
+      "Summary": "The Goblin Underrealm: Memory Quarry requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B09_05",
+      "ArcId": "ARC018B_B09",
+      "MapId": "MAP018B_B09_GOBLIN_UNDERREALM",
+      "DisplayName": "Child of Wrong House",
+      "SkillId": "LEADERSHIP",
+      "Difficulty": 13,
+      "Summary": "The Goblin Underrealm: Child of Wrong House requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B09_06",
+      "ArcId": "ARC018B_B09",
+      "MapId": "MAP018B_B09_GOBLIN_UNDERREALM",
+      "DisplayName": "Return Clock Check",
+      "SkillId": "MYSTIC_RESEARCH",
+      "Difficulty": 14,
+      "Summary": "The Goblin Underrealm: Return Clock Check requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B10_01",
+      "ArcId": "ARC018B_B10",
+      "MapId": "MAP018B_B10_ARCHITECT_OF_WORLDS",
+      "DisplayName": "Merchant Petition",
+      "SkillId": "SCOUTING",
+      "Difficulty": 9,
+      "Summary": "Architect of Worlds: Merchant Petition requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B10_02",
+      "ArcId": "ARC018B_B10",
+      "MapId": "MAP018B_B10_ARCHITECT_OF_WORLDS",
+      "DisplayName": "Saboteur Battle",
+      "SkillId": "DIPLOMACY",
+      "Difficulty": 10,
+      "Summary": "Architect of Worlds: Saboteur Battle requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B10_03",
+      "ArcId": "ARC018B_B10",
+      "MapId": "MAP018B_B10_ARCHITECT_OF_WORLDS",
+      "DisplayName": "School Event",
+      "SkillId": "ENGINEERING",
+      "Difficulty": 11,
+      "Summary": "Architect of Worlds: School Event requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B10_04",
+      "ArcId": "ARC018B_B10",
+      "MapId": "MAP018B_B10_ARCHITECT_OF_WORLDS",
+      "DisplayName": "Covenant Hall",
+      "SkillId": "RESTORATION",
+      "Difficulty": 12,
+      "Summary": "Architect of Worlds: Covenant Hall requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B10_05",
+      "ArcId": "ARC018B_B10",
+      "MapId": "MAP018B_B10_ARCHITECT_OF_WORLDS",
+      "DisplayName": "First Alliance Fragment",
+      "SkillId": "LEADERSHIP",
+      "Difficulty": 13,
+      "Summary": "Architect of Worlds: First Alliance Fragment requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B10_06",
+      "ArcId": "ARC018B_B10",
+      "MapId": "MAP018B_B10_ARCHITECT_OF_WORLDS",
+      "DisplayName": "Covenant Check",
+      "SkillId": "MYSTIC_RESEARCH",
+      "Difficulty": 14,
+      "Summary": "Architect of Worlds: Covenant Check requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B11_01",
+      "ArcId": "ARC018B_B11",
+      "MapId": "MAP018B_B11_FIRST_GATE_ECHO",
+      "DisplayName": "Tollkeeper Event",
+      "SkillId": "SCOUTING",
+      "Difficulty": 9,
+      "Summary": "The First Gate Echo: Tollkeeper Event requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B11_02",
+      "ArcId": "ARC018B_B11",
+      "MapId": "MAP018B_B11_FIRST_GATE_ECHO",
+      "DisplayName": "Echo Patrol",
+      "SkillId": "DIPLOMACY",
+      "Difficulty": 10,
+      "Summary": "The First Gate Echo: Echo Patrol requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B11_03",
+      "ArcId": "ARC018B_B11",
+      "MapId": "MAP018B_B11_FIRST_GATE_ECHO",
+      "DisplayName": "Silent Record",
+      "SkillId": "ENGINEERING",
+      "Difficulty": 11,
+      "Summary": "The First Gate Echo: Silent Record requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B11_04",
+      "ArcId": "ARC018B_B11",
+      "MapId": "MAP018B_B11_FIRST_GATE_ECHO",
+      "DisplayName": "First Safe Crossing",
+      "SkillId": "RESTORATION",
+      "Difficulty": 12,
+      "Summary": "The First Gate Echo: First Safe Crossing requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B11_05",
+      "ArcId": "ARC018B_B11",
+      "MapId": "MAP018B_B11_FIRST_GATE_ECHO",
+      "DisplayName": "Observer Event",
+      "SkillId": "LEADERSHIP",
+      "Difficulty": 13,
+      "Summary": "The First Gate Echo: Observer Event requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B11_06",
+      "ArcId": "ARC018B_B11",
+      "MapId": "MAP018B_B11_FIRST_GATE_ECHO",
+      "DisplayName": "Route Stability Check",
+      "SkillId": "MYSTIC_RESEARCH",
+      "Difficulty": 14,
+      "Summary": "The First Gate Echo: Route Stability Check requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B12_01",
+      "ArcId": "ARC018B_B12",
+      "MapId": "MAP018B_B12_ORC_BLOOD_PLAINS",
+      "DisplayName": "Blood-Debt Council",
+      "SkillId": "SCOUTING",
+      "Difficulty": 9,
+      "Summary": "Orc Blood Plains: Blood-Debt Council requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B12_02",
+      "ArcId": "ARC018B_B12",
+      "MapId": "MAP018B_B12_ORC_BLOOD_PLAINS",
+      "DisplayName": "Clan Patrol",
+      "SkillId": "DIPLOMACY",
+      "Difficulty": 10,
+      "Summary": "Orc Blood Plains: Clan Patrol requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B12_03",
+      "ArcId": "ARC018B_B12",
+      "MapId": "MAP018B_B12_ORC_BLOOD_PLAINS",
+      "DisplayName": "Old Rival Event",
+      "SkillId": "ENGINEERING",
+      "Difficulty": 11,
+      "Summary": "Orc Blood Plains: Old Rival Event requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B12_04",
+      "ArcId": "ARC018B_B12",
+      "MapId": "MAP018B_B12_ORC_BLOOD_PLAINS",
+      "DisplayName": "Shared Hold Objective",
+      "SkillId": "RESTORATION",
+      "Difficulty": 12,
+      "Summary": "Orc Blood Plains: Shared Hold Objective requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B12_05",
+      "ArcId": "ARC018B_B12",
+      "MapId": "MAP018B_B12_ORC_BLOOD_PLAINS",
+      "DisplayName": "Child Between Clans",
+      "SkillId": "LEADERSHIP",
+      "Difficulty": 13,
+      "Summary": "Orc Blood Plains: Child Between Clans requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B12_06",
+      "ArcId": "ARC018B_B12",
+      "MapId": "MAP018B_B12_ORC_BLOOD_PLAINS",
+      "DisplayName": "Banner Check",
+      "SkillId": "MYSTIC_RESEARCH",
+      "Difficulty": 14,
+      "Summary": "Orc Blood Plains: Banner Check requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B13_01",
+      "ArcId": "ARC018B_B13",
+      "MapId": "MAP018B_B13_BEAST_MOON",
+      "DisplayName": "Territory Event",
+      "SkillId": "SCOUTING",
+      "Difficulty": 9,
+      "Summary": "Beast Moon Territories: Territory Event requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B13_02",
+      "ArcId": "ARC018B_B13",
+      "MapId": "MAP018B_B13_BEAST_MOON",
+      "DisplayName": "Predator Battle",
+      "SkillId": "DIPLOMACY",
+      "Difficulty": 10,
+      "Summary": "Beast Moon Territories: Predator Battle requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B13_03",
+      "ArcId": "ARC018B_B13",
+      "MapId": "MAP018B_B13_BEAST_MOON",
+      "DisplayName": "Lost Cub Event",
+      "SkillId": "ENGINEERING",
+      "Difficulty": 11,
+      "Summary": "Beast Moon Territories: Lost Cub Event requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B13_04",
+      "ArcId": "ARC018B_B13",
+      "MapId": "MAP018B_B13_BEAST_MOON",
+      "DisplayName": "Living Covenant",
+      "SkillId": "RESTORATION",
+      "Difficulty": 12,
+      "Summary": "Beast Moon Territories: Living Covenant requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B13_05",
+      "ArcId": "ARC018B_B13",
+      "MapId": "MAP018B_B13_BEAST_MOON",
+      "DisplayName": "Settlement Debate",
+      "SkillId": "LEADERSHIP",
+      "Difficulty": 13,
+      "Summary": "Beast Moon Territories: Settlement Debate requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B13_06",
+      "ArcId": "ARC018B_B13",
+      "MapId": "MAP018B_B13_BEAST_MOON",
+      "DisplayName": "Territory Check",
+      "SkillId": "MYSTIC_RESEARCH",
+      "Difficulty": 14,
+      "Summary": "Beast Moon Territories: Territory Check requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B14_01",
+      "ArcId": "ARC018B_B14",
+      "MapId": "MAP018B_B14_DEMON_EMPIRE",
+      "DisplayName": "Oath Event",
+      "SkillId": "SCOUTING",
+      "Difficulty": 9,
+      "Summary": "Demon Empire: Oath Event requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B14_02",
+      "ArcId": "ARC018B_B14",
+      "MapId": "MAP018B_B14_DEMON_EMPIRE",
+      "DisplayName": "Court Guard Battle",
+      "SkillId": "DIPLOMACY",
+      "Difficulty": 10,
+      "Summary": "Demon Empire: Court Guard Battle requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B14_03",
+      "ArcId": "ARC018B_B14",
+      "MapId": "MAP018B_B14_DEMON_EMPIRE",
+      "DisplayName": "Child Memory Event",
+      "SkillId": "ENGINEERING",
+      "Difficulty": 11,
+      "Summary": "Demon Empire: Child Memory Event requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B14_04",
+      "ArcId": "ARC018B_B14",
+      "MapId": "MAP018B_B14_DEMON_EMPIRE",
+      "DisplayName": "Covenant Court",
+      "SkillId": "RESTORATION",
+      "Difficulty": 12,
+      "Summary": "Demon Empire: Covenant Court requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B14_05",
+      "ArcId": "ARC018B_B14",
+      "MapId": "MAP018B_B14_DEMON_EMPIRE",
+      "DisplayName": "Unspoken Contract",
+      "SkillId": "LEADERSHIP",
+      "Difficulty": 13,
+      "Summary": "Demon Empire: Unspoken Contract requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B14_06",
+      "ArcId": "ARC018B_B14",
+      "MapId": "MAP018B_B14_DEMON_EMPIRE",
+      "DisplayName": "Oath Check",
+      "SkillId": "MYSTIC_RESEARCH",
+      "Difficulty": 14,
+      "Summary": "Demon Empire: Oath Check requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B15_01",
+      "ArcId": "ARC018B_B15",
+      "MapId": "MAP018B_B15_GATES_OF_FORGOTTEN_WORLDS",
+      "DisplayName": "Worlds Remember Event",
+      "SkillId": "SCOUTING",
+      "Difficulty": 9,
+      "Summary": "The Gates of Forgotten Worlds: Worlds Remember Event requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B15_02",
+      "ArcId": "ARC018B_B15",
+      "MapId": "MAP018B_B15_GATES_OF_FORGOTTEN_WORLDS",
+      "DisplayName": "Ancient Patrol",
+      "SkillId": "DIPLOMACY",
+      "Difficulty": 10,
+      "Summary": "The Gates of Forgotten Worlds: Ancient Patrol requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B15_03",
+      "ArcId": "ARC018B_B15",
+      "MapId": "MAP018B_B15_GATES_OF_FORGOTTEN_WORLDS",
+      "DisplayName": "Property Debate",
+      "SkillId": "ENGINEERING",
+      "Difficulty": 11,
+      "Summary": "The Gates of Forgotten Worlds: Property Debate requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B15_04",
+      "ArcId": "ARC018B_B15",
+      "MapId": "MAP018B_B15_GATES_OF_FORGOTTEN_WORLDS",
+      "DisplayName": "Crossroads Charter",
+      "SkillId": "RESTORATION",
+      "Difficulty": 12,
+      "Summary": "The Gates of Forgotten Worlds: Crossroads Charter requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B15_05",
+      "ArcId": "ARC018B_B15",
+      "MapId": "MAP018B_B15_GATES_OF_FORGOTTEN_WORLDS",
+      "DisplayName": "Silent Observer Event",
+      "SkillId": "LEADERSHIP",
+      "Difficulty": 13,
+      "Summary": "The Gates of Forgotten Worlds: Silent Observer Event requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    },
+    {
+      "Id": "EVENT018B_B15_06",
+      "ArcId": "ARC018B_B15",
+      "MapId": "MAP018B_B15_GATES_OF_FORGOTTEN_WORLDS",
+      "DisplayName": "Alliance Check",
+      "SkillId": "MYSTIC_RESEARCH",
+      "Difficulty": 14,
+      "Summary": "The Gates of Forgotten Worlds: Alliance Check requires a committed choice with visible costs and no reload reroll.",
+      "Choices": [
+        {
+          "Id": "CAUTIOUS",
+          "Label": "Take the careful civic route",
+          "Modifier": 1,
+          "CostSupplies": 1
+        },
+        {
+          "Id": "DIRECT",
+          "Label": "Commit the prepared Union",
+          "Modifier": 0,
+          "CostSupplies": 0
+        },
+        {
+          "Id": "SPECIALIST",
+          "Label": "Use the relevant specialist",
+          "Modifier": 2,
+          "CostSupplies": 2
+        }
+      ],
+      "CriticalSuccess": "The Guild succeeds while protecting people, supplies, and future options.",
+      "Success": "The objective is completed cleanly.",
+      "Mixed": "The objective succeeds with a visible cost.",
+      "Setback": "The Guild preserves a recovery path but loses time or supplies.",
+      "CriticalSetback": "The operation suffers a recoverable setback; no permanent member is lost.",
+      "CanReroll": false,
+      "CanCauseInvoluntaryDeparture": false,
+      "CanRevealProtectedTruth": false
+    }
+  ]
+}

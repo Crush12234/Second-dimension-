@@ -1,0 +1,2945 @@
+{
+  "ContentVersion": "GATES_OF_FORGOTTEN_WORLDS_018B_1.0",
+  "Encounters": [
+    {
+      "Id": "ENCOUNTER018B_B06_01",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Encounter 01",
+      "EnemyUnionCount": 8,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B06_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B06_02",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Encounter 02",
+      "EnemyUnionCount": 9,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B06_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B06_03",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Encounter 03",
+      "EnemyUnionCount": 10,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B06_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B06_04",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Encounter 04",
+      "EnemyUnionCount": 1,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B06_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B06_05",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Encounter 05",
+      "EnemyUnionCount": 2,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B06_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B06_06",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Encounter 06",
+      "EnemyUnionCount": 3,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B06_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B06_07",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Encounter 07",
+      "EnemyUnionCount": 4,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B06_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B06_08",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Encounter 08",
+      "EnemyUnionCount": 5,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B06_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B06_09",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Encounter 09",
+      "EnemyUnionCount": 6,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B06_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B06_10",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Encounter 10",
+      "EnemyUnionCount": 7,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B06_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B06_11",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Encounter 11",
+      "EnemyUnionCount": 8,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B06_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B06_12",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Encounter 12",
+      "EnemyUnionCount": 9,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B06_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B06_13",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Encounter 13",
+      "EnemyUnionCount": 10,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B06_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B06_14",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Encounter 14",
+      "EnemyUnionCount": 1,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B06_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B06_15",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Encounter 15",
+      "EnemyUnionCount": 2,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B06_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B06_16",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Encounter 16",
+      "EnemyUnionCount": 3,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B06_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B06_17",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Encounter 17",
+      "EnemyUnionCount": 4,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B06_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B06_18",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Encounter 18",
+      "EnemyUnionCount": 5,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B06_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B06_19",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Encounter 19",
+      "EnemyUnionCount": 6,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B06_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B06_20",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Encounter 20",
+      "EnemyUnionCount": 7,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B06_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B06_21",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Encounter 21",
+      "EnemyUnionCount": 8,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B06_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B07_01",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Encounter 01",
+      "EnemyUnionCount": 9,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B07_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B07_02",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Encounter 02",
+      "EnemyUnionCount": 10,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B07_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B07_03",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Encounter 03",
+      "EnemyUnionCount": 1,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B07_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B07_04",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Encounter 04",
+      "EnemyUnionCount": 2,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B07_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B07_05",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Encounter 05",
+      "EnemyUnionCount": 3,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B07_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B07_06",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Encounter 06",
+      "EnemyUnionCount": 4,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B07_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B07_07",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Encounter 07",
+      "EnemyUnionCount": 5,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B07_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B07_08",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Encounter 08",
+      "EnemyUnionCount": 6,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B07_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B07_09",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Encounter 09",
+      "EnemyUnionCount": 7,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B07_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B07_10",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Encounter 10",
+      "EnemyUnionCount": 8,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B07_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B07_11",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Encounter 11",
+      "EnemyUnionCount": 9,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B07_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B07_12",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Encounter 12",
+      "EnemyUnionCount": 10,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B07_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B07_13",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Encounter 13",
+      "EnemyUnionCount": 1,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B07_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B07_14",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Encounter 14",
+      "EnemyUnionCount": 2,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B07_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B07_15",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Encounter 15",
+      "EnemyUnionCount": 3,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B07_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B07_16",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Encounter 16",
+      "EnemyUnionCount": 4,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B07_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B07_17",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Encounter 17",
+      "EnemyUnionCount": 5,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B07_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B07_18",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Encounter 18",
+      "EnemyUnionCount": 6,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B07_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B07_19",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Encounter 19",
+      "EnemyUnionCount": 7,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B07_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B07_20",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Encounter 20",
+      "EnemyUnionCount": 8,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B07_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B07_21",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Encounter 21",
+      "EnemyUnionCount": 9,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B07_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B08_01",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Encounter 01",
+      "EnemyUnionCount": 10,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B08_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B08_02",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Encounter 02",
+      "EnemyUnionCount": 1,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B08_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B08_03",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Encounter 03",
+      "EnemyUnionCount": 2,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B08_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B08_04",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Encounter 04",
+      "EnemyUnionCount": 3,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B08_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B08_05",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Encounter 05",
+      "EnemyUnionCount": 4,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B08_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B08_06",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Encounter 06",
+      "EnemyUnionCount": 5,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B08_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B08_07",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Encounter 07",
+      "EnemyUnionCount": 6,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B08_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B08_08",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Encounter 08",
+      "EnemyUnionCount": 7,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B08_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B08_09",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Encounter 09",
+      "EnemyUnionCount": 8,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B08_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B08_10",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Encounter 10",
+      "EnemyUnionCount": 9,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B08_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B08_11",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Encounter 11",
+      "EnemyUnionCount": 10,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B08_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B08_12",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Encounter 12",
+      "EnemyUnionCount": 1,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B08_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B08_13",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Encounter 13",
+      "EnemyUnionCount": 2,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B08_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B08_14",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Encounter 14",
+      "EnemyUnionCount": 3,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B08_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B08_15",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Encounter 15",
+      "EnemyUnionCount": 4,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B08_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B08_16",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Encounter 16",
+      "EnemyUnionCount": 5,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B08_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B08_17",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Encounter 17",
+      "EnemyUnionCount": 6,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B08_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B08_18",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Encounter 18",
+      "EnemyUnionCount": 7,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B08_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B08_19",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Encounter 19",
+      "EnemyUnionCount": 8,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B08_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B08_20",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Encounter 20",
+      "EnemyUnionCount": 9,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B08_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B08_21",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Encounter 21",
+      "EnemyUnionCount": 10,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B08_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B09_01",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Encounter 01",
+      "EnemyUnionCount": 1,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B09_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B09_02",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Encounter 02",
+      "EnemyUnionCount": 2,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B09_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B09_03",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Encounter 03",
+      "EnemyUnionCount": 3,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B09_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B09_04",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Encounter 04",
+      "EnemyUnionCount": 4,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B09_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B09_05",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Encounter 05",
+      "EnemyUnionCount": 5,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B09_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B09_06",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Encounter 06",
+      "EnemyUnionCount": 6,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B09_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B09_07",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Encounter 07",
+      "EnemyUnionCount": 7,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B09_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B09_08",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Encounter 08",
+      "EnemyUnionCount": 8,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B09_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B09_09",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Encounter 09",
+      "EnemyUnionCount": 9,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B09_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B09_10",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Encounter 10",
+      "EnemyUnionCount": 10,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B09_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B09_11",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Encounter 11",
+      "EnemyUnionCount": 1,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B09_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B09_12",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Encounter 12",
+      "EnemyUnionCount": 2,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B09_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B09_13",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Encounter 13",
+      "EnemyUnionCount": 3,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B09_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B09_14",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Encounter 14",
+      "EnemyUnionCount": 4,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B09_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B09_15",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Encounter 15",
+      "EnemyUnionCount": 5,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B09_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B09_16",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Encounter 16",
+      "EnemyUnionCount": 6,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B09_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B09_17",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Encounter 17",
+      "EnemyUnionCount": 7,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B09_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B09_18",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Encounter 18",
+      "EnemyUnionCount": 8,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B09_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B09_19",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Encounter 19",
+      "EnemyUnionCount": 9,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B09_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B09_20",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Encounter 20",
+      "EnemyUnionCount": 10,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B09_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B09_21",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Encounter 21",
+      "EnemyUnionCount": 1,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B09_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B10_01",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Encounter 01",
+      "EnemyUnionCount": 2,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B10_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B10_02",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Encounter 02",
+      "EnemyUnionCount": 3,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B10_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B10_03",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Encounter 03",
+      "EnemyUnionCount": 4,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B10_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B10_04",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Encounter 04",
+      "EnemyUnionCount": 5,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B10_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B10_05",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Encounter 05",
+      "EnemyUnionCount": 6,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B10_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B10_06",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Encounter 06",
+      "EnemyUnionCount": 7,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B10_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B10_07",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Encounter 07",
+      "EnemyUnionCount": 8,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B10_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B10_08",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Encounter 08",
+      "EnemyUnionCount": 9,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B10_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B10_09",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Encounter 09",
+      "EnemyUnionCount": 10,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B10_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B10_10",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Encounter 10",
+      "EnemyUnionCount": 1,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B10_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B10_11",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Encounter 11",
+      "EnemyUnionCount": 2,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B10_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B10_12",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Encounter 12",
+      "EnemyUnionCount": 3,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B10_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B10_13",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Encounter 13",
+      "EnemyUnionCount": 4,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B10_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B10_14",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Encounter 14",
+      "EnemyUnionCount": 5,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B10_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B10_15",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Encounter 15",
+      "EnemyUnionCount": 6,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B10_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B10_16",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Encounter 16",
+      "EnemyUnionCount": 7,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B10_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B10_17",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Encounter 17",
+      "EnemyUnionCount": 8,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B10_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B10_18",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Encounter 18",
+      "EnemyUnionCount": 9,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B10_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B10_19",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Encounter 19",
+      "EnemyUnionCount": 10,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B10_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B10_20",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Encounter 20",
+      "EnemyUnionCount": 1,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B10_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B10_21",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Encounter 21",
+      "EnemyUnionCount": 2,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B10_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B11_01",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Encounter 01",
+      "EnemyUnionCount": 3,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B11_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B11_02",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Encounter 02",
+      "EnemyUnionCount": 4,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B11_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B11_03",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Encounter 03",
+      "EnemyUnionCount": 5,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B11_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B11_04",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Encounter 04",
+      "EnemyUnionCount": 6,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B11_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B11_05",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Encounter 05",
+      "EnemyUnionCount": 7,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B11_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B11_06",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Encounter 06",
+      "EnemyUnionCount": 8,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B11_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B11_07",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Encounter 07",
+      "EnemyUnionCount": 9,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B11_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B11_08",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Encounter 08",
+      "EnemyUnionCount": 10,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B11_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B11_09",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Encounter 09",
+      "EnemyUnionCount": 1,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B11_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B11_10",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Encounter 10",
+      "EnemyUnionCount": 2,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B11_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B11_11",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Encounter 11",
+      "EnemyUnionCount": 3,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B11_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B11_12",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Encounter 12",
+      "EnemyUnionCount": 4,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B11_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B11_13",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Encounter 13",
+      "EnemyUnionCount": 5,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B11_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B11_14",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Encounter 14",
+      "EnemyUnionCount": 6,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B11_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B11_15",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Encounter 15",
+      "EnemyUnionCount": 7,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B11_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B11_16",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Encounter 16",
+      "EnemyUnionCount": 8,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B11_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B11_17",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Encounter 17",
+      "EnemyUnionCount": 9,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B11_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B11_18",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Encounter 18",
+      "EnemyUnionCount": 10,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B11_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B11_19",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Encounter 19",
+      "EnemyUnionCount": 1,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B11_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B11_20",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Encounter 20",
+      "EnemyUnionCount": 2,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B11_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B11_21",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Encounter 21",
+      "EnemyUnionCount": 3,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B11_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B12_01",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Encounter 01",
+      "EnemyUnionCount": 4,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B12_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B12_02",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Encounter 02",
+      "EnemyUnionCount": 5,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B12_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B12_03",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Encounter 03",
+      "EnemyUnionCount": 6,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B12_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B12_04",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Encounter 04",
+      "EnemyUnionCount": 7,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B12_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B12_05",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Encounter 05",
+      "EnemyUnionCount": 8,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B12_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B12_06",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Encounter 06",
+      "EnemyUnionCount": 9,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B12_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B12_07",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Encounter 07",
+      "EnemyUnionCount": 10,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B12_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B12_08",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Encounter 08",
+      "EnemyUnionCount": 1,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B12_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B12_09",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Encounter 09",
+      "EnemyUnionCount": 2,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B12_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B12_10",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Encounter 10",
+      "EnemyUnionCount": 3,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B12_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B12_11",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Encounter 11",
+      "EnemyUnionCount": 4,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B12_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B12_12",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Encounter 12",
+      "EnemyUnionCount": 5,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B12_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B12_13",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Encounter 13",
+      "EnemyUnionCount": 6,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B12_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B12_14",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Encounter 14",
+      "EnemyUnionCount": 7,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B12_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B12_15",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Encounter 15",
+      "EnemyUnionCount": 8,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B12_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B12_16",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Encounter 16",
+      "EnemyUnionCount": 9,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B12_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B12_17",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Encounter 17",
+      "EnemyUnionCount": 10,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B12_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B12_18",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Encounter 18",
+      "EnemyUnionCount": 1,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B12_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B12_19",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Encounter 19",
+      "EnemyUnionCount": 2,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B12_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B12_20",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Encounter 20",
+      "EnemyUnionCount": 3,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B12_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B12_21",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Encounter 21",
+      "EnemyUnionCount": 4,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B12_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B13_01",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Encounter 01",
+      "EnemyUnionCount": 5,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B13_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B13_02",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Encounter 02",
+      "EnemyUnionCount": 6,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B13_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B13_03",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Encounter 03",
+      "EnemyUnionCount": 7,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B13_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B13_04",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Encounter 04",
+      "EnemyUnionCount": 8,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B13_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B13_05",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Encounter 05",
+      "EnemyUnionCount": 9,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B13_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B13_06",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Encounter 06",
+      "EnemyUnionCount": 10,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B13_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B13_07",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Encounter 07",
+      "EnemyUnionCount": 1,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B13_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B13_08",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Encounter 08",
+      "EnemyUnionCount": 2,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B13_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B13_09",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Encounter 09",
+      "EnemyUnionCount": 3,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B13_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B13_10",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Encounter 10",
+      "EnemyUnionCount": 4,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B13_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B13_11",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Encounter 11",
+      "EnemyUnionCount": 5,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B13_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B13_12",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Encounter 12",
+      "EnemyUnionCount": 6,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B13_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B13_13",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Encounter 13",
+      "EnemyUnionCount": 7,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B13_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B13_14",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Encounter 14",
+      "EnemyUnionCount": 8,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B13_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B13_15",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Encounter 15",
+      "EnemyUnionCount": 9,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B13_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B13_16",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Encounter 16",
+      "EnemyUnionCount": 10,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B13_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B13_17",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Encounter 17",
+      "EnemyUnionCount": 1,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B13_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B13_18",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Encounter 18",
+      "EnemyUnionCount": 2,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B13_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B13_19",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Encounter 19",
+      "EnemyUnionCount": 3,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B13_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B13_20",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Encounter 20",
+      "EnemyUnionCount": 4,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B13_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B13_21",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Encounter 21",
+      "EnemyUnionCount": 5,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B13_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B14_01",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Encounter 01",
+      "EnemyUnionCount": 6,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B14_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B14_02",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Encounter 02",
+      "EnemyUnionCount": 7,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B14_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B14_03",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Encounter 03",
+      "EnemyUnionCount": 8,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B14_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B14_04",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Encounter 04",
+      "EnemyUnionCount": 9,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B14_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B14_05",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Encounter 05",
+      "EnemyUnionCount": 10,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B14_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B14_06",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Encounter 06",
+      "EnemyUnionCount": 1,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B14_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B14_07",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Encounter 07",
+      "EnemyUnionCount": 2,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B14_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B14_08",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Encounter 08",
+      "EnemyUnionCount": 3,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B14_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B14_09",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Encounter 09",
+      "EnemyUnionCount": 4,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B14_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B14_10",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Encounter 10",
+      "EnemyUnionCount": 5,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B14_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B14_11",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Encounter 11",
+      "EnemyUnionCount": 6,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B14_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B14_12",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Encounter 12",
+      "EnemyUnionCount": 7,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B14_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B14_13",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Encounter 13",
+      "EnemyUnionCount": 8,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B14_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B14_14",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Encounter 14",
+      "EnemyUnionCount": 9,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B14_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B14_15",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Encounter 15",
+      "EnemyUnionCount": 10,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B14_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B14_16",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Encounter 16",
+      "EnemyUnionCount": 1,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B14_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B14_17",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Encounter 17",
+      "EnemyUnionCount": 2,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B14_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B14_18",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Encounter 18",
+      "EnemyUnionCount": 3,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B14_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B14_19",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Encounter 19",
+      "EnemyUnionCount": 4,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B14_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B14_20",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Encounter 20",
+      "EnemyUnionCount": 5,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B14_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B14_21",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Encounter 21",
+      "EnemyUnionCount": 6,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B14_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B15_01",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Encounter 01",
+      "EnemyUnionCount": 7,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B15_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B15_02",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Encounter 02",
+      "EnemyUnionCount": 8,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B15_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B15_03",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Encounter 03",
+      "EnemyUnionCount": 9,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B15_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B15_04",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Encounter 04",
+      "EnemyUnionCount": 10,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B15_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B15_05",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Encounter 05",
+      "EnemyUnionCount": 1,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B15_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B15_06",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Encounter 06",
+      "EnemyUnionCount": 2,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B15_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B15_07",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Encounter 07",
+      "EnemyUnionCount": 3,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B15_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B15_08",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Encounter 08",
+      "EnemyUnionCount": 4,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B15_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B15_09",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Encounter 09",
+      "EnemyUnionCount": 5,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B15_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B15_10",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Encounter 10",
+      "EnemyUnionCount": 6,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B15_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B15_11",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Encounter 11",
+      "EnemyUnionCount": 7,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B15_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B15_12",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Encounter 12",
+      "EnemyUnionCount": 8,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B15_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B15_13",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Encounter 13",
+      "EnemyUnionCount": 9,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B15_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B15_14",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Encounter 14",
+      "EnemyUnionCount": 10,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B15_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B15_15",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Encounter 15",
+      "EnemyUnionCount": 1,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B15_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B15_16",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Encounter 16",
+      "EnemyUnionCount": 2,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B15_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B15_17",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Encounter 17",
+      "EnemyUnionCount": 3,
+      "Objective": "Break the enemy formation.",
+      "RouteModifiers": [
+        "B15_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B15_18",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Encounter 18",
+      "EnemyUnionCount": 4,
+      "Objective": "Hold until reinforcement.",
+      "RouteModifiers": [
+        "B15_ROUTE_3",
+        "FATIGUED_ENTRY"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B15_19",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Encounter 19",
+      "EnemyUnionCount": 5,
+      "Objective": "Rescue the threatened group.",
+      "RouteModifiers": [
+        "B15_ROUTE_4",
+        "WARD_PREPARED"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B15_20",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Encounter 20",
+      "EnemyUnionCount": 6,
+      "Objective": "Defeat the opposing Unions.",
+      "RouteModifiers": [
+        "B15_ROUTE_1",
+        "SCOUTED_APPROACH"
+      ],
+      "AllowsRetreat": true,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    },
+    {
+      "Id": "ENCOUNTER018B_B15_21",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Encounter 21",
+      "EnemyUnionCount": 7,
+      "Objective": "Protect the civic objective.",
+      "RouteModifiers": [
+        "B15_ROUTE_2",
+        "SUPPLY_ADVANTAGE"
+      ],
+      "AllowsRetreat": false,
+      "CreatesSecondCombatEngine": false,
+      "UsesCertifiedUnionBattle": true
+    }
+  ]
+}

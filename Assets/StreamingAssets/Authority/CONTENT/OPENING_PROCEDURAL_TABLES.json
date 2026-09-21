@@ -1,0 +1,3942 @@
+{
+  "contentVersion": "OPENING_PROCEDURAL_TABLES_0.6",
+  "worldPack": {
+    "worldId": "WORLD_GATE_01",
+    "worldPackId": "PACK_01_SKYHOME_GATEWARD",
+    "displayName": "Skyhome Gateward",
+    "worldType": "SECOND_DIMENSION_HUB",
+    "recruitmentCulture": "The opening guild draws from citizens, refugees, workers, scouts, former soldiers, and young specialists already living around Skyhome’s active gate district. Joining is a voluntary civic contract, never ownership.",
+    "eligibleRaceIds": [
+      "HUMAN",
+      "ORC",
+      "GOBLIN",
+      "DOG_TRIBE",
+      "DARK_ELF",
+      "DEMON_HERITAGE"
+    ],
+    "startingCommunityIds": [
+      "SKYHOME_GATEWARD",
+      "IRON_WALL_QUARTER",
+      "BRASSWORK_LANE",
+      "STORMROAD_CAMP",
+      "DUSK_ARCHIVE_ROW",
+      "ASHGLASS_ENCLAVE"
+    ]
+  },
+  "names": {
+    "HUMAN": [
+      "Arden",
+      "Bria",
+      "Corin",
+      "Della",
+      "Eamon",
+      "Fara",
+      "Galen",
+      "Hessa",
+      "Ilan",
+      "Jora",
+      "Kellan",
+      "Liora",
+      "Marek",
+      "Nessa",
+      "Oren",
+      "Pera",
+      "Quill",
+      "Ressa",
+      "Savin",
+      "Talia",
+      "Ulric",
+      "Vanna",
+      "Wren",
+      "Yara"
+    ],
+    "ORC": [
+      "Akruk",
+      "Borga",
+      "Crava",
+      "Dorruk",
+      "Egra",
+      "Farrak",
+      "Gruma",
+      "Harka",
+      "Ivrak",
+      "Jorra",
+      "Kragga",
+      "Luruk",
+      "Morga",
+      "Narra",
+      "Orvak",
+      "Praga",
+      "Rukha",
+      "Sorga",
+      "Thurr",
+      "Urga",
+      "Varruk",
+      "Worga",
+      "Yarra",
+      "Zoruk"
+    ],
+    "GOBLIN": [
+      "Bibbli",
+      "Cazza",
+      "Dotti",
+      "Fennik",
+      "Gib",
+      "Hobbi",
+      "Jazzi",
+      "Kip",
+      "Loppa",
+      "Mekki",
+      "Nub",
+      "Ozza",
+      "Pelli",
+      "Quib",
+      "Razzi",
+      "Snik",
+      "Tibba",
+      "Uggi",
+      "Vop",
+      "Wikki",
+      "Yib",
+      "Zetta",
+      "Brim",
+      "Clikki"
+    ],
+    "DOG_TRIBE": [
+      "Asha",
+      "Bren",
+      "Caro",
+      "Deka",
+      "Eris",
+      "Fenn",
+      "Gara",
+      "Holl",
+      "Iri",
+      "Joss",
+      "Kara",
+      "Lenn",
+      "Maro",
+      "Nali",
+      "Ossa",
+      "Perr",
+      "Rava",
+      "Senn",
+      "Taro",
+      "Ulla",
+      "Venn",
+      "Waro",
+      "Yessa",
+      "Zann"
+    ],
+    "DARK_ELF": [
+      "Aevra",
+      "Brelis",
+      "Cyren",
+      "Daelis",
+      "Elyss",
+      "Faerin",
+      "Ghaela",
+      "Helyr",
+      "Ilynn",
+      "Jhaer",
+      "Kaelis",
+      "Lethra",
+      "Myren",
+      "Nyssa",
+      "Olyr",
+      "Phaela",
+      "Qirren",
+      "Rhaelis",
+      "Saev",
+      "Tyren",
+      "Ulvra",
+      "Vhaen",
+      "Wyra",
+      "Zeyl"
+    ],
+    "DEMON_HERITAGE": [
+      "Astrael",
+      "Bavri",
+      "Cindra",
+      "Daeven",
+      "Ezzra",
+      "Feyra",
+      "Gavren",
+      "Heska",
+      "Ivara",
+      "Jex",
+      "Kavra",
+      "Luzan",
+      "Maevra",
+      "Neris",
+      "Ophra",
+      "Prax",
+      "Qessa",
+      "Raviel",
+      "Syra",
+      "Tazren",
+      "Uvera",
+      "Veskan",
+      "Wyrra",
+      "Zhael"
+    ]
+  },
+  "surnames": {
+    "HUMAN": [
+      "Bell",
+      "Cairn",
+      "Dover",
+      "Ember",
+      "Field",
+      "Gray",
+      "Harrow",
+      "Ives",
+      "Kestrel",
+      "Lark",
+      "Moss",
+      "North",
+      "Pike",
+      "Reed",
+      "Stone",
+      "Vale"
+    ],
+    "ORC": [
+      "Ashshield",
+      "Bloodroot",
+      "Dawnwall",
+      "Emberhand",
+      "Forgeback",
+      "Granitejaw",
+      "Ironreed",
+      "Longwatch",
+      "Redhammer",
+      "Stonehide",
+      "Thornwall",
+      "Warmspear",
+      "Wolfscar",
+      "Woodaxe",
+      "Youngstone",
+      "Oathkeeper"
+    ],
+    "GOBLIN": [
+      "Brassbutton",
+      "Copperloop",
+      "Gearwhistle",
+      "Inkcap",
+      "Latchkey",
+      "Mossbolt",
+      "Nailsong",
+      "Quickmeasure",
+      "Rustlace",
+      "Spindle",
+      "Tinkertap",
+      "Valvefoot",
+      "Wirewick",
+      "Yellowchalk",
+      "Zincbell",
+      "Patchnote"
+    ],
+    "DOG_TRIBE": [
+      "Brighttrail",
+      "Cloudstep",
+      "Dustear",
+      "Farhowl",
+      "Hillrunner",
+      "Moonpath",
+      "Raincoat",
+      "Redtail",
+      "Riverwatch",
+      "Softpaw",
+      "Stormnose",
+      "Swiftroad",
+      "Thorntrack",
+      "Wayfinder",
+      "Whiteear",
+      "Windtrail"
+    ],
+    "DARK_ELF": [
+      "Ashveil",
+      "Duskline",
+      "Echowood",
+      "Glassnight",
+      "Hushmere",
+      "Inkshadow",
+      "Mothveil",
+      "Nightreed",
+      "Quietstar",
+      "Silvertrace",
+      "Stillwater",
+      "Umberglass",
+      "Violetmark",
+      "Whisperroot",
+      "Winterdusk",
+      "Nocturne"
+    ],
+    "DEMON_HERITAGE": [
+      "Ashglass",
+      "Cinderwake",
+      "Emberveil",
+      "Fellstar",
+      "Glassfire",
+      "Hollowflame",
+      "Ironhorn",
+      "Nightember",
+      "Redward",
+      "Riftscar",
+      "Smokeveil",
+      "Starburn",
+      "Warmask",
+      "Whitecinder",
+      "Wyrdglass",
+      "Oathflame"
+    ]
+  },
+  "backgrounds": [
+    {
+      "id": "BG_GATE_RUNNER",
+      "displayName": "Gate Runner",
+      "allowedRaceIds": [
+        "ALL"
+      ],
+      "aptitudeTags": [
+        "TACTICAL",
+        "AGILITY"
+      ]
+    },
+    {
+      "id": "BG_WALL_AUXILIARY",
+      "displayName": "Wall Auxiliary",
+      "allowedRaceIds": [
+        "HUMAN",
+        "ORC",
+        "DOG_TRIBE"
+      ],
+      "aptitudeTags": [
+        "GUARD",
+        "MARTIAL"
+      ]
+    },
+    {
+      "id": "BG_SALVAGE_CARRIER",
+      "displayName": "Salvage Carrier",
+      "allowedRaceIds": [
+        "ALL"
+      ],
+      "aptitudeTags": [
+        "GUARD",
+        "CRAFTING"
+      ]
+    },
+    {
+      "id": "BG_FIELD_HEALER_APPRENTICE",
+      "displayName": "Field Healer Apprentice",
+      "allowedRaceIds": [
+        "ALL"
+      ],
+      "aptitudeTags": [
+        "RESTORATION",
+        "SUPPORT"
+      ]
+    },
+    {
+      "id": "BG_ARCHIVE_COPYIST",
+      "displayName": "Archive Copyist",
+      "allowedRaceIds": [
+        "HUMAN",
+        "DARK_ELF",
+        "DEMON_HERITAGE",
+        "GOBLIN"
+      ],
+      "aptitudeTags": [
+        "MYSTIC",
+        "KNOWLEDGE"
+      ]
+    },
+    {
+      "id": "BG_CARAVAN_SCOUT",
+      "displayName": "Caravan Scout",
+      "allowedRaceIds": [
+        "ALL"
+      ],
+      "aptitudeTags": [
+        "TACTICAL",
+        "PERCEPTION"
+      ]
+    },
+    {
+      "id": "BG_FORGE_RUNNER",
+      "displayName": "Forge Runner",
+      "allowedRaceIds": [
+        "ORC",
+        "GOBLIN",
+        "HUMAN"
+      ],
+      "aptitudeTags": [
+        "MARTIAL",
+        "CRAFTING"
+      ]
+    },
+    {
+      "id": "BG_REFUGEE_COORDINATOR",
+      "displayName": "Refugee Coordinator",
+      "allowedRaceIds": [
+        "ALL"
+      ],
+      "aptitudeTags": [
+        "SUPPORT",
+        "LEADERSHIP"
+      ]
+    },
+    {
+      "id": "BG_BEAST_TRACKER",
+      "displayName": "Beast Tracker",
+      "allowedRaceIds": [
+        "DOG_TRIBE",
+        "HUMAN",
+        "DARK_ELF"
+      ],
+      "aptitudeTags": [
+        "TACTICAL",
+        "MARTIAL"
+      ]
+    },
+    {
+      "id": "BG_RUNE_CLEANER",
+      "displayName": "Rune Cleaner",
+      "allowedRaceIds": [
+        "GOBLIN",
+        "DARK_ELF",
+        "DEMON_HERITAGE",
+        "HUMAN"
+      ],
+      "aptitudeTags": [
+        "MYSTIC",
+        "SUPPORT"
+      ]
+    },
+    {
+      "id": "BG_MARKET_PORTER",
+      "displayName": "Market Porter",
+      "allowedRaceIds": [
+        "ALL"
+      ],
+      "aptitudeTags": [
+        "GUARD",
+        "STRENGTH"
+      ]
+    },
+    {
+      "id": "BG_KITCHEN_HAND",
+      "displayName": "Guild Kitchen Hand",
+      "allowedRaceIds": [
+        "ALL"
+      ],
+      "aptitudeTags": [
+        "SUPPORT",
+        "RESTORATION"
+      ]
+    },
+    {
+      "id": "BG_BRIDGE_REPAIR_CREW",
+      "displayName": "Bridge Repair Crew",
+      "allowedRaceIds": [
+        "HUMAN",
+        "ORC",
+        "GOBLIN"
+      ],
+      "aptitudeTags": [
+        "GUARD",
+        "CRAFTING"
+      ]
+    },
+    {
+      "id": "BG_MOURNING_SINGER",
+      "displayName": "Mourning Singer",
+      "allowedRaceIds": [
+        "ALL"
+      ],
+      "aptitudeTags": [
+        "SUPPORT",
+        "WILL"
+      ]
+    },
+    {
+      "id": "BG_ORCHARD_KEEPER",
+      "displayName": "Orchard Keeper",
+      "allowedRaceIds": [
+        "HUMAN",
+        "DOG_TRIBE",
+        "GOBLIN"
+      ],
+      "aptitudeTags": [
+        "RESTORATION",
+        "SURVIVAL"
+      ]
+    },
+    {
+      "id": "BG_CIVIC_MESSENGER",
+      "displayName": "Civic Messenger",
+      "allowedRaceIds": [
+        "ALL"
+      ],
+      "aptitudeTags": [
+        "TACTICAL",
+        "AGILITY"
+      ]
+    },
+    {
+      "id": "BG_NIGHT_WATCH",
+      "displayName": "Night Watch",
+      "allowedRaceIds": [
+        "HUMAN",
+        "DARK_ELF",
+        "DOG_TRIBE"
+      ],
+      "aptitudeTags": [
+        "GUARD",
+        "PERCEPTION"
+      ]
+    },
+    {
+      "id": "BG_WATERWORK_TENDER",
+      "displayName": "Waterwork Tender",
+      "allowedRaceIds": [
+        "GOBLIN",
+        "HUMAN",
+        "ORC"
+      ],
+      "aptitudeTags": [
+        "CRAFTING",
+        "SUPPORT"
+      ]
+    },
+    {
+      "id": "BG_GATE_SCHOLAR_DROPOUT",
+      "displayName": "Gate Scholar Dropout",
+      "allowedRaceIds": [
+        "HUMAN",
+        "DARK_ELF",
+        "DEMON_HERITAGE",
+        "GOBLIN"
+      ],
+      "aptitudeTags": [
+        "MYSTIC",
+        "TACTICAL"
+      ]
+    },
+    {
+      "id": "BG_TAVERN_MEDIATOR",
+      "displayName": "Tavern Mediator",
+      "allowedRaceIds": [
+        "ALL"
+      ],
+      "aptitudeTags": [
+        "SUPPORT",
+        "LEADERSHIP"
+      ]
+    },
+    {
+      "id": "BG_RIVAL_GUILD_REJECT",
+      "displayName": "Rival Guild Reject",
+      "allowedRaceIds": [
+        "ALL"
+      ],
+      "aptitudeTags": [
+        "MARTIAL",
+        "WILL"
+      ]
+    },
+    {
+      "id": "BG_COURIER",
+      "displayName": "Long-Route Courier",
+      "allowedRaceIds": [
+        "ALL"
+      ],
+      "aptitudeTags": [
+        "TACTICAL",
+        "AGILITY"
+      ]
+    },
+    {
+      "id": "BG_PEST_CONTROLLER",
+      "displayName": "Tunnel Pest Controller",
+      "allowedRaceIds": [
+        "GOBLIN",
+        "HUMAN",
+        "DOG_TRIBE"
+      ],
+      "aptitudeTags": [
+        "TACTICAL",
+        "MARTIAL"
+      ]
+    },
+    {
+      "id": "BG_CEREMONIAL_GUARD",
+      "displayName": "Ceremonial Guard",
+      "allowedRaceIds": [
+        "HUMAN",
+        "ORC",
+        "DEMON_HERITAGE"
+      ],
+      "aptitudeTags": [
+        "GUARD",
+        "SUPPORT"
+      ]
+    },
+    {
+      "id": "BG_RUIN_MAPPER",
+      "displayName": "Ruin Mapper",
+      "allowedRaceIds": [
+        "ALL"
+      ],
+      "aptitudeTags": [
+        "TACTICAL",
+        "KNOWLEDGE"
+      ]
+    },
+    {
+      "id": "BG_FARM_DEFENDER",
+      "displayName": "Farm Defender",
+      "allowedRaceIds": [
+        "HUMAN",
+        "ORC",
+        "DOG_TRIBE",
+        "GOBLIN"
+      ],
+      "aptitudeTags": [
+        "MARTIAL",
+        "GUARD"
+      ]
+    },
+    {
+      "id": "BG_ALCHEMY_WASHER",
+      "displayName": "Alchemy Washer",
+      "allowedRaceIds": [
+        "GOBLIN",
+        "HUMAN",
+        "DEMON_HERITAGE"
+      ],
+      "aptitudeTags": [
+        "RESTORATION",
+        "CRAFTING"
+      ]
+    },
+    {
+      "id": "BG_WEATHER_READER",
+      "displayName": "Weather Reader",
+      "allowedRaceIds": [
+        "DOG_TRIBE",
+        "DARK_ELF",
+        "HUMAN"
+      ],
+      "aptitudeTags": [
+        "TACTICAL",
+        "MYSTIC"
+      ]
+    },
+    {
+      "id": "BG_DEBT_CLERK",
+      "displayName": "Debt Clerk",
+      "allowedRaceIds": [
+        "HUMAN",
+        "GOBLIN",
+        "DARK_ELF"
+      ],
+      "aptitudeTags": [
+        "SUPPORT",
+        "KNOWLEDGE"
+      ]
+    },
+    {
+      "id": "BG_GATE_ORPHAN_MENTOR",
+      "displayName": "Gate Orphan Mentor",
+      "allowedRaceIds": [
+        "ALL"
+      ],
+      "aptitudeTags": [
+        "SUPPORT",
+        "LEADERSHIP"
+      ]
+    },
+    {
+      "id": "BG_SHRINE_CARETAKER",
+      "displayName": "Shrine Caretaker",
+      "allowedRaceIds": [
+        "HUMAN",
+        "DEMON_HERITAGE",
+        "DARK_ELF"
+      ],
+      "aptitudeTags": [
+        "RESTORATION",
+        "MYSTIC"
+      ]
+    },
+    {
+      "id": "BG_QUARRY_HAND",
+      "displayName": "Quarry Hand",
+      "allowedRaceIds": [
+        "ORC",
+        "HUMAN",
+        "GOBLIN"
+      ],
+      "aptitudeTags": [
+        "MARTIAL",
+        "STRENGTH"
+      ]
+    },
+    {
+      "id": "BG_STREET_PERFORMER",
+      "displayName": "Street Performer",
+      "allowedRaceIds": [
+        "ALL"
+      ],
+      "aptitudeTags": [
+        "SUPPORT",
+        "AGILITY"
+      ]
+    },
+    {
+      "id": "BG_LOST_PATROL_SURVIVOR",
+      "displayName": "Lost Patrol Survivor",
+      "allowedRaceIds": [
+        "ALL"
+      ],
+      "aptitudeTags": [
+        "WILL",
+        "TACTICAL"
+      ]
+    },
+    {
+      "id": "BG_ARMOR_MENDER",
+      "displayName": "Armor Mender",
+      "allowedRaceIds": [
+        "ORC",
+        "GOBLIN",
+        "HUMAN"
+      ],
+      "aptitudeTags": [
+        "GUARD",
+        "CRAFTING"
+      ]
+    },
+    {
+      "id": "BG_WORLD_GUEST",
+      "displayName": "Stranded World Guest",
+      "allowedRaceIds": [
+        "ALL"
+      ],
+      "aptitudeTags": [
+        "ADAPTIVE",
+        "MYSTIC"
+      ]
+    }
+  ],
+  "visibleTraits": [
+    {
+      "id": "TRAIT_PROTECTIVE",
+      "displayName": "Protective",
+      "primaryModifier": {
+        "axis": "GUARD",
+        "amount": 6
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_COMPETITIVE",
+      "displayName": "Competitive",
+      "primaryModifier": {
+        "axis": "MARTIAL",
+        "amount": 5
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_CAUTIOUS",
+      "displayName": "Cautious",
+      "primaryModifier": {
+        "axis": "TACTICAL",
+        "amount": 5
+      },
+      "incompatibleWith": [
+        "TRAIT_RECKLESS"
+      ]
+    },
+    {
+      "id": "TRAIT_RECKLESS",
+      "displayName": "Reckless",
+      "primaryModifier": {
+        "axis": "MARTIAL",
+        "amount": 7
+      },
+      "incompatibleWith": [
+        "TRAIT_CAUTIOUS",
+        "TRAIT_METHODICAL"
+      ]
+    },
+    {
+      "id": "TRAIT_CURIOUS",
+      "displayName": "Curious",
+      "primaryModifier": {
+        "axis": "MYSTIC",
+        "amount": 5
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_LOYAL",
+      "displayName": "Loyal",
+      "primaryModifier": {
+        "axis": "COHESION",
+        "amount": 6
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_STUBBORN",
+      "displayName": "Stubborn",
+      "primaryModifier": {
+        "axis": "WILL",
+        "amount": 5
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_EMPATHETIC",
+      "displayName": "Empathetic",
+      "primaryModifier": {
+        "axis": "RESTORATION",
+        "amount": 6
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_PATIENT",
+      "displayName": "Patient",
+      "primaryModifier": {
+        "axis": "SUPPORT",
+        "amount": 5
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_SUSPICIOUS",
+      "displayName": "Suspicious",
+      "primaryModifier": {
+        "axis": "PERCEPTION",
+        "amount": 6
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_RESOURCEFUL",
+      "displayName": "Resourceful",
+      "primaryModifier": {
+        "axis": "TACTICAL",
+        "amount": 6
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_IDEALISTIC",
+      "displayName": "Idealistic",
+      "primaryModifier": {
+        "axis": "WILL",
+        "amount": 4
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_PRAGMATIC",
+      "displayName": "Pragmatic",
+      "primaryModifier": {
+        "axis": "TACTICAL",
+        "amount": 4
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_PROUD",
+      "displayName": "Proud",
+      "primaryModifier": {
+        "axis": "MARTIAL",
+        "amount": 4
+      },
+      "incompatibleWith": [
+        "TRAIT_HUMBLE",
+        "TRAIT_MODEST"
+      ]
+    },
+    {
+      "id": "TRAIT_HUMBLE",
+      "displayName": "Humble",
+      "primaryModifier": {
+        "axis": "SUPPORT",
+        "amount": 4
+      },
+      "incompatibleWith": [
+        "TRAIT_PROUD"
+      ]
+    },
+    {
+      "id": "TRAIT_RESTLESS",
+      "displayName": "Restless",
+      "primaryModifier": {
+        "axis": "AGILITY",
+        "amount": 5
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_DISCIPLINED",
+      "displayName": "Disciplined",
+      "primaryModifier": {
+        "axis": "GUARD",
+        "amount": 6
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_KIND",
+      "displayName": "Kind",
+      "primaryModifier": {
+        "axis": "RESTORATION",
+        "amount": 4
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_DECISIVE",
+      "displayName": "Decisive",
+      "primaryModifier": {
+        "axis": "LEADERSHIP",
+        "amount": 7
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_EXPRESSIVE",
+      "displayName": "Expressive",
+      "primaryModifier": {
+        "axis": "SUPPORT",
+        "amount": 6
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_PERCEPTIVE",
+      "displayName": "Perceptive",
+      "primaryModifier": {
+        "axis": "TACTICAL",
+        "amount": 6
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_PRACTICAL",
+      "displayName": "Practical",
+      "primaryModifier": {
+        "axis": "CRAFTING",
+        "amount": 5
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_FEARLESS",
+      "displayName": "Fearless",
+      "primaryModifier": {
+        "axis": "WILL",
+        "amount": 6
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_RELIABLE",
+      "displayName": "Reliable",
+      "primaryModifier": {
+        "axis": "COHESION",
+        "amount": 6
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_ADAPTABLE",
+      "displayName": "Adaptable",
+      "primaryModifier": {
+        "axis": "ADAPTIVE",
+        "amount": 5
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_GENTLE",
+      "displayName": "Gentle",
+      "primaryModifier": {
+        "axis": "RESTORATION",
+        "amount": 4
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_BLUNT",
+      "displayName": "Blunt",
+      "primaryModifier": {
+        "axis": "MARTIAL",
+        "amount": 3
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_WITTY",
+      "displayName": "Witty",
+      "primaryModifier": {
+        "axis": "SUPPORT",
+        "amount": 4
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_PRIVATE",
+      "displayName": "Private",
+      "primaryModifier": {
+        "axis": "PERCEPTION",
+        "amount": 3
+      },
+      "incompatibleWith": [
+        "TRAIT_SOCIABLE",
+        "TRAIT_EXPRESSIVE"
+      ]
+    },
+    {
+      "id": "TRAIT_SOCIABLE",
+      "displayName": "Sociable",
+      "primaryModifier": {
+        "axis": "SUPPORT",
+        "amount": 4
+      },
+      "incompatibleWith": [
+        "TRAIT_PRIVATE"
+      ]
+    },
+    {
+      "id": "TRAIT_METHODICAL",
+      "displayName": "Methodical",
+      "primaryModifier": {
+        "axis": "TACTICAL",
+        "amount": 6
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_BOLD",
+      "displayName": "Bold",
+      "primaryModifier": {
+        "axis": "MARTIAL",
+        "amount": 5
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_FORGIVING",
+      "displayName": "Forgiving",
+      "primaryModifier": {
+        "axis": "COHESION",
+        "amount": 4
+      },
+      "incompatibleWith": [
+        "TRAIT_VENGEFUL"
+      ]
+    },
+    {
+      "id": "TRAIT_VENGEFUL",
+      "displayName": "Vengeful",
+      "primaryModifier": {
+        "axis": "MARTIAL",
+        "amount": 5
+      },
+      "incompatibleWith": [
+        "TRAIT_FORGIVING"
+      ]
+    },
+    {
+      "id": "TRAIT_FRUGAL",
+      "displayName": "Frugal",
+      "primaryModifier": {
+        "axis": "SUPPORT",
+        "amount": 3
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_GENEROUS",
+      "displayName": "Generous",
+      "primaryModifier": {
+        "axis": "COHESION",
+        "amount": 4
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_INVENTIVE",
+      "displayName": "Inventive",
+      "primaryModifier": {
+        "axis": "MYSTIC",
+        "amount": 6
+      },
+      "incompatibleWith": [
+        "TRAIT_TRADITIONAL"
+      ]
+    },
+    {
+      "id": "TRAIT_TRADITIONAL",
+      "displayName": "Traditional",
+      "primaryModifier": {
+        "axis": "GUARD",
+        "amount": 4
+      },
+      "incompatibleWith": [
+        "TRAIT_INVENTIVE"
+      ]
+    },
+    {
+      "id": "TRAIT_INDEPENDENT",
+      "displayName": "Independent",
+      "primaryModifier": {
+        "axis": "TACTICAL",
+        "amount": 4
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_DUTIFUL",
+      "displayName": "Dutiful",
+      "primaryModifier": {
+        "axis": "GUARD",
+        "amount": 5
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_CHEERFUL",
+      "displayName": "Cheerful",
+      "primaryModifier": {
+        "axis": "COHESION",
+        "amount": 4
+      },
+      "incompatibleWith": [
+        "TRAIT_SOMBER"
+      ]
+    },
+    {
+      "id": "TRAIT_SOMBER",
+      "displayName": "Somber",
+      "primaryModifier": {
+        "axis": "WILL",
+        "amount": 4
+      },
+      "incompatibleWith": [
+        "TRAIT_CHEERFUL"
+      ]
+    },
+    {
+      "id": "TRAIT_AMBITIOUS",
+      "displayName": "Ambitious",
+      "primaryModifier": {
+        "axis": "LEADERSHIP",
+        "amount": 5
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_MODEST",
+      "displayName": "Modest",
+      "primaryModifier": {
+        "axis": "SUPPORT",
+        "amount": 3
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_SHARP_TONGUED",
+      "displayName": "Sharp-Tongued",
+      "primaryModifier": {
+        "axis": "TACTICAL",
+        "amount": 3
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_NURTURING",
+      "displayName": "Nurturing",
+      "primaryModifier": {
+        "axis": "RESTORATION",
+        "amount": 5
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_OBSERVANT",
+      "displayName": "Observant",
+      "primaryModifier": {
+        "axis": "PERCEPTION",
+        "amount": 5
+      },
+      "incompatibleWith": []
+    },
+    {
+      "id": "TRAIT_CALM",
+      "displayName": "Calm",
+      "primaryModifier": {
+        "axis": "WILL",
+        "amount": 5
+      },
+      "incompatibleWith": []
+    }
+  ],
+  "hiddenTraits": [
+    {
+      "id": "HIDDEN_LATE_FIRE",
+      "displayName": "Late Fire",
+      "revealConditionId": "REVEAL_LEVEL_15",
+      "effectSummary": "late growth multiplier +18%",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_BATTLE_MEMORY",
+      "displayName": "Battle Memory",
+      "revealConditionId": "REVEAL_REPEAT_ENEMY_ART",
+      "effectSummary": "learn observed Art families faster",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_UNBOUND_LEARNER",
+      "displayName": "Unbound Learner",
+      "revealConditionId": "REVEAL_CROSS_DISCIPLINE_BREAKTHROUGH",
+      "effectSummary": "one off-profile branch permitted",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_QUIET_COMMAND",
+      "displayName": "Quiet Command",
+      "revealConditionId": "REVEAL_LEAD_LOW_COHESION_WIN",
+      "effectSummary": "leadership rises when Union is strained",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_GENTLE_GIANT",
+      "displayName": "Gentle Giant",
+      "revealConditionId": "REVEAL_PROTECT_WEAKER_MEMBER",
+      "effectSummary": "Guard growth and civilian event bonuses",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_RIFT_SENSE",
+      "displayName": "Rift Sense",
+      "revealConditionId": "REVEAL_FIND_HIDDEN_ROUTE",
+      "effectSummary": "detects dimensional hazards",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_SECOND_WIND",
+      "displayName": "Second Wind",
+      "revealConditionId": "REVEAL_SURVIVE_CRITICAL_HP",
+      "effectSummary": "one recovery reaction per battle",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_TWIN_DISCIPLINE",
+      "displayName": "Twin Discipline",
+      "revealConditionId": "REVEAL_EQUAL_TWO_DISCIPLINES",
+      "effectSummary": "hybrid class thresholds reduced",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_MENTORS_HEIR",
+      "displayName": "Mentor’s Heir",
+      "revealConditionId": "REVEAL_COMPLETE_MENTOR_EVENT",
+      "effectSummary": "inherits modified signature Art",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_FATE_SCAR",
+      "displayName": "Fate Scar",
+      "revealConditionId": "REVEAL_CRITICAL_FAILURE_CHAIN",
+      "effectSummary": "failures grant Turning Point progress",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_FORMATION_EAR",
+      "displayName": "Formation Ear",
+      "revealConditionId": "REVEAL_USE_THREE_FORMATIONS",
+      "effectSummary": "formation mastery grows faster",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_WORLD_ADAPTIVE",
+      "displayName": "World Adaptive",
+      "revealConditionId": "REVEAL_FIGHT_THREE_ZONES",
+      "effectSummary": "terrain penalties fade",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_SLOW_CERTAINTY",
+      "displayName": "Slow Certainty",
+      "revealConditionId": "REVEAL_100_MEANINGFUL_ACTIONS",
+      "effectSummary": "mastery gains increase over campaign",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_RESOURCE_SAVANT",
+      "displayName": "Resource Savant",
+      "revealConditionId": "REVEAL_END_BATTLE_LOW_AP_MP",
+      "effectSummary": "low-resource forecasts improve",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_RELUCTANT_HERO",
+      "displayName": "Reluctant Hero",
+      "revealConditionId": "REVEAL_ACCEPT_LEADERSHIP_EVENT",
+      "effectSummary": "large leadership growth after quest",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_ECHO_HEALER",
+      "displayName": "Echo Healer",
+      "revealConditionId": "REVEAL_HEAL_SAME_ALLY_CHAIN",
+      "effectSummary": "healing leaves minor regeneration",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_BREAKER_INSTINCT",
+      "displayName": "Breaker Instinct",
+      "revealConditionId": "REVEAL_BREAK_BOSS_COHESION",
+      "effectSummary": "formation damage multiplier",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_WARD_BLOOD",
+      "displayName": "Ward Blood",
+      "revealConditionId": "REVEAL_BLOCK_MAGIC",
+      "effectSummary": "magic guard route",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_ARCHIVE_MIND",
+      "displayName": "Archive Mind",
+      "revealConditionId": "REVEAL_SOLVE_KNOWLEDGE_CHAIN",
+      "effectSummary": "retains enemy information between fights",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_PACK_HEART",
+      "displayName": "Pack Heart",
+      "revealConditionId": "REVEAL_MAX_RELATIONSHIP_UNION",
+      "effectSummary": "relationship bonuses affect whole Union",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_CRAFTED_BODY",
+      "displayName": "Crafted Body",
+      "revealConditionId": "REVEAL_EQUIP_THREE_MATERIALS",
+      "effectSummary": "equipment scaling improves",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_DEBT_OF_MERCY",
+      "displayName": "Debt of Mercy",
+      "revealConditionId": "REVEAL_SPARE_ENEMY",
+      "effectSummary": "unique former-enemy event chain",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_STORM_STEP",
+      "displayName": "Storm Step",
+      "revealConditionId": "REVEAL_DODGE_HAZARD_CHAIN",
+      "effectSummary": "movement and retreat bonuses",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_BROKEN_OATH",
+      "displayName": "Broken Oath",
+      "revealConditionId": "REVEAL_TRUST_CONFRONTATION",
+      "effectSummary": "high power after resolving loyalty conflict",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_NAMES_MATTER",
+      "displayName": "Names Matter",
+      "revealConditionId": "REVEAL_RECORD_FALLEN",
+      "effectSummary": "morale loss reduced when casualties are honored",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_MANY_HANDS",
+      "displayName": "Many Hands",
+      "revealConditionId": "REVEAL_DUTY_ROTATION",
+      "effectSummary": "duty XP converts to support proficiency",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_UNFINISHED_CLASS",
+      "displayName": "Unfinished Class",
+      "revealConditionId": "REVEAL_CLASS_FAILURE",
+      "effectSummary": "opens unusual advanced route",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_MIRROR_TACTIC",
+      "displayName": "Mirror Tactic",
+      "revealConditionId": "REVEAL_COUNTER_SAME_INTENT",
+      "effectSummary": "enemy intent counter weighting",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_GUILD_HEART",
+      "displayName": "Guild Heart",
+      "revealConditionId": "REVEAL_20_SOCIAL_EVENTS",
+      "effectSummary": "hall duty bonuses and cohesion",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_DANGER_JOY",
+      "displayName": "Danger Joy",
+      "revealConditionId": "REVEAL_ELITE_STREAK",
+      "effectSummary": "high-risk intent weights and critical growth",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_FALSE_MEDIOCRITY",
+      "displayName": "False Mediocrity",
+      "revealConditionId": "REVEAL_SCOUTING_ERROR",
+      "effectSummary": "all six aptitudes reveal above initial estimate",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_PATIENT_HUNTER",
+      "displayName": "Patient Hunter",
+      "revealConditionId": "REVEAL_WAIT_THREE_ROUNDS",
+      "effectSummary": "stored precision bonus",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_CIVIC_BUILDER",
+      "displayName": "Civic Builder",
+      "revealConditionId": "REVEAL_FUND_FACILITY",
+      "effectSummary": "Guild Treasury XP reward bonus",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_RESCUE_REFLEX",
+      "displayName": "Rescue Reflex",
+      "revealConditionId": "REVEAL_SAVE_CRITICAL_ALLY",
+      "effectSummary": "free movement during rescue intent",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_CROSS_WORLD_BOND",
+      "displayName": "Cross-World Bond",
+      "revealConditionId": "REVEAL_MIXED_RACE_UNION",
+      "effectSummary": "mixed-race cohesion bonus",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    },
+    {
+      "id": "HIDDEN_PROCEDURAL_LEGEND_SEED",
+      "displayName": "Legend Seed",
+      "revealConditionId": "REVEAL_EMERGENT_LEGEND_THRESHOLD",
+      "effectSummary": "eligible for unique generated signature Art",
+      "scoutingVisibility": "HIDDEN_UNTIL_REVEALED"
+    }
+  ],
+  "fears": [
+    {
+      "id": "FEAR_ABANDONMENT",
+      "displayName": "Being Left During Retreat",
+      "triggerTag": "ABANDONMENT",
+      "redemptionHookId": "REDEEM_ABANDONMENT"
+    },
+    {
+      "id": "FEAR_FIRE",
+      "displayName": "Uncontrolled Fire",
+      "triggerTag": "FIRE",
+      "redemptionHookId": "REDEEM_FIRE"
+    },
+    {
+      "id": "FEAR_DEEP_WATER",
+      "displayName": "Deep Water",
+      "triggerTag": "DEEP_WATER",
+      "redemptionHookId": "REDEEM_DEEP_WATER"
+    },
+    {
+      "id": "FEAR_TIGHT_STONE",
+      "displayName": "Collapsed Tunnels",
+      "triggerTag": "TIGHT_STONE",
+      "redemptionHookId": "REDEEM_TIGHT_STONE"
+    },
+    {
+      "id": "FEAR_MAGIC_SURGE",
+      "displayName": "Unstable Magic",
+      "triggerTag": "MAGIC_SURGE",
+      "redemptionHookId": "REDEEM_MAGIC_SURGE"
+    },
+    {
+      "id": "FEAR_COMMAND",
+      "displayName": "Being Responsible For Others",
+      "triggerTag": "COMMAND",
+      "redemptionHookId": "REDEEM_COMMAND"
+    },
+    {
+      "id": "FEAR_FAILURE_IN_PUBLIC",
+      "displayName": "Public Failure",
+      "triggerTag": "FAILURE_IN_PUBLIC",
+      "redemptionHookId": "REDEEM_FAILURE_IN_PUBLIC"
+    },
+    {
+      "id": "FEAR_BLOOD",
+      "displayName": "Severe Injuries",
+      "triggerTag": "BLOOD",
+      "redemptionHookId": "REDEEM_BLOOD"
+    },
+    {
+      "id": "FEAR_SILENCE",
+      "displayName": "Loss Of Communication",
+      "triggerTag": "SILENCE",
+      "redemptionHookId": "REDEEM_SILENCE"
+    },
+    {
+      "id": "FEAR_CROWDS",
+      "displayName": "Crowded Halls",
+      "triggerTag": "CROWDS",
+      "redemptionHookId": "REDEEM_CROWDS"
+    },
+    {
+      "id": "FEAR_MONSTERS_WITH_NAMES",
+      "displayName": "Intelligent Enemies",
+      "triggerTag": "MONSTERS_WITH_NAMES",
+      "redemptionHookId": "REDEEM_MONSTERS_WITH_NAMES"
+    },
+    {
+      "id": "FEAR_AUTHORITY",
+      "displayName": "Unaccountable Commanders",
+      "triggerTag": "AUTHORITY",
+      "redemptionHookId": "REDEEM_AUTHORITY"
+    },
+    {
+      "id": "FEAR_ISOLATION",
+      "displayName": "Being Separated From The Union",
+      "triggerTag": "ISOLATION",
+      "redemptionHookId": "REDEEM_ISOLATION"
+    },
+    {
+      "id": "FEAR_DARKNESS",
+      "displayName": "Total Darkness",
+      "triggerTag": "DARKNESS",
+      "redemptionHookId": "REDEEM_DARKNESS"
+    },
+    {
+      "id": "FEAR_HEIGHTS",
+      "displayName": "Open Heights",
+      "triggerTag": "HEIGHTS",
+      "redemptionHookId": "REDEEM_HEIGHTS"
+    },
+    {
+      "id": "FEAR_WRONG_MEDICINE",
+      "displayName": "Causing Harm While Helping",
+      "triggerTag": "WRONG_MEDICINE",
+      "redemptionHookId": "REDEEM_WRONG_MEDICINE"
+    },
+    {
+      "id": "FEAR_POVERTY_RETURNING",
+      "displayName": "Running Out Of Supplies",
+      "triggerTag": "POVERTY_RETURNING",
+      "redemptionHookId": "REDEEM_POVERTY_RETURNING"
+    },
+    {
+      "id": "FEAR_OLD_HATRED",
+      "displayName": "Racial Conflict Returning",
+      "triggerTag": "OLD_HATRED",
+      "redemptionHookId": "REDEEM_OLD_HATRED"
+    },
+    {
+      "id": "FEAR_FORGOTTEN_RECORDS",
+      "displayName": "History Being Erased",
+      "triggerTag": "FORGOTTEN_RECORDS",
+      "redemptionHookId": "REDEEM_FORGOTTEN_RECORDS"
+    },
+    {
+      "id": "FEAR_PORTALS",
+      "displayName": "Crossing World Gates",
+      "triggerTag": "PORTALS",
+      "redemptionHookId": "REDEEM_PORTALS"
+    },
+    {
+      "id": "FEAR_LOUD_IMPACT",
+      "displayName": "Explosions",
+      "triggerTag": "LOUD_IMPACT",
+      "redemptionHookId": "REDEEM_LOUD_IMPACT"
+    },
+    {
+      "id": "FEAR_CURSES",
+      "displayName": "Lasting Magical Corruption",
+      "triggerTag": "CURSES",
+      "redemptionHookId": "REDEEM_CURSES"
+    },
+    {
+      "id": "FEAR_BEING_USELESS",
+      "displayName": "Having No Role",
+      "triggerTag": "BEING_USELESS",
+      "redemptionHookId": "REDEEM_BEING_USELESS"
+    },
+    {
+      "id": "FEAR_PRAISE",
+      "displayName": "Being Singled Out",
+      "triggerTag": "PRAISE",
+      "redemptionHookId": "REDEEM_PRAISE"
+    },
+    {
+      "id": "FEAR_PITY",
+      "displayName": "Being Treated As Weak",
+      "triggerTag": "PITY",
+      "redemptionHookId": "REDEEM_PITY"
+    },
+    {
+      "id": "FEAR_LOSING_CONTROL",
+      "displayName": "Hurting Allies",
+      "triggerTag": "LOSING_CONTROL",
+      "redemptionHookId": "REDEEM_LOSING_CONTROL"
+    },
+    {
+      "id": "FEAR_DEBT",
+      "displayName": "Owing An Institution",
+      "triggerTag": "DEBT",
+      "redemptionHookId": "REDEEM_DEBT"
+    },
+    {
+      "id": "FEAR_SLEEP",
+      "displayName": "Nightmares",
+      "triggerTag": "SLEEP",
+      "redemptionHookId": "REDEEM_SLEEP"
+    },
+    {
+      "id": "FEAR_MISTAKEN_IDENTITY",
+      "displayName": "Being Known Under The Wrong Name",
+      "triggerTag": "MISTAKEN_IDENTITY",
+      "redemptionHookId": "REDEEM_MISTAKEN_IDENTITY"
+    },
+    {
+      "id": "FEAR_HOME_CHANGED",
+      "displayName": "Returning To A World That No Longer Fits",
+      "triggerTag": "HOME_CHANGED",
+      "redemptionHookId": "REDEEM_HOME_CHANGED"
+    }
+  ],
+  "ambitions": [
+    {
+      "id": "AMBITION_LEAD_UNION",
+      "displayName": "Lead A Respected Union",
+      "eventHookId": "EVENT_LEAD_UNION"
+    },
+    {
+      "id": "AMBITION_BUILD_HOME",
+      "displayName": "Build A Permanent Home",
+      "eventHookId": "EVENT_BUILD_HOME"
+    },
+    {
+      "id": "AMBITION_MASTER_WEAPON",
+      "displayName": "Master A Chosen Weapon",
+      "eventHookId": "EVENT_MASTER_WEAPON"
+    },
+    {
+      "id": "AMBITION_HEAL_ALL_RACES",
+      "displayName": "Learn Medicine For Every Race",
+      "eventHookId": "EVENT_HEAL_ALL_RACES"
+    },
+    {
+      "id": "AMBITION_MAP_GATE",
+      "displayName": "Map A Fortress Gate",
+      "eventHookId": "EVENT_MAP_GATE"
+    },
+    {
+      "id": "AMBITION_FIND_FAMILY",
+      "displayName": "Find Missing Family",
+      "eventHookId": "EVENT_FIND_FAMILY"
+    },
+    {
+      "id": "AMBITION_CLEAR_NAME",
+      "displayName": "Clear A Damaged Name",
+      "eventHookId": "EVENT_CLEAR_NAME"
+    },
+    {
+      "id": "AMBITION_TEACH_CHILDREN",
+      "displayName": "Become A Teacher",
+      "eventHookId": "EVENT_TEACH_CHILDREN"
+    },
+    {
+      "id": "AMBITION_FOUND_WORKSHOP",
+      "displayName": "Open A Workshop",
+      "eventHookId": "EVENT_FOUND_WORKSHOP"
+    },
+    {
+      "id": "AMBITION_WRITE_ARCHIVE",
+      "displayName": "Write An Honest Archive",
+      "eventHookId": "EVENT_WRITE_ARCHIVE"
+    },
+    {
+      "id": "AMBITION_DEFEAT_BOSS",
+      "displayName": "Defeat A Legendary Monster",
+      "eventHookId": "EVENT_DEFEAT_BOSS"
+    },
+    {
+      "id": "AMBITION_END_DEBT",
+      "displayName": "Free A Community From Debt",
+      "eventHookId": "EVENT_END_DEBT"
+    },
+    {
+      "id": "AMBITION_PROTECT_ROAD",
+      "displayName": "Make A Route Safe",
+      "eventHookId": "EVENT_PROTECT_ROAD"
+    },
+    {
+      "id": "AMBITION_DISCOVER_ART",
+      "displayName": "Discover An Unknown Art",
+      "eventHookId": "EVENT_DISCOVER_ART"
+    },
+    {
+      "id": "AMBITION_FORM_MIXED_UNION",
+      "displayName": "Prove Mixed Unions Work",
+      "eventHookId": "EVENT_FORM_MIXED_UNION"
+    },
+    {
+      "id": "AMBITION_RETIRE_PEACEFULLY",
+      "displayName": "Earn A Peaceful Retirement",
+      "eventHookId": "EVENT_RETIRE_PEACEFULLY"
+    },
+    {
+      "id": "AMBITION_BUILD_INFIRMARY",
+      "displayName": "Fund An Infirmary",
+      "eventHookId": "EVENT_BUILD_INFIRMARY"
+    },
+    {
+      "id": "AMBITION_RESTORE_FORTRESS",
+      "displayName": "Restore A Ruined Fortress",
+      "eventHookId": "EVENT_RESTORE_FORTRESS"
+    },
+    {
+      "id": "AMBITION_RECONCILE_RIVALS",
+      "displayName": "Reconcile Rival Families",
+      "eventHookId": "EVENT_RECONCILE_RIVALS"
+    },
+    {
+      "id": "AMBITION_CROSS_ALL_WORLDS",
+      "displayName": "Visit Every Allied World",
+      "eventHookId": "EVENT_CROSS_ALL_WORLDS"
+    },
+    {
+      "id": "AMBITION_BECOME_LEGEND",
+      "displayName": "Earn A True Epithet",
+      "eventHookId": "EVENT_BECOME_LEGEND"
+    },
+    {
+      "id": "AMBITION_PROTECT_WORKERS",
+      "displayName": "Protect Ordinary Workers",
+      "eventHookId": "EVENT_PROTECT_WORKERS"
+    },
+    {
+      "id": "AMBITION_MASTER_MAGIC",
+      "displayName": "Master A Magic Discipline",
+      "eventHookId": "EVENT_MASTER_MAGIC"
+    },
+    {
+      "id": "AMBITION_CURE_CURSE",
+      "displayName": "Cure A Persistent Curse",
+      "eventHookId": "EVENT_CURE_CURSE"
+    },
+    {
+      "id": "AMBITION_FIND_FIRST_ALLIANCE",
+      "displayName": "Find Evidence Of The First Alliance",
+      "eventHookId": "EVENT_FIND_FIRST_ALLIANCE"
+    },
+    {
+      "id": "AMBITION_CREATE_FORMATION",
+      "displayName": "Invent A New Formation",
+      "eventHookId": "EVENT_CREATE_FORMATION"
+    },
+    {
+      "id": "AMBITION_TRAIN_APPRENTICE",
+      "displayName": "Train An Apprentice",
+      "eventHookId": "EVENT_TRAIN_APPRENTICE"
+    },
+    {
+      "id": "AMBITION_REPAY_MERCY",
+      "displayName": "Repay An Old Mercy",
+      "eventHookId": "EVENT_REPAY_MERCY"
+    },
+    {
+      "id": "AMBITION_BUILD_GUILD_HALL",
+      "displayName": "Help Create The Guild Of Worlds",
+      "eventHookId": "EVENT_BUILD_GUILD_HALL"
+    },
+    {
+      "id": "AMBITION_BE_REMEMBERED_CORRECTLY",
+      "displayName": "Control How Their Story Is Recorded",
+      "eventHookId": "EVENT_BE_REMEMBERED_CORRECTLY"
+    }
+  ],
+  "growthPatterns": [
+    {
+      "id": "GROWTH_EARLY_BLOOMER",
+      "displayName": "Early Bloomer",
+      "curve": [
+        125,
+        115,
+        100,
+        90,
+        85
+      ],
+      "potentialMultiplierBasisPoints": 9600,
+      "scoutDescriptors": [
+        "ready now",
+        "may plateau"
+      ]
+    },
+    {
+      "id": "GROWTH_CONSISTENT",
+      "displayName": "Consistent",
+      "curve": [
+        100,
+        102,
+        104,
+        105,
+        106
+      ],
+      "potentialMultiplierBasisPoints": 10100,
+      "scoutDescriptors": [
+        "steady",
+        "predictable"
+      ]
+    },
+    {
+      "id": "GROWTH_TRUE_LATE_BLOOMER",
+      "displayName": "Late Bloomer",
+      "curve": [
+        78,
+        84,
+        100,
+        122,
+        135
+      ],
+      "potentialMultiplierBasisPoints": 11400,
+      "scoutDescriptors": [
+        "unremarkable now",
+        "hard to project"
+      ]
+    },
+    {
+      "id": "GROWTH_SPECIALIST",
+      "displayName": "Specialist",
+      "curve": [
+        112,
+        112,
+        108,
+        104,
+        100
+      ],
+      "potentialMultiplierBasisPoints": 10400,
+      "scoutDescriptors": [
+        "narrow strength",
+        "clear role"
+      ]
+    },
+    {
+      "id": "GROWTH_NATURAL_LEADER",
+      "displayName": "Natural Leader",
+      "curve": [
+        105,
+        105,
+        105,
+        105,
+        105
+      ],
+      "potentialMultiplierBasisPoints": 10500,
+      "leadershipBonus": 15,
+      "scoutDescriptors": [
+        "commands attention",
+        "team multiplier"
+      ]
+    },
+    {
+      "id": "GROWTH_UNSTABLE_GENIUS",
+      "displayName": "Unstable Genius",
+      "curve": [
+        80,
+        130,
+        75,
+        140,
+        90
+      ],
+      "potentialMultiplierBasisPoints": 11200,
+      "scoutDescriptors": [
+        "volatile",
+        "unusually high ceiling"
+      ]
+    },
+    {
+      "id": "GROWTH_ADAPTIVE_GENERALIST",
+      "displayName": "Adaptive Generalist",
+      "curve": [
+        96,
+        100,
+        104,
+        108,
+        112
+      ],
+      "potentialMultiplierBasisPoints": 10600,
+      "scoutDescriptors": [
+        "broad options",
+        "depends on use"
+      ]
+    },
+    {
+      "id": "GROWTH_HIDDEN_HERITAGE",
+      "displayName": "Hidden Heritage",
+      "curve": [
+        90,
+        94,
+        105,
+        118,
+        128
+      ],
+      "potentialMultiplierBasisPoints": 11100,
+      "scoutDescriptors": [
+        "incomplete record",
+        "unexpected branch"
+      ]
+    },
+    {
+      "id": "GROWTH_MENTORS_HEIR",
+      "displayName": "Mentor’s Heir",
+      "curve": [
+        92,
+        100,
+        108,
+        112,
+        118
+      ],
+      "potentialMultiplierBasisPoints": 10800,
+      "scoutDescriptors": [
+        "responds to teaching",
+        "relationship dependent"
+      ]
+    },
+    {
+      "id": "GROWTH_SURVIVOR",
+      "displayName": "Survivor",
+      "curve": [
+        90,
+        98,
+        106,
+        112,
+        115
+      ],
+      "potentialMultiplierBasisPoints": 10600,
+      "scoutDescriptors": [
+        "improves under pressure",
+        "durable"
+      ]
+    },
+    {
+      "id": "GROWTH_FRAGILE_PRODIGY",
+      "displayName": "Fragile Prodigy",
+      "curve": [
+        118,
+        118,
+        112,
+        108,
+        102
+      ],
+      "potentialMultiplierBasisPoints": 10800,
+      "scoutDescriptors": [
+        "exceptional output",
+        "clear vulnerability"
+      ]
+    },
+    {
+      "id": "GROWTH_FALSE_MEDIOCRITY",
+      "displayName": "False Mediocrity",
+      "curve": [
+        72,
+        82,
+        102,
+        130,
+        145
+      ],
+      "potentialMultiplierBasisPoints": 11800,
+      "scoutDescriptors": [
+        "poor first impression",
+        "measurements conflict"
+      ]
+    }
+  ],
+  "leadershipTendencies": [
+    {
+      "id": "LEAD_STEADY_EXAMPLE",
+      "displayName": "Steady Example",
+      "baseRange": [
+        58,
+        82
+      ],
+      "doctrineBias": [
+        "DOCTRINE_BALANCED",
+        "DOCTRINE_GUARDIAN"
+      ]
+    },
+    {
+      "id": "LEAD_BY_CHARGE",
+      "displayName": "Lead by Charge",
+      "baseRange": [
+        45,
+        72
+      ],
+      "doctrineBias": [
+        "DOCTRINE_AGGRESSIVE"
+      ]
+    },
+    {
+      "id": "LEAD_TRIAGE_PRIORITY",
+      "displayName": "Triage Priority",
+      "baseRange": [
+        55,
+        80
+      ],
+      "doctrineBias": [
+        "DOCTRINE_RESCUE_FIRST"
+      ]
+    },
+    {
+      "id": "LEAD_TECHNICAL_ARGUMENT",
+      "displayName": "Technical Argument",
+      "baseRange": [
+        35,
+        65
+      ],
+      "doctrineBias": [
+        "DOCTRINE_OBJECTIVE_FIRST"
+      ]
+    },
+    {
+      "id": "LEAD_FORMAL_RESTRAINT",
+      "displayName": "Formal Restraint",
+      "baseRange": [
+        50,
+        78
+      ],
+      "doctrineBias": [
+        "DOCTRINE_GUARDIAN",
+        "DOCTRINE_MYSTIC_PRESSURE"
+      ]
+    },
+    {
+      "id": "LEAD_SUPPORTIVE_SCOUT",
+      "displayName": "Supportive Scout",
+      "baseRange": [
+        42,
+        70
+      ],
+      "doctrineBias": [
+        "DOCTRINE_OBJECTIVE_FIRST",
+        "DOCTRINE_RESCUE_FIRST"
+      ]
+    },
+    {
+      "id": "LEAD_ROUTE_AUTHORITY",
+      "displayName": "Route Authority",
+      "baseRange": [
+        72,
+        96
+      ],
+      "doctrineBias": [
+        "DOCTRINE_OBJECTIVE_FIRST",
+        "DOCTRINE_CONSERVATIVE"
+      ]
+    },
+    {
+      "id": "LEAD_RELUCTANT_SERVICE",
+      "displayName": "Reluctant Service",
+      "baseRange": [
+        28,
+        58
+      ],
+      "doctrineBias": [
+        "DOCTRINE_GUARDIAN"
+      ]
+    },
+    {
+      "id": "LEAD_SIGNAL_GRAMMAR",
+      "displayName": "Signal Grammar",
+      "baseRange": [
+        60,
+        85
+      ],
+      "doctrineBias": [
+        "DOCTRINE_SUPPORT_NETWORK"
+      ]
+    },
+    {
+      "id": "LEAD_EVIDENCE_FIRST",
+      "displayName": "Evidence First",
+      "baseRange": [
+        55,
+        82
+      ],
+      "doctrineBias": [
+        "DOCTRINE_AMBUSH",
+        "DOCTRINE_OBJECTIVE_FIRST"
+      ]
+    },
+    {
+      "id": "LEAD_CONSENSUS",
+      "displayName": "Consensus Builder",
+      "baseRange": [
+        50,
+        78
+      ],
+      "doctrineBias": [
+        "DOCTRINE_BALANCED",
+        "DOCTRINE_SUPPORT_NETWORK"
+      ]
+    },
+    {
+      "id": "LEAD_LONE_EXPERT",
+      "displayName": "Lone Expert",
+      "baseRange": [
+        20,
+        55
+      ],
+      "doctrineBias": [
+        "DOCTRINE_CONSERVATIVE"
+      ]
+    }
+  ],
+  "weaponAptitudeProfiles": [
+    {
+      "id": "WEAPON_PROFILE_SWORD_SHIELD",
+      "primary": "SWORD",
+      "secondary": "SHIELD",
+      "weights": {
+        "SWORD": 130,
+        "SHIELD": 135,
+        "SPEAR": 90
+      }
+    },
+    {
+      "id": "WEAPON_PROFILE_SPEAR_SHIELD",
+      "primary": "SPEAR",
+      "secondary": "SHIELD",
+      "weights": {
+        "SPEAR": 135,
+        "SHIELD": 130,
+        "SWORD": 85
+      }
+    },
+    {
+      "id": "WEAPON_PROFILE_GREAT_AXE",
+      "primary": "GREAT_AXE",
+      "secondary": "HAMMER",
+      "weights": {
+        "GREAT_AXE": 145,
+        "HAMMER": 110
+      }
+    },
+    {
+      "id": "WEAPON_PROFILE_DUAL_DAGGER",
+      "primary": "DAGGER",
+      "secondary": "SHORTBOW",
+      "weights": {
+        "DAGGER": 145,
+        "SHORTBOW": 95
+      }
+    },
+    {
+      "id": "WEAPON_PROFILE_LONGBOW",
+      "primary": "LONGBOW",
+      "secondary": "DAGGER",
+      "weights": {
+        "LONGBOW": 140,
+        "DAGGER": 80
+      }
+    },
+    {
+      "id": "WEAPON_PROFILE_SHORTBOW_KIT",
+      "primary": "BOW",
+      "secondary": "REMEDY_KIT",
+      "weights": {
+        "BOW": 125,
+        "REMEDY_KIT": 125
+      }
+    },
+    {
+      "id": "WEAPON_PROFILE_STAFF",
+      "primary": "STAFF",
+      "secondary": "REMEDY_KIT",
+      "weights": {
+        "STAFF": 135,
+        "REMEDY_KIT": 100
+      }
+    },
+    {
+      "id": "WEAPON_PROFILE_WAND_FOCUS",
+      "primary": "WAND",
+      "secondary": "FOCUS_TOOL",
+      "weights": {
+        "WAND": 125,
+        "FOCUS_TOOL": 140
+      }
+    },
+    {
+      "id": "WEAPON_PROFILE_WARD_BLADE",
+      "primary": "SWORD",
+      "secondary": "WARD_BUCKLER",
+      "weights": {
+        "SWORD": 120,
+        "WARD_BUCKLER": 145,
+        "FOCUS_TOOL": 105
+      }
+    },
+    {
+      "id": "WEAPON_PROFILE_HAMMER_SHIELD",
+      "primary": "HAMMER",
+      "secondary": "SHIELD",
+      "weights": {
+        "HAMMER": 130,
+        "SHIELD": 125
+      }
+    },
+    {
+      "id": "WEAPON_PROFILE_POLEARM_TOOL",
+      "primary": "POLEARM",
+      "secondary": "TOOL",
+      "weights": {
+        "POLEARM": 115,
+        "TOOL": 125
+      }
+    },
+    {
+      "id": "WEAPON_PROFILE_SIGNAL_FOCUS",
+      "primary": "SIGNAL_HORN",
+      "secondary": "FOCUS_TOOL",
+      "weights": {
+        "SIGNAL_HORN": 145,
+        "FOCUS_TOOL": 120
+      }
+    },
+    {
+      "id": "WEAPON_PROFILE_UNARMED",
+      "primary": "UNARMED",
+      "secondary": "TOOL",
+      "weights": {
+        "UNARMED": 135,
+        "TOOL": 100
+      }
+    },
+    {
+      "id": "WEAPON_PROFILE_RANDOM_ADAPTIVE",
+      "primary": "ADAPTIVE",
+      "secondary": "ADAPTIVE",
+      "weights": {
+        "ADAPTIVE": 140
+      }
+    }
+  ],
+  "disciplineProfiles": [
+    {
+      "id": "DISC_FRONT_GUARD",
+      "base": {
+        "MARTIAL": 110,
+        "MYSTIC": 65,
+        "RESTORATION": 70,
+        "SUPPORT": 85,
+        "GUARD": 130,
+        "TACTICAL": 100
+      }
+    },
+    {
+      "id": "DISC_BREAKER",
+      "base": {
+        "MARTIAL": 135,
+        "MYSTIC": 55,
+        "RESTORATION": 50,
+        "SUPPORT": 60,
+        "GUARD": 95,
+        "TACTICAL": 110
+      }
+    },
+    {
+      "id": "DISC_HEALER",
+      "base": {
+        "MARTIAL": 60,
+        "MYSTIC": 95,
+        "RESTORATION": 138,
+        "SUPPORT": 128,
+        "GUARD": 75,
+        "TACTICAL": 90
+      }
+    },
+    {
+      "id": "DISC_SUPPORT_MYSTIC",
+      "base": {
+        "MARTIAL": 65,
+        "MYSTIC": 120,
+        "RESTORATION": 85,
+        "SUPPORT": 135,
+        "GUARD": 70,
+        "TACTICAL": 120
+      }
+    },
+    {
+      "id": "DISC_ARCANE_GUARD",
+      "base": {
+        "MARTIAL": 105,
+        "MYSTIC": 130,
+        "RESTORATION": 70,
+        "SUPPORT": 100,
+        "GUARD": 120,
+        "TACTICAL": 95
+      }
+    },
+    {
+      "id": "DISC_SCOUT_MEDIC",
+      "base": {
+        "MARTIAL": 100,
+        "MYSTIC": 70,
+        "RESTORATION": 110,
+        "SUPPORT": 110,
+        "GUARD": 75,
+        "TACTICAL": 135
+      }
+    },
+    {
+      "id": "DISC_COMMAND_SCOUT",
+      "base": {
+        "MARTIAL": 105,
+        "MYSTIC": 70,
+        "RESTORATION": 80,
+        "SUPPORT": 120,
+        "GUARD": 115,
+        "TACTICAL": 142
+      }
+    },
+    {
+      "id": "DISC_LATE_ANCHOR",
+      "base": {
+        "MARTIAL": 88,
+        "MYSTIC": 55,
+        "RESTORATION": 65,
+        "SUPPORT": 75,
+        "GUARD": 105,
+        "TACTICAL": 85
+      }
+    },
+    {
+      "id": "DISC_SIGNALER",
+      "base": {
+        "MARTIAL": 70,
+        "MYSTIC": 100,
+        "RESTORATION": 85,
+        "SUPPORT": 142,
+        "GUARD": 65,
+        "TACTICAL": 135
+      }
+    },
+    {
+      "id": "DISC_DUSK_STALKER",
+      "base": {
+        "MARTIAL": 120,
+        "MYSTIC": 105,
+        "RESTORATION": 55,
+        "SUPPORT": 90,
+        "GUARD": 70,
+        "TACTICAL": 145
+      }
+    },
+    {
+      "id": "DISC_BALANCED",
+      "base": {
+        "MARTIAL": 100,
+        "MYSTIC": 95,
+        "RESTORATION": 90,
+        "SUPPORT": 95,
+        "GUARD": 95,
+        "TACTICAL": 100
+      }
+    },
+    {
+      "id": "DISC_MARTIAL_TACTICAL",
+      "base": {
+        "MARTIAL": 125,
+        "MYSTIC": 65,
+        "RESTORATION": 60,
+        "SUPPORT": 75,
+        "GUARD": 90,
+        "TACTICAL": 125
+      }
+    },
+    {
+      "id": "DISC_MYSTIC_BURST",
+      "base": {
+        "MARTIAL": 60,
+        "MYSTIC": 140,
+        "RESTORATION": 70,
+        "SUPPORT": 105,
+        "GUARD": 65,
+        "TACTICAL": 100
+      }
+    },
+    {
+      "id": "DISC_GUARD_SUPPORT",
+      "base": {
+        "MARTIAL": 90,
+        "MYSTIC": 75,
+        "RESTORATION": 95,
+        "SUPPORT": 120,
+        "GUARD": 135,
+        "TACTICAL": 90
+      }
+    },
+    {
+      "id": "DISC_RESTORATION_TACTICAL",
+      "base": {
+        "MARTIAL": 70,
+        "MYSTIC": 90,
+        "RESTORATION": 130,
+        "SUPPORT": 110,
+        "GUARD": 75,
+        "TACTICAL": 120
+      }
+    },
+    {
+      "id": "DISC_UNPREDICTABLE",
+      "base": {
+        "MARTIAL": 100,
+        "MYSTIC": 100,
+        "RESTORATION": 100,
+        "SUPPORT": 100,
+        "GUARD": 100,
+        "TACTICAL": 100
+      },
+      "jitter": 30
+    }
+  ],
+  "classTendencies": [
+    {
+      "id": "CLASS_TEND_GUARDIAN",
+      "startingClassId": "CLASS_GUARDIAN",
+      "weightByTag": {
+        "GUARD": 150,
+        "MARTIAL": 100
+      },
+      "startingArts": [
+        "ART_BASIC_THRUST",
+        "ART_GUARD",
+        "ART_SHIELD_BRACE"
+      ],
+      "equipmentTemplateId": "LOADOUT_TEMPLATE_GUARDIAN"
+    },
+    {
+      "id": "CLASS_TEND_WARRIOR",
+      "startingClassId": "CLASS_WARRIOR",
+      "weightByTag": {
+        "MARTIAL": 150,
+        "STRENGTH": 120
+      },
+      "startingArts": [
+        "ART_BASIC_HEAVY_SWING",
+        "ART_GUARD",
+        "ART_HEAVY_CUT"
+      ],
+      "equipmentTemplateId": "LOADOUT_TEMPLATE_WARRIOR"
+    },
+    {
+      "id": "CLASS_TEND_PRIEST",
+      "startingClassId": "CLASS_PRIEST",
+      "weightByTag": {
+        "RESTORATION": 155,
+        "SUPPORT": 120
+      },
+      "startingArts": [
+        "ART_BASIC_STAFF_TAP",
+        "ART_GUARD",
+        "ART_FIELD_MEND"
+      ],
+      "equipmentTemplateId": "LOADOUT_TEMPLATE_PRIEST"
+    },
+    {
+      "id": "CLASS_TEND_MAGE",
+      "startingClassId": "CLASS_MAGE",
+      "weightByTag": {
+        "MYSTIC": 155,
+        "KNOWLEDGE": 110
+      },
+      "startingArts": [
+        "ART_BASIC_RUNE_BOLT",
+        "ART_GUARD",
+        "ART_SPARK_RUNE"
+      ],
+      "equipmentTemplateId": "LOADOUT_TEMPLATE_MAGE"
+    },
+    {
+      "id": "CLASS_TEND_RANGER",
+      "startingClassId": "CLASS_RANGER",
+      "weightByTag": {
+        "TACTICAL": 145,
+        "PERCEPTION": 120
+      },
+      "startingArts": [
+        "ART_BASIC_SHOT",
+        "ART_GUARD",
+        "ART_PINNING_SHOT"
+      ],
+      "equipmentTemplateId": "LOADOUT_TEMPLATE_RANGER"
+    },
+    {
+      "id": "CLASS_TEND_ROGUE",
+      "startingClassId": "CLASS_ROGUE",
+      "weightByTag": {
+        "TACTICAL": 140,
+        "AGILITY": 130
+      },
+      "startingArts": [
+        "ART_BASIC_DAGGER_CUT",
+        "ART_GUARD",
+        "ART_FLANKING_CUT"
+      ],
+      "equipmentTemplateId": "LOADOUT_TEMPLATE_ROGUE"
+    },
+    {
+      "id": "CLASS_TEND_GUARD_MYSTIC",
+      "startingClassId": "CLASS_GUARDIAN",
+      "weightByTag": {
+        "GUARD": 130,
+        "MYSTIC": 125
+      },
+      "startingArts": [
+        "ART_BASIC_SABER_CUT",
+        "ART_GUARD",
+        "ART_ARCANE_GUARD",
+        "ART_RUNE_EDGE"
+      ],
+      "equipmentTemplateId": "LOADOUT_TEMPLATE_WARDBLADE"
+    },
+    {
+      "id": "CLASS_TEND_RANGER_MEDIC",
+      "startingClassId": "CLASS_RANGER",
+      "weightByTag": {
+        "TACTICAL": 125,
+        "RESTORATION": 120
+      },
+      "startingArts": [
+        "ART_BASIC_SHOT",
+        "ART_GUARD",
+        "ART_FIELD_TONIC"
+      ],
+      "equipmentTemplateId": "LOADOUT_TEMPLATE_TRAIL_MEDIC"
+    },
+    {
+      "id": "CLASS_TEND_SIGNALER",
+      "startingClassId": "CLASS_MAGE",
+      "weightByTag": {
+        "SUPPORT": 150,
+        "TACTICAL": 125
+      },
+      "startingArts": [
+        "ART_BASIC_RESONANT_TAP",
+        "ART_GUARD",
+        "ART_BRASS_RALLY"
+      ],
+      "equipmentTemplateId": "LOADOUT_TEMPLATE_SIGNALER"
+    },
+    {
+      "id": "CLASS_TEND_PORTER",
+      "startingClassId": "CLASS_WARRIOR",
+      "weightByTag": {
+        "GUARD": 120,
+        "STRENGTH": 115
+      },
+      "startingArts": [
+        "ART_BASIC_HOOK_STRIKE",
+        "ART_GUARD",
+        "ART_LOAD_BEARER"
+      ],
+      "equipmentTemplateId": "LOADOUT_TEMPLATE_PORTER"
+    },
+    {
+      "id": "CLASS_TEND_SCOUT_MYSTIC",
+      "startingClassId": "CLASS_ROGUE",
+      "weightByTag": {
+        "TACTICAL": 135,
+        "MYSTIC": 110
+      },
+      "startingArts": [
+        "ART_BASIC_DAGGER_CUT",
+        "ART_GUARD",
+        "ART_SMOKE_VEIL"
+      ],
+      "equipmentTemplateId": "LOADOUT_TEMPLATE_DUSK_SCOUT"
+    },
+    {
+      "id": "CLASS_TEND_GENERALIST",
+      "startingClassId": "CLASS_RANGER",
+      "weightByTag": {
+        "ADAPTIVE": 140
+      },
+      "startingArts": [
+        "ART_BASIC_SHOT",
+        "ART_GUARD",
+        "ART_RECOVER_BREATH"
+      ],
+      "equipmentTemplateId": "LOADOUT_TEMPLATE_GENERALIST"
+    }
+  ],
+  "relationshipTendencies": [
+    {
+      "id": "REL_PROTECTIVE_BOND",
+      "likes": [
+        "KIND",
+        "RELIABLE"
+      ],
+      "friction": [
+        "CRUEL",
+        "RECKLESS"
+      ],
+      "bondTrigger": "protection"
+    },
+    {
+      "id": "REL_RIVALRY_GROWTH",
+      "likes": [
+        "COMPETITIVE",
+        "BOLD"
+      ],
+      "friction": [
+        "PASSIVE"
+      ],
+      "bondTrigger": "friendly rivalry"
+    },
+    {
+      "id": "REL_MENTOR_SEEKER",
+      "likes": [
+        "PATIENT",
+        "EXPERT"
+      ],
+      "friction": [
+        "DISMISSIVE"
+      ],
+      "bondTrigger": "training"
+    },
+    {
+      "id": "REL_INDEPENDENT_TRUST",
+      "likes": [
+        "HONEST",
+        "INDEPENDENT"
+      ],
+      "friction": [
+        "CONTROLLING"
+      ],
+      "bondTrigger": "respected autonomy"
+    },
+    {
+      "id": "REL_CIVIC_MINDED",
+      "likes": [
+        "DUTIFUL",
+        "KIND"
+      ],
+      "friction": [
+        "SELFISH"
+      ],
+      "bondTrigger": "public service"
+    },
+    {
+      "id": "REL_WORKER_SOLIDARITY",
+      "likes": [
+        "HUMBLE",
+        "RELIABLE"
+      ],
+      "friction": [
+        "ELITIST"
+      ],
+      "bondTrigger": "shared labor"
+    },
+    {
+      "id": "REL_SCHOLAR_DEBATE",
+      "likes": [
+        "CURIOUS",
+        "METHODICAL"
+      ],
+      "friction": [
+        "ANTI_INTELLECTUAL"
+      ],
+      "bondTrigger": "solving mysteries"
+    },
+    {
+      "id": "REL_QUIET_COMPANIONSHIP",
+      "likes": [
+        "CALM",
+        "PRIVATE"
+      ],
+      "friction": [
+        "EXPRESSIVE"
+      ],
+      "bondTrigger": "shared silence"
+    },
+    {
+      "id": "REL_LOUD_FRIENDSHIP",
+      "likes": [
+        "EXPRESSIVE",
+        "CHEERFUL"
+      ],
+      "friction": [
+        "SUSPICIOUS"
+      ],
+      "bondTrigger": "celebration"
+    },
+    {
+      "id": "REL_CROSS_CULTURE",
+      "likes": [
+        "CURIOUS",
+        "ADAPTABLE"
+      ],
+      "friction": [
+        "PREJUDICED"
+      ],
+      "bondTrigger": "cultural learning"
+    },
+    {
+      "id": "REL_DEBT_AVERSE",
+      "likes": [
+        "FRUGAL",
+        "HONEST"
+      ],
+      "friction": [
+        "MANIPULATIVE"
+      ],
+      "bondTrigger": "fair contract"
+    },
+    {
+      "id": "REL_RESCUE_BOND",
+      "likes": [
+        "PROTECTIVE",
+        "EMPATHETIC"
+      ],
+      "friction": [
+        "GLORY_SEEKING"
+      ],
+      "bondTrigger": "surviving rescue"
+    },
+    {
+      "id": "REL_EVIDENCE_FIRST",
+      "likes": [
+        "PERCEPTIVE",
+        "DISCIPLINED"
+      ],
+      "friction": [
+        "SECRETIVE",
+        "CHAOTIC"
+      ],
+      "bondTrigger": "shared truth"
+    },
+    {
+      "id": "REL_FORGIVENESS_PATH",
+      "likes": [
+        "FORGIVING",
+        "GENTLE"
+      ],
+      "friction": [
+        "VENGEFUL"
+      ],
+      "bondTrigger": "mercy"
+    },
+    {
+      "id": "REL_TRADITION_KEEPER",
+      "likes": [
+        "TRADITIONAL",
+        "DUTIFUL"
+      ],
+      "friction": [
+        "DISMISSIVE"
+      ],
+      "bondTrigger": "respecting custom"
+    },
+    {
+      "id": "REL_INVENTOR_PAIR",
+      "likes": [
+        "INVENTIVE",
+        "RESOURCEFUL"
+      ],
+      "friction": [
+        "RIGID"
+      ],
+      "bondTrigger": "crafting"
+    },
+    {
+      "id": "REL_SURVIVOR_RECOGNITION",
+      "likes": [
+        "SOMBER",
+        "RELIABLE"
+      ],
+      "friction": [
+        "SHOWBOAT"
+      ],
+      "bondTrigger": "acknowledged trauma"
+    },
+    {
+      "id": "REL_UNPREDICTABLE",
+      "likes": [
+        "ADAPTABLE"
+      ],
+      "friction": [
+        "METHODICAL"
+      ],
+      "bondTrigger": "random event chain"
+    }
+  ],
+  "dialogueStyles": [
+    {
+      "id": "VOICE_DIRECT_WARM",
+      "sentenceLength": "SHORT",
+      "humor": "DRY",
+      "conflictStyle": "HONEST"
+    },
+    {
+      "id": "VOICE_BLUNT_CHALLENGE",
+      "sentenceLength": "SHORT",
+      "humor": "CHALLENGING",
+      "conflictStyle": "CONFRONT"
+    },
+    {
+      "id": "VOICE_QUIET_PRECISE",
+      "sentenceLength": "MEDIUM",
+      "humor": "RARE",
+      "conflictStyle": "DIAGNOSE"
+    },
+    {
+      "id": "VOICE_RAPID_TECHNICAL",
+      "sentenceLength": "RAPID",
+      "humor": "TECHNICAL",
+      "conflictStyle": "EXPLAIN"
+    },
+    {
+      "id": "VOICE_FORMAL_CONTROLLED",
+      "sentenceLength": "FORMAL",
+      "humor": "SHARP",
+      "conflictStyle": "PROCEDURAL"
+    },
+    {
+      "id": "VOICE_FRIENDLY_OBSERVANT",
+      "sentenceLength": "MEDIUM",
+      "humor": "GENTLE",
+      "conflictStyle": "ASK"
+    },
+    {
+      "id": "VOICE_DRY_COMMAND",
+      "sentenceLength": "SHORT",
+      "humor": "DRY",
+      "conflictStyle": "DIRECT"
+    },
+    {
+      "id": "VOICE_GENTLE_UNDERSTATEMENT",
+      "sentenceLength": "MEDIUM",
+      "humor": "UNDERSTATED",
+      "conflictStyle": "DEFER_THEN_REFUSE"
+    },
+    {
+      "id": "VOICE_THEATRICAL_EXACT",
+      "sentenceLength": "VARIED",
+      "humor": "PERFORMATIVE",
+      "conflictStyle": "REFRAME"
+    },
+    {
+      "id": "VOICE_SPARSE_EVIDENCE",
+      "sentenceLength": "VERY_SHORT",
+      "humor": "RARE",
+      "conflictStyle": "REQUEST_PROOF"
+    },
+    {
+      "id": "VOICE_CHEERFUL_RAMBLE",
+      "sentenceLength": "LONG",
+      "humor": "CONSTANT",
+      "conflictStyle": "DEFLECT"
+    },
+    {
+      "id": "VOICE_SOMBER_POETIC",
+      "sentenceLength": "MEDIUM",
+      "humor": "DARK",
+      "conflictStyle": "REFLECT"
+    },
+    {
+      "id": "VOICE_PRACTICAL_LISTS",
+      "sentenceLength": "LISTS",
+      "humor": "DRY",
+      "conflictStyle": "PRIORITIZE"
+    },
+    {
+      "id": "VOICE_NERVOUS_OVEREXPLAIN",
+      "sentenceLength": "LONG",
+      "humor": "ACCIDENTAL",
+      "conflictStyle": "OVEREXPLAIN"
+    },
+    {
+      "id": "VOICE_FRIENDLY_TEASE",
+      "sentenceLength": "MEDIUM",
+      "humor": "TEASING",
+      "conflictStyle": "SOFTEN"
+    },
+    {
+      "id": "VOICE_RESERVED_FORMAL",
+      "sentenceLength": "FORMAL",
+      "humor": "NONE",
+      "conflictStyle": "WITHDRAW"
+    }
+  ],
+  "personalEventHooks": [
+    {
+      "id": "HOOK_MISSING_RELATIVE",
+      "theme": "missing family",
+      "requiredTags": [
+        "FAMILY"
+      ]
+    },
+    {
+      "id": "HOOK_UNPAID_WAGE",
+      "theme": "worker justice",
+      "requiredTags": [
+        "WORKER"
+      ]
+    },
+    {
+      "id": "HOOK_BROKEN_WEAPON",
+      "theme": "equipment identity",
+      "requiredTags": [
+        "MARTIAL"
+      ]
+    },
+    {
+      "id": "HOOK_FAILED_RESCUE",
+      "theme": "redemption",
+      "requiredTags": [
+        "RESCUE"
+      ]
+    },
+    {
+      "id": "HOOK_FORGED_RECORD",
+      "theme": "truth and records",
+      "requiredTags": [
+        "ARCHIVE"
+      ]
+    },
+    {
+      "id": "HOOK_RIVAL_APPLICANT",
+      "theme": "rivalry",
+      "requiredTags": [
+        "COMPETITIVE"
+      ]
+    },
+    {
+      "id": "HOOK_MYSTERIOUS_SCAR",
+      "theme": "hidden heritage",
+      "requiredTags": [
+        "MYSTERY"
+      ]
+    },
+    {
+      "id": "HOOK_OLD_MENTOR",
+      "theme": "mentorship",
+      "requiredTags": [
+        "TRAINING"
+      ]
+    },
+    {
+      "id": "HOOK_HOME_FESTIVAL",
+      "theme": "culture",
+      "requiredTags": [
+        "CULTURE"
+      ]
+    },
+    {
+      "id": "HOOK_UNSAFE_FACILITY",
+      "theme": "guild construction",
+      "requiredTags": [
+        "CIVIC"
+      ]
+    },
+    {
+      "id": "HOOK_CURSED_TOOL",
+      "theme": "risk and power",
+      "requiredTags": [
+        "CRAFTING"
+      ]
+    },
+    {
+      "id": "HOOK_LOST_ROUTE",
+      "theme": "expedition",
+      "requiredTags": [
+        "TACTICAL"
+      ]
+    },
+    {
+      "id": "HOOK_MEDICAL_MISTAKE",
+      "theme": "healing accountability",
+      "requiredTags": [
+        "RESTORATION"
+      ]
+    },
+    {
+      "id": "HOOK_OLD_PREJUDICE",
+      "theme": "cross-race trust",
+      "requiredTags": [
+        "ALLIANCE"
+      ]
+    },
+    {
+      "id": "HOOK_SECRET_DEBT",
+      "theme": "economy",
+      "requiredTags": [
+        "DEBT"
+      ]
+    },
+    {
+      "id": "HOOK_FALSE_HERO_STORY",
+      "theme": "public memory",
+      "requiredTags": [
+        "REPUTATION"
+      ]
+    },
+    {
+      "id": "HOOK_CHILD_APPRENTICE",
+      "theme": "teaching",
+      "requiredTags": [
+        "MENTOR"
+      ]
+    },
+    {
+      "id": "HOOK_RIVAL_GUILD_OFFER",
+      "theme": "loyalty",
+      "requiredTags": [
+        "GUILD"
+      ]
+    },
+    {
+      "id": "HOOK_STRANGE_DREAM",
+      "theme": "world gate mystery",
+      "requiredTags": [
+        "MYSTIC"
+      ]
+    },
+    {
+      "id": "HOOK_FORMATION_DISPUTE",
+      "theme": "leadership",
+      "requiredTags": [
+        "COMMAND"
+      ]
+    },
+    {
+      "id": "HOOK_STOLEN_CREDIT",
+      "theme": "recognition",
+      "requiredTags": [
+        "WORKER"
+      ]
+    },
+    {
+      "id": "HOOK_RETURNED_ENEMY",
+      "theme": "mercy",
+      "requiredTags": [
+        "MERCY"
+      ]
+    },
+    {
+      "id": "HOOK_UNFINISHED_MAP",
+      "theme": "exploration",
+      "requiredTags": [
+        "MAP"
+      ]
+    },
+    {
+      "id": "HOOK_NAME_IN_STONE",
+      "theme": "legacy",
+      "requiredTags": [
+        "LEGEND"
+      ]
+    }
+  ],
+  "visualGeneration": {
+    "HUMAN": {
+      "bodyFrames": [
+        "HUMAN_SLIM",
+        "HUMAN_AVERAGE",
+        "HUMAN_BROAD",
+        "HUMAN_TALL"
+      ],
+      "skinPalettes": [
+        "PALE",
+        "LIGHT",
+        "TAN",
+        "BROWN",
+        "DARK"
+      ],
+      "hairStyles": [
+        "CROP",
+        "BRAID",
+        "CURL",
+        "LONG_TIE",
+        "SHAVED",
+        "BOB",
+        "COILS",
+        "WAVES"
+      ],
+      "hairColors": [
+        "BLACK",
+        "BROWN",
+        "CHESTNUT",
+        "BLOND",
+        "RED",
+        "GRAY"
+      ],
+      "eyeColors": [
+        "BROWN",
+        "BLUE",
+        "GRAY",
+        "GREEN",
+        "AMBER"
+      ],
+      "raceFeatures": []
+    },
+    "ORC": {
+      "bodyFrames": [
+        "ORC_COMPACT",
+        "ORC_BROAD",
+        "ORC_TALL",
+        "ORC_HEAVY"
+      ],
+      "skinPalettes": [
+        "OLIVE",
+        "MOSS",
+        "GRAY_GREEN",
+        "DEEP_GREEN",
+        "RUST_GREEN"
+      ],
+      "hairStyles": [
+        "BRAID",
+        "SHAVED",
+        "TOPKNOT",
+        "LONG",
+        "CROP"
+      ],
+      "hairColors": [
+        "BLACK",
+        "BROWN",
+        "GRAY",
+        "WHITE",
+        "RED_BROWN"
+      ],
+      "eyeColors": [
+        "AMBER",
+        "BROWN",
+        "GRAY",
+        "GOLD"
+      ],
+      "raceFeatures": [
+        "TUSK_SMALL",
+        "TUSK_CURVED",
+        "TUSK_CAPPED",
+        "TUSK_BROKEN"
+      ]
+    },
+    "GOBLIN": {
+      "bodyFrames": [
+        "GOBLIN_SMALL",
+        "GOBLIN_WIRY",
+        "GOBLIN_STOUT",
+        "GOBLIN_TALL"
+      ],
+      "skinPalettes": [
+        "GREEN",
+        "OLIVE",
+        "GRAY_GREEN",
+        "MINT",
+        "DEEP_MOSS"
+      ],
+      "hairStyles": [
+        "CROP",
+        "TUFT",
+        "BRAID",
+        "SHAVED",
+        "FLUFF"
+      ],
+      "hairColors": [
+        "BLACK",
+        "BROWN",
+        "WHITE",
+        "BLUE_BLACK",
+        "COPPER"
+      ],
+      "eyeColors": [
+        "AMBER",
+        "GOLD",
+        "BROWN",
+        "GREEN",
+        "VIOLET"
+      ],
+      "raceFeatures": [
+        "EAR_LONG",
+        "EAR_NOTCHED",
+        "EAR_RINGED",
+        "NOSE_SMALL",
+        "NOSE_LONG"
+      ]
+    },
+    "DOG_TRIBE": {
+      "bodyFrames": [
+        "DOG_TRIBE_LIGHT",
+        "DOG_TRIBE_AVERAGE",
+        "DOG_TRIBE_ATHLETIC",
+        "DOG_TRIBE_BROAD"
+      ],
+      "furPalettes": [
+        "BLACK",
+        "BROWN",
+        "CREAM",
+        "GRAY",
+        "RED",
+        "MIXED"
+      ],
+      "hairStyles": [
+        "CROP",
+        "BRAID",
+        "LONG",
+        "SHAGGY",
+        "TOPKNOT"
+      ],
+      "eyeColors": [
+        "BROWN",
+        "BLUE",
+        "AMBER",
+        "GRAY",
+        "GREEN"
+      ],
+      "raceFeatures": [
+        "EAR_UP",
+        "EAR_FLOP",
+        "EAR_MIXED",
+        "TAIL_LONG",
+        "TAIL_SHORT",
+        "FUR_SPOTTED",
+        "FUR_STRIPED"
+      ]
+    },
+    "DARK_ELF": {
+      "bodyFrames": [
+        "DARK_ELF_SLIM",
+        "DARK_ELF_AVERAGE",
+        "DARK_ELF_TALL",
+        "DARK_ELF_ATHLETIC"
+      ],
+      "skinPalettes": [
+        "UMBER",
+        "VIOLET_BROWN",
+        "DEEP_GRAY",
+        "MIDNIGHT",
+        "COOL_BROWN"
+      ],
+      "hairStyles": [
+        "LONG",
+        "BRAID",
+        "CROP",
+        "SIDE_SHAVE",
+        "COILS"
+      ],
+      "hairColors": [
+        "WHITE",
+        "SILVER",
+        "BLACK",
+        "VIOLET_BLACK",
+        "BLUE_BLACK"
+      ],
+      "eyeColors": [
+        "VIOLET",
+        "SILVER",
+        "RED_BROWN",
+        "GOLD",
+        "BLUE"
+      ],
+      "raceFeatures": [
+        "EAR_LONG",
+        "MEMORY_MARKS",
+        "DUSK_FRECKLES"
+      ]
+    },
+    "DEMON_HERITAGE": {
+      "bodyFrames": [
+        "DEMON_LIGHT",
+        "DEMON_AVERAGE",
+        "DEMON_TALL",
+        "DEMON_BROAD"
+      ],
+      "skinPalettes": [
+        "HUMAN_RANGE",
+        "ASH",
+        "RED_BROWN",
+        "PALE_GRAY",
+        "DARK"
+      ],
+      "hairStyles": [
+        "LONG",
+        "CROP",
+        "BRAID",
+        "WAVES",
+        "SHAVED"
+      ],
+      "hairColors": [
+        "BLACK",
+        "WHITE",
+        "RED",
+        "ASH_GRAY",
+        "VIOLET"
+      ],
+      "eyeColors": [
+        "RED",
+        "AMBER",
+        "GOLD",
+        "GRAY",
+        "VIOLET"
+      ],
+      "raceFeatures": [
+        "HORN_SMALL",
+        "HORN_SWEPT",
+        "HORN_ONE_BROKEN",
+        "WARD_LINES",
+        "TAIL_OPTIONAL"
+      ]
+    },
+    "outfitSilhouettes": [
+      "GATEWARD",
+      "WORKER",
+      "SCOUT",
+      "HEALER",
+      "MAGE",
+      "HEAVY_GUARD",
+      "TRAVELER",
+      "ARCHIVIST",
+      "SIGNALER",
+      "CRAFTSPERSON"
+    ],
+    "accessories": [
+      "SCAR",
+      "GLASSES",
+      "GOGGLES",
+      "EARRINGS",
+      "NECKLACE",
+      "TOOL_BELT",
+      "SCARF",
+      "BADGE",
+      "CHARM",
+      "GLOVES"
+    ],
+    "compatibilityRules": [
+      "horns never occupy the same attachment socket as full helmets",
+      "Dog Tribe ear variants reserve upper-head space",
+      "race-specific skin/fur palettes cannot cross races without an explicit story flag",
+      "heavy armor silhouettes require STR or GUARD aptitude >= 90",
+      "healer kit accessories require Restoration aptitude >= 85"
+    ]
+  },
+  "ageBands": [
+    {
+      "id": "LATE_TEEN",
+      "weight": 8
+    },
+    {
+      "id": "YOUNG_ADULT",
+      "weight": 34
+    },
+    {
+      "id": "ADULT",
+      "weight": 42
+    },
+    {
+      "id": "OLDER_ADULT",
+      "weight": 16
+    }
+  ],
+  "pronouns": [
+    {
+      "id": "SHE_HER",
+      "weight": 44
+    },
+    {
+      "id": "HE_HIM",
+      "weight": 44
+    },
+    {
+      "id": "THEY_THEM",
+      "weight": 12
+    }
+  ],
+  "startingCommunityByRace": {
+    "HUMAN": [
+      "SKYHOME_GATEWARD",
+      "GATEWARD_FREIGHT_YARD"
+    ],
+    "ORC": [
+      "IRON_WALL_QUARTER",
+      "FURNACE_ROW"
+    ],
+    "GOBLIN": [
+      "BRASSWORK_LANE",
+      "WATERWORKS"
+    ],
+    "DOG_TRIBE": [
+      "STORMROAD_CAMP",
+      "ROUTE_COUNCIL"
+    ],
+    "DARK_ELF": [
+      "DUSK_ARCHIVE_ROW",
+      "NIGHT_MARKET"
+    ],
+    "DEMON_HERITAGE": [
+      "ASHGLASS_ENCLAVE",
+      "WARD_SCHOOL_ROW"
+    ]
+  },
+  "qualityModel": {
+    "forbiddenRarityLabels": [
+      "COMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY"
+    ],
+    "scoutingProfiles": [
+      "READY_NOW",
+      "STEADY",
+      "SPECIALIST",
+      "GENERALIST",
+      "NATURAL_LEADER",
+      "FRAGILE_PRODIGY",
+      "UNUSUAL_HYBRID",
+      "HARD_TO_READ",
+      "LATE_BLOOMER",
+      "UNPREDICTABLE"
+    ],
+    "exactPotentialNeverDisplayed": true,
+    "proceduralCeilingMayExceedSignature": true
+  },
+  "compatibilityRules": {
+    "backgroundAllowedRaceIds": "enforced",
+    "traitIncompatibilities": "enforced",
+    "classSelectionUsesBackgroundTags": true,
+    "visualRaceSockets": "enforced",
+    "nameTablesRemainRaceSpecific": true,
+    "hiddenTraitNeverInNormalScoutView": true
+  },
+  "classStatProfiles": {
+    "CLASS_GUARDIAN": {
+      "HP": [
+        102,
+        118
+      ],
+      "STR": [
+        88,
+        108
+      ],
+      "DEF": [
+        106,
+        124
+      ],
+      "AGI": [
+        78,
+        100
+      ],
+      "MAGIC": [
+        55,
+        88
+      ],
+      "WILL": [
+        92,
+        112
+      ]
+    },
+    "CLASS_WARRIOR": {
+      "HP": [
+        104,
+        124
+      ],
+      "STR": [
+        104,
+        128
+      ],
+      "DEF": [
+        84,
+        108
+      ],
+      "AGI": [
+        82,
+        108
+      ],
+      "MAGIC": [
+        45,
+        78
+      ],
+      "WILL": [
+        84,
+        110
+      ]
+    },
+    "CLASS_PRIEST": {
+      "HP": [
+        78,
+        100
+      ],
+      "STR": [
+        48,
+        78
+      ],
+      "DEF": [
+        64,
+        92
+      ],
+      "AGI": [
+        78,
+        104
+      ],
+      "MAGIC": [
+        106,
+        132
+      ],
+      "WILL": [
+        106,
+        130
+      ]
+    },
+    "CLASS_MAGE": {
+      "HP": [
+        70,
+        94
+      ],
+      "STR": [
+        42,
+        72
+      ],
+      "DEF": [
+        58,
+        86
+      ],
+      "AGI": [
+        82,
+        110
+      ],
+      "MAGIC": [
+        112,
+        140
+      ],
+      "WILL": [
+        92,
+        120
+      ]
+    },
+    "CLASS_RANGER": {
+      "HP": [
+        82,
+        106
+      ],
+      "STR": [
+        72,
+        102
+      ],
+      "DEF": [
+        68,
+        96
+      ],
+      "AGI": [
+        108,
+        132
+      ],
+      "MAGIC": [
+        58,
+        94
+      ],
+      "WILL": [
+        88,
+        116
+      ]
+    },
+    "CLASS_ROGUE": {
+      "HP": [
+        72,
+        98
+      ],
+      "STR": [
+        74,
+        104
+      ],
+      "DEF": [
+        58,
+        88
+      ],
+      "AGI": [
+        116,
+        140
+      ],
+      "MAGIC": [
+        62,
+        104
+      ],
+      "WILL": [
+        84,
+        114
+      ]
+    }
+  },
+  "equipmentTemplates": {
+    "LOADOUT_TEMPLATE_GUARDIAN": {
+      "main": {
+        "itemDefinitionId": "EQ_PROC_GATE_SPEAR",
+        "tags": [
+          "WEAPON",
+          "SPEAR",
+          "REACH"
+        ]
+      },
+      "off": {
+        "itemDefinitionId": "EQ_PROC_WOOD_SHIELD",
+        "tags": [
+          "OFFHAND",
+          "SHIELD"
+        ]
+      },
+      "body": {
+        "itemDefinitionId": "EQ_PROC_PADDED_GUARD",
+        "tags": [
+          "ARMOR",
+          "MEDIUM"
+        ]
+      },
+      "accessories": [
+        "EQ_PROC_STEADY_CHARM",
+        "EQ_PROC_CLOTH_WRAP"
+      ]
+    },
+    "LOADOUT_TEMPLATE_WARRIOR": {
+      "main": {
+        "itemDefinitionId": "EQ_PROC_IRON_AXE",
+        "tags": [
+          "WEAPON",
+          "GREAT_AXE",
+          "HEAVY"
+        ]
+      },
+      "off": null,
+      "body": {
+        "itemDefinitionId": "EQ_PROC_WORK_PLATE",
+        "tags": [
+          "ARMOR",
+          "HEAVY"
+        ]
+      },
+      "accessories": [
+        "EQ_PROC_GRIP_WRAP",
+        "EQ_PROC_LUCK_TOKEN"
+      ]
+    },
+    "LOADOUT_TEMPLATE_PRIEST": {
+      "main": {
+        "itemDefinitionId": "EQ_PROC_ASH_STAFF",
+        "tags": [
+          "WEAPON",
+          "STAFF",
+          "FOCUS"
+        ]
+      },
+      "off": {
+        "itemDefinitionId": "EQ_PROC_REMEDY_KIT",
+        "tags": [
+          "OFFHAND",
+          "REMEDY_KIT"
+        ]
+      },
+      "body": {
+        "itemDefinitionId": "EQ_PROC_HEALER_ROBES",
+        "tags": [
+          "ARMOR",
+          "LIGHT",
+          "HEALING"
+        ]
+      },
+      "accessories": [
+        "EQ_PROC_CLEAN_THREAD",
+        "EQ_PROC_WATER_VIAL"
+      ]
+    },
+    "LOADOUT_TEMPLATE_MAGE": {
+      "main": {
+        "itemDefinitionId": "EQ_PROC_RUNE_WAND",
+        "tags": [
+          "WEAPON",
+          "WAND",
+          "FOCUS_TOOL"
+        ]
+      },
+      "off": {
+        "itemDefinitionId": "EQ_PROC_CHALK_FRAME",
+        "tags": [
+          "OFFHAND",
+          "FOCUS_TOOL"
+        ]
+      },
+      "body": {
+        "itemDefinitionId": "EQ_PROC_APPRENTICE_COAT",
+        "tags": [
+          "ARMOR",
+          "LIGHT",
+          "MYSTIC"
+        ]
+      },
+      "accessories": [
+        "EQ_PROC_FOCUS_BEAD",
+        "EQ_PROC_INK_GLOVE"
+      ]
+    },
+    "LOADOUT_TEMPLATE_RANGER": {
+      "main": {
+        "itemDefinitionId": "EQ_PROC_SHORTBOW",
+        "tags": [
+          "WEAPON",
+          "BOW",
+          "SHORTBOW"
+        ]
+      },
+      "off": {
+        "itemDefinitionId": "EQ_PROC_TRAIL_KIT",
+        "tags": [
+          "OFFHAND",
+          "TOOL"
+        ]
+      },
+      "body": {
+        "itemDefinitionId": "EQ_PROC_SCOUT_LEATHERS",
+        "tags": [
+          "ARMOR",
+          "LIGHT",
+          "WEATHER"
+        ]
+      },
+      "accessories": [
+        "EQ_PROC_ROUTE_CHARM",
+        "EQ_PROC_WAXED_STRING"
+      ]
+    },
+    "LOADOUT_TEMPLATE_ROGUE": {
+      "main": {
+        "itemDefinitionId": "EQ_PROC_TWIN_KNIVES",
+        "tags": [
+          "WEAPON",
+          "DAGGER",
+          "TWIN"
+        ]
+      },
+      "off": {
+        "itemDefinitionId": "EQ_PROC_SMOKE_CASE",
+        "tags": [
+          "OFFHAND",
+          "FOCUS",
+          "SCOUTING"
+        ]
+      },
+      "body": {
+        "itemDefinitionId": "EQ_PROC_DUSK_CLOTH",
+        "tags": [
+          "ARMOR",
+          "LIGHT",
+          "STEALTH"
+        ]
+      },
+      "accessories": [
+        "EQ_PROC_SOFT_BOOTS",
+        "EQ_PROC_DARK_LENS"
+      ]
+    },
+    "LOADOUT_TEMPLATE_WARDBLADE": {
+      "main": {
+        "itemDefinitionId": "EQ_PROC_WARD_SABER",
+        "tags": [
+          "WEAPON",
+          "SWORD",
+          "ARCANE_CONDUCTOR"
+        ]
+      },
+      "off": {
+        "itemDefinitionId": "EQ_PROC_WARD_BUCKLER",
+        "tags": [
+          "OFFHAND",
+          "WARD_BUCKLER",
+          "FOCUS",
+          "SHIELD"
+        ]
+      },
+      "body": {
+        "itemDefinitionId": "EQ_PROC_WARD_COAT",
+        "tags": [
+          "ARMOR",
+          "MEDIUM",
+          "MAGIC_RESIST"
+        ]
+      },
+      "accessories": [
+        "EQ_PROC_WARD_CHAIN",
+        "EQ_PROC_COOLING_STONE"
+      ]
+    },
+    "LOADOUT_TEMPLATE_TRAIL_MEDIC": {
+      "main": {
+        "itemDefinitionId": "EQ_PROC_TRAIL_BOW",
+        "tags": [
+          "WEAPON",
+          "BOW",
+          "SHORTBOW"
+        ]
+      },
+      "off": {
+        "itemDefinitionId": "EQ_PROC_TONIC_SATCHEL",
+        "tags": [
+          "OFFHAND",
+          "REMEDY_KIT",
+          "ALCHEMY"
+        ]
+      },
+      "body": {
+        "itemDefinitionId": "EQ_PROC_TRAIL_LEATHERS",
+        "tags": [
+          "ARMOR",
+          "LIGHT",
+          "WEATHER"
+        ]
+      },
+      "accessories": [
+        "EQ_PROC_HERB_TAG",
+        "EQ_PROC_SCENT_CLOTH"
+      ]
+    },
+    "LOADOUT_TEMPLATE_SIGNALER": {
+      "main": {
+        "itemDefinitionId": "EQ_PROC_SIGNAL_HORN",
+        "tags": [
+          "WEAPON",
+          "SIGNAL_HORN",
+          "FOCUS",
+          "COMMAND"
+        ]
+      },
+      "off": {
+        "itemDefinitionId": "EQ_PROC_SIGNAL_BATON",
+        "tags": [
+          "OFFHAND",
+          "SIGNAL_KIT"
+        ]
+      },
+      "body": {
+        "itemDefinitionId": "EQ_PROC_SIGNAL_COAT",
+        "tags": [
+          "ARMOR",
+          "LIGHT",
+          "SUPPORT"
+        ]
+      },
+      "accessories": [
+        "EQ_PROC_REED",
+        "EQ_PROC_ROUTE_FLAG"
+      ]
+    },
+    "LOADOUT_TEMPLATE_PORTER": {
+      "main": {
+        "itemDefinitionId": "EQ_PROC_HOOKSTAFF",
+        "tags": [
+          "WEAPON",
+          "POLEARM",
+          "TOOL"
+        ]
+      },
+      "off": {
+        "itemDefinitionId": "EQ_PROC_CARGO_BRACE",
+        "tags": [
+          "OFFHAND",
+          "BRACE",
+          "SHIELD_COMPATIBLE"
+        ]
+      },
+      "body": {
+        "itemDefinitionId": "EQ_PROC_LOAD_HARNESS",
+        "tags": [
+          "ARMOR",
+          "MEDIUM",
+          "LOAD_BEARING"
+        ]
+      },
+      "accessories": [
+        "EQ_PROC_ROPE",
+        "EQ_PROC_FREIGHT_TAG"
+      ]
+    },
+    "LOADOUT_TEMPLATE_DUSK_SCOUT": {
+      "main": {
+        "itemDefinitionId": "EQ_PROC_MEMORY_DAGGERS",
+        "tags": [
+          "WEAPON",
+          "DAGGER",
+          "TWIN",
+          "MEMORY"
+        ]
+      },
+      "off": {
+        "itemDefinitionId": "EQ_PROC_MEMORY_LENS",
+        "tags": [
+          "OFFHAND",
+          "FOCUS",
+          "SCOUTING"
+        ]
+      },
+      "body": {
+        "itemDefinitionId": "EQ_PROC_RECORD_COAT",
+        "tags": [
+          "ARMOR",
+          "LIGHT",
+          "STEALTH"
+        ]
+      },
+      "accessories": [
+        "EQ_PROC_CREDENTIAL",
+        "EQ_PROC_INK_THREAD"
+      ]
+    },
+    "LOADOUT_TEMPLATE_GENERALIST": {
+      "main": {
+        "itemDefinitionId": "EQ_PROC_TRAVEL_SPEAR",
+        "tags": [
+          "WEAPON",
+          "SPEAR"
+        ]
+      },
+      "off": {
+        "itemDefinitionId": "EQ_PROC_TRAVEL_KIT",
+        "tags": [
+          "OFFHAND",
+          "TOOL"
+        ]
+      },
+      "body": {
+        "itemDefinitionId": "EQ_PROC_TRAVEL_COAT",
+        "tags": [
+          "ARMOR",
+          "LIGHT",
+          "WEATHER"
+        ]
+      },
+      "accessories": [
+        "EQ_PROC_MAP",
+        "EQ_PROC_CANTEEN"
+      ]
+    }
+  }
+}

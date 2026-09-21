@@ -1,0 +1,626 @@
+{
+  "contentVersion": "GUILD_CITY_017E_1.0",
+  "boards": [
+    {
+      "id": "BOARD_BELL_BENEATH_GATE",
+      "displayName": "Lantern Road to the Old Gatehouse",
+      "startNodeId": "N00",
+      "objectiveNodeId": "N13",
+      "exitNodeId": "N14",
+      "startingSupplies": 12,
+      "startingUrgency": 14,
+      "nodes": [
+        {
+          "id": "N00",
+          "kind": "START",
+          "links": [
+            "N01"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 0,
+          "fatigueCost": 0,
+          "urgencyCost": 0
+        },
+        {
+          "id": "N01",
+          "kind": "FORK",
+          "links": [
+            "N02",
+            "N04"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N02",
+          "kind": "EVENT",
+          "links": [
+            "N03"
+          ],
+          "eventId": "EVENT_INJURED_COURIER",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N03",
+          "kind": "SCOUTING",
+          "links": [
+            "N06"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N04",
+          "kind": "SKILL_CHECK",
+          "links": [
+            "N05"
+          ],
+          "eventId": "EVENT_COLLAPSED_HANDRAIL",
+          "checkSkillId": "Engineering",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N05",
+          "kind": "RESOURCE",
+          "links": [
+            "N06"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N06",
+          "kind": "ENCOUNTER",
+          "links": [
+            "N07",
+            "N08"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "ENCOUNTER_GATE_GNAWER_STANDARD",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N07",
+          "kind": "CAMP",
+          "links": [
+            "N10"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 0,
+          "fatigueCost": 0,
+          "urgencyCost": 0
+        },
+        {
+          "id": "N08",
+          "kind": "EVENT",
+          "links": [
+            "N09"
+          ],
+          "eventId": "EVENT_UNSTABLE_BELL_CHAIN",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N09",
+          "kind": "OPTIONAL_ELITE",
+          "links": [
+            "N10"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "ENCOUNTER_GATE_GNAWER_ELITE",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N10",
+          "kind": "SKILL_CHECK",
+          "links": [
+            "N11",
+            "N12"
+          ],
+          "eventId": "EVENT_TRAPPED_FOREMAN",
+          "checkSkillId": "Medicine",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N11",
+          "kind": "SECONDARY_OBJECTIVE",
+          "links": [
+            "N13"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N12",
+          "kind": "SAFE_ROUTE",
+          "links": [
+            "N13"
+          ],
+          "eventId": "EVENT_GARA_WOUNDED_LANTERN_PASSAGE",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N13",
+          "kind": "MAIN_OBJECTIVE",
+          "links": [
+            "N14"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "ENCOUNTER_GATE_GNAWER_RESCUE",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N14",
+          "kind": "EXIT",
+          "links": [],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 0,
+          "fatigueCost": 0,
+          "urgencyCost": 0
+        }
+      ]
+    },
+    {
+      "id": "BOARD_LINES_NOT_RETURNED",
+      "displayName": "Wayglass Route to the Door Inside",
+      "startNodeId": "N00",
+      "objectiveNodeId": "N13",
+      "exitNodeId": "N14",
+      "startingSupplies": 11,
+      "startingUrgency": 12,
+      "nodes": [
+        {
+          "id": "N00",
+          "kind": "EVENT",
+          "links": [
+            "N01"
+          ],
+          "eventId": "EVENT_FOUND_APPRENTICE",
+          "checkSkillId": "Diplomacy",
+          "encounterId": "",
+          "supplyCost": 0,
+          "fatigueCost": 0,
+          "urgencyCost": 0
+        },
+        {
+          "id": "N01",
+          "kind": "FORK",
+          "links": [
+            "N02",
+            "N04"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N02",
+          "kind": "EVENT",
+          "links": [
+            "N03"
+          ],
+          "eventId": "EVENT_WRONG_ROUTE_MARKS",
+          "checkSkillId": "Perception",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N03",
+          "kind": "SCOUTING",
+          "links": [
+            "N06"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N04",
+          "kind": "SKILL_CHECK",
+          "links": [
+            "N05"
+          ],
+          "eventId": "EVENT_BROKEN_SURVEY_BRIDGE",
+          "checkSkillId": "Survival",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N05",
+          "kind": "RESOURCE",
+          "links": [
+            "N06"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N06",
+          "kind": "ENCOUNTER",
+          "links": [
+            "N07"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "ENCOUNTER_FOG_STALKERS_STANDARD",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N07",
+          "kind": "CAMP",
+          "links": [
+            "N08"
+          ],
+          "eventId": "EVENT_CAMP_ARGUMENT",
+          "checkSkillId": "Resolve",
+          "encounterId": "",
+          "supplyCost": 0,
+          "fatigueCost": 0,
+          "urgencyCost": 0
+        },
+        {
+          "id": "N08",
+          "kind": "EVENT",
+          "links": [
+            "N09",
+            "N10"
+          ],
+          "eventId": "EVENT_FOG_ECHO",
+          "checkSkillId": "Resolve",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N09",
+          "kind": "OPTIONAL_ELITE",
+          "links": [
+            "N10"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "ENCOUNTER_ROUTE_MUTILATOR_ELITE",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N10",
+          "kind": "SKILL_CHECK",
+          "links": [
+            "N11",
+            "N12"
+          ],
+          "eventId": "EVENT_BROKEN_ASTROLABE",
+          "checkSkillId": "Lore",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N11",
+          "kind": "SECONDARY_OBJECTIVE",
+          "links": [
+            "N13"
+          ],
+          "eventId": "EVENT_ABANDONED_SURVEY_PACK",
+          "checkSkillId": "Perception",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N12",
+          "kind": "SAFE_ROUTE",
+          "links": [
+            "N13"
+          ],
+          "eventId": "EVENT_GARA_SURVEY_CREW_DESCENT",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N13",
+          "kind": "MAIN_OBJECTIVE",
+          "links": [
+            "N14"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "ENCOUNTER_SURVEYOR_RESCUE",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N14",
+          "kind": "EXIT",
+          "links": [],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 0,
+          "fatigueCost": 0,
+          "urgencyCost": 0
+        }
+      ]
+    },
+    {
+      "id": "BOARD_RELIEF_ROAD",
+      "displayName": "Relief Convoy Through Broken Roadworks",
+      "startNodeId": "N00",
+      "objectiveNodeId": "N13",
+      "exitNodeId": "N14",
+      "startingSupplies": 14,
+      "startingUrgency": 16,
+      "nodes": [
+        {
+          "id": "N00",
+          "kind": "START",
+          "links": [
+            "N01"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 0,
+          "fatigueCost": 0,
+          "urgencyCost": 0
+        },
+        {
+          "id": "N01",
+          "kind": "FORK",
+          "links": [
+            "N02",
+            "N04"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N02",
+          "kind": "EVENT",
+          "links": [
+            "N03"
+          ],
+          "eventId": "EVENT_DAMAGED_WAGON",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N03",
+          "kind": "SCOUTING",
+          "links": [
+            "N06"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N04",
+          "kind": "SKILL_CHECK",
+          "links": [
+            "N05"
+          ],
+          "eventId": "EVENT_BLOCKED_CULVERT",
+          "checkSkillId": "Engineering",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N05",
+          "kind": "RESOURCE",
+          "links": [
+            "N06"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N06",
+          "kind": "ENCOUNTER",
+          "links": [
+            "N07"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "ENCOUNTER_RELIEF_AMBUSH_STANDARD",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N07",
+          "kind": "CAMP",
+          "links": [
+            "N08"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 0,
+          "fatigueCost": 0,
+          "urgencyCost": 0
+        },
+        {
+          "id": "N08",
+          "kind": "EVENT",
+          "links": [
+            "N09",
+            "N10"
+          ],
+          "eventId": "EVENT_STOLEN_MEDICINE_CRATE",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N09",
+          "kind": "OPTIONAL_ELITE",
+          "links": [
+            "N10"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "ENCOUNTER_AMBUSH_NEST_ELITE",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N10",
+          "kind": "SKILL_CHECK",
+          "links": [
+            "N11",
+            "N12"
+          ],
+          "eventId": "EVENT_PANICKED_DRAFT_BEASTS",
+          "checkSkillId": "Command",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N11",
+          "kind": "SECONDARY_OBJECTIVE",
+          "links": [
+            "N13"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N12",
+          "kind": "SAFE_ROUTE",
+          "links": [
+            "N13"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N13",
+          "kind": "MAIN_OBJECTIVE",
+          "links": [
+            "N14"
+          ],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "ENCOUNTER_CONVOY_DEFENSE",
+          "supplyCost": 1,
+          "fatigueCost": 1,
+          "urgencyCost": 1
+        },
+        {
+          "id": "N14",
+          "kind": "EXIT",
+          "links": [],
+          "eventId": "",
+          "checkSkillId": "",
+          "encounterId": "",
+          "supplyCost": 0,
+          "fatigueCost": 0,
+          "urgencyCost": 0
+        }
+      ]
+    }
+  ]
+}

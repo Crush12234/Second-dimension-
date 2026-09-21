@@ -1,0 +1,856 @@
+{
+  "schema": "SD_R43_TITAN_CHARACTER_BLUEPRINTS_V1",
+  "status": "AUTHORED_CANDIDATE_NOT_NATIVE_STATS_OR_BALANCE_PROOF",
+  "authorship": "R43 original design choices; source evidence identifies existing schema/tags only",
+  "stat_model": {
+    "fields": [
+      "hp",
+      "mp",
+      "attack",
+      "magic",
+      "defense",
+      "resistance",
+      "agility"
+    ],
+    "sum": 100,
+    "provenance": "reference_sources/ORIGINAL_SSS_TEN.json uses this same seven-field 100-point allocation convention",
+    "not_live_values": true,
+    "normalization_is_not_cross_stat_power_parity": true
+  },
+  "characters": [
+    {
+      "logical_hero_id": "HERO_TITAN_001",
+      "display_name": "Torren Gatebreaker",
+      "rarity": "SSS",
+      "source_definition_path": "continuation_r26/TITAN_SSS_HEROES.json",
+      "design_status": "AUTHORED_CANDIDATE_NATIVE_BINDINGS_NOT_APPROVED",
+      "weapon_family": "Hammer",
+      "battle_role": "physical finisher",
+      "stat_allocation_weights": {
+        "hp": 21,
+        "mp": 8,
+        "attack": 25,
+        "magic": 5,
+        "defense": 19,
+        "resistance": 11,
+        "agility": 11
+      },
+      "level_growth_allocation": "SAME_RELATIVE_WEIGHTS_USING_NATIVE_CLASS_SCALE",
+      "total_budget_policy": "Current comparable role/rarity budget; do not add extra total stats merely because this is a Titan reward",
+      "tree_bindings": [
+        {
+          "source_tag": "HAMMER",
+          "source_example_recruit": "SIGREC_ORREN_CLAY",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        },
+        {
+          "source_tag": "WARDING",
+          "source_example_recruit": "SIGREC_MAREN_HOLT",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        }
+      ],
+      "gold": {
+        "logical_art_id": "GOLD_TITAN_001",
+        "name": "Worldsplitter",
+        "effect_family": "physical_strike",
+        "target_scope": "ONE_ENEMY_UNION",
+        "rank_one_budget_bp": 22000,
+        "budget_basis": "Native verified ordinary same-role same-target damage/heal/barrier budget for this hero; one combined budget before existing Titan rank scaling",
+        "revive_budget_special_case": null,
+        "cost_policy": "Use current comparable gold/Invocation cost once; do not charge through both branches",
+        "native_cost": null,
+        "native_effect_handler": null,
+        "bounded_rules": [
+          "short armor break remains fixed; requires existing status handler"
+        ],
+        "use_policy": "EXISTING_R37_PERSONAL_ONCE_PER_ENCOUNTER_CANDIDATE",
+        "requires_leader": false,
+        "preserve_existing_rank_coefficients": true
+      },
+      "core_loop_identity": "Catch-up and paid levels apply normal hero XP; ascension uses native copies; gold/echo history earned separately",
+      "native_binding_ready": false,
+      "enabled_in_game": false,
+      "art_status": "NEW_HERO_ART_STILL_REQUIRED",
+      "art": {
+        "portrait": null,
+        "idle": null,
+        "attack": null,
+        "gold_vfx": null,
+        "status": "AUTHORING_REQUIRED_NEW_IDENTITY_NOT_OLD_ROSTER_REPLACEMENT",
+        "visual_brief": "Broad armored dwarf; split stone hammer, bronze cracks, compact unmistakable silhouette."
+      }
+    },
+    {
+      "logical_hero_id": "HERO_TITAN_002",
+      "display_name": "Avelis Dawnguard",
+      "rarity": "SSS",
+      "source_definition_path": "continuation_r26/TITAN_SSS_HEROES.json",
+      "design_status": "AUTHORED_CANDIDATE_NATIVE_BINDINGS_NOT_APPROVED",
+      "weapon_family": "Shield",
+      "battle_role": "guard specialist",
+      "stat_allocation_weights": {
+        "hp": 26,
+        "mp": 12,
+        "attack": 9,
+        "magic": 8,
+        "defense": 23,
+        "resistance": 17,
+        "agility": 5
+      },
+      "level_growth_allocation": "SAME_RELATIVE_WEIGHTS_USING_NATIVE_CLASS_SCALE",
+      "total_budget_policy": "Current comparable role/rarity budget; do not add extra total stats merely because this is a Titan reward",
+      "tree_bindings": [
+        {
+          "source_tag": "GUARD",
+          "source_example_recruit": "SIGREC_MAREN_HOLT",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        },
+        {
+          "source_tag": "WARDING",
+          "source_example_recruit": "SIGREC_MAREN_HOLT",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        }
+      ],
+      "gold": {
+        "logical_art_id": "GOLD_TITAN_002",
+        "name": "Dawnwall Covenant",
+        "effect_family": "barrier",
+        "target_scope": "ONE_ALLIED_UNION",
+        "rank_one_budget_bp": 21000,
+        "budget_basis": "Native verified ordinary same-role same-target damage/heal/barrier budget for this hero; one combined budget before existing Titan rank scaling",
+        "revive_budget_special_case": null,
+        "cost_policy": "Use current comparable gold/Invocation cost once; do not charge through both branches",
+        "native_cost": null,
+        "native_effect_handler": null,
+        "bounded_rules": [
+          "barrier replaces weaker same-source barrier; no immunity or stacked duration"
+        ],
+        "use_policy": "EXISTING_R37_PERSONAL_ONCE_PER_ENCOUNTER_CANDIDATE",
+        "requires_leader": false,
+        "preserve_existing_rank_coefficients": true
+      },
+      "core_loop_identity": "Catch-up and paid levels apply normal hero XP; ascension uses native copies; gold/echo history earned separately",
+      "native_binding_ready": false,
+      "enabled_in_game": false,
+      "art_status": "NEW_HERO_ART_STILL_REQUIRED",
+      "art": {
+        "portrait": null,
+        "idle": null,
+        "attack": null,
+        "gold_vfx": null,
+        "status": "AUTHORING_REQUIRED_NEW_IDENTITY_NOT_OLD_ROSTER_REPLACEMENT",
+        "visual_brief": "Human shieldbearer; wing-shaped tower shield, white-gold tabard, sunlit mail."
+      }
+    },
+    {
+      "logical_hero_id": "HERO_TITAN_003",
+      "display_name": "Nymara Tideweaver",
+      "rarity": "SSS",
+      "source_definition_path": "continuation_r26/TITAN_SSS_HEROES.json",
+      "design_status": "AUTHORED_CANDIDATE_NATIVE_BINDINGS_NOT_APPROVED",
+      "weapon_family": "Staff",
+      "battle_role": "healing/cleanse",
+      "stat_allocation_weights": {
+        "hp": 16,
+        "mp": 23,
+        "attack": 5,
+        "magic": 25,
+        "defense": 8,
+        "resistance": 17,
+        "agility": 6
+      },
+      "level_growth_allocation": "SAME_RELATIVE_WEIGHTS_USING_NATIVE_CLASS_SCALE",
+      "total_budget_policy": "Current comparable role/rarity budget; do not add extra total stats merely because this is a Titan reward",
+      "tree_bindings": [
+        {
+          "source_tag": "RESTORATION",
+          "source_example_recruit": "HERO_REC_018",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        },
+        {
+          "source_tag": "MYSTIC_WATER",
+          "source_example_recruit": "HERO_REC_104",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        }
+      ],
+      "gold": {
+        "logical_art_id": "GOLD_TITAN_003",
+        "name": "Ocean of Renewal",
+        "effect_family": "heal",
+        "target_scope": "ONE_ALLIED_UNION",
+        "rank_one_budget_bp": 19000,
+        "budget_basis": "Native verified ordinary same-role same-target damage/heal/barrier budget for this hero; one combined budget before existing Titan rank scaling",
+        "revive_budget_special_case": null,
+        "cost_policy": "Use current comparable gold/Invocation cost once; do not charge through both branches",
+        "native_cost": null,
+        "native_effect_handler": null,
+        "bounded_rules": [
+          "one removable negative status only; no protected story/status cleansing"
+        ],
+        "use_policy": "EXISTING_R37_PERSONAL_ONCE_PER_ENCOUNTER_CANDIDATE",
+        "requires_leader": false,
+        "preserve_existing_rank_coefficients": true
+      },
+      "core_loop_identity": "Catch-up and paid levels apply normal hero XP; ascension uses native copies; gold/echo history earned separately",
+      "native_binding_ready": false,
+      "enabled_in_game": false,
+      "art_status": "NEW_HERO_ART_STILL_REQUIRED",
+      "art": {
+        "portrait": null,
+        "idle": null,
+        "attack": null,
+        "gold_vfx": null,
+        "status": "AUTHORING_REQUIRED_NEW_IDENTITY_NOT_OLD_ROSTER_REPLACEMENT",
+        "visual_brief": "Elven healer; flowing teal cloak, pearl staff, tidal ribbons; no near-copy of existing SSS healer."
+      }
+    },
+    {
+      "logical_hero_id": "HERO_TITAN_004",
+      "display_name": "Zareth Stormfang",
+      "rarity": "SSS",
+      "source_definition_path": "continuation_r26/TITAN_SSS_HEROES.json",
+      "design_status": "AUTHORED_CANDIDATE_NATIVE_BINDINGS_NOT_APPROVED",
+      "weapon_family": "Spear",
+      "battle_role": "hybrid single-target",
+      "stat_allocation_weights": {
+        "hp": 16,
+        "mp": 16,
+        "attack": 20,
+        "magic": 22,
+        "defense": 10,
+        "resistance": 8,
+        "agility": 8
+      },
+      "level_growth_allocation": "SAME_RELATIVE_WEIGHTS_USING_NATIVE_CLASS_SCALE",
+      "total_budget_policy": "Current comparable role/rarity budget; do not add extra total stats merely because this is a Titan reward",
+      "tree_bindings": [
+        {
+          "source_tag": "SPEAR",
+          "source_example_recruit": "SIGREC_MAREN_HOLT",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        },
+        {
+          "source_tag": "MYSTIC_STORM",
+          "source_example_recruit": "HERO_REC_013",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        }
+      ],
+      "gold": {
+        "logical_art_id": "GOLD_TITAN_004",
+        "name": "Heavenrend Spear",
+        "effect_family": "hybrid_strike",
+        "target_scope": "ONE_ENEMY_UNION",
+        "rank_one_budget_bp": 21000,
+        "budget_basis": "Native verified ordinary same-role same-target damage/heal/barrier budget for this hero; one combined budget before existing Titan rank scaling",
+        "revive_budget_special_case": null,
+        "cost_policy": "Use current comparable gold/Invocation cost once; do not charge through both branches",
+        "native_cost": null,
+        "native_effect_handler": null,
+        "bounded_rules": [
+          "one shared total damage budget; physical/mystic split uses native hybrid resolver"
+        ],
+        "use_policy": "EXISTING_R37_PERSONAL_ONCE_PER_ENCOUNTER_CANDIDATE",
+        "requires_leader": false,
+        "preserve_existing_rank_coefficients": true
+      },
+      "core_loop_identity": "Catch-up and paid levels apply normal hero XP; ascension uses native copies; gold/echo history earned separately",
+      "native_binding_ready": false,
+      "enabled_in_game": false,
+      "art_status": "NEW_HERO_ART_STILL_REQUIRED",
+      "art": {
+        "portrait": null,
+        "idle": null,
+        "attack": null,
+        "gold_vfx": null,
+        "status": "AUTHORING_REQUIRED_NEW_IDENTITY_NOT_OLD_ROSTER_REPLACEMENT",
+        "visual_brief": "Beastkin lancer; forked spear, swept mane, cobalt armor, controlled lightning."
+      }
+    },
+    {
+      "logical_hero_id": "HERO_TITAN_005",
+      "display_name": "Malrec Oathbound",
+      "rarity": "SSS",
+      "source_definition_path": "continuation_r26/TITAN_SSS_HEROES.json",
+      "design_status": "AUTHORED_CANDIDATE_NATIVE_BINDINGS_NOT_APPROVED",
+      "weapon_family": "Staff",
+      "battle_role": "revive support",
+      "stat_allocation_weights": {
+        "hp": 22,
+        "mp": 20,
+        "attack": 8,
+        "magic": 18,
+        "defense": 15,
+        "resistance": 13,
+        "agility": 4
+      },
+      "level_growth_allocation": "SAME_RELATIVE_WEIGHTS_USING_NATIVE_CLASS_SCALE",
+      "total_budget_policy": "Current comparable role/rarity budget; do not add extra total stats merely because this is a Titan reward",
+      "tree_bindings": [
+        {
+          "source_tag": "RESTORATION",
+          "source_example_recruit": "HERO_REC_018",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        },
+        {
+          "source_tag": "WARDING",
+          "source_example_recruit": "SIGREC_MAREN_HOLT",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        }
+      ],
+      "gold": {
+        "logical_art_id": "GOLD_TITAN_005",
+        "name": "Last Dawn",
+        "effect_family": "revive",
+        "target_scope": "ONE_FALLEN_ALLY",
+        "rank_one_budget_bp": 10000,
+        "budget_basis": "Native verified ordinary same-role same-target damage/heal/barrier budget for this hero; one combined budget before existing Titan rank scaling",
+        "revive_budget_special_case": "Native legal one-ally revival amount; any protection must share its explicitly authored budget",
+        "cost_policy": "Use current comparable gold/Invocation cost once; do not charge through both branches",
+        "native_cost": null,
+        "native_effect_handler": null,
+        "bounded_rules": [
+          "one resurrection; restored HP capped by actual maximum; no extra resurrection from ranks"
+        ],
+        "use_policy": "EXISTING_R37_PERSONAL_ONCE_PER_ENCOUNTER_CANDIDATE",
+        "requires_leader": false,
+        "preserve_existing_rank_coefficients": true
+      },
+      "core_loop_identity": "Catch-up and paid levels apply normal hero XP; ascension uses native copies; gold/echo history earned separately",
+      "native_binding_ready": false,
+      "enabled_in_game": false,
+      "art_status": "NEW_HERO_ART_STILL_REQUIRED",
+      "art": {
+        "portrait": null,
+        "idle": null,
+        "attack": null,
+        "gold_vfx": null,
+        "status": "AUTHORING_REQUIRED_NEW_IDENTITY_NOT_OLD_ROSTER_REPLACEMENT",
+        "visual_brief": "Dark armored paladin; cracked halo motif, staff-sword, ember-gold light; no undead identity assumption."
+      },
+      "consistency_decision": "The staff-sword visual is treated as a ritual staff family for this draft; use one compatible weapon family, never duplicate equipment slots."
+    },
+    {
+      "logical_hero_id": "HERO_TITAN_006",
+      "display_name": "Dorran Ashforge",
+      "rarity": "SSS",
+      "source_definition_path": "continuation_r26/TITAN_SSS_HEROES.json",
+      "design_status": "AUTHORED_CANDIDATE_NATIVE_BINDINGS_NOT_APPROVED",
+      "weapon_family": "Axe",
+      "battle_role": "threat bruiser",
+      "stat_allocation_weights": {
+        "hp": 23,
+        "mp": 9,
+        "attack": 25,
+        "magic": 8,
+        "defense": 20,
+        "resistance": 9,
+        "agility": 6
+      },
+      "level_growth_allocation": "SAME_RELATIVE_WEIGHTS_USING_NATIVE_CLASS_SCALE",
+      "total_budget_policy": "Current comparable role/rarity budget; do not add extra total stats merely because this is a Titan reward",
+      "tree_bindings": [
+        {
+          "source_tag": "AXE",
+          "source_example_recruit": "SIGREC_BRAKKA_EMBERWALL",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        },
+        {
+          "source_tag": "MYSTIC_FLAME",
+          "source_example_recruit": "SIGREC_BRAKKA_EMBERWALL",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        }
+      ],
+      "gold": {
+        "logical_art_id": "GOLD_TITAN_006",
+        "name": "Heart of the Inferno",
+        "effect_family": "physical_strike",
+        "target_scope": "ONE_ENEMY_UNION",
+        "rank_one_budget_bp": 19000,
+        "budget_basis": "Native verified ordinary same-role same-target damage/heal/barrier budget for this hero; one combined budget before existing Titan rank scaling",
+        "revive_budget_special_case": null,
+        "cost_policy": "Use current comparable gold/Invocation cost once; do not charge through both branches",
+        "native_cost": null,
+        "native_effect_handler": null,
+        "bounded_rules": [
+          "one-round normal threat/taunt only; does not force a boss to ignore its committed mechanic"
+        ],
+        "use_policy": "EXISTING_R37_PERSONAL_ONCE_PER_ENCOUNTER_CANDIDATE",
+        "requires_leader": false,
+        "preserve_existing_rank_coefficients": true
+      },
+      "core_loop_identity": "Catch-up and paid levels apply normal hero XP; ascension uses native copies; gold/echo history earned separately",
+      "native_binding_ready": false,
+      "enabled_in_game": false,
+      "art_status": "NEW_HERO_ART_STILL_REQUIRED",
+      "art": {
+        "portrait": null,
+        "idle": null,
+        "attack": null,
+        "gold_vfx": null,
+        "status": "AUTHORING_REQUIRED_NEW_IDENTITY_NOT_OLD_ROSTER_REPLACEMENT",
+        "visual_brief": "Stocky forge warrior; furnace-headed axe, black iron apron-plate, ember beard; silhouette distinct from Torren."
+      },
+      "consistency_decision": "Retain original Axe tree theme; replace conflicting maul in the unproduced brief with a furnace-headed axe. No existing image changed."
+    },
+    {
+      "logical_hero_id": "HERO_TITAN_007",
+      "display_name": "Vesha Moonclaw",
+      "rarity": "SSS",
+      "source_definition_path": "continuation_r26/TITAN_SSS_HEROES.json",
+      "design_status": "AUTHORED_CANDIDATE_NATIVE_BINDINGS_NOT_APPROVED",
+      "weapon_family": "Twin Blades",
+      "battle_role": "Union sweep",
+      "stat_allocation_weights": {
+        "hp": 14,
+        "mp": 9,
+        "attack": 29,
+        "magic": 7,
+        "defense": 9,
+        "resistance": 9,
+        "agility": 23
+      },
+      "level_growth_allocation": "SAME_RELATIVE_WEIGHTS_USING_NATIVE_CLASS_SCALE",
+      "total_budget_policy": "Current comparable role/rarity budget; do not add extra total stats merely because this is a Titan reward",
+      "tree_bindings": [
+        {
+          "source_tag": "DUAL_WEAPON",
+          "source_example_recruit": "HERO_REC_022",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        },
+        {
+          "source_tag": "STEALTH",
+          "source_example_recruit": "HERO_REC_017",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        }
+      ],
+      "gold": {
+        "logical_art_id": "GOLD_TITAN_007",
+        "name": "Eclipse Hunt",
+        "effect_family": "physical_strike",
+        "target_scope": "ONE_ENEMY_UNION",
+        "rank_one_budget_bp": 24000,
+        "budget_basis": "Native verified ordinary same-role same-target damage/heal/barrier budget for this hero; one combined budget before existing Titan rank scaling",
+        "revive_budget_special_case": null,
+        "cost_policy": "Use current comparable gold/Invocation cost once; do not charge through both branches",
+        "native_cost": null,
+        "native_effect_handler": null,
+        "bounded_rules": [
+          "one total sweep budget distributed once over legal members; no budget multiplied by member count"
+        ],
+        "use_policy": "EXISTING_R37_PERSONAL_ONCE_PER_ENCOUNTER_CANDIDATE",
+        "requires_leader": false,
+        "preserve_existing_rank_coefficients": true
+      },
+      "core_loop_identity": "Catch-up and paid levels apply normal hero XP; ascension uses native copies; gold/echo history earned separately",
+      "native_binding_ready": false,
+      "enabled_in_game": false,
+      "art_status": "NEW_HERO_ART_STILL_REQUIRED",
+      "art": {
+        "portrait": null,
+        "idle": null,
+        "attack": null,
+        "gold_vfx": null,
+        "status": "AUTHORING_REQUIRED_NEW_IDENTITY_NOT_OLD_ROSTER_REPLACEMENT",
+        "visual_brief": "Feline rogue; crescent blades, dark violet mantle, silver-gold claw accents."
+      }
+    },
+    {
+      "logical_hero_id": "HERO_TITAN_008",
+      "display_name": "Ilyra Frostveil",
+      "rarity": "SSS",
+      "source_definition_path": "continuation_r26/TITAN_SSS_HEROES.json",
+      "design_status": "AUTHORED_CANDIDATE_NATIVE_BINDINGS_NOT_APPROVED",
+      "weapon_family": "Focus",
+      "battle_role": "Mystic protection",
+      "stat_allocation_weights": {
+        "hp": 17,
+        "mp": 21,
+        "attack": 5,
+        "magic": 24,
+        "defense": 12,
+        "resistance": 17,
+        "agility": 4
+      },
+      "level_growth_allocation": "SAME_RELATIVE_WEIGHTS_USING_NATIVE_CLASS_SCALE",
+      "total_budget_policy": "Current comparable role/rarity budget; do not add extra total stats merely because this is a Titan reward",
+      "tree_bindings": [
+        {
+          "source_tag": "MYSTIC_FROST",
+          "source_example_recruit": "SIGREC_BRAKKA_EMBERWALL",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        },
+        {
+          "source_tag": "WARDING",
+          "source_example_recruit": "SIGREC_MAREN_HOLT",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        }
+      ],
+      "gold": {
+        "logical_art_id": "GOLD_TITAN_008",
+        "name": "Winter Ward",
+        "effect_family": "barrier",
+        "target_scope": "ONE_ALLIED_UNION",
+        "rank_one_budget_bp": 20000,
+        "budget_basis": "Native verified ordinary same-role same-target damage/heal/barrier budget for this hero; one combined budget before existing Titan rank scaling",
+        "revive_budget_special_case": null,
+        "cost_policy": "Use current comparable gold/Invocation cost once; do not charge through both branches",
+        "native_cost": null,
+        "native_effect_handler": null,
+        "bounded_rules": [
+          "numeric absorption, not scaling percent reduction or freeze duration"
+        ],
+        "use_policy": "EXISTING_R37_PERSONAL_ONCE_PER_ENCOUNTER_CANDIDATE",
+        "requires_leader": false,
+        "preserve_existing_rank_coefficients": true
+      },
+      "core_loop_identity": "Catch-up and paid levels apply normal hero XP; ascension uses native copies; gold/echo history earned separately",
+      "native_binding_ready": false,
+      "enabled_in_game": false,
+      "art_status": "NEW_HERO_ART_STILL_REQUIRED",
+      "art": {
+        "portrait": null,
+        "idle": null,
+        "attack": null,
+        "gold_vfx": null,
+        "status": "AUTHORING_REQUIRED_NEW_IDENTITY_NOT_OLD_ROSTER_REPLACEMENT",
+        "visual_brief": "Ice mage; angular crystal focus, layered glacier-blue coat, bright gold geometric trim."
+      }
+    },
+    {
+      "logical_hero_id": "HERO_TITAN_009",
+      "display_name": "Serelis Sunbloom",
+      "rarity": "SSS",
+      "source_definition_path": "continuation_r26/TITAN_SSS_HEROES.json",
+      "design_status": "AUTHORED_CANDIDATE_NATIVE_BINDINGS_NOT_APPROVED",
+      "weapon_family": "Staff",
+      "battle_role": "emergency protection",
+      "stat_allocation_weights": {
+        "hp": 21,
+        "mp": 18,
+        "attack": 5,
+        "magic": 22,
+        "defense": 14,
+        "resistance": 16,
+        "agility": 4
+      },
+      "level_growth_allocation": "SAME_RELATIVE_WEIGHTS_USING_NATIVE_CLASS_SCALE",
+      "total_budget_policy": "Current comparable role/rarity budget; do not add extra total stats merely because this is a Titan reward",
+      "tree_bindings": [
+        {
+          "source_tag": "MYSTIC_NATURE",
+          "source_example_recruit": "HERO_REC_110",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        },
+        {
+          "source_tag": "WARDING",
+          "source_example_recruit": "SIGREC_MAREN_HOLT",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        }
+      ],
+      "gold": {
+        "logical_art_id": "GOLD_TITAN_009",
+        "name": "Worldroot Sanctuary",
+        "effect_family": "barrier",
+        "target_scope": "ONE_ALLIED_UNION",
+        "rank_one_budget_bp": 23000,
+        "budget_basis": "Native verified ordinary same-role same-target damage/heal/barrier budget for this hero; one combined budget before existing Titan rank scaling",
+        "revive_budget_special_case": null,
+        "cost_policy": "Use current comparable gold/Invocation cost once; do not charge through both branches",
+        "native_cost": null,
+        "native_effect_handler": null,
+        "bounded_rules": [
+          "reactive selection follows normal action order; never an uncosted extra turn"
+        ],
+        "use_policy": "EXISTING_R37_PERSONAL_ONCE_PER_ENCOUNTER_CANDIDATE",
+        "requires_leader": false,
+        "preserve_existing_rank_coefficients": true
+      },
+      "core_loop_identity": "Catch-up and paid levels apply normal hero XP; ascension uses native copies; gold/echo history earned separately",
+      "native_binding_ready": false,
+      "enabled_in_game": false,
+      "art_status": "NEW_HERO_ART_STILL_REQUIRED",
+      "art": {
+        "portrait": null,
+        "idle": null,
+        "attack": null,
+        "gold_vfx": null,
+        "status": "AUTHORING_REQUIRED_NEW_IDENTITY_NOT_OLD_ROSTER_REPLACEMENT",
+        "visual_brief": "Forest guardian; branching staff, broad leaf mantle, flower-and-root motifs rather than another ice barrier."
+      }
+    },
+    {
+      "logical_hero_id": "HERO_TITAN_010",
+      "display_name": "Theryn Starseer",
+      "rarity": "SSS",
+      "source_definition_path": "continuation_r26/TITAN_SSS_HEROES.json",
+      "design_status": "AUTHORED_CANDIDATE_NATIVE_BINDINGS_NOT_APPROVED",
+      "weapon_family": "Focus",
+      "battle_role": "wounded-target finisher",
+      "stat_allocation_weights": {
+        "hp": 12,
+        "mp": 23,
+        "attack": 5,
+        "magic": 32,
+        "defense": 7,
+        "resistance": 13,
+        "agility": 8
+      },
+      "level_growth_allocation": "SAME_RELATIVE_WEIGHTS_USING_NATIVE_CLASS_SCALE",
+      "total_budget_policy": "Current comparable role/rarity budget; do not add extra total stats merely because this is a Titan reward",
+      "tree_bindings": [
+        {
+          "source_tag": "MYSTIC_AETHER",
+          "source_example_recruit": "SIGREC_BRAKKA_EMBERWALL",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        },
+        {
+          "source_tag": "PRECISION",
+          "source_example_recruit": "SIGREC_VAELIS_NOCT",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        }
+      ],
+      "gold": {
+        "logical_art_id": "GOLD_TITAN_010",
+        "name": "Falling Firmament",
+        "effect_family": "mystic_strike",
+        "target_scope": "ONE_ENEMY_UNION",
+        "rank_one_budget_bp": 22000,
+        "budget_basis": "Native verified ordinary same-role same-target damage/heal/barrier budget for this hero; one combined budget before existing Titan rank scaling",
+        "revive_budget_special_case": null,
+        "cost_policy": "Use current comparable gold/Invocation cost once; do not charge through both branches",
+        "native_cost": null,
+        "native_effect_handler": null,
+        "bounded_rules": [
+          "fixed wounded-target condition <=35 percent native HP; +25 percent clean amount only, not execute"
+        ],
+        "use_policy": "EXISTING_R37_PERSONAL_ONCE_PER_ENCOUNTER_CANDIDATE",
+        "requires_leader": false,
+        "preserve_existing_rank_coefficients": true
+      },
+      "core_loop_identity": "Catch-up and paid levels apply normal hero XP; ascension uses native copies; gold/echo history earned separately",
+      "native_binding_ready": false,
+      "enabled_in_game": false,
+      "art_status": "NEW_HERO_ART_STILL_REQUIRED",
+      "art": {
+        "portrait": null,
+        "idle": null,
+        "attack": null,
+        "gold_vfx": null,
+        "status": "AUTHORING_REQUIRED_NEW_IDENTITY_NOT_OLD_ROSTER_REPLACEMENT",
+        "visual_brief": "Astral scholar; floating orrery focus, midnight robes, constellation-lined collar."
+      }
+    },
+    {
+      "logical_hero_id": "HERO_TITAN_011",
+      "display_name": "Rhovan Ironbanner",
+      "rarity": "SSS",
+      "source_definition_path": "continuation_r26/TITAN_SSS_HEROES.json",
+      "design_status": "AUTHORED_CANDIDATE_NATIVE_BINDINGS_NOT_APPROVED",
+      "weapon_family": "Spear-banner",
+      "battle_role": "controlled frontline",
+      "stat_allocation_weights": {
+        "hp": 21,
+        "mp": 11,
+        "attack": 20,
+        "magic": 7,
+        "defense": 20,
+        "resistance": 12,
+        "agility": 9
+      },
+      "level_growth_allocation": "SAME_RELATIVE_WEIGHTS_USING_NATIVE_CLASS_SCALE",
+      "total_budget_policy": "Current comparable role/rarity budget; do not add extra total stats merely because this is a Titan reward",
+      "tree_bindings": [
+        {
+          "source_tag": "TACTICAL_COMMAND",
+          "source_example_recruit": "SIGREC_RUSK_FENRUNNER",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        },
+        {
+          "source_tag": "SPEAR",
+          "source_example_recruit": "SIGREC_MAREN_HOLT",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        }
+      ],
+      "gold": {
+        "logical_art_id": "GOLD_TITAN_011",
+        "name": "Sovereign’s Challenge",
+        "effect_family": "physical_strike",
+        "target_scope": "ONE_ENEMY_UNION",
+        "rank_one_budget_bp": 19000,
+        "budget_basis": "Native verified ordinary same-role same-target damage/heal/barrier budget for this hero; one combined budget before existing Titan rank scaling",
+        "revive_budget_special_case": null,
+        "cost_policy": "Use current comparable gold/Invocation cost once; do not charge through both branches",
+        "native_cost": null,
+        "native_effect_handler": null,
+        "bounded_rules": [
+          "one-round supported slow; magnitude/duration do not increase with Titan rank"
+        ],
+        "use_policy": "EXISTING_R37_PERSONAL_ONCE_PER_ENCOUNTER_CANDIDATE",
+        "requires_leader": false,
+        "preserve_existing_rank_coefficients": true
+      },
+      "core_loop_identity": "Catch-up and paid levels apply normal hero XP; ascension uses native copies; gold/echo history earned separately",
+      "native_binding_ready": false,
+      "enabled_in_game": false,
+      "art_status": "NEW_HERO_ART_STILL_REQUIRED",
+      "art": {
+        "portrait": null,
+        "idle": null,
+        "attack": null,
+        "gold_vfx": null,
+        "status": "AUTHORING_REQUIRED_NEW_IDENTITY_NOT_OLD_ROSTER_REPLACEMENT",
+        "visual_brief": "Veteran standard-bearer; spear-banner, scarred burgundy armor, massive golden standard."
+      }
+    },
+    {
+      "logical_hero_id": "HERO_TITAN_012",
+      "display_name": "Elyndra Riftcrown",
+      "rarity": "SSS",
+      "source_definition_path": "continuation_r26/TITAN_SSS_HEROES.json",
+      "design_status": "AUTHORED_CANDIDATE_NATIVE_BINDINGS_NOT_APPROVED",
+      "weapon_family": "Sword",
+      "battle_role": "hybrid finisher",
+      "stat_allocation_weights": {
+        "hp": 17,
+        "mp": 18,
+        "attack": 20,
+        "magic": 25,
+        "defense": 8,
+        "resistance": 7,
+        "agility": 5
+      },
+      "level_growth_allocation": "SAME_RELATIVE_WEIGHTS_USING_NATIVE_CLASS_SCALE",
+      "total_budget_policy": "Current comparable role/rarity budget; do not add extra total stats merely because this is a Titan reward",
+      "tree_bindings": [
+        {
+          "source_tag": "SWORD",
+          "source_example_recruit": "SIGREC_VEYRA_ASHGLASS",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        },
+        {
+          "source_tag": "MYSTIC_AETHER",
+          "source_example_recruit": "SIGREC_BRAKKA_EMBERWALL",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        }
+      ],
+      "gold": {
+        "logical_art_id": "GOLD_TITAN_012",
+        "name": "Final Horizon",
+        "effect_family": "hybrid_strike",
+        "target_scope": "ONE_ENEMY_UNION",
+        "rank_one_budget_bp": 24000,
+        "budget_basis": "Native verified ordinary same-role same-target damage/heal/barrier budget for this hero; one combined budget before existing Titan rank scaling",
+        "revive_budget_special_case": null,
+        "cost_policy": "Use current comparable gold/Invocation cost once; do not charge through both branches",
+        "native_cost": null,
+        "native_effect_handler": null,
+        "bounded_rules": [
+          "scales own contribution only; no second companion action or army-wide multiplier"
+        ],
+        "use_policy": "EXISTING_R37_PERSONAL_ONCE_PER_ENCOUNTER_CANDIDATE",
+        "requires_leader": false,
+        "preserve_existing_rank_coefficients": true
+      },
+      "core_loop_identity": "Catch-up and paid levels apply normal hero XP; ascension uses native copies; gold/echo history earned separately",
+      "native_binding_ready": false,
+      "enabled_in_game": false,
+      "art_status": "NEW_HERO_ART_STILL_REQUIRED",
+      "art": {
+        "portrait": null,
+        "idle": null,
+        "attack": null,
+        "gold_vfx": null,
+        "status": "AUTHORING_REQUIRED_NEW_IDENTITY_NOT_OLD_ROSTER_REPLACEMENT",
+        "visual_brief": "Rift swordswoman; split luminous blade, floating crown shards, white-black layered armor."
+      }
+    },
+    {
+      "logical_hero_id": "HERO_TITAN_013",
+      "display_name": "Eidran, Keeper of the Twelve",
+      "rarity": "SSSS",
+      "source_definition_path": "continuation_r28/THIRTEENTH_SUMMONER.json",
+      "design_status": "AUTHORED_CANDIDATE_NATIVE_BINDINGS_NOT_APPROVED",
+      "weapon_family": "Astrolabe staff",
+      "battle_role": "invocation support",
+      "stat_allocation_weights": {
+        "hp": 15,
+        "mp": 23,
+        "attack": 5,
+        "magic": 27,
+        "defense": 9,
+        "resistance": 15,
+        "agility": 6
+      },
+      "level_growth_allocation": "SAME_RELATIVE_WEIGHTS_USING_NATIVE_CLASS_SCALE",
+      "total_budget_policy": "Current comparable role/rarity budget; do not add extra total stats merely because this is a Titan reward",
+      "tree_bindings": [
+        {
+          "source_tag": "COMPANION",
+          "source_example_recruit": "HERO_REC_277",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        },
+        {
+          "source_tag": "WARDING",
+          "source_example_recruit": "SIGREC_MAREN_HOLT",
+          "native_tree_id": null,
+          "status": "EXACT_SOURCE_TAG_LIVE_TREE_BINDING_REQUIRED"
+        }
+      ],
+      "gold": {
+        "logical_art_id": null,
+        "name": "Accord of the Twelve",
+        "effect_family": "titan_echo",
+        "target_scope": "SELECTED_ECHO_NATIVE_TARGETS",
+        "rank_one_budget_bp": 20000,
+        "budget_basis": "Native verified ordinary same-role same-target damage/heal/barrier budget for this hero; one combined budget before existing Titan rank scaling",
+        "revive_budget_special_case": null,
+        "cost_policy": "Use current comparable gold/Invocation cost once; do not charge through both branches",
+        "native_cost": null,
+        "native_effect_handler": null,
+        "bounded_rules": [
+          "one selected echo; only defeated Titans; no copied boss HP/offense; all echoes share allowance"
+        ],
+        "use_policy": "EXISTING_R37_PERSONAL_ONCE_PER_ENCOUNTER_CANDIDATE",
+        "requires_leader": false,
+        "preserve_existing_rank_coefficients": true,
+        "binding_note": "Reuse actual Eidran Invocation selection/echo IDs; R29 code entry has no assigned personal_art_key."
+      },
+      "core_loop_identity": "Catch-up and paid levels apply normal hero XP; ascension uses native copies; gold/echo history earned separately",
+      "native_binding_ready": false,
+      "enabled_in_game": false,
+      "art_status": "NEW_HERO_ART_STILL_REQUIRED",
+      "art": {
+        "portrait": null,
+        "idle": null,
+        "attack": null,
+        "gold_vfx": null,
+        "visual_brief": "Original adult fantasy summoner; ivory mantle, dark blue underlayers, twelve small gold sigils around a portable astrolabe. No Founder/Kael resemblance, no god-form Kael motifs. Transparent idle/attack sprites later; no text/UI baked into art."
+      }
+    }
+  ]
+}

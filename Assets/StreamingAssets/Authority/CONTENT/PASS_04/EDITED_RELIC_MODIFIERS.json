@@ -1,0 +1,905 @@
+{
+  "contentVersion": "GOW_PASS04_0.9",
+  "editedRelicModifiers": [
+    {
+      "id": "EDITED_MOD_ACCELERATED_UNDERSTANDING",
+      "displayName": "Accelerated Understanding",
+      "effect": {
+        "type": "ART_LEARNING_GAIN",
+        "value": 300
+      },
+      "description": "Greatly increases meaningful Art-learning gain; no progress from spam.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_IMPOSSIBLE_BALANCE",
+      "displayName": "Impossible Balance",
+      "effect": {
+        "type": "WEIGHT_OVERRIDE",
+        "value": -20
+      },
+      "description": "Treats a heavy weapon as lighter for AP and formation purposes.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_UNION_RESONANCE",
+      "displayName": "Union Resonance",
+      "effect": {
+        "type": "UNION_DISCIPLINE_GAIN",
+        "value": 40
+      },
+      "description": "Meaningful action grants a modest Union-wide discipline bonus.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_SECOND_ACTION",
+      "displayName": "Second Action",
+      "effect": {
+        "type": "EXTRA_ACTION_CHANCE",
+        "value": 12
+      },
+      "description": "Once per round, a capped chance to add a legal zero/low-cost follow-up; cannot chain.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_LIVING_GUARD",
+      "displayName": "Living Guard",
+      "effect": {
+        "type": "BARRIER_ON_ATTACK",
+        "value": 1
+      },
+      "description": "First meaningful attack creates a small barrier.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_MEMORY_THIEF",
+      "displayName": "Memory Thief",
+      "effect": {
+        "type": "OBSERVE_ENEMY_ART",
+        "value": 1
+      },
+      "description": "Observed enemy technique adds Discovery only to a compatible learnable Art.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_WORLDWALKER",
+      "displayName": "Worldwalker",
+      "effect": {
+        "type": "TERRAIN_PENALTY_REDUCTION",
+        "value": 50
+      },
+      "description": "Reduces world/terrain penalties but does not bypass story locks.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_LAST_PROTECTOR",
+      "displayName": "Last Protector",
+      "effect": {
+        "type": "AUTO_GUARD_WEAKEST",
+        "value": 1
+      },
+      "description": "Once per battle, can guard the most vulnerable ally if a legal guard action exists.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_FORMATION_BREAKER",
+      "displayName": "Formation Breaker",
+      "effect": {
+        "type": "FORMATION_DAMAGE",
+        "value": 40
+      },
+      "description": "Greatly improves Cohesion damage; capped versus bosses.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_UNWRITTEN_POTENTIAL",
+      "displayName": "Unwritten Potential",
+      "effect": {
+        "type": "ADVANCED_CLASS_ROUTE",
+        "value": 1
+      },
+      "description": "Adds one compatible noncanonical Sandbox class route.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_FATE_EDITOR",
+      "displayName": "Fate Editor",
+      "effect": {
+        "type": "SKILL_REROLL",
+        "value": 1
+      },
+      "description": "Once per expedition, reroll one noncritical check; result is committed.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_ECHO_WITHOUT_COST",
+      "displayName": "Echo Without Cost",
+      "effect": {
+        "type": "INVOCATION_MP_FIRST",
+        "value": -99
+      },
+      "description": "First Invocation MP cost becomes 1, never 0; once per battle.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_SPLIT_INVOCATION",
+      "displayName": "Split Invocation",
+      "effect": {
+        "type": "ECHO_SECONDARY_EFFECT",
+        "value": 1
+      },
+      "description": "Echo performs one capped secondary behavior; never a second full summon.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_REWRITTEN_WEIGHT",
+      "displayName": "Rewritten Weight",
+      "effect": {
+        "type": "WEIGHT_SET",
+        "value": 1
+      },
+      "description": "Sets item weight to 1 in private Sandbox; no infinite AP benefit.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_IMPOSSIBLE_SOCKET",
+      "displayName": "Impossible Socket",
+      "effect": {
+        "type": "SOCKETS",
+        "value": 1
+      },
+      "description": "Adds one socket beyond normal cap, maximum total five.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_MARGIN_MENTOR",
+      "displayName": "Margin Mentor",
+      "effect": {
+        "type": "MENTORSHIP_GAIN",
+        "value": 100
+      },
+      "description": "Accelerates apprenticeship from meaningful observation.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_REDACTED_FATIGUE",
+      "displayName": "Redacted Fatigue",
+      "effect": {
+        "type": "FATIGUE_RESIST",
+        "value": 3
+      },
+      "description": "Reduces expedition fatigue; cannot create infinite movement.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_UNBROKEN_HISTORY",
+      "displayName": "Unbroken History",
+      "effect": {
+        "type": "ITEM_HISTORY_PRESERVE",
+        "value": 1
+      },
+      "description": "Dismantling returns a cosmetic history token.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_SHARED_MP_SCRIPT",
+      "displayName": "Shared MP Script",
+      "effect": {
+        "type": "MP_TRANSFER",
+        "value": 3
+      },
+      "description": "Allows capped MP sharing in a Support forecast.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_AP_MARGIN_NOTE",
+      "displayName": "AP Margin Note",
+      "effect": {
+        "type": "AP_REFUND",
+        "value": 1
+      },
+      "description": "Once per round after a meaningful objective action, restore 1 AP.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_REVERSE_EXPOSURE",
+      "displayName": "Reverse Exposure",
+      "effect": {
+        "type": "EXPOSURE_ON_BREAK",
+        "value": -1
+      },
+      "description": "Formation breaking lowers exposure once per battle.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_UNSEEN_ROUTE",
+      "displayName": "Unseen Route",
+      "effect": {
+        "type": "ORDINARY_SECRET_REVEAL",
+        "value": 1
+      },
+      "description": "Reveals one ordinary secret clue; never reveals The Margin to unauthorized users.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_ECHO_EDITOR",
+      "displayName": "Echo Editor",
+      "effect": {
+        "type": "ECHO_BEHAVIOR_BRANCH",
+        "value": 1
+      },
+      "description": "Select one artifact evolution behavior before battle; exact action remains System chosen.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_MASTERWORK_LIE",
+      "displayName": "Masterwork Lie",
+      "effect": {
+        "type": "QUALITY_BEHAVIOR_COPY",
+        "value": 1
+      },
+      "description": "Copies one nonunique quality behavior without copying Chosen consent.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_CIVIC_DUPLICATE",
+      "displayName": "Civic Duplicate",
+      "effect": {
+        "type": "MATERIAL_COPY_CAPPED",
+        "value": 1
+      },
+      "description": "Once per expedition duplicates one ordinary civic material, not boss cores or clues.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_FORMATION_GHOST",
+      "displayName": "Formation Ghost",
+      "effect": {
+        "type": "FORMATION_SLOT_VIRTUAL",
+        "value": 1
+      },
+      "description": "Counts one missing formation slot for a minor bonus, never adds a combatant.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_BOUND_TO_STORY",
+      "displayName": "Bound to Story",
+      "effect": {
+        "type": "RECRUIT_BIND",
+        "value": 1
+      },
+      "description": "Binds item to one recruit and deepens history; reversible only through authorized Forge.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_NAME_WRITES_BACK",
+      "displayName": "Name Writes Back",
+      "effect": {
+        "type": "CUSTOM_NAME_EFFECT",
+        "value": 1
+      },
+      "description": "A custom name can select one cosmetic VFX tag.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_BOSS_MARGIN",
+      "displayName": "Boss Margin",
+      "effect": {
+        "type": "BOSS_TELEGRAPH_WINDOW",
+        "value": 1
+      },
+      "description": "Extends visible boss telegraph by one UI beat; does not slow simulation.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_NO_EMPTY_TURNS",
+      "displayName": "No Empty Turns",
+      "effect": {
+        "type": "FALLBACK_UPGRADE",
+        "value": 1
+      },
+      "description": "Improves legal fallback actions when resources are exhausted; cannot create AP/MP.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_EDITED_RESONANCE",
+      "displayName": "Edited Resonance",
+      "effect": {
+        "type": "SUMMON_RESONANCE_GAIN",
+        "value": 200
+      },
+      "description": "Greatly increases meaningful Echo Resonance, no spam progress.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_MIRROR_WITH_LIMITS",
+      "displayName": "Mirror With Limits",
+      "effect": {
+        "type": "WARD_COUNTER_PERCENT",
+        "value": 20
+      },
+      "description": "Returns a capped portion of warded damage; explicitly not Kael True Reflection.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_CROSS_FAMILY_SCRIPT",
+      "displayName": "Cross-Family Script",
+      "effect": {
+        "type": "WEAPON_FAMILY_COMPATIBILITY",
+        "value": 1
+      },
+      "description": "Permits one technically legal family conversion at Redactor Forge.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_INFINITE_LOOKING_NOT_INFINITE",
+      "displayName": "Infinite-Looking, Not Infinite",
+      "effect": {
+        "type": "CHARGES_PER_BATTLE",
+        "value": 1
+      },
+      "description": "Restores one spent ordinary charge after battle, never during a loop.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_AUTHORIAL_COSMETIC",
+      "displayName": "Authorial Cosmetic",
+      "effect": {
+        "type": "COSMETIC_COPY",
+        "value": 1
+      },
+      "description": "Copies appearance only, never gameplay authority.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    },
+    {
+      "id": "EDITED_MOD_VAULTBEARER_MARK",
+      "displayName": "Vaultbearer Mark",
+      "effect": {
+        "type": "PRIVATE_HISTORY_TAG",
+        "value": 1
+      },
+      "description": "Adds a private authorization history tag; grants no additional access.",
+      "marginOnly": true,
+      "requiredForCompletion": false,
+      "cannotDuplicateKaelTrueReflection": true,
+      "cannotOwnGreatSummon": true,
+      "loopSafety": {
+        "maxTriggersPerRound": 1,
+        "cannotTriggerItself": true
+      },
+      "eligibleCategories": [
+        "WEAPON",
+        "ARMOR",
+        "ACCESSORY",
+        "SHIELD",
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    }
+  ]
+}

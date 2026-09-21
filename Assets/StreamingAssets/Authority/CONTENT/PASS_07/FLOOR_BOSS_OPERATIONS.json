@@ -1,0 +1,275 @@
+{
+  "bosses": [
+    {
+      "id": "ABYSS_BOSS_001",
+      "floorId": "ABYSS_FLOOR_001",
+      "name": "Trench Captain Fragment",
+      "type": "MINIBOSS",
+      "unions": [
+        "ABYSS_UNION_F01_05",
+        "ABYSS_UNION_F01_06"
+      ],
+      "telegraphs": [
+        "visible major action one round ahead",
+        "civic-trial target announced"
+      ],
+      "counterplay": [
+        "Guard",
+        "Restoration",
+        "Tactical objective",
+        "formation interaction",
+        "Link Art",
+        "Artifact Invocation"
+      ],
+      "phases": 2,
+      "retreatAllowed": true,
+      "bestOutcomeRule": "trial and battle both matter",
+      "firstClearReward": "rusted medals and shield splinters",
+      "repeatBehavior": "rotating Echo pattern"
+    },
+    {
+      "id": "ABYSS_BOSS_002",
+      "floorId": "ABYSS_FLOOR_002",
+      "name": "Rain Archer Fragment",
+      "type": "MINIBOSS",
+      "unions": [
+        "ABYSS_UNION_F02_05",
+        "ABYSS_UNION_F02_06"
+      ],
+      "telegraphs": [
+        "visible major action one round ahead",
+        "civic-trial target announced"
+      ],
+      "counterplay": [
+        "Guard",
+        "Restoration",
+        "Tactical objective",
+        "formation interaction",
+        "Link Art",
+        "Artifact Invocation"
+      ],
+      "phases": 2,
+      "retreatAllowed": true,
+      "bestOutcomeRule": "trial and battle both matter",
+      "firstClearReward": "wind charms and arrow cores",
+      "repeatBehavior": "rotating Echo pattern"
+    },
+    {
+      "id": "ABYSS_BOSS_003",
+      "floorId": "ABYSS_FLOOR_003",
+      "name": "Nameless Quartermaster Fragment",
+      "type": "MINIBOSS",
+      "unions": [
+        "ABYSS_UNION_F03_05",
+        "ABYSS_UNION_F03_06"
+      ],
+      "telegraphs": [
+        "visible major action one round ahead",
+        "civic-trial target announced"
+      ],
+      "counterplay": [
+        "Guard",
+        "Restoration",
+        "Tactical objective",
+        "formation interaction",
+        "Link Art",
+        "Artifact Invocation"
+      ],
+      "phases": 2,
+      "retreatAllowed": true,
+      "bestOutcomeRule": "trial and battle both matter",
+      "firstClearReward": "ration blueprints and field-stove components",
+      "repeatBehavior": "rotating Echo pattern"
+    },
+    {
+      "id": "ABYSS_BOSS_004",
+      "floorId": "ABYSS_FLOOR_004",
+      "name": "Wallbreaker Echo Fragment",
+      "type": "MINIBOSS",
+      "unions": [
+        "ABYSS_UNION_F04_05",
+        "ABYSS_UNION_F04_06"
+      ],
+      "telegraphs": [
+        "visible major action one round ahead",
+        "civic-trial target announced"
+      ],
+      "counterplay": [
+        "Guard",
+        "Restoration",
+        "Tactical objective",
+        "formation interaction",
+        "Link Art",
+        "Artifact Invocation"
+      ],
+      "phases": 2,
+      "retreatAllowed": true,
+      "bestOutcomeRule": "trial and battle both matter",
+      "firstClearReward": "stone cores and repair runes",
+      "repeatBehavior": "rotating Echo pattern"
+    },
+    {
+      "id": "ABYSS_BOSS_005",
+      "floorId": "ABYSS_FLOOR_005",
+      "name": "Fallen Standard Bearer Fragment",
+      "type": "MINIBOSS",
+      "unions": [
+        "ABYSS_UNION_F05_05",
+        "ABYSS_UNION_F05_06"
+      ],
+      "telegraphs": [
+        "visible major action one round ahead",
+        "civic-trial target announced"
+      ],
+      "counterplay": [
+        "Guard",
+        "Restoration",
+        "Tactical objective",
+        "formation interaction",
+        "Link Art",
+        "Artifact Invocation"
+      ],
+      "phases": 2,
+      "retreatAllowed": true,
+      "bestOutcomeRule": "trial and battle both matter",
+      "firstClearReward": "First King banner thread and memory cloth",
+      "repeatBehavior": "rotating Echo pattern"
+    },
+    {
+      "id": "ABYSS_BOSS_006",
+      "floorId": "ABYSS_FLOOR_006",
+      "name": "Iron Step Commander Fragment",
+      "type": "MINIBOSS",
+      "unions": [
+        "ABYSS_UNION_F06_05",
+        "ABYSS_UNION_F06_06"
+      ],
+      "telegraphs": [
+        "visible major action one round ahead",
+        "civic-trial target announced"
+      ],
+      "counterplay": [
+        "Guard",
+        "Restoration",
+        "Tactical objective",
+        "formation interaction",
+        "Link Art",
+        "Artifact Invocation"
+      ],
+      "phases": 2,
+      "retreatAllowed": true,
+      "bestOutcomeRule": "trial and battle both matter",
+      "firstClearReward": "iron plates and drill manuals",
+      "repeatBehavior": "rotating Echo pattern"
+    },
+    {
+      "id": "ABYSS_BOSS_007",
+      "floorId": "ABYSS_FLOOR_007",
+      "name": "Bridge Warden Fragment",
+      "type": "MINIBOSS",
+      "unions": [
+        "ABYSS_UNION_F07_05",
+        "ABYSS_UNION_F07_06"
+      ],
+      "telegraphs": [
+        "visible major action one round ahead",
+        "civic-trial target announced"
+      ],
+      "counterplay": [
+        "Guard",
+        "Restoration",
+        "Tactical objective",
+        "formation interaction",
+        "Link Art",
+        "Artifact Invocation"
+      ],
+      "phases": 2,
+      "retreatAllowed": true,
+      "bestOutcomeRule": "trial and battle both matter",
+      "firstClearReward": "bridge stones and filter components",
+      "repeatBehavior": "rotating Echo pattern"
+    },
+    {
+      "id": "ABYSS_BOSS_008",
+      "floorId": "ABYSS_FLOOR_008",
+      "name": "Cage Master Fragment",
+      "type": "MINIBOSS",
+      "unions": [
+        "ABYSS_UNION_F08_05",
+        "ABYSS_UNION_F08_06"
+      ],
+      "telegraphs": [
+        "visible major action one round ahead",
+        "civic-trial target announced"
+      ],
+      "counterplay": [
+        "Guard",
+        "Restoration",
+        "Tactical objective",
+        "formation interaction",
+        "Link Art",
+        "Artifact Invocation"
+      ],
+      "phases": 2,
+      "retreatAllowed": true,
+      "bestOutcomeRule": "trial and battle both matter",
+      "firstClearReward": "beast collars and feed formulas",
+      "repeatBehavior": "rotating Echo pattern"
+    },
+    {
+      "id": "ABYSS_BOSS_009",
+      "floorId": "ABYSS_FLOOR_009",
+      "name": "Ash General Fragment",
+      "type": "MINIBOSS",
+      "unions": [
+        "ABYSS_UNION_F09_05",
+        "ABYSS_UNION_F09_06"
+      ],
+      "telegraphs": [
+        "visible major action one round ahead",
+        "civic-trial target announced"
+      ],
+      "counterplay": [
+        "Guard",
+        "Restoration",
+        "Tactical objective",
+        "formation interaction",
+        "Link Art",
+        "Artifact Invocation"
+      ],
+      "phases": 2,
+      "retreatAllowed": true,
+      "bestOutcomeRule": "trial and battle both matter",
+      "firstClearReward": "map fragments and command-table runes",
+      "repeatBehavior": "rotating Echo pattern"
+    },
+    {
+      "id": "ABYSS_BOSS_010",
+      "floorId": "ABYSS_FLOOR_010",
+      "name": "Aegis the Last Guardian",
+      "type": "MAJOR_GATE_BOSS",
+      "unions": [
+        "ABYSS_UNION_F10_05",
+        "ABYSS_UNION_F10_06",
+        "ABYSS_UNION_F10_04"
+      ],
+      "telegraphs": [
+        "visible major action one round ahead",
+        "civic-trial target announced"
+      ],
+      "counterplay": [
+        "Guard",
+        "Restoration",
+        "Tactical objective",
+        "formation interaction",
+        "Link Art",
+        "Artifact Invocation"
+      ],
+      "phases": 3,
+      "retreatAllowed": true,
+      "bestOutcomeRule": "civic score matters more than raw damage",
+      "firstClearReward": "Aegis Core and Fortress Defense Blueprint",
+      "repeatBehavior": "rotating Echo pattern"
+    }
+  ]
+}

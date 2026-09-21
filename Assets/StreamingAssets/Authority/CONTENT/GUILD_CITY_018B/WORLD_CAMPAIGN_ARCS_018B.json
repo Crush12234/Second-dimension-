@@ -1,0 +1,389 @@
+{
+  "ContentVersion": "GATES_OF_FORGOTTEN_WORLDS_018B_1.0",
+  "Arcs": [
+    {
+      "Id": "ARC018B_B06",
+      "Book": 6,
+      "Title": "The Last Treasury",
+      "World": "WORLD_SKYHOME",
+      "Map": "MAP018B_B06_LAST_TREASURY",
+      "Focus": "Kael and the Seven Founders",
+      "Canon": "LOCKED_CANON_SPINE",
+      "Gate": "STORY_GATE_BOOK06_LAST_TREASURY",
+      "Prereq": "STORY_GATE_OPENING_GUILD",
+      "Summary": "Skyhome counts the true cost of civilization, refuses to spend its future on Kael, and prepares the Seven Founders for the age that must survive without him.",
+      "Question": "Can a civilization choose its future over its founder?",
+      "Outcome": "Kael remains unchanged. The final unencumbered civic reserve is lawfully invested in the Seven Founders and commander-class defense.",
+      "Next": "STORY_GATE_BOOK07_GOBLIN_WAR",
+      "QuestIds": [
+        "QUEST018B_B06_01",
+        "QUEST018B_B06_02",
+        "QUEST018B_B06_03",
+        "QUEST018B_B06_04",
+        "QUEST018B_B06_05",
+        "QUEST018B_B06_06",
+        "QUEST018B_B06_07",
+        "QUEST018B_B06_08"
+      ],
+      "SideQuestIds": [
+        "QUEST018B_B06_09",
+        "QUEST018B_B06_10",
+        "QUEST018B_B06_11",
+        "QUEST018B_B06_12"
+      ],
+      "FortressOperationIds": [
+        "FORTRESS018B_B06_01",
+        "FORTRESS018B_B06_02"
+      ],
+      "CanRewritePublishedCanon": false,
+      "RevealsProtectedSystemTruth": false,
+      "OwnerApprovalRequired": false
+    },
+    {
+      "Id": "ARC018B_B07",
+      "Book": 7,
+      "Title": "The Descent and the Goblin War",
+      "World": "WORLD_SKYHOME_WARFRONT",
+      "Map": "MAP018B_B07_GOBLIN_WAR",
+      "Focus": "Kiri and the united First Civilization",
+      "Canon": "LOCKED_CANON_SPINE",
+      "Gate": "STORY_GATE_BOOK07_GOBLIN_WAR",
+      "Prereq": "STORY_GATE_BOOK06_LAST_TREASURY",
+      "Summary": "Kael descends into the Endless Abyss while one hundred thousand Goblin Fortress warriors test whether Skyhome can survive without him.",
+      "Question": "Can the civilization Kael built defend itself without making him its answer?",
+      "Outcome": "The evolved Founders and united community repel the invasion; approximately ten thousand goblins choose the First Civilization.",
+      "Next": "STORY_GATE_BOOK08_GOBLIN_FORTRESS",
+      "QuestIds": [
+        "QUEST018B_B07_01",
+        "QUEST018B_B07_02",
+        "QUEST018B_B07_03",
+        "QUEST018B_B07_04",
+        "QUEST018B_B07_05",
+        "QUEST018B_B07_06",
+        "QUEST018B_B07_07",
+        "QUEST018B_B07_08"
+      ],
+      "SideQuestIds": [
+        "QUEST018B_B07_09",
+        "QUEST018B_B07_10",
+        "QUEST018B_B07_11",
+        "QUEST018B_B07_12"
+      ],
+      "FortressOperationIds": [
+        "FORTRESS018B_B07_01",
+        "FORTRESS018B_B07_02",
+        "FORTRESS018B_B07_03",
+        "FORTRESS018B_B07_04"
+      ],
+      "CanRewritePublishedCanon": false,
+      "RevealsProtectedSystemTruth": false,
+      "OwnerApprovalRequired": false
+    },
+    {
+      "Id": "ARC018B_B08",
+      "Book": 8,
+      "Title": "The Captured Goblin Fortress",
+      "World": "WORLD_GOBLIN_FORTRESS",
+      "Map": "MAP018B_B08_GOBLIN_FORTRESS",
+      "Focus": "Kiri, gate engineers, prisoners, and defectors",
+      "Canon": "LOCKED_CANON_SPINE",
+      "Gate": "STORY_GATE_BOOK08_GOBLIN_FORTRESS",
+      "Prereq": "STORY_GATE_BOOK07_GOBLIN_WAR",
+      "Summary": "The First Civilization secures the captured enemy gate, governs prisoners without collective punishment, and discovers the road into the Goblin World.",
+      "Question": "What does victory become when the enemy stronghold is also a doorway and a home?",
+      "Outcome": "The fortress is secured as the first captured enemy gate and the route into the Goblin Underrealm becomes usable.",
+      "Next": "STORY_GATE_BOOK09_GOBLIN_WORLD",
+      "QuestIds": [
+        "QUEST018B_B08_01",
+        "QUEST018B_B08_02",
+        "QUEST018B_B08_03",
+        "QUEST018B_B08_04",
+        "QUEST018B_B08_05",
+        "QUEST018B_B08_06",
+        "QUEST018B_B08_07",
+        "QUEST018B_B08_08"
+      ],
+      "SideQuestIds": [
+        "QUEST018B_B08_09",
+        "QUEST018B_B08_10",
+        "QUEST018B_B08_11",
+        "QUEST018B_B08_12"
+      ],
+      "FortressOperationIds": [
+        "FORTRESS018B_B08_01",
+        "FORTRESS018B_B08_02",
+        "FORTRESS018B_B08_03"
+      ],
+      "CanRewritePublishedCanon": false,
+      "RevealsProtectedSystemTruth": false,
+      "OwnerApprovalRequired": false
+    },
+    {
+      "Id": "ARC018B_B09",
+      "Book": 9,
+      "Title": "The Goblin Underrealm",
+      "World": "WORLD_GOBLIN_UNDERREALM",
+      "Map": "MAP018B_B09_GOBLIN_UNDERREALM",
+      "Focus": "Goblin factions and the First Civilization expedition",
+      "Canon": "LOCKED_CANON_SPINE",
+      "Gate": "STORY_GATE_BOOK09_GOBLIN_WORLD",
+      "Prereq": "STORY_GATE_BOOK08_GOBLIN_FORTRESS",
+      "Summary": "A few Second Dimension days become months below, exposing goblin caste politics, civil conflict, survival technology, and fragmented memories of the First Alliance.",
+      "Question": "Can freedom take root in a world built around inherited necessity?",
+      "Outcome": "The expedition survives months of Underrealm politics, supports lawful self-determination, and preserves the route home.",
+      "Next": "STORY_GATE_BOOK10_ARCHITECT_OF_WORLDS",
+      "QuestIds": [
+        "QUEST018B_B09_01",
+        "QUEST018B_B09_02",
+        "QUEST018B_B09_03",
+        "QUEST018B_B09_04",
+        "QUEST018B_B09_05",
+        "QUEST018B_B09_06",
+        "QUEST018B_B09_07",
+        "QUEST018B_B09_08"
+      ],
+      "SideQuestIds": [
+        "QUEST018B_B09_09",
+        "QUEST018B_B09_10",
+        "QUEST018B_B09_11",
+        "QUEST018B_B09_12"
+      ],
+      "FortressOperationIds": [
+        "FORTRESS018B_B09_01",
+        "FORTRESS018B_B09_02"
+      ],
+      "CanRewritePublishedCanon": false,
+      "RevealsProtectedSystemTruth": false,
+      "OwnerApprovalRequired": false
+    },
+    {
+      "Id": "ARC018B_B10",
+      "Book": 10,
+      "Title": "Architect of Worlds",
+      "World": "WORLD_GOBLIN_RESTORATION",
+      "Map": "MAP018B_B10_ARCHITECT_OF_WORLDS",
+      "Focus": "Kiri, engineers, armorers, merchants, and gate scholars",
+      "Canon": "LOCKED_CANON_SPINE",
+      "Gate": "STORY_GATE_BOOK10_ARCHITECT_OF_WORLDS",
+      "Prereq": "STORY_GATE_BOOK09_GOBLIN_WORLD",
+      "Summary": "Kiri proves the title Architect of Worlds through reconstruction, shared institutions, roads, trade, and lawful cross-world cooperation.",
+      "Question": "Can rebuilding become stronger than conquest?",
+      "Outcome": "The expedition returns with engineers, armorers, merchants, gate experts, and guarded First Alliance fragments without revealing final System truth.",
+      "Next": "STORY_GATE_BOOK11_FIRST_GATE_ECHO",
+      "QuestIds": [
+        "QUEST018B_B10_01",
+        "QUEST018B_B10_02",
+        "QUEST018B_B10_03",
+        "QUEST018B_B10_04",
+        "QUEST018B_B10_05",
+        "QUEST018B_B10_06",
+        "QUEST018B_B10_07",
+        "QUEST018B_B10_08"
+      ],
+      "SideQuestIds": [
+        "QUEST018B_B10_09",
+        "QUEST018B_B10_10",
+        "QUEST018B_B10_11",
+        "QUEST018B_B10_12"
+      ],
+      "FortressOperationIds": [
+        "FORTRESS018B_B10_01",
+        "FORTRESS018B_B10_02"
+      ],
+      "CanRewritePublishedCanon": false,
+      "RevealsProtectedSystemTruth": false,
+      "OwnerApprovalRequired": false
+    },
+    {
+      "Id": "ARC018B_B11",
+      "Book": 11,
+      "Title": "The First Gate Echo",
+      "World": "WORLD_FIRST_GATE_ECHO",
+      "Map": "MAP018B_B11_FIRST_GATE_ECHO",
+      "Focus": "Skyhome surveyors and Worldroad cartographers",
+      "Canon": "FUTURE_ROADMAP_CANDIDATE",
+      "Gate": "STORY_GATE_BOOK11_FIRST_GATE_ECHO",
+      "Prereq": "STORY_GATE_BOOK10_ARCHITECT_OF_WORLDS",
+      "Summary": "The restored route network awakens an echo between the Human Fortress, Skyhome, and the first captured world gate.",
+      "Question": "How much of the old road can be restored without waking what destroyed it?",
+      "Outcome": "A bounded Worldroad network is charted while the final truth of the World Cycles remains sealed.",
+      "Next": "STORY_GATE_BOOK12_ORC_BLOOD_PLAINS",
+      "QuestIds": [
+        "QUEST018B_B11_01",
+        "QUEST018B_B11_02",
+        "QUEST018B_B11_03",
+        "QUEST018B_B11_04",
+        "QUEST018B_B11_05",
+        "QUEST018B_B11_06",
+        "QUEST018B_B11_07",
+        "QUEST018B_B11_08"
+      ],
+      "SideQuestIds": [
+        "QUEST018B_B11_09",
+        "QUEST018B_B11_10",
+        "QUEST018B_B11_11",
+        "QUEST018B_B11_12"
+      ],
+      "FortressOperationIds": [
+        "FORTRESS018B_B11_01",
+        "FORTRESS018B_B11_02"
+      ],
+      "CanRewritePublishedCanon": false,
+      "RevealsProtectedSystemTruth": false,
+      "OwnerApprovalRequired": false
+    },
+    {
+      "Id": "ARC018B_B12",
+      "Book": 12,
+      "Title": "Orc Blood Plains",
+      "World": "WORLD_ORC_BLOOD_PLAINS",
+      "Map": "MAP018B_B12_ORC_BLOOD_PLAINS",
+      "Focus": "Grom and the orc holds",
+      "Canon": "FUTURE_CANDIDATE_OWNER_GATED",
+      "Gate": "STORY_GATE_BOOK12_ORC_BLOOD_PLAINS",
+      "Prereq": "STORY_GATE_OWNER_APPROVED_FUTURE_RACE_WORLD_CAMPAIGNS",
+      "Summary": "Grom faces fortress-clan obligations, blood-debt traditions, caravan law, and the cost of unifying strength without erasing difference.",
+      "Question": "Can strength protect without becoming ownership?",
+      "Outcome": "Candidate outcome: lawful ties are formed with independent orc holds and the Worldroad survives.",
+      "Next": "STORY_GATE_BOOK13_BEAST_MOON",
+      "QuestIds": [
+        "QUEST018B_B12_01",
+        "QUEST018B_B12_02",
+        "QUEST018B_B12_03",
+        "QUEST018B_B12_04",
+        "QUEST018B_B12_05",
+        "QUEST018B_B12_06",
+        "QUEST018B_B12_07",
+        "QUEST018B_B12_08"
+      ],
+      "SideQuestIds": [
+        "QUEST018B_B12_09",
+        "QUEST018B_B12_10",
+        "QUEST018B_B12_11",
+        "QUEST018B_B12_12"
+      ],
+      "FortressOperationIds": [
+        "FORTRESS018B_B12_01",
+        "FORTRESS018B_B12_02"
+      ],
+      "CanRewritePublishedCanon": false,
+      "RevealsProtectedSystemTruth": false,
+      "OwnerApprovalRequired": true
+    },
+    {
+      "Id": "ARC018B_B13",
+      "Book": 13,
+      "Title": "Beast Moon Territories",
+      "World": "WORLD_BEAST_MOON",
+      "Map": "MAP018B_B13_BEAST_MOON",
+      "Focus": "Aira and the moon territories",
+      "Canon": "FUTURE_CANDIDATE_OWNER_GATED",
+      "Gate": "STORY_GATE_BOOK13_BEAST_MOON",
+      "Prereq": "STORY_GATE_OWNER_APPROVED_FUTURE_RACE_WORLD_CAMPAIGNS",
+      "Summary": "Aira navigates pack sovereignty, migrating cities, sacred wilds, and the conflict between settlement and living territory.",
+      "Question": "Can civilization grow without treating nature as empty land?",
+      "Outcome": "Candidate outcome: multiple packs choose a shared road covenant while retaining sovereignty.",
+      "Next": "STORY_GATE_BOOK14_DEMON_EMPIRE",
+      "QuestIds": [
+        "QUEST018B_B13_01",
+        "QUEST018B_B13_02",
+        "QUEST018B_B13_03",
+        "QUEST018B_B13_04",
+        "QUEST018B_B13_05",
+        "QUEST018B_B13_06",
+        "QUEST018B_B13_07",
+        "QUEST018B_B13_08"
+      ],
+      "SideQuestIds": [
+        "QUEST018B_B13_09",
+        "QUEST018B_B13_10",
+        "QUEST018B_B13_11",
+        "QUEST018B_B13_12"
+      ],
+      "FortressOperationIds": [
+        "FORTRESS018B_B13_01",
+        "FORTRESS018B_B13_02"
+      ],
+      "CanRewritePublishedCanon": false,
+      "RevealsProtectedSystemTruth": false,
+      "OwnerApprovalRequired": true
+    },
+    {
+      "Id": "ARC018B_B14",
+      "Book": 14,
+      "Title": "Demon Empire",
+      "World": "WORLD_DEMON_EMPIRE",
+      "Map": "MAP018B_B14_DEMON_EMPIRE",
+      "Focus": "Seraphina and the demon courts",
+      "Canon": "FUTURE_CANDIDATE_OWNER_GATED",
+      "Gate": "STORY_GATE_BOOK14_DEMON_EMPIRE",
+      "Prereq": "STORY_GATE_OWNER_APPROVED_FUTURE_RACE_WORLD_CAMPAIGNS",
+      "Summary": "Seraphina enters a culture where emotion, oath, memory, and magic form public law and political power.",
+      "Question": "Can honest emotion become law without becoming coercion?",
+      "Outcome": "Candidate outcome: a reform covenant opens the road while protecting independent demon courts.",
+      "Next": "STORY_GATE_BOOK15_GATES_OF_FORGOTTEN_WORLDS",
+      "QuestIds": [
+        "QUEST018B_B14_01",
+        "QUEST018B_B14_02",
+        "QUEST018B_B14_03",
+        "QUEST018B_B14_04",
+        "QUEST018B_B14_05",
+        "QUEST018B_B14_06",
+        "QUEST018B_B14_07",
+        "QUEST018B_B14_08"
+      ],
+      "SideQuestIds": [
+        "QUEST018B_B14_09",
+        "QUEST018B_B14_10",
+        "QUEST018B_B14_11",
+        "QUEST018B_B14_12"
+      ],
+      "FortressOperationIds": [
+        "FORTRESS018B_B14_01",
+        "FORTRESS018B_B14_02"
+      ],
+      "CanRewritePublishedCanon": false,
+      "RevealsProtectedSystemTruth": false,
+      "OwnerApprovalRequired": true
+    },
+    {
+      "Id": "ARC018B_B15",
+      "Book": 15,
+      "Title": "The Gates of Forgotten Worlds",
+      "World": "WORLD_CROSSROADS_NETWORK",
+      "Map": "MAP018B_B15_GATES_OF_FORGOTTEN_WORLDS",
+      "Focus": "The First Civilization and surviving First Alliance routes",
+      "Canon": "FUTURE_CANDIDATE_OWNER_GATED",
+      "Gate": "STORY_GATE_BOOK15_GATES_OF_FORGOTTEN_WORLDS",
+      "Prereq": "STORY_GATE_OWNER_APPROVED_FUTURE_RACE_WORLD_CAMPAIGNS",
+      "Summary": "The First Civilization becomes a recognized multi-world force as old roads reactivate and ancient enemies begin direct movement.",
+      "Question": "Can many worlds reconnect without recreating the failures of the First Alliance?",
+      "Outcome": "Candidate outcome: a limited new alliance is recognized, but the final System and World Cycle truths remain protected.",
+      "Next": "STORY_GATE_BOOK16_ANCIENT_POWERS",
+      "QuestIds": [
+        "QUEST018B_B15_01",
+        "QUEST018B_B15_02",
+        "QUEST018B_B15_03",
+        "QUEST018B_B15_04",
+        "QUEST018B_B15_05",
+        "QUEST018B_B15_06",
+        "QUEST018B_B15_07",
+        "QUEST018B_B15_08"
+      ],
+      "SideQuestIds": [
+        "QUEST018B_B15_09",
+        "QUEST018B_B15_10",
+        "QUEST018B_B15_11",
+        "QUEST018B_B15_12"
+      ],
+      "FortressOperationIds": [
+        "FORTRESS018B_B15_01",
+        "FORTRESS018B_B15_02",
+        "FORTRESS018B_B15_03"
+      ],
+      "CanRewritePublishedCanon": false,
+      "RevealsProtectedSystemTruth": false,
+      "OwnerApprovalRequired": true
+    }
+  ]
+}

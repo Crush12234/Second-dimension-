@@ -1,0 +1,1900 @@
+{
+  "contentVersion": "RECRUIT_AUTOGEN_010_1.0",
+  "recipeCount": 43,
+  "authority": "Derived from Content Authority 002 classes, weapon trees, and weapon families.",
+  "recipes": [
+    {
+      "id": "BUILD010_GUARDIAN_SWORD",
+      "classId": "CLASS_GUARDIAN",
+      "classDisplayName": "Guardian",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_SWORD",
+      "weaponFamilyDisplayName": "Swords",
+      "weaponTreeId": "TREE_CA002_WPN_SWORD",
+      "weaponRootNodeId": "TREE_CA002_WPN_SWORD_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_SWORD_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_EARTH",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_GUARDIAN",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_COMMANDER",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_PROVOCATION"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 70,
+        "Mystic": 25,
+        "Restoration": 35,
+        "Support": 55,
+        "Guard": 95,
+        "Tactical": 65
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_SWORD_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_SWORD_VANGUARD_T1",
+      "equipmentTagsGranted": [
+        "SWORD"
+      ],
+      "visualRigFamilyId": "RIG010_HEAVY_SWORD",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_GUARDIAN_GREAT_WEAPON",
+      "classId": "CLASS_GUARDIAN",
+      "classDisplayName": "Guardian",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "weaponFamilyDisplayName": "Great Weapons",
+      "weaponTreeId": "TREE_CA002_WPN_GREAT_WEAPON",
+      "weaponRootNodeId": "TREE_CA002_WPN_GREAT_WEAPON_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_GREAT_WEAPON_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_EARTH",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_GUARDIAN",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_COMMANDER",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_PROVOCATION"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 70,
+        "Mystic": 25,
+        "Restoration": 35,
+        "Support": 55,
+        "Guard": 95,
+        "Tactical": 65
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_GREAT_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_GREAT_BREAKER_T1",
+      "equipmentTagsGranted": [
+        "GREAT_AXE",
+        "HAMMER",
+        "POLEARM"
+      ],
+      "visualRigFamilyId": "RIG010_HEAVY_GREAT_WEAPON",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_GUARDIAN_SPEAR_POLEARM",
+      "classId": "CLASS_GUARDIAN",
+      "classDisplayName": "Guardian",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "weaponFamilyDisplayName": "Spears and Polearms",
+      "weaponTreeId": "TREE_CA002_WPN_SPEAR_POLEARM",
+      "weaponRootNodeId": "TREE_CA002_WPN_SPEAR_POLEARM_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_SPEAR_POLEARM_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_EARTH",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_GUARDIAN",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_COMMANDER",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_PROVOCATION"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 70,
+        "Mystic": 25,
+        "Restoration": 35,
+        "Support": 55,
+        "Guard": 95,
+        "Tactical": 65
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_SPEAR_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_SPEAR_LANCER_T1",
+      "equipmentTagsGranted": [
+        "SPEAR",
+        "POLEARM"
+      ],
+      "visualRigFamilyId": "RIG010_HEAVY_SPEAR_POLEARM",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_GUARDIAN_SHIELD",
+      "classId": "CLASS_GUARDIAN",
+      "classDisplayName": "Guardian",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_SHIELD",
+      "weaponFamilyDisplayName": "Shields",
+      "weaponTreeId": "TREE_CA002_WPN_SHIELD",
+      "weaponRootNodeId": "TREE_CA002_WPN_SHIELD_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_SHIELD_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_EARTH",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_GUARDIAN",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_COMMANDER",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_PROVOCATION"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 70,
+        "Mystic": 25,
+        "Restoration": 35,
+        "Support": 55,
+        "Guard": 95,
+        "Tactical": 65
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_SHIELD_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_SHIELD_BASTION_T1",
+      "equipmentTagsGranted": [
+        "SHIELD",
+        "WARD_BUCKLER",
+        "SHIELD_COMPATIBLE"
+      ],
+      "visualRigFamilyId": "RIG010_HEAVY_SHIELD",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_WARRIOR_SWORD",
+      "classId": "CLASS_WARRIOR",
+      "classDisplayName": "Warrior",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_SWORD",
+      "weaponFamilyDisplayName": "Swords",
+      "weaponTreeId": "TREE_CA002_WPN_SWORD",
+      "weaponRootNodeId": "TREE_CA002_WPN_SWORD_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_SWORD_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FLAME",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_EARTH"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_BREAKER",
+        "TREE_CA002_ROLE_DUELIST",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_PROVOCATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 95,
+        "Mystic": 25,
+        "Restoration": 20,
+        "Support": 35,
+        "Guard": 65,
+        "Tactical": 60
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_SWORD_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_SWORD_VANGUARD_T1",
+      "equipmentTagsGranted": [
+        "SWORD"
+      ],
+      "visualRigFamilyId": "RIG010_HEAVY_SWORD",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_WARRIOR_GREAT_WEAPON",
+      "classId": "CLASS_WARRIOR",
+      "classDisplayName": "Warrior",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "weaponFamilyDisplayName": "Great Weapons",
+      "weaponTreeId": "TREE_CA002_WPN_GREAT_WEAPON",
+      "weaponRootNodeId": "TREE_CA002_WPN_GREAT_WEAPON_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_GREAT_WEAPON_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FLAME",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_EARTH"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_BREAKER",
+        "TREE_CA002_ROLE_DUELIST",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_PROVOCATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 95,
+        "Mystic": 25,
+        "Restoration": 20,
+        "Support": 35,
+        "Guard": 65,
+        "Tactical": 60
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_GREAT_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_GREAT_BREAKER_T1",
+      "equipmentTagsGranted": [
+        "GREAT_AXE",
+        "HAMMER",
+        "POLEARM"
+      ],
+      "visualRigFamilyId": "RIG010_HEAVY_GREAT_WEAPON",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_WARRIOR_AXE",
+      "classId": "CLASS_WARRIOR",
+      "classDisplayName": "Warrior",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_AXE",
+      "weaponFamilyDisplayName": "Axes",
+      "weaponTreeId": "TREE_CA002_WPN_AXE",
+      "weaponRootNodeId": "TREE_CA002_WPN_AXE_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_AXE_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FLAME",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_EARTH"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_BREAKER",
+        "TREE_CA002_ROLE_DUELIST",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_PROVOCATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 95,
+        "Mystic": 25,
+        "Restoration": 20,
+        "Support": 35,
+        "Guard": 65,
+        "Tactical": 60
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_AXE_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_AXE_CLEAVER_T1",
+      "equipmentTagsGranted": [
+        "GREAT_AXE",
+        "AXE"
+      ],
+      "visualRigFamilyId": "RIG010_HEAVY_AXE",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_WARRIOR_SPEAR_POLEARM",
+      "classId": "CLASS_WARRIOR",
+      "classDisplayName": "Warrior",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "weaponFamilyDisplayName": "Spears and Polearms",
+      "weaponTreeId": "TREE_CA002_WPN_SPEAR_POLEARM",
+      "weaponRootNodeId": "TREE_CA002_WPN_SPEAR_POLEARM_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_SPEAR_POLEARM_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FLAME",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_EARTH"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_BREAKER",
+        "TREE_CA002_ROLE_DUELIST",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_PROVOCATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 95,
+        "Mystic": 25,
+        "Restoration": 20,
+        "Support": 35,
+        "Guard": 65,
+        "Tactical": 60
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_SPEAR_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_SPEAR_LANCER_T1",
+      "equipmentTagsGranted": [
+        "SPEAR",
+        "POLEARM"
+      ],
+      "visualRigFamilyId": "RIG010_HEAVY_SPEAR_POLEARM",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_WARRIOR_GAUNTLET",
+      "classId": "CLASS_WARRIOR",
+      "classDisplayName": "Warrior",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_GAUNTLET",
+      "weaponFamilyDisplayName": "Gauntlets and Unarmed Implements",
+      "weaponTreeId": "TREE_CA002_WPN_GAUNTLET",
+      "weaponRootNodeId": "TREE_CA002_WPN_GAUNTLET_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_GAUNTLET_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FLAME",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_EARTH"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_BREAKER",
+        "TREE_CA002_ROLE_DUELIST",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_PROVOCATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 95,
+        "Mystic": 25,
+        "Restoration": 20,
+        "Support": 35,
+        "Guard": 65,
+        "Tactical": 60
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_GAUNTLET_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_GAUNTLET_PUGILIST_T1",
+      "equipmentTagsGranted": [
+        "UNARMED",
+        "GAUNTLET"
+      ],
+      "visualRigFamilyId": "RIG010_HEAVY_GAUNTLET",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_RANGER_SPEAR_POLEARM",
+      "classId": "CLASS_RANGER",
+      "classDisplayName": "Ranger",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "weaponFamilyDisplayName": "Spears and Polearms",
+      "weaponTreeId": "TREE_CA002_WPN_SPEAR_POLEARM",
+      "weaponRootNodeId": "TREE_CA002_WPN_SPEAR_POLEARM_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_SPEAR_POLEARM_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FROST",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_RESTORATION"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_SCOUT",
+        "TREE_CA002_ROLE_SABOTEUR",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM"
+      ],
+      "disciplineAffinities": {
+        "Martial": 75,
+        "Mystic": 40,
+        "Restoration": 35,
+        "Support": 55,
+        "Guard": 35,
+        "Tactical": 95
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_SPEAR_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_SPEAR_LANCER_T1",
+      "equipmentTagsGranted": [
+        "SPEAR",
+        "POLEARM"
+      ],
+      "visualRigFamilyId": "RIG010_LIGHT_SPEAR_POLEARM",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_RANGER_BOW",
+      "classId": "CLASS_RANGER",
+      "classDisplayName": "Ranger",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_BOW",
+      "weaponFamilyDisplayName": "Bows",
+      "weaponTreeId": "TREE_CA002_WPN_BOW",
+      "weaponRootNodeId": "TREE_CA002_WPN_BOW_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_BOW_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FROST",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_RESTORATION"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_SCOUT",
+        "TREE_CA002_ROLE_SABOTEUR",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM"
+      ],
+      "disciplineAffinities": {
+        "Martial": 75,
+        "Mystic": 40,
+        "Restoration": 35,
+        "Support": 55,
+        "Guard": 35,
+        "Tactical": 95
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_BOW_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_BOW_MARKSMAN_T1",
+      "equipmentTagsGranted": [
+        "BOW",
+        "SHORTBOW",
+        "LONGBOW"
+      ],
+      "visualRigFamilyId": "RIG010_LIGHT_BOW",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_RANGER_DAGGER",
+      "classId": "CLASS_RANGER",
+      "classDisplayName": "Ranger",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_DAGGER",
+      "weaponFamilyDisplayName": "Daggers",
+      "weaponTreeId": "TREE_CA002_WPN_DAGGER",
+      "weaponRootNodeId": "TREE_CA002_WPN_DAGGER_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_DAGGER_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FROST",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_RESTORATION"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_SCOUT",
+        "TREE_CA002_ROLE_SABOTEUR",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM"
+      ],
+      "disciplineAffinities": {
+        "Martial": 75,
+        "Mystic": 40,
+        "Restoration": 35,
+        "Support": 55,
+        "Guard": 35,
+        "Tactical": 95
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_DAGGER_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_DAGGER_ASSASSIN_T1",
+      "equipmentTagsGranted": [
+        "DAGGER"
+      ],
+      "visualRigFamilyId": "RIG010_LIGHT_DAGGER",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_RANGER_ENGINEERING_TOOL",
+      "classId": "CLASS_RANGER",
+      "classDisplayName": "Ranger",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "weaponFamilyDisplayName": "Engineering Weapons and Tools",
+      "weaponTreeId": "TREE_CA002_WPN_ENGINEERING",
+      "weaponRootNodeId": "TREE_CA002_WPN_ENGINEERING_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_ENGINEERING_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FROST",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_RESTORATION"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_SCOUT",
+        "TREE_CA002_ROLE_SABOTEUR",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM"
+      ],
+      "disciplineAffinities": {
+        "Martial": 75,
+        "Mystic": 40,
+        "Restoration": 35,
+        "Support": 55,
+        "Guard": 35,
+        "Tactical": 95
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_ENGINEERING_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_ENGINEERING_DEMOLITION_T1",
+      "equipmentTagsGranted": [
+        "TOOL",
+        "ARCANE_CONDUCTOR",
+        "SIGNAL_HORN",
+        "SIGNAL_KIT",
+        "ALCHEMY"
+      ],
+      "visualRigFamilyId": "RIG010_LIGHT_ENGINEERING_TOOL",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_ROGUE_SWORD",
+      "classId": "CLASS_ROGUE",
+      "classDisplayName": "Rogue",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_SWORD",
+      "weaponFamilyDisplayName": "Swords",
+      "weaponTreeId": "TREE_CA002_WPN_SWORD",
+      "weaponRootNodeId": "TREE_CA002_WPN_SWORD_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_SWORD_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_SHADOW"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_DUELIST",
+        "TREE_CA002_ROLE_SCOUT",
+        "TREE_CA002_ROLE_SABOTEUR",
+        "TREE_CA002_ROLE_PROVOCATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT"
+      ],
+      "disciplineAffinities": {
+        "Martial": 75,
+        "Mystic": 45,
+        "Restoration": 20,
+        "Support": 65,
+        "Guard": 30,
+        "Tactical": 95
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_SWORD_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_SWORD_VANGUARD_T1",
+      "equipmentTagsGranted": [
+        "SWORD"
+      ],
+      "visualRigFamilyId": "RIG010_LIGHT_SWORD",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_ROGUE_BOW",
+      "classId": "CLASS_ROGUE",
+      "classDisplayName": "Rogue",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_BOW",
+      "weaponFamilyDisplayName": "Bows",
+      "weaponTreeId": "TREE_CA002_WPN_BOW",
+      "weaponRootNodeId": "TREE_CA002_WPN_BOW_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_BOW_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_SHADOW"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_DUELIST",
+        "TREE_CA002_ROLE_SCOUT",
+        "TREE_CA002_ROLE_SABOTEUR",
+        "TREE_CA002_ROLE_PROVOCATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT"
+      ],
+      "disciplineAffinities": {
+        "Martial": 75,
+        "Mystic": 45,
+        "Restoration": 20,
+        "Support": 65,
+        "Guard": 30,
+        "Tactical": 95
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_BOW_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_BOW_MARKSMAN_T1",
+      "equipmentTagsGranted": [
+        "BOW",
+        "SHORTBOW",
+        "LONGBOW"
+      ],
+      "visualRigFamilyId": "RIG010_LIGHT_BOW",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_ROGUE_DAGGER",
+      "classId": "CLASS_ROGUE",
+      "classDisplayName": "Rogue",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_DAGGER",
+      "weaponFamilyDisplayName": "Daggers",
+      "weaponTreeId": "TREE_CA002_WPN_DAGGER",
+      "weaponRootNodeId": "TREE_CA002_WPN_DAGGER_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_DAGGER_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_SHADOW"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_DUELIST",
+        "TREE_CA002_ROLE_SCOUT",
+        "TREE_CA002_ROLE_SABOTEUR",
+        "TREE_CA002_ROLE_PROVOCATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT"
+      ],
+      "disciplineAffinities": {
+        "Martial": 75,
+        "Mystic": 45,
+        "Restoration": 20,
+        "Support": 65,
+        "Guard": 30,
+        "Tactical": 95
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_DAGGER_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_DAGGER_ASSASSIN_T1",
+      "equipmentTagsGranted": [
+        "DAGGER"
+      ],
+      "visualRigFamilyId": "RIG010_LIGHT_DAGGER",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_ROGUE_GAUNTLET",
+      "classId": "CLASS_ROGUE",
+      "classDisplayName": "Rogue",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_GAUNTLET",
+      "weaponFamilyDisplayName": "Gauntlets and Unarmed Implements",
+      "weaponTreeId": "TREE_CA002_WPN_GAUNTLET",
+      "weaponRootNodeId": "TREE_CA002_WPN_GAUNTLET_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_GAUNTLET_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_SHADOW"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_DUELIST",
+        "TREE_CA002_ROLE_SCOUT",
+        "TREE_CA002_ROLE_SABOTEUR",
+        "TREE_CA002_ROLE_PROVOCATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT"
+      ],
+      "disciplineAffinities": {
+        "Martial": 75,
+        "Mystic": 45,
+        "Restoration": 20,
+        "Support": 65,
+        "Guard": 30,
+        "Tactical": 95
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_GAUNTLET_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_GAUNTLET_PUGILIST_T1",
+      "equipmentTagsGranted": [
+        "UNARMED",
+        "GAUNTLET"
+      ],
+      "visualRigFamilyId": "RIG010_LIGHT_GAUNTLET",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_MAGE_STAFF",
+      "classId": "CLASS_MAGE",
+      "classDisplayName": "Mage",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_STAFF",
+      "weaponFamilyDisplayName": "Staves",
+      "weaponTreeId": "TREE_CA002_WPN_STAFF",
+      "weaponRootNodeId": "TREE_CA002_WPN_STAFF_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_STAFF_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FLAME",
+        "TREE_CA002_MYS_FROST",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_EARTH",
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_SHADOW",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_SABOTEUR",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT"
+      ],
+      "disciplineAffinities": {
+        "Martial": 20,
+        "Mystic": 100,
+        "Restoration": 45,
+        "Support": 75,
+        "Guard": 25,
+        "Tactical": 55
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_STAFF_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_STAFF_ARCANIST_T1",
+      "equipmentTagsGranted": [
+        "STAFF"
+      ],
+      "visualRigFamilyId": "RIG010_LIGHT_STAFF",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_MAGE_FOCUS",
+      "classId": "CLASS_MAGE",
+      "classDisplayName": "Mage",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_FOCUS",
+      "weaponFamilyDisplayName": "Catalysts and Foci",
+      "weaponTreeId": "TREE_CA002_WPN_FOCUS",
+      "weaponRootNodeId": "TREE_CA002_WPN_FOCUS_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_FOCUS_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FLAME",
+        "TREE_CA002_MYS_FROST",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_EARTH",
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_SHADOW",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_SABOTEUR",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT"
+      ],
+      "disciplineAffinities": {
+        "Martial": 20,
+        "Mystic": 100,
+        "Restoration": 45,
+        "Support": 75,
+        "Guard": 25,
+        "Tactical": 55
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_FOCUS_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_FOCUS_HEX_T1",
+      "equipmentTagsGranted": [
+        "FOCUS_TOOL",
+        "WAND",
+        "FOCUS"
+      ],
+      "visualRigFamilyId": "RIG010_LIGHT_FOCUS",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_MAGE_ENGINEERING_TOOL",
+      "classId": "CLASS_MAGE",
+      "classDisplayName": "Mage",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "weaponFamilyDisplayName": "Engineering Weapons and Tools",
+      "weaponTreeId": "TREE_CA002_WPN_ENGINEERING",
+      "weaponRootNodeId": "TREE_CA002_WPN_ENGINEERING_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_ENGINEERING_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FLAME",
+        "TREE_CA002_MYS_FROST",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_EARTH",
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_SHADOW",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_SABOTEUR",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT"
+      ],
+      "disciplineAffinities": {
+        "Martial": 20,
+        "Mystic": 100,
+        "Restoration": 45,
+        "Support": 75,
+        "Guard": 25,
+        "Tactical": 55
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_ENGINEERING_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_ENGINEERING_DEMOLITION_T1",
+      "equipmentTagsGranted": [
+        "TOOL",
+        "ARCANE_CONDUCTOR",
+        "SIGNAL_HORN",
+        "SIGNAL_KIT",
+        "ALCHEMY"
+      ],
+      "visualRigFamilyId": "RIG010_LIGHT_ENGINEERING_TOOL",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_MAGE_HYBRID_RELIC_WEAPON",
+      "classId": "CLASS_MAGE",
+      "classDisplayName": "Mage",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "weaponFamilyDisplayName": "Hybrid Relic Weapons",
+      "weaponTreeId": "TREE_CA002_WPN_HYBRID_RELIC",
+      "weaponRootNodeId": "TREE_CA002_WPN_HYBRID_RELIC_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_HYBRID_RELIC_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FLAME",
+        "TREE_CA002_MYS_FROST",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_EARTH",
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_SHADOW",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_SABOTEUR",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT"
+      ],
+      "disciplineAffinities": {
+        "Martial": 20,
+        "Mystic": 100,
+        "Restoration": 45,
+        "Support": 75,
+        "Guard": 25,
+        "Tactical": 55
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_HYBRID_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_HYBRID_SPELLBLADE_T1",
+      "equipmentTagsGranted": [
+        "HYBRID_RELIC",
+        "SWORD",
+        "FOCUS_TOOL"
+      ],
+      "visualRigFamilyId": "RIG010_LIGHT_HYBRID_RELIC_WEAPON",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_PRIEST_SHIELD",
+      "classId": "CLASS_PRIEST",
+      "classDisplayName": "Priest",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_SHIELD",
+      "weaponFamilyDisplayName": "Shields",
+      "weaponTreeId": "TREE_CA002_WPN_SHIELD",
+      "weaponRootNodeId": "TREE_CA002_WPN_SHIELD_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_SHIELD_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FROST",
+        "TREE_CA002_MYS_EARTH",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_GUARDIAN",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_COMMANDER",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM"
+      ],
+      "disciplineAffinities": {
+        "Martial": 30,
+        "Mystic": 60,
+        "Restoration": 100,
+        "Support": 90,
+        "Guard": 55,
+        "Tactical": 45
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_SHIELD_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_SHIELD_BASTION_T1",
+      "equipmentTagsGranted": [
+        "SHIELD",
+        "WARD_BUCKLER",
+        "SHIELD_COMPATIBLE"
+      ],
+      "visualRigFamilyId": "RIG010_LIGHT_SHIELD",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_PRIEST_STAFF",
+      "classId": "CLASS_PRIEST",
+      "classDisplayName": "Priest",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_STAFF",
+      "weaponFamilyDisplayName": "Staves",
+      "weaponTreeId": "TREE_CA002_WPN_STAFF",
+      "weaponRootNodeId": "TREE_CA002_WPN_STAFF_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_STAFF_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FROST",
+        "TREE_CA002_MYS_EARTH",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_GUARDIAN",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_COMMANDER",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM"
+      ],
+      "disciplineAffinities": {
+        "Martial": 30,
+        "Mystic": 60,
+        "Restoration": 100,
+        "Support": 90,
+        "Guard": 55,
+        "Tactical": 45
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_STAFF_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_STAFF_ARCANIST_T1",
+      "equipmentTagsGranted": [
+        "STAFF"
+      ],
+      "visualRigFamilyId": "RIG010_LIGHT_STAFF",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_PRIEST_FOCUS",
+      "classId": "CLASS_PRIEST",
+      "classDisplayName": "Priest",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_FOCUS",
+      "weaponFamilyDisplayName": "Catalysts and Foci",
+      "weaponTreeId": "TREE_CA002_WPN_FOCUS",
+      "weaponRootNodeId": "TREE_CA002_WPN_FOCUS_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_FOCUS_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FROST",
+        "TREE_CA002_MYS_EARTH",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_GUARDIAN",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_COMMANDER",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM"
+      ],
+      "disciplineAffinities": {
+        "Martial": 30,
+        "Mystic": 60,
+        "Restoration": 100,
+        "Support": 90,
+        "Guard": 55,
+        "Tactical": 45
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_FOCUS_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_FOCUS_HEX_T1",
+      "equipmentTagsGranted": [
+        "FOCUS_TOOL",
+        "WAND",
+        "FOCUS"
+      ],
+      "visualRigFamilyId": "RIG010_LIGHT_FOCUS",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_PRIEST_HYBRID_RELIC_WEAPON",
+      "classId": "CLASS_PRIEST",
+      "classDisplayName": "Priest",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "weaponFamilyDisplayName": "Hybrid Relic Weapons",
+      "weaponTreeId": "TREE_CA002_WPN_HYBRID_RELIC",
+      "weaponRootNodeId": "TREE_CA002_WPN_HYBRID_RELIC_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_HYBRID_RELIC_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FROST",
+        "TREE_CA002_MYS_EARTH",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_GUARDIAN",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_COMMANDER",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM"
+      ],
+      "disciplineAffinities": {
+        "Martial": 30,
+        "Mystic": 60,
+        "Restoration": 100,
+        "Support": 90,
+        "Guard": 55,
+        "Tactical": 45
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_HYBRID_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_HYBRID_SPELLBLADE_T1",
+      "equipmentTagsGranted": [
+        "HYBRID_RELIC",
+        "SWORD",
+        "FOCUS_TOOL"
+      ],
+      "visualRigFamilyId": "RIG010_LIGHT_HYBRID_RELIC_WEAPON",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_SPELLBLADE_SWORD",
+      "classId": "CLASS_SPELLBLADE",
+      "classDisplayName": "Spellblade",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_SWORD",
+      "weaponFamilyDisplayName": "Swords",
+      "weaponTreeId": "TREE_CA002_WPN_SWORD",
+      "weaponRootNodeId": "TREE_CA002_WPN_SWORD_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_SWORD_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FLAME",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_SHADOW"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_BREAKER",
+        "TREE_CA002_ROLE_DUELIST",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 88,
+        "Mystic": 82,
+        "Restoration": 30,
+        "Support": 48,
+        "Guard": 52,
+        "Tactical": 72
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_SWORD_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_SWORD_VANGUARD_T1",
+      "equipmentTagsGranted": [
+        "SWORD"
+      ],
+      "visualRigFamilyId": "RIG010_HEAVY_SWORD",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_SPELLBLADE_AXE",
+      "classId": "CLASS_SPELLBLADE",
+      "classDisplayName": "Spellblade",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_AXE",
+      "weaponFamilyDisplayName": "Axes",
+      "weaponTreeId": "TREE_CA002_WPN_AXE",
+      "weaponRootNodeId": "TREE_CA002_WPN_AXE_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_AXE_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FLAME",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_SHADOW"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_BREAKER",
+        "TREE_CA002_ROLE_DUELIST",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 88,
+        "Mystic": 82,
+        "Restoration": 30,
+        "Support": 48,
+        "Guard": 52,
+        "Tactical": 72
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_AXE_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_AXE_CLEAVER_T1",
+      "equipmentTagsGranted": [
+        "GREAT_AXE",
+        "AXE"
+      ],
+      "visualRigFamilyId": "RIG010_HEAVY_AXE",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_SPELLBLADE_SPEAR_POLEARM",
+      "classId": "CLASS_SPELLBLADE",
+      "classDisplayName": "Spellblade",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "weaponFamilyDisplayName": "Spears and Polearms",
+      "weaponTreeId": "TREE_CA002_WPN_SPEAR_POLEARM",
+      "weaponRootNodeId": "TREE_CA002_WPN_SPEAR_POLEARM_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_SPEAR_POLEARM_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FLAME",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_SHADOW"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_BREAKER",
+        "TREE_CA002_ROLE_DUELIST",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 88,
+        "Mystic": 82,
+        "Restoration": 30,
+        "Support": 48,
+        "Guard": 52,
+        "Tactical": 72
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_SPEAR_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_SPEAR_LANCER_T1",
+      "equipmentTagsGranted": [
+        "SPEAR",
+        "POLEARM"
+      ],
+      "visualRigFamilyId": "RIG010_HEAVY_SPEAR_POLEARM",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_SPELLBLADE_HYBRID_RELIC_WEAPON",
+      "classId": "CLASS_SPELLBLADE",
+      "classDisplayName": "Spellblade",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "weaponFamilyDisplayName": "Hybrid Relic Weapons",
+      "weaponTreeId": "TREE_CA002_WPN_HYBRID_RELIC",
+      "weaponRootNodeId": "TREE_CA002_WPN_HYBRID_RELIC_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_HYBRID_RELIC_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FLAME",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_SHADOW"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_BREAKER",
+        "TREE_CA002_ROLE_DUELIST",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 88,
+        "Mystic": 82,
+        "Restoration": 30,
+        "Support": 48,
+        "Guard": 52,
+        "Tactical": 72
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_HYBRID_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_HYBRID_SPELLBLADE_T1",
+      "equipmentTagsGranted": [
+        "HYBRID_RELIC",
+        "SWORD",
+        "FOCUS_TOOL"
+      ],
+      "visualRigFamilyId": "RIG010_HEAVY_HYBRID_RELIC_WEAPON",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_WARDEN_SPEAR_POLEARM",
+      "classId": "CLASS_WARDEN",
+      "classDisplayName": "Warden",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "weaponFamilyDisplayName": "Spears and Polearms",
+      "weaponTreeId": "TREE_CA002_WPN_SPEAR_POLEARM",
+      "weaponRootNodeId": "TREE_CA002_WPN_SPEAR_POLEARM_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_SPEAR_POLEARM_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FROST",
+        "TREE_CA002_MYS_EARTH",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_GUARDIAN",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_COMMANDER",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 58,
+        "Mystic": 60,
+        "Restoration": 92,
+        "Support": 82,
+        "Guard": 90,
+        "Tactical": 72
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_SPEAR_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_SPEAR_LANCER_T1",
+      "equipmentTagsGranted": [
+        "SPEAR",
+        "POLEARM"
+      ],
+      "visualRigFamilyId": "RIG010_HEAVY_SPEAR_POLEARM",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_WARDEN_SHIELD",
+      "classId": "CLASS_WARDEN",
+      "classDisplayName": "Warden",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_SHIELD",
+      "weaponFamilyDisplayName": "Shields",
+      "weaponTreeId": "TREE_CA002_WPN_SHIELD",
+      "weaponRootNodeId": "TREE_CA002_WPN_SHIELD_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_SHIELD_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FROST",
+        "TREE_CA002_MYS_EARTH",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_GUARDIAN",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_COMMANDER",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 58,
+        "Mystic": 60,
+        "Restoration": 92,
+        "Support": 82,
+        "Guard": 90,
+        "Tactical": 72
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_SHIELD_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_SHIELD_BASTION_T1",
+      "equipmentTagsGranted": [
+        "SHIELD",
+        "WARD_BUCKLER",
+        "SHIELD_COMPATIBLE"
+      ],
+      "visualRigFamilyId": "RIG010_HEAVY_SHIELD",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_WARDEN_STAFF",
+      "classId": "CLASS_WARDEN",
+      "classDisplayName": "Warden",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_STAFF",
+      "weaponFamilyDisplayName": "Staves",
+      "weaponTreeId": "TREE_CA002_WPN_STAFF",
+      "weaponRootNodeId": "TREE_CA002_WPN_STAFF_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_STAFF_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FROST",
+        "TREE_CA002_MYS_EARTH",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_GUARDIAN",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_COMMANDER",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 58,
+        "Mystic": 60,
+        "Restoration": 92,
+        "Support": 82,
+        "Guard": 90,
+        "Tactical": 72
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_STAFF_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_STAFF_ARCANIST_T1",
+      "equipmentTagsGranted": [
+        "STAFF"
+      ],
+      "visualRigFamilyId": "RIG010_HEAVY_STAFF",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_WARDEN_FOCUS",
+      "classId": "CLASS_WARDEN",
+      "classDisplayName": "Warden",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_FOCUS",
+      "weaponFamilyDisplayName": "Catalysts and Foci",
+      "weaponTreeId": "TREE_CA002_WPN_FOCUS",
+      "weaponRootNodeId": "TREE_CA002_WPN_FOCUS_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_FOCUS_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FROST",
+        "TREE_CA002_MYS_EARTH",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_GUARDIAN",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_COMMANDER",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 58,
+        "Mystic": 60,
+        "Restoration": 92,
+        "Support": 82,
+        "Guard": 90,
+        "Tactical": 72
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_FOCUS_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_FOCUS_HEX_T1",
+      "equipmentTagsGranted": [
+        "FOCUS_TOOL",
+        "WAND",
+        "FOCUS"
+      ],
+      "visualRigFamilyId": "RIG010_HEAVY_FOCUS",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_WARDEN_HYBRID_RELIC_WEAPON",
+      "classId": "CLASS_WARDEN",
+      "classDisplayName": "Warden",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "weaponFamilyDisplayName": "Hybrid Relic Weapons",
+      "weaponTreeId": "TREE_CA002_WPN_HYBRID_RELIC",
+      "weaponRootNodeId": "TREE_CA002_WPN_HYBRID_RELIC_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_HYBRID_RELIC_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FROST",
+        "TREE_CA002_MYS_EARTH",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_GUARDIAN",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_COMMANDER",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 58,
+        "Mystic": 60,
+        "Restoration": 92,
+        "Support": 82,
+        "Guard": 90,
+        "Tactical": 72
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_HYBRID_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_HYBRID_SPELLBLADE_T1",
+      "equipmentTagsGranted": [
+        "HYBRID_RELIC",
+        "SWORD",
+        "FOCUS_TOOL"
+      ],
+      "visualRigFamilyId": "RIG010_HEAVY_HYBRID_RELIC_WEAPON",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_TACTICIAN_SWORD",
+      "classId": "CLASS_TACTICIAN",
+      "classDisplayName": "Tactician",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_SWORD",
+      "weaponFamilyDisplayName": "Swords",
+      "weaponTreeId": "TREE_CA002_WPN_SWORD",
+      "weaponRootNodeId": "TREE_CA002_WPN_SWORD_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_SWORD_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_SCOUT",
+        "TREE_CA002_ROLE_SABOTEUR",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_COMMANDER",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM"
+      ],
+      "disciplineAffinities": {
+        "Martial": 48,
+        "Mystic": 58,
+        "Restoration": 50,
+        "Support": 88,
+        "Guard": 52,
+        "Tactical": 100
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_SWORD_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_SWORD_VANGUARD_T1",
+      "equipmentTagsGranted": [
+        "SWORD"
+      ],
+      "visualRigFamilyId": "RIG010_LIGHT_SWORD",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_TACTICIAN_BOW",
+      "classId": "CLASS_TACTICIAN",
+      "classDisplayName": "Tactician",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_BOW",
+      "weaponFamilyDisplayName": "Bows",
+      "weaponTreeId": "TREE_CA002_WPN_BOW",
+      "weaponRootNodeId": "TREE_CA002_WPN_BOW_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_BOW_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_SCOUT",
+        "TREE_CA002_ROLE_SABOTEUR",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_COMMANDER",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM"
+      ],
+      "disciplineAffinities": {
+        "Martial": 48,
+        "Mystic": 58,
+        "Restoration": 50,
+        "Support": 88,
+        "Guard": 52,
+        "Tactical": 100
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_BOW_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_BOW_MARKSMAN_T1",
+      "equipmentTagsGranted": [
+        "BOW",
+        "SHORTBOW",
+        "LONGBOW"
+      ],
+      "visualRigFamilyId": "RIG010_LIGHT_BOW",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_TACTICIAN_DAGGER",
+      "classId": "CLASS_TACTICIAN",
+      "classDisplayName": "Tactician",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_DAGGER",
+      "weaponFamilyDisplayName": "Daggers",
+      "weaponTreeId": "TREE_CA002_WPN_DAGGER",
+      "weaponRootNodeId": "TREE_CA002_WPN_DAGGER_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_DAGGER_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_SCOUT",
+        "TREE_CA002_ROLE_SABOTEUR",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_COMMANDER",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM"
+      ],
+      "disciplineAffinities": {
+        "Martial": 48,
+        "Mystic": 58,
+        "Restoration": 50,
+        "Support": 88,
+        "Guard": 52,
+        "Tactical": 100
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_DAGGER_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_DAGGER_ASSASSIN_T1",
+      "equipmentTagsGranted": [
+        "DAGGER"
+      ],
+      "visualRigFamilyId": "RIG010_LIGHT_DAGGER",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_TACTICIAN_FOCUS",
+      "classId": "CLASS_TACTICIAN",
+      "classDisplayName": "Tactician",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_FOCUS",
+      "weaponFamilyDisplayName": "Catalysts and Foci",
+      "weaponTreeId": "TREE_CA002_WPN_FOCUS",
+      "weaponRootNodeId": "TREE_CA002_WPN_FOCUS_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_FOCUS_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_SCOUT",
+        "TREE_CA002_ROLE_SABOTEUR",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_COMMANDER",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM"
+      ],
+      "disciplineAffinities": {
+        "Martial": 48,
+        "Mystic": 58,
+        "Restoration": 50,
+        "Support": 88,
+        "Guard": 52,
+        "Tactical": 100
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_FOCUS_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_FOCUS_HEX_T1",
+      "equipmentTagsGranted": [
+        "FOCUS_TOOL",
+        "WAND",
+        "FOCUS"
+      ],
+      "visualRigFamilyId": "RIG010_LIGHT_FOCUS",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_TACTICIAN_ENGINEERING_TOOL",
+      "classId": "CLASS_TACTICIAN",
+      "classDisplayName": "Tactician",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "weaponFamilyDisplayName": "Engineering Weapons and Tools",
+      "weaponTreeId": "TREE_CA002_WPN_ENGINEERING",
+      "weaponRootNodeId": "TREE_CA002_WPN_ENGINEERING_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_ENGINEERING_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_SCOUT",
+        "TREE_CA002_ROLE_SABOTEUR",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_COMMANDER",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM"
+      ],
+      "disciplineAffinities": {
+        "Martial": 48,
+        "Mystic": 58,
+        "Restoration": 50,
+        "Support": 88,
+        "Guard": 52,
+        "Tactical": 100
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_ENGINEERING_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_ENGINEERING_DEMOLITION_T1",
+      "equipmentTagsGranted": [
+        "TOOL",
+        "ARCANE_CONDUCTOR",
+        "SIGNAL_HORN",
+        "SIGNAL_KIT",
+        "ALCHEMY"
+      ],
+      "visualRigFamilyId": "RIG010_LIGHT_ENGINEERING_TOOL",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_TACTICIAN_HYBRID_RELIC_WEAPON",
+      "classId": "CLASS_TACTICIAN",
+      "classDisplayName": "Tactician",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "weaponFamilyDisplayName": "Hybrid Relic Weapons",
+      "weaponTreeId": "TREE_CA002_WPN_HYBRID_RELIC",
+      "weaponRootNodeId": "TREE_CA002_WPN_HYBRID_RELIC_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_HYBRID_RELIC_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_SCOUT",
+        "TREE_CA002_ROLE_SABOTEUR",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_COMMANDER",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM"
+      ],
+      "disciplineAffinities": {
+        "Martial": 48,
+        "Mystic": 58,
+        "Restoration": 50,
+        "Support": 88,
+        "Guard": 52,
+        "Tactical": 100
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_HYBRID_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_HYBRID_SPELLBLADE_T1",
+      "equipmentTagsGranted": [
+        "HYBRID_RELIC",
+        "SWORD",
+        "FOCUS_TOOL"
+      ],
+      "visualRigFamilyId": "RIG010_LIGHT_HYBRID_RELIC_WEAPON",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_BERSERKER_GREAT_WEAPON",
+      "classId": "CLASS_BERSERKER",
+      "classDisplayName": "Berserker",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "weaponFamilyDisplayName": "Great Weapons",
+      "weaponTreeId": "TREE_CA002_WPN_GREAT_WEAPON",
+      "weaponRootNodeId": "TREE_CA002_WPN_GREAT_WEAPON_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_GREAT_WEAPON_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FLAME",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_SHADOW"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_BREAKER",
+        "TREE_CA002_ROLE_DUELIST",
+        "TREE_CA002_ROLE_PROVOCATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 100,
+        "Mystic": 42,
+        "Restoration": 12,
+        "Support": 22,
+        "Guard": 48,
+        "Tactical": 42
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_GREAT_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_GREAT_BREAKER_T1",
+      "equipmentTagsGranted": [
+        "GREAT_AXE",
+        "HAMMER",
+        "POLEARM"
+      ],
+      "visualRigFamilyId": "RIG010_HEAVY_GREAT_WEAPON",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_BERSERKER_AXE",
+      "classId": "CLASS_BERSERKER",
+      "classDisplayName": "Berserker",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_AXE",
+      "weaponFamilyDisplayName": "Axes",
+      "weaponTreeId": "TREE_CA002_WPN_AXE",
+      "weaponRootNodeId": "TREE_CA002_WPN_AXE_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_AXE_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FLAME",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_SHADOW"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_BREAKER",
+        "TREE_CA002_ROLE_DUELIST",
+        "TREE_CA002_ROLE_PROVOCATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 100,
+        "Mystic": 42,
+        "Restoration": 12,
+        "Support": 22,
+        "Guard": 48,
+        "Tactical": 42
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_AXE_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_AXE_CLEAVER_T1",
+      "equipmentTagsGranted": [
+        "GREAT_AXE",
+        "AXE"
+      ],
+      "visualRigFamilyId": "RIG010_HEAVY_AXE",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    },
+    {
+      "id": "BUILD010_BERSERKER_GAUNTLET",
+      "classId": "CLASS_BERSERKER",
+      "classDisplayName": "Berserker",
+      "fixedWeaponFamilyId": "WEAPON_FAMILY_GAUNTLET",
+      "weaponFamilyDisplayName": "Gauntlets and Unarmed Implements",
+      "weaponTreeId": "TREE_CA002_WPN_GAUNTLET",
+      "weaponRootNodeId": "TREE_CA002_WPN_GAUNTLET_N01",
+      "weaponSecondNodeId": "TREE_CA002_WPN_GAUNTLET_N02",
+      "allowedMysticTreeIds": [
+        "TREE_CA002_MYS_FLAME",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_SHADOW"
+      ],
+      "allowedRoleTreeIds": [
+        "TREE_CA002_ROLE_BREAKER",
+        "TREE_CA002_ROLE_DUELIST",
+        "TREE_CA002_ROLE_PROVOCATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "armorWeights": [
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 100,
+        "Mystic": 42,
+        "Restoration": 12,
+        "Support": 22,
+        "Guard": 48,
+        "Tactical": 42
+      },
+      "trainingWeaponDefinitionId": "CA002_WPN_GAUNTLET_TRAINING",
+      "firstFieldWeaponDefinitionId": "CA002_WPN_GAUNTLET_PUGILIST_T1",
+      "equipmentTagsGranted": [
+        "UNARMED",
+        "GAUNTLET"
+      ],
+      "visualRigFamilyId": "RIG010_HEAVY_GAUNTLET",
+      "startingNodeLaw": "Weapon root always starts learned. A second node may start learned only from authored Signature authority or a deterministic high-potential rule.",
+      "standardModeLaw": "The player never clicks the member Art. This build contributes legal predicted Arts to complete Union Forecasts."
+    }
+  ]
+}

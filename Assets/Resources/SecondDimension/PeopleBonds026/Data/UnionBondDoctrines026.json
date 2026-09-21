@@ -1,0 +1,124 @@
+{
+  "doctrines": [
+    {
+      "doctrineId": "BOND_DOCTRINE026_00",
+      "displayName": "Bond Doctrine 1",
+      "minimumBondTierId": "BOND_TIER026_1",
+      "preferredForecastIntent": "Protect",
+      "cohesionBonus": 2,
+      "linkArtWeightBasisPoints": 250,
+      "directMemberSelection": false,
+      "summary": "Changes complete Forecast weighting without exposing individual member controls."
+    },
+    {
+      "doctrineId": "BOND_DOCTRINE026_01",
+      "displayName": "Bond Doctrine 2",
+      "minimumBondTierId": "BOND_TIER026_2",
+      "preferredForecastIntent": "Assault",
+      "cohesionBonus": 3,
+      "linkArtWeightBasisPoints": 350,
+      "directMemberSelection": false,
+      "summary": "Changes complete Forecast weighting without exposing individual member controls."
+    },
+    {
+      "doctrineId": "BOND_DOCTRINE026_02",
+      "displayName": "Bond Doctrine 3",
+      "minimumBondTierId": "BOND_TIER026_3",
+      "preferredForecastIntent": "Restore",
+      "cohesionBonus": 4,
+      "linkArtWeightBasisPoints": 450,
+      "directMemberSelection": false,
+      "summary": "Changes complete Forecast weighting without exposing individual member controls."
+    },
+    {
+      "doctrineId": "BOND_DOCTRINE026_03",
+      "displayName": "Bond Doctrine 4",
+      "minimumBondTierId": "BOND_TIER026_4",
+      "preferredForecastIntent": "Control",
+      "cohesionBonus": 5,
+      "linkArtWeightBasisPoints": 550,
+      "directMemberSelection": false,
+      "summary": "Changes complete Forecast weighting without exposing individual member controls."
+    },
+    {
+      "doctrineId": "BOND_DOCTRINE026_04",
+      "displayName": "Bond Doctrine 5",
+      "minimumBondTierId": "BOND_TIER026_5",
+      "preferredForecastIntent": "Support",
+      "cohesionBonus": 2,
+      "linkArtWeightBasisPoints": 650,
+      "directMemberSelection": false,
+      "summary": "Changes complete Forecast weighting without exposing individual member controls."
+    },
+    {
+      "doctrineId": "BOND_DOCTRINE026_05",
+      "displayName": "Bond Doctrine 6",
+      "minimumBondTierId": "BOND_TIER026_1",
+      "preferredForecastIntent": "Flank",
+      "cohesionBonus": 3,
+      "linkArtWeightBasisPoints": 250,
+      "directMemberSelection": false,
+      "summary": "Changes complete Forecast weighting without exposing individual member controls."
+    },
+    {
+      "doctrineId": "BOND_DOCTRINE026_06",
+      "displayName": "Bond Doctrine 7",
+      "minimumBondTierId": "BOND_TIER026_2",
+      "preferredForecastIntent": "Protect",
+      "cohesionBonus": 4,
+      "linkArtWeightBasisPoints": 350,
+      "directMemberSelection": false,
+      "summary": "Changes complete Forecast weighting without exposing individual member controls."
+    },
+    {
+      "doctrineId": "BOND_DOCTRINE026_07",
+      "displayName": "Bond Doctrine 8",
+      "minimumBondTierId": "BOND_TIER026_3",
+      "preferredForecastIntent": "Assault",
+      "cohesionBonus": 5,
+      "linkArtWeightBasisPoints": 450,
+      "directMemberSelection": false,
+      "summary": "Changes complete Forecast weighting without exposing individual member controls."
+    },
+    {
+      "doctrineId": "BOND_DOCTRINE026_08",
+      "displayName": "Bond Doctrine 9",
+      "minimumBondTierId": "BOND_TIER026_4",
+      "preferredForecastIntent": "Restore",
+      "cohesionBonus": 2,
+      "linkArtWeightBasisPoints": 550,
+      "directMemberSelection": false,
+      "summary": "Changes complete Forecast weighting without exposing individual member controls."
+    },
+    {
+      "doctrineId": "BOND_DOCTRINE026_09",
+      "displayName": "Bond Doctrine 10",
+      "minimumBondTierId": "BOND_TIER026_5",
+      "preferredForecastIntent": "Control",
+      "cohesionBonus": 3,
+      "linkArtWeightBasisPoints": 650,
+      "directMemberSelection": false,
+      "summary": "Changes complete Forecast weighting without exposing individual member controls."
+    },
+    {
+      "doctrineId": "BOND_DOCTRINE026_10",
+      "displayName": "Bond Doctrine 11",
+      "minimumBondTierId": "BOND_TIER026_1",
+      "preferredForecastIntent": "Support",
+      "cohesionBonus": 4,
+      "linkArtWeightBasisPoints": 250,
+      "directMemberSelection": false,
+      "summary": "Changes complete Forecast weighting without exposing individual member controls."
+    },
+    {
+      "doctrineId": "BOND_DOCTRINE026_11",
+      "displayName": "Bond Doctrine 12",
+      "minimumBondTierId": "BOND_TIER026_2",
+      "preferredForecastIntent": "Flank",
+      "cohesionBonus": 5,
+      "linkArtWeightBasisPoints": 350,
+      "directMemberSelection": false,
+      "summary": "Changes complete Forecast weighting without exposing individual member controls."
+    }
+  ]
+}

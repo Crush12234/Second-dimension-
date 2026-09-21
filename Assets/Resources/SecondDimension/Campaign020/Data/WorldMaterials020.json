@@ -1,0 +1,676 @@
+{
+  "materials": [
+    {
+      "materialId": "MAT020_SKYHOME_01",
+      "worldId": "SKYHOME",
+      "displayName": "Gate Iron",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_SKYHOME_02",
+      "worldId": "SKYHOME",
+      "displayName": "Salvaged Timber",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_SKYHOME_03",
+      "worldId": "SKYHOME",
+      "displayName": "Civic Stone",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_SKYHOME_04",
+      "worldId": "SKYHOME",
+      "displayName": "Gate Crystal",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_SKYHOME_05",
+      "worldId": "SKYHOME",
+      "displayName": "Archive Vellum",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_SKYHOME_06",
+      "worldId": "SKYHOME",
+      "displayName": "Patrol Brass",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_BEAST_01",
+      "worldId": "WORLD_BEASTKIN_003",
+      "displayName": "Moonfur Thread",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_BEAST_02",
+      "worldId": "WORLD_BEASTKIN_003",
+      "displayName": "Bearroot Wood",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_BEAST_03",
+      "worldId": "WORLD_BEASTKIN_003",
+      "displayName": "Skyfeather Plume",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_BEAST_04",
+      "worldId": "WORLD_BEASTKIN_003",
+      "displayName": "Foxfire Resin",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_BEAST_05",
+      "worldId": "WORLD_BEASTKIN_003",
+      "displayName": "Sunclaw Stone",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_BEAST_06",
+      "worldId": "WORLD_BEASTKIN_003",
+      "displayName": "Wildseed",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_BUNNY_01",
+      "worldId": "WORLD_BUNNY_006",
+      "displayName": "Roadbell Brass",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_BUNNY_02",
+      "worldId": "WORLD_BUNNY_006",
+      "displayName": "Orchard Fiber",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_BUNNY_03",
+      "worldId": "WORLD_BUNNY_006",
+      "displayName": "Golden Coinmetal",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_BUNNY_04",
+      "worldId": "WORLD_BUNNY_006",
+      "displayName": "Basket Reed",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_BUNNY_05",
+      "worldId": "WORLD_BUNNY_006",
+      "displayName": "Ledger Ink",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_BUNNY_06",
+      "worldId": "WORLD_BUNNY_006",
+      "displayName": "Granary Salt",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_DARKELF_01",
+      "worldId": "WORLD_DARK_ELF_005",
+      "displayName": "Veil Silver",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_DARKELF_02",
+      "worldId": "WORLD_DARK_ELF_005",
+      "displayName": "Blackroot Fiber",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_DARKELF_03",
+      "worldId": "WORLD_DARK_ELF_005",
+      "displayName": "Quiet Glass",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_DARKELF_04",
+      "worldId": "WORLD_DARK_ELF_005",
+      "displayName": "Lanternless Oil",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_DARKELF_05",
+      "worldId": "WORLD_DARK_ELF_005",
+      "displayName": "Archive Paper",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_DARKELF_06",
+      "worldId": "WORLD_DARK_ELF_005",
+      "displayName": "Truththorn",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_DEMON_01",
+      "worldId": "WORLD_DEMON_004",
+      "displayName": "Contract Ink",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_DEMON_02",
+      "worldId": "WORLD_DEMON_004",
+      "displayName": "Dreamglass",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_DEMON_03",
+      "worldId": "WORLD_DEMON_004",
+      "displayName": "Ember Silk",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_DEMON_04",
+      "worldId": "WORLD_DEMON_004",
+      "displayName": "Thorn Metal",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_DEMON_05",
+      "worldId": "WORLD_DEMON_004",
+      "displayName": "Crimson Paper",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_DEMON_06",
+      "worldId": "WORLD_DEMON_004",
+      "displayName": "Mercy Ash",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_DOG_01",
+      "worldId": "WORLD_DOG_007",
+      "displayName": "Stormpaw Hide",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_DOG_02",
+      "worldId": "WORLD_DOG_007",
+      "displayName": "Oathpost Iron",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_DOG_03",
+      "worldId": "WORLD_DOG_007",
+      "displayName": "Rivernose Reed",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_DOG_04",
+      "worldId": "WORLD_DOG_007",
+      "displayName": "Hearthhound Wool",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_DOG_05",
+      "worldId": "WORLD_DOG_007",
+      "displayName": "Graytrail Stone",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_DOG_06",
+      "worldId": "WORLD_DOG_007",
+      "displayName": "Scent Resin",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_GOBLIN_01",
+      "worldId": "WORLD_GOBLIN_001",
+      "displayName": "Gearsteel",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_GOBLIN_02",
+      "worldId": "WORLD_GOBLIN_001",
+      "displayName": "Lantern Glass",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_GOBLIN_03",
+      "worldId": "WORLD_GOBLIN_001",
+      "displayName": "Promise Resin",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_GOBLIN_04",
+      "worldId": "WORLD_GOBLIN_001",
+      "displayName": "Calendar Brass",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_GOBLIN_05",
+      "worldId": "WORLD_GOBLIN_001",
+      "displayName": "Burrow Silk",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_GOBLIN_06",
+      "worldId": "WORLD_GOBLIN_001",
+      "displayName": "Rust-Clean Salt",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_ORC_01",
+      "worldId": "WORLD_ORC_002",
+      "displayName": "Hearth Iron",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_ORC_02",
+      "worldId": "WORLD_ORC_002",
+      "displayName": "Banner Hide",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_ORC_03",
+      "worldId": "WORLD_ORC_002",
+      "displayName": "Salt-Tusk Bone",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_ORC_04",
+      "worldId": "WORLD_ORC_002",
+      "displayName": "Shieldwood",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_ORC_05",
+      "worldId": "WORLD_ORC_002",
+      "displayName": "Arena Stone",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    },
+    {
+      "materialId": "MAT020_ORC_06",
+      "worldId": "WORLD_ORC_002",
+      "displayName": "Shame Ink",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true
+    }
+  ]
+}

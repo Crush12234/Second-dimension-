@@ -1,0 +1,754 @@
+{
+  "templates": [
+    {
+      "templateId": "PROCQUEST025_00",
+      "displayName": "Procedural Chronicle Template 1",
+      "themeTags": [
+        "DUTY"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_01",
+      "displayName": "Procedural Chronicle Template 2",
+      "themeTags": [
+        "FEAR"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_02",
+      "displayName": "Procedural Chronicle Template 3",
+      "themeTags": [
+        "AMBITION"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_03",
+      "displayName": "Procedural Chronicle Template 4",
+      "themeTags": [
+        "HOME"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_04",
+      "displayName": "Procedural Chronicle Template 5",
+      "themeTags": [
+        "MENTORSHIP"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_05",
+      "displayName": "Procedural Chronicle Template 6",
+      "themeTags": [
+        "CIVIC"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_06",
+      "displayName": "Procedural Chronicle Template 7",
+      "themeTags": [
+        "DUTY"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_07",
+      "displayName": "Procedural Chronicle Template 8",
+      "themeTags": [
+        "FEAR"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_08",
+      "displayName": "Procedural Chronicle Template 9",
+      "themeTags": [
+        "AMBITION"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_09",
+      "displayName": "Procedural Chronicle Template 10",
+      "themeTags": [
+        "HOME"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_10",
+      "displayName": "Procedural Chronicle Template 11",
+      "themeTags": [
+        "MENTORSHIP"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_11",
+      "displayName": "Procedural Chronicle Template 12",
+      "themeTags": [
+        "CIVIC"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_12",
+      "displayName": "Procedural Chronicle Template 13",
+      "themeTags": [
+        "DUTY"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_13",
+      "displayName": "Procedural Chronicle Template 14",
+      "themeTags": [
+        "FEAR"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_14",
+      "displayName": "Procedural Chronicle Template 15",
+      "themeTags": [
+        "AMBITION"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_15",
+      "displayName": "Procedural Chronicle Template 16",
+      "themeTags": [
+        "HOME"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_16",
+      "displayName": "Procedural Chronicle Template 17",
+      "themeTags": [
+        "MENTORSHIP"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_17",
+      "displayName": "Procedural Chronicle Template 18",
+      "themeTags": [
+        "CIVIC"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_18",
+      "displayName": "Procedural Chronicle Template 19",
+      "themeTags": [
+        "DUTY"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_19",
+      "displayName": "Procedural Chronicle Template 20",
+      "themeTags": [
+        "FEAR"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_20",
+      "displayName": "Procedural Chronicle Template 21",
+      "themeTags": [
+        "AMBITION"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_21",
+      "displayName": "Procedural Chronicle Template 22",
+      "themeTags": [
+        "HOME"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_22",
+      "displayName": "Procedural Chronicle Template 23",
+      "themeTags": [
+        "MENTORSHIP"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_23",
+      "displayName": "Procedural Chronicle Template 24",
+      "themeTags": [
+        "CIVIC"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_24",
+      "displayName": "Procedural Chronicle Template 25",
+      "themeTags": [
+        "DUTY"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_25",
+      "displayName": "Procedural Chronicle Template 26",
+      "themeTags": [
+        "FEAR"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_26",
+      "displayName": "Procedural Chronicle Template 27",
+      "themeTags": [
+        "AMBITION"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_27",
+      "displayName": "Procedural Chronicle Template 28",
+      "themeTags": [
+        "HOME"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_28",
+      "displayName": "Procedural Chronicle Template 29",
+      "themeTags": [
+        "MENTORSHIP"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    },
+    {
+      "templateId": "PROCQUEST025_29",
+      "displayName": "Procedural Chronicle Template 30",
+      "themeTags": [
+        "CIVIC"
+      ],
+      "nodePattern": [
+        "START",
+        "EVENT",
+        "CHECK",
+        "CAMP",
+        "CHOICE",
+        "BATTLE",
+        "EVENT",
+        "CHECK",
+        "OBJECTIVE",
+        "RETURN"
+      ],
+      "deterministicSeedParts": [
+        "campaignSeed",
+        "recruitId",
+        "templateId"
+      ],
+      "canCauseDeparture": false
+    }
+  ]
+}

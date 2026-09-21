@@ -1,0 +1,198 @@
+{
+  "routes": [
+    {
+      "travelId": "TRAVEL020_SKYHOME",
+      "worldId": "SKYHOME",
+      "displayName": "Skyhome and the First City",
+      "gateOrHub": "First Fortress / First Gate",
+      "unlockGates": [
+        "STORY_GATE_OPENING_GUILD"
+      ],
+      "mapIds": [],
+      "timeLaw": "Second Dimension baseline operational time.",
+      "travelCost": {
+        "supplies": 0,
+        "materials": []
+      },
+      "returnToSkyhomeAlwaysAvailableAfterCommit": true,
+      "realTimeTimer": false,
+      "committedBeforeTransition": true
+    },
+    {
+      "travelId": "TRAVEL020_BEAST",
+      "worldId": "WORLD_BEASTKIN_003",
+      "displayName": "Beastkin Territories",
+      "gateOrHub": "Beast Moon Territories / Open Court",
+      "unlockGates": [
+        "COMPLETE:ARC018_ORC_WORLD",
+        "OWNER_OR_CAMPAIGN_ORDER_APPROVAL"
+      ],
+      "mapIds": [
+        "MAP018_BEASTKIN_WORLD",
+        "MAP018_BEASTKIN_CAMPAIGN_ROUTE",
+        "MAP018_BEASTKIN_FORTRESS"
+      ],
+      "timeLaw": "Seasonal anomaly counters; no final global time law is asserted.",
+      "travelCost": {
+        "supplies": 3,
+        "materials": [
+          "MAT020_BEAST_01"
+        ]
+      },
+      "returnToSkyhomeAlwaysAvailableAfterCommit": true,
+      "realTimeTimer": false,
+      "committedBeforeTransition": true
+    },
+    {
+      "travelId": "TRAVEL020_BUNNY",
+      "worldId": "WORLD_BUNNY_006",
+      "displayName": "Bunny Trade Nations",
+      "gateOrHub": "Warrenhall / Roadbell",
+      "unlockGates": [
+        "COMPLETE:ARC018_DARK_ELF_WORLD",
+        "OWNER_OR_CAMPAIGN_ORDER_APPROVAL"
+      ],
+      "mapIds": [
+        "MAP018_BUNNY_WORLD",
+        "MAP018_BUNNY_CAMPAIGN_ROUTE",
+        "MAP018_BUNNY_FORTRESS"
+      ],
+      "timeLaw": "Trade-route delivery counters; no universal numeric conversion is asserted.",
+      "travelCost": {
+        "supplies": 4,
+        "materials": [
+          "MAT020_BUNNY_01"
+        ]
+      },
+      "returnToSkyhomeAlwaysAvailableAfterCommit": true,
+      "realTimeTimer": false,
+      "committedBeforeTransition": true
+    },
+    {
+      "travelId": "TRAVEL020_DARKELF",
+      "worldId": "WORLD_DARK_ELF_005",
+      "displayName": "Dark Elf Territories",
+      "gateOrHub": "Duskwood / Silverquiet",
+      "unlockGates": [
+        "COMPLETE:ARC018_DEMON_WORLD",
+        "OWNER_OR_CAMPAIGN_ORDER_APPROVAL"
+      ],
+      "mapIds": [
+        "MAP018_DARKELF_WORLD",
+        "MAP018_DARKELF_CAMPAIGN_ROUTE",
+        "MAP018_DARKELF_FORTRESS"
+      ],
+      "timeLaw": "Archive-era counters; no universal numeric conversion is asserted.",
+      "travelCost": {
+        "supplies": 5,
+        "materials": [
+          "MAT020_DARKELF_01"
+        ]
+      },
+      "returnToSkyhomeAlwaysAvailableAfterCommit": true,
+      "realTimeTimer": false,
+      "committedBeforeTransition": true
+    },
+    {
+      "travelId": "TRAVEL020_DEMON",
+      "worldId": "WORLD_DEMON_004",
+      "displayName": "Demon Realms",
+      "gateOrHub": "Demon Empire / Contractum",
+      "unlockGates": [
+        "COMPLETE:ARC018_BEASTKIN_WORLD",
+        "OWNER_OR_CAMPAIGN_ORDER_APPROVAL"
+      ],
+      "mapIds": [
+        "MAP018_DEMON_WORLD",
+        "MAP018_DEMON_CAMPAIGN_ROUTE",
+        "MAP018_DEMON_FORTRESS"
+      ],
+      "timeLaw": "Contract and reign counters; deeper temporal irregularities remain unconfirmed.",
+      "travelCost": {
+        "supplies": 6,
+        "materials": [
+          "MAT020_DEMON_01"
+        ]
+      },
+      "returnToSkyhomeAlwaysAvailableAfterCommit": true,
+      "realTimeTimer": false,
+      "committedBeforeTransition": true
+    },
+    {
+      "travelId": "TRAVEL020_DOG",
+      "worldId": "WORLD_DOG_007",
+      "displayName": "Dog Tribe Frontiers",
+      "gateOrHub": "Stormpaw Hold / Oathpost",
+      "unlockGates": [
+        "COMPLETE:ARC018_BUNNY_WORLD",
+        "OWNER_OR_CAMPAIGN_ORDER_APPROVAL"
+      ],
+      "mapIds": [
+        "MAP018_DOG_WORLD",
+        "MAP018_DOG_CAMPAIGN_ROUTE",
+        "MAP018_DOG_FORTRESS"
+      ],
+      "timeLaw": "Patrol-cycle and oath-renewal counters; no universal numeric conversion is asserted.",
+      "travelCost": {
+        "supplies": 7,
+        "materials": [
+          "MAT020_DOG_01"
+        ]
+      },
+      "returnToSkyhomeAlwaysAvailableAfterCommit": true,
+      "realTimeTimer": false,
+      "committedBeforeTransition": true
+    },
+    {
+      "travelId": "TRAVEL020_GOBLIN",
+      "worldId": "WORLD_GOBLIN_001",
+      "displayName": "Goblin World",
+      "gateOrHub": "Goblin Fortress",
+      "unlockGates": [
+        "COMPLETE:ARC018_LAST_TREASURY",
+        "STORY:KAEL_IN_ENDLESS_ABYSS",
+        "STORY:FOUNDERS_SECOND_EVOLUTION_COMPLETE"
+      ],
+      "mapIds": [
+        "MAP018_GOBLIN_WORLD",
+        "MAP018_GOBLIN_CAMPAIGN_ROUTE",
+        "MAP018_GOBLIN_FORTRESS"
+      ],
+      "timeLaw": "1 Second Dimension day equals 1 Goblin World month.",
+      "travelCost": {
+        "supplies": 8,
+        "materials": [
+          "MAT020_GOBLIN_01"
+        ]
+      },
+      "returnToSkyhomeAlwaysAvailableAfterCommit": true,
+      "realTimeTimer": false,
+      "committedBeforeTransition": true
+    },
+    {
+      "travelId": "TRAVEL020_ORC",
+      "worldId": "WORLD_ORC_002",
+      "displayName": "Orc World",
+      "gateOrHub": "Orc Blood Plains / Tuskgate",
+      "unlockGates": [
+        "COMPLETE:ARC018_GOBLIN_WORLD",
+        "OWNER_OR_CAMPAIGN_ORDER_APPROVAL"
+      ],
+      "mapIds": [
+        "MAP018_ORC_WORLD",
+        "MAP018_ORC_CAMPAIGN_ROUTE",
+        "MAP018_ORC_FORTRESS"
+      ],
+      "timeLaw": "Unconfirmed; use local operational days until a later gate authority resolves it.",
+      "travelCost": {
+        "supplies": 9,
+        "materials": [
+          "MAT020_ORC_01"
+        ]
+      },
+      "returnToSkyhomeAlwaysAvailableAfterCommit": true,
+      "realTimeTimer": false,
+      "committedBeforeTransition": true
+    }
+  ]
+}

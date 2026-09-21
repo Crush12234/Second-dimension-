@@ -1,0 +1,13 @@
+# Preserve the verified source bytes. Artwork is stored in ordinary Git.
+* -text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.fbx binary
+*.psd binary
+*.tga binary
+*.ico binary
+*.gz binary

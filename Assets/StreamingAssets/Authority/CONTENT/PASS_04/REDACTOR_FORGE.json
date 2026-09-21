@@ -1,0 +1,94 @@
+{
+  "contentVersion": "GOW_PASS04_0.9",
+  "authorization": {
+    "accepted": [
+      "AUTHOR_SEAL",
+      "VAULTBEARER_SEAL"
+    ],
+    "publicCodesAccepted": false,
+    "privateSigningKeyIncluded": false
+  },
+  "operations": [
+    {
+      "id": "REDACTOR_ADD_MODIFIER",
+      "baseEditShardCost": 3,
+      "limit": "Edited modifier capacity"
+    },
+    {
+      "id": "REDACTOR_REPLACE_AFFIX",
+      "baseEditShardCost": 2,
+      "limit": "Cannot replace Chosen consent or required history"
+    },
+    {
+      "id": "REDACTOR_ALTER_QUALITY",
+      "baseEditShardCost": 4,
+      "limit": "Maximum Edited Relic; no Great Summon ownership"
+    },
+    {
+      "id": "REDACTOR_REMOVE_ORDINARY_RESTRICTION",
+      "baseEditShardCost": 3,
+      "limit": "Technical legality and animation support required"
+    },
+    {
+      "id": "REDACTOR_CHANGE_WEAPON_FAMILY",
+      "baseEditShardCost": 5,
+      "limit": "Only compatible mesh/Art families"
+    },
+    {
+      "id": "REDACTOR_ADD_UNION_EFFECT",
+      "baseEditShardCost": 4,
+      "limit": "Capped, no infinite loop"
+    },
+    {
+      "id": "REDACTOR_ALTER_LEARNING",
+      "baseEditShardCost": 3,
+      "limit": "Meaningful-use gate remains"
+    },
+    {
+      "id": "REDACTOR_ALTER_INVOCATION",
+      "baseEditShardCost": 5,
+      "limit": "Echo action remains System-selected"
+    },
+    {
+      "id": "REDACTOR_BIND_RECRUIT",
+      "baseEditShardCost": 1,
+      "limit": "Player-approved and reversible"
+    },
+    {
+      "id": "REDACTOR_RENAME",
+      "baseEditShardCost": 0,
+      "limit": "Text moderation and save length"
+    },
+    {
+      "id": "REDACTOR_WRITE_DESCRIPTION",
+      "baseEditShardCost": 0,
+      "limit": "Text moderation and save length"
+    },
+    {
+      "id": "REDACTOR_COPY_COSMETIC",
+      "baseEditShardCost": 1,
+      "limit": "Appearance only"
+    }
+  ],
+  "modifierCapacityByQuality": {
+    "SERVICEABLE": 1,
+    "MASTERWORK": 2,
+    "RESONANT": 2,
+    "STORIED": 3,
+    "EVOLVED": 3,
+    "EDITED_RELIC": 4
+  },
+  "undoRule": "Last uncommitted edit may be undone at no cost; committed edits require a new authorized operation and remain in history.",
+  "unlimitedAuthorForge": {
+    "requiresValidPrivateAuthorization": true,
+    "removesShardCost": true,
+    "doesNotRemoveSafetyCaps": true
+  },
+  "saveFields": [
+    "authorizationTokenFingerprint",
+    "editShardBalance",
+    "committedOperations",
+    "undoBuffer",
+    "itemHistoryEvents"
+  ]
+}

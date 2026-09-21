@@ -1,0 +1,68 @@
+{
+  "ContentVersion": "GATES_OF_FORGOTTEN_WORLDS_018B_1.0",
+  "TimeLaws": [
+    {
+      "WorldId": "WORLD_SKYHOME",
+      "Status": "LOCKED_CANON",
+      "SecondDimensionDaysNumerator": 1,
+      "LocalDaysDenominator": 1,
+      "Summary": "Skyhome uses standard Second Dimension time."
+    },
+    {
+      "WorldId": "WORLD_SKYHOME_WARFRONT",
+      "Status": "LOCKED_CANON",
+      "SecondDimensionDaysNumerator": 1,
+      "LocalDaysDenominator": 1,
+      "Summary": "The surface war and Skyhome share the same time."
+    },
+    {
+      "WorldId": "WORLD_GOBLIN_FORTRESS",
+      "Status": "LOCKED_CANON",
+      "SecondDimensionDaysNumerator": 1,
+      "LocalDaysDenominator": 1,
+      "Summary": "The captured fortress is in the Second Dimension."
+    },
+    {
+      "WorldId": "WORLD_GOBLIN_UNDERREALM",
+      "Status": "LOCKED_CANON",
+      "SecondDimensionDaysNumerator": 1,
+      "LocalDaysDenominator": 30,
+      "Summary": "One Second Dimension day equals approximately one Goblin World month."
+    },
+    {
+      "WorldId": "WORLD_GOBLIN_RESTORATION",
+      "Status": "LOCKED_CANON",
+      "SecondDimensionDaysNumerator": 1,
+      "LocalDaysDenominator": 30,
+      "Summary": "Restoration activity below follows the Goblin World accelerated time law."
+    },
+    {
+      "WorldId": "WORLD_FIRST_GATE_ECHO",
+      "Status": "FUTURE_CANDIDATE",
+      "SecondDimensionDaysNumerator": 1,
+      "LocalDaysDenominator": 1,
+      "Summary": "Candidate baseline until a later canon source locks a different relationship."
+    },
+    {
+      "WorldId": "WORLD_ORC_BLOOD_PLAINS",
+      "Status": "OWNER_GATED_CANDIDATE",
+      "SecondDimensionDaysNumerator": 1,
+      "LocalDaysDenominator": 1,
+      "Summary": "Owner-gated candidate; not locked canon."
+    },
+    {
+      "WorldId": "WORLD_BEAST_MOON",
+      "Status": "OWNER_GATED_CANDIDATE",
+      "SecondDimensionDaysNumerator": 1,
+      "LocalDaysDenominator": 3,
+      "Summary": "Owner-gated presentation candidate; local seasons advance faster."
+    },
+    {
+      "WorldId": "WORLD_DEMON_EMPIRE",
+      "Status": "OWNER_GATED_CANDIDATE",
+      "SecondDimensionDaysNumerator": 1,
+      "LocalDaysDenominator": 2,
+      "Summary": "Owner-gated candidate; emotional-magic cycles shape local timekeeping."
+    }
+  ]
+}

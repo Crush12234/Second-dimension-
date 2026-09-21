@@ -1,0 +1,480 @@
+{
+  "bosses": [
+    {
+      "id": "BOSS018_GOBLIN_01",
+      "worldId": "WORLD_GOBLIN_001",
+      "name": "King Varrik the Invoice-Maker",
+      "encounterRole": "POLITICAL_COMMANDER",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 2,
+      "objectiveHook": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "rewardTheme": "diplomacy"
+    },
+    {
+      "id": "BOSS018_GOBLIN_02",
+      "worldId": "WORLD_GOBLIN_001",
+      "name": "Saint-Emperor Gedd",
+      "encounterRole": "ELITE_UNION",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 2,
+      "objectiveHook": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "rewardTheme": "formation"
+    },
+    {
+      "id": "BOSS018_GOBLIN_03",
+      "worldId": "WORLD_GOBLIN_001",
+      "name": "The Seven Foremen of Smoke",
+      "encounterRole": "INSTITUTIONAL_BOSS",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 2,
+      "objectiveHook": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "rewardTheme": "equipment evolution"
+    },
+    {
+      "id": "BOSS018_GOBLIN_04",
+      "worldId": "WORLD_GOBLIN_001",
+      "name": "The Rust Plague Engine",
+      "encounterRole": "SYSTEM_OR_MONSTER_THREAT",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 3,
+      "objectiveHook": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "rewardTheme": "city specialization"
+    },
+    {
+      "id": "BOSS018_ORC_01",
+      "worldId": "WORLD_ORC_002",
+      "name": "Karv Blood-Tax",
+      "encounterRole": "POLITICAL_COMMANDER",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 2,
+      "objectiveHook": "Can a race built on war redefine strength?",
+      "rewardTheme": "diplomacy"
+    },
+    {
+      "id": "BOSS018_ORC_02",
+      "worldId": "WORLD_ORC_002",
+      "name": "The Arena Saints",
+      "encounterRole": "ELITE_UNION",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 2,
+      "objectiveHook": "Can a race built on war redefine strength?",
+      "rewardTheme": "formation"
+    },
+    {
+      "id": "BOSS018_ORC_03",
+      "worldId": "WORLD_ORC_002",
+      "name": "Groth the Lesson-Maker",
+      "encounterRole": "INSTITUTIONAL_BOSS",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 2,
+      "objectiveHook": "Can a race built on war redefine strength?",
+      "rewardTheme": "equipment evolution"
+    },
+    {
+      "id": "BOSS018_ORC_04",
+      "worldId": "WORLD_ORC_002",
+      "name": "The Last Child-Spear Champion",
+      "encounterRole": "SYSTEM_OR_MONSTER_THREAT",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 3,
+      "objectiveHook": "Can a race built on war redefine strength?",
+      "rewardTheme": "city specialization"
+    },
+    {
+      "id": "BOSS018_BEASTKIN_01",
+      "worldId": "WORLD_BEASTKIN_003",
+      "name": "The Golden Cage Duke",
+      "encounterRole": "POLITICAL_COMMANDER",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 2,
+      "objectiveHook": "Does civilization protect nature or destroy it?",
+      "rewardTheme": "diplomacy"
+    },
+    {
+      "id": "BOSS018_BEASTKIN_02",
+      "worldId": "WORLD_BEASTKIN_003",
+      "name": "Huntress Mara of the Blood Moon",
+      "encounterRole": "ELITE_UNION",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 2,
+      "objectiveHook": "Does civilization protect nature or destroy it?",
+      "rewardTheme": "formation"
+    },
+    {
+      "id": "BOSS018_BEASTKIN_03",
+      "worldId": "WORLD_BEASTKIN_003",
+      "name": "The Collar-Makers",
+      "encounterRole": "INSTITUTIONAL_BOSS",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 2,
+      "objectiveHook": "Does civilization protect nature or destroy it?",
+      "rewardTheme": "equipment evolution"
+    },
+    {
+      "id": "BOSS018_BEASTKIN_04",
+      "worldId": "WORLD_BEASTKIN_003",
+      "name": "The Winter Alpha",
+      "encounterRole": "SYSTEM_OR_MONSTER_THREAT",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 3,
+      "objectiveHook": "Does civilization protect nature or destroy it?",
+      "rewardTheme": "city specialization"
+    },
+    {
+      "id": "BOSS018_DEMON_01",
+      "worldId": "WORLD_DEMON_004",
+      "name": "Duke Varos of the Living Signature",
+      "encounterRole": "POLITICAL_COMMANDER",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 2,
+      "objectiveHook": "Can those feared as monsters ever be trusted?",
+      "rewardTheme": "diplomacy"
+    },
+    {
+      "id": "BOSS018_DEMON_02",
+      "worldId": "WORLD_DEMON_004",
+      "name": "The Red Judge",
+      "encounterRole": "ELITE_UNION",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 2,
+      "objectiveHook": "Can those feared as monsters ever be trusted?",
+      "rewardTheme": "formation"
+    },
+    {
+      "id": "BOSS018_DEMON_03",
+      "worldId": "WORLD_DEMON_004",
+      "name": "The Choir of Purchased Names",
+      "encounterRole": "INSTITUTIONAL_BOSS",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 2,
+      "objectiveHook": "Can those feared as monsters ever be trusted?",
+      "rewardTheme": "equipment evolution"
+    },
+    {
+      "id": "BOSS018_DEMON_04",
+      "worldId": "WORLD_DEMON_004",
+      "name": "The Forbidden Library Warden",
+      "encounterRole": "SYSTEM_OR_MONSTER_THREAT",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 3,
+      "objectiveHook": "Can those feared as monsters ever be trusted?",
+      "rewardTheme": "city specialization"
+    },
+    {
+      "id": "BOSS018_DARKELF_01",
+      "worldId": "WORLD_DARK_ELF_005",
+      "name": "The Peace Regent",
+      "encounterRole": "POLITICAL_COMMANDER",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 2,
+      "objectiveHook": "Is a painful truth better than a peaceful lie?",
+      "rewardTheme": "diplomacy"
+    },
+    {
+      "id": "BOSS018_DARKELF_02",
+      "worldId": "WORLD_DARK_ELF_005",
+      "name": "Archivist Vorn",
+      "encounterRole": "ELITE_UNION",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 2,
+      "objectiveHook": "Is a painful truth better than a peaceful lie?",
+      "rewardTheme": "formation"
+    },
+    {
+      "id": "BOSS018_DARKELF_03",
+      "worldId": "WORLD_DARK_ELF_005",
+      "name": "The Three Kindly Assassins",
+      "encounterRole": "INSTITUTIONAL_BOSS",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 2,
+      "objectiveHook": "Is a painful truth better than a peaceful lie?",
+      "rewardTheme": "equipment evolution"
+    },
+    {
+      "id": "BOSS018_DARKELF_04",
+      "worldId": "WORLD_DARK_ELF_005",
+      "name": "The Vanishing Census Engine",
+      "encounterRole": "SYSTEM_OR_MONSTER_THREAT",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 3,
+      "objectiveHook": "Is a painful truth better than a peaceful lie?",
+      "rewardTheme": "city specialization"
+    },
+    {
+      "id": "BOSS018_BUNNY_01",
+      "worldId": "WORLD_BUNNY_006",
+      "name": "Baron Usury Bloom",
+      "encounterRole": "POLITICAL_COMMANDER",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 2,
+      "objectiveHook": "Can everything have a price?",
+      "rewardTheme": "diplomacy"
+    },
+    {
+      "id": "BOSS018_BUNNY_02",
+      "worldId": "WORLD_BUNNY_006",
+      "name": "The Salt Hoarders",
+      "encounterRole": "ELITE_UNION",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 2,
+      "objectiveHook": "Can everything have a price?",
+      "rewardTheme": "formation"
+    },
+    {
+      "id": "BOSS018_BUNNY_03",
+      "worldId": "WORLD_BUNNY_006",
+      "name": "The Smiling Auction House",
+      "encounterRole": "INSTITUTIONAL_BOSS",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 2,
+      "objectiveHook": "Can everything have a price?",
+      "rewardTheme": "equipment evolution"
+    },
+    {
+      "id": "BOSS018_BUNNY_04",
+      "worldId": "WORLD_BUNNY_006",
+      "name": "The Debt Colossus",
+      "encounterRole": "SYSTEM_OR_MONSTER_THREAT",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 3,
+      "objectiveHook": "Can everything have a price?",
+      "rewardTheme": "city specialization"
+    },
+    {
+      "id": "BOSS018_DOG_01",
+      "worldId": "WORLD_DOG_007",
+      "name": "The Oath-Eater",
+      "encounterRole": "POLITICAL_COMMANDER",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 2,
+      "objectiveHook": "What happens when loyalty and morality disagree?",
+      "rewardTheme": "diplomacy"
+    },
+    {
+      "id": "BOSS018_DOG_02",
+      "worldId": "WORLD_DOG_007",
+      "name": "General Brakk Loyal-To-Orders",
+      "encounterRole": "ELITE_UNION",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 2,
+      "objectiveHook": "What happens when loyalty and morality disagree?",
+      "rewardTheme": "formation"
+    },
+    {
+      "id": "BOSS018_DOG_03",
+      "worldId": "WORLD_DOG_007",
+      "name": "The Collar Captain",
+      "encounterRole": "INSTITUTIONAL_BOSS",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 2,
+      "objectiveHook": "What happens when loyalty and morality disagree?",
+      "rewardTheme": "equipment evolution"
+    },
+    {
+      "id": "BOSS018_DOG_04",
+      "worldId": "WORLD_DOG_007",
+      "name": "The False Scent Packleader",
+      "encounterRole": "SYSTEM_OR_MONSTER_THREAT",
+      "resolutionModes": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "mustNotRequireExecution": true,
+      "usesCertifiedUnionBattle": true,
+      "phaseCount": 3,
+      "objectiveHook": "What happens when loyalty and morality disagree?",
+      "rewardTheme": "city specialization"
+    }
+  ]
+}

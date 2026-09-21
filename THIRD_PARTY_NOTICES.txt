@@ -1,0 +1,130 @@
+SECOND DIMENSION - GUILD OF WORLDS
+THIRD-PARTY SOFTWARE AND ASSET NOTICES
+
+Canonical provenance record:
+  Documentation/AssetProvenance/asset-provenance.v1.json
+
+This notice was migrated from the locally verified Final030 notice on
+2026-09-02. Hashes below were rechecked against the current project binaries.
+Project-generated origin statements are provenance facts, not a declaration of
+commercial clearance. Their provider terms and studio release approval remain
+pending unless the canonical manifest says otherwise.
+
+1. QUATERNIUS CHARACTER PIPELINE PROXY
+---------------------------------------
+Bundled project file:
+  Assets/SecondDimension/ProductionSlice014/MarenHolt/Generated/Model/
+  Maren_Holt_CC0_Prototype.fbx
+
+Original asset: Adventurer.fbx, from Ultimate Modular Women
+Creator/source: Quaternius
+Official pack: https://quaternius.com/packs/ultimatemodularwomen.html
+Asset page: https://poly.pizza/m/ZwF0K7WBmu
+License: CC0 1.0 Universal / public-domain dedication
+CC0 deed: https://creativecommons.org/publicdomain/zero/1.0/
+Bundled SHA-256:
+  D9181685C06BA8F720BDA59AB915FCB912272EC9EE335EAD8C69C5991B935B94
+
+The license basis and binary identity are locally verified. This character is
+bundled only as an explicitly labeled low-poly pipeline proxy. It is not the
+approved or final Maren Holt likeness and is marked REPLACEMENT_REQUIRED.
+
+2. QUATERNIUS EQUIPMENT PIPELINE PROXIES
+-----------------------------------------
+Bundled project files:
+  Assets/SecondDimension/ProductionSlice014/MarenHolt/Generated/Equipment/
+  Maren_Holt_Spear_CC0.fbx
+  Maren_Holt_Shield_CC0.fbx
+
+Original assets: Spear.fbx and Shield_Heater_2.fbx, from Medieval Weapons
+Creator/source: Quaternius
+Official pack: https://quaternius.com/packs/medievalweapons.html
+Spear page: https://poly.pizza/m/fH1zmvjPNx
+Heater shield page: https://poly.pizza/m/srN1KGAO7f
+License: CC0 1.0 Universal / public-domain dedication
+CC0 deed: https://creativecommons.org/publicdomain/zero/1.0/
+Bundled SHA-256:
+  Spear:  229B3BACB9BD4A00D151B82618D411F90B8CDC1394349E3E697B772383AAFEA7
+  Shield: 6CEDAAD091921E85C1F2D69AF2E2965E1C97B66B227B13D12731A53289229337
+
+The license basis and binary identities are locally verified. These files are
+prototype equipment, not final commissioned equipment art, and are marked
+REPLACEMENT_REQUIRED.
+
+3. PROJECT-GENERATED GATEWORKS BATTLE BACKGROUND
+-------------------------------------------------
+Bundled project file:
+  Assets/Resources/SecondDimension/Art/Battle/
+  BG_TACTICAL_GATEWORKS_020.png
+
+Recorded authoring source: OpenAI image generation
+Recorded use: project-specific Battle Slice 020 presentation art
+Bundled SHA-256:
+  E0354C3500D466484DB4E148CFEE30371EB12CE1FAFE719D55B290E84BE0B7DC
+
+The Final030 origin statement and current binary hash are verified. The source
+record contains no generation job ID or provider-terms snapshot, so this file is
+PENDING_RIGHTS_REVIEW and is not declared commercially cleared by this notice.
+
+4. PROJECT-GENERATED GATE GNAWER VARIANTS
+------------------------------------------
+Bundled project files:
+  Assets/Resources/SecondDimension/Art/Battle/
+  ENEMY_GATE_GNAWER_SCOUT.png
+  ACTION_ENEMY_GATE_GNAWER_SCOUT.png
+  ENEMY_GATE_GNAWER_BULWARK.png
+  ACTION_ENEMY_GATE_GNAWER_BULWARK.png
+
+Recorded authoring source: OpenAI image generation
+Recorded use: Battle Slice 021 Scout and Bulwark idle/action variants
+Bundled SHA-256:
+  Scout idle:     F8F081EB967E731973C61DF6CA033237B415DE54A05F2F34B54E17E11A535CB5
+  Scout action:   C5131B45A2403100302B194680EF0A6181A4CEDF8C5C8485B3E7C713DA2F77C5
+  Bulwark idle:   6F022D6118DF17E49EFD8F58C3F84DF6F62DD63000786BAB0439E568DACD0127
+  Bulwark action: 527A986E49A4FDCAF09021F0E0ED6070569325142032FC7F54123E0F5C223338
+
+The Final030 origin statements and current binary hashes are verified. No
+generation job IDs or provider-terms snapshot were found. These variants are
+PENDING_RIGHTS_REVIEW and REPLACEMENT_REQUIRED prototype presentation art.
+
+5. CAMPAIGN083 TOWER PRODUCTION PLATES
+---------------------------------------
+Ten Tower floor PNGs are tracked in the canonical manifest with exact current
+hashes, dimensions, and retained source artifact IDs. Floors 2-10 have recorded
+generation artifact filenames. Floor 1 has no retained source filename. The
+adjacent source record is:
+  Assets/Resources/SecondDimension/Art/Campaign083/
+  TOWER_PLATES_083_084_PROVENANCE.md
+
+These plates are PENDING_RIGHTS_REVIEW. See the canonical manifest for the
+complete per-file ledger; no commercial clearance is claimed here.
+
+6. PROJECT-OWNER-SUPPLIED ENEMY ART 700 RECOVERED PACK
+-------------------------------------------------------
+Bundled project root:
+  Assets/SecondDimension/EnemyArt700/
+
+The project owner supplied the complete 25-part source archive. Its exact
+archive identity, checksum-ledger identity, 70-family by 10-appearance content
+boundary, recovery classifications, and local verification results are recorded
+at:
+  Documentation/AssetProvenance/ENEMY_ART_700_RECOVERED_V2.md
+
+The supplied provenance labels are not independent license evidence. This art
+family is PENDING_RIGHTS_REVIEW and is not declared commercially cleared by this
+notice. Creator/provider terms and studio approval must be attached before
+external commercial distribution.
+
+7. UNITY AND UNITY PACKAGE MANAGER DEPENDENCIES
+------------------------------------------------
+Unity and its Package Manager dependencies are not redistributed as standalone
+software by this project archive. They remain subject to their respective
+licenses. Required package versions are recorded in Packages/manifest.json and
+Packages/packages-lock.json.
+
+Unity Library and PackageCache directories are generated caches and are excluded
+from the source-asset and release-provenance inventory.
+
+No rights claim is made here for asset families absent from the canonical
+manifest's verified groups. Such families remain PENDING_RIGHTS_REVIEW or
+REPLACEMENT_REQUIRED as recorded there.

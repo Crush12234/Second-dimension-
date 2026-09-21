@@ -1,0 +1,508 @@
+{
+  "factions": [
+    {
+      "id": "FACTION018_GOBLIN_01",
+      "worldId": "WORLD_GOBLIN_001",
+      "name": "Bridge-Rig Reform League",
+      "role": "REFORM",
+      "publicPosition": "Goblin civilization cannot agree whether Kael represents hope, abandonment, false divinity, or a test of self-rule.",
+      "relationshipToSkyhome": "Cautious opportunity",
+      "sympatheticOpponent": false,
+      "dangerousAlly": true,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_GOBLIN_02",
+      "worldId": "WORLD_GOBLIN_001",
+      "name": "Calendar Throne Traditionalists",
+      "role": "TRADITIONAL",
+      "publicPosition": "Goblin civilization cannot agree whether Kael represents hope, abandonment, false divinity, or a test of self-rule.",
+      "relationshipToSkyhome": "Suspicious resistance",
+      "sympatheticOpponent": true,
+      "dangerousAlly": false,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_GOBLIN_03",
+      "worldId": "WORLD_GOBLIN_001",
+      "name": "Smoke Foremen Consortium",
+      "role": "PROFITEER",
+      "publicPosition": "Goblin civilization cannot agree whether Kael represents hope, abandonment, false divinity, or a test of self-rule.",
+      "relationshipToSkyhome": "Transactional exploitation",
+      "sympatheticOpponent": false,
+      "dangerousAlly": false,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_GOBLIN_04",
+      "worldId": "WORLD_GOBLIN_001",
+      "name": "First Promise Keepers",
+      "role": "HIDDEN",
+      "publicPosition": "Goblin civilization cannot agree whether Kael represents hope, abandonment, false divinity, or a test of self-rule.",
+      "relationshipToSkyhome": "Protective secrecy",
+      "sympatheticOpponent": false,
+      "dangerousAlly": true,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_ORC_01",
+      "worldId": "WORLD_ORC_002",
+      "name": "Shield Reformation Council",
+      "role": "REFORM",
+      "publicPosition": "Traditionalists believe strength must dominate; reformers believe strength means children need not become weapons.",
+      "relationshipToSkyhome": "Cautious opportunity",
+      "sympatheticOpponent": false,
+      "dangerousAlly": true,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_ORC_02",
+      "worldId": "WORLD_ORC_002",
+      "name": "Blood-Oath Traditionalists",
+      "role": "TRADITIONAL",
+      "publicPosition": "Traditionalists believe strength must dominate; reformers believe strength means children need not become weapons.",
+      "relationshipToSkyhome": "Suspicious resistance",
+      "sympatheticOpponent": true,
+      "dangerousAlly": false,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_ORC_03",
+      "worldId": "WORLD_ORC_002",
+      "name": "Arena Profit Houses",
+      "role": "PROFITEER",
+      "publicPosition": "Traditionalists believe strength must dominate; reformers believe strength means children need not become weapons.",
+      "relationshipToSkyhome": "Transactional exploitation",
+      "sympatheticOpponent": false,
+      "dangerousAlly": false,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_ORC_04",
+      "worldId": "WORLD_ORC_002",
+      "name": "First Shame Archivists",
+      "role": "HIDDEN",
+      "publicPosition": "Traditionalists believe strength must dominate; reformers believe strength means children need not become weapons.",
+      "relationshipToSkyhome": "Protective secrecy",
+      "sympatheticOpponent": false,
+      "dangerousAlly": true,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_BEASTKIN_01",
+      "worldId": "WORLD_BEASTKIN_003",
+      "name": "Open Path Coalition",
+      "role": "REFORM",
+      "publicPosition": "Some see city law as protection from famine and slavery; others see walls as the slow death of the wild soul.",
+      "relationshipToSkyhome": "Cautious opportunity",
+      "sympatheticOpponent": false,
+      "dangerousAlly": true,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_BEASTKIN_02",
+      "worldId": "WORLD_BEASTKIN_003",
+      "name": "Season Crown Traditionalists",
+      "role": "TRADITIONAL",
+      "publicPosition": "Some see city law as protection from famine and slavery; others see walls as the slow death of the wild soul.",
+      "relationshipToSkyhome": "Suspicious resistance",
+      "sympatheticOpponent": true,
+      "dangerousAlly": false,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_BEASTKIN_03",
+      "worldId": "WORLD_BEASTKIN_003",
+      "name": "Collar Trade Syndicate",
+      "role": "PROFITEER",
+      "publicPosition": "Some see city law as protection from famine and slavery; others see walls as the slow death of the wild soul.",
+      "relationshipToSkyhome": "Transactional exploitation",
+      "sympatheticOpponent": false,
+      "dangerousAlly": false,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_BEASTKIN_04",
+      "worldId": "WORLD_BEASTKIN_003",
+      "name": "Migration Memory Keepers",
+      "role": "HIDDEN",
+      "publicPosition": "Some see city law as protection from famine and slavery; others see walls as the slow death of the wild soul.",
+      "relationshipToSkyhome": "Protective secrecy",
+      "sympatheticOpponent": false,
+      "dangerousAlly": true,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_DEMON_01",
+      "worldId": "WORLD_DEMON_004",
+      "name": "Mercy Index Reformers",
+      "role": "REFORM",
+      "publicPosition": "Demon civilization contains art, law, schools, family, and love, but its history of contracts and fear makes trust explosive.",
+      "relationshipToSkyhome": "Cautious opportunity",
+      "sympatheticOpponent": false,
+      "dangerousAlly": true,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_DEMON_02",
+      "worldId": "WORLD_DEMON_004",
+      "name": "Contract Throne Loyalists",
+      "role": "TRADITIONAL",
+      "publicPosition": "Demon civilization contains art, law, schools, family, and love, but its history of contracts and fear makes trust explosive.",
+      "relationshipToSkyhome": "Suspicious resistance",
+      "sympatheticOpponent": true,
+      "dangerousAlly": false,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_DEMON_03",
+      "worldId": "WORLD_DEMON_004",
+      "name": "Purchased Name Houses",
+      "role": "PROFITEER",
+      "publicPosition": "Demon civilization contains art, law, schools, family, and love, but its history of contracts and fear makes trust explosive.",
+      "relationshipToSkyhome": "Transactional exploitation",
+      "sympatheticOpponent": false,
+      "dangerousAlly": false,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_DEMON_04",
+      "worldId": "WORLD_DEMON_004",
+      "name": "Forbidden School Custodians",
+      "role": "HIDDEN",
+      "publicPosition": "Demon civilization contains art, law, schools, family, and love, but its history of contracts and fear makes trust explosive.",
+      "relationshipToSkyhome": "Protective secrecy",
+      "sympatheticOpponent": false,
+      "dangerousAlly": true,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_DARKELF_01",
+      "worldId": "WORLD_DARK_ELF_005",
+      "name": "Open Archive Movement",
+      "role": "REFORM",
+      "publicPosition": "Dark Elf society survived by controlling information; opening truth may heal history or destroy fragile peace.",
+      "relationshipToSkyhome": "Cautious opportunity",
+      "sympatheticOpponent": false,
+      "dangerousAlly": true,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_DARKELF_02",
+      "worldId": "WORLD_DARK_ELF_005",
+      "name": "Silence Treaty Council",
+      "role": "TRADITIONAL",
+      "publicPosition": "Dark Elf society survived by controlling information; opening truth may heal history or destroy fragile peace.",
+      "relationshipToSkyhome": "Suspicious resistance",
+      "sympatheticOpponent": true,
+      "dangerousAlly": false,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_DARKELF_03",
+      "worldId": "WORLD_DARK_ELF_005",
+      "name": "Peace-Market Brokers",
+      "role": "PROFITEER",
+      "publicPosition": "Dark Elf society survived by controlling information; opening truth may heal history or destroy fragile peace.",
+      "relationshipToSkyhome": "Transactional exploitation",
+      "sympatheticOpponent": false,
+      "dangerousAlly": false,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_DARKELF_04",
+      "worldId": "WORLD_DARK_ELF_005",
+      "name": "Witness Keepers",
+      "role": "HIDDEN",
+      "publicPosition": "Dark Elf society survived by controlling information; opening truth may heal history or destroy fragile peace.",
+      "relationshipToSkyhome": "Protective secrecy",
+      "sympatheticOpponent": false,
+      "dangerousAlly": true,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_BUNNY_01",
+      "worldId": "WORLD_BUNNY_006",
+      "name": "Open Basket Reform League",
+      "role": "REFORM",
+      "publicPosition": "Trade delivers medicine and connection, but the same systems can turn survival into debt.",
+      "relationshipToSkyhome": "Cautious opportunity",
+      "sympatheticOpponent": false,
+      "dangerousAlly": true,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_BUNNY_02",
+      "worldId": "WORLD_BUNNY_006",
+      "name": "Ledger Crown Traditionalists",
+      "role": "TRADITIONAL",
+      "publicPosition": "Trade delivers medicine and connection, but the same systems can turn survival into debt.",
+      "relationshipToSkyhome": "Suspicious resistance",
+      "sympatheticOpponent": true,
+      "dangerousAlly": false,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_BUNNY_03",
+      "worldId": "WORLD_BUNNY_006",
+      "name": "Auction House Compact",
+      "role": "PROFITEER",
+      "publicPosition": "Trade delivers medicine and connection, but the same systems can turn survival into debt.",
+      "relationshipToSkyhome": "Transactional exploitation",
+      "sympatheticOpponent": false,
+      "dangerousAlly": false,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_BUNNY_04",
+      "worldId": "WORLD_BUNNY_006",
+      "name": "Hunger Contract Archivists",
+      "role": "HIDDEN",
+      "publicPosition": "Trade delivers medicine and connection, but the same systems can turn survival into debt.",
+      "relationshipToSkyhome": "Protective secrecy",
+      "sympatheticOpponent": false,
+      "dangerousAlly": true,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_DOG_01",
+      "worldId": "WORLD_DOG_007",
+      "name": "Moral Patrol Network",
+      "role": "REFORM",
+      "publicPosition": "Loyalty is sacred, but a sacred oath becomes terrifying when leaders order harm in the name of protection.",
+      "relationshipToSkyhome": "Cautious opportunity",
+      "sympatheticOpponent": false,
+      "dangerousAlly": true,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_DOG_02",
+      "worldId": "WORLD_DOG_007",
+      "name": "Oath-Above-All Command",
+      "role": "TRADITIONAL",
+      "publicPosition": "Loyalty is sacred, but a sacred oath becomes terrifying when leaders order harm in the name of protection.",
+      "relationshipToSkyhome": "Suspicious resistance",
+      "sympatheticOpponent": true,
+      "dangerousAlly": false,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_DOG_03",
+      "worldId": "WORLD_DOG_007",
+      "name": "Border Contract Profiteers",
+      "role": "PROFITEER",
+      "publicPosition": "Loyalty is sacred, but a sacred oath becomes terrifying when leaders order harm in the name of protection.",
+      "relationshipToSkyhome": "Transactional exploitation",
+      "sympatheticOpponent": false,
+      "dangerousAlly": false,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    },
+    {
+      "id": "FACTION018_DOG_04",
+      "worldId": "WORLD_DOG_007",
+      "name": "Lost Pack Witnesses",
+      "role": "HIDDEN",
+      "publicPosition": "Loyalty is sacred, but a sacred oath becomes terrifying when leaders order harm in the name of protection.",
+      "relationshipToSkyhome": "Protective secrecy",
+      "sympatheticOpponent": false,
+      "dangerousAlly": true,
+      "mayBeEradicated": false,
+      "requiredHumanityScenes": [
+        "family",
+        "worker",
+        "child",
+        "healer",
+        "artist"
+      ]
+    }
+  ]
+}

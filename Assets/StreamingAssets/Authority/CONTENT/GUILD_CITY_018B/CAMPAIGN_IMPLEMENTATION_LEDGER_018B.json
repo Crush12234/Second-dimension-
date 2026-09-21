@@ -1,0 +1,134 @@
+{
+  "contentVersion": "GATES_OF_FORGOTTEN_WORLDS_018B_1.0",
+  "singlePrimaryWorkspace": "SECOND_DIMENSION_GOW_GATES_OF_FORGOTTEN_WORLDS_018B_COMPLETE_CAMPAIGN_UNITY_SOURCE",
+  "domains": [
+    {
+      "domain": "Cinematic Union Battle",
+      "status": "ACTIVE_INHERITED_RUNTIME",
+      "authority": "Battle Perfection 015/017H",
+      "codexAction": "Compile, regression-test, and preserve; do not redesign."
+    },
+    {
+      "domain": "Guild Hall and City",
+      "status": "ACTIVE_INHERITED_RUNTIME",
+      "authority": "017D-017H",
+      "codexAction": "Compile and connect campaign unlocks; no replacement manager."
+    },
+    {
+      "domain": "Permanent Recruitment",
+      "status": "ACTIVE_INHERITED_RUNTIME",
+      "authority": "Auto-Generation 010/017D",
+      "codexAction": "Connect unlocked 018B channels through existing Applicant Board."
+    },
+    {
+      "domain": "Equipment and Learn-by-Use",
+      "status": "ACTIVE_INHERITED_RUNTIME",
+      "authority": "Content Authority 002/Bridge 003/Battle Arts 009",
+      "codexAction": "Preserve manual equipment and existing Art legality."
+    },
+    {
+      "domain": "Opening Contracts and Boards",
+      "status": "ACTIVE_INHERITED_RUNTIME",
+      "authority": "017E-017G",
+      "codexAction": "Regression-test only."
+    },
+    {
+      "domain": "Skyhome Strategic Defense",
+      "status": "ACTIVE_INHERITED_RUNTIME",
+      "authority": "017H",
+      "codexAction": "Regression-test and preserve exact-once battle bridge."
+    },
+    {
+      "domain": "Books 6-15 Campaign Arcs",
+      "status": "AUTHORED_CONTENT_AND_ACTIVE_RUNTIME",
+      "authority": "018B",
+      "codexAction": "Compile Campaign tab and connect authored content; do not regenerate."
+    },
+    {
+      "domain": "World Maps",
+      "status": "AUTHORED_CONTENT_AND_ACTIVE_RUNTIME",
+      "authority": "018B",
+      "codexAction": "Validate deterministic movement/events/objectives and responsive presentation."
+    },
+    {
+      "domain": "Fortress Operations",
+      "status": "ACTIVE_PERSISTED_RUNTIME",
+      "authority": "018B",
+      "codexAction": "Compile and test six-phase support/battle/recovery/finalization flow."
+    },
+    {
+      "domain": "Certified World Encounters",
+      "status": "ACTIVE_ADAPTER",
+      "authority": "017D bridge + 018B",
+      "codexAction": "Use existing M2 battle and one equipment reward only."
+    },
+    {
+      "domain": "Faction Reputation",
+      "status": "ACTIVE_PERSISTED_RUNTIME",
+      "authority": "018B",
+      "codexAction": "Connect UI and unlock checks."
+    },
+    {
+      "domain": "World Time Laws",
+      "status": "ACTIVE_PERSISTED_RUNTIME",
+      "authority": "018B",
+      "codexAction": "Verify exact clocks and Goblin World 30:1 law."
+    },
+    {
+      "domain": "World Reward Pools",
+      "status": "AUTHORED_MAPPING_PENDING_LIVE_REVIEW",
+      "authority": "018B to existing loot tables",
+      "codexAction": "Bind mappings; never roll duplicate battle loot."
+    },
+    {
+      "domain": "World Recruitment Channels",
+      "status": "AUTHORED_MAPPING_PENDING_LIVE_REVIEW",
+      "authority": "018B to Auto-Generation 010",
+      "codexAction": "Bind story/reputation unlocks and prove permanent identity."
+    },
+    {
+      "domain": "World City Specializations",
+      "status": "AUTHORED_MAPPING_PENDING_LIVE_REVIEW",
+      "authority": "018B to 30 existing buildings",
+      "codexAction": "Bind exact-once unlocks; no idle XP."
+    },
+    {
+      "domain": "Milestones and Story Gates",
+      "status": "ACTIVE_EXACT_ONCE_RUNTIME",
+      "authority": "018B",
+      "codexAction": "Test unlock order and stale receipt rejection."
+    },
+    {
+      "domain": "Books 6-10 Canon",
+      "status": "LOCKED_CANON",
+      "authority": "Living Manuscript/018B ledger",
+      "codexAction": "Preserve outcomes and protected mystery."
+    },
+    {
+      "domain": "Books 12-15 Race Worlds",
+      "status": "OWNER_GATED_AUTHORED_CANDIDATES",
+      "authority": "018B",
+      "codexAction": "Keep hidden unless explicit owner gate exists."
+    },
+    {
+      "domain": "Reserve Worlds",
+      "status": "INACTIVE_NONCANON_DESIGN_RESERVE",
+      "authority": "018B",
+      "codexAction": "Do not activate."
+    },
+    {
+      "domain": "Windows Build and Evidence",
+      "status": "AUTOMATION_PREPARED_UNEXECUTED",
+      "authority": "018B scripts",
+      "codexAction": "Run Unity tests, build, launch, smoke-test, and package honestly."
+    }
+  ],
+  "hardStops": [
+    "No duplicate battle system",
+    "No individual Art buttons",
+    "No grid combat",
+    "No runtime AI",
+    "No owner-gated future arcs without gate",
+    "No claim of Unity pass without executed evidence"
+  ]
+}

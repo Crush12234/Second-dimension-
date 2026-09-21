@@ -1,0 +1,1703 @@
+{
+  "contentVersion": "FINAL_CREATOR_CODES_ROOMS_028_1.0",
+  "weapons": [
+    {
+      "weaponId": "CREATOR_WEAPON_01_BALANCED",
+      "familyId": "WEAPON_FAMILY_SWORD",
+      "displayName": "Swords — Balanced Prototype",
+      "description": "Stable handling; no extreme advantage.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "SWORD",
+        "CREATOR_MOD_BALANCED",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_BALANCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "BALANCED",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_01_VANGUARD",
+      "familyId": "WEAPON_FAMILY_SWORD",
+      "displayName": "Swords — Vanguard Pattern",
+      "description": "Aggressive sidegrade for committed frontline Arts.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "SWORD",
+        "CREATOR_MOD_VANGUARD",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_REINFORCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "VANGUARD",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_01_WARDEN",
+      "familyId": "WEAPON_FAMILY_SWORD",
+      "displayName": "Swords — Warden Pattern",
+      "description": "Defensive sidegrade emphasizing Guard and protection.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "SWORD",
+        "CREATOR_MOD_WARDEN",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_REINFORCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "WARDEN",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_01_MYSTIC",
+      "familyId": "WEAPON_FAMILY_SWORD",
+      "displayName": "Swords — Mystic-Conductor Pattern",
+      "description": "Hybrid sidegrade prepared for Mystic-compatible builds.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "SWORD",
+        "CREATOR_MOD_MYSTIC_CONDUCTOR",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_RESONANT",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "MYSTIC",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_01_EXPEDITION",
+      "familyId": "WEAPON_FAMILY_SWORD",
+      "displayName": "Swords — Expedition Pattern",
+      "description": "Utility sidegrade built for routes, camps, and objectives.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "SWORD",
+        "CREATOR_MOD_EXPEDITION",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_STORIED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "EXPEDITION",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_01_AUTHOR",
+      "familyId": "WEAPON_FAMILY_SWORD",
+      "displayName": "Swords — Creator Relic Pattern",
+      "description": "Rare authored sidegrade with a visible tradeoff marker.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "SWORD",
+        "CREATOR_MOD_AUTHOR",
+        "CREATOR_SIDEGRADE_NO_PVP_ADVANTAGE",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_EDITED_RELIC",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "AUTHOR",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_02_BALANCED",
+      "familyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "displayName": "Great Weapons — Balanced Prototype",
+      "description": "Stable handling; no extreme advantage.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "GREAT_AXE",
+        "HAMMER",
+        "POLEARM",
+        "CREATOR_MOD_BALANCED",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_BALANCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "BALANCED",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_02_VANGUARD",
+      "familyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "displayName": "Great Weapons — Vanguard Pattern",
+      "description": "Aggressive sidegrade for committed frontline Arts.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "GREAT_AXE",
+        "HAMMER",
+        "POLEARM",
+        "CREATOR_MOD_VANGUARD",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_REINFORCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "VANGUARD",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_02_WARDEN",
+      "familyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "displayName": "Great Weapons — Warden Pattern",
+      "description": "Defensive sidegrade emphasizing Guard and protection.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "GREAT_AXE",
+        "HAMMER",
+        "POLEARM",
+        "CREATOR_MOD_WARDEN",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_REINFORCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "WARDEN",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_02_MYSTIC",
+      "familyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "displayName": "Great Weapons — Mystic-Conductor Pattern",
+      "description": "Hybrid sidegrade prepared for Mystic-compatible builds.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "GREAT_AXE",
+        "HAMMER",
+        "POLEARM",
+        "CREATOR_MOD_MYSTIC_CONDUCTOR",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_RESONANT",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "MYSTIC",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_02_EXPEDITION",
+      "familyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "displayName": "Great Weapons — Expedition Pattern",
+      "description": "Utility sidegrade built for routes, camps, and objectives.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "GREAT_AXE",
+        "HAMMER",
+        "POLEARM",
+        "CREATOR_MOD_EXPEDITION",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_STORIED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "EXPEDITION",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_02_AUTHOR",
+      "familyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "displayName": "Great Weapons — Creator Relic Pattern",
+      "description": "Rare authored sidegrade with a visible tradeoff marker.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "GREAT_AXE",
+        "HAMMER",
+        "POLEARM",
+        "CREATOR_MOD_AUTHOR",
+        "CREATOR_SIDEGRADE_NO_PVP_ADVANTAGE",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_EDITED_RELIC",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "AUTHOR",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_03_BALANCED",
+      "familyId": "WEAPON_FAMILY_AXE",
+      "displayName": "Axes — Balanced Prototype",
+      "description": "Stable handling; no extreme advantage.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "AXE",
+        "GREAT_AXE",
+        "CREATOR_MOD_BALANCED",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_BALANCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "BALANCED",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_03_VANGUARD",
+      "familyId": "WEAPON_FAMILY_AXE",
+      "displayName": "Axes — Vanguard Pattern",
+      "description": "Aggressive sidegrade for committed frontline Arts.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "AXE",
+        "GREAT_AXE",
+        "CREATOR_MOD_VANGUARD",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_REINFORCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "VANGUARD",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_03_WARDEN",
+      "familyId": "WEAPON_FAMILY_AXE",
+      "displayName": "Axes — Warden Pattern",
+      "description": "Defensive sidegrade emphasizing Guard and protection.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "AXE",
+        "GREAT_AXE",
+        "CREATOR_MOD_WARDEN",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_REINFORCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "WARDEN",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_03_MYSTIC",
+      "familyId": "WEAPON_FAMILY_AXE",
+      "displayName": "Axes — Mystic-Conductor Pattern",
+      "description": "Hybrid sidegrade prepared for Mystic-compatible builds.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "AXE",
+        "GREAT_AXE",
+        "CREATOR_MOD_MYSTIC_CONDUCTOR",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_RESONANT",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "MYSTIC",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_03_EXPEDITION",
+      "familyId": "WEAPON_FAMILY_AXE",
+      "displayName": "Axes — Expedition Pattern",
+      "description": "Utility sidegrade built for routes, camps, and objectives.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "AXE",
+        "GREAT_AXE",
+        "CREATOR_MOD_EXPEDITION",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_STORIED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "EXPEDITION",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_03_AUTHOR",
+      "familyId": "WEAPON_FAMILY_AXE",
+      "displayName": "Axes — Creator Relic Pattern",
+      "description": "Rare authored sidegrade with a visible tradeoff marker.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "AXE",
+        "GREAT_AXE",
+        "CREATOR_MOD_AUTHOR",
+        "CREATOR_SIDEGRADE_NO_PVP_ADVANTAGE",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_EDITED_RELIC",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "AUTHOR",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_04_BALANCED",
+      "familyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "displayName": "Spears and Polearms — Balanced Prototype",
+      "description": "Stable handling; no extreme advantage.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "POLEARM",
+        "SPEAR",
+        "CREATOR_MOD_BALANCED",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_BALANCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "BALANCED",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_04_VANGUARD",
+      "familyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "displayName": "Spears and Polearms — Vanguard Pattern",
+      "description": "Aggressive sidegrade for committed frontline Arts.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "POLEARM",
+        "SPEAR",
+        "CREATOR_MOD_VANGUARD",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_REINFORCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "VANGUARD",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_04_WARDEN",
+      "familyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "displayName": "Spears and Polearms — Warden Pattern",
+      "description": "Defensive sidegrade emphasizing Guard and protection.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "POLEARM",
+        "SPEAR",
+        "CREATOR_MOD_WARDEN",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_REINFORCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "WARDEN",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_04_MYSTIC",
+      "familyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "displayName": "Spears and Polearms — Mystic-Conductor Pattern",
+      "description": "Hybrid sidegrade prepared for Mystic-compatible builds.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "POLEARM",
+        "SPEAR",
+        "CREATOR_MOD_MYSTIC_CONDUCTOR",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_RESONANT",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "MYSTIC",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_04_EXPEDITION",
+      "familyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "displayName": "Spears and Polearms — Expedition Pattern",
+      "description": "Utility sidegrade built for routes, camps, and objectives.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "POLEARM",
+        "SPEAR",
+        "CREATOR_MOD_EXPEDITION",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_STORIED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "EXPEDITION",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_04_AUTHOR",
+      "familyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "displayName": "Spears and Polearms — Creator Relic Pattern",
+      "description": "Rare authored sidegrade with a visible tradeoff marker.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "POLEARM",
+        "SPEAR",
+        "CREATOR_MOD_AUTHOR",
+        "CREATOR_SIDEGRADE_NO_PVP_ADVANTAGE",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_EDITED_RELIC",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "AUTHOR",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_05_BALANCED",
+      "familyId": "WEAPON_FAMILY_BOW",
+      "displayName": "Bows — Balanced Prototype",
+      "description": "Stable handling; no extreme advantage.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "BOW",
+        "LONGBOW",
+        "SHORTBOW",
+        "CREATOR_MOD_BALANCED",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_BALANCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "BALANCED",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_05_VANGUARD",
+      "familyId": "WEAPON_FAMILY_BOW",
+      "displayName": "Bows — Vanguard Pattern",
+      "description": "Aggressive sidegrade for committed frontline Arts.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "BOW",
+        "LONGBOW",
+        "SHORTBOW",
+        "CREATOR_MOD_VANGUARD",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_REINFORCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "VANGUARD",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_05_WARDEN",
+      "familyId": "WEAPON_FAMILY_BOW",
+      "displayName": "Bows — Warden Pattern",
+      "description": "Defensive sidegrade emphasizing Guard and protection.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "BOW",
+        "LONGBOW",
+        "SHORTBOW",
+        "CREATOR_MOD_WARDEN",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_REINFORCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "WARDEN",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_05_MYSTIC",
+      "familyId": "WEAPON_FAMILY_BOW",
+      "displayName": "Bows — Mystic-Conductor Pattern",
+      "description": "Hybrid sidegrade prepared for Mystic-compatible builds.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "BOW",
+        "LONGBOW",
+        "SHORTBOW",
+        "CREATOR_MOD_MYSTIC_CONDUCTOR",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_RESONANT",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "MYSTIC",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_05_EXPEDITION",
+      "familyId": "WEAPON_FAMILY_BOW",
+      "displayName": "Bows — Expedition Pattern",
+      "description": "Utility sidegrade built for routes, camps, and objectives.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "BOW",
+        "LONGBOW",
+        "SHORTBOW",
+        "CREATOR_MOD_EXPEDITION",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_STORIED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "EXPEDITION",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_05_AUTHOR",
+      "familyId": "WEAPON_FAMILY_BOW",
+      "displayName": "Bows — Creator Relic Pattern",
+      "description": "Rare authored sidegrade with a visible tradeoff marker.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "BOW",
+        "LONGBOW",
+        "SHORTBOW",
+        "CREATOR_MOD_AUTHOR",
+        "CREATOR_SIDEGRADE_NO_PVP_ADVANTAGE",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_EDITED_RELIC",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "AUTHOR",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_06_BALANCED",
+      "familyId": "WEAPON_FAMILY_DAGGER",
+      "displayName": "Daggers — Balanced Prototype",
+      "description": "Stable handling; no extreme advantage.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "DAGGER",
+        "CREATOR_MOD_BALANCED",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_BALANCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "BALANCED",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_06_VANGUARD",
+      "familyId": "WEAPON_FAMILY_DAGGER",
+      "displayName": "Daggers — Vanguard Pattern",
+      "description": "Aggressive sidegrade for committed frontline Arts.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "DAGGER",
+        "CREATOR_MOD_VANGUARD",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_REINFORCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "VANGUARD",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_06_WARDEN",
+      "familyId": "WEAPON_FAMILY_DAGGER",
+      "displayName": "Daggers — Warden Pattern",
+      "description": "Defensive sidegrade emphasizing Guard and protection.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "DAGGER",
+        "CREATOR_MOD_WARDEN",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_REINFORCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "WARDEN",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_06_MYSTIC",
+      "familyId": "WEAPON_FAMILY_DAGGER",
+      "displayName": "Daggers — Mystic-Conductor Pattern",
+      "description": "Hybrid sidegrade prepared for Mystic-compatible builds.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "DAGGER",
+        "CREATOR_MOD_MYSTIC_CONDUCTOR",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_RESONANT",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "MYSTIC",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_06_EXPEDITION",
+      "familyId": "WEAPON_FAMILY_DAGGER",
+      "displayName": "Daggers — Expedition Pattern",
+      "description": "Utility sidegrade built for routes, camps, and objectives.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "DAGGER",
+        "CREATOR_MOD_EXPEDITION",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_STORIED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "EXPEDITION",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_06_AUTHOR",
+      "familyId": "WEAPON_FAMILY_DAGGER",
+      "displayName": "Daggers — Creator Relic Pattern",
+      "description": "Rare authored sidegrade with a visible tradeoff marker.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "DAGGER",
+        "CREATOR_MOD_AUTHOR",
+        "CREATOR_SIDEGRADE_NO_PVP_ADVANTAGE",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_EDITED_RELIC",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "AUTHOR",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_07_BALANCED",
+      "familyId": "WEAPON_FAMILY_SHIELD",
+      "displayName": "Shields — Balanced Prototype",
+      "description": "Stable handling; no extreme advantage.",
+      "validSlotIds": [
+        "SLOT_OFF_HAND"
+      ],
+      "equipmentTags": [
+        "SHIELD",
+        "SHIELD_COMPATIBLE",
+        "WARD_BUCKLER",
+        "CREATOR_MOD_BALANCED",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_BALANCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "BALANCED",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_07_VANGUARD",
+      "familyId": "WEAPON_FAMILY_SHIELD",
+      "displayName": "Shields — Vanguard Pattern",
+      "description": "Aggressive sidegrade for committed frontline Arts.",
+      "validSlotIds": [
+        "SLOT_OFF_HAND"
+      ],
+      "equipmentTags": [
+        "SHIELD",
+        "SHIELD_COMPATIBLE",
+        "WARD_BUCKLER",
+        "CREATOR_MOD_VANGUARD",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_REINFORCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "VANGUARD",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_07_WARDEN",
+      "familyId": "WEAPON_FAMILY_SHIELD",
+      "displayName": "Shields — Warden Pattern",
+      "description": "Defensive sidegrade emphasizing Guard and protection.",
+      "validSlotIds": [
+        "SLOT_OFF_HAND"
+      ],
+      "equipmentTags": [
+        "SHIELD",
+        "SHIELD_COMPATIBLE",
+        "WARD_BUCKLER",
+        "CREATOR_MOD_WARDEN",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_REINFORCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "WARDEN",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_07_MYSTIC",
+      "familyId": "WEAPON_FAMILY_SHIELD",
+      "displayName": "Shields — Mystic-Conductor Pattern",
+      "description": "Hybrid sidegrade prepared for Mystic-compatible builds.",
+      "validSlotIds": [
+        "SLOT_OFF_HAND"
+      ],
+      "equipmentTags": [
+        "SHIELD",
+        "SHIELD_COMPATIBLE",
+        "WARD_BUCKLER",
+        "CREATOR_MOD_MYSTIC_CONDUCTOR",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_RESONANT",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "MYSTIC",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_07_EXPEDITION",
+      "familyId": "WEAPON_FAMILY_SHIELD",
+      "displayName": "Shields — Expedition Pattern",
+      "description": "Utility sidegrade built for routes, camps, and objectives.",
+      "validSlotIds": [
+        "SLOT_OFF_HAND"
+      ],
+      "equipmentTags": [
+        "SHIELD",
+        "SHIELD_COMPATIBLE",
+        "WARD_BUCKLER",
+        "CREATOR_MOD_EXPEDITION",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_STORIED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "EXPEDITION",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_07_AUTHOR",
+      "familyId": "WEAPON_FAMILY_SHIELD",
+      "displayName": "Shields — Creator Relic Pattern",
+      "description": "Rare authored sidegrade with a visible tradeoff marker.",
+      "validSlotIds": [
+        "SLOT_OFF_HAND"
+      ],
+      "equipmentTags": [
+        "SHIELD",
+        "SHIELD_COMPATIBLE",
+        "WARD_BUCKLER",
+        "CREATOR_MOD_AUTHOR",
+        "CREATOR_SIDEGRADE_NO_PVP_ADVANTAGE",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_EDITED_RELIC",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "AUTHOR",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_08_BALANCED",
+      "familyId": "WEAPON_FAMILY_GAUNTLET",
+      "displayName": "Gauntlets and Unarmed Implements — Balanced Prototype",
+      "description": "Stable handling; no extreme advantage.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "GAUNTLET",
+        "UNARMED",
+        "CREATOR_MOD_BALANCED",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_BALANCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "BALANCED",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_08_VANGUARD",
+      "familyId": "WEAPON_FAMILY_GAUNTLET",
+      "displayName": "Gauntlets and Unarmed Implements — Vanguard Pattern",
+      "description": "Aggressive sidegrade for committed frontline Arts.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "GAUNTLET",
+        "UNARMED",
+        "CREATOR_MOD_VANGUARD",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_REINFORCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "VANGUARD",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_08_WARDEN",
+      "familyId": "WEAPON_FAMILY_GAUNTLET",
+      "displayName": "Gauntlets and Unarmed Implements — Warden Pattern",
+      "description": "Defensive sidegrade emphasizing Guard and protection.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "GAUNTLET",
+        "UNARMED",
+        "CREATOR_MOD_WARDEN",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_REINFORCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "WARDEN",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_08_MYSTIC",
+      "familyId": "WEAPON_FAMILY_GAUNTLET",
+      "displayName": "Gauntlets and Unarmed Implements — Mystic-Conductor Pattern",
+      "description": "Hybrid sidegrade prepared for Mystic-compatible builds.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "GAUNTLET",
+        "UNARMED",
+        "CREATOR_MOD_MYSTIC_CONDUCTOR",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_RESONANT",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "MYSTIC",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_08_EXPEDITION",
+      "familyId": "WEAPON_FAMILY_GAUNTLET",
+      "displayName": "Gauntlets and Unarmed Implements — Expedition Pattern",
+      "description": "Utility sidegrade built for routes, camps, and objectives.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "GAUNTLET",
+        "UNARMED",
+        "CREATOR_MOD_EXPEDITION",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_STORIED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "EXPEDITION",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_08_AUTHOR",
+      "familyId": "WEAPON_FAMILY_GAUNTLET",
+      "displayName": "Gauntlets and Unarmed Implements — Creator Relic Pattern",
+      "description": "Rare authored sidegrade with a visible tradeoff marker.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "GAUNTLET",
+        "UNARMED",
+        "CREATOR_MOD_AUTHOR",
+        "CREATOR_SIDEGRADE_NO_PVP_ADVANTAGE",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_EDITED_RELIC",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "AUTHOR",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_09_BALANCED",
+      "familyId": "WEAPON_FAMILY_STAFF",
+      "displayName": "Staves — Balanced Prototype",
+      "description": "Stable handling; no extreme advantage.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "STAFF",
+        "CREATOR_MOD_BALANCED",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_BALANCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "BALANCED",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_09_VANGUARD",
+      "familyId": "WEAPON_FAMILY_STAFF",
+      "displayName": "Staves — Vanguard Pattern",
+      "description": "Aggressive sidegrade for committed frontline Arts.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "STAFF",
+        "CREATOR_MOD_VANGUARD",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_REINFORCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "VANGUARD",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_09_WARDEN",
+      "familyId": "WEAPON_FAMILY_STAFF",
+      "displayName": "Staves — Warden Pattern",
+      "description": "Defensive sidegrade emphasizing Guard and protection.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "STAFF",
+        "CREATOR_MOD_WARDEN",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_REINFORCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "WARDEN",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_09_MYSTIC",
+      "familyId": "WEAPON_FAMILY_STAFF",
+      "displayName": "Staves — Mystic-Conductor Pattern",
+      "description": "Hybrid sidegrade prepared for Mystic-compatible builds.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "STAFF",
+        "CREATOR_MOD_MYSTIC_CONDUCTOR",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_RESONANT",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "MYSTIC",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_09_EXPEDITION",
+      "familyId": "WEAPON_FAMILY_STAFF",
+      "displayName": "Staves — Expedition Pattern",
+      "description": "Utility sidegrade built for routes, camps, and objectives.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "STAFF",
+        "CREATOR_MOD_EXPEDITION",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_STORIED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "EXPEDITION",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_09_AUTHOR",
+      "familyId": "WEAPON_FAMILY_STAFF",
+      "displayName": "Staves — Creator Relic Pattern",
+      "description": "Rare authored sidegrade with a visible tradeoff marker.",
+      "validSlotIds": [
+        "SLOT_MAIN_HAND"
+      ],
+      "equipmentTags": [
+        "STAFF",
+        "CREATOR_MOD_AUTHOR",
+        "CREATOR_SIDEGRADE_NO_PVP_ADVANTAGE",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_EDITED_RELIC",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "AUTHOR",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_10_BALANCED",
+      "familyId": "WEAPON_FAMILY_FOCUS",
+      "displayName": "Catalysts and Foci — Balanced Prototype",
+      "description": "Stable handling; no extreme advantage.",
+      "validSlotIds": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "equipmentTags": [
+        "FOCUS",
+        "FOCUS_TOOL",
+        "WAND",
+        "CREATOR_MOD_BALANCED",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_BALANCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "BALANCED",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_10_VANGUARD",
+      "familyId": "WEAPON_FAMILY_FOCUS",
+      "displayName": "Catalysts and Foci — Vanguard Pattern",
+      "description": "Aggressive sidegrade for committed frontline Arts.",
+      "validSlotIds": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "equipmentTags": [
+        "FOCUS",
+        "FOCUS_TOOL",
+        "WAND",
+        "CREATOR_MOD_VANGUARD",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_REINFORCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "VANGUARD",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_10_WARDEN",
+      "familyId": "WEAPON_FAMILY_FOCUS",
+      "displayName": "Catalysts and Foci — Warden Pattern",
+      "description": "Defensive sidegrade emphasizing Guard and protection.",
+      "validSlotIds": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "equipmentTags": [
+        "FOCUS",
+        "FOCUS_TOOL",
+        "WAND",
+        "CREATOR_MOD_WARDEN",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_REINFORCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "WARDEN",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_10_MYSTIC",
+      "familyId": "WEAPON_FAMILY_FOCUS",
+      "displayName": "Catalysts and Foci — Mystic-Conductor Pattern",
+      "description": "Hybrid sidegrade prepared for Mystic-compatible builds.",
+      "validSlotIds": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "equipmentTags": [
+        "FOCUS",
+        "FOCUS_TOOL",
+        "WAND",
+        "CREATOR_MOD_MYSTIC_CONDUCTOR",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_RESONANT",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "MYSTIC",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_10_EXPEDITION",
+      "familyId": "WEAPON_FAMILY_FOCUS",
+      "displayName": "Catalysts and Foci — Expedition Pattern",
+      "description": "Utility sidegrade built for routes, camps, and objectives.",
+      "validSlotIds": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "equipmentTags": [
+        "FOCUS",
+        "FOCUS_TOOL",
+        "WAND",
+        "CREATOR_MOD_EXPEDITION",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_STORIED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "EXPEDITION",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_10_AUTHOR",
+      "familyId": "WEAPON_FAMILY_FOCUS",
+      "displayName": "Catalysts and Foci — Creator Relic Pattern",
+      "description": "Rare authored sidegrade with a visible tradeoff marker.",
+      "validSlotIds": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "equipmentTags": [
+        "FOCUS",
+        "FOCUS_TOOL",
+        "WAND",
+        "CREATOR_MOD_AUTHOR",
+        "CREATOR_SIDEGRADE_NO_PVP_ADVANTAGE",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_EDITED_RELIC",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "AUTHOR",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_11_BALANCED",
+      "familyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "displayName": "Engineering Weapons and Tools — Balanced Prototype",
+      "description": "Stable handling; no extreme advantage.",
+      "validSlotIds": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "equipmentTags": [
+        "ALCHEMY",
+        "ARCANE_CONDUCTOR",
+        "SIGNAL_HORN",
+        "SIGNAL_KIT",
+        "TOOL",
+        "CREATOR_MOD_BALANCED",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_BALANCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "BALANCED",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_11_VANGUARD",
+      "familyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "displayName": "Engineering Weapons and Tools — Vanguard Pattern",
+      "description": "Aggressive sidegrade for committed frontline Arts.",
+      "validSlotIds": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "equipmentTags": [
+        "ALCHEMY",
+        "ARCANE_CONDUCTOR",
+        "SIGNAL_HORN",
+        "SIGNAL_KIT",
+        "TOOL",
+        "CREATOR_MOD_VANGUARD",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_REINFORCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "VANGUARD",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_11_WARDEN",
+      "familyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "displayName": "Engineering Weapons and Tools — Warden Pattern",
+      "description": "Defensive sidegrade emphasizing Guard and protection.",
+      "validSlotIds": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "equipmentTags": [
+        "ALCHEMY",
+        "ARCANE_CONDUCTOR",
+        "SIGNAL_HORN",
+        "SIGNAL_KIT",
+        "TOOL",
+        "CREATOR_MOD_WARDEN",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_REINFORCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "WARDEN",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_11_MYSTIC",
+      "familyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "displayName": "Engineering Weapons and Tools — Mystic-Conductor Pattern",
+      "description": "Hybrid sidegrade prepared for Mystic-compatible builds.",
+      "validSlotIds": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "equipmentTags": [
+        "ALCHEMY",
+        "ARCANE_CONDUCTOR",
+        "SIGNAL_HORN",
+        "SIGNAL_KIT",
+        "TOOL",
+        "CREATOR_MOD_MYSTIC_CONDUCTOR",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_RESONANT",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "MYSTIC",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_11_EXPEDITION",
+      "familyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "displayName": "Engineering Weapons and Tools — Expedition Pattern",
+      "description": "Utility sidegrade built for routes, camps, and objectives.",
+      "validSlotIds": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "equipmentTags": [
+        "ALCHEMY",
+        "ARCANE_CONDUCTOR",
+        "SIGNAL_HORN",
+        "SIGNAL_KIT",
+        "TOOL",
+        "CREATOR_MOD_EXPEDITION",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_STORIED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "EXPEDITION",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_11_AUTHOR",
+      "familyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "displayName": "Engineering Weapons and Tools — Creator Relic Pattern",
+      "description": "Rare authored sidegrade with a visible tradeoff marker.",
+      "validSlotIds": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "equipmentTags": [
+        "ALCHEMY",
+        "ARCANE_CONDUCTOR",
+        "SIGNAL_HORN",
+        "SIGNAL_KIT",
+        "TOOL",
+        "CREATOR_MOD_AUTHOR",
+        "CREATOR_SIDEGRADE_NO_PVP_ADVANTAGE",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_EDITED_RELIC",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "AUTHOR",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_12_BALANCED",
+      "familyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "displayName": "Hybrid Relic Weapons — Balanced Prototype",
+      "description": "Stable handling; no extreme advantage.",
+      "validSlotIds": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "equipmentTags": [
+        "FOCUS_TOOL",
+        "HYBRID_RELIC",
+        "SWORD",
+        "CREATOR_MOD_BALANCED",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_BALANCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "BALANCED",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_12_VANGUARD",
+      "familyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "displayName": "Hybrid Relic Weapons — Vanguard Pattern",
+      "description": "Aggressive sidegrade for committed frontline Arts.",
+      "validSlotIds": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "equipmentTags": [
+        "FOCUS_TOOL",
+        "HYBRID_RELIC",
+        "SWORD",
+        "CREATOR_MOD_VANGUARD",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_REINFORCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "VANGUARD",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_12_WARDEN",
+      "familyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "displayName": "Hybrid Relic Weapons — Warden Pattern",
+      "description": "Defensive sidegrade emphasizing Guard and protection.",
+      "validSlotIds": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "equipmentTags": [
+        "FOCUS_TOOL",
+        "HYBRID_RELIC",
+        "SWORD",
+        "CREATOR_MOD_WARDEN",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_REINFORCED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "WARDEN",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_12_MYSTIC",
+      "familyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "displayName": "Hybrid Relic Weapons — Mystic-Conductor Pattern",
+      "description": "Hybrid sidegrade prepared for Mystic-compatible builds.",
+      "validSlotIds": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "equipmentTags": [
+        "FOCUS_TOOL",
+        "HYBRID_RELIC",
+        "SWORD",
+        "CREATOR_MOD_MYSTIC_CONDUCTOR",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_RESONANT",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "MYSTIC",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_12_EXPEDITION",
+      "familyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "displayName": "Hybrid Relic Weapons — Expedition Pattern",
+      "description": "Utility sidegrade built for routes, camps, and objectives.",
+      "validSlotIds": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "equipmentTags": [
+        "FOCUS_TOOL",
+        "HYBRID_RELIC",
+        "SWORD",
+        "CREATOR_MOD_EXPEDITION",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_STORIED",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "EXPEDITION",
+      "artFamilyPreserved": true
+    },
+    {
+      "weaponId": "CREATOR_WEAPON_12_AUTHOR",
+      "familyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "displayName": "Hybrid Relic Weapons — Creator Relic Pattern",
+      "description": "Rare authored sidegrade with a visible tradeoff marker.",
+      "validSlotIds": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "equipmentTags": [
+        "FOCUS_TOOL",
+        "HYBRID_RELIC",
+        "SWORD",
+        "CREATOR_MOD_AUTHOR",
+        "CREATOR_SIDEGRADE_NO_PVP_ADVANTAGE",
+        "CREATOR_ORIGIN",
+        "MODIFIED_WEAPON"
+      ],
+      "qualityId": "QUALITY_EDITED_RELIC",
+      "conditionBasisPoints": 10000,
+      "manualEquipOnly": true,
+      "playerLockedByDefault": false,
+      "competitivePolicy": "STORY_AND_SANDBOX_SIDEGRADE; REVIEW_BEFORE_PVP",
+      "modifierId": "AUTHOR",
+      "artFamilyPreserved": true
+    }
+  ]
+}

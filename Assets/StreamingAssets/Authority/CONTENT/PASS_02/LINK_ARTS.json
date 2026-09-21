@@ -1,0 +1,572 @@
+{
+  "contentVersion": "PASS02_LINKS_0.7",
+  "linkArts": [
+    {
+      "id": "LINK_HAMMER_ANVIL",
+      "displayName": "Hammer and Anvil",
+      "participantRoles": [
+        "Guardian",
+        "Warrior"
+      ],
+      "requiredArtFamilies": [
+        "GUARD",
+        "BREAK"
+      ],
+      "formationRequirements": [
+        "all required participants occupy compatible active slots"
+      ],
+      "relationshipRequirement": 20,
+      "cohesionMinimum": 55,
+      "setupRequirements": [
+        "at least one matching meaningful setup action in previous 2 rounds"
+      ],
+      "sharedApCost": 8,
+      "individualMpCosts": "validated per participating chosen Art; no participant may overspend",
+      "targetRules": "contextual legal target",
+      "effects": [
+        "LINK_GUARD",
+        "LINK_BREAK"
+      ],
+      "failureInterruption": "if participant becomes unable to act, forecast is invalidated before confirmation or resolves to documented fallback if interrupted after execution begins",
+      "masteryRules": "Link mastery belongs to the participant combination signature",
+      "discoveryConditions": [
+        "all requirements met",
+        "meaningful setup",
+        "deterministic readiness meter >= threshold"
+      ],
+      "forecastPhraseBank": [
+        "Hammer and Anvil—now!",
+        "Bring the sequence together!"
+      ],
+      "animationTag": "LINK_HAMMER_ANVIL_ANIM",
+      "vfxTag": "LINK_HAMMER_ANVIL_VFX",
+      "sfxTag": "LINK_HAMMER_ANVIL_SFX",
+      "cameraTag": "CAM_LINK",
+      "balanceRestrictions": [
+        "cannot bypass participant MP",
+        "cannot appear if required participant absent",
+        "rare full-Union Links require high Cohesion"
+      ]
+    },
+    {
+      "id": "LINK_ELEMENTAL_VOLLEY",
+      "displayName": "Elemental Volley",
+      "participantRoles": [
+        "Ranger",
+        "Mage"
+      ],
+      "requiredArtFamilies": [
+        "MARK",
+        "MYSTIC"
+      ],
+      "formationRequirements": [
+        "all required participants occupy compatible active slots"
+      ],
+      "relationshipRequirement": 20,
+      "cohesionMinimum": 55,
+      "setupRequirements": [
+        "at least one matching meaningful setup action in previous 2 rounds"
+      ],
+      "sharedApCost": 8,
+      "individualMpCosts": "validated per participating chosen Art; no participant may overspend",
+      "targetRules": "contextual legal target",
+      "effects": [
+        "LINK_MARK",
+        "LINK_MYSTIC"
+      ],
+      "failureInterruption": "if participant becomes unable to act, forecast is invalidated before confirmation or resolves to documented fallback if interrupted after execution begins",
+      "masteryRules": "Link mastery belongs to the participant combination signature",
+      "discoveryConditions": [
+        "all requirements met",
+        "meaningful setup",
+        "deterministic readiness meter >= threshold"
+      ],
+      "forecastPhraseBank": [
+        "Elemental Volley—now!",
+        "Bring the sequence together!"
+      ],
+      "animationTag": "LINK_ELEMENTAL_VOLLEY_ANIM",
+      "vfxTag": "LINK_ELEMENTAL_VOLLEY_VFX",
+      "sfxTag": "LINK_ELEMENTAL_VOLLEY_SFX",
+      "cameraTag": "CAM_LINK",
+      "balanceRestrictions": [
+        "cannot bypass participant MP",
+        "cannot appear if required participant absent",
+        "rare full-Union Links require high Cohesion"
+      ]
+    },
+    {
+      "id": "LINK_MARKED_ASSASSINATION",
+      "displayName": "Marked Assassination",
+      "participantRoles": [
+        "Rogue",
+        "Ranger"
+      ],
+      "requiredArtFamilies": [
+        "MARK",
+        "AMBUSH"
+      ],
+      "formationRequirements": [
+        "all required participants occupy compatible active slots"
+      ],
+      "relationshipRequirement": 20,
+      "cohesionMinimum": 55,
+      "setupRequirements": [
+        "at least one matching meaningful setup action in previous 2 rounds"
+      ],
+      "sharedApCost": 8,
+      "individualMpCosts": "validated per participating chosen Art; no participant may overspend",
+      "targetRules": "contextual legal target",
+      "effects": [
+        "LINK_MARK",
+        "LINK_AMBUSH"
+      ],
+      "failureInterruption": "if participant becomes unable to act, forecast is invalidated before confirmation or resolves to documented fallback if interrupted after execution begins",
+      "masteryRules": "Link mastery belongs to the participant combination signature",
+      "discoveryConditions": [
+        "all requirements met",
+        "meaningful setup",
+        "deterministic readiness meter >= threshold"
+      ],
+      "forecastPhraseBank": [
+        "Marked Assassination—now!",
+        "Bring the sequence together!"
+      ],
+      "animationTag": "LINK_MARKED_ASSASSINATION_ANIM",
+      "vfxTag": "LINK_MARKED_ASSASSINATION_VFX",
+      "sfxTag": "LINK_MARKED_ASSASSINATION_SFX",
+      "cameraTag": "CAM_LINK",
+      "balanceRestrictions": [
+        "cannot bypass participant MP",
+        "cannot appear if required participant absent",
+        "rare full-Union Links require high Cohesion"
+      ]
+    },
+    {
+      "id": "LINK_SANCTUARY_FORMATION",
+      "displayName": "Sanctuary Formation",
+      "participantRoles": [
+        "Guardian",
+        "Priest"
+      ],
+      "requiredArtFamilies": [
+        "GUARD",
+        "HEAL"
+      ],
+      "formationRequirements": [
+        "all required participants occupy compatible active slots"
+      ],
+      "relationshipRequirement": 20,
+      "cohesionMinimum": 55,
+      "setupRequirements": [
+        "at least one matching meaningful setup action in previous 2 rounds"
+      ],
+      "sharedApCost": 9,
+      "individualMpCosts": "validated per participating chosen Art; no participant may overspend",
+      "targetRules": "contextual legal target",
+      "effects": [
+        "LINK_GUARD",
+        "LINK_HEAL"
+      ],
+      "failureInterruption": "if participant becomes unable to act, forecast is invalidated before confirmation or resolves to documented fallback if interrupted after execution begins",
+      "masteryRules": "Link mastery belongs to the participant combination signature",
+      "discoveryConditions": [
+        "all requirements met",
+        "meaningful setup",
+        "deterministic readiness meter >= threshold"
+      ],
+      "forecastPhraseBank": [
+        "Sanctuary Formation—now!",
+        "Bring the sequence together!"
+      ],
+      "animationTag": "LINK_SANCTUARY_FORMATION_ANIM",
+      "vfxTag": "LINK_SANCTUARY_FORMATION_VFX",
+      "sfxTag": "LINK_SANCTUARY_FORMATION_SFX",
+      "cameraTag": "CAM_LINK",
+      "balanceRestrictions": [
+        "cannot bypass participant MP",
+        "cannot appear if required participant absent",
+        "rare full-Union Links require high Cohesion"
+      ]
+    },
+    {
+      "id": "LINK_DUAL_CONVERGENCE",
+      "displayName": "Dual Convergence",
+      "participantRoles": [
+        "Mage",
+        "Mage"
+      ],
+      "requiredArtFamilies": [
+        "MYSTIC",
+        "MYSTIC"
+      ],
+      "formationRequirements": [
+        "all required participants occupy compatible active slots"
+      ],
+      "relationshipRequirement": 20,
+      "cohesionMinimum": 55,
+      "setupRequirements": [
+        "at least one matching meaningful setup action in previous 2 rounds"
+      ],
+      "sharedApCost": 9,
+      "individualMpCosts": "validated per participating chosen Art; no participant may overspend",
+      "targetRules": "contextual legal target",
+      "effects": [
+        "LINK_MYSTIC",
+        "LINK_MYSTIC"
+      ],
+      "failureInterruption": "if participant becomes unable to act, forecast is invalidated before confirmation or resolves to documented fallback if interrupted after execution begins",
+      "masteryRules": "Link mastery belongs to the participant combination signature",
+      "discoveryConditions": [
+        "all requirements met",
+        "meaningful setup",
+        "deterministic readiness meter >= threshold"
+      ],
+      "forecastPhraseBank": [
+        "Dual Convergence—now!",
+        "Bring the sequence together!"
+      ],
+      "animationTag": "LINK_DUAL_CONVERGENCE_ANIM",
+      "vfxTag": "LINK_DUAL_CONVERGENCE_VFX",
+      "sfxTag": "LINK_DUAL_CONVERGENCE_SFX",
+      "cameraTag": "CAM_LINK",
+      "balanceRestrictions": [
+        "cannot bypass participant MP",
+        "cannot appear if required participant absent",
+        "rare full-Union Links require high Cohesion"
+      ]
+    },
+    {
+      "id": "LINK_ALLIANCE_WEAVE",
+      "displayName": "Alliance Weave",
+      "participantRoles": [
+        "ANY",
+        "ANY"
+      ],
+      "requiredArtFamilies": [
+        "CULTURAL",
+        "SUPPORT"
+      ],
+      "formationRequirements": [
+        "all required participants occupy compatible active slots"
+      ],
+      "relationshipRequirement": 35,
+      "cohesionMinimum": 55,
+      "setupRequirements": [
+        "at least one matching meaningful setup action in previous 2 rounds"
+      ],
+      "sharedApCost": 9,
+      "individualMpCosts": "validated per participating chosen Art; no participant may overspend",
+      "targetRules": "contextual legal target",
+      "effects": [
+        "LINK_CULTURAL",
+        "LINK_SUPPORT"
+      ],
+      "failureInterruption": "if participant becomes unable to act, forecast is invalidated before confirmation or resolves to documented fallback if interrupted after execution begins",
+      "masteryRules": "Link mastery belongs to the participant combination signature",
+      "discoveryConditions": [
+        "all requirements met",
+        "meaningful setup",
+        "deterministic readiness meter >= threshold"
+      ],
+      "forecastPhraseBank": [
+        "Alliance Weave—now!",
+        "Bring the sequence together!"
+      ],
+      "animationTag": "LINK_ALLIANCE_WEAVE_ANIM",
+      "vfxTag": "LINK_ALLIANCE_WEAVE_VFX",
+      "sfxTag": "LINK_ALLIANCE_WEAVE_SFX",
+      "cameraTag": "CAM_LINK",
+      "balanceRestrictions": [
+        "cannot bypass participant MP",
+        "cannot appear if required participant absent",
+        "rare full-Union Links require high Cohesion"
+      ]
+    },
+    {
+      "id": "LINK_PULL_THEM_HOME",
+      "displayName": "Pull Them Home",
+      "participantRoles": [
+        "ANY",
+        "ANY"
+      ],
+      "requiredArtFamilies": [
+        "RESCUE",
+        "HEAL"
+      ],
+      "formationRequirements": [
+        "all required participants occupy compatible active slots"
+      ],
+      "relationshipRequirement": 35,
+      "cohesionMinimum": 55,
+      "setupRequirements": [
+        "at least one matching meaningful setup action in previous 2 rounds"
+      ],
+      "sharedApCost": 10,
+      "individualMpCosts": "validated per participating chosen Art; no participant may overspend",
+      "targetRules": "contextual legal target",
+      "effects": [
+        "LINK_RESCUE",
+        "LINK_HEAL"
+      ],
+      "failureInterruption": "if participant becomes unable to act, forecast is invalidated before confirmation or resolves to documented fallback if interrupted after execution begins",
+      "masteryRules": "Link mastery belongs to the participant combination signature",
+      "discoveryConditions": [
+        "all requirements met",
+        "meaningful setup",
+        "deterministic readiness meter >= threshold"
+      ],
+      "forecastPhraseBank": [
+        "Pull Them Home—now!",
+        "Bring the sequence together!"
+      ],
+      "animationTag": "LINK_PULL_THEM_HOME_ANIM",
+      "vfxTag": "LINK_PULL_THEM_HOME_VFX",
+      "sfxTag": "LINK_PULL_THEM_HOME_SFX",
+      "cameraTag": "CAM_LINK",
+      "balanceRestrictions": [
+        "cannot bypass participant MP",
+        "cannot appear if required participant absent",
+        "rare full-Union Links require high Cohesion"
+      ]
+    },
+    {
+      "id": "LINK_CRACK_AND_FLOOD",
+      "displayName": "Crack and Flood",
+      "participantRoles": [
+        "Warrior",
+        "Mage"
+      ],
+      "requiredArtFamilies": [
+        "BREAK",
+        "MYSTIC"
+      ],
+      "formationRequirements": [
+        "all required participants occupy compatible active slots"
+      ],
+      "relationshipRequirement": 35,
+      "cohesionMinimum": 55,
+      "setupRequirements": [
+        "at least one matching meaningful setup action in previous 2 rounds"
+      ],
+      "sharedApCost": 10,
+      "individualMpCosts": "validated per participating chosen Art; no participant may overspend",
+      "targetRules": "contextual legal target",
+      "effects": [
+        "LINK_BREAK",
+        "LINK_MYSTIC"
+      ],
+      "failureInterruption": "if participant becomes unable to act, forecast is invalidated before confirmation or resolves to documented fallback if interrupted after execution begins",
+      "masteryRules": "Link mastery belongs to the participant combination signature",
+      "discoveryConditions": [
+        "all requirements met",
+        "meaningful setup",
+        "deterministic readiness meter >= threshold"
+      ],
+      "forecastPhraseBank": [
+        "Crack and Flood—now!",
+        "Bring the sequence together!"
+      ],
+      "animationTag": "LINK_CRACK_AND_FLOOD_ANIM",
+      "vfxTag": "LINK_CRACK_AND_FLOOD_VFX",
+      "sfxTag": "LINK_CRACK_AND_FLOOD_SFX",
+      "cameraTag": "CAM_LINK",
+      "balanceRestrictions": [
+        "cannot bypass participant MP",
+        "cannot appear if required participant absent",
+        "rare full-Union Links require high Cohesion"
+      ]
+    },
+    {
+      "id": "LINK_KILL_ZONE",
+      "displayName": "Kill Zone",
+      "participantRoles": [
+        "Ranger",
+        "Rogue"
+      ],
+      "requiredArtFamilies": [
+        "TACTICAL",
+        "AMBUSH"
+      ],
+      "formationRequirements": [
+        "all required participants occupy compatible active slots"
+      ],
+      "relationshipRequirement": 35,
+      "cohesionMinimum": 55,
+      "setupRequirements": [
+        "at least one matching meaningful setup action in previous 2 rounds"
+      ],
+      "sharedApCost": 10,
+      "individualMpCosts": "validated per participating chosen Art; no participant may overspend",
+      "targetRules": "contextual legal target",
+      "effects": [
+        "LINK_TACTICAL",
+        "LINK_AMBUSH"
+      ],
+      "failureInterruption": "if participant becomes unable to act, forecast is invalidated before confirmation or resolves to documented fallback if interrupted after execution begins",
+      "masteryRules": "Link mastery belongs to the participant combination signature",
+      "discoveryConditions": [
+        "all requirements met",
+        "meaningful setup",
+        "deterministic readiness meter >= threshold"
+      ],
+      "forecastPhraseBank": [
+        "Kill Zone—now!",
+        "Bring the sequence together!"
+      ],
+      "animationTag": "LINK_KILL_ZONE_ANIM",
+      "vfxTag": "LINK_KILL_ZONE_VFX",
+      "sfxTag": "LINK_KILL_ZONE_SFX",
+      "cameraTag": "CAM_LINK",
+      "balanceRestrictions": [
+        "cannot bypass participant MP",
+        "cannot appear if required participant absent",
+        "rare full-Union Links require high Cohesion"
+      ]
+    },
+    {
+      "id": "LINK_LAST_LANTERN",
+      "displayName": "Last Lantern",
+      "participantRoles": [
+        "Guardian",
+        "Priest"
+      ],
+      "requiredArtFamilies": [
+        "BOSS",
+        "RESTORATION"
+      ],
+      "formationRequirements": [
+        "all required participants occupy compatible active slots"
+      ],
+      "relationshipRequirement": 35,
+      "cohesionMinimum": 70,
+      "setupRequirements": [
+        "at least one matching meaningful setup action in previous 2 rounds"
+      ],
+      "sharedApCost": 11,
+      "individualMpCosts": "validated per participating chosen Art; no participant may overspend",
+      "targetRules": "contextual legal target",
+      "effects": [
+        "LINK_BOSS",
+        "LINK_RESTORATION"
+      ],
+      "failureInterruption": "if participant becomes unable to act, forecast is invalidated before confirmation or resolves to documented fallback if interrupted after execution begins",
+      "masteryRules": "Link mastery belongs to the participant combination signature",
+      "discoveryConditions": [
+        "all requirements met",
+        "meaningful setup",
+        "deterministic readiness meter >= threshold"
+      ],
+      "forecastPhraseBank": [
+        "Last Lantern—now!",
+        "Bring the sequence together!"
+      ],
+      "animationTag": "LINK_LAST_LANTERN_ANIM",
+      "vfxTag": "LINK_LAST_LANTERN_VFX",
+      "sfxTag": "LINK_LAST_LANTERN_SFX",
+      "cameraTag": "CAM_LINK",
+      "balanceRestrictions": [
+        "cannot bypass participant MP",
+        "cannot appear if required participant absent",
+        "rare full-Union Links require high Cohesion"
+      ]
+    },
+    {
+      "id": "LINK_THREE_ROADS",
+      "displayName": "Three Roads",
+      "participantRoles": [
+        "ANY",
+        "ANY",
+        "ANY"
+      ],
+      "requiredArtFamilies": [
+        "TACTICAL",
+        "SUPPORT",
+        "OFFENSE"
+      ],
+      "formationRequirements": [
+        "all required participants occupy compatible active slots"
+      ],
+      "relationshipRequirement": 35,
+      "cohesionMinimum": 70,
+      "setupRequirements": [
+        "at least one matching meaningful setup action in previous 2 rounds"
+      ],
+      "sharedApCost": 11,
+      "individualMpCosts": "validated per participating chosen Art; no participant may overspend",
+      "targetRules": "contextual legal target",
+      "effects": [
+        "LINK_TACTICAL",
+        "LINK_SUPPORT",
+        "LINK_OFFENSE"
+      ],
+      "failureInterruption": "if participant becomes unable to act, forecast is invalidated before confirmation or resolves to documented fallback if interrupted after execution begins",
+      "masteryRules": "Link mastery belongs to the participant combination signature",
+      "discoveryConditions": [
+        "all requirements met",
+        "meaningful setup",
+        "deterministic readiness meter >= threshold"
+      ],
+      "forecastPhraseBank": [
+        "Three Roads—now!",
+        "Bring the sequence together!"
+      ],
+      "animationTag": "LINK_THREE_ROADS_ANIM",
+      "vfxTag": "LINK_THREE_ROADS_VFX",
+      "sfxTag": "LINK_THREE_ROADS_SFX",
+      "cameraTag": "CAM_LINK",
+      "balanceRestrictions": [
+        "cannot bypass participant MP",
+        "cannot appear if required participant absent",
+        "rare full-Union Links require high Cohesion"
+      ]
+    },
+    {
+      "id": "LINK_UNION_SIGNATURE",
+      "displayName": "Name Written Together",
+      "participantRoles": [
+        "ANY",
+        "ANY",
+        "ANY",
+        "ANY"
+      ],
+      "requiredArtFamilies": [
+        "FULL_UNION"
+      ],
+      "formationRequirements": [
+        "all required participants occupy compatible active slots"
+      ],
+      "relationshipRequirement": 35,
+      "cohesionMinimum": 70,
+      "setupRequirements": [
+        "at least one matching meaningful setup action in previous 2 rounds"
+      ],
+      "sharedApCost": 11,
+      "individualMpCosts": "validated per participating chosen Art; no participant may overspend",
+      "targetRules": "contextual legal target",
+      "effects": [
+        "LINK_FULL_UNION"
+      ],
+      "failureInterruption": "if participant becomes unable to act, forecast is invalidated before confirmation or resolves to documented fallback if interrupted after execution begins",
+      "masteryRules": "Link mastery belongs to the participant combination signature",
+      "discoveryConditions": [
+        "all requirements met",
+        "meaningful setup",
+        "deterministic readiness meter >= threshold"
+      ],
+      "forecastPhraseBank": [
+        "Name Written Together—now!",
+        "Bring the sequence together!"
+      ],
+      "animationTag": "LINK_UNION_SIGNATURE_ANIM",
+      "vfxTag": "LINK_UNION_SIGNATURE_VFX",
+      "sfxTag": "LINK_UNION_SIGNATURE_SFX",
+      "cameraTag": "CAM_LINK",
+      "balanceRestrictions": [
+        "cannot bypass participant MP",
+        "cannot appear if required participant absent",
+        "rare full-Union Links require high Cohesion"
+      ]
+    }
+  ]
+}

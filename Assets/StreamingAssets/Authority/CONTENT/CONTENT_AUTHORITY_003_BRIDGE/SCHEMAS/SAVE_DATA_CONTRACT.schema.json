@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Save Data Contract",
+  "type": "object",
+  "required": [
+    "contentVersion",
+    "saveVersion",
+    "records"
+  ],
+  "properties": {
+    "contentVersion": {
+      "type": "string"
+    },
+    "saveVersion": {
+      "type": "integer"
+    },
+    "records": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": true
+}

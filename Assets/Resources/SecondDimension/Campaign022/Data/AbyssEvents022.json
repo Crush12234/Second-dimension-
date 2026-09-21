@@ -1,0 +1,1364 @@
+{
+  "events": [
+    {
+      "eventId": "ABYSS_EVENT022_01_01",
+      "floorId": "ABYSS_FLOOR_001_MUD_TRENCHES",
+      "title": "The Mud Trenches Remembers",
+      "setup": "A deterministic event tests movement, fatigue, rescue under pressure.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_01_02",
+      "floorId": "ABYSS_FLOOR_001_MUD_TRENCHES",
+      "title": "Broken Route on Mud Trenches",
+      "setup": "A deterministic event tests movement, fatigue, rescue under pressure.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_01_03",
+      "floorId": "ABYSS_FLOOR_001_MUD_TRENCHES",
+      "title": "A Voice Beneath Mud Trenches",
+      "setup": "A deterministic event tests movement, fatigue, rescue under pressure.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_01_04",
+      "floorId": "ABYSS_FLOOR_001_MUD_TRENCHES",
+      "title": "The Cost of Leaving Mud Trenches",
+      "setup": "A deterministic event tests movement, fatigue, rescue under pressure.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_02_01",
+      "floorId": "ABYSS_FLOOR_002_ARROW_RAIN_FIELD",
+      "title": "The Arrow Rain Field Remembers",
+      "setup": "A deterministic event tests cover, ranged pressure, guard timing.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_02_02",
+      "floorId": "ABYSS_FLOOR_002_ARROW_RAIN_FIELD",
+      "title": "Broken Route on Arrow Rain Field",
+      "setup": "A deterministic event tests cover, ranged pressure, guard timing.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_02_03",
+      "floorId": "ABYSS_FLOOR_002_ARROW_RAIN_FIELD",
+      "title": "A Voice Beneath Arrow Rain Field",
+      "setup": "A deterministic event tests cover, ranged pressure, guard timing.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": true,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_02_04",
+      "floorId": "ABYSS_FLOOR_002_ARROW_RAIN_FIELD",
+      "title": "The Cost of Leaving Arrow Rain Field",
+      "setup": "A deterministic event tests cover, ranged pressure, guard timing.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_03_01",
+      "floorId": "ABYSS_FLOOR_003_SILENT_CAMP",
+      "title": "The Silent Camp Remembers",
+      "setup": "A deterministic event tests morale, memory, noncombat judgment.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_03_02",
+      "floorId": "ABYSS_FLOOR_003_SILENT_CAMP",
+      "title": "Broken Route on Silent Camp",
+      "setup": "A deterministic event tests morale, memory, noncombat judgment.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_03_03",
+      "floorId": "ABYSS_FLOOR_003_SILENT_CAMP",
+      "title": "A Voice Beneath Silent Camp",
+      "setup": "A deterministic event tests morale, memory, noncombat judgment.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": true,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_03_04",
+      "floorId": "ABYSS_FLOOR_003_SILENT_CAMP",
+      "title": "The Cost of Leaving Silent Camp",
+      "setup": "A deterministic event tests morale, memory, noncombat judgment.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_04_01",
+      "floorId": "ABYSS_FLOOR_004_COLLAPSED_SIEGE_WALL",
+      "title": "The Collapsed Siege Wall Remembers",
+      "setup": "A deterministic event tests engineering, breach repair, formation defense.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_04_02",
+      "floorId": "ABYSS_FLOOR_004_COLLAPSED_SIEGE_WALL",
+      "title": "Broken Route on Collapsed Siege Wall",
+      "setup": "A deterministic event tests engineering, breach repair, formation defense.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_04_03",
+      "floorId": "ABYSS_FLOOR_004_COLLAPSED_SIEGE_WALL",
+      "title": "A Voice Beneath Collapsed Siege Wall",
+      "setup": "A deterministic event tests engineering, breach repair, formation defense.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": true,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_04_04",
+      "floorId": "ABYSS_FLOOR_004_COLLAPSED_SIEGE_WALL",
+      "title": "The Cost of Leaving Collapsed Siege Wall",
+      "setup": "A deterministic event tests engineering, breach repair, formation defense.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_05_01",
+      "floorId": "ABYSS_FLOOR_005_GRAVE_BANNER_HILL",
+      "title": "The Grave Banner Hill Remembers",
+      "setup": "A deterministic event tests leadership, fear, banner memory.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_05_02",
+      "floorId": "ABYSS_FLOOR_005_GRAVE_BANNER_HILL",
+      "title": "Broken Route on Grave Banner Hill",
+      "setup": "A deterministic event tests leadership, fear, banner memory.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_05_03",
+      "floorId": "ABYSS_FLOOR_005_GRAVE_BANNER_HILL",
+      "title": "A Voice Beneath Grave Banner Hill",
+      "setup": "A deterministic event tests leadership, fear, banner memory.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": true,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_05_04",
+      "floorId": "ABYSS_FLOOR_005_GRAVE_BANNER_HILL",
+      "title": "The Cost of Leaving Grave Banner Hill",
+      "setup": "A deterministic event tests leadership, fear, banner memory.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_06_01",
+      "floorId": "ABYSS_FLOOR_006_IRON_MARCH",
+      "title": "The Iron March Remembers",
+      "setup": "A deterministic event tests attrition, equipment condition, sustained union command.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_06_02",
+      "floorId": "ABYSS_FLOOR_006_IRON_MARCH",
+      "title": "Broken Route on Iron March",
+      "setup": "A deterministic event tests attrition, equipment condition, sustained union command.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_06_03",
+      "floorId": "ABYSS_FLOOR_006_IRON_MARCH",
+      "title": "A Voice Beneath Iron March",
+      "setup": "A deterministic event tests attrition, equipment condition, sustained union command.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": true,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_06_04",
+      "floorId": "ABYSS_FLOOR_006_IRON_MARCH",
+      "title": "The Cost of Leaving Iron March",
+      "setup": "A deterministic event tests attrition, equipment condition, sustained union command.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_07_01",
+      "floorId": "ABYSS_FLOOR_007_BLOODLESS_RIVER",
+      "title": "The Bloodless River Remembers",
+      "setup": "A deterministic event tests restoration, crossing, rescue without sacrifice.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_07_02",
+      "floorId": "ABYSS_FLOOR_007_BLOODLESS_RIVER",
+      "title": "Broken Route on Bloodless River",
+      "setup": "A deterministic event tests restoration, crossing, rescue without sacrifice.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_07_03",
+      "floorId": "ABYSS_FLOOR_007_BLOODLESS_RIVER",
+      "title": "A Voice Beneath Bloodless River",
+      "setup": "A deterministic event tests restoration, crossing, rescue without sacrifice.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": true,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_07_04",
+      "floorId": "ABYSS_FLOOR_007_BLOODLESS_RIVER",
+      "title": "The Cost of Leaving Bloodless River",
+      "setup": "A deterministic event tests restoration, crossing, rescue without sacrifice.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_08_01",
+      "floorId": "ABYSS_FLOOR_008_WAR_BEAST_PENS",
+      "title": "The War Beast Pens Remembers",
+      "setup": "A deterministic event tests creature ethics, restraint, summon resonance.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_08_02",
+      "floorId": "ABYSS_FLOOR_008_WAR_BEAST_PENS",
+      "title": "Broken Route on War Beast Pens",
+      "setup": "A deterministic event tests creature ethics, restraint, summon resonance.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_08_03",
+      "floorId": "ABYSS_FLOOR_008_WAR_BEAST_PENS",
+      "title": "A Voice Beneath War Beast Pens",
+      "setup": "A deterministic event tests creature ethics, restraint, summon resonance.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": true,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_08_04",
+      "floorId": "ABYSS_FLOOR_008_WAR_BEAST_PENS",
+      "title": "The Cost of Leaving War Beast Pens",
+      "setup": "A deterministic event tests creature ethics, restraint, summon resonance.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_09_01",
+      "floorId": "ABYSS_FLOOR_009_ASH_COMMAND_TENT",
+      "title": "The Ash Command Tent Remembers",
+      "setup": "A deterministic event tests tactical command, class certification, false orders.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_09_02",
+      "floorId": "ABYSS_FLOOR_009_ASH_COMMAND_TENT",
+      "title": "Broken Route on Ash Command Tent",
+      "setup": "A deterministic event tests tactical command, class certification, false orders.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_09_03",
+      "floorId": "ABYSS_FLOOR_009_ASH_COMMAND_TENT",
+      "title": "A Voice Beneath Ash Command Tent",
+      "setup": "A deterministic event tests tactical command, class certification, false orders.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": true,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_09_04",
+      "floorId": "ABYSS_FLOOR_009_ASH_COMMAND_TENT",
+      "title": "The Cost of Leaving Ash Command Tent",
+      "setup": "A deterministic event tests tactical command, class certification, false orders.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_10_01",
+      "floorId": "ABYSS_FLOOR_010_AEGIS_GATE",
+      "title": "The Aegis Gate Remembers",
+      "setup": "A deterministic event tests public protection trial and voluntary covenant recognition.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_10_02",
+      "floorId": "ABYSS_FLOOR_010_AEGIS_GATE",
+      "title": "Broken Route on Aegis Gate",
+      "setup": "A deterministic event tests public protection trial and voluntary covenant recognition.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_10_03",
+      "floorId": "ABYSS_FLOOR_010_AEGIS_GATE",
+      "title": "A Voice Beneath Aegis Gate",
+      "setup": "A deterministic event tests public protection trial and voluntary covenant recognition.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    },
+    {
+      "eventId": "ABYSS_EVENT022_10_04",
+      "floorId": "ABYSS_FLOOR_010_AEGIS_GATE",
+      "title": "The Cost of Leaving Aegis Gate",
+      "setup": "A deterministic event tests public protection trial and voluntary covenant recognition.",
+      "choices": [
+        {
+          "choiceId": "PROTECT",
+          "summary": "Protect people and preserve the route.",
+          "check": "Guard or Restoration"
+        },
+        {
+          "choiceId": "UNDERSTAND",
+          "summary": "Study the memory before acting.",
+          "check": "Tactical or Mystic"
+        },
+        {
+          "choiceId": "PRESS",
+          "summary": "Accept greater risk for a stronger result.",
+          "check": "Combat or Engineering"
+        }
+      ],
+      "outcomes": [
+        "CRITICAL_SUCCESS",
+        "SUCCESS",
+        "MIXED",
+        "SETBACK",
+        "CRITICAL_SETBACK"
+      ],
+      "relationshipMemoryPossible": true,
+      "marginEligible": false,
+      "committed2d6OrAuthorityCheck": true,
+      "rerollForbidden": true
+    }
+  ]
+}

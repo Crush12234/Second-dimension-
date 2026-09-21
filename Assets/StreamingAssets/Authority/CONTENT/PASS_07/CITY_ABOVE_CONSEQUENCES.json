@@ -1,0 +1,114 @@
+{
+  "consequences": [
+    {
+      "id": "CITY_CONSEQUENCE_F01",
+      "floorId": "ABYSS_FLOOR_001",
+      "name": "Rescue Drill Annex",
+      "visualChange": "Guild/Skyhome visibly adds Rescue Drill Annex.",
+      "gameplayEffect": "Unlocks civic and Guild Hall support tied to protect allies while advancing.",
+      "civicTrust": 6,
+      "futureDependencies": [
+        "CITY_DEP_F01"
+      ]
+    },
+    {
+      "id": "CITY_CONSEQUENCE_F02",
+      "floorId": "ABYSS_FLOOR_002",
+      "name": "Covered Formation Range",
+      "visualChange": "Guild/Skyhome visibly adds Covered Formation Range.",
+      "gameplayEffect": "Unlocks civic and Guild Hall support tied to timing, shelter, and coordinated movement.",
+      "civicTrust": 7,
+      "futureDependencies": [
+        "CITY_DEP_F02"
+      ]
+    },
+    {
+      "id": "CITY_CONSEQUENCE_F03",
+      "floorId": "ABYSS_FLOOR_003",
+      "name": "Quartermaster Supply Kitchen",
+      "visualChange": "Guild/Skyhome visibly adds Quartermaster Supply Kitchen.",
+      "gameplayEffect": "Unlocks civic and Guild Hall support tied to supplies, records, rest, and preparation.",
+      "civicTrust": 8,
+      "futureDependencies": [
+        "CITY_DEP_F03"
+      ]
+    },
+    {
+      "id": "CITY_CONSEQUENCE_F04",
+      "floorId": "ABYSS_FLOOR_004",
+      "name": "Outer Wall Repair Yard",
+      "visualChange": "Guild/Skyhome visibly adds Outer Wall Repair Yard.",
+      "gameplayEffect": "Unlocks civic and Guild Hall support tied to engineering, repair, terrain, and holding breaches.",
+      "civicTrust": 9,
+      "futureDependencies": [
+        "CITY_DEP_F04"
+      ]
+    },
+    {
+      "id": "CITY_CONSEQUENCE_F05",
+      "floorId": "ABYSS_FLOOR_005",
+      "name": "Chronicle Memorial Gallery",
+      "visualChange": "Guild/Skyhome visibly adds Chronicle Memorial Gallery.",
+      "gameplayEffect": "Unlocks civic and Guild Hall support tied to inspire without recreating extinct ideology.",
+      "civicTrust": 10,
+      "futureDependencies": [
+        "CITY_DEP_F05"
+      ]
+    },
+    {
+      "id": "CITY_CONSEQUENCE_F06",
+      "floorId": "ABYSS_FLOOR_006",
+      "name": "Union Drill Yard",
+      "visualChange": "Guild/Skyhome visibly adds Union Drill Yard.",
+      "gameplayEffect": "Unlocks civic and Guild Hall support tied to formation mastery, leadership, and controlled advance.",
+      "civicTrust": 11,
+      "futureDependencies": [
+        "CITY_DEP_F06"
+      ]
+    },
+    {
+      "id": "CITY_CONSEQUENCE_F07",
+      "floorId": "ABYSS_FLOOR_007",
+      "name": "Purification Bridgeworks",
+      "visualChange": "Guild/Skyhome visibly adds Purification Bridgeworks.",
+      "gameplayEffect": "Unlocks civic and Guild Hall support tied to route control, bridge defense, water systems, and rescue.",
+      "civicTrust": 12,
+      "futureDependencies": [
+        "CITY_DEP_F07"
+      ]
+    },
+    {
+      "id": "CITY_CONSEQUENCE_F08",
+      "floorId": "ABYSS_FLOOR_008",
+      "name": "Ethical Creature Care Yard",
+      "visualChange": "Guild/Skyhome visibly adds Ethical Creature Care Yard.",
+      "gameplayEffect": "Unlocks civic and Guild Hall support tied to distinguish danger from suffering.",
+      "civicTrust": 13,
+      "futureDependencies": [
+        "CITY_DEP_F08"
+      ]
+    },
+    {
+      "id": "CITY_CONSEQUENCE_F09",
+      "floorId": "ABYSS_FLOOR_009",
+      "name": "Strategy Room War Table",
+      "visualChange": "Guild/Skyhome visibly adds Strategy Room War Table.",
+      "gameplayEffect": "Unlocks civic and Guild Hall support tied to intelligence, command, supply, and multi-Union coordination.",
+      "civicTrust": 14,
+      "futureDependencies": [
+        "CITY_DEP_F09"
+      ]
+    },
+    {
+      "id": "CITY_CONSEQUENCE_F10",
+      "floorId": "ABYSS_FLOOR_010",
+      "name": "Aegis Civic Defense Wing",
+      "visualChange": "Guild/Skyhome visibly adds Aegis Civic Defense Wing.",
+      "gameplayEffect": "Unlocks civic and Guild Hall support tied to save civilians, coordinate Unions, survive judgment.",
+      "civicTrust": 15,
+      "futureDependencies": [
+        "CITY_DEP_F10"
+      ]
+    }
+  ]
+}

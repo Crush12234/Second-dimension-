@@ -1,0 +1,574 @@
+{
+  "enemyFamilies": [
+    {
+      "id": "ENEMY_F01_LINE",
+      "floorId": "ABYSS_FLOOR_001",
+      "name": "Broken Soldiers Line",
+      "role": "LINE",
+      "visualIdentity": "muddy trench lines, splintered duckboards, half-buried shelter doors",
+      "ap": 9,
+      "mp": 0,
+      "cohesion": 85,
+      "arts": [
+        "ABYSS_LINE_ART_01_A",
+        "ABYSS_LINE_ART_01_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "DUGOUT",
+      "loot": [
+        "rusted medals and shield splinters"
+      ]
+    },
+    {
+      "id": "ENEMY_F01_SUPPORT",
+      "floorId": "ABYSS_FLOOR_001",
+      "name": "Broken Soldiers Support",
+      "role": "SUPPORT",
+      "visualIdentity": "muddy trench lines, splintered duckboards, half-buried shelter doors",
+      "ap": 9,
+      "mp": 7,
+      "cohesion": 85,
+      "arts": [
+        "ABYSS_SUPPORT_ART_01_A",
+        "ABYSS_SUPPORT_ART_01_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "COLLAPSED_CROSSING",
+      "loot": [
+        "rusted medals and shield splinters"
+      ]
+    },
+    {
+      "id": "ENEMY_F01_CONTROL",
+      "floorId": "ABYSS_FLOOR_001",
+      "name": "Broken Soldiers Control",
+      "role": "CONTROL",
+      "visualIdentity": "muddy trench lines, splintered duckboards, half-buried shelter doors",
+      "ap": 9,
+      "mp": 7,
+      "cohesion": 85,
+      "arts": [
+        "ABYSS_CONTROL_ART_01_A",
+        "ABYSS_CONTROL_ART_01_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "SHELTER_SHAFT",
+      "loot": [
+        "rusted medals and shield splinters"
+      ]
+    },
+    {
+      "id": "ENEMY_F02_LINE",
+      "floorId": "ABYSS_FLOOR_002",
+      "name": "Arrow Echoes Line",
+      "role": "LINE",
+      "visualIdentity": "wind-flattened field, phantom arrow curtains, movable shield berms",
+      "ap": 10,
+      "mp": 0,
+      "cohesion": 90,
+      "arts": [
+        "ABYSS_LINE_ART_02_A",
+        "ABYSS_LINE_ART_02_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "MOVING_COVER",
+      "loot": [
+        "wind charms and arrow cores"
+      ]
+    },
+    {
+      "id": "ENEMY_F02_SUPPORT",
+      "floorId": "ABYSS_FLOOR_002",
+      "name": "Arrow Echoes Support",
+      "role": "SUPPORT",
+      "visualIdentity": "wind-flattened field, phantom arrow curtains, movable shield berms",
+      "ap": 10,
+      "mp": 8,
+      "cohesion": 90,
+      "arts": [
+        "ABYSS_SUPPORT_ART_02_A",
+        "ABYSS_SUPPORT_ART_02_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "SHIELD_BERM",
+      "loot": [
+        "wind charms and arrow cores"
+      ]
+    },
+    {
+      "id": "ENEMY_F02_CONTROL",
+      "floorId": "ABYSS_FLOOR_002",
+      "name": "Arrow Echoes Control",
+      "role": "CONTROL",
+      "visualIdentity": "wind-flattened field, phantom arrow curtains, movable shield berms",
+      "ap": 10,
+      "mp": 8,
+      "cohesion": 90,
+      "arts": [
+        "ABYSS_CONTROL_ART_02_A",
+        "ABYSS_CONTROL_ART_02_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "WIND_GAP",
+      "loot": [
+        "wind charms and arrow cores"
+      ]
+    },
+    {
+      "id": "ENEMY_F03_LINE",
+      "floorId": "ABYSS_FLOOR_003",
+      "name": "Camp Wraiths Line",
+      "role": "LINE",
+      "visualIdentity": "silent canvas rows, cold cookfires, numbered stores, empty bedrolls",
+      "ap": 11,
+      "mp": 0,
+      "cohesion": 95,
+      "arts": [
+        "ABYSS_LINE_ART_03_A",
+        "ABYSS_LINE_ART_03_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "MEDICAL_TENT",
+      "loot": [
+        "ration blueprints and field-stove components"
+      ]
+    },
+    {
+      "id": "ENEMY_F03_SUPPORT",
+      "floorId": "ABYSS_FLOOR_003",
+      "name": "Camp Wraiths Support",
+      "role": "SUPPORT",
+      "visualIdentity": "silent canvas rows, cold cookfires, numbered stores, empty bedrolls",
+      "ap": 11,
+      "mp": 9,
+      "cohesion": 95,
+      "arts": [
+        "ABYSS_SUPPORT_ART_03_A",
+        "ABYSS_SUPPORT_ART_03_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "COOKFIRE",
+      "loot": [
+        "ration blueprints and field-stove components"
+      ]
+    },
+    {
+      "id": "ENEMY_F03_CONTROL",
+      "floorId": "ABYSS_FLOOR_003",
+      "name": "Camp Wraiths Control",
+      "role": "CONTROL",
+      "visualIdentity": "silent canvas rows, cold cookfires, numbered stores, empty bedrolls",
+      "ap": 11,
+      "mp": 9,
+      "cohesion": 95,
+      "arts": [
+        "ABYSS_CONTROL_ART_03_A",
+        "ABYSS_CONTROL_ART_03_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "RECORDS_DEPOT",
+      "loot": [
+        "ration blueprints and field-stove components"
+      ]
+    },
+    {
+      "id": "ENEMY_F04_LINE",
+      "floorId": "ABYSS_FLOOR_004",
+      "name": "Siege Crawlers Line",
+      "role": "LINE",
+      "visualIdentity": "looping broken curtain walls, scaffold gaps, cracked gate machinery",
+      "ap": 12,
+      "mp": 0,
+      "cohesion": 100,
+      "arts": [
+        "ABYSS_LINE_ART_04_A",
+        "ABYSS_LINE_ART_04_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "SCAFFOLD",
+      "loot": [
+        "stone cores and repair runes"
+      ]
+    },
+    {
+      "id": "ENEMY_F04_SUPPORT",
+      "floorId": "ABYSS_FLOOR_004",
+      "name": "Siege Crawlers Support",
+      "role": "SUPPORT",
+      "visualIdentity": "looping broken curtain walls, scaffold gaps, cracked gate machinery",
+      "ap": 12,
+      "mp": 10,
+      "cohesion": 100,
+      "arts": [
+        "ABYSS_SUPPORT_ART_04_A",
+        "ABYSS_SUPPORT_ART_04_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "BREACH",
+      "loot": [
+        "stone cores and repair runes"
+      ]
+    },
+    {
+      "id": "ENEMY_F04_CONTROL",
+      "floorId": "ABYSS_FLOOR_004",
+      "name": "Siege Crawlers Control",
+      "role": "CONTROL",
+      "visualIdentity": "looping broken curtain walls, scaffold gaps, cracked gate machinery",
+      "ap": 12,
+      "mp": 10,
+      "cohesion": 100,
+      "arts": [
+        "ABYSS_CONTROL_ART_04_A",
+        "ABYSS_CONTROL_ART_04_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "GATE_MECHANISM",
+      "loot": [
+        "stone cores and repair runes"
+      ]
+    },
+    {
+      "id": "ENEMY_F05_LINE",
+      "floorId": "ABYSS_FLOOR_005",
+      "name": "Banner Shades Line",
+      "role": "LINE",
+      "visualIdentity": "windy hill of faded standards, memorial cairns, ash grass",
+      "ap": 13,
+      "mp": 0,
+      "cohesion": 105,
+      "arts": [
+        "ABYSS_LINE_ART_05_A",
+        "ABYSS_LINE_ART_05_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "CAIRN_PATH",
+      "loot": [
+        "First King banner thread and memory cloth"
+      ]
+    },
+    {
+      "id": "ENEMY_F05_SUPPORT",
+      "floorId": "ABYSS_FLOOR_005",
+      "name": "Banner Shades Support",
+      "role": "SUPPORT",
+      "visualIdentity": "windy hill of faded standards, memorial cairns, ash grass",
+      "ap": 13,
+      "mp": 11,
+      "cohesion": 105,
+      "arts": [
+        "ABYSS_SUPPORT_ART_05_A",
+        "ABYSS_SUPPORT_ART_05_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "WIND_LEDGE",
+      "loot": [
+        "First King banner thread and memory cloth"
+      ]
+    },
+    {
+      "id": "ENEMY_F05_CONTROL",
+      "floorId": "ABYSS_FLOOR_005",
+      "name": "Banner Shades Control",
+      "role": "CONTROL",
+      "visualIdentity": "windy hill of faded standards, memorial cairns, ash grass",
+      "ap": 13,
+      "mp": 11,
+      "cohesion": 105,
+      "arts": [
+        "ABYSS_CONTROL_ART_05_A",
+        "ABYSS_CONTROL_ART_05_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "MEMORY_FIELD",
+      "loot": [
+        "First King banner thread and memory cloth"
+      ]
+    },
+    {
+      "id": "ENEMY_F06_LINE",
+      "floorId": "ABYSS_FLOOR_006",
+      "name": "Hollow Knights Line",
+      "role": "LINE",
+      "visualIdentity": "endless parade road, iron mile markers, marching armor ranks",
+      "ap": 14,
+      "mp": 0,
+      "cohesion": 110,
+      "arts": [
+        "ABYSS_LINE_ART_06_A",
+        "ABYSS_LINE_ART_06_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "DRILL_SQUARE",
+      "loot": [
+        "iron plates and drill manuals"
+      ]
+    },
+    {
+      "id": "ENEMY_F06_SUPPORT",
+      "floorId": "ABYSS_FLOOR_006",
+      "name": "Hollow Knights Support",
+      "role": "SUPPORT",
+      "visualIdentity": "endless parade road, iron mile markers, marching armor ranks",
+      "ap": 14,
+      "mp": 12,
+      "cohesion": 110,
+      "arts": [
+        "ABYSS_SUPPORT_ART_06_A",
+        "ABYSS_SUPPORT_ART_06_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "COMMAND_MARKER",
+      "loot": [
+        "iron plates and drill manuals"
+      ]
+    },
+    {
+      "id": "ENEMY_F06_CONTROL",
+      "floorId": "ABYSS_FLOOR_006",
+      "name": "Hollow Knights Control",
+      "role": "CONTROL",
+      "visualIdentity": "endless parade road, iron mile markers, marching armor ranks",
+      "ap": 14,
+      "mp": 12,
+      "cohesion": 110,
+      "arts": [
+        "ABYSS_CONTROL_ART_06_A",
+        "ABYSS_CONTROL_ART_06_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "SIDE_COLUMN",
+      "loot": [
+        "iron plates and drill manuals"
+      ]
+    },
+    {
+      "id": "ENEMY_F07_LINE",
+      "floorId": "ABYSS_FLOOR_007",
+      "name": "River Spears Line",
+      "role": "LINE",
+      "visualIdentity": "red-clear river, broken causeways, filter shrines, moving ferry stones",
+      "ap": 15,
+      "mp": 0,
+      "cohesion": 115,
+      "arts": [
+        "ABYSS_LINE_ART_07_A",
+        "ABYSS_LINE_ART_07_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "BRIDGE_SPAN",
+      "loot": [
+        "bridge stones and filter components"
+      ]
+    },
+    {
+      "id": "ENEMY_F07_SUPPORT",
+      "floorId": "ABYSS_FLOOR_007",
+      "name": "River Spears Support",
+      "role": "SUPPORT",
+      "visualIdentity": "red-clear river, broken causeways, filter shrines, moving ferry stones",
+      "ap": 15,
+      "mp": 13,
+      "cohesion": 115,
+      "arts": [
+        "ABYSS_SUPPORT_ART_07_A",
+        "ABYSS_SUPPORT_ART_07_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "FILTER_SHRINE",
+      "loot": [
+        "bridge stones and filter components"
+      ]
+    },
+    {
+      "id": "ENEMY_F07_CONTROL",
+      "floorId": "ABYSS_FLOOR_007",
+      "name": "River Spears Control",
+      "role": "CONTROL",
+      "visualIdentity": "red-clear river, broken causeways, filter shrines, moving ferry stones",
+      "ap": 15,
+      "mp": 13,
+      "cohesion": 115,
+      "arts": [
+        "ABYSS_CONTROL_ART_07_A",
+        "ABYSS_CONTROL_ART_07_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "FERRY_STONE",
+      "loot": [
+        "bridge stones and filter components"
+      ]
+    },
+    {
+      "id": "ENEMY_F08_LINE",
+      "floorId": "ABYSS_FLOOR_008",
+      "name": "Beast Echoes Line",
+      "role": "LINE",
+      "visualIdentity": "empty pens, phantom chains, feed corridors, frightened echo dens",
+      "ap": 16,
+      "mp": 0,
+      "cohesion": 120,
+      "arts": [
+        "ABYSS_LINE_ART_08_A",
+        "ABYSS_LINE_ART_08_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "PEN",
+      "loot": [
+        "beast collars and feed formulas"
+      ]
+    },
+    {
+      "id": "ENEMY_F08_SUPPORT",
+      "floorId": "ABYSS_FLOOR_008",
+      "name": "Beast Echoes Support",
+      "role": "SUPPORT",
+      "visualIdentity": "empty pens, phantom chains, feed corridors, frightened echo dens",
+      "ap": 16,
+      "mp": 14,
+      "cohesion": 120,
+      "arts": [
+        "ABYSS_SUPPORT_ART_08_A",
+        "ABYSS_SUPPORT_ART_08_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "CHAIN_GATE",
+      "loot": [
+        "beast collars and feed formulas"
+      ]
+    },
+    {
+      "id": "ENEMY_F08_CONTROL",
+      "floorId": "ABYSS_FLOOR_008",
+      "name": "Beast Echoes Control",
+      "role": "CONTROL",
+      "visualIdentity": "empty pens, phantom chains, feed corridors, frightened echo dens",
+      "ap": 16,
+      "mp": 14,
+      "cohesion": 120,
+      "arts": [
+        "ABYSS_CONTROL_ART_08_A",
+        "ABYSS_CONTROL_ART_08_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "QUIET_DEN",
+      "loot": [
+        "beast collars and feed formulas"
+      ]
+    },
+    {
+      "id": "ENEMY_F09_LINE",
+      "floorId": "ABYSS_FLOOR_009",
+      "name": "Tactical Shades Line",
+      "role": "LINE",
+      "visualIdentity": "burned command pavilions, shifting map tables, signal masts, ash lanes",
+      "ap": 17,
+      "mp": 0,
+      "cohesion": 125,
+      "arts": [
+        "ABYSS_LINE_ART_09_A",
+        "ABYSS_LINE_ART_09_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "MAP_TENT",
+      "loot": [
+        "map fragments and command-table runes"
+      ]
+    },
+    {
+      "id": "ENEMY_F09_SUPPORT",
+      "floorId": "ABYSS_FLOOR_009",
+      "name": "Tactical Shades Support",
+      "role": "SUPPORT",
+      "visualIdentity": "burned command pavilions, shifting map tables, signal masts, ash lanes",
+      "ap": 17,
+      "mp": 15,
+      "cohesion": 125,
+      "arts": [
+        "ABYSS_SUPPORT_ART_09_A",
+        "ABYSS_SUPPORT_ART_09_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "SUPPLY_LANE",
+      "loot": [
+        "map fragments and command-table runes"
+      ]
+    },
+    {
+      "id": "ENEMY_F09_CONTROL",
+      "floorId": "ABYSS_FLOOR_009",
+      "name": "Tactical Shades Control",
+      "role": "CONTROL",
+      "visualIdentity": "burned command pavilions, shifting map tables, signal masts, ash lanes",
+      "ap": 17,
+      "mp": 15,
+      "cohesion": 125,
+      "arts": [
+        "ABYSS_CONTROL_ART_09_A",
+        "ABYSS_CONTROL_ART_09_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "FALSE_ORDER",
+      "loot": [
+        "map fragments and command-table runes"
+      ]
+    },
+    {
+      "id": "ENEMY_F10_LINE",
+      "floorId": "ABYSS_FLOOR_010",
+      "name": "Guardian Fragments Line",
+      "role": "LINE",
+      "visualIdentity": "fortress gate plaza, civilian shelters, resonance pylons, colossal shield arches",
+      "ap": 18,
+      "mp": 0,
+      "cohesion": 130,
+      "arts": [
+        "ABYSS_LINE_ART_10_A",
+        "ABYSS_LINE_ART_10_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "PYLON",
+      "loot": [
+        "Aegis Core and Fortress Defense Blueprint"
+      ]
+    },
+    {
+      "id": "ENEMY_F10_SUPPORT",
+      "floorId": "ABYSS_FLOOR_010",
+      "name": "Guardian Fragments Support",
+      "role": "SUPPORT",
+      "visualIdentity": "fortress gate plaza, civilian shelters, resonance pylons, colossal shield arches",
+      "ap": 18,
+      "mp": 16,
+      "cohesion": 130,
+      "arts": [
+        "ABYSS_SUPPORT_ART_10_A",
+        "ABYSS_SUPPORT_ART_10_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "DEFENSE_ARCH",
+      "loot": [
+        "Aegis Core and Fortress Defense Blueprint"
+      ]
+    },
+    {
+      "id": "ENEMY_F10_CONTROL",
+      "floorId": "ABYSS_FLOOR_010",
+      "name": "Guardian Fragments Control",
+      "role": "CONTROL",
+      "visualIdentity": "fortress gate plaza, civilian shelters, resonance pylons, colossal shield arches",
+      "ap": 18,
+      "mp": 16,
+      "cohesion": 130,
+      "arts": [
+        "ABYSS_CONTROL_ART_10_A",
+        "ABYSS_CONTROL_ART_10_B"
+      ],
+      "visibleIntelOnly": true,
+      "environmentInteraction": "COMMAND_DAIS",
+      "loot": [
+        "Aegis Core and Fortress Defense Blueprint"
+      ]
+    }
+  ]
+}

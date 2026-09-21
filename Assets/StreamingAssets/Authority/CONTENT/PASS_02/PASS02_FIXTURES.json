@@ -1,0 +1,40 @@
+{
+  "contentVersion": "PASS02_FIX_0.7",
+  "fixtures": [
+    {
+      "id": "FIX_P02_00",
+      "kind": "heal_full",
+      "result": "computed by pass02_progression_reference.py"
+    },
+    {
+      "id": "FIX_P02_01",
+      "kind": "heal_critical",
+      "result": "computed by pass02_progression_reference.py"
+    },
+    {
+      "id": "FIX_P02_02",
+      "kind": "intercept_lethal",
+      "result": "computed by pass02_progression_reference.py"
+    },
+    {
+      "id": "FIX_P02_03",
+      "kind": "elite_break",
+      "result": "computed by pass02_progression_reference.py"
+    },
+    {
+      "id": "FIX_P02_04",
+      "kind": "rearline",
+      "result": "computed by pass02_progression_reference.py"
+    },
+    {
+      "id": "FIX_P02_05",
+      "kind": "objective",
+      "result": "computed by pass02_progression_reference.py"
+    },
+    {
+      "id": "FIX_P02_06",
+      "kind": "support_effective",
+      "result": "computed by pass02_progression_reference.py"
+    }
+  ]
+}

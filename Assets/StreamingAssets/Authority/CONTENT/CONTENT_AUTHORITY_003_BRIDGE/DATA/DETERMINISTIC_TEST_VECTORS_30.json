@@ -1,0 +1,484 @@
+{
+  "contentVersion": "GOW_CONTENT_AUTHORITY_BRIDGE_003",
+  "vectors": [
+    {
+      "id": "VECTOR_CA003_FAMILY_01",
+      "category": "EQUIPMENT_ART_LEGALITY",
+      "seed": 6954459186321867470,
+      "input": {
+        "stableRecruitId": "SIGREC_UNA_QUEENSREST",
+        "equippedWeaponId": "CA002_WPN_AXE_CLEAVER_T1",
+        "learnedNodeId": "TREE_CA002_WPN_AXE_N01"
+      },
+      "expectedInvariants": [
+        "matching family is legal",
+        "learned node remains visible as predicted action when context/AP allow",
+        "individual Art remains non-clickable"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_FAMILY_02",
+      "category": "EQUIPMENT_ART_LEGALITY",
+      "seed": 12141417880718090753,
+      "input": {
+        "stableRecruitId": "SIGREC_RUSK_FENRUNNER",
+        "equippedWeaponId": "CA002_WPN_BOW_MARKSMAN_T1",
+        "learnedNodeId": "TREE_CA002_WPN_BOW_N01"
+      },
+      "expectedInvariants": [
+        "matching family is legal",
+        "learned node remains visible as predicted action when context/AP allow",
+        "individual Art remains non-clickable"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_FAMILY_03",
+      "category": "EQUIPMENT_ART_LEGALITY",
+      "seed": 1021542374534537897,
+      "input": {
+        "stableRecruitId": "SIGREC_VAELIS_NOCT",
+        "equippedWeaponId": "CA002_WPN_DAGGER_ASSASSIN_T1",
+        "learnedNodeId": "TREE_CA002_WPN_DAGGER_N01"
+      },
+      "expectedInvariants": [
+        "matching family is legal",
+        "learned node remains visible as predicted action when context/AP allow",
+        "individual Art remains non-clickable"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_FAMILY_04",
+      "category": "EQUIPMENT_ART_LEGALITY",
+      "seed": 331569949503696864,
+      "input": {
+        "stableRecruitId": "SIGREC_BESSA_BRASSWHISTLE",
+        "equippedWeaponId": "CA002_WPN_ENGINEERING_DEMOLITION_T1",
+        "learnedNodeId": "TREE_CA002_WPN_ENGINEERING_N01"
+      },
+      "expectedInvariants": [
+        "matching family is legal",
+        "learned node remains visible as predicted action when context/AP allow",
+        "individual Art remains non-clickable"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_FAMILY_05",
+      "category": "EQUIPMENT_ART_LEGALITY",
+      "seed": 13253234066331058342,
+      "input": {
+        "stableRecruitId": "SIGREC_TOVVI_COPPERSPARK",
+        "equippedWeaponId": "CA002_WPN_FOCUS_HEX_T1",
+        "learnedNodeId": "TREE_CA002_WPN_FOCUS_N01"
+      },
+      "expectedInvariants": [
+        "matching family is legal",
+        "learned node remains visible as predicted action when context/AP allow",
+        "individual Art remains non-clickable"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_FAMILY_06",
+      "category": "EQUIPMENT_ART_LEGALITY",
+      "seed": 59357459294944466,
+      "input": {
+        "stableRecruitId": "SIGREC_DARA_DUSKFIELD",
+        "equippedWeaponId": "CA002_WPN_GAUNTLET_PUGILIST_T1",
+        "learnedNodeId": "TREE_CA002_WPN_GAUNTLET_N01"
+      },
+      "expectedInvariants": [
+        "matching family is legal",
+        "learned node remains visible as predicted action when context/AP allow",
+        "individual Art remains non-clickable"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_FAMILY_07",
+      "category": "EQUIPMENT_ART_LEGALITY",
+      "seed": 1599577136205467582,
+      "input": {
+        "stableRecruitId": "SIGREC_BRAKKA_EMBERWALL",
+        "equippedWeaponId": "CA002_WPN_GREAT_BREAKER_T1",
+        "learnedNodeId": "TREE_CA002_WPN_GREAT_WEAPON_N01"
+      },
+      "expectedInvariants": [
+        "matching family is legal",
+        "learned node remains visible as predicted action when context/AP allow",
+        "individual Art remains non-clickable"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_FAMILY_08",
+      "category": "EQUIPMENT_ART_LEGALITY",
+      "seed": 8262606398099045088,
+      "input": {
+        "stableRecruitId": "SIGREC_QUIN_CROWNHILL",
+        "equippedWeaponId": "CA002_WPN_HYBRID_SPELLBLADE_T1",
+        "learnedNodeId": "TREE_CA002_WPN_HYBRID_RELIC_N01"
+      },
+      "expectedInvariants": [
+        "matching family is legal",
+        "learned node remains visible as predicted action when context/AP allow",
+        "individual Art remains non-clickable"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_FAMILY_09",
+      "category": "EQUIPMENT_ART_LEGALITY",
+      "seed": 3265406286496985286,
+      "input": {
+        "stableRecruitId": "SIGREC_JUNIA_SKYWARD",
+        "equippedWeaponId": "CA002_WPN_SHIELD_BASTION_T1",
+        "learnedNodeId": "TREE_CA002_WPN_SHIELD_N01"
+      },
+      "expectedInvariants": [
+        "matching family is legal",
+        "learned node remains visible as predicted action when context/AP allow",
+        "individual Art remains non-clickable"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_FAMILY_10",
+      "category": "EQUIPMENT_ART_LEGALITY",
+      "seed": 16543800820565856407,
+      "input": {
+        "stableRecruitId": "SIGREC_MAREN_HOLT",
+        "equippedWeaponId": "CA002_WPN_SPEAR_LANCER_T1",
+        "learnedNodeId": "TREE_CA002_WPN_SPEAR_POLEARM_N01"
+      },
+      "expectedInvariants": [
+        "matching family is legal",
+        "learned node remains visible as predicted action when context/AP allow",
+        "individual Art remains non-clickable"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_FAMILY_11",
+      "category": "EQUIPMENT_ART_LEGALITY",
+      "seed": 9284088886039667492,
+      "input": {
+        "stableRecruitId": "SIGREC_ODELIA_FEN",
+        "equippedWeaponId": "CA002_WPN_STAFF_ARCANIST_T1",
+        "learnedNodeId": "TREE_CA002_WPN_STAFF_N01"
+      },
+      "expectedInvariants": [
+        "matching family is legal",
+        "learned node remains visible as predicted action when context/AP allow",
+        "individual Art remains non-clickable"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_FAMILY_12",
+      "category": "EQUIPMENT_ART_LEGALITY",
+      "seed": 1381023810624327455,
+      "input": {
+        "stableRecruitId": "SIGREC_VEYRA_ASHGLASS",
+        "equippedWeaponId": "CA002_WPN_SWORD_VANGUARD_T1",
+        "learnedNodeId": "TREE_CA002_WPN_SWORD_N01"
+      },
+      "expectedInvariants": [
+        "matching family is legal",
+        "learned node remains visible as predicted action when context/AP allow",
+        "individual Art remains non-clickable"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_MIXED_01",
+      "category": "MIXED_FORECAST",
+      "seed": 1322053710200472647,
+      "input": {
+        "focusCategory": "COMBAT",
+        "stableRecruitId": "SIGREC_BRAKKA_EMBERWALL",
+        "unionMembers": 5
+      },
+      "expectedInvariants": [
+        "complete Union Forecast selected once",
+        "member actions may mix categories",
+        "shared AP never overspent",
+        "personal MP never shared",
+        "predictions visible and non-clickable"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_MIXED_02",
+      "category": "MIXED_FORECAST",
+      "seed": 4754723503696169473,
+      "input": {
+        "focusCategory": "MYSTIC",
+        "stableRecruitId": "SIGREC_VEYRA_ASHGLASS",
+        "unionMembers": 5
+      },
+      "expectedInvariants": [
+        "complete Union Forecast selected once",
+        "member actions may mix categories",
+        "shared AP never overspent",
+        "personal MP never shared",
+        "predictions visible and non-clickable"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_MIXED_03",
+      "category": "MIXED_FORECAST",
+      "seed": 4937877727250851683,
+      "input": {
+        "focusCategory": "RESTORATION",
+        "stableRecruitId": "SIGREC_ODELIA_FEN",
+        "unionMembers": 5
+      },
+      "expectedInvariants": [
+        "complete Union Forecast selected once",
+        "member actions may mix categories",
+        "shared AP never overspent",
+        "personal MP never shared",
+        "predictions visible and non-clickable"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_MIXED_04",
+      "category": "MIXED_FORECAST",
+      "seed": 6984416807040125616,
+      "input": {
+        "focusCategory": "GUARD",
+        "stableRecruitId": "SIGREC_MAREN_HOLT",
+        "unionMembers": 5
+      },
+      "expectedInvariants": [
+        "complete Union Forecast selected once",
+        "member actions may mix categories",
+        "shared AP never overspent",
+        "personal MP never shared",
+        "predictions visible and non-clickable"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_MIXED_05",
+      "category": "MIXED_FORECAST",
+      "seed": 8131623333655399891,
+      "input": {
+        "focusCategory": "SUPPORT",
+        "stableRecruitId": "SIGREC_TOVVI_COPPERSPARK",
+        "unionMembers": 5
+      },
+      "expectedInvariants": [
+        "complete Union Forecast selected once",
+        "member actions may mix categories",
+        "shared AP never overspent",
+        "personal MP never shared",
+        "predictions visible and non-clickable"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_MIXED_06",
+      "category": "MIXED_FORECAST",
+      "seed": 15306954227301156208,
+      "input": {
+        "focusCategory": "TACTICAL",
+        "stableRecruitId": "SIGREC_RUSK_FENRUNNER",
+        "unionMembers": 5
+      },
+      "expectedInvariants": [
+        "complete Union Forecast selected once",
+        "member actions may mix categories",
+        "shared AP never overspent",
+        "personal MP never shared",
+        "predictions visible and non-clickable"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_REWARD_01",
+      "category": "COMMITTED_REWARD",
+      "seed": 6734753684549609534,
+      "input": {
+        "terminalState": "VICTORY",
+        "lootTableId": "LOOT_CA002_W01_CONTRACT",
+        "rewardCommitId": "COMMIT_TEST_01"
+      },
+      "expectedInvariants": [
+        "deterministic result hash",
+        "no reroll on reopen",
+        "claim idempotent",
+        "equipment enters Guild inventory",
+        "auto-equip remains opt-in"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_REWARD_02",
+      "category": "COMMITTED_REWARD",
+      "seed": 5254479070920898051,
+      "input": {
+        "terminalState": "RETREAT",
+        "lootTableId": "LOOT_CA002_W01_ELITE",
+        "rewardCommitId": "COMMIT_TEST_02"
+      },
+      "expectedInvariants": [
+        "deterministic result hash",
+        "no reroll on reopen",
+        "claim idempotent",
+        "equipment enters Guild inventory",
+        "auto-equip remains opt-in"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_REWARD_03",
+      "category": "COMMITTED_REWARD",
+      "seed": 9751438284711446388,
+      "input": {
+        "terminalState": "DEFEAT",
+        "lootTableId": "LOOT_CA002_W01_BOSS",
+        "rewardCommitId": "COMMIT_TEST_03"
+      },
+      "expectedInvariants": [
+        "deterministic result hash",
+        "no reroll on reopen",
+        "claim idempotent",
+        "equipment enters Guild inventory",
+        "auto-equip remains opt-in"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_REWARD_04",
+      "category": "COMMITTED_REWARD",
+      "seed": 1287784601884559865,
+      "input": {
+        "terminalState": "RESULTS_REOPEN",
+        "lootTableId": "LOOT_CA002_W01_SECRET",
+        "rewardCommitId": "COMMIT_TEST_04"
+      },
+      "expectedInvariants": [
+        "deterministic result hash",
+        "no reroll on reopen",
+        "claim idempotent",
+        "equipment enters Guild inventory",
+        "auto-equip remains opt-in"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_GROWTH_01",
+      "category": "LEARN_BY_USE",
+      "seed": 12223950423190948268,
+      "input": {
+        "stableRecruitId": "SIGREC_MAREN_HOLT",
+        "treeId": "TREE_CA002_WPN_SPEAR_POLEARM",
+        "meaningfulUse": true,
+        "trivialEnemy": false
+      },
+      "expectedInvariants": [
+        "only meaningful valid use increments discovery/mastery",
+        "level alone does not discover an Art",
+        "equipment family gates legality but not stored mastery"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_GROWTH_02",
+      "category": "LEARN_BY_USE",
+      "seed": 7659578148391816319,
+      "input": {
+        "stableRecruitId": "SIGREC_BRAKKA_EMBERWALL",
+        "treeId": "TREE_CA002_WPN_GREAT_WEAPON",
+        "meaningfulUse": true,
+        "trivialEnemy": false
+      },
+      "expectedInvariants": [
+        "only meaningful valid use increments discovery/mastery",
+        "level alone does not discover an Art",
+        "equipment family gates legality but not stored mastery"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_GROWTH_03",
+      "category": "LEARN_BY_USE",
+      "seed": 3639508873959826939,
+      "input": {
+        "stableRecruitId": "SIGREC_ODELIA_FEN",
+        "treeId": "TREE_CA002_WPN_STAFF",
+        "meaningfulUse": true,
+        "trivialEnemy": false
+      },
+      "expectedInvariants": [
+        "only meaningful valid use increments discovery/mastery",
+        "level alone does not discover an Art",
+        "equipment family gates legality but not stored mastery"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_GROWTH_04",
+      "category": "LEARN_BY_USE",
+      "seed": 14341344307357928196,
+      "input": {
+        "stableRecruitId": "SIGREC_TOVVI_COPPERSPARK",
+        "treeId": "TREE_CA002_WPN_FOCUS",
+        "meaningfulUse": false,
+        "trivialEnemy": true
+      },
+      "expectedInvariants": [
+        "only meaningful valid use increments discovery/mastery",
+        "level alone does not discover an Art",
+        "equipment family gates legality but not stored mastery"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_KAEL_01",
+      "category": "PROTECTED_CANON",
+      "seed": 30030300,
+      "input": {
+        "actorId": "CANON_KAEL",
+        "incomingDamage": 30,
+        "attemptEquip": true,
+        "attemptNormalLevelGain": true
+      },
+      "expectedInvariants": [
+        "HP remains 300/300 after restore",
+        "30 damage reflected",
+        "equipment rejected",
+        "normal progression rejected",
+        "one-person Union authority preserved"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_SAVE_MIGRATION_01",
+      "category": "SAVE_MIGRATION",
+      "seed": 21003003,
+      "input": {
+        "sourceSaveVersion": 2,
+        "targetSaveVersion": 3,
+        "existingRosterCount": 10
+      },
+      "expectedInvariants": [
+        "existing data preserved",
+        "additive fields defaulted",
+        "opening ten identities unchanged",
+        "no reward duplicate created"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_WORLD_SHARD_01",
+      "category": "CONTEXT_BUDGET",
+      "seed": 30001010,
+      "input": {
+        "worldPackId": "PACK_01_SKYHOME_GATEWARD",
+        "requestedRecruitCount": 10
+      },
+      "expectedInvariants": [
+        "exactly one world shard loaded",
+        "exactly ten normal Signature Recruits returned",
+        "protected canon count zero"
+      ]
+    },
+    {
+      "id": "VECTOR_CA003_INCOMPATIBLE_WEAPON_01",
+      "category": "EQUIPMENT_ART_LEGALITY",
+      "seed": 12003003,
+      "input": {
+        "stableRecruitId": "SIGREC_MAREN_HOLT",
+        "fixedWeaponFamilyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+        "attemptedWeaponId": "CA002_WPN_SWORD_TRAINING",
+        "attemptedWeaponFamilyId": "WEAPON_FAMILY_SWORD"
+      },
+      "expectedInvariants": [
+        "cross-family equip rejected for a fixed-family normal recruit",
+        "stored mastery remains unchanged",
+        "legal forecast pool remains unchanged",
+        "no silent auto-equip fallback occurs"
+      ]
+    }
+  ]
+}

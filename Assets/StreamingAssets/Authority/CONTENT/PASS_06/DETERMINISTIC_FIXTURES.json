@@ -1,0 +1,464 @@
+{
+  "contentVersion": "GOW_PASS06_0.11",
+  "fixtures": {
+    "contentVersion": "GOW_PASS06_0.11",
+    "firstRelationshipEdge": {
+      "sourceId": "FIXTURE_MEMBER_00",
+      "targetId": "FIXTURE_MEMBER_01",
+      "dimensions": {
+        "REL_TRUST": 400
+      },
+      "memoryIds": [],
+      "lastChangedDay": 0,
+      "lastReason": "FIRST_EDGE"
+    },
+    "asymmetricTrust": {
+      "forward": 400,
+      "reverse": 0
+    },
+    "rescueMemory": {
+      "id": "REL_MEMORY_INSTANCE_54BADF298F08A92107C16663",
+      "definitionId": "REL_MEMORY_RESCUE_SUCCESS",
+      "sourceId": "FIXTURE_MEMBER_00",
+      "targetId": "FIXTURE_MEMBER_01",
+      "day": 0,
+      "sourceEventId": null,
+      "context": "bridge rescue",
+      "emotionalTags": [
+        "RESCUE",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "magnitude": 120,
+      "permanence": "PERSISTENT",
+      "reinterpretable": true,
+      "interpretation": "ORIGINAL",
+      "itemHistoryLinks": []
+    },
+    "argumentMemory": {
+      "id": "REL_MEMORY_INSTANCE_2D4A78CA9F9648BA5F3A90D9",
+      "definitionId": "REL_MEMORY_ARGUMENT",
+      "sourceId": "FIXTURE_MEMBER_00",
+      "targetId": "FIXTURE_MEMBER_01",
+      "day": 0,
+      "sourceEventId": null,
+      "context": "duty disagreement",
+      "emotionalTags": [
+        "CONFLICT",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "magnitude": 100,
+      "permanence": "PERSISTENT",
+      "reinterpretable": true,
+      "interpretation": "ORIGINAL",
+      "itemHistoryLinks": []
+    },
+    "apologyAndReconciliation": {
+      "memory": {
+        "id": "REL_MEMORY_INSTANCE_014E7B184B3CC6047664C2E8",
+        "definitionId": "REL_MEMORY_APOLOGY",
+        "sourceId": "FIXTURE_MEMBER_00",
+        "targetId": "FIXTURE_MEMBER_01",
+        "day": 0,
+        "sourceEventId": null,
+        "context": "specific apology",
+        "emotionalTags": [
+          "REPAIR",
+          "EXPLAINABLE_CHANGE"
+        ],
+        "magnitude": 110,
+        "permanence": "PERSISTENT",
+        "reinterpretable": true,
+        "interpretation": "ORIGINAL",
+        "itemHistoryLinks": []
+      },
+      "band": "Established"
+    },
+    "rivalryBecomingRespect": {
+      "rivalry": 500,
+      "respect": 495
+    },
+    "mentorAssignment": {
+      "id": "MENTORSHIP_9DF067CB4F17DCF01E14815F",
+      "mentorId": "FIXTURE_MEMBER_00",
+      "apprenticeId": "FIXTURE_MEMBER_01",
+      "lessonId": "MENTOR_LESSON_READ_THE_LINE",
+      "targetArtId": "ART_ANCHOR_STANCE",
+      "culturalPermission": false,
+      "status": "ACTIVE",
+      "progress": 0,
+      "lessonRepetitions": 0,
+      "successfulLessons": 0,
+      "failedLessons": 0,
+      "burnout": 0,
+      "startDay": 0,
+      "graduationDay": null
+    },
+    "failedMentorshipLesson": {
+      "seed": null,
+      "result": null
+    },
+    "successfulMentorshipLesson": {
+      "seed": 0,
+      "result": {
+        "mentorshipId": "MENTORSHIP_9DF067CB4F17DCF01E14815F",
+        "degree": "SUCCESS",
+        "roll": 11,
+        "score": 17,
+        "progressGain": 45,
+        "proficiencyGain": 17,
+        "discoveryGain": 40,
+        "memoryId": "REL_MEMORY_INSTANCE_BC97A0829B7B3766388C746B",
+        "automaticArtGranted": false
+      }
+    },
+    "apprenticeGraduation": {
+      "repetitions": 108,
+      "state": {
+        "id": "MENTORSHIP_9DF067CB4F17DCF01E14815F",
+        "mentorId": "FIXTURE_MEMBER_00",
+        "apprenticeId": "FIXTURE_MEMBER_01",
+        "lessonId": "MENTOR_LESSON_READ_THE_LINE",
+        "targetArtId": "ART_ANCHOR_STANCE",
+        "culturalPermission": false,
+        "status": "GRADUATED",
+        "progress": 1000,
+        "lessonRepetitions": 108,
+        "successfulLessons": 46,
+        "failedLessons": 9,
+        "burnout": 100,
+        "startDay": 0,
+        "graduationDay": 0
+      },
+      "automaticArtGranted": false
+    },
+    "culturalTechniquePath": {
+      "mentorship": {
+        "id": "MENTORSHIP_0A749A28BF754A347EC6FA0B",
+        "mentorId": "FIXTURE_MEMBER_00",
+        "apprenticeId": "FIXTURE_MEMBER_01",
+        "lessonId": "MENTOR_LESSON_CULTURAL_PERMISSION",
+        "targetArtId": null,
+        "culturalPermission": true,
+        "status": "ACTIVE",
+        "progress": 0,
+        "lessonRepetitions": 0,
+        "successfulLessons": 0,
+        "failedLessons": 0,
+        "burnout": 0,
+        "startDay": 0,
+        "graduationDay": null
+      },
+      "lessonResult": {
+        "mentorshipId": "MENTORSHIP_0A749A28BF754A347EC6FA0B",
+        "degree": "SUCCESS",
+        "roll": 2,
+        "score": 17,
+        "progressGain": 65,
+        "proficiencyGain": 27,
+        "discoveryGain": 40,
+        "memoryId": "REL_MEMORY_INSTANCE_B70F2450826FC83DC6B9D212",
+        "automaticArtGranted": false
+      }
+    },
+    "unionNamingAndEmblem": {
+      "name": "Ash Hounds",
+      "emblem": {
+        "shape": "compass",
+        "mark": "open eye beneath an arch",
+        "paletteTag": "PALETTE_MIXED_ALLIANCE"
+      },
+      "traditionIds": [
+        "UNION_TRAIT_THREE_BELLS_WITHDRAW"
+      ]
+    },
+    "unionBreakupAndReform": {
+      "id": "UNION_FIXTURE",
+      "name": "Ash Hounds",
+      "emblem": {
+        "shape": "compass",
+        "mark": "open eye beneath an arch",
+        "paletteTag": "PALETTE_MIXED_ALLIANCE"
+      },
+      "foundingDay": 0,
+      "founderMemberIds": [
+        "FIXTURE_MEMBER_00",
+        "FIXTURE_MEMBER_01",
+        "FIXTURE_MEMBER_02"
+      ],
+      "currentMemberIds": [
+        "FIXTURE_MEMBER_00",
+        "FIXTURE_MEMBER_02",
+        "FIXTURE_MEMBER_03"
+      ],
+      "formerMemberIds": [],
+      "leaderId": "FIXTURE_MEMBER_00",
+      "leaderHistory": [
+        {
+          "memberId": "FIXTURE_MEMBER_00",
+          "startDay": 0,
+          "endDay": null
+        }
+      ],
+      "battleRecord": {
+        "missions": 0,
+        "victories": 0,
+        "retreats": 0,
+        "rescues": 0,
+        "formationBreaks": 0
+      },
+      "favoredDoctrineId": null,
+      "formationMastery": {},
+      "disciplineIdentity": [],
+      "reputation": 0,
+      "nicknameIds": [],
+      "signatureLinkArtIds": [],
+      "traditionIds": [
+        "UNION_TRAIT_THREE_BELLS_WITHDRAW"
+      ],
+      "rivalUnionIds": [],
+      "publicStories": [],
+      "history": [
+        {
+          "type": "FOUNDED",
+          "day": 0,
+          "memberIds": [
+            "FIXTURE_MEMBER_00",
+            "FIXTURE_MEMBER_01",
+            "FIXTURE_MEMBER_02"
+          ]
+        },
+        {
+          "type": "DISBANDED",
+          "day": 0,
+          "memberIds": [
+            "FIXTURE_MEMBER_00",
+            "FIXTURE_MEMBER_01",
+            "FIXTURE_MEMBER_02"
+          ]
+        },
+        {
+          "type": "REFORMED",
+          "day": 0,
+          "memberIds": [
+            "FIXTURE_MEMBER_00",
+            "FIXTURE_MEMBER_02",
+            "FIXTURE_MEMBER_03"
+          ],
+          "leaderId": "FIXTURE_MEMBER_00"
+        }
+      ],
+      "status": "ACTIVE",
+      "predecessorUnionId": null,
+      "successorUnionIds": []
+    },
+    "signatureQuestProgression": {
+      "quest": {
+        "questId": "QUEST_INSTANCE_11BDB6F41A7DD4884BDFFE8F",
+        "definitionId": "PERSONAL_QUEST_BESSA_BRASSWHISTLE",
+        "memberId": "SIGREC_BESSA_BRASSWHISTLE",
+        "title": "The Signal No One Heard",
+        "stageIndex": 0,
+        "status": "ACTIVE",
+        "branchFlags": [],
+        "recoveryRequired": false,
+        "createdDay": 0,
+        "history": [
+          {
+            "type": "CREATED",
+            "day": 0,
+            "definitionId": "PERSONAL_QUEST_BESSA_BRASSWHISTLE"
+          }
+        ],
+        "isSignatureQuest": true
+      },
+      "firstResolution": {
+        "questId": "QUEST_INSTANCE_11BDB6F41A7DD4884BDFFE8F",
+        "outcome": "SUCCESS",
+        "status": "ACTIVE",
+        "stageIndex": 1
+      }
+    },
+    "proceduralQuestGeneration": {
+      "questId": "QUEST_INSTANCE_EF67D23E092392E9C161AAA9",
+      "definitionId": "PROC_QUEST_CONFRONT_FEAR_A",
+      "memberId": "FIXTURE_MEMBER_00",
+      "title": "Confronting Fear ",
+      "stageIndex": 0,
+      "status": "ACTIVE",
+      "branchFlags": [],
+      "recoveryRequired": false,
+      "createdDay": 0,
+      "history": [
+        {
+          "type": "CREATED",
+          "day": 0,
+          "templateId": "PROC_QUEST_CONFRONT_FEAR_A"
+        }
+      ],
+      "isSignatureQuest": false
+    },
+    "fearConfrontation": {
+      "seed": 6,
+      "quest": {
+        "questId": "QUEST_INSTANCE_53562CA1B422F8F37164C4E8",
+        "definitionId": "PROC_QUEST_CONFRONT_FEAR_A",
+        "memberId": "FIXTURE_MEMBER_00",
+        "title": "Confronting Fear ",
+        "stageIndex": 0,
+        "status": "ACTIVE",
+        "branchFlags": [],
+        "recoveryRequired": false,
+        "createdDay": 0,
+        "history": [
+          {
+            "type": "CREATED",
+            "day": 0,
+            "templateId": "PROC_QUEST_CONFRONT_FEAR_A"
+          }
+        ],
+        "isSignatureQuest": false
+      }
+    },
+    "personalQuestFailureAndRecovery": {
+      "failure": {
+        "questId": "QUEST_INSTANCE_53562CA1B422F8F37164C4E8",
+        "outcome": "FAILURE",
+        "status": "RECOVERY",
+        "stageIndex": 0
+      },
+      "recovery": {
+        "questId": "QUEST_INSTANCE_53562CA1B422F8F37164C4E8",
+        "outcome": "RECOVERY",
+        "status": "ACTIVE",
+        "stageIndex": 1
+      }
+    },
+    "emergentLegendPromotion": {
+      "evaluation": {
+        "memberId": "FIXTURE_MEMBER_00",
+        "momentum": 5670,
+        "distinctCategories": 5,
+        "archetypeId": "LEGEND_ARCHETYPE_HEALER",
+        "eligible": true,
+        "visibleClues": [
+          "Guild members repeat this recruit’s name after operations.",
+          "A Chronicle clerk has begun a private draft.",
+          "Their equipment, Union, and personal history are becoming inseparable.",
+          "A defining Chronicle entry is ready."
+        ]
+      },
+      "legend": {
+        "memberId": "FIXTURE_MEMBER_00",
+        "momentum": 5670,
+        "promoted": true,
+        "archetypeId": "LEGEND_ARCHETYPE_HEALER",
+        "epithet": "the Bridge Smith Who Refused the Easy Victory",
+        "signatureTechniqueId": "SIG_TECH_TEMPLATE_THE_NAME_RETURNED",
+        "visualDetailHookId": "VISUAL_HOOK_RIVALRY_NOTCH",
+        "promotionDay": 0,
+        "universalStatBonus": 0,
+        "powerBudget": "IDENTITY_SIDEGRADE"
+      }
+    },
+    "generatedEpithet": "the Bridge Smith Who Refused the Easy Victory",
+    "signatureTechniqueOpportunity": {
+      "techniqueId": "SIG_TECH_TEMPLATE_THE_NAME_RETURNED",
+      "powerBudget": "IDENTITY_SIDEGRADE"
+    },
+    "injuryCaregiving": {
+      "id": "REL_MEMORY_INSTANCE_E3865B6D6A8EA92059DE3DAB",
+      "definitionId": "REL_MEMORY_INJURY_CARE",
+      "sourceId": "FIXTURE_MEMBER_01",
+      "targetId": "FIXTURE_MEMBER_00",
+      "day": 0,
+      "sourceEventId": null,
+      "context": "visit",
+      "emotionalTags": [
+        "CARE",
+        "EXPLAINABLE_CHANGE"
+      ],
+      "magnitude": 110,
+      "permanence": "PERSISTENT",
+      "reinterpretable": true,
+      "interpretation": "ORIGINAL",
+      "itemHistoryLinks": []
+    },
+    "retirementIntoStaffRole": {
+      "memberId": "FIXTURE_MEMBER_01",
+      "retiredDay": 0,
+      "staffRoleId": "TRAINER",
+      "returnHooks": [
+        "TEMPORARY_EMERGENCY_AID",
+        "MENTORING_OPERATION",
+        "PERSONAL_QUEST_RETURN"
+      ],
+      "veteranUsefulnessPreserved": true
+    },
+    "relationshipModifiedForecast": {
+      "unionId": "UNION_SOCIAL_FIXTURE",
+      "forecastWeightModifierPermille": 27,
+      "cohesionModifier": 3,
+      "linkArtReadinessModifierPermille": 27,
+      "explanations": [
+        "Fixture Member 0 is likely to protect Fixture Member 1 after shared history."
+      ],
+      "exactIndividualArtButtons": false,
+      "socialPowerBudget": "TACTICAL_SIDEGRADE"
+    },
+    "approvedEquipmentGift": {
+      "id": "EQUIP_REQUEST_0A8E4EF17E84935DDE964C5C",
+      "requesterId": "FIXTURE_MEMBER_00",
+      "targetId": "FIXTURE_MEMBER_00",
+      "itemId": "ITEM_APPROVED_GIFT",
+      "status": "APPROVED",
+      "createdDay": 0,
+      "itemChanged": true
+    },
+    "deniedEquipmentRequest": {
+      "result": {
+        "id": "EQUIP_REQUEST_C56BE958DBF0CB8F018E9D6A",
+        "requesterId": "FIXTURE_MEMBER_00",
+        "targetId": "FIXTURE_MEMBER_00",
+        "itemId": "ITEM_DENIED_GIFT",
+        "status": "DENIED_WITHOUT_RELATIONSHIP_PENALTY",
+        "createdDay": 0,
+        "itemChanged": false
+      },
+      "relationshipEdgesUnchanged": true
+    },
+    "relationshipChainPersistence": {
+      "start": {
+        "id": "REL_CHAIN_INSTANCE_9C704EA680B3A44FBE0D1C8D",
+        "definitionId": "REL_CHAIN_APPRENTICE_GRADUATION",
+        "participantIds": [
+          "FIXTURE_MEMBER_00",
+          "FIXTURE_MEMBER_01"
+        ],
+        "stageIndex": 0,
+        "currentStageId": "REL_CHAIN_APPRENTICE_GRADUATION_STAGE_01",
+        "status": "ACTIVE",
+        "history": [
+          {
+            "type": "STARTED",
+            "day": 0,
+            "stageId": "REL_CHAIN_APPRENTICE_GRADUATION_STAGE_01"
+          }
+        ]
+      },
+      "progress": {
+        "chainId": "REL_CHAIN_INSTANCE_9C704EA680B3A44FBE0D1C8D",
+        "status": "ACTIVE",
+        "stageIndex": 1,
+        "currentStageId": "REL_CHAIN_APPRENTICE_GRADUATION_STAGE_02"
+      },
+      "saveHash": "130759136219059a9aaef366bbbcb6eb8feb0d4433669b74ca8dc06e5b73343f"
+    },
+    "saveReloadPreservation": {
+      "beforeHash": "78ec3a574bc8a147eb9ae6768f3cfd9bff49a718fae8c078f565f88b763f4251",
+      "afterHash": "78ec3a574bc8a147eb9ae6768f3cfd9bff49a718fae8c078f565f88b763f4251",
+      "identical": true
+    },
+    "crosslinkErrors": [],
+    "fixtureHash": "e032391fb32cf75e9073e8ca9ab49d78558ac362482a4b870cce815d684ac803"
+  }
+}

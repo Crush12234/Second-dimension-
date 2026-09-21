@@ -1,0 +1,564 @@
+{
+  "operations": [
+    {
+      "operationId": "ABYSS_OP094_01_ENDLESS_BATTLE",
+      "floorId": "ABYSS_FLOOR_001_MUD_TRENCHES",
+      "kind": "ENDLESS_BATTLE094",
+      "displayName": "Mud Trenches — Endless Battle",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP094_01_ENDLESS_BATTLE_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Mud Trenches Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_01_ENDLESS_BATTLE_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_01_ENDLESS_BATTLE_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_01_ENDLESS_BATTLE_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Defeat the Floor Guardians",
+          "requiresBattle": true,
+          "exactOnce": true,
+          "bossId": "ABYSS_BOSS022_01"
+        },
+        {
+          "stepId": "ABYSS_OP094_01_ENDLESS_BATTLE_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": false,
+      "rewardMaterialIds": [
+        "MAT020_SKYHOME_05",
+        "MAT020_BUNNY_04"
+      ],
+      "guildXp": 25,
+      "hallXp": 19,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP094_02_ENDLESS_BATTLE",
+      "floorId": "ABYSS_FLOOR_002_ARROW_RAIN_FIELD",
+      "kind": "ENDLESS_BATTLE094",
+      "displayName": "Arrow Rain Field — Endless Battle",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP094_02_ENDLESS_BATTLE_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Arrow Rain Field Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_02_ENDLESS_BATTLE_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_02_ENDLESS_BATTLE_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_02_ENDLESS_BATTLE_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Defeat the Floor Guardians",
+          "requiresBattle": true,
+          "exactOnce": true,
+          "bossId": "ABYSS_BOSS022_02"
+        },
+        {
+          "stepId": "ABYSS_OP094_02_ENDLESS_BATTLE_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_BEAST_02",
+        "MAT020_DARKELF_03"
+      ],
+      "guildXp": 30,
+      "hallXp": 23,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP094_03_ENDLESS_BATTLE",
+      "floorId": "ABYSS_FLOOR_003_SILENT_CAMP",
+      "kind": "ENDLESS_BATTLE094",
+      "displayName": "Silent Camp — Endless Battle",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP094_03_ENDLESS_BATTLE_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Silent Camp Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_03_ENDLESS_BATTLE_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_03_ENDLESS_BATTLE_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_03_ENDLESS_BATTLE_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Defeat the Floor Guardians",
+          "requiresBattle": true,
+          "exactOnce": true,
+          "bossId": "ABYSS_BOSS022_03"
+        },
+        {
+          "stepId": "ABYSS_OP094_03_ENDLESS_BATTLE_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_BEAST_05",
+        "MAT020_DEMON_02"
+      ],
+      "guildXp": 35,
+      "hallXp": 27,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP094_04_ENDLESS_BATTLE",
+      "floorId": "ABYSS_FLOOR_004_COLLAPSED_SIEGE_WALL",
+      "kind": "ENDLESS_BATTLE094",
+      "displayName": "Collapsed Siege Wall — Endless Battle",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP094_04_ENDLESS_BATTLE_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Collapsed Siege Wall Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_04_ENDLESS_BATTLE_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_04_ENDLESS_BATTLE_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_04_ENDLESS_BATTLE_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Defeat the Floor Guardians",
+          "requiresBattle": true,
+          "exactOnce": true,
+          "bossId": "ABYSS_BOSS022_04"
+        },
+        {
+          "stepId": "ABYSS_OP094_04_ENDLESS_BATTLE_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_BUNNY_02",
+        "MAT020_DOG_01"
+      ],
+      "guildXp": 40,
+      "hallXp": 31,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP094_05_ENDLESS_BATTLE",
+      "floorId": "ABYSS_FLOOR_005_GRAVE_BANNER_HILL",
+      "kind": "ENDLESS_BATTLE094",
+      "displayName": "Grave Banner Hill — Endless Battle",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP094_05_ENDLESS_BATTLE_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Grave Banner Hill Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_05_ENDLESS_BATTLE_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_05_ENDLESS_BATTLE_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_05_ENDLESS_BATTLE_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Defeat the Floor Guardians",
+          "requiresBattle": true,
+          "exactOnce": true,
+          "bossId": "ABYSS_BOSS022_05"
+        },
+        {
+          "stepId": "ABYSS_OP094_05_ENDLESS_BATTLE_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_BUNNY_05",
+        "MAT020_DOG_06"
+      ],
+      "guildXp": 45,
+      "hallXp": 35,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP094_06_ENDLESS_BATTLE",
+      "floorId": "ABYSS_FLOOR_006_IRON_MARCH",
+      "kind": "ENDLESS_BATTLE094",
+      "displayName": "Iron March — Endless Battle",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP094_06_ENDLESS_BATTLE_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Iron March Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_06_ENDLESS_BATTLE_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_06_ENDLESS_BATTLE_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_06_ENDLESS_BATTLE_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Defeat the Floor Guardians",
+          "requiresBattle": true,
+          "exactOnce": true,
+          "bossId": "ABYSS_BOSS022_06"
+        },
+        {
+          "stepId": "ABYSS_OP094_06_ENDLESS_BATTLE_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_DARKELF_02",
+        "MAT020_GOBLIN_05"
+      ],
+      "guildXp": 50,
+      "hallXp": 39,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP094_07_ENDLESS_BATTLE",
+      "floorId": "ABYSS_FLOOR_007_BLOODLESS_RIVER",
+      "kind": "ENDLESS_BATTLE094",
+      "displayName": "Bloodless River — Endless Battle",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP094_07_ENDLESS_BATTLE_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Bloodless River Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_07_ENDLESS_BATTLE_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_07_ENDLESS_BATTLE_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_07_ENDLESS_BATTLE_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Defeat the Floor Guardians",
+          "requiresBattle": true,
+          "exactOnce": true,
+          "bossId": "ABYSS_BOSS022_07"
+        },
+        {
+          "stepId": "ABYSS_OP094_07_ENDLESS_BATTLE_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_DARKELF_05",
+        "MAT020_ORC_04"
+      ],
+      "guildXp": 55,
+      "hallXp": 43,
+      "summonResonance": 0,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP094_08_ENDLESS_BATTLE",
+      "floorId": "ABYSS_FLOOR_008_WAR_BEAST_PENS",
+      "kind": "ENDLESS_BATTLE094",
+      "displayName": "War Beast Pens — Endless Battle",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP094_08_ENDLESS_BATTLE_BRIEF",
+          "kind": "BRIEFING",
+          "title": "War Beast Pens Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_08_ENDLESS_BATTLE_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_08_ENDLESS_BATTLE_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_08_ENDLESS_BATTLE_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Defeat the Floor Guardians",
+          "requiresBattle": true,
+          "exactOnce": true,
+          "bossId": "ABYSS_BOSS022_08"
+        },
+        {
+          "stepId": "ABYSS_OP094_08_ENDLESS_BATTLE_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_DEMON_02",
+        "MAT020_SKYHOME_03"
+      ],
+      "guildXp": 60,
+      "hallXp": 47,
+      "summonResonance": 8,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP094_09_ENDLESS_BATTLE",
+      "floorId": "ABYSS_FLOOR_009_ASH_COMMAND_TENT",
+      "kind": "ENDLESS_BATTLE094",
+      "displayName": "Ash Command Tent — Endless Battle",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP094_09_ENDLESS_BATTLE_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Ash Command Tent Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_09_ENDLESS_BATTLE_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_09_ENDLESS_BATTLE_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_09_ENDLESS_BATTLE_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Defeat the Floor Guardians",
+          "requiresBattle": true,
+          "exactOnce": true,
+          "bossId": "ABYSS_BOSS022_09"
+        },
+        {
+          "stepId": "ABYSS_OP094_09_ENDLESS_BATTLE_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_DEMON_05",
+        "MAT020_BEAST_02"
+      ],
+      "guildXp": 65,
+      "hallXp": 51,
+      "summonResonance": 9,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    },
+    {
+      "operationId": "ABYSS_OP094_10_ENDLESS_BATTLE",
+      "floorId": "ABYSS_FLOOR_010_AEGIS_GATE",
+      "kind": "ENDLESS_BATTLE094",
+      "displayName": "Aegis Gate — Endless Battle",
+      "steps": [
+        {
+          "stepId": "ABYSS_OP094_10_ENDLESS_BATTLE_BRIEF",
+          "kind": "BRIEFING",
+          "title": "Aegis Gate Briefing",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_10_ENDLESS_BATTLE_BOARD",
+          "kind": "BOARD",
+          "title": "Read the Floor",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_10_ENDLESS_BATTLE_EVENT",
+          "kind": "EVENT",
+          "title": "Committed Floor Event",
+          "requiresBattle": false,
+          "exactOnce": true
+        },
+        {
+          "stepId": "ABYSS_OP094_10_ENDLESS_BATTLE_OBJECTIVE",
+          "kind": "OBJECTIVE",
+          "title": "Defeat the Floor Guardians",
+          "requiresBattle": true,
+          "exactOnce": true,
+          "bossId": "ABYSS_BOSS022_10"
+        },
+        {
+          "stepId": "ABYSS_OP094_10_ENDLESS_BATTLE_RESULTS",
+          "kind": "RESULTS",
+          "title": "Return Above",
+          "requiresBattle": false,
+          "exactOnce": true
+        }
+      ],
+      "firstClearOnly": false,
+      "requiresPreviousFloorClear": true,
+      "rewardMaterialIds": [
+        "MAT020_DOG_02",
+        "MAT020_BUNNY_01"
+      ],
+      "guildXp": 70,
+      "hallXp": 55,
+      "summonResonance": 10,
+      "committedBeforeReveal": true,
+      "exactOnceReceipts": true,
+      "existingEquipmentRewardRemainsAuthoritative": true
+    }
+  ]
+}

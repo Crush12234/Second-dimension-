@@ -1,0 +1,94 @@
+{
+  "contentVersion": "GOW_CONTENT_AUTHORITY_BRIDGE_003",
+  "instruction": "Codex must load only the named read set for the active gate. Do not recursively ingest all Authority JSON.",
+  "readSets": [
+    {
+      "id": "READSET_00_BASELINE_VALIDATE",
+      "purpose": "Verify ZIP 21 and authority precedence before changes.",
+      "files": [
+        "AUTHORITY_RUNTIME_MANIFEST.json",
+        "IMPLEMENTATION_FREEZE/STABLE_ID_REGISTRY.json",
+        "CONTENT/CONTENT_AUTHORITY_002/DATA/CONTENT_MANIFEST.json",
+        "CONTENT/CONTENT_AUTHORITY_003_BRIDGE/DATA/BRIDGE_MANIFEST.json",
+        "CONTENT/CONTENT_AUTHORITY_003_BRIDGE/DATA/AUTHORITY_PRECEDENCE_LEDGER.json",
+        "CONTENT/CONTENT_AUTHORITY_003_BRIDGE/DATA/ID_NAMESPACE_LEDGER.json"
+      ],
+      "maximumImplementationScope": "Validation and read-only loader contracts only."
+    },
+    {
+      "id": "READSET_01_EQUIPMENT_AND_ART_LEGALITY",
+      "purpose": "Implement fixed weapon family, equip control, and legal Art filtering.",
+      "files": [
+        "CONTENT/PASS_04/EQUIPMENT_MODEL.json",
+        "CONTENT/PASS_04/WEAPON_FAMILIES.json",
+        "CONTENT/PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "CONTENT/CONTENT_AUTHORITY_002/DATA/WEAPON_CATALOG_264.json",
+        "CONTENT/CONTENT_AUTHORITY_003_BRIDGE/DATA/WEAPON_ART_BINDINGS_264.json",
+        "CONTENT/CONTENT_AUTHORITY_003_BRIDGE/DATA/SAVE_DATA_CONTRACT.json"
+      ],
+      "maximumImplementationScope": "Equipment state and legal action pool; no rewards, recruitment, city, or UI redesign."
+    },
+    {
+      "id": "READSET_02_LEARN_BY_USE",
+      "purpose": "Implement discovery, mastery, anti-spam, and personalized progression.",
+      "files": [
+        "CONTENT/PASS_02/LEARN_BY_USE_SPEC.json",
+        "CONTENT/PASS_02/ART_DEFINITIONS.json",
+        "CONTENT/CONTENT_AUTHORITY_002/DATA/SKILL_TREES_30.json",
+        "CONTENT/CONTENT_AUTHORITY_002/DATA/SKILL_NODES_360.json",
+        "CONTENT/CONTENT_AUTHORITY_003_BRIDGE/DATA/CHARACTER_PROGRESSION_MANIFESTS_300.json",
+        "CONTENT/CONTENT_AUTHORITY_003_BRIDGE/DATA/WEAPON_ART_BINDINGS_264.json"
+      ],
+      "maximumImplementationScope": "Growth resolution and tests; no new screens except minimal debug inspection."
+    },
+    {
+      "id": "READSET_03_COMMITTED_REWARDS",
+      "purpose": "Implement XP ledgers, equipment/material drops, commit-once results, and inventory ownership.",
+      "files": [
+        "CONTENT/PASS_04/CRAFTING_AND_GUILD_FORGE.json",
+        "CONTENT/PASS_04/MATERIAL_DEFINITIONS.json",
+        "CONTENT/PASS_08/RESULTS_PRESENTATION.json",
+        "CONTENT/CONTENT_AUTHORITY_002/DATA/LOOT_TABLES_120.json",
+        "CONTENT/CONTENT_AUTHORITY_002/DATA/CRAFTING_RECIPES_228.json",
+        "CONTENT/CONTENT_AUTHORITY_003_BRIDGE/DATA/SAVE_DATA_CONTRACT.json"
+      ],
+      "maximumImplementationScope": "Terminal reward resolution and result-state persistence only."
+    },
+    {
+      "id": "READSET_04_MIXED_FORECASTS",
+      "purpose": "Connect learned/equipped actions to complete Union Forecasts.",
+      "files": [
+        "CONTENT/PASS_02/UNION_COMMANDS.json",
+        "CONTENT/PASS_02/UNION_DISCIPLINES.json",
+        "CONTENT/PASS_08/BATTLE_PRESENTATION_DEFINITION.json",
+        "CONTENT/CONTENT_AUTHORITY_002/DATA/FORECAST_TEMPLATES_72.json",
+        "CONTENT/CONTENT_AUTHORITY_003_BRIDGE/DATA/CHARACTER_PROGRESSION_MANIFESTS_300.json"
+      ],
+      "maximumImplementationScope": "Forecast generation/prediction only; no individual Art button or scene redesign."
+    },
+    {
+      "id": "READSET_05_RECRUITMENT_ONE_WORLD_AT_A_TIME",
+      "purpose": "Import the 300-character roster without loading it all into one Codex context.",
+      "files": [
+        "CONTENT/RECRUITMENT_OFFICE_PROGRESSION.json",
+        "CONTENT/OPENING_SIGNATURE_RECRUITS.json",
+        "CONTENT/CONTENT_AUTHORITY_003_BRIDGE/DATA/WORLD_PACK_SHARD_INDEX.json",
+        "CONTENT/CONTENT_AUTHORITY_003_BRIDGE/SHARDS/WORLD_PACKS/<selected-world-pack>.json"
+      ],
+      "maximumImplementationScope": "One 10-character world shard per pass; protected canon excluded."
+    },
+    {
+      "id": "READSET_06_CITY_EXISTING_SYSTEM_ONLY",
+      "purpose": "Connect XP/material/recruit/tree hooks to the existing city builder.",
+      "files": [
+        "CONTENT/PASS_05/GUILD_HALL_STAGES.json",
+        "CONTENT/PASS_05/FACILITY_DEFINITIONS.json",
+        "CONTENT/PASS_05/CONSTRUCTION_PROJECTS.json",
+        "CONTENT/PASS_05/STAFF_POSITIONS.json",
+        "CONTENT/PASS_05/DUTY_ASSIGNMENTS.json",
+        "CONTENT/CONTENT_AUTHORITY_002/DATA/FACILITY_CONTENT_HOOKS_30.json"
+      ],
+      "maximumImplementationScope": "Adapters into the existing 19 facilities; do not build a second city system."
+    }
+  ]
+}

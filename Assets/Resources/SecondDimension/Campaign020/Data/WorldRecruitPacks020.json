@@ -1,0 +1,1502 @@
+{
+  "packs": [
+    {
+      "packId": "RECRUITPACK020_BEAST",
+      "worldId": "WORLD_BEASTKIN_003",
+      "profiles": [
+        {
+          "originProfileId": "RECRUIT020_BEAST_01",
+          "worldId": "WORLD_BEASTKIN_003",
+          "displayName": "Wolfroad Ranger",
+          "roleTendency": "ASSAULT",
+          "weaponFamilyCandidates": [
+            "Sword",
+            "Spear"
+          ],
+          "mysticAffinity": "Flame",
+          "visualTags": [
+            "beast",
+            "wolfroad_ranger",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A wolfroad ranger whose history reflects freedom versus civilization, nature versus walls, instinct versus law.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_BEAST_02",
+          "worldId": "WORLD_BEASTKIN_003",
+          "displayName": "Cat-Sun Duelist",
+          "roleTendency": "GUARD",
+          "weaponFamilyCandidates": [
+            "Shield",
+            "Axe"
+          ],
+          "mysticAffinity": "Earth",
+          "visualTags": [
+            "beast",
+            "cat_sun_duelist",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A cat-sun duelist whose history reflects freedom versus civilization, nature versus walls, instinct versus law.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_BEAST_03",
+          "worldId": "WORLD_BEASTKIN_003",
+          "displayName": "Bearroot Guardian",
+          "roleTendency": "RANGED",
+          "weaponFamilyCandidates": [
+            "Bow",
+            "Dagger"
+          ],
+          "mysticAffinity": "Storm",
+          "visualTags": [
+            "beast",
+            "bearroot_guardian",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A bearroot guardian whose history reflects freedom versus civilization, nature versus walls, instinct versus law.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_BEAST_04",
+          "worldId": "WORLD_BEASTKIN_003",
+          "displayName": "Skyfeather Archer",
+          "roleTendency": "MYSTIC",
+          "weaponFamilyCandidates": [
+            "Staff",
+            "Catalyst"
+          ],
+          "mysticAffinity": "Aether",
+          "visualTags": [
+            "beast",
+            "skyfeather_archer",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A skyfeather archer whose history reflects freedom versus civilization, nature versus walls, instinct versus law.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_BEAST_05",
+          "worldId": "WORLD_BEASTKIN_003",
+          "displayName": "Foxfire Mystic",
+          "roleTendency": "RESTORATION",
+          "weaponFamilyCandidates": [
+            "Staff",
+            "Shield"
+          ],
+          "mysticAffinity": "Restoration",
+          "visualTags": [
+            "beast",
+            "foxfire_mystic",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A foxfire mystic whose history reflects freedom versus civilization, nature versus walls, instinct versus law.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_BEAST_06",
+          "worldId": "WORLD_BEASTKIN_003",
+          "displayName": "Open-Court Mediator",
+          "roleTendency": "SUPPORT",
+          "weaponFamilyCandidates": [
+            "Engineering",
+            "Bow"
+          ],
+          "mysticAffinity": "Warding",
+          "visualTags": [
+            "beast",
+            "open_court_mediator",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A open-court mediator whose history reflects freedom versus civilization, nature versus walls, instinct versus law.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_BEAST_07",
+          "worldId": "WORLD_BEASTKIN_003",
+          "displayName": "Winter-Den Healer",
+          "roleTendency": "TACTICAL",
+          "weaponFamilyCandidates": [
+            "Dagger",
+            "Spear"
+          ],
+          "mysticAffinity": "Shadow",
+          "visualTags": [
+            "beast",
+            "winter_den_healer",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A winter-den healer whose history reflects freedom versus civilization, nature versus walls, instinct versus law.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_BEAST_08",
+          "worldId": "WORLD_BEASTKIN_003",
+          "displayName": "Wildseed Scout",
+          "roleTendency": "LEADER",
+          "weaponFamilyCandidates": [
+            "Sword",
+            "Staff"
+          ],
+          "mysticAffinity": "Frost",
+          "visualTags": [
+            "beast",
+            "wildseed_scout",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A wildseed scout whose history reflects freedom versus civilization, nature versus walls, instinct versus law.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        }
+      ]
+    },
+    {
+      "packId": "RECRUITPACK020_BUNNY",
+      "worldId": "WORLD_BUNNY_006",
+      "profiles": [
+        {
+          "originProfileId": "RECRUIT020_BUNNY_01",
+          "worldId": "WORLD_BUNNY_006",
+          "displayName": "Roadbell Courier",
+          "roleTendency": "ASSAULT",
+          "weaponFamilyCandidates": [
+            "Sword",
+            "Spear"
+          ],
+          "mysticAffinity": "Flame",
+          "visualTags": [
+            "bunny",
+            "roadbell_courier",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A roadbell courier whose history reflects commerce, connection, debt, logistics, and the moral weight of price.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_BUNNY_02",
+          "worldId": "WORLD_BUNNY_006",
+          "displayName": "Golden Warren Guard",
+          "roleTendency": "GUARD",
+          "weaponFamilyCandidates": [
+            "Shield",
+            "Axe"
+          ],
+          "mysticAffinity": "Earth",
+          "visualTags": [
+            "bunny",
+            "golden_warren_guard",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A golden warren guard whose history reflects commerce, connection, debt, logistics, and the moral weight of price.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_BUNNY_03",
+          "worldId": "WORLD_BUNNY_006",
+          "displayName": "Orchard Port Ranger",
+          "roleTendency": "RANGED",
+          "weaponFamilyCandidates": [
+            "Bow",
+            "Dagger"
+          ],
+          "mysticAffinity": "Storm",
+          "visualTags": [
+            "bunny",
+            "orchard_port_ranger",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A orchard port ranger whose history reflects commerce, connection, debt, logistics, and the moral weight of price.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_BUNNY_04",
+          "worldId": "WORLD_BUNNY_006",
+          "displayName": "Free Basket Medic",
+          "roleTendency": "MYSTIC",
+          "weaponFamilyCandidates": [
+            "Staff",
+            "Catalyst"
+          ],
+          "mysticAffinity": "Aether",
+          "visualTags": [
+            "bunny",
+            "free_basket_medic",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A free basket medic whose history reflects commerce, connection, debt, logistics, and the moral weight of price.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_BUNNY_05",
+          "worldId": "WORLD_BUNNY_006",
+          "displayName": "Ledger Mystic",
+          "roleTendency": "RESTORATION",
+          "weaponFamilyCandidates": [
+            "Staff",
+            "Shield"
+          ],
+          "mysticAffinity": "Restoration",
+          "visualTags": [
+            "bunny",
+            "ledger_mystic",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A ledger mystic whose history reflects commerce, connection, debt, logistics, and the moral weight of price.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_BUNNY_06",
+          "worldId": "WORLD_BUNNY_006",
+          "displayName": "Granary Engineer",
+          "roleTendency": "SUPPORT",
+          "weaponFamilyCandidates": [
+            "Engineering",
+            "Bow"
+          ],
+          "mysticAffinity": "Warding",
+          "visualTags": [
+            "bunny",
+            "granary_engineer",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A granary engineer whose history reflects commerce, connection, debt, logistics, and the moral weight of price.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_BUNNY_07",
+          "worldId": "WORLD_BUNNY_006",
+          "displayName": "Price-Cap Mediator",
+          "roleTendency": "TACTICAL",
+          "weaponFamilyCandidates": [
+            "Dagger",
+            "Spear"
+          ],
+          "mysticAffinity": "Shadow",
+          "visualTags": [
+            "bunny",
+            "price_cap_mediator",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A price-cap mediator whose history reflects commerce, connection, debt, logistics, and the moral weight of price.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_BUNNY_08",
+          "worldId": "WORLD_BUNNY_006",
+          "displayName": "Open Road Scout",
+          "roleTendency": "LEADER",
+          "weaponFamilyCandidates": [
+            "Sword",
+            "Staff"
+          ],
+          "mysticAffinity": "Frost",
+          "visualTags": [
+            "bunny",
+            "open_road_scout",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A open road scout whose history reflects commerce, connection, debt, logistics, and the moral weight of price.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        }
+      ]
+    },
+    {
+      "packId": "RECRUITPACK020_DARKELF",
+      "worldId": "WORLD_DARK_ELF_005",
+      "profiles": [
+        {
+          "originProfileId": "RECRUIT020_DARKELF_01",
+          "worldId": "WORLD_DARK_ELF_005",
+          "displayName": "Veil-City Blade",
+          "roleTendency": "ASSAULT",
+          "weaponFamilyCandidates": [
+            "Sword",
+            "Spear"
+          ],
+          "mysticAffinity": "Flame",
+          "visualTags": [
+            "darkelf",
+            "veil_city_blade",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A veil-city blade whose history reflects truth versus stability, memory versus safety, shadow versus silence.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_DARKELF_02",
+          "worldId": "WORLD_DARK_ELF_005",
+          "displayName": "Silverquiet Archer",
+          "roleTendency": "GUARD",
+          "weaponFamilyCandidates": [
+            "Shield",
+            "Axe"
+          ],
+          "mysticAffinity": "Earth",
+          "visualTags": [
+            "darkelf",
+            "silverquiet_archer",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A silverquiet archer whose history reflects truth versus stability, memory versus safety, shadow versus silence.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_DARKELF_03",
+          "worldId": "WORLD_DARK_ELF_005",
+          "displayName": "Blackroot Warden",
+          "roleTendency": "RANGED",
+          "weaponFamilyCandidates": [
+            "Bow",
+            "Dagger"
+          ],
+          "mysticAffinity": "Storm",
+          "visualTags": [
+            "darkelf",
+            "blackroot_warden",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A blackroot warden whose history reflects truth versus stability, memory versus safety, shadow versus silence.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_DARKELF_04",
+          "worldId": "WORLD_DARK_ELF_005",
+          "displayName": "Lanternless Scout",
+          "roleTendency": "MYSTIC",
+          "weaponFamilyCandidates": [
+            "Staff",
+            "Catalyst"
+          ],
+          "mysticAffinity": "Aether",
+          "visualTags": [
+            "darkelf",
+            "lanternless_scout",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A lanternless scout whose history reflects truth versus stability, memory versus safety, shadow versus silence.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_DARKELF_05",
+          "worldId": "WORLD_DARK_ELF_005",
+          "displayName": "Knife-Library Mystic",
+          "roleTendency": "RESTORATION",
+          "weaponFamilyCandidates": [
+            "Staff",
+            "Shield"
+          ],
+          "mysticAffinity": "Restoration",
+          "visualTags": [
+            "darkelf",
+            "knife_library_mystic",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A knife-library mystic whose history reflects truth versus stability, memory versus safety, shadow versus silence.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_DARKELF_06",
+          "worldId": "WORLD_DARK_ELF_005",
+          "displayName": "Gentle Knife Healer",
+          "roleTendency": "SUPPORT",
+          "weaponFamilyCandidates": [
+            "Engineering",
+            "Bow"
+          ],
+          "mysticAffinity": "Warding",
+          "visualTags": [
+            "darkelf",
+            "gentle_knife_healer",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A gentle knife healer whose history reflects truth versus stability, memory versus safety, shadow versus silence.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_DARKELF_07",
+          "worldId": "WORLD_DARK_ELF_005",
+          "displayName": "Truththorn Scholar",
+          "roleTendency": "TACTICAL",
+          "weaponFamilyCandidates": [
+            "Dagger",
+            "Spear"
+          ],
+          "mysticAffinity": "Shadow",
+          "visualTags": [
+            "darkelf",
+            "truththorn_scholar",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A truththorn scholar whose history reflects truth versus stability, memory versus safety, shadow versus silence.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_DARKELF_08",
+          "worldId": "WORLD_DARK_ELF_005",
+          "displayName": "Open Archive Guardian",
+          "roleTendency": "LEADER",
+          "weaponFamilyCandidates": [
+            "Sword",
+            "Staff"
+          ],
+          "mysticAffinity": "Frost",
+          "visualTags": [
+            "darkelf",
+            "open_archive_guardian",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A open archive guardian whose history reflects truth versus stability, memory versus safety, shadow versus silence.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        }
+      ]
+    },
+    {
+      "packId": "RECRUITPACK020_DEMON",
+      "worldId": "WORLD_DEMON_004",
+      "profiles": [
+        {
+          "originProfileId": "RECRUIT020_DEMON_01",
+          "worldId": "WORLD_DEMON_004",
+          "displayName": "Contract Breaker",
+          "roleTendency": "ASSAULT",
+          "weaponFamilyCandidates": [
+            "Sword",
+            "Spear"
+          ],
+          "mysticAffinity": "Flame",
+          "visualTags": [
+            "demon",
+            "contract_breaker",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A contract breaker whose history reflects fear, beauty, forbidden knowledge, law, and trust.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_DEMON_02",
+          "worldId": "WORLD_DEMON_004",
+          "displayName": "Crimson Scholar",
+          "roleTendency": "GUARD",
+          "weaponFamilyCandidates": [
+            "Shield",
+            "Axe"
+          ],
+          "mysticAffinity": "Earth",
+          "visualTags": [
+            "demon",
+            "crimson_scholar",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A crimson scholar whose history reflects fear, beauty, forbidden knowledge, law, and trust.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_DEMON_03",
+          "worldId": "WORLD_DEMON_004",
+          "displayName": "Thorn-Crown Guard",
+          "roleTendency": "RANGED",
+          "weaponFamilyCandidates": [
+            "Bow",
+            "Dagger"
+          ],
+          "mysticAffinity": "Storm",
+          "visualTags": [
+            "demon",
+            "thorn_crown_guard",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A thorn-crown guard whose history reflects fear, beauty, forbidden knowledge, law, and trust.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_DEMON_04",
+          "worldId": "WORLD_DEMON_004",
+          "displayName": "Dreamglass Mystic",
+          "roleTendency": "MYSTIC",
+          "weaponFamilyCandidates": [
+            "Staff",
+            "Catalyst"
+          ],
+          "mysticAffinity": "Aether",
+          "visualTags": [
+            "demon",
+            "dreamglass_mystic",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A dreamglass mystic whose history reflects fear, beauty, forbidden knowledge, law, and trust.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_DEMON_05",
+          "worldId": "WORLD_DEMON_004",
+          "displayName": "Ember Monk",
+          "roleTendency": "RESTORATION",
+          "weaponFamilyCandidates": [
+            "Staff",
+            "Shield"
+          ],
+          "mysticAffinity": "Restoration",
+          "visualTags": [
+            "demon",
+            "ember_monk",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A ember monk whose history reflects fear, beauty, forbidden knowledge, law, and trust.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_DEMON_06",
+          "worldId": "WORLD_DEMON_004",
+          "displayName": "Mercy Index Healer",
+          "roleTendency": "SUPPORT",
+          "weaponFamilyCandidates": [
+            "Engineering",
+            "Bow"
+          ],
+          "mysticAffinity": "Warding",
+          "visualTags": [
+            "demon",
+            "mercy_index_healer",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A mercy index healer whose history reflects fear, beauty, forbidden knowledge, law, and trust.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_DEMON_07",
+          "worldId": "WORLD_DEMON_004",
+          "displayName": "Ash-Court Ranger",
+          "roleTendency": "TACTICAL",
+          "weaponFamilyCandidates": [
+            "Dagger",
+            "Spear"
+          ],
+          "mysticAffinity": "Shadow",
+          "visualTags": [
+            "demon",
+            "ash_court_ranger",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A ash-court ranger whose history reflects fear, beauty, forbidden knowledge, law, and trust.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_DEMON_08",
+          "worldId": "WORLD_DEMON_004",
+          "displayName": "Red Archive Engineer",
+          "roleTendency": "LEADER",
+          "weaponFamilyCandidates": [
+            "Sword",
+            "Staff"
+          ],
+          "mysticAffinity": "Frost",
+          "visualTags": [
+            "demon",
+            "red_archive_engineer",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A red archive engineer whose history reflects fear, beauty, forbidden knowledge, law, and trust.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        }
+      ]
+    },
+    {
+      "packId": "RECRUITPACK020_DOG",
+      "worldId": "WORLD_DOG_007",
+      "profiles": [
+        {
+          "originProfileId": "RECRUIT020_DOG_01",
+          "worldId": "WORLD_DOG_007",
+          "displayName": "Stormpaw Ranger",
+          "roleTendency": "ASSAULT",
+          "weaponFamilyCandidates": [
+            "Sword",
+            "Spear"
+          ],
+          "mysticAffinity": "Flame",
+          "visualTags": [
+            "dog",
+            "stormpaw_ranger",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A stormpaw ranger whose history reflects duty, loyalty, borders, oaths, and moral fracture.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_DOG_02",
+          "worldId": "WORLD_DOG_007",
+          "displayName": "Oathpost Guardian",
+          "roleTendency": "GUARD",
+          "weaponFamilyCandidates": [
+            "Shield",
+            "Axe"
+          ],
+          "mysticAffinity": "Earth",
+          "visualTags": [
+            "dog",
+            "oathpost_guardian",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A oathpost guardian whose history reflects duty, loyalty, borders, oaths, and moral fracture.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_DOG_03",
+          "worldId": "WORLD_DOG_007",
+          "displayName": "Rivernose Tracker",
+          "roleTendency": "RANGED",
+          "weaponFamilyCandidates": [
+            "Bow",
+            "Dagger"
+          ],
+          "mysticAffinity": "Storm",
+          "visualTags": [
+            "dog",
+            "rivernose_tracker",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A rivernose tracker whose history reflects duty, loyalty, borders, oaths, and moral fracture.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_DOG_04",
+          "worldId": "WORLD_DOG_007",
+          "displayName": "Hearthhound Healer",
+          "roleTendency": "MYSTIC",
+          "weaponFamilyCandidates": [
+            "Staff",
+            "Catalyst"
+          ],
+          "mysticAffinity": "Aether",
+          "visualTags": [
+            "dog",
+            "hearthhound_healer",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A hearthhound healer whose history reflects duty, loyalty, borders, oaths, and moral fracture.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_DOG_05",
+          "worldId": "WORLD_DOG_007",
+          "displayName": "Gray Trail Scout",
+          "roleTendency": "RESTORATION",
+          "weaponFamilyCandidates": [
+            "Staff",
+            "Shield"
+          ],
+          "mysticAffinity": "Restoration",
+          "visualTags": [
+            "dog",
+            "gray_trail_scout",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A gray trail scout whose history reflects duty, loyalty, borders, oaths, and moral fracture.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_DOG_06",
+          "worldId": "WORLD_DOG_007",
+          "displayName": "Moral Patrol Captain",
+          "roleTendency": "SUPPORT",
+          "weaponFamilyCandidates": [
+            "Engineering",
+            "Bow"
+          ],
+          "mysticAffinity": "Warding",
+          "visualTags": [
+            "dog",
+            "moral_patrol_captain",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A moral patrol captain whose history reflects duty, loyalty, borders, oaths, and moral fracture.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_DOG_07",
+          "worldId": "WORLD_DOG_007",
+          "displayName": "Border School Mentor",
+          "roleTendency": "TACTICAL",
+          "weaponFamilyCandidates": [
+            "Dagger",
+            "Spear"
+          ],
+          "mysticAffinity": "Shadow",
+          "visualTags": [
+            "dog",
+            "border_school_mentor",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A border school mentor whose history reflects duty, loyalty, borders, oaths, and moral fracture.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_DOG_08",
+          "worldId": "WORLD_DOG_007",
+          "displayName": "Trailmark Engineer",
+          "roleTendency": "LEADER",
+          "weaponFamilyCandidates": [
+            "Sword",
+            "Staff"
+          ],
+          "mysticAffinity": "Frost",
+          "visualTags": [
+            "dog",
+            "trailmark_engineer",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A trailmark engineer whose history reflects duty, loyalty, borders, oaths, and moral fracture.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        }
+      ]
+    },
+    {
+      "packId": "RECRUITPACK020_GOBLIN",
+      "worldId": "WORLD_GOBLIN_001",
+      "profiles": [
+        {
+          "originProfileId": "RECRUIT020_GOBLIN_01",
+          "worldId": "WORLD_GOBLIN_001",
+          "displayName": "Bridge-Rig Engineer",
+          "roleTendency": "ASSAULT",
+          "weaponFamilyCandidates": [
+            "Sword",
+            "Spear"
+          ],
+          "mysticAffinity": "Flame",
+          "visualTags": [
+            "goblin",
+            "bridge_rig_engineer",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A bridge-rig engineer whose history reflects memory, accelerated history, industry, abandonment, and myth.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_GOBLIN_02",
+          "worldId": "WORLD_GOBLIN_001",
+          "displayName": "Burrow Choir Medic",
+          "roleTendency": "GUARD",
+          "weaponFamilyCandidates": [
+            "Shield",
+            "Axe"
+          ],
+          "mysticAffinity": "Earth",
+          "visualTags": [
+            "goblin",
+            "burrow_choir_medic",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A burrow choir medic whose history reflects memory, accelerated history, industry, abandonment, and myth.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_GOBLIN_03",
+          "worldId": "WORLD_GOBLIN_001",
+          "displayName": "Iron Lantern Guard",
+          "roleTendency": "RANGED",
+          "weaponFamilyCandidates": [
+            "Bow",
+            "Dagger"
+          ],
+          "mysticAffinity": "Storm",
+          "visualTags": [
+            "goblin",
+            "iron_lantern_guard",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A iron lantern guard whose history reflects memory, accelerated history, industry, abandonment, and myth.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_GOBLIN_04",
+          "worldId": "WORLD_GOBLIN_001",
+          "displayName": "Foundry Spearwright",
+          "roleTendency": "MYSTIC",
+          "weaponFamilyCandidates": [
+            "Staff",
+            "Catalyst"
+          ],
+          "mysticAffinity": "Aether",
+          "visualTags": [
+            "goblin",
+            "foundry_spearwright",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A foundry spearwright whose history reflects memory, accelerated history, industry, abandonment, and myth.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_GOBLIN_05",
+          "worldId": "WORLD_GOBLIN_001",
+          "displayName": "Broken Promise Scout",
+          "roleTendency": "RESTORATION",
+          "weaponFamilyCandidates": [
+            "Staff",
+            "Shield"
+          ],
+          "mysticAffinity": "Restoration",
+          "visualTags": [
+            "goblin",
+            "broken_promise_scout",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A broken promise scout whose history reflects memory, accelerated history, industry, abandonment, and myth.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_GOBLIN_06",
+          "worldId": "WORLD_GOBLIN_001",
+          "displayName": "Calendar Archivist",
+          "roleTendency": "SUPPORT",
+          "weaponFamilyCandidates": [
+            "Engineering",
+            "Bow"
+          ],
+          "mysticAffinity": "Warding",
+          "visualTags": [
+            "goblin",
+            "calendar_archivist",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A calendar archivist whose history reflects memory, accelerated history, industry, abandonment, and myth.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_GOBLIN_07",
+          "worldId": "WORLD_GOBLIN_001",
+          "displayName": "Ash-Market Broker",
+          "roleTendency": "TACTICAL",
+          "weaponFamilyCandidates": [
+            "Dagger",
+            "Spear"
+          ],
+          "mysticAffinity": "Shadow",
+          "visualTags": [
+            "goblin",
+            "ash_market_broker",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A ash-market broker whose history reflects memory, accelerated history, industry, abandonment, and myth.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_GOBLIN_08",
+          "worldId": "WORLD_GOBLIN_001",
+          "displayName": "Cogspire Mystic",
+          "roleTendency": "LEADER",
+          "weaponFamilyCandidates": [
+            "Sword",
+            "Staff"
+          ],
+          "mysticAffinity": "Frost",
+          "visualTags": [
+            "goblin",
+            "cogspire_mystic",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A cogspire mystic whose history reflects memory, accelerated history, industry, abandonment, and myth.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        }
+      ]
+    },
+    {
+      "packId": "RECRUITPACK020_ORC",
+      "worldId": "WORLD_ORC_002",
+      "profiles": [
+        {
+          "originProfileId": "RECRUIT020_ORC_01",
+          "worldId": "WORLD_ORC_002",
+          "displayName": "Hearth Shield Judge",
+          "roleTendency": "ASSAULT",
+          "weaponFamilyCandidates": [
+            "Sword",
+            "Spear"
+          ],
+          "mysticAffinity": "Flame",
+          "visualTags": [
+            "orc",
+            "hearth_shield_judge",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A hearth shield judge whose history reflects strength, honor, childhood, protection, and inherited war.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_ORC_02",
+          "worldId": "WORLD_ORC_002",
+          "displayName": "Mountain Banner Spear",
+          "roleTendency": "GUARD",
+          "weaponFamilyCandidates": [
+            "Shield",
+            "Axe"
+          ],
+          "mysticAffinity": "Earth",
+          "visualTags": [
+            "orc",
+            "mountain_banner_spear",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A mountain banner spear whose history reflects strength, honor, childhood, protection, and inherited war.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_ORC_03",
+          "worldId": "WORLD_ORC_002",
+          "displayName": "Salt-Tusk Ranger",
+          "roleTendency": "RANGED",
+          "weaponFamilyCandidates": [
+            "Bow",
+            "Dagger"
+          ],
+          "mysticAffinity": "Storm",
+          "visualTags": [
+            "orc",
+            "salt_tusk_ranger",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A salt-tusk ranger whose history reflects strength, honor, childhood, protection, and inherited war.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_ORC_04",
+          "worldId": "WORLD_ORC_002",
+          "displayName": "Shieldhome Guardian",
+          "roleTendency": "MYSTIC",
+          "weaponFamilyCandidates": [
+            "Staff",
+            "Catalyst"
+          ],
+          "mysticAffinity": "Aether",
+          "visualTags": [
+            "orc",
+            "shieldhome_guardian",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A shieldhome guardian whose history reflects strength, honor, childhood, protection, and inherited war.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_ORC_05",
+          "worldId": "WORLD_ORC_002",
+          "displayName": "Arena Breaker",
+          "roleTendency": "RESTORATION",
+          "weaponFamilyCandidates": [
+            "Staff",
+            "Shield"
+          ],
+          "mysticAffinity": "Restoration",
+          "visualTags": [
+            "orc",
+            "arena_breaker",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A arena breaker whose history reflects strength, honor, childhood, protection, and inherited war.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_ORC_06",
+          "worldId": "WORLD_ORC_002",
+          "displayName": "Shame Council Mystic",
+          "roleTendency": "SUPPORT",
+          "weaponFamilyCandidates": [
+            "Engineering",
+            "Bow"
+          ],
+          "mysticAffinity": "Warding",
+          "visualTags": [
+            "orc",
+            "shame_council_mystic",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A shame council mystic whose history reflects strength, honor, childhood, protection, and inherited war.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_ORC_07",
+          "worldId": "WORLD_ORC_002",
+          "displayName": "Sanctuary Healer",
+          "roleTendency": "TACTICAL",
+          "weaponFamilyCandidates": [
+            "Dagger",
+            "Spear"
+          ],
+          "mysticAffinity": "Shadow",
+          "visualTags": [
+            "orc",
+            "sanctuary_healer",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A sanctuary healer whose history reflects strength, honor, childhood, protection, and inherited war.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        },
+        {
+          "originProfileId": "RECRUIT020_ORC_08",
+          "worldId": "WORLD_ORC_002",
+          "displayName": "Clan-Road Scout",
+          "roleTendency": "LEADER",
+          "weaponFamilyCandidates": [
+            "Sword",
+            "Staff"
+          ],
+          "mysticAffinity": "Frost",
+          "visualTags": [
+            "orc",
+            "clan_road_scout",
+            "modular_autogen_010"
+          ],
+          "backgroundHook": "A clan-road scout whose history reflects strength, honor, childhood, protection, and inherited war.",
+          "applicantUnknowns": [
+            "exact growth ceiling",
+            "future discoveries",
+            "relationship outcomes"
+          ],
+          "permanentWhenSigned": true,
+          "runtimeGenerativeAi": false,
+          "usesRecruitAutogen010": true,
+          "signatureRecruitReplacement": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "id": "BOSS_OP_001_QUIET_THE_GATEHEART",
+  "title": "Operation: Quiet the Gateheart",
+  "contentVersion": "GOW_PASS03_0.8",
+  "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+  "recommendedGuildStage": "CHARTERED_HALL",
+  "recommendedActiveUnions": 3,
+  "premise": "An ancient gate-maintenance commander interprets new relief shelters and civic repairs as unauthorized obstructions. It begins clearing the district according to obsolete law.",
+  "boardProfileId": "BOARD_BOSS",
+  "approach": {
+    "requiredSkillOptions": [
+      {
+        "skill": "Crafting",
+        "difficulty": 11,
+        "effect": "Identify load-safe routes through the moving braces."
+      },
+      {
+        "skill": "Arcana",
+        "difficulty": 11,
+        "effect": "Read the rhythm of the Gateheart’s reset field."
+      },
+      {
+        "skill": "Leadership",
+        "difficulty": 11,
+        "effect": "Coordinate workers and refugees without turning them into combatants."
+      }
+    ],
+    "optionalRoute": {
+      "id": "ROUTE_WORKER_SERVICE_SPAN",
+      "unlockRequirements": [
+        {
+          "anyOfFlags": [
+            "FLAG_WORKER_TRUST_2",
+            "FLAG_EVT_WORKER_STRIKE_SUCCESS",
+            "FLAG_EVT_BRASS_RAIN_CHANNEL_SUCCESS"
+          ]
+        }
+      ],
+      "benefit": "Enter beside Resonance Pylon 1 and begin with one free Tactical setup.",
+      "cost": "The route is narrow; Wedge and Arrowhead formations begin with reduced Cohesion."
+    },
+    "secondaryObjective": {
+      "id": "OBJ_DISABLE_RESONANCE_PYLONS",
+      "description": "Disable three Resonance Pylons without destroying the relief power network.",
+      "requiredCount": 3,
+      "resolutionSkills": [
+        "Crafting",
+        "Arcana",
+        "Tactical"
+      ],
+      "successEffects": [
+        "Remove Gate Reset damage amplification",
+        "Reduce Resonance Choir MP recovery",
+        "Unlock accountable maintenance override"
+      ],
+      "ignoredEffects": [
+        "Gate Reset repeats one round sooner",
+        "Support Union restores 8 MP per member each round",
+        "Post-battle repairs cost 80 additional Guild Treasury XP"
+      ]
+    },
+    "eventDecision": {
+      "eventId": "EVT_GATEWORKS_DAMAGED_SYSTEM_TERMINAL",
+      "choiceTheme": "Preserve the maintenance crew’s records, overwrite them, or shut the terminal down.",
+      "futureHook": "Preserved records reveal that the Warden was ordered to protect civic life, but its definition of authorized life has not been updated."
+    }
+  },
+  "operationSequence": [
+    {
+      "step": 1,
+      "type": "SKILL_CHECK",
+      "id": "STEP_APPROACH_GATEHEART"
+    },
+    {
+      "step": 2,
+      "type": "EVENT",
+      "id": "EVT_GATEWORKS_ALARM_AFTER_BATTLE"
+    },
+    {
+      "step": 3,
+      "type": "BATTLE",
+      "enemyUnionIds": [
+        "EU_HOLLOW_WALL"
+      ],
+      "purpose": "Teach objective-aware enemies and formation pressure."
+    },
+    {
+      "step": 4,
+      "type": "OPTIONAL_OBJECTIVE",
+      "id": "OBJ_DISABLE_RESONANCE_PYLONS"
+    },
+    {
+      "step": 5,
+      "type": "ELITE_BATTLE",
+      "enemyUnionIds": [
+        "EU_BRUTE_ESCORT"
+      ],
+      "purpose": "Teach support protection and formation breaking."
+    },
+    {
+      "step": 6,
+      "type": "CAMP",
+      "id": "CAMP_GATEKEEPER_PLATFORM",
+      "allowsRegroup": true,
+      "restores": {
+        "supplies": 1,
+        "fatigue": -2,
+        "morale": 1
+      }
+    },
+    {
+      "step": 7,
+      "type": "BOSS_BATTLE",
+      "id": "BATTLE_GATEHEART_ARENA"
+    }
+  ],
+  "bossArena": {
+    "id": "ARENA_GATEHEART_RESONANCE_WELL",
+    "visual": "A circular maintenance well around a suspended blue Gateheart, crossed by three service bridges and lined with relief power conduits.",
+    "environmentalObjects": [
+      {
+        "id": "PYLON_1",
+        "type": "RESONANCE_PYLON",
+        "optionalObjective": true
+      },
+      {
+        "id": "PYLON_2",
+        "type": "RESONANCE_PYLON",
+        "optionalObjective": true
+      },
+      {
+        "id": "PYLON_3",
+        "type": "RESONANCE_PYLON",
+        "optionalObjective": true
+      },
+      {
+        "id": "RELIEF_CONDUIT",
+        "type": "PROTECTED_CIVIC_INFRASTRUCTURE",
+        "destroyPenalty": true
+      }
+    ],
+    "enemyUnionWaves": [
+      {
+        "round": 1,
+        "enemyUnionIds": [
+          "EU_GATEHEART_BASTION",
+          "EU_GATEHEART_RESONANCE",
+          "EU_SHARDWING_SIGNAL"
+        ]
+      },
+      {
+        "trigger": "Bastion Cohesion below 45 or all pylons disabled",
+        "enemyUnionIds": [
+          "EU_BRUTE_ESCORT"
+        ],
+        "maximumOnce": true
+      }
+    ],
+    "telegraphs": [
+      {
+        "id": "TELEGRAPH_GATE_RESET",
+        "name": "Gate Reset",
+        "announceRoundOffset": 1,
+        "visibleText": "AUTHORIZATION ERROR // CLEAR OBSTRUCTIONS",
+        "counterplay": [
+          "Guard forecasts",
+          "Disable a Pylon",
+          "Formation spread",
+          "Mystic counter forecast"
+        ],
+        "resolution": "Heavy field damage and Cohesion loss; amplification equals active Pylon count."
+      },
+      {
+        "id": "TELEGRAPH_CHAIN_RECALL",
+        "name": "Chain Recall",
+        "announceRoundOffset": 1,
+        "visibleText": "MAINTENANCE UNITS // RETURN TO DESIGNATED POSTS",
+        "counterplay": [
+          "Tactical movement",
+          "Break Resonance Choir",
+          "Protect rear Union"
+        ],
+        "resolution": "Pulls one exposed Union toward the center and restores an enemy formation."
+      }
+    ],
+    "opportunities": {
+      "Guard": "Intercept Gate Reset pressure and protect a Union disabling a Pylon.",
+      "Restoration": "Recover after field damage and cleanse Resonance Burn.",
+      "Tactical": "Split safely across service bridges, flank the Choir, or complete Pylon objectives.",
+      "FormationBreak": "Break the Bastion before it shields the Choir.",
+      "LinkArt": "Pylon setup and visible telegraphs make Guardian/Priest, Ranger/Mage, or full-Union Link Arts practical."
+    },
+    "victoryConditions": [
+      "Gateheart Warden Union broken or lawfully overridden",
+      "At least one player Union remains functional"
+    ],
+    "retreatRule": "Retreat preserves discovered data, opens a recovery contract, and never deletes the campaign."
+  },
+  "rewards": {
+    "personalXpPerDeployedMember": 140,
+    "guildTreasuryXp": 320,
+    "reputation": 20,
+    "lootIds": [
+      "LOOT_GATEHEART_MEMORY",
+      "LOOT_WARDEN_CORE_FRAGMENT",
+      "LOOT_PYLON_TIMING_LENS"
+    ],
+    "guildUnlocks": [
+      "FACILITY_STRATEGY_ROOM_TIER_1",
+      "CONTRACT_ANOMALY_CONTAINMENT"
+    ],
+    "relationshipEvents": [
+      "EVENT_POST_GATEHEART_DEBRIEF"
+    ],
+    "futureFlags": [
+      "FLAG_GATEHEART_QUIET",
+      "FLAG_FIRST_BOSS_OPERATION_COMPLETE"
+    ]
+  },
+  "consequences": {
+    "secondarySuccess": "The relief district stays powered, repairs cost less, and workers join the Scout Network.",
+    "secondaryFailure": "The Warden is stopped, but rebuilding consumes Treasury XP and some applicants begin with fatigue.",
+    "recordsPreserved": "A later World Gate investigation gains a lawful maintenance route.",
+    "recordsDestroyed": "The immediate override is easier, but the ancient civic record is permanently incomplete."
+  },
+  "designValidation": {
+    "notSingleHpSponge": true,
+    "usesMultipleEnemyUnions": true,
+    "hasSupportUnion": true,
+    "hasEnvironmentalObjective": true,
+    "allStartingDisciplinesHaveOpportunity": true
+  }
+}

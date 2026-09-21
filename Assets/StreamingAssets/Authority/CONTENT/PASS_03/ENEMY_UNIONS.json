@@ -1,0 +1,333 @@
+{
+  "contentVersion": "GOW_PASS03_0.8",
+  "enemyUnionCount": 13,
+  "enemyUnions": [
+    {
+      "id": "EU_GNAWER_PACK",
+      "name": "Gate Gnawer Pack",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "doctrineId": "ENEMY_DOCTRINE_SALVAGE_RAID",
+      "formationId": "FORMATION_SKIRMISH_LINE",
+      "memberIds": [
+        "ENEMY_GATE_GNAWER_01",
+        "ENEMY_GATE_GNAWER_02",
+        "ENEMY_GATE_GNAWER_03"
+      ],
+      "leaderMemberId": "ENEMY_GATE_GNAWER_01",
+      "sharedApBase": 14,
+      "cohesionBase": 95,
+      "objectiveTags": [
+        "HOSTILE_UNION",
+        "OUTER_GATEWORKS"
+      ],
+      "coordinationRules": {
+        "protectSupport": true,
+        "canShareTelegraphs": false,
+        "retreatTogether": true
+      },
+      "rewardMultiplierPermille": 1000
+    },
+    {
+      "id": "EU_RUSTBACK_HUNT",
+      "name": "Rustback Hunt",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "doctrineId": "ENEMY_DOCTRINE_PACK_HUNT",
+      "formationId": "FORMATION_CRESCENT",
+      "memberIds": [
+        "ENEMY_RUSTBACK_HOUND_01",
+        "ENEMY_RUSTBACK_HOUND_02",
+        "ENEMY_RUSTBACK_HOUND_03"
+      ],
+      "leaderMemberId": "ENEMY_RUSTBACK_HOUND_01",
+      "sharedApBase": 14,
+      "cohesionBase": 95,
+      "objectiveTags": [
+        "HOSTILE_UNION",
+        "OUTER_GATEWORKS"
+      ],
+      "coordinationRules": {
+        "protectSupport": true,
+        "canShareTelegraphs": false,
+        "retreatTogether": true
+      },
+      "rewardMultiplierPermille": 1000
+    },
+    {
+      "id": "EU_HOLLOW_WALL",
+      "name": "Hollow Wall",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "doctrineId": "ENEMY_DOCTRINE_MAINTENANCE_ORDER",
+      "formationId": "FORMATION_SHIELD_WALL",
+      "memberIds": [
+        "ENEMY_HOLLOW_SALVAGER_01",
+        "ENEMY_HOLLOW_SALVAGER_02",
+        "ENEMY_HOLLOW_SALVAGER_03"
+      ],
+      "leaderMemberId": "ENEMY_HOLLOW_SALVAGER_01",
+      "sharedApBase": 14,
+      "cohesionBase": 95,
+      "objectiveTags": [
+        "HOSTILE_UNION",
+        "OUTER_GATEWORKS"
+      ],
+      "coordinationRules": {
+        "protectSupport": true,
+        "canShareTelegraphs": false,
+        "retreatTogether": true
+      },
+      "rewardMultiplierPermille": 1000
+    },
+    {
+      "id": "EU_SHARDWING_SIGNAL",
+      "name": "Shardwing Signal",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "doctrineId": "ENEMY_DOCTRINE_REARLINE_PRESSURE",
+      "formationId": "FORMATION_ARCANE_CIRCLE",
+      "memberIds": [
+        "ENEMY_SHARDWING_SWARM_01",
+        "ENEMY_SHARDWING_SWARM_02",
+        "ENEMY_PULSE_SCRIBE_01"
+      ],
+      "leaderMemberId": "ENEMY_SHARDWING_SWARM_01",
+      "sharedApBase": 14,
+      "cohesionBase": 95,
+      "objectiveTags": [
+        "HOSTILE_UNION",
+        "OUTER_GATEWORKS"
+      ],
+      "coordinationRules": {
+        "protectSupport": true,
+        "canShareTelegraphs": false,
+        "retreatTogether": true
+      },
+      "rewardMultiplierPermille": 1000
+    },
+    {
+      "id": "EU_CUTTER_CREW",
+      "name": "Tollroad Cutter Crew",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "doctrineId": "ENEMY_DOCTRINE_BROKEN_CHARTER",
+      "formationId": "FORMATION_WEDGE",
+      "memberIds": [
+        "ENEMY_TOLLROAD_CUTTER_01",
+        "ENEMY_TOLLROAD_CUTTER_02",
+        "ENEMY_TOLLROAD_CUTTER_03"
+      ],
+      "leaderMemberId": "ENEMY_TOLLROAD_CUTTER_01",
+      "sharedApBase": 14,
+      "cohesionBase": 95,
+      "objectiveTags": [
+        "HOSTILE_UNION",
+        "OUTER_GATEWORKS"
+      ],
+      "coordinationRules": {
+        "protectSupport": true,
+        "canShareTelegraphs": false,
+        "retreatTogether": true
+      },
+      "rewardMultiplierPermille": 1000
+    },
+    {
+      "id": "EU_RIFT_CONTROL",
+      "name": "Rift-Mold Control",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "doctrineId": "ENEMY_DOCTRINE_PROTECT_THE_SCRIBE",
+      "formationId": "FORMATION_ARCANE_CIRCLE",
+      "memberIds": [
+        "ENEMY_RIFT_MOLD_CREEPER_01",
+        "ENEMY_RIFT_MOLD_CREEPER_02",
+        "ENEMY_CHAINCALLER_01"
+      ],
+      "leaderMemberId": "ENEMY_RIFT_MOLD_CREEPER_01",
+      "sharedApBase": 14,
+      "cohesionBase": 95,
+      "objectiveTags": [
+        "HOSTILE_UNION",
+        "OUTER_GATEWORKS"
+      ],
+      "coordinationRules": {
+        "protectSupport": true,
+        "canShareTelegraphs": true,
+        "retreatTogether": true
+      },
+      "rewardMultiplierPermille": 1000
+    },
+    {
+      "id": "EU_BRUTE_ESCORT",
+      "name": "Gateiron Escort",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "doctrineId": "ENEMY_DOCTRINE_PROTECT_THE_SCRIBE",
+      "formationId": "FORMATION_SHIELD_WALL",
+      "memberIds": [
+        "ENEMY_GATEIRON_BRUTE_01",
+        "ENEMY_GATEIRON_BRUTE_02",
+        "ENEMY_ASH_MEDIC_01"
+      ],
+      "leaderMemberId": "ENEMY_GATEIRON_BRUTE_01",
+      "sharedApBase": 14,
+      "cohesionBase": 95,
+      "objectiveTags": [
+        "HOSTILE_UNION",
+        "OUTER_GATEWORKS"
+      ],
+      "coordinationRules": {
+        "protectSupport": true,
+        "canShareTelegraphs": true,
+        "retreatTogether": true
+      },
+      "rewardMultiplierPermille": 1000
+    },
+    {
+      "id": "EU_ECHO_AMBUSH",
+      "name": "Echo Ambush",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "doctrineId": "ENEMY_DOCTRINE_REARLINE_PRESSURE",
+      "formationId": "FORMATION_VEILED_ECHELON",
+      "memberIds": [
+        "ENEMY_ECHO_STALKER_01",
+        "ENEMY_ECHO_STALKER_02",
+        "ENEMY_CHAINCALLER_01"
+      ],
+      "leaderMemberId": "ENEMY_ECHO_STALKER_01",
+      "sharedApBase": 14,
+      "cohesionBase": 95,
+      "objectiveTags": [
+        "HOSTILE_UNION",
+        "OUTER_GATEWORKS"
+      ],
+      "coordinationRules": {
+        "protectSupport": true,
+        "canShareTelegraphs": false,
+        "retreatTogether": true
+      },
+      "rewardMultiplierPermille": 1000
+    },
+    {
+      "id": "EU_PACKLORD_CIRCLE",
+      "name": "Brassjaw Circle",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "doctrineId": "ENEMY_DOCTRINE_PACK_HUNT",
+      "formationId": "FORMATION_CRESCENT",
+      "memberIds": [
+        "ENEMY_BRASSJAW_PACKLORD_01",
+        "ENEMY_RUSTBACK_HOUND_02",
+        "ENEMY_RUSTBACK_HOUND_03"
+      ],
+      "leaderMemberId": "ENEMY_BRASSJAW_PACKLORD_01",
+      "sharedApBase": 14,
+      "cohesionBase": 95,
+      "objectiveTags": [
+        "HOSTILE_UNION",
+        "OUTER_GATEWORKS"
+      ],
+      "coordinationRules": {
+        "protectSupport": true,
+        "canShareTelegraphs": false,
+        "retreatTogether": true
+      },
+      "rewardMultiplierPermille": 1000
+    },
+    {
+      "id": "EU_RAVEL_COMMAND",
+      "name": "Ravel’s Broken Charter",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "doctrineId": "ENEMY_DOCTRINE_BROKEN_CHARTER",
+      "formationId": "FORMATION_HOLLOW_SQUARE",
+      "memberIds": [
+        "ENEMY_CAPTAIN_RAVEL_01",
+        "ENEMY_TOLLROAD_CUTTER_02",
+        "ENEMY_PULSE_SCRIBE_01",
+        "ENEMY_ASH_MEDIC_01"
+      ],
+      "leaderMemberId": "ENEMY_CAPTAIN_RAVEL_01",
+      "sharedApBase": 16,
+      "cohesionBase": 110,
+      "objectiveTags": [
+        "HOSTILE_UNION",
+        "OUTER_GATEWORKS"
+      ],
+      "coordinationRules": {
+        "protectSupport": true,
+        "canShareTelegraphs": false,
+        "retreatTogether": true
+      },
+      "rewardMultiplierPermille": 1100
+    },
+    {
+      "id": "EU_GATEHEART_BASTION",
+      "name": "Gateheart Bastion",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "doctrineId": "ENEMY_DOCTRINE_GATE_RESET",
+      "formationId": "FORMATION_SHIELD_WALL",
+      "memberIds": [
+        "ENEMY_GATEHEART_WARDEN_01",
+        "ENEMY_GATEIRON_BRUTE_01",
+        "ENEMY_ASH_MEDIC_01"
+      ],
+      "leaderMemberId": "ENEMY_GATEHEART_WARDEN_01",
+      "sharedApBase": 14,
+      "cohesionBase": 95,
+      "objectiveTags": [
+        "HOSTILE_UNION",
+        "OUTER_GATEWORKS"
+      ],
+      "coordinationRules": {
+        "protectSupport": true,
+        "canShareTelegraphs": true,
+        "retreatTogether": false
+      },
+      "rewardMultiplierPermille": 1000
+    },
+    {
+      "id": "EU_GATEHEART_RESONANCE",
+      "name": "Gateheart Resonance Choir",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "doctrineId": "ENEMY_DOCTRINE_PROTECT_THE_SCRIBE",
+      "formationId": "FORMATION_ARCANE_CIRCLE",
+      "memberIds": [
+        "ENEMY_PULSE_SCRIBE_01",
+        "ENEMY_SHARDWING_SWARM_02",
+        "ENEMY_RIFT_MOLD_CREEPER_03"
+      ],
+      "leaderMemberId": "ENEMY_PULSE_SCRIBE_01",
+      "sharedApBase": 14,
+      "cohesionBase": 95,
+      "objectiveTags": [
+        "HOSTILE_UNION",
+        "OUTER_GATEWORKS"
+      ],
+      "coordinationRules": {
+        "protectSupport": true,
+        "canShareTelegraphs": true,
+        "retreatTogether": true
+      },
+      "rewardMultiplierPermille": 1000
+    },
+    {
+      "id": "EU_HINGE_EATER",
+      "name": "Hinge-Eater Colossus",
+      "zoneId": "ZONE_SKYHOME_OUTER_GATEWORKS",
+      "doctrineId": "ENEMY_DOCTRINE_MAINTENANCE_ORDER",
+      "formationId": "FORMATION_WEDGE",
+      "memberIds": [
+        "ENEMY_HINGE_EATER_COLOSSUS_01",
+        "ENEMY_GATE_GNAWER_02",
+        "ENEMY_GATE_GNAWER_03"
+      ],
+      "leaderMemberId": "ENEMY_HINGE_EATER_COLOSSUS_01",
+      "sharedApBase": 16,
+      "cohesionBase": 110,
+      "objectiveTags": [
+        "HOSTILE_UNION",
+        "MINIBOSS",
+        "TERRAIN_DESTRUCTION"
+      ],
+      "coordinationRules": {
+        "protectSupport": false,
+        "canShareTelegraphs": true,
+        "retreatTogether": false
+      },
+      "rewardMultiplierPermille": 1400
+    }
+  ]
+}

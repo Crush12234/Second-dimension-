@@ -1,0 +1,27 @@
+{
+  "contentVersion": "CAMPAIGN_PLAYABLE_OPERATIONS_020_1.0",
+  "title": "SECOND DIMENSION — Campaign Playable Operations 020",
+  "baseContentVersion": "CAMPAIGN_RUNTIME_CONSOLIDATION_019_1.0",
+  "saveFormatVersion": 8,
+  "chapterBlueprintCount": 82,
+  "operationalRegionCount": 8,
+  "raceWorldCount": 7,
+  "enemyArchetypeCount": 64,
+  "recruitOriginProfileCount": 56,
+  "lootEntryCount": 96,
+  "materialCount": 48,
+  "repeatableContractCount": 32,
+  "crisisOperationCount": 16,
+  "standingDefinitionCount": 9,
+  "hardLaws": [
+    "No second battle resolver",
+    "No individual Art selection",
+    "Existing equipment reward remains sole item reward",
+    "No world exists only to be conquered",
+    "No involuntary recruit departure",
+    "No real-time timers",
+    "No runtime generative AI",
+    "All operation and step receipts are exact-once"
+  ],
+  "supersededSaveRuntimeBy": "CAMPAIGN_PROGRESSION_ABYSS_COVENANT_022_1.0"
+}

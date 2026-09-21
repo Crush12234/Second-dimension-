@@ -1,0 +1,1126 @@
+{
+  "schema": "SD_R45_TITAN_ACTION_RECIPES_V1",
+  "count": 12,
+  "authorship": "New R45 exact action/timing candidates extending unchanged R43 encounters; not native engine method names or approved balance.",
+  "global": "Boss and player clean budgets remain separate. All budget splits are one total per action, not multiplied by target count. Reuse the native resolver and saved action queue.",
+  "encounters": [
+    {
+      "id": "TITAN_TRIAL_001",
+      "slot": 1,
+      "name": "Sunken Idol Sentinel",
+      "reward_hero_id": "HERO_TITAN_001",
+      "source_blueprint": "continuation_r43/TITAN_ENCOUNTER_BLUEPRINTS.json",
+      "status": "AUTHORING_COMPLETE_CANDIDATE; NATIVE_BINDING_BALANCE_AND_VISUAL_TESTS_REQUIRED",
+      "enabled_in_game": false,
+      "actions": [
+        {
+          "key": "TITAN_TRIAL_001_PROBE",
+          "type": "DAMAGE",
+          "channel": "PHYSICAL_DAMAGE",
+          "total_budget_bp": 6500,
+          "targets": "ONE_LIVING_ENEMY_UNION",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER",
+          "player_copy": "A probing strike. Prepare for the coming warning."
+        },
+        {
+          "key": "TITAN_TRIAL_001_WARN",
+          "type": "WIND_UP",
+          "announces": "TITAN_TRIAL_001_IMPACT",
+          "numeric_effect": false,
+          "freeze_targets": "ALL_LIVING_ENEMY_UNIONS",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER_DISTINCT_LIVING_UNIONS",
+          "minimum_player_forecast_opportunities_before_impact": 1,
+          "player_copy": "Brace for the core pulse; strike during the exposed recovery."
+        },
+        {
+          "key": "TITAN_TRIAL_001_IMPACT",
+          "type": "IMPACT",
+          "name": "Core Pulse",
+          "channel": "MYSTIC_DAMAGE",
+          "total_budget_bp": 18000,
+          "targets": "PREVIOUS_WARNING_TARGETS_ONLY",
+          "requires_warning": "TITAN_TRIAL_001_WARN",
+          "same_total_across_targets": true,
+          "special": "NONE",
+          "maximum_special_events": 0,
+          "target_gone": "FIZZLE_MISSING_SHARE; NO_SILENT_OTHER_UNION_RETARGET"
+        },
+        {
+          "key": "TITAN_TRIAL_001_RECOVER",
+          "type": "RECOVERY",
+          "numeric_effect": false,
+          "player_forecast_opportunities": 1,
+          "player_copy": "The Titan is recovering. Press the opening."
+        }
+      ],
+      "phases": [
+        {
+          "enter_at_or_below_hp_bp": 10000,
+          "cycle": [
+            "TITAN_TRIAL_001_PROBE",
+            "TITAN_TRIAL_001_WARN",
+            "TITAN_TRIAL_001_IMPACT",
+            "TITAN_TRIAL_001_RECOVER"
+          ]
+        },
+        {
+          "enter_at_or_below_hp_bp": 6500,
+          "cycle": [
+            "TITAN_TRIAL_001_PROBE",
+            "TITAN_TRIAL_001_WARN",
+            "TITAN_TRIAL_001_IMPACT",
+            "TITAN_TRIAL_001_RECOVER"
+          ],
+          "change": "Advance the round-robin victim seed once after the current warned cycle completes."
+        },
+        {
+          "enter_at_or_below_hp_bp": 3000,
+          "cycle": [
+            "TITAN_TRIAL_001_PROBE",
+            "TITAN_TRIAL_001_WARN",
+            "TITAN_TRIAL_001_IMPACT",
+            "TITAN_TRIAL_001_RECOVER"
+          ],
+          "change": "Use the same learned cadence. The finale demands sustained execution, not an unannounced new attack."
+        }
+      ],
+      "phase_transition": "No heal, kill, reward, extra turn, or cancellation of a committed warning. Continue current cycle; new phase starts after recovery.",
+      "absolute_stats": "Bind the current authored fixed boss HP/offense/defenses and tier curve. Never derive from the live army or art size.",
+      "telegraph_save": "Persist pattern position, warning targets/channel, phase, special-use counters and pending action in the existing native encounter commitment.",
+      "boss_actions_per_step": 1,
+      "all_deployed_unions_can_act": true,
+      "no_hidden_reserve_damage": true,
+      "no_additional_reward_on_phase_change": true
+    },
+    {
+      "id": "TITAN_TRIAL_002",
+      "slot": 2,
+      "name": "Coralback Siege Crab",
+      "reward_hero_id": "HERO_TITAN_002",
+      "source_blueprint": "continuation_r43/TITAN_ENCOUNTER_BLUEPRINTS.json",
+      "status": "AUTHORING_COMPLETE_CANDIDATE; NATIVE_BINDING_BALANCE_AND_VISUAL_TESTS_REQUIRED",
+      "enabled_in_game": false,
+      "actions": [
+        {
+          "key": "TITAN_TRIAL_002_PROBE",
+          "type": "DAMAGE",
+          "channel": "PHYSICAL_DAMAGE",
+          "total_budget_bp": 6500,
+          "targets": "ONE_LIVING_ENEMY_UNION",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER",
+          "player_copy": "A probing strike. Prepare for the coming warning."
+        },
+        {
+          "key": "TITAN_TRIAL_002_WARN",
+          "type": "WIND_UP",
+          "announces": "TITAN_TRIAL_002_IMPACT",
+          "numeric_effect": false,
+          "freeze_targets": "ONE_LIVING_ENEMY_UNION",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER_DISTINCT_LIVING_UNIONS",
+          "minimum_player_forecast_opportunities_before_impact": 1,
+          "player_copy": "The raised claw marks its next victim. Protect that Union before impact."
+        },
+        {
+          "key": "TITAN_TRIAL_002_IMPACT",
+          "type": "IMPACT",
+          "name": "Siegebreak Claw",
+          "channel": "PHYSICAL_DAMAGE",
+          "total_budget_bp": 20000,
+          "targets": "PREVIOUS_WARNING_TARGETS_ONLY",
+          "requires_warning": "TITAN_TRIAL_002_WARN",
+          "same_total_across_targets": true,
+          "special": "NONE",
+          "maximum_special_events": 0,
+          "target_gone": "FIZZLE_MISSING_SHARE; NO_SILENT_OTHER_UNION_RETARGET"
+        },
+        {
+          "key": "TITAN_TRIAL_002_RECOVER",
+          "type": "RECOVERY",
+          "numeric_effect": false,
+          "player_forecast_opportunities": 1,
+          "player_copy": "The Titan is recovering. Press the opening."
+        }
+      ],
+      "phases": [
+        {
+          "enter_at_or_below_hp_bp": 10000,
+          "cycle": [
+            "TITAN_TRIAL_002_PROBE",
+            "TITAN_TRIAL_002_WARN",
+            "TITAN_TRIAL_002_IMPACT",
+            "TITAN_TRIAL_002_RECOVER"
+          ]
+        },
+        {
+          "enter_at_or_below_hp_bp": 6500,
+          "cycle": [
+            "TITAN_TRIAL_002_PROBE",
+            "TITAN_TRIAL_002_WARN",
+            "TITAN_TRIAL_002_IMPACT",
+            "TITAN_TRIAL_002_RECOVER"
+          ],
+          "change": "Advance the round-robin victim seed once after the current warned cycle completes."
+        },
+        {
+          "enter_at_or_below_hp_bp": 3000,
+          "cycle": [
+            "TITAN_TRIAL_002_PROBE",
+            "TITAN_TRIAL_002_WARN",
+            "TITAN_TRIAL_002_IMPACT",
+            "TITAN_TRIAL_002_RECOVER"
+          ],
+          "change": "Use the same learned cadence. The finale demands sustained execution, not an unannounced new attack."
+        }
+      ],
+      "phase_transition": "No heal, kill, reward, extra turn, or cancellation of a committed warning. Continue current cycle; new phase starts after recovery.",
+      "absolute_stats": "Bind the current authored fixed boss HP/offense/defenses and tier curve. Never derive from the live army or art size.",
+      "telegraph_save": "Persist pattern position, warning targets/channel, phase, special-use counters and pending action in the existing native encounter commitment.",
+      "boss_actions_per_step": 1,
+      "all_deployed_unions_can_act": true,
+      "no_hidden_reserve_damage": true,
+      "no_additional_reward_on_phase_change": true
+    },
+    {
+      "id": "TITAN_TRIAL_003",
+      "slot": 3,
+      "name": "Bogvenom Hydra",
+      "reward_hero_id": "HERO_TITAN_003",
+      "source_blueprint": "continuation_r43/TITAN_ENCOUNTER_BLUEPRINTS.json",
+      "status": "AUTHORING_COMPLETE_CANDIDATE; NATIVE_BINDING_BALANCE_AND_VISUAL_TESTS_REQUIRED",
+      "enabled_in_game": false,
+      "actions": [
+        {
+          "key": "TITAN_TRIAL_003_PROBE",
+          "type": "DAMAGE",
+          "channel": "PHYSICAL_DAMAGE",
+          "total_budget_bp": 6500,
+          "targets": "ONE_LIVING_ENEMY_UNION",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER",
+          "player_copy": "A probing strike. Prepare for the coming warning."
+        },
+        {
+          "key": "TITAN_TRIAL_003_WARN",
+          "type": "WIND_UP",
+          "announces": "TITAN_TRIAL_003_IMPACT",
+          "numeric_effect": false,
+          "freeze_targets": "ONE_LIVING_ENEMY_UNION",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER_DISTINCT_LIVING_UNIONS",
+          "minimum_player_forecast_opportunities_before_impact": 1,
+          "player_copy": "Resolve the marked venom threat, then use the recovery window to heal."
+        },
+        {
+          "key": "TITAN_TRIAL_003_IMPACT",
+          "type": "IMPACT",
+          "name": "Venom Confluence",
+          "channel": "PHYSICAL_DAMAGE",
+          "total_budget_bp": 15000,
+          "targets": "PREVIOUS_WARNING_TARGETS_ONLY",
+          "requires_warning": "TITAN_TRIAL_003_WARN",
+          "same_total_across_targets": true,
+          "special": "VENOM_TWO_TICKS",
+          "maximum_special_events": 2,
+          "target_gone": "FIZZLE_MISSING_SHARE; NO_SILENT_OTHER_UNION_RETARGET",
+          "total_budget_includes_ticks": true,
+          "damage_split_bp": [
+            6000,
+            2000,
+            2000
+          ],
+          "tick_timing": [
+            "IMPACT",
+            "END_OF_CURRENT_ROUND",
+            "END_OF_NEXT_ROUND"
+          ],
+          "cleanse_removes_remaining_ticks": true,
+          "no_new_kill_credit_per_tick": true
+        },
+        {
+          "key": "TITAN_TRIAL_003_RECOVER",
+          "type": "RECOVERY",
+          "numeric_effect": false,
+          "player_forecast_opportunities": 1,
+          "player_copy": "The Titan is recovering. Press the opening."
+        }
+      ],
+      "phases": [
+        {
+          "enter_at_or_below_hp_bp": 10000,
+          "cycle": [
+            "TITAN_TRIAL_003_PROBE",
+            "TITAN_TRIAL_003_WARN",
+            "TITAN_TRIAL_003_IMPACT",
+            "TITAN_TRIAL_003_RECOVER"
+          ]
+        },
+        {
+          "enter_at_or_below_hp_bp": 6500,
+          "cycle": [
+            "TITAN_TRIAL_003_PROBE",
+            "TITAN_TRIAL_003_WARN",
+            "TITAN_TRIAL_003_IMPACT",
+            "TITAN_TRIAL_003_RECOVER"
+          ],
+          "change": "Advance the round-robin victim seed once after the current warned cycle completes."
+        },
+        {
+          "enter_at_or_below_hp_bp": 3000,
+          "cycle": [
+            "TITAN_TRIAL_003_PROBE",
+            "TITAN_TRIAL_003_WARN",
+            "TITAN_TRIAL_003_IMPACT",
+            "TITAN_TRIAL_003_RECOVER"
+          ],
+          "change": "Use the same learned cadence. The finale demands sustained execution, not an unannounced new attack."
+        }
+      ],
+      "phase_transition": "No heal, kill, reward, extra turn, or cancellation of a committed warning. Continue current cycle; new phase starts after recovery.",
+      "absolute_stats": "Bind the current authored fixed boss HP/offense/defenses and tier curve. Never derive from the live army or art size.",
+      "telegraph_save": "Persist pattern position, warning targets/channel, phase, special-use counters and pending action in the existing native encounter commitment.",
+      "boss_actions_per_step": 1,
+      "all_deployed_unions_can_act": true,
+      "no_hidden_reserve_damage": true,
+      "no_additional_reward_on_phase_change": true
+    },
+    {
+      "id": "TITAN_TRIAL_004",
+      "slot": 4,
+      "name": "Tempest Roc",
+      "reward_hero_id": "HERO_TITAN_004",
+      "source_blueprint": "continuation_r43/TITAN_ENCOUNTER_BLUEPRINTS.json",
+      "status": "AUTHORING_COMPLETE_CANDIDATE; NATIVE_BINDING_BALANCE_AND_VISUAL_TESTS_REQUIRED",
+      "enabled_in_game": false,
+      "actions": [
+        {
+          "key": "TITAN_TRIAL_004_PROBE",
+          "type": "DAMAGE",
+          "channel": "PHYSICAL_DAMAGE",
+          "total_budget_bp": 6500,
+          "targets": "ONE_LIVING_ENEMY_UNION",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER",
+          "player_copy": "A probing strike. Prepare for the coming warning."
+        },
+        {
+          "key": "TITAN_TRIAL_004_WARN",
+          "type": "WIND_UP",
+          "announces": "TITAN_TRIAL_004_IMPACT",
+          "numeric_effect": false,
+          "freeze_targets": "ONE_LIVING_ENEMY_UNION",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER_DISTINCT_LIVING_UNIONS",
+          "minimum_player_forecast_opportunities_before_impact": 1,
+          "player_copy": "Ward the lightning-marked Union before the roc dives."
+        },
+        {
+          "key": "TITAN_TRIAL_004_IMPACT",
+          "type": "IMPACT",
+          "name": "Storm Dive",
+          "channel": "MYSTIC_DAMAGE",
+          "total_budget_bp": 20000,
+          "targets": "PREVIOUS_WARNING_TARGETS_ONLY",
+          "requires_warning": "TITAN_TRIAL_004_WARN",
+          "same_total_across_targets": true,
+          "special": "NONE",
+          "maximum_special_events": 0,
+          "target_gone": "FIZZLE_MISSING_SHARE; NO_SILENT_OTHER_UNION_RETARGET"
+        },
+        {
+          "key": "TITAN_TRIAL_004_RECOVER",
+          "type": "RECOVERY",
+          "numeric_effect": false,
+          "player_forecast_opportunities": 1,
+          "player_copy": "The Titan is recovering. Press the opening."
+        }
+      ],
+      "phases": [
+        {
+          "enter_at_or_below_hp_bp": 10000,
+          "cycle": [
+            "TITAN_TRIAL_004_PROBE",
+            "TITAN_TRIAL_004_WARN",
+            "TITAN_TRIAL_004_IMPACT",
+            "TITAN_TRIAL_004_RECOVER"
+          ]
+        },
+        {
+          "enter_at_or_below_hp_bp": 6500,
+          "cycle": [
+            "TITAN_TRIAL_004_PROBE",
+            "TITAN_TRIAL_004_WARN",
+            "TITAN_TRIAL_004_IMPACT",
+            "TITAN_TRIAL_004_RECOVER"
+          ],
+          "change": "Advance the round-robin victim seed once after the current warned cycle completes."
+        },
+        {
+          "enter_at_or_below_hp_bp": 3000,
+          "cycle": [
+            "TITAN_TRIAL_004_PROBE",
+            "TITAN_TRIAL_004_WARN",
+            "TITAN_TRIAL_004_IMPACT",
+            "TITAN_TRIAL_004_RECOVER"
+          ],
+          "change": "Use the same learned cadence. The finale demands sustained execution, not an unannounced new attack."
+        }
+      ],
+      "phase_transition": "No heal, kill, reward, extra turn, or cancellation of a committed warning. Continue current cycle; new phase starts after recovery.",
+      "absolute_stats": "Bind the current authored fixed boss HP/offense/defenses and tier curve. Never derive from the live army or art size.",
+      "telegraph_save": "Persist pattern position, warning targets/channel, phase, special-use counters and pending action in the existing native encounter commitment.",
+      "boss_actions_per_step": 1,
+      "all_deployed_unions_can_act": true,
+      "no_hidden_reserve_damage": true,
+      "no_additional_reward_on_phase_change": true
+    },
+    {
+      "id": "TITAN_TRIAL_005",
+      "slot": 5,
+      "name": "Sunfire Phoenix",
+      "reward_hero_id": "HERO_TITAN_005",
+      "source_blueprint": "continuation_r43/TITAN_ENCOUNTER_BLUEPRINTS.json",
+      "status": "AUTHORING_COMPLETE_CANDIDATE; NATIVE_BINDING_BALANCE_AND_VISUAL_TESTS_REQUIRED",
+      "enabled_in_game": false,
+      "actions": [
+        {
+          "key": "TITAN_TRIAL_005_PROBE",
+          "type": "DAMAGE",
+          "channel": "PHYSICAL_DAMAGE",
+          "total_budget_bp": 6500,
+          "targets": "ONE_LIVING_ENEMY_UNION",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER",
+          "player_copy": "A probing strike. Prepare for the coming warning."
+        },
+        {
+          "key": "TITAN_TRIAL_005_WARN",
+          "type": "WIND_UP",
+          "announces": "TITAN_TRIAL_005_IMPACT",
+          "numeric_effect": false,
+          "freeze_targets": "SELF",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER_DISTINCT_LIVING_UNIONS",
+          "minimum_player_forecast_opportunities_before_impact": 1,
+          "player_copy": "Its healing channel is visible. Apply pressure during the exposed channel."
+        },
+        {
+          "key": "TITAN_TRIAL_005_IMPACT",
+          "type": "IMPACT",
+          "name": "Sunfire Renewal",
+          "channel": "SELF_HEAL",
+          "total_budget_bp": 10000,
+          "targets": "PREVIOUS_WARNING_TARGETS_ONLY",
+          "requires_warning": "TITAN_TRIAL_005_WARN",
+          "same_total_across_targets": true,
+          "special": "FINITE_HEAL_CHANNEL",
+          "maximum_special_events": 2,
+          "target_gone": "FIZZLE_MISSING_SHARE; NO_SILENT_OTHER_UNION_RETARGET",
+          "maximum_heals_per_encounter": 2,
+          "heal_percent_of_own_max_hp": 6,
+          "interrupt": "Player damage during committed wind-up reaches 8% of boss max HP; native damage events only",
+          "after_cap": "Use the explicit exhausted-channel cycle beginning with its own damage warning, NEVER convert an already announced SELF_HEAL into an attack.",
+          "heal_cap_and_interrupt_are_fixed_not_tier_scaled": true,
+          "channel_attempts_count_on_warning_acceptance": true
+        },
+        {
+          "key": "TITAN_TRIAL_005_RECOVER",
+          "type": "RECOVERY",
+          "numeric_effect": false,
+          "player_forecast_opportunities": 1,
+          "player_copy": "The Titan is recovering. Press the opening."
+        },
+        {
+          "key": "TITAN_TRIAL_005_DAMAGE_WARN",
+          "type": "WIND_UP",
+          "announces": "TITAN_TRIAL_005_DAMAGE_IMPACT",
+          "numeric_effect": false,
+          "freeze_targets": "ONE_LIVING_ENEMY_UNION",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER_DISTINCT_LIVING_UNIONS",
+          "minimum_player_forecast_opportunities_before_impact": 1,
+          "player_copy": "The Phoenix gathers a sunfire bolt. Protect the marked Union."
+        },
+        {
+          "key": "TITAN_TRIAL_005_DAMAGE_IMPACT",
+          "type": "IMPACT",
+          "name": "Sunfire Bolt",
+          "channel": "MYSTIC_DAMAGE",
+          "total_budget_bp": 10000,
+          "targets": "PREVIOUS_WARNING_TARGETS_ONLY",
+          "requires_warning": "TITAN_TRIAL_005_DAMAGE_WARN",
+          "same_total_across_targets": true,
+          "special": "NONE",
+          "maximum_special_events": 0,
+          "target_gone": "FIZZLE_MISSING_SHARE; NO_SILENT_OTHER_UNION_RETARGET"
+        }
+      ],
+      "phases": [
+        {
+          "enter_at_or_below_hp_bp": 10000,
+          "cycle": [
+            "TITAN_TRIAL_005_PROBE",
+            "TITAN_TRIAL_005_WARN",
+            "TITAN_TRIAL_005_IMPACT",
+            "TITAN_TRIAL_005_RECOVER"
+          ]
+        },
+        {
+          "enter_at_or_below_hp_bp": 6500,
+          "cycle": [
+            "TITAN_TRIAL_005_PROBE",
+            "TITAN_TRIAL_005_WARN",
+            "TITAN_TRIAL_005_IMPACT",
+            "TITAN_TRIAL_005_RECOVER"
+          ],
+          "change": "Advance the round-robin victim seed once after the current warned cycle completes."
+        },
+        {
+          "enter_at_or_below_hp_bp": 3000,
+          "cycle": [
+            "TITAN_TRIAL_005_PROBE",
+            "TITAN_TRIAL_005_WARN",
+            "TITAN_TRIAL_005_IMPACT",
+            "TITAN_TRIAL_005_RECOVER"
+          ],
+          "change": "Use the same learned cadence. The finale demands sustained execution, not an unannounced new attack."
+        }
+      ],
+      "phase_transition": "No heal, kill, reward, extra turn, or cancellation of a committed warning. Continue current cycle; new phase starts after recovery.",
+      "absolute_stats": "Bind the current authored fixed boss HP/offense/defenses and tier curve. Never derive from the live army or art size.",
+      "telegraph_save": "Persist pattern position, warning targets/channel, phase, special-use counters and pending action in the existing native encounter commitment.",
+      "boss_actions_per_step": 1,
+      "all_deployed_unions_can_act": true,
+      "no_hidden_reserve_damage": true,
+      "no_additional_reward_on_phase_change": true,
+      "cycle_when_heal_channels_exhausted": [
+        "TITAN_TRIAL_005_PROBE",
+        "TITAN_TRIAL_005_DAMAGE_WARN",
+        "TITAN_TRIAL_005_DAMAGE_IMPACT",
+        "TITAN_TRIAL_005_RECOVER"
+      ],
+      "choose_heal_or_damage_cycle": "At cycle start from persisted accepted-heal-channel count, before selecting/fixing any warning. Once warned, preserve that cycle through its impact and recovery."
+    },
+    {
+      "id": "TITAN_TRIAL_006",
+      "slot": 6,
+      "name": "Gearbanner Castellan",
+      "reward_hero_id": "HERO_TITAN_006",
+      "source_blueprint": "continuation_r43/TITAN_ENCOUNTER_BLUEPRINTS.json",
+      "status": "AUTHORING_COMPLETE_CANDIDATE; NATIVE_BINDING_BALANCE_AND_VISUAL_TESTS_REQUIRED",
+      "enabled_in_game": false,
+      "actions": [
+        {
+          "key": "TITAN_TRIAL_006_PROBE",
+          "type": "DAMAGE",
+          "channel": "PHYSICAL_DAMAGE",
+          "total_budget_bp": 6500,
+          "targets": "ONE_LIVING_ENEMY_UNION",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER",
+          "player_copy": "A probing strike. Prepare for the coming warning."
+        },
+        {
+          "key": "TITAN_TRIAL_006_WARN",
+          "type": "WIND_UP",
+          "announces": "TITAN_TRIAL_006_IMPACT",
+          "numeric_effect": false,
+          "freeze_targets": "TWO_LIVING_ENEMY_UNIONS",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER_DISTINCT_LIVING_UNIONS",
+          "minimum_player_forecast_opportunities_before_impact": 1,
+          "player_copy": "The engine alternates two marked Unions. Keep both formations prepared."
+        },
+        {
+          "key": "TITAN_TRIAL_006_IMPACT",
+          "type": "IMPACT",
+          "name": "Crossfire Decree",
+          "channel": "PHYSICAL_DAMAGE",
+          "total_budget_bp": 18000,
+          "targets": "PREVIOUS_WARNING_TARGETS_ONLY",
+          "requires_warning": "TITAN_TRIAL_006_WARN",
+          "same_total_across_targets": true,
+          "special": "NONE",
+          "maximum_special_events": 0,
+          "target_gone": "FIZZLE_MISSING_SHARE; NO_SILENT_OTHER_UNION_RETARGET"
+        },
+        {
+          "key": "TITAN_TRIAL_006_RECOVER",
+          "type": "RECOVERY",
+          "numeric_effect": false,
+          "player_forecast_opportunities": 1,
+          "player_copy": "The Titan is recovering. Press the opening."
+        }
+      ],
+      "phases": [
+        {
+          "enter_at_or_below_hp_bp": 10000,
+          "cycle": [
+            "TITAN_TRIAL_006_PROBE",
+            "TITAN_TRIAL_006_WARN",
+            "TITAN_TRIAL_006_IMPACT",
+            "TITAN_TRIAL_006_RECOVER"
+          ]
+        },
+        {
+          "enter_at_or_below_hp_bp": 6500,
+          "cycle": [
+            "TITAN_TRIAL_006_PROBE",
+            "TITAN_TRIAL_006_WARN",
+            "TITAN_TRIAL_006_IMPACT",
+            "TITAN_TRIAL_006_RECOVER"
+          ],
+          "change": "Advance the round-robin victim seed once after the current warned cycle completes."
+        },
+        {
+          "enter_at_or_below_hp_bp": 3000,
+          "cycle": [
+            "TITAN_TRIAL_006_PROBE",
+            "TITAN_TRIAL_006_WARN",
+            "TITAN_TRIAL_006_IMPACT",
+            "TITAN_TRIAL_006_RECOVER"
+          ],
+          "change": "Use the same learned cadence. The finale demands sustained execution, not an unannounced new attack."
+        }
+      ],
+      "phase_transition": "No heal, kill, reward, extra turn, or cancellation of a committed warning. Continue current cycle; new phase starts after recovery.",
+      "absolute_stats": "Bind the current authored fixed boss HP/offense/defenses and tier curve. Never derive from the live army or art size.",
+      "telegraph_save": "Persist pattern position, warning targets/channel, phase, special-use counters and pending action in the existing native encounter commitment.",
+      "boss_actions_per_step": 1,
+      "all_deployed_unions_can_act": true,
+      "no_hidden_reserve_damage": true,
+      "no_additional_reward_on_phase_change": true
+    },
+    {
+      "id": "TITAN_TRIAL_007",
+      "slot": 7,
+      "name": "Ossuary Wyvern",
+      "reward_hero_id": "HERO_TITAN_007",
+      "source_blueprint": "continuation_r43/TITAN_ENCOUNTER_BLUEPRINTS.json",
+      "status": "AUTHORING_COMPLETE_CANDIDATE; NATIVE_BINDING_BALANCE_AND_VISUAL_TESTS_REQUIRED",
+      "enabled_in_game": false,
+      "actions": [
+        {
+          "key": "TITAN_TRIAL_007_PROBE",
+          "type": "DAMAGE",
+          "channel": "PHYSICAL_DAMAGE",
+          "total_budget_bp": 6500,
+          "targets": "ONE_LIVING_ENEMY_UNION",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER",
+          "player_copy": "A probing strike. Prepare for the coming warning."
+        },
+        {
+          "key": "TITAN_TRIAL_007_WARN",
+          "type": "WIND_UP",
+          "announces": "TITAN_TRIAL_007_IMPACT",
+          "numeric_effect": false,
+          "freeze_targets": "ALL_LIVING_ENEMY_UNIONS",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER_DISTINCT_LIVING_UNIONS",
+          "minimum_player_forecast_opportunities_before_impact": 1,
+          "player_copy": "The breath builds slowly. Survive the marked strike and restore the line."
+        },
+        {
+          "key": "TITAN_TRIAL_007_IMPACT",
+          "type": "IMPACT",
+          "name": "Ossuary Breath",
+          "channel": "PHYSICAL_DAMAGE",
+          "total_budget_bp": 17000,
+          "targets": "PREVIOUS_WARNING_TARGETS_ONLY",
+          "requires_warning": "TITAN_TRIAL_007_WARN",
+          "same_total_across_targets": true,
+          "special": "NONE",
+          "maximum_special_events": 0,
+          "target_gone": "FIZZLE_MISSING_SHARE; NO_SILENT_OTHER_UNION_RETARGET"
+        },
+        {
+          "key": "TITAN_TRIAL_007_RECOVER",
+          "type": "RECOVERY",
+          "numeric_effect": false,
+          "player_forecast_opportunities": 1,
+          "player_copy": "The Titan is recovering. Press the opening."
+        }
+      ],
+      "phases": [
+        {
+          "enter_at_or_below_hp_bp": 10000,
+          "cycle": [
+            "TITAN_TRIAL_007_PROBE",
+            "TITAN_TRIAL_007_WARN",
+            "TITAN_TRIAL_007_IMPACT",
+            "TITAN_TRIAL_007_RECOVER"
+          ]
+        },
+        {
+          "enter_at_or_below_hp_bp": 6500,
+          "cycle": [
+            "TITAN_TRIAL_007_PROBE",
+            "TITAN_TRIAL_007_WARN",
+            "TITAN_TRIAL_007_IMPACT",
+            "TITAN_TRIAL_007_RECOVER"
+          ],
+          "change": "Advance the round-robin victim seed once after the current warned cycle completes."
+        },
+        {
+          "enter_at_or_below_hp_bp": 3000,
+          "cycle": [
+            "TITAN_TRIAL_007_PROBE",
+            "TITAN_TRIAL_007_WARN",
+            "TITAN_TRIAL_007_IMPACT",
+            "TITAN_TRIAL_007_RECOVER"
+          ],
+          "change": "Use the same learned cadence. The finale demands sustained execution, not an unannounced new attack."
+        }
+      ],
+      "phase_transition": "No heal, kill, reward, extra turn, or cancellation of a committed warning. Continue current cycle; new phase starts after recovery.",
+      "absolute_stats": "Bind the current authored fixed boss HP/offense/defenses and tier curve. Never derive from the live army or art size.",
+      "telegraph_save": "Persist pattern position, warning targets/channel, phase, special-use counters and pending action in the existing native encounter commitment.",
+      "boss_actions_per_step": 1,
+      "all_deployed_unions_can_act": true,
+      "no_hidden_reserve_damage": true,
+      "no_additional_reward_on_phase_change": true
+    },
+    {
+      "id": "TITAN_TRIAL_008",
+      "slot": 8,
+      "name": "Frosttusk Mammoth",
+      "reward_hero_id": "HERO_TITAN_008",
+      "source_blueprint": "continuation_r43/TITAN_ENCOUNTER_BLUEPRINTS.json",
+      "status": "AUTHORING_COMPLETE_CANDIDATE; NATIVE_BINDING_BALANCE_AND_VISUAL_TESTS_REQUIRED",
+      "enabled_in_game": false,
+      "actions": [
+        {
+          "key": "TITAN_TRIAL_008_PROBE",
+          "type": "DAMAGE",
+          "channel": "PHYSICAL_DAMAGE",
+          "total_budget_bp": 6500,
+          "targets": "ONE_LIVING_ENEMY_UNION",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER",
+          "player_copy": "A probing strike. Prepare for the coming warning."
+        },
+        {
+          "key": "TITAN_TRIAL_008_WARN",
+          "type": "WIND_UP",
+          "announces": "TITAN_TRIAL_008_IMPACT",
+          "numeric_effect": false,
+          "freeze_targets": "ONE_LIVING_ENEMY_UNION",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER_DISTINCT_LIVING_UNIONS",
+          "minimum_player_forecast_opportunities_before_impact": 1,
+          "player_copy": "A full-round warning precedes the charge. Guard the marked Union."
+        },
+        {
+          "key": "TITAN_TRIAL_008_IMPACT",
+          "type": "IMPACT",
+          "name": "Glacier Charge",
+          "channel": "PHYSICAL_DAMAGE",
+          "total_budget_bp": 21000,
+          "targets": "PREVIOUS_WARNING_TARGETS_ONLY",
+          "requires_warning": "TITAN_TRIAL_008_WARN",
+          "same_total_across_targets": true,
+          "special": "NONE",
+          "maximum_special_events": 0,
+          "target_gone": "FIZZLE_MISSING_SHARE; NO_SILENT_OTHER_UNION_RETARGET"
+        },
+        {
+          "key": "TITAN_TRIAL_008_RECOVER",
+          "type": "RECOVERY",
+          "numeric_effect": false,
+          "player_forecast_opportunities": 1,
+          "player_copy": "The Titan is recovering. Press the opening."
+        }
+      ],
+      "phases": [
+        {
+          "enter_at_or_below_hp_bp": 10000,
+          "cycle": [
+            "TITAN_TRIAL_008_PROBE",
+            "TITAN_TRIAL_008_WARN",
+            "TITAN_TRIAL_008_IMPACT",
+            "TITAN_TRIAL_008_RECOVER"
+          ]
+        },
+        {
+          "enter_at_or_below_hp_bp": 6500,
+          "cycle": [
+            "TITAN_TRIAL_008_PROBE",
+            "TITAN_TRIAL_008_WARN",
+            "TITAN_TRIAL_008_IMPACT",
+            "TITAN_TRIAL_008_RECOVER"
+          ],
+          "change": "Advance the round-robin victim seed once after the current warned cycle completes."
+        },
+        {
+          "enter_at_or_below_hp_bp": 3000,
+          "cycle": [
+            "TITAN_TRIAL_008_PROBE",
+            "TITAN_TRIAL_008_WARN",
+            "TITAN_TRIAL_008_IMPACT",
+            "TITAN_TRIAL_008_RECOVER"
+          ],
+          "change": "Use the same learned cadence. The finale demands sustained execution, not an unannounced new attack."
+        }
+      ],
+      "phase_transition": "No heal, kill, reward, extra turn, or cancellation of a committed warning. Continue current cycle; new phase starts after recovery.",
+      "absolute_stats": "Bind the current authored fixed boss HP/offense/defenses and tier curve. Never derive from the live army or art size.",
+      "telegraph_save": "Persist pattern position, warning targets/channel, phase, special-use counters and pending action in the existing native encounter commitment.",
+      "boss_actions_per_step": 1,
+      "all_deployed_unions_can_act": true,
+      "no_hidden_reserve_damage": true,
+      "no_additional_reward_on_phase_change": true
+    },
+    {
+      "id": "TITAN_TRIAL_009",
+      "slot": 9,
+      "name": "Elder Rootlord",
+      "reward_hero_id": "HERO_TITAN_009",
+      "source_blueprint": "continuation_r43/TITAN_ENCOUNTER_BLUEPRINTS.json",
+      "status": "AUTHORING_COMPLETE_CANDIDATE; NATIVE_BINDING_BALANCE_AND_VISUAL_TESTS_REQUIRED",
+      "enabled_in_game": false,
+      "actions": [
+        {
+          "key": "TITAN_TRIAL_009_PROBE",
+          "type": "DAMAGE",
+          "channel": "PHYSICAL_DAMAGE",
+          "total_budget_bp": 6500,
+          "targets": "ONE_LIVING_ENEMY_UNION",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER",
+          "player_copy": "A probing strike. Prepare for the coming warning."
+        },
+        {
+          "key": "TITAN_TRIAL_009_WARN",
+          "type": "WIND_UP",
+          "announces": "TITAN_TRIAL_009_IMPACT",
+          "numeric_effect": false,
+          "freeze_targets": "SELF",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER_DISTINCT_LIVING_UNIONS",
+          "minimum_player_forecast_opportunities_before_impact": 1,
+          "player_copy": "Break through the mantle, then exploit the exposed heartwood."
+        },
+        {
+          "key": "TITAN_TRIAL_009_IMPACT",
+          "type": "IMPACT",
+          "name": "Heartwood Mantle",
+          "channel": "SELF_BARRIER",
+          "total_budget_bp": 10000,
+          "targets": "PREVIOUS_WARNING_TARGETS_ONLY",
+          "requires_warning": "TITAN_TRIAL_009_WARN",
+          "same_total_across_targets": true,
+          "special": "EXPOSE_AFTER_BREAK_OR_EXPIRY",
+          "maximum_special_events": 1,
+          "target_gone": "FIZZLE_MISSING_SHARE; NO_SILENT_OTHER_UNION_RETARGET",
+          "barrier_percent_of_own_max_hp": 8,
+          "expires": "END_OF_NEXT_ROUND",
+          "recovery_exposure_bonus_bp": 2000,
+          "no_invulnerability": true,
+          "no_retroactive_extra_action": true
+        },
+        {
+          "key": "TITAN_TRIAL_009_RECOVER",
+          "type": "RECOVERY",
+          "numeric_effect": false,
+          "player_forecast_opportunities": 1,
+          "player_copy": "The Titan is recovering. Press the opening."
+        }
+      ],
+      "phases": [
+        {
+          "enter_at_or_below_hp_bp": 10000,
+          "cycle": [
+            "TITAN_TRIAL_009_PROBE",
+            "TITAN_TRIAL_009_WARN",
+            "TITAN_TRIAL_009_IMPACT",
+            "TITAN_TRIAL_009_RECOVER"
+          ]
+        },
+        {
+          "enter_at_or_below_hp_bp": 6500,
+          "cycle": [
+            "TITAN_TRIAL_009_PROBE",
+            "TITAN_TRIAL_009_WARN",
+            "TITAN_TRIAL_009_IMPACT",
+            "TITAN_TRIAL_009_RECOVER"
+          ],
+          "change": "Advance the round-robin victim seed once after the current warned cycle completes."
+        },
+        {
+          "enter_at_or_below_hp_bp": 3000,
+          "cycle": [
+            "TITAN_TRIAL_009_PROBE",
+            "TITAN_TRIAL_009_WARN",
+            "TITAN_TRIAL_009_IMPACT",
+            "TITAN_TRIAL_009_RECOVER"
+          ],
+          "change": "Use the same learned cadence. The finale demands sustained execution, not an unannounced new attack."
+        }
+      ],
+      "phase_transition": "No heal, kill, reward, extra turn, or cancellation of a committed warning. Continue current cycle; new phase starts after recovery.",
+      "absolute_stats": "Bind the current authored fixed boss HP/offense/defenses and tier curve. Never derive from the live army or art size.",
+      "telegraph_save": "Persist pattern position, warning targets/channel, phase, special-use counters and pending action in the existing native encounter commitment.",
+      "boss_actions_per_step": 1,
+      "all_deployed_unions_can_act": true,
+      "no_hidden_reserve_damage": true,
+      "no_additional_reward_on_phase_change": true
+    },
+    {
+      "id": "TITAN_TRIAL_010",
+      "slot": 10,
+      "name": "Prismwatch Oculus",
+      "reward_hero_id": "HERO_TITAN_010",
+      "source_blueprint": "continuation_r43/TITAN_ENCOUNTER_BLUEPRINTS.json",
+      "status": "AUTHORING_COMPLETE_CANDIDATE; NATIVE_BINDING_BALANCE_AND_VISUAL_TESTS_REQUIRED",
+      "enabled_in_game": false,
+      "actions": [
+        {
+          "key": "TITAN_TRIAL_010_PROBE",
+          "type": "DAMAGE",
+          "channel": "PHYSICAL_DAMAGE",
+          "total_budget_bp": 6500,
+          "targets": "ONE_LIVING_ENEMY_UNION",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER",
+          "player_copy": "A probing strike. Prepare for the coming warning."
+        },
+        {
+          "key": "TITAN_TRIAL_010_WARN",
+          "type": "WIND_UP",
+          "announces": "TITAN_TRIAL_010_IMPACT",
+          "numeric_effect": false,
+          "freeze_targets": "ONE_LIVING_ENEMY_UNION",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER_DISTINCT_LIVING_UNIONS",
+          "minimum_player_forecast_opportunities_before_impact": 1,
+          "player_copy": "The eye aligns on one Union. Ward it, then strike during refocus."
+        },
+        {
+          "key": "TITAN_TRIAL_010_IMPACT",
+          "type": "IMPACT",
+          "name": "Prismatic Judgment",
+          "channel": "MYSTIC_DAMAGE",
+          "total_budget_bp": 21000,
+          "targets": "PREVIOUS_WARNING_TARGETS_ONLY",
+          "requires_warning": "TITAN_TRIAL_010_WARN",
+          "same_total_across_targets": true,
+          "special": "NONE",
+          "maximum_special_events": 0,
+          "target_gone": "FIZZLE_MISSING_SHARE; NO_SILENT_OTHER_UNION_RETARGET"
+        },
+        {
+          "key": "TITAN_TRIAL_010_RECOVER",
+          "type": "RECOVERY",
+          "numeric_effect": false,
+          "player_forecast_opportunities": 1,
+          "player_copy": "The Titan is recovering. Press the opening."
+        }
+      ],
+      "phases": [
+        {
+          "enter_at_or_below_hp_bp": 10000,
+          "cycle": [
+            "TITAN_TRIAL_010_PROBE",
+            "TITAN_TRIAL_010_WARN",
+            "TITAN_TRIAL_010_IMPACT",
+            "TITAN_TRIAL_010_RECOVER"
+          ]
+        },
+        {
+          "enter_at_or_below_hp_bp": 6500,
+          "cycle": [
+            "TITAN_TRIAL_010_PROBE",
+            "TITAN_TRIAL_010_WARN",
+            "TITAN_TRIAL_010_IMPACT",
+            "TITAN_TRIAL_010_RECOVER"
+          ],
+          "change": "Advance the round-robin victim seed once after the current warned cycle completes."
+        },
+        {
+          "enter_at_or_below_hp_bp": 3000,
+          "cycle": [
+            "TITAN_TRIAL_010_PROBE",
+            "TITAN_TRIAL_010_WARN",
+            "TITAN_TRIAL_010_IMPACT",
+            "TITAN_TRIAL_010_RECOVER"
+          ],
+          "change": "Use the same learned cadence. The finale demands sustained execution, not an unannounced new attack."
+        }
+      ],
+      "phase_transition": "No heal, kill, reward, extra turn, or cancellation of a committed warning. Continue current cycle; new phase starts after recovery.",
+      "absolute_stats": "Bind the current authored fixed boss HP/offense/defenses and tier curve. Never derive from the live army or art size.",
+      "telegraph_save": "Persist pattern position, warning targets/channel, phase, special-use counters and pending action in the existing native encounter commitment.",
+      "boss_actions_per_step": 1,
+      "all_deployed_unions_can_act": true,
+      "no_hidden_reserve_damage": true,
+      "no_additional_reward_on_phase_change": true
+    },
+    {
+      "id": "TITAN_TRIAL_011",
+      "slot": 11,
+      "name": "Voidspore Slime Tyrant",
+      "reward_hero_id": "HERO_TITAN_011",
+      "source_blueprint": "continuation_r43/TITAN_ENCOUNTER_BLUEPRINTS.json",
+      "status": "AUTHORING_COMPLETE_CANDIDATE; NATIVE_BINDING_BALANCE_AND_VISUAL_TESTS_REQUIRED",
+      "enabled_in_game": false,
+      "actions": [
+        {
+          "key": "TITAN_TRIAL_011_PROBE",
+          "type": "DAMAGE",
+          "channel": "PHYSICAL_DAMAGE",
+          "total_budget_bp": 6500,
+          "targets": "ONE_LIVING_ENEMY_UNION",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER",
+          "player_copy": "A probing strike. Prepare for the coming warning."
+        },
+        {
+          "key": "TITAN_TRIAL_011_WARN",
+          "type": "WIND_UP",
+          "announces": "TITAN_TRIAL_011_IMPACT",
+          "numeric_effect": false,
+          "freeze_targets": "ONE_LIVING_ENEMY_UNION",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER_DISTINCT_LIVING_UNIONS",
+          "minimum_player_forecast_opportunities_before_impact": 1,
+          "player_copy": "The bloom alternates pressure and recovery. Do not spend every defense at once."
+        },
+        {
+          "key": "TITAN_TRIAL_011_IMPACT",
+          "type": "IMPACT",
+          "name": "Voidspore Surge",
+          "channel": "PHYSICAL_DAMAGE",
+          "total_budget_bp": 17000,
+          "targets": "PREVIOUS_WARNING_TARGETS_ONLY",
+          "requires_warning": "TITAN_TRIAL_011_WARN",
+          "same_total_across_targets": true,
+          "special": "FIXED_SLOW",
+          "maximum_special_events": 1,
+          "target_gone": "FIZZLE_MISSING_SHARE; NO_SILENT_OTHER_UNION_RETARGET",
+          "slow_strength_bp": 1500,
+          "expires": "END_OF_NEXT_ROUND",
+          "can_reorder_committed_actions": false
+        },
+        {
+          "key": "TITAN_TRIAL_011_RECOVER",
+          "type": "RECOVERY",
+          "numeric_effect": false,
+          "player_forecast_opportunities": 1,
+          "player_copy": "The Titan is recovering. Press the opening."
+        }
+      ],
+      "phases": [
+        {
+          "enter_at_or_below_hp_bp": 10000,
+          "cycle": [
+            "TITAN_TRIAL_011_PROBE",
+            "TITAN_TRIAL_011_WARN",
+            "TITAN_TRIAL_011_IMPACT",
+            "TITAN_TRIAL_011_RECOVER"
+          ]
+        },
+        {
+          "enter_at_or_below_hp_bp": 6500,
+          "cycle": [
+            "TITAN_TRIAL_011_PROBE",
+            "TITAN_TRIAL_011_WARN",
+            "TITAN_TRIAL_011_IMPACT",
+            "TITAN_TRIAL_011_RECOVER"
+          ],
+          "change": "Advance the round-robin victim seed once after the current warned cycle completes."
+        },
+        {
+          "enter_at_or_below_hp_bp": 3000,
+          "cycle": [
+            "TITAN_TRIAL_011_PROBE",
+            "TITAN_TRIAL_011_WARN",
+            "TITAN_TRIAL_011_IMPACT",
+            "TITAN_TRIAL_011_RECOVER"
+          ],
+          "change": "Use the same learned cadence. The finale demands sustained execution, not an unannounced new attack."
+        }
+      ],
+      "phase_transition": "No heal, kill, reward, extra turn, or cancellation of a committed warning. Continue current cycle; new phase starts after recovery.",
+      "absolute_stats": "Bind the current authored fixed boss HP/offense/defenses and tier curve. Never derive from the live army or art size.",
+      "telegraph_save": "Persist pattern position, warning targets/channel, phase, special-use counters and pending action in the existing native encounter commitment.",
+      "boss_actions_per_step": 1,
+      "all_deployed_unions_can_act": true,
+      "no_hidden_reserve_damage": true,
+      "no_additional_reward_on_phase_change": true
+    },
+    {
+      "id": "TITAN_TRIAL_012",
+      "slot": 12,
+      "name": "Emberjaw Crocodrake",
+      "reward_hero_id": "HERO_TITAN_012",
+      "source_blueprint": "continuation_r43/TITAN_ENCOUNTER_BLUEPRINTS.json",
+      "status": "AUTHORING_COMPLETE_CANDIDATE; NATIVE_BINDING_BALANCE_AND_VISUAL_TESTS_REQUIRED",
+      "enabled_in_game": false,
+      "actions": [
+        {
+          "key": "TITAN_TRIAL_012_PROBE",
+          "type": "DAMAGE",
+          "channel": "PHYSICAL_DAMAGE",
+          "total_budget_bp": 6500,
+          "targets": "ONE_LIVING_ENEMY_UNION",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER",
+          "player_copy": "A probing strike. Prepare for the coming warning."
+        },
+        {
+          "key": "TITAN_TRIAL_012_WARN",
+          "type": "WIND_UP",
+          "announces": "TITAN_TRIAL_012_IMPACT",
+          "numeric_effect": false,
+          "freeze_targets": "ONE_LIVING_ENEMY_UNION",
+          "target_policy": "ROUND_ROBIN_FORMATION_ORDER_DISTINCT_LIVING_UNIONS",
+          "minimum_player_forecast_opportunities_before_impact": 1,
+          "player_copy": "Read the charge, then the breath; punish the exposed jaw between them."
+        },
+        {
+          "key": "TITAN_TRIAL_012_IMPACT",
+          "type": "IMPACT",
+          "name": "Emberjaw Charge",
+          "channel": "PHYSICAL_DAMAGE",
+          "total_budget_bp": 19000,
+          "targets": "PREVIOUS_WARNING_TARGETS_ONLY",
+          "requires_warning": "TITAN_TRIAL_012_WARN",
+          "same_total_across_targets": true,
+          "special": "ALTERNATE_MYSTIC_BREATH",
+          "maximum_special_events": 0,
+          "target_gone": "FIZZLE_MISSING_SHARE; NO_SILENT_OTHER_UNION_RETARGET",
+          "alternating_cycles": [
+            "PHYSICAL_DAMAGE",
+            "MYSTIC_DAMAGE"
+          ],
+          "warning_displays_actual_channel": true
+        },
+        {
+          "key": "TITAN_TRIAL_012_RECOVER",
+          "type": "RECOVERY",
+          "numeric_effect": false,
+          "player_forecast_opportunities": 1,
+          "player_copy": "The Titan is recovering. Press the opening."
+        }
+      ],
+      "phases": [
+        {
+          "enter_at_or_below_hp_bp": 10000,
+          "cycle": [
+            "TITAN_TRIAL_012_PROBE",
+            "TITAN_TRIAL_012_WARN",
+            "TITAN_TRIAL_012_IMPACT",
+            "TITAN_TRIAL_012_RECOVER"
+          ]
+        },
+        {
+          "enter_at_or_below_hp_bp": 6500,
+          "cycle": [
+            "TITAN_TRIAL_012_PROBE",
+            "TITAN_TRIAL_012_WARN",
+            "TITAN_TRIAL_012_IMPACT",
+            "TITAN_TRIAL_012_RECOVER"
+          ],
+          "change": "Advance the round-robin victim seed once after the current warned cycle completes."
+        },
+        {
+          "enter_at_or_below_hp_bp": 3000,
+          "cycle": [
+            "TITAN_TRIAL_012_PROBE",
+            "TITAN_TRIAL_012_WARN",
+            "TITAN_TRIAL_012_IMPACT",
+            "TITAN_TRIAL_012_RECOVER"
+          ],
+          "change": "Use the same learned cadence. The finale demands sustained execution, not an unannounced new attack."
+        }
+      ],
+      "phase_transition": "No heal, kill, reward, extra turn, or cancellation of a committed warning. Continue current cycle; new phase starts after recovery.",
+      "absolute_stats": "Bind the current authored fixed boss HP/offense/defenses and tier curve. Never derive from the live army or art size.",
+      "telegraph_save": "Persist pattern position, warning targets/channel, phase, special-use counters and pending action in the existing native encounter commitment.",
+      "boss_actions_per_step": 1,
+      "all_deployed_unions_can_act": true,
+      "no_hidden_reserve_damage": true,
+      "no_additional_reward_on_phase_change": true
+    }
+  ]
+}

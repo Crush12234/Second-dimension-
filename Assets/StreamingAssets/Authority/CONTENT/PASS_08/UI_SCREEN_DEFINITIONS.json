@@ -1,0 +1,588 @@
+{
+  "contentVersion": "GOW_PASS08_0.13",
+  "screens": [
+    {
+      "id": "UI_MAIN_MENU",
+      "displayName": "Main Menu",
+      "group": "ROOT",
+      "reachableFrom": [],
+      "primaryActions": [
+        "Continue",
+        "New Guild",
+        "Load",
+        "System Archive",
+        "Settings",
+        "Credits"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_NEW_GUILD",
+      "displayName": "New Guild & Rules",
+      "group": "SETUP",
+      "reachableFrom": [
+        "UI_MAIN_MENU"
+      ],
+      "primaryActions": [
+        "Relaxed",
+        "Standard",
+        "Iron Guild",
+        "Custom",
+        "OP Start"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_GUILD_HALL",
+      "displayName": "Guild Hall",
+      "group": "HUB",
+      "reachableFrom": [
+        "UI_MAIN_MENU"
+      ],
+      "primaryActions": [
+        "Applicant Board",
+        "Roster",
+        "Contract Board",
+        "Facilities",
+        "Abyss Gate",
+        "Chronicle"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_APPLICANT_BOARD",
+      "displayName": "Applicant Board",
+      "group": "RECRUITMENT",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "Scout",
+        "Compare",
+        "Details",
+        "Sign",
+        "Decline",
+        "Return Later"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_RECRUIT_DETAIL",
+      "displayName": "Recruit Detail",
+      "group": "ROSTER",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "Overview",
+        "Equipment",
+        "Arts",
+        "Relationships",
+        "History",
+        "Quest"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_ROSTER",
+      "displayName": "Roster",
+      "group": "ROSTER",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "Filter",
+        "Sort",
+        "Details",
+        "Assign",
+        "Union"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_UNION_BUILDER",
+      "displayName": "Union Builder",
+      "group": "UNION",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "Leader",
+        "Members",
+        "Formation",
+        "Doctrine",
+        "Loadout",
+        "History"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_EQUIPMENT",
+      "displayName": "Equipment",
+      "group": "ROSTER",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "Equip",
+        "Lock",
+        "Compare",
+        "Loadout",
+        "History",
+        "Evolution"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_ART_WEB",
+      "displayName": "Art Web",
+      "group": "ROSTER",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "Known",
+        "Discovery",
+        "Proficiency",
+        "Mentor",
+        "Advanced Class"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_CONTRACT_BOARD",
+      "displayName": "Contract Board",
+      "group": "EXPEDITION",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "Inspect",
+        "Prepare",
+        "Accept"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_EXPEDITION_PREP",
+      "displayName": "Expedition Preparation",
+      "group": "EXPEDITION",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "Unions",
+        "Supplies",
+        "Equipment",
+        "License",
+        "Depart"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_EXPEDITION_BOARD",
+      "displayName": "Expedition Board",
+      "group": "EXPEDITION",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "Move",
+        "Scout",
+        "Split",
+        "Regroup",
+        "Camp",
+        "Retreat"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_EVENT_CHECK",
+      "displayName": "Event / Skill Check",
+      "group": "EXPEDITION",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "Choose",
+        "Actor",
+        "Assist",
+        "Roll",
+        "Resolve"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_UNION_BATTLE",
+      "displayName": "Union Battle",
+      "group": "COMBAT",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "Select Union",
+        "Forecast Cards",
+        "Target",
+        "Confirm",
+        "Speed"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_RESULTS",
+      "displayName": "Results",
+      "group": "RESULTS",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "Overview",
+        "Growth",
+        "Loot",
+        "Relationships",
+        "City Change",
+        "Continue"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_INFIRMARY",
+      "displayName": "Infirmary",
+      "group": "FACILITY",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "Patients",
+        "Recovery",
+        "Caregiving",
+        "Assignments"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_TRAINING",
+      "displayName": "Training & Mentorship",
+      "group": "FACILITY",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "Train",
+        "Mentor",
+        "Apprentice",
+        "Lessons"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_FORGE",
+      "displayName": "Forge & Crafting",
+      "group": "FACILITY",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "Craft",
+        "Repair",
+        "Reinforce",
+        "Evolve",
+        "Dismantle"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_LIBRARY",
+      "displayName": "Library & Research",
+      "group": "FACILITY",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "Research",
+        "Maps",
+        "Enemies",
+        "Summon Clues"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_STRATEGY",
+      "displayName": "Strategy Room",
+      "group": "FACILITY",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "Linked Fronts",
+        "Assignments",
+        "Union Records",
+        "Operations"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_SYSTEM_ARCHIVE",
+      "displayName": "System Archive",
+      "group": "SYSTEM",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "Public Codes",
+        "Chronicles",
+        "Reader Rewards",
+        "Archive"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_CHRONICLE",
+      "displayName": "Chronicle",
+      "group": "SYSTEM",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "Guild",
+        "Unions",
+        "Legends",
+        "Items",
+        "Worlds"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_ENDLESS_ABYSS",
+      "displayName": "Endless Abyss",
+      "group": "ABYSS",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "Floors",
+        "Licenses",
+        "Maps",
+        "Sustainability",
+        "Enter"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_SETTINGS",
+      "displayName": "Settings",
+      "group": "SYSTEM",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "Gameplay",
+        "Accessibility",
+        "Audio",
+        "Controls",
+        "Display"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_SAVE_LOAD",
+      "displayName": "Save / Load",
+      "group": "SYSTEM",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "Save",
+        "Load",
+        "Auto Save",
+        "Backup Info"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_QUARTERMASTER",
+      "displayName": "Quartermaster",
+      "group": "FACILITY",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "Inventory",
+        "Supplies",
+        "Storage",
+        "Loadouts"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_EMBASSY",
+      "displayName": "Embassy Hall",
+      "group": "FACILITY",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "World Trust",
+        "Visitors",
+        "Alliances",
+        "Cultural Lessons"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    },
+    {
+      "id": "UI_REDACTOR_FORGE",
+      "displayName": "Redactor Forge",
+      "group": "PRIVATE",
+      "reachableFrom": [
+        "UI_GUILD_HALL"
+      ],
+      "primaryActions": [
+        "Edit Relic",
+        "History",
+        "Undo",
+        "Exit"
+      ],
+      "safeAreaRequired": true,
+      "minimumTouchPt": 44,
+      "backBehavior": "return to previous committed surface; never discard committed deterministic state",
+      "loadingState": true,
+      "emptyState": true,
+      "errorState": true
+    }
+  ]
+}

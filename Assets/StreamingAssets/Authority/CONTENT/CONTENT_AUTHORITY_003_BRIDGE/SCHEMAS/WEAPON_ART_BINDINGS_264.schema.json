@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Weapon Art Bindings",
+  "type": "object",
+  "required": [
+    "contentVersion",
+    "weaponArtBindings"
+  ],
+  "properties": {
+    "contentVersion": {
+      "type": "string"
+    },
+    "weaponArtBindings": {
+      "type": "array",
+      "minItems": 264,
+      "maxItems": 264
+    }
+  },
+  "additionalProperties": true
+}

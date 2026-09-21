@@ -1,0 +1,69 @@
+{
+  "contentVersion": "GOW_PASS05_0.10",
+  "fixtureRequests": [
+    {
+      "id": "FIXTURE_GUILD_INITIAL_STATE",
+      "description": "Ruined Annex with 12-member capacity and one project slot."
+    },
+    {
+      "id": "FIXTURE_BUILD_CHARTERED_HALL",
+      "description": "Pay costs, advance two days, and visibly complete Chartered Hall."
+    },
+    {
+      "id": "FIXTURE_CANCEL_EARLY_PROJECT",
+      "description": "Cancel below 25% and receive 90% XP/material refund."
+    },
+    {
+      "id": "FIXTURE_BUILD_THE_DREAM_STORY_GATE",
+      "description": "Free construction cannot bypass a missing Alliance Charter flag."
+    },
+    {
+      "id": "FIXTURE_DORMITORY_CAP",
+      "description": "Hall capacity stays limited by Dormitories until upgraded."
+    },
+    {
+      "id": "FIXTURE_RECRUITMENT_OFFICE_SYNC",
+      "description": "Board size and scouting effects match retained Pass 01 tiers."
+    },
+    {
+      "id": "FIXTURE_FORGE_SYNC",
+      "description": "Guild Forge level maps to retained Pass 04 Forge stages."
+    },
+    {
+      "id": "FIXTURE_TRAINING_NO_RARE_BREAKTHROUGH",
+      "description": "Training grants proficiency but cannot manufacture a rare Art discovery."
+    },
+    {
+      "id": "FIXTURE_INFIRMARY_RECOVERY",
+      "description": "A staffed Infirmary accelerates recovery without overriding patient consent."
+    },
+    {
+      "id": "FIXTURE_SCOUTING_ASSIGNMENT",
+      "description": "Same seed and members produce identical scouting result."
+    },
+    {
+      "id": "FIXTURE_MEMBER_DOUBLE_BOOKING_REJECTED",
+      "description": "A member cannot be simultaneously assigned to scouting and Forge duty."
+    },
+    {
+      "id": "FIXTURE_LINKED_FRONT_LIMIT",
+      "description": "Stage 6 supports ten linked-front Unions and three reserve slots."
+    },
+    {
+      "id": "FIXTURE_PUBLIC_CODE_NO_STORY_GATE",
+      "description": "Manga code cannot create an Alliance Charter or Margin authority."
+    },
+    {
+      "id": "FIXTURE_ABYSS_AUDIT_RECOVERY",
+      "description": "A suspended license receives a visible corrective path."
+    },
+    {
+      "id": "FIXTURE_EVENT_CHARACTER_PATH",
+      "description": "A qualified member resolves a facility dilemma with deterministic 2d6."
+    },
+    {
+      "id": "FIXTURE_SAVE_RELOAD_GUILD",
+      "description": "Hall, projects, facilities, assignments, rank, licenses, and trust survive roundtrip."
+    }
+  ]
+}

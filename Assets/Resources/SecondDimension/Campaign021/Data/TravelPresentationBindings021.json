@@ -1,0 +1,108 @@
+{
+  "bindings": [
+    {
+      "bindingId": "TRAVELPRES021_TRAVEL020_SKYHOME",
+      "travelId": "TRAVEL020_SKYHOME",
+      "worldId": "SKYHOME",
+      "displayName": "Skyhome and the First City",
+      "iconResource": "SecondDimension/Campaign021/UI/Travel/TRAVEL020_SKYHOME",
+      "backgroundResource": "SecondDimension/Campaign021/UI/Worlds/SKYHOME_Background021",
+      "travelAudioCueId": "AUDIO021_SKYHOME_TRAVEL",
+      "timeLaw": "Second Dimension baseline operational time.",
+      "committedBeforeTransition": true,
+      "realTimeTimer": false,
+      "productionStatus": "TRAVEL_PRESENTATION_READY"
+    },
+    {
+      "bindingId": "TRAVELPRES021_TRAVEL020_BEAST",
+      "travelId": "TRAVEL020_BEAST",
+      "worldId": "WORLD_BEASTKIN_003",
+      "displayName": "Beastkin Territories",
+      "iconResource": "SecondDimension/Campaign021/UI/Travel/TRAVEL020_BEAST",
+      "backgroundResource": "SecondDimension/Campaign021/UI/Worlds/WORLD_BEASTKIN_003_Background021",
+      "travelAudioCueId": "AUDIO021_WORLD_BEASTKIN_003_TRAVEL",
+      "timeLaw": "Seasonal anomaly counters; no final global time law is asserted.",
+      "committedBeforeTransition": true,
+      "realTimeTimer": false,
+      "productionStatus": "TRAVEL_PRESENTATION_READY"
+    },
+    {
+      "bindingId": "TRAVELPRES021_TRAVEL020_BUNNY",
+      "travelId": "TRAVEL020_BUNNY",
+      "worldId": "WORLD_BUNNY_006",
+      "displayName": "Bunny Trade Nations",
+      "iconResource": "SecondDimension/Campaign021/UI/Travel/TRAVEL020_BUNNY",
+      "backgroundResource": "SecondDimension/Campaign021/UI/Worlds/WORLD_BUNNY_006_Background021",
+      "travelAudioCueId": "AUDIO021_WORLD_BUNNY_006_TRAVEL",
+      "timeLaw": "Trade-route delivery counters; no universal numeric conversion is asserted.",
+      "committedBeforeTransition": true,
+      "realTimeTimer": false,
+      "productionStatus": "TRAVEL_PRESENTATION_READY"
+    },
+    {
+      "bindingId": "TRAVELPRES021_TRAVEL020_DARKELF",
+      "travelId": "TRAVEL020_DARKELF",
+      "worldId": "WORLD_DARK_ELF_005",
+      "displayName": "Dark Elf Territories",
+      "iconResource": "SecondDimension/Campaign021/UI/Travel/TRAVEL020_DARKELF",
+      "backgroundResource": "SecondDimension/Campaign021/UI/Worlds/WORLD_DARK_ELF_005_Background021",
+      "travelAudioCueId": "AUDIO021_WORLD_DARK_ELF_005_TRAVEL",
+      "timeLaw": "Archive-era counters; no universal numeric conversion is asserted.",
+      "committedBeforeTransition": true,
+      "realTimeTimer": false,
+      "productionStatus": "TRAVEL_PRESENTATION_READY"
+    },
+    {
+      "bindingId": "TRAVELPRES021_TRAVEL020_DEMON",
+      "travelId": "TRAVEL020_DEMON",
+      "worldId": "WORLD_DEMON_004",
+      "displayName": "Demon Realms",
+      "iconResource": "SecondDimension/Campaign021/UI/Travel/TRAVEL020_DEMON",
+      "backgroundResource": "SecondDimension/Campaign021/UI/Worlds/WORLD_DEMON_004_Background021",
+      "travelAudioCueId": "AUDIO021_WORLD_DEMON_004_TRAVEL",
+      "timeLaw": "Contract and reign counters; deeper temporal irregularities remain unconfirmed.",
+      "committedBeforeTransition": true,
+      "realTimeTimer": false,
+      "productionStatus": "TRAVEL_PRESENTATION_READY"
+    },
+    {
+      "bindingId": "TRAVELPRES021_TRAVEL020_DOG",
+      "travelId": "TRAVEL020_DOG",
+      "worldId": "WORLD_DOG_007",
+      "displayName": "Dog Tribe Frontiers",
+      "iconResource": "SecondDimension/Campaign021/UI/Travel/TRAVEL020_DOG",
+      "backgroundResource": "SecondDimension/Campaign021/UI/Worlds/WORLD_DOG_007_Background021",
+      "travelAudioCueId": "AUDIO021_WORLD_DOG_007_TRAVEL",
+      "timeLaw": "Patrol-cycle and oath-renewal counters; no universal numeric conversion is asserted.",
+      "committedBeforeTransition": true,
+      "realTimeTimer": false,
+      "productionStatus": "TRAVEL_PRESENTATION_READY"
+    },
+    {
+      "bindingId": "TRAVELPRES021_TRAVEL020_GOBLIN",
+      "travelId": "TRAVEL020_GOBLIN",
+      "worldId": "WORLD_GOBLIN_001",
+      "displayName": "Goblin World",
+      "iconResource": "SecondDimension/Campaign021/UI/Travel/TRAVEL020_GOBLIN",
+      "backgroundResource": "SecondDimension/Campaign021/UI/Worlds/WORLD_GOBLIN_001_Background021",
+      "travelAudioCueId": "AUDIO021_WORLD_GOBLIN_001_TRAVEL",
+      "timeLaw": "1 Second Dimension day equals 1 Goblin World month.",
+      "committedBeforeTransition": true,
+      "realTimeTimer": false,
+      "productionStatus": "TRAVEL_PRESENTATION_READY"
+    },
+    {
+      "bindingId": "TRAVELPRES021_TRAVEL020_ORC",
+      "travelId": "TRAVEL020_ORC",
+      "worldId": "WORLD_ORC_002",
+      "displayName": "Orc World",
+      "iconResource": "SecondDimension/Campaign021/UI/Travel/TRAVEL020_ORC",
+      "backgroundResource": "SecondDimension/Campaign021/UI/Worlds/WORLD_ORC_002_Background021",
+      "travelAudioCueId": "AUDIO021_WORLD_ORC_002_TRAVEL",
+      "timeLaw": "Unconfirmed; use local operational days until a later gate authority resolves it.",
+      "committedBeforeTransition": true,
+      "realTimeTimer": false,
+      "productionStatus": "TRAVEL_PRESENTATION_READY"
+    }
+  ]
+}

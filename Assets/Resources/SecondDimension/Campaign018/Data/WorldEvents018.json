@@ -1,0 +1,1404 @@
+{
+  "events": [
+    {
+      "id": "EVENT018_GOBLIN_01",
+      "worldId": "WORLD_GOBLIN_001",
+      "category": "CIVIC",
+      "region": "Gear-Crown Republic",
+      "title": "Goblin World: Civic Event 1",
+      "setup": "A school asks whether the enemy has a name.",
+      "outcomeChannel": "relationship_memory",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_GOBLIN_02",
+      "worldId": "WORLD_GOBLIN_001",
+      "category": "CIVIC",
+      "region": "Burrow Choir Confederacy",
+      "title": "Goblin World: Civic Event 2",
+      "setup": "Workers demand XP for repairs before military expansion.",
+      "outcomeChannel": "city_xp_choice",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_GOBLIN_03",
+      "worldId": "WORLD_GOBLIN_001",
+      "category": "DIPLOMACY",
+      "region": "Iron Lantern Principalities",
+      "title": "Goblin World: Diplomacy Event 3",
+      "setup": "A sympathetic opponent requests safe passage.",
+      "outcomeChannel": "faction_trust",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_GOBLIN_04",
+      "worldId": "WORLD_GOBLIN_001",
+      "category": "DIPLOMACY",
+      "region": "Saint Kiri Foundries",
+      "title": "Goblin World: Diplomacy Event 4",
+      "setup": "A dangerous ally offers help with an unacceptable price.",
+      "outcomeChannel": "bounded_choice",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_GOBLIN_05",
+      "worldId": "WORLD_GOBLIN_001",
+      "category": "EXPLORATION",
+      "region": "Broken Promise Marches",
+      "title": "Goblin World: Exploration Event 5",
+      "setup": "A forbidden ruin preserves contradictory history.",
+      "outcomeChannel": "chronicle_unlock",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_GOBLIN_06",
+      "worldId": "WORLD_GOBLIN_001",
+      "category": "EXPLORATION",
+      "region": "Gear-Crown Republic",
+      "title": "Goblin World: Exploration Event 6",
+      "setup": "A market or meal reveals daily life behind the conflict.",
+      "outcomeChannel": "culture_memory",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_GOBLIN_07",
+      "worldId": "WORLD_GOBLIN_001",
+      "category": "CRISIS",
+      "region": "Burrow Choir Confederacy",
+      "title": "Goblin World: Crisis Event 7",
+      "setup": "A route failure forces a choice between supplies and civilians.",
+      "outcomeChannel": "board_modifier",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_GOBLIN_08",
+      "worldId": "WORLD_GOBLIN_001",
+      "category": "CRISIS",
+      "region": "Iron Lantern Principalities",
+      "title": "Goblin World: Crisis Event 8",
+      "setup": "Rumor threatens to turn one border incident into war.",
+      "outcomeChannel": "threat_and_reputation",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_ORC_01",
+      "worldId": "WORLD_ORC_002",
+      "category": "CIVIC",
+      "region": "Red Hearth Clans",
+      "title": "Orc World: Civic Event 1",
+      "setup": "A school asks whether the enemy has a name.",
+      "outcomeChannel": "relationship_memory",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_ORC_02",
+      "worldId": "WORLD_ORC_002",
+      "category": "CIVIC",
+      "region": "Mountain-Banner Holds",
+      "title": "Orc World: Civic Event 2",
+      "setup": "Workers demand XP for repairs before military expansion.",
+      "outcomeChannel": "city_xp_choice",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_ORC_03",
+      "worldId": "WORLD_ORC_002",
+      "category": "DIPLOMACY",
+      "region": "Salt-Tusk Coast",
+      "title": "Orc World: Diplomacy Event 3",
+      "setup": "A sympathetic opponent requests safe passage.",
+      "outcomeChannel": "faction_trust",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_ORC_04",
+      "worldId": "WORLD_ORC_002",
+      "category": "DIPLOMACY",
+      "region": "Shield-Child Sanctuaries",
+      "title": "Orc World: Diplomacy Event 4",
+      "setup": "A dangerous ally offers help with an unacceptable price.",
+      "outcomeChannel": "bounded_choice",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_ORC_05",
+      "worldId": "WORLD_ORC_002",
+      "category": "EXPLORATION",
+      "region": "Black Arena Cities",
+      "title": "Orc World: Exploration Event 5",
+      "setup": "A forbidden ruin preserves contradictory history.",
+      "outcomeChannel": "chronicle_unlock",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_ORC_06",
+      "worldId": "WORLD_ORC_002",
+      "category": "EXPLORATION",
+      "region": "Red Hearth Clans",
+      "title": "Orc World: Exploration Event 6",
+      "setup": "A market or meal reveals daily life behind the conflict.",
+      "outcomeChannel": "culture_memory",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_ORC_07",
+      "worldId": "WORLD_ORC_002",
+      "category": "CRISIS",
+      "region": "Mountain-Banner Holds",
+      "title": "Orc World: Crisis Event 7",
+      "setup": "A route failure forces a choice between supplies and civilians.",
+      "outcomeChannel": "board_modifier",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_ORC_08",
+      "worldId": "WORLD_ORC_002",
+      "category": "CRISIS",
+      "region": "Salt-Tusk Coast",
+      "title": "Orc World: Crisis Event 8",
+      "setup": "Rumor threatens to turn one border incident into war.",
+      "outcomeChannel": "threat_and_reputation",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_BEASTKIN_01",
+      "worldId": "WORLD_BEASTKIN_003",
+      "category": "CIVIC",
+      "region": "Wolfroad Packs",
+      "title": "Beastkin Territories: Civic Event 1",
+      "setup": "A school asks whether the enemy has a name.",
+      "outcomeChannel": "relationship_memory",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_BEASTKIN_02",
+      "worldId": "WORLD_BEASTKIN_003",
+      "category": "CIVIC",
+      "region": "Cat-Sun Courts",
+      "title": "Beastkin Territories: Civic Event 2",
+      "setup": "Workers demand XP for repairs before military expansion.",
+      "outcomeChannel": "city_xp_choice",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_BEASTKIN_03",
+      "worldId": "WORLD_BEASTKIN_003",
+      "category": "DIPLOMACY",
+      "region": "Bearroot Holds",
+      "title": "Beastkin Territories: Diplomacy Event 3",
+      "setup": "A sympathetic opponent requests safe passage.",
+      "outcomeChannel": "faction_trust",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_BEASTKIN_04",
+      "worldId": "WORLD_BEASTKIN_003",
+      "category": "DIPLOMACY",
+      "region": "Skyfeather Aeries",
+      "title": "Beastkin Territories: Diplomacy Event 4",
+      "setup": "A dangerous ally offers help with an unacceptable price.",
+      "outcomeChannel": "bounded_choice",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_BEASTKIN_05",
+      "worldId": "WORLD_BEASTKIN_003",
+      "category": "EXPLORATION",
+      "region": "Foxfire Treaty Paths",
+      "title": "Beastkin Territories: Exploration Event 5",
+      "setup": "A forbidden ruin preserves contradictory history.",
+      "outcomeChannel": "chronicle_unlock",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_BEASTKIN_06",
+      "worldId": "WORLD_BEASTKIN_003",
+      "category": "EXPLORATION",
+      "region": "Wolfroad Packs",
+      "title": "Beastkin Territories: Exploration Event 6",
+      "setup": "A market or meal reveals daily life behind the conflict.",
+      "outcomeChannel": "culture_memory",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_BEASTKIN_07",
+      "worldId": "WORLD_BEASTKIN_003",
+      "category": "CRISIS",
+      "region": "Cat-Sun Courts",
+      "title": "Beastkin Territories: Crisis Event 7",
+      "setup": "A route failure forces a choice between supplies and civilians.",
+      "outcomeChannel": "board_modifier",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_BEASTKIN_08",
+      "worldId": "WORLD_BEASTKIN_003",
+      "category": "CRISIS",
+      "region": "Bearroot Holds",
+      "title": "Beastkin Territories: Crisis Event 8",
+      "setup": "Rumor threatens to turn one border incident into war.",
+      "outcomeChannel": "threat_and_reputation",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_DEMON_01",
+      "worldId": "WORLD_DEMON_004",
+      "category": "CIVIC",
+      "region": "Crimson Library States",
+      "title": "Demon Realms: Civic Event 1",
+      "setup": "A school asks whether the enemy has a name.",
+      "outcomeChannel": "relationship_memory",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_DEMON_02",
+      "worldId": "WORLD_DEMON_004",
+      "category": "CIVIC",
+      "region": "Thorn-Crown Duchies",
+      "title": "Demon Realms: Civic Event 2",
+      "setup": "Workers demand XP for repairs before military expansion.",
+      "outcomeChannel": "city_xp_choice",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_DEMON_03",
+      "worldId": "WORLD_DEMON_004",
+      "category": "DIPLOMACY",
+      "region": "Ash Contract Courts",
+      "title": "Demon Realms: Diplomacy Event 3",
+      "setup": "A sympathetic opponent requests safe passage.",
+      "outcomeChannel": "faction_trust",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_DEMON_04",
+      "worldId": "WORLD_DEMON_004",
+      "category": "DIPLOMACY",
+      "region": "Dreamglass Salons",
+      "title": "Demon Realms: Diplomacy Event 4",
+      "setup": "A dangerous ally offers help with an unacceptable price.",
+      "outcomeChannel": "bounded_choice",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_DEMON_05",
+      "worldId": "WORLD_DEMON_004",
+      "category": "EXPLORATION",
+      "region": "Ember Monasteries",
+      "title": "Demon Realms: Exploration Event 5",
+      "setup": "A forbidden ruin preserves contradictory history.",
+      "outcomeChannel": "chronicle_unlock",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_DEMON_06",
+      "worldId": "WORLD_DEMON_004",
+      "category": "EXPLORATION",
+      "region": "Crimson Library States",
+      "title": "Demon Realms: Exploration Event 6",
+      "setup": "A market or meal reveals daily life behind the conflict.",
+      "outcomeChannel": "culture_memory",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_DEMON_07",
+      "worldId": "WORLD_DEMON_004",
+      "category": "CRISIS",
+      "region": "Thorn-Crown Duchies",
+      "title": "Demon Realms: Crisis Event 7",
+      "setup": "A route failure forces a choice between supplies and civilians.",
+      "outcomeChannel": "board_modifier",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_DEMON_08",
+      "worldId": "WORLD_DEMON_004",
+      "category": "CRISIS",
+      "region": "Ash Contract Courts",
+      "title": "Demon Realms: Crisis Event 8",
+      "setup": "Rumor threatens to turn one border incident into war.",
+      "outcomeChannel": "threat_and_reputation",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_DARKELF_01",
+      "worldId": "WORLD_DARK_ELF_005",
+      "category": "CIVIC",
+      "region": "Duskwood Courts",
+      "title": "Dark Elf Territories: Civic Event 1",
+      "setup": "A school asks whether the enemy has a name.",
+      "outcomeChannel": "relationship_memory",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_DARKELF_02",
+      "worldId": "WORLD_DARK_ELF_005",
+      "category": "CIVIC",
+      "region": "Veil-City Compact",
+      "title": "Dark Elf Territories: Civic Event 2",
+      "setup": "Workers demand XP for repairs before military expansion.",
+      "outcomeChannel": "city_xp_choice",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_DARKELF_03",
+      "worldId": "WORLD_DARK_ELF_005",
+      "category": "DIPLOMACY",
+      "region": "Silver Quiet Archives",
+      "title": "Dark Elf Territories: Diplomacy Event 3",
+      "setup": "A sympathetic opponent requests safe passage.",
+      "outcomeChannel": "faction_trust",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_DARKELF_04",
+      "worldId": "WORLD_DARK_ELF_005",
+      "category": "DIPLOMACY",
+      "region": "Blackroot Sanctuaries",
+      "title": "Dark Elf Territories: Diplomacy Event 4",
+      "setup": "A dangerous ally offers help with an unacceptable price.",
+      "outcomeChannel": "bounded_choice",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_DARKELF_05",
+      "worldId": "WORLD_DARK_ELF_005",
+      "category": "EXPLORATION",
+      "region": "Lanternless Roads",
+      "title": "Dark Elf Territories: Exploration Event 5",
+      "setup": "A forbidden ruin preserves contradictory history.",
+      "outcomeChannel": "chronicle_unlock",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_DARKELF_06",
+      "worldId": "WORLD_DARK_ELF_005",
+      "category": "EXPLORATION",
+      "region": "Duskwood Courts",
+      "title": "Dark Elf Territories: Exploration Event 6",
+      "setup": "A market or meal reveals daily life behind the conflict.",
+      "outcomeChannel": "culture_memory",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_DARKELF_07",
+      "worldId": "WORLD_DARK_ELF_005",
+      "category": "CRISIS",
+      "region": "Veil-City Compact",
+      "title": "Dark Elf Territories: Crisis Event 7",
+      "setup": "A route failure forces a choice between supplies and civilians.",
+      "outcomeChannel": "board_modifier",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_DARKELF_08",
+      "worldId": "WORLD_DARK_ELF_005",
+      "category": "CRISIS",
+      "region": "Silver Quiet Archives",
+      "title": "Dark Elf Territories: Crisis Event 8",
+      "setup": "Rumor threatens to turn one border incident into war.",
+      "outcomeChannel": "threat_and_reputation",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_BUNNY_01",
+      "worldId": "WORLD_BUNNY_006",
+      "category": "CIVIC",
+      "region": "Silverstep Exchange",
+      "title": "Bunny Trade Nations: Civic Event 1",
+      "setup": "A school asks whether the enemy has a name.",
+      "outcomeChannel": "relationship_memory",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_BUNNY_02",
+      "worldId": "WORLD_BUNNY_006",
+      "category": "CIVIC",
+      "region": "Golden Warren Banks",
+      "title": "Bunny Trade Nations: Civic Event 2",
+      "setup": "Workers demand XP for repairs before military expansion.",
+      "outcomeChannel": "city_xp_choice",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_BUNNY_03",
+      "worldId": "WORLD_BUNNY_006",
+      "category": "DIPLOMACY",
+      "region": "Roadbell Caravan League",
+      "title": "Bunny Trade Nations: Diplomacy Event 3",
+      "setup": "A sympathetic opponent requests safe passage.",
+      "outcomeChannel": "faction_trust",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_BUNNY_04",
+      "worldId": "WORLD_BUNNY_006",
+      "category": "DIPLOMACY",
+      "region": "Orchard Ports",
+      "title": "Bunny Trade Nations: Diplomacy Event 4",
+      "setup": "A dangerous ally offers help with an unacceptable price.",
+      "outcomeChannel": "bounded_choice",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_BUNNY_05",
+      "worldId": "WORLD_BUNNY_006",
+      "category": "EXPLORATION",
+      "region": "Free Basket Cities",
+      "title": "Bunny Trade Nations: Exploration Event 5",
+      "setup": "A forbidden ruin preserves contradictory history.",
+      "outcomeChannel": "chronicle_unlock",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_BUNNY_06",
+      "worldId": "WORLD_BUNNY_006",
+      "category": "EXPLORATION",
+      "region": "Silverstep Exchange",
+      "title": "Bunny Trade Nations: Exploration Event 6",
+      "setup": "A market or meal reveals daily life behind the conflict.",
+      "outcomeChannel": "culture_memory",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_BUNNY_07",
+      "worldId": "WORLD_BUNNY_006",
+      "category": "CRISIS",
+      "region": "Golden Warren Banks",
+      "title": "Bunny Trade Nations: Crisis Event 7",
+      "setup": "A route failure forces a choice between supplies and civilians.",
+      "outcomeChannel": "board_modifier",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_BUNNY_08",
+      "worldId": "WORLD_BUNNY_006",
+      "category": "CRISIS",
+      "region": "Roadbell Caravan League",
+      "title": "Bunny Trade Nations: Crisis Event 8",
+      "setup": "Rumor threatens to turn one border incident into war.",
+      "outcomeChannel": "threat_and_reputation",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_DOG_01",
+      "worldId": "WORLD_DOG_007",
+      "category": "CIVIC",
+      "region": "Stormpaw Ranges",
+      "title": "Dog Tribe Frontiers: Civic Event 1",
+      "setup": "A school asks whether the enemy has a name.",
+      "outcomeChannel": "relationship_memory",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_DOG_02",
+      "worldId": "WORLD_DOG_007",
+      "category": "CIVIC",
+      "region": "Oathpost Settlements",
+      "title": "Dog Tribe Frontiers: Civic Event 2",
+      "setup": "Workers demand XP for repairs before military expansion.",
+      "outcomeChannel": "city_xp_choice",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_DOG_03",
+      "worldId": "WORLD_DOG_007",
+      "category": "DIPLOMACY",
+      "region": "Rivernose Watch",
+      "title": "Dog Tribe Frontiers: Diplomacy Event 3",
+      "setup": "A sympathetic opponent requests safe passage.",
+      "outcomeChannel": "faction_trust",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_DOG_04",
+      "worldId": "WORLD_DOG_007",
+      "category": "DIPLOMACY",
+      "region": "Hearthhound Villages",
+      "title": "Dog Tribe Frontiers: Diplomacy Event 4",
+      "setup": "A dangerous ally offers help with an unacceptable price.",
+      "outcomeChannel": "bounded_choice",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_DOG_05",
+      "worldId": "WORLD_DOG_007",
+      "category": "EXPLORATION",
+      "region": "Gray Trail Compact",
+      "title": "Dog Tribe Frontiers: Exploration Event 5",
+      "setup": "A forbidden ruin preserves contradictory history.",
+      "outcomeChannel": "chronicle_unlock",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_DOG_06",
+      "worldId": "WORLD_DOG_007",
+      "category": "EXPLORATION",
+      "region": "Stormpaw Ranges",
+      "title": "Dog Tribe Frontiers: Exploration Event 6",
+      "setup": "A market or meal reveals daily life behind the conflict.",
+      "outcomeChannel": "culture_memory",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_DOG_07",
+      "worldId": "WORLD_DOG_007",
+      "category": "CRISIS",
+      "region": "Oathpost Settlements",
+      "title": "Dog Tribe Frontiers: Crisis Event 7",
+      "setup": "A route failure forces a choice between supplies and civilians.",
+      "outcomeChannel": "board_modifier",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    },
+    {
+      "id": "EVENT018_DOG_08",
+      "worldId": "WORLD_DOG_007",
+      "category": "CRISIS",
+      "region": "Rivernose Watch",
+      "title": "Dog Tribe Frontiers: Crisis Event 8",
+      "setup": "Rumor threatens to turn one border incident into war.",
+      "outcomeChannel": "threat_and_reputation",
+      "committedBeforeReveal": true,
+      "relationshipSceneCostsOperation": false,
+      "canRemoveRecruit": false,
+      "choices": [
+        "Protect people",
+        "Preserve evidence",
+        "Negotiate terms",
+        "Accept a recoverable cost"
+      ],
+      "results": [
+        "critical_success",
+        "success",
+        "mixed",
+        "setback",
+        "critical_setback_with_recovery"
+      ]
+    }
+  ]
+}

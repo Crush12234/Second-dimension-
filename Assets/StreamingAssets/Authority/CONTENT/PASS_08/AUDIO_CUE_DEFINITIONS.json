@@ -1,0 +1,138 @@
+{
+  "contentVersion": "GOW_PASS08_0.13",
+  "cues": [
+    {
+      "id": "SFX_UI_CONFIRM",
+      "event": "UI_CONFIRM",
+      "durationMaxSec": 0.8,
+      "visualAlternativeRequired": false,
+      "priority": "P0"
+    },
+    {
+      "id": "SFX_UI_BACK",
+      "event": "UI_BACK",
+      "durationMaxSec": 0.8,
+      "visualAlternativeRequired": false,
+      "priority": "P0"
+    },
+    {
+      "id": "SFX_UI_TAB",
+      "event": "UI_TAB",
+      "durationMaxSec": 0.8,
+      "visualAlternativeRequired": false,
+      "priority": "P0"
+    },
+    {
+      "id": "SFX_UI_WARNING",
+      "event": "UI_WARNING",
+      "durationMaxSec": 0.8,
+      "visualAlternativeRequired": true,
+      "priority": "P0"
+    },
+    {
+      "id": "SFX_UI_LOCK",
+      "event": "UI_LOCK",
+      "durationMaxSec": 0.8,
+      "visualAlternativeRequired": false,
+      "priority": "P0"
+    },
+    {
+      "id": "SFX_UI_UNLOCK",
+      "event": "UI_UNLOCK",
+      "durationMaxSec": 0.8,
+      "visualAlternativeRequired": false,
+      "priority": "P0"
+    },
+    {
+      "id": "SFX_DICE_PICKUP",
+      "event": "DICE_PICKUP",
+      "durationMaxSec": 0.8,
+      "visualAlternativeRequired": false,
+      "priority": "P0"
+    },
+    {
+      "id": "SFX_DICE_ROLL",
+      "event": "DICE_ROLL",
+      "durationMaxSec": 0.8,
+      "visualAlternativeRequired": false,
+      "priority": "P0"
+    },
+    {
+      "id": "SFX_DICE_DOUBLE_ONE",
+      "event": "DICE_DOUBLE_ONE",
+      "durationMaxSec": 0.8,
+      "visualAlternativeRequired": false,
+      "priority": "P0"
+    },
+    {
+      "id": "SFX_DICE_DOUBLE_SIX",
+      "event": "DICE_DOUBLE_SIX",
+      "durationMaxSec": 0.8,
+      "visualAlternativeRequired": false,
+      "priority": "P0"
+    },
+    {
+      "id": "SFX_FORECAST_SELECT",
+      "event": "FORECAST_SELECT",
+      "durationMaxSec": 0.8,
+      "visualAlternativeRequired": false,
+      "priority": "P0"
+    },
+    {
+      "id": "SFX_FORECAST_CONFIRM",
+      "event": "FORECAST_CONFIRM",
+      "durationMaxSec": 0.8,
+      "visualAlternativeRequired": false,
+      "priority": "P0"
+    },
+    {
+      "id": "SFX_ART_DISCOVERY",
+      "event": "ART_DISCOVERY",
+      "durationMaxSec": 2.2,
+      "visualAlternativeRequired": false,
+      "priority": "P0"
+    },
+    {
+      "id": "SFX_COHESION_BREAK",
+      "event": "COHESION_BREAK",
+      "durationMaxSec": 0.8,
+      "visualAlternativeRequired": false,
+      "priority": "P0"
+    },
+    {
+      "id": "SFX_LINK_READY",
+      "event": "LINK_READY",
+      "durationMaxSec": 0.8,
+      "visualAlternativeRequired": true,
+      "priority": "P0"
+    },
+    {
+      "id": "SFX_INVOCATION_READY",
+      "event": "INVOCATION_READY",
+      "durationMaxSec": 0.8,
+      "visualAlternativeRequired": true,
+      "priority": "P0"
+    },
+    {
+      "id": "SFX_BOSS_TELEGRAPH",
+      "event": "BOSS_TELEGRAPH",
+      "durationMaxSec": 2.2,
+      "visualAlternativeRequired": true,
+      "priority": "P0"
+    },
+    {
+      "id": "SFX_SECRET_REVEAL",
+      "event": "SECRET_REVEAL",
+      "durationMaxSec": 0.8,
+      "visualAlternativeRequired": false,
+      "priority": "P0"
+    },
+    {
+      "id": "SFX_CITY_UPGRADE",
+      "event": "CITY_UPGRADE",
+      "durationMaxSec": 0.8,
+      "visualAlternativeRequired": false,
+      "priority": "P0"
+    }
+  ]
+}

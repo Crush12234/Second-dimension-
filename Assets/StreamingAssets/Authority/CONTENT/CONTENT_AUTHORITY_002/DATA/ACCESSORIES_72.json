@@ -1,0 +1,2840 @@
+{
+  "contentVersion": "GOW_CONTENT_AUTHORITY_002",
+  "accessories": [
+    {
+      "id": "EQUIP_ACCESSORY_CARDBOARD_WING_CHARM",
+      "displayName": "Cardboard Wing Charm",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Once per expedition, converts a minor fatigue cost into morale.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Courage": 1
+      },
+      "forecastWeightModifiers": {
+        "RESCUE": 40
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 1,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_GATEWORKER_ID_TAG",
+      "displayName": "Gateworker ID Tag",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Improves Diplomacy with Gateworks labor crews.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Diplomacy": 1
+      },
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 40
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 1,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_COPPER_ROUTE_COMPASS",
+      "displayName": "Copper Route Compass",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Increases scouting clarity and hidden-route discovery.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Perception": 1
+      },
+      "forecastWeightModifiers": {
+        "TACTICAL": 50
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 1,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_MEDIC_S_TRIAGE_RIBBON",
+      "displayName": "Medic’s Triage Ribbon",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Emergency-heal forecasts receive higher weight.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Medicine": 1
+      },
+      "forecastWeightModifiers": {
+        "EMERGENCY_HEAL": 100
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 1,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_RIVET_COUNTER",
+      "displayName": "Rivet Counter",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Dismantling and repair yields are easier to predict.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Crafting": 1
+      },
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 40
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 1,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_STORMGLASS_LENS",
+      "displayName": "Stormglass Lens",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Ranged marking and Arcana checks.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Perception": 1,
+        "Arcana": 1
+      },
+      "forecastWeightModifiers": {
+        "RANGED": 70
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 2,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_BANNER_THREAD_BRACELET",
+      "displayName": "Banner Thread Bracelet",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Morale support after a Union loses Cohesion.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "forecastWeightModifiers": {
+        "SUPPORT": 80
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 2,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_RIVER_PURITY_BEAD",
+      "displayName": "River Purity Bead",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Cleansing and hazard resistance.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Survival": 1
+      },
+      "forecastWeightModifiers": {
+        "CLEANSE": 80
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 2,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_SILENT_CAMP_SPOON",
+      "displayName": "Silent Camp Spoon",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Camp recovery consumes one fewer supply once per expedition.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Survival": 1
+      },
+      "forecastWeightModifiers": {
+        "CONSERVE": 70
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 2,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_ASH_MAP_TOKEN",
+      "displayName": "Ash-Map Token",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Shows one additional broad risk tag on a forecast.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Knowledge": 1
+      },
+      "forecastWeightModifiers": {
+        "TACTICAL": 70
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 2,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_RESCUE_WHISTLE",
+      "displayName": "Rescue Whistle",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Raises the chance that a rescue forecast appears when an ally is isolated.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "forecastWeightModifiers": {
+        "RESCUE": 100
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 3,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_RUNE_GROUNDING_RING",
+      "displayName": "Rune Grounding Ring",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Reduces anti-Mystic vulnerability but slightly raises weight.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "forecastWeightModifiers": {
+        "ANTI_MYSTIC": 80
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 3,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_DUELIST_S_BALANCE_CHAIN",
+      "displayName": "Duelist’s Balance Chain",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "One-handed weapon loadouts reduce AP cost of the first Martial Art by 1.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Agility": 1
+      },
+      "forecastWeightModifiers": {
+        "OFFENSE": 50
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 3,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_QUARTERMASTER_S_SEAL",
+      "displayName": "Quartermaster’s Seal",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Improves legal salvage value and supply accounting.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Knowledge": 1
+      },
+      "forecastWeightModifiers": {
+        "CONSERVE": 80
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 3,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_DOG_TRIBE_SCENT_CHARM",
+      "displayName": "Dog-Tribe Scent Charm",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Tracking and hunt-contract options.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Survival": 1,
+        "Perception": 1
+      },
+      "forecastWeightModifiers": {
+        "HUNT": 90
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 3,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_GOBLIN_MEASURE_LOOP",
+      "displayName": "Goblin Measure Loop",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Crafting assistance does not add fatigue on mixed outcomes.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Crafting": 1
+      },
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 80
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 4,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_ORC_OATH_CLASP",
+      "displayName": "Orc Oath Clasp",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Guard progress improves when protecting a weaker ally.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Courage": 1
+      },
+      "forecastWeightModifiers": {
+        "GUARD": 90
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 4,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_DARK_ELF_NIGHT_PIN",
+      "displayName": "Dark-Elf Night Pin",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Deception and rear-line target discovery.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Deception": 1
+      },
+      "forecastWeightModifiers": {
+        "REARLINE": 90
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 4,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_DEMON_HERITAGE_WARD_KNOT",
+      "displayName": "Demon-Heritage Ward Knot",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Controlled spell forecasts are favored over all-out spells at low MP.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "forecastWeightModifiers": {
+        "CONTROLLED_MAGIC": 100
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 4,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_HUMAN_ADAPTATION_COIN",
+      "displayName": "Human Adaptation Coin",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Small proficiency bonus when using a newly trained family.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Knowledge": 1
+      },
+      "forecastWeightModifiers": {
+        "BALANCED": 60
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 4,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_AEGIS_CORE_SLIVER",
+      "displayName": "Aegis Core Sliver",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Civilian protection contributes to equipment evolution history.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "forecastWeightModifiers": {
+        "SURVIVE": 100
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 5,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_GATE_TOLL_COUNTERMARK",
+      "displayName": "Gate-Toll Countermark",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Reduces repeat contract penalty once per day for a different contract type.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Knowledge": 1
+      },
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 50
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 5,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_MEMORY_WATER_VIAL",
+      "displayName": "Memory-Water Vial",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Observational learning gains modest progress once per battle.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "forecastWeightModifiers": {
+        "TACTICAL": 70
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 5,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_PHOENIX_ASH_THREAD",
+      "displayName": "Phoenix Ash Thread",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Prevents one nonlethal injury escalation per expedition; consumed only on use.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Medicine": 1
+      },
+      "forecastWeightModifiers": {
+        "EMERGENCY_HEAL": 100
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "acquisitionPaths": [
+        "ABYSS_SUMMON_CLUE_RESEARCH",
+        "COVENANT_PREPARATION_EVENT"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 5,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_FENRIR_TRAIL_FANG",
+      "displayName": "Fenrir Trail Fang",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Hunt objectives and enemy marking.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Survival": 1
+      },
+      "forecastWeightModifiers": {
+        "HUNT": 110
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "acquisitionPaths": [
+        "ABYSS_SUMMON_CLUE_RESEARCH",
+        "COVENANT_PREPARATION_EVENT"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 5,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_CARBUNCLE_GLASS_STUD",
+      "displayName": "Carbuncle Glass Stud",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Barrier and reflect-like ward support without copying True Reflection.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "forecastWeightModifiers": {
+        "GUARD": 70,
+        "ANTI_MYSTIC": 70
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "acquisitionPaths": [
+        "ABYSS_SUMMON_CLUE_RESEARCH",
+        "COVENANT_PREPARATION_EVENT"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 6,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_TERRA_TITAN_GRAVEL_SEAL",
+      "displayName": "Terra Titan Gravel Seal",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Objective and wall-defense checks.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Strength": 1,
+        "Crafting": 1
+      },
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 100
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "acquisitionPaths": [
+        "ABYSS_SUMMON_CLUE_RESEARCH",
+        "COVENANT_PREPARATION_EVENT"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 6,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_SYLPH_ROUTE_FEATHER",
+      "displayName": "Sylph Route Feather",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Movement and evacuation forecasts.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Agility": 1
+      },
+      "forecastWeightModifiers": {
+        "RESCUE": 90,
+        "FLANK": 60
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "acquisitionPaths": [
+        "ABYSS_SUMMON_CLUE_RESEARCH",
+        "COVENANT_PREPARATION_EVENT"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 6,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_LEVIATHAN_MEMORY_SCALE",
+      "displayName": "Leviathan Memory Scale",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Knowledge and water-hazard checks.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Knowledge": 1
+      },
+      "forecastWeightModifiers": {
+        "CLEANSE": 70
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "acquisitionPaths": [
+        "ABYSS_SUMMON_CLUE_RESEARCH",
+        "COVENANT_PREPARATION_EVENT"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 6,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "EQUIP_ACCESSORY_IFRIT_FORGE_EMBER",
+      "displayName": "Ifrit Forge Ember",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "weight": 1,
+      "tacticalIdentity": "Forge quality influence; does not grant a Great Summon.",
+      "equipmentTags": [
+        "ACCESSORY"
+      ],
+      "skillCheckModifiers": {
+        "Crafting": 1
+      },
+      "forecastWeightModifiers": {
+        "OFFENSE": 50
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY"
+      ],
+      "acquisitionPaths": [
+        "ABYSS_SUMMON_CLUE_RESEARCH",
+        "COVENANT_PREPARATION_EVENT"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 6,
+        "foundAsDrop": true,
+        "craftable": true,
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_AP_RELAY_T1",
+      "displayName": "Plain AP Relay",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "COMMON",
+      "weight": 1,
+      "tacticalIdentity": "improves AP-efficient forecast weighting without creating free AP",
+      "equipmentTags": [
+        "ACCESSORY",
+        "AP_RELAY"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "TACTICAL": 35
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_AP_RELAY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 1,
+        "rarity": "COMMON",
+        "upgradeFromId": null,
+        "upgradeToIds": [
+          "CA002_ACCESSORY_AP_RELAY_T2"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 1,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_AP_RELAY_T2",
+      "displayName": "Etched AP Relay",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "UNCOMMON",
+      "weight": 1,
+      "tacticalIdentity": "improves AP-efficient forecast weighting without creating free AP",
+      "equipmentTags": [
+        "ACCESSORY",
+        "AP_RELAY"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "TACTICAL": 50
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_AP_RELAY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 2,
+        "rarity": "UNCOMMON",
+        "upgradeFromId": "CA002_ACCESSORY_AP_RELAY_T1",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_AP_RELAY_T3"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 1,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_AP_RELAY_T3",
+      "displayName": "Runed AP Relay",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "RARE",
+      "weight": 1,
+      "tacticalIdentity": "improves AP-efficient forecast weighting without creating free AP",
+      "equipmentTags": [
+        "ACCESSORY",
+        "AP_RELAY"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "TACTICAL": 65
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_AP_RELAY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 3,
+        "rarity": "RARE",
+        "upgradeFromId": "CA002_ACCESSORY_AP_RELAY_T2",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_AP_RELAY_T4"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 2,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_AP_RELAY_T4",
+      "displayName": "Heroic AP Relay",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "EPIC",
+      "weight": 1,
+      "tacticalIdentity": "improves AP-efficient forecast weighting without creating free AP",
+      "equipmentTags": [
+        "ACCESSORY",
+        "AP_RELAY"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "TACTICAL": 80
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_AP_RELAY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 4,
+        "rarity": "EPIC",
+        "upgradeFromId": "CA002_ACCESSORY_AP_RELAY_T3",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_AP_RELAY_T5"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 3,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_AP_RELAY_T5",
+      "displayName": "Worldroad AP Relay",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "LEGENDARY",
+      "weight": 1,
+      "tacticalIdentity": "improves AP-efficient forecast weighting without creating free AP",
+      "equipmentTags": [
+        "ACCESSORY",
+        "AP_RELAY"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "TACTICAL": 95
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_AP_RELAY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 5,
+        "rarity": "LEGENDARY",
+        "upgradeFromId": "CA002_ACCESSORY_AP_RELAY_T4",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_AP_RELAY_T6"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 4,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_AP_RELAY_T6",
+      "displayName": "Mythic AP Relay",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "MYTHIC",
+      "weight": 1,
+      "tacticalIdentity": "improves AP-efficient forecast weighting without creating free AP",
+      "equipmentTags": [
+        "ACCESSORY",
+        "AP_RELAY"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "TACTICAL": 110
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_AP_RELAY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 6,
+        "rarity": "MYTHIC",
+        "upgradeFromId": "CA002_ACCESSORY_AP_RELAY_T5",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_AP_RELAY_T7"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 5,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_AP_RELAY_T7",
+      "displayName": "First Alliance AP Relay",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "GODLY",
+      "weight": 1,
+      "tacticalIdentity": "improves AP-efficient forecast weighting without creating free AP",
+      "equipmentTags": [
+        "ACCESSORY",
+        "AP_RELAY"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "TACTICAL": 125
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_AP_RELAY"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 7,
+        "rarity": "GODLY",
+        "upgradeFromId": "CA002_ACCESSORY_AP_RELAY_T6",
+        "upgradeToIds": [],
+        "foundAsDrop": true,
+        "craftable": false,
+        "foundOnly": true,
+        "missionRankMin": 6,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_MP_RESERVOIR_T1",
+      "displayName": "Plain MP Reservoir",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "COMMON",
+      "weight": 1,
+      "tacticalIdentity": "improves personal MP capacity or recovery without pooling MP across members",
+      "equipmentTags": [
+        "ACCESSORY",
+        "MP_RESERVOIR"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "MYSTIC": 35
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_MP_RESERVOIR"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 1,
+        "rarity": "COMMON",
+        "upgradeFromId": null,
+        "upgradeToIds": [
+          "CA002_ACCESSORY_MP_RESERVOIR_T2"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 1,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_MP_RESERVOIR_T2",
+      "displayName": "Etched MP Reservoir",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "UNCOMMON",
+      "weight": 1,
+      "tacticalIdentity": "improves personal MP capacity or recovery without pooling MP across members",
+      "equipmentTags": [
+        "ACCESSORY",
+        "MP_RESERVOIR"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "MYSTIC": 50
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_MP_RESERVOIR"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 2,
+        "rarity": "UNCOMMON",
+        "upgradeFromId": "CA002_ACCESSORY_MP_RESERVOIR_T1",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_MP_RESERVOIR_T3"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 1,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_MP_RESERVOIR_T3",
+      "displayName": "Runed MP Reservoir",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "RARE",
+      "weight": 1,
+      "tacticalIdentity": "improves personal MP capacity or recovery without pooling MP across members",
+      "equipmentTags": [
+        "ACCESSORY",
+        "MP_RESERVOIR"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "MYSTIC": 65
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_MP_RESERVOIR"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 3,
+        "rarity": "RARE",
+        "upgradeFromId": "CA002_ACCESSORY_MP_RESERVOIR_T2",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_MP_RESERVOIR_T4"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 2,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_MP_RESERVOIR_T4",
+      "displayName": "Heroic MP Reservoir",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "EPIC",
+      "weight": 1,
+      "tacticalIdentity": "improves personal MP capacity or recovery without pooling MP across members",
+      "equipmentTags": [
+        "ACCESSORY",
+        "MP_RESERVOIR"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "MYSTIC": 80
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_MP_RESERVOIR"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 4,
+        "rarity": "EPIC",
+        "upgradeFromId": "CA002_ACCESSORY_MP_RESERVOIR_T3",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_MP_RESERVOIR_T5"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 3,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_MP_RESERVOIR_T5",
+      "displayName": "Worldroad MP Reservoir",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "LEGENDARY",
+      "weight": 1,
+      "tacticalIdentity": "improves personal MP capacity or recovery without pooling MP across members",
+      "equipmentTags": [
+        "ACCESSORY",
+        "MP_RESERVOIR"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "MYSTIC": 95
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_MP_RESERVOIR"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 5,
+        "rarity": "LEGENDARY",
+        "upgradeFromId": "CA002_ACCESSORY_MP_RESERVOIR_T4",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_MP_RESERVOIR_T6"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 4,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_MP_RESERVOIR_T6",
+      "displayName": "Mythic MP Reservoir",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "MYTHIC",
+      "weight": 1,
+      "tacticalIdentity": "improves personal MP capacity or recovery without pooling MP across members",
+      "equipmentTags": [
+        "ACCESSORY",
+        "MP_RESERVOIR"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "MYSTIC": 110
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_MP_RESERVOIR"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 6,
+        "rarity": "MYTHIC",
+        "upgradeFromId": "CA002_ACCESSORY_MP_RESERVOIR_T5",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_MP_RESERVOIR_T7"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 5,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_MP_RESERVOIR_T7",
+      "displayName": "First Alliance MP Reservoir",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "GODLY",
+      "weight": 1,
+      "tacticalIdentity": "improves personal MP capacity or recovery without pooling MP across members",
+      "equipmentTags": [
+        "ACCESSORY",
+        "MP_RESERVOIR"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "MYSTIC": 125
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_MP_RESERVOIR"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 7,
+        "rarity": "GODLY",
+        "upgradeFromId": "CA002_ACCESSORY_MP_RESERVOIR_T6",
+        "upgradeToIds": [],
+        "foundAsDrop": true,
+        "craftable": false,
+        "foundOnly": true,
+        "missionRankMin": 6,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_GUARD_SIGIL_T1",
+      "displayName": "Plain Guard Sigil",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "COMMON",
+      "weight": 1,
+      "tacticalIdentity": "improves interception and prevention when damage is actually stopped",
+      "equipmentTags": [
+        "ACCESSORY",
+        "GUARD_SIGIL"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "GUARD": 35
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_GUARD_SIGIL"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 1,
+        "rarity": "COMMON",
+        "upgradeFromId": null,
+        "upgradeToIds": [
+          "CA002_ACCESSORY_GUARD_SIGIL_T2"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 1,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_GUARD_SIGIL_T2",
+      "displayName": "Etched Guard Sigil",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "UNCOMMON",
+      "weight": 1,
+      "tacticalIdentity": "improves interception and prevention when damage is actually stopped",
+      "equipmentTags": [
+        "ACCESSORY",
+        "GUARD_SIGIL"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "GUARD": 50
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_GUARD_SIGIL"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 2,
+        "rarity": "UNCOMMON",
+        "upgradeFromId": "CA002_ACCESSORY_GUARD_SIGIL_T1",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_GUARD_SIGIL_T3"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 1,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_GUARD_SIGIL_T3",
+      "displayName": "Runed Guard Sigil",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "RARE",
+      "weight": 1,
+      "tacticalIdentity": "improves interception and prevention when damage is actually stopped",
+      "equipmentTags": [
+        "ACCESSORY",
+        "GUARD_SIGIL"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "GUARD": 65
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_GUARD_SIGIL"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 3,
+        "rarity": "RARE",
+        "upgradeFromId": "CA002_ACCESSORY_GUARD_SIGIL_T2",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_GUARD_SIGIL_T4"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 2,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_GUARD_SIGIL_T4",
+      "displayName": "Heroic Guard Sigil",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "EPIC",
+      "weight": 1,
+      "tacticalIdentity": "improves interception and prevention when damage is actually stopped",
+      "equipmentTags": [
+        "ACCESSORY",
+        "GUARD_SIGIL"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "GUARD": 80
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_GUARD_SIGIL"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 4,
+        "rarity": "EPIC",
+        "upgradeFromId": "CA002_ACCESSORY_GUARD_SIGIL_T3",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_GUARD_SIGIL_T5"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 3,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_GUARD_SIGIL_T5",
+      "displayName": "Worldroad Guard Sigil",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "LEGENDARY",
+      "weight": 1,
+      "tacticalIdentity": "improves interception and prevention when damage is actually stopped",
+      "equipmentTags": [
+        "ACCESSORY",
+        "GUARD_SIGIL"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "GUARD": 95
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_GUARD_SIGIL"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 5,
+        "rarity": "LEGENDARY",
+        "upgradeFromId": "CA002_ACCESSORY_GUARD_SIGIL_T4",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_GUARD_SIGIL_T6"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 4,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_GUARD_SIGIL_T6",
+      "displayName": "Mythic Guard Sigil",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "MYTHIC",
+      "weight": 1,
+      "tacticalIdentity": "improves interception and prevention when damage is actually stopped",
+      "equipmentTags": [
+        "ACCESSORY",
+        "GUARD_SIGIL"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "GUARD": 110
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_GUARD_SIGIL"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 6,
+        "rarity": "MYTHIC",
+        "upgradeFromId": "CA002_ACCESSORY_GUARD_SIGIL_T5",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_GUARD_SIGIL_T7"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 5,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_GUARD_SIGIL_T7",
+      "displayName": "First Alliance Guard Sigil",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "GODLY",
+      "weight": 1,
+      "tacticalIdentity": "improves interception and prevention when damage is actually stopped",
+      "equipmentTags": [
+        "ACCESSORY",
+        "GUARD_SIGIL"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "GUARD": 125
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_GUARD_SIGIL"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 7,
+        "rarity": "GODLY",
+        "upgradeFromId": "CA002_ACCESSORY_GUARD_SIGIL_T6",
+        "upgradeToIds": [],
+        "foundAsDrop": true,
+        "craftable": false,
+        "foundOnly": true,
+        "missionRankMin": 6,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_RESTORATION_CHARM_T1",
+      "displayName": "Plain Restoration Charm",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "COMMON",
+      "weight": 1,
+      "tacticalIdentity": "improves healing and cleansing only on valid missing-HP or afflicted targets",
+      "equipmentTags": [
+        "ACCESSORY",
+        "RESTORATION_CHARM"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "HEALING": 35
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_RESTORATION_CHARM"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 1,
+        "rarity": "COMMON",
+        "upgradeFromId": null,
+        "upgradeToIds": [
+          "CA002_ACCESSORY_RESTORATION_CHARM_T2"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 1,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_RESTORATION_CHARM_T2",
+      "displayName": "Etched Restoration Charm",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "UNCOMMON",
+      "weight": 1,
+      "tacticalIdentity": "improves healing and cleansing only on valid missing-HP or afflicted targets",
+      "equipmentTags": [
+        "ACCESSORY",
+        "RESTORATION_CHARM"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "HEALING": 50
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_RESTORATION_CHARM"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 2,
+        "rarity": "UNCOMMON",
+        "upgradeFromId": "CA002_ACCESSORY_RESTORATION_CHARM_T1",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_RESTORATION_CHARM_T3"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 1,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_RESTORATION_CHARM_T3",
+      "displayName": "Runed Restoration Charm",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "RARE",
+      "weight": 1,
+      "tacticalIdentity": "improves healing and cleansing only on valid missing-HP or afflicted targets",
+      "equipmentTags": [
+        "ACCESSORY",
+        "RESTORATION_CHARM"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "HEALING": 65
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_RESTORATION_CHARM"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 3,
+        "rarity": "RARE",
+        "upgradeFromId": "CA002_ACCESSORY_RESTORATION_CHARM_T2",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_RESTORATION_CHARM_T4"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 2,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_RESTORATION_CHARM_T4",
+      "displayName": "Heroic Restoration Charm",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "EPIC",
+      "weight": 1,
+      "tacticalIdentity": "improves healing and cleansing only on valid missing-HP or afflicted targets",
+      "equipmentTags": [
+        "ACCESSORY",
+        "RESTORATION_CHARM"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "HEALING": 80
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_RESTORATION_CHARM"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 4,
+        "rarity": "EPIC",
+        "upgradeFromId": "CA002_ACCESSORY_RESTORATION_CHARM_T3",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_RESTORATION_CHARM_T5"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 3,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_RESTORATION_CHARM_T5",
+      "displayName": "Worldroad Restoration Charm",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "LEGENDARY",
+      "weight": 1,
+      "tacticalIdentity": "improves healing and cleansing only on valid missing-HP or afflicted targets",
+      "equipmentTags": [
+        "ACCESSORY",
+        "RESTORATION_CHARM"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "HEALING": 95
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_RESTORATION_CHARM"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 5,
+        "rarity": "LEGENDARY",
+        "upgradeFromId": "CA002_ACCESSORY_RESTORATION_CHARM_T4",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_RESTORATION_CHARM_T6"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 4,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_RESTORATION_CHARM_T6",
+      "displayName": "Mythic Restoration Charm",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "MYTHIC",
+      "weight": 1,
+      "tacticalIdentity": "improves healing and cleansing only on valid missing-HP or afflicted targets",
+      "equipmentTags": [
+        "ACCESSORY",
+        "RESTORATION_CHARM"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "HEALING": 110
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_RESTORATION_CHARM"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 6,
+        "rarity": "MYTHIC",
+        "upgradeFromId": "CA002_ACCESSORY_RESTORATION_CHARM_T5",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_RESTORATION_CHARM_T7"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 5,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_RESTORATION_CHARM_T7",
+      "displayName": "First Alliance Restoration Charm",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "GODLY",
+      "weight": 1,
+      "tacticalIdentity": "improves healing and cleansing only on valid missing-HP or afflicted targets",
+      "equipmentTags": [
+        "ACCESSORY",
+        "RESTORATION_CHARM"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "HEALING": 125
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_RESTORATION_CHARM"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 7,
+        "rarity": "GODLY",
+        "upgradeFromId": "CA002_ACCESSORY_RESTORATION_CHARM_T6",
+        "upgradeToIds": [],
+        "foundAsDrop": true,
+        "craftable": false,
+        "foundOnly": true,
+        "missionRankMin": 6,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_MASTERY_TOKEN_T1",
+      "displayName": "Plain Mastery Token",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "COMMON",
+      "weight": 1,
+      "tacticalIdentity": "slightly improves meaningful-use discovery while preserving anti-spam rules",
+      "equipmentTags": [
+        "ACCESSORY",
+        "MASTERY_TOKEN"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "TRAINING": 35
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_MASTERY_TOKEN"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 1,
+        "rarity": "COMMON",
+        "upgradeFromId": null,
+        "upgradeToIds": [
+          "CA002_ACCESSORY_MASTERY_TOKEN_T2"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 1,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_MASTERY_TOKEN_T2",
+      "displayName": "Etched Mastery Token",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "UNCOMMON",
+      "weight": 1,
+      "tacticalIdentity": "slightly improves meaningful-use discovery while preserving anti-spam rules",
+      "equipmentTags": [
+        "ACCESSORY",
+        "MASTERY_TOKEN"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "TRAINING": 50
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_MASTERY_TOKEN"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 2,
+        "rarity": "UNCOMMON",
+        "upgradeFromId": "CA002_ACCESSORY_MASTERY_TOKEN_T1",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_MASTERY_TOKEN_T3"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 1,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_MASTERY_TOKEN_T3",
+      "displayName": "Runed Mastery Token",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "RARE",
+      "weight": 1,
+      "tacticalIdentity": "slightly improves meaningful-use discovery while preserving anti-spam rules",
+      "equipmentTags": [
+        "ACCESSORY",
+        "MASTERY_TOKEN"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "TRAINING": 65
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_MASTERY_TOKEN"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 3,
+        "rarity": "RARE",
+        "upgradeFromId": "CA002_ACCESSORY_MASTERY_TOKEN_T2",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_MASTERY_TOKEN_T4"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 2,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_MASTERY_TOKEN_T4",
+      "displayName": "Heroic Mastery Token",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "EPIC",
+      "weight": 1,
+      "tacticalIdentity": "slightly improves meaningful-use discovery while preserving anti-spam rules",
+      "equipmentTags": [
+        "ACCESSORY",
+        "MASTERY_TOKEN"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "TRAINING": 80
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_MASTERY_TOKEN"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 4,
+        "rarity": "EPIC",
+        "upgradeFromId": "CA002_ACCESSORY_MASTERY_TOKEN_T3",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_MASTERY_TOKEN_T5"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 3,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_MASTERY_TOKEN_T5",
+      "displayName": "Worldroad Mastery Token",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "LEGENDARY",
+      "weight": 1,
+      "tacticalIdentity": "slightly improves meaningful-use discovery while preserving anti-spam rules",
+      "equipmentTags": [
+        "ACCESSORY",
+        "MASTERY_TOKEN"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "TRAINING": 95
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_MASTERY_TOKEN"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 5,
+        "rarity": "LEGENDARY",
+        "upgradeFromId": "CA002_ACCESSORY_MASTERY_TOKEN_T4",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_MASTERY_TOKEN_T6"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 4,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_MASTERY_TOKEN_T6",
+      "displayName": "Mythic Mastery Token",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "MYTHIC",
+      "weight": 1,
+      "tacticalIdentity": "slightly improves meaningful-use discovery while preserving anti-spam rules",
+      "equipmentTags": [
+        "ACCESSORY",
+        "MASTERY_TOKEN"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "TRAINING": 110
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_MASTERY_TOKEN"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 6,
+        "rarity": "MYTHIC",
+        "upgradeFromId": "CA002_ACCESSORY_MASTERY_TOKEN_T5",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_MASTERY_TOKEN_T7"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 5,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_MASTERY_TOKEN_T7",
+      "displayName": "First Alliance Mastery Token",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "GODLY",
+      "weight": 1,
+      "tacticalIdentity": "slightly improves meaningful-use discovery while preserving anti-spam rules",
+      "equipmentTags": [
+        "ACCESSORY",
+        "MASTERY_TOKEN"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "TRAINING": 125
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_MASTERY_TOKEN"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 7,
+        "rarity": "GODLY",
+        "upgradeFromId": "CA002_ACCESSORY_MASTERY_TOKEN_T6",
+        "upgradeToIds": [],
+        "foundAsDrop": true,
+        "craftable": false,
+        "foundOnly": true,
+        "missionRankMin": 6,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_EXPEDITION_COMPASS_T1",
+      "displayName": "Plain Expedition Compass",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "COMMON",
+      "weight": 1,
+      "tacticalIdentity": "improves scouting, objective, and reward information without rerolling committed results",
+      "equipmentTags": [
+        "ACCESSORY",
+        "EXPEDITION_COMPASS"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 35
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_EXPEDITION_COMPASS"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 1,
+        "rarity": "COMMON",
+        "upgradeFromId": null,
+        "upgradeToIds": [
+          "CA002_ACCESSORY_EXPEDITION_COMPASS_T2"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 1,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_EXPEDITION_COMPASS_T2",
+      "displayName": "Etched Expedition Compass",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "UNCOMMON",
+      "weight": 1,
+      "tacticalIdentity": "improves scouting, objective, and reward information without rerolling committed results",
+      "equipmentTags": [
+        "ACCESSORY",
+        "EXPEDITION_COMPASS"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 50
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_EXPEDITION_COMPASS"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 2,
+        "rarity": "UNCOMMON",
+        "upgradeFromId": "CA002_ACCESSORY_EXPEDITION_COMPASS_T1",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_EXPEDITION_COMPASS_T3"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 1,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_EXPEDITION_COMPASS_T3",
+      "displayName": "Runed Expedition Compass",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "RARE",
+      "weight": 1,
+      "tacticalIdentity": "improves scouting, objective, and reward information without rerolling committed results",
+      "equipmentTags": [
+        "ACCESSORY",
+        "EXPEDITION_COMPASS"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 65
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_EXPEDITION_COMPASS"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 3,
+        "rarity": "RARE",
+        "upgradeFromId": "CA002_ACCESSORY_EXPEDITION_COMPASS_T2",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_EXPEDITION_COMPASS_T4"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 2,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_EXPEDITION_COMPASS_T4",
+      "displayName": "Heroic Expedition Compass",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "EPIC",
+      "weight": 1,
+      "tacticalIdentity": "improves scouting, objective, and reward information without rerolling committed results",
+      "equipmentTags": [
+        "ACCESSORY",
+        "EXPEDITION_COMPASS"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 80
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_EXPEDITION_COMPASS"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 4,
+        "rarity": "EPIC",
+        "upgradeFromId": "CA002_ACCESSORY_EXPEDITION_COMPASS_T3",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_EXPEDITION_COMPASS_T5"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 3,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_EXPEDITION_COMPASS_T5",
+      "displayName": "Worldroad Expedition Compass",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "LEGENDARY",
+      "weight": 1,
+      "tacticalIdentity": "improves scouting, objective, and reward information without rerolling committed results",
+      "equipmentTags": [
+        "ACCESSORY",
+        "EXPEDITION_COMPASS"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 95
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_EXPEDITION_COMPASS"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 5,
+        "rarity": "LEGENDARY",
+        "upgradeFromId": "CA002_ACCESSORY_EXPEDITION_COMPASS_T4",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_EXPEDITION_COMPASS_T6"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 4,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_EXPEDITION_COMPASS_T6",
+      "displayName": "Mythic Expedition Compass",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "MYTHIC",
+      "weight": 1,
+      "tacticalIdentity": "improves scouting, objective, and reward information without rerolling committed results",
+      "equipmentTags": [
+        "ACCESSORY",
+        "EXPEDITION_COMPASS"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 110
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_EXPEDITION_COMPASS"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 6,
+        "rarity": "MYTHIC",
+        "upgradeFromId": "CA002_ACCESSORY_EXPEDITION_COMPASS_T5",
+        "upgradeToIds": [
+          "CA002_ACCESSORY_EXPEDITION_COMPASS_T7"
+        ],
+        "foundAsDrop": true,
+        "craftable": true,
+        "foundOnly": false,
+        "missionRankMin": 5,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    },
+    {
+      "id": "CA002_ACCESSORY_EXPEDITION_COMPASS_T7",
+      "displayName": "First Alliance Expedition Compass",
+      "category": "ACCESSORY",
+      "validSlots": [
+        "SLOT_ACCESSORY_1",
+        "SLOT_ACCESSORY_2"
+      ],
+      "baseQuality": "GODLY",
+      "weight": 1,
+      "tacticalIdentity": "improves scouting, objective, and reward information without rerolling committed results",
+      "equipmentTags": [
+        "ACCESSORY",
+        "EXPEDITION_COMPASS"
+      ],
+      "skillCheckModifiers": {},
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 125
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ACCESSORY",
+        "VIS_EXPEDITION_COMPASS"
+      ],
+      "contentAuthority002": {
+        "progressionTier": 7,
+        "rarity": "GODLY",
+        "upgradeFromId": "CA002_ACCESSORY_EXPEDITION_COMPASS_T6",
+        "upgradeToIds": [],
+        "foundAsDrop": true,
+        "craftable": false,
+        "foundOnly": true,
+        "missionRankMin": 6,
+        "sourceAuthority": "CONTENT_AUTHORITY_002"
+      }
+    }
+  ]
+}

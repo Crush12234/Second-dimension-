@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "World Pack Shard",
+  "type": "object",
+  "required": [
+    "contentVersion",
+    "worldPack",
+    "signatureRecruits",
+    "characterProgressionManifests"
+  ],
+  "properties": {
+    "contentVersion": {
+      "type": "string"
+    },
+    "worldPack": {
+      "type": "object"
+    },
+    "signatureRecruits": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10
+    },
+    "characterProgressionManifests": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10
+    }
+  },
+  "additionalProperties": true
+}

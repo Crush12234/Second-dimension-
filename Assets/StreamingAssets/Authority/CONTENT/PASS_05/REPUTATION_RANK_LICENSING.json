@@ -1,0 +1,385 @@
+{
+  "contentVersion": "GOW_PASS05_0.10",
+  "reputationTracks": [
+    {
+      "id": "REPUTATION_GUILD",
+      "displayName": "Guild Reputation",
+      "minimum": -1000,
+      "maximum": 50000,
+      "starting": 0,
+      "visible": true
+    },
+    {
+      "id": "REPUTATION_CIVIC_TRUST",
+      "displayName": "Civic Trust",
+      "minimum": -1000,
+      "maximum": 1000,
+      "starting": 0,
+      "visible": true
+    },
+    {
+      "id": "REPUTATION_SAFETY_RECORD",
+      "displayName": "Safety Record",
+      "minimum": -1000,
+      "maximum": 1000,
+      "starting": 0,
+      "visible": true
+    },
+    {
+      "id": "REPUTATION_ABYSS_STEWARDSHIP",
+      "displayName": "Abyss Stewardship",
+      "minimum": -1000,
+      "maximum": 1000,
+      "starting": 0,
+      "visible": true
+    },
+    {
+      "id": "REPUTATION_WORLD_TRUST",
+      "displayName": "World Trust",
+      "minimum": -1000,
+      "maximum": 1000,
+      "starting": 0,
+      "visible": true
+    },
+    {
+      "id": "REPUTATION_TRADE_RELIABILITY",
+      "displayName": "Trade Reliability",
+      "minimum": -1000,
+      "maximum": 1000,
+      "starting": 0,
+      "visible": true
+    }
+  ],
+  "guildRanks": [
+    {
+      "id": "GUILD_RANK_UNCHARTERED",
+      "displayName": "Unchartered",
+      "minimumGuildReputation": 0,
+      "minimumHallStage": 0,
+      "requirements": [
+        "STORY_GUILD_INHERITED"
+      ]
+    },
+    {
+      "id": "GUILD_RANK_COPPER",
+      "displayName": "Copper",
+      "minimumGuildReputation": 200,
+      "minimumHallStage": 0,
+      "requirements": [
+        "3_COMPLETED_CONTRACTS",
+        "CIVIC_TRUST_AT_LEAST_0"
+      ]
+    },
+    {
+      "id": "GUILD_RANK_IRON",
+      "displayName": "Iron",
+      "minimumGuildReputation": 750,
+      "minimumHallStage": 1,
+      "requirements": [
+        "15_COMPLETED_CONTRACTS",
+        "SAFETY_RECORD_AT_LEAST_100",
+        "FIRST_BOSS_OPERATION_COMPLETE"
+      ]
+    },
+    {
+      "id": "GUILD_RANK_SILVER",
+      "displayName": "Silver",
+      "minimumGuildReputation": 2000,
+      "minimumHallStage": 2,
+      "requirements": [
+        "40_COMPLETED_CONTRACTS",
+        "ABYSS_COPPER_LICENSE",
+        "CIVIC_TRUST_AT_LEAST_150"
+      ]
+    },
+    {
+      "id": "GUILD_RANK_GOLD",
+      "displayName": "Gold",
+      "minimumGuildReputation": 5000,
+      "minimumHallStage": 3,
+      "requirements": [
+        "100_COMPLETED_CONTRACTS",
+        "ONE_ALLIANCE_CHARTER",
+        "SAFETY_RECORD_AT_LEAST_250"
+      ]
+    },
+    {
+      "id": "GUILD_RANK_GATEWARDEN",
+      "displayName": "Gatewarden",
+      "minimumGuildReputation": 12000,
+      "minimumHallStage": 4,
+      "requirements": [
+        "TWO_ALLIANCE_CHARTERS",
+        "GATE_OPERATION_LICENSE",
+        "CIVIC_TRUST_AT_LEAST_400"
+      ]
+    },
+    {
+      "id": "GUILD_RANK_FIRST_ALLIANCE",
+      "displayName": "First Alliance",
+      "minimumGuildReputation": 30000,
+      "minimumHallStage": 5,
+      "requirements": [
+        "FIVE_ALLIANCE_CHARTERS",
+        "WORLD_TRUST_AT_LEAST_600",
+        "STORY_FIRST_ALLIANCE_RECOGNIZED"
+      ]
+    }
+  ],
+  "licenses": [
+    {
+      "id": "LICENSE_LOCAL_CONTRACTS",
+      "displayName": "Local Contract Charter",
+      "facilityId": "FACILITY_RECRUITMENT_OFFICE",
+      "minimumFacilityLevel": 0,
+      "minimumGuildRankId": "GUILD_RANK_UNCHARTERED",
+      "requiredStoryFlags": [
+        "STORY_GUILD_INHERITED"
+      ],
+      "maximumScope": "SKYHOME_OUTER_GATEWORKS"
+    },
+    {
+      "id": "LICENSE_ARTIFACT_INVOCATION",
+      "displayName": "Artifact Invocation Safety Certificate",
+      "facilityId": "FACILITY_RESEARCH_ROOM",
+      "minimumFacilityLevel": 2,
+      "minimumGuildRankId": "GUILD_RANK_IRON",
+      "requiredStoryFlags": [
+        "STORY_FIRST_INVOCATION_ARTIFACT_STUDIED"
+      ],
+      "maximumScope": "OPENING_INVOCATION_ARTIFACTS"
+    },
+    {
+      "id": "LICENSE_GATE_OPERATION",
+      "displayName": "Gate Operations License",
+      "facilityId": "FACILITY_GATE_OPERATIONS",
+      "minimumFacilityLevel": 2,
+      "minimumGuildRankId": "GUILD_RANK_SILVER",
+      "requiredStoryFlags": [
+        "STORY_GATE_ROUTE_LICENSE_OFFERED"
+      ],
+      "maximumScope": "AUTHORIZED_GATE_ROUTES"
+    },
+    {
+      "id": "LICENSE_WORLD_LIAISON",
+      "displayName": "World Liaison Charter",
+      "facilityId": "FACILITY_EMBASSY_HALL",
+      "minimumFacilityLevel": 2,
+      "minimumGuildRankId": "GUILD_RANK_SILVER",
+      "requiredStoryFlags": [
+        "STORY_FIRST_ALLIANCE_PETITION"
+      ],
+      "maximumScope": "PETITIONING_WORLD_ONLY"
+    },
+    {
+      "id": "LICENSE_LINKED_FRONT",
+      "displayName": "Linked-Front Operations Certificate",
+      "facilityId": "FACILITY_STRATEGY_ROOM",
+      "minimumFacilityLevel": 1,
+      "minimumGuildRankId": "GUILD_RANK_COPPER",
+      "requiredStoryFlags": [
+        "STORY_LINKED_FRONT_TUTORIAL_COMPLETE"
+      ],
+      "maximumScope": "CURRENT_HALL_LIMIT"
+    },
+    {
+      "id": "LICENSE_PUBLIC_SHELTER",
+      "displayName": "Public Shelter License",
+      "facilityId": "FACILITY_EMERGENCY_SHELTER",
+      "minimumFacilityLevel": 1,
+      "minimumGuildRankId": "GUILD_RANK_COPPER",
+      "requiredStoryFlags": [],
+      "maximumScope": "FACILITY_CAPACITY"
+    }
+  ],
+  "abyssLicenses": [
+    {
+      "id": "ABYSS_LICENSE_OBSERVER",
+      "displayName": "Observer Permit",
+      "floorMinimum": 1,
+      "floorMaximum": 3,
+      "minimumDeskLevel": 0,
+      "minimumGuildRankId": "GUILD_RANK_UNCHARTERED",
+      "futureLocked": false,
+      "requirements": [
+        "SUPERVISED_TEAM",
+        "MEDICAL_CLEARANCE",
+        "ETHICS_OATH"
+      ]
+    },
+    {
+      "id": "ABYSS_LICENSE_COPPER",
+      "displayName": "Copper Abyss License",
+      "floorMinimum": 1,
+      "floorMaximum": 10,
+      "minimumDeskLevel": 1,
+      "minimumGuildRankId": "GUILD_RANK_IRON",
+      "futureLocked": false,
+      "requirements": [
+        "TEAM_REGISTRATION",
+        "GEAR_INSPECTION",
+        "EMERGENCY_CONTACT",
+        "AUDIT_SCORE_600"
+      ]
+    },
+    {
+      "id": "ABYSS_LICENSE_IRON",
+      "displayName": "Iron Abyss License",
+      "floorMinimum": 11,
+      "floorMaximum": 100,
+      "minimumDeskLevel": 2,
+      "minimumGuildRankId": "GUILD_RANK_SILVER",
+      "futureLocked": false,
+      "requirements": [
+        "COPPER_CLEAR_RECORD",
+        "RESCUE_DRILL",
+        "AUDIT_SCORE_650"
+      ]
+    },
+    {
+      "id": "ABYSS_LICENSE_SILVER",
+      "displayName": "Silver Abyss License",
+      "floorMinimum": 101,
+      "floorMaximum": 500,
+      "minimumDeskLevel": 3,
+      "minimumGuildRankId": "GUILD_RANK_GOLD",
+      "futureLocked": true,
+      "requirements": [
+        "STORY_GUILD_REALMS_OPEN",
+        "AUDIT_SCORE_700"
+      ]
+    },
+    {
+      "id": "ABYSS_LICENSE_GOLD",
+      "displayName": "Gold Abyss License",
+      "floorMinimum": 501,
+      "floorMaximum": 1000,
+      "minimumDeskLevel": 4,
+      "minimumGuildRankId": "GUILD_RANK_GATEWARDEN",
+      "futureLocked": true,
+      "requirements": [
+        "STORY_HERO_REALMS_OPEN",
+        "AUDIT_SCORE_750"
+      ]
+    },
+    {
+      "id": "ABYSS_LICENSE_STEWARD_PROVISIONAL",
+      "displayName": "Steward Provisional License",
+      "floorMinimum": 1001,
+      "floorMaximum": 5000,
+      "minimumDeskLevel": 5,
+      "minimumGuildRankId": "GUILD_RANK_FIRST_ALLIANCE",
+      "futureLocked": true,
+      "requirements": [
+        "STORY_STEWARDSHIP_TRIALS",
+        "ABYSS_RECOGNITION",
+        "AUDIT_SCORE_850"
+      ]
+    },
+    {
+      "id": "ABYSS_LICENSE_CARETAKER_PROVISIONAL",
+      "displayName": "Caretaker Provisional License",
+      "floorMinimum": 5001,
+      "floorMaximum": 10000,
+      "minimumDeskLevel": 6,
+      "minimumGuildRankId": "GUILD_RANK_FIRST_ALLIANCE",
+      "futureLocked": true,
+      "requirements": [
+        "STORY_FLOOR_10000_APPROACH",
+        "ABYSS_RECOGNITION",
+        "AUDIT_SCORE_900"
+      ]
+    }
+  ],
+  "auditRules": {
+    "scoreRange": [
+      0,
+      1000
+    ],
+    "startingScore": 700,
+    "visibleComponents": {
+      "accurateReporting": 200,
+      "medicalCompliance": 150,
+      "sustainableExtraction": 200,
+      "rescuePreparedness": 150,
+      "equipmentInspection": 100,
+      "civilianProtection": 200
+    },
+    "tiers": [
+      {
+        "id": "AUDIT_SUSPENDED",
+        "minimum": 0,
+        "maximum": 399,
+        "result": "Floor access suspended; corrective plan offered."
+      },
+      {
+        "id": "AUDIT_PROBATION",
+        "minimum": 400,
+        "maximum": 599,
+        "result": "Supervised access and mandatory reporting."
+      },
+      {
+        "id": "AUDIT_CLEAR",
+        "minimum": 600,
+        "maximum": 799,
+        "result": "Normal licensed access."
+      },
+      {
+        "id": "AUDIT_MODEL_STEWARD",
+        "minimum": 800,
+        "maximum": 1000,
+        "result": "Responsible-use bonuses and teaching opportunities."
+      }
+    ],
+    "recoveryPlans": [
+      {
+        "id": "RECOVERY_PUBLIC_RESTITUTION",
+        "actions": [
+          "fund repair",
+          "publish accounting",
+          "complete civic contract"
+        ],
+        "restores": [
+          "CIVIC_TRUST",
+          "AUDIT_SCORE"
+        ]
+      },
+      {
+        "id": "RECOVERY_RESCUE_SERVICE",
+        "actions": [
+          "serve supervised rescue duty",
+          "complete safety drill"
+        ],
+        "restores": [
+          "SAFETY_RECORD",
+          "AUDIT_SCORE"
+        ]
+      },
+      {
+        "id": "RECOVERY_STAFF_RETRAINING",
+        "actions": [
+          "replace unsafe process",
+          "train responsible staff"
+        ],
+        "restores": [
+          "AUDIT_SCORE"
+        ]
+      },
+      {
+        "id": "RECOVERY_PUBLIC_HEARING",
+        "actions": [
+          "record objections",
+          "answer evidence",
+          "accept enforceable limits"
+        ],
+        "restores": [
+          "CIVIC_TRUST",
+          "WORLD_TRUST"
+        ]
+      }
+    ],
+    "noPermanentSoftlock": true,
+    "demotionRequiresWarningAndReview": true
+  },
+  "failureRecoveryLaw": "Failure can reduce trust, create supervision, or suspend a route, but every nonfinal consequence has a visible recovery path."
+}

@@ -1,0 +1,4 @@
+#if UNITY_EDITOR
+using System; using SecondDimension.Presentation.Battle.ArtProduction011; using UnityEditor; using UnityEngine;
+public static class BattleArtValidationMenu011 { [MenuItem("Second Dimension/Art 011/Validate Thursday Art")] public static void Validate(){var m=BattleArtManifestLoader011.Load();if(m.characters.Length!=9)throw new InvalidOperationException("Expected 9 combatants");int n=0;foreach(var c in m.characters){if(c.poses.Length!=8)throw new InvalidOperationException(c.stableId);foreach(var p in c.poses){n++;if(Resources.Load<Sprite>(p.resourcesPath)==null)throw new InvalidOperationException(p.resourcesPath);}}if(m.laws.supportsAlliedUnionSlots!=10||m.laws.supportsEnemyUnionSlots!=10||m.laws.individualArtSelectableInStandard)throw new InvalidOperationException("Battle laws failed");Debug.Log($"ART 011 PASS: {n} poses, {m.vfx.Length} VFX, {m.icons.Length} icons");}}
+#endif

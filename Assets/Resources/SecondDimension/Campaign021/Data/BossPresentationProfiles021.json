@@ -1,0 +1,1796 @@
+{
+  "profiles": [
+    {
+      "profileId": "BOSSPRES021_BOSS018_GOBLIN_01",
+      "bossId": "BOSS018_GOBLIN_01",
+      "worldId": "WORLD_GOBLIN_001",
+      "displayName": "King Varrik the Invoice-Maker",
+      "encounterRole": "POLITICAL_COMMANDER",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_GOBLIN_01",
+      "introAudioCueId": "AUDIO021_BOSS018_GOBLIN_01_INTRO",
+      "arenaThemeId": "THEME021_WORLD_GOBLIN_001",
+      "preBattleScene": "The Guild confronts King Varrik the Invoice-Maker as a person shaped by memory, accelerated history, industry, abandonment, and myth., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "King Varrik the Invoice-Maker — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_GOBLIN_001_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_GOBLIN_01_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "King Varrik the Invoice-Maker — Phase 2",
+          "objective": "Did the goblins remember Kael as savior, god, liar, or myth?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_GOBLIN_001_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_GOBLIN_01_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "diplomacy",
+      "objectiveHook": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_GOBLIN_02",
+      "bossId": "BOSS018_GOBLIN_02",
+      "worldId": "WORLD_GOBLIN_001",
+      "displayName": "Saint-Emperor Gedd",
+      "encounterRole": "ELITE_UNION",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_GOBLIN_02",
+      "introAudioCueId": "AUDIO021_BOSS018_GOBLIN_02_INTRO",
+      "arenaThemeId": "THEME021_WORLD_GOBLIN_001",
+      "preBattleScene": "The Guild confronts Saint-Emperor Gedd as a person shaped by memory, accelerated history, industry, abandonment, and myth., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Saint-Emperor Gedd — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_GOBLIN_001_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_GOBLIN_02_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "Saint-Emperor Gedd — Phase 2",
+          "objective": "Did the goblins remember Kael as savior, god, liar, or myth?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_GOBLIN_001_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_GOBLIN_02_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "formation",
+      "objectiveHook": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_GOBLIN_03",
+      "bossId": "BOSS018_GOBLIN_03",
+      "worldId": "WORLD_GOBLIN_001",
+      "displayName": "The Seven Foremen of Smoke",
+      "encounterRole": "INSTITUTIONAL_BOSS",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_GOBLIN_03",
+      "introAudioCueId": "AUDIO021_BOSS018_GOBLIN_03_INTRO",
+      "arenaThemeId": "THEME021_WORLD_GOBLIN_001",
+      "preBattleScene": "The Guild confronts The Seven Foremen of Smoke as a person shaped by memory, accelerated history, industry, abandonment, and myth., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "The Seven Foremen of Smoke — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_GOBLIN_001_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_GOBLIN_03_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "The Seven Foremen of Smoke — Phase 2",
+          "objective": "Did the goblins remember Kael as savior, god, liar, or myth?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_GOBLIN_001_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_GOBLIN_03_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "equipment evolution",
+      "objectiveHook": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_GOBLIN_04",
+      "bossId": "BOSS018_GOBLIN_04",
+      "worldId": "WORLD_GOBLIN_001",
+      "displayName": "The Rust Plague Engine",
+      "encounterRole": "SYSTEM_OR_MONSTER_THREAT",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_GOBLIN_04",
+      "introAudioCueId": "AUDIO021_BOSS018_GOBLIN_04_INTRO",
+      "arenaThemeId": "THEME021_WORLD_GOBLIN_001",
+      "preBattleScene": "The Guild confronts The Rust Plague Engine as a person shaped by memory, accelerated history, industry, abandonment, and myth., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "The Rust Plague Engine — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_GOBLIN_001_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_GOBLIN_04_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "The Rust Plague Engine — Phase 2",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_GOBLIN_001_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_GOBLIN_04_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 3,
+          "title": "The Rust Plague Engine — Phase 3",
+          "objective": "Did the goblins remember Kael as savior, god, liar, or myth?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_GOBLIN_001_BOSS_PHASE_3",
+          "audioCueId": "AUDIO021_BOSS018_GOBLIN_04_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "city specialization",
+      "objectiveHook": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_ORC_01",
+      "bossId": "BOSS018_ORC_01",
+      "worldId": "WORLD_ORC_002",
+      "displayName": "Karv Blood-Tax",
+      "encounterRole": "POLITICAL_COMMANDER",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_ORC_01",
+      "introAudioCueId": "AUDIO021_BOSS018_ORC_01_INTRO",
+      "arenaThemeId": "THEME021_WORLD_ORC_002",
+      "preBattleScene": "The Guild confronts Karv Blood-Tax as a person shaped by strength, honor, childhood, protection, and the inheritance of war., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Karv Blood-Tax — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_ORC_002_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_ORC_01_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "Karv Blood-Tax — Phase 2",
+          "objective": "Can a race built on war redefine strength?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_ORC_002_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_ORC_01_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "diplomacy",
+      "objectiveHook": "Can a race built on war redefine strength?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_ORC_02",
+      "bossId": "BOSS018_ORC_02",
+      "worldId": "WORLD_ORC_002",
+      "displayName": "The Arena Saints",
+      "encounterRole": "ELITE_UNION",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_ORC_02",
+      "introAudioCueId": "AUDIO021_BOSS018_ORC_02_INTRO",
+      "arenaThemeId": "THEME021_WORLD_ORC_002",
+      "preBattleScene": "The Guild confronts The Arena Saints as a person shaped by strength, honor, childhood, protection, and the inheritance of war., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "The Arena Saints — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_ORC_002_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_ORC_02_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "The Arena Saints — Phase 2",
+          "objective": "Can a race built on war redefine strength?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_ORC_002_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_ORC_02_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "formation",
+      "objectiveHook": "Can a race built on war redefine strength?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_ORC_03",
+      "bossId": "BOSS018_ORC_03",
+      "worldId": "WORLD_ORC_002",
+      "displayName": "Groth the Lesson-Maker",
+      "encounterRole": "INSTITUTIONAL_BOSS",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_ORC_03",
+      "introAudioCueId": "AUDIO021_BOSS018_ORC_03_INTRO",
+      "arenaThemeId": "THEME021_WORLD_ORC_002",
+      "preBattleScene": "The Guild confronts Groth the Lesson-Maker as a person shaped by strength, honor, childhood, protection, and the inheritance of war., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Groth the Lesson-Maker — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_ORC_002_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_ORC_03_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "Groth the Lesson-Maker — Phase 2",
+          "objective": "Can a race built on war redefine strength?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_ORC_002_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_ORC_03_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "equipment evolution",
+      "objectiveHook": "Can a race built on war redefine strength?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_ORC_04",
+      "bossId": "BOSS018_ORC_04",
+      "worldId": "WORLD_ORC_002",
+      "displayName": "The Last Child-Spear Champion",
+      "encounterRole": "SYSTEM_OR_MONSTER_THREAT",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_ORC_04",
+      "introAudioCueId": "AUDIO021_BOSS018_ORC_04_INTRO",
+      "arenaThemeId": "THEME021_WORLD_ORC_002",
+      "preBattleScene": "The Guild confronts The Last Child-Spear Champion as a person shaped by strength, honor, childhood, protection, and the inheritance of war., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "The Last Child-Spear Champion — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_ORC_002_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_ORC_04_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "The Last Child-Spear Champion — Phase 2",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_ORC_002_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_ORC_04_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 3,
+          "title": "The Last Child-Spear Champion — Phase 3",
+          "objective": "Can a race built on war redefine strength?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_ORC_002_BOSS_PHASE_3",
+          "audioCueId": "AUDIO021_BOSS018_ORC_04_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "city specialization",
+      "objectiveHook": "Can a race built on war redefine strength?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_BEASTKIN_01",
+      "bossId": "BOSS018_BEASTKIN_01",
+      "worldId": "WORLD_BEASTKIN_003",
+      "displayName": "The Golden Cage Duke",
+      "encounterRole": "POLITICAL_COMMANDER",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_BEASTKIN_01",
+      "introAudioCueId": "AUDIO021_BOSS018_BEASTKIN_01_INTRO",
+      "arenaThemeId": "THEME021_WORLD_BEASTKIN_003",
+      "preBattleScene": "The Guild confronts The Golden Cage Duke as a person shaped by freedom versus civilization, nature versus walls, instinct versus law., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "The Golden Cage Duke — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_BEASTKIN_003_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_BEASTKIN_01_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "The Golden Cage Duke — Phase 2",
+          "objective": "Does civilization protect nature or destroy it?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_BEASTKIN_003_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_BEASTKIN_01_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "diplomacy",
+      "objectiveHook": "Does civilization protect nature or destroy it?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_BEASTKIN_02",
+      "bossId": "BOSS018_BEASTKIN_02",
+      "worldId": "WORLD_BEASTKIN_003",
+      "displayName": "Huntress Mara of the Blood Moon",
+      "encounterRole": "ELITE_UNION",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_BEASTKIN_02",
+      "introAudioCueId": "AUDIO021_BOSS018_BEASTKIN_02_INTRO",
+      "arenaThemeId": "THEME021_WORLD_BEASTKIN_003",
+      "preBattleScene": "The Guild confronts Huntress Mara of the Blood Moon as a person shaped by freedom versus civilization, nature versus walls, instinct versus law., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Huntress Mara of the Blood Moon — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_BEASTKIN_003_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_BEASTKIN_02_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "Huntress Mara of the Blood Moon — Phase 2",
+          "objective": "Does civilization protect nature or destroy it?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_BEASTKIN_003_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_BEASTKIN_02_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "formation",
+      "objectiveHook": "Does civilization protect nature or destroy it?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_BEASTKIN_03",
+      "bossId": "BOSS018_BEASTKIN_03",
+      "worldId": "WORLD_BEASTKIN_003",
+      "displayName": "The Collar-Makers",
+      "encounterRole": "INSTITUTIONAL_BOSS",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_BEASTKIN_03",
+      "introAudioCueId": "AUDIO021_BOSS018_BEASTKIN_03_INTRO",
+      "arenaThemeId": "THEME021_WORLD_BEASTKIN_003",
+      "preBattleScene": "The Guild confronts The Collar-Makers as a person shaped by freedom versus civilization, nature versus walls, instinct versus law., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "The Collar-Makers — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_BEASTKIN_003_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_BEASTKIN_03_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "The Collar-Makers — Phase 2",
+          "objective": "Does civilization protect nature or destroy it?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_BEASTKIN_003_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_BEASTKIN_03_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "equipment evolution",
+      "objectiveHook": "Does civilization protect nature or destroy it?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_BEASTKIN_04",
+      "bossId": "BOSS018_BEASTKIN_04",
+      "worldId": "WORLD_BEASTKIN_003",
+      "displayName": "The Winter Alpha",
+      "encounterRole": "SYSTEM_OR_MONSTER_THREAT",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_BEASTKIN_04",
+      "introAudioCueId": "AUDIO021_BOSS018_BEASTKIN_04_INTRO",
+      "arenaThemeId": "THEME021_WORLD_BEASTKIN_003",
+      "preBattleScene": "The Guild confronts The Winter Alpha as a person shaped by freedom versus civilization, nature versus walls, instinct versus law., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "The Winter Alpha — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_BEASTKIN_003_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_BEASTKIN_04_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "The Winter Alpha — Phase 2",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_BEASTKIN_003_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_BEASTKIN_04_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 3,
+          "title": "The Winter Alpha — Phase 3",
+          "objective": "Does civilization protect nature or destroy it?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_BEASTKIN_003_BOSS_PHASE_3",
+          "audioCueId": "AUDIO021_BOSS018_BEASTKIN_04_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "city specialization",
+      "objectiveHook": "Does civilization protect nature or destroy it?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_DEMON_01",
+      "bossId": "BOSS018_DEMON_01",
+      "worldId": "WORLD_DEMON_004",
+      "displayName": "Duke Varos of the Living Signature",
+      "encounterRole": "POLITICAL_COMMANDER",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_DEMON_01",
+      "introAudioCueId": "AUDIO021_BOSS018_DEMON_01_INTRO",
+      "arenaThemeId": "THEME021_WORLD_DEMON_004",
+      "preBattleScene": "The Guild confronts Duke Varos of the Living Signature as a person shaped by fear, beauty, forbidden knowledge, law, and trust., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Duke Varos of the Living Signature — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DEMON_004_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_DEMON_01_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "Duke Varos of the Living Signature — Phase 2",
+          "objective": "Can those feared as monsters ever be trusted?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DEMON_004_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_DEMON_01_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "diplomacy",
+      "objectiveHook": "Can those feared as monsters ever be trusted?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_DEMON_02",
+      "bossId": "BOSS018_DEMON_02",
+      "worldId": "WORLD_DEMON_004",
+      "displayName": "The Red Judge",
+      "encounterRole": "ELITE_UNION",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_DEMON_02",
+      "introAudioCueId": "AUDIO021_BOSS018_DEMON_02_INTRO",
+      "arenaThemeId": "THEME021_WORLD_DEMON_004",
+      "preBattleScene": "The Guild confronts The Red Judge as a person shaped by fear, beauty, forbidden knowledge, law, and trust., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "The Red Judge — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DEMON_004_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_DEMON_02_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "The Red Judge — Phase 2",
+          "objective": "Can those feared as monsters ever be trusted?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DEMON_004_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_DEMON_02_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "formation",
+      "objectiveHook": "Can those feared as monsters ever be trusted?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_DEMON_03",
+      "bossId": "BOSS018_DEMON_03",
+      "worldId": "WORLD_DEMON_004",
+      "displayName": "The Choir of Purchased Names",
+      "encounterRole": "INSTITUTIONAL_BOSS",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_DEMON_03",
+      "introAudioCueId": "AUDIO021_BOSS018_DEMON_03_INTRO",
+      "arenaThemeId": "THEME021_WORLD_DEMON_004",
+      "preBattleScene": "The Guild confronts The Choir of Purchased Names as a person shaped by fear, beauty, forbidden knowledge, law, and trust., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "The Choir of Purchased Names — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DEMON_004_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_DEMON_03_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "The Choir of Purchased Names — Phase 2",
+          "objective": "Can those feared as monsters ever be trusted?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DEMON_004_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_DEMON_03_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "equipment evolution",
+      "objectiveHook": "Can those feared as monsters ever be trusted?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_DEMON_04",
+      "bossId": "BOSS018_DEMON_04",
+      "worldId": "WORLD_DEMON_004",
+      "displayName": "The Forbidden Library Warden",
+      "encounterRole": "SYSTEM_OR_MONSTER_THREAT",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_DEMON_04",
+      "introAudioCueId": "AUDIO021_BOSS018_DEMON_04_INTRO",
+      "arenaThemeId": "THEME021_WORLD_DEMON_004",
+      "preBattleScene": "The Guild confronts The Forbidden Library Warden as a person shaped by fear, beauty, forbidden knowledge, law, and trust., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "The Forbidden Library Warden — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DEMON_004_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_DEMON_04_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "The Forbidden Library Warden — Phase 2",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DEMON_004_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_DEMON_04_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 3,
+          "title": "The Forbidden Library Warden — Phase 3",
+          "objective": "Can those feared as monsters ever be trusted?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DEMON_004_BOSS_PHASE_3",
+          "audioCueId": "AUDIO021_BOSS018_DEMON_04_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "city specialization",
+      "objectiveHook": "Can those feared as monsters ever be trusted?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_DARKELF_01",
+      "bossId": "BOSS018_DARKELF_01",
+      "worldId": "WORLD_DARK_ELF_005",
+      "displayName": "The Peace Regent",
+      "encounterRole": "POLITICAL_COMMANDER",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_DARKELF_01",
+      "introAudioCueId": "AUDIO021_BOSS018_DARKELF_01_INTRO",
+      "arenaThemeId": "THEME021_WORLD_DARK_ELF_005",
+      "preBattleScene": "The Guild confronts The Peace Regent as a person shaped by truth versus stability, memory versus safety, shadow versus silence., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "The Peace Regent — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DARK_ELF_005_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_DARKELF_01_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "The Peace Regent — Phase 2",
+          "objective": "Is a painful truth better than a peaceful lie?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DARK_ELF_005_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_DARKELF_01_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "diplomacy",
+      "objectiveHook": "Is a painful truth better than a peaceful lie?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_DARKELF_02",
+      "bossId": "BOSS018_DARKELF_02",
+      "worldId": "WORLD_DARK_ELF_005",
+      "displayName": "Archivist Vorn",
+      "encounterRole": "ELITE_UNION",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_DARKELF_02",
+      "introAudioCueId": "AUDIO021_BOSS018_DARKELF_02_INTRO",
+      "arenaThemeId": "THEME021_WORLD_DARK_ELF_005",
+      "preBattleScene": "The Guild confronts Archivist Vorn as a person shaped by truth versus stability, memory versus safety, shadow versus silence., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Archivist Vorn — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DARK_ELF_005_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_DARKELF_02_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "Archivist Vorn — Phase 2",
+          "objective": "Is a painful truth better than a peaceful lie?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DARK_ELF_005_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_DARKELF_02_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "formation",
+      "objectiveHook": "Is a painful truth better than a peaceful lie?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_DARKELF_03",
+      "bossId": "BOSS018_DARKELF_03",
+      "worldId": "WORLD_DARK_ELF_005",
+      "displayName": "The Three Kindly Assassins",
+      "encounterRole": "INSTITUTIONAL_BOSS",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_DARKELF_03",
+      "introAudioCueId": "AUDIO021_BOSS018_DARKELF_03_INTRO",
+      "arenaThemeId": "THEME021_WORLD_DARK_ELF_005",
+      "preBattleScene": "The Guild confronts The Three Kindly Assassins as a person shaped by truth versus stability, memory versus safety, shadow versus silence., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "The Three Kindly Assassins — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DARK_ELF_005_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_DARKELF_03_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "The Three Kindly Assassins — Phase 2",
+          "objective": "Is a painful truth better than a peaceful lie?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DARK_ELF_005_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_DARKELF_03_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "equipment evolution",
+      "objectiveHook": "Is a painful truth better than a peaceful lie?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_DARKELF_04",
+      "bossId": "BOSS018_DARKELF_04",
+      "worldId": "WORLD_DARK_ELF_005",
+      "displayName": "The Vanishing Census Engine",
+      "encounterRole": "SYSTEM_OR_MONSTER_THREAT",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_DARKELF_04",
+      "introAudioCueId": "AUDIO021_BOSS018_DARKELF_04_INTRO",
+      "arenaThemeId": "THEME021_WORLD_DARK_ELF_005",
+      "preBattleScene": "The Guild confronts The Vanishing Census Engine as a person shaped by truth versus stability, memory versus safety, shadow versus silence., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "The Vanishing Census Engine — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DARK_ELF_005_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_DARKELF_04_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "The Vanishing Census Engine — Phase 2",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DARK_ELF_005_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_DARKELF_04_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 3,
+          "title": "The Vanishing Census Engine — Phase 3",
+          "objective": "Is a painful truth better than a peaceful lie?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DARK_ELF_005_BOSS_PHASE_3",
+          "audioCueId": "AUDIO021_BOSS018_DARKELF_04_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "city specialization",
+      "objectiveHook": "Is a painful truth better than a peaceful lie?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_BUNNY_01",
+      "bossId": "BOSS018_BUNNY_01",
+      "worldId": "WORLD_BUNNY_006",
+      "displayName": "Baron Usury Bloom",
+      "encounterRole": "POLITICAL_COMMANDER",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_BUNNY_01",
+      "introAudioCueId": "AUDIO021_BOSS018_BUNNY_01_INTRO",
+      "arenaThemeId": "THEME021_WORLD_BUNNY_006",
+      "preBattleScene": "The Guild confronts Baron Usury Bloom as a person shaped by commerce, connection, debt, logistics, and the moral weight of price., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "Baron Usury Bloom — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_BUNNY_006_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_BUNNY_01_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "Baron Usury Bloom — Phase 2",
+          "objective": "Can everything have a price?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_BUNNY_006_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_BUNNY_01_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "diplomacy",
+      "objectiveHook": "Can everything have a price?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_BUNNY_02",
+      "bossId": "BOSS018_BUNNY_02",
+      "worldId": "WORLD_BUNNY_006",
+      "displayName": "The Salt Hoarders",
+      "encounterRole": "ELITE_UNION",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_BUNNY_02",
+      "introAudioCueId": "AUDIO021_BOSS018_BUNNY_02_INTRO",
+      "arenaThemeId": "THEME021_WORLD_BUNNY_006",
+      "preBattleScene": "The Guild confronts The Salt Hoarders as a person shaped by commerce, connection, debt, logistics, and the moral weight of price., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "The Salt Hoarders — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_BUNNY_006_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_BUNNY_02_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "The Salt Hoarders — Phase 2",
+          "objective": "Can everything have a price?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_BUNNY_006_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_BUNNY_02_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "formation",
+      "objectiveHook": "Can everything have a price?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_BUNNY_03",
+      "bossId": "BOSS018_BUNNY_03",
+      "worldId": "WORLD_BUNNY_006",
+      "displayName": "The Smiling Auction House",
+      "encounterRole": "INSTITUTIONAL_BOSS",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_BUNNY_03",
+      "introAudioCueId": "AUDIO021_BOSS018_BUNNY_03_INTRO",
+      "arenaThemeId": "THEME021_WORLD_BUNNY_006",
+      "preBattleScene": "The Guild confronts The Smiling Auction House as a person shaped by commerce, connection, debt, logistics, and the moral weight of price., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "The Smiling Auction House — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_BUNNY_006_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_BUNNY_03_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "The Smiling Auction House — Phase 2",
+          "objective": "Can everything have a price?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_BUNNY_006_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_BUNNY_03_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "equipment evolution",
+      "objectiveHook": "Can everything have a price?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_BUNNY_04",
+      "bossId": "BOSS018_BUNNY_04",
+      "worldId": "WORLD_BUNNY_006",
+      "displayName": "The Debt Colossus",
+      "encounterRole": "SYSTEM_OR_MONSTER_THREAT",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_BUNNY_04",
+      "introAudioCueId": "AUDIO021_BOSS018_BUNNY_04_INTRO",
+      "arenaThemeId": "THEME021_WORLD_BUNNY_006",
+      "preBattleScene": "The Guild confronts The Debt Colossus as a person shaped by commerce, connection, debt, logistics, and the moral weight of price., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "The Debt Colossus — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_BUNNY_006_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_BUNNY_04_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "The Debt Colossus — Phase 2",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_BUNNY_006_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_BUNNY_04_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 3,
+          "title": "The Debt Colossus — Phase 3",
+          "objective": "Can everything have a price?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_BUNNY_006_BOSS_PHASE_3",
+          "audioCueId": "AUDIO021_BOSS018_BUNNY_04_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "city specialization",
+      "objectiveHook": "Can everything have a price?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_DOG_01",
+      "bossId": "BOSS018_DOG_01",
+      "worldId": "WORLD_DOG_007",
+      "displayName": "The Oath-Eater",
+      "encounterRole": "POLITICAL_COMMANDER",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_DOG_01",
+      "introAudioCueId": "AUDIO021_BOSS018_DOG_01_INTRO",
+      "arenaThemeId": "THEME021_WORLD_DOG_007",
+      "preBattleScene": "The Guild confronts The Oath-Eater as a person shaped by duty, loyalty, borders, oaths, and moral fracture., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "The Oath-Eater — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DOG_007_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_DOG_01_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "The Oath-Eater — Phase 2",
+          "objective": "What happens when loyalty and morality disagree?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DOG_007_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_DOG_01_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "diplomacy",
+      "objectiveHook": "What happens when loyalty and morality disagree?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_DOG_02",
+      "bossId": "BOSS018_DOG_02",
+      "worldId": "WORLD_DOG_007",
+      "displayName": "General Brakk Loyal-To-Orders",
+      "encounterRole": "ELITE_UNION",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_DOG_02",
+      "introAudioCueId": "AUDIO021_BOSS018_DOG_02_INTRO",
+      "arenaThemeId": "THEME021_WORLD_DOG_007",
+      "preBattleScene": "The Guild confronts General Brakk Loyal-To-Orders as a person shaped by duty, loyalty, borders, oaths, and moral fracture., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "General Brakk Loyal-To-Orders — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DOG_007_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_DOG_02_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "General Brakk Loyal-To-Orders — Phase 2",
+          "objective": "What happens when loyalty and morality disagree?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DOG_007_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_DOG_02_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "formation",
+      "objectiveHook": "What happens when loyalty and morality disagree?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_DOG_03",
+      "bossId": "BOSS018_DOG_03",
+      "worldId": "WORLD_DOG_007",
+      "displayName": "The Collar Captain",
+      "encounterRole": "INSTITUTIONAL_BOSS",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_DOG_03",
+      "introAudioCueId": "AUDIO021_BOSS018_DOG_03_INTRO",
+      "arenaThemeId": "THEME021_WORLD_DOG_007",
+      "preBattleScene": "The Guild confronts The Collar Captain as a person shaped by duty, loyalty, borders, oaths, and moral fracture., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "The Collar Captain — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DOG_007_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_DOG_03_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "The Collar Captain — Phase 2",
+          "objective": "What happens when loyalty and morality disagree?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DOG_007_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_DOG_03_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "equipment evolution",
+      "objectiveHook": "What happens when loyalty and morality disagree?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    },
+    {
+      "profileId": "BOSSPRES021_BOSS018_DOG_04",
+      "bossId": "BOSS018_DOG_04",
+      "worldId": "WORLD_DOG_007",
+      "displayName": "The False Scent Packleader",
+      "encounterRole": "SYSTEM_OR_MONSTER_THREAT",
+      "emblemResource": "SecondDimension/Campaign021/UI/Bosses/BOSS018_DOG_04",
+      "introAudioCueId": "AUDIO021_BOSS018_DOG_04_INTRO",
+      "arenaThemeId": "THEME021_WORLD_DOG_007",
+      "preBattleScene": "The Guild confronts The False Scent Packleader as a person shaped by duty, loyalty, borders, oaths, and moral fracture., not a loot container or race stereotype.",
+      "phases": [
+        {
+          "phase": 1,
+          "title": "The False Scent Packleader — Phase 1",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DOG_007_BOSS_PHASE_1",
+          "audioCueId": "AUDIO021_BOSS018_DOG_04_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 2,
+          "title": "The False Scent Packleader — Phase 2",
+          "objective": "Break the current command pattern without closing the defeat, expose, negotiate, rescue_or_reform paths.",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DOG_007_BOSS_PHASE_2",
+          "audioCueId": "AUDIO021_BOSS018_DOG_04_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        },
+        {
+          "phase": 3,
+          "title": "The False Scent Packleader — Phase 3",
+          "objective": "What happens when loyalty and morality disagree?",
+          "cameraProfile": "BOSS_PHASE_WIDE_TO_CONTACT",
+          "vfxFamily": "WORLD_DOG_007_BOSS_PHASE_3",
+          "audioCueId": "AUDIO021_BOSS018_DOG_04_INTRO",
+          "resolutionOpenings": [
+            "DEFEAT",
+            "EXPOSE",
+            "NEGOTIATE",
+            "RESCUE_OR_REFORM"
+          ],
+          "battleRule": "Use certified Union Forecasts; no individual Art selection.",
+          "transitionPresentation": "Commit phase threshold from authoritative event log, then change camera/VFX/audio without changing resolution."
+        }
+      ],
+      "postBattleResolutions": [
+        "DEFEAT",
+        "EXPOSE",
+        "NEGOTIATE",
+        "RESCUE_OR_REFORM"
+      ],
+      "executionNeverRequired": true,
+      "rewardTheme": "city specialization",
+      "objectiveHook": "What happens when loyalty and morality disagree?",
+      "surrenderCamera": "BOSS_SURRENDER_WIDE",
+      "exposeCamera": "BOSS_EXPOSE_WITNESS",
+      "negotiationCamera": "BOSS_NEGOTIATION_BALANCED",
+      "rescueCamera": "BOSS_RESCUE_RECOVERY",
+      "usesCertifiedUnionBattle": true,
+      "productionStatus": "EMBLEM_PHASE_AUDIO_AND_BINDING_READY"
+    }
+  ]
+}

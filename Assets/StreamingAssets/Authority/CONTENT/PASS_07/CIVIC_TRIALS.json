@@ -1,0 +1,284 @@
+{
+  "civicTrials": [
+    {
+      "id": "TRIAL_BURIED_CIVILIANS",
+      "floorId": "ABYSS_FLOOR_001",
+      "displayName": "Mud Trenches Civic Trial",
+      "scoreDimensions": [
+        {
+          "id": "alliesProtected",
+          "max": 100
+        },
+        {
+          "id": "simulatedCiviliansRescued",
+          "max": 100
+        },
+        {
+          "id": "formationHeld",
+          "max": 100
+        }
+      ],
+      "thresholds": {
+        "FAILURE": 80,
+        "MIXED": 160,
+        "SUCCESS": 230,
+        "EXEMPLARY": 280
+      },
+      "perfectNotRequiredForStory": true,
+      "feedback": "show score contribution after each qualifying action",
+      "recovery": "repeat trial or corrective civic expedition"
+    },
+    {
+      "id": "TRIAL_CROSS_UNDER_FIRE",
+      "floorId": "ABYSS_FLOOR_002",
+      "displayName": "Arrow Rain Field Civic Trial",
+      "scoreDimensions": [
+        {
+          "id": "coverUsed",
+          "max": 100
+        },
+        {
+          "id": "membersProtected",
+          "max": 100
+        },
+        {
+          "id": "coordinatedMoves",
+          "max": 100
+        }
+      ],
+      "thresholds": {
+        "FAILURE": 80,
+        "MIXED": 160,
+        "SUCCESS": 230,
+        "EXEMPLARY": 280
+      },
+      "perfectNotRequiredForStory": true,
+      "feedback": "show score contribution after each qualifying action",
+      "recovery": "repeat trial or corrective civic expedition"
+    },
+    {
+      "id": "TRIAL_RECORDS_BEFORE_SALVAGE",
+      "floorId": "ABYSS_FLOOR_003",
+      "displayName": "Silent Camp Civic Trial",
+      "scoreDimensions": [
+        {
+          "id": "recordsPreserved",
+          "max": 100
+        },
+        {
+          "id": "suppliesShared",
+          "max": 100
+        },
+        {
+          "id": "woundedRested",
+          "max": 100
+        }
+      ],
+      "thresholds": {
+        "FAILURE": 80,
+        "MIXED": 160,
+        "SUCCESS": 230,
+        "EXEMPLARY": 280
+      },
+      "perfectNotRequiredForStory": true,
+      "feedback": "show score contribution after each qualifying action",
+      "recovery": "repeat trial or corrective civic expedition"
+    },
+    {
+      "id": "TRIAL_STABILIZE_THE_BREACH",
+      "floorId": "ABYSS_FLOOR_004",
+      "displayName": "Collapsed Siege Wall Civic Trial",
+      "scoreDimensions": [
+        {
+          "id": "repairsCompleted",
+          "max": 100
+        },
+        {
+          "id": "breachesHeld",
+          "max": 100
+        },
+        {
+          "id": "unsafeLootRefused",
+          "max": 100
+        }
+      ],
+      "thresholds": {
+        "FAILURE": 80,
+        "MIXED": 160,
+        "SUCCESS": 230,
+        "EXEMPLARY": 280
+      },
+      "perfectNotRequiredForStory": true,
+      "feedback": "show score contribution after each qualifying action",
+      "recovery": "repeat trial or corrective civic expedition"
+    },
+    {
+      "id": "TRIAL_KEEP_MEMORY_WITHOUT_HATE",
+      "floorId": "ABYSS_FLOOR_005",
+      "displayName": "Grave Banner Hill Civic Trial",
+      "scoreDimensions": [
+        {
+          "id": "memorialsPreserved",
+          "max": 100
+        },
+        {
+          "id": "moraleRaised",
+          "max": 100
+        },
+        {
+          "id": "hatefulSymbolsRejected",
+          "max": 100
+        }
+      ],
+      "thresholds": {
+        "FAILURE": 80,
+        "MIXED": 160,
+        "SUCCESS": 230,
+        "EXEMPLARY": 280
+      },
+      "perfectNotRequiredForStory": true,
+      "feedback": "show score contribution after each qualifying action",
+      "recovery": "repeat trial or corrective civic expedition"
+    },
+    {
+      "id": "TRIAL_REFUSE_BLIND_SACRIFICE",
+      "floorId": "ABYSS_FLOOR_006",
+      "displayName": "Iron March Civic Trial",
+      "scoreDimensions": [
+        {
+          "id": "formationDiscipline",
+          "max": 100
+        },
+        {
+          "id": "ordersQuestionedWhenImmoral",
+          "max": 100
+        },
+        {
+          "id": "controlledAdvance",
+          "max": 100
+        }
+      ],
+      "thresholds": {
+        "FAILURE": 80,
+        "MIXED": 160,
+        "SUCCESS": 230,
+        "EXEMPLARY": 280
+      },
+      "perfectNotRequiredForStory": true,
+      "feedback": "show score contribution after each qualifying action",
+      "recovery": "repeat trial or corrective civic expedition"
+    },
+    {
+      "id": "TRIAL_RESTORE_THE_CROSSING",
+      "floorId": "ABYSS_FLOOR_007",
+      "displayName": "Bloodless River Civic Trial",
+      "scoreDimensions": [
+        {
+          "id": "crossingsRestored",
+          "max": 100
+        },
+        {
+          "id": "waterPurified",
+          "max": 100
+        },
+        {
+          "id": "rescuesCompleted",
+          "max": 100
+        }
+      ],
+      "thresholds": {
+        "FAILURE": 80,
+        "MIXED": 160,
+        "SUCCESS": 230,
+        "EXEMPLARY": 280
+      },
+      "perfectNotRequiredForStory": true,
+      "feedback": "show score contribution after each qualifying action",
+      "recovery": "repeat trial or corrective civic expedition"
+    },
+    {
+      "id": "TRIAL_RELEASE_WITH_RESTRAINT",
+      "floorId": "ABYSS_FLOOR_008",
+      "displayName": "War Beast Pens Civic Trial",
+      "scoreDimensions": [
+        {
+          "id": "frightenedCreaturesSpared",
+          "max": 100
+        },
+        {
+          "id": "pensOpenedSafely",
+          "max": 100
+        },
+        {
+          "id": "cruelShortcutsRefused",
+          "max": 100
+        }
+      ],
+      "thresholds": {
+        "FAILURE": 80,
+        "MIXED": 160,
+        "SUCCESS": 230,
+        "EXEMPLARY": 280
+      },
+      "perfectNotRequiredForStory": true,
+      "feedback": "show score contribution after each qualifying action",
+      "recovery": "repeat trial or corrective civic expedition"
+    },
+    {
+      "id": "TRIAL_WIN_WITHOUT_WASTE",
+      "floorId": "ABYSS_FLOOR_009",
+      "displayName": "Ash Command Tent Civic Trial",
+      "scoreDimensions": [
+        {
+          "id": "intelUsed",
+          "max": 100
+        },
+        {
+          "id": "avoidableLossesPrevented",
+          "max": 100
+        },
+        {
+          "id": "supplyLinesPreserved",
+          "max": 100
+        }
+      ],
+      "thresholds": {
+        "FAILURE": 80,
+        "MIXED": 160,
+        "SUCCESS": 230,
+        "EXEMPLARY": 280
+      },
+      "perfectNotRequiredForStory": true,
+      "feedback": "show score contribution after each qualifying action",
+      "recovery": "repeat trial or corrective civic expedition"
+    },
+    {
+      "id": "TRIAL_AEGIS_PROTECTION",
+      "floorId": "ABYSS_FLOOR_010",
+      "displayName": "Aegis Gate Civic Trial",
+      "scoreDimensions": [
+        {
+          "id": "civiliansSaved",
+          "max": 100
+        },
+        {
+          "id": "alliedUnionsProtected",
+          "max": 100
+        },
+        {
+          "id": "defenseSystemsRestored",
+          "max": 100
+        }
+      ],
+      "thresholds": {
+        "FAILURE": 80,
+        "MIXED": 160,
+        "SUCCESS": 230,
+        "EXEMPLARY": 280
+      },
+      "perfectNotRequiredForStory": true,
+      "feedback": "show score contribution after each qualifying action",
+      "recovery": "repeat trial or corrective civic expedition"
+    }
+  ]
+}

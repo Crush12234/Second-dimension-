@@ -1,0 +1,725 @@
+{
+  "contentVersion": "GOW_CONTENT_AUTHORITY_002",
+  "evolutionPaths": [
+    {
+      "id": "CA002_PATH_SWORD_VANGUARD",
+      "displayName": "Swords — Vanguard Path",
+      "weaponFamilyId": "WEAPON_FAMILY_SWORD",
+      "artTreeId": "TREE_CA002_WPN_SWORD",
+      "branchCode": "VANGUARD",
+      "trainingItemId": "CA002_WPN_SWORD_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_SWORD_VANGUARD_T1",
+        "CA002_WPN_SWORD_VANGUARD_T2",
+        "EQUIP_WEAPON_GATEWATCH_SABER",
+        "CA002_WPN_SWORD_VANGUARD_T4",
+        "CA002_WPN_SWORD_VANGUARD_T5",
+        "CA002_WPN_SWORD_VANGUARD_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_SWORD_VANGUARD_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_SWORD_DUELIST",
+      "displayName": "Swords — Duelist Path",
+      "weaponFamilyId": "WEAPON_FAMILY_SWORD",
+      "artTreeId": "TREE_CA002_WPN_SWORD",
+      "branchCode": "DUELIST",
+      "trainingItemId": "CA002_WPN_SWORD_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_SWORD_DUELIST_T1",
+        "CA002_WPN_SWORD_DUELIST_T2",
+        "EQUIP_WEAPON_ROADWARDEN_BLADE",
+        "CA002_WPN_SWORD_DUELIST_T4",
+        "CA002_WPN_SWORD_DUELIST_T5",
+        "CA002_WPN_SWORD_DUELIST_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_SWORD_DUELIST_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_SWORD_AETHER",
+      "displayName": "Swords — Aether Path",
+      "weaponFamilyId": "WEAPON_FAMILY_SWORD",
+      "artTreeId": "TREE_CA002_WPN_SWORD",
+      "branchCode": "AETHER",
+      "trainingItemId": "CA002_WPN_SWORD_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_SWORD_AETHER_T1",
+        "CA002_WPN_SWORD_AETHER_T2",
+        "EQUIP_WEAPON_COPPERLINE_DUELLING_SWORD",
+        "CA002_WPN_SWORD_AETHER_T4",
+        "CA002_WPN_SWORD_AETHER_T5",
+        "CA002_WPN_SWORD_AETHER_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_SWORD_AETHER_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_GREAT_BREAKER",
+      "displayName": "Great Weapons — Breaker Path",
+      "weaponFamilyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "artTreeId": "TREE_CA002_WPN_GREAT_WEAPON",
+      "branchCode": "BREAKER",
+      "trainingItemId": "CA002_WPN_GREAT_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_GREAT_BREAKER_T1",
+        "CA002_WPN_GREAT_BREAKER_T2",
+        "EQUIP_WEAPON_WALLBREAKER_MAUL",
+        "CA002_WPN_GREAT_BREAKER_T4",
+        "CA002_WPN_GREAT_BREAKER_T5",
+        "CA002_WPN_GREAT_BREAKER_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_GREAT_BREAKER_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_GREAT_REAPER",
+      "displayName": "Great Weapons — Reaper Path",
+      "weaponFamilyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "artTreeId": "TREE_CA002_WPN_GREAT_WEAPON",
+      "branchCode": "REAPER",
+      "trainingItemId": "CA002_WPN_GREAT_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_GREAT_REAPER_T1",
+        "CA002_WPN_GREAT_REAPER_T2",
+        "EQUIP_WEAPON_EMBERWALL_GREAT_AXE",
+        "CA002_WPN_GREAT_REAPER_T4",
+        "CA002_WPN_GREAT_REAPER_T5",
+        "CA002_WPN_GREAT_REAPER_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_GREAT_REAPER_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_GREAT_EARTHSHAKER",
+      "displayName": "Great Weapons — Earthshaker Path",
+      "weaponFamilyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "artTreeId": "TREE_CA002_WPN_GREAT_WEAPON",
+      "branchCode": "EARTHSHAKER",
+      "trainingItemId": "CA002_WPN_GREAT_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_GREAT_EARTHSHAKER_T1",
+        "CA002_WPN_GREAT_EARTHSHAKER_T2",
+        "EQUIP_WEAPON_PYLON_SHEAR_POLEHAMMER",
+        "CA002_WPN_GREAT_EARTHSHAKER_T4",
+        "CA002_WPN_GREAT_EARTHSHAKER_T5",
+        "CA002_WPN_GREAT_EARTHSHAKER_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_GREAT_EARTHSHAKER_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_AXE_CLEAVER",
+      "displayName": "Axes — Cleaver Path",
+      "weaponFamilyId": "WEAPON_FAMILY_AXE",
+      "artTreeId": "TREE_CA002_WPN_AXE",
+      "branchCode": "CLEAVER",
+      "trainingItemId": "CA002_WPN_AXE_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_AXE_CLEAVER_T1",
+        "CA002_WPN_AXE_CLEAVER_T2",
+        "EQUIP_WEAPON_RIVET_AXE",
+        "CA002_WPN_AXE_CLEAVER_T4",
+        "CA002_WPN_AXE_CLEAVER_T5",
+        "CA002_WPN_AXE_CLEAVER_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_AXE_CLEAVER_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_AXE_RAIDER",
+      "displayName": "Axes — Raider Path",
+      "weaponFamilyId": "WEAPON_FAMILY_AXE",
+      "artTreeId": "TREE_CA002_WPN_AXE",
+      "branchCode": "RAIDER",
+      "trainingItemId": "CA002_WPN_AXE_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_AXE_RAIDER_T1",
+        "CA002_WPN_AXE_RAIDER_T2",
+        "EQUIP_WEAPON_MARCHLAND_HAND_AXE",
+        "CA002_WPN_AXE_RAIDER_T4",
+        "CA002_WPN_AXE_RAIDER_T5",
+        "CA002_WPN_AXE_RAIDER_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_AXE_RAIDER_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_AXE_STORM",
+      "displayName": "Axes — Stormsplitter Path",
+      "weaponFamilyId": "WEAPON_FAMILY_AXE",
+      "artTreeId": "TREE_CA002_WPN_AXE",
+      "branchCode": "STORM",
+      "trainingItemId": "CA002_WPN_AXE_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_AXE_STORM_T1",
+        "CA002_WPN_AXE_STORM_T2",
+        "EQUIP_WEAPON_RESCUE_HOOK_AXE",
+        "CA002_WPN_AXE_STORM_T4",
+        "CA002_WPN_AXE_STORM_T5",
+        "CA002_WPN_AXE_STORM_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_AXE_STORM_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_SPEAR_LANCER",
+      "displayName": "Spears and Polearms — Lancer Path",
+      "weaponFamilyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "artTreeId": "TREE_CA002_WPN_SPEAR_POLEARM",
+      "branchCode": "LANCER",
+      "trainingItemId": "CA002_WPN_SPEAR_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_SPEAR_LANCER_T1",
+        "CA002_WPN_SPEAR_LANCER_T2",
+        "EQUIP_WEAPON_CAUSEWAY_SPEAR",
+        "CA002_WPN_SPEAR_LANCER_T4",
+        "CA002_WPN_SPEAR_LANCER_T5",
+        "CA002_WPN_SPEAR_LANCER_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_SPEAR_LANCER_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_SPEAR_PHALANX",
+      "displayName": "Spears and Polearms — Phalanx Path",
+      "weaponFamilyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "artTreeId": "TREE_CA002_WPN_SPEAR_POLEARM",
+      "branchCode": "PHALANX",
+      "trainingItemId": "CA002_WPN_SPEAR_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_SPEAR_PHALANX_T1",
+        "CA002_WPN_SPEAR_PHALANX_T2",
+        "EQUIP_WEAPON_STORMROAD_GLAIVE",
+        "CA002_WPN_SPEAR_PHALANX_T4",
+        "CA002_WPN_SPEAR_PHALANX_T5",
+        "CA002_WPN_SPEAR_PHALANX_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_SPEAR_PHALANX_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_SPEAR_SKYPIERCER",
+      "displayName": "Spears and Polearms — Sky-Piercer Path",
+      "weaponFamilyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "artTreeId": "TREE_CA002_WPN_SPEAR_POLEARM",
+      "branchCode": "SKYPIERCER",
+      "trainingItemId": "CA002_WPN_SPEAR_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_SPEAR_SKYPIERCER_T1",
+        "CA002_WPN_SPEAR_SKYPIERCER_T2",
+        "EQUIP_WEAPON_BRIDGEWARDEN_PIKE",
+        "CA002_WPN_SPEAR_SKYPIERCER_T4",
+        "CA002_WPN_SPEAR_SKYPIERCER_T5",
+        "CA002_WPN_SPEAR_SKYPIERCER_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_SPEAR_SKYPIERCER_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_BOW_MARKSMAN",
+      "displayName": "Bows — Marksman Path",
+      "weaponFamilyId": "WEAPON_FAMILY_BOW",
+      "artTreeId": "TREE_CA002_WPN_BOW",
+      "branchCode": "MARKSMAN",
+      "trainingItemId": "CA002_WPN_BOW_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_BOW_MARKSMAN_T1",
+        "CA002_WPN_BOW_MARKSMAN_T2",
+        "EQUIP_WEAPON_GATEWORK_SHORTBOW",
+        "CA002_WPN_BOW_MARKSMAN_T4",
+        "CA002_WPN_BOW_MARKSMAN_T5",
+        "CA002_WPN_BOW_MARKSMAN_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_BOW_MARKSMAN_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_BOW_HUNTER",
+      "displayName": "Bows — Hunter Path",
+      "weaponFamilyId": "WEAPON_FAMILY_BOW",
+      "artTreeId": "TREE_CA002_WPN_BOW",
+      "branchCode": "HUNTER",
+      "trainingItemId": "CA002_WPN_BOW_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_BOW_HUNTER_T1",
+        "CA002_WPN_BOW_HUNTER_T2",
+        "EQUIP_WEAPON_STORMLINE_LONGBOW",
+        "CA002_WPN_BOW_HUNTER_T4",
+        "CA002_WPN_BOW_HUNTER_T5",
+        "CA002_WPN_BOW_HUNTER_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_BOW_HUNTER_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_BOW_SPELLSHOT",
+      "displayName": "Bows — Spellshot Path",
+      "weaponFamilyId": "WEAPON_FAMILY_BOW",
+      "artTreeId": "TREE_CA002_WPN_BOW",
+      "branchCode": "SPELLSHOT",
+      "trainingItemId": "CA002_WPN_BOW_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_BOW_SPELLSHOT_T1",
+        "CA002_WPN_BOW_SPELLSHOT_T2",
+        "EQUIP_WEAPON_SIGNAL_FLETCHED_RECURVE",
+        "CA002_WPN_BOW_SPELLSHOT_T4",
+        "CA002_WPN_BOW_SPELLSHOT_T5",
+        "CA002_WPN_BOW_SPELLSHOT_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_BOW_SPELLSHOT_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_DAGGER_ASSASSIN",
+      "displayName": "Daggers — Assassin Path",
+      "weaponFamilyId": "WEAPON_FAMILY_DAGGER",
+      "artTreeId": "TREE_CA002_WPN_DAGGER",
+      "branchCode": "ASSASSIN",
+      "trainingItemId": "CA002_WPN_DAGGER_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_DAGGER_ASSASSIN_T1",
+        "CA002_WPN_DAGGER_ASSASSIN_T2",
+        "EQUIP_WEAPON_SURVEYOR_KNIFE",
+        "CA002_WPN_DAGGER_ASSASSIN_T4",
+        "CA002_WPN_DAGGER_ASSASSIN_T5",
+        "CA002_WPN_DAGGER_ASSASSIN_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_DAGGER_ASSASSIN_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_DAGGER_TRICKSTER",
+      "displayName": "Daggers — Trickster Path",
+      "weaponFamilyId": "WEAPON_FAMILY_DAGGER",
+      "artTreeId": "TREE_CA002_WPN_DAGGER",
+      "branchCode": "TRICKSTER",
+      "trainingItemId": "CA002_WPN_DAGGER_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_DAGGER_TRICKSTER_T1",
+        "CA002_WPN_DAGGER_TRICKSTER_T2",
+        "EQUIP_WEAPON_DUSKWOOD_TWIN_BLADE",
+        "CA002_WPN_DAGGER_TRICKSTER_T4",
+        "CA002_WPN_DAGGER_TRICKSTER_T5",
+        "CA002_WPN_DAGGER_TRICKSTER_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_DAGGER_TRICKSTER_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_DAGGER_NIGHTGLASS",
+      "displayName": "Daggers — Nightglass Path",
+      "weaponFamilyId": "WEAPON_FAMILY_DAGGER",
+      "artTreeId": "TREE_CA002_WPN_DAGGER",
+      "branchCode": "NIGHTGLASS",
+      "trainingItemId": "CA002_WPN_DAGGER_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_DAGGER_NIGHTGLASS_T1",
+        "CA002_WPN_DAGGER_NIGHTGLASS_T2",
+        "EQUIP_WEAPON_MERCY_SCALPEL",
+        "CA002_WPN_DAGGER_NIGHTGLASS_T4",
+        "CA002_WPN_DAGGER_NIGHTGLASS_T5",
+        "CA002_WPN_DAGGER_NIGHTGLASS_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_DAGGER_NIGHTGLASS_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_SHIELD_BASTION",
+      "displayName": "Shields — Bastion Path",
+      "weaponFamilyId": "WEAPON_FAMILY_SHIELD",
+      "artTreeId": "TREE_CA002_WPN_SHIELD",
+      "branchCode": "BASTION",
+      "trainingItemId": "CA002_WPN_SHIELD_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_SHIELD_BASTION_T1",
+        "CA002_WPN_SHIELD_BASTION_T2",
+        "EQUIP_WEAPON_GATEWATCH_ROUND_SHIELD",
+        "CA002_WPN_SHIELD_BASTION_T4",
+        "CA002_WPN_SHIELD_BASTION_T5",
+        "CA002_WPN_SHIELD_BASTION_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_SHIELD_BASTION_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_SHIELD_RESCUE",
+      "displayName": "Shields — Rescue Path",
+      "weaponFamilyId": "WEAPON_FAMILY_SHIELD",
+      "artTreeId": "TREE_CA002_WPN_SHIELD",
+      "branchCode": "RESCUE",
+      "trainingItemId": "CA002_WPN_SHIELD_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_SHIELD_RESCUE_T1",
+        "CA002_WPN_SHIELD_RESCUE_T2",
+        "EQUIP_WEAPON_ROADSIDE_RESCUE_SHIELD",
+        "CA002_WPN_SHIELD_RESCUE_T4",
+        "CA002_WPN_SHIELD_RESCUE_T5",
+        "CA002_WPN_SHIELD_RESCUE_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_SHIELD_RESCUE_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_SHIELD_WARD",
+      "displayName": "Shields — Ward Path",
+      "weaponFamilyId": "WEAPON_FAMILY_SHIELD",
+      "artTreeId": "TREE_CA002_WPN_SHIELD",
+      "branchCode": "WARD",
+      "trainingItemId": "CA002_WPN_SHIELD_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_SHIELD_WARD_T1",
+        "CA002_WPN_SHIELD_WARD_T2",
+        "EQUIP_WEAPON_PYLON_WARD_BUCKLER",
+        "CA002_WPN_SHIELD_WARD_T4",
+        "CA002_WPN_SHIELD_WARD_T5",
+        "CA002_WPN_SHIELD_WARD_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_SHIELD_WARD_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_GAUNTLET_PUGILIST",
+      "displayName": "Gauntlets and Unarmed Implements — Pugilist Path",
+      "weaponFamilyId": "WEAPON_FAMILY_GAUNTLET",
+      "artTreeId": "TREE_CA002_WPN_GAUNTLET",
+      "branchCode": "PUGILIST",
+      "trainingItemId": "CA002_WPN_GAUNTLET_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_GAUNTLET_PUGILIST_T1",
+        "CA002_WPN_GAUNTLET_PUGILIST_T2",
+        "EQUIP_WEAPON_GATEWORKER_GRIP",
+        "CA002_WPN_GAUNTLET_PUGILIST_T4",
+        "CA002_WPN_GAUNTLET_PUGILIST_T5",
+        "CA002_WPN_GAUNTLET_PUGILIST_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_GAUNTLET_PUGILIST_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_GAUNTLET_GRAPPLER",
+      "displayName": "Gauntlets and Unarmed Implements — Grappler Path",
+      "weaponFamilyId": "WEAPON_FAMILY_GAUNTLET",
+      "artTreeId": "TREE_CA002_WPN_GAUNTLET",
+      "branchCode": "GRAPPLER",
+      "trainingItemId": "CA002_WPN_GAUNTLET_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_GAUNTLET_GRAPPLER_T1",
+        "CA002_WPN_GAUNTLET_GRAPPLER_T2",
+        "EQUIP_WEAPON_STORMSTEP_BRACERS",
+        "CA002_WPN_GAUNTLET_GRAPPLER_T4",
+        "CA002_WPN_GAUNTLET_GRAPPLER_T5",
+        "CA002_WPN_GAUNTLET_GRAPPLER_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_GAUNTLET_GRAPPLER_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_GAUNTLET_RUNEFIST",
+      "displayName": "Gauntlets and Unarmed Implements — Rune Fist Path",
+      "weaponFamilyId": "WEAPON_FAMILY_GAUNTLET",
+      "artTreeId": "TREE_CA002_WPN_GAUNTLET",
+      "branchCode": "RUNEFIST",
+      "trainingItemId": "CA002_WPN_GAUNTLET_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_GAUNTLET_RUNEFIST_T1",
+        "CA002_WPN_GAUNTLET_RUNEFIST_T2",
+        "EQUIP_WEAPON_RESCUE_MARSHAL_GAUNTLETS",
+        "CA002_WPN_GAUNTLET_RUNEFIST_T4",
+        "CA002_WPN_GAUNTLET_RUNEFIST_T5",
+        "CA002_WPN_GAUNTLET_RUNEFIST_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_GAUNTLET_RUNEFIST_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_STAFF_ARCANIST",
+      "displayName": "Staves — Arcanist Path",
+      "weaponFamilyId": "WEAPON_FAMILY_STAFF",
+      "artTreeId": "TREE_CA002_WPN_STAFF",
+      "branchCode": "ARCANIST",
+      "trainingItemId": "CA002_WPN_STAFF_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_STAFF_ARCANIST_T1",
+        "CA002_WPN_STAFF_ARCANIST_T2",
+        "EQUIP_WEAPON_FIELD_MEDIC_STAFF",
+        "CA002_WPN_STAFF_ARCANIST_T4",
+        "CA002_WPN_STAFF_ARCANIST_T5",
+        "CA002_WPN_STAFF_ARCANIST_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_STAFF_ARCANIST_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_STAFF_LIFEBINDER",
+      "displayName": "Staves — Lifebinder Path",
+      "weaponFamilyId": "WEAPON_FAMILY_STAFF",
+      "artTreeId": "TREE_CA002_WPN_STAFF",
+      "branchCode": "LIFEBINDER",
+      "trainingItemId": "CA002_WPN_STAFF_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_STAFF_LIFEBINDER_T1",
+        "CA002_WPN_STAFF_LIFEBINDER_T2",
+        "EQUIP_WEAPON_GATEGLASS_CHANNEL_STAFF",
+        "CA002_WPN_STAFF_LIFEBINDER_T4",
+        "CA002_WPN_STAFF_LIFEBINDER_T5",
+        "CA002_WPN_STAFF_LIFEBINDER_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_STAFF_LIFEBINDER_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_STAFF_ELEMENTAL",
+      "displayName": "Staves — Elemental Path",
+      "weaponFamilyId": "WEAPON_FAMILY_STAFF",
+      "artTreeId": "TREE_CA002_WPN_STAFF",
+      "branchCode": "ELEMENTAL",
+      "trainingItemId": "CA002_WPN_STAFF_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_STAFF_ELEMENTAL_T1",
+        "CA002_WPN_STAFF_ELEMENTAL_T2",
+        "EQUIP_WEAPON_QUIET_ARCHIVE_STAFF",
+        "CA002_WPN_STAFF_ELEMENTAL_T4",
+        "CA002_WPN_STAFF_ELEMENTAL_T5",
+        "CA002_WPN_STAFF_ELEMENTAL_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_STAFF_ELEMENTAL_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_FOCUS_HEX",
+      "displayName": "Catalysts and Foci — Hex Path",
+      "weaponFamilyId": "WEAPON_FAMILY_FOCUS",
+      "artTreeId": "TREE_CA002_WPN_FOCUS",
+      "branchCode": "HEX",
+      "trainingItemId": "CA002_WPN_FOCUS_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_FOCUS_HEX_T1",
+        "CA002_WPN_FOCUS_HEX_T2",
+        "EQUIP_WEAPON_COPPER_RUNE_FOCUS",
+        "CA002_WPN_FOCUS_HEX_T4",
+        "CA002_WPN_FOCUS_HEX_T5",
+        "CA002_WPN_FOCUS_HEX_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_FOCUS_HEX_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_FOCUS_WARD",
+      "displayName": "Catalysts and Foci — Ward Path",
+      "weaponFamilyId": "WEAPON_FAMILY_FOCUS",
+      "artTreeId": "TREE_CA002_WPN_FOCUS",
+      "branchCode": "WARD",
+      "trainingItemId": "CA002_WPN_FOCUS_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_FOCUS_WARD_T1",
+        "CA002_WPN_FOCUS_WARD_T2",
+        "EQUIP_WEAPON_WARDGLASS_PRISM",
+        "CA002_WPN_FOCUS_WARD_T4",
+        "CA002_WPN_FOCUS_WARD_T5",
+        "CA002_WPN_FOCUS_WARD_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_FOCUS_WARD_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_FOCUS_RESONANCE",
+      "displayName": "Catalysts and Foci — Resonance Path",
+      "weaponFamilyId": "WEAPON_FAMILY_FOCUS",
+      "artTreeId": "TREE_CA002_WPN_FOCUS",
+      "branchCode": "RESONANCE",
+      "trainingItemId": "CA002_WPN_FOCUS_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_FOCUS_RESONANCE_T1",
+        "CA002_WPN_FOCUS_RESONANCE_T2",
+        "EQUIP_WEAPON_SIGNAL_FLAME_WAND",
+        "CA002_WPN_FOCUS_RESONANCE_T4",
+        "CA002_WPN_FOCUS_RESONANCE_T5",
+        "CA002_WPN_FOCUS_RESONANCE_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_FOCUS_RESONANCE_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_ENGINEERING_DEMOLITION",
+      "displayName": "Engineering Weapons and Tools — Demolition Path",
+      "weaponFamilyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "artTreeId": "TREE_CA002_WPN_ENGINEERING",
+      "branchCode": "DEMOLITION",
+      "trainingItemId": "CA002_WPN_ENGINEERING_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_ENGINEERING_DEMOLITION_T1",
+        "CA002_WPN_ENGINEERING_DEMOLITION_T2",
+        "EQUIP_WEAPON_COPPERSPARK_FIELD_RIG",
+        "CA002_WPN_ENGINEERING_DEMOLITION_T4",
+        "CA002_WPN_ENGINEERING_DEMOLITION_T5",
+        "CA002_WPN_ENGINEERING_DEMOLITION_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_ENGINEERING_DEMOLITION_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_ENGINEERING_FIELDCRAFT",
+      "displayName": "Engineering Weapons and Tools — Fieldcraft Path",
+      "weaponFamilyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "artTreeId": "TREE_CA002_WPN_ENGINEERING",
+      "branchCode": "FIELDCRAFT",
+      "trainingItemId": "CA002_WPN_ENGINEERING_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_ENGINEERING_FIELDCRAFT_T1",
+        "CA002_WPN_ENGINEERING_FIELDCRAFT_T2",
+        "EQUIP_WEAPON_BRASSWHISTLE_SIGNAL_HORN",
+        "CA002_WPN_ENGINEERING_FIELDCRAFT_T4",
+        "CA002_WPN_ENGINEERING_FIELDCRAFT_T5",
+        "CA002_WPN_ENGINEERING_FIELDCRAFT_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_ENGINEERING_FIELDCRAFT_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_ENGINEERING_SIGNAL",
+      "displayName": "Engineering Weapons and Tools — Signal Path",
+      "weaponFamilyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "artTreeId": "TREE_CA002_WPN_ENGINEERING",
+      "branchCode": "SIGNAL",
+      "trainingItemId": "CA002_WPN_ENGINEERING_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_ENGINEERING_SIGNAL_T1",
+        "CA002_WPN_ENGINEERING_SIGNAL_T2",
+        "EQUIP_WEAPON_PYLON_DISRUPTOR",
+        "CA002_WPN_ENGINEERING_SIGNAL_T4",
+        "CA002_WPN_ENGINEERING_SIGNAL_T5",
+        "CA002_WPN_ENGINEERING_SIGNAL_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_ENGINEERING_SIGNAL_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_HYBRID_SPELLBLADE",
+      "displayName": "Hybrid Relic Weapons — Spellblade Path",
+      "weaponFamilyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "artTreeId": "TREE_CA002_WPN_HYBRID_RELIC",
+      "branchCode": "SPELLBLADE",
+      "trainingItemId": "CA002_WPN_HYBRID_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_HYBRID_SPELLBLADE_T1",
+        "CA002_WPN_HYBRID_SPELLBLADE_T2",
+        "EQUIP_WEAPON_GATE_RUNE_SPELLBLADE",
+        "CA002_WPN_HYBRID_SPELLBLADE_T4",
+        "CA002_WPN_HYBRID_SPELLBLADE_T5",
+        "CA002_WPN_HYBRID_SPELLBLADE_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_HYBRID_SPELLBLADE_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_HYBRID_COVENANT",
+      "displayName": "Hybrid Relic Weapons — Covenant Path",
+      "weaponFamilyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "artTreeId": "TREE_CA002_WPN_HYBRID_RELIC",
+      "branchCode": "COVENANT",
+      "trainingItemId": "CA002_WPN_HYBRID_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_HYBRID_COVENANT_T1",
+        "CA002_WPN_HYBRID_COVENANT_T2",
+        "EQUIP_WEAPON_MOONFANG_RESONANCE_CLAW",
+        "CA002_WPN_HYBRID_COVENANT_T4",
+        "CA002_WPN_HYBRID_COVENANT_T5",
+        "CA002_WPN_HYBRID_COVENANT_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_HYBRID_COVENANT_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    },
+    {
+      "id": "CA002_PATH_HYBRID_CONVERGENCE",
+      "displayName": "Hybrid Relic Weapons — Convergence Path",
+      "weaponFamilyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "artTreeId": "TREE_CA002_WPN_HYBRID_RELIC",
+      "branchCode": "CONVERGENCE",
+      "trainingItemId": "CA002_WPN_HYBRID_TRAINING",
+      "tierItemIds": [
+        "CA002_WPN_HYBRID_CONVERGENCE_T1",
+        "CA002_WPN_HYBRID_CONVERGENCE_T2",
+        "EQUIP_WEAPON_NIGHTVEIL_MEMORY_SABER",
+        "CA002_WPN_HYBRID_CONVERGENCE_T4",
+        "CA002_WPN_HYBRID_CONVERGENCE_T5",
+        "CA002_WPN_HYBRID_CONVERGENCE_T6"
+      ],
+      "upgradeRule": "Either forge the owned prior tier or find the later tier from an eligible mission/boss. Upgrading never deletes a locked item without explicit player approval.",
+      "godlyItemId": "CA002_WPN_HYBRID_CONVERGENCE_T6",
+      "dropRule": "Every tier is discoverable in authored rank-appropriate loot; the final tier requires a godly source or blueprint.",
+      "allRecruitEquipmentControl": true
+    }
+  ]
+}

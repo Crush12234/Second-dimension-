@@ -1,0 +1,701 @@
+{
+  "contentVersion": "GOW_CONTENT_AUTHORITY_002",
+  "armorSets": [
+    {
+      "id": "CA002_SET_SURVEYOR_COAT",
+      "displayName": "Surveyor Coat Ensemble",
+      "armorWeightClass": "LIGHT",
+      "progressionTier": 1,
+      "rarity": "COMMON",
+      "pieceIds": [
+        "EQUIP_ARMOR_SURVEYOR_COAT",
+        "CA002_SET_SURVEYOR_COAT_HEAD",
+        "CA002_SET_SURVEYOR_COAT_ARMS",
+        "CA002_SET_SURVEYOR_COAT_LEGS"
+      ],
+      "twoPieceBonus": {
+        "summary": "Improves TACTICAL forecast weighting while at least two pieces are equipped.",
+        "valuePermille": 30
+      },
+      "fourPieceBonus": {
+        "summary": "Strengthens the set's identity: Perception and movement; low protection.",
+        "valuePermille": 52
+      },
+      "dropSources": [
+        "MISSION_REWARD",
+        "ENEMY_LOOT",
+        "CONTRACT_REWARD"
+      ],
+      "playerCanEquipManually": true,
+      "autoEquipRequiresExplicitApproval": true,
+      "sourceBodyArmorId": "EQUIP_ARMOR_SURVEYOR_COAT"
+    },
+    {
+      "id": "CA002_SET_RUNE_LINED_FIELD_ROBE",
+      "displayName": "Rune-Lined Field Robe Ensemble",
+      "armorWeightClass": "LIGHT",
+      "progressionTier": 2,
+      "rarity": "UNCOMMON",
+      "pieceIds": [
+        "EQUIP_ARMOR_RUNE_LINED_FIELD_ROBE",
+        "CA002_SET_RUNE_LINED_FIELD_ROBE_HEAD",
+        "CA002_SET_RUNE_LINED_FIELD_ROBE_ARMS",
+        "CA002_SET_RUNE_LINED_FIELD_ROBE_LEGS"
+      ],
+      "twoPieceBonus": {
+        "summary": "Improves CONTROLLED_MAGIC forecast weighting while at least two pieces are equipped.",
+        "valuePermille": 35
+      },
+      "fourPieceBonus": {
+        "summary": "Strengthens the set's identity: Improves controlled Mystic forecasts and MP recovery at camps.",
+        "valuePermille": 59
+      },
+      "dropSources": [
+        "MISSION_REWARD",
+        "ENEMY_LOOT",
+        "CONTRACT_REWARD"
+      ],
+      "playerCanEquipManually": true,
+      "autoEquipRequiresExplicitApproval": true,
+      "sourceBodyArmorId": "EQUIP_ARMOR_RUNE_LINED_FIELD_ROBE"
+    },
+    {
+      "id": "CA002_SET_FENRUNNER_TRAIL_LEATHERS",
+      "displayName": "Fenrunner Trail Leathers Ensemble",
+      "armorWeightClass": "LIGHT",
+      "progressionTier": 3,
+      "rarity": "RARE",
+      "pieceIds": [
+        "EQUIP_ARMOR_FENRUNNER_TRAIL_LEATHERS",
+        "CA002_SET_FENRUNNER_TRAIL_LEATHERS_HEAD",
+        "CA002_SET_FENRUNNER_TRAIL_LEATHERS_ARMS",
+        "CA002_SET_FENRUNNER_TRAIL_LEATHERS_LEGS"
+      ],
+      "twoPieceBonus": {
+        "summary": "Improves RESCUE forecast weighting while at least two pieces are equipped.",
+        "valuePermille": 40
+      },
+      "fourPieceBonus": {
+        "summary": "Strengthens the set's identity: Survival checks and fatigue resistance.",
+        "valuePermille": 66
+      },
+      "dropSources": [
+        "MISSION_REWARD",
+        "ENEMY_LOOT",
+        "CONTRACT_REWARD"
+      ],
+      "playerCanEquipManually": true,
+      "autoEquipRequiresExplicitApproval": true,
+      "sourceBodyArmorId": "EQUIP_ARMOR_FENRUNNER_TRAIL_LEATHERS"
+    },
+    {
+      "id": "CA002_SET_DUSK_SURVEY_MANTLE",
+      "displayName": "Dusk Survey Mantle Ensemble",
+      "armorWeightClass": "LIGHT",
+      "progressionTier": 4,
+      "rarity": "EPIC",
+      "pieceIds": [
+        "EQUIP_ARMOR_DUSK_SURVEY_MANTLE",
+        "CA002_SET_DUSK_SURVEY_MANTLE_HEAD",
+        "CA002_SET_DUSK_SURVEY_MANTLE_ARMS",
+        "CA002_SET_DUSK_SURVEY_MANTLE_LEGS"
+      ],
+      "twoPieceBonus": {
+        "summary": "Improves REARLINE forecast weighting while at least two pieces are equipped.",
+        "valuePermille": 45
+      },
+      "fourPieceBonus": {
+        "summary": "Strengthens the set's identity: Reduces exposure after scouting or revealing a secret.",
+        "valuePermille": 73
+      },
+      "dropSources": [
+        "MISSION_REWARD",
+        "ENEMY_LOOT",
+        "BOSS_LOOT"
+      ],
+      "playerCanEquipManually": true,
+      "autoEquipRequiresExplicitApproval": true,
+      "sourceBodyArmorId": "EQUIP_ARMOR_DUSK_SURVEY_MANTLE"
+    },
+    {
+      "id": "CA002_SET_SIGNAL_WEAVER_JACKET",
+      "displayName": "Signal Weaver Jacket Ensemble",
+      "armorWeightClass": "LIGHT",
+      "progressionTier": 5,
+      "rarity": "EPIC",
+      "pieceIds": [
+        "EQUIP_ARMOR_SIGNAL_WEAVER_JACKET",
+        "CA002_SET_SIGNAL_WEAVER_JACKET_HEAD",
+        "CA002_SET_SIGNAL_WEAVER_JACKET_ARMS",
+        "CA002_SET_SIGNAL_WEAVER_JACKET_LEGS"
+      ],
+      "twoPieceBonus": {
+        "summary": "Improves SUPPORT forecast weighting while at least two pieces are equipped.",
+        "valuePermille": 50
+      },
+      "fourPieceBonus": {
+        "summary": "Strengthens the set's identity: Support and multi-Union command visibility.",
+        "valuePermille": 80
+      },
+      "dropSources": [
+        "MISSION_REWARD",
+        "ENEMY_LOOT",
+        "BOSS_LOOT"
+      ],
+      "playerCanEquipManually": true,
+      "autoEquipRequiresExplicitApproval": true,
+      "sourceBodyArmorId": "EQUIP_ARMOR_SIGNAL_WEAVER_JACKET"
+    },
+    {
+      "id": "CA002_SET_RIVER_CLEANSE_VESTMENTS",
+      "displayName": "River-Cleanse Vestments Ensemble",
+      "armorWeightClass": "LIGHT",
+      "progressionTier": 6,
+      "rarity": "LEGENDARY",
+      "pieceIds": [
+        "EQUIP_ARMOR_RIVER_CLEANSE_VESTMENTS",
+        "CA002_SET_RIVER_CLEANSE_VESTMENTS_HEAD",
+        "CA002_SET_RIVER_CLEANSE_VESTMENTS_ARMS",
+        "CA002_SET_RIVER_CLEANSE_VESTMENTS_LEGS"
+      ],
+      "twoPieceBonus": {
+        "summary": "Improves CLEANSE forecast weighting while at least two pieces are equipped.",
+        "valuePermille": 55
+      },
+      "fourPieceBonus": {
+        "summary": "Strengthens the set's identity: Cleansing and Medicine behavior near hazards.",
+        "valuePermille": 87
+      },
+      "dropSources": [
+        "MISSION_REWARD",
+        "ENEMY_LOOT",
+        "BOSS_LOOT"
+      ],
+      "playerCanEquipManually": true,
+      "autoEquipRequiresExplicitApproval": true,
+      "sourceBodyArmorId": "EQUIP_ARMOR_RIVER_CLEANSE_VESTMENTS"
+    },
+    {
+      "id": "CA002_SET_GATEGLASS_ADEPT_WRAP",
+      "displayName": "Gateglass Adept Wrap Ensemble",
+      "armorWeightClass": "LIGHT",
+      "progressionTier": 7,
+      "rarity": "LEGENDARY",
+      "pieceIds": [
+        "EQUIP_ARMOR_GATEGLASS_ADEPT_WRAP",
+        "CA002_SET_GATEGLASS_ADEPT_WRAP_HEAD",
+        "CA002_SET_GATEGLASS_ADEPT_WRAP_ARMS",
+        "CA002_SET_GATEGLASS_ADEPT_WRAP_LEGS"
+      ],
+      "twoPieceBonus": {
+        "summary": "Improves MYSTIC forecast weighting while at least two pieces are equipped.",
+        "valuePermille": 60
+      },
+      "fourPieceBonus": {
+        "summary": "Strengthens the set's identity: First Mystic MP expenditure is reduced by 1.",
+        "valuePermille": 94
+      },
+      "dropSources": [
+        "MISSION_REWARD",
+        "ENEMY_LOOT",
+        "BOSS_LOOT"
+      ],
+      "playerCanEquipManually": true,
+      "autoEquipRequiresExplicitApproval": true,
+      "sourceBodyArmorId": "EQUIP_ARMOR_GATEGLASS_ADEPT_WRAP"
+    },
+    {
+      "id": "CA002_SET_SILENT_CAMP_QUARTERMASTER_COAT",
+      "displayName": "Silent Camp Quartermaster Coat Ensemble",
+      "armorWeightClass": "LIGHT",
+      "progressionTier": 8,
+      "rarity": "GODLY",
+      "pieceIds": [
+        "EQUIP_ARMOR_SILENT_CAMP_QUARTERMASTER_COAT",
+        "CA002_SET_SILENT_CAMP_QUARTERMASTER_COAT_HEAD",
+        "CA002_SET_SILENT_CAMP_QUARTERMASTER_COAT_ARMS",
+        "CA002_SET_SILENT_CAMP_QUARTERMASTER_COAT_LEGS"
+      ],
+      "twoPieceBonus": {
+        "summary": "Improves RETREAT forecast weighting while at least two pieces are equipped.",
+        "valuePermille": 65
+      },
+      "fourPieceBonus": {
+        "summary": "Strengthens the set's identity: Supplies last longer and retreat forecasts gain weight when low.",
+        "valuePermille": 101
+      },
+      "dropSources": [
+        "MISSION_REWARD",
+        "ENEMY_LOOT",
+        "BOSS_LOOT"
+      ],
+      "playerCanEquipManually": true,
+      "autoEquipRequiresExplicitApproval": true,
+      "sourceBodyArmorId": "EQUIP_ARMOR_SILENT_CAMP_QUARTERMASTER_COAT"
+    },
+    {
+      "id": "CA002_SET_ROADWARDEN_LAMELLAR",
+      "displayName": "Roadwarden Lamellar Ensemble",
+      "armorWeightClass": "MEDIUM",
+      "progressionTier": 1,
+      "rarity": "COMMON",
+      "pieceIds": [
+        "EQUIP_ARMOR_ROADWARDEN_LAMELLAR",
+        "CA002_SET_ROADWARDEN_LAMELLAR_HEAD",
+        "CA002_SET_ROADWARDEN_LAMELLAR_ARMS",
+        "CA002_SET_ROADWARDEN_LAMELLAR_LEGS"
+      ],
+      "twoPieceBonus": {
+        "summary": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+        "valuePermille": 30
+      },
+      "fourPieceBonus": {
+        "summary": "Strengthens the set's identity: Balanced Guard and movement.",
+        "valuePermille": 52
+      },
+      "dropSources": [
+        "MISSION_REWARD",
+        "ENEMY_LOOT",
+        "CONTRACT_REWARD"
+      ],
+      "playerCanEquipManually": true,
+      "autoEquipRequiresExplicitApproval": true,
+      "sourceBodyArmorId": "EQUIP_ARMOR_ROADWARDEN_LAMELLAR"
+    },
+    {
+      "id": "CA002_SET_STORMROAD_SCALE_COAT",
+      "displayName": "Stormroad Scale Coat Ensemble",
+      "armorWeightClass": "MEDIUM",
+      "progressionTier": 2,
+      "rarity": "UNCOMMON",
+      "pieceIds": [
+        "EQUIP_ARMOR_STORMROAD_SCALE_COAT",
+        "CA002_SET_STORMROAD_SCALE_COAT_HEAD",
+        "CA002_SET_STORMROAD_SCALE_COAT_ARMS",
+        "CA002_SET_STORMROAD_SCALE_COAT_LEGS"
+      ],
+      "twoPieceBonus": {
+        "summary": "Improves TACTICAL forecast weighting while at least two pieces are equipped.",
+        "valuePermille": 35
+      },
+      "fourPieceBonus": {
+        "summary": "Strengthens the set's identity: Flanking resistance and controlled movement.",
+        "valuePermille": 59
+      },
+      "dropSources": [
+        "MISSION_REWARD",
+        "ENEMY_LOOT",
+        "CONTRACT_REWARD"
+      ],
+      "playerCanEquipManually": true,
+      "autoEquipRequiresExplicitApproval": true,
+      "sourceBodyArmorId": "EQUIP_ARMOR_STORMROAD_SCALE_COAT"
+    },
+    {
+      "id": "CA002_SET_GOBLIN_UTILITY_HARNESS",
+      "displayName": "Goblin Utility Harness Ensemble",
+      "armorWeightClass": "MEDIUM",
+      "progressionTier": 3,
+      "rarity": "RARE",
+      "pieceIds": [
+        "EQUIP_ARMOR_GOBLIN_UTILITY_HARNESS",
+        "CA002_SET_GOBLIN_UTILITY_HARNESS_HEAD",
+        "CA002_SET_GOBLIN_UTILITY_HARNESS_ARMS",
+        "CA002_SET_GOBLIN_UTILITY_HARNESS_LEGS"
+      ],
+      "twoPieceBonus": {
+        "summary": "Improves OBJECTIVE forecast weighting while at least two pieces are equipped.",
+        "valuePermille": 40
+      },
+      "fourPieceBonus": {
+        "summary": "Strengthens the set's identity: Tool compatibility and Crafting assistance.",
+        "valuePermille": 66
+      },
+      "dropSources": [
+        "MISSION_REWARD",
+        "ENEMY_LOOT",
+        "CONTRACT_REWARD"
+      ],
+      "playerCanEquipManually": true,
+      "autoEquipRequiresExplicitApproval": true,
+      "sourceBodyArmorId": "EQUIP_ARMOR_GOBLIN_UTILITY_HARNESS"
+    },
+    {
+      "id": "CA002_SET_ASH_MAP_COMMAND_ARMOR",
+      "displayName": "Ash-Map Command Armor Ensemble",
+      "armorWeightClass": "MEDIUM",
+      "progressionTier": 4,
+      "rarity": "EPIC",
+      "pieceIds": [
+        "EQUIP_ARMOR_ASH_MAP_COMMAND_ARMOR",
+        "CA002_SET_ASH_MAP_COMMAND_ARMOR_HEAD",
+        "CA002_SET_ASH_MAP_COMMAND_ARMOR_ARMS",
+        "CA002_SET_ASH_MAP_COMMAND_ARMOR_LEGS"
+      ],
+      "twoPieceBonus": {
+        "summary": "Improves COORDINATE forecast weighting while at least two pieces are equipped.",
+        "valuePermille": 45
+      },
+      "fourPieceBonus": {
+        "summary": "Strengthens the set's identity: Leadership and forecast preview clarity.",
+        "valuePermille": 73
+      },
+      "dropSources": [
+        "MISSION_REWARD",
+        "ENEMY_LOOT",
+        "BOSS_LOOT"
+      ],
+      "playerCanEquipManually": true,
+      "autoEquipRequiresExplicitApproval": true,
+      "sourceBodyArmorId": "EQUIP_ARMOR_ASH_MAP_COMMAND_ARMOR"
+    },
+    {
+      "id": "CA002_SET_BLOODLESS_RIVER_GUARDCOAT",
+      "displayName": "Bloodless River Guardcoat Ensemble",
+      "armorWeightClass": "MEDIUM",
+      "progressionTier": 5,
+      "rarity": "EPIC",
+      "pieceIds": [
+        "EQUIP_ARMOR_BLOODLESS_RIVER_GUARDCOAT",
+        "CA002_SET_BLOODLESS_RIVER_GUARDCOAT_HEAD",
+        "CA002_SET_BLOODLESS_RIVER_GUARDCOAT_ARMS",
+        "CA002_SET_BLOODLESS_RIVER_GUARDCOAT_LEGS"
+      ],
+      "twoPieceBonus": {
+        "summary": "Improves CLEANSE forecast weighting while at least two pieces are equipped.",
+        "valuePermille": 50
+      },
+      "fourPieceBonus": {
+        "summary": "Strengthens the set's identity: Hazard and purification resistance.",
+        "valuePermille": 80
+      },
+      "dropSources": [
+        "MISSION_REWARD",
+        "ENEMY_LOOT",
+        "BOSS_LOOT"
+      ],
+      "playerCanEquipManually": true,
+      "autoEquipRequiresExplicitApproval": true,
+      "sourceBodyArmorId": "EQUIP_ARMOR_BLOODLESS_RIVER_GUARDCOAT"
+    },
+    {
+      "id": "CA002_SET_RESCUE_MARSHAL_BRIGANDINE",
+      "displayName": "Rescue Marshal Brigandine Ensemble",
+      "armorWeightClass": "MEDIUM",
+      "progressionTier": 6,
+      "rarity": "LEGENDARY",
+      "pieceIds": [
+        "EQUIP_ARMOR_RESCUE_MARSHAL_BRIGANDINE",
+        "CA002_SET_RESCUE_MARSHAL_BRIGANDINE_HEAD",
+        "CA002_SET_RESCUE_MARSHAL_BRIGANDINE_ARMS",
+        "CA002_SET_RESCUE_MARSHAL_BRIGANDINE_LEGS"
+      ],
+      "twoPieceBonus": {
+        "summary": "Improves RESCUE forecast weighting while at least two pieces are equipped.",
+        "valuePermille": 55
+      },
+      "fourPieceBonus": {
+        "summary": "Strengthens the set's identity: Protect-wounded and extraction actions.",
+        "valuePermille": 87
+      },
+      "dropSources": [
+        "MISSION_REWARD",
+        "ENEMY_LOOT",
+        "BOSS_LOOT"
+      ],
+      "playerCanEquipManually": true,
+      "autoEquipRequiresExplicitApproval": true,
+      "sourceBodyArmorId": "EQUIP_ARMOR_RESCUE_MARSHAL_BRIGANDINE"
+    },
+    {
+      "id": "CA002_SET_WAR_BEAST_HANDLER_MAIL",
+      "displayName": "War-Beast Handler Mail Ensemble",
+      "armorWeightClass": "MEDIUM",
+      "progressionTier": 7,
+      "rarity": "LEGENDARY",
+      "pieceIds": [
+        "EQUIP_ARMOR_WAR_BEAST_HANDLER_MAIL",
+        "CA002_SET_WAR_BEAST_HANDLER_MAIL_HEAD",
+        "CA002_SET_WAR_BEAST_HANDLER_MAIL_ARMS",
+        "CA002_SET_WAR_BEAST_HANDLER_MAIL_LEGS"
+      ],
+      "twoPieceBonus": {
+        "summary": "Improves SUPPORT forecast weighting while at least two pieces are equipped.",
+        "valuePermille": 60
+      },
+      "fourPieceBonus": {
+        "summary": "Strengthens the set's identity: Reduces fear and improves nonhostile creature events.",
+        "valuePermille": 94
+      },
+      "dropSources": [
+        "MISSION_REWARD",
+        "ENEMY_LOOT",
+        "BOSS_LOOT"
+      ],
+      "playerCanEquipManually": true,
+      "autoEquipRequiresExplicitApproval": true,
+      "sourceBodyArmorId": "EQUIP_ARMOR_WAR_BEAST_HANDLER_MAIL"
+    },
+    {
+      "id": "CA002_SET_GATEWATCH_HYBRID_CUIRASS",
+      "displayName": "Gatewatch Hybrid Cuirass Ensemble",
+      "armorWeightClass": "MEDIUM",
+      "progressionTier": 8,
+      "rarity": "GODLY",
+      "pieceIds": [
+        "EQUIP_ARMOR_GATEWATCH_HYBRID_CUIRASS",
+        "CA002_SET_GATEWATCH_HYBRID_CUIRASS_HEAD",
+        "CA002_SET_GATEWATCH_HYBRID_CUIRASS_ARMS",
+        "CA002_SET_GATEWATCH_HYBRID_CUIRASS_LEGS"
+      ],
+      "twoPieceBonus": {
+        "summary": "Improves MYSTIC forecast weighting while at least two pieces are equipped.",
+        "valuePermille": 65
+      },
+      "fourPieceBonus": {
+        "summary": "Strengthens the set's identity: Supports a one-handed weapon plus focus hybrid without overload.",
+        "valuePermille": 101
+      },
+      "dropSources": [
+        "MISSION_REWARD",
+        "ENEMY_LOOT",
+        "BOSS_LOOT"
+      ],
+      "playerCanEquipManually": true,
+      "autoEquipRequiresExplicitApproval": true,
+      "sourceBodyArmorId": "EQUIP_ARMOR_GATEWATCH_HYBRID_CUIRASS"
+    },
+    {
+      "id": "CA002_SET_OUTER_ROAD_PLATE",
+      "displayName": "Outer Road Plate Panoply",
+      "armorWeightClass": "HEAVY",
+      "progressionTier": 1,
+      "rarity": "COMMON",
+      "pieceIds": [
+        "EQUIP_ARMOR_OUTER_ROAD_PLATE",
+        "CA002_SET_OUTER_ROAD_PLATE_HEAD",
+        "CA002_SET_OUTER_ROAD_PLATE_ARMS",
+        "CA002_SET_OUTER_ROAD_PLATE_LEGS"
+      ],
+      "twoPieceBonus": {
+        "summary": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+        "valuePermille": 30
+      },
+      "fourPieceBonus": {
+        "summary": "Strengthens the set's identity: High protection and reliable Shield Wall behavior.",
+        "valuePermille": 52
+      },
+      "dropSources": [
+        "MISSION_REWARD",
+        "ENEMY_LOOT",
+        "CONTRACT_REWARD"
+      ],
+      "playerCanEquipManually": true,
+      "autoEquipRequiresExplicitApproval": true,
+      "sourceBodyArmorId": "EQUIP_ARMOR_OUTER_ROAD_PLATE"
+    },
+    {
+      "id": "CA002_SET_IRON_MARCH_HARNESS",
+      "displayName": "Iron March Harness Panoply",
+      "armorWeightClass": "HEAVY",
+      "progressionTier": 2,
+      "rarity": "UNCOMMON",
+      "pieceIds": [
+        "EQUIP_ARMOR_IRON_MARCH_HARNESS",
+        "CA002_SET_IRON_MARCH_HARNESS_HEAD",
+        "CA002_SET_IRON_MARCH_HARNESS_ARMS",
+        "CA002_SET_IRON_MARCH_HARNESS_LEGS"
+      ],
+      "twoPieceBonus": {
+        "summary": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+        "valuePermille": 35
+      },
+      "fourPieceBonus": {
+        "summary": "Strengthens the set's identity: Cohesion protection, but reduced flank mobility.",
+        "valuePermille": 59
+      },
+      "dropSources": [
+        "MISSION_REWARD",
+        "ENEMY_LOOT",
+        "CONTRACT_REWARD"
+      ],
+      "playerCanEquipManually": true,
+      "autoEquipRequiresExplicitApproval": true,
+      "sourceBodyArmorId": "EQUIP_ARMOR_IRON_MARCH_HARNESS"
+    },
+    {
+      "id": "CA002_SET_COLLAPSED_WALL_ENGINEER_PLATE",
+      "displayName": "Collapsed Wall Engineer Plate Panoply",
+      "armorWeightClass": "HEAVY",
+      "progressionTier": 3,
+      "rarity": "RARE",
+      "pieceIds": [
+        "EQUIP_ARMOR_COLLAPSED_WALL_ENGINEER_PLATE",
+        "CA002_SET_COLLAPSED_WALL_ENGINEER_PLATE_HEAD",
+        "CA002_SET_COLLAPSED_WALL_ENGINEER_PLATE_ARMS",
+        "CA002_SET_COLLAPSED_WALL_ENGINEER_PLATE_LEGS"
+      ],
+      "twoPieceBonus": {
+        "summary": "Improves OBJECTIVE forecast weighting while at least two pieces are equipped.",
+        "valuePermille": 40
+      },
+      "fourPieceBonus": {
+        "summary": "Strengthens the set's identity: Objective resistance and construct work.",
+        "valuePermille": 66
+      },
+      "dropSources": [
+        "MISSION_REWARD",
+        "ENEMY_LOOT",
+        "CONTRACT_REWARD"
+      ],
+      "playerCanEquipManually": true,
+      "autoEquipRequiresExplicitApproval": true,
+      "sourceBodyArmorId": "EQUIP_ARMOR_COLLAPSED_WALL_ENGINEER_PLATE"
+    },
+    {
+      "id": "CA002_SET_AEGIS_TRIAL_ARMOR",
+      "displayName": "Aegis Trial Armor Panoply",
+      "armorWeightClass": "HEAVY",
+      "progressionTier": 4,
+      "rarity": "EPIC",
+      "pieceIds": [
+        "EQUIP_ARMOR_AEGIS_TRIAL_ARMOR",
+        "CA002_SET_AEGIS_TRIAL_ARMOR_HEAD",
+        "CA002_SET_AEGIS_TRIAL_ARMOR_ARMS",
+        "CA002_SET_AEGIS_TRIAL_ARMOR_LEGS"
+      ],
+      "twoPieceBonus": {
+        "summary": "Improves RESCUE forecast weighting while at least two pieces are equipped.",
+        "valuePermille": 45
+      },
+      "fourPieceBonus": {
+        "summary": "Strengthens the set's identity: Meaningful civilian protection increases evolution progress.",
+        "valuePermille": 73
+      },
+      "dropSources": [
+        "MISSION_REWARD",
+        "ENEMY_LOOT",
+        "BOSS_LOOT"
+      ],
+      "playerCanEquipManually": true,
+      "autoEquipRequiresExplicitApproval": true,
+      "sourceBodyArmorId": "EQUIP_ARMOR_AEGIS_TRIAL_ARMOR"
+    },
+    {
+      "id": "CA002_SET_PYLON_GROUNDING_PLATE",
+      "displayName": "Pylon Grounding Plate Panoply",
+      "armorWeightClass": "HEAVY",
+      "progressionTier": 5,
+      "rarity": "EPIC",
+      "pieceIds": [
+        "EQUIP_ARMOR_PYLON_GROUNDING_PLATE",
+        "CA002_SET_PYLON_GROUNDING_PLATE_HEAD",
+        "CA002_SET_PYLON_GROUNDING_PLATE_ARMS",
+        "CA002_SET_PYLON_GROUNDING_PLATE_LEGS"
+      ],
+      "twoPieceBonus": {
+        "summary": "Improves ANTI_MYSTIC forecast weighting while at least two pieces are equipped.",
+        "valuePermille": 50
+      },
+      "fourPieceBonus": {
+        "summary": "Strengthens the set's identity: Strong anti-Mystic defense, vulnerable to mobility control.",
+        "valuePermille": 80
+      },
+      "dropSources": [
+        "MISSION_REWARD",
+        "ENEMY_LOOT",
+        "BOSS_LOOT"
+      ],
+      "playerCanEquipManually": true,
+      "autoEquipRequiresExplicitApproval": true,
+      "sourceBodyArmorId": "EQUIP_ARMOR_PYLON_GROUNDING_PLATE"
+    },
+    {
+      "id": "CA002_SET_MOUNTAIN_LINE_BULWARK",
+      "displayName": "Mountain-Line Bulwark Panoply",
+      "armorWeightClass": "HEAVY",
+      "progressionTier": 6,
+      "rarity": "LEGENDARY",
+      "pieceIds": [
+        "EQUIP_ARMOR_MOUNTAIN_LINE_BULWARK",
+        "CA002_SET_MOUNTAIN_LINE_BULWARK_HEAD",
+        "CA002_SET_MOUNTAIN_LINE_BULWARK_ARMS",
+        "CA002_SET_MOUNTAIN_LINE_BULWARK_LEGS"
+      ],
+      "twoPieceBonus": {
+        "summary": "Improves GUARD forecast weighting while at least two pieces are equipped.",
+        "valuePermille": 55
+      },
+      "fourPieceBonus": {
+        "summary": "Strengthens the set's identity: Formation center anchor; high fatigue on long boards.",
+        "valuePermille": 87
+      },
+      "dropSources": [
+        "MISSION_REWARD",
+        "ENEMY_LOOT",
+        "BOSS_LOOT"
+      ],
+      "playerCanEquipManually": true,
+      "autoEquipRequiresExplicitApproval": true,
+      "sourceBodyArmorId": "EQUIP_ARMOR_MOUNTAIN_LINE_BULWARK"
+    },
+    {
+      "id": "CA002_SET_BANNER_HILL_HONOR_PLATE",
+      "displayName": "Banner Hill Honor Plate Panoply",
+      "armorWeightClass": "HEAVY",
+      "progressionTier": 7,
+      "rarity": "LEGENDARY",
+      "pieceIds": [
+        "EQUIP_ARMOR_BANNER_HILL_HONOR_PLATE",
+        "CA002_SET_BANNER_HILL_HONOR_PLATE_HEAD",
+        "CA002_SET_BANNER_HILL_HONOR_PLATE_ARMS",
+        "CA002_SET_BANNER_HILL_HONOR_PLATE_LEGS"
+      ],
+      "twoPieceBonus": {
+        "summary": "Improves SUPPORT forecast weighting while at least two pieces are equipped.",
+        "valuePermille": 60
+      },
+      "fourPieceBonus": {
+        "summary": "Strengthens the set's identity: Support progress from protecting morale objectives.",
+        "valuePermille": 94
+      },
+      "dropSources": [
+        "MISSION_REWARD",
+        "ENEMY_LOOT",
+        "BOSS_LOOT"
+      ],
+      "playerCanEquipManually": true,
+      "autoEquipRequiresExplicitApproval": true,
+      "sourceBodyArmorId": "EQUIP_ARMOR_BANNER_HILL_HONOR_PLATE"
+    },
+    {
+      "id": "CA002_SET_GATEBOUND_COLOSSUS_SALVAGE_PLATE",
+      "displayName": "Gatebound Colossus Salvage Plate Panoply",
+      "armorWeightClass": "HEAVY",
+      "progressionTier": 8,
+      "rarity": "GODLY",
+      "pieceIds": [
+        "EQUIP_ARMOR_GATEBOUND_COLOSSUS_SALVAGE_PLATE",
+        "CA002_SET_GATEBOUND_COLOSSUS_SALVAGE_PLATE_HEAD",
+        "CA002_SET_GATEBOUND_COLOSSUS_SALVAGE_PLATE_ARMS",
+        "CA002_SET_GATEBOUND_COLOSSUS_SALVAGE_PLATE_LEGS"
+      ],
+      "twoPieceBonus": {
+        "summary": "Improves SURVIVE forecast weighting while at least two pieces are equipped.",
+        "valuePermille": 65
+      },
+      "fourPieceBonus": {
+        "summary": "Strengthens the set's identity: Boss telegraph survival, difficult to repair.",
+        "valuePermille": 101
+      },
+      "dropSources": [
+        "MISSION_REWARD",
+        "ENEMY_LOOT",
+        "BOSS_LOOT"
+      ],
+      "playerCanEquipManually": true,
+      "autoEquipRequiresExplicitApproval": true,
+      "sourceBodyArmorId": "EQUIP_ARMOR_GATEBOUND_COLOSSUS_SALVAGE_PLATE"
+    }
+  ]
+}

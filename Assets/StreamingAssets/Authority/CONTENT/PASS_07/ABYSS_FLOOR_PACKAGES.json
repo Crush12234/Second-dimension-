@@ -1,0 +1,1406 @@
+{
+  "contentVersion": "GOW_PASS07_0.12",
+  "floors": [
+    {
+      "id": "ABYSS_FLOOR_001",
+      "floorNumber": 1,
+      "displayName": "Mud Trenches",
+      "canonTheme": "war leaves civilians buried",
+      "coreLesson": "protect allies while advancing",
+      "visualIdentity": "muddy trench lines, splintered duckboards, half-buried shelter doors",
+      "boardPresentation": "Illustrated tactical board using trench network grammar.",
+      "combatArenaPresentation": "muddy trench lines, splintered duckboards, half-buried shelter doors rendered as readable Union lanes with objective markers.",
+      "terrainVocabulary": [
+        "SUPPRESSION_LANE",
+        "DUGOUT",
+        "COLLAPSED_CROSSING",
+        "SHELTER_SHAFT"
+      ],
+      "lighting": "cold dawn",
+      "musicDirection": "Low orchestral motif for war leaves civilians buried; percussion intensifies only as civic stakes rise.",
+      "ambientAudio": [
+        "distant echoes",
+        "System chimes",
+        "material movement",
+        "wind or structural stress"
+      ],
+      "environmentalStorytelling": [
+        "war leaves civilians buried",
+        "protect allies while advancing",
+        "Old civilization records reveal only partial truths."
+      ],
+      "authoredBackbone": [
+        {
+          "id": "ENTRY_LICENSE",
+          "type": "ENTRANCE",
+          "required": true
+        },
+        {
+          "id": "INTRO_CLUE",
+          "type": "EVENT",
+          "required": true
+        },
+        {
+          "id": "CIVIC_CLUE",
+          "type": "CIVIC_CLUE",
+          "required": true
+        },
+        {
+          "id": "REQUIRED_OBSTACLE",
+          "type": "SKILL_CHECK",
+          "required": true
+        },
+        {
+          "id": "MORAL_DECISION",
+          "type": "EVENT",
+          "required": true
+        },
+        {
+          "id": "REGROUP",
+          "type": "CAMP",
+          "required": false
+        },
+        {
+          "id": "BOSS_APPROACH",
+          "type": "ELITE",
+          "required": true
+        },
+        {
+          "id": "BOSS",
+          "type": "BOSS",
+          "required": true
+        },
+        {
+          "id": "TRIAL_RESOLUTION",
+          "type": "CIVIC_RESOLUTION",
+          "required": true
+        },
+        {
+          "id": "EXIT",
+          "type": "EXIT",
+          "required": true
+        }
+      ],
+      "boardGrammarId": "GRAMMAR_F01_TRENCH_NETWORK",
+      "primaryManifestation": "Broken Soldiers",
+      "bossId": "ABYSS_BOSS_001",
+      "civicTrialId": "TRIAL_BURIED_CIVILIANS",
+      "firstClearRewards": {
+        "personalXP": 1000,
+        "guildTreasuryXP": 1000,
+        "materials": [
+          "rusted medals and shield splinters"
+        ],
+        "blueprint": "BLUEPRINT_F01_RESCUE_DRILL_ANNEX"
+      },
+      "repeatClearRewards": {
+        "personalXPBase": 500,
+        "guildTreasuryXPBase": 650,
+        "diminishingAfter": 3
+      },
+      "summonClueIds": [
+        "SUMMON_CLUE_F01_A",
+        "SUMMON_CLUE_F01_B"
+      ],
+      "socialHooks": [
+        "REL_MEMORY_F01_CIVIC",
+        "UNION_CHRONICLE_F01",
+        "LEGEND_MOMENTUM_F01"
+      ],
+      "personalQuestHooks": [
+        "OPENING_SIGNATURE_ANY",
+        "PROCEDURAL_FEAR_OR_AMBITION"
+      ],
+      "safeZoneIds": [
+        "SAFE_F01_A"
+      ],
+      "emergencyExitIds": [
+        "EXIT_F01_EMERGENCY"
+      ],
+      "licenseRequirementId": "ABYSS_LICENSE_F01",
+      "ordinarySecretPool": [
+        "SECRET_F01_01",
+        "SECRET_F01_02",
+        "SECRET_F01_03",
+        "SECRET_F01_04",
+        "SECRET_F01_05"
+      ],
+      "marginVisualTreatment": "The Margin mimics muddy trench lines, splintered duckboards, half-buried shelter doors but geometry folds outside perspective; no public clues.",
+      "cityConsequenceId": "CITY_CONSEQUENCE_F01",
+      "sustainabilityFocus": [
+        "protection",
+        "responsible extraction",
+        "mapping",
+        "teaching",
+        "civic use"
+      ],
+      "strictCanonBoundaries": [
+        "Abyss is partner/test, never owned",
+        "manifestations are Abyss soul fragments",
+        "Great Summons remain voluntary Covenants",
+        "Margin never required"
+      ]
+    },
+    {
+      "id": "ABYSS_FLOOR_002",
+      "floorNumber": 2,
+      "displayName": "Arrow Rain Field",
+      "canonTheme": "surviving pressure through formation defense",
+      "coreLesson": "timing, shelter, and coordinated movement",
+      "visualIdentity": "wind-flattened field, phantom arrow curtains, movable shield berms",
+      "boardPresentation": "Illustrated tactical board using exposure corridors grammar.",
+      "combatArenaPresentation": "wind-flattened field, phantom arrow curtains, movable shield berms rendered as readable Union lanes with objective markers.",
+      "terrainVocabulary": [
+        "OPEN_EXPOSURE",
+        "MOVING_COVER",
+        "SHIELD_BERM",
+        "WIND_GAP"
+      ],
+      "lighting": "high contrast hazard light",
+      "musicDirection": "Low orchestral motif for surviving pressure through formation defense; percussion intensifies only as civic stakes rise.",
+      "ambientAudio": [
+        "distant echoes",
+        "System chimes",
+        "material movement",
+        "wind or structural stress"
+      ],
+      "environmentalStorytelling": [
+        "surviving pressure through formation defense",
+        "timing, shelter, and coordinated movement",
+        "Old civilization records reveal only partial truths."
+      ],
+      "authoredBackbone": [
+        {
+          "id": "ENTRY_LICENSE",
+          "type": "ENTRANCE",
+          "required": true
+        },
+        {
+          "id": "INTRO_CLUE",
+          "type": "EVENT",
+          "required": true
+        },
+        {
+          "id": "CIVIC_CLUE",
+          "type": "CIVIC_CLUE",
+          "required": true
+        },
+        {
+          "id": "REQUIRED_OBSTACLE",
+          "type": "SKILL_CHECK",
+          "required": true
+        },
+        {
+          "id": "MORAL_DECISION",
+          "type": "EVENT",
+          "required": true
+        },
+        {
+          "id": "REGROUP",
+          "type": "CAMP",
+          "required": false
+        },
+        {
+          "id": "BOSS_APPROACH",
+          "type": "ELITE",
+          "required": true
+        },
+        {
+          "id": "BOSS",
+          "type": "BOSS",
+          "required": true
+        },
+        {
+          "id": "TRIAL_RESOLUTION",
+          "type": "CIVIC_RESOLUTION",
+          "required": true
+        },
+        {
+          "id": "EXIT",
+          "type": "EXIT",
+          "required": true
+        }
+      ],
+      "boardGrammarId": "GRAMMAR_F02_EXPOSURE_CORRIDORS",
+      "primaryManifestation": "Arrow Echoes",
+      "bossId": "ABYSS_BOSS_002",
+      "civicTrialId": "TRIAL_CROSS_UNDER_FIRE",
+      "firstClearRewards": {
+        "personalXP": 1800,
+        "guildTreasuryXP": 2000,
+        "materials": [
+          "wind charms and arrow cores"
+        ],
+        "blueprint": "BLUEPRINT_F02_COVERED_FORMATION_RANGE"
+      },
+      "repeatClearRewards": {
+        "personalXPBase": 1000,
+        "guildTreasuryXPBase": 1300,
+        "diminishingAfter": 3
+      },
+      "summonClueIds": [
+        "SUMMON_CLUE_F02_A",
+        "SUMMON_CLUE_F02_B"
+      ],
+      "socialHooks": [
+        "REL_MEMORY_F02_CIVIC",
+        "UNION_CHRONICLE_F02",
+        "LEGEND_MOMENTUM_F02"
+      ],
+      "personalQuestHooks": [
+        "OPENING_SIGNATURE_ANY",
+        "PROCEDURAL_FEAR_OR_AMBITION"
+      ],
+      "safeZoneIds": [
+        "SAFE_F02_A"
+      ],
+      "emergencyExitIds": [
+        "EXIT_F02_EMERGENCY"
+      ],
+      "licenseRequirementId": "ABYSS_LICENSE_F02",
+      "ordinarySecretPool": [
+        "SECRET_F02_01",
+        "SECRET_F02_02",
+        "SECRET_F02_03",
+        "SECRET_F02_04",
+        "SECRET_F02_05"
+      ],
+      "marginVisualTreatment": "The Margin mimics wind-flattened field, phantom arrow curtains, movable shield berms but geometry folds outside perspective; no public clues.",
+      "cityConsequenceId": "CITY_CONSEQUENCE_F02",
+      "sustainabilityFocus": [
+        "protection",
+        "responsible extraction",
+        "mapping",
+        "teaching",
+        "civic use"
+      ],
+      "strictCanonBoundaries": [
+        "Abyss is partner/test, never owned",
+        "manifestations are Abyss soul fragments",
+        "Great Summons remain voluntary Covenants",
+        "Margin never required"
+      ]
+    },
+    {
+      "id": "ABYSS_FLOOR_003",
+      "floorNumber": 3,
+      "displayName": "Silent Camp",
+      "canonTheme": "logistics determine who survives",
+      "coreLesson": "supplies, records, rest, and preparation",
+      "visualIdentity": "silent canvas rows, cold cookfires, numbered stores, empty bedrolls",
+      "boardPresentation": "Illustrated tactical board using camp logistics web grammar.",
+      "combatArenaPresentation": "silent canvas rows, cold cookfires, numbered stores, empty bedrolls rendered as readable Union lanes with objective markers.",
+      "terrainVocabulary": [
+        "SUPPLY_ROW",
+        "MEDICAL_TENT",
+        "COOKFIRE",
+        "RECORDS_DEPOT"
+      ],
+      "lighting": "quiet dusk",
+      "musicDirection": "Low orchestral motif for logistics determine who survives; percussion intensifies only as civic stakes rise.",
+      "ambientAudio": [
+        "distant echoes",
+        "System chimes",
+        "material movement",
+        "wind or structural stress"
+      ],
+      "environmentalStorytelling": [
+        "logistics determine who survives",
+        "supplies, records, rest, and preparation",
+        "Old civilization records reveal only partial truths."
+      ],
+      "authoredBackbone": [
+        {
+          "id": "ENTRY_LICENSE",
+          "type": "ENTRANCE",
+          "required": true
+        },
+        {
+          "id": "INTRO_CLUE",
+          "type": "EVENT",
+          "required": true
+        },
+        {
+          "id": "CIVIC_CLUE",
+          "type": "CIVIC_CLUE",
+          "required": true
+        },
+        {
+          "id": "REQUIRED_OBSTACLE",
+          "type": "SKILL_CHECK",
+          "required": true
+        },
+        {
+          "id": "MORAL_DECISION",
+          "type": "EVENT",
+          "required": true
+        },
+        {
+          "id": "REGROUP",
+          "type": "CAMP",
+          "required": true
+        },
+        {
+          "id": "BOSS_APPROACH",
+          "type": "ELITE",
+          "required": true
+        },
+        {
+          "id": "BOSS",
+          "type": "BOSS",
+          "required": true
+        },
+        {
+          "id": "TRIAL_RESOLUTION",
+          "type": "CIVIC_RESOLUTION",
+          "required": true
+        },
+        {
+          "id": "EXIT",
+          "type": "EXIT",
+          "required": true
+        }
+      ],
+      "boardGrammarId": "GRAMMAR_F03_CAMP_LOGISTICS_WEB",
+      "primaryManifestation": "Camp Wraiths",
+      "bossId": "ABYSS_BOSS_003",
+      "civicTrialId": "TRIAL_RECORDS_BEFORE_SALVAGE",
+      "firstClearRewards": {
+        "personalXP": 2600,
+        "guildTreasuryXP": 3000,
+        "materials": [
+          "ration blueprints and field-stove components"
+        ],
+        "blueprint": "BLUEPRINT_F03_QUARTERMASTER_SUPPLY_KITCHEN"
+      },
+      "repeatClearRewards": {
+        "personalXPBase": 1500,
+        "guildTreasuryXPBase": 1950,
+        "diminishingAfter": 3
+      },
+      "summonClueIds": [
+        "SUMMON_CLUE_F03_A",
+        "SUMMON_CLUE_F03_B"
+      ],
+      "socialHooks": [
+        "REL_MEMORY_F03_CIVIC",
+        "UNION_CHRONICLE_F03",
+        "LEGEND_MOMENTUM_F03"
+      ],
+      "personalQuestHooks": [
+        "OPENING_SIGNATURE_ANY",
+        "PROCEDURAL_FEAR_OR_AMBITION"
+      ],
+      "safeZoneIds": [
+        "SAFE_F03_A"
+      ],
+      "emergencyExitIds": [
+        "EXIT_F03_EMERGENCY"
+      ],
+      "licenseRequirementId": "ABYSS_LICENSE_F03",
+      "ordinarySecretPool": [
+        "SECRET_F03_01",
+        "SECRET_F03_02",
+        "SECRET_F03_03",
+        "SECRET_F03_04",
+        "SECRET_F03_05"
+      ],
+      "marginVisualTreatment": "The Margin mimics silent canvas rows, cold cookfires, numbered stores, empty bedrolls but geometry folds outside perspective; no public clues.",
+      "cityConsequenceId": "CITY_CONSEQUENCE_F03",
+      "sustainabilityFocus": [
+        "protection",
+        "responsible extraction",
+        "mapping",
+        "teaching",
+        "civic use"
+      ],
+      "strictCanonBoundaries": [
+        "Abyss is partner/test, never owned",
+        "manifestations are Abyss soul fragments",
+        "Great Summons remain voluntary Covenants",
+        "Margin never required"
+      ]
+    },
+    {
+      "id": "ABYSS_FLOOR_004",
+      "floorNumber": 4,
+      "displayName": "Collapsed Siege Wall",
+      "canonTheme": "rebuilding is a combat skill and civic duty",
+      "coreLesson": "engineering, repair, terrain, and holding breaches",
+      "visualIdentity": "looping broken curtain walls, scaffold gaps, cracked gate machinery",
+      "boardPresentation": "Illustrated tactical board using siege repair lattice grammar.",
+      "combatArenaPresentation": "looping broken curtain walls, scaffold gaps, cracked gate machinery rendered as readable Union lanes with objective markers.",
+      "terrainVocabulary": [
+        "WALL_SECTION",
+        "SCAFFOLD",
+        "BREACH",
+        "GATE_MECHANISM"
+      ],
+      "lighting": "cold dawn",
+      "musicDirection": "Low orchestral motif for rebuilding is a combat skill and civic duty; percussion intensifies only as civic stakes rise.",
+      "ambientAudio": [
+        "distant echoes",
+        "System chimes",
+        "material movement",
+        "wind or structural stress"
+      ],
+      "environmentalStorytelling": [
+        "rebuilding is a combat skill and civic duty",
+        "engineering, repair, terrain, and holding breaches",
+        "Old civilization records reveal only partial truths."
+      ],
+      "authoredBackbone": [
+        {
+          "id": "ENTRY_LICENSE",
+          "type": "ENTRANCE",
+          "required": true
+        },
+        {
+          "id": "INTRO_CLUE",
+          "type": "EVENT",
+          "required": true
+        },
+        {
+          "id": "CIVIC_CLUE",
+          "type": "CIVIC_CLUE",
+          "required": true
+        },
+        {
+          "id": "REQUIRED_OBSTACLE",
+          "type": "SKILL_CHECK",
+          "required": true
+        },
+        {
+          "id": "MORAL_DECISION",
+          "type": "EVENT",
+          "required": true
+        },
+        {
+          "id": "REGROUP",
+          "type": "CAMP",
+          "required": true
+        },
+        {
+          "id": "BOSS_APPROACH",
+          "type": "ELITE",
+          "required": true
+        },
+        {
+          "id": "BOSS",
+          "type": "BOSS",
+          "required": true
+        },
+        {
+          "id": "TRIAL_RESOLUTION",
+          "type": "CIVIC_RESOLUTION",
+          "required": true
+        },
+        {
+          "id": "EXIT",
+          "type": "EXIT",
+          "required": true
+        }
+      ],
+      "boardGrammarId": "GRAMMAR_F04_SIEGE_REPAIR_LATTICE",
+      "primaryManifestation": "Siege Crawlers",
+      "bossId": "ABYSS_BOSS_004",
+      "civicTrialId": "TRIAL_STABILIZE_THE_BREACH",
+      "firstClearRewards": {
+        "personalXP": 3400,
+        "guildTreasuryXP": 4000,
+        "materials": [
+          "stone cores and repair runes"
+        ],
+        "blueprint": "BLUEPRINT_F04_OUTER_WALL_REPAIR_YARD"
+      },
+      "repeatClearRewards": {
+        "personalXPBase": 2000,
+        "guildTreasuryXPBase": 2600,
+        "diminishingAfter": 3
+      },
+      "summonClueIds": [
+        "SUMMON_CLUE_F04_A",
+        "SUMMON_CLUE_F04_B"
+      ],
+      "socialHooks": [
+        "REL_MEMORY_F04_CIVIC",
+        "UNION_CHRONICLE_F04",
+        "LEGEND_MOMENTUM_F04"
+      ],
+      "personalQuestHooks": [
+        "OPENING_SIGNATURE_ANY",
+        "PROCEDURAL_FEAR_OR_AMBITION"
+      ],
+      "safeZoneIds": [
+        "SAFE_F04_A"
+      ],
+      "emergencyExitIds": [
+        "EXIT_F04_EMERGENCY"
+      ],
+      "licenseRequirementId": "ABYSS_LICENSE_F04",
+      "ordinarySecretPool": [
+        "SECRET_F04_01",
+        "SECRET_F04_02",
+        "SECRET_F04_03",
+        "SECRET_F04_04",
+        "SECRET_F04_05"
+      ],
+      "marginVisualTreatment": "The Margin mimics looping broken curtain walls, scaffold gaps, cracked gate machinery but geometry folds outside perspective; no public clues.",
+      "cityConsequenceId": "CITY_CONSEQUENCE_F04",
+      "sustainabilityFocus": [
+        "protection",
+        "responsible extraction",
+        "mapping",
+        "teaching",
+        "civic use"
+      ],
+      "strictCanonBoundaries": [
+        "Abyss is partner/test, never owned",
+        "manifestations are Abyss soul fragments",
+        "Great Summons remain voluntary Covenants",
+        "Margin never required"
+      ]
+    },
+    {
+      "id": "ABYSS_FLOOR_005",
+      "floorNumber": 5,
+      "displayName": "Grave Banner Hill",
+      "canonTheme": "morale without hatred",
+      "coreLesson": "inspire without recreating extinct ideology",
+      "visualIdentity": "windy hill of faded standards, memorial cairns, ash grass",
+      "boardPresentation": "Illustrated tactical board using memorial ascent grammar.",
+      "combatArenaPresentation": "windy hill of faded standards, memorial cairns, ash grass rendered as readable Union lanes with objective markers.",
+      "terrainVocabulary": [
+        "BANNER_RING",
+        "CAIRN_PATH",
+        "WIND_LEDGE",
+        "MEMORY_FIELD"
+      ],
+      "lighting": "high contrast hazard light",
+      "musicDirection": "Low orchestral motif for morale without hatred; percussion intensifies only as civic stakes rise.",
+      "ambientAudio": [
+        "distant echoes",
+        "System chimes",
+        "material movement",
+        "wind or structural stress"
+      ],
+      "environmentalStorytelling": [
+        "morale without hatred",
+        "inspire without recreating extinct ideology",
+        "Old civilization records reveal only partial truths."
+      ],
+      "authoredBackbone": [
+        {
+          "id": "ENTRY_LICENSE",
+          "type": "ENTRANCE",
+          "required": true
+        },
+        {
+          "id": "INTRO_CLUE",
+          "type": "EVENT",
+          "required": true
+        },
+        {
+          "id": "CIVIC_CLUE",
+          "type": "CIVIC_CLUE",
+          "required": true
+        },
+        {
+          "id": "REQUIRED_OBSTACLE",
+          "type": "SKILL_CHECK",
+          "required": true
+        },
+        {
+          "id": "MORAL_DECISION",
+          "type": "EVENT",
+          "required": true
+        },
+        {
+          "id": "REGROUP",
+          "type": "CAMP",
+          "required": true
+        },
+        {
+          "id": "BOSS_APPROACH",
+          "type": "ELITE",
+          "required": true
+        },
+        {
+          "id": "BOSS",
+          "type": "BOSS",
+          "required": true
+        },
+        {
+          "id": "TRIAL_RESOLUTION",
+          "type": "CIVIC_RESOLUTION",
+          "required": true
+        },
+        {
+          "id": "EXIT",
+          "type": "EXIT",
+          "required": true
+        }
+      ],
+      "boardGrammarId": "GRAMMAR_F05_MEMORIAL_ASCENT",
+      "primaryManifestation": "Banner Shades",
+      "bossId": "ABYSS_BOSS_005",
+      "civicTrialId": "TRIAL_KEEP_MEMORY_WITHOUT_HATE",
+      "firstClearRewards": {
+        "personalXP": 4200,
+        "guildTreasuryXP": 5000,
+        "materials": [
+          "First King banner thread and memory cloth"
+        ],
+        "blueprint": "BLUEPRINT_F05_CHRONICLE_MEMORIAL_GALLERY"
+      },
+      "repeatClearRewards": {
+        "personalXPBase": 2500,
+        "guildTreasuryXPBase": 3250,
+        "diminishingAfter": 3
+      },
+      "summonClueIds": [
+        "SUMMON_CLUE_F05_A",
+        "SUMMON_CLUE_F05_B"
+      ],
+      "socialHooks": [
+        "REL_MEMORY_F05_CIVIC",
+        "UNION_CHRONICLE_F05",
+        "LEGEND_MOMENTUM_F05"
+      ],
+      "personalQuestHooks": [
+        "OPENING_SIGNATURE_ANY",
+        "PROCEDURAL_FEAR_OR_AMBITION"
+      ],
+      "safeZoneIds": [
+        "SAFE_F05_A"
+      ],
+      "emergencyExitIds": [
+        "EXIT_F05_EMERGENCY"
+      ],
+      "licenseRequirementId": "ABYSS_LICENSE_F05",
+      "ordinarySecretPool": [
+        "SECRET_F05_01",
+        "SECRET_F05_02",
+        "SECRET_F05_03",
+        "SECRET_F05_04",
+        "SECRET_F05_05"
+      ],
+      "marginVisualTreatment": "The Margin mimics windy hill of faded standards, memorial cairns, ash grass but geometry folds outside perspective; no public clues.",
+      "cityConsequenceId": "CITY_CONSEQUENCE_F05",
+      "sustainabilityFocus": [
+        "protection",
+        "responsible extraction",
+        "mapping",
+        "teaching",
+        "civic use"
+      ],
+      "strictCanonBoundaries": [
+        "Abyss is partner/test, never owned",
+        "manifestations are Abyss soul fragments",
+        "Great Summons remain voluntary Covenants",
+        "Margin never required"
+      ]
+    },
+    {
+      "id": "ABYSS_FLOOR_006",
+      "floorNumber": 6,
+      "displayName": "Iron March",
+      "canonTheme": "discipline without dehumanization",
+      "coreLesson": "formation mastery, leadership, and controlled advance",
+      "visualIdentity": "endless parade road, iron mile markers, marching armor ranks",
+      "boardPresentation": "Illustrated tactical board using march columns grammar.",
+      "combatArenaPresentation": "endless parade road, iron mile markers, marching armor ranks rendered as readable Union lanes with objective markers.",
+      "terrainVocabulary": [
+        "PARADE_LANE",
+        "DRILL_SQUARE",
+        "COMMAND_MARKER",
+        "SIDE_COLUMN"
+      ],
+      "lighting": "quiet dusk",
+      "musicDirection": "Low orchestral motif for discipline without dehumanization; percussion intensifies only as civic stakes rise.",
+      "ambientAudio": [
+        "distant echoes",
+        "System chimes",
+        "material movement",
+        "wind or structural stress"
+      ],
+      "environmentalStorytelling": [
+        "discipline without dehumanization",
+        "formation mastery, leadership, and controlled advance",
+        "Old civilization records reveal only partial truths."
+      ],
+      "authoredBackbone": [
+        {
+          "id": "ENTRY_LICENSE",
+          "type": "ENTRANCE",
+          "required": true
+        },
+        {
+          "id": "INTRO_CLUE",
+          "type": "EVENT",
+          "required": true
+        },
+        {
+          "id": "CIVIC_CLUE",
+          "type": "CIVIC_CLUE",
+          "required": true
+        },
+        {
+          "id": "REQUIRED_OBSTACLE",
+          "type": "SKILL_CHECK",
+          "required": true
+        },
+        {
+          "id": "MORAL_DECISION",
+          "type": "EVENT",
+          "required": true
+        },
+        {
+          "id": "REGROUP",
+          "type": "CAMP",
+          "required": true
+        },
+        {
+          "id": "BOSS_APPROACH",
+          "type": "ELITE",
+          "required": true
+        },
+        {
+          "id": "BOSS",
+          "type": "BOSS",
+          "required": true
+        },
+        {
+          "id": "TRIAL_RESOLUTION",
+          "type": "CIVIC_RESOLUTION",
+          "required": true
+        },
+        {
+          "id": "EXIT",
+          "type": "EXIT",
+          "required": true
+        }
+      ],
+      "boardGrammarId": "GRAMMAR_F06_MARCH_COLUMNS",
+      "primaryManifestation": "Hollow Knights",
+      "bossId": "ABYSS_BOSS_006",
+      "civicTrialId": "TRIAL_REFUSE_BLIND_SACRIFICE",
+      "firstClearRewards": {
+        "personalXP": 5000,
+        "guildTreasuryXP": 6000,
+        "materials": [
+          "iron plates and drill manuals"
+        ],
+        "blueprint": "BLUEPRINT_F06_UNION_DRILL_YARD"
+      },
+      "repeatClearRewards": {
+        "personalXPBase": 3000,
+        "guildTreasuryXPBase": 3900,
+        "diminishingAfter": 3
+      },
+      "summonClueIds": [
+        "SUMMON_CLUE_F06_A",
+        "SUMMON_CLUE_F06_B"
+      ],
+      "socialHooks": [
+        "REL_MEMORY_F06_CIVIC",
+        "UNION_CHRONICLE_F06",
+        "LEGEND_MOMENTUM_F06"
+      ],
+      "personalQuestHooks": [
+        "OPENING_SIGNATURE_ANY",
+        "PROCEDURAL_FEAR_OR_AMBITION"
+      ],
+      "safeZoneIds": [
+        "SAFE_F06_A"
+      ],
+      "emergencyExitIds": [
+        "EXIT_F06_EMERGENCY"
+      ],
+      "licenseRequirementId": "ABYSS_LICENSE_F06",
+      "ordinarySecretPool": [
+        "SECRET_F06_01",
+        "SECRET_F06_02",
+        "SECRET_F06_03",
+        "SECRET_F06_04",
+        "SECRET_F06_05"
+      ],
+      "marginVisualTreatment": "The Margin mimics endless parade road, iron mile markers, marching armor ranks but geometry folds outside perspective; no public clues.",
+      "cityConsequenceId": "CITY_CONSEQUENCE_F06",
+      "sustainabilityFocus": [
+        "protection",
+        "responsible extraction",
+        "mapping",
+        "teaching",
+        "civic use"
+      ],
+      "strictCanonBoundaries": [
+        "Abyss is partner/test, never owned",
+        "manifestations are Abyss soul fragments",
+        "Great Summons remain voluntary Covenants",
+        "Margin never required"
+      ]
+    },
+    {
+      "id": "ABYSS_FLOOR_007",
+      "floorNumber": 7,
+      "displayName": "Bloodless River",
+      "canonTheme": "purification and passage",
+      "coreLesson": "route control, bridge defense, water systems, and rescue",
+      "visualIdentity": "red-clear river, broken causeways, filter shrines, moving ferry stones",
+      "boardPresentation": "Illustrated tactical board using river crossings grammar.",
+      "combatArenaPresentation": "red-clear river, broken causeways, filter shrines, moving ferry stones rendered as readable Union lanes with objective markers.",
+      "terrainVocabulary": [
+        "FORD",
+        "BRIDGE_SPAN",
+        "FILTER_SHRINE",
+        "FERRY_STONE"
+      ],
+      "lighting": "cold dawn",
+      "musicDirection": "Low orchestral motif for purification and passage; percussion intensifies only as civic stakes rise.",
+      "ambientAudio": [
+        "distant echoes",
+        "System chimes",
+        "material movement",
+        "wind or structural stress"
+      ],
+      "environmentalStorytelling": [
+        "purification and passage",
+        "route control, bridge defense, water systems, and rescue",
+        "Old civilization records reveal only partial truths."
+      ],
+      "authoredBackbone": [
+        {
+          "id": "ENTRY_LICENSE",
+          "type": "ENTRANCE",
+          "required": true
+        },
+        {
+          "id": "INTRO_CLUE",
+          "type": "EVENT",
+          "required": true
+        },
+        {
+          "id": "CIVIC_CLUE",
+          "type": "CIVIC_CLUE",
+          "required": true
+        },
+        {
+          "id": "REQUIRED_OBSTACLE",
+          "type": "SKILL_CHECK",
+          "required": true
+        },
+        {
+          "id": "MORAL_DECISION",
+          "type": "EVENT",
+          "required": true
+        },
+        {
+          "id": "REGROUP",
+          "type": "CAMP",
+          "required": true
+        },
+        {
+          "id": "BOSS_APPROACH",
+          "type": "ELITE",
+          "required": true
+        },
+        {
+          "id": "BOSS",
+          "type": "BOSS",
+          "required": true
+        },
+        {
+          "id": "TRIAL_RESOLUTION",
+          "type": "CIVIC_RESOLUTION",
+          "required": true
+        },
+        {
+          "id": "EXIT",
+          "type": "EXIT",
+          "required": true
+        }
+      ],
+      "boardGrammarId": "GRAMMAR_F07_RIVER_CROSSINGS",
+      "primaryManifestation": "River Spears",
+      "bossId": "ABYSS_BOSS_007",
+      "civicTrialId": "TRIAL_RESTORE_THE_CROSSING",
+      "firstClearRewards": {
+        "personalXP": 5800,
+        "guildTreasuryXP": 7000,
+        "materials": [
+          "bridge stones and filter components"
+        ],
+        "blueprint": "BLUEPRINT_F07_PURIFICATION_BRIDGEWORKS"
+      },
+      "repeatClearRewards": {
+        "personalXPBase": 3500,
+        "guildTreasuryXPBase": 4550,
+        "diminishingAfter": 3
+      },
+      "summonClueIds": [
+        "SUMMON_CLUE_F07_A",
+        "SUMMON_CLUE_F07_B"
+      ],
+      "socialHooks": [
+        "REL_MEMORY_F07_CIVIC",
+        "UNION_CHRONICLE_F07",
+        "LEGEND_MOMENTUM_F07"
+      ],
+      "personalQuestHooks": [
+        "OPENING_SIGNATURE_ANY",
+        "PROCEDURAL_FEAR_OR_AMBITION"
+      ],
+      "safeZoneIds": [
+        "SAFE_F07_A"
+      ],
+      "emergencyExitIds": [
+        "EXIT_F07_EMERGENCY"
+      ],
+      "licenseRequirementId": "ABYSS_LICENSE_F07",
+      "ordinarySecretPool": [
+        "SECRET_F07_01",
+        "SECRET_F07_02",
+        "SECRET_F07_03",
+        "SECRET_F07_04",
+        "SECRET_F07_05"
+      ],
+      "marginVisualTreatment": "The Margin mimics red-clear river, broken causeways, filter shrines, moving ferry stones but geometry folds outside perspective; no public clues.",
+      "cityConsequenceId": "CITY_CONSEQUENCE_F07",
+      "sustainabilityFocus": [
+        "protection",
+        "responsible extraction",
+        "mapping",
+        "teaching",
+        "civic use"
+      ],
+      "strictCanonBoundaries": [
+        "Abyss is partner/test, never owned",
+        "manifestations are Abyss soul fragments",
+        "Great Summons remain voluntary Covenants",
+        "Margin never required"
+      ]
+    },
+    {
+      "id": "ABYSS_FLOOR_008",
+      "floorNumber": 8,
+      "displayName": "War Beast Pens",
+      "canonTheme": "ethical creature care and captivity",
+      "coreLesson": "distinguish danger from suffering",
+      "visualIdentity": "empty pens, phantom chains, feed corridors, frightened echo dens",
+      "boardPresentation": "Illustrated tactical board using pen and release paths grammar.",
+      "combatArenaPresentation": "empty pens, phantom chains, feed corridors, frightened echo dens rendered as readable Union lanes with objective markers.",
+      "terrainVocabulary": [
+        "FEED_CORRIDOR",
+        "PEN",
+        "CHAIN_GATE",
+        "QUIET_DEN"
+      ],
+      "lighting": "high contrast hazard light",
+      "musicDirection": "Low orchestral motif for ethical creature care and captivity; percussion intensifies only as civic stakes rise.",
+      "ambientAudio": [
+        "distant echoes",
+        "System chimes",
+        "material movement",
+        "wind or structural stress"
+      ],
+      "environmentalStorytelling": [
+        "ethical creature care and captivity",
+        "distinguish danger from suffering",
+        "Old civilization records reveal only partial truths."
+      ],
+      "authoredBackbone": [
+        {
+          "id": "ENTRY_LICENSE",
+          "type": "ENTRANCE",
+          "required": true
+        },
+        {
+          "id": "INTRO_CLUE",
+          "type": "EVENT",
+          "required": true
+        },
+        {
+          "id": "CIVIC_CLUE",
+          "type": "CIVIC_CLUE",
+          "required": true
+        },
+        {
+          "id": "REQUIRED_OBSTACLE",
+          "type": "SKILL_CHECK",
+          "required": true
+        },
+        {
+          "id": "MORAL_DECISION",
+          "type": "EVENT",
+          "required": true
+        },
+        {
+          "id": "REGROUP",
+          "type": "CAMP",
+          "required": true
+        },
+        {
+          "id": "BOSS_APPROACH",
+          "type": "ELITE",
+          "required": true
+        },
+        {
+          "id": "BOSS",
+          "type": "BOSS",
+          "required": true
+        },
+        {
+          "id": "TRIAL_RESOLUTION",
+          "type": "CIVIC_RESOLUTION",
+          "required": true
+        },
+        {
+          "id": "EXIT",
+          "type": "EXIT",
+          "required": true
+        }
+      ],
+      "boardGrammarId": "GRAMMAR_F08_PEN_AND_RELEASE_PATHS",
+      "primaryManifestation": "Beast Echoes",
+      "bossId": "ABYSS_BOSS_008",
+      "civicTrialId": "TRIAL_RELEASE_WITH_RESTRAINT",
+      "firstClearRewards": {
+        "personalXP": 6600,
+        "guildTreasuryXP": 8000,
+        "materials": [
+          "beast collars and feed formulas"
+        ],
+        "blueprint": "BLUEPRINT_F08_ETHICAL_CREATURE_CARE_YARD"
+      },
+      "repeatClearRewards": {
+        "personalXPBase": 4000,
+        "guildTreasuryXPBase": 5200,
+        "diminishingAfter": 3
+      },
+      "summonClueIds": [
+        "SUMMON_CLUE_F08_A",
+        "SUMMON_CLUE_F08_B"
+      ],
+      "socialHooks": [
+        "REL_MEMORY_F08_CIVIC",
+        "UNION_CHRONICLE_F08",
+        "LEGEND_MOMENTUM_F08"
+      ],
+      "personalQuestHooks": [
+        "OPENING_SIGNATURE_ANY",
+        "PROCEDURAL_FEAR_OR_AMBITION"
+      ],
+      "safeZoneIds": [
+        "SAFE_F08_A"
+      ],
+      "emergencyExitIds": [
+        "EXIT_F08_EMERGENCY"
+      ],
+      "licenseRequirementId": "ABYSS_LICENSE_F08",
+      "ordinarySecretPool": [
+        "SECRET_F08_01",
+        "SECRET_F08_02",
+        "SECRET_F08_03",
+        "SECRET_F08_04",
+        "SECRET_F08_05"
+      ],
+      "marginVisualTreatment": "The Margin mimics empty pens, phantom chains, feed corridors, frightened echo dens but geometry folds outside perspective; no public clues.",
+      "cityConsequenceId": "CITY_CONSEQUENCE_F08",
+      "sustainabilityFocus": [
+        "protection",
+        "responsible extraction",
+        "mapping",
+        "teaching",
+        "civic use"
+      ],
+      "strictCanonBoundaries": [
+        "Abyss is partner/test, never owned",
+        "manifestations are Abyss soul fragments",
+        "Great Summons remain voluntary Covenants",
+        "Margin never required"
+      ]
+    },
+    {
+      "id": "ABYSS_FLOOR_009",
+      "floorNumber": 9,
+      "displayName": "Ash Command Tent",
+      "canonTheme": "strategy without needless sacrifice",
+      "coreLesson": "intelligence, command, supply, and multi-Union coordination",
+      "visualIdentity": "burned command pavilions, shifting map tables, signal masts, ash lanes",
+      "boardPresentation": "Illustrated tactical board using command network grammar.",
+      "combatArenaPresentation": "burned command pavilions, shifting map tables, signal masts, ash lanes rendered as readable Union lanes with objective markers.",
+      "terrainVocabulary": [
+        "SIGNAL_POST",
+        "MAP_TENT",
+        "SUPPLY_LANE",
+        "FALSE_ORDER"
+      ],
+      "lighting": "quiet dusk",
+      "musicDirection": "Low orchestral motif for strategy without needless sacrifice; percussion intensifies only as civic stakes rise.",
+      "ambientAudio": [
+        "distant echoes",
+        "System chimes",
+        "material movement",
+        "wind or structural stress"
+      ],
+      "environmentalStorytelling": [
+        "strategy without needless sacrifice",
+        "intelligence, command, supply, and multi-Union coordination",
+        "Old civilization records reveal only partial truths."
+      ],
+      "authoredBackbone": [
+        {
+          "id": "ENTRY_LICENSE",
+          "type": "ENTRANCE",
+          "required": true
+        },
+        {
+          "id": "INTRO_CLUE",
+          "type": "EVENT",
+          "required": true
+        },
+        {
+          "id": "CIVIC_CLUE",
+          "type": "CIVIC_CLUE",
+          "required": true
+        },
+        {
+          "id": "REQUIRED_OBSTACLE",
+          "type": "SKILL_CHECK",
+          "required": true
+        },
+        {
+          "id": "MORAL_DECISION",
+          "type": "EVENT",
+          "required": true
+        },
+        {
+          "id": "REGROUP",
+          "type": "CAMP",
+          "required": true
+        },
+        {
+          "id": "BOSS_APPROACH",
+          "type": "ELITE",
+          "required": true
+        },
+        {
+          "id": "BOSS",
+          "type": "BOSS",
+          "required": true
+        },
+        {
+          "id": "TRIAL_RESOLUTION",
+          "type": "CIVIC_RESOLUTION",
+          "required": true
+        },
+        {
+          "id": "EXIT",
+          "type": "EXIT",
+          "required": true
+        }
+      ],
+      "boardGrammarId": "GRAMMAR_F09_COMMAND_NETWORK",
+      "primaryManifestation": "Tactical Shades",
+      "bossId": "ABYSS_BOSS_009",
+      "civicTrialId": "TRIAL_WIN_WITHOUT_WASTE",
+      "firstClearRewards": {
+        "personalXP": 7400,
+        "guildTreasuryXP": 9000,
+        "materials": [
+          "map fragments and command-table runes"
+        ],
+        "blueprint": "BLUEPRINT_F09_STRATEGY_ROOM_WAR_TABLE"
+      },
+      "repeatClearRewards": {
+        "personalXPBase": 4500,
+        "guildTreasuryXPBase": 5850,
+        "diminishingAfter": 3
+      },
+      "summonClueIds": [
+        "SUMMON_CLUE_F09_A",
+        "SUMMON_CLUE_F09_B"
+      ],
+      "socialHooks": [
+        "REL_MEMORY_F09_CIVIC",
+        "UNION_CHRONICLE_F09",
+        "LEGEND_MOMENTUM_F09"
+      ],
+      "personalQuestHooks": [
+        "OPENING_SIGNATURE_ANY",
+        "PROCEDURAL_FEAR_OR_AMBITION"
+      ],
+      "safeZoneIds": [
+        "SAFE_F09_A"
+      ],
+      "emergencyExitIds": [
+        "EXIT_F09_EMERGENCY"
+      ],
+      "licenseRequirementId": "ABYSS_LICENSE_F09",
+      "ordinarySecretPool": [
+        "SECRET_F09_01",
+        "SECRET_F09_02",
+        "SECRET_F09_03",
+        "SECRET_F09_04",
+        "SECRET_F09_05"
+      ],
+      "marginVisualTreatment": "The Margin mimics burned command pavilions, shifting map tables, signal masts, ash lanes but geometry folds outside perspective; no public clues.",
+      "cityConsequenceId": "CITY_CONSEQUENCE_F09",
+      "sustainabilityFocus": [
+        "protection",
+        "responsible extraction",
+        "mapping",
+        "teaching",
+        "civic use"
+      ],
+      "strictCanonBoundaries": [
+        "Abyss is partner/test, never owned",
+        "manifestations are Abyss soul fragments",
+        "Great Summons remain voluntary Covenants",
+        "Margin never required"
+      ]
+    },
+    {
+      "id": "ABYSS_FLOOR_010",
+      "floorNumber": 10,
+      "displayName": "Aegis Gate",
+      "canonTheme": "protection is the true qualification for power",
+      "coreLesson": "save civilians, coordinate Unions, survive judgment",
+      "visualIdentity": "fortress gate plaza, civilian shelters, resonance pylons, colossal shield arches",
+      "boardPresentation": "Illustrated tactical board using aegis operation grammar.",
+      "combatArenaPresentation": "fortress gate plaza, civilian shelters, resonance pylons, colossal shield arches rendered as readable Union lanes with objective markers.",
+      "terrainVocabulary": [
+        "CIVILIAN_SHELTER",
+        "PYLON",
+        "DEFENSE_ARCH",
+        "COMMAND_DAIS",
+        "Aegis_APPROACH"
+      ],
+      "lighting": "cold dawn",
+      "musicDirection": "Low orchestral motif for protection is the true qualification for power; percussion intensifies only as civic stakes rise.",
+      "ambientAudio": [
+        "distant echoes",
+        "System chimes",
+        "material movement",
+        "wind or structural stress"
+      ],
+      "environmentalStorytelling": [
+        "protection is the true qualification for power",
+        "save civilians, coordinate Unions, survive judgment",
+        "Old civilization records reveal only partial truths."
+      ],
+      "authoredBackbone": [
+        {
+          "id": "ENTRY_LICENSE",
+          "type": "ENTRANCE",
+          "required": true
+        },
+        {
+          "id": "INTRO_CLUE",
+          "type": "EVENT",
+          "required": true
+        },
+        {
+          "id": "CIVIC_CLUE",
+          "type": "CIVIC_CLUE",
+          "required": true
+        },
+        {
+          "id": "REQUIRED_OBSTACLE",
+          "type": "SKILL_CHECK",
+          "required": true
+        },
+        {
+          "id": "MORAL_DECISION",
+          "type": "EVENT",
+          "required": true
+        },
+        {
+          "id": "REGROUP",
+          "type": "CAMP",
+          "required": true
+        },
+        {
+          "id": "BOSS_APPROACH",
+          "type": "ELITE",
+          "required": true
+        },
+        {
+          "id": "BOSS",
+          "type": "BOSS",
+          "required": true
+        },
+        {
+          "id": "TRIAL_RESOLUTION",
+          "type": "CIVIC_RESOLUTION",
+          "required": true
+        },
+        {
+          "id": "EXIT",
+          "type": "EXIT",
+          "required": true
+        }
+      ],
+      "boardGrammarId": "GRAMMAR_F10_AEGIS_OPERATION",
+      "primaryManifestation": "Guardian Fragments",
+      "bossId": "ABYSS_BOSS_010",
+      "civicTrialId": "TRIAL_AEGIS_PROTECTION",
+      "firstClearRewards": {
+        "personalXP": 8200,
+        "guildTreasuryXP": 10000,
+        "materials": [
+          "Aegis Core and Fortress Defense Blueprint"
+        ],
+        "blueprint": "BLUEPRINT_F10_AEGIS_CIVIC_DEFENSE_WING"
+      },
+      "repeatClearRewards": {
+        "personalXPBase": 5000,
+        "guildTreasuryXPBase": 6500,
+        "diminishingAfter": 3
+      },
+      "summonClueIds": [
+        "SUMMON_CLUE_F10_A",
+        "SUMMON_CLUE_F10_B"
+      ],
+      "socialHooks": [
+        "REL_MEMORY_F10_CIVIC",
+        "UNION_CHRONICLE_F10",
+        "LEGEND_MOMENTUM_F10"
+      ],
+      "personalQuestHooks": [
+        "OPENING_SIGNATURE_ANY",
+        "PROCEDURAL_FEAR_OR_AMBITION"
+      ],
+      "safeZoneIds": [
+        "SAFE_F10_A"
+      ],
+      "emergencyExitIds": [
+        "EXIT_F10_EMERGENCY"
+      ],
+      "licenseRequirementId": "ABYSS_LICENSE_F10",
+      "ordinarySecretPool": [
+        "SECRET_F10_01",
+        "SECRET_F10_02",
+        "SECRET_F10_03",
+        "SECRET_F10_04",
+        "SECRET_F10_05"
+      ],
+      "marginVisualTreatment": "The Margin mimics fortress gate plaza, civilian shelters, resonance pylons, colossal shield arches but geometry folds outside perspective; no public clues.",
+      "cityConsequenceId": "CITY_CONSEQUENCE_F10",
+      "sustainabilityFocus": [
+        "protection",
+        "responsible extraction",
+        "mapping",
+        "teaching",
+        "civic use"
+      ],
+      "strictCanonBoundaries": [
+        "Abyss is partner/test, never owned",
+        "manifestations are Abyss soul fragments",
+        "Great Summons remain voluntary Covenants",
+        "Margin never required"
+      ]
+    }
+  ]
+}

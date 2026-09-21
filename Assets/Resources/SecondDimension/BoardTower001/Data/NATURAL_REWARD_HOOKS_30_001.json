@@ -1,0 +1,272 @@
+[
+  {
+    "hookId": "HOOK_BTE001_FIRST_CHEST",
+    "system": "Story Expedition",
+    "trigger": "First chest opened",
+    "frequency": "Once per campaign",
+    "rewardDirection": "One P0 cache/scout item",
+    "rule": "Teaches item timing without replacing normal loot.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_FIRST_HAZARD",
+    "system": "Story Expedition",
+    "trigger": "First hazard resolved successfully",
+    "frequency": "Once per campaign",
+    "rewardDirection": "One Common route/support item",
+    "rule": "Reward the player for learning the board loop.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_FIRST_RESCUE",
+    "system": "Story Expedition",
+    "trigger": "First rescue success",
+    "frequency": "Once per campaign",
+    "rewardDirection": "Rescue/Civic item + relationship growth",
+    "rule": "Do not frame rescued people as property.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_CHAPTER1_BOSS",
+    "system": "Story",
+    "trigger": "Chapter 1 boss first clear",
+    "frequency": "Exact once",
+    "rewardDirection": "Rare P0 item + named equipment",
+    "rule": "Preserve the existing canon reward and add, not replace.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_CHAPTER2_BOSS",
+    "system": "Story",
+    "trigger": "Chapter 2 boss first clear",
+    "frequency": "Exact once",
+    "rewardDirection": "Epic board item or Turning Point opportunity",
+    "rule": "Locked battle and outcome remain unchanged.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_LEVEL_03",
+    "system": "Character Growth",
+    "trigger": "Reach level 3",
+    "frequency": "Per character once",
+    "rewardDirection": "Common growth or camp item",
+    "rule": "No infinite self-reward loop.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_LEVEL_05",
+    "system": "Character Growth",
+    "trigger": "Reach level 5",
+    "frequency": "Per character once",
+    "rewardDirection": "Uncommon item from role-weighted family",
+    "rule": "Use existing milestone receipt.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_LEVEL_10",
+    "system": "Character Growth",
+    "trigger": "Reach level 10",
+    "frequency": "Per character once",
+    "rewardDirection": "Rare growth/battle item",
+    "rule": "Exact-once milestone.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_WEAPON_25",
+    "system": "Skill Use",
+    "trigger": "25 meaningful uses in weapon family",
+    "frequency": "Per character/family",
+    "rewardDirection": "Weapon Oil / Family Blueprint weight",
+    "rule": "Spam and invalid use do not count.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_WEAPON_50",
+    "system": "Skill Use",
+    "trigger": "50 meaningful uses in weapon family",
+    "frequency": "Per character/family",
+    "rewardDirection": "Rare family-matched craft or growth item",
+    "rule": "Manual equip/craft only.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_ART_DISCOVERY",
+    "system": "Art Growth",
+    "trigger": "Discover an Art through use",
+    "frequency": "Per valid discovery",
+    "rewardDirection": "Small chance at Practice Journal/Focus Tonic",
+    "rule": "No debug/free discovery rewards.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_ART_BRANCH",
+    "system": "Art Growth",
+    "trigger": "Master a full branch",
+    "frequency": "Per branch once",
+    "rewardDirection": "Mastery Prism / Art Constellation Map chance",
+    "rule": "Prerequisites remain.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_UNION_RANK3",
+    "system": "Union Growth",
+    "trigger": "Union Discipline rank 3",
+    "frequency": "Per Union once",
+    "rewardDirection": "Rally Drum / Guardian Banner",
+    "rule": "Do not reward empty reorganization.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_UNION_RANK5",
+    "system": "Union Growth",
+    "trigger": "Union Discipline rank 5",
+    "frequency": "Per Union once",
+    "rewardDirection": "Rare Battle Setup item",
+    "rule": "Union identity receipt persists.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_TOWER_005",
+    "system": "Endless Tower",
+    "trigger": "Clear Floor 5",
+    "frequency": "First clear per save",
+    "rewardDirection": "Common Tower item",
+    "rule": "Secure at checkpoint/extraction.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_TOWER_010",
+    "system": "Endless Tower",
+    "trigger": "Clear Floor 10 boss",
+    "frequency": "First clear",
+    "rewardDirection": "Rare Tower item + run boon unlock",
+    "rule": "Existing checkpoint law.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_TOWER_025",
+    "system": "Endless Tower",
+    "trigger": "Clear Floor 25",
+    "frequency": "First clear",
+    "rewardDirection": "Epic Tower or equipment item",
+    "rule": "Difficulty grows through behavior, not HP only.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_TOWER_REMATCH",
+    "system": "Endless Tower",
+    "trigger": "Beat floor that ended prior run",
+    "frequency": "Per recorded defeat floor once",
+    "rewardDirection": "Turning Point chance + XP",
+    "rule": "Supports Climb After Defeat.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_CITY_SCOUT",
+    "system": "City Builder",
+    "trigger": "Scout Lodge level up",
+    "frequency": "Each level",
+    "rewardDirection": "Route/scouting item recipes",
+    "rule": "Improves clarity, not guaranteed success.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_CITY_FORGE",
+    "system": "City Builder",
+    "trigger": "Forge level up",
+    "frequency": "Each level",
+    "rewardDirection": "Craft/equipment item recipes",
+    "rule": "Uses existing Forge service.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_CITY_INFIRMARY",
+    "system": "City Builder",
+    "trigger": "Infirmary level up",
+    "frequency": "Each level",
+    "rewardDirection": "Camp/recovery item recipes",
+    "rule": "Recovery support.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_CITY_CONTRACT",
+    "system": "City Builder",
+    "trigger": "Contract House level up",
+    "frequency": "Each level",
+    "rewardDirection": "Challenge item recipes",
+    "rule": "Show exact risk/reward.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_CITY_WORKSHOP",
+    "system": "City Builder",
+    "trigger": "Workshop level up",
+    "frequency": "Each level",
+    "rewardDirection": "Battle setup/defense deployables",
+    "rule": "No second combat system.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_DEFENSE_WIN",
+    "system": "City Defense",
+    "trigger": "Win a city defense",
+    "frequency": "Per defense first clear",
+    "rewardDirection": "Defense item + city blueprint",
+    "rule": "Exact-once clear reward.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_ELITE_CLEAR",
+    "system": "All Expedition Modes",
+    "trigger": "Defeat optional elite",
+    "frequency": "Per committed elite room",
+    "rewardDirection": "Rare item chance",
+    "rule": "Reward must justify risk.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_SECRET_CLEAR",
+    "system": "Story Expedition",
+    "trigger": "Resolve secret room",
+    "frequency": "Per unique secret",
+    "rewardDirection": "Fate/Chronicle item chance",
+    "rule": "No protected lore leak.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_CAMP_MEMORY",
+    "system": "Relationships",
+    "trigger": "View eligible camp memory",
+    "frequency": "Per unique memory",
+    "rewardDirection": "Memory Ribbon or Chronicle Seal chance",
+    "rule": "Scene remains free and deferable.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_CREATOR_CODES",
+    "system": "Creator Codes",
+    "trigger": "Redeem compatible 10k code reward",
+    "frequency": "Exact once per campaign",
+    "rewardDirection": "Any code-eligible item by stable reward ID",
+    "rule": "Hashes only in runtime; plaintext owner-only.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_BOSS_CACHE",
+    "system": "All",
+    "trigger": "Open first-clear boss cache",
+    "frequency": "Per boss once",
+    "rewardDirection": "Rare/Epic item from compatible family",
+    "rule": "No duplicate equipment drop authority.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  },
+  {
+    "hookId": "HOOK_BTE001_FAILURE_RECOVERY",
+    "system": "Story/Tower",
+    "trigger": "Recover from a failed expedition/floor",
+    "frequency": "Per recovery chain once",
+    "rewardDirection": "Turning Point or recovery item",
+    "rule": "Failure should create progress, not erase the session.",
+    "antiExploit": "Use existing exact-once receipts; no reload reroll; no reward from debug/invalid actions."
+  }
+]

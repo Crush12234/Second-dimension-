@@ -1,0 +1,152 @@
+{
+  "contentVersion": "GOW_PASS06_0.11",
+  "rescueMemory": {
+    "id": "REL_MEMORY_INSTANCE_3BE29B16FBCA17ADFE60BD68",
+    "definitionId": "REL_MEMORY_RESCUE_SUCCESS",
+    "sourceId": "SIGREC_ODELIA_FEN",
+    "targetId": "SIGREC_MAREN_HOLT",
+    "day": 0,
+    "sourceEventId": null,
+    "context": "Gateworks rescue",
+    "emotionalTags": [
+      "RESCUE",
+      "EXPLAINABLE_CHANGE"
+    ],
+    "magnitude": 120,
+    "permanence": "PERSISTENT",
+    "reinterpretable": true,
+    "interpretation": "ORIGINAL",
+    "itemHistoryLinks": []
+  },
+  "relationshipEdgesHash": "93d62b6e1c4e45d5a20e6598297f81eb5d47bd5907ffc3fcee58c769de392155",
+  "union": {
+    "id": "UNION_GOLDEN",
+    "name": "Dawn Hounds",
+    "emblem": {
+      "shape": "open gate",
+      "mark": "unstrung bow",
+      "paletteTag": "PALETTE_MIXED_ALLIANCE"
+    },
+    "foundingDay": 0,
+    "founderMemberIds": [
+      "SIGREC_MAREN_HOLT",
+      "SIGREC_ODELIA_FEN",
+      "PROC_EXAMPLE_001"
+    ],
+    "currentMemberIds": [
+      "SIGREC_MAREN_HOLT",
+      "SIGREC_ODELIA_FEN",
+      "PROC_EXAMPLE_001"
+    ],
+    "formerMemberIds": [],
+    "leaderId": "SIGREC_MAREN_HOLT",
+    "leaderHistory": [
+      {
+        "memberId": "SIGREC_MAREN_HOLT",
+        "startDay": 0,
+        "endDay": null
+      }
+    ],
+    "battleRecord": {
+      "missions": 0,
+      "victories": 0,
+      "retreats": 0,
+      "rescues": 0,
+      "formationBreaks": 0
+    },
+    "favoredDoctrineId": null,
+    "formationMastery": {},
+    "disciplineIdentity": [],
+    "reputation": 0,
+    "nicknameIds": [],
+    "signatureLinkArtIds": [],
+    "traditionIds": [
+      "UNION_TRAIT_SHARE_THE_WEIGHT"
+    ],
+    "rivalUnionIds": [],
+    "publicStories": [],
+    "history": [
+      {
+        "type": "FOUNDED",
+        "day": 0,
+        "memberIds": [
+          "SIGREC_MAREN_HOLT",
+          "SIGREC_ODELIA_FEN",
+          "PROC_EXAMPLE_001"
+        ]
+      }
+    ],
+    "status": "ACTIVE",
+    "predecessorUnionId": null,
+    "successorUnionIds": []
+  },
+  "mentorship": {
+    "id": "MENTORSHIP_643EAA34A78D5E0F59F96967",
+    "mentorId": "SIGREC_MAREN_HOLT",
+    "apprenticeId": "PROC_EXAMPLE_001",
+    "lessonId": "MENTOR_LESSON_READ_THE_LINE",
+    "targetArtId": "ART_ANCHOR_STANCE",
+    "culturalPermission": false,
+    "status": "ACTIVE",
+    "progress": 0,
+    "lessonRepetitions": 0,
+    "successfulLessons": 0,
+    "failedLessons": 0,
+    "burnout": 0,
+    "startDay": 0,
+    "graduationDay": null
+  },
+  "lessonResult": {
+    "mentorshipId": "MENTORSHIP_643EAA34A78D5E0F59F96967",
+    "degree": "SUCCESS",
+    "roll": 6,
+    "score": 17,
+    "progressGain": 45,
+    "proficiencyGain": 17,
+    "discoveryGain": 40,
+    "memoryId": "REL_MEMORY_INSTANCE_B3317C3FFC75617D700B520E",
+    "automaticArtGranted": false
+  },
+  "proceduralQuest": {
+    "questId": "QUEST_INSTANCE_6C21D94B0876C0B075A99FE0",
+    "definitionId": "PROC_QUEST_CURIOSITY_A",
+    "memberId": "PROC_EXAMPLE_001",
+    "title": "Dangerous Curiosity ",
+    "stageIndex": 0,
+    "status": "ACTIVE",
+    "branchFlags": [],
+    "recoveryRequired": false,
+    "createdDay": 0,
+    "history": [
+      {
+        "type": "CREATED",
+        "day": 0,
+        "templateId": "PROC_QUEST_CURIOSITY_A"
+      }
+    ],
+    "isSignatureQuest": false
+  },
+  "socialForecast": {
+    "unionId": "UNION_GOLDEN",
+    "forecastWeightModifierPermille": 40,
+    "cohesionModifier": 5,
+    "linkArtReadinessModifierPermille": 40,
+    "explanations": [],
+    "exactIndividualArtButtons": false,
+    "socialPowerBudget": "TACTICAL_SIDEGRADE"
+  },
+  "legend": {
+    "memberId": "PROC_EXAMPLE_001",
+    "momentum": 3220,
+    "promoted": true,
+    "archetypeId": "LEGEND_ARCHETYPE_HEALER",
+    "epithet": "the Lantern Hand",
+    "signatureTechniqueId": "SIG_TECH_TEMPLATE_FIVE_HANDS",
+    "visualDetailHookId": "VISUAL_HOOK_GATE_LIGHT",
+    "promotionDay": 0,
+    "universalStatBonus": 0,
+    "powerBudget": "IDENTITY_SIDEGRADE"
+  },
+  "stateHash": "d33d2295a5113332d2f2453f7d3bbed6a575ebf70e1e6f84a1da36f6fb462341",
+  "crosslinkErrors": []
+}

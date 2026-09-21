@@ -1,0 +1,4277 @@
+{
+  "contentVersion": "GOW_CONTENT_AUTHORITY_002",
+  "forecastTemplates": [
+    {
+      "id": "FORECAST_CA002_001",
+      "displayText": "Use Combat Arts!",
+      "category": "COMBAT",
+      "phraseBank": [
+        "Use Combat Arts!",
+        "Use Combat Arts—together!"
+      ],
+      "intentTags": [
+        "COMBAT",
+        "MARTIAL",
+        "OFFENSE"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "HIGHEST_MEANINGFUL_WEAPON_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 1000
+        },
+        {
+          "memberEligibility": "NO_LEGAL_WEAPON_ART",
+          "priority": "LEGAL_BASIC_OR_SUPPORT_FALLBACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_002",
+      "displayText": "Break through their center!",
+      "category": "COMBAT",
+      "phraseBank": [
+        "Break through their center!",
+        "Break through their center—carefully!"
+      ],
+      "intentTags": [
+        "COMBAT",
+        "MARTIAL",
+        "OFFENSE"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "HIGHEST_MEANINGFUL_WEAPON_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 1000
+        },
+        {
+          "memberEligibility": "NO_LEGAL_WEAPON_ART",
+          "priority": "LEGAL_BASIC_OR_SUPPORT_FALLBACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "HIGH",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_003",
+      "displayText": "Hit them before they recover!",
+      "category": "COMBAT",
+      "phraseBank": [
+        "Hit them before they recover!",
+        "Hit them before they recover—with discipline!"
+      ],
+      "intentTags": [
+        "COMBAT",
+        "MARTIAL",
+        "BREAK"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "HIGHEST_MEANINGFUL_WEAPON_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 1000
+        },
+        {
+          "memberEligibility": "NO_LEGAL_WEAPON_ART",
+          "priority": "LEGAL_BASIC_OR_SUPPORT_FALLBACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_004",
+      "displayText": "Drive them out of formation!",
+      "category": "COMBAT",
+      "phraseBank": [
+        "Drive them out of formation!",
+        "Drive them out of formation—now!"
+      ],
+      "intentTags": [
+        "COMBAT",
+        "MARTIAL",
+        "OFFENSE"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "HIGHEST_MEANINGFUL_WEAPON_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 1000
+        },
+        {
+          "memberEligibility": "NO_LEGAL_WEAPON_ART",
+          "priority": "LEGAL_BASIC_OR_SUPPORT_FALLBACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_005",
+      "displayText": "Keep the pressure on!",
+      "category": "COMBAT",
+      "phraseBank": [
+        "Keep the pressure on!",
+        "Keep the pressure on—together!"
+      ],
+      "intentTags": [
+        "COMBAT",
+        "MARTIAL",
+        "OFFENSE"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "HIGHEST_MEANINGFUL_WEAPON_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 1000
+        },
+        {
+          "memberEligibility": "NO_LEGAL_WEAPON_ART",
+          "priority": "LEGAL_BASIC_OR_SUPPORT_FALLBACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "HIGH",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_006",
+      "displayText": "Bring down their leader!",
+      "category": "COMBAT",
+      "phraseBank": [
+        "Bring down their leader!",
+        "Bring down their leader—carefully!"
+      ],
+      "intentTags": [
+        "COMBAT",
+        "MARTIAL",
+        "BREAK"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "HIGHEST_MEANINGFUL_WEAPON_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 1000
+        },
+        {
+          "memberEligibility": "NO_LEGAL_WEAPON_ART",
+          "priority": "LEGAL_BASIC_OR_SUPPORT_FALLBACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_007",
+      "displayText": "Punish the exposed Union!",
+      "category": "COMBAT",
+      "phraseBank": [
+        "Punish the exposed Union!",
+        "Punish the exposed Union—with discipline!"
+      ],
+      "intentTags": [
+        "COMBAT",
+        "MARTIAL",
+        "OFFENSE"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "HIGHEST_MEANINGFUL_WEAPON_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 1000
+        },
+        {
+          "memberEligibility": "NO_LEGAL_WEAPON_ART",
+          "priority": "LEGAL_BASIC_OR_SUPPORT_FALLBACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_008",
+      "displayText": "Cut a path through them!",
+      "category": "COMBAT",
+      "phraseBank": [
+        "Cut a path through them!",
+        "Cut a path through them—now!"
+      ],
+      "intentTags": [
+        "COMBAT",
+        "MARTIAL",
+        "OFFENSE"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "HIGHEST_MEANINGFUL_WEAPON_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 1000
+        },
+        {
+          "memberEligibility": "NO_LEGAL_WEAPON_ART",
+          "priority": "LEGAL_BASIC_OR_SUPPORT_FALLBACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "HIGH",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_009",
+      "displayText": "Use your strongest weapon Arts!",
+      "category": "COMBAT",
+      "phraseBank": [
+        "Use your strongest weapon Arts!",
+        "Use your strongest weapon Arts—together!"
+      ],
+      "intentTags": [
+        "COMBAT",
+        "MARTIAL",
+        "BREAK"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "HIGHEST_MEANINGFUL_WEAPON_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 1000
+        },
+        {
+          "memberEligibility": "NO_LEGAL_WEAPON_ART",
+          "priority": "LEGAL_BASIC_OR_SUPPORT_FALLBACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_010",
+      "displayText": "Strike together!",
+      "category": "COMBAT",
+      "phraseBank": [
+        "Strike together!",
+        "Strike together—carefully!"
+      ],
+      "intentTags": [
+        "COMBAT",
+        "MARTIAL",
+        "OFFENSE"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "HIGHEST_MEANINGFUL_WEAPON_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 1000
+        },
+        {
+          "memberEligibility": "NO_LEGAL_WEAPON_ART",
+          "priority": "LEGAL_BASIC_OR_SUPPORT_FALLBACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_011",
+      "displayText": "Finish the wounded Union!",
+      "category": "COMBAT",
+      "phraseBank": [
+        "Finish the wounded Union!",
+        "Finish the wounded Union—with discipline!"
+      ],
+      "intentTags": [
+        "COMBAT",
+        "MARTIAL",
+        "OFFENSE"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "HIGHEST_MEANINGFUL_WEAPON_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 1000
+        },
+        {
+          "memberEligibility": "NO_LEGAL_WEAPON_ART",
+          "priority": "LEGAL_BASIC_OR_SUPPORT_FALLBACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "HIGH",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_012",
+      "displayText": "Shatter their Cohesion!",
+      "category": "COMBAT",
+      "phraseBank": [
+        "Shatter their Cohesion!",
+        "Shatter their Cohesion—now!"
+      ],
+      "intentTags": [
+        "COMBAT",
+        "MARTIAL",
+        "BREAK"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "HIGHEST_MEANINGFUL_WEAPON_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 1000
+        },
+        {
+          "memberEligibility": "NO_LEGAL_WEAPON_ART",
+          "priority": "LEGAL_BASIC_OR_SUPPORT_FALLBACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_013",
+      "displayText": "Attack with Mystic Arts!",
+      "category": "MYSTIC",
+      "phraseBank": [
+        "Attack with Mystic Arts!",
+        "Attack with Mystic Arts—together!"
+      ],
+      "intentTags": [
+        "MYSTIC",
+        "CONTROL",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_LEGAL_OFFENSIVE_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC",
+          "minimumMembers": 1,
+          "maximumSharePermille": 800
+        },
+        {
+          "memberEligibility": "LOW_MP_OR_NO_MYSTIC",
+          "priority": "WEAPON_OR_GUARD_FALLBACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 600
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_014",
+      "displayText": "Burn through their defenses!",
+      "category": "MYSTIC",
+      "phraseBank": [
+        "Burn through their defenses!",
+        "Burn through their defenses—carefully!"
+      ],
+      "intentTags": [
+        "MYSTIC",
+        "OFFENSE",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_LEGAL_OFFENSIVE_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC",
+          "minimumMembers": 1,
+          "maximumSharePermille": 800
+        },
+        {
+          "memberEligibility": "LOW_MP_OR_NO_MYSTIC",
+          "priority": "WEAPON_OR_GUARD_FALLBACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 600
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_015",
+      "displayText": "Freeze their advance!",
+      "category": "MYSTIC",
+      "phraseBank": [
+        "Freeze their advance!",
+        "Freeze their advance—with discipline!"
+      ],
+      "intentTags": [
+        "MYSTIC",
+        "CONTROL",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_LEGAL_OFFENSIVE_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC",
+          "minimumMembers": 1,
+          "maximumSharePermille": 800
+        },
+        {
+          "memberEligibility": "LOW_MP_OR_NO_MYSTIC",
+          "priority": "WEAPON_OR_GUARD_FALLBACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 600
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_016",
+      "displayText": "Call the storm down!",
+      "category": "MYSTIC",
+      "phraseBank": [
+        "Call the storm down!",
+        "Call the storm down—now!"
+      ],
+      "intentTags": [
+        "MYSTIC",
+        "OFFENSE",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_LEGAL_OFFENSIVE_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC",
+          "minimumMembers": 1,
+          "maximumSharePermille": 800
+        },
+        {
+          "memberEligibility": "LOW_MP_OR_NO_MYSTIC",
+          "priority": "WEAPON_OR_GUARD_FALLBACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 600
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_017",
+      "displayText": "Break them with Aether!",
+      "category": "MYSTIC",
+      "phraseBank": [
+        "Break them with Aether!",
+        "Break them with Aether—together!"
+      ],
+      "intentTags": [
+        "MYSTIC",
+        "CONTROL",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_LEGAL_OFFENSIVE_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC",
+          "minimumMembers": 1,
+          "maximumSharePermille": 800
+        },
+        {
+          "memberEligibility": "LOW_MP_OR_NO_MYSTIC",
+          "priority": "WEAPON_OR_GUARD_FALLBACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 600
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_018",
+      "displayText": "Shut down their casters!",
+      "category": "MYSTIC",
+      "phraseBank": [
+        "Shut down their casters!",
+        "Shut down their casters—carefully!"
+      ],
+      "intentTags": [
+        "MYSTIC",
+        "OFFENSE",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_LEGAL_OFFENSIVE_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC",
+          "minimumMembers": 1,
+          "maximumSharePermille": 800
+        },
+        {
+          "memberEligibility": "LOW_MP_OR_NO_MYSTIC",
+          "priority": "WEAPON_OR_GUARD_FALLBACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 600
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_019",
+      "displayText": "Control the field with Mystics!",
+      "category": "MYSTIC",
+      "phraseBank": [
+        "Control the field with Mystics!",
+        "Control the field with Mystics—with discipline!"
+      ],
+      "intentTags": [
+        "MYSTIC",
+        "CONTROL",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_LEGAL_OFFENSIVE_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC",
+          "minimumMembers": 1,
+          "maximumSharePermille": 800
+        },
+        {
+          "memberEligibility": "LOW_MP_OR_NO_MYSTIC",
+          "priority": "WEAPON_OR_GUARD_FALLBACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 600
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_020",
+      "displayText": "Use magic, but conserve MP!",
+      "category": "MYSTIC",
+      "phraseBank": [
+        "Use magic, but conserve MP!",
+        "Use magic, but conserve MP—now!"
+      ],
+      "intentTags": [
+        "MYSTIC",
+        "OFFENSE",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_LEGAL_OFFENSIVE_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC",
+          "minimumMembers": 1,
+          "maximumSharePermille": 800
+        },
+        {
+          "memberEligibility": "LOW_MP_OR_NO_MYSTIC",
+          "priority": "WEAPON_OR_GUARD_FALLBACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 600
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_021",
+      "displayText": "Exploit their elemental weakness!",
+      "category": "MYSTIC",
+      "phraseBank": [
+        "Exploit their elemental weakness!",
+        "Exploit their elemental weakness—together!"
+      ],
+      "intentTags": [
+        "MYSTIC",
+        "CONTROL",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_LEGAL_OFFENSIVE_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC",
+          "minimumMembers": 1,
+          "maximumSharePermille": 800
+        },
+        {
+          "memberEligibility": "LOW_MP_OR_NO_MYSTIC",
+          "priority": "WEAPON_OR_GUARD_FALLBACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 600
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_022",
+      "displayText": "Overwhelm them with focused Mystics!",
+      "category": "MYSTIC",
+      "phraseBank": [
+        "Overwhelm them with focused Mystics!",
+        "Overwhelm them with focused Mystics—carefully!"
+      ],
+      "intentTags": [
+        "MYSTIC",
+        "OFFENSE",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_LEGAL_OFFENSIVE_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC",
+          "minimumMembers": 1,
+          "maximumSharePermille": 800
+        },
+        {
+          "memberEligibility": "LOW_MP_OR_NO_MYSTIC",
+          "priority": "WEAPON_OR_GUARD_FALLBACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 600
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_023",
+      "displayText": "Keep your HP up!",
+      "category": "RESTORATION",
+      "phraseBank": [
+        "Keep your HP up!",
+        "Keep your HP up—together!"
+      ],
+      "intentTags": [
+        "RESTORATION",
+        "RESCUE",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": true,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "CAN_RESTORE_VALID_MISSING_HP_OR_CLEANSE",
+          "priority": "MOST_ENDANGERED_VALID_TARGET",
+          "minimumMembers": 1,
+          "maximumSharePermille": 600
+        },
+        {
+          "memberEligibility": "NOT_NEEDED_FOR_HEALING",
+          "priority": "GUARD_SUPPORT_OR_LOW_COST_ATTACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 800
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_024",
+      "displayText": "Heal them before they fall!",
+      "category": "RESTORATION",
+      "phraseBank": [
+        "Heal them before they fall!",
+        "Heal them before they fall—carefully!"
+      ],
+      "intentTags": [
+        "RESTORATION",
+        "RESCUE",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": true,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "CAN_RESTORE_VALID_MISSING_HP_OR_CLEANSE",
+          "priority": "MOST_ENDANGERED_VALID_TARGET",
+          "minimumMembers": 1,
+          "maximumSharePermille": 600
+        },
+        {
+          "memberEligibility": "NOT_NEEDED_FOR_HEALING",
+          "priority": "GUARD_SUPPORT_OR_LOW_COST_ATTACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 800
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_025",
+      "displayText": "Cleanse the Union!",
+      "category": "RESTORATION",
+      "phraseBank": [
+        "Cleanse the Union!",
+        "Cleanse the Union—with discipline!"
+      ],
+      "intentTags": [
+        "RESTORATION",
+        "RESCUE",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": true,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "CAN_RESTORE_VALID_MISSING_HP_OR_CLEANSE",
+          "priority": "MOST_ENDANGERED_VALID_TARGET",
+          "minimumMembers": 1,
+          "maximumSharePermille": 600
+        },
+        {
+          "memberEligibility": "NOT_NEEDED_FOR_HEALING",
+          "priority": "GUARD_SUPPORT_OR_LOW_COST_ATTACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 800
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_026",
+      "displayText": "Stabilize the front line!",
+      "category": "RESTORATION",
+      "phraseBank": [
+        "Stabilize the front line!",
+        "Stabilize the front line—now!"
+      ],
+      "intentTags": [
+        "RESTORATION",
+        "RESCUE",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": true,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "CAN_RESTORE_VALID_MISSING_HP_OR_CLEANSE",
+          "priority": "MOST_ENDANGERED_VALID_TARGET",
+          "minimumMembers": 1,
+          "maximumSharePermille": 600
+        },
+        {
+          "memberEligibility": "NOT_NEEDED_FOR_HEALING",
+          "priority": "GUARD_SUPPORT_OR_LOW_COST_ATTACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 800
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_027",
+      "displayText": "Don't let the wounded fall!",
+      "category": "RESTORATION",
+      "phraseBank": [
+        "Don't let the wounded fall!",
+        "Don't let the wounded fall—together!"
+      ],
+      "intentTags": [
+        "RESTORATION",
+        "RESCUE",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": true,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "CAN_RESTORE_VALID_MISSING_HP_OR_CLEANSE",
+          "priority": "MOST_ENDANGERED_VALID_TARGET",
+          "minimumMembers": 1,
+          "maximumSharePermille": 600
+        },
+        {
+          "memberEligibility": "NOT_NEEDED_FOR_HEALING",
+          "priority": "GUARD_SUPPORT_OR_LOW_COST_ATTACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 800
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_028",
+      "displayText": "Recover and keep fighting!",
+      "category": "RESTORATION",
+      "phraseBank": [
+        "Recover and keep fighting!",
+        "Recover and keep fighting—carefully!"
+      ],
+      "intentTags": [
+        "RESTORATION",
+        "RESCUE",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": true,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "CAN_RESTORE_VALID_MISSING_HP_OR_CLEANSE",
+          "priority": "MOST_ENDANGERED_VALID_TARGET",
+          "minimumMembers": 1,
+          "maximumSharePermille": 600
+        },
+        {
+          "memberEligibility": "NOT_NEEDED_FOR_HEALING",
+          "priority": "GUARD_SUPPORT_OR_LOW_COST_ATTACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 800
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_029",
+      "displayText": "Use Restoration Arts wisely!",
+      "category": "RESTORATION",
+      "phraseBank": [
+        "Use Restoration Arts wisely!",
+        "Use Restoration Arts wisely—with discipline!"
+      ],
+      "intentTags": [
+        "RESTORATION",
+        "RESCUE",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": true,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "CAN_RESTORE_VALID_MISSING_HP_OR_CLEANSE",
+          "priority": "MOST_ENDANGERED_VALID_TARGET",
+          "minimumMembers": 1,
+          "maximumSharePermille": 600
+        },
+        {
+          "memberEligibility": "NOT_NEEDED_FOR_HEALING",
+          "priority": "GUARD_SUPPORT_OR_LOW_COST_ATTACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 800
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_030",
+      "displayText": "Rescue the critical Union!",
+      "category": "RESTORATION",
+      "phraseBank": [
+        "Rescue the critical Union!",
+        "Rescue the critical Union—now!"
+      ],
+      "intentTags": [
+        "RESTORATION",
+        "RESCUE",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": true,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "CAN_RESTORE_VALID_MISSING_HP_OR_CLEANSE",
+          "priority": "MOST_ENDANGERED_VALID_TARGET",
+          "minimumMembers": 1,
+          "maximumSharePermille": 600
+        },
+        {
+          "memberEligibility": "NOT_NEEDED_FOR_HEALING",
+          "priority": "GUARD_SUPPORT_OR_LOW_COST_ATTACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 800
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_031",
+      "displayText": "Patch them up while we hold!",
+      "category": "RESTORATION",
+      "phraseBank": [
+        "Patch them up while we hold!",
+        "Patch them up while we hold—together!"
+      ],
+      "intentTags": [
+        "RESTORATION",
+        "RESCUE",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": true,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "CAN_RESTORE_VALID_MISSING_HP_OR_CLEANSE",
+          "priority": "MOST_ENDANGERED_VALID_TARGET",
+          "minimumMembers": 1,
+          "maximumSharePermille": 600
+        },
+        {
+          "memberEligibility": "NOT_NEEDED_FOR_HEALING",
+          "priority": "GUARD_SUPPORT_OR_LOW_COST_ATTACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 800
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_032",
+      "displayText": "Bring everyone back from the brink!",
+      "category": "RESTORATION",
+      "phraseBank": [
+        "Bring everyone back from the brink!",
+        "Bring everyone back from the brink—carefully!"
+      ],
+      "intentTags": [
+        "RESTORATION",
+        "RESCUE",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": true,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "CAN_RESTORE_VALID_MISSING_HP_OR_CLEANSE",
+          "priority": "MOST_ENDANGERED_VALID_TARGET",
+          "minimumMembers": 1,
+          "maximumSharePermille": 600
+        },
+        {
+          "memberEligibility": "NOT_NEEDED_FOR_HEALING",
+          "priority": "GUARD_SUPPORT_OR_LOW_COST_ATTACK",
+          "minimumMembers": 0,
+          "maximumSharePermille": 800
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_033",
+      "displayText": "Hold the line!",
+      "category": "GUARD",
+      "phraseBank": [
+        "Hold the line!",
+        "Hold the line—together!"
+      ],
+      "intentTags": [
+        "GUARD",
+        "PROTECT",
+        "COUNTER"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": true,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "CAN_INTERCEPT_GUARD_OR_WARD",
+          "priority": "PROTECT_HIGHEST_RISK_MEMBER_OR_UNION",
+          "minimumMembers": 1,
+          "maximumSharePermille": 800
+        },
+        {
+          "memberEligibility": "SAFE_TO_COUNTER",
+          "priority": "LOW_RISK_COUNTER_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_034",
+      "displayText": "Protect the wounded Union!",
+      "category": "GUARD",
+      "phraseBank": [
+        "Protect the wounded Union!",
+        "Protect the wounded Union—carefully!"
+      ],
+      "intentTags": [
+        "GUARD",
+        "PROTECT",
+        "SURVIVE"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": true,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "CAN_INTERCEPT_GUARD_OR_WARD",
+          "priority": "PROTECT_HIGHEST_RISK_MEMBER_OR_UNION",
+          "minimumMembers": 1,
+          "maximumSharePermille": 800
+        },
+        {
+          "memberEligibility": "SAFE_TO_COUNTER",
+          "priority": "LOW_RISK_COUNTER_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_035",
+      "displayText": "Brace for their strongest attack!",
+      "category": "GUARD",
+      "phraseBank": [
+        "Brace for their strongest attack!",
+        "Brace for their strongest attack—with discipline!"
+      ],
+      "intentTags": [
+        "GUARD",
+        "PROTECT",
+        "COUNTER"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": true,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "CAN_INTERCEPT_GUARD_OR_WARD",
+          "priority": "PROTECT_HIGHEST_RISK_MEMBER_OR_UNION",
+          "minimumMembers": 1,
+          "maximumSharePermille": 800
+        },
+        {
+          "memberEligibility": "SAFE_TO_COUNTER",
+          "priority": "LOW_RISK_COUNTER_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_036",
+      "displayText": "Don't let them through!",
+      "category": "GUARD",
+      "phraseBank": [
+        "Don't let them through!",
+        "Don't let them through—now!"
+      ],
+      "intentTags": [
+        "GUARD",
+        "PROTECT",
+        "SURVIVE"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": true,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "CAN_INTERCEPT_GUARD_OR_WARD",
+          "priority": "PROTECT_HIGHEST_RISK_MEMBER_OR_UNION",
+          "minimumMembers": 1,
+          "maximumSharePermille": 800
+        },
+        {
+          "memberEligibility": "SAFE_TO_COUNTER",
+          "priority": "LOW_RISK_COUNTER_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_037",
+      "displayText": "Guard and wait for the opening!",
+      "category": "GUARD",
+      "phraseBank": [
+        "Guard and wait for the opening!",
+        "Guard and wait for the opening—together!"
+      ],
+      "intentTags": [
+        "GUARD",
+        "PROTECT",
+        "COUNTER"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": true,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "CAN_INTERCEPT_GUARD_OR_WARD",
+          "priority": "PROTECT_HIGHEST_RISK_MEMBER_OR_UNION",
+          "minimumMembers": 1,
+          "maximumSharePermille": 800
+        },
+        {
+          "memberEligibility": "SAFE_TO_COUNTER",
+          "priority": "LOW_RISK_COUNTER_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_038",
+      "displayText": "Draw their attention!",
+      "category": "GUARD",
+      "phraseBank": [
+        "Draw their attention!",
+        "Draw their attention—carefully!"
+      ],
+      "intentTags": [
+        "GUARD",
+        "PROTECT",
+        "SURVIVE"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": true,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "CAN_INTERCEPT_GUARD_OR_WARD",
+          "priority": "PROTECT_HIGHEST_RISK_MEMBER_OR_UNION",
+          "minimumMembers": 1,
+          "maximumSharePermille": 800
+        },
+        {
+          "memberEligibility": "SAFE_TO_COUNTER",
+          "priority": "LOW_RISK_COUNTER_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_039",
+      "displayText": "Cover our healers!",
+      "category": "GUARD",
+      "phraseBank": [
+        "Cover our healers!",
+        "Cover our healers—with discipline!"
+      ],
+      "intentTags": [
+        "GUARD",
+        "PROTECT",
+        "COUNTER"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": true,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "CAN_INTERCEPT_GUARD_OR_WARD",
+          "priority": "PROTECT_HIGHEST_RISK_MEMBER_OR_UNION",
+          "minimumMembers": 1,
+          "maximumSharePermille": 800
+        },
+        {
+          "memberEligibility": "SAFE_TO_COUNTER",
+          "priority": "LOW_RISK_COUNTER_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_040",
+      "displayText": "Keep the formation together!",
+      "category": "GUARD",
+      "phraseBank": [
+        "Keep the formation together!",
+        "Keep the formation together—now!"
+      ],
+      "intentTags": [
+        "GUARD",
+        "PROTECT",
+        "SURVIVE"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": true,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "CAN_INTERCEPT_GUARD_OR_WARD",
+          "priority": "PROTECT_HIGHEST_RISK_MEMBER_OR_UNION",
+          "minimumMembers": 1,
+          "maximumSharePermille": 800
+        },
+        {
+          "memberEligibility": "SAFE_TO_COUNTER",
+          "priority": "LOW_RISK_COUNTER_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_041",
+      "displayText": "Survive the telegraphed attack!",
+      "category": "GUARD",
+      "phraseBank": [
+        "Survive the telegraphed attack!",
+        "Survive the telegraphed attack—together!"
+      ],
+      "intentTags": [
+        "GUARD",
+        "PROTECT",
+        "COUNTER"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": true,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "CAN_INTERCEPT_GUARD_OR_WARD",
+          "priority": "PROTECT_HIGHEST_RISK_MEMBER_OR_UNION",
+          "minimumMembers": 1,
+          "maximumSharePermille": 800
+        },
+        {
+          "memberEligibility": "SAFE_TO_COUNTER",
+          "priority": "LOW_RISK_COUNTER_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_042",
+      "displayText": "Stand firm and counter!",
+      "category": "GUARD",
+      "phraseBank": [
+        "Stand firm and counter!",
+        "Stand firm and counter—carefully!"
+      ],
+      "intentTags": [
+        "GUARD",
+        "PROTECT",
+        "SURVIVE"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": true,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "CAN_INTERCEPT_GUARD_OR_WARD",
+          "priority": "PROTECT_HIGHEST_RISK_MEMBER_OR_UNION",
+          "minimumMembers": 1,
+          "maximumSharePermille": 800
+        },
+        {
+          "memberEligibility": "SAFE_TO_COUNTER",
+          "priority": "LOW_RISK_COUNTER_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_043",
+      "displayText": "Hold them while we heal!",
+      "category": "MIXED",
+      "phraseBank": [
+        "Hold them while we heal!",
+        "Hold them while we heal—together!"
+      ],
+      "intentTags": [
+        "MIXED",
+        "ADAPTIVE",
+        "RESCUE"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "FRONTLINE_GUARD_OR_PROVOCATION",
+          "priority": "HOLD_MEANINGFUL_PRESSURE",
+          "minimumMembers": 1,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "VALID_RESTORATION_OR_SUPPORT_NEED",
+          "priority": "HEAL_CLEANSE_WARD_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "CONTEXTUAL_COMBAT_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 700
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC_ART",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_044",
+      "displayText": "Guard the front and strike from behind!",
+      "category": "MIXED",
+      "phraseBank": [
+        "Guard the front and strike from behind!",
+        "Guard the front and strike from behind—carefully!"
+      ],
+      "intentTags": [
+        "MIXED",
+        "ADAPTIVE",
+        "BREAK"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "FRONTLINE_GUARD_OR_PROVOCATION",
+          "priority": "HOLD_MEANINGFUL_PRESSURE",
+          "minimumMembers": 1,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "VALID_RESTORATION_OR_SUPPORT_NEED",
+          "priority": "HEAL_CLEANSE_WARD_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "CONTEXTUAL_COMBAT_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 700
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC_ART",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_045",
+      "displayText": "Use Combat Arts and support the wounded!",
+      "category": "MIXED",
+      "phraseBank": [
+        "Use Combat Arts and support the wounded!",
+        "Use Combat Arts and support the wounded—with discipline!"
+      ],
+      "intentTags": [
+        "MIXED",
+        "ADAPTIVE",
+        "MYSTIC"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "FRONTLINE_GUARD_OR_PROVOCATION",
+          "priority": "HOLD_MEANINGFUL_PRESSURE",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "VALID_RESTORATION_OR_SUPPORT_NEED",
+          "priority": "HEAL_CLEANSE_WARD_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "CONTEXTUAL_COMBAT_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 700
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC_ART",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_046",
+      "displayText": "Keep your HP up and pressure their center!",
+      "category": "MIXED",
+      "phraseBank": [
+        "Keep your HP up and pressure their center!",
+        "Keep your HP up and pressure their center—now!"
+      ],
+      "intentTags": [
+        "MIXED",
+        "ADAPTIVE",
+        "BALANCED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "FRONTLINE_GUARD_OR_PROVOCATION",
+          "priority": "HOLD_MEANINGFUL_PRESSURE",
+          "minimumMembers": 1,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "VALID_RESTORATION_OR_SUPPORT_NEED",
+          "priority": "HEAL_CLEANSE_WARD_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "CONTEXTUAL_COMBAT_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 700
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC_ART",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_047",
+      "displayText": "Tank the charge while Mystics break them!",
+      "category": "MIXED",
+      "phraseBank": [
+        "Tank the charge while Mystics break them!",
+        "Tank the charge while Mystics break them—together!"
+      ],
+      "intentTags": [
+        "MIXED",
+        "ADAPTIVE",
+        "RESCUE"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "FRONTLINE_GUARD_OR_PROVOCATION",
+          "priority": "HOLD_MEANINGFUL_PRESSURE",
+          "minimumMembers": 1,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "VALID_RESTORATION_OR_SUPPORT_NEED",
+          "priority": "HEAL_CLEANSE_WARD_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "CONTEXTUAL_COMBAT_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 700
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC_ART",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_048",
+      "displayText": "Mix weapon Arts with magic!",
+      "category": "MIXED",
+      "phraseBank": [
+        "Mix weapon Arts with magic!",
+        "Mix weapon Arts with magic—carefully!"
+      ],
+      "intentTags": [
+        "MIXED",
+        "ADAPTIVE",
+        "BREAK"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "FRONTLINE_GUARD_OR_PROVOCATION",
+          "priority": "HOLD_MEANINGFUL_PRESSURE",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "VALID_RESTORATION_OR_SUPPORT_NEED",
+          "priority": "HEAL_CLEANSE_WARD_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "CONTEXTUAL_COMBAT_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 700
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC_ART",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_049",
+      "displayText": "Protect the caster and hit their flank!",
+      "category": "MIXED",
+      "phraseBank": [
+        "Protect the caster and hit their flank!",
+        "Protect the caster and hit their flank—with discipline!"
+      ],
+      "intentTags": [
+        "MIXED",
+        "ADAPTIVE",
+        "MYSTIC"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "FRONTLINE_GUARD_OR_PROVOCATION",
+          "priority": "HOLD_MEANINGFUL_PRESSURE",
+          "minimumMembers": 1,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "VALID_RESTORATION_OR_SUPPORT_NEED",
+          "priority": "HEAL_CLEANSE_WARD_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "CONTEXTUAL_COMBAT_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 700
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC_ART",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_050",
+      "displayText": "Heal who needs it—everyone else attack!",
+      "category": "MIXED",
+      "phraseBank": [
+        "Heal who needs it—everyone else attack!",
+        "Heal who needs it—everyone else attack—now!"
+      ],
+      "intentTags": [
+        "MIXED",
+        "ADAPTIVE",
+        "BALANCED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "FRONTLINE_GUARD_OR_PROVOCATION",
+          "priority": "HOLD_MEANINGFUL_PRESSURE",
+          "minimumMembers": 1,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "VALID_RESTORATION_OR_SUPPORT_NEED",
+          "priority": "HEAL_CLEANSE_WARD_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "CONTEXTUAL_COMBAT_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 700
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC_ART",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_051",
+      "displayText": "Break their formation, but keep a guard ready!",
+      "category": "MIXED",
+      "phraseBank": [
+        "Break their formation, but keep a guard ready!",
+        "Break their formation, but keep a guard ready—together!"
+      ],
+      "intentTags": [
+        "MIXED",
+        "ADAPTIVE",
+        "RESCUE"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "FRONTLINE_GUARD_OR_PROVOCATION",
+          "priority": "HOLD_MEANINGFUL_PRESSURE",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "VALID_RESTORATION_OR_SUPPORT_NEED",
+          "priority": "HEAL_CLEANSE_WARD_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "CONTEXTUAL_COMBAT_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 700
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC_ART",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_052",
+      "displayText": "Conserve MP and use weapon Arts!",
+      "category": "MIXED",
+      "phraseBank": [
+        "Conserve MP and use weapon Arts!",
+        "Conserve MP and use weapon Arts—carefully!"
+      ],
+      "intentTags": [
+        "MIXED",
+        "ADAPTIVE",
+        "BREAK"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "FRONTLINE_GUARD_OR_PROVOCATION",
+          "priority": "HOLD_MEANINGFUL_PRESSURE",
+          "minimumMembers": 1,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "VALID_RESTORATION_OR_SUPPORT_NEED",
+          "priority": "HEAL_CLEANSE_WARD_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "CONTEXTUAL_COMBAT_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 700
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC_ART",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_053",
+      "displayText": "Use everything you've got, but don't abandon defense!",
+      "category": "MIXED",
+      "phraseBank": [
+        "Use everything you've got, but don't abandon defense!",
+        "Use everything you've got, but don't abandon defense—with discipline!"
+      ],
+      "intentTags": [
+        "MIXED",
+        "ADAPTIVE",
+        "MYSTIC"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "FRONTLINE_GUARD_OR_PROVOCATION",
+          "priority": "HOLD_MEANINGFUL_PRESSURE",
+          "minimumMembers": 1,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "VALID_RESTORATION_OR_SUPPORT_NEED",
+          "priority": "HEAL_CLEANSE_WARD_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "CONTEXTUAL_COMBAT_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 700
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC_ART",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_054",
+      "displayText": "Pin them down while the healer works!",
+      "category": "MIXED",
+      "phraseBank": [
+        "Pin them down while the healer works!",
+        "Pin them down while the healer works—now!"
+      ],
+      "intentTags": [
+        "MIXED",
+        "ADAPTIVE",
+        "BALANCED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "FRONTLINE_GUARD_OR_PROVOCATION",
+          "priority": "HOLD_MEANINGFUL_PRESSURE",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "VALID_RESTORATION_OR_SUPPORT_NEED",
+          "priority": "HEAL_CLEANSE_WARD_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "CONTEXTUAL_COMBAT_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 700
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC_ART",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_055",
+      "displayText": "Draw their fire and attack the exposed side!",
+      "category": "MIXED",
+      "phraseBank": [
+        "Draw their fire and attack the exposed side!",
+        "Draw their fire and attack the exposed side—together!"
+      ],
+      "intentTags": [
+        "MIXED",
+        "ADAPTIVE",
+        "RESCUE"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "FRONTLINE_GUARD_OR_PROVOCATION",
+          "priority": "HOLD_MEANINGFUL_PRESSURE",
+          "minimumMembers": 1,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "VALID_RESTORATION_OR_SUPPORT_NEED",
+          "priority": "HEAL_CLEANSE_WARD_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "CONTEXTUAL_COMBAT_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 700
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC_ART",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_056",
+      "displayText": "Ward the Union and press forward!",
+      "category": "MIXED",
+      "phraseBank": [
+        "Ward the Union and press forward!",
+        "Ward the Union and press forward—carefully!"
+      ],
+      "intentTags": [
+        "MIXED",
+        "ADAPTIVE",
+        "BREAK"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "FRONTLINE_GUARD_OR_PROVOCATION",
+          "priority": "HOLD_MEANINGFUL_PRESSURE",
+          "minimumMembers": 1,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "VALID_RESTORATION_OR_SUPPORT_NEED",
+          "priority": "HEAL_CLEANSE_WARD_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "CONTEXTUAL_COMBAT_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 700
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC_ART",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_057",
+      "displayText": "Support the leader while the others use Combat Arts!",
+      "category": "MIXED",
+      "phraseBank": [
+        "Support the leader while the others use Combat Arts!",
+        "Support the leader while the others use Combat Arts—with discipline!"
+      ],
+      "intentTags": [
+        "MIXED",
+        "ADAPTIVE",
+        "MYSTIC"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "FRONTLINE_GUARD_OR_PROVOCATION",
+          "priority": "HOLD_MEANINGFUL_PRESSURE",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "VALID_RESTORATION_OR_SUPPORT_NEED",
+          "priority": "HEAL_CLEANSE_WARD_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "CONTEXTUAL_COMBAT_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 700
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC_ART",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_058",
+      "displayText": "Use Mystics on their armor while our front line holds!",
+      "category": "MIXED",
+      "phraseBank": [
+        "Use Mystics on their armor while our front line holds!",
+        "Use Mystics on their armor while our front line holds—now!"
+      ],
+      "intentTags": [
+        "MIXED",
+        "ADAPTIVE",
+        "BALANCED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "FRONTLINE_GUARD_OR_PROVOCATION",
+          "priority": "HOLD_MEANINGFUL_PRESSURE",
+          "minimumMembers": 1,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "VALID_RESTORATION_OR_SUPPORT_NEED",
+          "priority": "HEAL_CLEANSE_WARD_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "CONTEXTUAL_COMBAT_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 700
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC_ART",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_059",
+      "displayText": "Rescue the ally and punish the opening!",
+      "category": "MIXED",
+      "phraseBank": [
+        "Rescue the ally and punish the opening!",
+        "Rescue the ally and punish the opening—together!"
+      ],
+      "intentTags": [
+        "MIXED",
+        "ADAPTIVE",
+        "RESCUE"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "FRONTLINE_GUARD_OR_PROVOCATION",
+          "priority": "HOLD_MEANINGFUL_PRESSURE",
+          "minimumMembers": 1,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "VALID_RESTORATION_OR_SUPPORT_NEED",
+          "priority": "HEAL_CLEANSE_WARD_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "CONTEXTUAL_COMBAT_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 700
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC_ART",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_060",
+      "displayText": "Set up the Link Art!",
+      "category": "MIXED",
+      "phraseBank": [
+        "Set up the Link Art!",
+        "Set up the Link Art—carefully!"
+      ],
+      "intentTags": [
+        "MIXED",
+        "ADAPTIVE",
+        "BREAK"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "FRONTLINE_GUARD_OR_PROVOCATION",
+          "priority": "HOLD_MEANINGFUL_PRESSURE",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "VALID_RESTORATION_OR_SUPPORT_NEED",
+          "priority": "HEAL_CLEANSE_WARD_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "CONTEXTUAL_COMBAT_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 700
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC_ART",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_061",
+      "displayText": "Keep formation, heal, and advance!",
+      "category": "MIXED",
+      "phraseBank": [
+        "Keep formation, heal, and advance!",
+        "Keep formation, heal, and advance—with discipline!"
+      ],
+      "intentTags": [
+        "MIXED",
+        "ADAPTIVE",
+        "MYSTIC"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "FRONTLINE_GUARD_OR_PROVOCATION",
+          "priority": "HOLD_MEANINGFUL_PRESSURE",
+          "minimumMembers": 1,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "VALID_RESTORATION_OR_SUPPORT_NEED",
+          "priority": "HEAL_CLEANSE_WARD_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "CONTEXTUAL_COMBAT_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 700
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC_ART",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_062",
+      "displayText": "Balanced assault—adapt to what happens!",
+      "category": "MIXED",
+      "phraseBank": [
+        "Balanced assault—adapt to what happens!",
+        "Balanced assault—adapt to what happens—now!"
+      ],
+      "intentTags": [
+        "MIXED",
+        "ADAPTIVE",
+        "BALANCED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "FRONTLINE_GUARD_OR_PROVOCATION",
+          "priority": "HOLD_MEANINGFUL_PRESSURE",
+          "minimumMembers": 1,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "VALID_RESTORATION_OR_SUPPORT_NEED",
+          "priority": "HEAL_CLEANSE_WARD_OR_SUPPORT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 400
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_WEAPON_ART",
+          "priority": "CONTEXTUAL_COMBAT_ART",
+          "minimumMembers": 1,
+          "maximumSharePermille": 700
+        },
+        {
+          "memberEligibility": "HAS_LEGAL_MYSTIC_AND_MP",
+          "priority": "CONTEXTUAL_MYSTIC_ART",
+          "minimumMembers": 0,
+          "maximumSharePermille": 500
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_063",
+      "displayText": "Take them from the flank!",
+      "category": "TACTICAL",
+      "phraseBank": [
+        "Take them from the flank!",
+        "Take them from the flank—together!"
+      ],
+      "intentTags": [
+        "TACTICAL",
+        "BLIND_SIDE",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": true
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_RELEVANT_TACTICAL_ROLE",
+          "priority": "OBJECTIVE_POSITION_INFORMATION_OR_COORDINATION",
+          "minimumMembers": 1,
+          "maximumSharePermille": 500
+        },
+        {
+          "memberEligibility": "OTHER_LEGAL_MEMBER",
+          "priority": "CONSERVE_OR_SUPPORT_TACTICAL_INTENT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 800
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_064",
+      "displayText": "Get behind them—Blind Side!",
+      "category": "TACTICAL",
+      "phraseBank": [
+        "Get behind them—Blind Side!",
+        "Get behind them—Blind Side—carefully!"
+      ],
+      "intentTags": [
+        "TACTICAL",
+        "OBJECTIVE",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": true
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_RELEVANT_TACTICAL_ROLE",
+          "priority": "OBJECTIVE_POSITION_INFORMATION_OR_COORDINATION",
+          "minimumMembers": 1,
+          "maximumSharePermille": 500
+        },
+        {
+          "memberEligibility": "OTHER_LEGAL_MEMBER",
+          "priority": "CONSERVE_OR_SUPPORT_TACTICAL_INTENT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 800
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_065",
+      "displayText": "Protect the objective!",
+      "category": "TACTICAL",
+      "phraseBank": [
+        "Protect the objective!",
+        "Protect the objective—with discipline!"
+      ],
+      "intentTags": [
+        "TACTICAL",
+        "CONSERVE",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_RELEVANT_TACTICAL_ROLE",
+          "priority": "OBJECTIVE_POSITION_INFORMATION_OR_COORDINATION",
+          "minimumMembers": 1,
+          "maximumSharePermille": 500
+        },
+        {
+          "memberEligibility": "OTHER_LEGAL_MEMBER",
+          "priority": "CONSERVE_OR_SUPPORT_TACTICAL_INTENT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 800
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_066",
+      "displayText": "Conserve AP this round!",
+      "category": "TACTICAL",
+      "phraseBank": [
+        "Conserve AP this round!",
+        "Conserve AP this round—now!"
+      ],
+      "intentTags": [
+        "TACTICAL",
+        "COORDINATE",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_RELEVANT_TACTICAL_ROLE",
+          "priority": "OBJECTIVE_POSITION_INFORMATION_OR_COORDINATION",
+          "minimumMembers": 1,
+          "maximumSharePermille": 500
+        },
+        {
+          "memberEligibility": "OTHER_LEGAL_MEMBER",
+          "priority": "CONSERVE_OR_SUPPORT_TACTICAL_INTENT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 800
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_067",
+      "displayText": "Prepare a multi-Union strike!",
+      "category": "TACTICAL",
+      "phraseBank": [
+        "Prepare a multi-Union strike!",
+        "Prepare a multi-Union strike—together!"
+      ],
+      "intentTags": [
+        "TACTICAL",
+        "FLANK",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_RELEVANT_TACTICAL_ROLE",
+          "priority": "OBJECTIVE_POSITION_INFORMATION_OR_COORDINATION",
+          "minimumMembers": 1,
+          "maximumSharePermille": 500
+        },
+        {
+          "memberEligibility": "OTHER_LEGAL_MEMBER",
+          "priority": "CONSERVE_OR_SUPPORT_TACTICAL_INTENT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 800
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_068",
+      "displayText": "Disengage and reform!",
+      "category": "TACTICAL",
+      "phraseBank": [
+        "Disengage and reform!",
+        "Disengage and reform—carefully!"
+      ],
+      "intentTags": [
+        "TACTICAL",
+        "BLIND_SIDE",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_RELEVANT_TACTICAL_ROLE",
+          "priority": "OBJECTIVE_POSITION_INFORMATION_OR_COORDINATION",
+          "minimumMembers": 1,
+          "maximumSharePermille": 500
+        },
+        {
+          "memberEligibility": "OTHER_LEGAL_MEMBER",
+          "priority": "CONSERVE_OR_SUPPORT_TACTICAL_INTENT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 800
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_069",
+      "displayText": "Rescue the pinned Union!",
+      "category": "TACTICAL",
+      "phraseBank": [
+        "Rescue the pinned Union!",
+        "Rescue the pinned Union—with discipline!"
+      ],
+      "intentTags": [
+        "TACTICAL",
+        "OBJECTIVE",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_RELEVANT_TACTICAL_ROLE",
+          "priority": "OBJECTIVE_POSITION_INFORMATION_OR_COORDINATION",
+          "minimumMembers": 1,
+          "maximumSharePermille": 500
+        },
+        {
+          "memberEligibility": "OTHER_LEGAL_MEMBER",
+          "priority": "CONSERVE_OR_SUPPORT_TACTICAL_INTENT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 800
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_070",
+      "displayText": "Target their rear line!",
+      "category": "TACTICAL",
+      "phraseBank": [
+        "Target their rear line!",
+        "Target their rear line—now!"
+      ],
+      "intentTags": [
+        "TACTICAL",
+        "CONSERVE",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": true
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_RELEVANT_TACTICAL_ROLE",
+          "priority": "OBJECTIVE_POSITION_INFORMATION_OR_COORDINATION",
+          "minimumMembers": 1,
+          "maximumSharePermille": 500
+        },
+        {
+          "memberEligibility": "OTHER_LEGAL_MEMBER",
+          "priority": "CONSERVE_OR_SUPPORT_TACTICAL_INTENT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 800
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_071",
+      "displayText": "Interrupt their advance!",
+      "category": "TACTICAL",
+      "phraseBank": [
+        "Interrupt their advance!",
+        "Interrupt their advance—together!"
+      ],
+      "intentTags": [
+        "TACTICAL",
+        "COORDINATE",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_RELEVANT_TACTICAL_ROLE",
+          "priority": "OBJECTIVE_POSITION_INFORMATION_OR_COORDINATION",
+          "minimumMembers": 1,
+          "maximumSharePermille": 500
+        },
+        {
+          "memberEligibility": "OTHER_LEGAL_MEMBER",
+          "priority": "CONSERVE_OR_SUPPORT_TACTICAL_INTENT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 800
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    },
+    {
+      "id": "FORECAST_CA002_072",
+      "displayText": "Use the terrain and wait for the signal!",
+      "category": "TACTICAL",
+      "phraseBank": [
+        "Use the terrain and wait for the signal!",
+        "Use the terrain and wait for the signal—carefully!"
+      ],
+      "intentTags": [
+        "TACTICAL",
+        "FLANK",
+        "MIXED"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidTarget": true,
+        "requiresMissingHpOrCleanseTarget": false,
+        "requiresIncomingThreat": false,
+        "requiresPositionState": false
+      },
+      "sharedApBudgetRule": "Sum the predicted member AP costs and reject or downgrade any plan that exceeds current Union AP.",
+      "personalMpBudgetRule": "Check MP separately for every predicted member; one member's MP can never fund another.",
+      "memberResolutionPlan": [
+        {
+          "memberEligibility": "HAS_RELEVANT_TACTICAL_ROLE",
+          "priority": "OBJECTIVE_POSITION_INFORMATION_OR_COORDINATION",
+          "minimumMembers": 1,
+          "maximumSharePermille": 500
+        },
+        {
+          "memberEligibility": "OTHER_LEGAL_MEMBER",
+          "priority": "CONSERVE_OR_SUPPORT_TACTICAL_INTENT",
+          "minimumMembers": 0,
+          "maximumSharePermille": 800
+        }
+      ],
+      "targetRule": "Select an authoritative enemy, ally, objective, or positional target matching the complete intent; predicted targets are shown before commitment.",
+      "fallbackRule": "Replace only the illegal member action with the closest legal action preserving the chosen Union intent. Never reroll the complete forecast when state is unchanged.",
+      "predictionFields": [
+        "MEMBER_NAME",
+        "PREDICTED_ART_OR_BASIC_ACTION",
+        "TARGET",
+        "AP_COST",
+        "PERSONAL_MP_COST",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "playerDirectlySelectableMemberActions": false,
+      "standardModeIndividualArtCommandForbidden": true
+    }
+  ]
+}

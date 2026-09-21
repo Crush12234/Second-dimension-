@@ -1,0 +1,117 @@
+{
+  "contentVersion": "FINAL_IMPLEMENTATION_HARDENING_025_1.0",
+  "gates": [
+    {
+      "gateId": "025-G01",
+      "category": "UnityVersion",
+      "description": "Unity 6000.3.22f1 and Windows Build Support are present.",
+      "automatedBy": "offline-and-unity",
+      "blocking": true
+    },
+    {
+      "gateId": "025-G02",
+      "category": "PackageManifest",
+      "description": "Package manifest and lock are consistent and minimal.",
+      "automatedBy": "offline",
+      "blocking": true
+    },
+    {
+      "gateId": "025-G03",
+      "category": "AssemblyGraph",
+      "description": "Custom assembly graph has no cycle or forbidden dependency.",
+      "automatedBy": "offline-and-editmode",
+      "blocking": true
+    },
+    {
+      "gateId": "025-G04",
+      "category": "ContentJson",
+      "description": "Required content JSON parses and stable references resolve.",
+      "automatedBy": "offline-and-editmode",
+      "blocking": true
+    },
+    {
+      "gateId": "025-G05",
+      "category": "UnityGuid",
+      "description": "Unity GUIDs are unique and serialized script references resolve.",
+      "automatedBy": "offline-and-editor",
+      "blocking": true
+    },
+    {
+      "gateId": "025-G06",
+      "category": "Boot",
+      "description": "Boot scene is first and integrated readiness succeeds.",
+      "automatedBy": "playmode",
+      "blocking": true
+    },
+    {
+      "gateId": "025-G07",
+      "category": "SaveMigration",
+      "description": "Save migration reaches the active save schema exactly once.",
+      "automatedBy": "editmode-and-playmode",
+      "blocking": true
+    },
+    {
+      "gateId": "025-G08",
+      "category": "Determinism",
+      "description": "Forecasts, checks, rewards, and receipts remain deterministic.",
+      "automatedBy": "editmode",
+      "blocking": true
+    },
+    {
+      "gateId": "025-G09",
+      "category": "EditMode",
+      "description": "All EditMode tests pass and XML is retained.",
+      "automatedBy": "unity-test-runner",
+      "blocking": true
+    },
+    {
+      "gateId": "025-G10",
+      "category": "PlayMode",
+      "description": "All PlayMode tests pass and XML is retained.",
+      "automatedBy": "unity-test-runner",
+      "blocking": true
+    },
+    {
+      "gateId": "025-G11",
+      "category": "RuntimeAdapters",
+      "description": "Production coordinator reaches all required runtime domains.",
+      "automatedBy": "playmode",
+      "blocking": true
+    },
+    {
+      "gateId": "025-G12",
+      "category": "Resources",
+      "description": "Required Resources and StreamingAssets load in player context.",
+      "automatedBy": "editor-and-playmode",
+      "blocking": true
+    },
+    {
+      "gateId": "025-G13",
+      "category": "WindowsBuild",
+      "description": "Windows x86_64 build completes without errors.",
+      "automatedBy": "unity-build-pipeline",
+      "blocking": true
+    },
+    {
+      "gateId": "025-G14",
+      "category": "BuildFolder",
+      "description": "EXE, Data folder, and UnityPlayer.dll all exist.",
+      "automatedBy": "powershell",
+      "blocking": true
+    },
+    {
+      "gateId": "025-G15",
+      "category": "BuiltPlayerSmoke",
+      "description": "Owner-review path completes in the built player.",
+      "automatedBy": "owner-smoke",
+      "blocking": true
+    },
+    {
+      "gateId": "025-G16",
+      "category": "SaveRelaunch",
+      "description": "Built player preserves canonical state through close and relaunch.",
+      "automatedBy": "owner-smoke",
+      "blocking": true
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "schema": "RYKA023_EXACT_PRE100_RECRUIT_FIXTURE",
+  "source_path": "C:/SecondDimension/BuildEvidence/SSSTenV4/R171_Hero023_100/FixtureSaves/HERO_REC_023.json",
+  "source_save_sha256": "1FA668D2648E3B8B2559EF766B26789B32545238187389C284196DEE1C831B4E",
+  "scope": "Unmodified exact Ryka recruit extracted from an isolated actual Windows R171 save, before new-record correction. Contains canonical old Warrior recipe, saved learned Arts and actual equipped Basic sword + armor. Tests rehouse this record in an isolated completed-opening campaign; this is legacy-record compatibility, not natural acquisition.",
+  "recruit": {
+    "RecruitId": "HM300_EXPEDITION_RECRUIT_089_023",
+    "CurrentHp": 288,
+    "MaximumHp": 288,
+    "CurrentMp": 26,
+    "MaximumMp": 26,
+    "VitalsInitialized": true,
+    "DisplayName": "Ryka Flameborn",
+    "OriginKind": 1,
+    "SignatureId": "",
+    "TutorialAliasId": "",
+    "AuthoredStableRecruitId": "HERO_REC_023",
+    "RaceId": "HUMAN",
+    "WorldId": "SKYHOME",
+    "ClassTendencyId": "CLASS_WARRIOR",
+    "LeadershipBand": "STEADY",
+    "PotentialBasisPoints": 742,
+    "LeadershipScore": 68,
+    "TacticalAptitude": 74,
+    "AuthorityKind": 0,
+    "CanonicalApplicantJson": "{\"ageBandId\":\"ADULT\",\"ambitionId\":\"AMBITION_MASTER_THE_FINAL_ART\",\"backgroundId\":\"BACKGROUND_EXPEDITION_RECRUIT_LEAD\",\"commandBandwidth\":6,\"developmentPotentialScore\":742,\"dialogueStyleId\":\"DIALOGUE_HERO_MASTER\",\"disciplineAptitudes\":{\"GUARD\":67,\"MARTIAL\":74,\"MYSTIC\":65,\"RESTORATION\":40,\"SUPPORT\":55,\"TACTICAL\":74},\"disciplineProfileId\":\"DISCIPLINE_PROFILE_HERO_MASTER_A\",\"displayName\":\"Ryka Flameborn\",\"equipmentLoadout\":{\"aggregateBonuses\":{},\"autoEquipAllowed\":false,\"loadoutId\":\"LOADOUT_EMPTY_HM300_EXPEDITION_RECRUIT_089_023\",\"slots\":{}},\"fearId\":\"\",\"generationSeed\":\"HERO_MASTER_300_EXPEDITION_089|HERO_REC_023\",\"growthPatternId\":\"GROWTH_HERO_MASTER_A\",\"hiddenTraitId\":\"\",\"hiddenTraitRevealed\":false,\"homeCommunityId\":\"SKYHOME\",\"leadershipScore\":68,\"leadershipTendencyId\":\"LEADERSHIP_HERO_MASTER_A\",\"personalEventHookId\":\"\",\"pronounId\":\"UNSPECIFIED\",\"raceId\":\"HUMAN\",\"recruitId\":\"HM300_EXPEDITION_RECRUIT_089_023\",\"relationshipTendencyId\":\"RELATIONSHIP_GUILD_LOYAL\",\"signatureId\":\"\",\"signingCostXp\":3500,\"sourceType\":\"PROCEDURAL\",\"startingArtIds\":[],\"startingClassId\":\"CLASS_WARRIOR\",\"statTendencies\":{\"AGI\":{\"baseIndex\":74,\"growthBias\":0},\"DEF\":{\"baseIndex\":67,\"growthBias\":0},\"HP\":{\"baseIndex\":117,\"growthBias\":0},\"MAGIC\":{\"baseIndex\":106,\"growthBias\":0},\"STR\":{\"baseIndex\":71,\"growthBias\":0},\"WILL\":{\"baseIndex\":63,\"growthBias\":0}},\"variantFlags\":[\"HERO_MASTER_300\",\"EXPEDITION_RECRUIT_LEAD_089\",\"RANK_A\",\"MANUAL_EQUIPMENT_ONLY\"],\"visibleTraitIds\":[\"TRAIT_HERO_MASTER_A\"],\"visualSeed\":\"HERO_MASTER_300_EXPEDITION_VISUAL_089|HERO_REC_023\",\"weaponAptitudeProfileId\":\"WEAPON_PROFILE_HERO_MASTER_A\",\"weaponAptitudes\":{\"FOCUS\":100,\"FOCUS_TOOL\":100,\"SWORD\":100,\"WAND\":100}}",
+    "CanonicalScoutingReportJson": "{\"backgroundId\":\"BACKGROUND_EXPEDITION_RECRUIT_LEAD\",\"disciplineEstimates\":{\"GUARD\":{\"estimatedRange\":[62,72],\"label\":\"Developing\"},\"MARTIAL\":{\"estimatedRange\":[69,79],\"label\":\"Developing\"},\"MYSTIC\":{\"estimatedRange\":[60,70],\"label\":\"Developing\"},\"RESTORATION\":{\"estimatedRange\":[35,45],\"label\":\"Developing\"},\"SUPPORT\":{\"estimatedRange\":[50,60],\"label\":\"Developing\"},\"TACTICAL\":{\"estimatedRange\":[69,79],\"label\":\"Developing\"}},\"displayName\":\"Ryka Flameborn\",\"exactPotentialDisplayed\":false,\"growthAssessment\":\"A named expedition contact with a proven field record.\",\"hiddenDataWithheld\":true,\"hiddenTraitId\":\"\",\"hiddenTraitRevealed\":false,\"homeCommunityId\":\"SKYHOME\",\"leadershipEstimate\":{\"confidence\":90,\"range\":[63,73]},\"qualityProfile\":\"HERO MASTER A\",\"raceId\":\"HUMAN\",\"recruitId\":\"HM300_EXPEDITION_RECRUIT_089_023\",\"scoutingAccuracy\":90,\"startingClassId\":\"CLASS_WARRIOR\",\"visibleTraitIds\":[\"TRAIT_HERO_MASTER_A\"]}",
+    "Equipment": {
+      "Assignments": [
+        {
+          "SlotId": "SLOT_BODY_ARMOR",
+          "Item": {
+            "InstanceId": "RECRUIT_BASIC_094_CE6DE15F853CA5F2B5C2312B",
+            "DefinitionId": "BASIC_094_RECRUIT_TRAVEL_ARMOR_094",
+            "DisplayName": "Basic Travel Armor",
+            "ValidSlotIds": [
+              "SLOT_BODY_ARMOR"
+            ],
+            "EquipmentTags": [
+              "ARMOR",
+              "BODY_ARMOR",
+              "RECRUIT_STARTER_094"
+            ],
+            "QualityId": "QUALITY_STARTER",
+            "ConditionBasisPoints": 10000,
+            "PlayerLocked": false
+          }
+        },
+        {
+          "SlotId": "SLOT_MAIN_HAND",
+          "Item": {
+            "InstanceId": "RECRUIT_BASIC_094_3BE1AED9DA08B13B32B034E6",
+            "DefinitionId": "BASIC_094_WEAPON_FAMILY_SWORD",
+            "DisplayName": "Basic sword",
+            "ValidSlotIds": [
+              "SLOT_MAIN_HAND"
+            ],
+            "EquipmentTags": [
+              "SWORD",
+              "WEAPON",
+              "WEAPON_FAMILY_SWORD",
+              "RECRUIT_STARTER_094"
+            ],
+            "QualityId": "QUALITY_STARTER",
+            "ConditionBasisPoints": 10000,
+            "PlayerLocked": false
+          }
+        }
+      ],
+      "Slots": [
+        {
+          "SlotId": "SLOT_MAIN_HAND",
+          "Item": {
+            "InstanceId": "RECRUIT_BASIC_094_3BE1AED9DA08B13B32B034E6",
+            "DefinitionId": "BASIC_094_WEAPON_FAMILY_SWORD",
+            "DisplayName": "Basic sword",
+            "ValidSlotIds": [
+              "SLOT_MAIN_HAND"
+            ],
+            "EquipmentTags": [
+              "SWORD",
+              "WEAPON",
+              "WEAPON_FAMILY_SWORD",
+              "RECRUIT_STARTER_094"
+            ],
+            "QualityId": "QUALITY_STARTER",
+            "ConditionBasisPoints": 10000,
+            "PlayerLocked": false
+          },
+          "LockedInstanceId": ""
+        },
+        {
+          "SlotId": "SLOT_OFF_HAND",
+          "Item": null,
+          "LockedInstanceId": ""
+        },
+        {
+          "SlotId": "SLOT_BODY_ARMOR",
+          "Item": {
+            "InstanceId": "RECRUIT_BASIC_094_CE6DE15F853CA5F2B5C2312B",
+            "DefinitionId": "BASIC_094_RECRUIT_TRAVEL_ARMOR_094",
+            "DisplayName": "Basic Travel Armor",
+            "ValidSlotIds": [
+              "SLOT_BODY_ARMOR"
+            ],
+            "EquipmentTags": [
+              "ARMOR",
+              "BODY_ARMOR",
+              "RECRUIT_STARTER_094"
+            ],
+            "QualityId": "QUALITY_STARTER",
+            "ConditionBasisPoints": 10000,
+            "PlayerLocked": false
+          },
+          "LockedInstanceId": ""
+        },
+        {
+          "SlotId": "SLOT_ACCESSORY_1",
+          "Item": null,
+          "LockedInstanceId": ""
+        },
+        {
+          "SlotId": "SLOT_ACCESSORY_2",
+          "Item": null,
+          "LockedInstanceId": ""
+        },
+        {
+          "SlotId": "SLOT_TOOL_RELIC",
+          "Item": null,
+          "LockedInstanceId": ""
+        }
+      ]
+    },
+    "Progression": {
+      "Level": 1,
+      "TotalPersonalXp": 0,
+      "MaximumHpBonus": 0,
+      "MaximumMpBonus": 0,
+      "StrengthBonus": 0,
+      "DefenseBonus": 0,
+      "AgilityBonus": 0,
+      "MagicBonus": 0,
+      "WillBonus": 0,
+      "LearnedArtIds": [
+        "TREE_CA002_ROLE_DUELIST_N01",
+        "TREE_CA002_WPN_SWORD_N01",
+        "TREE_CA002_WPN_SWORD_N02"
+      ],
+      "ArtMastery": [
+        {
+          "ArtId": "TREE_CA002_ROLE_DUELIST_N01",
+          "Discipline": "MARTIAL",
+          "MeaningfulUses": 0,
+          "MasteryPoints": 0
+        },
+        {
+          "ArtId": "TREE_CA002_WPN_SWORD_N01",
+          "Discipline": "MARTIAL",
+          "MeaningfulUses": 0,
+          "MasteryPoints": 0
+        },
+        {
+          "ArtId": "TREE_CA002_WPN_SWORD_N02",
+          "Discipline": "MARTIAL",
+          "MeaningfulUses": 0,
+          "MasteryPoints": 0
+        }
+      ],
+      "UnlockedTreeIds": [
+        "TREE_CA002_ROLE_DUELIST",
+        "TREE_CA002_WPN_SWORD"
+      ],
+      "XpIntoCurrentLevel": 0,
+      "XpRequiredForNextLevel": 100
+    }
+  }
+}

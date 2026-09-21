@@ -1,0 +1,934 @@
+{
+  "contentVersion": "BATTLE_ARTS_009",
+  "templateCount": 24,
+  "forecastTemplates": [
+    {
+      "id": "FORECAST_ART009_001",
+      "displayText": "Use Combat Arts!",
+      "category": "COMBAT",
+      "intentTags": [
+        "COMBAT_ART"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidContext": true
+      },
+      "memberResolutionPlan": [
+        "Highest meaningful legal weapon Art for each eligible weapon user",
+        "Non-weapon specialists use a legal basic, Guard, Support, or Restoration fallback"
+      ],
+      "sharedApRule": "Sum all member AP costs. Downgrade only illegal member actions; never overspend or reroll an unchanged complete Forecast.",
+      "personalMpRule": "Each member funds only their own MP cost. Insufficient MP forces a legal intent-preserving fallback for that member.",
+      "predictionFields": [
+        "MEMBER",
+        "ART_CLASS",
+        "PREDICTED_ART",
+        "TARGET",
+        "AP",
+        "PERSONAL_MP",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK",
+        "LEARNING_OPPORTUNITY"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "standardModeIndividualArtSelectionForbidden": true,
+      "sourceAuthority": "BATTLE_ARTS_AND_MYSTICS_009"
+    },
+    {
+      "id": "FORECAST_ART009_002",
+      "displayText": "Break them with Combat Arts!",
+      "category": "COMBAT_BREAK",
+      "intentTags": [
+        "COMBAT_ART",
+        "BREAKER"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidContext": true
+      },
+      "memberResolutionPlan": [
+        "Prefer Guard/Cohesion/armor-breaking weapon Arts",
+        "Preserve at least one defensive fallback if the Union is threatened"
+      ],
+      "sharedApRule": "Sum all member AP costs. Downgrade only illegal member actions; never overspend or reroll an unchanged complete Forecast.",
+      "personalMpRule": "Each member funds only their own MP cost. Insufficient MP forces a legal intent-preserving fallback for that member.",
+      "predictionFields": [
+        "MEMBER",
+        "ART_CLASS",
+        "PREDICTED_ART",
+        "TARGET",
+        "AP",
+        "PERSONAL_MP",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK",
+        "LEARNING_OPPORTUNITY"
+      ],
+      "riskLevel": "HIGH",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "standardModeIndividualArtSelectionForbidden": true,
+      "sourceAuthority": "BATTLE_ARTS_AND_MYSTICS_009"
+    },
+    {
+      "id": "FORECAST_ART009_003",
+      "displayText": "Take their leader with weapon Arts!",
+      "category": "LEADER_PRESSURE",
+      "intentTags": [
+        "COMBAT_ART",
+        "LEADER_PRESSURE"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidContext": true
+      },
+      "memberResolutionPlan": [
+        "Prioritize legal leader-line Sword, Bow, Spear, Dagger, or hybrid Arts",
+        "Do not bypass protected targeting without a legal relationship"
+      ],
+      "sharedApRule": "Sum all member AP costs. Downgrade only illegal member actions; never overspend or reroll an unchanged complete Forecast.",
+      "personalMpRule": "Each member funds only their own MP cost. Insufficient MP forces a legal intent-preserving fallback for that member.",
+      "predictionFields": [
+        "MEMBER",
+        "ART_CLASS",
+        "PREDICTED_ART",
+        "TARGET",
+        "AP",
+        "PERSONAL_MP",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK",
+        "LEARNING_OPPORTUNITY"
+      ],
+      "riskLevel": "HIGH",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "standardModeIndividualArtSelectionForbidden": true,
+      "sourceAuthority": "BATTLE_ARTS_AND_MYSTICS_009"
+    },
+    {
+      "id": "FORECAST_ART009_004",
+      "displayText": "Sweep their whole Union!",
+      "category": "AREA_COMBAT",
+      "intentTags": [
+        "COMBAT_ART",
+        "AREA"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidContext": true
+      },
+      "memberResolutionPlan": [
+        "Prefer broad Great Weapon, Axe, Bow, Staff, Engineering, or signature area Arts",
+        "Reject if AP cannot fund meaningful multi-target actions"
+      ],
+      "sharedApRule": "Sum all member AP costs. Downgrade only illegal member actions; never overspend or reroll an unchanged complete Forecast.",
+      "personalMpRule": "Each member funds only their own MP cost. Insufficient MP forces a legal intent-preserving fallback for that member.",
+      "predictionFields": [
+        "MEMBER",
+        "ART_CLASS",
+        "PREDICTED_ART",
+        "TARGET",
+        "AP",
+        "PERSONAL_MP",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK",
+        "LEARNING_OPPORTUNITY"
+      ],
+      "riskLevel": "HIGH",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "standardModeIndividualArtSelectionForbidden": true,
+      "sourceAuthority": "BATTLE_ARTS_AND_MYSTICS_009"
+    },
+    {
+      "id": "FORECAST_ART009_005",
+      "displayText": "Attack with Mystic Arts!",
+      "category": "MYSTIC",
+      "intentTags": [
+        "MYSTIC_ATTACK"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidContext": true
+      },
+      "memberResolutionPlan": [
+        "Each caster uses a learned legal offensive Mystic Art from their own school",
+        "Healers and tanks use meaningful support fallbacks unless they also know offense"
+      ],
+      "sharedApRule": "Sum all member AP costs. Downgrade only illegal member actions; never overspend or reroll an unchanged complete Forecast.",
+      "personalMpRule": "Each member funds only their own MP cost. Insufficient MP forces a legal intent-preserving fallback for that member.",
+      "predictionFields": [
+        "MEMBER",
+        "ART_CLASS",
+        "PREDICTED_ART",
+        "TARGET",
+        "AP",
+        "PERSONAL_MP",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK",
+        "LEARNING_OPPORTUNITY"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "standardModeIndividualArtSelectionForbidden": true,
+      "sourceAuthority": "BATTLE_ARTS_AND_MYSTICS_009"
+    },
+    {
+      "id": "FORECAST_ART009_006",
+      "displayText": "Burn through their formation!",
+      "category": "FLAME_PRESSURE",
+      "intentTags": [
+        "MYSTIC_ATTACK",
+        "FLAME"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidContext": true
+      },
+      "memberResolutionPlan": [
+        "Prefer Flame damage, Burn buildup, and formation pressure",
+        "Avoid reapplying capped Burn when another meaningful action is better"
+      ],
+      "sharedApRule": "Sum all member AP costs. Downgrade only illegal member actions; never overspend or reroll an unchanged complete Forecast.",
+      "personalMpRule": "Each member funds only their own MP cost. Insufficient MP forces a legal intent-preserving fallback for that member.",
+      "predictionFields": [
+        "MEMBER",
+        "ART_CLASS",
+        "PREDICTED_ART",
+        "TARGET",
+        "AP",
+        "PERSONAL_MP",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK",
+        "LEARNING_OPPORTUNITY"
+      ],
+      "riskLevel": "HIGH",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "standardModeIndividualArtSelectionForbidden": true,
+      "sourceAuthority": "BATTLE_ARTS_AND_MYSTICS_009"
+    },
+    {
+      "id": "FORECAST_ART009_007",
+      "displayText": "Freeze their advance!",
+      "category": "FROST_CONTROL",
+      "intentTags": [
+        "MYSTIC_ATTACK",
+        "FROST"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidContext": true
+      },
+      "memberResolutionPlan": [
+        "Prefer Chill, Bind, Whiteout, and Shatter setup",
+        "Pair physical heavy impacts only when the complete Forecast remains legal"
+      ],
+      "sharedApRule": "Sum all member AP costs. Downgrade only illegal member actions; never overspend or reroll an unchanged complete Forecast.",
+      "personalMpRule": "Each member funds only their own MP cost. Insufficient MP forces a legal intent-preserving fallback for that member.",
+      "predictionFields": [
+        "MEMBER",
+        "ART_CLASS",
+        "PREDICTED_ART",
+        "TARGET",
+        "AP",
+        "PERSONAL_MP",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK",
+        "LEARNING_OPPORTUNITY"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "standardModeIndividualArtSelectionForbidden": true,
+      "sourceAuthority": "BATTLE_ARTS_AND_MYSTICS_009"
+    },
+    {
+      "id": "FORECAST_ART009_008",
+      "displayText": "Interrupt them with the storm!",
+      "category": "STORM_INTERRUPT",
+      "intentTags": [
+        "MYSTIC_ATTACK",
+        "STORM"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidContext": true
+      },
+      "memberResolutionPlan": [
+        "Prioritize revealed casters, heavy anticipation, and chain targets",
+        "Do not waste Shock on immune or already-interrupted actions"
+      ],
+      "sharedApRule": "Sum all member AP costs. Downgrade only illegal member actions; never overspend or reroll an unchanged complete Forecast.",
+      "personalMpRule": "Each member funds only their own MP cost. Insufficient MP forces a legal intent-preserving fallback for that member.",
+      "predictionFields": [
+        "MEMBER",
+        "ART_CLASS",
+        "PREDICTED_ART",
+        "TARGET",
+        "AP",
+        "PERSONAL_MP",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK",
+        "LEARNING_OPPORTUNITY"
+      ],
+      "riskLevel": "HIGH",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "standardModeIndividualArtSelectionForbidden": true,
+      "sourceAuthority": "BATTLE_ARTS_AND_MYSTICS_009"
+    },
+    {
+      "id": "FORECAST_ART009_009",
+      "displayText": "Crush their footing with earth!",
+      "category": "EARTH_BREAK",
+      "intentTags": [
+        "MYSTIC_ATTACK",
+        "EARTH"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidContext": true
+      },
+      "memberResolutionPlan": [
+        "Prefer Tremor, Root, Fault Line, and barrier/formation pressure",
+        "Guard specialists may reinforce the resulting line"
+      ],
+      "sharedApRule": "Sum all member AP costs. Downgrade only illegal member actions; never overspend or reroll an unchanged complete Forecast.",
+      "personalMpRule": "Each member funds only their own MP cost. Insufficient MP forces a legal intent-preserving fallback for that member.",
+      "predictionFields": [
+        "MEMBER",
+        "ART_CLASS",
+        "PREDICTED_ART",
+        "TARGET",
+        "AP",
+        "PERSONAL_MP",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK",
+        "LEARNING_OPPORTUNITY"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "standardModeIndividualArtSelectionForbidden": true,
+      "sourceAuthority": "BATTLE_ARTS_AND_MYSTICS_009"
+    },
+    {
+      "id": "FORECAST_ART009_010",
+      "displayText": "Distort their battle line!",
+      "category": "AETHER_TACTICAL",
+      "intentTags": [
+        "MYSTIC_ATTACK",
+        "AETHER",
+        "TACTICAL"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidContext": true
+      },
+      "memberResolutionPlan": [
+        "Prefer displacement, barrier penetration, and relationship manipulation",
+        "No manual grid or coordinate movement is introduced"
+      ],
+      "sharedApRule": "Sum all member AP costs. Downgrade only illegal member actions; never overspend or reroll an unchanged complete Forecast.",
+      "personalMpRule": "Each member funds only their own MP cost. Insufficient MP forces a legal intent-preserving fallback for that member.",
+      "predictionFields": [
+        "MEMBER",
+        "ART_CLASS",
+        "PREDICTED_ART",
+        "TARGET",
+        "AP",
+        "PERSONAL_MP",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK",
+        "LEARNING_OPPORTUNITY"
+      ],
+      "riskLevel": "HIGH",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "standardModeIndividualArtSelectionForbidden": true,
+      "sourceAuthority": "BATTLE_ARTS_AND_MYSTICS_009"
+    },
+    {
+      "id": "FORECAST_ART009_011",
+      "displayText": "Darken their command!",
+      "category": "SHADOW_CONTROL",
+      "intentTags": [
+        "MYSTIC_ATTACK",
+        "SHADOW"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidContext": true
+      },
+      "memberResolutionPlan": [
+        "Prefer accuracy, Will, casting, and Command disruption",
+        "Boss command mechanics receive bounded reduction, never deletion"
+      ],
+      "sharedApRule": "Sum all member AP costs. Downgrade only illegal member actions; never overspend or reroll an unchanged complete Forecast.",
+      "personalMpRule": "Each member funds only their own MP cost. Insufficient MP forces a legal intent-preserving fallback for that member.",
+      "predictionFields": [
+        "MEMBER",
+        "ART_CLASS",
+        "PREDICTED_ART",
+        "TARGET",
+        "AP",
+        "PERSONAL_MP",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK",
+        "LEARNING_OPPORTUNITY"
+      ],
+      "riskLevel": "HIGH",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "standardModeIndividualArtSelectionForbidden": true,
+      "sourceAuthority": "BATTLE_ARTS_AND_MYSTICS_009"
+    },
+    {
+      "id": "FORECAST_ART009_012",
+      "displayText": "Steel and sorcery—hit them together!",
+      "category": "MIXED_OFFENSE",
+      "intentTags": [
+        "COMBAT_ART",
+        "MYSTIC_ATTACK"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidContext": true
+      },
+      "memberResolutionPlan": [
+        "At least one legal weapon Art and one legal Mystic attack when the Union composition allows",
+        "Other members use context-legal support or basic actions"
+      ],
+      "sharedApRule": "Sum all member AP costs. Downgrade only illegal member actions; never overspend or reroll an unchanged complete Forecast.",
+      "personalMpRule": "Each member funds only their own MP cost. Insufficient MP forces a legal intent-preserving fallback for that member.",
+      "predictionFields": [
+        "MEMBER",
+        "ART_CLASS",
+        "PREDICTED_ART",
+        "TARGET",
+        "AP",
+        "PERSONAL_MP",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK",
+        "LEARNING_OPPORTUNITY"
+      ],
+      "riskLevel": "HIGH",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "standardModeIndividualArtSelectionForbidden": true,
+      "sourceAuthority": "BATTLE_ARTS_AND_MYSTICS_009"
+    },
+    {
+      "id": "FORECAST_ART009_013",
+      "displayText": "Hold the line and hit them hard!",
+      "category": "MIXED_GUARD",
+      "intentTags": [
+        "COMBAT_ART",
+        "GUARD_OR_BARRIER"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidContext": true
+      },
+      "memberResolutionPlan": [
+        "Front defenders Guard/intercept",
+        "Weapon users attack",
+        "Casters use offense or wards according to threat"
+      ],
+      "sharedApRule": "Sum all member AP costs. Downgrade only illegal member actions; never overspend or reroll an unchanged complete Forecast.",
+      "personalMpRule": "Each member funds only their own MP cost. Insufficient MP forces a legal intent-preserving fallback for that member.",
+      "predictionFields": [
+        "MEMBER",
+        "ART_CLASS",
+        "PREDICTED_ART",
+        "TARGET",
+        "AP",
+        "PERSONAL_MP",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK",
+        "LEARNING_OPPORTUNITY"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "standardModeIndividualArtSelectionForbidden": true,
+      "sourceAuthority": "BATTLE_ARTS_AND_MYSTICS_009"
+    },
+    {
+      "id": "FORECAST_ART009_014",
+      "displayText": "Keep everyone standing while we press!",
+      "category": "MIXED_RESTORATION",
+      "intentTags": [
+        "COMBAT_ART",
+        "RESTORATION_ART"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidContext": true
+      },
+      "memberResolutionPlan": [
+        "Meaningfully injured allies receive healing",
+        "Healthy members continue pressure with legal Arts",
+        "No full-health heal spam"
+      ],
+      "sharedApRule": "Sum all member AP costs. Downgrade only illegal member actions; never overspend or reroll an unchanged complete Forecast.",
+      "personalMpRule": "Each member funds only their own MP cost. Insufficient MP forces a legal intent-preserving fallback for that member.",
+      "predictionFields": [
+        "MEMBER",
+        "ART_CLASS",
+        "PREDICTED_ART",
+        "TARGET",
+        "AP",
+        "PERSONAL_MP",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK",
+        "LEARNING_OPPORTUNITY"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "standardModeIndividualArtSelectionForbidden": true,
+      "sourceAuthority": "BATTLE_ARTS_AND_MYSTICS_009"
+    },
+    {
+      "id": "FORECAST_ART009_015",
+      "displayText": "Break them with steel and earth!",
+      "category": "MIXED_BREAK",
+      "intentTags": [
+        "COMBAT_ART",
+        "EARTH"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidContext": true
+      },
+      "memberResolutionPlan": [
+        "Prefer heavy/axe/spear Break Arts plus Earth Tremor or Root",
+        "Eligible Shatter/Fracture interactions are predicted"
+      ],
+      "sharedApRule": "Sum all member AP costs. Downgrade only illegal member actions; never overspend or reroll an unchanged complete Forecast.",
+      "personalMpRule": "Each member funds only their own MP cost. Insufficient MP forces a legal intent-preserving fallback for that member.",
+      "predictionFields": [
+        "MEMBER",
+        "ART_CLASS",
+        "PREDICTED_ART",
+        "TARGET",
+        "AP",
+        "PERSONAL_MP",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK",
+        "LEARNING_OPPORTUNITY"
+      ],
+      "riskLevel": "HIGH",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "standardModeIndividualArtSelectionForbidden": true,
+      "sourceAuthority": "BATTLE_ARTS_AND_MYSTICS_009"
+    },
+    {
+      "id": "FORECAST_ART009_016",
+      "displayText": "Pin them down and cast!",
+      "category": "MIXED_RANGED",
+      "intentTags": [
+        "BOW",
+        "MYSTIC_ATTACK"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidContext": true
+      },
+      "memberResolutionPlan": [
+        "Ranged weapon users suppress or mark",
+        "Casters choose legal offensive Mystics",
+        "Guard remains available for threatened casters"
+      ],
+      "sharedApRule": "Sum all member AP costs. Downgrade only illegal member actions; never overspend or reroll an unchanged complete Forecast.",
+      "personalMpRule": "Each member funds only their own MP cost. Insufficient MP forces a legal intent-preserving fallback for that member.",
+      "predictionFields": [
+        "MEMBER",
+        "ART_CLASS",
+        "PREDICTED_ART",
+        "TARGET",
+        "AP",
+        "PERSONAL_MP",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK",
+        "LEARNING_OPPORTUNITY"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "standardModeIndividualArtSelectionForbidden": true,
+      "sourceAuthority": "BATTLE_ARTS_AND_MYSTICS_009"
+    },
+    {
+      "id": "FORECAST_ART009_017",
+      "displayText": "Protect the wounded and counter!",
+      "category": "MIXED_RESCUE",
+      "intentTags": [
+        "GUARD_OR_BARRIER",
+        "RESTORATION_ART",
+        "COMBAT_ART"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidContext": true
+      },
+      "memberResolutionPlan": [
+        "Guardians protect or rescue",
+        "Restoration targets meaningful injuries",
+        "Remaining members counterattack"
+      ],
+      "sharedApRule": "Sum all member AP costs. Downgrade only illegal member actions; never overspend or reroll an unchanged complete Forecast.",
+      "personalMpRule": "Each member funds only their own MP cost. Insufficient MP forces a legal intent-preserving fallback for that member.",
+      "predictionFields": [
+        "MEMBER",
+        "ART_CLASS",
+        "PREDICTED_ART",
+        "TARGET",
+        "AP",
+        "PERSONAL_MP",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK",
+        "LEARNING_OPPORTUNITY"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "standardModeIndividualArtSelectionForbidden": true,
+      "sourceAuthority": "BATTLE_ARTS_AND_MYSTICS_009"
+    },
+    {
+      "id": "FORECAST_ART009_018",
+      "displayText": "Use everything you have!",
+      "category": "ALL_OUT_MIXED",
+      "intentTags": [
+        "COMBAT_ART",
+        "MYSTIC_ATTACK",
+        "RESTORATION_ART",
+        "WARDING_ART"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidContext": true
+      },
+      "memberResolutionPlan": [
+        "Select strongest legal actions across roles",
+        "Spend aggressively but never overspend shared AP or personal MP",
+        "Display high risk and resource forecast clearly"
+      ],
+      "sharedApRule": "Sum all member AP costs. Downgrade only illegal member actions; never overspend or reroll an unchanged complete Forecast.",
+      "personalMpRule": "Each member funds only their own MP cost. Insufficient MP forces a legal intent-preserving fallback for that member.",
+      "predictionFields": [
+        "MEMBER",
+        "ART_CLASS",
+        "PREDICTED_ART",
+        "TARGET",
+        "AP",
+        "PERSONAL_MP",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK",
+        "LEARNING_OPPORTUNITY"
+      ],
+      "riskLevel": "VERY_HIGH",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "standardModeIndividualArtSelectionForbidden": true,
+      "sourceAuthority": "BATTLE_ARTS_AND_MYSTICS_009"
+    },
+    {
+      "id": "FORECAST_ART009_019",
+      "displayText": "Conserve power—use efficient Arts!",
+      "category": "RESOURCE_CONSERVE",
+      "intentTags": [
+        "COMBAT_ART",
+        "MYSTIC_ATTACK",
+        "SUPPORT"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidContext": true
+      },
+      "memberResolutionPlan": [
+        "Prefer low-cost mastered Arts and meaningful basic actions",
+        "Reserve emergency MP for healing/warding when danger warrants"
+      ],
+      "sharedApRule": "Sum all member AP costs. Downgrade only illegal member actions; never overspend or reroll an unchanged complete Forecast.",
+      "personalMpRule": "Each member funds only their own MP cost. Insufficient MP forces a legal intent-preserving fallback for that member.",
+      "predictionFields": [
+        "MEMBER",
+        "ART_CLASS",
+        "PREDICTED_ART",
+        "TARGET",
+        "AP",
+        "PERSONAL_MP",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK",
+        "LEARNING_OPPORTUNITY"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "standardModeIndividualArtSelectionForbidden": true,
+      "sourceAuthority": "BATTLE_ARTS_AND_MYSTICS_009"
+    },
+    {
+      "id": "FORECAST_ART009_020",
+      "displayText": "Set up the finishing blow!",
+      "category": "SETUP",
+      "intentTags": [
+        "MARK",
+        "BREAK",
+        "CONTROL",
+        "SUPPORT"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidContext": true
+      },
+      "memberResolutionPlan": [
+        "Use marks, Guard breaks, Chill, Shock, Root, or Command setup",
+        "Do not replace the complete Forecast with the finisher until a later committed choice"
+      ],
+      "sharedApRule": "Sum all member AP costs. Downgrade only illegal member actions; never overspend or reroll an unchanged complete Forecast.",
+      "personalMpRule": "Each member funds only their own MP cost. Insufficient MP forces a legal intent-preserving fallback for that member.",
+      "predictionFields": [
+        "MEMBER",
+        "ART_CLASS",
+        "PREDICTED_ART",
+        "TARGET",
+        "AP",
+        "PERSONAL_MP",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK",
+        "LEARNING_OPPORTUNITY"
+      ],
+      "riskLevel": "LOW",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "standardModeIndividualArtSelectionForbidden": true,
+      "sourceAuthority": "BATTLE_ARTS_AND_MYSTICS_009"
+    },
+    {
+      "id": "FORECAST_ART009_021",
+      "displayText": "Exploit the Side Strike!",
+      "category": "SIDE_STRIKE",
+      "intentTags": [
+        "COMBAT_ART",
+        "MYSTIC_ATTACK",
+        "SIDE_PRESSURE"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidContext": true
+      },
+      "memberResolutionPlan": [
+        "Fast and precision weapon Arts gain weight",
+        "Area Mystics avoid obscuring tactical readability",
+        "Relationship remains System-authored, not manually positioned"
+      ],
+      "sharedApRule": "Sum all member AP costs. Downgrade only illegal member actions; never overspend or reroll an unchanged complete Forecast.",
+      "personalMpRule": "Each member funds only their own MP cost. Insufficient MP forces a legal intent-preserving fallback for that member.",
+      "predictionFields": [
+        "MEMBER",
+        "ART_CLASS",
+        "PREDICTED_ART",
+        "TARGET",
+        "AP",
+        "PERSONAL_MP",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK",
+        "LEARNING_OPPORTUNITY"
+      ],
+      "riskLevel": "HIGH",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "standardModeIndividualArtSelectionForbidden": true,
+      "sourceAuthority": "BATTLE_ARTS_AND_MYSTICS_009"
+    },
+    {
+      "id": "FORECAST_ART009_022",
+      "displayText": "Hit them from the rear!",
+      "category": "REAR_ATTACK",
+      "intentTags": [
+        "COMBAT_ART",
+        "MYSTIC_ATTACK",
+        "REAR_PRESSURE"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidContext": true
+      },
+      "memberResolutionPlan": [
+        "Dagger, Bow, Sword, Spear, and focused Mystics gain target priority",
+        "Guarded targets still obey legal protection rules"
+      ],
+      "sharedApRule": "Sum all member AP costs. Downgrade only illegal member actions; never overspend or reroll an unchanged complete Forecast.",
+      "personalMpRule": "Each member funds only their own MP cost. Insufficient MP forces a legal intent-preserving fallback for that member.",
+      "predictionFields": [
+        "MEMBER",
+        "ART_CLASS",
+        "PREDICTED_ART",
+        "TARGET",
+        "AP",
+        "PERSONAL_MP",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK",
+        "LEARNING_OPPORTUNITY"
+      ],
+      "riskLevel": "VERY_HIGH",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "standardModeIndividualArtSelectionForbidden": true,
+      "sourceAuthority": "BATTLE_ARTS_AND_MYSTICS_009"
+    },
+    {
+      "id": "FORECAST_ART009_023",
+      "displayText": "Interfere before they finish!",
+      "category": "INTERFERENCE",
+      "intentTags": [
+        "INTERRUPT",
+        "COMBAT_ART",
+        "MYSTIC_ATTACK"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidContext": true
+      },
+      "memberResolutionPlan": [
+        "Prioritize quick Sword, Spear, Bow, Gauntlet, Storm, Aether, or Shadow interruptions",
+        "Fallbacks preserve interruption intent"
+      ],
+      "sharedApRule": "Sum all member AP costs. Downgrade only illegal member actions; never overspend or reroll an unchanged complete Forecast.",
+      "personalMpRule": "Each member funds only their own MP cost. Insufficient MP forces a legal intent-preserving fallback for that member.",
+      "predictionFields": [
+        "MEMBER",
+        "ART_CLASS",
+        "PREDICTED_ART",
+        "TARGET",
+        "AP",
+        "PERSONAL_MP",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK",
+        "LEARNING_OPPORTUNITY"
+      ],
+      "riskLevel": "HIGH",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "standardModeIndividualArtSelectionForbidden": true,
+      "sourceAuthority": "BATTLE_ARTS_AND_MYSTICS_009"
+    },
+    {
+      "id": "FORECAST_ART009_024",
+      "displayText": "Guard against their Mystic assault!",
+      "category": "ANTI_MYSTIC",
+      "intentTags": [
+        "WARDING_ART",
+        "GUARD_OR_BARRIER",
+        "INTERRUPT"
+      ],
+      "eligibility": {
+        "minimumUnionMembers": 1,
+        "maximumUnionMembers": 5,
+        "requiresValidContext": true
+      },
+      "memberResolutionPlan": [
+        "Ward and protect the threatened Union",
+        "Fast attacks may interrupt revealed casters",
+        "Restoration cleanses meaningful statuses"
+      ],
+      "sharedApRule": "Sum all member AP costs. Downgrade only illegal member actions; never overspend or reroll an unchanged complete Forecast.",
+      "personalMpRule": "Each member funds only their own MP cost. Insufficient MP forces a legal intent-preserving fallback for that member.",
+      "predictionFields": [
+        "MEMBER",
+        "ART_CLASS",
+        "PREDICTED_ART",
+        "TARGET",
+        "AP",
+        "PERSONAL_MP",
+        "EXPECTED_EFFECT",
+        "RISK",
+        "FALLBACK",
+        "LEARNING_OPPORTUNITY"
+      ],
+      "riskLevel": "MODERATE",
+      "playerSelectsCompleteForecast": true,
+      "memberActionsVisible": true,
+      "memberActionsClickable": false,
+      "standardModeIndividualArtSelectionForbidden": true,
+      "sourceAuthority": "BATTLE_ARTS_AND_MYSTICS_009"
+    }
+  ]
+}

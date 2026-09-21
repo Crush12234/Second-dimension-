@@ -1,0 +1,28 @@
+{
+  "name": "SecondDimension.Tests.EditMode",
+  "rootNamespace": "SecondDimension.Tests.EditMode",
+  "references": [
+    "SecondDimension.Core",
+    "SecondDimension.Determinism",
+    "SecondDimension.Content",
+    "SecondDimension.Gameplay",
+    "SecondDimension.SSS.V3",
+    "SecondDimension.Save",
+    "SecondDimension.Presentation",
+    "Unity.UGUI",
+    "Unity.Newtonsoft.Json"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Newtonsoft.Json.dll",
+    "nunit.framework.dll"
+  ],
+  "noEngineReferences": false
+}

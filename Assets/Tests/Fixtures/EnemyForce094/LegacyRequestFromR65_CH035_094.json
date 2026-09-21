@@ -1,0 +1,209 @@
+{
+  "Source": "DeepCampaign_R65_20260907/CH018_035_earned_save.json",
+  "SourceCampaignGuid": "00000000-0000-0000-0000-000000000002",
+  "CampaignSeed": 20260813,
+  "Request": {
+    "RequestId": "EXPCARD_ENCOUNTER089_41909FC831400F816653B24B",
+    "ContractId": "CH018_035",
+    "ExpeditionId": "WGEXP023_E424CA592590EF1A310C",
+    "BoardId": "BOARD023_CH018_035",
+    "NodeId": "EXPEDITION_CARD_NODE089_52A6C02E01D5F9CE",
+    "EncounterId": "EXPEDITION_CARD089_WANDERING_THREAT_711ABEB652A6",
+    "BattleId": "EXPEDITION_CARD_BATTLE089_41909FC831400F816653",
+    "Objective": "Defeat the wandering threat, claim the certified battle reward, then continue choosing cards in this quest room.",
+    "EnemyUnionCount": 4,
+    "CanonicalSeedIdentity": "26e20a114b0919e2fcd213cc53dd4d3d1fc4c7507d22e66c132f5cf5bbd92011",
+    "AlliedUnionIds": [
+      "UNION_OPENING_01",
+      "UNION_OPENING_02",
+      "UNION_OPENING_03",
+      "UNION_OPENING_04"
+    ],
+    "ReserveUnionIds": [],
+    "ObjectiveIds": [
+      "OBJECTIVE_EXPEDITION_CARD_BATTLE_089"
+    ],
+    "RouteModifiers": [
+      "EXPEDITION_DECK_TIER_4",
+      "EXPEDITION_OPTIONAL_BATTLE_089"
+    ],
+    "Supplies": 27,
+    "Fatigue": 0,
+    "Urgency": 0,
+    "ReturnCheckpointId": "expedition_089_optional_battle_return_41909fc831400f81",
+    "PreBattleStateHash": "9dbfe995580c91555db978118dae88dee44b30d7ca8764c053e195af3d680924"
+  },
+  "RecordedRequestAuthority": "ENCREQAUTH084_92B9ECB92196CC224FDCC4FF",
+  "AuthorityPresentInOriginal": true,
+  "Cost": {
+    "OperationId": "WGOP023_E424CA592590EF1A310C0ACB",
+    "NodeId": "B023_CH018_035_09",
+    "CardReceiptId": "EXPREC089_19B09A242B9FD4B9D1AE7354",
+    "Request": {
+      "RequestId": "EXPCARD_ENCOUNTER089_41909FC831400F816653B24B",
+      "ContractId": "CH018_035",
+      "ExpeditionId": "WGEXP023_E424CA592590EF1A310C",
+      "BoardId": "BOARD023_CH018_035",
+      "NodeId": "EXPEDITION_CARD_NODE089_52A6C02E01D5F9CE",
+      "EncounterId": "EXPEDITION_CARD089_WANDERING_THREAT_711ABEB652A6",
+      "BattleId": "EXPEDITION_CARD_BATTLE089_41909FC831400F816653",
+      "Objective": "Defeat the wandering threat, claim the certified battle reward, then continue choosing cards in this quest room.",
+      "EnemyUnionCount": 4,
+      "CanonicalSeedIdentity": "26e20a114b0919e2fcd213cc53dd4d3d1fc4c7507d22e66c132f5cf5bbd92011",
+      "AlliedUnionIds": [
+        "UNION_OPENING_01",
+        "UNION_OPENING_02",
+        "UNION_OPENING_03",
+        "UNION_OPENING_04"
+      ],
+      "ReserveUnionIds": [],
+      "ObjectiveIds": [
+        "OBJECTIVE_EXPEDITION_CARD_BATTLE_089"
+      ],
+      "RouteModifiers": [
+        "EXPEDITION_DECK_TIER_4",
+        "EXPEDITION_OPTIONAL_BATTLE_089"
+      ],
+      "Supplies": 27,
+      "Fatigue": 0,
+      "Urgency": 0,
+      "ReturnCheckpointId": "expedition_089_optional_battle_return_41909fc831400f81",
+      "PreBattleStateHash": "9dbfe995580c91555db978118dae88dee44b30d7ca8764c053e195af3d680924"
+    },
+    "BattleReturn": {
+      "ReceiptId": "BATTLE_RETURN_DC11808A39D622DB0C18C68B",
+      "LaunchRequestId": "EXPCARD_ENCOUNTER089_41909FC831400F816653B24B",
+      "BattleRunId": "EXPEDITION_CARD_BATTLE089_41909FC831400F816653",
+      "Outcome": "Victory",
+      "BattleResultHash": "ff76ef60dd7d349a297f0f4a00df7c41e04818f33d136d099219e27394a74877",
+      "SupplyConsumption": 1,
+      "FatigueDelta": 1,
+      "UrgencyDelta": -1,
+      "ObjectiveFlags": [
+        "ENCOUNTER_CLEARED_EXPEDITION_CARD_NODE089_52A6C02E01D5F9CE",
+        "OBJECTIVE_ENCOUNTER_CLEARED"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MAT_GATE_IRON",
+          "Amount": 2
+        },
+        {
+          "MaterialId": "MAT_SALVAGED_TIMBER",
+          "Amount": 4
+        }
+      ],
+      "EquipmentRewardReceiptId": "BATTLE_REWARD_918EB8D896DD43D151F04D0E",
+      "RelationshipMemories": [
+        {
+          "MemoryId": "REL_MEMORY_DC11808A39D622DB0C18",
+          "FirstRecruitId": "PROC_36344E2400DC98B6",
+          "SecondRecruitId": "PROC_F85A4CAA747BC8C6",
+          "SourceId": "EXPEDITION_CARD_BATTLE089_41909FC831400F816653",
+          "Summary": "They completed the encounter together.",
+          "OperationOrdinal": 72,
+          "Strength": 2,
+          "SceneId": "REL_SCENE_AFTER_EXPEDITION_CARD_BATTLE089_41909FC831400F816653",
+          "Viewed": false
+        }
+      ],
+      "CityProjectContribution": 20,
+      "ReturnCheckpointId": "expedition_089_optional_battle_return_41909fc831400f81",
+      "Applied": false
+    }
+  },
+  "PersistedFinalEnemyUnions": [
+    {
+      "UnionId": "ENEMY_UNION_070_E943774AD46DD4DB472B",
+      "Members": [
+        {
+          "MemberId": "ENEMY_GATEHEART_WARDEN_01_SPAWN070_BC843EE81ECC",
+          "ClassId": "ENEMY_GATEHEART_WARDEN_01",
+          "EnemyArtBaseId090": "ENEMY_REC_044",
+          "EnemyArtVariantId090": "ENEMY_REC_044_VAR_01"
+        },
+        {
+          "MemberId": "ENEMY_GATEIRON_BRUTE_01_SPAWN070_5FF3DA9F33DB",
+          "ClassId": "ENEMY_GATEIRON_BRUTE_01",
+          "EnemyArtBaseId090": "ENEMY_REC_011",
+          "EnemyArtVariantId090": "ENEMY_REC_011_VAR_01"
+        },
+        {
+          "MemberId": "ENEMY_ASH_MEDIC_01_SPAWN070_D61F933B92C0",
+          "ClassId": "ENEMY_ASH_MEDIC_01",
+          "EnemyArtBaseId090": "ENEMY_REC_017",
+          "EnemyArtVariantId090": "ENEMY_REC_017_VAR_01"
+        }
+      ]
+    },
+    {
+      "UnionId": "ENEMY_UNION_070_AA96E8FB5F2551F30172",
+      "Members": [
+        {
+          "MemberId": "ENEMY_TOLLROAD_CUTTER_01_SPAWN070_1E6C3AF46D23",
+          "ClassId": "ENEMY_TOLLROAD_CUTTER_01",
+          "EnemyArtBaseId090": "ENEMY_REC_002",
+          "EnemyArtVariantId090": "ENEMY_REC_002_VAR_01"
+        },
+        {
+          "MemberId": "ENEMY_TOLLROAD_CUTTER_02_SPAWN070_3DF23BAE8F96",
+          "ClassId": "ENEMY_TOLLROAD_CUTTER_02",
+          "EnemyArtBaseId090": "ENEMY_REC_002",
+          "EnemyArtVariantId090": "ENEMY_REC_002_VAR_02"
+        },
+        {
+          "MemberId": "ENEMY_TOLLROAD_CUTTER_03_SPAWN070_F9CB027E5AD5",
+          "ClassId": "ENEMY_TOLLROAD_CUTTER_03",
+          "EnemyArtBaseId090": "ENEMY_REC_002",
+          "EnemyArtVariantId090": "ENEMY_REC_002_VAR_03"
+        }
+      ]
+    },
+    {
+      "UnionId": "ENEMY_UNION_070_CC7B4972C2F255EEFE7C",
+      "Members": [
+        {
+          "MemberId": "ENEMY_SHARDWING_SWARM_01_SPAWN070_2AF59BBED5F1",
+          "ClassId": "ENEMY_SHARDWING_SWARM_01",
+          "EnemyArtBaseId090": "ENEMY_REC_058",
+          "EnemyArtVariantId090": "ENEMY_REC_058_VAR_01"
+        },
+        {
+          "MemberId": "ENEMY_SHARDWING_SWARM_02_SPAWN070_D5FEAB931D40",
+          "ClassId": "ENEMY_SHARDWING_SWARM_02",
+          "EnemyArtBaseId090": "ENEMY_REC_058",
+          "EnemyArtVariantId090": "ENEMY_REC_058_VAR_02"
+        },
+        {
+          "MemberId": "ENEMY_PULSE_SCRIBE_01_SPAWN070_EBD9C956155B",
+          "ClassId": "ENEMY_PULSE_SCRIBE_01",
+          "EnemyArtBaseId090": "ENEMY_REC_028",
+          "EnemyArtVariantId090": "ENEMY_REC_028_VAR_01"
+        }
+      ]
+    },
+    {
+      "UnionId": "ENEMY_UNION_070_260DDD4427DA733A2E83",
+      "Members": [
+        {
+          "MemberId": "ENEMY_PULSE_SCRIBE_01_SPAWN070_C0BA8855B069",
+          "ClassId": "ENEMY_PULSE_SCRIBE_01",
+          "EnemyArtBaseId090": "ENEMY_REC_028",
+          "EnemyArtVariantId090": "ENEMY_REC_028_VAR_01"
+        },
+        {
+          "MemberId": "ENEMY_SHARDWING_SWARM_02_SPAWN070_79E16E951110",
+          "ClassId": "ENEMY_SHARDWING_SWARM_02",
+          "EnemyArtBaseId090": "ENEMY_REC_058",
+          "EnemyArtVariantId090": "ENEMY_REC_058_VAR_02"
+        },
+        {
+          "MemberId": "ENEMY_RIFT_MOLD_CREEPER_03_SPAWN070_9BF7BA4586A3",
+          "ClassId": "ENEMY_RIFT_MOLD_CREEPER_03",
+          "EnemyArtBaseId090": "ENEMY_REC_024",
+          "EnemyArtVariantId090": "ENEMY_REC_024_VAR_03"
+        }
+      ]
+    }
+  ]
+}

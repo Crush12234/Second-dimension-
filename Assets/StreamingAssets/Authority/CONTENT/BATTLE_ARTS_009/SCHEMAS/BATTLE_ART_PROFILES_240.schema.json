@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Battle Art Profiles 009",
+  "type": "object",
+  "required": [
+    "contentVersion",
+    "profileCount",
+    "profiles"
+  ],
+  "properties": {
+    "contentVersion": {
+      "const": "BATTLE_ARTS_009"
+    },
+    "profileCount": {
+      "const": 240
+    },
+    "profiles": {
+      "type": "array",
+      "minItems": 240,
+      "maxItems": 240,
+      "items": {
+        "type": "object",
+        "required": [
+          "stableNodeId",
+          "treeId",
+          "displayName",
+          "artClass",
+          "nodeType",
+          "resolutionSummary",
+          "legality",
+          "learning",
+          "presentation"
+        ],
+        "properties": {
+          "stableNodeId": {
+            "type": "string"
+          },
+          "treeId": {
+            "type": "string"
+          },
+          "displayName": {
+            "type": "string"
+          },
+          "artClass": {
+            "enum": [
+              "COMBAT_ART",
+              "MYSTIC_ATTACK",
+              "RESTORATION_ART",
+              "WARDING_ART"
+            ]
+          },
+          "nodeType": {
+            "type": "string"
+          },
+          "resolutionSummary": {
+            "type": "string"
+          },
+          "legality": {
+            "type": "object"
+          },
+          "learning": {
+            "type": "object"
+          },
+          "presentation": {
+            "type": "object"
+          }
+        }
+      }
+    }
+  }
+}

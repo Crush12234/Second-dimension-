@@ -1,0 +1,152 @@
+{
+  "contentVersion": "GOW_CONTENT_AUTHORITY_002",
+  "protectedCanonActors": [
+    {
+      "id": "CANON_KAEL",
+      "displayName": "Kael",
+      "canonStatus": "CORE_CANON_SPECIAL",
+      "normalApplicant": false,
+      "countsTowardSignatureRecruit300": false,
+      "ownedRecruitPolicy": "SPECIAL_STORY_OR_CODE_UNLOCK_ONLY",
+      "battlePolicy": "ONE_PERSON_UNION",
+      "equipmentPolicy": "NO_WEAPONS_NO_ARMOR_NO_NORMAL_EQUIPMENT",
+      "levelPolicy": "NO_CONVENTIONAL_CHARACTER_LEVEL_OR_STAT_GROWTH",
+      "hp": {
+        "current": 300,
+        "maximum": 300
+      },
+      "stats": {
+        "STR": 0,
+        "DEF": 0,
+        "AGI": 0,
+        "MAGIC": 0
+      },
+      "trueReflection": {
+        "automatic": true,
+        "incomingDamageExample": 30,
+        "restoreHp": 30,
+        "reflectedDamage": 30,
+        "resolutionOrder": [
+          "DISPLAY_INCOMING_DAMAGE",
+          "RESTORE_SAME_HP",
+          "REFLECT_SAME_DAMAGE"
+        ],
+        "neverConvertTo": [
+          "DEFENSE",
+          "LIFESTEAL",
+          "RANDOM_COUNTER",
+          "EQUIPMENT_AFFIX"
+        ]
+      },
+      "visualAndStoryAuthority": "Use approved canon only; this data may not redesign Kael."
+    },
+    {
+      "id": "CANON_KIRI_AETHERHEART",
+      "displayName": "Kiri Aetherheart",
+      "canonStatus": "FOUNDER",
+      "normalApplicant": false,
+      "countsTowardSignatureRecruit300": false,
+      "ownedRecruitPolicy": "INDEPENDENT_CANON_ACTOR",
+      "equipmentPolicy": "CANON_OR_STORY_AUTHORITY_ONLY",
+      "battlePolicy": "May assist through authored story authority; never silently convert into an ordinary owned applicant.",
+      "visualAndStoryAuthority": "Use established novel, manga, and project canon. Do not invent replacement characterization in implementation.",
+      "notes": "This record separates protected canon actors from the 300 Signature Recruit catalog."
+    },
+    {
+      "id": "CANON_LUNA_SILVERSTEP",
+      "displayName": "Luna Silverstep",
+      "canonStatus": "FOUNDER",
+      "normalApplicant": false,
+      "countsTowardSignatureRecruit300": false,
+      "ownedRecruitPolicy": "INDEPENDENT_CANON_ACTOR",
+      "equipmentPolicy": "CANON_OR_STORY_AUTHORITY_ONLY",
+      "battlePolicy": "May assist through authored story authority; never silently convert into an ordinary owned applicant.",
+      "visualAndStoryAuthority": "Use established novel, manga, and project canon. Do not invent replacement characterization in implementation.",
+      "notes": "This record separates protected canon actors from the 300 Signature Recruit catalog."
+    },
+    {
+      "id": "CANON_GROM_IRONBLOOD",
+      "displayName": "Grom Ironblood",
+      "canonStatus": "FOUNDER",
+      "normalApplicant": false,
+      "countsTowardSignatureRecruit300": false,
+      "ownedRecruitPolicy": "INDEPENDENT_CANON_ACTOR",
+      "equipmentPolicy": "CANON_OR_STORY_AUTHORITY_ONLY",
+      "battlePolicy": "May assist through authored story authority; never silently convert into an ordinary owned applicant.",
+      "visualAndStoryAuthority": "Use established novel, manga, and project canon. Do not invent replacement characterization in implementation.",
+      "notes": "This record separates protected canon actors from the 300 Signature Recruit catalog."
+    },
+    {
+      "id": "CANON_SERAPHINA_NIGHTVEIL",
+      "displayName": "Seraphina Nightveil",
+      "canonStatus": "FOUNDER",
+      "normalApplicant": false,
+      "countsTowardSignatureRecruit300": false,
+      "ownedRecruitPolicy": "INDEPENDENT_CANON_ACTOR",
+      "equipmentPolicy": "CANON_OR_STORY_AUTHORITY_ONLY",
+      "battlePolicy": "May assist through authored story authority; never silently convert into an ordinary owned applicant.",
+      "visualAndStoryAuthority": "Use established novel, manga, and project canon. Do not invent replacement characterization in implementation.",
+      "notes": "This record separates protected canon actors from the 300 Signature Recruit catalog."
+    },
+    {
+      "id": "CANON_AIRA_MOONFANG",
+      "displayName": "Aira Moonfang",
+      "canonStatus": "FOUNDER",
+      "normalApplicant": false,
+      "countsTowardSignatureRecruit300": false,
+      "ownedRecruitPolicy": "INDEPENDENT_CANON_ACTOR",
+      "equipmentPolicy": "CANON_OR_STORY_AUTHORITY_ONLY",
+      "battlePolicy": "May assist through authored story authority; never silently convert into an ordinary owned applicant.",
+      "visualAndStoryAuthority": "Use established novel, manga, and project canon. Do not invent replacement characterization in implementation.",
+      "notes": "This record separates protected canon actors from the 300 Signature Recruit catalog."
+    },
+    {
+      "id": "CANON_LYSSARA_DUSKWOOD",
+      "displayName": "Lyssara Duskwood",
+      "canonStatus": "FOUNDER",
+      "normalApplicant": false,
+      "countsTowardSignatureRecruit300": false,
+      "ownedRecruitPolicy": "INDEPENDENT_CANON_ACTOR",
+      "equipmentPolicy": "CANON_OR_STORY_AUTHORITY_ONLY",
+      "battlePolicy": "May assist through authored story authority; never silently convert into an ordinary owned applicant.",
+      "visualAndStoryAuthority": "Use established novel, manga, and project canon. Do not invent replacement characterization in implementation.",
+      "notes": "This record separates protected canon actors from the 300 Signature Recruit catalog."
+    },
+    {
+      "id": "CANON_RIKA_STORMPAW",
+      "displayName": "Rika Stormpaw",
+      "canonStatus": "FOUNDER",
+      "normalApplicant": false,
+      "countsTowardSignatureRecruit300": false,
+      "ownedRecruitPolicy": "INDEPENDENT_CANON_ACTOR",
+      "equipmentPolicy": "CANON_OR_STORY_AUTHORITY_ONLY",
+      "battlePolicy": "May assist through authored story authority; never silently convert into an ordinary owned applicant.",
+      "visualAndStoryAuthority": "Use established novel, manga, and project canon. Do not invent replacement characterization in implementation.",
+      "notes": "This record separates protected canon actors from the 300 Signature Recruit catalog."
+    },
+    {
+      "id": "CANON_VIX",
+      "displayName": "Vix",
+      "canonStatus": "INDEPENDENT_CANON",
+      "normalApplicant": false,
+      "countsTowardSignatureRecruit300": false,
+      "ownedRecruitPolicy": "INDEPENDENT_CANON_ACTOR",
+      "equipmentPolicy": "CANON_OR_STORY_AUTHORITY_ONLY",
+      "battlePolicy": "May assist through authored story authority; never silently convert into an ordinary owned applicant.",
+      "visualAndStoryAuthority": "Use established novel, manga, and project canon. Do not invent replacement characterization in implementation.",
+      "notes": "This record separates protected canon actors from the 300 Signature Recruit catalog."
+    },
+    {
+      "id": "CANON_ELYS",
+      "displayName": "Elys",
+      "canonStatus": "INDEPENDENT_CANON",
+      "normalApplicant": false,
+      "countsTowardSignatureRecruit300": false,
+      "ownedRecruitPolicy": "INDEPENDENT_CANON_ACTOR",
+      "equipmentPolicy": "CANON_OR_STORY_AUTHORITY_ONLY",
+      "battlePolicy": "May assist through authored story authority; never silently convert into an ordinary owned applicant.",
+      "visualAndStoryAuthority": "Use established novel, manga, and project canon. Do not invent replacement characterization in implementation.",
+      "notes": "This record separates protected canon actors from the 300 Signature Recruit catalog."
+    }
+  ]
+}

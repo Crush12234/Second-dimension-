@@ -1,0 +1,184 @@
+{
+  "floors": [
+    {
+      "floor": 1,
+      "floorId": "ABYSS_FLOOR_001_MUD_TRENCHES",
+      "displayName": "Mud Trenches",
+      "identity": "Movement, fatigue, rescue under pressure",
+      "firstClearAboveGroundChangeId": "CITY_CHANGE_TRENCH_DRAINAGE",
+      "exactlyOneMarginOnEligibleFloor": false,
+      "requiredContentMayUseMargin": false,
+      "firstClearFullRewardPermille": 1000,
+      "secondClearRewardPermille": 600,
+      "laterClearRewardPermille": 350,
+      "repeatRequiresVariedObjective": true,
+      "antiFarmJudgment": true,
+      "certifiedBattleCapacity": {
+        "alliedUnions": 10,
+        "enemyUnions": 10
+      }
+    },
+    {
+      "floor": 2,
+      "floorId": "ABYSS_FLOOR_002_ARROW_RAIN_FIELD",
+      "displayName": "Arrow Rain Field",
+      "identity": "Cover, ranged pressure, Guard timing",
+      "firstClearAboveGroundChangeId": "CITY_CHANGE_WARNING_NETS",
+      "exactlyOneMarginOnEligibleFloor": true,
+      "requiredContentMayUseMargin": false,
+      "firstClearFullRewardPermille": 1000,
+      "secondClearRewardPermille": 600,
+      "laterClearRewardPermille": 350,
+      "repeatRequiresVariedObjective": true,
+      "antiFarmJudgment": true,
+      "certifiedBattleCapacity": {
+        "alliedUnions": 10,
+        "enemyUnions": 10
+      }
+    },
+    {
+      "floor": 3,
+      "floorId": "ABYSS_FLOOR_003_SILENT_CAMP",
+      "displayName": "Silent Camp",
+      "identity": "Morale, memory, noncombat judgment",
+      "firstClearAboveGroundChangeId": "CITY_CHANGE_CAMP_DISCIPLINE",
+      "exactlyOneMarginOnEligibleFloor": true,
+      "requiredContentMayUseMargin": false,
+      "firstClearFullRewardPermille": 1000,
+      "secondClearRewardPermille": 600,
+      "laterClearRewardPermille": 350,
+      "repeatRequiresVariedObjective": true,
+      "antiFarmJudgment": true,
+      "certifiedBattleCapacity": {
+        "alliedUnions": 10,
+        "enemyUnions": 10
+      }
+    },
+    {
+      "floor": 4,
+      "floorId": "ABYSS_FLOOR_004_COLLAPSED_SIEGE_WALL",
+      "displayName": "Collapsed Siege Wall",
+      "identity": "Engineering, breach repair, formation defense",
+      "firstClearAboveGroundChangeId": "CITY_CHANGE_WALLWORKS_TECHNIQUE",
+      "exactlyOneMarginOnEligibleFloor": true,
+      "requiredContentMayUseMargin": false,
+      "firstClearFullRewardPermille": 1000,
+      "secondClearRewardPermille": 600,
+      "laterClearRewardPermille": 350,
+      "repeatRequiresVariedObjective": true,
+      "antiFarmJudgment": true,
+      "certifiedBattleCapacity": {
+        "alliedUnions": 10,
+        "enemyUnions": 10
+      }
+    },
+    {
+      "floor": 5,
+      "floorId": "ABYSS_FLOOR_005_GRAVE_BANNER_HILL",
+      "displayName": "Grave Banner Hill",
+      "identity": "Leadership, fear, banner memory",
+      "firstClearAboveGroundChangeId": "CITY_CHANGE_CHRONICLE_MUSTER",
+      "exactlyOneMarginOnEligibleFloor": true,
+      "requiredContentMayUseMargin": false,
+      "firstClearFullRewardPermille": 1000,
+      "secondClearRewardPermille": 600,
+      "laterClearRewardPermille": 350,
+      "repeatRequiresVariedObjective": true,
+      "antiFarmJudgment": true,
+      "certifiedBattleCapacity": {
+        "alliedUnions": 10,
+        "enemyUnions": 10
+      }
+    },
+    {
+      "floor": 6,
+      "floorId": "ABYSS_FLOOR_006_IRON_MARCH",
+      "displayName": "Iron March",
+      "identity": "Attrition, equipment condition, sustained Union command",
+      "firstClearAboveGroundChangeId": "CITY_CHANGE_FORGE_IRON_MARCH",
+      "exactlyOneMarginOnEligibleFloor": true,
+      "requiredContentMayUseMargin": false,
+      "firstClearFullRewardPermille": 1000,
+      "secondClearRewardPermille": 600,
+      "laterClearRewardPermille": 350,
+      "repeatRequiresVariedObjective": true,
+      "antiFarmJudgment": true,
+      "certifiedBattleCapacity": {
+        "alliedUnions": 10,
+        "enemyUnions": 10
+      }
+    },
+    {
+      "floor": 7,
+      "floorId": "ABYSS_FLOOR_007_BLOODLESS_RIVER",
+      "displayName": "Bloodless River",
+      "identity": "Restoration, crossing, rescue without sacrifice",
+      "firstClearAboveGroundChangeId": "CITY_CHANGE_RESTORATION_AQUEDUCT",
+      "exactlyOneMarginOnEligibleFloor": true,
+      "requiredContentMayUseMargin": false,
+      "firstClearFullRewardPermille": 1000,
+      "secondClearRewardPermille": 600,
+      "laterClearRewardPermille": 350,
+      "repeatRequiresVariedObjective": true,
+      "antiFarmJudgment": true,
+      "certifiedBattleCapacity": {
+        "alliedUnions": 10,
+        "enemyUnions": 10
+      }
+    },
+    {
+      "floor": 8,
+      "floorId": "ABYSS_FLOOR_008_WAR_BEAST_PENS",
+      "displayName": "War Beast Pens",
+      "identity": "Creature ethics, restraint, Summon Resonance",
+      "firstClearAboveGroundChangeId": "CITY_CHANGE_COVENANT_STABLES",
+      "exactlyOneMarginOnEligibleFloor": true,
+      "requiredContentMayUseMargin": false,
+      "firstClearFullRewardPermille": 1000,
+      "secondClearRewardPermille": 600,
+      "laterClearRewardPermille": 350,
+      "repeatRequiresVariedObjective": true,
+      "antiFarmJudgment": true,
+      "certifiedBattleCapacity": {
+        "alliedUnions": 10,
+        "enemyUnions": 10
+      }
+    },
+    {
+      "floor": 9,
+      "floorId": "ABYSS_FLOOR_009_ASH_COMMAND_TENT",
+      "displayName": "Ash Command Tent",
+      "identity": "Tactical command, class certification, false orders",
+      "firstClearAboveGroundChangeId": "CITY_CHANGE_COMMAND_ARCHIVE",
+      "exactlyOneMarginOnEligibleFloor": true,
+      "requiredContentMayUseMargin": false,
+      "firstClearFullRewardPermille": 1000,
+      "secondClearRewardPermille": 600,
+      "laterClearRewardPermille": 350,
+      "repeatRequiresVariedObjective": true,
+      "antiFarmJudgment": true,
+      "certifiedBattleCapacity": {
+        "alliedUnions": 10,
+        "enemyUnions": 10
+      }
+    },
+    {
+      "floor": 10,
+      "floorId": "ABYSS_FLOOR_010_AEGIS_GATE",
+      "displayName": "Aegis Gate",
+      "identity": "Public protection trial and voluntary covenant recognition",
+      "firstClearAboveGroundChangeId": "CITY_CHANGE_AEGIS_COVENANT_DESK",
+      "exactlyOneMarginOnEligibleFloor": false,
+      "requiredContentMayUseMargin": false,
+      "firstClearFullRewardPermille": 1000,
+      "secondClearRewardPermille": 600,
+      "laterClearRewardPermille": 350,
+      "repeatRequiresVariedObjective": true,
+      "antiFarmJudgment": true,
+      "certifiedBattleCapacity": {
+        "alliedUnions": 10,
+        "enemyUnions": 10
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+ruleId,area,rule
+RULE_001,Additive,"Retain the existing 300 Creator codes; add these 10,000 as a separate code set. Do not replace or renumber existing stable IDs."
+RULE_002,Runtime security,"Ship only SHA-256 hashes and reward references. Never place plaintext giveaway codes in Assets, StreamingAssets, Resources, logs, or public builds."
+RULE_003,Normalization,Normalize input as uppercase alphanumeric only (remove spaces and hyphens) before SHA-256 matching. Validate compatibility with the existing CODES tab normalizer.
+RULE_004,Offline scope,"Current offline behavior is exact-once per campaign save, not globally one-use. Global single-use requires the future Anime Dojo account/entitlement service."
+RULE_005,Global-ready,Keep CodeId stable so the future website can mark one code globally redeemed without changing the in-game reward payload.
+RULE_006,No Margin access,"No public giveaway code may grant Margin, Redactor Forge, Author Seal, Vaultbearer, private signing, or hidden authorization."
+RULE_007,Existing services,"Use the existing reward, XP, inventory, equipment, save, and code redemption services. Do not create duplicate systems."
+RULE_008,Manual equipment,"Weapons enter Guild inventory and never auto-equip. Player comparison, equip, unequip, locks, and loadouts remain authoritative."
+RULE_009,Targeted XP,"Personal, Art, Weapon, Union, and Relationship XP vouchers require explicit player target selection. Guild and Hall XP may apply globally."
+RULE_010,Natural access,"Standard-safe preparations, XP, boosts, modded weapons, and Ultimate Legacy weapons must also be earnable through story, Tower, level, skill-use, boss, or city milestones."
+RULE_011,Creator power,"Ω Creator weapons are owner-controlled, mark the save CREATOR_POWER_USED, remain noncanon/sandbox, and are not competitively eligible."
+RULE_012,No story bypass,"Code rewards may accelerate power but cannot skip locked story chapters, reveal protected lore, recruit Kael/Founders, or auto-complete objectives."
+RULE_013,Exact once,"Redemption, reward application, save receipt, and UI confirmation must be atomic and idempotent; reload/reopen cannot duplicate rewards."
+RULE_014,Deterministic weapons,Equipment instance generation uses the code row InstanceSeed and must produce the same item after save/reload.
+RULE_015,Validation,"Test all 10,000 hashes, all reward references, duplicate codes/hashes, all weapon families, all XP types, all preparation IDs, save migration, and built-player redemption."

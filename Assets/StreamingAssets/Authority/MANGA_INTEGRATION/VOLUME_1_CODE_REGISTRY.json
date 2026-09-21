@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "normalization": "uppercase_alphanumeric",
+  "redemption": "idempotent_entitlements",
+  "codes": [
+    {
+      "id": "manga_v1_reader_pack",
+      "canonical": "FIVEMINUTEWAR",
+      "display": "FIVE-MINUTE-WAR",
+      "aliases": [],
+      "source": "MANGA_VOLUME_1",
+      "visibility": "VISIBLE_INSIDE_BACK_COVER",
+      "entitlements": [
+        "TITLE_FIVE_MINUTE_SURVIVOR",
+        "COSMETIC_CARDBOARD_WING_CHARM",
+        "BANNER_VOLUME_1",
+        "FATE_REROLL_TOKENS_5",
+        "EVENT_CARD_DOOR_BETWEEN_WORLDS"
+      ],
+      "minimum_content_version": 1
+    },
+    {
+      "id": "manga_v1_kael_archive",
+      "canonical": "EMPTYTHRONE",
+      "display": "EMPTY-THRONE",
+      "aliases": [
+        "30030300"
+      ],
+      "source": "MANGA_VOLUME_1",
+      "visibility": "HIDDEN_COVER_AND_ACROSTIC",
+      "entitlements": [
+        "CHRONICLE_KAEL",
+        "CHALLENGE_TRUE_REFLECTION",
+        "SANDBOX_CHARACTER_KAEL",
+        "PROFILE_FRAME_EMPTY_THRONE"
+      ],
+      "minimum_content_version": 2
+    },
+    {
+      "id": "manga_v1_founder_archive",
+      "canonical": "FIRSTPILLARS",
+      "display": "FIRST-PILLARS",
+      "aliases": [],
+      "source": "MANGA_VOLUME_1",
+      "visibility": "HIDDEN_SEVEN_GLYPHS",
+      "entitlements": [
+        "CHRONICLES_SEVEN_FOUNDERS",
+        "CUSTOM_SCENARIO_FOUNDING_ASSEMBLY",
+        "EMBLEM_SEVEN_SILHOUETTES"
+      ],
+      "minimum_content_version": 3,
+      "spoiler_activation": "PROGRESSIVE"
+    }
+  ],
+  "private_access": {
+    "author_seal_in_public_registry": false,
+    "method": "SIGNED_TOKEN_PUBLIC_KEY_VERIFICATION",
+    "note": "Never store the private signing key or a real Author token in the game repository or manga."
+  }
+}

@@ -1,0 +1,2290 @@
+{
+  "contentVersion": "GUILD_CITY_017H_1.0",
+  "placementModel": "SNAP_PLOT",
+  "buildings": [
+    {
+      "id": "GC017D_BUILD_CONTRACT_HOUSE",
+      "displayName": "Contract House",
+      "districtId": "DISTRICT_GUILD_CORE",
+      "facilityId": "FACILITY_STRATEGY_ROOM",
+      "maxLevel": 3,
+      "effectIdentity": "Contract variety, sponsor quality, and objective intelligence",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_UNION_COMMAND",
+        "GC017D_BUILD_MARKET"
+      ],
+      "staffRoles": [
+        "Clerk",
+        "Diplomat"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 0,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 3
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 42,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 62,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 7
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017D_BUILD_FORGE",
+      "displayName": "Forge",
+      "districtId": "DISTRICT_CRAFT",
+      "facilityId": "FACILITY_GUILD_FORGE",
+      "maxLevel": 4,
+      "effectIdentity": "Repair, comparison, upgrading, and weapon evolution",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_WAREHOUSE"
+      ],
+      "staffRoles": [
+        "Smith",
+        "Armorer"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 40,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 3
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 60,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 80,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 7
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "hallXp": 100,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 9
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017D_BUILD_GATE_RESEARCH",
+      "displayName": "Gate Research Annex",
+      "districtId": "DISTRICT_GATE_DEFENSE",
+      "facilityId": "FACILITY_RESEARCH_ROOM",
+      "maxLevel": 5,
+      "effectIdentity": "Later expedition reach and Gateworks research",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_MYSTIC_ACADEMY",
+        "GC017D_BUILD_SCOUT_LODGE"
+      ],
+      "staffRoles": [
+        "Researcher",
+        "Gate Scholar"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 54,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 4
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 74,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 6
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 94,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 8
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "hallXp": 114,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 10
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "hallXp": 134,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 12
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 6
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017D_BUILD_GUILD_HOUSING",
+      "displayName": "Guild Housing",
+      "districtId": "DISTRICT_CARE_COMMONS",
+      "facilityId": "FACILITY_DORMITORIES",
+      "maxLevel": 4,
+      "effectIdentity": "Roster capacity, recovery comfort, and population",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_TAVERN_COMMONS"
+      ],
+      "staffRoles": [
+        "Steward"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 36,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 4
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 56,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 6
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 76,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 8
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "hallXp": 96,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 10
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017D_BUILD_HERBAL_GARDEN",
+      "displayName": "Herbal Garden",
+      "districtId": "DISTRICT_CARE_COMMONS",
+      "facilityId": "FACILITY_GARDEN",
+      "maxLevel": 3,
+      "effectIdentity": "Remedies, Restoration supplies, and Infirmary support",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_INFIRMARY"
+      ],
+      "staffRoles": [
+        "Herbalist",
+        "Caretaker"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 34,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 3
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 54,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 74,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 7
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017D_BUILD_INFIRMARY",
+      "displayName": "Infirmary",
+      "districtId": "DISTRICT_CARE_COMMONS",
+      "facilityId": "FACILITY_INFIRMARY",
+      "maxLevel": 4,
+      "effectIdentity": "Injury treatment, recovery capacity, and expedition medicine",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_HERBAL_GARDEN"
+      ],
+      "staffRoles": [
+        "Healer",
+        "Medic"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 32,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 2
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 52,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 4
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 72,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 6
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "hallXp": 92,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 8
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017D_BUILD_LIBRARY_ARCHIVE",
+      "displayName": "Library / Archive",
+      "districtId": "DISTRICT_KNOWLEDGE",
+      "facilityId": "FACILITY_LIBRARY",
+      "maxLevel": 3,
+      "effectIdentity": "Chronicle, Art hints, mentorship knowledge, and research",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_TRAINING_GROUNDS",
+        "GC017D_BUILD_MYSTIC_ACADEMY"
+      ],
+      "staffRoles": [
+        "Archivist",
+        "Scholar"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 30,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 4
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 50,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 6
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 70,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 8
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017D_BUILD_MARKET",
+      "displayName": "Market",
+      "districtId": "DISTRICT_CRAFT",
+      "facilityId": "FACILITY_TAVERN",
+      "maxLevel": 3,
+      "effectIdentity": "Stock variety, selling, and material conversion",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_WORKSHOP",
+        "GC017D_BUILD_CONTRACT_HOUSE"
+      ],
+      "staffRoles": [
+        "Merchant"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 46,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 3
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 66,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 86,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 7
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017D_BUILD_MYSTIC_ACADEMY",
+      "displayName": "Mystic Academy",
+      "districtId": "DISTRICT_KNOWLEDGE",
+      "facilityId": "FACILITY_RESEARCH_ROOM",
+      "maxLevel": 4,
+      "effectIdentity": "Mystic practice, research, and school opportunities",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_LIBRARY_ARCHIVE"
+      ],
+      "staffRoles": [
+        "Arcanist",
+        "Researcher"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 0,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 3
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 48,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 68,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 7
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "hallXp": 88,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 9
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017D_BUILD_RECRUITMENT_OFFICE",
+      "displayName": "Recruitment Office",
+      "districtId": "DISTRICT_GUILD_CORE",
+      "facilityId": "FACILITY_RECRUITMENT_OFFICE",
+      "maxLevel": 3,
+      "effectIdentity": "Applicant capacity, scouting clarity, and Return Later storage",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_TAVERN_COMMONS"
+      ],
+      "staffRoles": [
+        "Recruiter",
+        "Scout"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 0,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 2
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 40,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 4
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 60,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 6
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017D_BUILD_SCOUT_LODGE",
+      "displayName": "Scout Lodge",
+      "districtId": "DISTRICT_GATE_DEFENSE",
+      "facilityId": "FACILITY_GATE_OPERATIONS",
+      "maxLevel": 4,
+      "effectIdentity": "Board fog reveal, route detail, and ambush resistance",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_WATCHTOWER"
+      ],
+      "staffRoles": [
+        "Scout",
+        "Cartographer"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 48,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 4
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 68,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 6
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 88,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 8
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "hallXp": 108,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 10
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017D_BUILD_SUPPLY_DEPOT",
+      "displayName": "Supply Depot",
+      "districtId": "DISTRICT_GATE_DEFENSE",
+      "facilityId": "FACILITY_QUARTERMASTER",
+      "maxLevel": 3,
+      "effectIdentity": "Expedition supplies, carrying capacity, and reserve logistics",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_WAREHOUSE"
+      ],
+      "staffRoles": [
+        "Logistician"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 52,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 3
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 72,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 92,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 7
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017D_BUILD_TAVERN_COMMONS",
+      "displayName": "Tavern / Commons",
+      "districtId": "DISTRICT_CARE_COMMONS",
+      "facilityId": "FACILITY_TAVERN",
+      "maxLevel": 3,
+      "effectIdentity": "Rumors, applicants, free social scenes, and morale baseline",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_RECRUITMENT_OFFICE",
+        "GC017D_BUILD_GUILD_HOUSING"
+      ],
+      "staffRoles": [
+        "Host",
+        "Cook"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 38,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 2
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 58,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 4
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 78,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 6
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017D_BUILD_TRAINING_GROUNDS",
+      "displayName": "Training Grounds",
+      "districtId": "DISTRICT_KNOWLEDGE",
+      "facilityId": "FACILITY_TRAINING_HALL",
+      "maxLevel": 4,
+      "effectIdentity": "Combat Art practice and breakthrough opportunities",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_UNION_COMMAND",
+        "GC017D_BUILD_LIBRARY_ARCHIVE"
+      ],
+      "staffRoles": [
+        "Trainer",
+        "Mentor"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 0,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 2
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 46,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 4
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 66,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 6
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "hallXp": 86,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 8
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 5
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017D_BUILD_UNION_COMMAND",
+      "displayName": "Union Command",
+      "districtId": "DISTRICT_GUILD_CORE",
+      "facilityId": "FACILITY_UNION_COMMAND_TABLE",
+      "maxLevel": 3,
+      "effectIdentity": "Union capacity, formations, doctrine, and coordination tools",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_TRAINING_GROUNDS"
+      ],
+      "staffRoles": [
+        "Commander",
+        "Tactician"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 0,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 4
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 44,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 6
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 64,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 8
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017D_BUILD_WAREHOUSE",
+      "displayName": "Warehouse",
+      "districtId": "DISTRICT_CRAFT",
+      "facilityId": "FACILITY_QUARTERMASTER",
+      "maxLevel": 3,
+      "effectIdentity": "Material storage, supply capacity, and reduced waste",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_FORGE",
+        "GC017D_BUILD_WORKSHOP"
+      ],
+      "staffRoles": [
+        "Quartermaster"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 44,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 2
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 64,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 4
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 84,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 6
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017D_BUILD_WATCHTOWER",
+      "displayName": "Watchtower",
+      "districtId": "DISTRICT_GATE_DEFENSE",
+      "facilityId": "FACILITY_EMERGENCY_SHELTER",
+      "maxLevel": 3,
+      "effectIdentity": "Early warning, enemy intelligence, and city defense",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_SCOUT_LODGE"
+      ],
+      "staffRoles": [
+        "Watcher",
+        "Ranger"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 50,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 2
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 70,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 4
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 90,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 6
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017D_BUILD_WORKSHOP",
+      "displayName": "Workshop",
+      "districtId": "DISTRICT_CRAFT",
+      "facilityId": "FACILITY_ALCHEMY_WORKSHOP",
+      "maxLevel": 4,
+      "effectIdentity": "Engineering equipment, devices, and board solutions",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_MARKET",
+        "GC017D_BUILD_WAREHOUSE"
+      ],
+      "staffRoles": [
+        "Engineer",
+        "Artificer"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 42,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 4
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 62,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 6
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 82,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 8
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "hallXp": 102,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 10
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 5
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017H_BUILD_AEGIS_WALLWORKS",
+      "displayName": "Aegis Wallworks",
+      "districtId": "DISTRICT_GATE_DEFENSE",
+      "facilityId": "FACILITY_AEGIS_WALLWORKS",
+      "maxLevel": 5,
+      "effectIdentity": "City integrity, Guard preparation, breach resistance, and defensive Union growth",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_WATCHTOWER",
+        "GC017H_BUILD_GATEHOUSE"
+      ],
+      "staffRoles": [
+        "Wall Captain",
+        "Defense Architect"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 56,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 78,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 7
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 100,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 9
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "hallXp": 122,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 11
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 6
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "hallXp": 144,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 13
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 7
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 4
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017H_BUILD_ALCHEMY_LAB",
+      "displayName": "Alchemy Laboratory",
+      "districtId": "DISTRICT_KNOWLEDGE",
+      "facilityId": "FACILITY_ALCHEMY_LABORATORY",
+      "maxLevel": 4,
+      "effectIdentity": "Restoration and Mystic mastery, battle resupply, remedies, and elemental preparation",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_HERBAL_GARDEN",
+        "GC017D_BUILD_MYSTIC_ACADEMY"
+      ],
+      "staffRoles": [
+        "Alchemist",
+        "Remedy Researcher"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 46,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 68,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 7
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 90,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 9
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "hallXp": 112,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 11
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 6
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017H_BUILD_ARTISANS_HALL",
+      "displayName": "Artisans' Hall",
+      "districtId": "DISTRICT_CRAFT",
+      "facilityId": "FACILITY_ARTISANS_HALL",
+      "maxLevel": 4,
+      "effectIdentity": "Staff-duty XP, construction efficiency, repair crews, and civic combat logistics",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_WORKSHOP",
+        "GC017D_BUILD_FORGE"
+      ],
+      "staffRoles": [
+        "Master Artisan",
+        "Works Steward"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 38,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 60,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 7
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 82,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 9
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "hallXp": 104,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 11
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 6
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017H_BUILD_BALLISTA_FOUNDRY",
+      "displayName": "Ballista Foundry",
+      "districtId": "DISTRICT_CRAFT",
+      "facilityId": "FACILITY_BALLISTA_FOUNDRY",
+      "maxLevel": 4,
+      "effectIdentity": "Pre-battle enemy Cohesion damage, breach suppression, and heavy-defense power",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_FORGE",
+        "GC017H_BUILD_AEGIS_WALLWORKS"
+      ],
+      "staffRoles": [
+        "Siege Smith",
+        "Artillery Engineer"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 42,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 64,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 7
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 86,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 9
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "hallXp": 108,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 11
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 6
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017H_BUILD_CHRONICLE_PLAZA",
+      "displayName": "Chronicle Plaza",
+      "districtId": "DISTRICT_CARE_COMMONS",
+      "facilityId": "FACILITY_CHRONICLE_PLAZA",
+      "maxLevel": 3,
+      "effectIdentity": "Personal, Union, and Guild XP through preserved history, public drills, and canon events",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_LIBRARY_ARCHIVE",
+        "GC017D_BUILD_TAVERN_COMMONS"
+      ],
+      "staffRoles": [
+        "Chronicler",
+        "Civic Speaker"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 48,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 70,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 7
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 92,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 9
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 2
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017H_BUILD_COURIER_ROOST",
+      "displayName": "Courier Roost",
+      "districtId": "DISTRICT_GUILD_CORE",
+      "facilityId": "FACILITY_COURIER_ROOST",
+      "maxLevel": 3,
+      "effectIdentity": "Faster orders, starting AP, reinforcement timing, and urgency control",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_CONTRACT_HOUSE",
+        "GC017H_BUILD_SIGNAL_SPIRE"
+      ],
+      "staffRoles": [
+        "Courier Captain",
+        "Signal Runner"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 40,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 62,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 7
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 84,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 9
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 2
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017H_BUILD_EVACUATION_SHELTERS",
+      "displayName": "Evacuation Shelters",
+      "districtId": "DISTRICT_CARE_COMMONS",
+      "facilityId": "FACILITY_EVACUATION_SHELTERS",
+      "maxLevel": 4,
+      "effectIdentity": "Civilian protection, starting Cohesion, recovery, and loss prevention during sieges",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_INFIRMARY",
+        "GC017H_BUILD_AEGIS_WALLWORKS"
+      ],
+      "staffRoles": [
+        "Shelter Warden",
+        "Evacuation Marshal"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 50,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 72,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 7
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 94,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 9
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "hallXp": 116,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 11
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 6
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017H_BUILD_GATEHOUSE",
+      "displayName": "Gatehouse & Portcullis",
+      "districtId": "DISTRICT_GATE_DEFENSE",
+      "facilityId": "FACILITY_GATEHOUSE_PORTCULLIS",
+      "maxLevel": 5,
+      "effectIdentity": "Main-gate control, enemy Cohesion damage, initial Deadlock advantage, and reinforcement routing",
+      "adjacencyBuildingIds": [
+        "GC017H_BUILD_AEGIS_WALLWORKS",
+        "GC017D_BUILD_SUPPLY_DEPOT"
+      ],
+      "staffRoles": [
+        "Gate Captain",
+        "Portcullis Engineer"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 58,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 80,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 7
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 102,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 9
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "hallXp": 124,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 11
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 6
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "hallXp": 146,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 13
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 7
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 4
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017H_BUILD_MILITIA_BARRACKS",
+      "displayName": "Militia Barracks",
+      "districtId": "DISTRICT_GATE_DEFENSE",
+      "facilityId": "FACILITY_MILITIA_BARRACKS",
+      "maxLevel": 4,
+      "effectIdentity": "Reserve-Union readiness, Combat Art drilling, and city-defense manpower",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_UNION_COMMAND",
+        "GC017H_BUILD_AEGIS_WALLWORKS"
+      ],
+      "staffRoles": [
+        "Drill Captain",
+        "Reserve Commander"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 36,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 58,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 7
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 80,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 9
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "hallXp": 102,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 11
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 6
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017H_BUILD_SIGNAL_SPIRE",
+      "displayName": "Signal Spire",
+      "districtId": "DISTRICT_GATE_DEFENSE",
+      "facilityId": "FACILITY_SIGNAL_SPIRE",
+      "maxLevel": 4,
+      "effectIdentity": "Scouting, starting AP, reserve coordination, and multi-front reinforcement control",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_WATCHTOWER",
+        "GC017H_BUILD_COURIER_ROOST"
+      ],
+      "staffRoles": [
+        "Signal Master",
+        "Battle Coordinator"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 54,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 76,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 7
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 98,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 9
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "hallXp": 120,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 11
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 6
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017H_BUILD_TRAPWORKS",
+      "displayName": "Trapworks",
+      "districtId": "DISTRICT_GATE_DEFENSE",
+      "facilityId": "FACILITY_TRAPWORKS",
+      "maxLevel": 4,
+      "effectIdentity": "Lane traps, ambush resistance, enemy Cohesion pressure, and Tactical growth",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_WORKSHOP",
+        "GC017D_BUILD_SCOUT_LODGE"
+      ],
+      "staffRoles": [
+        "Trapwright",
+        "Field Engineer"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 44,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 66,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 7
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 88,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 9
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "hallXp": 110,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 11
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 6
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    },
+    {
+      "id": "GC017H_BUILD_WARD_PYLONS",
+      "displayName": "Ward Pylon Array",
+      "districtId": "DISTRICT_GATE_DEFENSE",
+      "facilityId": "FACILITY_WARD_PYLON_ARRAY",
+      "maxLevel": 4,
+      "effectIdentity": "Warding mastery, starting MP, barrier integrity, and Mystic defense",
+      "adjacencyBuildingIds": [
+        "GC017D_BUILD_MYSTIC_ACADEMY",
+        "GC017H_BUILD_SIGNAL_SPIRE"
+      ],
+      "staffRoles": [
+        "Ward Engineer",
+        "Mystic Sentinel"
+      ],
+      "costs": [
+        {
+          "level": 1,
+          "hallXp": 52,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "hallXp": 74,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 7
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 4
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "hallXp": 96,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 9
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 5
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "hallXp": 118,
+          "materials": [
+            {
+              "materialId": "MAT_SALVAGED_TIMBER",
+              "amount": 11
+            },
+            {
+              "materialId": "MAT_GATE_IRON",
+              "amount": 6
+            },
+            {
+              "materialId": "MAT_GATEGLASS",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "realTimeTimerSeconds": 0,
+      "allowsInvoluntaryDeparture": false
+    }
+  ]
+}

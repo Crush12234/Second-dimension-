@@ -1,0 +1,333 @@
+{
+  "worlds": [
+    {
+      "id": "WORLD_GOBLIN_001",
+      "key": "goblin",
+      "name": "Goblin World",
+      "fortress": "Goblin Fortress",
+      "founder": "Kiri Aetherheart",
+      "theme": "Memory, accelerated history, industry, abandonment, and myth.",
+      "centralQuestion": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "tone": "Restless, inventive, wounded, argumentative, brilliant, spiritually divided.",
+      "timeLaw": "1 Second Dimension day equals 1 Goblin World month.",
+      "canonStatus": "CANON_LOCKED_FIRST_RACE_WORLD",
+      "regions": [
+        "Gear-Crown Republic",
+        "Burrow Choir Confederacy",
+        "Iron Lantern Principalities",
+        "Saint Kiri Foundries",
+        "Broken Promise Marches"
+      ],
+      "capitals": [
+        "Kirikind Vault",
+        "Cogspire",
+        "Lanterndeep",
+        "Ash-Market",
+        "Month-Cathedral"
+      ],
+      "heroes": [
+        "Tekk Rootmind",
+        "Mother Siva",
+        "Harn Splitgear"
+      ],
+      "villains": [
+        "King Varrik the Invoice-Maker",
+        "The Seven Foremen of Smoke",
+        "Saint-Emperor Gedd"
+      ],
+      "disasters": [
+        "Monthfire Collapse",
+        "Rust Plague",
+        "Promise Riots",
+        "Forty-Third Calendar War"
+      ],
+      "conflict": "Goblin civilization cannot agree whether Kael represents hope, abandonment, false divinity, or a test of self-rule.",
+      "fortressOperations": [
+        "SIEGE_GOBLIN_FORTRESS_GATE",
+        "SIEGE_MONTH_CATHEDRAL_UPRISING"
+      ]
+    },
+    {
+      "id": "WORLD_ORC_002",
+      "key": "orc",
+      "name": "Orc World",
+      "fortress": "Tuskgate",
+      "founder": "Grom Ironblood",
+      "theme": "Strength, honor, childhood, protection, and the inheritance of war.",
+      "centralQuestion": "Can a race built on war redefine strength?",
+      "tone": "Proud, austere, loud in ritual, gentle in private, ashamed of inherited cruelty.",
+      "timeLaw": "Unconfirmed; no invented time distortion may be treated as canon.",
+      "canonStatus": "CANON_WORLD_FOUNDATION_GAME_CAMPAIGN_CANDIDATE",
+      "regions": [
+        "Red Hearth Clans",
+        "Mountain-Banner Holds",
+        "Salt-Tusk Coast",
+        "Shield-Child Sanctuaries",
+        "Black Arena Cities"
+      ],
+      "capitals": [
+        "Hearthmaw",
+        "Bannerhold",
+        "Tuskgate",
+        "Shieldhome",
+        "The Old Arena"
+      ],
+      "heroes": [
+        "Bara Hearthmother",
+        "Urok Stoneback",
+        "Magra the Quiet"
+      ],
+      "villains": [
+        "Karv Blood-Tax",
+        "The Arena Saints",
+        "Groth the Lesson-Maker"
+      ],
+      "disasters": [
+        "Child-Spear Winter",
+        "Clan Oath Collapse",
+        "Three Black Harvests",
+        "First Shame Council"
+      ],
+      "conflict": "Traditionalists believe strength must dominate; reformers believe strength means children need not become weapons.",
+      "fortressOperations": [
+        "SIEGE_TUSKGATE_SHIELD_TRIAL",
+        "SIEGE_BLACK_ARENA_BREAK"
+      ]
+    },
+    {
+      "id": "WORLD_BEASTKIN_003",
+      "key": "beastkin",
+      "name": "Beastkin Territories",
+      "fortress": "Golden Cage Bastion",
+      "founder": "Aira Moonfang",
+      "theme": "Freedom versus civilization, nature versus walls, instinct versus law.",
+      "centralQuestion": "Does civilization protect nature or destroy it?",
+      "tone": "Lush, dangerous, beautiful, territorial, ceremonial, emotionally direct.",
+      "timeLaw": "Unconfirmed; seasonal anomalies remain mystery rather than settled law.",
+      "canonStatus": "CANON_WORLD_FOUNDATION_GAME_CAMPAIGN_CANDIDATE",
+      "regions": [
+        "Wolfroad Packs",
+        "Cat-Sun Courts",
+        "Bearroot Holds",
+        "Skyfeather Aeries",
+        "Foxfire Treaty Paths"
+      ],
+      "capitals": [
+        "Moonrun",
+        "Sunperch",
+        "Rootden",
+        "Feathervault",
+        "The Open Court"
+      ],
+      "heroes": [
+        "Sena Rainclaw",
+        "Fennel Softstep",
+        "Orr Bearroot"
+      ],
+      "villains": [
+        "The Golden Cage Duke",
+        "Huntress Mara of the Blood Moon",
+        "The Collar-Makers"
+      ],
+      "disasters": [
+        "The Great Collaring",
+        "Starvation Migration",
+        "Burning Den Year",
+        "Silence of Spring"
+      ],
+      "conflict": "Some see city law as protection from famine and slavery; others see walls as the slow death of the wild soul.",
+      "fortressOperations": [
+        "SIEGE_GOLDEN_CAGE_LIBERATION",
+        "SIEGE_OPEN_COURT_DEFENSE"
+      ]
+    },
+    {
+      "id": "WORLD_DEMON_004",
+      "key": "demon",
+      "name": "Demon Realms",
+      "fortress": "Contractum Red Seal",
+      "founder": "Seraphina Nightveil",
+      "theme": "Fear, beauty, forbidden knowledge, law, and trust.",
+      "centralQuestion": "Can those feared as monsters ever be trusted?",
+      "tone": "Elegant, dangerous, theatrical, scholarly, romantic, cruel in old law, hungry for redemption.",
+      "timeLaw": "Contract and school calendars exist; deeper temporal irregularities remain unconfirmed.",
+      "canonStatus": "CANON_WORLD_FOUNDATION_GAME_CAMPAIGN_CANDIDATE",
+      "regions": [
+        "Crimson Library States",
+        "Thorn-Crown Duchies",
+        "Ash Contract Courts",
+        "Dreamglass Salons",
+        "Ember Monasteries"
+      ],
+      "capitals": [
+        "Nightveil Spire",
+        "Cinderhall",
+        "Contractum",
+        "Dreamglass",
+        "The Red Archive"
+      ],
+      "heroes": [
+        "Veloria Ashhand",
+        "Mael the Contract-Breaker",
+        "Professor Sareth of the Mercy Index"
+      ],
+      "villains": [
+        "Duke Varos of the Living Signature",
+        "The Red Judge",
+        "The Choir of Purchased Names"
+      ],
+      "disasters": [
+        "Ink-Blood Plague",
+        "Library Purges",
+        "Contract Famine",
+        "Year of Beautiful Treasons"
+      ],
+      "conflict": "Demon civilization contains art, law, schools, family, and love, but its history of contracts and fear makes trust explosive.",
+      "fortressOperations": [
+        "SIEGE_CONTRACTUM_SEALBREAK",
+        "SIEGE_RED_ARCHIVE_EVACUATION"
+      ]
+    },
+    {
+      "id": "WORLD_DARK_ELF_005",
+      "key": "darkelf",
+      "name": "Dark Elf Territories",
+      "fortress": "Silverquiet Lock",
+      "founder": "Lyssara Duskwood",
+      "theme": "Truth versus stability, memory versus safety, shadow versus silence.",
+      "centralQuestion": "Is a painful truth better than a peaceful lie?",
+      "tone": "Quiet, elegant, suspicious, poetic, wounded, precise, morally dangerous.",
+      "timeLaw": "Archive eras are named for truths sealed, revealed, or destructive; no universal ratio is established.",
+      "canonStatus": "CANON_WORLD_FOUNDATION_GAME_CAMPAIGN_CANDIDATE",
+      "regions": [
+        "Duskwood Courts",
+        "Veil-City Compact",
+        "Silver Quiet Archives",
+        "Blackroot Sanctuaries",
+        "Lanternless Roads"
+      ],
+      "capitals": [
+        "Duskwood",
+        "Veilmere",
+        "Silverquiet",
+        "Blackroot",
+        "Nocthane"
+      ],
+      "heroes": [
+        "Ilyr Truththorn",
+        "Saeven of the Gentle Knife",
+        "Mother Noct"
+      ],
+      "villains": [
+        "The Peace Regent",
+        "Archivist Vorn",
+        "The Three Kindly Assassins"
+      ],
+      "disasters": [
+        "White Lie Famine",
+        "Archive Fire",
+        "Civil War of Witnesses",
+        "Vanishing Census"
+      ],
+      "conflict": "Dark Elf society survived by controlling information; opening truth may heal history or destroy fragile peace.",
+      "fortressOperations": [
+        "SIEGE_SILVERQUIET_LOCKDOWN",
+        "SIEGE_DUSKWOOD_TRUTH_DEFENSE"
+      ]
+    },
+    {
+      "id": "WORLD_BUNNY_006",
+      "key": "bunny",
+      "name": "Bunny Trade Nations",
+      "fortress": "Warrenhall Debt Keep",
+      "founder": "Luna Silverstep",
+      "theme": "Commerce, connection, debt, logistics, and the moral weight of price.",
+      "centralQuestion": "Can everything have a price?",
+      "tone": "Bright, fast-talking, charming, wealthy, anxious, practical, playful, sharp.",
+      "timeLaw": "Trade clocks vary by contract route and delivery window; no single universal ratio.",
+      "canonStatus": "CANON_WORLD_FOUNDATION_GAME_CAMPAIGN_CANDIDATE",
+      "regions": [
+        "Silverstep Exchange",
+        "Golden Warren Banks",
+        "Roadbell Caravan League",
+        "Orchard Ports",
+        "Free Basket Cities"
+      ],
+      "capitals": [
+        "Ledgerbell",
+        "Silverstep Market",
+        "Warrenhall",
+        "Roadbell",
+        "Basketon"
+      ],
+      "heroes": [
+        "Nemi Copper-Ear",
+        "Lord Pollen of the Open Road",
+        "Hessa Twinledger"
+      ],
+      "villains": [
+        "Baron Usury Bloom",
+        "The Salt Hoarders",
+        "The Smiling Auction House"
+      ],
+      "disasters": [
+        "Price Fever",
+        "Locked Granary Summer",
+        "Banker’s War",
+        "Empty Basket March"
+      ],
+      "conflict": "Trade delivers medicine and connection, but the same systems can turn survival into debt.",
+      "fortressOperations": [
+        "SIEGE_WARRENHALL_GRANARY_BLOCKADE",
+        "SIEGE_ROADBELL_CONVOY_DEFENSE"
+      ]
+    },
+    {
+      "id": "WORLD_DOG_007",
+      "key": "dog",
+      "name": "Dog Tribe Frontiers",
+      "fortress": "Oathpost Prime",
+      "founder": "Rika Stormpaw",
+      "theme": "Duty, loyalty, borders, oaths, and moral fracture.",
+      "centralQuestion": "What happens when loyalty and morality disagree?",
+      "tone": "Warm, direct, loyal, frontier-practical, ceremonial, protective, quietly haunted.",
+      "timeLaw": "Patrol cycles, lost companions, and oath renewals shape calendars; no universal ratio.",
+      "canonStatus": "CANON_WORLD_FOUNDATION_GAME_CAMPAIGN_CANDIDATE",
+      "regions": [
+        "Stormpaw Ranges",
+        "Oathpost Settlements",
+        "Rivernose Watch",
+        "Hearthhound Villages",
+        "Gray Trail Compact"
+      ],
+      "capitals": [
+        "Stormpaw Hold",
+        "Oathpost Prime",
+        "Rivernose",
+        "Hearthhound",
+        "Trailmark"
+      ],
+      "heroes": [
+        "Rava Stormpaw",
+        "Old Fen Hearthhound",
+        "Captain Miro Graytrail"
+      ],
+      "villains": [
+        "The Oath-Eater",
+        "General Brakk Loyal-To-Orders",
+        "The Collar Captain"
+      ],
+      "disasters": [
+        "Lost Pack Winter",
+        "False Scent War",
+        "Border School Burning",
+        "Oathpost Betrayal"
+      ],
+      "conflict": "Loyalty is sacred, but a sacred oath becomes terrifying when leaders order harm in the name of protection.",
+      "fortressOperations": [
+        "SIEGE_OATHPOST_MUTINY",
+        "SIEGE_STORMPAW_BORDER_DEFENSE"
+      ]
+    }
+  ]
+}

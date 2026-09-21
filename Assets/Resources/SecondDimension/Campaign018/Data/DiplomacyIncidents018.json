@@ -1,0 +1,424 @@
+{
+  "incidents": [
+    {
+      "id": "DIP018_GOBLIN_01",
+      "worldId": "WORLD_GOBLIN_001",
+      "title": "The Reformers’ Request",
+      "factionRole": "REFORM",
+      "question": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_GOBLIN_02",
+      "worldId": "WORLD_GOBLIN_001",
+      "title": "The Traditionalists’ Fear",
+      "factionRole": "TRADITIONAL",
+      "question": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_GOBLIN_03",
+      "worldId": "WORLD_GOBLIN_001",
+      "title": "The Profiteers’ Offer",
+      "factionRole": "PROFITEER",
+      "question": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_GOBLIN_04",
+      "worldId": "WORLD_GOBLIN_001",
+      "title": "The Hidden Archive",
+      "factionRole": "HIDDEN",
+      "question": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_ORC_01",
+      "worldId": "WORLD_ORC_002",
+      "title": "The Reformers’ Request",
+      "factionRole": "REFORM",
+      "question": "Can a race built on war redefine strength?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_ORC_02",
+      "worldId": "WORLD_ORC_002",
+      "title": "The Traditionalists’ Fear",
+      "factionRole": "TRADITIONAL",
+      "question": "Can a race built on war redefine strength?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_ORC_03",
+      "worldId": "WORLD_ORC_002",
+      "title": "The Profiteers’ Offer",
+      "factionRole": "PROFITEER",
+      "question": "Can a race built on war redefine strength?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_ORC_04",
+      "worldId": "WORLD_ORC_002",
+      "title": "The Hidden Archive",
+      "factionRole": "HIDDEN",
+      "question": "Can a race built on war redefine strength?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_BEASTKIN_01",
+      "worldId": "WORLD_BEASTKIN_003",
+      "title": "The Reformers’ Request",
+      "factionRole": "REFORM",
+      "question": "Does civilization protect nature or destroy it?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_BEASTKIN_02",
+      "worldId": "WORLD_BEASTKIN_003",
+      "title": "The Traditionalists’ Fear",
+      "factionRole": "TRADITIONAL",
+      "question": "Does civilization protect nature or destroy it?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_BEASTKIN_03",
+      "worldId": "WORLD_BEASTKIN_003",
+      "title": "The Profiteers’ Offer",
+      "factionRole": "PROFITEER",
+      "question": "Does civilization protect nature or destroy it?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_BEASTKIN_04",
+      "worldId": "WORLD_BEASTKIN_003",
+      "title": "The Hidden Archive",
+      "factionRole": "HIDDEN",
+      "question": "Does civilization protect nature or destroy it?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_DEMON_01",
+      "worldId": "WORLD_DEMON_004",
+      "title": "The Reformers’ Request",
+      "factionRole": "REFORM",
+      "question": "Can those feared as monsters ever be trusted?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_DEMON_02",
+      "worldId": "WORLD_DEMON_004",
+      "title": "The Traditionalists’ Fear",
+      "factionRole": "TRADITIONAL",
+      "question": "Can those feared as monsters ever be trusted?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_DEMON_03",
+      "worldId": "WORLD_DEMON_004",
+      "title": "The Profiteers’ Offer",
+      "factionRole": "PROFITEER",
+      "question": "Can those feared as monsters ever be trusted?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_DEMON_04",
+      "worldId": "WORLD_DEMON_004",
+      "title": "The Hidden Archive",
+      "factionRole": "HIDDEN",
+      "question": "Can those feared as monsters ever be trusted?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_DARKELF_01",
+      "worldId": "WORLD_DARK_ELF_005",
+      "title": "The Reformers’ Request",
+      "factionRole": "REFORM",
+      "question": "Is a painful truth better than a peaceful lie?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_DARKELF_02",
+      "worldId": "WORLD_DARK_ELF_005",
+      "title": "The Traditionalists’ Fear",
+      "factionRole": "TRADITIONAL",
+      "question": "Is a painful truth better than a peaceful lie?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_DARKELF_03",
+      "worldId": "WORLD_DARK_ELF_005",
+      "title": "The Profiteers’ Offer",
+      "factionRole": "PROFITEER",
+      "question": "Is a painful truth better than a peaceful lie?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_DARKELF_04",
+      "worldId": "WORLD_DARK_ELF_005",
+      "title": "The Hidden Archive",
+      "factionRole": "HIDDEN",
+      "question": "Is a painful truth better than a peaceful lie?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_BUNNY_01",
+      "worldId": "WORLD_BUNNY_006",
+      "title": "The Reformers’ Request",
+      "factionRole": "REFORM",
+      "question": "Can everything have a price?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_BUNNY_02",
+      "worldId": "WORLD_BUNNY_006",
+      "title": "The Traditionalists’ Fear",
+      "factionRole": "TRADITIONAL",
+      "question": "Can everything have a price?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_BUNNY_03",
+      "worldId": "WORLD_BUNNY_006",
+      "title": "The Profiteers’ Offer",
+      "factionRole": "PROFITEER",
+      "question": "Can everything have a price?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_BUNNY_04",
+      "worldId": "WORLD_BUNNY_006",
+      "title": "The Hidden Archive",
+      "factionRole": "HIDDEN",
+      "question": "Can everything have a price?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_DOG_01",
+      "worldId": "WORLD_DOG_007",
+      "title": "The Reformers’ Request",
+      "factionRole": "REFORM",
+      "question": "What happens when loyalty and morality disagree?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_DOG_02",
+      "worldId": "WORLD_DOG_007",
+      "title": "The Traditionalists’ Fear",
+      "factionRole": "TRADITIONAL",
+      "question": "What happens when loyalty and morality disagree?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_DOG_03",
+      "worldId": "WORLD_DOG_007",
+      "title": "The Profiteers’ Offer",
+      "factionRole": "PROFITEER",
+      "question": "What happens when loyalty and morality disagree?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    },
+    {
+      "id": "DIP018_DOG_04",
+      "worldId": "WORLD_DOG_007",
+      "title": "The Hidden Archive",
+      "factionRole": "HIDDEN",
+      "question": "What happens when loyalty and morality disagree?",
+      "mustIncludeCivilianConsequence": true,
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "cannotResolveWorldInOneChoice": true
+    }
+  ]
+}

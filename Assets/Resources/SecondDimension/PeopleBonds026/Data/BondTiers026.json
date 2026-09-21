@@ -1,0 +1,58 @@
+{
+  "tiers": [
+    {
+      "tierId": "BOND_TIER026_0",
+      "rank": 0,
+      "displayName": "Acquainted",
+      "minimumTrust": 0,
+      "minimumSharedMemories": 0,
+      "coordinationBonusBasisPoints": 0,
+      "allowsLinkArts": false
+    },
+    {
+      "tierId": "BOND_TIER026_1",
+      "rank": 1,
+      "displayName": "Reliable",
+      "minimumTrust": 10,
+      "minimumSharedMemories": 2,
+      "coordinationBonusBasisPoints": 150,
+      "allowsLinkArts": false
+    },
+    {
+      "tierId": "BOND_TIER026_2",
+      "rank": 2,
+      "displayName": "Trusted",
+      "minimumTrust": 25,
+      "minimumSharedMemories": 4,
+      "coordinationBonusBasisPoints": 300,
+      "allowsLinkArts": true
+    },
+    {
+      "tierId": "BOND_TIER026_3",
+      "rank": 3,
+      "displayName": "Bonded",
+      "minimumTrust": 45,
+      "minimumSharedMemories": 7,
+      "coordinationBonusBasisPoints": 450,
+      "allowsLinkArts": true
+    },
+    {
+      "tierId": "BOND_TIER026_4",
+      "rank": 4,
+      "displayName": "Unshakable",
+      "minimumTrust": 70,
+      "minimumSharedMemories": 11,
+      "coordinationBonusBasisPoints": 600,
+      "allowsLinkArts": true
+    },
+    {
+      "tierId": "BOND_TIER026_5",
+      "rank": 5,
+      "displayName": "First Alliance",
+      "minimumTrust": 90,
+      "minimumSharedMemories": 16,
+      "coordinationBonusBasisPoints": 750,
+      "allowsLinkArts": true
+    }
+  ]
+}

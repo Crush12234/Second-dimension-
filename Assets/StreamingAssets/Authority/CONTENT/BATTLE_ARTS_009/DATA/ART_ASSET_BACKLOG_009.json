@@ -1,0 +1,1195 @@
+{
+  "contentVersion": "BATTLE_ARTS_009",
+  "assetCount": 132,
+  "productionLaw": "Reuse motion grammar by weapon/Mystic family. Character identity comes from standee/rig, pose, timing, portrait cut-in, weapon, VFX, SFX, and camera—not 240 unrelated rigs.",
+  "assets": [
+    {
+      "id": "ASSET009_SWORD_BASIC_MOTION",
+      "familyId": "WEAPON_FAMILY_SWORD",
+      "assetKind": "BASIC_MOTION",
+      "description": "Reusable anticipation, contact, recovery, and return motion for the family.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_SWORD_HEAVY_MOTION",
+      "familyId": "WEAPON_FAMILY_SWORD",
+      "assetKind": "HEAVY_MOTION",
+      "description": "Reusable high-commitment or capstone motion.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_SWORD_REACTION_MOTION",
+      "familyId": "WEAPON_FAMILY_SWORD",
+      "assetKind": "REACTION_MOTION",
+      "description": "Counter, intercept, guard, or evade reaction motion.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_SWORD_TRAIL_VFX",
+      "familyId": "WEAPON_FAMILY_SWORD",
+      "assetKind": "TRAIL_VFX",
+      "description": "Family-specific weapon trail with tier parameters.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_SWORD_IMPACT_VFX",
+      "familyId": "WEAPON_FAMILY_SWORD",
+      "assetKind": "IMPACT_VFX",
+      "description": "Family-specific impact, stagger, and guard-contact treatment.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_SWORD_SIGNATURE_VFX",
+      "familyId": "WEAPON_FAMILY_SWORD",
+      "assetKind": "SIGNATURE_VFX",
+      "description": "Cinematic capstone treatment reusable across characters with portrait/camera variants.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_SWORD_SFX_SET",
+      "familyId": "WEAPON_FAMILY_SWORD",
+      "assetKind": "SFX_SET",
+      "description": "Draw/whoosh/contact/heavy/guard/signature audio set.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_GREAT_WEAPON_BASIC_MOTION",
+      "familyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "assetKind": "BASIC_MOTION",
+      "description": "Reusable anticipation, contact, recovery, and return motion for the family.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_GREAT_WEAPON_HEAVY_MOTION",
+      "familyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "assetKind": "HEAVY_MOTION",
+      "description": "Reusable high-commitment or capstone motion.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_GREAT_WEAPON_REACTION_MOTION",
+      "familyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "assetKind": "REACTION_MOTION",
+      "description": "Counter, intercept, guard, or evade reaction motion.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_GREAT_WEAPON_TRAIL_VFX",
+      "familyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "assetKind": "TRAIL_VFX",
+      "description": "Family-specific weapon trail with tier parameters.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_GREAT_WEAPON_IMPACT_VFX",
+      "familyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "assetKind": "IMPACT_VFX",
+      "description": "Family-specific impact, stagger, and guard-contact treatment.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_GREAT_WEAPON_SIGNATURE_VFX",
+      "familyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "assetKind": "SIGNATURE_VFX",
+      "description": "Cinematic capstone treatment reusable across characters with portrait/camera variants.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_GREAT_WEAPON_SFX_SET",
+      "familyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "assetKind": "SFX_SET",
+      "description": "Draw/whoosh/contact/heavy/guard/signature audio set.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_AXE_BASIC_MOTION",
+      "familyId": "WEAPON_FAMILY_AXE",
+      "assetKind": "BASIC_MOTION",
+      "description": "Reusable anticipation, contact, recovery, and return motion for the family.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_AXE_HEAVY_MOTION",
+      "familyId": "WEAPON_FAMILY_AXE",
+      "assetKind": "HEAVY_MOTION",
+      "description": "Reusable high-commitment or capstone motion.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_AXE_REACTION_MOTION",
+      "familyId": "WEAPON_FAMILY_AXE",
+      "assetKind": "REACTION_MOTION",
+      "description": "Counter, intercept, guard, or evade reaction motion.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_AXE_TRAIL_VFX",
+      "familyId": "WEAPON_FAMILY_AXE",
+      "assetKind": "TRAIL_VFX",
+      "description": "Family-specific weapon trail with tier parameters.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_AXE_IMPACT_VFX",
+      "familyId": "WEAPON_FAMILY_AXE",
+      "assetKind": "IMPACT_VFX",
+      "description": "Family-specific impact, stagger, and guard-contact treatment.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_AXE_SIGNATURE_VFX",
+      "familyId": "WEAPON_FAMILY_AXE",
+      "assetKind": "SIGNATURE_VFX",
+      "description": "Cinematic capstone treatment reusable across characters with portrait/camera variants.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_AXE_SFX_SET",
+      "familyId": "WEAPON_FAMILY_AXE",
+      "assetKind": "SFX_SET",
+      "description": "Draw/whoosh/contact/heavy/guard/signature audio set.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_SPEAR_POLEARM_BASIC_MOTION",
+      "familyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "assetKind": "BASIC_MOTION",
+      "description": "Reusable anticipation, contact, recovery, and return motion for the family.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_SPEAR_POLEARM_HEAVY_MOTION",
+      "familyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "assetKind": "HEAVY_MOTION",
+      "description": "Reusable high-commitment or capstone motion.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_SPEAR_POLEARM_REACTION_MOTION",
+      "familyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "assetKind": "REACTION_MOTION",
+      "description": "Counter, intercept, guard, or evade reaction motion.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_SPEAR_POLEARM_TRAIL_VFX",
+      "familyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "assetKind": "TRAIL_VFX",
+      "description": "Family-specific weapon trail with tier parameters.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_SPEAR_POLEARM_IMPACT_VFX",
+      "familyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "assetKind": "IMPACT_VFX",
+      "description": "Family-specific impact, stagger, and guard-contact treatment.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_SPEAR_POLEARM_SIGNATURE_VFX",
+      "familyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "assetKind": "SIGNATURE_VFX",
+      "description": "Cinematic capstone treatment reusable across characters with portrait/camera variants.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_SPEAR_POLEARM_SFX_SET",
+      "familyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "assetKind": "SFX_SET",
+      "description": "Draw/whoosh/contact/heavy/guard/signature audio set.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_BOW_BASIC_MOTION",
+      "familyId": "WEAPON_FAMILY_BOW",
+      "assetKind": "BASIC_MOTION",
+      "description": "Reusable anticipation, contact, recovery, and return motion for the family.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_BOW_HEAVY_MOTION",
+      "familyId": "WEAPON_FAMILY_BOW",
+      "assetKind": "HEAVY_MOTION",
+      "description": "Reusable high-commitment or capstone motion.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_BOW_REACTION_MOTION",
+      "familyId": "WEAPON_FAMILY_BOW",
+      "assetKind": "REACTION_MOTION",
+      "description": "Counter, intercept, guard, or evade reaction motion.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_BOW_TRAIL_VFX",
+      "familyId": "WEAPON_FAMILY_BOW",
+      "assetKind": "TRAIL_VFX",
+      "description": "Family-specific weapon trail with tier parameters.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_BOW_IMPACT_VFX",
+      "familyId": "WEAPON_FAMILY_BOW",
+      "assetKind": "IMPACT_VFX",
+      "description": "Family-specific impact, stagger, and guard-contact treatment.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_BOW_SIGNATURE_VFX",
+      "familyId": "WEAPON_FAMILY_BOW",
+      "assetKind": "SIGNATURE_VFX",
+      "description": "Cinematic capstone treatment reusable across characters with portrait/camera variants.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_BOW_SFX_SET",
+      "familyId": "WEAPON_FAMILY_BOW",
+      "assetKind": "SFX_SET",
+      "description": "Draw/whoosh/contact/heavy/guard/signature audio set.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_DAGGER_BASIC_MOTION",
+      "familyId": "WEAPON_FAMILY_DAGGER",
+      "assetKind": "BASIC_MOTION",
+      "description": "Reusable anticipation, contact, recovery, and return motion for the family.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_DAGGER_HEAVY_MOTION",
+      "familyId": "WEAPON_FAMILY_DAGGER",
+      "assetKind": "HEAVY_MOTION",
+      "description": "Reusable high-commitment or capstone motion.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_DAGGER_REACTION_MOTION",
+      "familyId": "WEAPON_FAMILY_DAGGER",
+      "assetKind": "REACTION_MOTION",
+      "description": "Counter, intercept, guard, or evade reaction motion.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_DAGGER_TRAIL_VFX",
+      "familyId": "WEAPON_FAMILY_DAGGER",
+      "assetKind": "TRAIL_VFX",
+      "description": "Family-specific weapon trail with tier parameters.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_DAGGER_IMPACT_VFX",
+      "familyId": "WEAPON_FAMILY_DAGGER",
+      "assetKind": "IMPACT_VFX",
+      "description": "Family-specific impact, stagger, and guard-contact treatment.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_DAGGER_SIGNATURE_VFX",
+      "familyId": "WEAPON_FAMILY_DAGGER",
+      "assetKind": "SIGNATURE_VFX",
+      "description": "Cinematic capstone treatment reusable across characters with portrait/camera variants.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_DAGGER_SFX_SET",
+      "familyId": "WEAPON_FAMILY_DAGGER",
+      "assetKind": "SFX_SET",
+      "description": "Draw/whoosh/contact/heavy/guard/signature audio set.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_SHIELD_BASIC_MOTION",
+      "familyId": "WEAPON_FAMILY_SHIELD",
+      "assetKind": "BASIC_MOTION",
+      "description": "Reusable anticipation, contact, recovery, and return motion for the family.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_SHIELD_HEAVY_MOTION",
+      "familyId": "WEAPON_FAMILY_SHIELD",
+      "assetKind": "HEAVY_MOTION",
+      "description": "Reusable high-commitment or capstone motion.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_SHIELD_REACTION_MOTION",
+      "familyId": "WEAPON_FAMILY_SHIELD",
+      "assetKind": "REACTION_MOTION",
+      "description": "Counter, intercept, guard, or evade reaction motion.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_SHIELD_TRAIL_VFX",
+      "familyId": "WEAPON_FAMILY_SHIELD",
+      "assetKind": "TRAIL_VFX",
+      "description": "Family-specific weapon trail with tier parameters.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_SHIELD_IMPACT_VFX",
+      "familyId": "WEAPON_FAMILY_SHIELD",
+      "assetKind": "IMPACT_VFX",
+      "description": "Family-specific impact, stagger, and guard-contact treatment.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_SHIELD_SIGNATURE_VFX",
+      "familyId": "WEAPON_FAMILY_SHIELD",
+      "assetKind": "SIGNATURE_VFX",
+      "description": "Cinematic capstone treatment reusable across characters with portrait/camera variants.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_SHIELD_SFX_SET",
+      "familyId": "WEAPON_FAMILY_SHIELD",
+      "assetKind": "SFX_SET",
+      "description": "Draw/whoosh/contact/heavy/guard/signature audio set.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_GAUNTLET_BASIC_MOTION",
+      "familyId": "WEAPON_FAMILY_GAUNTLET",
+      "assetKind": "BASIC_MOTION",
+      "description": "Reusable anticipation, contact, recovery, and return motion for the family.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_GAUNTLET_HEAVY_MOTION",
+      "familyId": "WEAPON_FAMILY_GAUNTLET",
+      "assetKind": "HEAVY_MOTION",
+      "description": "Reusable high-commitment or capstone motion.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_GAUNTLET_REACTION_MOTION",
+      "familyId": "WEAPON_FAMILY_GAUNTLET",
+      "assetKind": "REACTION_MOTION",
+      "description": "Counter, intercept, guard, or evade reaction motion.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_GAUNTLET_TRAIL_VFX",
+      "familyId": "WEAPON_FAMILY_GAUNTLET",
+      "assetKind": "TRAIL_VFX",
+      "description": "Family-specific weapon trail with tier parameters.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_GAUNTLET_IMPACT_VFX",
+      "familyId": "WEAPON_FAMILY_GAUNTLET",
+      "assetKind": "IMPACT_VFX",
+      "description": "Family-specific impact, stagger, and guard-contact treatment.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_GAUNTLET_SIGNATURE_VFX",
+      "familyId": "WEAPON_FAMILY_GAUNTLET",
+      "assetKind": "SIGNATURE_VFX",
+      "description": "Cinematic capstone treatment reusable across characters with portrait/camera variants.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_GAUNTLET_SFX_SET",
+      "familyId": "WEAPON_FAMILY_GAUNTLET",
+      "assetKind": "SFX_SET",
+      "description": "Draw/whoosh/contact/heavy/guard/signature audio set.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_STAFF_BASIC_MOTION",
+      "familyId": "WEAPON_FAMILY_STAFF",
+      "assetKind": "BASIC_MOTION",
+      "description": "Reusable anticipation, contact, recovery, and return motion for the family.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_STAFF_HEAVY_MOTION",
+      "familyId": "WEAPON_FAMILY_STAFF",
+      "assetKind": "HEAVY_MOTION",
+      "description": "Reusable high-commitment or capstone motion.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_STAFF_REACTION_MOTION",
+      "familyId": "WEAPON_FAMILY_STAFF",
+      "assetKind": "REACTION_MOTION",
+      "description": "Counter, intercept, guard, or evade reaction motion.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_STAFF_TRAIL_VFX",
+      "familyId": "WEAPON_FAMILY_STAFF",
+      "assetKind": "TRAIL_VFX",
+      "description": "Family-specific weapon trail with tier parameters.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_STAFF_IMPACT_VFX",
+      "familyId": "WEAPON_FAMILY_STAFF",
+      "assetKind": "IMPACT_VFX",
+      "description": "Family-specific impact, stagger, and guard-contact treatment.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_STAFF_SIGNATURE_VFX",
+      "familyId": "WEAPON_FAMILY_STAFF",
+      "assetKind": "SIGNATURE_VFX",
+      "description": "Cinematic capstone treatment reusable across characters with portrait/camera variants.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_STAFF_SFX_SET",
+      "familyId": "WEAPON_FAMILY_STAFF",
+      "assetKind": "SFX_SET",
+      "description": "Draw/whoosh/contact/heavy/guard/signature audio set.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_FOCUS_BASIC_MOTION",
+      "familyId": "WEAPON_FAMILY_FOCUS",
+      "assetKind": "BASIC_MOTION",
+      "description": "Reusable anticipation, contact, recovery, and return motion for the family.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_FOCUS_HEAVY_MOTION",
+      "familyId": "WEAPON_FAMILY_FOCUS",
+      "assetKind": "HEAVY_MOTION",
+      "description": "Reusable high-commitment or capstone motion.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_FOCUS_REACTION_MOTION",
+      "familyId": "WEAPON_FAMILY_FOCUS",
+      "assetKind": "REACTION_MOTION",
+      "description": "Counter, intercept, guard, or evade reaction motion.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_FOCUS_TRAIL_VFX",
+      "familyId": "WEAPON_FAMILY_FOCUS",
+      "assetKind": "TRAIL_VFX",
+      "description": "Family-specific weapon trail with tier parameters.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_FOCUS_IMPACT_VFX",
+      "familyId": "WEAPON_FAMILY_FOCUS",
+      "assetKind": "IMPACT_VFX",
+      "description": "Family-specific impact, stagger, and guard-contact treatment.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_FOCUS_SIGNATURE_VFX",
+      "familyId": "WEAPON_FAMILY_FOCUS",
+      "assetKind": "SIGNATURE_VFX",
+      "description": "Cinematic capstone treatment reusable across characters with portrait/camera variants.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_FOCUS_SFX_SET",
+      "familyId": "WEAPON_FAMILY_FOCUS",
+      "assetKind": "SFX_SET",
+      "description": "Draw/whoosh/contact/heavy/guard/signature audio set.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_ENGINEERING_TOOL_BASIC_MOTION",
+      "familyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "assetKind": "BASIC_MOTION",
+      "description": "Reusable anticipation, contact, recovery, and return motion for the family.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_ENGINEERING_TOOL_HEAVY_MOTION",
+      "familyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "assetKind": "HEAVY_MOTION",
+      "description": "Reusable high-commitment or capstone motion.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_ENGINEERING_TOOL_REACTION_MOTION",
+      "familyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "assetKind": "REACTION_MOTION",
+      "description": "Counter, intercept, guard, or evade reaction motion.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_ENGINEERING_TOOL_TRAIL_VFX",
+      "familyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "assetKind": "TRAIL_VFX",
+      "description": "Family-specific weapon trail with tier parameters.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_ENGINEERING_TOOL_IMPACT_VFX",
+      "familyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "assetKind": "IMPACT_VFX",
+      "description": "Family-specific impact, stagger, and guard-contact treatment.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_ENGINEERING_TOOL_SIGNATURE_VFX",
+      "familyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "assetKind": "SIGNATURE_VFX",
+      "description": "Cinematic capstone treatment reusable across characters with portrait/camera variants.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_ENGINEERING_TOOL_SFX_SET",
+      "familyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "assetKind": "SFX_SET",
+      "description": "Draw/whoosh/contact/heavy/guard/signature audio set.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_HYBRID_RELIC_WEAPON_BASIC_MOTION",
+      "familyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "assetKind": "BASIC_MOTION",
+      "description": "Reusable anticipation, contact, recovery, and return motion for the family.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_HYBRID_RELIC_WEAPON_HEAVY_MOTION",
+      "familyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "assetKind": "HEAVY_MOTION",
+      "description": "Reusable high-commitment or capstone motion.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_HYBRID_RELIC_WEAPON_REACTION_MOTION",
+      "familyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "assetKind": "REACTION_MOTION",
+      "description": "Counter, intercept, guard, or evade reaction motion.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_HYBRID_RELIC_WEAPON_TRAIL_VFX",
+      "familyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "assetKind": "TRAIL_VFX",
+      "description": "Family-specific weapon trail with tier parameters.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_HYBRID_RELIC_WEAPON_IMPACT_VFX",
+      "familyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "assetKind": "IMPACT_VFX",
+      "description": "Family-specific impact, stagger, and guard-contact treatment.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_HYBRID_RELIC_WEAPON_SIGNATURE_VFX",
+      "familyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "assetKind": "SIGNATURE_VFX",
+      "description": "Cinematic capstone treatment reusable across characters with portrait/camera variants.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_HYBRID_RELIC_WEAPON_SFX_SET",
+      "familyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "assetKind": "SFX_SET",
+      "description": "Draw/whoosh/contact/heavy/guard/signature audio set.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossFamily": true
+    },
+    {
+      "id": "ASSET009_FLAME_CAST_MOTION",
+      "treeId": "TREE_CA002_MYS_FLAME",
+      "assetKind": "CAST_MOTION",
+      "description": "Reusable short, standard, and high-tier casting motion.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_FLAME_PROJECTILE_OR_FIELD_VFX",
+      "treeId": "TREE_CA002_MYS_FLAME",
+      "assetKind": "PROJECTILE_OR_FIELD_VFX",
+      "description": "Distinct projectile, beam, field, barrier, or heal visual language.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_FLAME_IMPACT_OR_RECIPIENT_VFX",
+      "treeId": "TREE_CA002_MYS_FLAME",
+      "assetKind": "IMPACT_OR_RECIPIENT_VFX",
+      "description": "Readable effect on target/recipient and status application.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_FLAME_STATUS_LOOP_VFX",
+      "treeId": "TREE_CA002_MYS_FLAME",
+      "assetKind": "STATUS_LOOP_VFX",
+      "description": "Low-cost pooled status loop for tactical readability.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_FLAME_SIGNATURE_VFX",
+      "treeId": "TREE_CA002_MYS_FLAME",
+      "assetKind": "SIGNATURE_VFX",
+      "description": "Cinematic capstone effect with reduced-motion variant.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_FLAME_SFX_SET",
+      "treeId": "TREE_CA002_MYS_FLAME",
+      "assetKind": "SFX_SET",
+      "description": "Cast, travel, impact, field, status, and signature audio set.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_FROST_CAST_MOTION",
+      "treeId": "TREE_CA002_MYS_FROST",
+      "assetKind": "CAST_MOTION",
+      "description": "Reusable short, standard, and high-tier casting motion.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_FROST_PROJECTILE_OR_FIELD_VFX",
+      "treeId": "TREE_CA002_MYS_FROST",
+      "assetKind": "PROJECTILE_OR_FIELD_VFX",
+      "description": "Distinct projectile, beam, field, barrier, or heal visual language.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_FROST_IMPACT_OR_RECIPIENT_VFX",
+      "treeId": "TREE_CA002_MYS_FROST",
+      "assetKind": "IMPACT_OR_RECIPIENT_VFX",
+      "description": "Readable effect on target/recipient and status application.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_FROST_STATUS_LOOP_VFX",
+      "treeId": "TREE_CA002_MYS_FROST",
+      "assetKind": "STATUS_LOOP_VFX",
+      "description": "Low-cost pooled status loop for tactical readability.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_FROST_SIGNATURE_VFX",
+      "treeId": "TREE_CA002_MYS_FROST",
+      "assetKind": "SIGNATURE_VFX",
+      "description": "Cinematic capstone effect with reduced-motion variant.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_FROST_SFX_SET",
+      "treeId": "TREE_CA002_MYS_FROST",
+      "assetKind": "SFX_SET",
+      "description": "Cast, travel, impact, field, status, and signature audio set.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_STORM_CAST_MOTION",
+      "treeId": "TREE_CA002_MYS_STORM",
+      "assetKind": "CAST_MOTION",
+      "description": "Reusable short, standard, and high-tier casting motion.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_STORM_PROJECTILE_OR_FIELD_VFX",
+      "treeId": "TREE_CA002_MYS_STORM",
+      "assetKind": "PROJECTILE_OR_FIELD_VFX",
+      "description": "Distinct projectile, beam, field, barrier, or heal visual language.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_STORM_IMPACT_OR_RECIPIENT_VFX",
+      "treeId": "TREE_CA002_MYS_STORM",
+      "assetKind": "IMPACT_OR_RECIPIENT_VFX",
+      "description": "Readable effect on target/recipient and status application.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_STORM_STATUS_LOOP_VFX",
+      "treeId": "TREE_CA002_MYS_STORM",
+      "assetKind": "STATUS_LOOP_VFX",
+      "description": "Low-cost pooled status loop for tactical readability.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_STORM_SIGNATURE_VFX",
+      "treeId": "TREE_CA002_MYS_STORM",
+      "assetKind": "SIGNATURE_VFX",
+      "description": "Cinematic capstone effect with reduced-motion variant.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_STORM_SFX_SET",
+      "treeId": "TREE_CA002_MYS_STORM",
+      "assetKind": "SFX_SET",
+      "description": "Cast, travel, impact, field, status, and signature audio set.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_EARTH_CAST_MOTION",
+      "treeId": "TREE_CA002_MYS_EARTH",
+      "assetKind": "CAST_MOTION",
+      "description": "Reusable short, standard, and high-tier casting motion.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_EARTH_PROJECTILE_OR_FIELD_VFX",
+      "treeId": "TREE_CA002_MYS_EARTH",
+      "assetKind": "PROJECTILE_OR_FIELD_VFX",
+      "description": "Distinct projectile, beam, field, barrier, or heal visual language.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_EARTH_IMPACT_OR_RECIPIENT_VFX",
+      "treeId": "TREE_CA002_MYS_EARTH",
+      "assetKind": "IMPACT_OR_RECIPIENT_VFX",
+      "description": "Readable effect on target/recipient and status application.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_EARTH_STATUS_LOOP_VFX",
+      "treeId": "TREE_CA002_MYS_EARTH",
+      "assetKind": "STATUS_LOOP_VFX",
+      "description": "Low-cost pooled status loop for tactical readability.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_EARTH_SIGNATURE_VFX",
+      "treeId": "TREE_CA002_MYS_EARTH",
+      "assetKind": "SIGNATURE_VFX",
+      "description": "Cinematic capstone effect with reduced-motion variant.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_EARTH_SFX_SET",
+      "treeId": "TREE_CA002_MYS_EARTH",
+      "assetKind": "SFX_SET",
+      "description": "Cast, travel, impact, field, status, and signature audio set.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_AETHER_CAST_MOTION",
+      "treeId": "TREE_CA002_MYS_AETHER",
+      "assetKind": "CAST_MOTION",
+      "description": "Reusable short, standard, and high-tier casting motion.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_AETHER_PROJECTILE_OR_FIELD_VFX",
+      "treeId": "TREE_CA002_MYS_AETHER",
+      "assetKind": "PROJECTILE_OR_FIELD_VFX",
+      "description": "Distinct projectile, beam, field, barrier, or heal visual language.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_AETHER_IMPACT_OR_RECIPIENT_VFX",
+      "treeId": "TREE_CA002_MYS_AETHER",
+      "assetKind": "IMPACT_OR_RECIPIENT_VFX",
+      "description": "Readable effect on target/recipient and status application.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_AETHER_STATUS_LOOP_VFX",
+      "treeId": "TREE_CA002_MYS_AETHER",
+      "assetKind": "STATUS_LOOP_VFX",
+      "description": "Low-cost pooled status loop for tactical readability.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_AETHER_SIGNATURE_VFX",
+      "treeId": "TREE_CA002_MYS_AETHER",
+      "assetKind": "SIGNATURE_VFX",
+      "description": "Cinematic capstone effect with reduced-motion variant.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_AETHER_SFX_SET",
+      "treeId": "TREE_CA002_MYS_AETHER",
+      "assetKind": "SFX_SET",
+      "description": "Cast, travel, impact, field, status, and signature audio set.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_SHADOW_CAST_MOTION",
+      "treeId": "TREE_CA002_MYS_SHADOW",
+      "assetKind": "CAST_MOTION",
+      "description": "Reusable short, standard, and high-tier casting motion.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_SHADOW_PROJECTILE_OR_FIELD_VFX",
+      "treeId": "TREE_CA002_MYS_SHADOW",
+      "assetKind": "PROJECTILE_OR_FIELD_VFX",
+      "description": "Distinct projectile, beam, field, barrier, or heal visual language.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_SHADOW_IMPACT_OR_RECIPIENT_VFX",
+      "treeId": "TREE_CA002_MYS_SHADOW",
+      "assetKind": "IMPACT_OR_RECIPIENT_VFX",
+      "description": "Readable effect on target/recipient and status application.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_SHADOW_STATUS_LOOP_VFX",
+      "treeId": "TREE_CA002_MYS_SHADOW",
+      "assetKind": "STATUS_LOOP_VFX",
+      "description": "Low-cost pooled status loop for tactical readability.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_SHADOW_SIGNATURE_VFX",
+      "treeId": "TREE_CA002_MYS_SHADOW",
+      "assetKind": "SIGNATURE_VFX",
+      "description": "Cinematic capstone effect with reduced-motion variant.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_SHADOW_SFX_SET",
+      "treeId": "TREE_CA002_MYS_SHADOW",
+      "assetKind": "SFX_SET",
+      "description": "Cast, travel, impact, field, status, and signature audio set.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_RESTORATION_CAST_MOTION",
+      "treeId": "TREE_CA002_MYS_RESTORATION",
+      "assetKind": "CAST_MOTION",
+      "description": "Reusable short, standard, and high-tier casting motion.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_RESTORATION_PROJECTILE_OR_FIELD_VFX",
+      "treeId": "TREE_CA002_MYS_RESTORATION",
+      "assetKind": "PROJECTILE_OR_FIELD_VFX",
+      "description": "Distinct projectile, beam, field, barrier, or heal visual language.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_RESTORATION_IMPACT_OR_RECIPIENT_VFX",
+      "treeId": "TREE_CA002_MYS_RESTORATION",
+      "assetKind": "IMPACT_OR_RECIPIENT_VFX",
+      "description": "Readable effect on target/recipient and status application.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_RESTORATION_STATUS_LOOP_VFX",
+      "treeId": "TREE_CA002_MYS_RESTORATION",
+      "assetKind": "STATUS_LOOP_VFX",
+      "description": "Low-cost pooled status loop for tactical readability.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_RESTORATION_SIGNATURE_VFX",
+      "treeId": "TREE_CA002_MYS_RESTORATION",
+      "assetKind": "SIGNATURE_VFX",
+      "description": "Cinematic capstone effect with reduced-motion variant.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_RESTORATION_SFX_SET",
+      "treeId": "TREE_CA002_MYS_RESTORATION",
+      "assetKind": "SFX_SET",
+      "description": "Cast, travel, impact, field, status, and signature audio set.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_WARDING_CAST_MOTION",
+      "treeId": "TREE_CA002_MYS_WARDING",
+      "assetKind": "CAST_MOTION",
+      "description": "Reusable short, standard, and high-tier casting motion.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_WARDING_PROJECTILE_OR_FIELD_VFX",
+      "treeId": "TREE_CA002_MYS_WARDING",
+      "assetKind": "PROJECTILE_OR_FIELD_VFX",
+      "description": "Distinct projectile, beam, field, barrier, or heal visual language.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_WARDING_IMPACT_OR_RECIPIENT_VFX",
+      "treeId": "TREE_CA002_MYS_WARDING",
+      "assetKind": "IMPACT_OR_RECIPIENT_VFX",
+      "description": "Readable effect on target/recipient and status application.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_WARDING_STATUS_LOOP_VFX",
+      "treeId": "TREE_CA002_MYS_WARDING",
+      "assetKind": "STATUS_LOOP_VFX",
+      "description": "Low-cost pooled status loop for tactical readability.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_WARDING_SIGNATURE_VFX",
+      "treeId": "TREE_CA002_MYS_WARDING",
+      "assetKind": "SIGNATURE_VFX",
+      "description": "Cinematic capstone effect with reduced-motion variant.",
+      "priority": "P1",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    },
+    {
+      "id": "ASSET009_WARDING_SFX_SET",
+      "treeId": "TREE_CA002_MYS_WARDING",
+      "assetKind": "SFX_SET",
+      "description": "Cast, travel, impact, field, status, and signature audio set.",
+      "priority": "P0",
+      "requiredForAll300Characters": false,
+      "sharedAcrossTree": true
+    }
+  ]
+}

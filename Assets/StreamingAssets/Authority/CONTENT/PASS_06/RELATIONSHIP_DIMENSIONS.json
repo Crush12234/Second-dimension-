@@ -1,0 +1,450 @@
+{
+  "contentVersion": "GOW_PASS06_0.11",
+  "storageModel": "SPARSE_DIRECTED_EDGE",
+  "dimensions": [
+    {
+      "id": "REL_TRUST",
+      "displayName": "Trust",
+      "minimum": -1000,
+      "maximum": 1000,
+      "directed": true,
+      "defaultVisibility": "BAND_AND_REASONS",
+      "description": "Belief that the other person will act honestly, keep commitments, and avoid exploiting vulnerability.",
+      "gainConditions": [
+        "kept promises",
+        "transparent risk sharing",
+        "successful rescue",
+        "responsible leadership",
+        "confidentiality respected"
+      ],
+      "lossConditions": [
+        "broken promises",
+        "concealed danger",
+        "using private information",
+        "abandonment without necessity"
+      ],
+      "saturationRule": "Positive gains diminish above 700; catastrophic memories can still move the value substantially.",
+      "decayRule": "Does not passively decay. Unused weak trust becomes described as untested rather than reduced.",
+      "combatEffects": [
+        "Cohesion reliability",
+        "complex Forecast coordination",
+        "withdrawal compliance",
+        "Link Art readiness"
+      ],
+      "dutyEffects": [
+        "joint assignment reliability",
+        "mentorship eligibility",
+        "equipment lending conversations"
+      ]
+    },
+    {
+      "id": "REL_RESPECT",
+      "displayName": "Respect",
+      "minimum": -1000,
+      "maximum": 1000,
+      "directed": true,
+      "defaultVisibility": "BAND_AND_REASONS",
+      "description": "Recognition of skill, judgment, courage, integrity, or earned authority.",
+      "gainConditions": [
+        "competence under pressure",
+        "accountability after failure",
+        "mastery",
+        "public service",
+        "admitting uncertainty"
+      ],
+      "lossConditions": [
+        "reckless posturing",
+        "humiliation",
+        "claiming credit",
+        "unearned authority"
+      ],
+      "saturationRule": "Repeated trivial victories have sharply reduced impact.",
+      "decayRule": "Stable unless contradicted by later conduct.",
+      "combatEffects": [
+        "leader compliance",
+        "rivalry performance",
+        "mentor observation"
+      ],
+      "dutyEffects": [
+        "staff cooperation",
+        "teaching efficiency",
+        "mediation credibility"
+      ]
+    },
+    {
+      "id": "REL_FAMILIARITY",
+      "displayName": "Familiarity",
+      "minimum": 0,
+      "maximum": 1000,
+      "directed": true,
+      "defaultVisibility": "VISIBLE_BAND",
+      "description": "How well one person knows the other person’s habits, tells, limits, and everyday self.",
+      "gainConditions": [
+        "shared missions",
+        "shared duties",
+        "meals",
+        "training",
+        "quiet Hall scenes"
+      ],
+      "lossConditions": [
+        "none ordinarily"
+      ],
+      "saturationRule": "Routine contact gains diminish above 800.",
+      "decayRule": "Very slow descriptive staleness after years apart; stored history remains.",
+      "combatEffects": [
+        "prediction of protective or fallback behavior",
+        "reduced Link Art interruption"
+      ],
+      "dutyEffects": [
+        "conversation variety",
+        "event eligibility",
+        "better task pairing"
+      ]
+    },
+    {
+      "id": "REL_CAMARADERIE",
+      "displayName": "Camaraderie",
+      "minimum": -500,
+      "maximum": 1000,
+      "directed": true,
+      "defaultVisibility": "VISIBLE_BAND",
+      "description": "Enjoyment, ease, and shared identity developed through work and ordinary life.",
+      "gainConditions": [
+        "shared humor",
+        "celebrations",
+        "successful teamwork",
+        "Union traditions",
+        "mutual hobbies"
+      ],
+      "lossConditions": [
+        "persistent contempt",
+        "social exclusion",
+        "mockery of vulnerability"
+      ],
+      "saturationRule": "Requires varied memories; repeating the same social event gives little gain.",
+      "decayRule": "Small decay only when relationship decay is enabled and contact is absent for long periods.",
+      "combatEffects": [
+        "morale recovery",
+        "low-stakes coordination",
+        "post-battle recovery"
+      ],
+      "dutyEffects": [
+        "staff morale",
+        "training persistence",
+        "Hall event tone"
+      ]
+    },
+    {
+      "id": "REL_RIVALRY",
+      "displayName": "Rivalry",
+      "minimum": 0,
+      "maximum": 1000,
+      "directed": true,
+      "defaultVisibility": "VISIBLE_BAND",
+      "description": "Desire to test oneself against the other person. Rivalry may be constructive, tense, or hostile depending on Trust and Respect.",
+      "gainConditions": [
+        "contests",
+        "parallel achievements",
+        "challenged standards",
+        "shared ambition"
+      ],
+      "lossConditions": [
+        "resolved rivalry",
+        "one-sided humiliation",
+        "withdrawal from competition"
+      ],
+      "saturationRule": "Rivalry above 700 cannot grow from trivial contests.",
+      "decayRule": "May soften through reconciliation or diverging life paths.",
+      "combatEffects": [
+        "performance pressure",
+        "formation-break follow-up",
+        "risk of overextension when Trust is low"
+      ],
+      "dutyEffects": [
+        "training intensity",
+        "competition events",
+        "leadership disputes"
+      ]
+    },
+    {
+      "id": "REL_FRICTION",
+      "displayName": "Friction",
+      "minimum": 0,
+      "maximum": 1000,
+      "directed": true,
+      "defaultVisibility": "BAND_AND_REASONS",
+      "description": "Accumulated irritation, unresolved disagreement, or incompatible working habits.",
+      "gainConditions": [
+        "arguments",
+        "ignored boundaries",
+        "repeated duty mismatch",
+        "cultural disrespect"
+      ],
+      "lossConditions": [
+        "apology",
+        "restitution",
+        "successful mediation",
+        "earned understanding"
+      ],
+      "saturationRule": "Minor annoyances cannot raise Friction above 500 without a continuing unresolved cause.",
+      "decayRule": "Can cool slowly if enabled, but the associated memories remain visible.",
+      "combatEffects": [
+        "complex Forecast reliability",
+        "Link Art interruption",
+        "temporary Union refusal at extreme values"
+      ],
+      "dutyEffects": [
+        "staff conflict",
+        "mentorship burnout",
+        "mediation eligibility"
+      ]
+    },
+    {
+      "id": "REL_GRATITUDE",
+      "displayName": "Gratitude",
+      "minimum": -500,
+      "maximum": 1000,
+      "directed": true,
+      "defaultVisibility": "VISIBLE_BAND",
+      "description": "Recognition of meaningful help, sacrifice, teaching, or care.",
+      "gainConditions": [
+        "rescue",
+        "caregiving",
+        "approved gift",
+        "mentorship",
+        "defending reputation"
+      ],
+      "lossConditions": [
+        "help weaponized as leverage",
+        "debt manipulation",
+        "betrayal after aid"
+      ],
+      "saturationRule": "Small favors cannot repeatedly produce large gains.",
+      "decayRule": "Does not decay automatically; may be reinterpreted by later events.",
+      "combatEffects": [
+        "protective weighting",
+        "rescue priority",
+        "morale after aid"
+      ],
+      "dutyEffects": [
+        "voluntary assistance",
+        "quest hooks",
+        "gift discussions"
+      ]
+    },
+    {
+      "id": "REL_PROTECTIVENESS",
+      "displayName": "Protectiveness",
+      "minimum": 0,
+      "maximum": 1000,
+      "directed": true,
+      "defaultVisibility": "BAND_AND_REASONS",
+      "description": "Willingness to accept risk to prevent harm to the other person.",
+      "gainConditions": [
+        "caregiving",
+        "shared vulnerability",
+        "family-like bond",
+        "rescue history"
+      ],
+      "lossConditions": [
+        "autonomy conflict",
+        "protection rejected repeatedly",
+        "betrayal"
+      ],
+      "saturationRule": "Cannot grow from harmless Guard spam; only meaningful danger or sustained care counts.",
+      "decayRule": "Stable, but can be moderated through autonomy conversations.",
+      "combatEffects": [
+        "Guard and rescue Forecast weighting",
+        "interception preference",
+        "withdrawal priorities"
+      ],
+      "dutyEffects": [
+        "infirmary visits",
+        "escort offers",
+        "potential overprotection conflict"
+      ]
+    },
+    {
+      "id": "REL_FEAR",
+      "displayName": "Fear",
+      "minimum": 0,
+      "maximum": 1000,
+      "directed": true,
+      "defaultVisibility": "BAND_AND_REASONS",
+      "description": "Fear of the other person’s behavior, power, judgment, or capacity to cause harm.",
+      "gainConditions": [
+        "threats",
+        "uncontrolled violence",
+        "coercion",
+        "repeated unpredictable conduct"
+      ],
+      "lossConditions": [
+        "safe conduct",
+        "accountability",
+        "clear boundaries",
+        "restorative action"
+      ],
+      "saturationRule": "Reassurance without changed conduct has little effect.",
+      "decayRule": "May reduce slowly with safe repeated contact if enabled.",
+      "combatEffects": [
+        "compliance under pressure",
+        "Cohesion penalties",
+        "avoidance"
+      ],
+      "dutyEffects": [
+        "assignment refusal",
+        "mediation need",
+        "trauma events"
+      ]
+    },
+    {
+      "id": "REL_GRIEF_BOND",
+      "displayName": "Grief Bond",
+      "minimum": 0,
+      "maximum": 1000,
+      "directed": true,
+      "defaultVisibility": "VISIBLE_BAND",
+      "description": "Connection formed by shared loss, memorial duty, or surviving the same tragedy.",
+      "gainConditions": [
+        "memorials",
+        "shared loss",
+        "failed rescue recovery",
+        "support during mourning"
+      ],
+      "lossConditions": [
+        "grief exploited",
+        "memory dismissed"
+      ],
+      "saturationRule": "Requires distinct grief memories.",
+      "decayRule": "Never passively decays; its meaning can change.",
+      "combatEffects": [
+        "emergency resolve",
+        "risk of trauma trigger",
+        "memorial Link Art hooks"
+      ],
+      "dutyEffects": [
+        "Chronicle scenes",
+        "caregiving",
+        "legacy quests"
+      ]
+    },
+    {
+      "id": "REL_MENTORSHIP",
+      "displayName": "Mentorship Bond",
+      "minimum": -500,
+      "maximum": 1000,
+      "directed": true,
+      "defaultVisibility": "VISIBLE_BAND",
+      "description": "Quality of the teaching relationship, including patience, authority, confidence, and willingness to learn.",
+      "gainConditions": [
+        "successful lessons",
+        "honest correction",
+        "graduation milestones",
+        "mentor advocacy"
+      ],
+      "lossConditions": [
+        "dismissal",
+        "unsafe instruction",
+        "dependency pressure",
+        "burnout ignored"
+      ],
+      "saturationRule": "Cannot be raised by repeating effortless lessons.",
+      "decayRule": "Stable after graduation; may become collegial respect.",
+      "combatEffects": [
+        "observational learning",
+        "apprentice compliance",
+        "mentor rescue behavior"
+      ],
+      "dutyEffects": [
+        "Discovery acceleration",
+        "lesson eligibility",
+        "succession"
+      ]
+    },
+    {
+      "id": "REL_CULTURAL_UNDERSTANDING",
+      "displayName": "Cultural Understanding",
+      "minimum": -500,
+      "maximum": 1000,
+      "directed": true,
+      "defaultVisibility": "BAND_AND_REASONS",
+      "description": "Understanding of the other person’s cultural practices without claiming to represent or own their culture.",
+      "gainConditions": [
+        "listening",
+        "language learning",
+        "shared ritual with permission",
+        "repair after misunderstanding"
+      ],
+      "lossConditions": [
+        "stereotyping",
+        "appropriation",
+        "speaking over community members",
+        "mockery"
+      ],
+      "saturationRule": "One person cannot confer authority over an entire culture.",
+      "decayRule": "Knowledge remains, but trust in its use can change.",
+      "combatEffects": [
+        "cultural technique coordination",
+        "mixed-Union Link Arts"
+      ],
+      "dutyEffects": [
+        "Embassy work",
+        "cross-cultural mentorship",
+        "world-trust events"
+      ]
+    },
+    {
+      "id": "REL_AFFECTION",
+      "displayName": "Affection",
+      "minimum": 0,
+      "maximum": 1000,
+      "directed": true,
+      "defaultVisibility": "HIDDEN_UNTIL_ACKNOWLEDGED",
+      "description": "Optional warmth or attraction. It never substitutes for Trust, Respect, friendship, or consent.",
+      "gainConditions": [
+        "mutually compatible personal moments",
+        "explicitly welcomed closeness",
+        "shared values"
+      ],
+      "lossConditions": [
+        "boundary violation",
+        "rejection handled poorly",
+        "coercion"
+      ],
+      "saturationRule": "No gain from gifts, currency, or repeated menu interactions.",
+      "decayRule": "Only through authored choices and settings; refusal of romance is not a penalty.",
+      "combatEffects": [
+        "none directly; may qualify a consensual relationship event only"
+      ],
+      "dutyEffects": [
+        "optional social-event eligibility"
+      ]
+    },
+    {
+      "id": "REL_ROMANTIC_INTEREST",
+      "displayName": "Romantic Interest",
+      "minimum": 0,
+      "maximum": 1000,
+      "directed": true,
+      "defaultVisibility": "HIDDEN_UNTIL_EXPLICIT_CONSENT",
+      "description": "Optional future-capable romantic interest requiring adult compatibility and explicit mutual consent.",
+      "gainConditions": [
+        "explicit mutual consent flags only"
+      ],
+      "lossConditions": [
+        "withdrawn consent",
+        "boundary violation"
+      ],
+      "saturationRule": "Cannot be raised by combat bonuses, paid items, gifts, or forced dialogue.",
+      "decayRule": "May be ended without punishment to either participant.",
+      "combatEffects": [
+        "none"
+      ],
+      "dutyEffects": [
+        "optional consensual scene eligibility only"
+      ]
+    }
+  ],
+  "serializationRule": "Store an edge only when at least one dimension is nonzero, an unresolved conflict exists, or a relationship memory references the pair.",
+  "romanceNeutrality": "Friendship, professional respect, rivalry, mentorship, and family-like bonds are complete paths. Romance is never required and cannot be purchased."
+}

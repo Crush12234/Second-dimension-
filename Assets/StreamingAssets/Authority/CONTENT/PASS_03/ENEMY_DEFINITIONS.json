@@ -1,0 +1,2368 @@
+{
+  "contentVersion": "GOW_PASS03_0.8",
+  "familyCount": 15,
+  "enemyDefinitionCount": 30,
+  "families": [
+    {
+      "id": "ENEMY_FAMILY_GATE_GNAWER",
+      "displayName": "Gate Gnawer",
+      "tier": "NORMAL",
+      "role": "FORMATION_NUISANCE",
+      "visualIdentity": "Six-legged stone-and-copper scavenger with luminous teeth worn flat by gate masonry.",
+      "coreBehavior": "Bites braces, pulls at formation edges, and flees from sustained light.",
+      "defaultFormationId": "FORMATION_SKIRMISH_LINE",
+      "artIds": [
+        "ART_QUICK_CUT",
+        "ART_HAMSTRING",
+        "ART_STEP_BACK"
+      ],
+      "strengths": [
+        "High mobility",
+        "Damages structures and Cohesion"
+      ],
+      "weaknesses": [
+        "Light wards",
+        "Guarded chokepoints"
+      ],
+      "lootTable": [
+        "LOOT_GATE_TOOTH",
+        "LOOT_COPPER_GRIT"
+      ],
+      "environmentalInteractions": [
+        "GATEWORKS_METAL",
+        "UNSTABLE_GATE_FIELDS"
+      ],
+      "animationTags": [
+        "ANIM_GATE_GNAWER"
+      ],
+      "vfxTags": [
+        "VFX_FORMATION_NUISANCE"
+      ],
+      "audioTags": [
+        "SFX_GATE_GNAWER"
+      ],
+      "difficultyVariants": [
+        "RELAXED",
+        "STANDARD",
+        "IRON"
+      ],
+      "scalingRule": {
+        "hpPerDifficultyPermille": 120,
+        "damagePerDifficultyPermille": 90,
+        "cohesionPerDifficultyPermille": 80
+      }
+    },
+    {
+      "id": "ENEMY_FAMILY_RUSTBACK_HOUND",
+      "displayName": "Rustback Hound",
+      "tier": "NORMAL",
+      "role": "HUNTER",
+      "visualIdentity": "Lean pack beast with iron-red plates, scent vents, and a worker’s rope still caught around one foreleg.",
+      "coreBehavior": "Marks wounded targets, circles exposed rear positions, and retreats when isolated.",
+      "defaultFormationId": "FORMATION_CRESCENT",
+      "artIds": [
+        "ART_MARKED_TARGET",
+        "ART_REARLINE_STEP",
+        "ART_RETREATING_FIRE"
+      ],
+      "strengths": [
+        "Tracks wounded targets",
+        "Strong flank response"
+      ],
+      "weaknesses": [
+        "Smoke and scent masking",
+        "Shield Wall"
+      ],
+      "lootTable": [
+        "LOOT_RUST_PLATE",
+        "LOOT_SCENT_GLAND"
+      ],
+      "environmentalInteractions": [
+        "OUTER_GATEWORKS_TERRAIN"
+      ],
+      "animationTags": [
+        "ANIM_RUSTBACK_HOUND"
+      ],
+      "vfxTags": [
+        "VFX_HUNTER"
+      ],
+      "audioTags": [
+        "SFX_RUSTBACK_HOUND"
+      ],
+      "difficultyVariants": [
+        "RELAXED",
+        "STANDARD",
+        "IRON"
+      ],
+      "scalingRule": {
+        "hpPerDifficultyPermille": 120,
+        "damagePerDifficultyPermille": 90,
+        "cohesionPerDifficultyPermille": 80
+      }
+    },
+    {
+      "id": "ENEMY_FAMILY_HOLLOW_SALVAGER",
+      "displayName": "Hollow Salvager",
+      "tier": "NORMAL",
+      "role": "MARTIAL_RAIDER",
+      "visualIdentity": "Empty maintenance armor animated by loose XP dust and fragments of old work orders.",
+      "coreBehavior": "Steals dropped resources, braces under pressure, and repeats the last command it heard.",
+      "defaultFormationId": "FORMATION_SHIELD_WALL",
+      "artIds": [
+        "ART_SHIELD_BRACE",
+        "ART_POWER_CUT",
+        "ART_ASSIST_ALLY"
+      ],
+      "strengths": [
+        "Durable front line",
+        "Can recover supplies"
+      ],
+      "weaknesses": [
+        "Mystic disruption",
+        "Rear attacks"
+      ],
+      "lootTable": [
+        "LOOT_HOLLOW_RIVET",
+        "LOOT_WORK_ORDER_FRAGMENT"
+      ],
+      "environmentalInteractions": [
+        "OUTER_GATEWORKS_TERRAIN"
+      ],
+      "animationTags": [
+        "ANIM_HOLLOW_SALVAGER"
+      ],
+      "vfxTags": [
+        "VFX_MARTIAL_RAIDER"
+      ],
+      "audioTags": [
+        "SFX_HOLLOW_SALVAGER"
+      ],
+      "difficultyVariants": [
+        "RELAXED",
+        "STANDARD",
+        "IRON"
+      ],
+      "scalingRule": {
+        "hpPerDifficultyPermille": 120,
+        "damagePerDifficultyPermille": 90,
+        "cohesionPerDifficultyPermille": 80
+      }
+    },
+    {
+      "id": "ENEMY_FAMILY_SHARDWING_SWARM",
+      "displayName": "Shardwing Swarm",
+      "tier": "NORMAL",
+      "role": "RANGED_SIGNAL",
+      "visualIdentity": "Flock of translucent insects that flash gate-blue patterns between knife-like wings.",
+      "coreBehavior": "Signals allied Unions, peppers rear slots, and disperses when struck by broad fields.",
+      "defaultFormationId": "FORMATION_ARCANE_CIRCLE",
+      "artIds": [
+        "ART_COVERING_VOLLEY",
+        "ART_DISRUPTING_SHOT",
+        "ART_SMOKE_FEINT"
+      ],
+      "strengths": [
+        "Improves allied targeting",
+        "Difficult to pin"
+      ],
+      "weaknesses": [
+        "Area Mystic Arts",
+        "Wind effects"
+      ],
+      "lootTable": [
+        "LOOT_SHARDWING_FILM",
+        "LOOT_SIGNAL_DUST"
+      ],
+      "environmentalInteractions": [
+        "OUTER_GATEWORKS_TERRAIN"
+      ],
+      "animationTags": [
+        "ANIM_SHARDWING_SWARM"
+      ],
+      "vfxTags": [
+        "VFX_RANGED_SIGNAL"
+      ],
+      "audioTags": [
+        "SFX_SHARDWING_SWARM"
+      ],
+      "difficultyVariants": [
+        "RELAXED",
+        "STANDARD",
+        "IRON"
+      ],
+      "scalingRule": {
+        "hpPerDifficultyPermille": 120,
+        "damagePerDifficultyPermille": 90,
+        "cohesionPerDifficultyPermille": 80
+      }
+    },
+    {
+      "id": "ENEMY_FAMILY_TOLLROAD_CUTTER",
+      "displayName": "Tollroad Cutter",
+      "tier": "NORMAL",
+      "role": "HUMANOID_BANDIT",
+      "visualIdentity": "Mixed-race opportunists wearing altered civic vests and fraudulent charter badges.",
+      "coreBehavior": "Demands surrender, targets supplies, and withdraws if its leader is exposed.",
+      "defaultFormationId": "FORMATION_WEDGE",
+      "artIds": [
+        "ART_TWIN_SLASH",
+        "ART_PINNING_SHOT",
+        "ART_FALSE_RETREAT_SIGNAL"
+      ],
+      "strengths": [
+        "Flexible roles",
+        "Uses deception and hostage pressure"
+      ],
+      "weaknesses": [
+        "Leadership checks",
+        "Leader disruption"
+      ],
+      "lootTable": [
+        "LOOT_FALSE_BADGE",
+        "LOOT_CUTTER_KIT"
+      ],
+      "environmentalInteractions": [
+        "OUTER_GATEWORKS_TERRAIN"
+      ],
+      "animationTags": [
+        "ANIM_TOLLROAD_CUTTER"
+      ],
+      "vfxTags": [
+        "VFX_HUMANOID_BANDIT"
+      ],
+      "audioTags": [
+        "SFX_TOLLROAD_CUTTER"
+      ],
+      "difficultyVariants": [
+        "RELAXED",
+        "STANDARD",
+        "IRON"
+      ],
+      "scalingRule": {
+        "hpPerDifficultyPermille": 120,
+        "damagePerDifficultyPermille": 90,
+        "cohesionPerDifficultyPermille": 80
+      }
+    },
+    {
+      "id": "ENEMY_FAMILY_RIFT_MOLD_CREEPER",
+      "displayName": "Rift-Mold Creeper",
+      "tier": "NORMAL",
+      "role": "ZONE_CONTROL",
+      "visualIdentity": "Luminous fungus walking on root-like cords, growing along warm dimensional fractures.",
+      "coreBehavior": "Creates hazardous fields, drains MP, and anchors itself near anomalies.",
+      "defaultFormationId": "FORMATION_ARCANE_CIRCLE",
+      "artIds": [
+        "ART_FROST_THREAD",
+        "ART_ELEMENTAL_FIELD",
+        "ART_STONE_WARD"
+      ],
+      "strengths": [
+        "Area denial",
+        "MP pressure"
+      ],
+      "weaknesses": [
+        "Fire and Crafting solutions",
+        "Forced movement"
+      ],
+      "lootTable": [
+        "LOOT_RIFT_SPORE",
+        "LOOT_LIVING_CORD"
+      ],
+      "environmentalInteractions": [
+        "OUTER_GATEWORKS_TERRAIN"
+      ],
+      "animationTags": [
+        "ANIM_RIFT_MOLD_CREEPER"
+      ],
+      "vfxTags": [
+        "VFX_ZONE_CONTROL"
+      ],
+      "audioTags": [
+        "SFX_RIFT_MOLD_CREEPER"
+      ],
+      "difficultyVariants": [
+        "RELAXED",
+        "STANDARD",
+        "IRON"
+      ],
+      "scalingRule": {
+        "hpPerDifficultyPermille": 120,
+        "damagePerDifficultyPermille": 90,
+        "cohesionPerDifficultyPermille": 80
+      }
+    },
+    {
+      "id": "ENEMY_FAMILY_GATEIRON_BRUTE",
+      "displayName": "Gateiron Brute",
+      "tier": "ELITE",
+      "role": "FORMATION_BREAKER",
+      "visualIdentity": "A maintenance-lifter construct with one arm rebuilt into a massive gate-hinge hammer.",
+      "coreBehavior": "Telegraphs line-breaking blows and protects smaller constructs behind its frame.",
+      "defaultFormationId": "FORMATION_WEDGE",
+      "artIds": [
+        "ART_HAMMERFALL",
+        "ART_GUARD_SPLITTER",
+        "ART_ANCHOR_STANCE"
+      ],
+      "strengths": [
+        "Severe Cohesion damage",
+        "High frontal defense"
+      ],
+      "weaknesses": [
+        "Flanks",
+        "Mystic armor bypass"
+      ],
+      "lootTable": [
+        "LOOT_GATEIRON_PLATE",
+        "LOOT_HINGE_CORE"
+      ],
+      "environmentalInteractions": [
+        "GATEWORKS_METAL",
+        "UNSTABLE_GATE_FIELDS"
+      ],
+      "animationTags": [
+        "ANIM_GATEIRON_BRUTE"
+      ],
+      "vfxTags": [
+        "VFX_FORMATION_BREAKER"
+      ],
+      "audioTags": [
+        "SFX_GATEIRON_BRUTE"
+      ],
+      "difficultyVariants": [
+        "RELAXED",
+        "STANDARD",
+        "IRON"
+      ],
+      "scalingRule": {
+        "hpPerDifficultyPermille": 120,
+        "damagePerDifficultyPermille": 90,
+        "cohesionPerDifficultyPermille": 80
+      }
+    },
+    {
+      "id": "ENEMY_FAMILY_ECHO_STALKER",
+      "displayName": "Echo Stalker",
+      "tier": "ELITE",
+      "role": "AMBUSH_PREDATOR",
+      "visualIdentity": "A stretched shadow-creature that occupies the delay between a sound and its echo.",
+      "coreBehavior": "Copies recent movement, attacks isolated members, and vanishes after failed strikes.",
+      "defaultFormationId": "FORMATION_VEILED_ECHELON",
+      "artIds": [
+        "ART_SILENT_MARK",
+        "ART_VANISHING_COUNTER",
+        "ART_NIGHTFALL_ROUTE"
+      ],
+      "strengths": [
+        "Ambush",
+        "Punishes repetition"
+      ],
+      "weaknesses": [
+        "Unpredictable movement",
+        "Revealed routes and bells"
+      ],
+      "lootTable": [
+        "LOOT_ECHO_FILAMENT",
+        "LOOT_SILENT_CORE"
+      ],
+      "environmentalInteractions": [
+        "OUTER_GATEWORKS_TERRAIN"
+      ],
+      "animationTags": [
+        "ANIM_ECHO_STALKER"
+      ],
+      "vfxTags": [
+        "VFX_AMBUSH_PREDATOR"
+      ],
+      "audioTags": [
+        "SFX_ECHO_STALKER"
+      ],
+      "difficultyVariants": [
+        "RELAXED",
+        "STANDARD",
+        "IRON"
+      ],
+      "scalingRule": {
+        "hpPerDifficultyPermille": 120,
+        "damagePerDifficultyPermille": 90,
+        "cohesionPerDifficultyPermille": 80
+      }
+    },
+    {
+      "id": "ENEMY_FAMILY_BRASSJAW_PACKLORD",
+      "displayName": "Brassjaw Packlord",
+      "tier": "ELITE",
+      "role": "PACK_COMMANDER",
+      "visualIdentity": "Old rustback hound with a brass jaw brace, tracking ribbons, and disciplined scars.",
+      "coreBehavior": "Coordinates pack marks, protects wounded beasts, and calls a withdrawal before annihilation.",
+      "defaultFormationId": "FORMATION_CRESCENT",
+      "artIds": [
+        "ART_WEAKPOINT_CALL",
+        "CULT_DOG_TRIBE_GUARD_THE_STRAGGLER",
+        "ART_STORMLINE_SHOT"
+      ],
+      "strengths": [
+        "Pack coordination",
+        "Morale and rescue"
+      ],
+      "weaknesses": [
+        "Leader pressure",
+        "Cleansed marks"
+      ],
+      "lootTable": [
+        "LOOT_BRASSJAW_BRACE",
+        "LOOT_PACK_RIBBON"
+      ],
+      "environmentalInteractions": [
+        "OUTER_GATEWORKS_TERRAIN"
+      ],
+      "animationTags": [
+        "ANIM_BRASSJAW_PACKLORD"
+      ],
+      "vfxTags": [
+        "VFX_PACK_COMMANDER"
+      ],
+      "audioTags": [
+        "SFX_BRASSJAW_PACKLORD"
+      ],
+      "difficultyVariants": [
+        "RELAXED",
+        "STANDARD",
+        "IRON"
+      ],
+      "scalingRule": {
+        "hpPerDifficultyPermille": 120,
+        "damagePerDifficultyPermille": 90,
+        "cohesionPerDifficultyPermille": 80
+      }
+    },
+    {
+      "id": "ENEMY_FAMILY_PULSE_SCRIBE",
+      "displayName": "Pulse Scribe",
+      "tier": "SUPPORT",
+      "role": "MYSTIC_SUPPORT",
+      "visualIdentity": "Tripod maintenance scribe inscribing luminous timing marks across walls and allies.",
+      "coreBehavior": "Accelerates allied MP recovery, reads visible telegraphs, and withdraws behind front lines.",
+      "defaultFormationId": "FORMATION_ARCANE_CIRCLE",
+      "artIds": [
+        "ART_MANA_WEAVE",
+        "ART_WARD_SIGIL",
+        "ART_COUNTERSPELL_KNOT"
+      ],
+      "strengths": [
+        "MP sustain",
+        "Counter-magic"
+      ],
+      "weaknesses": [
+        "Rear-line access",
+        "Signal interruption"
+      ],
+      "lootTable": [
+        "LOOT_PULSE_CHALK",
+        "LOOT_TIMING_LENS"
+      ],
+      "environmentalInteractions": [
+        "OUTER_GATEWORKS_TERRAIN"
+      ],
+      "animationTags": [
+        "ANIM_PULSE_SCRIBE"
+      ],
+      "vfxTags": [
+        "VFX_MYSTIC_SUPPORT"
+      ],
+      "audioTags": [
+        "SFX_PULSE_SCRIBE"
+      ],
+      "difficultyVariants": [
+        "RELAXED",
+        "STANDARD",
+        "IRON"
+      ],
+      "scalingRule": {
+        "hpPerDifficultyPermille": 120,
+        "damagePerDifficultyPermille": 90,
+        "cohesionPerDifficultyPermille": 80
+      }
+    },
+    {
+      "id": "ENEMY_FAMILY_CHAINCALLER",
+      "displayName": "Chaincaller",
+      "tier": "SUPPORT",
+      "role": "CONTROL",
+      "visualIdentity": "Humanoid in layered salvage chains, each link engraved with a different fraudulent claim.",
+      "coreBehavior": "Pulls targets out of formation, locks routes, and spends AP to maintain control.",
+      "defaultFormationId": "FORMATION_SKIRMISH_LINE",
+      "artIds": [
+        "ART_GALE_PUSH",
+        "ART_PINNING_ARROW",
+        "ART_CUT_THE_SIGNAL"
+      ],
+      "strengths": [
+        "Forced movement",
+        "Route denial"
+      ],
+      "weaknesses": [
+        "Chain-breaking attacks",
+        "AP drain"
+      ],
+      "lootTable": [
+        "LOOT_CLAIM_CHAIN",
+        "LOOT_BROKEN_SEAL"
+      ],
+      "environmentalInteractions": [
+        "OUTER_GATEWORKS_TERRAIN"
+      ],
+      "animationTags": [
+        "ANIM_CHAINCALLER"
+      ],
+      "vfxTags": [
+        "VFX_CONTROL"
+      ],
+      "audioTags": [
+        "SFX_CHAINCALLER"
+      ],
+      "difficultyVariants": [
+        "RELAXED",
+        "STANDARD",
+        "IRON"
+      ],
+      "scalingRule": {
+        "hpPerDifficultyPermille": 120,
+        "damagePerDifficultyPermille": 90,
+        "cohesionPerDifficultyPermille": 80
+      }
+    },
+    {
+      "id": "ENEMY_FAMILY_ASH_MEDIC",
+      "displayName": "Ash Medic",
+      "tier": "SUPPORT",
+      "role": "RESTORATION",
+      "visualIdentity": "Former relief automaton coated in soot, still following an obsolete triage hierarchy.",
+      "coreBehavior": "Heals the highest-authority ally first, cleanses structural statuses, and refuses low-priority civilians.",
+      "defaultFormationId": "FORMATION_RESCUE_COLUMN",
+      "artIds": [
+        "ART_FIELD_REMEDY",
+        "ART_CLEANSE",
+        "ART_PROTECTIVE_WORD"
+      ],
+      "strengths": [
+        "Reliable Restoration",
+        "Status cleansing"
+      ],
+      "weaknesses": [
+        "Priority manipulation",
+        "Rear-line pressure"
+      ],
+      "lootTable": [
+        "LOOT_ASHEN_BANDAGE",
+        "LOOT_TRIAGE_CORE"
+      ],
+      "environmentalInteractions": [
+        "OUTER_GATEWORKS_TERRAIN"
+      ],
+      "animationTags": [
+        "ANIM_ASH_MEDIC"
+      ],
+      "vfxTags": [
+        "VFX_RESTORATION"
+      ],
+      "audioTags": [
+        "SFX_ASH_MEDIC"
+      ],
+      "difficultyVariants": [
+        "RELAXED",
+        "STANDARD",
+        "IRON"
+      ],
+      "scalingRule": {
+        "hpPerDifficultyPermille": 120,
+        "damagePerDifficultyPermille": 90,
+        "cohesionPerDifficultyPermille": 80
+      }
+    },
+    {
+      "id": "ENEMY_FAMILY_HINGE_EATER_COLOSSUS",
+      "displayName": "Hinge-Eater Colossus",
+      "tier": "MINIBOSS",
+      "role": "SIEGE_BEAST",
+      "visualIdentity": "Massive burrowing creature armored in stolen gate hinges and bridge pins.",
+      "coreBehavior": "Consumes cover, creates collapsed routes, and exposes a softer underside after charging.",
+      "defaultFormationId": "FORMATION_WEDGE",
+      "artIds": [
+        "ART_VANGUARD_RUSH",
+        "ART_HAMMERFALL",
+        "ART_MARCHING_BASTION"
+      ],
+      "strengths": [
+        "Destroys terrain",
+        "Powerful charge"
+      ],
+      "weaknesses": [
+        "Baited charge",
+        "Exposed underside"
+      ],
+      "lootTable": [
+        "LOOT_COLOSSUS_HINGE",
+        "LOOT_BURIED_GATEGLASS"
+      ],
+      "environmentalInteractions": [
+        "GATEWORKS_METAL",
+        "UNSTABLE_GATE_FIELDS"
+      ],
+      "animationTags": [
+        "ANIM_HINGE_EATER_COLOSSUS"
+      ],
+      "vfxTags": [
+        "VFX_SIEGE_BEAST"
+      ],
+      "audioTags": [
+        "SFX_HINGE_EATER_COLOSSUS"
+      ],
+      "difficultyVariants": [
+        "RELAXED",
+        "STANDARD",
+        "IRON"
+      ],
+      "scalingRule": {
+        "hpPerDifficultyPermille": 120,
+        "damagePerDifficultyPermille": 90,
+        "cohesionPerDifficultyPermille": 80
+      }
+    },
+    {
+      "id": "ENEMY_FAMILY_CAPTAIN_RAVEL",
+      "displayName": "Captain Ravel of the Broken Charter",
+      "tier": "MINIBOSS",
+      "role": "RIVAL_COMMANDER",
+      "visualIdentity": "Charismatic salvage captain in immaculate stolen guild colors, leading people who still believe his promises.",
+      "coreBehavior": "Uses hostages and false retreats, protects his crew, and may surrender if his fraud is publicly proven.",
+      "defaultFormationId": "FORMATION_HOLLOW_SQUARE",
+      "artIds": [
+        "HYBRID_FIELD_COMMANDER",
+        "ART_FALSE_RETREAT_SIGNAL",
+        "ART_COVER_THE_WEAK"
+      ],
+      "strengths": [
+        "Strong leadership",
+        "Flexible Union commands"
+      ],
+      "weaknesses": [
+        "Evidence objectives",
+        "Crew morale"
+      ],
+      "lootTable": [
+        "LOOT_RAVEL_CHARTER",
+        "LOOT_COMMAND_RING"
+      ],
+      "environmentalInteractions": [
+        "GATEWORKS_METAL",
+        "UNSTABLE_GATE_FIELDS"
+      ],
+      "animationTags": [
+        "ANIM_CAPTAIN_RAVEL"
+      ],
+      "vfxTags": [
+        "VFX_RIVAL_COMMANDER"
+      ],
+      "audioTags": [
+        "SFX_CAPTAIN_RAVEL"
+      ],
+      "difficultyVariants": [
+        "RELAXED",
+        "STANDARD",
+        "IRON"
+      ],
+      "scalingRule": {
+        "hpPerDifficultyPermille": 120,
+        "damagePerDifficultyPermille": 90,
+        "cohesionPerDifficultyPermille": 80
+      }
+    },
+    {
+      "id": "ENEMY_FAMILY_GATEHEART_WARDEN",
+      "displayName": "Gateheart Warden",
+      "tier": "BOSS",
+      "role": "MULTI_UNION_COMMANDER",
+      "visualIdentity": "Ancient gate-maintenance commander built from basalt plates, brass ribs, and a blue core that displays obsolete civic law.",
+      "coreBehavior": "Treats relief construction as unauthorized obstruction, commands resonance pylons, and telegraphs system-wide reset orders.",
+      "defaultFormationId": "FORMATION_SHIELD_WALL",
+      "artIds": [
+        "ART_WORLDLINE_FRACTURE",
+        "ART_MARCHING_BASTION",
+        "ART_COUNTERSPELL_KNOT",
+        "ART_UNBROKEN_OATH"
+      ],
+      "strengths": [
+        "Multi-Union coordination",
+        "Gate Reset telegraph",
+        "Pylon support"
+      ],
+      "weaknesses": [
+        "Disabled pylons",
+        "Formation breaks",
+        "Accountable command override"
+      ],
+      "lootTable": [
+        "LOOT_GATEHEART_MEMORY",
+        "LOOT_WARDEN_CORE_FRAGMENT"
+      ],
+      "environmentalInteractions": [
+        "GATEWORKS_METAL",
+        "UNSTABLE_GATE_FIELDS"
+      ],
+      "animationTags": [
+        "ANIM_GATEHEART_WARDEN"
+      ],
+      "vfxTags": [
+        "VFX_MULTI_UNION_COMMANDER"
+      ],
+      "audioTags": [
+        "SFX_GATEHEART_WARDEN"
+      ],
+      "difficultyVariants": [
+        "RELAXED",
+        "STANDARD",
+        "IRON"
+      ],
+      "scalingRule": {
+        "hpPerDifficultyPermille": 120,
+        "damagePerDifficultyPermille": 90,
+        "cohesionPerDifficultyPermille": 80
+      }
+    }
+  ],
+  "enemies": [
+    {
+      "id": "ENEMY_GATE_GNAWER_01",
+      "familyId": "ENEMY_FAMILY_GATE_GNAWER",
+      "displayName": "Gate Gnawer — Scout",
+      "tier": "NORMAL",
+      "role": "FORMATION_NUISANCE",
+      "levelBand": [
+        2,
+        5
+      ],
+      "visualVariantSeed": 1,
+      "formationId": "FORMATION_SKIRMISH_LINE",
+      "maxHp": 150,
+      "maxMp": 0,
+      "unionApContribution": 3,
+      "cohesionContribution": 35,
+      "artIds": [
+        "ART_QUICK_CUT",
+        "ART_HAMSTRING"
+      ],
+      "leaderBehavior": "FOLLOW_FAMILY_DOCTRINE",
+      "tacticalPriorities": [
+        "FORMATION_NUISANCE",
+        "PURSUE_OBJECTIVE"
+      ],
+      "strengthTags": [
+        "HIGH_MOBILITY",
+        "DAMAGES_STRUCTURES_AND_COHESION"
+      ],
+      "weaknessTags": [
+        "LIGHT_WARDS",
+        "GUARDED_CHOKEPOINTS"
+      ],
+      "lootTableIds": [
+        "LOOT_GATE_TOOTH",
+        "LOOT_COPPER_GRIT"
+      ],
+      "personalXpReward": 12,
+      "guildTreasuryXpReward": 7,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_GATE_GNAWER"
+      ],
+      "vfxTags": [
+        "VFX_FORMATION_NUISANCE"
+      ],
+      "audioTags": [
+        "SFX_GATE_GNAWER"
+      ]
+    },
+    {
+      "id": "ENEMY_GATE_GNAWER_02",
+      "familyId": "ENEMY_FAMILY_GATE_GNAWER",
+      "displayName": "Gate Gnawer — Veteran",
+      "tier": "NORMAL",
+      "role": "FORMATION_NUISANCE",
+      "levelBand": [
+        3,
+        6
+      ],
+      "visualVariantSeed": 2,
+      "formationId": "FORMATION_SKIRMISH_LINE",
+      "maxHp": 175,
+      "maxMp": 0,
+      "unionApContribution": 3,
+      "cohesionContribution": 40,
+      "artIds": [
+        "ART_QUICK_CUT",
+        "ART_HAMSTRING",
+        "ART_STEP_BACK"
+      ],
+      "leaderBehavior": "FOLLOW_FAMILY_DOCTRINE",
+      "tacticalPriorities": [
+        "FORMATION_NUISANCE",
+        "PURSUE_OBJECTIVE"
+      ],
+      "strengthTags": [
+        "HIGH_MOBILITY",
+        "DAMAGES_STRUCTURES_AND_COHESION"
+      ],
+      "weaknessTags": [
+        "LIGHT_WARDS",
+        "GUARDED_CHOKEPOINTS"
+      ],
+      "lootTableIds": [
+        "LOOT_GATE_TOOTH",
+        "LOOT_COPPER_GRIT"
+      ],
+      "personalXpReward": 14,
+      "guildTreasuryXpReward": 8,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_GATE_GNAWER"
+      ],
+      "vfxTags": [
+        "VFX_FORMATION_NUISANCE"
+      ],
+      "audioTags": [
+        "SFX_GATE_GNAWER"
+      ]
+    },
+    {
+      "id": "ENEMY_GATE_GNAWER_03",
+      "familyId": "ENEMY_FAMILY_GATE_GNAWER",
+      "displayName": "Gate Gnawer — Leader",
+      "tier": "NORMAL",
+      "role": "FORMATION_NUISANCE",
+      "levelBand": [
+        4,
+        7
+      ],
+      "visualVariantSeed": 3,
+      "formationId": "FORMATION_SKIRMISH_LINE",
+      "maxHp": 200,
+      "maxMp": 0,
+      "unionApContribution": 3,
+      "cohesionContribution": 45,
+      "artIds": [
+        "ART_QUICK_CUT",
+        "ART_HAMSTRING"
+      ],
+      "leaderBehavior": "LEAD_IF_HIGHEST_COMMAND",
+      "tacticalPriorities": [
+        "FORMATION_NUISANCE",
+        "PURSUE_OBJECTIVE"
+      ],
+      "strengthTags": [
+        "HIGH_MOBILITY",
+        "DAMAGES_STRUCTURES_AND_COHESION"
+      ],
+      "weaknessTags": [
+        "LIGHT_WARDS",
+        "GUARDED_CHOKEPOINTS"
+      ],
+      "lootTableIds": [
+        "LOOT_GATE_TOOTH",
+        "LOOT_COPPER_GRIT"
+      ],
+      "personalXpReward": 16,
+      "guildTreasuryXpReward": 9,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_GATE_GNAWER"
+      ],
+      "vfxTags": [
+        "VFX_FORMATION_NUISANCE"
+      ],
+      "audioTags": [
+        "SFX_GATE_GNAWER"
+      ]
+    },
+    {
+      "id": "ENEMY_RUSTBACK_HOUND_01",
+      "familyId": "ENEMY_FAMILY_RUSTBACK_HOUND",
+      "displayName": "Rustback Hound — Scout",
+      "tier": "NORMAL",
+      "role": "HUNTER",
+      "levelBand": [
+        2,
+        5
+      ],
+      "visualVariantSeed": 1,
+      "formationId": "FORMATION_CRESCENT",
+      "maxHp": 150,
+      "maxMp": 0,
+      "unionApContribution": 3,
+      "cohesionContribution": 35,
+      "artIds": [
+        "ART_MARKED_TARGET",
+        "ART_REARLINE_STEP"
+      ],
+      "leaderBehavior": "FOLLOW_FAMILY_DOCTRINE",
+      "tacticalPriorities": [
+        "HUNTER",
+        "PURSUE_OBJECTIVE"
+      ],
+      "strengthTags": [
+        "TRACKS_WOUNDED_TARGETS",
+        "STRONG_FLANK_RESPONSE"
+      ],
+      "weaknessTags": [
+        "SMOKE_AND_SCENT_MASKING",
+        "SHIELD_WALL"
+      ],
+      "lootTableIds": [
+        "LOOT_RUST_PLATE",
+        "LOOT_SCENT_GLAND"
+      ],
+      "personalXpReward": 12,
+      "guildTreasuryXpReward": 7,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_RUSTBACK_HOUND"
+      ],
+      "vfxTags": [
+        "VFX_HUNTER"
+      ],
+      "audioTags": [
+        "SFX_RUSTBACK_HOUND"
+      ]
+    },
+    {
+      "id": "ENEMY_RUSTBACK_HOUND_02",
+      "familyId": "ENEMY_FAMILY_RUSTBACK_HOUND",
+      "displayName": "Rustback Hound — Veteran",
+      "tier": "NORMAL",
+      "role": "HUNTER",
+      "levelBand": [
+        3,
+        6
+      ],
+      "visualVariantSeed": 2,
+      "formationId": "FORMATION_CRESCENT",
+      "maxHp": 175,
+      "maxMp": 0,
+      "unionApContribution": 3,
+      "cohesionContribution": 40,
+      "artIds": [
+        "ART_MARKED_TARGET",
+        "ART_REARLINE_STEP",
+        "ART_RETREATING_FIRE"
+      ],
+      "leaderBehavior": "FOLLOW_FAMILY_DOCTRINE",
+      "tacticalPriorities": [
+        "HUNTER",
+        "PURSUE_OBJECTIVE"
+      ],
+      "strengthTags": [
+        "TRACKS_WOUNDED_TARGETS",
+        "STRONG_FLANK_RESPONSE"
+      ],
+      "weaknessTags": [
+        "SMOKE_AND_SCENT_MASKING",
+        "SHIELD_WALL"
+      ],
+      "lootTableIds": [
+        "LOOT_RUST_PLATE",
+        "LOOT_SCENT_GLAND"
+      ],
+      "personalXpReward": 14,
+      "guildTreasuryXpReward": 8,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_RUSTBACK_HOUND"
+      ],
+      "vfxTags": [
+        "VFX_HUNTER"
+      ],
+      "audioTags": [
+        "SFX_RUSTBACK_HOUND"
+      ]
+    },
+    {
+      "id": "ENEMY_RUSTBACK_HOUND_03",
+      "familyId": "ENEMY_FAMILY_RUSTBACK_HOUND",
+      "displayName": "Rustback Hound — Leader",
+      "tier": "NORMAL",
+      "role": "HUNTER",
+      "levelBand": [
+        4,
+        7
+      ],
+      "visualVariantSeed": 3,
+      "formationId": "FORMATION_CRESCENT",
+      "maxHp": 200,
+      "maxMp": 0,
+      "unionApContribution": 3,
+      "cohesionContribution": 45,
+      "artIds": [
+        "ART_MARKED_TARGET",
+        "ART_REARLINE_STEP"
+      ],
+      "leaderBehavior": "LEAD_IF_HIGHEST_COMMAND",
+      "tacticalPriorities": [
+        "HUNTER",
+        "PURSUE_OBJECTIVE"
+      ],
+      "strengthTags": [
+        "TRACKS_WOUNDED_TARGETS",
+        "STRONG_FLANK_RESPONSE"
+      ],
+      "weaknessTags": [
+        "SMOKE_AND_SCENT_MASKING",
+        "SHIELD_WALL"
+      ],
+      "lootTableIds": [
+        "LOOT_RUST_PLATE",
+        "LOOT_SCENT_GLAND"
+      ],
+      "personalXpReward": 16,
+      "guildTreasuryXpReward": 9,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_RUSTBACK_HOUND"
+      ],
+      "vfxTags": [
+        "VFX_HUNTER"
+      ],
+      "audioTags": [
+        "SFX_RUSTBACK_HOUND"
+      ]
+    },
+    {
+      "id": "ENEMY_HOLLOW_SALVAGER_01",
+      "familyId": "ENEMY_FAMILY_HOLLOW_SALVAGER",
+      "displayName": "Hollow Salvager — Scout",
+      "tier": "NORMAL",
+      "role": "MARTIAL_RAIDER",
+      "levelBand": [
+        2,
+        5
+      ],
+      "visualVariantSeed": 1,
+      "formationId": "FORMATION_SHIELD_WALL",
+      "maxHp": 150,
+      "maxMp": 0,
+      "unionApContribution": 3,
+      "cohesionContribution": 35,
+      "artIds": [
+        "ART_SHIELD_BRACE",
+        "ART_POWER_CUT"
+      ],
+      "leaderBehavior": "FOLLOW_FAMILY_DOCTRINE",
+      "tacticalPriorities": [
+        "MARTIAL_RAIDER",
+        "PURSUE_OBJECTIVE"
+      ],
+      "strengthTags": [
+        "DURABLE_FRONT_LINE",
+        "CAN_RECOVER_SUPPLIES"
+      ],
+      "weaknessTags": [
+        "MYSTIC_DISRUPTION",
+        "REAR_ATTACKS"
+      ],
+      "lootTableIds": [
+        "LOOT_HOLLOW_RIVET",
+        "LOOT_WORK_ORDER_FRAGMENT"
+      ],
+      "personalXpReward": 12,
+      "guildTreasuryXpReward": 7,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_HOLLOW_SALVAGER"
+      ],
+      "vfxTags": [
+        "VFX_MARTIAL_RAIDER"
+      ],
+      "audioTags": [
+        "SFX_HOLLOW_SALVAGER"
+      ]
+    },
+    {
+      "id": "ENEMY_HOLLOW_SALVAGER_02",
+      "familyId": "ENEMY_FAMILY_HOLLOW_SALVAGER",
+      "displayName": "Hollow Salvager — Veteran",
+      "tier": "NORMAL",
+      "role": "MARTIAL_RAIDER",
+      "levelBand": [
+        3,
+        6
+      ],
+      "visualVariantSeed": 2,
+      "formationId": "FORMATION_SHIELD_WALL",
+      "maxHp": 175,
+      "maxMp": 0,
+      "unionApContribution": 3,
+      "cohesionContribution": 40,
+      "artIds": [
+        "ART_SHIELD_BRACE",
+        "ART_POWER_CUT",
+        "ART_ASSIST_ALLY"
+      ],
+      "leaderBehavior": "FOLLOW_FAMILY_DOCTRINE",
+      "tacticalPriorities": [
+        "MARTIAL_RAIDER",
+        "PURSUE_OBJECTIVE"
+      ],
+      "strengthTags": [
+        "DURABLE_FRONT_LINE",
+        "CAN_RECOVER_SUPPLIES"
+      ],
+      "weaknessTags": [
+        "MYSTIC_DISRUPTION",
+        "REAR_ATTACKS"
+      ],
+      "lootTableIds": [
+        "LOOT_HOLLOW_RIVET",
+        "LOOT_WORK_ORDER_FRAGMENT"
+      ],
+      "personalXpReward": 14,
+      "guildTreasuryXpReward": 8,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_HOLLOW_SALVAGER"
+      ],
+      "vfxTags": [
+        "VFX_MARTIAL_RAIDER"
+      ],
+      "audioTags": [
+        "SFX_HOLLOW_SALVAGER"
+      ]
+    },
+    {
+      "id": "ENEMY_HOLLOW_SALVAGER_03",
+      "familyId": "ENEMY_FAMILY_HOLLOW_SALVAGER",
+      "displayName": "Hollow Salvager — Leader",
+      "tier": "NORMAL",
+      "role": "MARTIAL_RAIDER",
+      "levelBand": [
+        4,
+        7
+      ],
+      "visualVariantSeed": 3,
+      "formationId": "FORMATION_SHIELD_WALL",
+      "maxHp": 200,
+      "maxMp": 0,
+      "unionApContribution": 3,
+      "cohesionContribution": 45,
+      "artIds": [
+        "ART_SHIELD_BRACE",
+        "ART_POWER_CUT"
+      ],
+      "leaderBehavior": "LEAD_IF_HIGHEST_COMMAND",
+      "tacticalPriorities": [
+        "MARTIAL_RAIDER",
+        "PURSUE_OBJECTIVE"
+      ],
+      "strengthTags": [
+        "DURABLE_FRONT_LINE",
+        "CAN_RECOVER_SUPPLIES"
+      ],
+      "weaknessTags": [
+        "MYSTIC_DISRUPTION",
+        "REAR_ATTACKS"
+      ],
+      "lootTableIds": [
+        "LOOT_HOLLOW_RIVET",
+        "LOOT_WORK_ORDER_FRAGMENT"
+      ],
+      "personalXpReward": 16,
+      "guildTreasuryXpReward": 9,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_HOLLOW_SALVAGER"
+      ],
+      "vfxTags": [
+        "VFX_MARTIAL_RAIDER"
+      ],
+      "audioTags": [
+        "SFX_HOLLOW_SALVAGER"
+      ]
+    },
+    {
+      "id": "ENEMY_SHARDWING_SWARM_01",
+      "familyId": "ENEMY_FAMILY_SHARDWING_SWARM",
+      "displayName": "Shardwing Swarm — Scout",
+      "tier": "NORMAL",
+      "role": "RANGED_SIGNAL",
+      "levelBand": [
+        2,
+        5
+      ],
+      "visualVariantSeed": 1,
+      "formationId": "FORMATION_ARCANE_CIRCLE",
+      "maxHp": 150,
+      "maxMp": 42,
+      "unionApContribution": 3,
+      "cohesionContribution": 35,
+      "artIds": [
+        "ART_COVERING_VOLLEY",
+        "ART_DISRUPTING_SHOT"
+      ],
+      "leaderBehavior": "FOLLOW_FAMILY_DOCTRINE",
+      "tacticalPriorities": [
+        "RANGED_SIGNAL",
+        "PURSUE_OBJECTIVE"
+      ],
+      "strengthTags": [
+        "IMPROVES_ALLIED_TARGETING",
+        "DIFFICULT_TO_PIN"
+      ],
+      "weaknessTags": [
+        "AREA_MYSTIC_ARTS",
+        "WIND_EFFECTS"
+      ],
+      "lootTableIds": [
+        "LOOT_SHARDWING_FILM",
+        "LOOT_SIGNAL_DUST"
+      ],
+      "personalXpReward": 12,
+      "guildTreasuryXpReward": 7,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_SHARDWING_SWARM"
+      ],
+      "vfxTags": [
+        "VFX_RANGED_SIGNAL"
+      ],
+      "audioTags": [
+        "SFX_SHARDWING_SWARM"
+      ]
+    },
+    {
+      "id": "ENEMY_SHARDWING_SWARM_02",
+      "familyId": "ENEMY_FAMILY_SHARDWING_SWARM",
+      "displayName": "Shardwing Swarm — Veteran",
+      "tier": "NORMAL",
+      "role": "RANGED_SIGNAL",
+      "levelBand": [
+        3,
+        6
+      ],
+      "visualVariantSeed": 2,
+      "formationId": "FORMATION_ARCANE_CIRCLE",
+      "maxHp": 175,
+      "maxMp": 42,
+      "unionApContribution": 3,
+      "cohesionContribution": 40,
+      "artIds": [
+        "ART_COVERING_VOLLEY",
+        "ART_DISRUPTING_SHOT",
+        "ART_SMOKE_FEINT"
+      ],
+      "leaderBehavior": "FOLLOW_FAMILY_DOCTRINE",
+      "tacticalPriorities": [
+        "RANGED_SIGNAL",
+        "PURSUE_OBJECTIVE"
+      ],
+      "strengthTags": [
+        "IMPROVES_ALLIED_TARGETING",
+        "DIFFICULT_TO_PIN"
+      ],
+      "weaknessTags": [
+        "AREA_MYSTIC_ARTS",
+        "WIND_EFFECTS"
+      ],
+      "lootTableIds": [
+        "LOOT_SHARDWING_FILM",
+        "LOOT_SIGNAL_DUST"
+      ],
+      "personalXpReward": 14,
+      "guildTreasuryXpReward": 8,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_SHARDWING_SWARM"
+      ],
+      "vfxTags": [
+        "VFX_RANGED_SIGNAL"
+      ],
+      "audioTags": [
+        "SFX_SHARDWING_SWARM"
+      ]
+    },
+    {
+      "id": "ENEMY_SHARDWING_SWARM_03",
+      "familyId": "ENEMY_FAMILY_SHARDWING_SWARM",
+      "displayName": "Shardwing Swarm — Leader",
+      "tier": "NORMAL",
+      "role": "RANGED_SIGNAL",
+      "levelBand": [
+        4,
+        7
+      ],
+      "visualVariantSeed": 3,
+      "formationId": "FORMATION_ARCANE_CIRCLE",
+      "maxHp": 200,
+      "maxMp": 42,
+      "unionApContribution": 3,
+      "cohesionContribution": 45,
+      "artIds": [
+        "ART_COVERING_VOLLEY",
+        "ART_DISRUPTING_SHOT"
+      ],
+      "leaderBehavior": "LEAD_IF_HIGHEST_COMMAND",
+      "tacticalPriorities": [
+        "RANGED_SIGNAL",
+        "PURSUE_OBJECTIVE"
+      ],
+      "strengthTags": [
+        "IMPROVES_ALLIED_TARGETING",
+        "DIFFICULT_TO_PIN"
+      ],
+      "weaknessTags": [
+        "AREA_MYSTIC_ARTS",
+        "WIND_EFFECTS"
+      ],
+      "lootTableIds": [
+        "LOOT_SHARDWING_FILM",
+        "LOOT_SIGNAL_DUST"
+      ],
+      "personalXpReward": 16,
+      "guildTreasuryXpReward": 9,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_SHARDWING_SWARM"
+      ],
+      "vfxTags": [
+        "VFX_RANGED_SIGNAL"
+      ],
+      "audioTags": [
+        "SFX_SHARDWING_SWARM"
+      ]
+    },
+    {
+      "id": "ENEMY_TOLLROAD_CUTTER_01",
+      "familyId": "ENEMY_FAMILY_TOLLROAD_CUTTER",
+      "displayName": "Tollroad Cutter — Scout",
+      "tier": "NORMAL",
+      "role": "HUMANOID_BANDIT",
+      "levelBand": [
+        2,
+        5
+      ],
+      "visualVariantSeed": 1,
+      "formationId": "FORMATION_WEDGE",
+      "maxHp": 150,
+      "maxMp": 42,
+      "unionApContribution": 3,
+      "cohesionContribution": 35,
+      "artIds": [
+        "ART_TWIN_SLASH",
+        "ART_PINNING_SHOT"
+      ],
+      "leaderBehavior": "FOLLOW_FAMILY_DOCTRINE",
+      "tacticalPriorities": [
+        "HUMANOID_BANDIT",
+        "PURSUE_OBJECTIVE"
+      ],
+      "strengthTags": [
+        "FLEXIBLE_ROLES",
+        "USES_DECEPTION_AND_HOSTAGE_PRESSURE"
+      ],
+      "weaknessTags": [
+        "LEADERSHIP_CHECKS",
+        "LEADER_DISRUPTION"
+      ],
+      "lootTableIds": [
+        "LOOT_FALSE_BADGE",
+        "LOOT_CUTTER_KIT"
+      ],
+      "personalXpReward": 12,
+      "guildTreasuryXpReward": 7,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_TOLLROAD_CUTTER"
+      ],
+      "vfxTags": [
+        "VFX_HUMANOID_BANDIT"
+      ],
+      "audioTags": [
+        "SFX_TOLLROAD_CUTTER"
+      ]
+    },
+    {
+      "id": "ENEMY_TOLLROAD_CUTTER_02",
+      "familyId": "ENEMY_FAMILY_TOLLROAD_CUTTER",
+      "displayName": "Tollroad Cutter — Veteran",
+      "tier": "NORMAL",
+      "role": "HUMANOID_BANDIT",
+      "levelBand": [
+        3,
+        6
+      ],
+      "visualVariantSeed": 2,
+      "formationId": "FORMATION_WEDGE",
+      "maxHp": 175,
+      "maxMp": 42,
+      "unionApContribution": 3,
+      "cohesionContribution": 40,
+      "artIds": [
+        "ART_TWIN_SLASH",
+        "ART_PINNING_SHOT",
+        "ART_FALSE_RETREAT_SIGNAL"
+      ],
+      "leaderBehavior": "FOLLOW_FAMILY_DOCTRINE",
+      "tacticalPriorities": [
+        "HUMANOID_BANDIT",
+        "PURSUE_OBJECTIVE"
+      ],
+      "strengthTags": [
+        "FLEXIBLE_ROLES",
+        "USES_DECEPTION_AND_HOSTAGE_PRESSURE"
+      ],
+      "weaknessTags": [
+        "LEADERSHIP_CHECKS",
+        "LEADER_DISRUPTION"
+      ],
+      "lootTableIds": [
+        "LOOT_FALSE_BADGE",
+        "LOOT_CUTTER_KIT"
+      ],
+      "personalXpReward": 14,
+      "guildTreasuryXpReward": 8,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_TOLLROAD_CUTTER"
+      ],
+      "vfxTags": [
+        "VFX_HUMANOID_BANDIT"
+      ],
+      "audioTags": [
+        "SFX_TOLLROAD_CUTTER"
+      ]
+    },
+    {
+      "id": "ENEMY_TOLLROAD_CUTTER_03",
+      "familyId": "ENEMY_FAMILY_TOLLROAD_CUTTER",
+      "displayName": "Tollroad Cutter — Leader",
+      "tier": "NORMAL",
+      "role": "HUMANOID_BANDIT",
+      "levelBand": [
+        4,
+        7
+      ],
+      "visualVariantSeed": 3,
+      "formationId": "FORMATION_WEDGE",
+      "maxHp": 200,
+      "maxMp": 42,
+      "unionApContribution": 3,
+      "cohesionContribution": 45,
+      "artIds": [
+        "ART_TWIN_SLASH",
+        "ART_PINNING_SHOT"
+      ],
+      "leaderBehavior": "LEAD_IF_HIGHEST_COMMAND",
+      "tacticalPriorities": [
+        "HUMANOID_BANDIT",
+        "PURSUE_OBJECTIVE"
+      ],
+      "strengthTags": [
+        "FLEXIBLE_ROLES",
+        "USES_DECEPTION_AND_HOSTAGE_PRESSURE"
+      ],
+      "weaknessTags": [
+        "LEADERSHIP_CHECKS",
+        "LEADER_DISRUPTION"
+      ],
+      "lootTableIds": [
+        "LOOT_FALSE_BADGE",
+        "LOOT_CUTTER_KIT"
+      ],
+      "personalXpReward": 16,
+      "guildTreasuryXpReward": 9,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_TOLLROAD_CUTTER"
+      ],
+      "vfxTags": [
+        "VFX_HUMANOID_BANDIT"
+      ],
+      "audioTags": [
+        "SFX_TOLLROAD_CUTTER"
+      ]
+    },
+    {
+      "id": "ENEMY_RIFT_MOLD_CREEPER_01",
+      "familyId": "ENEMY_FAMILY_RIFT_MOLD_CREEPER",
+      "displayName": "Rift-Mold Creeper — Scout",
+      "tier": "NORMAL",
+      "role": "ZONE_CONTROL",
+      "levelBand": [
+        2,
+        5
+      ],
+      "visualVariantSeed": 1,
+      "formationId": "FORMATION_ARCANE_CIRCLE",
+      "maxHp": 150,
+      "maxMp": 42,
+      "unionApContribution": 3,
+      "cohesionContribution": 35,
+      "artIds": [
+        "ART_FROST_THREAD",
+        "ART_ELEMENTAL_FIELD"
+      ],
+      "leaderBehavior": "FOLLOW_FAMILY_DOCTRINE",
+      "tacticalPriorities": [
+        "ZONE_CONTROL",
+        "PURSUE_OBJECTIVE"
+      ],
+      "strengthTags": [
+        "AREA_DENIAL",
+        "MP_PRESSURE"
+      ],
+      "weaknessTags": [
+        "FIRE_AND_CRAFTING_SOLUTIONS",
+        "FORCED_MOVEMENT"
+      ],
+      "lootTableIds": [
+        "LOOT_RIFT_SPORE",
+        "LOOT_LIVING_CORD"
+      ],
+      "personalXpReward": 12,
+      "guildTreasuryXpReward": 7,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_RIFT_MOLD_CREEPER"
+      ],
+      "vfxTags": [
+        "VFX_ZONE_CONTROL"
+      ],
+      "audioTags": [
+        "SFX_RIFT_MOLD_CREEPER"
+      ]
+    },
+    {
+      "id": "ENEMY_RIFT_MOLD_CREEPER_02",
+      "familyId": "ENEMY_FAMILY_RIFT_MOLD_CREEPER",
+      "displayName": "Rift-Mold Creeper — Veteran",
+      "tier": "NORMAL",
+      "role": "ZONE_CONTROL",
+      "levelBand": [
+        3,
+        6
+      ],
+      "visualVariantSeed": 2,
+      "formationId": "FORMATION_ARCANE_CIRCLE",
+      "maxHp": 175,
+      "maxMp": 42,
+      "unionApContribution": 3,
+      "cohesionContribution": 40,
+      "artIds": [
+        "ART_FROST_THREAD",
+        "ART_ELEMENTAL_FIELD",
+        "ART_STONE_WARD"
+      ],
+      "leaderBehavior": "FOLLOW_FAMILY_DOCTRINE",
+      "tacticalPriorities": [
+        "ZONE_CONTROL",
+        "PURSUE_OBJECTIVE"
+      ],
+      "strengthTags": [
+        "AREA_DENIAL",
+        "MP_PRESSURE"
+      ],
+      "weaknessTags": [
+        "FIRE_AND_CRAFTING_SOLUTIONS",
+        "FORCED_MOVEMENT"
+      ],
+      "lootTableIds": [
+        "LOOT_RIFT_SPORE",
+        "LOOT_LIVING_CORD"
+      ],
+      "personalXpReward": 14,
+      "guildTreasuryXpReward": 8,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_RIFT_MOLD_CREEPER"
+      ],
+      "vfxTags": [
+        "VFX_ZONE_CONTROL"
+      ],
+      "audioTags": [
+        "SFX_RIFT_MOLD_CREEPER"
+      ]
+    },
+    {
+      "id": "ENEMY_RIFT_MOLD_CREEPER_03",
+      "familyId": "ENEMY_FAMILY_RIFT_MOLD_CREEPER",
+      "displayName": "Rift-Mold Creeper — Leader",
+      "tier": "NORMAL",
+      "role": "ZONE_CONTROL",
+      "levelBand": [
+        4,
+        7
+      ],
+      "visualVariantSeed": 3,
+      "formationId": "FORMATION_ARCANE_CIRCLE",
+      "maxHp": 200,
+      "maxMp": 42,
+      "unionApContribution": 3,
+      "cohesionContribution": 45,
+      "artIds": [
+        "ART_FROST_THREAD",
+        "ART_ELEMENTAL_FIELD"
+      ],
+      "leaderBehavior": "LEAD_IF_HIGHEST_COMMAND",
+      "tacticalPriorities": [
+        "ZONE_CONTROL",
+        "PURSUE_OBJECTIVE"
+      ],
+      "strengthTags": [
+        "AREA_DENIAL",
+        "MP_PRESSURE"
+      ],
+      "weaknessTags": [
+        "FIRE_AND_CRAFTING_SOLUTIONS",
+        "FORCED_MOVEMENT"
+      ],
+      "lootTableIds": [
+        "LOOT_RIFT_SPORE",
+        "LOOT_LIVING_CORD"
+      ],
+      "personalXpReward": 16,
+      "guildTreasuryXpReward": 9,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_RIFT_MOLD_CREEPER"
+      ],
+      "vfxTags": [
+        "VFX_ZONE_CONTROL"
+      ],
+      "audioTags": [
+        "SFX_RIFT_MOLD_CREEPER"
+      ]
+    },
+    {
+      "id": "ENEMY_GATEIRON_BRUTE_01",
+      "familyId": "ENEMY_FAMILY_GATEIRON_BRUTE",
+      "displayName": "Gateiron Brute — Scout",
+      "tier": "ELITE",
+      "role": "FORMATION_BREAKER",
+      "levelBand": [
+        4,
+        8
+      ],
+      "visualVariantSeed": 1,
+      "formationId": "FORMATION_WEDGE",
+      "maxHp": 220,
+      "maxMp": 0,
+      "unionApContribution": 4,
+      "cohesionContribution": 50,
+      "artIds": [
+        "ART_HAMMERFALL",
+        "ART_GUARD_SPLITTER"
+      ],
+      "leaderBehavior": "FOLLOW_FAMILY_DOCTRINE",
+      "tacticalPriorities": [
+        "FORMATION_BREAKER",
+        "PROTECT_SUPPORT"
+      ],
+      "strengthTags": [
+        "SEVERE_COHESION_DAMAGE",
+        "HIGH_FRONTAL_DEFENSE"
+      ],
+      "weaknessTags": [
+        "FLANKS",
+        "MYSTIC_ARMOR_BYPASS"
+      ],
+      "lootTableIds": [
+        "LOOT_GATEIRON_PLATE",
+        "LOOT_HINGE_CORE"
+      ],
+      "personalXpReward": 18,
+      "guildTreasuryXpReward": 11,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_GATEIRON_BRUTE"
+      ],
+      "vfxTags": [
+        "VFX_FORMATION_BREAKER"
+      ],
+      "audioTags": [
+        "SFX_GATEIRON_BRUTE"
+      ]
+    },
+    {
+      "id": "ENEMY_GATEIRON_BRUTE_02",
+      "familyId": "ENEMY_FAMILY_GATEIRON_BRUTE",
+      "displayName": "Gateiron Brute — Veteran",
+      "tier": "ELITE",
+      "role": "FORMATION_BREAKER",
+      "levelBand": [
+        5,
+        9
+      ],
+      "visualVariantSeed": 2,
+      "formationId": "FORMATION_WEDGE",
+      "maxHp": 245,
+      "maxMp": 0,
+      "unionApContribution": 4,
+      "cohesionContribution": 55,
+      "artIds": [
+        "ART_HAMMERFALL",
+        "ART_GUARD_SPLITTER",
+        "ART_ANCHOR_STANCE"
+      ],
+      "leaderBehavior": "LEAD_IF_HIGHEST_COMMAND",
+      "tacticalPriorities": [
+        "FORMATION_BREAKER",
+        "PROTECT_SUPPORT"
+      ],
+      "strengthTags": [
+        "SEVERE_COHESION_DAMAGE",
+        "HIGH_FRONTAL_DEFENSE"
+      ],
+      "weaknessTags": [
+        "FLANKS",
+        "MYSTIC_ARMOR_BYPASS"
+      ],
+      "lootTableIds": [
+        "LOOT_GATEIRON_PLATE",
+        "LOOT_HINGE_CORE"
+      ],
+      "personalXpReward": 20,
+      "guildTreasuryXpReward": 12,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_GATEIRON_BRUTE"
+      ],
+      "vfxTags": [
+        "VFX_FORMATION_BREAKER"
+      ],
+      "audioTags": [
+        "SFX_GATEIRON_BRUTE"
+      ]
+    },
+    {
+      "id": "ENEMY_ECHO_STALKER_01",
+      "familyId": "ENEMY_FAMILY_ECHO_STALKER",
+      "displayName": "Echo Stalker — Scout",
+      "tier": "ELITE",
+      "role": "AMBUSH_PREDATOR",
+      "levelBand": [
+        4,
+        8
+      ],
+      "visualVariantSeed": 1,
+      "formationId": "FORMATION_VEILED_ECHELON",
+      "maxHp": 220,
+      "maxMp": 54,
+      "unionApContribution": 4,
+      "cohesionContribution": 50,
+      "artIds": [
+        "ART_SILENT_MARK",
+        "ART_VANISHING_COUNTER"
+      ],
+      "leaderBehavior": "FOLLOW_FAMILY_DOCTRINE",
+      "tacticalPriorities": [
+        "AMBUSH_PREDATOR",
+        "PROTECT_SUPPORT"
+      ],
+      "strengthTags": [
+        "AMBUSH",
+        "PUNISHES_REPETITION"
+      ],
+      "weaknessTags": [
+        "UNPREDICTABLE_MOVEMENT",
+        "REVEALED_ROUTES_AND_BELLS"
+      ],
+      "lootTableIds": [
+        "LOOT_ECHO_FILAMENT",
+        "LOOT_SILENT_CORE"
+      ],
+      "personalXpReward": 18,
+      "guildTreasuryXpReward": 11,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_ECHO_STALKER"
+      ],
+      "vfxTags": [
+        "VFX_AMBUSH_PREDATOR"
+      ],
+      "audioTags": [
+        "SFX_ECHO_STALKER"
+      ]
+    },
+    {
+      "id": "ENEMY_ECHO_STALKER_02",
+      "familyId": "ENEMY_FAMILY_ECHO_STALKER",
+      "displayName": "Echo Stalker — Veteran",
+      "tier": "ELITE",
+      "role": "AMBUSH_PREDATOR",
+      "levelBand": [
+        5,
+        9
+      ],
+      "visualVariantSeed": 2,
+      "formationId": "FORMATION_VEILED_ECHELON",
+      "maxHp": 245,
+      "maxMp": 54,
+      "unionApContribution": 4,
+      "cohesionContribution": 55,
+      "artIds": [
+        "ART_SILENT_MARK",
+        "ART_VANISHING_COUNTER",
+        "ART_NIGHTFALL_ROUTE"
+      ],
+      "leaderBehavior": "LEAD_IF_HIGHEST_COMMAND",
+      "tacticalPriorities": [
+        "AMBUSH_PREDATOR",
+        "PROTECT_SUPPORT"
+      ],
+      "strengthTags": [
+        "AMBUSH",
+        "PUNISHES_REPETITION"
+      ],
+      "weaknessTags": [
+        "UNPREDICTABLE_MOVEMENT",
+        "REVEALED_ROUTES_AND_BELLS"
+      ],
+      "lootTableIds": [
+        "LOOT_ECHO_FILAMENT",
+        "LOOT_SILENT_CORE"
+      ],
+      "personalXpReward": 20,
+      "guildTreasuryXpReward": 12,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_ECHO_STALKER"
+      ],
+      "vfxTags": [
+        "VFX_AMBUSH_PREDATOR"
+      ],
+      "audioTags": [
+        "SFX_ECHO_STALKER"
+      ]
+    },
+    {
+      "id": "ENEMY_BRASSJAW_PACKLORD_01",
+      "familyId": "ENEMY_FAMILY_BRASSJAW_PACKLORD",
+      "displayName": "Brassjaw Packlord — Scout",
+      "tier": "ELITE",
+      "role": "PACK_COMMANDER",
+      "levelBand": [
+        4,
+        8
+      ],
+      "visualVariantSeed": 1,
+      "formationId": "FORMATION_CRESCENT",
+      "maxHp": 220,
+      "maxMp": 54,
+      "unionApContribution": 5,
+      "cohesionContribution": 50,
+      "artIds": [
+        "ART_WEAKPOINT_CALL",
+        "CULT_DOG_TRIBE_GUARD_THE_STRAGGLER"
+      ],
+      "leaderBehavior": "FOLLOW_FAMILY_DOCTRINE",
+      "tacticalPriorities": [
+        "PACK_COMMANDER",
+        "PROTECT_SUPPORT"
+      ],
+      "strengthTags": [
+        "PACK_COORDINATION",
+        "MORALE_AND_RESCUE"
+      ],
+      "weaknessTags": [
+        "LEADER_PRESSURE",
+        "CLEANSED_MARKS"
+      ],
+      "lootTableIds": [
+        "LOOT_BRASSJAW_BRACE",
+        "LOOT_PACK_RIBBON"
+      ],
+      "personalXpReward": 18,
+      "guildTreasuryXpReward": 11,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_BRASSJAW_PACKLORD"
+      ],
+      "vfxTags": [
+        "VFX_PACK_COMMANDER"
+      ],
+      "audioTags": [
+        "SFX_BRASSJAW_PACKLORD"
+      ]
+    },
+    {
+      "id": "ENEMY_BRASSJAW_PACKLORD_02",
+      "familyId": "ENEMY_FAMILY_BRASSJAW_PACKLORD",
+      "displayName": "Brassjaw Packlord — Veteran",
+      "tier": "ELITE",
+      "role": "PACK_COMMANDER",
+      "levelBand": [
+        5,
+        9
+      ],
+      "visualVariantSeed": 2,
+      "formationId": "FORMATION_CRESCENT",
+      "maxHp": 245,
+      "maxMp": 54,
+      "unionApContribution": 5,
+      "cohesionContribution": 55,
+      "artIds": [
+        "ART_WEAKPOINT_CALL",
+        "CULT_DOG_TRIBE_GUARD_THE_STRAGGLER",
+        "ART_STORMLINE_SHOT"
+      ],
+      "leaderBehavior": "LEAD_IF_HIGHEST_COMMAND",
+      "tacticalPriorities": [
+        "PACK_COMMANDER",
+        "PROTECT_SUPPORT"
+      ],
+      "strengthTags": [
+        "PACK_COORDINATION",
+        "MORALE_AND_RESCUE"
+      ],
+      "weaknessTags": [
+        "LEADER_PRESSURE",
+        "CLEANSED_MARKS"
+      ],
+      "lootTableIds": [
+        "LOOT_BRASSJAW_BRACE",
+        "LOOT_PACK_RIBBON"
+      ],
+      "personalXpReward": 20,
+      "guildTreasuryXpReward": 12,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_BRASSJAW_PACKLORD"
+      ],
+      "vfxTags": [
+        "VFX_PACK_COMMANDER"
+      ],
+      "audioTags": [
+        "SFX_BRASSJAW_PACKLORD"
+      ]
+    },
+    {
+      "id": "ENEMY_PULSE_SCRIBE_01",
+      "familyId": "ENEMY_FAMILY_PULSE_SCRIBE",
+      "displayName": "Pulse Scribe",
+      "tier": "SUPPORT",
+      "role": "MYSTIC_SUPPORT",
+      "levelBand": [
+        4,
+        8
+      ],
+      "visualVariantSeed": 1,
+      "formationId": "FORMATION_ARCANE_CIRCLE",
+      "maxHp": 220,
+      "maxMp": 54,
+      "unionApContribution": 4,
+      "cohesionContribution": 50,
+      "artIds": [
+        "ART_MANA_WEAVE",
+        "ART_WARD_SIGIL"
+      ],
+      "leaderBehavior": "LEAD_IF_HIGHEST_COMMAND",
+      "tacticalPriorities": [
+        "MYSTIC_SUPPORT",
+        "PURSUE_OBJECTIVE"
+      ],
+      "strengthTags": [
+        "MP_SUSTAIN",
+        "COUNTER_MAGIC"
+      ],
+      "weaknessTags": [
+        "REAR_LINE_ACCESS",
+        "SIGNAL_INTERRUPTION"
+      ],
+      "lootTableIds": [
+        "LOOT_PULSE_CHALK",
+        "LOOT_TIMING_LENS"
+      ],
+      "personalXpReward": 18,
+      "guildTreasuryXpReward": 11,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_PULSE_SCRIBE"
+      ],
+      "vfxTags": [
+        "VFX_MYSTIC_SUPPORT"
+      ],
+      "audioTags": [
+        "SFX_PULSE_SCRIBE"
+      ]
+    },
+    {
+      "id": "ENEMY_CHAINCALLER_01",
+      "familyId": "ENEMY_FAMILY_CHAINCALLER",
+      "displayName": "Chaincaller",
+      "tier": "SUPPORT",
+      "role": "CONTROL",
+      "levelBand": [
+        4,
+        8
+      ],
+      "visualVariantSeed": 1,
+      "formationId": "FORMATION_SKIRMISH_LINE",
+      "maxHp": 220,
+      "maxMp": 54,
+      "unionApContribution": 4,
+      "cohesionContribution": 50,
+      "artIds": [
+        "ART_GALE_PUSH",
+        "ART_PINNING_ARROW"
+      ],
+      "leaderBehavior": "LEAD_IF_HIGHEST_COMMAND",
+      "tacticalPriorities": [
+        "CONTROL",
+        "PURSUE_OBJECTIVE"
+      ],
+      "strengthTags": [
+        "FORCED_MOVEMENT",
+        "ROUTE_DENIAL"
+      ],
+      "weaknessTags": [
+        "CHAIN_BREAKING_ATTACKS",
+        "AP_DRAIN"
+      ],
+      "lootTableIds": [
+        "LOOT_CLAIM_CHAIN",
+        "LOOT_BROKEN_SEAL"
+      ],
+      "personalXpReward": 18,
+      "guildTreasuryXpReward": 11,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_CHAINCALLER"
+      ],
+      "vfxTags": [
+        "VFX_CONTROL"
+      ],
+      "audioTags": [
+        "SFX_CHAINCALLER"
+      ]
+    },
+    {
+      "id": "ENEMY_ASH_MEDIC_01",
+      "familyId": "ENEMY_FAMILY_ASH_MEDIC",
+      "displayName": "Ash Medic",
+      "tier": "SUPPORT",
+      "role": "RESTORATION",
+      "levelBand": [
+        4,
+        8
+      ],
+      "visualVariantSeed": 1,
+      "formationId": "FORMATION_RESCUE_COLUMN",
+      "maxHp": 220,
+      "maxMp": 54,
+      "unionApContribution": 4,
+      "cohesionContribution": 50,
+      "artIds": [
+        "ART_FIELD_REMEDY",
+        "ART_CLEANSE"
+      ],
+      "leaderBehavior": "LEAD_IF_HIGHEST_COMMAND",
+      "tacticalPriorities": [
+        "RESTORATION",
+        "PURSUE_OBJECTIVE"
+      ],
+      "strengthTags": [
+        "RELIABLE_RESTORATION",
+        "STATUS_CLEANSING"
+      ],
+      "weaknessTags": [
+        "PRIORITY_MANIPULATION",
+        "REAR_LINE_PRESSURE"
+      ],
+      "lootTableIds": [
+        "LOOT_ASHEN_BANDAGE",
+        "LOOT_TRIAGE_CORE"
+      ],
+      "personalXpReward": 18,
+      "guildTreasuryXpReward": 11,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_ASH_MEDIC"
+      ],
+      "vfxTags": [
+        "VFX_RESTORATION"
+      ],
+      "audioTags": [
+        "SFX_ASH_MEDIC"
+      ]
+    },
+    {
+      "id": "ENEMY_HINGE_EATER_COLOSSUS_01",
+      "familyId": "ENEMY_FAMILY_HINGE_EATER_COLOSSUS",
+      "displayName": "Hinge-Eater Colossus",
+      "tier": "MINIBOSS",
+      "role": "SIEGE_BEAST",
+      "levelBand": [
+        8,
+        14
+      ],
+      "visualVariantSeed": 1,
+      "formationId": "FORMATION_WEDGE",
+      "maxHp": 360,
+      "maxMp": 0,
+      "unionApContribution": 6,
+      "cohesionContribution": 80,
+      "artIds": [
+        "ART_VANGUARD_RUSH",
+        "ART_HAMMERFALL"
+      ],
+      "leaderBehavior": "LEAD_IF_HIGHEST_COMMAND",
+      "tacticalPriorities": [
+        "SIEGE_BEAST",
+        "PURSUE_OBJECTIVE"
+      ],
+      "strengthTags": [
+        "DESTROYS_TERRAIN",
+        "POWERFUL_CHARGE"
+      ],
+      "weaknessTags": [
+        "BAITED_CHARGE",
+        "EXPOSED_UNDERSIDE"
+      ],
+      "lootTableIds": [
+        "LOOT_COLOSSUS_HINGE",
+        "LOOT_BURIED_GATEGLASS"
+      ],
+      "personalXpReward": 30,
+      "guildTreasuryXpReward": 19,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_HINGE_EATER_COLOSSUS"
+      ],
+      "vfxTags": [
+        "VFX_SIEGE_BEAST"
+      ],
+      "audioTags": [
+        "SFX_HINGE_EATER_COLOSSUS"
+      ]
+    },
+    {
+      "id": "ENEMY_CAPTAIN_RAVEL_01",
+      "familyId": "ENEMY_FAMILY_CAPTAIN_RAVEL",
+      "displayName": "Captain Ravel of the Broken Charter",
+      "tier": "MINIBOSS",
+      "role": "RIVAL_COMMANDER",
+      "levelBand": [
+        8,
+        14
+      ],
+      "visualVariantSeed": 1,
+      "formationId": "FORMATION_HOLLOW_SQUARE",
+      "maxHp": 360,
+      "maxMp": 78,
+      "unionApContribution": 7,
+      "cohesionContribution": 80,
+      "artIds": [
+        "HYBRID_FIELD_COMMANDER",
+        "ART_FALSE_RETREAT_SIGNAL"
+      ],
+      "leaderBehavior": "LEAD_IF_HIGHEST_COMMAND",
+      "tacticalPriorities": [
+        "RIVAL_COMMANDER",
+        "PURSUE_OBJECTIVE"
+      ],
+      "strengthTags": [
+        "STRONG_LEADERSHIP",
+        "FLEXIBLE_UNION_COMMANDS"
+      ],
+      "weaknessTags": [
+        "EVIDENCE_OBJECTIVES",
+        "CREW_MORALE"
+      ],
+      "lootTableIds": [
+        "LOOT_RAVEL_CHARTER",
+        "LOOT_COMMAND_RING"
+      ],
+      "personalXpReward": 30,
+      "guildTreasuryXpReward": 19,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_CAPTAIN_RAVEL"
+      ],
+      "vfxTags": [
+        "VFX_RIVAL_COMMANDER"
+      ],
+      "audioTags": [
+        "SFX_CAPTAIN_RAVEL"
+      ]
+    },
+    {
+      "id": "ENEMY_GATEHEART_WARDEN_01",
+      "familyId": "ENEMY_FAMILY_GATEHEART_WARDEN",
+      "displayName": "Gateheart Warden",
+      "tier": "BOSS",
+      "role": "MULTI_UNION_COMMANDER",
+      "levelBand": [
+        12,
+        20
+      ],
+      "visualVariantSeed": 1,
+      "formationId": "FORMATION_SHIELD_WALL",
+      "maxHp": 500,
+      "maxMp": 102,
+      "unionApContribution": 9,
+      "cohesionContribution": 110,
+      "artIds": [
+        "ART_WORLDLINE_FRACTURE",
+        "ART_MARCHING_BASTION"
+      ],
+      "leaderBehavior": "LEAD_IF_HIGHEST_COMMAND",
+      "tacticalPriorities": [
+        "MULTI_UNION_COMMANDER",
+        "PROTECT_SUPPORT"
+      ],
+      "strengthTags": [
+        "MULTI_UNION_COORDINATION",
+        "GATE_RESET_TELEGRAPH",
+        "PYLON_SUPPORT"
+      ],
+      "weaknessTags": [
+        "DISABLED_PYLONS",
+        "FORMATION_BREAKS",
+        "ACCOUNTABLE_COMMAND_OVERRIDE"
+      ],
+      "lootTableIds": [
+        "LOOT_GATEHEART_MEMORY",
+        "LOOT_WARDEN_CORE_FRAGMENT"
+      ],
+      "personalXpReward": 42,
+      "guildTreasuryXpReward": 27,
+      "difficultyScaling": {
+        "relaxedPermille": 800,
+        "standardPermille": 1000,
+        "ironPermille": 1250
+      },
+      "animationTags": [
+        "ANIM_GATEHEART_WARDEN"
+      ],
+      "vfxTags": [
+        "VFX_MULTI_UNION_COMMANDER"
+      ],
+      "audioTags": [
+        "SFX_GATEHEART_WARDEN"
+      ]
+    }
+  ]
+}

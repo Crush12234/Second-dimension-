@@ -1,0 +1,699 @@
+{
+  "contentVersion": "GOW_CONTENT_AUTHORITY_002",
+  "classes": [
+    {
+      "id": "CLASS_GUARDIAN",
+      "displayName": "Guardian",
+      "tacticalIdentity": "Front anchor, interception, Cohesion protection",
+      "validWeaponFamilies": [
+        "SWORD",
+        "SPEAR",
+        "HAMMER",
+        "SHIELD"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 70,
+        "Mystic": 25,
+        "Restoration": 35,
+        "Support": 55,
+        "Guard": 95,
+        "Tactical": 65
+      },
+      "typicalUnionPositions": [
+        "VANGUARD",
+        "CENTER"
+      ],
+      "forecastIntentWeights": {
+        "GUARD": 145,
+        "RESCUE": 140,
+        "BALANCED": 110,
+        "BREAK": 80
+      },
+      "resourceBehavior": "AP efficient; low personal MP unless hybrid",
+      "learningProfile": "Learns fastest by intercepting meaningful damage; slow pure Mystic growth",
+      "advancedClassRoutes": [
+        "ADV_BASTION_CAPTAIN",
+        "ADV_WARD_SENTINEL",
+        "ADV_RESCUE_MARSHAL"
+      ],
+      "equipmentInteractions": [
+        "equipment gates Arts rather than permanently teaching them",
+        "locked loadout slots cannot be replaced by AI"
+      ],
+      "aiPredictionRules": [
+        "prefer actions matching forecast intent",
+        "respect individual MP",
+        "fallback to basic legal action"
+      ],
+      "beginnerTrap": "Over-specializing without a complementary Union role reduces forecast diversity.",
+      "balanceLimit": "No class receives exclusive access to a core mission function forever; cross-training routes exist.",
+      "startingAvailability": true,
+      "unlockRule": "Available to normal opening recruits.",
+      "allowedTreeIds": [
+        "TREE_CA002_WPN_SWORD",
+        "TREE_CA002_WPN_GREAT_WEAPON",
+        "TREE_CA002_WPN_SPEAR_POLEARM",
+        "TREE_CA002_WPN_SHIELD",
+        "TREE_CA002_MYS_EARTH",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING",
+        "TREE_CA002_ROLE_GUARDIAN",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_COMMANDER",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_PROVOCATION"
+      ],
+      "sourceAuthority": "PASS_02/CLASS_DEFINITIONS.json"
+    },
+    {
+      "id": "CLASS_WARRIOR",
+      "displayName": "Warrior",
+      "tacticalIdentity": "Melee pressure, formation damage, finishing attacks",
+      "validWeaponFamilies": [
+        "SWORD",
+        "GREAT_AXE",
+        "HAMMER",
+        "POLEARM",
+        "SPEAR"
+      ],
+      "armorWeights": [
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 95,
+        "Mystic": 25,
+        "Restoration": 20,
+        "Support": 35,
+        "Guard": 65,
+        "Tactical": 60
+      },
+      "typicalUnionPositions": [
+        "VANGUARD",
+        "TIP",
+        "LEFT",
+        "RIGHT"
+      ],
+      "forecastIntentWeights": {
+        "OFFENSE": 145,
+        "BREAK": 140,
+        "BALANCED": 105,
+        "GUARD": 70
+      },
+      "resourceBehavior": "Consumes AP for burst; normally low MP",
+      "learningProfile": "Learns by damaging equal/stronger enemies and breaking Cohesion; can overcommit",
+      "advancedClassRoutes": [
+        "ADV_LINEBREAKER",
+        "ADV_DUEL_CAPTAIN",
+        "ADV_SPELL_EDGE"
+      ],
+      "equipmentInteractions": [
+        "equipment gates Arts rather than permanently teaching them",
+        "locked loadout slots cannot be replaced by AI"
+      ],
+      "aiPredictionRules": [
+        "prefer actions matching forecast intent",
+        "respect individual MP",
+        "fallback to basic legal action"
+      ],
+      "beginnerTrap": "Over-specializing without a complementary Union role reduces forecast diversity.",
+      "balanceLimit": "No class receives exclusive access to a core mission function forever; cross-training routes exist.",
+      "startingAvailability": true,
+      "unlockRule": "Available to normal opening recruits.",
+      "allowedTreeIds": [
+        "TREE_CA002_WPN_SWORD",
+        "TREE_CA002_WPN_GREAT_WEAPON",
+        "TREE_CA002_WPN_AXE",
+        "TREE_CA002_WPN_SPEAR_POLEARM",
+        "TREE_CA002_WPN_GAUNTLET",
+        "TREE_CA002_MYS_FLAME",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_EARTH",
+        "TREE_CA002_ROLE_BREAKER",
+        "TREE_CA002_ROLE_DUELIST",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_PROVOCATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "sourceAuthority": "PASS_02/CLASS_DEFINITIONS.json"
+    },
+    {
+      "id": "CLASS_RANGER",
+      "displayName": "Ranger",
+      "tacticalIdentity": "Ranged pressure, covering fire, target control",
+      "validWeaponFamilies": [
+        "BOW",
+        "SHORTBOW",
+        "LONGBOW",
+        "SPEAR"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM"
+      ],
+      "disciplineAffinities": {
+        "Martial": 75,
+        "Mystic": 40,
+        "Restoration": 35,
+        "Support": 55,
+        "Guard": 35,
+        "Tactical": 95
+      },
+      "typicalUnionPositions": [
+        "LEFT",
+        "RIGHT",
+        "REAR"
+      ],
+      "forecastIntentWeights": {
+        "TACTICAL": 145,
+        "OFFENSE": 115,
+        "AMBUSH": 120,
+        "RESCUE": 95
+      },
+      "resourceBehavior": "Moderate AP, modest MP for trick shots",
+      "learningProfile": "Learns from precision, cover, marks, terrain and objective contribution",
+      "advancedClassRoutes": [
+        "ADV_STORM_MARKSMAN",
+        "ADV_PATHFINDER_CAPTAIN",
+        "ADV_ARCANE_ARCHER"
+      ],
+      "equipmentInteractions": [
+        "equipment gates Arts rather than permanently teaching them",
+        "locked loadout slots cannot be replaced by AI"
+      ],
+      "aiPredictionRules": [
+        "prefer actions matching forecast intent",
+        "respect individual MP",
+        "fallback to basic legal action"
+      ],
+      "beginnerTrap": "Over-specializing without a complementary Union role reduces forecast diversity.",
+      "balanceLimit": "No class receives exclusive access to a core mission function forever; cross-training routes exist.",
+      "startingAvailability": true,
+      "unlockRule": "Available to normal opening recruits.",
+      "allowedTreeIds": [
+        "TREE_CA002_WPN_SPEAR_POLEARM",
+        "TREE_CA002_WPN_BOW",
+        "TREE_CA002_WPN_DAGGER",
+        "TREE_CA002_WPN_ENGINEERING",
+        "TREE_CA002_MYS_FROST",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_ROLE_SCOUT",
+        "TREE_CA002_ROLE_SABOTEUR",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "sourceAuthority": "PASS_02/CLASS_DEFINITIONS.json"
+    },
+    {
+      "id": "CLASS_ROGUE",
+      "displayName": "Rogue",
+      "tacticalIdentity": "Flanking, rear-line disruption, debuffs, opportunistic strikes",
+      "validWeaponFamilies": [
+        "DAGGER",
+        "SWORD",
+        "SHORTBOW"
+      ],
+      "armorWeights": [
+        "LIGHT"
+      ],
+      "disciplineAffinities": {
+        "Martial": 75,
+        "Mystic": 45,
+        "Restoration": 20,
+        "Support": 65,
+        "Guard": 30,
+        "Tactical": 95
+      },
+      "typicalUnionPositions": [
+        "LEFT_WING",
+        "RIGHT_WING",
+        "REAR"
+      ],
+      "forecastIntentWeights": {
+        "AMBUSH": 150,
+        "TACTICAL": 140,
+        "OFFENSE": 115,
+        "BREAK": 95
+      },
+      "resourceBehavior": "Low-to-moderate AP, selective MP",
+      "learningProfile": "Learns from rear attacks, disabling priority targets and avoiding retaliation",
+      "advancedClassRoutes": [
+        "ADV_DUSK_OPERATIVE",
+        "ADV_REARLINE_HUNTER",
+        "ADV_HEX_KNIFE"
+      ],
+      "equipmentInteractions": [
+        "equipment gates Arts rather than permanently teaching them",
+        "locked loadout slots cannot be replaced by AI"
+      ],
+      "aiPredictionRules": [
+        "prefer actions matching forecast intent",
+        "respect individual MP",
+        "fallback to basic legal action"
+      ],
+      "beginnerTrap": "Over-specializing without a complementary Union role reduces forecast diversity.",
+      "balanceLimit": "No class receives exclusive access to a core mission function forever; cross-training routes exist.",
+      "startingAvailability": true,
+      "unlockRule": "Available to normal opening recruits.",
+      "allowedTreeIds": [
+        "TREE_CA002_WPN_SWORD",
+        "TREE_CA002_WPN_BOW",
+        "TREE_CA002_WPN_DAGGER",
+        "TREE_CA002_WPN_GAUNTLET",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_SHADOW",
+        "TREE_CA002_ROLE_DUELIST",
+        "TREE_CA002_ROLE_SCOUT",
+        "TREE_CA002_ROLE_SABOTEUR",
+        "TREE_CA002_ROLE_PROVOCATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "sourceAuthority": "PASS_02/CLASS_DEFINITIONS.json"
+    },
+    {
+      "id": "CLASS_MAGE",
+      "displayName": "Mage",
+      "tacticalIdentity": "Mystic damage, wards, fields, elemental control",
+      "validWeaponFamilies": [
+        "STAFF",
+        "WAND",
+        "FOCUS_TOOL"
+      ],
+      "armorWeights": [
+        "LIGHT"
+      ],
+      "disciplineAffinities": {
+        "Martial": 20,
+        "Mystic": 100,
+        "Restoration": 45,
+        "Support": 75,
+        "Guard": 25,
+        "Tactical": 55
+      },
+      "typicalUnionPositions": [
+        "FOCUS",
+        "REAR",
+        "CENTER"
+      ],
+      "forecastIntentWeights": {
+        "MYSTIC": 155,
+        "SUPPORT": 115,
+        "OFFENSE": 105,
+        "LOW_RESOURCE": 70
+      },
+      "resourceBehavior": "Personal MP is primary constraint; Union AP may remain high when exhausted",
+      "learningProfile": "Learns from effective spell interactions, counters and hitting relevant weaknesses",
+      "advancedClassRoutes": [
+        "ADV_FIELD_ARCANIST",
+        "ADV_WARD_SCHOLAR",
+        "ADV_BATTLE_MYSTIC"
+      ],
+      "equipmentInteractions": [
+        "equipment gates Arts rather than permanently teaching them",
+        "locked loadout slots cannot be replaced by AI"
+      ],
+      "aiPredictionRules": [
+        "prefer actions matching forecast intent",
+        "respect individual MP",
+        "fallback to basic legal action"
+      ],
+      "beginnerTrap": "Over-specializing without a complementary Union role reduces forecast diversity.",
+      "balanceLimit": "No class receives exclusive access to a core mission function forever; cross-training routes exist.",
+      "startingAvailability": true,
+      "unlockRule": "Available to normal opening recruits.",
+      "allowedTreeIds": [
+        "TREE_CA002_WPN_STAFF",
+        "TREE_CA002_WPN_FOCUS",
+        "TREE_CA002_WPN_ENGINEERING",
+        "TREE_CA002_WPN_HYBRID_RELIC",
+        "TREE_CA002_MYS_FLAME",
+        "TREE_CA002_MYS_FROST",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_EARTH",
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_SHADOW",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING",
+        "TREE_CA002_ROLE_SABOTEUR",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "sourceAuthority": "PASS_02/CLASS_DEFINITIONS.json"
+    },
+    {
+      "id": "CLASS_PRIEST",
+      "displayName": "Priest",
+      "tacticalIdentity": "Healing, cleansing, morale, protection and recovery",
+      "validWeaponFamilies": [
+        "STAFF",
+        "MACE",
+        "FOCUS_TOOL"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM"
+      ],
+      "disciplineAffinities": {
+        "Martial": 30,
+        "Mystic": 60,
+        "Restoration": 100,
+        "Support": 90,
+        "Guard": 55,
+        "Tactical": 45
+      },
+      "typicalUnionPositions": [
+        "REAR",
+        "PROTECTED",
+        "CENTER"
+      ],
+      "forecastIntentWeights": {
+        "HEAL": 155,
+        "SUPPORT": 140,
+        "RESCUE": 120,
+        "GUARD": 105
+      },
+      "resourceBehavior": "Moderate MP pressure; emergency forecasts may spend aggressively",
+      "learningProfile": "Learns from meaningful healing, cleansing actual conditions and preventing losses",
+      "advancedClassRoutes": [
+        "ADV_LIFEBINDER",
+        "ADV_SANCTUARY_KEEPER",
+        "ADV_BATTLE_CHAPLAIN"
+      ],
+      "equipmentInteractions": [
+        "equipment gates Arts rather than permanently teaching them",
+        "locked loadout slots cannot be replaced by AI"
+      ],
+      "aiPredictionRules": [
+        "prefer actions matching forecast intent",
+        "respect individual MP",
+        "fallback to basic legal action"
+      ],
+      "beginnerTrap": "Over-specializing without a complementary Union role reduces forecast diversity.",
+      "balanceLimit": "No class receives exclusive access to a core mission function forever; cross-training routes exist.",
+      "startingAvailability": true,
+      "unlockRule": "Available to normal opening recruits.",
+      "allowedTreeIds": [
+        "TREE_CA002_WPN_SHIELD",
+        "TREE_CA002_WPN_STAFF",
+        "TREE_CA002_WPN_FOCUS",
+        "TREE_CA002_WPN_HYBRID_RELIC",
+        "TREE_CA002_MYS_FROST",
+        "TREE_CA002_MYS_EARTH",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING",
+        "TREE_CA002_ROLE_GUARDIAN",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_COMMANDER",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "sourceAuthority": "PASS_02/CLASS_DEFINITIONS.json"
+    },
+    {
+      "id": "CLASS_SPELLBLADE",
+      "displayName": "Spellblade",
+      "tacticalIdentity": "Hybrid Martial/Mystic attacker whose equipped relic or conventional weapon determines the legal Art mix.",
+      "validWeaponFamilies": [
+        "SWORD",
+        "SPEAR",
+        "AXE",
+        "HYBRID_RELIC"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 88,
+        "Mystic": 82,
+        "Restoration": 30,
+        "Support": 48,
+        "Guard": 52,
+        "Tactical": 72
+      },
+      "typicalUnionPositions": [
+        "VANGUARD",
+        "LEFT",
+        "RIGHT",
+        "FOCUS"
+      ],
+      "forecastIntentWeights": {
+        "OFFENSE": 135,
+        "MYSTIC": 125,
+        "BALANCED": 120,
+        "ALL_OUT": 105
+      },
+      "resourceBehavior": "Uses shared AP and personal MP together; cannot substitute free weapon Arts for exhausted Mystic resources.",
+      "learningProfile": "Unlocks through meaningful use of both a weapon discipline and a Mystic discipline; grows poorly if only one half is used.",
+      "advancedClassRoutes": [
+        "ADV_SPELL_EDGE",
+        "ADV_BATTLE_MYSTIC",
+        "ADV_HEX_KNIFE"
+      ],
+      "equipmentInteractions": [
+        "equipped weapon family selects the legal Combat Art tree",
+        "hybrid relics broaden forecasts but never make member Arts clickable"
+      ],
+      "aiPredictionRules": [
+        "prefer legal mixed forecasts when AP and MP support both halves",
+        "fallback to the equipped weapon tree without overspending MP"
+      ],
+      "beginnerTrap": "Hybrid access can dilute mastery if the player constantly changes training focus.",
+      "balanceLimit": "Never exceeds a dedicated Warrior in sustained break damage or a dedicated Mage in pure Mystic output.",
+      "startingAvailability": false,
+      "unlockRule": "Achieve meaningful rank 3 in one weapon tree and one offensive Mystic tree on the same character.",
+      "allowedTreeIds": [
+        "TREE_CA002_WPN_SWORD",
+        "TREE_CA002_WPN_AXE",
+        "TREE_CA002_WPN_SPEAR_POLEARM",
+        "TREE_CA002_WPN_HYBRID_RELIC",
+        "TREE_CA002_MYS_FLAME",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_SHADOW",
+        "TREE_CA002_ROLE_BREAKER",
+        "TREE_CA002_ROLE_DUELIST",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "sourceAuthority": "CONTENT_AUTHORITY_002"
+    },
+    {
+      "id": "CLASS_WARDEN",
+      "displayName": "Warden",
+      "tacticalIdentity": "Sustaining protector who combines Guard, Restoration, barriers, and reach weapons.",
+      "validWeaponFamilies": [
+        "SPEAR",
+        "SHIELD",
+        "STAFF",
+        "FOCUS",
+        "HYBRID_RELIC"
+      ],
+      "armorWeights": [
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 58,
+        "Mystic": 60,
+        "Restoration": 92,
+        "Support": 82,
+        "Guard": 90,
+        "Tactical": 72
+      },
+      "typicalUnionPositions": [
+        "VANGUARD",
+        "CENTER",
+        "FOCUS"
+      ],
+      "forecastIntentWeights": {
+        "GUARD": 145,
+        "HEALING": 140,
+        "RESCUE": 135,
+        "BALANCED": 120
+      },
+      "resourceBehavior": "Conserves personal MP for actual missing-HP recovery or dangerous incoming attacks.",
+      "learningProfile": "Unlocks by preventing meaningful damage and restoring endangered allies in the same operations.",
+      "advancedClassRoutes": [
+        "ADV_WARD_SENTINEL",
+        "ADV_RESCUE_MARSHAL",
+        "ADV_SANCTUARY_KEEPER"
+      ],
+      "equipmentInteractions": [
+        "shield and Warding equipment improve prevention",
+        "staff or focus equipment improves Restoration reach"
+      ],
+      "aiPredictionRules": [
+        "do not heal full-health allies",
+        "prefer mixed protect-and-heal forecasts when one member can hold pressure"
+      ],
+      "beginnerTrap": "Too many defensive members can leave the Union unable to finish battles.",
+      "balanceLimit": "Protection and healing require real incoming danger; harmless farming grants no mastery.",
+      "startingAvailability": false,
+      "unlockRule": "Prevent meaningful damage with Guard/Warding and restore missing HP in five equal-or-harder encounters.",
+      "allowedTreeIds": [
+        "TREE_CA002_WPN_SPEAR_POLEARM",
+        "TREE_CA002_WPN_SHIELD",
+        "TREE_CA002_WPN_STAFF",
+        "TREE_CA002_WPN_FOCUS",
+        "TREE_CA002_WPN_HYBRID_RELIC",
+        "TREE_CA002_MYS_FROST",
+        "TREE_CA002_MYS_EARTH",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING",
+        "TREE_CA002_ROLE_GUARDIAN",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_COMMANDER",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "sourceAuthority": "CONTENT_AUTHORITY_002"
+    },
+    {
+      "id": "CLASS_TACTICIAN",
+      "displayName": "Tactician",
+      "tacticalIdentity": "Forecast specialist who improves information, AP use, formations, objectives, and multi-Union coordination.",
+      "validWeaponFamilies": [
+        "SWORD",
+        "BOW",
+        "FOCUS_TOOL",
+        "ENGINEERING_TOOL"
+      ],
+      "armorWeights": [
+        "LIGHT",
+        "MEDIUM"
+      ],
+      "disciplineAffinities": {
+        "Martial": 48,
+        "Mystic": 58,
+        "Restoration": 50,
+        "Support": 88,
+        "Guard": 52,
+        "Tactical": 100
+      },
+      "typicalUnionPositions": [
+        "CENTER",
+        "REAR",
+        "FOCUS"
+      ],
+      "forecastIntentWeights": {
+        "TACTICAL": 155,
+        "BALANCED": 135,
+        "OBJECTIVE": 145,
+        "LOW_RESOURCE": 125
+      },
+      "resourceBehavior": "Reduces wasted AP through clearer legal fallbacks rather than creating free AP.",
+      "learningProfile": "Unlocks through varied successful forecasts, objective contribution, and formation recovery.",
+      "advancedClassRoutes": [
+        "ADV_PATHFINDER_CAPTAIN",
+        "ADV_FIELD_ARCANIST",
+        "ADV_BASTION_CAPTAIN"
+      ],
+      "equipmentInteractions": [
+        "signal and engineering tools add objective forecasts",
+        "foci support precise Support and Aether options"
+      ],
+      "aiPredictionRules": [
+        "increase forecast clarity, never secretly alter resolved results",
+        "coordinate multiple Unions only through authoritative commands"
+      ],
+      "beginnerTrap": "A Tactician cannot compensate for a Union that lacks damage, protection, or healing tools.",
+      "balanceLimit": "Command bonuses improve legal choice quality but cannot reroll unchanged forecasts.",
+      "startingAvailability": false,
+      "unlockRule": "Complete twelve distinct meaningful forecast intents and three operation objectives with the same character.",
+      "allowedTreeIds": [
+        "TREE_CA002_WPN_SWORD",
+        "TREE_CA002_WPN_BOW",
+        "TREE_CA002_WPN_DAGGER",
+        "TREE_CA002_WPN_FOCUS",
+        "TREE_CA002_WPN_ENGINEERING",
+        "TREE_CA002_WPN_HYBRID_RELIC",
+        "TREE_CA002_MYS_AETHER",
+        "TREE_CA002_MYS_RESTORATION",
+        "TREE_CA002_MYS_WARDING",
+        "TREE_CA002_ROLE_SCOUT",
+        "TREE_CA002_ROLE_SABOTEUR",
+        "TREE_CA002_ROLE_FIELD_MEDIC",
+        "TREE_CA002_ROLE_COMMANDER",
+        "TREE_CA002_ROLE_FORMATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "sourceAuthority": "CONTENT_AUTHORITY_002"
+    },
+    {
+      "id": "CLASS_BERSERKER",
+      "displayName": "Berserker",
+      "tacticalIdentity": "High-risk breaker who converts pressure, missing HP, and enemy focus into escalating Martial offense.",
+      "validWeaponFamilies": [
+        "GREAT_AXE",
+        "HAMMER",
+        "AXE",
+        "GAUNTLET"
+      ],
+      "armorWeights": [
+        "MEDIUM",
+        "HEAVY"
+      ],
+      "disciplineAffinities": {
+        "Martial": 100,
+        "Mystic": 42,
+        "Restoration": 12,
+        "Support": 22,
+        "Guard": 48,
+        "Tactical": 42
+      },
+      "typicalUnionPositions": [
+        "VANGUARD",
+        "TIP"
+      ],
+      "forecastIntentWeights": {
+        "ALL_OUT": 155,
+        "BREAK": 150,
+        "OFFENSE": 145,
+        "GUARD": 45
+      },
+      "resourceBehavior": "Spends AP aggressively and may use personal MP for Flame, Storm, or Shadow enhancements.",
+      "learningProfile": "Unlocks through meaningful Cohesion breaks while surviving dangerous retaliation; self-inflicted harmless loops do not count.",
+      "advancedClassRoutes": [
+        "ADV_LINEBREAKER",
+        "ADV_DUEL_CAPTAIN",
+        "ADV_BATTLE_MYSTIC"
+      ],
+      "equipmentInteractions": [
+        "great weapons and axes amplify break pressure",
+        "heavy armor reduces risk but also lowers some momentum weights"
+      ],
+      "aiPredictionRules": [
+        "never choose a suicidal action when a legal survival fallback exists",
+        "show the risk clearly in the complete forecast"
+      ],
+      "beginnerTrap": "All-out forecasts can strand the Union without AP or expose healers.",
+      "balanceLimit": "Missing-HP bonuses are capped and cannot create infinite damage or intentional friendly-fire farming.",
+      "startingAvailability": false,
+      "unlockRule": "Break five equal-or-harder enemy formations and survive three critical-HP turns without retreating.",
+      "allowedTreeIds": [
+        "TREE_CA002_WPN_GREAT_WEAPON",
+        "TREE_CA002_WPN_AXE",
+        "TREE_CA002_WPN_GAUNTLET",
+        "TREE_CA002_MYS_FLAME",
+        "TREE_CA002_MYS_STORM",
+        "TREE_CA002_MYS_SHADOW",
+        "TREE_CA002_ROLE_BREAKER",
+        "TREE_CA002_ROLE_DUELIST",
+        "TREE_CA002_ROLE_PROVOCATION",
+        "TREE_CA002_ROLE_RESONANCE"
+      ],
+      "sourceAuthority": "CONTENT_AUTHORITY_002"
+    }
+  ]
+}

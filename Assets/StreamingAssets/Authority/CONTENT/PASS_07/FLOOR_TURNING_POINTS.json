@@ -1,0 +1,424 @@
+{
+  "turningPoints": [
+    {
+      "id": "TP_F01_01",
+      "floorId": "ABYSS_FLOOR_001",
+      "name": "Carried the Buried",
+      "eligibility": [
+        "alliesProtected"
+      ],
+      "effects": {
+        "legendMomentum": 10,
+        "relationshipMemory": true,
+        "possibleTradeoff": "duty obligation"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F01_02",
+      "floorId": "ABYSS_FLOOR_001",
+      "name": "Held the Trench",
+      "eligibility": [
+        "simulatedCiviliansRescued"
+      ],
+      "effects": {
+        "legendMomentum": 15,
+        "relationshipMemory": true,
+        "possibleTradeoff": "fear scar"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F01_03",
+      "floorId": "ABYSS_FLOOR_001",
+      "name": "Rescue Is Not Ownership",
+      "eligibility": [
+        "formationHeld"
+      ],
+      "effects": {
+        "legendMomentum": 20,
+        "relationshipMemory": true,
+        "possibleTradeoff": "reduced selfish reward"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F02_01",
+      "floorId": "ABYSS_FLOOR_002",
+      "name": "Held Under Fire",
+      "eligibility": [
+        "coverUsed"
+      ],
+      "effects": {
+        "legendMomentum": 10,
+        "relationshipMemory": true,
+        "possibleTradeoff": "duty obligation"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F02_02",
+      "floorId": "ABYSS_FLOOR_002",
+      "name": "Moved as One",
+      "eligibility": [
+        "membersProtected"
+      ],
+      "effects": {
+        "legendMomentum": 15,
+        "relationshipMemory": true,
+        "possibleTradeoff": "fear scar"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F02_03",
+      "floorId": "ABYSS_FLOOR_002",
+      "name": "Shelter for Another",
+      "eligibility": [
+        "coordinatedMoves"
+      ],
+      "effects": {
+        "legendMomentum": 20,
+        "relationshipMemory": true,
+        "possibleTradeoff": "reduced selfish reward"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F03_01",
+      "floorId": "ABYSS_FLOOR_003",
+      "name": "Counted Every Name",
+      "eligibility": [
+        "recordsPreserved"
+      ],
+      "effects": {
+        "legendMomentum": 10,
+        "relationshipMemory": true,
+        "possibleTradeoff": "duty obligation"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F03_02",
+      "floorId": "ABYSS_FLOOR_003",
+      "name": "Prepared Before Glory",
+      "eligibility": [
+        "suppliesShared"
+      ],
+      "effects": {
+        "legendMomentum": 15,
+        "relationshipMemory": true,
+        "possibleTradeoff": "fear scar"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F03_03",
+      "floorId": "ABYSS_FLOOR_003",
+      "name": "Owned the Missing Ration",
+      "eligibility": [
+        "woundedRested"
+      ],
+      "effects": {
+        "legendMomentum": 20,
+        "relationshipMemory": true,
+        "possibleTradeoff": "reduced selfish reward"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F04_01",
+      "floorId": "ABYSS_FLOOR_004",
+      "name": "Chose Repair",
+      "eligibility": [
+        "repairsCompleted"
+      ],
+      "effects": {
+        "legendMomentum": 10,
+        "relationshipMemory": true,
+        "possibleTradeoff": "duty obligation"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F04_02",
+      "floorId": "ABYSS_FLOOR_004",
+      "name": "Held the Breach",
+      "eligibility": [
+        "breachesHeld"
+      ],
+      "effects": {
+        "legendMomentum": 15,
+        "relationshipMemory": true,
+        "possibleTradeoff": "fear scar"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F04_03",
+      "floorId": "ABYSS_FLOOR_004",
+      "name": "Engineer of Consequence",
+      "eligibility": [
+        "unsafeLootRefused"
+      ],
+      "effects": {
+        "legendMomentum": 20,
+        "relationshipMemory": true,
+        "possibleTradeoff": "reduced selfish reward"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F05_01",
+      "floorId": "ABYSS_FLOOR_005",
+      "name": "Remembered Without Hate",
+      "eligibility": [
+        "memorialsPreserved"
+      ],
+      "effects": {
+        "legendMomentum": 10,
+        "relationshipMemory": true,
+        "possibleTradeoff": "duty obligation"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F05_02",
+      "floorId": "ABYSS_FLOOR_005",
+      "name": "Raised the Banner Differently",
+      "eligibility": [
+        "moraleRaised"
+      ],
+      "effects": {
+        "legendMomentum": 15,
+        "relationshipMemory": true,
+        "possibleTradeoff": "fear scar"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F05_03",
+      "floorId": "ABYSS_FLOOR_005",
+      "name": "Morale Without Enemy",
+      "eligibility": [
+        "hatefulSymbolsRejected"
+      ],
+      "effects": {
+        "legendMomentum": 20,
+        "relationshipMemory": true,
+        "possibleTradeoff": "reduced selfish reward"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F06_01",
+      "floorId": "ABYSS_FLOOR_006",
+      "name": "Refused Blind Sacrifice",
+      "eligibility": [
+        "formationDiscipline"
+      ],
+      "effects": {
+        "legendMomentum": 10,
+        "relationshipMemory": true,
+        "possibleTradeoff": "duty obligation"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F06_02",
+      "floorId": "ABYSS_FLOOR_006",
+      "name": "Commanded the March",
+      "eligibility": [
+        "ordersQuestionedWhenImmoral"
+      ],
+      "effects": {
+        "legendMomentum": 15,
+        "relationshipMemory": true,
+        "possibleTradeoff": "fear scar"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F06_03",
+      "floorId": "ABYSS_FLOOR_006",
+      "name": "Discipline With Conscience",
+      "eligibility": [
+        "controlledAdvance"
+      ],
+      "effects": {
+        "legendMomentum": 20,
+        "relationshipMemory": true,
+        "possibleTradeoff": "reduced selfish reward"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F07_01",
+      "floorId": "ABYSS_FLOOR_007",
+      "name": "Carried Across",
+      "eligibility": [
+        "crossingsRestored"
+      ],
+      "effects": {
+        "legendMomentum": 10,
+        "relationshipMemory": true,
+        "possibleTradeoff": "duty obligation"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F07_02",
+      "floorId": "ABYSS_FLOOR_007",
+      "name": "Clean Water First",
+      "eligibility": [
+        "waterPurified"
+      ],
+      "effects": {
+        "legendMomentum": 15,
+        "relationshipMemory": true,
+        "possibleTradeoff": "fear scar"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F07_03",
+      "floorId": "ABYSS_FLOOR_007",
+      "name": "Bridgekeeper",
+      "eligibility": [
+        "rescuesCompleted"
+      ],
+      "effects": {
+        "legendMomentum": 20,
+        "relationshipMemory": true,
+        "possibleTradeoff": "reduced selfish reward"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F08_01",
+      "floorId": "ABYSS_FLOOR_008",
+      "name": "The Beast Was Afraid",
+      "eligibility": [
+        "frightenedCreaturesSpared"
+      ],
+      "effects": {
+        "legendMomentum": 10,
+        "relationshipMemory": true,
+        "possibleTradeoff": "duty obligation"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F08_02",
+      "floorId": "ABYSS_FLOOR_008",
+      "name": "Opened the Cage",
+      "eligibility": [
+        "pensOpenedSafely"
+      ],
+      "effects": {
+        "legendMomentum": 15,
+        "relationshipMemory": true,
+        "possibleTradeoff": "fear scar"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F08_03",
+      "floorId": "ABYSS_FLOOR_008",
+      "name": "Restraint Under Teeth",
+      "eligibility": [
+        "cruelShortcutsRefused"
+      ],
+      "effects": {
+        "legendMomentum": 20,
+        "relationshipMemory": true,
+        "possibleTradeoff": "reduced selfish reward"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F09_01",
+      "floorId": "ABYSS_FLOOR_009",
+      "name": "Refused the Shortcut",
+      "eligibility": [
+        "intelUsed"
+      ],
+      "effects": {
+        "legendMomentum": 10,
+        "relationshipMemory": true,
+        "possibleTradeoff": "duty obligation"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F09_02",
+      "floorId": "ABYSS_FLOOR_009",
+      "name": "Counted the Cost",
+      "eligibility": [
+        "avoidableLossesPrevented"
+      ],
+      "effects": {
+        "legendMomentum": 15,
+        "relationshipMemory": true,
+        "possibleTradeoff": "fear scar"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F09_03",
+      "floorId": "ABYSS_FLOOR_009",
+      "name": "Command Without Waste",
+      "eligibility": [
+        "supplyLinesPreserved"
+      ],
+      "effects": {
+        "legendMomentum": 20,
+        "relationshipMemory": true,
+        "possibleTradeoff": "reduced selfish reward"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F10_01",
+      "floorId": "ABYSS_FLOOR_010",
+      "name": "Stood Before Aegis",
+      "eligibility": [
+        "civiliansSaved"
+      ],
+      "effects": {
+        "legendMomentum": 10,
+        "relationshipMemory": true,
+        "possibleTradeoff": "duty obligation"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F10_02",
+      "floorId": "ABYSS_FLOOR_010",
+      "name": "Shielded the Unknown",
+      "eligibility": [
+        "alliedUnionsProtected"
+      ],
+      "effects": {
+        "legendMomentum": 15,
+        "relationshipMemory": true,
+        "possibleTradeoff": "fear scar"
+      },
+      "pureBonus": false
+    },
+    {
+      "id": "TP_F10_03",
+      "floorId": "ABYSS_FLOOR_010",
+      "name": "Protection Is Power",
+      "eligibility": [
+        "defenseSystemsRestored"
+      ],
+      "effects": {
+        "legendMomentum": 20,
+        "relationshipMemory": true,
+        "possibleTradeoff": "reduced selfish reward"
+      },
+      "pureBonus": false
+    }
+  ]
+}

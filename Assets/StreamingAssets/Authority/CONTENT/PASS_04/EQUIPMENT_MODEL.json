@@ -1,0 +1,110 @@
+{
+  "contentVersion": "GOW_PASS04_0.9",
+  "slots": [
+    {
+      "id": "SLOT_MAIN_HAND",
+      "displayName": "Main Hand",
+      "required": false,
+      "allowedCategories": [
+        "WEAPON",
+        "SHIELD",
+        "TOOL"
+      ]
+    },
+    {
+      "id": "SLOT_OFF_HAND",
+      "displayName": "Off Hand",
+      "required": false,
+      "allowedCategories": [
+        "WEAPON",
+        "SHIELD",
+        "FOCUS",
+        "TOOL"
+      ]
+    },
+    {
+      "id": "SLOT_BODY_ARMOR",
+      "displayName": "Body Armor",
+      "required": true,
+      "allowedCategories": [
+        "ARMOR"
+      ]
+    },
+    {
+      "id": "SLOT_ACCESSORY_1",
+      "displayName": "Accessory 1",
+      "required": false,
+      "allowedCategories": [
+        "ACCESSORY"
+      ]
+    },
+    {
+      "id": "SLOT_ACCESSORY_2",
+      "displayName": "Accessory 2",
+      "required": false,
+      "allowedCategories": [
+        "ACCESSORY"
+      ]
+    },
+    {
+      "id": "SLOT_TOOL_RELIC",
+      "displayName": "Tool / Relic",
+      "required": false,
+      "allowedCategories": [
+        "TOOL_RELIC",
+        "INVOCATION_ARTIFACT"
+      ]
+    }
+  ],
+  "rules": {
+    "twoHanded": "A TWO_HANDED main-hand item occupies both hand slots unless the character has a valid BRACE_MOUNT or MULTI_ARMED cultural permission.",
+    "dualWield": "Requires two one-handed weapons, DUAL_WIELD proficiency, and compatible weight. The simulation may still select single-weapon Arts.",
+    "manualControl": true,
+    "characterRequestsAreAdvisory": true,
+    "lockedSlotsRequirePlayerAuthorization": true,
+    "autoEquipPlayerTriggeredOnly": true,
+    "kaelEquipmentAllowed": false,
+    "loadoutCommitRule": "A committed loadout is part of battle-state hashing; reopening UI does not change forecast eligibility.",
+    "classTendencyNotPrison": "Class and culture supply starting proficiencies and forecast weights. Cross-training, mentorship, equipment, events, and Turning Points can expand legal equipment.",
+    "weightBands": {
+      "LIGHT": [
+        0,
+        24
+      ],
+      "MEDIUM": [
+        25,
+        54
+      ],
+      "HEAVY": [
+        55,
+        90
+      ],
+      "OVERLOADED": [
+        91,
+        999
+      ]
+    },
+    "overloadEffect": {
+      "apGenerationPermille": 750,
+      "tacticalWeightPermille": 700,
+      "guardWeightPermille": 1150,
+      "fatiguePerBoardMove": 2
+    }
+  },
+  "comparisonUiFields": [
+    "effectivePower",
+    "protection",
+    "weight",
+    "apCostModifier",
+    "mpCostModifier",
+    "cohesionModifier",
+    "skillCheckModifiers",
+    "legalArtsAdded",
+    "legalArtsRemoved",
+    "forecastIntentWeights",
+    "formationInteractions",
+    "invocationChanges",
+    "evolutionPotential",
+    "itemHistorySummary"
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "Version": 163,
+  "Scope": "Two exact-identity raster repairs and reusable procedural portraits for eight currently missing race/class cohorts. No acquisition data changed.",
+  "GenerationTool": "Built-in image_gen.imagegen",
+  "PixelEditing": "None. Original generated PNGs copied intact. Read-only alpha validation; Unity framing derives sprite rectangles.",
+  "Assets": [
+    {
+      "StableId": "HERO_REC_287",
+      "Name": "Freya Wolfkin",
+      "Role": "Distinct combat action",
+      "File": "HERO_REC_287_ACTION163.png",
+      "SHA256": "1AB77863160E8FB3FCAB3EF9798C9B7FB033E814CD0FBABA8B07184A1E70D4FB",
+      "Bytes": 2748777,
+      "Width": 1024,
+      "Height": 1536,
+      "AlphaRange": [
+        0,
+        254
+      ],
+      "Alpha16Bounds": [
+        15,
+        10,
+        1010,
+        1522
+      ],
+      "CornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Reference": "Assets/Resources/SecondDimension/Art/Standees/HeroRemaster091/HERO_REC_287_IDLE_091.png",
+      "Authorship": "New action variant derived from the exact existing Freya idle reference; existing idle and identity unchanged.",
+      "OriginalGenerationPath": "C:/Users/simon/.codex/generated_images/01a0bcc3-6506-7ab1-a4f4-5a368b61a119/exec-49927811-1eb8-46c9-8dad-2dccfec16ed0.png",
+      "Prompt": "Use case: identity-preserve. Asset type: transparent combat action sprite for Second Dimension RPG, HERO_REC_287 Freya Wolfkin. Input image: exact current idle character identity and style reference. Create ONE distinct attack/command pose of this SAME adult human woman, full body from hair to both boot soles, keeping her recognizable face, green eyes, long wavy brown hair, green scarf and emerald layered cloth, wolf-head gold waist armor, ornate bronze/gold armor, white fur edging, jewelry and boots. Match the fine rendered fantasy illustration style and proportions exactly. Pose: facing slightly toward screen right, a decisive forward step, knees braced, right arm extended directing a wolf pack, other hand holding her existing wolf medallion close; hair and green cloth follow the movement. Her weapon identity is Wolf Pack, so do not give her a sword, staff, bow or gun. Keep the image to the one woman; no extra wolf figures needed. Genuine transparent alpha background, clean isolated full-body silhouette, no floor, backdrop, vignette, glow rectangle, text or watermark. Fit all fingers, medallion, hair, cloth and both feet within generous transparent margin on every side. Keep camera angle/scale compatible with the existing idle sprite. Return only the new action pose, no comparison sheet."
+    },
+    {
+      "StableId": "CANON_KAEL",
+      "Name": "Kael",
+      "Role": "Hall Breach NPC standee",
+      "File": "CANON_KAEL_STANDEE163.png",
+      "SHA256": "45ED431EC0B0A241345F0B50004B0416EE857374D4148569F4C47F3F9676EF07",
+      "Bytes": 2086594,
+      "Width": 1024,
+      "Height": 1536,
+      "AlphaRange": [
+        0,
+        254
+      ],
+      "Alpha16Bounds": [
+        127,
+        38,
+        960,
+        1498
+      ],
+      "CornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Reference": null,
+      "Authorship": "Newly authored163 visual interpretation. No recovered exact visual canon was found. Preserves authored no-armor/no-equipment human NPC constraints and avoids Founder/mythic motifs. Replaces cross-identity Ansel Winterglass standee.",
+      "OriginalGenerationPath": "C:/Users/simon/.codex/generated_images/01a0bcc3-6506-7ab1-a4f4-5a368b61a119/exec-858715e3-163e-456e-aa79-fee54c06641c.png",
+      "Prompt": "Use case: stylized-concept. Asset type: one transparent full-body NPC sprite for Second Dimension RPG. Primary request: newly authored visual interpretation of Kael, a calm human man holding the breach beneath Guild Hall. This is an original character design, not a depiction of an existing actor. Adult man about35, lean average build, shoulder-length dark hair, clear thoughtful face and alert gray eyes, simple dark blue and charcoal traveling clothes, a plain weathered gray-blue cloak, ordinary leather boots. No armor, no weapon, no staff, no shield, no equipment belt items, no crown, no halo, no god-form or Founder motifs. Both hands empty and visible. Stance: full body in three-quarter view facing screen right, feet firmly grounded, one open hand calmly raised as if containing an unseen breach, composed rather than aggressive. Fine rendered fantasy game illustration, grounded anatomy, realistic fabric details, crisp readable silhouette, compatible with classic painted RPG character standees and the project's green-gold hero artwork. Genuine transparent alpha background, no environment, no black rectangle or gradient/vignette, no floor shadow, no effects obscuring hands. Generous transparent margin around all hair, cloak, fingers and boot soles. One character only, no text, labels, logo or watermark."
+    },
+    {
+      "StableId": null,
+      "Race": "GOBLIN",
+      "Class": "PRIEST",
+      "Role": "Reusable procedural race/class portrait; not a bespoke named hero.",
+      "File": "PROCEDURAL_GOBLIN_PRIEST_PORTRAIT163.png",
+      "SHA256": "1D46A9065380A71D8D9E91AA27EBFD3FF1A9DAB990DCF0FAFC723E76BC061394",
+      "Bytes": 2587653,
+      "Width": 1024,
+      "Height": 1536,
+      "Mode": "RGB",
+      "Reference": "Assets/Resources/SecondDimension/Art/Portraits/Races/GOBLIN/APPLICANT_GOBLIN_STORM_MYSTIC_086.png",
+      "Authorship": "New race/class pool representative using generic Goblin artwork only as style/species reference. No existing named hero reused.",
+      "OriginalGenerationPath": "C:/Users/simon/.codex/generated_images/01a0bcc3-6506-7ab1-a4f4-5a368b61a119/exec-58c50a4e-08c5-49f4-a2d8-a2ed30810fe7.png",
+      "Prompt": "Use case: stylized-concept. Asset type: reusable generic Goblin Priest / restoration healer portrait for Second Dimension RPG procedural applicants, not a named hero. The attached existing Goblin Storm Mystic is ONLY the project art-style and goblin-species reference. Create a DIFFERENT goblin healer identity: adult male, olive-green skin, pointed long ears, thoughtful alert face, short dark hair, modest cream and moss-green healer robes, soft brown leather sash, a simple wooden healing staff held calmly, one small warm-gold restorative light above the open other hand. No lightning, no combat blades, no crown, no founder or mythic motifs, no modern religious symbol. Preserve the grounded painted fantasy illustration quality, realistic facial texture, expressive hands and clean readable silhouette of the reference; do not copy its face, white hair, storm clothing or weapon. Three-quarter front-facing portrait from head down to mid-thigh, all ears, hair, staff head and hands fully inside the canvas, centered with generous safe margins. Dark softly painted neutral background without lettering, no UI frame, logo, watermark or text. This is a pooled race/class representative, so do not depict any existing named game hero."
+    },
+    {
+      "StableId": null,
+      "File": "PROCEDURAL_PORTRAITS_ATLAS163.png",
+      "SHA256": "F97FBBE7DBFF8E0E4711FFCB6C4648D141F019F5AB4877FDEB3B92ADBCB2E1E6",
+      "Bytes": 2378535,
+      "Width": 887,
+      "Height": 1774,
+      "Mode": "RGB",
+      "Authorship": "Seven generic race/class portraits and blank eighth cell. These are pooled representatives, not bespoke named identities. Existing exact art and supported cutouts retain priority.",
+      "OriginalGenerationPath": "C:/Users/simon/.codex/generated_images/01a0bcc3-6506-7ab1-a4f4-5a368b61a119/exec-614c28e0-08ac-472e-90be-47c4ad956f98.png",
+      "Reference": "Assets/Resources/SecondDimension/Art/Portraits/Races/GOBLIN/APPLICANT_GOBLIN_STORM_MYSTIC_086.png",
+      "Prompt": "Use case: stylized-concept. Make ONE production portrait atlas for Second Dimension RPG containing exactly SEVEN distinct generic race/class portraits and ONE blank cell. These are reusable procedural applicant representatives, not named heroes. Canvas target1024x2048 pixels, never larger than2048 on either axis. EXACT layout: TWO equally wide columns by FOUR equally high rows, eight equal rectangular cells, read left-to-right then top-to-bottom. No text or labels. Every cell has its own dark charcoal painted backdrop and at least24px of clean dark margin inside ALL four edges. Nothing crosses the center vertical line or horizontal quarter boundaries: no hair, ear, cloak, hand, prop, lighting or face overlaps another cell. Portrait camera is head-and-shoulders/upper chest, show complete hair and ears with margins, center each character independently. Fine grounded painted fantasy game style, crisp face/eyes, detailed cloth, rich but controlled lighting matching the attached project's generic goblin art style. Do NOT copy the reference face, hair, gear or identity. ROW1 LEFT: Dark Elf Ranger, adult gray-lavender skinned woman, long pointed ears, tied-back black hair, forest green weather cloak, alert scout demeanor; no weapon visible. ROW1 RIGHT: Dark Elf Rogue, adult gray-violet skinned man, pointed ears, short white hair, dark leather collar and cloak, face fully visible, watchful expression; no weapon visible. ROW2 LEFT: Dog Tribe Priest, adult anthropomorphic dog-person with a distinctly canine muzzle, warm tan fur, expressive dog ears, cream and blue healer robes, compassionate expression; no human face, no weapon. ROW2 RIGHT: Goblin Warrior, adult olive-green goblin man with long pointed ears, stocky neck, short cropped dark hair, worn bronze-and-leather armor, determined expression; no weapon. ROW3 LEFT: Human Priest, adult brown-skinned woman with close-cropped black hair, ivory-and-teal healer robes, composed kind face, no religious icon, no weapon. ROW3 RIGHT: Human Warrior, adult tan-skinned man with short brown hair and neat short beard, practical steel mail and russet cloth, steady rugged face, no weapon. ROW4 LEFT: Human Rogue, adult olive-skinned woman, black hair partly within a dark hood, practical dark leather collar, purposeful expression with face clear, no weapon. ROW4 RIGHT: completely EMPTY uniform charcoal rectangle matching the background. No Founder, Titan, deity, crown, halo or named hero motifs. No decorative frame, UI marks, writing, logo or watermark. Exactly seven finished portraits, each isolated in its assigned cell.",
+      "PixelEditing": "None. Unity sprites use integer cell boundaries with4px inset; original whole PNG retained.",
+      "Cells": [
+        {
+          "Race": "DARK_ELF",
+          "Class": "RANGER",
+          "Slot": 0,
+          "SpriteRectBottomOrigin": [
+            4,
+            1335,
+            435,
+            435
+          ]
+        },
+        {
+          "Race": "DARK_ELF",
+          "Class": "ROGUE",
+          "Slot": 1,
+          "SpriteRectBottomOrigin": [
+            447,
+            1335,
+            436,
+            435
+          ]
+        },
+        {
+          "Race": "DOG_TRIBE",
+          "Class": "PRIEST",
+          "Slot": 2,
+          "SpriteRectBottomOrigin": [
+            4,
+            891,
+            435,
+            436
+          ]
+        },
+        {
+          "Race": "GOBLIN",
+          "Class": "WARRIOR",
+          "Slot": 3,
+          "SpriteRectBottomOrigin": [
+            447,
+            891,
+            436,
+            436
+          ]
+        },
+        {
+          "Race": "HUMAN",
+          "Class": "PRIEST",
+          "Slot": 4,
+          "SpriteRectBottomOrigin": [
+            4,
+            448,
+            435,
+            435
+          ]
+        },
+        {
+          "Race": "HUMAN",
+          "Class": "WARRIOR",
+          "Slot": 5,
+          "SpriteRectBottomOrigin": [
+            447,
+            448,
+            436,
+            435
+          ]
+        },
+        {
+          "Race": "HUMAN",
+          "Class": "ROGUE",
+          "Slot": 6,
+          "SpriteRectBottomOrigin": [
+            4,
+            4,
+            435,
+            436
+          ]
+        }
+      ]
+    }
+  ],
+  "Validation": {
+    "GeneratedImagesVisuallyInspected": true,
+    "TransparentAlphaValidated": true,
+    "PackagedRuntime": "Pending StudioAudit163",
+    "PhysicalDevice": "Not tested; Windows layout emulation only"
+  },
+  "UnchangedScope": "Prior Titan13 hero/12 boss art. Original10 SSS sets. Quarantined49 incomplete catalog identities remain quarantined; no new grant/unlock created."
+}

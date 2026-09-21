@@ -1,0 +1,2265 @@
+{
+  "ContentVersion": "GATES_OF_FORGOTTEN_WORLDS_018B_1.0",
+  "Milestones": [
+    {
+      "Id": "MILESTONE018B_B06_01",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Milestone 1",
+      "RequiredCompletedQuestCount": 1,
+      "RequiredStoryGate": "STORY_GATE_OPENING_GUILD",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B06_01",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_SKYHOME_CIVIC_COUNCIL",
+          "Amount": 8
+        },
+        {
+          "FactionId": "FACTION018B_SEVEN_FOUNDER_COMMAND",
+          "Amount": 8
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B06_CONTRACT"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_SKYHOME_CIVIC_COUNCIL"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_01"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_GATE_GLASS",
+          "Amount": 1
+        },
+        {
+          "MaterialId": "MATERIAL_PYLON_CRYSTAL",
+          "Amount": 1
+        }
+      ],
+      "PersonalXpBonus": 10,
+      "UnionDisciplineBonus": 5,
+      "GuildXpBonus": 8,
+      "HallXpBonus": 6,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B06_02",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Milestone 2",
+      "RequiredCompletedQuestCount": 3,
+      "RequiredStoryGate": "STORY_GATE_OPENING_GUILD",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B06_02",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_SKYHOME_CIVIC_COUNCIL",
+          "Amount": 11
+        },
+        {
+          "FactionId": "FACTION018B_SEVEN_FOUNDER_COMMAND",
+          "Amount": 11
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B06_ELITE"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_SEVEN_FOUNDER_COMMAND"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_11"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_WORLDROAD_ALLOY",
+          "Amount": 2
+        },
+        {
+          "MaterialId": "MATERIAL_COMMAND_TABLE_RUNE",
+          "Amount": 2
+        }
+      ],
+      "PersonalXpBonus": 20,
+      "UnionDisciplineBonus": 10,
+      "GuildXpBonus": 16,
+      "HallXpBonus": 12,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B06_03",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Milestone 3",
+      "RequiredCompletedQuestCount": 5,
+      "RequiredStoryGate": "STORY_GATE_OPENING_GUILD",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B06_03",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_SKYHOME_CIVIC_COUNCIL",
+          "Amount": 14
+        },
+        {
+          "FactionId": "FACTION018B_SEVEN_FOUNDER_COMMAND",
+          "Amount": 14
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B06_BOSS"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_SKYHOME_CIVIC_COUNCIL"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_21"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_AEGIS_CORE",
+          "Amount": 3
+        },
+        {
+          "MaterialId": "MATERIAL_RESONANCE_THREAD",
+          "Amount": 3
+        }
+      ],
+      "PersonalXpBonus": 30,
+      "UnionDisciplineBonus": 15,
+      "GuildXpBonus": 24,
+      "HallXpBonus": 18,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B06_04",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Milestone 4",
+      "RequiredCompletedQuestCount": 8,
+      "RequiredStoryGate": "STORY_GATE_OPENING_GUILD",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B06_04",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_SKYHOME_CIVIC_COUNCIL",
+          "Amount": 17
+        },
+        {
+          "FactionId": "FACTION018B_SEVEN_FOUNDER_COMMAND",
+          "Amount": 17
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B06_SECRET"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_SEVEN_FOUNDER_COMMAND"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_01"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_GATE_BRONZE",
+          "Amount": 4
+        },
+        {
+          "MaterialId": "MATERIAL_BLACK_IRON",
+          "Amount": 4
+        }
+      ],
+      "PersonalXpBonus": 40,
+      "UnionDisciplineBonus": 20,
+      "GuildXpBonus": 32,
+      "HallXpBonus": 24,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B06_05",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Milestone 5",
+      "RequiredCompletedQuestCount": 12,
+      "RequiredStoryGate": "STORY_GATE_OPENING_GUILD",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B06_05",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_SKYHOME_CIVIC_COUNCIL",
+          "Amount": 20
+        },
+        {
+          "FactionId": "FACTION018B_SEVEN_FOUNDER_COMMAND",
+          "Amount": 20
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B06_CONTRACT",
+        "REWARD018B_B06_ELITE",
+        "REWARD018B_B06_BOSS",
+        "REWARD018B_B06_SECRET"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_SKYHOME_CIVIC_COUNCIL"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_11"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_MEMORY_WATER",
+          "Amount": 5
+        },
+        {
+          "MaterialId": "MATERIAL_WORLDROAD_ALLOY",
+          "Amount": 5
+        }
+      ],
+      "PersonalXpBonus": 50,
+      "UnionDisciplineBonus": 25,
+      "GuildXpBonus": 40,
+      "HallXpBonus": 30,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B07_01",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Milestone 1",
+      "RequiredCompletedQuestCount": 1,
+      "RequiredStoryGate": "STORY_GATE_BOOK06_LAST_TREASURY",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B07_01",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_FIRST_ARMY",
+          "Amount": 8
+        },
+        {
+          "FactionId": "FACTION018B_CIVIC_DEFENSE_CORPS",
+          "Amount": 8
+        },
+        {
+          "FactionId": "FACTION018B_GOBLIN_FORTRESS_HOST",
+          "Amount": 8
+        },
+        {
+          "FactionId": "FACTION018B_FREE_GOBLIN_DEFECTORS",
+          "Amount": 8
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B07_CONTRACT"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_FIRST_ARMY"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_02"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_GATE_GLASS",
+          "Amount": 1
+        },
+        {
+          "MaterialId": "MATERIAL_PYLON_CRYSTAL",
+          "Amount": 1
+        }
+      ],
+      "PersonalXpBonus": 10,
+      "UnionDisciplineBonus": 5,
+      "GuildXpBonus": 8,
+      "HallXpBonus": 6,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B07_02",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Milestone 2",
+      "RequiredCompletedQuestCount": 3,
+      "RequiredStoryGate": "STORY_GATE_BOOK06_LAST_TREASURY",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B07_02",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_FIRST_ARMY",
+          "Amount": 11
+        },
+        {
+          "FactionId": "FACTION018B_CIVIC_DEFENSE_CORPS",
+          "Amount": 11
+        },
+        {
+          "FactionId": "FACTION018B_GOBLIN_FORTRESS_HOST",
+          "Amount": 11
+        },
+        {
+          "FactionId": "FACTION018B_FREE_GOBLIN_DEFECTORS",
+          "Amount": 11
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B07_ELITE"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_CIVIC_DEFENSE_CORPS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_12"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_WORLDROAD_ALLOY",
+          "Amount": 2
+        },
+        {
+          "MaterialId": "MATERIAL_COMMAND_TABLE_RUNE",
+          "Amount": 2
+        }
+      ],
+      "PersonalXpBonus": 20,
+      "UnionDisciplineBonus": 10,
+      "GuildXpBonus": 16,
+      "HallXpBonus": 12,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B07_03",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Milestone 3",
+      "RequiredCompletedQuestCount": 5,
+      "RequiredStoryGate": "STORY_GATE_BOOK06_LAST_TREASURY",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B07_03",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_FIRST_ARMY",
+          "Amount": 14
+        },
+        {
+          "FactionId": "FACTION018B_CIVIC_DEFENSE_CORPS",
+          "Amount": 14
+        },
+        {
+          "FactionId": "FACTION018B_GOBLIN_FORTRESS_HOST",
+          "Amount": 14
+        },
+        {
+          "FactionId": "FACTION018B_FREE_GOBLIN_DEFECTORS",
+          "Amount": 14
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B07_BOSS"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_GOBLIN_FORTRESS_HOST"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_22"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_AEGIS_CORE",
+          "Amount": 3
+        },
+        {
+          "MaterialId": "MATERIAL_RESONANCE_THREAD",
+          "Amount": 3
+        }
+      ],
+      "PersonalXpBonus": 30,
+      "UnionDisciplineBonus": 15,
+      "GuildXpBonus": 24,
+      "HallXpBonus": 18,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B07_04",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Milestone 4",
+      "RequiredCompletedQuestCount": 8,
+      "RequiredStoryGate": "STORY_GATE_BOOK06_LAST_TREASURY",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B07_04",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_FIRST_ARMY",
+          "Amount": 17
+        },
+        {
+          "FactionId": "FACTION018B_CIVIC_DEFENSE_CORPS",
+          "Amount": 17
+        },
+        {
+          "FactionId": "FACTION018B_GOBLIN_FORTRESS_HOST",
+          "Amount": 17
+        },
+        {
+          "FactionId": "FACTION018B_FREE_GOBLIN_DEFECTORS",
+          "Amount": 17
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B07_SECRET"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_FREE_GOBLIN_DEFECTORS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_02"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_GATE_BRONZE",
+          "Amount": 4
+        },
+        {
+          "MaterialId": "MATERIAL_BLACK_IRON",
+          "Amount": 4
+        }
+      ],
+      "PersonalXpBonus": 40,
+      "UnionDisciplineBonus": 20,
+      "GuildXpBonus": 32,
+      "HallXpBonus": 24,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B07_05",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Milestone 5",
+      "RequiredCompletedQuestCount": 12,
+      "RequiredStoryGate": "STORY_GATE_BOOK06_LAST_TREASURY",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B07_05",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_FIRST_ARMY",
+          "Amount": 20
+        },
+        {
+          "FactionId": "FACTION018B_CIVIC_DEFENSE_CORPS",
+          "Amount": 20
+        },
+        {
+          "FactionId": "FACTION018B_GOBLIN_FORTRESS_HOST",
+          "Amount": 20
+        },
+        {
+          "FactionId": "FACTION018B_FREE_GOBLIN_DEFECTORS",
+          "Amount": 20
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B07_CONTRACT",
+        "REWARD018B_B07_ELITE",
+        "REWARD018B_B07_BOSS",
+        "REWARD018B_B07_SECRET"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_FIRST_ARMY"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_12"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_MEMORY_WATER",
+          "Amount": 5
+        },
+        {
+          "MaterialId": "MATERIAL_WORLDROAD_ALLOY",
+          "Amount": 5
+        }
+      ],
+      "PersonalXpBonus": 50,
+      "UnionDisciplineBonus": 25,
+      "GuildXpBonus": 40,
+      "HallXpBonus": 30,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B08_01",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Milestone 1",
+      "RequiredCompletedQuestCount": 1,
+      "RequiredStoryGate": "STORY_GATE_BOOK07_GOBLIN_WAR",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B08_01",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_FORTRESS_WARDENS",
+          "Amount": 8
+        },
+        {
+          "FactionId": "FACTION018B_UNDERREALM_PRISONER_HOUSES",
+          "Amount": 8
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B08_CONTRACT"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_FORTRESS_WARDENS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_03"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_GATE_GLASS",
+          "Amount": 1
+        },
+        {
+          "MaterialId": "MATERIAL_PYLON_CRYSTAL",
+          "Amount": 1
+        }
+      ],
+      "PersonalXpBonus": 10,
+      "UnionDisciplineBonus": 5,
+      "GuildXpBonus": 8,
+      "HallXpBonus": 6,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B08_02",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Milestone 2",
+      "RequiredCompletedQuestCount": 3,
+      "RequiredStoryGate": "STORY_GATE_BOOK07_GOBLIN_WAR",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B08_02",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_FORTRESS_WARDENS",
+          "Amount": 11
+        },
+        {
+          "FactionId": "FACTION018B_UNDERREALM_PRISONER_HOUSES",
+          "Amount": 11
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B08_ELITE"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_UNDERREALM_PRISONER_HOUSES"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_13"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_WORLDROAD_ALLOY",
+          "Amount": 2
+        },
+        {
+          "MaterialId": "MATERIAL_COMMAND_TABLE_RUNE",
+          "Amount": 2
+        }
+      ],
+      "PersonalXpBonus": 20,
+      "UnionDisciplineBonus": 10,
+      "GuildXpBonus": 16,
+      "HallXpBonus": 12,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B08_03",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Milestone 3",
+      "RequiredCompletedQuestCount": 5,
+      "RequiredStoryGate": "STORY_GATE_BOOK07_GOBLIN_WAR",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B08_03",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_FORTRESS_WARDENS",
+          "Amount": 14
+        },
+        {
+          "FactionId": "FACTION018B_UNDERREALM_PRISONER_HOUSES",
+          "Amount": 14
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B08_BOSS"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_FORTRESS_WARDENS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_23"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_AEGIS_CORE",
+          "Amount": 3
+        },
+        {
+          "MaterialId": "MATERIAL_RESONANCE_THREAD",
+          "Amount": 3
+        }
+      ],
+      "PersonalXpBonus": 30,
+      "UnionDisciplineBonus": 15,
+      "GuildXpBonus": 24,
+      "HallXpBonus": 18,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B08_04",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Milestone 4",
+      "RequiredCompletedQuestCount": 8,
+      "RequiredStoryGate": "STORY_GATE_BOOK07_GOBLIN_WAR",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B08_04",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_FORTRESS_WARDENS",
+          "Amount": 17
+        },
+        {
+          "FactionId": "FACTION018B_UNDERREALM_PRISONER_HOUSES",
+          "Amount": 17
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B08_SECRET"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_UNDERREALM_PRISONER_HOUSES"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_03"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_GATE_BRONZE",
+          "Amount": 4
+        },
+        {
+          "MaterialId": "MATERIAL_BLACK_IRON",
+          "Amount": 4
+        }
+      ],
+      "PersonalXpBonus": 40,
+      "UnionDisciplineBonus": 20,
+      "GuildXpBonus": 32,
+      "HallXpBonus": 24,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B08_05",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Milestone 5",
+      "RequiredCompletedQuestCount": 12,
+      "RequiredStoryGate": "STORY_GATE_BOOK07_GOBLIN_WAR",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B08_05",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_FORTRESS_WARDENS",
+          "Amount": 20
+        },
+        {
+          "FactionId": "FACTION018B_UNDERREALM_PRISONER_HOUSES",
+          "Amount": 20
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B08_CONTRACT",
+        "REWARD018B_B08_ELITE",
+        "REWARD018B_B08_BOSS",
+        "REWARD018B_B08_SECRET"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_FORTRESS_WARDENS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_13"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_MEMORY_WATER",
+          "Amount": 5
+        },
+        {
+          "MaterialId": "MATERIAL_WORLDROAD_ALLOY",
+          "Amount": 5
+        }
+      ],
+      "PersonalXpBonus": 50,
+      "UnionDisciplineBonus": 25,
+      "GuildXpBonus": 40,
+      "HallXpBonus": 30,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B09_01",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Milestone 1",
+      "RequiredCompletedQuestCount": 1,
+      "RequiredStoryGate": "STORY_GATE_BOOK08_GOBLIN_FORTRESS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B09_01",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_DEEP_WARRENS_COMPACT",
+          "Amount": 8
+        },
+        {
+          "FactionId": "FACTION018B_ASH_CROWN_CASTE",
+          "Amount": 8
+        },
+        {
+          "FactionId": "FACTION018B_FREE_BURROW_COALITION",
+          "Amount": 8
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B09_CONTRACT"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_DEEP_WARRENS_COMPACT"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_04"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_GATE_GLASS",
+          "Amount": 1
+        },
+        {
+          "MaterialId": "MATERIAL_PYLON_CRYSTAL",
+          "Amount": 1
+        }
+      ],
+      "PersonalXpBonus": 10,
+      "UnionDisciplineBonus": 5,
+      "GuildXpBonus": 8,
+      "HallXpBonus": 6,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B09_02",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Milestone 2",
+      "RequiredCompletedQuestCount": 3,
+      "RequiredStoryGate": "STORY_GATE_BOOK08_GOBLIN_FORTRESS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B09_02",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_DEEP_WARRENS_COMPACT",
+          "Amount": 11
+        },
+        {
+          "FactionId": "FACTION018B_ASH_CROWN_CASTE",
+          "Amount": 11
+        },
+        {
+          "FactionId": "FACTION018B_FREE_BURROW_COALITION",
+          "Amount": 11
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B09_ELITE"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_ASH_CROWN_CASTE"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_14"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_WORLDROAD_ALLOY",
+          "Amount": 2
+        },
+        {
+          "MaterialId": "MATERIAL_COMMAND_TABLE_RUNE",
+          "Amount": 2
+        }
+      ],
+      "PersonalXpBonus": 20,
+      "UnionDisciplineBonus": 10,
+      "GuildXpBonus": 16,
+      "HallXpBonus": 12,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B09_03",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Milestone 3",
+      "RequiredCompletedQuestCount": 5,
+      "RequiredStoryGate": "STORY_GATE_BOOK08_GOBLIN_FORTRESS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B09_03",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_DEEP_WARRENS_COMPACT",
+          "Amount": 14
+        },
+        {
+          "FactionId": "FACTION018B_ASH_CROWN_CASTE",
+          "Amount": 14
+        },
+        {
+          "FactionId": "FACTION018B_FREE_BURROW_COALITION",
+          "Amount": 14
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B09_BOSS"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_FREE_BURROW_COALITION"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_24"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_AEGIS_CORE",
+          "Amount": 3
+        },
+        {
+          "MaterialId": "MATERIAL_RESONANCE_THREAD",
+          "Amount": 3
+        }
+      ],
+      "PersonalXpBonus": 30,
+      "UnionDisciplineBonus": 15,
+      "GuildXpBonus": 24,
+      "HallXpBonus": 18,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B09_04",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Milestone 4",
+      "RequiredCompletedQuestCount": 8,
+      "RequiredStoryGate": "STORY_GATE_BOOK08_GOBLIN_FORTRESS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B09_04",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_DEEP_WARRENS_COMPACT",
+          "Amount": 17
+        },
+        {
+          "FactionId": "FACTION018B_ASH_CROWN_CASTE",
+          "Amount": 17
+        },
+        {
+          "FactionId": "FACTION018B_FREE_BURROW_COALITION",
+          "Amount": 17
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B09_SECRET"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_DEEP_WARRENS_COMPACT"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_04"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_GATE_BRONZE",
+          "Amount": 4
+        },
+        {
+          "MaterialId": "MATERIAL_BLACK_IRON",
+          "Amount": 4
+        }
+      ],
+      "PersonalXpBonus": 40,
+      "UnionDisciplineBonus": 20,
+      "GuildXpBonus": 32,
+      "HallXpBonus": 24,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B09_05",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Milestone 5",
+      "RequiredCompletedQuestCount": 12,
+      "RequiredStoryGate": "STORY_GATE_BOOK08_GOBLIN_FORTRESS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B09_05",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_DEEP_WARRENS_COMPACT",
+          "Amount": 20
+        },
+        {
+          "FactionId": "FACTION018B_ASH_CROWN_CASTE",
+          "Amount": 20
+        },
+        {
+          "FactionId": "FACTION018B_FREE_BURROW_COALITION",
+          "Amount": 20
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B09_CONTRACT",
+        "REWARD018B_B09_ELITE",
+        "REWARD018B_B09_BOSS",
+        "REWARD018B_B09_SECRET"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_ASH_CROWN_CASTE"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_14"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_MEMORY_WATER",
+          "Amount": 5
+        },
+        {
+          "MaterialId": "MATERIAL_WORLDROAD_ALLOY",
+          "Amount": 5
+        }
+      ],
+      "PersonalXpBonus": 50,
+      "UnionDisciplineBonus": 25,
+      "GuildXpBonus": 40,
+      "HallXpBonus": 30,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B10_01",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Milestone 1",
+      "RequiredCompletedQuestCount": 1,
+      "RequiredStoryGate": "STORY_GATE_BOOK09_GOBLIN_WORLD",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B10_01",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_REBUILDERS_CONSORTIUM",
+          "Amount": 8
+        },
+        {
+          "FactionId": "FACTION018B_FIRST_MEMORY_SEEKERS",
+          "Amount": 8
+        },
+        {
+          "FactionId": "FACTION018B_UNDERREALM_MERCHANT_LEAGUE",
+          "Amount": 8
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B10_CONTRACT"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_REBUILDERS_CONSORTIUM"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_05"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_GATE_GLASS",
+          "Amount": 1
+        },
+        {
+          "MaterialId": "MATERIAL_PYLON_CRYSTAL",
+          "Amount": 1
+        }
+      ],
+      "PersonalXpBonus": 10,
+      "UnionDisciplineBonus": 5,
+      "GuildXpBonus": 8,
+      "HallXpBonus": 6,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B10_02",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Milestone 2",
+      "RequiredCompletedQuestCount": 3,
+      "RequiredStoryGate": "STORY_GATE_BOOK09_GOBLIN_WORLD",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B10_02",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_REBUILDERS_CONSORTIUM",
+          "Amount": 11
+        },
+        {
+          "FactionId": "FACTION018B_FIRST_MEMORY_SEEKERS",
+          "Amount": 11
+        },
+        {
+          "FactionId": "FACTION018B_UNDERREALM_MERCHANT_LEAGUE",
+          "Amount": 11
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B10_ELITE"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_FIRST_MEMORY_SEEKERS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_15"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_WORLDROAD_ALLOY",
+          "Amount": 2
+        },
+        {
+          "MaterialId": "MATERIAL_COMMAND_TABLE_RUNE",
+          "Amount": 2
+        }
+      ],
+      "PersonalXpBonus": 20,
+      "UnionDisciplineBonus": 10,
+      "GuildXpBonus": 16,
+      "HallXpBonus": 12,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B10_03",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Milestone 3",
+      "RequiredCompletedQuestCount": 5,
+      "RequiredStoryGate": "STORY_GATE_BOOK09_GOBLIN_WORLD",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B10_03",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_REBUILDERS_CONSORTIUM",
+          "Amount": 14
+        },
+        {
+          "FactionId": "FACTION018B_FIRST_MEMORY_SEEKERS",
+          "Amount": 14
+        },
+        {
+          "FactionId": "FACTION018B_UNDERREALM_MERCHANT_LEAGUE",
+          "Amount": 14
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B10_BOSS"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_UNDERREALM_MERCHANT_LEAGUE"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_25"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_AEGIS_CORE",
+          "Amount": 3
+        },
+        {
+          "MaterialId": "MATERIAL_RESONANCE_THREAD",
+          "Amount": 3
+        }
+      ],
+      "PersonalXpBonus": 30,
+      "UnionDisciplineBonus": 15,
+      "GuildXpBonus": 24,
+      "HallXpBonus": 18,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B10_04",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Milestone 4",
+      "RequiredCompletedQuestCount": 8,
+      "RequiredStoryGate": "STORY_GATE_BOOK09_GOBLIN_WORLD",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B10_04",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_REBUILDERS_CONSORTIUM",
+          "Amount": 17
+        },
+        {
+          "FactionId": "FACTION018B_FIRST_MEMORY_SEEKERS",
+          "Amount": 17
+        },
+        {
+          "FactionId": "FACTION018B_UNDERREALM_MERCHANT_LEAGUE",
+          "Amount": 17
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B10_SECRET"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_REBUILDERS_CONSORTIUM"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_05"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_GATE_BRONZE",
+          "Amount": 4
+        },
+        {
+          "MaterialId": "MATERIAL_BLACK_IRON",
+          "Amount": 4
+        }
+      ],
+      "PersonalXpBonus": 40,
+      "UnionDisciplineBonus": 20,
+      "GuildXpBonus": 32,
+      "HallXpBonus": 24,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B10_05",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Milestone 5",
+      "RequiredCompletedQuestCount": 12,
+      "RequiredStoryGate": "STORY_GATE_BOOK09_GOBLIN_WORLD",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B10_05",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_REBUILDERS_CONSORTIUM",
+          "Amount": 20
+        },
+        {
+          "FactionId": "FACTION018B_FIRST_MEMORY_SEEKERS",
+          "Amount": 20
+        },
+        {
+          "FactionId": "FACTION018B_UNDERREALM_MERCHANT_LEAGUE",
+          "Amount": 20
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B10_CONTRACT",
+        "REWARD018B_B10_ELITE",
+        "REWARD018B_B10_BOSS",
+        "REWARD018B_B10_SECRET"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_FIRST_MEMORY_SEEKERS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_15"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_MEMORY_WATER",
+          "Amount": 5
+        },
+        {
+          "MaterialId": "MATERIAL_WORLDROAD_ALLOY",
+          "Amount": 5
+        }
+      ],
+      "PersonalXpBonus": 50,
+      "UnionDisciplineBonus": 25,
+      "GuildXpBonus": 40,
+      "HallXpBonus": 30,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B11_01",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Milestone 1",
+      "RequiredCompletedQuestCount": 1,
+      "RequiredStoryGate": "STORY_GATE_BOOK10_ARCHITECT_OF_WORLDS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B11_01",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_FIRST_GATE_SURVEY_CORPS",
+          "Amount": 8
+        },
+        {
+          "FactionId": "FACTION018B_WORLDROAD_CARTOGRAPHERS",
+          "Amount": 8
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B11_CONTRACT"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_FIRST_GATE_SURVEY_CORPS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_06"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_GATE_GLASS",
+          "Amount": 1
+        },
+        {
+          "MaterialId": "MATERIAL_PYLON_CRYSTAL",
+          "Amount": 1
+        }
+      ],
+      "PersonalXpBonus": 10,
+      "UnionDisciplineBonus": 5,
+      "GuildXpBonus": 8,
+      "HallXpBonus": 6,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B11_02",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Milestone 2",
+      "RequiredCompletedQuestCount": 3,
+      "RequiredStoryGate": "STORY_GATE_BOOK10_ARCHITECT_OF_WORLDS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B11_02",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_FIRST_GATE_SURVEY_CORPS",
+          "Amount": 11
+        },
+        {
+          "FactionId": "FACTION018B_WORLDROAD_CARTOGRAPHERS",
+          "Amount": 11
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B11_ELITE"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_WORLDROAD_CARTOGRAPHERS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_16"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_WORLDROAD_ALLOY",
+          "Amount": 2
+        },
+        {
+          "MaterialId": "MATERIAL_COMMAND_TABLE_RUNE",
+          "Amount": 2
+        }
+      ],
+      "PersonalXpBonus": 20,
+      "UnionDisciplineBonus": 10,
+      "GuildXpBonus": 16,
+      "HallXpBonus": 12,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B11_03",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Milestone 3",
+      "RequiredCompletedQuestCount": 5,
+      "RequiredStoryGate": "STORY_GATE_BOOK10_ARCHITECT_OF_WORLDS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B11_03",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_FIRST_GATE_SURVEY_CORPS",
+          "Amount": 14
+        },
+        {
+          "FactionId": "FACTION018B_WORLDROAD_CARTOGRAPHERS",
+          "Amount": 14
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B11_BOSS"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_FIRST_GATE_SURVEY_CORPS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_26"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_AEGIS_CORE",
+          "Amount": 3
+        },
+        {
+          "MaterialId": "MATERIAL_RESONANCE_THREAD",
+          "Amount": 3
+        }
+      ],
+      "PersonalXpBonus": 30,
+      "UnionDisciplineBonus": 15,
+      "GuildXpBonus": 24,
+      "HallXpBonus": 18,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B11_04",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Milestone 4",
+      "RequiredCompletedQuestCount": 8,
+      "RequiredStoryGate": "STORY_GATE_BOOK10_ARCHITECT_OF_WORLDS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B11_04",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_FIRST_GATE_SURVEY_CORPS",
+          "Amount": 17
+        },
+        {
+          "FactionId": "FACTION018B_WORLDROAD_CARTOGRAPHERS",
+          "Amount": 17
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B11_SECRET"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_WORLDROAD_CARTOGRAPHERS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_06"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_GATE_BRONZE",
+          "Amount": 4
+        },
+        {
+          "MaterialId": "MATERIAL_BLACK_IRON",
+          "Amount": 4
+        }
+      ],
+      "PersonalXpBonus": 40,
+      "UnionDisciplineBonus": 20,
+      "GuildXpBonus": 32,
+      "HallXpBonus": 24,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B11_05",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Milestone 5",
+      "RequiredCompletedQuestCount": 12,
+      "RequiredStoryGate": "STORY_GATE_BOOK10_ARCHITECT_OF_WORLDS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B11_05",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_FIRST_GATE_SURVEY_CORPS",
+          "Amount": 20
+        },
+        {
+          "FactionId": "FACTION018B_WORLDROAD_CARTOGRAPHERS",
+          "Amount": 20
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B11_CONTRACT",
+        "REWARD018B_B11_ELITE",
+        "REWARD018B_B11_BOSS",
+        "REWARD018B_B11_SECRET"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_FIRST_GATE_SURVEY_CORPS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_16"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_MEMORY_WATER",
+          "Amount": 5
+        },
+        {
+          "MaterialId": "MATERIAL_WORLDROAD_ALLOY",
+          "Amount": 5
+        }
+      ],
+      "PersonalXpBonus": 50,
+      "UnionDisciplineBonus": 25,
+      "GuildXpBonus": 40,
+      "HallXpBonus": 30,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B12_01",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Milestone 1",
+      "RequiredCompletedQuestCount": 1,
+      "RequiredStoryGate": "STORY_GATE_OWNER_APPROVED_FUTURE_RACE_WORLD_CAMPAIGNS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B12_01",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_IRONROOT_CLANS",
+          "Amount": 8
+        },
+        {
+          "FactionId": "FACTION018B_RED_SAND_CONFEDERATION",
+          "Amount": 8
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B12_CONTRACT"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_IRONROOT_CLANS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_07"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_GATE_GLASS",
+          "Amount": 1
+        },
+        {
+          "MaterialId": "MATERIAL_PYLON_CRYSTAL",
+          "Amount": 1
+        }
+      ],
+      "PersonalXpBonus": 10,
+      "UnionDisciplineBonus": 5,
+      "GuildXpBonus": 8,
+      "HallXpBonus": 6,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B12_02",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Milestone 2",
+      "RequiredCompletedQuestCount": 3,
+      "RequiredStoryGate": "STORY_GATE_OWNER_APPROVED_FUTURE_RACE_WORLD_CAMPAIGNS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B12_02",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_IRONROOT_CLANS",
+          "Amount": 11
+        },
+        {
+          "FactionId": "FACTION018B_RED_SAND_CONFEDERATION",
+          "Amount": 11
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B12_ELITE"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_RED_SAND_CONFEDERATION"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_17"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_WORLDROAD_ALLOY",
+          "Amount": 2
+        },
+        {
+          "MaterialId": "MATERIAL_COMMAND_TABLE_RUNE",
+          "Amount": 2
+        }
+      ],
+      "PersonalXpBonus": 20,
+      "UnionDisciplineBonus": 10,
+      "GuildXpBonus": 16,
+      "HallXpBonus": 12,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B12_03",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Milestone 3",
+      "RequiredCompletedQuestCount": 5,
+      "RequiredStoryGate": "STORY_GATE_OWNER_APPROVED_FUTURE_RACE_WORLD_CAMPAIGNS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B12_03",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_IRONROOT_CLANS",
+          "Amount": 14
+        },
+        {
+          "FactionId": "FACTION018B_RED_SAND_CONFEDERATION",
+          "Amount": 14
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B12_BOSS"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_IRONROOT_CLANS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_27"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_AEGIS_CORE",
+          "Amount": 3
+        },
+        {
+          "MaterialId": "MATERIAL_RESONANCE_THREAD",
+          "Amount": 3
+        }
+      ],
+      "PersonalXpBonus": 30,
+      "UnionDisciplineBonus": 15,
+      "GuildXpBonus": 24,
+      "HallXpBonus": 18,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B12_04",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Milestone 4",
+      "RequiredCompletedQuestCount": 8,
+      "RequiredStoryGate": "STORY_GATE_OWNER_APPROVED_FUTURE_RACE_WORLD_CAMPAIGNS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B12_04",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_IRONROOT_CLANS",
+          "Amount": 17
+        },
+        {
+          "FactionId": "FACTION018B_RED_SAND_CONFEDERATION",
+          "Amount": 17
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B12_SECRET"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_RED_SAND_CONFEDERATION"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_07"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_GATE_BRONZE",
+          "Amount": 4
+        },
+        {
+          "MaterialId": "MATERIAL_BLACK_IRON",
+          "Amount": 4
+        }
+      ],
+      "PersonalXpBonus": 40,
+      "UnionDisciplineBonus": 20,
+      "GuildXpBonus": 32,
+      "HallXpBonus": 24,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B12_05",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Milestone 5",
+      "RequiredCompletedQuestCount": 12,
+      "RequiredStoryGate": "STORY_GATE_OWNER_APPROVED_FUTURE_RACE_WORLD_CAMPAIGNS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B12_05",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_IRONROOT_CLANS",
+          "Amount": 20
+        },
+        {
+          "FactionId": "FACTION018B_RED_SAND_CONFEDERATION",
+          "Amount": 20
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B12_CONTRACT",
+        "REWARD018B_B12_ELITE",
+        "REWARD018B_B12_BOSS",
+        "REWARD018B_B12_SECRET"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_IRONROOT_CLANS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_17"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_MEMORY_WATER",
+          "Amount": 5
+        },
+        {
+          "MaterialId": "MATERIAL_WORLDROAD_ALLOY",
+          "Amount": 5
+        }
+      ],
+      "PersonalXpBonus": 50,
+      "UnionDisciplineBonus": 25,
+      "GuildXpBonus": 40,
+      "HallXpBonus": 30,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B13_01",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Milestone 1",
+      "RequiredCompletedQuestCount": 1,
+      "RequiredStoryGate": "STORY_GATE_OWNER_APPROVED_FUTURE_RACE_WORLD_CAMPAIGNS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B13_01",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_MOONFANG_PACKS",
+          "Amount": 8
+        },
+        {
+          "FactionId": "FACTION018B_VERDANT_CROWN_CIRCLES",
+          "Amount": 8
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B13_CONTRACT"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_MOONFANG_PACKS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_08"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_GATE_GLASS",
+          "Amount": 1
+        },
+        {
+          "MaterialId": "MATERIAL_PYLON_CRYSTAL",
+          "Amount": 1
+        }
+      ],
+      "PersonalXpBonus": 10,
+      "UnionDisciplineBonus": 5,
+      "GuildXpBonus": 8,
+      "HallXpBonus": 6,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B13_02",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Milestone 2",
+      "RequiredCompletedQuestCount": 3,
+      "RequiredStoryGate": "STORY_GATE_OWNER_APPROVED_FUTURE_RACE_WORLD_CAMPAIGNS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B13_02",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_MOONFANG_PACKS",
+          "Amount": 11
+        },
+        {
+          "FactionId": "FACTION018B_VERDANT_CROWN_CIRCLES",
+          "Amount": 11
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B13_ELITE"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_VERDANT_CROWN_CIRCLES"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_18"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_WORLDROAD_ALLOY",
+          "Amount": 2
+        },
+        {
+          "MaterialId": "MATERIAL_COMMAND_TABLE_RUNE",
+          "Amount": 2
+        }
+      ],
+      "PersonalXpBonus": 20,
+      "UnionDisciplineBonus": 10,
+      "GuildXpBonus": 16,
+      "HallXpBonus": 12,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B13_03",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Milestone 3",
+      "RequiredCompletedQuestCount": 5,
+      "RequiredStoryGate": "STORY_GATE_OWNER_APPROVED_FUTURE_RACE_WORLD_CAMPAIGNS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B13_03",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_MOONFANG_PACKS",
+          "Amount": 14
+        },
+        {
+          "FactionId": "FACTION018B_VERDANT_CROWN_CIRCLES",
+          "Amount": 14
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B13_BOSS"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_MOONFANG_PACKS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_28"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_AEGIS_CORE",
+          "Amount": 3
+        },
+        {
+          "MaterialId": "MATERIAL_RESONANCE_THREAD",
+          "Amount": 3
+        }
+      ],
+      "PersonalXpBonus": 30,
+      "UnionDisciplineBonus": 15,
+      "GuildXpBonus": 24,
+      "HallXpBonus": 18,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B13_04",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Milestone 4",
+      "RequiredCompletedQuestCount": 8,
+      "RequiredStoryGate": "STORY_GATE_OWNER_APPROVED_FUTURE_RACE_WORLD_CAMPAIGNS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B13_04",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_MOONFANG_PACKS",
+          "Amount": 17
+        },
+        {
+          "FactionId": "FACTION018B_VERDANT_CROWN_CIRCLES",
+          "Amount": 17
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B13_SECRET"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_VERDANT_CROWN_CIRCLES"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_08"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_GATE_BRONZE",
+          "Amount": 4
+        },
+        {
+          "MaterialId": "MATERIAL_BLACK_IRON",
+          "Amount": 4
+        }
+      ],
+      "PersonalXpBonus": 40,
+      "UnionDisciplineBonus": 20,
+      "GuildXpBonus": 32,
+      "HallXpBonus": 24,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B13_05",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Milestone 5",
+      "RequiredCompletedQuestCount": 12,
+      "RequiredStoryGate": "STORY_GATE_OWNER_APPROVED_FUTURE_RACE_WORLD_CAMPAIGNS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B13_05",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_MOONFANG_PACKS",
+          "Amount": 20
+        },
+        {
+          "FactionId": "FACTION018B_VERDANT_CROWN_CIRCLES",
+          "Amount": 20
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B13_CONTRACT",
+        "REWARD018B_B13_ELITE",
+        "REWARD018B_B13_BOSS",
+        "REWARD018B_B13_SECRET"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_MOONFANG_PACKS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_18"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_MEMORY_WATER",
+          "Amount": 5
+        },
+        {
+          "MaterialId": "MATERIAL_WORLDROAD_ALLOY",
+          "Amount": 5
+        }
+      ],
+      "PersonalXpBonus": 50,
+      "UnionDisciplineBonus": 25,
+      "GuildXpBonus": 40,
+      "HallXpBonus": 30,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B14_01",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Milestone 1",
+      "RequiredCompletedQuestCount": 1,
+      "RequiredStoryGate": "STORY_GATE_OWNER_APPROVED_FUTURE_RACE_WORLD_CAMPAIGNS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B14_01",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_ASHGLASS_COURTS",
+          "Amount": 8
+        },
+        {
+          "FactionId": "FACTION018B_OBSIDIAN_CHOIR_REFORMERS",
+          "Amount": 8
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B14_CONTRACT"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_ASHGLASS_COURTS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_09"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_GATE_GLASS",
+          "Amount": 1
+        },
+        {
+          "MaterialId": "MATERIAL_PYLON_CRYSTAL",
+          "Amount": 1
+        }
+      ],
+      "PersonalXpBonus": 10,
+      "UnionDisciplineBonus": 5,
+      "GuildXpBonus": 8,
+      "HallXpBonus": 6,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B14_02",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Milestone 2",
+      "RequiredCompletedQuestCount": 3,
+      "RequiredStoryGate": "STORY_GATE_OWNER_APPROVED_FUTURE_RACE_WORLD_CAMPAIGNS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B14_02",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_ASHGLASS_COURTS",
+          "Amount": 11
+        },
+        {
+          "FactionId": "FACTION018B_OBSIDIAN_CHOIR_REFORMERS",
+          "Amount": 11
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B14_ELITE"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_OBSIDIAN_CHOIR_REFORMERS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_19"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_WORLDROAD_ALLOY",
+          "Amount": 2
+        },
+        {
+          "MaterialId": "MATERIAL_COMMAND_TABLE_RUNE",
+          "Amount": 2
+        }
+      ],
+      "PersonalXpBonus": 20,
+      "UnionDisciplineBonus": 10,
+      "GuildXpBonus": 16,
+      "HallXpBonus": 12,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B14_03",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Milestone 3",
+      "RequiredCompletedQuestCount": 5,
+      "RequiredStoryGate": "STORY_GATE_OWNER_APPROVED_FUTURE_RACE_WORLD_CAMPAIGNS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B14_03",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_ASHGLASS_COURTS",
+          "Amount": 14
+        },
+        {
+          "FactionId": "FACTION018B_OBSIDIAN_CHOIR_REFORMERS",
+          "Amount": 14
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B14_BOSS"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_ASHGLASS_COURTS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_29"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_AEGIS_CORE",
+          "Amount": 3
+        },
+        {
+          "MaterialId": "MATERIAL_RESONANCE_THREAD",
+          "Amount": 3
+        }
+      ],
+      "PersonalXpBonus": 30,
+      "UnionDisciplineBonus": 15,
+      "GuildXpBonus": 24,
+      "HallXpBonus": 18,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B14_04",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Milestone 4",
+      "RequiredCompletedQuestCount": 8,
+      "RequiredStoryGate": "STORY_GATE_OWNER_APPROVED_FUTURE_RACE_WORLD_CAMPAIGNS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B14_04",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_ASHGLASS_COURTS",
+          "Amount": 17
+        },
+        {
+          "FactionId": "FACTION018B_OBSIDIAN_CHOIR_REFORMERS",
+          "Amount": 17
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B14_SECRET"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_OBSIDIAN_CHOIR_REFORMERS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_09"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_GATE_BRONZE",
+          "Amount": 4
+        },
+        {
+          "MaterialId": "MATERIAL_BLACK_IRON",
+          "Amount": 4
+        }
+      ],
+      "PersonalXpBonus": 40,
+      "UnionDisciplineBonus": 20,
+      "GuildXpBonus": 32,
+      "HallXpBonus": 24,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B14_05",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Milestone 5",
+      "RequiredCompletedQuestCount": 12,
+      "RequiredStoryGate": "STORY_GATE_OWNER_APPROVED_FUTURE_RACE_WORLD_CAMPAIGNS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B14_05",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_ASHGLASS_COURTS",
+          "Amount": 20
+        },
+        {
+          "FactionId": "FACTION018B_OBSIDIAN_CHOIR_REFORMERS",
+          "Amount": 20
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B14_CONTRACT",
+        "REWARD018B_B14_ELITE",
+        "REWARD018B_B14_BOSS",
+        "REWARD018B_B14_SECRET"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_ASHGLASS_COURTS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_19"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_MEMORY_WATER",
+          "Amount": 5
+        },
+        {
+          "MaterialId": "MATERIAL_WORLDROAD_ALLOY",
+          "Amount": 5
+        }
+      ],
+      "PersonalXpBonus": 50,
+      "UnionDisciplineBonus": 25,
+      "GuildXpBonus": 40,
+      "HallXpBonus": 30,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B15_01",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Milestone 1",
+      "RequiredCompletedQuestCount": 1,
+      "RequiredStoryGate": "STORY_GATE_OWNER_APPROVED_FUTURE_RACE_WORLD_CAMPAIGNS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B15_01",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_FIRST_ALLIANCE_REMNANT_NETWORK",
+          "Amount": 8
+        },
+        {
+          "FactionId": "FACTION018B_SILENT_MERIDIAN_OBSERVERS",
+          "Amount": 8
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B15_CONTRACT"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_FIRST_ALLIANCE_REMNANT_NETWORK"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_10"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_GATE_GLASS",
+          "Amount": 1
+        },
+        {
+          "MaterialId": "MATERIAL_PYLON_CRYSTAL",
+          "Amount": 1
+        }
+      ],
+      "PersonalXpBonus": 10,
+      "UnionDisciplineBonus": 5,
+      "GuildXpBonus": 8,
+      "HallXpBonus": 6,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B15_02",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Milestone 2",
+      "RequiredCompletedQuestCount": 3,
+      "RequiredStoryGate": "STORY_GATE_OWNER_APPROVED_FUTURE_RACE_WORLD_CAMPAIGNS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B15_02",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_FIRST_ALLIANCE_REMNANT_NETWORK",
+          "Amount": 11
+        },
+        {
+          "FactionId": "FACTION018B_SILENT_MERIDIAN_OBSERVERS",
+          "Amount": 11
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B15_ELITE"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_SILENT_MERIDIAN_OBSERVERS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_20"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_WORLDROAD_ALLOY",
+          "Amount": 2
+        },
+        {
+          "MaterialId": "MATERIAL_COMMAND_TABLE_RUNE",
+          "Amount": 2
+        }
+      ],
+      "PersonalXpBonus": 20,
+      "UnionDisciplineBonus": 10,
+      "GuildXpBonus": 16,
+      "HallXpBonus": 12,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B15_03",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Milestone 3",
+      "RequiredCompletedQuestCount": 5,
+      "RequiredStoryGate": "STORY_GATE_OWNER_APPROVED_FUTURE_RACE_WORLD_CAMPAIGNS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B15_03",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_FIRST_ALLIANCE_REMNANT_NETWORK",
+          "Amount": 14
+        },
+        {
+          "FactionId": "FACTION018B_SILENT_MERIDIAN_OBSERVERS",
+          "Amount": 14
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B15_BOSS"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_FIRST_ALLIANCE_REMNANT_NETWORK"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_30"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_AEGIS_CORE",
+          "Amount": 3
+        },
+        {
+          "MaterialId": "MATERIAL_RESONANCE_THREAD",
+          "Amount": 3
+        }
+      ],
+      "PersonalXpBonus": 30,
+      "UnionDisciplineBonus": 15,
+      "GuildXpBonus": 24,
+      "HallXpBonus": 18,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B15_04",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Milestone 4",
+      "RequiredCompletedQuestCount": 8,
+      "RequiredStoryGate": "STORY_GATE_OWNER_APPROVED_FUTURE_RACE_WORLD_CAMPAIGNS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B15_04",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_FIRST_ALLIANCE_REMNANT_NETWORK",
+          "Amount": 17
+        },
+        {
+          "FactionId": "FACTION018B_SILENT_MERIDIAN_OBSERVERS",
+          "Amount": 17
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B15_SECRET"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_SILENT_MERIDIAN_OBSERVERS"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_10"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_GATE_BRONZE",
+          "Amount": 4
+        },
+        {
+          "MaterialId": "MATERIAL_BLACK_IRON",
+          "Amount": 4
+        }
+      ],
+      "PersonalXpBonus": 40,
+      "UnionDisciplineBonus": 20,
+      "GuildXpBonus": 32,
+      "HallXpBonus": 24,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    },
+    {
+      "Id": "MILESTONE018B_B15_05",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Milestone 5",
+      "RequiredCompletedQuestCount": 12,
+      "RequiredStoryGate": "STORY_GATE_OWNER_APPROVED_FUTURE_RACE_WORLD_CAMPAIGNS",
+      "GrantsStoryGate": "STORY_GATE_MILESTONE018B_B15_05",
+      "FactionReputationRewards": [
+        {
+          "FactionId": "FACTION018B_FIRST_ALLIANCE_REMNANT_NETWORK",
+          "Amount": 20
+        },
+        {
+          "FactionId": "FACTION018B_SILENT_MERIDIAN_OBSERVERS",
+          "Amount": 20
+        }
+      ],
+      "UnlockLootPoolIds": [
+        "REWARD018B_B15_CONTRACT",
+        "REWARD018B_B15_ELITE",
+        "REWARD018B_B15_BOSS",
+        "REWARD018B_B15_SECRET"
+      ],
+      "UnlockRecruitmentChannelIds": [
+        "RECRUIT_CHANNEL018B_FIRST_ALLIANCE_REMNANT_NETWORK"
+      ],
+      "UnlockCitySpecializationIds": [
+        "CITY_SPEC018B_20"
+      ],
+      "MaterialRewards": [
+        {
+          "MaterialId": "MATERIAL_MEMORY_WATER",
+          "Amount": 5
+        },
+        {
+          "MaterialId": "MATERIAL_WORLDROAD_ALLOY",
+          "Amount": 5
+        }
+      ],
+      "PersonalXpBonus": 50,
+      "UnionDisciplineBonus": 25,
+      "GuildXpBonus": 40,
+      "HallXpBonus": 30,
+      "ExactOnce": true,
+      "GeneratesEquipmentDirectly": false
+    }
+  ]
+}

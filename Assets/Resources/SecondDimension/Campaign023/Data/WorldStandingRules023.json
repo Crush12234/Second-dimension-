@@ -1,0 +1,308 @@
+{
+  "worlds": [
+    {
+      "worldId": "SKYHOME",
+      "displayName": "Skyhome and the First City",
+      "tiers": [
+        {
+          "id": "RECOVERABLE_FRACTURE",
+          "minimumTrust": -100,
+          "maximumTension": 100,
+          "effect": "World remains accessible through repair, rescue, and diplomacy quests; no recruit loss."
+        },
+        {
+          "id": "INDEPENDENT_COOPERATION",
+          "minimumTrust": 0,
+          "maximumTension": 80,
+          "effect": "Trade and selected contracts open without political submission."
+        },
+        {
+          "id": "CONDITIONAL_ACCORD",
+          "minimumTrust": 25,
+          "maximumTension": 60,
+          "effect": "World specialists, equipment themes, and joint operations open with obligations."
+        },
+        {
+          "id": "ALLIANCE_NETWORK",
+          "minimumTrust": 60,
+          "maximumTension": 35,
+          "effect": "Full world-gate support, repeatable crises, city specialists, and shared defense open."
+        }
+      ],
+      "worldCannotBeOwned": true,
+      "allOutcomesRecoverable": true,
+      "trustMinimum": -100,
+      "trustMaximum": 100,
+      "tensionMinimum": 0,
+      "tensionMaximum": 100,
+      "civilianSupportMinimum": -100,
+      "civilianSupportMaximum": 100
+    },
+    {
+      "worldId": "WORLD_BEASTKIN_003",
+      "displayName": "Beastkin Territories",
+      "tiers": [
+        {
+          "id": "RECOVERABLE_FRACTURE",
+          "minimumTrust": -100,
+          "maximumTension": 100,
+          "effect": "World remains accessible through repair, rescue, and diplomacy quests; no recruit loss."
+        },
+        {
+          "id": "INDEPENDENT_COOPERATION",
+          "minimumTrust": 0,
+          "maximumTension": 80,
+          "effect": "Trade and selected contracts open without political submission."
+        },
+        {
+          "id": "CONDITIONAL_ACCORD",
+          "minimumTrust": 25,
+          "maximumTension": 60,
+          "effect": "World specialists, equipment themes, and joint operations open with obligations."
+        },
+        {
+          "id": "ALLIANCE_NETWORK",
+          "minimumTrust": 60,
+          "maximumTension": 35,
+          "effect": "Full world-gate support, repeatable crises, city specialists, and shared defense open."
+        }
+      ],
+      "worldCannotBeOwned": true,
+      "allOutcomesRecoverable": true,
+      "trustMinimum": -100,
+      "trustMaximum": 100,
+      "tensionMinimum": 0,
+      "tensionMaximum": 100,
+      "civilianSupportMinimum": -100,
+      "civilianSupportMaximum": 100
+    },
+    {
+      "worldId": "WORLD_BUNNY_006",
+      "displayName": "Bunny Trade Nations",
+      "tiers": [
+        {
+          "id": "RECOVERABLE_FRACTURE",
+          "minimumTrust": -100,
+          "maximumTension": 100,
+          "effect": "World remains accessible through repair, rescue, and diplomacy quests; no recruit loss."
+        },
+        {
+          "id": "INDEPENDENT_COOPERATION",
+          "minimumTrust": 0,
+          "maximumTension": 80,
+          "effect": "Trade and selected contracts open without political submission."
+        },
+        {
+          "id": "CONDITIONAL_ACCORD",
+          "minimumTrust": 25,
+          "maximumTension": 60,
+          "effect": "World specialists, equipment themes, and joint operations open with obligations."
+        },
+        {
+          "id": "ALLIANCE_NETWORK",
+          "minimumTrust": 60,
+          "maximumTension": 35,
+          "effect": "Full world-gate support, repeatable crises, city specialists, and shared defense open."
+        }
+      ],
+      "worldCannotBeOwned": true,
+      "allOutcomesRecoverable": true,
+      "trustMinimum": -100,
+      "trustMaximum": 100,
+      "tensionMinimum": 0,
+      "tensionMaximum": 100,
+      "civilianSupportMinimum": -100,
+      "civilianSupportMaximum": 100
+    },
+    {
+      "worldId": "WORLD_DARK_ELF_005",
+      "displayName": "Dark Elf Territories",
+      "tiers": [
+        {
+          "id": "RECOVERABLE_FRACTURE",
+          "minimumTrust": -100,
+          "maximumTension": 100,
+          "effect": "World remains accessible through repair, rescue, and diplomacy quests; no recruit loss."
+        },
+        {
+          "id": "INDEPENDENT_COOPERATION",
+          "minimumTrust": 0,
+          "maximumTension": 80,
+          "effect": "Trade and selected contracts open without political submission."
+        },
+        {
+          "id": "CONDITIONAL_ACCORD",
+          "minimumTrust": 25,
+          "maximumTension": 60,
+          "effect": "World specialists, equipment themes, and joint operations open with obligations."
+        },
+        {
+          "id": "ALLIANCE_NETWORK",
+          "minimumTrust": 60,
+          "maximumTension": 35,
+          "effect": "Full world-gate support, repeatable crises, city specialists, and shared defense open."
+        }
+      ],
+      "worldCannotBeOwned": true,
+      "allOutcomesRecoverable": true,
+      "trustMinimum": -100,
+      "trustMaximum": 100,
+      "tensionMinimum": 0,
+      "tensionMaximum": 100,
+      "civilianSupportMinimum": -100,
+      "civilianSupportMaximum": 100
+    },
+    {
+      "worldId": "WORLD_DEMON_004",
+      "displayName": "Demon Realms",
+      "tiers": [
+        {
+          "id": "RECOVERABLE_FRACTURE",
+          "minimumTrust": -100,
+          "maximumTension": 100,
+          "effect": "World remains accessible through repair, rescue, and diplomacy quests; no recruit loss."
+        },
+        {
+          "id": "INDEPENDENT_COOPERATION",
+          "minimumTrust": 0,
+          "maximumTension": 80,
+          "effect": "Trade and selected contracts open without political submission."
+        },
+        {
+          "id": "CONDITIONAL_ACCORD",
+          "minimumTrust": 25,
+          "maximumTension": 60,
+          "effect": "World specialists, equipment themes, and joint operations open with obligations."
+        },
+        {
+          "id": "ALLIANCE_NETWORK",
+          "minimumTrust": 60,
+          "maximumTension": 35,
+          "effect": "Full world-gate support, repeatable crises, city specialists, and shared defense open."
+        }
+      ],
+      "worldCannotBeOwned": true,
+      "allOutcomesRecoverable": true,
+      "trustMinimum": -100,
+      "trustMaximum": 100,
+      "tensionMinimum": 0,
+      "tensionMaximum": 100,
+      "civilianSupportMinimum": -100,
+      "civilianSupportMaximum": 100
+    },
+    {
+      "worldId": "WORLD_DOG_007",
+      "displayName": "Dog Tribe Frontiers",
+      "tiers": [
+        {
+          "id": "RECOVERABLE_FRACTURE",
+          "minimumTrust": -100,
+          "maximumTension": 100,
+          "effect": "World remains accessible through repair, rescue, and diplomacy quests; no recruit loss."
+        },
+        {
+          "id": "INDEPENDENT_COOPERATION",
+          "minimumTrust": 0,
+          "maximumTension": 80,
+          "effect": "Trade and selected contracts open without political submission."
+        },
+        {
+          "id": "CONDITIONAL_ACCORD",
+          "minimumTrust": 25,
+          "maximumTension": 60,
+          "effect": "World specialists, equipment themes, and joint operations open with obligations."
+        },
+        {
+          "id": "ALLIANCE_NETWORK",
+          "minimumTrust": 60,
+          "maximumTension": 35,
+          "effect": "Full world-gate support, repeatable crises, city specialists, and shared defense open."
+        }
+      ],
+      "worldCannotBeOwned": true,
+      "allOutcomesRecoverable": true,
+      "trustMinimum": -100,
+      "trustMaximum": 100,
+      "tensionMinimum": 0,
+      "tensionMaximum": 100,
+      "civilianSupportMinimum": -100,
+      "civilianSupportMaximum": 100
+    },
+    {
+      "worldId": "WORLD_GOBLIN_001",
+      "displayName": "Goblin World",
+      "tiers": [
+        {
+          "id": "RECOVERABLE_FRACTURE",
+          "minimumTrust": -100,
+          "maximumTension": 100,
+          "effect": "World remains accessible through repair, rescue, and diplomacy quests; no recruit loss."
+        },
+        {
+          "id": "INDEPENDENT_COOPERATION",
+          "minimumTrust": 0,
+          "maximumTension": 80,
+          "effect": "Trade and selected contracts open without political submission."
+        },
+        {
+          "id": "CONDITIONAL_ACCORD",
+          "minimumTrust": 25,
+          "maximumTension": 60,
+          "effect": "World specialists, equipment themes, and joint operations open with obligations."
+        },
+        {
+          "id": "ALLIANCE_NETWORK",
+          "minimumTrust": 60,
+          "maximumTension": 35,
+          "effect": "Full world-gate support, repeatable crises, city specialists, and shared defense open."
+        }
+      ],
+      "worldCannotBeOwned": true,
+      "allOutcomesRecoverable": true,
+      "trustMinimum": -100,
+      "trustMaximum": 100,
+      "tensionMinimum": 0,
+      "tensionMaximum": 100,
+      "civilianSupportMinimum": -100,
+      "civilianSupportMaximum": 100
+    },
+    {
+      "worldId": "WORLD_ORC_002",
+      "displayName": "Orc World",
+      "tiers": [
+        {
+          "id": "RECOVERABLE_FRACTURE",
+          "minimumTrust": -100,
+          "maximumTension": 100,
+          "effect": "World remains accessible through repair, rescue, and diplomacy quests; no recruit loss."
+        },
+        {
+          "id": "INDEPENDENT_COOPERATION",
+          "minimumTrust": 0,
+          "maximumTension": 80,
+          "effect": "Trade and selected contracts open without political submission."
+        },
+        {
+          "id": "CONDITIONAL_ACCORD",
+          "minimumTrust": 25,
+          "maximumTension": 60,
+          "effect": "World specialists, equipment themes, and joint operations open with obligations."
+        },
+        {
+          "id": "ALLIANCE_NETWORK",
+          "minimumTrust": 60,
+          "maximumTension": 35,
+          "effect": "Full world-gate support, repeatable crises, city specialists, and shared defense open."
+        }
+      ],
+      "worldCannotBeOwned": true,
+      "allOutcomesRecoverable": true,
+      "trustMinimum": -100,
+      "trustMaximum": 100,
+      "tensionMinimum": 0,
+      "tensionMaximum": 100,
+      "civilianSupportMinimum": -100,
+      "civilianSupportMaximum": 100
+    }
+  ]
+}

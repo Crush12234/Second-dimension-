@@ -1,0 +1,953 @@
+{
+  "freezeVersion": "1.0",
+  "shadowConflictCount": 120,
+  "entries": [
+    {
+      "stable_id": "A",
+      "canonical_source": "CONTENT/PASS_07/FLOOR_EVENTS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": []
+    },
+    {
+      "stable_id": "ABYSS_FLOOR_001",
+      "canonical_source": "CONTENT/PASS_07/ABYSS_FLOOR_PACKAGES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/PASS_04/ENDLESS_ABYSS_FLOOR_REWARDS_001_010.json"
+      ]
+    },
+    {
+      "stable_id": "ABYSS_FLOOR_002",
+      "canonical_source": "CONTENT/PASS_07/ABYSS_FLOOR_PACKAGES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/PASS_04/ENDLESS_ABYSS_FLOOR_REWARDS_001_010.json"
+      ]
+    },
+    {
+      "stable_id": "ABYSS_FLOOR_003",
+      "canonical_source": "CONTENT/PASS_07/ABYSS_FLOOR_PACKAGES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/PASS_04/ENDLESS_ABYSS_FLOOR_REWARDS_001_010.json"
+      ]
+    },
+    {
+      "stable_id": "ABYSS_FLOOR_004",
+      "canonical_source": "CONTENT/PASS_07/ABYSS_FLOOR_PACKAGES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/PASS_04/ENDLESS_ABYSS_FLOOR_REWARDS_001_010.json"
+      ]
+    },
+    {
+      "stable_id": "ABYSS_FLOOR_005",
+      "canonical_source": "CONTENT/PASS_07/ABYSS_FLOOR_PACKAGES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/PASS_04/ENDLESS_ABYSS_FLOOR_REWARDS_001_010.json"
+      ]
+    },
+    {
+      "stable_id": "ABYSS_FLOOR_006",
+      "canonical_source": "CONTENT/PASS_07/ABYSS_FLOOR_PACKAGES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/PASS_04/ENDLESS_ABYSS_FLOOR_REWARDS_001_010.json"
+      ]
+    },
+    {
+      "stable_id": "ABYSS_FLOOR_007",
+      "canonical_source": "CONTENT/PASS_07/ABYSS_FLOOR_PACKAGES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/PASS_04/ENDLESS_ABYSS_FLOOR_REWARDS_001_010.json"
+      ]
+    },
+    {
+      "stable_id": "ABYSS_FLOOR_008",
+      "canonical_source": "CONTENT/PASS_07/ABYSS_FLOOR_PACKAGES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/PASS_04/ENDLESS_ABYSS_FLOOR_REWARDS_001_010.json"
+      ]
+    },
+    {
+      "stable_id": "ABYSS_FLOOR_009",
+      "canonical_source": "CONTENT/PASS_07/ABYSS_FLOOR_PACKAGES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/PASS_04/ENDLESS_ABYSS_FLOOR_REWARDS_001_010.json"
+      ]
+    },
+    {
+      "stable_id": "ABYSS_FLOOR_010",
+      "canonical_source": "CONTENT/PASS_07/ABYSS_FLOOR_PACKAGES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/PASS_04/ENDLESS_ABYSS_FLOOR_REWARDS_001_010.json"
+      ]
+    },
+    {
+      "stable_id": "ART_ARCANE_GUARD",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_BASIC_DAGGER_CUT",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_BASIC_HEAVY_SWING",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_BASIC_HOOK_STRIKE",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_BASIC_LONGBOW_SHOT",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_BASIC_RESONANT_TAP",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_BASIC_RUNE_BOLT",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_BASIC_SABER_CUT",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_BASIC_SHOT",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_BASIC_STAFF_TAP",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_BASIC_THRUST",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_BRASS_RALLY",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_COVERING_VOLLEY",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_FALSE_RETREAT_SIGNAL",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_FIELD_MEND",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_FIELD_REMEDY",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/CONTENT/FORECAST_REFERENCE_CONTENT.json"
+      ]
+    },
+    {
+      "stable_id": "ART_FIELD_TONIC",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_FLANKING_CUT",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_GUARD",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_HEAVY_CUT",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_INTERCEPT_STEP",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_LOAD_BEARER",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_PINNING_SHOT",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json",
+        "PRE_CODEX_FOUNDATION/CONTENT/FORECAST_REFERENCE_CONTENT.json"
+      ]
+    },
+    {
+      "stable_id": "ART_RECKLESS_DRIVE",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_RECOVER_BREATH",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_ROUTE_ORDER",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_RUNE_EDGE",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_SHIELD_BASH",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_SHIELD_BRACE",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_SMOKE_VEIL",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_SPARK_RUNE",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_STEADYING_WORD",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_STEADY_PUSH",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "ART_TWIN_SLASH",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/CONTENT/FORECAST_REFERENCE_CONTENT.json"
+      ]
+    },
+    {
+      "stable_id": "ART_WARD_SIGIL",
+      "canonical_source": "CONTENT/PASS_02/ART_DEFINITIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_ACTION_CATALOG.json"
+      ]
+    },
+    {
+      "stable_id": "BASIC_ATTACK",
+      "canonical_source": "PRE_CODEX_FOUNDATION/CONTENT/FORECAST_REFERENCE_CONTENT.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": []
+    },
+    {
+      "stable_id": "BG_RUNE_CLEANER",
+      "canonical_source": "CONTENT/OPENING_PROCEDURAL_TABLES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_SIGNATURE_RECRUITS.json"
+      ]
+    },
+    {
+      "stable_id": "BOSS_GATEHEART",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "BR00_000",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "BR00_001",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "BR01_000",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "BR01_001",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "BR01_002",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "BR01_003",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "BR02_000",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "BR02_001",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "BR02_002",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "BR03_000",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "BR03_001",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "BR03_002",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "BR04_000",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "BR04_001",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "BR05_000",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "BR05_001",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "BR05_002",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "BR06_000",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "BR07_000",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "CRIT_001",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "CRIT_002",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "CRIT_003",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "CRIT_004",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "CRIT_005",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "CRIT_006",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "CRIT_007",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "CRIT_008",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "CRIT_009",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "CRIT_010",
+      "canonical_source": "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": []
+    },
+    {
+      "stable_id": "EVT_GATEWORKS_ALARM_AFTER_BATTLE",
+      "canonical_source": "CONTENT/PASS_03/EVENT_CARDS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/PASS_03/BOSS_OPERATION_001.json"
+      ]
+    },
+    {
+      "stable_id": "EXIT",
+      "canonical_source": "CONTENT/PASS_07/ABYSS_FLOOR_PACKAGES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+        "PRE_CODEX_FOUNDATION/TESTS/golden_vectors.json",
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "FEAR_PITY",
+      "canonical_source": "CONTENT/OPENING_PROCEDURAL_TABLES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_SIGNATURE_RECRUITS.json"
+      ]
+    },
+    {
+      "stable_id": "FORMATION_ARCANE_CIRCLE",
+      "canonical_source": "CONTENT/PASS_02/FORMATIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/EARLY_UNION_FORMATIONS.json"
+      ]
+    },
+    {
+      "stable_id": "FORMATION_CRESCENT",
+      "canonical_source": "CONTENT/PASS_02/FORMATIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/EARLY_UNION_FORMATIONS.json"
+      ]
+    },
+    {
+      "stable_id": "FORMATION_RESCUE_COLUMN",
+      "canonical_source": "CONTENT/PASS_02/FORMATIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/EARLY_UNION_FORMATIONS.json"
+      ]
+    },
+    {
+      "stable_id": "FORMATION_SHIELD_WALL",
+      "canonical_source": "CONTENT/PASS_02/FORMATIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/EARLY_UNION_FORMATIONS.json"
+      ]
+    },
+    {
+      "stable_id": "FORMATION_SKIRMISH_LINE",
+      "canonical_source": "CONTENT/PASS_02/FORMATIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/EARLY_UNION_FORMATIONS.json"
+      ]
+    },
+    {
+      "stable_id": "FORMATION_WEDGE",
+      "canonical_source": "CONTENT/PASS_02/FORMATIONS.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/EARLY_UNION_FORMATIONS.json"
+      ]
+    },
+    {
+      "stable_id": "GUARD",
+      "canonical_source": "PRE_CODEX_FOUNDATION/CONTENT/FORECAST_REFERENCE_CONTENT.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": []
+    },
+    {
+      "stable_id": "ITEM_11F70F4678D6B386E2686E46",
+      "canonical_source": "CONTENT/PASS_04/PASS04_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": []
+    },
+    {
+      "stable_id": "ITEM_276C053B7AE170DF27B7961B",
+      "canonical_source": "CONTENT/PASS_04/PASS04_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": []
+    },
+    {
+      "stable_id": "ITEM_2BE279A50320ED34A95D756B",
+      "canonical_source": "CONTENT/PASS_04/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass04_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "MARGIN_F01_0000",
+      "canonical_source": "CONTENT/PASS_07/DETERMINISTIC_FIXTURES_PASS07.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass07_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "MARGIN_F02_0000",
+      "canonical_source": "CONTENT/PASS_07/DETERMINISTIC_FIXTURES_PASS07.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass07_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "MARGIN_F03_0000",
+      "canonical_source": "CONTENT/PASS_07/DETERMINISTIC_FIXTURES_PASS07.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass07_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "MARGIN_F04_0000",
+      "canonical_source": "CONTENT/PASS_07/DETERMINISTIC_FIXTURES_PASS07.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass07_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "MARGIN_F05_0000",
+      "canonical_source": "CONTENT/PASS_07/DETERMINISTIC_FIXTURES_PASS07.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass07_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "MARGIN_F06_0000",
+      "canonical_source": "CONTENT/PASS_07/DETERMINISTIC_FIXTURES_PASS07.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass07_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "MARGIN_F07_0000",
+      "canonical_source": "CONTENT/PASS_07/DETERMINISTIC_FIXTURES_PASS07.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass07_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "MARGIN_F08_0000",
+      "canonical_source": "CONTENT/PASS_07/DETERMINISTIC_FIXTURES_PASS07.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass07_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "MARGIN_F09_0000",
+      "canonical_source": "CONTENT/PASS_07/DETERMINISTIC_FIXTURES_PASS07.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass07_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "MARGIN_F10_0000",
+      "canonical_source": "CONTENT/PASS_07/DETERMINISTIC_FIXTURES_PASS07.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass07_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "MARGIN_PRIVATE_001",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "MENTORSHIP_9DF067CB4F17DCF01E14815F",
+      "canonical_source": "CONTENT/PASS_06/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": []
+    },
+    {
+      "stable_id": "OBJECTIVE_GATE_KEY",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "OBJ_DISABLE_RESONANCE_PYLONS",
+      "canonical_source": "CONTENT/PASS_03/BOSS_OPERATION_001.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": []
+    },
+    {
+      "stable_id": "REGROUP",
+      "canonical_source": "CONTENT/PASS_07/ABYSS_FLOOR_PACKAGES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": []
+    },
+    {
+      "stable_id": "SECRET_000",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "SECRET_001",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "SECRET_002",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "START",
+      "canonical_source": "CONTENT/PASS_03/DETERMINISTIC_FIXTURES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "PRE_CODEX_FOUNDATION/TESTS/golden_vectors.json",
+        "PRE_CODEX_FOUNDATION/TESTS/pass03_golden_vectors.json"
+      ]
+    },
+    {
+      "stable_id": "VOICE_BLUNT_CHALLENGE",
+      "canonical_source": "CONTENT/OPENING_PROCEDURAL_TABLES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_SIGNATURE_RECRUITS.json"
+      ]
+    },
+    {
+      "stable_id": "VOICE_DIRECT_WARM",
+      "canonical_source": "CONTENT/OPENING_PROCEDURAL_TABLES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_SIGNATURE_RECRUITS.json",
+        "SAMPLES/sample_signature_recruit.json"
+      ]
+    },
+    {
+      "stable_id": "VOICE_DRY_COMMAND",
+      "canonical_source": "CONTENT/OPENING_PROCEDURAL_TABLES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_SIGNATURE_RECRUITS.json"
+      ]
+    },
+    {
+      "stable_id": "VOICE_FORMAL_CONTROLLED",
+      "canonical_source": "CONTENT/OPENING_PROCEDURAL_TABLES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_SIGNATURE_RECRUITS.json"
+      ]
+    },
+    {
+      "stable_id": "VOICE_FRIENDLY_OBSERVANT",
+      "canonical_source": "CONTENT/OPENING_PROCEDURAL_TABLES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_SIGNATURE_RECRUITS.json"
+      ]
+    },
+    {
+      "stable_id": "VOICE_GENTLE_UNDERSTATEMENT",
+      "canonical_source": "CONTENT/OPENING_PROCEDURAL_TABLES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_SIGNATURE_RECRUITS.json"
+      ]
+    },
+    {
+      "stable_id": "VOICE_QUIET_PRECISE",
+      "canonical_source": "CONTENT/OPENING_PROCEDURAL_TABLES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_SIGNATURE_RECRUITS.json"
+      ]
+    },
+    {
+      "stable_id": "VOICE_RAPID_TECHNICAL",
+      "canonical_source": "CONTENT/OPENING_PROCEDURAL_TABLES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_SIGNATURE_RECRUITS.json"
+      ]
+    },
+    {
+      "stable_id": "VOICE_SPARSE_EVIDENCE",
+      "canonical_source": "CONTENT/OPENING_PROCEDURAL_TABLES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_SIGNATURE_RECRUITS.json"
+      ]
+    },
+    {
+      "stable_id": "VOICE_THEATRICAL_EXACT",
+      "canonical_source": "CONTENT/OPENING_PROCEDURAL_TABLES.json",
+      "resolution": "import canonical source only; older/sample shapes are historical shadows",
+      "shadow_sources": [
+        "CONTENT/OPENING_SIGNATURE_RECRUITS.json"
+      ]
+    }
+  ]
+}

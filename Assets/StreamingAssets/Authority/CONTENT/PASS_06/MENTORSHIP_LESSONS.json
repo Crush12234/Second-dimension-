@@ -1,0 +1,785 @@
+{
+  "contentVersion": "GOW_PASS06_0.11",
+  "lessons": [
+    {
+      "id": "MENTOR_LESSON_READ_THE_LINE",
+      "displayName": "Read the Line",
+      "domain": "TACTICAL",
+      "summary": "Recognize which enemy Union is about to overextend.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 2,
+      "aptitudeTags": [
+        "TACTICAL",
+        "TEACHING"
+      ],
+      "practiceRequirement": 3,
+      "effects": {
+        "discoveryGain": 40,
+        "proficiencyGain": 17,
+        "hintTags": [
+          "HINT_READ_THE_LINE"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 2,
+      "graduationContribution": 45
+    },
+    {
+      "id": "MENTOR_LESSON_SAFE_INTERCEPT",
+      "displayName": "Safe Interception",
+      "domain": "GUARD",
+      "summary": "Practice guarding without taking away an ally’s agency.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 3,
+      "aptitudeTags": [
+        "GUARD",
+        "TEACHING"
+      ],
+      "practiceRequirement": 4,
+      "effects": {
+        "discoveryGain": 50,
+        "proficiencyGain": 22,
+        "hintTags": [
+          "HINT_SAFE_INTERCEPT"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 3,
+      "graduationContribution": 55
+    },
+    {
+      "id": "MENTOR_LESSON_BREATH_BEFORE_CAST",
+      "displayName": "Breath Before Casting",
+      "domain": "MYSTIC",
+      "summary": "Reduce panic casting and improve personal MP judgment.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 1,
+      "aptitudeTags": [
+        "MYSTIC",
+        "TEACHING"
+      ],
+      "practiceRequirement": 5,
+      "effects": {
+        "discoveryGain": 60,
+        "proficiencyGain": 27,
+        "hintTags": [
+          "HINT_BREATH_BEFORE_CAST"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 1,
+      "graduationContribution": 65
+    },
+    {
+      "id": "MENTOR_LESSON_HEAL_WHAT_HURTS",
+      "displayName": "Heal What Hurts",
+      "domain": "RESTORATION",
+      "summary": "Identify meaningful healing instead of wasting Restoration Arts.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 2,
+      "aptitudeTags": [
+        "RESTORATION",
+        "TEACHING"
+      ],
+      "practiceRequirement": 2,
+      "effects": {
+        "discoveryGain": 70,
+        "proficiencyGain": 12,
+        "hintTags": [
+          "HINT_HEAL_WHAT_HURTS"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 2,
+      "graduationContribution": 35
+    },
+    {
+      "id": "MENTOR_LESSON_BUFF_WITH_PURPOSE",
+      "displayName": "Support With Purpose",
+      "domain": "SUPPORT",
+      "summary": "Choose support effects that are not already capped.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 3,
+      "aptitudeTags": [
+        "SUPPORT",
+        "TEACHING"
+      ],
+      "practiceRequirement": 3,
+      "effects": {
+        "discoveryGain": 30,
+        "proficiencyGain": 17,
+        "hintTags": [
+          "HINT_BUFF_WITH_PURPOSE"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 3,
+      "graduationContribution": 45
+    },
+    {
+      "id": "MENTOR_LESSON_WEAPON_BALANCE",
+      "displayName": "Feel the Weapon Balance",
+      "domain": "MARTIAL",
+      "summary": "Open a legal weapon proficiency path through supervised practice.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 1,
+      "aptitudeTags": [
+        "MARTIAL",
+        "TEACHING"
+      ],
+      "practiceRequirement": 4,
+      "effects": {
+        "discoveryGain": 40,
+        "proficiencyGain": 22,
+        "hintTags": [
+          "HINT_WEAPON_BALANCE"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 1,
+      "graduationContribution": 55
+    },
+    {
+      "id": "MENTOR_LESSON_RETREAT_CALL",
+      "displayName": "Call the Retreat",
+      "domain": "LEADERSHIP",
+      "summary": "Practice a withdrawal command that members understand.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 2,
+      "aptitudeTags": [
+        "LEADERSHIP",
+        "TEACHING"
+      ],
+      "practiceRequirement": 5,
+      "effects": {
+        "discoveryGain": 50,
+        "proficiencyGain": 27,
+        "hintTags": [
+          "HINT_RETREAT_CALL"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 2,
+      "graduationContribution": 65
+    },
+    {
+      "id": "MENTOR_LESSON_LISTEN_TO_ARMOR",
+      "displayName": "Listen to Armor",
+      "domain": "CRAFTING",
+      "summary": "Diagnose equipment stress before it breaks.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_GUILD_FORGE",
+      "minimumFacilityLevel": 3,
+      "aptitudeTags": [
+        "CRAFTING",
+        "TEACHING"
+      ],
+      "practiceRequirement": 2,
+      "effects": {
+        "discoveryGain": 60,
+        "proficiencyGain": 12,
+        "hintTags": [
+          "HINT_LISTEN_TO_ARMOR"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 3,
+      "graduationContribution": 35
+    },
+    {
+      "id": "MENTOR_LESSON_FIELD_STITCH",
+      "displayName": "Field Stitch",
+      "domain": "MEDICINE",
+      "summary": "Stabilize an injury without pretending it is fully healed.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_INFIRMARY",
+      "minimumFacilityLevel": 1,
+      "aptitudeTags": [
+        "MEDICINE",
+        "TEACHING"
+      ],
+      "practiceRequirement": 3,
+      "effects": {
+        "discoveryGain": 70,
+        "proficiencyGain": 17,
+        "hintTags": [
+          "HINT_FIELD_STITCH"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 1,
+      "graduationContribution": 45
+    },
+    {
+      "id": "MENTOR_LESSON_MAP_NEGATIVE_SPACE",
+      "displayName": "Map Negative Space",
+      "domain": "PERCEPTION",
+      "summary": "Notice where a route should exist but does not.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 2,
+      "aptitudeTags": [
+        "PERCEPTION",
+        "TEACHING"
+      ],
+      "practiceRequirement": 4,
+      "effects": {
+        "discoveryGain": 30,
+        "proficiencyGain": 22,
+        "hintTags": [
+          "HINT_MAP_NEGATIVE_SPACE"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 2,
+      "graduationContribution": 55
+    },
+    {
+      "id": "MENTOR_LESSON_CULTURAL_PERMISSION",
+      "displayName": "Ask Before Learning",
+      "domain": "CULTURAL",
+      "summary": "Learn how to request instruction without treating tradition as loot.",
+      "minimumTrust": 220,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 3,
+      "aptitudeTags": [
+        "CULTURAL",
+        "TEACHING"
+      ],
+      "practiceRequirement": 5,
+      "effects": {
+        "discoveryGain": 40,
+        "proficiencyGain": 27,
+        "hintTags": [
+          "HINT_CULTURAL_PERMISSION"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 3,
+      "graduationContribution": 65
+    },
+    {
+      "id": "MENTOR_LESSON_UNION_AP_RHYTHM",
+      "displayName": "Union AP Rhythm",
+      "domain": "TACTICAL",
+      "summary": "Understand when a Union should spend or conserve AP.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 1,
+      "aptitudeTags": [
+        "TACTICAL",
+        "TEACHING"
+      ],
+      "practiceRequirement": 2,
+      "effects": {
+        "discoveryGain": 50,
+        "proficiencyGain": 12,
+        "hintTags": [
+          "HINT_UNION_AP_RHYTHM"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 1,
+      "graduationContribution": 35
+    },
+    {
+      "id": "MENTOR_LESSON_PERSONAL_MP_LIMIT",
+      "displayName": "Know Your MP Limit",
+      "domain": "MYSTIC",
+      "summary": "Recognize personal exhaustion while the Union still has AP.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 2,
+      "aptitudeTags": [
+        "MYSTIC",
+        "TEACHING"
+      ],
+      "practiceRequirement": 3,
+      "effects": {
+        "discoveryGain": 60,
+        "proficiencyGain": 17,
+        "hintTags": [
+          "HINT_PERSONAL_MP_LIMIT"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 2,
+      "graduationContribution": 45
+    },
+    {
+      "id": "MENTOR_LESSON_FORMATION_HANDOFF",
+      "displayName": "Formation Handoff",
+      "domain": "FORMATION",
+      "summary": "Move between positions without breaking Cohesion.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 3,
+      "aptitudeTags": [
+        "FORMATION",
+        "TEACHING"
+      ],
+      "practiceRequirement": 4,
+      "effects": {
+        "discoveryGain": 70,
+        "proficiencyGain": 22,
+        "hintTags": [
+          "HINT_FORMATION_HANDOFF"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 3,
+      "graduationContribution": 55
+    },
+    {
+      "id": "MENTOR_LESSON_LINK_SETUP",
+      "displayName": "Prepare a Link",
+      "domain": "LINK_ART",
+      "summary": "Practice setup actions rather than forcing a finishing technique.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 1,
+      "aptitudeTags": [
+        "LINK_ART",
+        "TEACHING"
+      ],
+      "practiceRequirement": 5,
+      "effects": {
+        "discoveryGain": 30,
+        "proficiencyGain": 27,
+        "hintTags": [
+          "HINT_LINK_SETUP"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 1,
+      "graduationContribution": 65
+    },
+    {
+      "id": "MENTOR_LESSON_ECHO_BOUNDARY",
+      "displayName": "Echo Boundary",
+      "domain": "INVOCATION",
+      "summary": "Use an Invocation Artifact without treating the Echo as property.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 2,
+      "aptitudeTags": [
+        "INVOCATION",
+        "TEACHING"
+      ],
+      "practiceRequirement": 2,
+      "effects": {
+        "discoveryGain": 40,
+        "proficiencyGain": 12,
+        "hintTags": [
+          "HINT_ECHO_BOUNDARY"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 2,
+      "graduationContribution": 35
+    },
+    {
+      "id": "MENTOR_LESSON_PUBLIC_COMMAND",
+      "displayName": "Command in Public",
+      "domain": "LEADERSHIP",
+      "summary": "Explain a difficult order to citizens and subordinates.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 3,
+      "aptitudeTags": [
+        "LEADERSHIP",
+        "TEACHING"
+      ],
+      "practiceRequirement": 3,
+      "effects": {
+        "discoveryGain": 50,
+        "proficiencyGain": 17,
+        "hintTags": [
+          "HINT_PUBLIC_COMMAND"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 3,
+      "graduationContribution": 45
+    },
+    {
+      "id": "MENTOR_LESSON_ACCOUNTABLE_FAILURE",
+      "displayName": "Report a Failure",
+      "domain": "INTEGRITY",
+      "summary": "Turn a failed duty into an accurate institutional lesson.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 1,
+      "aptitudeTags": [
+        "INTEGRITY",
+        "TEACHING"
+      ],
+      "practiceRequirement": 4,
+      "effects": {
+        "discoveryGain": 60,
+        "proficiencyGain": 22,
+        "hintTags": [
+          "HINT_ACCOUNTABLE_FAILURE"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 1,
+      "graduationContribution": 55
+    },
+    {
+      "id": "MENTOR_LESSON_CRAFT_FOR_PERSON",
+      "displayName": "Craft for a Person",
+      "domain": "CRAFTING",
+      "summary": "Design an item around another recruit’s habits and consent.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_GUILD_FORGE",
+      "minimumFacilityLevel": 2,
+      "aptitudeTags": [
+        "CRAFTING",
+        "TEACHING"
+      ],
+      "practiceRequirement": 5,
+      "effects": {
+        "discoveryGain": 70,
+        "proficiencyGain": 27,
+        "hintTags": [
+          "HINT_CRAFT_FOR_PERSON"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 2,
+      "graduationContribution": 65
+    },
+    {
+      "id": "MENTOR_LESSON_ARCHIVE_THE_REASON",
+      "displayName": "Archive the Reason",
+      "domain": "KNOWLEDGE",
+      "summary": "Record why a decision was made, not only the result.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_LIBRARY",
+      "minimumFacilityLevel": 3,
+      "aptitudeTags": [
+        "KNOWLEDGE",
+        "TEACHING"
+      ],
+      "practiceRequirement": 2,
+      "effects": {
+        "discoveryGain": 30,
+        "proficiencyGain": 12,
+        "hintTags": [
+          "HINT_ARCHIVE_THE_REASON"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 3,
+      "graduationContribution": 35
+    },
+    {
+      "id": "MENTOR_LESSON_QUIET_WATCH",
+      "displayName": "Quiet Watch",
+      "domain": "SURVIVAL",
+      "summary": "Share a low-stimulation duty and learn environmental tells.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 1,
+      "aptitudeTags": [
+        "SURVIVAL",
+        "TEACHING"
+      ],
+      "practiceRequirement": 3,
+      "effects": {
+        "discoveryGain": 40,
+        "proficiencyGain": 17,
+        "hintTags": [
+          "HINT_QUIET_WATCH"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 1,
+      "graduationContribution": 45
+    },
+    {
+      "id": "MENTOR_LESSON_RIVALRY_LIMITS",
+      "displayName": "Rivalry Limits",
+      "domain": "SOCIAL",
+      "summary": "Compete without humiliation or unsafe escalation.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 2,
+      "aptitudeTags": [
+        "SOCIAL",
+        "TEACHING"
+      ],
+      "practiceRequirement": 4,
+      "effects": {
+        "discoveryGain": 50,
+        "proficiencyGain": 22,
+        "hintTags": [
+          "HINT_RIVALRY_LIMITS"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 2,
+      "graduationContribution": 55
+    },
+    {
+      "id": "MENTOR_LESSON_MENTOR_STEPS_BACK",
+      "displayName": "Mentor Steps Back",
+      "domain": "MENTORSHIP",
+      "summary": "Let the apprentice act without rescue unless truly necessary.",
+      "minimumTrust": 220,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 3,
+      "aptitudeTags": [
+        "MENTORSHIP",
+        "TEACHING"
+      ],
+      "practiceRequirement": 5,
+      "effects": {
+        "discoveryGain": 60,
+        "proficiencyGain": 27,
+        "hintTags": [
+          "HINT_MENTOR_STEPS_BACK"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 3,
+      "graduationContribution": 65
+    },
+    {
+      "id": "MENTOR_LESSON_APPRENTICE_TEACHES",
+      "displayName": "Apprentice Teaches Back",
+      "domain": "MENTORSHIP",
+      "summary": "Reverse the lesson so the mentor recognizes growth.",
+      "minimumTrust": 220,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 1,
+      "aptitudeTags": [
+        "MENTORSHIP",
+        "TEACHING"
+      ],
+      "practiceRequirement": 2,
+      "effects": {
+        "discoveryGain": 70,
+        "proficiencyGain": 12,
+        "hintTags": [
+          "HINT_APPRENTICE_TEACHES"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 1,
+      "graduationContribution": 35
+    },
+    {
+      "id": "MENTOR_LESSON_MIXED_UNION_LANGUAGE",
+      "displayName": "Mixed Union Language",
+      "domain": "CULTURAL",
+      "summary": "Create shared callouts without erasing original terms.",
+      "minimumTrust": 220,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 2,
+      "aptitudeTags": [
+        "CULTURAL",
+        "TEACHING"
+      ],
+      "practiceRequirement": 3,
+      "effects": {
+        "discoveryGain": 30,
+        "proficiencyGain": 17,
+        "hintTags": [
+          "HINT_MIXED_UNION_LANGUAGE"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 2,
+      "graduationContribution": 45
+    },
+    {
+      "id": "MENTOR_LESSON_BOSS_TELEGRAPH",
+      "displayName": "Read the Boss Telegraph",
+      "domain": "TACTICAL",
+      "summary": "Identify a declared catastrophic action and prepare a Union response.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 3,
+      "aptitudeTags": [
+        "TACTICAL",
+        "TEACHING"
+      ],
+      "practiceRequirement": 4,
+      "effects": {
+        "discoveryGain": 40,
+        "proficiencyGain": 22,
+        "hintTags": [
+          "HINT_BOSS_TELEGRAPH"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 3,
+      "graduationContribution": 55
+    },
+    {
+      "id": "MENTOR_LESSON_RESCUE_ROUTE",
+      "displayName": "Plan the Rescue Route",
+      "domain": "SURVIVAL",
+      "summary": "Choose a route that can carry an injured person home.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 1,
+      "aptitudeTags": [
+        "SURVIVAL",
+        "TEACHING"
+      ],
+      "practiceRequirement": 5,
+      "effects": {
+        "discoveryGain": 50,
+        "proficiencyGain": 27,
+        "hintTags": [
+          "HINT_RESCUE_ROUTE"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 1,
+      "graduationContribution": 65
+    },
+    {
+      "id": "MENTOR_LESSON_CHOSEN_ITEM_PATIENCE",
+      "displayName": "Chosen Item Patience",
+      "domain": "EQUIPMENT",
+      "summary": "Accept that a storied item may refuse its intended wielder.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TRAINING_HALL",
+      "minimumFacilityLevel": 2,
+      "aptitudeTags": [
+        "EQUIPMENT",
+        "TEACHING"
+      ],
+      "practiceRequirement": 2,
+      "effects": {
+        "discoveryGain": 60,
+        "proficiencyGain": 12,
+        "hintTags": [
+          "HINT_CHOSEN_ITEM_PATIENCE"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 2,
+      "graduationContribution": 35
+    },
+    {
+      "id": "MENTOR_LESSON_STAFF_SUCCESSION",
+      "displayName": "Train Your Replacement",
+      "domain": "DUTY",
+      "summary": "Prepare another member to cover a staff role.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_STRATEGY_ROOM",
+      "minimumFacilityLevel": 3,
+      "aptitudeTags": [
+        "DUTY",
+        "TEACHING"
+      ],
+      "practiceRequirement": 3,
+      "effects": {
+        "discoveryGain": 70,
+        "proficiencyGain": 17,
+        "hintTags": [
+          "HINT_STAFF_SUCCESSION"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 3,
+      "graduationContribution": 45
+    },
+    {
+      "id": "MENTOR_LESSON_STORY_WITHOUT_OWNERSHIP",
+      "displayName": "Tell Their Story Fairly",
+      "domain": "CHRONICLE",
+      "summary": "Write a Chronicle entry without claiming someone else’s voice.",
+      "minimumTrust": 100,
+      "minimumRespect": 80,
+      "requiredFacilityId": "FACILITY_TROPHY_CHRONICLE_HALL",
+      "minimumFacilityLevel": 1,
+      "aptitudeTags": [
+        "CHRONICLE",
+        "TEACHING"
+      ],
+      "practiceRequirement": 4,
+      "effects": {
+        "discoveryGain": 30,
+        "proficiencyGain": 22,
+        "hintTags": [
+          "HINT_STORY_WITHOUT_OWNERSHIP"
+        ]
+      },
+      "cannotGrantArtDirectly": true,
+      "meaningfulUseStillRequired": true,
+      "burnoutCost": 1,
+      "graduationContribution": 55
+    }
+  ]
+}

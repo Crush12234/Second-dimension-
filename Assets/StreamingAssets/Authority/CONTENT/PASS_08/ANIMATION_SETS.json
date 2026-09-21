@@ -1,0 +1,1302 @@
+{
+  "contentVersion": "GOW_PASS08_0.13",
+  "animations": [
+    {
+      "id": "ANIM_LIGHT_MELEE_IDLE",
+      "family": "LIGHT_MELEE",
+      "action": "IDLE",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 2
+    },
+    {
+      "id": "ANIM_LIGHT_MELEE_MOVE",
+      "family": "LIGHT_MELEE",
+      "action": "MOVE",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_LIGHT_MELEE_ATTACK_A",
+      "family": "LIGHT_MELEE",
+      "action": "ATTACK_A",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 2
+    },
+    {
+      "id": "ANIM_LIGHT_MELEE_ATTACK_B",
+      "family": "LIGHT_MELEE",
+      "action": "ATTACK_B",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_LIGHT_MELEE_CAST",
+      "family": "LIGHT_MELEE",
+      "action": "CAST",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_LIGHT_MELEE_HEAL",
+      "family": "LIGHT_MELEE",
+      "action": "HEAL",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_LIGHT_MELEE_GUARD",
+      "family": "LIGHT_MELEE",
+      "action": "GUARD",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_LIGHT_MELEE_HIT",
+      "family": "LIGHT_MELEE",
+      "action": "HIT",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_LIGHT_MELEE_STAGGER",
+      "family": "LIGHT_MELEE",
+      "action": "STAGGER",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_LIGHT_MELEE_DOWNED",
+      "family": "LIGHT_MELEE",
+      "action": "DOWNED",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_LIGHT_MELEE_VICTORY",
+      "family": "LIGHT_MELEE",
+      "action": "VICTORY",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_LIGHT_MELEE_INTERACT",
+      "family": "LIGHT_MELEE",
+      "action": "INTERACT",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_HEAVY_MELEE_IDLE",
+      "family": "HEAVY_MELEE",
+      "action": "IDLE",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 2
+    },
+    {
+      "id": "ANIM_HEAVY_MELEE_MOVE",
+      "family": "HEAVY_MELEE",
+      "action": "MOVE",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_HEAVY_MELEE_ATTACK_A",
+      "family": "HEAVY_MELEE",
+      "action": "ATTACK_A",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 2
+    },
+    {
+      "id": "ANIM_HEAVY_MELEE_ATTACK_B",
+      "family": "HEAVY_MELEE",
+      "action": "ATTACK_B",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_HEAVY_MELEE_CAST",
+      "family": "HEAVY_MELEE",
+      "action": "CAST",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_HEAVY_MELEE_HEAL",
+      "family": "HEAVY_MELEE",
+      "action": "HEAL",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_HEAVY_MELEE_GUARD",
+      "family": "HEAVY_MELEE",
+      "action": "GUARD",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_HEAVY_MELEE_HIT",
+      "family": "HEAVY_MELEE",
+      "action": "HIT",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_HEAVY_MELEE_STAGGER",
+      "family": "HEAVY_MELEE",
+      "action": "STAGGER",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_HEAVY_MELEE_DOWNED",
+      "family": "HEAVY_MELEE",
+      "action": "DOWNED",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_HEAVY_MELEE_VICTORY",
+      "family": "HEAVY_MELEE",
+      "action": "VICTORY",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_HEAVY_MELEE_INTERACT",
+      "family": "HEAVY_MELEE",
+      "action": "INTERACT",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_SPEAR_IDLE",
+      "family": "SPEAR",
+      "action": "IDLE",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 2
+    },
+    {
+      "id": "ANIM_SPEAR_MOVE",
+      "family": "SPEAR",
+      "action": "MOVE",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_SPEAR_ATTACK_A",
+      "family": "SPEAR",
+      "action": "ATTACK_A",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 2
+    },
+    {
+      "id": "ANIM_SPEAR_ATTACK_B",
+      "family": "SPEAR",
+      "action": "ATTACK_B",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_SPEAR_CAST",
+      "family": "SPEAR",
+      "action": "CAST",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_SPEAR_HEAL",
+      "family": "SPEAR",
+      "action": "HEAL",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_SPEAR_GUARD",
+      "family": "SPEAR",
+      "action": "GUARD",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_SPEAR_HIT",
+      "family": "SPEAR",
+      "action": "HIT",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_SPEAR_STAGGER",
+      "family": "SPEAR",
+      "action": "STAGGER",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_SPEAR_DOWNED",
+      "family": "SPEAR",
+      "action": "DOWNED",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_SPEAR_VICTORY",
+      "family": "SPEAR",
+      "action": "VICTORY",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_SPEAR_INTERACT",
+      "family": "SPEAR",
+      "action": "INTERACT",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_BOW_IDLE",
+      "family": "BOW",
+      "action": "IDLE",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 2
+    },
+    {
+      "id": "ANIM_BOW_MOVE",
+      "family": "BOW",
+      "action": "MOVE",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_BOW_ATTACK_A",
+      "family": "BOW",
+      "action": "ATTACK_A",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 2
+    },
+    {
+      "id": "ANIM_BOW_ATTACK_B",
+      "family": "BOW",
+      "action": "ATTACK_B",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_BOW_CAST",
+      "family": "BOW",
+      "action": "CAST",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_BOW_HEAL",
+      "family": "BOW",
+      "action": "HEAL",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_BOW_GUARD",
+      "family": "BOW",
+      "action": "GUARD",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_BOW_HIT",
+      "family": "BOW",
+      "action": "HIT",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_BOW_STAGGER",
+      "family": "BOW",
+      "action": "STAGGER",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_BOW_DOWNED",
+      "family": "BOW",
+      "action": "DOWNED",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_BOW_VICTORY",
+      "family": "BOW",
+      "action": "VICTORY",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_BOW_INTERACT",
+      "family": "BOW",
+      "action": "INTERACT",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_DAGGER_IDLE",
+      "family": "DAGGER",
+      "action": "IDLE",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 2
+    },
+    {
+      "id": "ANIM_DAGGER_MOVE",
+      "family": "DAGGER",
+      "action": "MOVE",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_DAGGER_ATTACK_A",
+      "family": "DAGGER",
+      "action": "ATTACK_A",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 2
+    },
+    {
+      "id": "ANIM_DAGGER_ATTACK_B",
+      "family": "DAGGER",
+      "action": "ATTACK_B",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_DAGGER_CAST",
+      "family": "DAGGER",
+      "action": "CAST",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_DAGGER_HEAL",
+      "family": "DAGGER",
+      "action": "HEAL",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_DAGGER_GUARD",
+      "family": "DAGGER",
+      "action": "GUARD",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_DAGGER_HIT",
+      "family": "DAGGER",
+      "action": "HIT",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_DAGGER_STAGGER",
+      "family": "DAGGER",
+      "action": "STAGGER",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_DAGGER_DOWNED",
+      "family": "DAGGER",
+      "action": "DOWNED",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_DAGGER_VICTORY",
+      "family": "DAGGER",
+      "action": "VICTORY",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_DAGGER_INTERACT",
+      "family": "DAGGER",
+      "action": "INTERACT",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_UNARMED_IDLE",
+      "family": "UNARMED",
+      "action": "IDLE",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 2
+    },
+    {
+      "id": "ANIM_UNARMED_MOVE",
+      "family": "UNARMED",
+      "action": "MOVE",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_UNARMED_ATTACK_A",
+      "family": "UNARMED",
+      "action": "ATTACK_A",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 2
+    },
+    {
+      "id": "ANIM_UNARMED_ATTACK_B",
+      "family": "UNARMED",
+      "action": "ATTACK_B",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_UNARMED_CAST",
+      "family": "UNARMED",
+      "action": "CAST",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_UNARMED_HEAL",
+      "family": "UNARMED",
+      "action": "HEAL",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_UNARMED_GUARD",
+      "family": "UNARMED",
+      "action": "GUARD",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_UNARMED_HIT",
+      "family": "UNARMED",
+      "action": "HIT",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_UNARMED_STAGGER",
+      "family": "UNARMED",
+      "action": "STAGGER",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_UNARMED_DOWNED",
+      "family": "UNARMED",
+      "action": "DOWNED",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_UNARMED_VICTORY",
+      "family": "UNARMED",
+      "action": "VICTORY",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_UNARMED_INTERACT",
+      "family": "UNARMED",
+      "action": "INTERACT",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_STAFF_IDLE",
+      "family": "STAFF",
+      "action": "IDLE",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 2
+    },
+    {
+      "id": "ANIM_STAFF_MOVE",
+      "family": "STAFF",
+      "action": "MOVE",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_STAFF_ATTACK_A",
+      "family": "STAFF",
+      "action": "ATTACK_A",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 2
+    },
+    {
+      "id": "ANIM_STAFF_ATTACK_B",
+      "family": "STAFF",
+      "action": "ATTACK_B",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_STAFF_CAST",
+      "family": "STAFF",
+      "action": "CAST",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_STAFF_HEAL",
+      "family": "STAFF",
+      "action": "HEAL",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_STAFF_GUARD",
+      "family": "STAFF",
+      "action": "GUARD",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_STAFF_HIT",
+      "family": "STAFF",
+      "action": "HIT",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_STAFF_STAGGER",
+      "family": "STAFF",
+      "action": "STAGGER",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_STAFF_DOWNED",
+      "family": "STAFF",
+      "action": "DOWNED",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_STAFF_VICTORY",
+      "family": "STAFF",
+      "action": "VICTORY",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_STAFF_INTERACT",
+      "family": "STAFF",
+      "action": "INTERACT",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_CATALYST_IDLE",
+      "family": "CATALYST",
+      "action": "IDLE",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 2
+    },
+    {
+      "id": "ANIM_CATALYST_MOVE",
+      "family": "CATALYST",
+      "action": "MOVE",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_CATALYST_ATTACK_A",
+      "family": "CATALYST",
+      "action": "ATTACK_A",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 2
+    },
+    {
+      "id": "ANIM_CATALYST_ATTACK_B",
+      "family": "CATALYST",
+      "action": "ATTACK_B",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_CATALYST_CAST",
+      "family": "CATALYST",
+      "action": "CAST",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_CATALYST_HEAL",
+      "family": "CATALYST",
+      "action": "HEAL",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_CATALYST_GUARD",
+      "family": "CATALYST",
+      "action": "GUARD",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_CATALYST_HIT",
+      "family": "CATALYST",
+      "action": "HIT",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_CATALYST_STAGGER",
+      "family": "CATALYST",
+      "action": "STAGGER",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_CATALYST_DOWNED",
+      "family": "CATALYST",
+      "action": "DOWNED",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_CATALYST_VICTORY",
+      "family": "CATALYST",
+      "action": "VICTORY",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_CATALYST_INTERACT",
+      "family": "CATALYST",
+      "action": "INTERACT",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_ENGINEER_IDLE",
+      "family": "ENGINEER",
+      "action": "IDLE",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 2
+    },
+    {
+      "id": "ANIM_ENGINEER_MOVE",
+      "family": "ENGINEER",
+      "action": "MOVE",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_ENGINEER_ATTACK_A",
+      "family": "ENGINEER",
+      "action": "ATTACK_A",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 2
+    },
+    {
+      "id": "ANIM_ENGINEER_ATTACK_B",
+      "family": "ENGINEER",
+      "action": "ATTACK_B",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_ENGINEER_CAST",
+      "family": "ENGINEER",
+      "action": "CAST",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_ENGINEER_HEAL",
+      "family": "ENGINEER",
+      "action": "HEAL",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_ENGINEER_GUARD",
+      "family": "ENGINEER",
+      "action": "GUARD",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_ENGINEER_HIT",
+      "family": "ENGINEER",
+      "action": "HIT",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_ENGINEER_STAGGER",
+      "family": "ENGINEER",
+      "action": "STAGGER",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_ENGINEER_DOWNED",
+      "family": "ENGINEER",
+      "action": "DOWNED",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_ENGINEER_VICTORY",
+      "family": "ENGINEER",
+      "action": "VICTORY",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_ENGINEER_INTERACT",
+      "family": "ENGINEER",
+      "action": "INTERACT",
+      "priority": "FULL_GAME",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_SHIELD_GUARD_IDLE",
+      "family": "SHIELD_GUARD",
+      "action": "IDLE",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 2
+    },
+    {
+      "id": "ANIM_SHIELD_GUARD_MOVE",
+      "family": "SHIELD_GUARD",
+      "action": "MOVE",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_SHIELD_GUARD_ATTACK_A",
+      "family": "SHIELD_GUARD",
+      "action": "ATTACK_A",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 2
+    },
+    {
+      "id": "ANIM_SHIELD_GUARD_ATTACK_B",
+      "family": "SHIELD_GUARD",
+      "action": "ATTACK_B",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_SHIELD_GUARD_CAST",
+      "family": "SHIELD_GUARD",
+      "action": "CAST",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_SHIELD_GUARD_HEAL",
+      "family": "SHIELD_GUARD",
+      "action": "HEAL",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_SHIELD_GUARD_GUARD",
+      "family": "SHIELD_GUARD",
+      "action": "GUARD",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_SHIELD_GUARD_HIT",
+      "family": "SHIELD_GUARD",
+      "action": "HIT",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_SHIELD_GUARD_STAGGER",
+      "family": "SHIELD_GUARD",
+      "action": "STAGGER",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_SHIELD_GUARD_DOWNED",
+      "family": "SHIELD_GUARD",
+      "action": "DOWNED",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_SHIELD_GUARD_VICTORY",
+      "family": "SHIELD_GUARD",
+      "action": "VICTORY",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_SHIELD_GUARD_INTERACT",
+      "family": "SHIELD_GUARD",
+      "action": "INTERACT",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_HEALER_IDLE",
+      "family": "HEALER",
+      "action": "IDLE",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 2
+    },
+    {
+      "id": "ANIM_HEALER_MOVE",
+      "family": "HEALER",
+      "action": "MOVE",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_HEALER_ATTACK_A",
+      "family": "HEALER",
+      "action": "ATTACK_A",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 2
+    },
+    {
+      "id": "ANIM_HEALER_ATTACK_B",
+      "family": "HEALER",
+      "action": "ATTACK_B",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_HEALER_CAST",
+      "family": "HEALER",
+      "action": "CAST",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_HEALER_HEAL",
+      "family": "HEALER",
+      "action": "HEAL",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_HEALER_GUARD",
+      "family": "HEALER",
+      "action": "GUARD",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_HEALER_HIT",
+      "family": "HEALER",
+      "action": "HIT",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_HEALER_STAGGER",
+      "family": "HEALER",
+      "action": "STAGGER",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_HEALER_DOWNED",
+      "family": "HEALER",
+      "action": "DOWNED",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_HEALER_VICTORY",
+      "family": "HEALER",
+      "action": "VICTORY",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_HEALER_INTERACT",
+      "family": "HEALER",
+      "action": "INTERACT",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_ECHO_IDLE",
+      "family": "ECHO",
+      "action": "IDLE",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 2
+    },
+    {
+      "id": "ANIM_ECHO_MOVE",
+      "family": "ECHO",
+      "action": "MOVE",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_ECHO_ATTACK_A",
+      "family": "ECHO",
+      "action": "ATTACK_A",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 2
+    },
+    {
+      "id": "ANIM_ECHO_ATTACK_B",
+      "family": "ECHO",
+      "action": "ATTACK_B",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_ECHO_CAST",
+      "family": "ECHO",
+      "action": "CAST",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_ECHO_HEAL",
+      "family": "ECHO",
+      "action": "HEAL",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.55,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_ECHO_GUARD",
+      "family": "ECHO",
+      "action": "GUARD",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_ECHO_HIT",
+      "family": "ECHO",
+      "action": "HIT",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_ECHO_STAGGER",
+      "family": "ECHO",
+      "action": "STAGGER",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_ECHO_DOWNED",
+      "family": "ECHO",
+      "action": "DOWNED",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_ECHO_VICTORY",
+      "family": "ECHO",
+      "action": "VICTORY",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    },
+    {
+      "id": "ANIM_ECHO_INTERACT",
+      "family": "ECHO",
+      "action": "INTERACT",
+      "priority": "VS_REQUIRED",
+      "durationBudgetSec": 0.35,
+      "rootMotion": "limited lane-safe",
+      "variants": 1
+    }
+  ],
+  "reusePolicy": "Animation family chosen from equipment/combat role; recruit visuals layer over shared skeleton families."
+}

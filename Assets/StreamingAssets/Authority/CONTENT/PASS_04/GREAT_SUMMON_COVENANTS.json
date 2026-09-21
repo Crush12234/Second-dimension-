@@ -1,0 +1,286 @@
+{
+  "contentVersion": "GOW_PASS04_0.9",
+  "canonPrinciple": "SUMMONS CHOOSE CIVILIZATIONS, NOT OWNERS.",
+  "greatSummonCovenants": [
+    {
+      "id": "GREAT_SUMMON_IFRIT",
+      "displayName": "Ifrit",
+      "domain": "Forge flame",
+      "civilFunction": "Eternal Forge heat, emergency fire control, and combat fire",
+      "personalityDirection": "Proud master artisan who judges waste and exploitation.",
+      "publicNeed": "A public forge or disaster-response need",
+      "moralTrial": "Create with fire without turning people into fuel",
+      "compatibleNegotiatorConditions": "Crafting or fire-compatible negotiator with civic history",
+      "xpOffering": 125000,
+      "abyssRecognitionRequired": true,
+      "refusalConditions": [
+        "Conquest",
+        "Vanity",
+        "Forced service"
+      ],
+      "cityImpact": "Improves forge, heating, and disaster response",
+      "battleInterventionRules": "May intervene in approved crisis/boss operations by consent.",
+      "nonOwnershipRules": [
+        "Chooses civilization, not owner",
+        "Never inventory",
+        "Never gacha",
+        "Never duplicate collectible",
+        "May refuse or leave"
+      ],
+      "kaelRule": "Kael may negotiate but does not collect the summon as personal power.",
+      "playableNow": false
+    },
+    {
+      "id": "GREAT_SUMMON_SHIVA",
+      "displayName": "Shiva",
+      "domain": "Ice and stillness",
+      "civilFunction": "Medicine preservation, archives, and climate stabilization",
+      "personalityDirection": "Distant, exacting, and compassionate toward preventable loss.",
+      "publicNeed": "Preservation or medical emergency",
+      "moralTrial": "Preserve life rather than freeze change",
+      "compatibleNegotiatorConditions": "Restoration/Mystic negotiator with restraint history",
+      "xpOffering": 125000,
+      "abyssRecognitionRequired": true,
+      "refusalConditions": [
+        "Vanity display",
+        "Cruel preservation",
+        "Ownership demand"
+      ],
+      "cityImpact": "Enables preservation wards and medical infrastructure",
+      "battleInterventionRules": "May suspend a catastrophic field by consent.",
+      "nonOwnershipRules": [
+        "Chooses civilization, not owner",
+        "Never inventory",
+        "Never gacha",
+        "Never duplicate collectible",
+        "May refuse or leave"
+      ],
+      "kaelRule": "Kael may negotiate but does not collect the summon as personal power.",
+      "playableNow": false
+    },
+    {
+      "id": "GREAT_SUMMON_RAMUH",
+      "displayName": "Ramuh",
+      "domain": "Storm wisdom",
+      "civilFunction": "Law, judgment, signal towers, and power routing",
+      "personalityDirection": "Patient but severe teacher who asks who benefits from law.",
+      "publicNeed": "Public communications or justice crisis",
+      "moralTrial": "Resolve a dispute without rule by fear",
+      "compatibleNegotiatorConditions": "Leadership/Knowledge negotiator with accountability history",
+      "xpOffering": 150000,
+      "abyssRecognitionRequired": true,
+      "refusalConditions": [
+        "Tyranny",
+        "Secret court",
+        "Demand for unquestioned obedience"
+      ],
+      "cityImpact": "Improves signal towers and civic courts",
+      "battleInterventionRules": "May reveal or interrupt a battlefield command by consent.",
+      "nonOwnershipRules": [
+        "Chooses civilization, not owner",
+        "Never inventory",
+        "Never gacha",
+        "Never duplicate collectible",
+        "May refuse or leave"
+      ],
+      "kaelRule": "Kael may negotiate but does not collect the summon as personal power.",
+      "playableNow": false
+    },
+    {
+      "id": "GREAT_SUMMON_CARBUNCLE",
+      "displayName": "Carbuncle",
+      "domain": "Barriers and reflection",
+      "civilFunction": "Protective wards and beginner summon training",
+      "personalityDirection": "Playful guardian who refuses being treated as a toy or shield object.",
+      "publicNeed": "Civilian protection or training safety",
+      "moralTrial": "Protect without copying Kael or denying agency",
+      "compatibleNegotiatorConditions": "Guard/Support negotiator with teaching history",
+      "xpOffering": 90000,
+      "abyssRecognitionRequired": true,
+      "refusalConditions": [
+        "Ownership language",
+        "Cruel testing",
+        "Attempt to duplicate True Reflection"
+      ],
+      "cityImpact": "Improves wards and safe training",
+      "battleInterventionRules": "May create a civic barrier by consent; never exact True Reflection.",
+      "nonOwnershipRules": [
+        "Chooses civilization, not owner",
+        "Never inventory",
+        "Never gacha",
+        "Never duplicate collectible",
+        "May refuse or leave"
+      ],
+      "kaelRule": "Kael may negotiate but does not collect the summon as personal power.",
+      "playableNow": false
+    },
+    {
+      "id": "GREAT_SUMMON_TERRA_TITAN",
+      "displayName": "Terra Titan",
+      "domain": "Earth and walls",
+      "civilFunction": "City walls, foundations, landslide rescue",
+      "personalityDirection": "Slow, ancient, and deeply concerned with what walls exclude.",
+      "publicNeed": "Structural collapse or civic expansion",
+      "moralTrial": "Build a wall with a gate and a public purpose",
+      "compatibleNegotiatorConditions": "Guard/Crafting negotiator with public works history",
+      "xpOffering": 160000,
+      "abyssRecognitionRequired": true,
+      "refusalConditions": [
+        "Isolationism",
+        "Monumental vanity",
+        "Forced labor"
+      ],
+      "cityImpact": "Improves walls, roads, and terrain stability",
+      "battleInterventionRules": "May raise defensive terrain by consent.",
+      "nonOwnershipRules": [
+        "Chooses civilization, not owner",
+        "Never inventory",
+        "Never gacha",
+        "Never duplicate collectible",
+        "May refuse or leave"
+      ],
+      "kaelRule": "Kael may negotiate but does not collect the summon as personal power.",
+      "playableNow": false
+    },
+    {
+      "id": "GREAT_SUMMON_LEVIATHAN",
+      "displayName": "Leviathan",
+      "domain": "Water and memory",
+      "civilFunction": "Rivers, wells, oceans, and memory archives",
+      "personalityDirection": "Vast, mournful, and intolerant of erased histories.",
+      "publicNeed": "Water crisis or threatened memory archive",
+      "moralTrial": "Return a hidden memory to the people it belongs to",
+      "compatibleNegotiatorConditions": "Knowledge/Restoration negotiator with truth history",
+      "xpOffering": 180000,
+      "abyssRecognitionRequired": true,
+      "refusalConditions": [
+        "Historical erasure",
+        "Weaponized thirst",
+        "Private ownership of public water"
+      ],
+      "cityImpact": "Improves water systems and archives",
+      "battleInterventionRules": "May flood, cleanse, or reveal memory by consent.",
+      "nonOwnershipRules": [
+        "Chooses civilization, not owner",
+        "Never inventory",
+        "Never gacha",
+        "Never duplicate collectible",
+        "May refuse or leave"
+      ],
+      "kaelRule": "Kael may negotiate but does not collect the summon as personal power.",
+      "playableNow": false
+    },
+    {
+      "id": "GREAT_SUMMON_PHOENIX",
+      "displayName": "Phoenix",
+      "domain": "Life and rebirth",
+      "civilFunction": "Healing, emergency rescue, and symbolic hope",
+      "personalityDirection": "Warm but uncompromising about the cost of second chances.",
+      "publicNeed": "Mass casualty or civic despair",
+      "moralTrial": "Use renewal to restore responsibility, not erase consequence",
+      "compatibleNegotiatorConditions": "Restoration/Support negotiator with rescue history",
+      "xpOffering": 200000,
+      "abyssRecognitionRequired": true,
+      "refusalConditions": [
+        "Immortality vanity",
+        "Erasing accountability",
+        "Sacrificial coercion"
+      ],
+      "cityImpact": "Improves hospitals and disaster recovery",
+      "battleInterventionRules": "May perform one consented crisis intervention; not routine resurrection.",
+      "nonOwnershipRules": [
+        "Chooses civilization, not owner",
+        "Never inventory",
+        "Never gacha",
+        "Never duplicate collectible",
+        "May refuse or leave"
+      ],
+      "kaelRule": "Kael may negotiate but does not collect the summon as personal power.",
+      "playableNow": false
+    },
+    {
+      "id": "GREAT_SUMMON_FENRIR",
+      "displayName": "Fenrir",
+      "domain": "Hunt and loyalty",
+      "civilFunction": "Tracks threats across dimensions and protects routes",
+      "personalityDirection": "Fiercely independent; loyalty must be mutual.",
+      "publicNeed": "Untraceable threat or missing expedition",
+      "moralTrial": "Choose whether to pursue prey or rescue the lost",
+      "compatibleNegotiatorConditions": "Tactical/Survival negotiator with pack trust",
+      "xpOffering": 170000,
+      "abyssRecognitionRequired": true,
+      "refusalConditions": [
+        "Collaring",
+        "Blood sport",
+        "Treating loyalty as ownership"
+      ],
+      "cityImpact": "Improves tracking and gate-route security",
+      "battleInterventionRules": "May hunt a designated threat by consent.",
+      "nonOwnershipRules": [
+        "Chooses civilization, not owner",
+        "Never inventory",
+        "Never gacha",
+        "Never duplicate collectible",
+        "May refuse or leave"
+      ],
+      "kaelRule": "Kael may negotiate but does not collect the summon as personal power.",
+      "playableNow": false
+    },
+    {
+      "id": "GREAT_SUMMON_BAHAMUT",
+      "displayName": "Bahamut",
+      "domain": "Dragon judgment",
+      "civilFunction": "Tests whether strength serves protection",
+      "personalityDirection": "Majestic judge who values restraint more than victory.",
+      "publicNeed": "Existential threat or national trial",
+      "moralTrial": "Demonstrate overwhelming power without domination",
+      "compatibleNegotiatorConditions": "Multi-discipline leader with civic protection history",
+      "xpOffering": 300000,
+      "abyssRecognitionRequired": true,
+      "refusalConditions": [
+        "Conquest",
+        "Worship demand",
+        "Genocidal intent"
+      ],
+      "cityImpact": "Creates a civilization-wide strength trial and defense pact",
+      "battleInterventionRules": "May intervene only in exceptional covenant-approved crises.",
+      "nonOwnershipRules": [
+        "Chooses civilization, not owner",
+        "Never inventory",
+        "Never gacha",
+        "Never duplicate collectible",
+        "May refuse or leave"
+      ],
+      "kaelRule": "Kael may negotiate but does not collect the summon as personal power.",
+      "playableNow": false
+    },
+    {
+      "id": "GREAT_SUMMON_SYLPH_QUEEN",
+      "displayName": "Sylph Queen",
+      "domain": "Wind and travel",
+      "civilFunction": "Air routes, messages, and emergency evacuation",
+      "personalityDirection": "Curious sovereign who values open roads and consent.",
+      "publicNeed": "Evacuation or interworld communication need",
+      "moralTrial": "Open a route without claiming the destination",
+      "compatibleNegotiatorConditions": "Tactical/Support negotiator with travel and diplomacy history",
+      "xpOffering": 140000,
+      "abyssRecognitionRequired": true,
+      "refusalConditions": [
+        "Forced transport",
+        "Closed borders for privilege",
+        "Ownership claim"
+      ],
+      "cityImpact": "Improves routes, messages, and evacuation",
+      "battleInterventionRules": "May open a temporary safe wind route by consent.",
+      "nonOwnershipRules": [
+        "Chooses civilization, not owner",
+        "Never inventory",
+        "Never gacha",
+        "Never duplicate collectible",
+        "May refuse or leave"
+      ],
+      "kaelRule": "Kael may negotiate but does not collect the summon as personal power.",
+      "playableNow": false
+    }
+  ]
+}

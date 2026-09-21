@@ -1,0 +1,4109 @@
+{
+  "contentVersion": "GOW_CONTENT_AUTHORITY_002",
+  "armorPieces": [
+    {
+      "id": "EQUIP_ARMOR_SURVEYOR_COAT",
+      "displayName": "Surveyor Coat",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 6,
+      "weight": 6,
+      "equipmentTags": [
+        "ARMOR_LIGHT"
+      ],
+      "tacticalIdentity": "Perception and movement; low protection.",
+      "forecastWeightModifiers": {
+        "TACTICAL": 80
+      },
+      "skillCheckModifiers": {
+        "Perception": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_SURVEYOR_COAT",
+        "slot": "SLOT_BODY_ARMOR",
+        "progressionTier": 1,
+        "rarity": "COMMON",
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_SURVEYOR_COAT_HEAD",
+      "displayName": "Surveyor Coat Hood",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_HEAD"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 3,
+      "weight": 2,
+      "equipmentTags": [
+        "ARMOR_LIGHT",
+        "SET_CA002_SET_SURVEYOR_COAT"
+      ],
+      "tacticalIdentity": "Perception and movement; low protection.",
+      "forecastWeightModifiers": {
+        "TACTICAL": 80
+      },
+      "skillCheckModifiers": {
+        "Perception": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT",
+        "VIS_SET_01"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_SURVEYOR_COAT",
+        "slot": "SLOT_HEAD",
+        "progressionTier": 1,
+        "rarity": "COMMON",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_SURVEYOR_COAT_ARMS",
+      "displayName": "Surveyor Coat Gloves",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_ARMS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 2,
+      "weight": 2,
+      "equipmentTags": [
+        "ARMOR_LIGHT",
+        "SET_CA002_SET_SURVEYOR_COAT"
+      ],
+      "tacticalIdentity": "Perception and movement; low protection.",
+      "forecastWeightModifiers": {
+        "TACTICAL": 80
+      },
+      "skillCheckModifiers": {
+        "Perception": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT",
+        "VIS_SET_01"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_SURVEYOR_COAT",
+        "slot": "SLOT_ARMS",
+        "progressionTier": 1,
+        "rarity": "COMMON",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_SURVEYOR_COAT_LEGS",
+      "displayName": "Surveyor Coat Boots",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_LEGS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 3,
+      "weight": 2,
+      "equipmentTags": [
+        "ARMOR_LIGHT",
+        "SET_CA002_SET_SURVEYOR_COAT"
+      ],
+      "tacticalIdentity": "Perception and movement; low protection.",
+      "forecastWeightModifiers": {
+        "TACTICAL": 80
+      },
+      "skillCheckModifiers": {
+        "Perception": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT",
+        "VIS_SET_01"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_SURVEYOR_COAT",
+        "slot": "SLOT_LEGS",
+        "progressionTier": 1,
+        "rarity": "COMMON",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "EQUIP_ARMOR_RUNE_LINED_FIELD_ROBE",
+      "displayName": "Rune-Lined Field Robe",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 4,
+      "weight": 5,
+      "equipmentTags": [
+        "ARMOR_LIGHT"
+      ],
+      "tacticalIdentity": "Improves controlled Mystic forecasts and MP recovery at camps.",
+      "forecastWeightModifiers": {
+        "CONTROLLED_MAGIC": 100
+      },
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_RUNE_LINED_FIELD_ROBE",
+        "slot": "SLOT_BODY_ARMOR",
+        "progressionTier": 2,
+        "rarity": "UNCOMMON",
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_RUNE_LINED_FIELD_ROBE_HEAD",
+      "displayName": "Rune-Lined Field Robe Hood",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_HEAD"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 2,
+      "weight": 2,
+      "equipmentTags": [
+        "ARMOR_LIGHT",
+        "SET_CA002_SET_RUNE_LINED_FIELD_ROBE"
+      ],
+      "tacticalIdentity": "Improves controlled Mystic forecasts and MP recovery at camps.",
+      "forecastWeightModifiers": {
+        "CONTROLLED_MAGIC": 100
+      },
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT",
+        "VIS_SET_02"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_RUNE_LINED_FIELD_ROBE",
+        "slot": "SLOT_HEAD",
+        "progressionTier": 2,
+        "rarity": "UNCOMMON",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_RUNE_LINED_FIELD_ROBE_ARMS",
+      "displayName": "Rune-Lined Field Robe Gloves",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_ARMS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 1,
+      "weight": 1,
+      "equipmentTags": [
+        "ARMOR_LIGHT",
+        "SET_CA002_SET_RUNE_LINED_FIELD_ROBE"
+      ],
+      "tacticalIdentity": "Improves controlled Mystic forecasts and MP recovery at camps.",
+      "forecastWeightModifiers": {
+        "CONTROLLED_MAGIC": 100
+      },
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT",
+        "VIS_SET_02"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_RUNE_LINED_FIELD_ROBE",
+        "slot": "SLOT_ARMS",
+        "progressionTier": 2,
+        "rarity": "UNCOMMON",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_RUNE_LINED_FIELD_ROBE_LEGS",
+      "displayName": "Rune-Lined Field Robe Boots",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_LEGS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 2,
+      "weight": 2,
+      "equipmentTags": [
+        "ARMOR_LIGHT",
+        "SET_CA002_SET_RUNE_LINED_FIELD_ROBE"
+      ],
+      "tacticalIdentity": "Improves controlled Mystic forecasts and MP recovery at camps.",
+      "forecastWeightModifiers": {
+        "CONTROLLED_MAGIC": 100
+      },
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT",
+        "VIS_SET_02"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_RUNE_LINED_FIELD_ROBE",
+        "slot": "SLOT_LEGS",
+        "progressionTier": 2,
+        "rarity": "UNCOMMON",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "EQUIP_ARMOR_FENRUNNER_TRAIL_LEATHERS",
+      "displayName": "Fenrunner Trail Leathers",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 7,
+      "weight": 7,
+      "equipmentTags": [
+        "ARMOR_LIGHT"
+      ],
+      "tacticalIdentity": "Survival checks and fatigue resistance.",
+      "forecastWeightModifiers": {
+        "RESCUE": 50
+      },
+      "skillCheckModifiers": {
+        "Survival": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_FENRUNNER_TRAIL_LEATHERS",
+        "slot": "SLOT_BODY_ARMOR",
+        "progressionTier": 3,
+        "rarity": "RARE",
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_FENRUNNER_TRAIL_LEATHERS_HEAD",
+      "displayName": "Fenrunner Trail Leathers Hood",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_HEAD"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 3,
+      "weight": 2,
+      "equipmentTags": [
+        "ARMOR_LIGHT",
+        "SET_CA002_SET_FENRUNNER_TRAIL_LEATHERS"
+      ],
+      "tacticalIdentity": "Survival checks and fatigue resistance.",
+      "forecastWeightModifiers": {
+        "RESCUE": 50
+      },
+      "skillCheckModifiers": {
+        "Survival": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT",
+        "VIS_SET_03"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_FENRUNNER_TRAIL_LEATHERS",
+        "slot": "SLOT_HEAD",
+        "progressionTier": 3,
+        "rarity": "RARE",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_FENRUNNER_TRAIL_LEATHERS_ARMS",
+      "displayName": "Fenrunner Trail Leathers Gloves",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_ARMS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 2,
+      "weight": 2,
+      "equipmentTags": [
+        "ARMOR_LIGHT",
+        "SET_CA002_SET_FENRUNNER_TRAIL_LEATHERS"
+      ],
+      "tacticalIdentity": "Survival checks and fatigue resistance.",
+      "forecastWeightModifiers": {
+        "RESCUE": 50
+      },
+      "skillCheckModifiers": {
+        "Survival": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT",
+        "VIS_SET_03"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_FENRUNNER_TRAIL_LEATHERS",
+        "slot": "SLOT_ARMS",
+        "progressionTier": 3,
+        "rarity": "RARE",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_FENRUNNER_TRAIL_LEATHERS_LEGS",
+      "displayName": "Fenrunner Trail Leathers Boots",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_LEGS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 4,
+      "weight": 3,
+      "equipmentTags": [
+        "ARMOR_LIGHT",
+        "SET_CA002_SET_FENRUNNER_TRAIL_LEATHERS"
+      ],
+      "tacticalIdentity": "Survival checks and fatigue resistance.",
+      "forecastWeightModifiers": {
+        "RESCUE": 50
+      },
+      "skillCheckModifiers": {
+        "Survival": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT",
+        "VIS_SET_03"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_FENRUNNER_TRAIL_LEATHERS",
+        "slot": "SLOT_LEGS",
+        "progressionTier": 3,
+        "rarity": "RARE",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "EQUIP_ARMOR_DUSK_SURVEY_MANTLE",
+      "displayName": "Dusk Survey Mantle",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 5,
+      "weight": 4,
+      "equipmentTags": [
+        "ARMOR_LIGHT"
+      ],
+      "tacticalIdentity": "Reduces exposure after scouting or revealing a secret.",
+      "forecastWeightModifiers": {
+        "REARLINE": 70
+      },
+      "skillCheckModifiers": {
+        "Perception": 1,
+        "Deception": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_DUSK_SURVEY_MANTLE",
+        "slot": "SLOT_BODY_ARMOR",
+        "progressionTier": 4,
+        "rarity": "EPIC",
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_DUSK_SURVEY_MANTLE_HEAD",
+      "displayName": "Dusk Survey Mantle Hood",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_HEAD"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 2,
+      "weight": 1,
+      "equipmentTags": [
+        "ARMOR_LIGHT",
+        "SET_CA002_SET_DUSK_SURVEY_MANTLE"
+      ],
+      "tacticalIdentity": "Reduces exposure after scouting or revealing a secret.",
+      "forecastWeightModifiers": {
+        "REARLINE": 70
+      },
+      "skillCheckModifiers": {
+        "Perception": 1,
+        "Deception": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT",
+        "VIS_SET_04"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_DUSK_SURVEY_MANTLE",
+        "slot": "SLOT_HEAD",
+        "progressionTier": 4,
+        "rarity": "EPIC",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_DUSK_SURVEY_MANTLE_ARMS",
+      "displayName": "Dusk Survey Mantle Gloves",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_ARMS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 2,
+      "weight": 1,
+      "equipmentTags": [
+        "ARMOR_LIGHT",
+        "SET_CA002_SET_DUSK_SURVEY_MANTLE"
+      ],
+      "tacticalIdentity": "Reduces exposure after scouting or revealing a secret.",
+      "forecastWeightModifiers": {
+        "REARLINE": 70
+      },
+      "skillCheckModifiers": {
+        "Perception": 1,
+        "Deception": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT",
+        "VIS_SET_04"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_DUSK_SURVEY_MANTLE",
+        "slot": "SLOT_ARMS",
+        "progressionTier": 4,
+        "rarity": "EPIC",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_DUSK_SURVEY_MANTLE_LEGS",
+      "displayName": "Dusk Survey Mantle Boots",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_LEGS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 3,
+      "weight": 2,
+      "equipmentTags": [
+        "ARMOR_LIGHT",
+        "SET_CA002_SET_DUSK_SURVEY_MANTLE"
+      ],
+      "tacticalIdentity": "Reduces exposure after scouting or revealing a secret.",
+      "forecastWeightModifiers": {
+        "REARLINE": 70
+      },
+      "skillCheckModifiers": {
+        "Perception": 1,
+        "Deception": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT",
+        "VIS_SET_04"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_DUSK_SURVEY_MANTLE",
+        "slot": "SLOT_LEGS",
+        "progressionTier": 4,
+        "rarity": "EPIC",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "EQUIP_ARMOR_SIGNAL_WEAVER_JACKET",
+      "displayName": "Signal Weaver Jacket",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 5,
+      "weight": 5,
+      "equipmentTags": [
+        "ARMOR_LIGHT"
+      ],
+      "tacticalIdentity": "Support and multi-Union command visibility.",
+      "forecastWeightModifiers": {
+        "SUPPORT": 100
+      },
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_SIGNAL_WEAVER_JACKET",
+        "slot": "SLOT_BODY_ARMOR",
+        "progressionTier": 5,
+        "rarity": "EPIC",
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_SIGNAL_WEAVER_JACKET_HEAD",
+      "displayName": "Signal Weaver Jacket Hood",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_HEAD"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 2,
+      "weight": 2,
+      "equipmentTags": [
+        "ARMOR_LIGHT",
+        "SET_CA002_SET_SIGNAL_WEAVER_JACKET"
+      ],
+      "tacticalIdentity": "Support and multi-Union command visibility.",
+      "forecastWeightModifiers": {
+        "SUPPORT": 100
+      },
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT",
+        "VIS_SET_05"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_SIGNAL_WEAVER_JACKET",
+        "slot": "SLOT_HEAD",
+        "progressionTier": 5,
+        "rarity": "EPIC",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_SIGNAL_WEAVER_JACKET_ARMS",
+      "displayName": "Signal Weaver Jacket Gloves",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_ARMS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 2,
+      "weight": 1,
+      "equipmentTags": [
+        "ARMOR_LIGHT",
+        "SET_CA002_SET_SIGNAL_WEAVER_JACKET"
+      ],
+      "tacticalIdentity": "Support and multi-Union command visibility.",
+      "forecastWeightModifiers": {
+        "SUPPORT": 100
+      },
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT",
+        "VIS_SET_05"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_SIGNAL_WEAVER_JACKET",
+        "slot": "SLOT_ARMS",
+        "progressionTier": 5,
+        "rarity": "EPIC",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_SIGNAL_WEAVER_JACKET_LEGS",
+      "displayName": "Signal Weaver Jacket Boots",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_LEGS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 3,
+      "weight": 2,
+      "equipmentTags": [
+        "ARMOR_LIGHT",
+        "SET_CA002_SET_SIGNAL_WEAVER_JACKET"
+      ],
+      "tacticalIdentity": "Support and multi-Union command visibility.",
+      "forecastWeightModifiers": {
+        "SUPPORT": 100
+      },
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT",
+        "VIS_SET_05"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_SIGNAL_WEAVER_JACKET",
+        "slot": "SLOT_LEGS",
+        "progressionTier": 5,
+        "rarity": "EPIC",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "EQUIP_ARMOR_RIVER_CLEANSE_VESTMENTS",
+      "displayName": "River-Cleanse Vestments",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 4,
+      "weight": 6,
+      "equipmentTags": [
+        "ARMOR_LIGHT"
+      ],
+      "tacticalIdentity": "Cleansing and Medicine behavior near hazards.",
+      "forecastWeightModifiers": {
+        "CLEANSE": 110
+      },
+      "skillCheckModifiers": {
+        "Medicine": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_RIVER_CLEANSE_VESTMENTS",
+        "slot": "SLOT_BODY_ARMOR",
+        "progressionTier": 6,
+        "rarity": "LEGENDARY",
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_RIVER_CLEANSE_VESTMENTS_HEAD",
+      "displayName": "River-Cleanse Vestments Hood",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_HEAD"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 2,
+      "weight": 2,
+      "equipmentTags": [
+        "ARMOR_LIGHT",
+        "SET_CA002_SET_RIVER_CLEANSE_VESTMENTS"
+      ],
+      "tacticalIdentity": "Cleansing and Medicine behavior near hazards.",
+      "forecastWeightModifiers": {
+        "CLEANSE": 110
+      },
+      "skillCheckModifiers": {
+        "Medicine": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT",
+        "VIS_SET_06"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_RIVER_CLEANSE_VESTMENTS",
+        "slot": "SLOT_HEAD",
+        "progressionTier": 6,
+        "rarity": "LEGENDARY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_RIVER_CLEANSE_VESTMENTS_ARMS",
+      "displayName": "River-Cleanse Vestments Gloves",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_ARMS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 1,
+      "weight": 2,
+      "equipmentTags": [
+        "ARMOR_LIGHT",
+        "SET_CA002_SET_RIVER_CLEANSE_VESTMENTS"
+      ],
+      "tacticalIdentity": "Cleansing and Medicine behavior near hazards.",
+      "forecastWeightModifiers": {
+        "CLEANSE": 110
+      },
+      "skillCheckModifiers": {
+        "Medicine": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT",
+        "VIS_SET_06"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_RIVER_CLEANSE_VESTMENTS",
+        "slot": "SLOT_ARMS",
+        "progressionTier": 6,
+        "rarity": "LEGENDARY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_RIVER_CLEANSE_VESTMENTS_LEGS",
+      "displayName": "River-Cleanse Vestments Boots",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_LEGS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 2,
+      "weight": 2,
+      "equipmentTags": [
+        "ARMOR_LIGHT",
+        "SET_CA002_SET_RIVER_CLEANSE_VESTMENTS"
+      ],
+      "tacticalIdentity": "Cleansing and Medicine behavior near hazards.",
+      "forecastWeightModifiers": {
+        "CLEANSE": 110
+      },
+      "skillCheckModifiers": {
+        "Medicine": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT",
+        "VIS_SET_06"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_RIVER_CLEANSE_VESTMENTS",
+        "slot": "SLOT_LEGS",
+        "progressionTier": 6,
+        "rarity": "LEGENDARY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "EQUIP_ARMOR_GATEGLASS_ADEPT_WRAP",
+      "displayName": "Gateglass Adept Wrap",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 3,
+      "weight": 4,
+      "equipmentTags": [
+        "ARMOR_LIGHT"
+      ],
+      "tacticalIdentity": "First Mystic MP expenditure is reduced by 1.",
+      "forecastWeightModifiers": {
+        "MYSTIC": 90
+      },
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_GATEGLASS_ADEPT_WRAP",
+        "slot": "SLOT_BODY_ARMOR",
+        "progressionTier": 7,
+        "rarity": "LEGENDARY",
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_GATEGLASS_ADEPT_WRAP_HEAD",
+      "displayName": "Gateglass Adept Wrap Hood",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_HEAD"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 1,
+      "weight": 1,
+      "equipmentTags": [
+        "ARMOR_LIGHT",
+        "SET_CA002_SET_GATEGLASS_ADEPT_WRAP"
+      ],
+      "tacticalIdentity": "First Mystic MP expenditure is reduced by 1.",
+      "forecastWeightModifiers": {
+        "MYSTIC": 90
+      },
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT",
+        "VIS_SET_07"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_GATEGLASS_ADEPT_WRAP",
+        "slot": "SLOT_HEAD",
+        "progressionTier": 7,
+        "rarity": "LEGENDARY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_GATEGLASS_ADEPT_WRAP_ARMS",
+      "displayName": "Gateglass Adept Wrap Gloves",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_ARMS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 1,
+      "weight": 1,
+      "equipmentTags": [
+        "ARMOR_LIGHT",
+        "SET_CA002_SET_GATEGLASS_ADEPT_WRAP"
+      ],
+      "tacticalIdentity": "First Mystic MP expenditure is reduced by 1.",
+      "forecastWeightModifiers": {
+        "MYSTIC": 90
+      },
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT",
+        "VIS_SET_07"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_GATEGLASS_ADEPT_WRAP",
+        "slot": "SLOT_ARMS",
+        "progressionTier": 7,
+        "rarity": "LEGENDARY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_GATEGLASS_ADEPT_WRAP_LEGS",
+      "displayName": "Gateglass Adept Wrap Boots",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_LEGS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 2,
+      "weight": 2,
+      "equipmentTags": [
+        "ARMOR_LIGHT",
+        "SET_CA002_SET_GATEGLASS_ADEPT_WRAP"
+      ],
+      "tacticalIdentity": "First Mystic MP expenditure is reduced by 1.",
+      "forecastWeightModifiers": {
+        "MYSTIC": 90
+      },
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT",
+        "VIS_SET_07"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_GATEGLASS_ADEPT_WRAP",
+        "slot": "SLOT_LEGS",
+        "progressionTier": 7,
+        "rarity": "LEGENDARY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "EQUIP_ARMOR_SILENT_CAMP_QUARTERMASTER_COAT",
+      "displayName": "Silent Camp Quartermaster Coat",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 6,
+      "weight": 7,
+      "equipmentTags": [
+        "ARMOR_LIGHT"
+      ],
+      "tacticalIdentity": "Supplies last longer and retreat forecasts gain weight when low.",
+      "forecastWeightModifiers": {
+        "RETREAT": 70,
+        "CONSERVE": 100
+      },
+      "skillCheckModifiers": {
+        "Knowledge": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_SILENT_CAMP_QUARTERMASTER_COAT",
+        "slot": "SLOT_BODY_ARMOR",
+        "progressionTier": 8,
+        "rarity": "GODLY",
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "foundAsDrop": true,
+        "craftable": false,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_SILENT_CAMP_QUARTERMASTER_COAT_HEAD",
+      "displayName": "Silent Camp Quartermaster Coat Hood",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_HEAD"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 3,
+      "weight": 2,
+      "equipmentTags": [
+        "ARMOR_LIGHT",
+        "SET_CA002_SET_SILENT_CAMP_QUARTERMASTER_COAT"
+      ],
+      "tacticalIdentity": "Supplies last longer and retreat forecasts gain weight when low.",
+      "forecastWeightModifiers": {
+        "RETREAT": 70,
+        "CONSERVE": 100
+      },
+      "skillCheckModifiers": {
+        "Knowledge": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT",
+        "VIS_SET_08"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_SILENT_CAMP_QUARTERMASTER_COAT",
+        "slot": "SLOT_HEAD",
+        "progressionTier": 8,
+        "rarity": "GODLY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": false,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_SILENT_CAMP_QUARTERMASTER_COAT_ARMS",
+      "displayName": "Silent Camp Quartermaster Coat Gloves",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_ARMS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 2,
+      "weight": 2,
+      "equipmentTags": [
+        "ARMOR_LIGHT",
+        "SET_CA002_SET_SILENT_CAMP_QUARTERMASTER_COAT"
+      ],
+      "tacticalIdentity": "Supplies last longer and retreat forecasts gain weight when low.",
+      "forecastWeightModifiers": {
+        "RETREAT": 70,
+        "CONSERVE": 100
+      },
+      "skillCheckModifiers": {
+        "Knowledge": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT",
+        "VIS_SET_08"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_SILENT_CAMP_QUARTERMASTER_COAT",
+        "slot": "SLOT_ARMS",
+        "progressionTier": 8,
+        "rarity": "GODLY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": false,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_SILENT_CAMP_QUARTERMASTER_COAT_LEGS",
+      "displayName": "Silent Camp Quartermaster Coat Boots",
+      "category": "ARMOR",
+      "armorWeightClass": "LIGHT",
+      "validSlots": [
+        "SLOT_LEGS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 3,
+      "weight": 3,
+      "equipmentTags": [
+        "ARMOR_LIGHT",
+        "SET_CA002_SET_SILENT_CAMP_QUARTERMASTER_COAT"
+      ],
+      "tacticalIdentity": "Supplies last longer and retreat forecasts gain weight when low.",
+      "forecastWeightModifiers": {
+        "RETREAT": 70,
+        "CONSERVE": 100
+      },
+      "skillCheckModifiers": {
+        "Knowledge": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_LIGHT",
+        "VIS_SET_08"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_SILENT_CAMP_QUARTERMASTER_COAT",
+        "slot": "SLOT_LEGS",
+        "progressionTier": 8,
+        "rarity": "GODLY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": false,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "EQUIP_ARMOR_ROADWARDEN_LAMELLAR",
+      "displayName": "Roadwarden Lamellar",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 13,
+      "weight": 16,
+      "equipmentTags": [
+        "ARMOR_MEDIUM"
+      ],
+      "tacticalIdentity": "Balanced Guard and movement.",
+      "forecastWeightModifiers": {
+        "GUARD": 80
+      },
+      "skillCheckModifiers": {
+        "Courage": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_ROADWARDEN_LAMELLAR",
+        "slot": "SLOT_BODY_ARMOR",
+        "progressionTier": 1,
+        "rarity": "COMMON",
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_ROADWARDEN_LAMELLAR_HEAD",
+      "displayName": "Roadwarden Lamellar Helm",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_HEAD"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 6,
+      "weight": 5,
+      "equipmentTags": [
+        "ARMOR_MEDIUM",
+        "SET_CA002_SET_ROADWARDEN_LAMELLAR"
+      ],
+      "tacticalIdentity": "Balanced Guard and movement.",
+      "forecastWeightModifiers": {
+        "GUARD": 80
+      },
+      "skillCheckModifiers": {
+        "Courage": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_SET_01"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_ROADWARDEN_LAMELLAR",
+        "slot": "SLOT_HEAD",
+        "progressionTier": 1,
+        "rarity": "COMMON",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_ROADWARDEN_LAMELLAR_ARMS",
+      "displayName": "Roadwarden Lamellar Bracers",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_ARMS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 5,
+      "weight": 4,
+      "equipmentTags": [
+        "ARMOR_MEDIUM",
+        "SET_CA002_SET_ROADWARDEN_LAMELLAR"
+      ],
+      "tacticalIdentity": "Balanced Guard and movement.",
+      "forecastWeightModifiers": {
+        "GUARD": 80
+      },
+      "skillCheckModifiers": {
+        "Courage": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_SET_01"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_ROADWARDEN_LAMELLAR",
+        "slot": "SLOT_ARMS",
+        "progressionTier": 1,
+        "rarity": "COMMON",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_ROADWARDEN_LAMELLAR_LEGS",
+      "displayName": "Roadwarden Lamellar Greaves",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_LEGS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 7,
+      "weight": 6,
+      "equipmentTags": [
+        "ARMOR_MEDIUM",
+        "SET_CA002_SET_ROADWARDEN_LAMELLAR"
+      ],
+      "tacticalIdentity": "Balanced Guard and movement.",
+      "forecastWeightModifiers": {
+        "GUARD": 80
+      },
+      "skillCheckModifiers": {
+        "Courage": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_SET_01"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_ROADWARDEN_LAMELLAR",
+        "slot": "SLOT_LEGS",
+        "progressionTier": 1,
+        "rarity": "COMMON",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "EQUIP_ARMOR_STORMROAD_SCALE_COAT",
+      "displayName": "Stormroad Scale Coat",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 12,
+      "weight": 14,
+      "equipmentTags": [
+        "ARMOR_MEDIUM"
+      ],
+      "tacticalIdentity": "Flanking resistance and controlled movement.",
+      "forecastWeightModifiers": {
+        "TACTICAL": 80
+      },
+      "skillCheckModifiers": {
+        "Agility": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_STORMROAD_SCALE_COAT",
+        "slot": "SLOT_BODY_ARMOR",
+        "progressionTier": 2,
+        "rarity": "UNCOMMON",
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_STORMROAD_SCALE_COAT_HEAD",
+      "displayName": "Stormroad Scale Coat Helm",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_HEAD"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 5,
+      "weight": 4,
+      "equipmentTags": [
+        "ARMOR_MEDIUM",
+        "SET_CA002_SET_STORMROAD_SCALE_COAT"
+      ],
+      "tacticalIdentity": "Flanking resistance and controlled movement.",
+      "forecastWeightModifiers": {
+        "TACTICAL": 80
+      },
+      "skillCheckModifiers": {
+        "Agility": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_SET_02"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_STORMROAD_SCALE_COAT",
+        "slot": "SLOT_HEAD",
+        "progressionTier": 2,
+        "rarity": "UNCOMMON",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_STORMROAD_SCALE_COAT_ARMS",
+      "displayName": "Stormroad Scale Coat Bracers",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_ARMS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 4,
+      "weight": 4,
+      "equipmentTags": [
+        "ARMOR_MEDIUM",
+        "SET_CA002_SET_STORMROAD_SCALE_COAT"
+      ],
+      "tacticalIdentity": "Flanking resistance and controlled movement.",
+      "forecastWeightModifiers": {
+        "TACTICAL": 80
+      },
+      "skillCheckModifiers": {
+        "Agility": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_SET_02"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_STORMROAD_SCALE_COAT",
+        "slot": "SLOT_ARMS",
+        "progressionTier": 2,
+        "rarity": "UNCOMMON",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_STORMROAD_SCALE_COAT_LEGS",
+      "displayName": "Stormroad Scale Coat Greaves",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_LEGS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 7,
+      "weight": 6,
+      "equipmentTags": [
+        "ARMOR_MEDIUM",
+        "SET_CA002_SET_STORMROAD_SCALE_COAT"
+      ],
+      "tacticalIdentity": "Flanking resistance and controlled movement.",
+      "forecastWeightModifiers": {
+        "TACTICAL": 80
+      },
+      "skillCheckModifiers": {
+        "Agility": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_SET_02"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_STORMROAD_SCALE_COAT",
+        "slot": "SLOT_LEGS",
+        "progressionTier": 2,
+        "rarity": "UNCOMMON",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "EQUIP_ARMOR_GOBLIN_UTILITY_HARNESS",
+      "displayName": "Goblin Utility Harness",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 10,
+      "weight": 12,
+      "equipmentTags": [
+        "ARMOR_MEDIUM"
+      ],
+      "tacticalIdentity": "Tool compatibility and Crafting assistance.",
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 100
+      },
+      "skillCheckModifiers": {
+        "Crafting": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_GOBLIN_UTILITY_HARNESS",
+        "slot": "SLOT_BODY_ARMOR",
+        "progressionTier": 3,
+        "rarity": "RARE",
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_GOBLIN_UTILITY_HARNESS_HEAD",
+      "displayName": "Goblin Utility Harness Helm",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_HEAD"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 4,
+      "weight": 4,
+      "equipmentTags": [
+        "ARMOR_MEDIUM",
+        "SET_CA002_SET_GOBLIN_UTILITY_HARNESS"
+      ],
+      "tacticalIdentity": "Tool compatibility and Crafting assistance.",
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 100
+      },
+      "skillCheckModifiers": {
+        "Crafting": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_SET_03"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_GOBLIN_UTILITY_HARNESS",
+        "slot": "SLOT_HEAD",
+        "progressionTier": 3,
+        "rarity": "RARE",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_GOBLIN_UTILITY_HARNESS_ARMS",
+      "displayName": "Goblin Utility Harness Bracers",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_ARMS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 4,
+      "weight": 3,
+      "equipmentTags": [
+        "ARMOR_MEDIUM",
+        "SET_CA002_SET_GOBLIN_UTILITY_HARNESS"
+      ],
+      "tacticalIdentity": "Tool compatibility and Crafting assistance.",
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 100
+      },
+      "skillCheckModifiers": {
+        "Crafting": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_SET_03"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_GOBLIN_UTILITY_HARNESS",
+        "slot": "SLOT_ARMS",
+        "progressionTier": 3,
+        "rarity": "RARE",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_GOBLIN_UTILITY_HARNESS_LEGS",
+      "displayName": "Goblin Utility Harness Greaves",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_LEGS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 6,
+      "weight": 5,
+      "equipmentTags": [
+        "ARMOR_MEDIUM",
+        "SET_CA002_SET_GOBLIN_UTILITY_HARNESS"
+      ],
+      "tacticalIdentity": "Tool compatibility and Crafting assistance.",
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 100
+      },
+      "skillCheckModifiers": {
+        "Crafting": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_SET_03"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_GOBLIN_UTILITY_HARNESS",
+        "slot": "SLOT_LEGS",
+        "progressionTier": 3,
+        "rarity": "RARE",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "EQUIP_ARMOR_ASH_MAP_COMMAND_ARMOR",
+      "displayName": "Ash-Map Command Armor",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 11,
+      "weight": 15,
+      "equipmentTags": [
+        "ARMOR_MEDIUM"
+      ],
+      "tacticalIdentity": "Leadership and forecast preview clarity.",
+      "forecastWeightModifiers": {
+        "COORDINATE": 100
+      },
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_ASH_MAP_COMMAND_ARMOR",
+        "slot": "SLOT_BODY_ARMOR",
+        "progressionTier": 4,
+        "rarity": "EPIC",
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_ASH_MAP_COMMAND_ARMOR_HEAD",
+      "displayName": "Ash-Map Command Armor Helm",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_HEAD"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 5,
+      "weight": 4,
+      "equipmentTags": [
+        "ARMOR_MEDIUM",
+        "SET_CA002_SET_ASH_MAP_COMMAND_ARMOR"
+      ],
+      "tacticalIdentity": "Leadership and forecast preview clarity.",
+      "forecastWeightModifiers": {
+        "COORDINATE": 100
+      },
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_SET_04"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_ASH_MAP_COMMAND_ARMOR",
+        "slot": "SLOT_HEAD",
+        "progressionTier": 4,
+        "rarity": "EPIC",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_ASH_MAP_COMMAND_ARMOR_ARMS",
+      "displayName": "Ash-Map Command Armor Bracers",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_ARMS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 4,
+      "weight": 4,
+      "equipmentTags": [
+        "ARMOR_MEDIUM",
+        "SET_CA002_SET_ASH_MAP_COMMAND_ARMOR"
+      ],
+      "tacticalIdentity": "Leadership and forecast preview clarity.",
+      "forecastWeightModifiers": {
+        "COORDINATE": 100
+      },
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_SET_04"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_ASH_MAP_COMMAND_ARMOR",
+        "slot": "SLOT_ARMS",
+        "progressionTier": 4,
+        "rarity": "EPIC",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_ASH_MAP_COMMAND_ARMOR_LEGS",
+      "displayName": "Ash-Map Command Armor Greaves",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_LEGS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 6,
+      "weight": 6,
+      "equipmentTags": [
+        "ARMOR_MEDIUM",
+        "SET_CA002_SET_ASH_MAP_COMMAND_ARMOR"
+      ],
+      "tacticalIdentity": "Leadership and forecast preview clarity.",
+      "forecastWeightModifiers": {
+        "COORDINATE": 100
+      },
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_SET_04"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_ASH_MAP_COMMAND_ARMOR",
+        "slot": "SLOT_LEGS",
+        "progressionTier": 4,
+        "rarity": "EPIC",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "EQUIP_ARMOR_BLOODLESS_RIVER_GUARDCOAT",
+      "displayName": "Bloodless River Guardcoat",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 12,
+      "weight": 14,
+      "equipmentTags": [
+        "ARMOR_MEDIUM"
+      ],
+      "tacticalIdentity": "Hazard and purification resistance.",
+      "forecastWeightModifiers": {
+        "CLEANSE": 80
+      },
+      "skillCheckModifiers": {
+        "Survival": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_BLOODLESS_RIVER_GUARDCOAT",
+        "slot": "SLOT_BODY_ARMOR",
+        "progressionTier": 5,
+        "rarity": "EPIC",
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_BLOODLESS_RIVER_GUARDCOAT_HEAD",
+      "displayName": "Bloodless River Guardcoat Helm",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_HEAD"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 5,
+      "weight": 4,
+      "equipmentTags": [
+        "ARMOR_MEDIUM",
+        "SET_CA002_SET_BLOODLESS_RIVER_GUARDCOAT"
+      ],
+      "tacticalIdentity": "Hazard and purification resistance.",
+      "forecastWeightModifiers": {
+        "CLEANSE": 80
+      },
+      "skillCheckModifiers": {
+        "Survival": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_SET_05"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_BLOODLESS_RIVER_GUARDCOAT",
+        "slot": "SLOT_HEAD",
+        "progressionTier": 5,
+        "rarity": "EPIC",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_BLOODLESS_RIVER_GUARDCOAT_ARMS",
+      "displayName": "Bloodless River Guardcoat Bracers",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_ARMS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 4,
+      "weight": 4,
+      "equipmentTags": [
+        "ARMOR_MEDIUM",
+        "SET_CA002_SET_BLOODLESS_RIVER_GUARDCOAT"
+      ],
+      "tacticalIdentity": "Hazard and purification resistance.",
+      "forecastWeightModifiers": {
+        "CLEANSE": 80
+      },
+      "skillCheckModifiers": {
+        "Survival": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_SET_05"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_BLOODLESS_RIVER_GUARDCOAT",
+        "slot": "SLOT_ARMS",
+        "progressionTier": 5,
+        "rarity": "EPIC",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_BLOODLESS_RIVER_GUARDCOAT_LEGS",
+      "displayName": "Bloodless River Guardcoat Greaves",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_LEGS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 7,
+      "weight": 6,
+      "equipmentTags": [
+        "ARMOR_MEDIUM",
+        "SET_CA002_SET_BLOODLESS_RIVER_GUARDCOAT"
+      ],
+      "tacticalIdentity": "Hazard and purification resistance.",
+      "forecastWeightModifiers": {
+        "CLEANSE": 80
+      },
+      "skillCheckModifiers": {
+        "Survival": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_SET_05"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_BLOODLESS_RIVER_GUARDCOAT",
+        "slot": "SLOT_LEGS",
+        "progressionTier": 5,
+        "rarity": "EPIC",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "EQUIP_ARMOR_RESCUE_MARSHAL_BRIGANDINE",
+      "displayName": "Rescue Marshal Brigandine",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 14,
+      "weight": 17,
+      "equipmentTags": [
+        "ARMOR_MEDIUM"
+      ],
+      "tacticalIdentity": "Protect-wounded and extraction actions.",
+      "forecastWeightModifiers": {
+        "RESCUE": 130
+      },
+      "skillCheckModifiers": {
+        "Medicine": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_RESCUE_MARSHAL_BRIGANDINE",
+        "slot": "SLOT_BODY_ARMOR",
+        "progressionTier": 6,
+        "rarity": "LEGENDARY",
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_RESCUE_MARSHAL_BRIGANDINE_HEAD",
+      "displayName": "Rescue Marshal Brigandine Helm",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_HEAD"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 6,
+      "weight": 5,
+      "equipmentTags": [
+        "ARMOR_MEDIUM",
+        "SET_CA002_SET_RESCUE_MARSHAL_BRIGANDINE"
+      ],
+      "tacticalIdentity": "Protect-wounded and extraction actions.",
+      "forecastWeightModifiers": {
+        "RESCUE": 130
+      },
+      "skillCheckModifiers": {
+        "Medicine": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_SET_06"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_RESCUE_MARSHAL_BRIGANDINE",
+        "slot": "SLOT_HEAD",
+        "progressionTier": 6,
+        "rarity": "LEGENDARY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_RESCUE_MARSHAL_BRIGANDINE_ARMS",
+      "displayName": "Rescue Marshal Brigandine Bracers",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_ARMS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 5,
+      "weight": 4,
+      "equipmentTags": [
+        "ARMOR_MEDIUM",
+        "SET_CA002_SET_RESCUE_MARSHAL_BRIGANDINE"
+      ],
+      "tacticalIdentity": "Protect-wounded and extraction actions.",
+      "forecastWeightModifiers": {
+        "RESCUE": 130
+      },
+      "skillCheckModifiers": {
+        "Medicine": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_SET_06"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_RESCUE_MARSHAL_BRIGANDINE",
+        "slot": "SLOT_ARMS",
+        "progressionTier": 6,
+        "rarity": "LEGENDARY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_RESCUE_MARSHAL_BRIGANDINE_LEGS",
+      "displayName": "Rescue Marshal Brigandine Greaves",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_LEGS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 8,
+      "weight": 7,
+      "equipmentTags": [
+        "ARMOR_MEDIUM",
+        "SET_CA002_SET_RESCUE_MARSHAL_BRIGANDINE"
+      ],
+      "tacticalIdentity": "Protect-wounded and extraction actions.",
+      "forecastWeightModifiers": {
+        "RESCUE": 130
+      },
+      "skillCheckModifiers": {
+        "Medicine": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_SET_06"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_RESCUE_MARSHAL_BRIGANDINE",
+        "slot": "SLOT_LEGS",
+        "progressionTier": 6,
+        "rarity": "LEGENDARY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "EQUIP_ARMOR_WAR_BEAST_HANDLER_MAIL",
+      "displayName": "War-Beast Handler Mail",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 11,
+      "weight": 13,
+      "equipmentTags": [
+        "ARMOR_MEDIUM"
+      ],
+      "tacticalIdentity": "Reduces fear and improves nonhostile creature events.",
+      "forecastWeightModifiers": {
+        "SUPPORT": 70
+      },
+      "skillCheckModifiers": {
+        "Courage": 1,
+        "Diplomacy": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_WAR_BEAST_HANDLER_MAIL",
+        "slot": "SLOT_BODY_ARMOR",
+        "progressionTier": 7,
+        "rarity": "LEGENDARY",
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_WAR_BEAST_HANDLER_MAIL_HEAD",
+      "displayName": "War-Beast Handler Mail Helm",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_HEAD"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 5,
+      "weight": 4,
+      "equipmentTags": [
+        "ARMOR_MEDIUM",
+        "SET_CA002_SET_WAR_BEAST_HANDLER_MAIL"
+      ],
+      "tacticalIdentity": "Reduces fear and improves nonhostile creature events.",
+      "forecastWeightModifiers": {
+        "SUPPORT": 70
+      },
+      "skillCheckModifiers": {
+        "Courage": 1,
+        "Diplomacy": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_SET_07"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_WAR_BEAST_HANDLER_MAIL",
+        "slot": "SLOT_HEAD",
+        "progressionTier": 7,
+        "rarity": "LEGENDARY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_WAR_BEAST_HANDLER_MAIL_ARMS",
+      "displayName": "War-Beast Handler Mail Bracers",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_ARMS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 4,
+      "weight": 3,
+      "equipmentTags": [
+        "ARMOR_MEDIUM",
+        "SET_CA002_SET_WAR_BEAST_HANDLER_MAIL"
+      ],
+      "tacticalIdentity": "Reduces fear and improves nonhostile creature events.",
+      "forecastWeightModifiers": {
+        "SUPPORT": 70
+      },
+      "skillCheckModifiers": {
+        "Courage": 1,
+        "Diplomacy": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_SET_07"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_WAR_BEAST_HANDLER_MAIL",
+        "slot": "SLOT_ARMS",
+        "progressionTier": 7,
+        "rarity": "LEGENDARY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_WAR_BEAST_HANDLER_MAIL_LEGS",
+      "displayName": "War-Beast Handler Mail Greaves",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_LEGS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 6,
+      "weight": 5,
+      "equipmentTags": [
+        "ARMOR_MEDIUM",
+        "SET_CA002_SET_WAR_BEAST_HANDLER_MAIL"
+      ],
+      "tacticalIdentity": "Reduces fear and improves nonhostile creature events.",
+      "forecastWeightModifiers": {
+        "SUPPORT": 70
+      },
+      "skillCheckModifiers": {
+        "Courage": 1,
+        "Diplomacy": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_SET_07"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_WAR_BEAST_HANDLER_MAIL",
+        "slot": "SLOT_LEGS",
+        "progressionTier": 7,
+        "rarity": "LEGENDARY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "EQUIP_ARMOR_GATEWATCH_HYBRID_CUIRASS",
+      "displayName": "Gatewatch Hybrid Cuirass",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 13,
+      "weight": 15,
+      "equipmentTags": [
+        "ARMOR_MEDIUM"
+      ],
+      "tacticalIdentity": "Supports a one-handed weapon plus focus hybrid without overload.",
+      "forecastWeightModifiers": {
+        "MYSTIC": 60,
+        "OFFENSE": 60
+      },
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_GATEWATCH_HYBRID_CUIRASS",
+        "slot": "SLOT_BODY_ARMOR",
+        "progressionTier": 8,
+        "rarity": "GODLY",
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "foundAsDrop": true,
+        "craftable": false,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_GATEWATCH_HYBRID_CUIRASS_HEAD",
+      "displayName": "Gatewatch Hybrid Cuirass Helm",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_HEAD"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 6,
+      "weight": 4,
+      "equipmentTags": [
+        "ARMOR_MEDIUM",
+        "SET_CA002_SET_GATEWATCH_HYBRID_CUIRASS"
+      ],
+      "tacticalIdentity": "Supports a one-handed weapon plus focus hybrid without overload.",
+      "forecastWeightModifiers": {
+        "MYSTIC": 60,
+        "OFFENSE": 60
+      },
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_SET_08"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_GATEWATCH_HYBRID_CUIRASS",
+        "slot": "SLOT_HEAD",
+        "progressionTier": 8,
+        "rarity": "GODLY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": false,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_GATEWATCH_HYBRID_CUIRASS_ARMS",
+      "displayName": "Gatewatch Hybrid Cuirass Bracers",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_ARMS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 5,
+      "weight": 4,
+      "equipmentTags": [
+        "ARMOR_MEDIUM",
+        "SET_CA002_SET_GATEWATCH_HYBRID_CUIRASS"
+      ],
+      "tacticalIdentity": "Supports a one-handed weapon plus focus hybrid without overload.",
+      "forecastWeightModifiers": {
+        "MYSTIC": 60,
+        "OFFENSE": 60
+      },
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_SET_08"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_GATEWATCH_HYBRID_CUIRASS",
+        "slot": "SLOT_ARMS",
+        "progressionTier": 8,
+        "rarity": "GODLY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": false,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_GATEWATCH_HYBRID_CUIRASS_LEGS",
+      "displayName": "Gatewatch Hybrid Cuirass Greaves",
+      "category": "ARMOR",
+      "armorWeightClass": "MEDIUM",
+      "validSlots": [
+        "SLOT_LEGS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 7,
+      "weight": 6,
+      "equipmentTags": [
+        "ARMOR_MEDIUM",
+        "SET_CA002_SET_GATEWATCH_HYBRID_CUIRASS"
+      ],
+      "tacticalIdentity": "Supports a one-handed weapon plus focus hybrid without overload.",
+      "forecastWeightModifiers": {
+        "MYSTIC": 60,
+        "OFFENSE": 60
+      },
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_MEDIUM",
+        "VIS_SET_08"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_GATEWATCH_HYBRID_CUIRASS",
+        "slot": "SLOT_LEGS",
+        "progressionTier": 8,
+        "rarity": "GODLY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": false,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "EQUIP_ARMOR_OUTER_ROAD_PLATE",
+      "displayName": "Outer Road Plate",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 22,
+      "weight": 30,
+      "equipmentTags": [
+        "ARMOR_HEAVY"
+      ],
+      "tacticalIdentity": "High protection and reliable Shield Wall behavior.",
+      "forecastWeightModifiers": {
+        "GUARD": 150
+      },
+      "skillCheckModifiers": {
+        "Courage": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_OUTER_ROAD_PLATE",
+        "slot": "SLOT_BODY_ARMOR",
+        "progressionTier": 1,
+        "rarity": "COMMON",
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_OUTER_ROAD_PLATE_HEAD",
+      "displayName": "Outer Road Plate Greathelm",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_HEAD"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 10,
+      "weight": 9,
+      "equipmentTags": [
+        "ARMOR_HEAVY",
+        "SET_CA002_SET_OUTER_ROAD_PLATE"
+      ],
+      "tacticalIdentity": "High protection and reliable Shield Wall behavior.",
+      "forecastWeightModifiers": {
+        "GUARD": 150
+      },
+      "skillCheckModifiers": {
+        "Courage": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY",
+        "VIS_SET_01"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_OUTER_ROAD_PLATE",
+        "slot": "SLOT_HEAD",
+        "progressionTier": 1,
+        "rarity": "COMMON",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_OUTER_ROAD_PLATE_ARMS",
+      "displayName": "Outer Road Plate Gauntlets",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_ARMS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 8,
+      "weight": 8,
+      "equipmentTags": [
+        "ARMOR_HEAVY",
+        "SET_CA002_SET_OUTER_ROAD_PLATE"
+      ],
+      "tacticalIdentity": "High protection and reliable Shield Wall behavior.",
+      "forecastWeightModifiers": {
+        "GUARD": 150
+      },
+      "skillCheckModifiers": {
+        "Courage": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY",
+        "VIS_SET_01"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_OUTER_ROAD_PLATE",
+        "slot": "SLOT_ARMS",
+        "progressionTier": 1,
+        "rarity": "COMMON",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_OUTER_ROAD_PLATE_LEGS",
+      "displayName": "Outer Road Plate Sabatons",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_LEGS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 12,
+      "weight": 12,
+      "equipmentTags": [
+        "ARMOR_HEAVY",
+        "SET_CA002_SET_OUTER_ROAD_PLATE"
+      ],
+      "tacticalIdentity": "High protection and reliable Shield Wall behavior.",
+      "forecastWeightModifiers": {
+        "GUARD": 150
+      },
+      "skillCheckModifiers": {
+        "Courage": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY",
+        "VIS_SET_01"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_OUTER_ROAD_PLATE",
+        "slot": "SLOT_LEGS",
+        "progressionTier": 1,
+        "rarity": "COMMON",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "EQUIP_ARMOR_IRON_MARCH_HARNESS",
+      "displayName": "Iron March Harness",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 24,
+      "weight": 34,
+      "equipmentTags": [
+        "ARMOR_HEAVY"
+      ],
+      "tacticalIdentity": "Cohesion protection, but reduced flank mobility.",
+      "forecastWeightModifiers": {
+        "GUARD": 170
+      },
+      "skillCheckModifiers": {
+        "Strength": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_IRON_MARCH_HARNESS",
+        "slot": "SLOT_BODY_ARMOR",
+        "progressionTier": 2,
+        "rarity": "UNCOMMON",
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_IRON_MARCH_HARNESS_HEAD",
+      "displayName": "Iron March Harness Greathelm",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_HEAD"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 11,
+      "weight": 10,
+      "equipmentTags": [
+        "ARMOR_HEAVY",
+        "SET_CA002_SET_IRON_MARCH_HARNESS"
+      ],
+      "tacticalIdentity": "Cohesion protection, but reduced flank mobility.",
+      "forecastWeightModifiers": {
+        "GUARD": 170
+      },
+      "skillCheckModifiers": {
+        "Strength": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY",
+        "VIS_SET_02"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_IRON_MARCH_HARNESS",
+        "slot": "SLOT_HEAD",
+        "progressionTier": 2,
+        "rarity": "UNCOMMON",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_IRON_MARCH_HARNESS_ARMS",
+      "displayName": "Iron March Harness Gauntlets",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_ARMS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 8,
+      "weight": 8,
+      "equipmentTags": [
+        "ARMOR_HEAVY",
+        "SET_CA002_SET_IRON_MARCH_HARNESS"
+      ],
+      "tacticalIdentity": "Cohesion protection, but reduced flank mobility.",
+      "forecastWeightModifiers": {
+        "GUARD": 170
+      },
+      "skillCheckModifiers": {
+        "Strength": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY",
+        "VIS_SET_02"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_IRON_MARCH_HARNESS",
+        "slot": "SLOT_ARMS",
+        "progressionTier": 2,
+        "rarity": "UNCOMMON",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_IRON_MARCH_HARNESS_LEGS",
+      "displayName": "Iron March Harness Sabatons",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_LEGS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 13,
+      "weight": 14,
+      "equipmentTags": [
+        "ARMOR_HEAVY",
+        "SET_CA002_SET_IRON_MARCH_HARNESS"
+      ],
+      "tacticalIdentity": "Cohesion protection, but reduced flank mobility.",
+      "forecastWeightModifiers": {
+        "GUARD": 170
+      },
+      "skillCheckModifiers": {
+        "Strength": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY",
+        "VIS_SET_02"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_IRON_MARCH_HARNESS",
+        "slot": "SLOT_LEGS",
+        "progressionTier": 2,
+        "rarity": "UNCOMMON",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "EQUIP_ARMOR_COLLAPSED_WALL_ENGINEER_PLATE",
+      "displayName": "Collapsed Wall Engineer Plate",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 20,
+      "weight": 29,
+      "equipmentTags": [
+        "ARMOR_HEAVY"
+      ],
+      "tacticalIdentity": "Objective resistance and construct work.",
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 130
+      },
+      "skillCheckModifiers": {
+        "Crafting": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_COLLAPSED_WALL_ENGINEER_PLATE",
+        "slot": "SLOT_BODY_ARMOR",
+        "progressionTier": 3,
+        "rarity": "RARE",
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_COLLAPSED_WALL_ENGINEER_PLATE_HEAD",
+      "displayName": "Collapsed Wall Engineer Plate Greathelm",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_HEAD"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 9,
+      "weight": 9,
+      "equipmentTags": [
+        "ARMOR_HEAVY",
+        "SET_CA002_SET_COLLAPSED_WALL_ENGINEER_PLATE"
+      ],
+      "tacticalIdentity": "Objective resistance and construct work.",
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 130
+      },
+      "skillCheckModifiers": {
+        "Crafting": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY",
+        "VIS_SET_03"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_COLLAPSED_WALL_ENGINEER_PLATE",
+        "slot": "SLOT_HEAD",
+        "progressionTier": 3,
+        "rarity": "RARE",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_COLLAPSED_WALL_ENGINEER_PLATE_ARMS",
+      "displayName": "Collapsed Wall Engineer Plate Gauntlets",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_ARMS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 7,
+      "weight": 7,
+      "equipmentTags": [
+        "ARMOR_HEAVY",
+        "SET_CA002_SET_COLLAPSED_WALL_ENGINEER_PLATE"
+      ],
+      "tacticalIdentity": "Objective resistance and construct work.",
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 130
+      },
+      "skillCheckModifiers": {
+        "Crafting": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY",
+        "VIS_SET_03"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_COLLAPSED_WALL_ENGINEER_PLATE",
+        "slot": "SLOT_ARMS",
+        "progressionTier": 3,
+        "rarity": "RARE",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_COLLAPSED_WALL_ENGINEER_PLATE_LEGS",
+      "displayName": "Collapsed Wall Engineer Plate Sabatons",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_LEGS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 11,
+      "weight": 12,
+      "equipmentTags": [
+        "ARMOR_HEAVY",
+        "SET_CA002_SET_COLLAPSED_WALL_ENGINEER_PLATE"
+      ],
+      "tacticalIdentity": "Objective resistance and construct work.",
+      "forecastWeightModifiers": {
+        "OBJECTIVE": 130
+      },
+      "skillCheckModifiers": {
+        "Crafting": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY",
+        "VIS_SET_03"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_COLLAPSED_WALL_ENGINEER_PLATE",
+        "slot": "SLOT_LEGS",
+        "progressionTier": 3,
+        "rarity": "RARE",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "EQUIP_ARMOR_AEGIS_TRIAL_ARMOR",
+      "displayName": "Aegis Trial Armor",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 23,
+      "weight": 32,
+      "equipmentTags": [
+        "ARMOR_HEAVY"
+      ],
+      "tacticalIdentity": "Meaningful civilian protection increases evolution progress.",
+      "forecastWeightModifiers": {
+        "RESCUE": 120,
+        "SURVIVE": 120
+      },
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": false,
+      "chosenEquipment": true,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_AEGIS_TRIAL_ARMOR",
+        "slot": "SLOT_BODY_ARMOR",
+        "progressionTier": 4,
+        "rarity": "EPIC",
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_AEGIS_TRIAL_ARMOR_HEAD",
+      "displayName": "Aegis Trial Armor Greathelm",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_HEAD"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 10,
+      "weight": 10,
+      "equipmentTags": [
+        "ARMOR_HEAVY",
+        "SET_CA002_SET_AEGIS_TRIAL_ARMOR"
+      ],
+      "tacticalIdentity": "Meaningful civilian protection increases evolution progress.",
+      "forecastWeightModifiers": {
+        "RESCUE": 120,
+        "SURVIVE": 120
+      },
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY",
+        "VIS_SET_04"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_AEGIS_TRIAL_ARMOR",
+        "slot": "SLOT_HEAD",
+        "progressionTier": 4,
+        "rarity": "EPIC",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_AEGIS_TRIAL_ARMOR_ARMS",
+      "displayName": "Aegis Trial Armor Gauntlets",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_ARMS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 8,
+      "weight": 8,
+      "equipmentTags": [
+        "ARMOR_HEAVY",
+        "SET_CA002_SET_AEGIS_TRIAL_ARMOR"
+      ],
+      "tacticalIdentity": "Meaningful civilian protection increases evolution progress.",
+      "forecastWeightModifiers": {
+        "RESCUE": 120,
+        "SURVIVE": 120
+      },
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY",
+        "VIS_SET_04"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_AEGIS_TRIAL_ARMOR",
+        "slot": "SLOT_ARMS",
+        "progressionTier": 4,
+        "rarity": "EPIC",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_AEGIS_TRIAL_ARMOR_LEGS",
+      "displayName": "Aegis Trial Armor Sabatons",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_LEGS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 13,
+      "weight": 13,
+      "equipmentTags": [
+        "ARMOR_HEAVY",
+        "SET_CA002_SET_AEGIS_TRIAL_ARMOR"
+      ],
+      "tacticalIdentity": "Meaningful civilian protection increases evolution progress.",
+      "forecastWeightModifiers": {
+        "RESCUE": 120,
+        "SURVIVE": 120
+      },
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY",
+        "VIS_SET_04"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_AEGIS_TRIAL_ARMOR",
+        "slot": "SLOT_LEGS",
+        "progressionTier": 4,
+        "rarity": "EPIC",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "EQUIP_ARMOR_PYLON_GROUNDING_PLATE",
+      "displayName": "Pylon Grounding Plate",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 21,
+      "weight": 31,
+      "equipmentTags": [
+        "ARMOR_HEAVY"
+      ],
+      "tacticalIdentity": "Strong anti-Mystic defense, vulnerable to mobility control.",
+      "forecastWeightModifiers": {
+        "ANTI_MYSTIC": 150
+      },
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_PYLON_GROUNDING_PLATE",
+        "slot": "SLOT_BODY_ARMOR",
+        "progressionTier": 5,
+        "rarity": "EPIC",
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_PYLON_GROUNDING_PLATE_HEAD",
+      "displayName": "Pylon Grounding Plate Greathelm",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_HEAD"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 9,
+      "weight": 9,
+      "equipmentTags": [
+        "ARMOR_HEAVY",
+        "SET_CA002_SET_PYLON_GROUNDING_PLATE"
+      ],
+      "tacticalIdentity": "Strong anti-Mystic defense, vulnerable to mobility control.",
+      "forecastWeightModifiers": {
+        "ANTI_MYSTIC": 150
+      },
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY",
+        "VIS_SET_05"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_PYLON_GROUNDING_PLATE",
+        "slot": "SLOT_HEAD",
+        "progressionTier": 5,
+        "rarity": "EPIC",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_PYLON_GROUNDING_PLATE_ARMS",
+      "displayName": "Pylon Grounding Plate Gauntlets",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_ARMS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 7,
+      "weight": 8,
+      "equipmentTags": [
+        "ARMOR_HEAVY",
+        "SET_CA002_SET_PYLON_GROUNDING_PLATE"
+      ],
+      "tacticalIdentity": "Strong anti-Mystic defense, vulnerable to mobility control.",
+      "forecastWeightModifiers": {
+        "ANTI_MYSTIC": 150
+      },
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY",
+        "VIS_SET_05"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_PYLON_GROUNDING_PLATE",
+        "slot": "SLOT_ARMS",
+        "progressionTier": 5,
+        "rarity": "EPIC",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_PYLON_GROUNDING_PLATE_LEGS",
+      "displayName": "Pylon Grounding Plate Sabatons",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_LEGS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 12,
+      "weight": 12,
+      "equipmentTags": [
+        "ARMOR_HEAVY",
+        "SET_CA002_SET_PYLON_GROUNDING_PLATE"
+      ],
+      "tacticalIdentity": "Strong anti-Mystic defense, vulnerable to mobility control.",
+      "forecastWeightModifiers": {
+        "ANTI_MYSTIC": 150
+      },
+      "skillCheckModifiers": {
+        "Arcana": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY",
+        "VIS_SET_05"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_PYLON_GROUNDING_PLATE",
+        "slot": "SLOT_LEGS",
+        "progressionTier": 5,
+        "rarity": "EPIC",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "EQUIP_ARMOR_MOUNTAIN_LINE_BULWARK",
+      "displayName": "Mountain-Line Bulwark",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 25,
+      "weight": 36,
+      "equipmentTags": [
+        "ARMOR_HEAVY"
+      ],
+      "tacticalIdentity": "Formation center anchor; high fatigue on long boards.",
+      "forecastWeightModifiers": {
+        "GUARD": 160
+      },
+      "skillCheckModifiers": {
+        "Strength": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_MOUNTAIN_LINE_BULWARK",
+        "slot": "SLOT_BODY_ARMOR",
+        "progressionTier": 6,
+        "rarity": "LEGENDARY",
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_MOUNTAIN_LINE_BULWARK_HEAD",
+      "displayName": "Mountain-Line Bulwark Greathelm",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_HEAD"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 11,
+      "weight": 11,
+      "equipmentTags": [
+        "ARMOR_HEAVY",
+        "SET_CA002_SET_MOUNTAIN_LINE_BULWARK"
+      ],
+      "tacticalIdentity": "Formation center anchor; high fatigue on long boards.",
+      "forecastWeightModifiers": {
+        "GUARD": 160
+      },
+      "skillCheckModifiers": {
+        "Strength": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY",
+        "VIS_SET_06"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_MOUNTAIN_LINE_BULWARK",
+        "slot": "SLOT_HEAD",
+        "progressionTier": 6,
+        "rarity": "LEGENDARY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_MOUNTAIN_LINE_BULWARK_ARMS",
+      "displayName": "Mountain-Line Bulwark Gauntlets",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_ARMS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 9,
+      "weight": 9,
+      "equipmentTags": [
+        "ARMOR_HEAVY",
+        "SET_CA002_SET_MOUNTAIN_LINE_BULWARK"
+      ],
+      "tacticalIdentity": "Formation center anchor; high fatigue on long boards.",
+      "forecastWeightModifiers": {
+        "GUARD": 160
+      },
+      "skillCheckModifiers": {
+        "Strength": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY",
+        "VIS_SET_06"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_MOUNTAIN_LINE_BULWARK",
+        "slot": "SLOT_ARMS",
+        "progressionTier": 6,
+        "rarity": "LEGENDARY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_MOUNTAIN_LINE_BULWARK_LEGS",
+      "displayName": "Mountain-Line Bulwark Sabatons",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_LEGS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 14,
+      "weight": 14,
+      "equipmentTags": [
+        "ARMOR_HEAVY",
+        "SET_CA002_SET_MOUNTAIN_LINE_BULWARK"
+      ],
+      "tacticalIdentity": "Formation center anchor; high fatigue on long boards.",
+      "forecastWeightModifiers": {
+        "GUARD": 160
+      },
+      "skillCheckModifiers": {
+        "Strength": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY",
+        "VIS_SET_06"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_MOUNTAIN_LINE_BULWARK",
+        "slot": "SLOT_LEGS",
+        "progressionTier": 6,
+        "rarity": "LEGENDARY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "EQUIP_ARMOR_BANNER_HILL_HONOR_PLATE",
+      "displayName": "Banner Hill Honor Plate",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 22,
+      "weight": 31,
+      "equipmentTags": [
+        "ARMOR_HEAVY"
+      ],
+      "tacticalIdentity": "Support progress from protecting morale objectives.",
+      "forecastWeightModifiers": {
+        "SUPPORT": 100,
+        "GUARD": 100
+      },
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_BANNER_HILL_HONOR_PLATE",
+        "slot": "SLOT_BODY_ARMOR",
+        "progressionTier": 7,
+        "rarity": "LEGENDARY",
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_BANNER_HILL_HONOR_PLATE_HEAD",
+      "displayName": "Banner Hill Honor Plate Greathelm",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_HEAD"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 10,
+      "weight": 9,
+      "equipmentTags": [
+        "ARMOR_HEAVY",
+        "SET_CA002_SET_BANNER_HILL_HONOR_PLATE"
+      ],
+      "tacticalIdentity": "Support progress from protecting morale objectives.",
+      "forecastWeightModifiers": {
+        "SUPPORT": 100,
+        "GUARD": 100
+      },
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY",
+        "VIS_SET_07"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_BANNER_HILL_HONOR_PLATE",
+        "slot": "SLOT_HEAD",
+        "progressionTier": 7,
+        "rarity": "LEGENDARY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_BANNER_HILL_HONOR_PLATE_ARMS",
+      "displayName": "Banner Hill Honor Plate Gauntlets",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_ARMS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 8,
+      "weight": 8,
+      "equipmentTags": [
+        "ARMOR_HEAVY",
+        "SET_CA002_SET_BANNER_HILL_HONOR_PLATE"
+      ],
+      "tacticalIdentity": "Support progress from protecting morale objectives.",
+      "forecastWeightModifiers": {
+        "SUPPORT": 100,
+        "GUARD": 100
+      },
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY",
+        "VIS_SET_07"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_BANNER_HILL_HONOR_PLATE",
+        "slot": "SLOT_ARMS",
+        "progressionTier": 7,
+        "rarity": "LEGENDARY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_BANNER_HILL_HONOR_PLATE_LEGS",
+      "displayName": "Banner Hill Honor Plate Sabatons",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_LEGS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 12,
+      "weight": 12,
+      "equipmentTags": [
+        "ARMOR_HEAVY",
+        "SET_CA002_SET_BANNER_HILL_HONOR_PLATE"
+      ],
+      "tacticalIdentity": "Support progress from protecting morale objectives.",
+      "forecastWeightModifiers": {
+        "SUPPORT": 100,
+        "GUARD": 100
+      },
+      "skillCheckModifiers": {
+        "Leadership": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY",
+        "VIS_SET_07"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_BANNER_HILL_HONOR_PLATE",
+        "slot": "SLOT_LEGS",
+        "progressionTier": 7,
+        "rarity": "LEGENDARY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": true,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "EQUIP_ARMOR_GATEBOUND_COLOSSUS_SALVAGE_PLATE",
+      "displayName": "Gatebound Colossus Salvage Plate",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_BODY_ARMOR"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 26,
+      "weight": 39,
+      "equipmentTags": [
+        "ARMOR_HEAVY"
+      ],
+      "tacticalIdentity": "Boss telegraph survival, difficult to repair.",
+      "forecastWeightModifiers": {
+        "SURVIVE": 180
+      },
+      "skillCheckModifiers": {
+        "Courage": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": true,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_GATEBOUND_COLOSSUS_SALVAGE_PLATE",
+        "slot": "SLOT_BODY_ARMOR",
+        "progressionTier": 8,
+        "rarity": "GODLY",
+        "sourceAuthority": "PASS_04/OPENING_EQUIPMENT_CATALOG.json",
+        "foundAsDrop": true,
+        "craftable": false,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_GATEBOUND_COLOSSUS_SALVAGE_PLATE_HEAD",
+      "displayName": "Gatebound Colossus Salvage Plate Greathelm",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_HEAD"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 12,
+      "weight": 12,
+      "equipmentTags": [
+        "ARMOR_HEAVY",
+        "SET_CA002_SET_GATEBOUND_COLOSSUS_SALVAGE_PLATE"
+      ],
+      "tacticalIdentity": "Boss telegraph survival, difficult to repair.",
+      "forecastWeightModifiers": {
+        "SURVIVE": 180
+      },
+      "skillCheckModifiers": {
+        "Courage": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY",
+        "VIS_SET_08"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_GATEBOUND_COLOSSUS_SALVAGE_PLATE",
+        "slot": "SLOT_HEAD",
+        "progressionTier": 8,
+        "rarity": "GODLY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": false,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_GATEBOUND_COLOSSUS_SALVAGE_PLATE_ARMS",
+      "displayName": "Gatebound Colossus Salvage Plate Gauntlets",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_ARMS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 9,
+      "weight": 10,
+      "equipmentTags": [
+        "ARMOR_HEAVY",
+        "SET_CA002_SET_GATEBOUND_COLOSSUS_SALVAGE_PLATE"
+      ],
+      "tacticalIdentity": "Boss telegraph survival, difficult to repair.",
+      "forecastWeightModifiers": {
+        "SURVIVE": 180
+      },
+      "skillCheckModifiers": {
+        "Courage": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY",
+        "VIS_SET_08"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_GATEBOUND_COLOSSUS_SALVAGE_PLATE",
+        "slot": "SLOT_ARMS",
+        "progressionTier": 8,
+        "rarity": "GODLY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": false,
+        "upgradeable": true
+      }
+    },
+    {
+      "id": "CA002_SET_GATEBOUND_COLOSSUS_SALVAGE_PLATE_LEGS",
+      "displayName": "Gatebound Colossus Salvage Plate Sabatons",
+      "category": "ARMOR",
+      "armorWeightClass": "HEAVY",
+      "validSlots": [
+        "SLOT_LEGS"
+      ],
+      "baseQuality": "SERVICEABLE",
+      "basePower": 0,
+      "protection": 14,
+      "weight": 16,
+      "equipmentTags": [
+        "ARMOR_HEAVY",
+        "SET_CA002_SET_GATEBOUND_COLOSSUS_SALVAGE_PLATE"
+      ],
+      "tacticalIdentity": "Boss telegraph survival, difficult to repair.",
+      "forecastWeightModifiers": {
+        "SURVIVE": 180
+      },
+      "skillCheckModifiers": {
+        "Courage": 1
+      },
+      "disciplineModifiersPermille": {},
+      "evolutionPotential": false,
+      "ordinaryLootEligible": true,
+      "chosenEquipment": false,
+      "playerLockSupported": true,
+      "visualTags": [
+        "VIS_ARMOR_HEAVY",
+        "VIS_SET_08"
+      ],
+      "contentAuthority002": {
+        "setId": "CA002_SET_GATEBOUND_COLOSSUS_SALVAGE_PLATE",
+        "slot": "SLOT_LEGS",
+        "progressionTier": 8,
+        "rarity": "GODLY",
+        "sourceAuthority": "CONTENT_AUTHORITY_002",
+        "foundAsDrop": true,
+        "craftable": false,
+        "upgradeable": true
+      }
+    }
+  ]
+}

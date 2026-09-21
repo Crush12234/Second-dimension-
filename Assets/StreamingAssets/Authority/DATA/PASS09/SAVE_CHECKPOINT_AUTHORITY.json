@@ -1,0 +1,94 @@
+[
+  {
+    "id": "autosave_profile",
+    "after": "P09_BEAT_001",
+    "rule": "atomic autosave; committed procedural state serialized before presentation"
+  },
+  {
+    "id": "autosave_charter",
+    "after": "P09_BEAT_002",
+    "rule": "atomic autosave; committed procedural state serialized before presentation"
+  },
+  {
+    "id": "autosave_recruits",
+    "after": "P09_BEAT_003",
+    "rule": "atomic autosave; committed procedural state serialized before presentation"
+  },
+  {
+    "id": "autosave_unions",
+    "after": "P09_BEAT_004",
+    "rule": "atomic autosave; committed procedural state serialized before presentation"
+  },
+  {
+    "id": "checkpoint_forecast",
+    "after": "P09_BEAT_005",
+    "rule": "atomic autosave; committed procedural state serialized before presentation"
+  },
+  {
+    "id": "autosave_contract_mid",
+    "after": "P09_BEAT_006",
+    "rule": "atomic autosave; committed procedural state serialized before presentation"
+  },
+  {
+    "id": "autosave_breakthrough",
+    "after": "P09_BEAT_007",
+    "rule": "atomic autosave; committed procedural state serialized before presentation"
+  },
+  {
+    "id": "checkpoint_hall_upgrade",
+    "after": "P09_BEAT_008",
+    "rule": "atomic autosave; committed procedural state serialized before presentation"
+  },
+  {
+    "id": "autosave_board2",
+    "after": "P09_BEAT_009",
+    "rule": "atomic autosave; committed procedural state serialized before presentation"
+  },
+  {
+    "id": "checkpoint_gateworks_boss",
+    "after": "P09_BEAT_010",
+    "rule": "atomic autosave; committed procedural state serialized before presentation"
+  },
+  {
+    "id": "autosave_invocation",
+    "after": "P09_BEAT_011",
+    "rule": "atomic autosave; committed procedural state serialized before presentation"
+  },
+  {
+    "id": "checkpoint_abyss_license",
+    "after": "P09_BEAT_012",
+    "rule": "atomic autosave; committed procedural state serialized before presentation"
+  },
+  {
+    "id": "checkpoint_floor1",
+    "after": "P09_BEAT_013",
+    "rule": "atomic autosave; committed procedural state serialized before presentation"
+  },
+  {
+    "id": "autosave_social",
+    "after": "P09_BEAT_014",
+    "rule": "atomic autosave; committed procedural state serialized before presentation"
+  },
+  {
+    "id": "checkpoint_floor2",
+    "after": "P09_BEAT_015",
+    "rule": "atomic autosave; committed procedural state serialized before presentation"
+  },
+  {
+    "id": "checkpoint_5h",
+    "after": "P09_BEAT_016",
+    "rule": "atomic autosave; committed procedural state serialized before presentation"
+  },
+  {
+    "id": "autosave_before_dice",
+    "rule": "commit event/roll seed before dice animation"
+  },
+  {
+    "id": "autosave_before_loot",
+    "rule": "commit reward seed before reveal; reopening cannot reroll"
+  },
+  {
+    "id": "autosave_battle_round",
+    "rule": "round-boundary checkpoint preserves Forecast state hash"
+  }
+]

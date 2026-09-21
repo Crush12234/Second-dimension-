@@ -1,0 +1,1236 @@
+{
+  "scenes": [
+    {
+      "incidentId": "DIP018_GOBLIN_01",
+      "worldId": "WORLD_GOBLIN_001",
+      "title": "Goblin World: Reformers’ Request",
+      "factionId": "FACTION018_GOBLIN_01",
+      "factionName": "Bridge-Rig Reform League",
+      "setup": "A reform faction asks Skyhome to support change without making local people appear governed from outside.",
+      "centralQuestion": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Goblin civilization cannot agree whether Kael represents hope, abandonment, false divinity, or a test of self-rule.",
+        "Skyhome is currently viewed as cautious opportunity.",
+        "Goblin civilization cannot agree whether Kael represents hope, abandonment, false divinity, or a test of self-rule."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_GOBLIN_02",
+      "worldId": "WORLD_GOBLIN_001",
+      "title": "Goblin World: Traditionalists’ Warning",
+      "factionId": "FACTION018_GOBLIN_02",
+      "factionName": "Calendar Throne Traditionalists",
+      "setup": "A traditional faction explains what it believes reformers will destroy and demands a public answer.",
+      "centralQuestion": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Goblin civilization cannot agree whether Kael represents hope, abandonment, false divinity, or a test of self-rule.",
+        "Skyhome is currently viewed as suspicious resistance.",
+        "Goblin civilization cannot agree whether Kael represents hope, abandonment, false divinity, or a test of self-rule."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_GOBLIN_03",
+      "worldId": "WORLD_GOBLIN_001",
+      "title": "Goblin World: Profiteers’ Offer",
+      "factionId": "FACTION018_GOBLIN_03",
+      "factionName": "Smoke Foremen Consortium",
+      "setup": "A faction benefiting from the crisis offers speed, supplies, or intelligence at a cost that shifts harm onto civilians.",
+      "centralQuestion": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Goblin civilization cannot agree whether Kael represents hope, abandonment, false divinity, or a test of self-rule.",
+        "Skyhome is currently viewed as transactional exploitation.",
+        "Goblin civilization cannot agree whether Kael represents hope, abandonment, false divinity, or a test of self-rule."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_GOBLIN_04",
+      "worldId": "WORLD_GOBLIN_001",
+      "title": "Goblin World: Hidden Witnesses",
+      "factionId": "FACTION018_GOBLIN_04",
+      "factionName": "First Promise Keepers",
+      "setup": "A suppressed or hidden faction offers evidence, but revealing it may endanger the people who preserved it.",
+      "centralQuestion": "Did the goblins remember Kael as savior, god, liar, or myth?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Goblin civilization cannot agree whether Kael represents hope, abandonment, false divinity, or a test of self-rule.",
+        "Skyhome is currently viewed as protective secrecy.",
+        "Goblin civilization cannot agree whether Kael represents hope, abandonment, false divinity, or a test of self-rule."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_ORC_01",
+      "worldId": "WORLD_ORC_002",
+      "title": "Orc World: Reformers’ Request",
+      "factionId": "FACTION018_ORC_01",
+      "factionName": "Shield Reformation Council",
+      "setup": "A reform faction asks Skyhome to support change without making local people appear governed from outside.",
+      "centralQuestion": "Can a race built on war redefine strength?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Traditionalists believe strength must dominate; reformers believe strength means children need not become weapons.",
+        "Skyhome is currently viewed as cautious opportunity.",
+        "Traditionalists believe strength must dominate; reformers believe strength means children need not become weapons."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_ORC_02",
+      "worldId": "WORLD_ORC_002",
+      "title": "Orc World: Traditionalists’ Warning",
+      "factionId": "FACTION018_ORC_02",
+      "factionName": "Blood-Oath Traditionalists",
+      "setup": "A traditional faction explains what it believes reformers will destroy and demands a public answer.",
+      "centralQuestion": "Can a race built on war redefine strength?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Traditionalists believe strength must dominate; reformers believe strength means children need not become weapons.",
+        "Skyhome is currently viewed as suspicious resistance.",
+        "Traditionalists believe strength must dominate; reformers believe strength means children need not become weapons."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_ORC_03",
+      "worldId": "WORLD_ORC_002",
+      "title": "Orc World: Profiteers’ Offer",
+      "factionId": "FACTION018_ORC_03",
+      "factionName": "Arena Profit Houses",
+      "setup": "A faction benefiting from the crisis offers speed, supplies, or intelligence at a cost that shifts harm onto civilians.",
+      "centralQuestion": "Can a race built on war redefine strength?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Traditionalists believe strength must dominate; reformers believe strength means children need not become weapons.",
+        "Skyhome is currently viewed as transactional exploitation.",
+        "Traditionalists believe strength must dominate; reformers believe strength means children need not become weapons."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_ORC_04",
+      "worldId": "WORLD_ORC_002",
+      "title": "Orc World: Hidden Witnesses",
+      "factionId": "FACTION018_ORC_04",
+      "factionName": "First Shame Archivists",
+      "setup": "A suppressed or hidden faction offers evidence, but revealing it may endanger the people who preserved it.",
+      "centralQuestion": "Can a race built on war redefine strength?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Traditionalists believe strength must dominate; reformers believe strength means children need not become weapons.",
+        "Skyhome is currently viewed as protective secrecy.",
+        "Traditionalists believe strength must dominate; reformers believe strength means children need not become weapons."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_BEASTKIN_01",
+      "worldId": "WORLD_BEASTKIN_003",
+      "title": "Beastkin Territories: Reformers’ Request",
+      "factionId": "FACTION018_BEASTKIN_01",
+      "factionName": "Open Path Coalition",
+      "setup": "A reform faction asks Skyhome to support change without making local people appear governed from outside.",
+      "centralQuestion": "Does civilization protect nature or destroy it?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Some see city law as protection from famine and slavery; others see walls as the slow death of the wild soul.",
+        "Skyhome is currently viewed as cautious opportunity.",
+        "Some see city law as protection from famine and slavery; others see walls as the slow death of the wild soul."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_BEASTKIN_02",
+      "worldId": "WORLD_BEASTKIN_003",
+      "title": "Beastkin Territories: Traditionalists’ Warning",
+      "factionId": "FACTION018_BEASTKIN_02",
+      "factionName": "Season Crown Traditionalists",
+      "setup": "A traditional faction explains what it believes reformers will destroy and demands a public answer.",
+      "centralQuestion": "Does civilization protect nature or destroy it?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Some see city law as protection from famine and slavery; others see walls as the slow death of the wild soul.",
+        "Skyhome is currently viewed as suspicious resistance.",
+        "Some see city law as protection from famine and slavery; others see walls as the slow death of the wild soul."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_BEASTKIN_03",
+      "worldId": "WORLD_BEASTKIN_003",
+      "title": "Beastkin Territories: Profiteers’ Offer",
+      "factionId": "FACTION018_BEASTKIN_03",
+      "factionName": "Collar Trade Syndicate",
+      "setup": "A faction benefiting from the crisis offers speed, supplies, or intelligence at a cost that shifts harm onto civilians.",
+      "centralQuestion": "Does civilization protect nature or destroy it?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Some see city law as protection from famine and slavery; others see walls as the slow death of the wild soul.",
+        "Skyhome is currently viewed as transactional exploitation.",
+        "Some see city law as protection from famine and slavery; others see walls as the slow death of the wild soul."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_BEASTKIN_04",
+      "worldId": "WORLD_BEASTKIN_003",
+      "title": "Beastkin Territories: Hidden Witnesses",
+      "factionId": "FACTION018_BEASTKIN_04",
+      "factionName": "Migration Memory Keepers",
+      "setup": "A suppressed or hidden faction offers evidence, but revealing it may endanger the people who preserved it.",
+      "centralQuestion": "Does civilization protect nature or destroy it?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Some see city law as protection from famine and slavery; others see walls as the slow death of the wild soul.",
+        "Skyhome is currently viewed as protective secrecy.",
+        "Some see city law as protection from famine and slavery; others see walls as the slow death of the wild soul."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_DEMON_01",
+      "worldId": "WORLD_DEMON_004",
+      "title": "Demon Realms: Reformers’ Request",
+      "factionId": "FACTION018_DEMON_01",
+      "factionName": "Mercy Index Reformers",
+      "setup": "A reform faction asks Skyhome to support change without making local people appear governed from outside.",
+      "centralQuestion": "Can those feared as monsters ever be trusted?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Demon civilization contains art, law, schools, family, and love, but its history of contracts and fear makes trust explosive.",
+        "Skyhome is currently viewed as cautious opportunity.",
+        "Demon civilization contains art, law, schools, family, and love, but its history of contracts and fear makes trust explosive."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_DEMON_02",
+      "worldId": "WORLD_DEMON_004",
+      "title": "Demon Realms: Traditionalists’ Warning",
+      "factionId": "FACTION018_DEMON_02",
+      "factionName": "Contract Throne Loyalists",
+      "setup": "A traditional faction explains what it believes reformers will destroy and demands a public answer.",
+      "centralQuestion": "Can those feared as monsters ever be trusted?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Demon civilization contains art, law, schools, family, and love, but its history of contracts and fear makes trust explosive.",
+        "Skyhome is currently viewed as suspicious resistance.",
+        "Demon civilization contains art, law, schools, family, and love, but its history of contracts and fear makes trust explosive."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_DEMON_03",
+      "worldId": "WORLD_DEMON_004",
+      "title": "Demon Realms: Profiteers’ Offer",
+      "factionId": "FACTION018_DEMON_03",
+      "factionName": "Purchased Name Houses",
+      "setup": "A faction benefiting from the crisis offers speed, supplies, or intelligence at a cost that shifts harm onto civilians.",
+      "centralQuestion": "Can those feared as monsters ever be trusted?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Demon civilization contains art, law, schools, family, and love, but its history of contracts and fear makes trust explosive.",
+        "Skyhome is currently viewed as transactional exploitation.",
+        "Demon civilization contains art, law, schools, family, and love, but its history of contracts and fear makes trust explosive."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_DEMON_04",
+      "worldId": "WORLD_DEMON_004",
+      "title": "Demon Realms: Hidden Witnesses",
+      "factionId": "FACTION018_DEMON_04",
+      "factionName": "Forbidden School Custodians",
+      "setup": "A suppressed or hidden faction offers evidence, but revealing it may endanger the people who preserved it.",
+      "centralQuestion": "Can those feared as monsters ever be trusted?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Demon civilization contains art, law, schools, family, and love, but its history of contracts and fear makes trust explosive.",
+        "Skyhome is currently viewed as protective secrecy.",
+        "Demon civilization contains art, law, schools, family, and love, but its history of contracts and fear makes trust explosive."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_DARKELF_01",
+      "worldId": "WORLD_DARK_ELF_005",
+      "title": "Dark Elf Territories: Reformers’ Request",
+      "factionId": "FACTION018_DARKELF_01",
+      "factionName": "Open Archive Movement",
+      "setup": "A reform faction asks Skyhome to support change without making local people appear governed from outside.",
+      "centralQuestion": "Is a painful truth better than a peaceful lie?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Dark Elf society survived by controlling information; opening truth may heal history or destroy fragile peace.",
+        "Skyhome is currently viewed as cautious opportunity.",
+        "Dark Elf society survived by controlling information; opening truth may heal history or destroy fragile peace."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_DARKELF_02",
+      "worldId": "WORLD_DARK_ELF_005",
+      "title": "Dark Elf Territories: Traditionalists’ Warning",
+      "factionId": "FACTION018_DARKELF_02",
+      "factionName": "Silence Treaty Council",
+      "setup": "A traditional faction explains what it believes reformers will destroy and demands a public answer.",
+      "centralQuestion": "Is a painful truth better than a peaceful lie?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Dark Elf society survived by controlling information; opening truth may heal history or destroy fragile peace.",
+        "Skyhome is currently viewed as suspicious resistance.",
+        "Dark Elf society survived by controlling information; opening truth may heal history or destroy fragile peace."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_DARKELF_03",
+      "worldId": "WORLD_DARK_ELF_005",
+      "title": "Dark Elf Territories: Profiteers’ Offer",
+      "factionId": "FACTION018_DARKELF_03",
+      "factionName": "Peace-Market Brokers",
+      "setup": "A faction benefiting from the crisis offers speed, supplies, or intelligence at a cost that shifts harm onto civilians.",
+      "centralQuestion": "Is a painful truth better than a peaceful lie?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Dark Elf society survived by controlling information; opening truth may heal history or destroy fragile peace.",
+        "Skyhome is currently viewed as transactional exploitation.",
+        "Dark Elf society survived by controlling information; opening truth may heal history or destroy fragile peace."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_DARKELF_04",
+      "worldId": "WORLD_DARK_ELF_005",
+      "title": "Dark Elf Territories: Hidden Witnesses",
+      "factionId": "FACTION018_DARKELF_04",
+      "factionName": "Witness Keepers",
+      "setup": "A suppressed or hidden faction offers evidence, but revealing it may endanger the people who preserved it.",
+      "centralQuestion": "Is a painful truth better than a peaceful lie?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Dark Elf society survived by controlling information; opening truth may heal history or destroy fragile peace.",
+        "Skyhome is currently viewed as protective secrecy.",
+        "Dark Elf society survived by controlling information; opening truth may heal history or destroy fragile peace."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_BUNNY_01",
+      "worldId": "WORLD_BUNNY_006",
+      "title": "Bunny Trade Nations: Reformers’ Request",
+      "factionId": "FACTION018_BUNNY_01",
+      "factionName": "Open Basket Reform League",
+      "setup": "A reform faction asks Skyhome to support change without making local people appear governed from outside.",
+      "centralQuestion": "Can everything have a price?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Trade delivers medicine and connection, but the same systems can turn survival into debt.",
+        "Skyhome is currently viewed as cautious opportunity.",
+        "Trade delivers medicine and connection, but the same systems can turn survival into debt."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_BUNNY_02",
+      "worldId": "WORLD_BUNNY_006",
+      "title": "Bunny Trade Nations: Traditionalists’ Warning",
+      "factionId": "FACTION018_BUNNY_02",
+      "factionName": "Ledger Crown Traditionalists",
+      "setup": "A traditional faction explains what it believes reformers will destroy and demands a public answer.",
+      "centralQuestion": "Can everything have a price?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Trade delivers medicine and connection, but the same systems can turn survival into debt.",
+        "Skyhome is currently viewed as suspicious resistance.",
+        "Trade delivers medicine and connection, but the same systems can turn survival into debt."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_BUNNY_03",
+      "worldId": "WORLD_BUNNY_006",
+      "title": "Bunny Trade Nations: Profiteers’ Offer",
+      "factionId": "FACTION018_BUNNY_03",
+      "factionName": "Auction House Compact",
+      "setup": "A faction benefiting from the crisis offers speed, supplies, or intelligence at a cost that shifts harm onto civilians.",
+      "centralQuestion": "Can everything have a price?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Trade delivers medicine and connection, but the same systems can turn survival into debt.",
+        "Skyhome is currently viewed as transactional exploitation.",
+        "Trade delivers medicine and connection, but the same systems can turn survival into debt."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_BUNNY_04",
+      "worldId": "WORLD_BUNNY_006",
+      "title": "Bunny Trade Nations: Hidden Witnesses",
+      "factionId": "FACTION018_BUNNY_04",
+      "factionName": "Hunger Contract Archivists",
+      "setup": "A suppressed or hidden faction offers evidence, but revealing it may endanger the people who preserved it.",
+      "centralQuestion": "Can everything have a price?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Trade delivers medicine and connection, but the same systems can turn survival into debt.",
+        "Skyhome is currently viewed as protective secrecy.",
+        "Trade delivers medicine and connection, but the same systems can turn survival into debt."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_DOG_01",
+      "worldId": "WORLD_DOG_007",
+      "title": "Dog Tribe Frontiers: Reformers’ Request",
+      "factionId": "FACTION018_DOG_01",
+      "factionName": "Moral Patrol Network",
+      "setup": "A reform faction asks Skyhome to support change without making local people appear governed from outside.",
+      "centralQuestion": "What happens when loyalty and morality disagree?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Loyalty is sacred, but a sacred oath becomes terrifying when leaders order harm in the name of protection.",
+        "Skyhome is currently viewed as cautious opportunity.",
+        "Loyalty is sacred, but a sacred oath becomes terrifying when leaders order harm in the name of protection."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_DOG_02",
+      "worldId": "WORLD_DOG_007",
+      "title": "Dog Tribe Frontiers: Traditionalists’ Warning",
+      "factionId": "FACTION018_DOG_02",
+      "factionName": "Oath-Above-All Command",
+      "setup": "A traditional faction explains what it believes reformers will destroy and demands a public answer.",
+      "centralQuestion": "What happens when loyalty and morality disagree?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Loyalty is sacred, but a sacred oath becomes terrifying when leaders order harm in the name of protection.",
+        "Skyhome is currently viewed as suspicious resistance.",
+        "Loyalty is sacred, but a sacred oath becomes terrifying when leaders order harm in the name of protection."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_DOG_03",
+      "worldId": "WORLD_DOG_007",
+      "title": "Dog Tribe Frontiers: Profiteers’ Offer",
+      "factionId": "FACTION018_DOG_03",
+      "factionName": "Border Contract Profiteers",
+      "setup": "A faction benefiting from the crisis offers speed, supplies, or intelligence at a cost that shifts harm onto civilians.",
+      "centralQuestion": "What happens when loyalty and morality disagree?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Loyalty is sacred, but a sacred oath becomes terrifying when leaders order harm in the name of protection.",
+        "Skyhome is currently viewed as transactional exploitation.",
+        "Loyalty is sacred, but a sacred oath becomes terrifying when leaders order harm in the name of protection."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    },
+    {
+      "incidentId": "DIP018_DOG_04",
+      "worldId": "WORLD_DOG_007",
+      "title": "Dog Tribe Frontiers: Hidden Witnesses",
+      "factionId": "FACTION018_DOG_04",
+      "factionName": "Lost Pack Witnesses",
+      "setup": "A suppressed or hidden faction offers evidence, but revealing it may endanger the people who preserved it.",
+      "centralQuestion": "What happens when loyalty and morality disagree?",
+      "cannotResolveWorldInOneChoice": true,
+      "positions": [
+        "Loyalty is sacred, but a sacred oath becomes terrifying when leaders order harm in the name of protection.",
+        "Skyhome is currently viewed as protective secrecy.",
+        "Loyalty is sacred, but a sacred oath becomes terrifying when leaders order harm in the name of protection."
+      ],
+      "choices": [
+        {
+          "id": "LISTEN",
+          "label": "Listen and verify",
+          "consequence": "Gain information; no automatic alliance."
+        },
+        {
+          "id": "CONDITIONAL_TREATY",
+          "label": "Offer a conditional treaty",
+          "consequence": "Unlock obligations and future checks."
+        },
+        {
+          "id": "REFUSE_COERCION",
+          "label": "Refuse coercive terms",
+          "consequence": "Lose immediate help but protect a civic principle."
+        },
+        {
+          "id": "DEFER",
+          "label": "Defer with a public explanation",
+          "consequence": "The incident remains open without an expiring timer."
+        }
+      ],
+      "outcomes": [
+        "trust_gain",
+        "conditional_treaty",
+        "recoverable_conflict",
+        "future_quest"
+      ],
+      "mustIncludeCivilianConsequence": true
+    }
+  ]
+}

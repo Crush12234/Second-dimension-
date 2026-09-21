@@ -1,0 +1,3173 @@
+{
+  "contentVersion": "GUILD_CITY_NARRATIVE_FACILITY_017H_1.0",
+  "onboardingScenes": [
+    {
+      "id": "ONBOARD_017F_01_HALL",
+      "operationMin": 0,
+      "operationMax": 0,
+      "title": "A HALL THAT STILL ANSWERS",
+      "narration": "The Ruined Annex is drafty, undersupplied, and still standing. Every empty room is a promise the Guild has not yet earned.",
+      "guildmasterLine": "We do not need a perfect Hall today. We need one that can keep people alive tomorrow.",
+      "instruction": "Inspect the Hall, then open the Applicant Board. Normal preparation and social scenes do not consume an operation.",
+      "completion": "Open the committed Applicant Board."
+    },
+    {
+      "id": "ONBOARD_017F_02_APPLICANTS",
+      "operationMin": 0,
+      "operationMax": 0,
+      "title": "PEOPLE BEFORE NUMBERS",
+      "narration": "Applicants arrive with incomplete records, practical needs, and reasons for taking dangerous work. The Guild sees what scouting can honestly establish\u2014nothing more.",
+      "guildmasterLine": "We are choosing who we can support, not buying a rarity color.",
+      "instruction": "Open dossiers, compare observed strengths, and sign one recruit. Signed normal recruits remain permanent members.",
+      "completion": "Sign one applicant exactly once."
+    },
+    {
+      "id": "ONBOARD_017F_03_CITY",
+      "operationMin": 0,
+      "operationMax": 0,
+      "title": "THE FIRST VISIBLE REPAIR",
+      "narration": "The settlement will believe in the Guild when it can point to something repaired, staffed, and useful.",
+      "guildmasterLine": "Pick the first facility for what it lets us do\u2014not for a hidden timer.",
+      "instruction": "Claim an available plot, place a facility, and assign staff. Small construction completes immediately.",
+      "completion": "Place and staff the first facility."
+    },
+    {
+      "id": "ONBOARD_017F_04_UNIONS",
+      "operationMin": 0,
+      "operationMax": 1,
+      "title": "BUILD THE PEOPLE, THEN THE UNION",
+      "narration": "Equipment, formation, leadership, relationships, and learned Arts determine what a Union can responsibly attempt.",
+      "guildmasterLine": "A strong Union is not five isolated builds. It is five people whose strengths survive contact with the same problem.",
+      "instruction": "Equip the roster manually and prepare two legal Unions. Individual Arts remain predictions inside complete Forecasts.",
+      "completion": "Create two legal three-member Unions."
+    },
+    {
+      "id": "ONBOARD_017F_05_CONTRACTS",
+      "operationMin": 0,
+      "operationMax": 1,
+      "title": "CHOOSE A RESPONSIBILITY",
+      "narration": "A contract is a civic promise with a route, a risk, and people who pay the price when the Guild fails.",
+      "guildmasterLine": "Read the failure and retreat terms before the reward line.",
+      "instruction": "Compare the three opening contracts and commit one. The accepted board and seed cannot reroll.",
+      "completion": "Accept one contract."
+    },
+    {
+      "id": "ONBOARD_017F_06_DEPLOYMENT",
+      "operationMin": 0,
+      "operationMax": 1,
+      "title": "PREPARE FOR THE ROUTE, NOT ONLY THE FIGHT",
+      "narration": "A medic, scout, engineer, reserve, supply choice, or stable relationship can matter before the first enemy is visible.",
+      "guildmasterLine": "The board decides what condition reaches the battle.",
+      "instruction": "Review supplies, fatigue, skills, healing, Guard, scouting, and objective warnings before deployment.",
+      "completion": "Begin the committed expedition."
+    },
+    {
+      "id": "ONBOARD_017F_07_BOARD",
+      "operationMin": 0,
+      "operationMax": 1,
+      "title": "THE ROAD IS THE DECISION",
+      "narration": "Routes trade urgency, supplies, fatigue, information, optional work, and tactical advantage. Movement is committed before it is shown as resolved.",
+      "guildmasterLine": "There is no perfect route. There is only the route whose cost we understand.",
+      "instruction": "Choose a branch, resolve required nodes, and save after every committed movement.",
+      "completion": "Reach the first camp or encounter."
+    },
+    {
+      "id": "ONBOARD_017F_08_CHECK",
+      "operationMin": 0,
+      "operationMax": 1,
+      "title": "WHO ACTS MATTERS",
+      "narration": "A check belongs to the recruit who steps forward, the assistant who supports them, and the conditions the Guild created before the roll.",
+      "guildmasterLine": "Commit the person and the risk. Reloading does not change what happened.",
+      "instruction": "Choose an actor and assistant, then commit the deterministic 2d6 check.",
+      "completion": "Resolve one event or skill check."
+    },
+    {
+      "id": "ONBOARD_017F_09_BATTLE",
+      "operationMin": 0,
+      "operationMax": 1,
+      "title": "THE BOARD BECOMES THE BATTLE",
+      "narration": "The expedition freezes at the exact node. Supplies, fatigue, scouting, objectives, and route consequences enter the certified Union arena through one persisted request.",
+      "guildmasterLine": "Command the Union. Do not micromanage the person.",
+      "instruction": "Select complete contextual Union Forecasts and finish the encounter.",
+      "completion": "Return to the exact expedition node."
+    },
+    {
+      "id": "ONBOARD_017F_10_RESULTS",
+      "operationMin": 0,
+      "operationMax": 1,
+      "title": "EVERY RESULT HAS A HOME",
+      "narration": "Growth belongs to characters and Arts. Equipment belongs to Guild inventory. Civic progress belongs to the settlement. Nothing should vanish into one generic reward number.",
+      "guildmasterLine": "Claim once. Equip by choice. Build with what the operation changed.",
+      "instruction": "Review progression, claim the committed reward, and equip manually if desired.",
+      "completion": "Apply the exact-once reward and return to the Hall."
+    },
+    {
+      "id": "ONBOARD_017F_11_RELATIONSHIP",
+      "operationMin": 1,
+      "operationMax": 2,
+      "title": "MEMORIES, NOT MAINTENANCE",
+      "narration": "Relationships grow because members protected, healed, argued, failed, recovered, trained, or worked together\u2014not because the Guildmaster sacrificed an empty day.",
+      "guildmasterLine": "The scene can wait. The memory will not disappear.",
+      "instruction": "View or defer one free Hall scene. It consumes no operation and carries no penalty.",
+      "completion": "View or safely defer a relationship scene."
+    },
+    {
+      "id": "ONBOARD_017F_12_SECOND_BUILD",
+      "operationMin": 1,
+      "operationMax": 999,
+      "title": "A CITY BEGINS TO CHOOSE",
+      "narration": "The second building or upgrade creates the first real district decision. Adjacency is useful, but no single layout is mandatory.",
+      "guildmasterLine": "Make the settlement better at the work you actually ask it to do.",
+      "instruction": "Place a second facility or upgrade the first, then activate one adjacency or district bonus.",
+      "completion": "Save, close, relaunch, and verify the exact city state."
+    }
+  ],
+  "contractArcs": [
+    {
+      "id": "CONTRACT_BELL_BENEATH_GATE",
+      "openingTitle": "THE BELL BENEATH SKYHOME",
+      "sponsorName": "Kiri Aetherheart, Skyhome Guild Hall",
+      "sponsorLine": "A bell with no rope is ringing beneath the Hall. Kael holds the breach while a Lantern Road patrol and Skyhome's Wayglass remain missing at the old Gatehouse.",
+      "guildmasterPrompt": "Bring the patrol home, recover the Wayglass, and stop whatever is moving through the Gatehouse toward Skyhome.",
+      "deploymentLine": "Bring engineering for the broken road, medicine for the patrol, and Unions able to hold a collapsing line together.",
+      "battleBriefingLine": "The missing patrol is guarding the Wayglass inside the engagement zone. Break the Gatehouse threat without cutting off their road home.",
+      "victoryLine": "The Gatehouse threat falls. The patrol carries the recovered Wayglass onto Lantern Road and joins the Guild for the walk home.",
+      "mixedLine": "The patrol and Wayglass return, but Lantern Road bears the cost in injuries, supplies, and unfinished Gatehouse work.",
+      "retreatLine": "The Guild preserves the patrol members already reached and withdraws along Lantern Road. The Wayglass remains an active rescue obligation.",
+      "failureLine": "The old Gatehouse closes around the Wayglass signal. Skyhome records the route, the missing patrol, and the threat still moving toward the city.",
+      "cityConsequenceLine": "The rescued patrol joins the Guild, while the recovered Wayglass reveals a route pointing inside Skyhome."
+    },
+    {
+      "id": "CONTRACT_LINES_NOT_RETURNED",
+      "openingTitle": "THE DOOR INSIDE",
+      "sponsorName": "Skyhome Wayglass Table",
+      "sponsorLine": "The recovered Wayglass does not point beyond Skyhome. It draws a road beneath the Guild Hall to a door no city map records.",
+      "guildmasterPrompt": "Follow the impossible marks, find the survey crew sent below, and locate the door inside Skyhome.",
+      "deploymentLine": "Scouting, perception, careful Mystics, and a calm leader matter more than raw speed.",
+      "battleBriefingLine": "The enemy has been using survey information to shape the approach. Recovered evidence can expose or reverse that advantage.",
+      "victoryLine": "The survey crew returns, the impossible marks are translated, and the Wayglass reveals the threshold of the Door Inside.",
+      "mixedLine": "Enough of the Wayglass route is mapped to prevent another disappearance, but the door and part of the survey crew remain unresolved.",
+      "retreatLine": "The Guild preserves what it learned and withdraws before the route beneath Skyhome closes. The Door Inside remains marked on the Wayglass.",
+      "failureLine": "The impossible route remains open on the Wayglass and deadly beneath the city. The Door Inside waits without a trusted path.",
+      "cityConsequenceLine": "Opening the impossible route turns the Wayglass table into Skyhome's map for Chapter 2."
+    },
+    {
+      "id": "CONTRACT_RELIEF_ROAD",
+      "openingTitle": "KEEP THE RELIEF ROAD OPEN",
+      "sponsorName": "Outer Ward Relief Quartermaster",
+      "sponsorLine": "The wagons carry medicine, tools, and food. The outer wards cannot eat a promise that arrives tomorrow.",
+      "guildmasterPrompt": "Protect the convoy, repair what the route allows, and do not spend the cargo to save the schedule.",
+      "deploymentLine": "Guard, engineering, logistics, and ranged control will decide how much of the convoy reaches the wards.",
+      "battleBriefingLine": "Wagons and civilians remain part of the objective. Repeated interference changes which Union must hold, escort, or counterattack.",
+      "victoryLine": "The first wagon reaches the ward gate before the lanterns are lit. The road becomes a route again instead of a warning.",
+      "mixedLine": "Part of the convoy arrives. The city gains a functioning relief line, but the missing cargo shapes the next operation.",
+      "retreatLine": "The surviving wagons turn back under Guard. The shipment is diminished, but the Guild does not abandon the people pulling it.",
+      "failureLine": "The convoy breaks and the outer wards ration what remains. The road stays open only on the map.",
+      "cityConsequenceLine": "Successful delivery strengthens Market, Warehouse, Supply Depot, and civic trust progression."
+    }
+  ],
+  "nodeNarratives": [
+    {
+      "boardId": "BOARD_BELL_BENEATH_GATE",
+      "nodeId": "N00",
+      "title": "Deployment Point",
+      "arrivalText": "Lantern Road to the old Gatehouse: The Guild commits its deployment and supplies before entering the route. Broken waymarkers and Wayglass resonance turn every route decision into part of bringing the missing patrol home.",
+      "decisionPrompt": "Confirm deployment, supplies, and the Unions responsible for the operation.",
+      "riskLine": "Risk: Low. Supplies 0 \u2022 Fatigue 0 \u2022 Urgency 0.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_BELL_BENEATH_GATE",
+      "nodeId": "N01",
+      "title": "Route Decision",
+      "arrivalText": "Lantern Road to the old Gatehouse: Choose between routes with different time, information, supply, and threat pressures. Broken waymarkers and Wayglass resonance turn every route decision into part of bringing the missing patrol home.",
+      "decisionPrompt": "Compare route cost, risk, information, and optional work before committing movement.",
+      "riskLine": "Risk: Moderate. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_BELL_BENEATH_GATE",
+      "nodeId": "N02",
+      "title": "Lantern Patrol Runner",
+      "arrivalText": "Lantern Road to the old Gatehouse: A recruit-centered problem must be resolved before movement can continue. Broken waymarkers and Wayglass resonance turn every route decision into part of bringing the missing patrol home.",
+      "decisionPrompt": "Choose who steps forward and what kind of consequence the Guild is willing to accept.",
+      "riskLine": "Risk: Moderate. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_BELL_BENEATH_GATE",
+      "nodeId": "N03",
+      "title": "Scouting Position",
+      "arrivalText": "Lantern Road to the old Gatehouse: Reveal future nodes and improve encounter intelligence. Broken waymarkers and Wayglass resonance turn every route decision into part of bringing the missing patrol home.",
+      "decisionPrompt": "Commit scouting effort to reveal information without changing the battle rules.",
+      "riskLine": "Risk: Low. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_BELL_BENEATH_GATE",
+      "nodeId": "N04",
+      "title": "Broken Lantern Waymarker",
+      "arrivalText": "Lantern Road to the old Gatehouse: Choose an actor and assistant; the deterministic 2d6 result commits once. Broken waymarkers and Wayglass resonance turn every route decision into part of bringing the missing patrol home.",
+      "decisionPrompt": "Choose an actor and assistant, then commit the deterministic 2d6 check.",
+      "riskLine": "Risk: Moderate. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_BELL_BENEATH_GATE",
+      "nodeId": "N05",
+      "title": "Lantern Road Cache",
+      "arrivalText": "Lantern Road to the old Gatehouse: Recover useful material at the cost of route time and fatigue. Broken waymarkers and Wayglass resonance turn every route decision into part of bringing the missing patrol home.",
+      "decisionPrompt": "Decide whether the material is worth the time, supply, or fatigue cost.",
+      "riskLine": "Risk: Low. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_BELL_BENEATH_GATE",
+      "nodeId": "N06",
+      "title": "Roadside Ambush",
+      "arrivalText": "Lantern Road to the old Gatehouse: A required enemy force blocks the route into a separate Union battle. Broken waymarkers and Wayglass resonance turn every route decision into part of bringing the missing patrol home.",
+      "decisionPrompt": "Commit the encounter request and save the exact return checkpoint.",
+      "riskLine": "Risk: High. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_ENCOUNTER_COMMIT"
+    },
+    {
+      "boardId": "BOARD_BELL_BENEATH_GATE",
+      "nodeId": "N07",
+      "title": "Lantern Road Watch Camp",
+      "arrivalText": "Lantern Road to the old Gatehouse: Reduce fatigue and surface free relationship or mentorship content. Broken waymarkers and Wayglass resonance turn every route decision into part of bringing the missing patrol home.",
+      "decisionPrompt": "Rest, review the route, and surface free relationship or mentorship content.",
+      "riskLine": "Risk: Low. Supplies 0 \u2022 Fatigue 0 \u2022 Urgency 0.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_CAMP_REST"
+    },
+    {
+      "boardId": "BOARD_BELL_BENEATH_GATE",
+      "nodeId": "N08",
+      "title": "Wayglass Resonance",
+      "arrivalText": "Lantern Road to the old Gatehouse: A recruit-centered problem must be resolved before movement can continue. Broken waymarkers and Wayglass resonance turn every route decision into part of bringing the missing patrol home.",
+      "decisionPrompt": "Choose who steps forward and what kind of consequence the Guild is willing to accept.",
+      "riskLine": "Risk: Moderate. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_BELL_BENEATH_GATE",
+      "nodeId": "N09",
+      "title": "Gatehouse Raider Captain",
+      "arrivalText": "Lantern Road to the old Gatehouse: Fight for extra rewards and route advantage, or deliberately bypass it. Broken waymarkers and Wayglass resonance turn every route decision into part of bringing the missing patrol home.",
+      "decisionPrompt": "Fight for an authored advantage and reward, or deliberately bypass the threat.",
+      "riskLine": "Risk: Very High. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_ENCOUNTER_COMMIT"
+    },
+    {
+      "boardId": "BOARD_BELL_BENEATH_GATE",
+      "nodeId": "N10",
+      "title": "Patrol Behind the Support",
+      "arrivalText": "Lantern Road to the old Gatehouse: Choose an actor and assistant; the deterministic 2d6 result commits once. Broken waymarkers and Wayglass resonance turn every route decision into part of bringing the missing patrol home.",
+      "decisionPrompt": "Choose an actor and assistant, then commit the deterministic 2d6 check.",
+      "riskLine": "Risk: Moderate. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_BELL_BENEATH_GATE",
+      "nodeId": "N11",
+      "title": "Secure the Wayglass Route",
+      "arrivalText": "Lantern Road to the old Gatehouse: Complete optional civic work that changes results and city progression. Broken waymarkers and Wayglass resonance turn every route decision into part of bringing the missing patrol home.",
+      "decisionPrompt": "Complete civic work that changes results, trust, and city progress.",
+      "riskLine": "Risk: Low. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_BELL_BENEATH_GATE",
+      "nodeId": "N12",
+      "title": "Hidden Gatehouse Approach",
+      "arrivalText": "Lantern Road to the old Gatehouse: Avoid some threat at the cost of time or optional rewards. Broken waymarkers and Wayglass resonance turn every route decision into part of bringing the missing patrol home.",
+      "decisionPrompt": "Accept a safer route\u2019s time or opportunity cost.",
+      "riskLine": "Risk: Low. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_BELL_BENEATH_GATE",
+      "nodeId": "N13",
+      "title": "Old Gatehouse Breach",
+      "arrivalText": "Lantern Road to the old Gatehouse: Resolve the contract\u2019s central crisis through the certified Union battle. Broken waymarkers and Wayglass resonance turn every route decision into part of bringing the missing patrol home.",
+      "decisionPrompt": "Commit the central objective and enter the certified Union battle.",
+      "riskLine": "Risk: High. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_ENCOUNTER_COMMIT"
+    },
+    {
+      "boardId": "BOARD_BELL_BENEATH_GATE",
+      "nodeId": "N14",
+      "title": "Return to Skyhome",
+      "arrivalText": "Lantern Road to the old Gatehouse: Extract, commit the operation outcome, and return to the Guild. Broken waymarkers and Wayglass resonance turn every route decision into part of bringing the missing patrol home.",
+      "decisionPrompt": "Extract, commit results, and return every progression channel to the Guild.",
+      "riskLine": "Risk: Low. Supplies 0 \u2022 Fatigue 0 \u2022 Urgency 0.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_LINES_NOT_RETURNED",
+      "nodeId": "N00",
+      "title": "Deployment Point",
+      "arrivalText": "The Wayglass route beneath Skyhome: The Guild commits its deployment and supplies before entering the route. Impossible route marks and the Wayglass projection make information as important as speed.",
+      "decisionPrompt": "Confirm deployment, supplies, and the Unions responsible for the operation.",
+      "riskLine": "Risk: Low. Supplies 0 \u2022 Fatigue 0 \u2022 Urgency 0.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_LINES_NOT_RETURNED",
+      "nodeId": "N01",
+      "title": "Whose Evidence Leads",
+      "arrivalText": "Sella presses Orra's brass line-tag into your hand. Back her warning by testing the reversed fresh marks, or honor Orra's survey discipline at the failing bridge; both routes pursue the missing crew, but preserve different proof.",
+      "decisionPrompt": "Choose whose evidence the Guild will test first: Sella's warning at the fresh marks or Orra's five-pin bridge record.",
+      "riskLine": "Risk: Moderate. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_LINES_NOT_RETURNED",
+      "nodeId": "N02",
+      "title": "Impossible Marks on an Old Wall",
+      "arrivalText": "The Wayglass route beneath Skyhome: A recruit-centered problem must be resolved before movement can continue. Impossible route marks and the Wayglass projection make information as important as speed.",
+      "decisionPrompt": "Choose who steps forward and what kind of consequence the Guild is willing to accept.",
+      "riskLine": "Risk: Moderate. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_LINES_NOT_RETURNED",
+      "nodeId": "N03",
+      "title": "Wayglass Projection",
+      "arrivalText": "The Wayglass route beneath Skyhome: Reveal future nodes and improve encounter intelligence. Impossible route marks and the Wayglass projection make information as important as speed.",
+      "decisionPrompt": "Commit scouting effort to reveal information without changing the battle rules.",
+      "riskLine": "Risk: Low. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_LINES_NOT_RETURNED",
+      "nodeId": "N04",
+      "title": "A Passage Measured Twice",
+      "arrivalText": "At Orra's five-pin bridge, choose a lead and partner to stabilize the span and preserve the empty socket as sabotage evidence.",
+      "decisionPrompt": "Assign the adventurers whose Survival and trust best protect Orra's evidence; the shown consequence is guaranteed before you commit.",
+      "riskLine": "Risk: Moderate. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_LINES_NOT_RETURNED",
+      "nodeId": "N05",
+      "title": "Survey Cache",
+      "arrivalText": "The Wayglass route beneath Skyhome: Recover useful material at the cost of route time and fatigue. Impossible route marks and the Wayglass projection make information as important as speed.",
+      "decisionPrompt": "Decide whether the material is worth the time, supply, or fatigue cost.",
+      "riskLine": "Risk: Low. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_LINES_NOT_RETURNED",
+      "nodeId": "N06",
+      "title": "Guardians Below Skyhome",
+      "arrivalText": "The Wayglass route beneath Skyhome: A required enemy force blocks the route into a separate Union battle. Impossible route marks and the Wayglass projection make information as important as speed.",
+      "decisionPrompt": "Commit the encounter request and save the exact return checkpoint.",
+      "riskLine": "Risk: High. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_ENCOUNTER_COMMIT"
+    },
+    {
+      "boardId": "BOARD_LINES_NOT_RETURNED",
+      "nodeId": "N07",
+      "title": "Wayglass Field Camp",
+      "arrivalText": "The Wayglass route beneath Skyhome: Reduce fatigue and surface free relationship or mentorship content. Impossible route marks and the Wayglass projection make information as important as speed.",
+      "decisionPrompt": "Rest, review the route, and surface free relationship or mentorship content.",
+      "riskLine": "Risk: Low. Supplies 0 \u2022 Fatigue 0 \u2022 Urgency 0.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_CAMP_REST"
+    },
+    {
+      "boardId": "BOARD_LINES_NOT_RETURNED",
+      "nodeId": "N08",
+      "title": "A Voice Beyond the Map",
+      "arrivalText": "The Wayglass route beneath Skyhome: A recruit-centered problem must be resolved before movement can continue. Impossible route marks and the Wayglass projection make information as important as speed.",
+      "decisionPrompt": "Choose who steps forward and what kind of consequence the Guild is willing to accept.",
+      "riskLine": "Risk: Moderate. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_LINES_NOT_RETURNED",
+      "nodeId": "N09",
+      "title": "Impossible Route Guardian",
+      "arrivalText": "The Wayglass route beneath Skyhome: Fight for extra rewards and route advantage, or deliberately bypass it. Impossible route marks and the Wayglass projection make information as important as speed.",
+      "decisionPrompt": "Fight for an authored advantage and reward, or deliberately bypass the threat.",
+      "riskLine": "Risk: Very High. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_ENCOUNTER_COMMIT"
+    },
+    {
+      "boardId": "BOARD_LINES_NOT_RETURNED",
+      "nodeId": "N10",
+      "title": "The Wayglass Points Below",
+      "arrivalText": "Orra's shattered astrolabe points beneath every city map. Choose a lead and partner to rebuild it and decide whether the Guild reaches for her field book or takes the safer descent.",
+      "decisionPrompt": "Assign the adventurers whose Lore and trust best read Orra's astrolabe; the shown consequence is guaranteed before you commit.",
+      "riskLine": "Risk: Moderate. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_LINES_NOT_RETURNED",
+      "nodeId": "N11",
+      "title": "Recover the Survey Record",
+      "arrivalText": "The Wayglass route beneath Skyhome: Complete optional civic work that changes results and city progression. Impossible route marks and the Wayglass projection make information as important as speed.",
+      "decisionPrompt": "Complete civic work that changes results, trust, and city progress.",
+      "riskLine": "Risk: Low. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_LINES_NOT_RETURNED",
+      "nodeId": "N12",
+      "title": "Hidden Wayglass Route",
+      "arrivalText": "The Wayglass route beneath Skyhome: Avoid some threat at the cost of time or optional rewards. Impossible route marks and the Wayglass projection make information as important as speed.",
+      "decisionPrompt": "Accept a safer route\u2019s time or opportunity cost.",
+      "riskLine": "Risk: Low. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_LINES_NOT_RETURNED",
+      "nodeId": "N13",
+      "title": "The Door Inside",
+      "arrivalText": "The Wayglass route beneath Skyhome: Resolve the contract\u2019s central crisis through the certified Union battle. Impossible route marks and the Wayglass projection make information as important as speed.",
+      "decisionPrompt": "Commit the central objective and enter the certified Union battle.",
+      "riskLine": "Risk: High. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_ENCOUNTER_COMMIT"
+    },
+    {
+      "boardId": "BOARD_LINES_NOT_RETURNED",
+      "nodeId": "N14",
+      "title": "Return to the Wayglass Table",
+      "arrivalText": "The Wayglass route beneath Skyhome: Extract, commit the operation outcome, and return to the Guild. Impossible route marks and the Wayglass projection make information as important as speed.",
+      "decisionPrompt": "Extract, commit results, and return every progression channel to the Guild.",
+      "riskLine": "Risk: Low. Supplies 0 \u2022 Fatigue 0 \u2022 Urgency 0.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_RELIEF_ROAD",
+      "nodeId": "N00",
+      "title": "Deployment Point",
+      "arrivalText": "The relief road: The Guild commits its deployment and supplies before entering the route. Every delay changes the convoy, every route cost touches civilians, and every ambush tests the escort plan.",
+      "decisionPrompt": "Confirm deployment, supplies, and the Unions responsible for the operation.",
+      "riskLine": "Risk: Low. Supplies 0 \u2022 Fatigue 0 \u2022 Urgency 0.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_RELIEF_ROAD",
+      "nodeId": "N01",
+      "title": "Route Decision",
+      "arrivalText": "The relief road: Choose between routes with different time, information, supply, and threat pressures. Every delay changes the convoy, every route cost touches civilians, and every ambush tests the escort plan.",
+      "decisionPrompt": "Compare route cost, risk, information, and optional work before committing movement.",
+      "riskLine": "Risk: Moderate. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_RELIEF_ROAD",
+      "nodeId": "N02",
+      "title": "Axle in the Dust",
+      "arrivalText": "The relief road: A recruit-centered problem must be resolved before movement can continue. Every delay changes the convoy, every route cost touches civilians, and every ambush tests the escort plan.",
+      "decisionPrompt": "Choose who steps forward and what kind of consequence the Guild is willing to accept.",
+      "riskLine": "Risk: Moderate. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_RELIEF_ROAD",
+      "nodeId": "N03",
+      "title": "Scouting Position",
+      "arrivalText": "The relief road: Reveal future nodes and improve encounter intelligence. Every delay changes the convoy, every route cost touches civilians, and every ambush tests the escort plan.",
+      "decisionPrompt": "Commit scouting effort to reveal information without changing the battle rules.",
+      "riskLine": "Risk: Low. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_RELIEF_ROAD",
+      "nodeId": "N04",
+      "title": "Water Across the Relief Road",
+      "arrivalText": "The relief road: Choose an actor and assistant; the deterministic 2d6 result commits once. Every delay changes the convoy, every route cost touches civilians, and every ambush tests the escort plan.",
+      "decisionPrompt": "Choose an actor and assistant, then commit the deterministic 2d6 check.",
+      "riskLine": "Risk: Moderate. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_RELIEF_ROAD",
+      "nodeId": "N05",
+      "title": "Salvage Opportunity",
+      "arrivalText": "The relief road: Recover useful material at the cost of route time and fatigue. Every delay changes the convoy, every route cost touches civilians, and every ambush tests the escort plan.",
+      "decisionPrompt": "Decide whether the material is worth the time, supply, or fatigue cost.",
+      "riskLine": "Risk: Low. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_RELIEF_ROAD",
+      "nodeId": "N06",
+      "title": "Enemy Contact",
+      "arrivalText": "The relief road: A required enemy force blocks the route into a separate Union battle. Every delay changes the convoy, every route cost touches civilians, and every ambush tests the escort plan.",
+      "decisionPrompt": "Commit the encounter request and save the exact return checkpoint.",
+      "riskLine": "Risk: High. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_ENCOUNTER_COMMIT"
+    },
+    {
+      "boardId": "BOARD_RELIEF_ROAD",
+      "nodeId": "N07",
+      "title": "Field Camp",
+      "arrivalText": "The relief road: Reduce fatigue and surface free relationship or mentorship content. Every delay changes the convoy, every route cost touches civilians, and every ambush tests the escort plan.",
+      "decisionPrompt": "Rest, review the route, and surface free relationship or mentorship content.",
+      "riskLine": "Risk: Low. Supplies 0 \u2022 Fatigue 0 \u2022 Urgency 0.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_CAMP_REST"
+    },
+    {
+      "boardId": "BOARD_RELIEF_ROAD",
+      "nodeId": "N08",
+      "title": "Tracks Leaving the Convoy",
+      "arrivalText": "The relief road: A recruit-centered problem must be resolved before movement can continue. Every delay changes the convoy, every route cost touches civilians, and every ambush tests the escort plan.",
+      "decisionPrompt": "Choose who steps forward and what kind of consequence the Guild is willing to accept.",
+      "riskLine": "Risk: Moderate. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_RELIEF_ROAD",
+      "nodeId": "N09",
+      "title": "Optional Elite Threat",
+      "arrivalText": "The relief road: Fight for extra rewards and route advantage, or deliberately bypass it. Every delay changes the convoy, every route cost touches civilians, and every ambush tests the escort plan.",
+      "decisionPrompt": "Fight for an authored advantage and reward, or deliberately bypass the threat.",
+      "riskLine": "Risk: Very High. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_ENCOUNTER_COMMIT"
+    },
+    {
+      "boardId": "BOARD_RELIEF_ROAD",
+      "nodeId": "N10",
+      "title": "The Team Breaks Formation",
+      "arrivalText": "The relief road: Choose an actor and assistant; the deterministic 2d6 result commits once. Every delay changes the convoy, every route cost touches civilians, and every ambush tests the escort plan.",
+      "decisionPrompt": "Choose an actor and assistant, then commit the deterministic 2d6 check.",
+      "riskLine": "Risk: Moderate. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_RELIEF_ROAD",
+      "nodeId": "N11",
+      "title": "Secondary Objective",
+      "arrivalText": "The relief road: Complete optional civic work that changes results and city progression. Every delay changes the convoy, every route cost touches civilians, and every ambush tests the escort plan.",
+      "decisionPrompt": "Complete civic work that changes results, trust, and city progress.",
+      "riskLine": "Risk: Low. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_RELIEF_ROAD",
+      "nodeId": "N12",
+      "title": "Safer Route",
+      "arrivalText": "The relief road: Avoid some threat at the cost of time or optional rewards. Every delay changes the convoy, every route cost touches civilians, and every ambush tests the escort plan.",
+      "decisionPrompt": "Accept a safer route\u2019s time or opportunity cost.",
+      "riskLine": "Risk: Low. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    },
+    {
+      "boardId": "BOARD_RELIEF_ROAD",
+      "nodeId": "N13",
+      "title": "The Last Ambush",
+      "arrivalText": "The relief road: Resolve the contract\u2019s central crisis through the certified Union battle. Every delay changes the convoy, every route cost touches civilians, and every ambush tests the escort plan.",
+      "decisionPrompt": "Commit the central objective and enter the certified Union battle.",
+      "riskLine": "Risk: High. Supplies 1 \u2022 Fatigue 1 \u2022 Urgency 1.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_ENCOUNTER_COMMIT"
+    },
+    {
+      "boardId": "BOARD_RELIEF_ROAD",
+      "nodeId": "N14",
+      "title": "Extraction",
+      "arrivalText": "The relief road: Extract, commit the operation outcome, and return to the Guild. Every delay changes the convoy, every route cost touches civilians, and every ambush tests the escort plan.",
+      "decisionPrompt": "Extract, commit results, and return every progression channel to the Guild.",
+      "riskLine": "Risk: Low. Supplies 0 \u2022 Fatigue 0 \u2022 Urgency 0.",
+      "successTransition": "The committed result is saved and the route opens according to the authoritative board state.",
+      "setbackTransition": "The setback changes pressure, readiness, or future options but preserves a playable recovery path.",
+      "ambientCueId": "AUDIO_017F_EXPEDITION_MOVE"
+    }
+  ],
+  "eventNarratives": [
+    {
+      "id": "EVENT_INJURED_COURIER",
+      "title": "Lantern Patrol Runner",
+      "speakerTag": "Patrol Runner",
+      "openingLines": [
+        "An injured Lantern patrol runner refuses to abandon the Wayglass route ledger.",
+        "The runner keeps one hand over a wound and the other around the ledger. \u201cThe patrol reached the Gatehouse. The Wayglass is still with them.\u201d"
+      ],
+      "choicePrompts": [
+        "Treat the wound before moving the patrol runner.",
+        "Take the Wayglass route ledger and arrange a protected withdrawal.",
+        "Use the runner's marks to track the missing patrol to the Gatehouse."
+      ],
+      "exceptionalLines": [
+        "Lantern Patrol Runner: the acting recruit solves the crisis cleanly and creates an additional route or civic advantage.",
+        "The solution changes the route in the Guild\u2019s favor and becomes a memory the participants can explain later."
+      ],
+      "fullSuccessLines": [
+        "Lantern Patrol Runner: the problem is resolved without losing supplies or momentum.",
+        "The Union pays the understood cost and keeps control of the situation."
+      ],
+      "successWithCostLines": [
+        "Lantern Patrol Runner: the objective is preserved, but the Union pays in fatigue, supplies, or urgency.",
+        "The immediate problem is solved, but the route records the cost in supplies, fatigue, urgency, or trust."
+      ],
+      "setbackLines": [
+        "Lantern Patrol Runner: the Guild continues after a recoverable setback and gains a memory from the attempt.",
+        "The Guild retains a recovery path; no recruit is lost and the committed result cannot be rerolled."
+      ],
+      "severeSetbackLines": [
+        "Lantern Patrol Runner: the route becomes harder, but no permanent member is lost and a recovery path remains.",
+        "The failure creates injury, pressure, or a later obligation\u2014not involuntary departure or permanent deletion."
+      ],
+      "relationshipMemory": "They faced \u201cLantern Patrol Runner\u201d together.",
+      "costsOperation": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "EVENT_COLLAPSED_HANDRAIL",
+      "title": "Broken Lantern Waymarker",
+      "speakerTag": "Lantern Road Scout",
+      "openingLines": [
+        "A separated Lantern patrol scout hangs beneath a fractured waymarker while the lower span continues to settle.",
+        "The scout's boots strike empty air beneath the broken marker. The Lantern Road support answers every movement with a slow metallic complaint."
+      ],
+      "choicePrompts": [
+        "Brace the waymarker span and pull together.",
+        "Rig a counterweight from expedition gear.",
+        "Reach the patrol scout from the lower Lantern Road route."
+      ],
+      "exceptionalLines": [
+        "Broken Lantern Waymarker: the acting recruit solves the crisis cleanly and creates an additional route or civic advantage.",
+        "The solution changes the route in the Guild\u2019s favor and becomes a memory the participants can explain later."
+      ],
+      "fullSuccessLines": [
+        "Broken Lantern Waymarker: the problem is resolved without losing supplies or momentum.",
+        "The Union pays the understood cost and keeps control of the situation."
+      ],
+      "successWithCostLines": [
+        "Broken Lantern Waymarker: the objective is preserved, but the Union pays in fatigue, supplies, or urgency.",
+        "The immediate problem is solved, but the route records the cost in supplies, fatigue, urgency, or trust."
+      ],
+      "setbackLines": [
+        "Broken Lantern Waymarker: the Guild continues after a recoverable setback and gains a memory from the attempt.",
+        "The Guild retains a recovery path; no recruit is lost and the committed result cannot be rerolled."
+      ],
+      "severeSetbackLines": [
+        "Broken Lantern Waymarker: the route becomes harder, but no permanent member is lost and a recovery path remains.",
+        "The failure creates injury, pressure, or a later obligation\u2014not involuntary departure or permanent deletion."
+      ],
+      "relationshipMemory": "They faced \u201cBroken Lantern Waymarker\u201d together.",
+      "costsOperation": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "EVENT_UNSTABLE_BELL_CHAIN",
+      "title": "Wayglass Resonance",
+      "speakerTag": "Wayglass Signal",
+      "openingLines": [
+        "The missing Wayglass sends a blue pulse through old Gatehouse machinery and buckles the road ahead.",
+        "Blue light climbs the ironwork against gravity. Somewhere inside the Gatehouse, the patrol's Wayglass answers with a deeper pulse."
+      ],
+      "choicePrompts": [
+        "Ground the live ironwork and damp the Wayglass pulse.",
+        "Align the Lantern waymarker without losing the signal.",
+        "Clear the crossing before the next resonance."
+      ],
+      "exceptionalLines": [
+        "Wayglass Resonance: the acting recruit solves the crisis cleanly and creates an additional route or civic advantage.",
+        "The solution changes the route in the Guild\u2019s favor and becomes a memory the participants can explain later."
+      ],
+      "fullSuccessLines": [
+        "Wayglass Resonance: the problem is resolved without losing supplies or momentum.",
+        "The Union pays the understood cost and keeps control of the situation."
+      ],
+      "successWithCostLines": [
+        "Wayglass Resonance: the objective is preserved, but the Union pays in fatigue, supplies, or urgency.",
+        "The immediate problem is solved, but the route records the cost in supplies, fatigue, urgency, or trust."
+      ],
+      "setbackLines": [
+        "Wayglass Resonance: the Guild continues after a recoverable setback and gains a memory from the attempt.",
+        "The Guild retains a recovery path; no recruit is lost and the committed result cannot be rerolled."
+      ],
+      "severeSetbackLines": [
+        "Wayglass Resonance: the route becomes harder, but no permanent member is lost and a recovery path remains.",
+        "The failure creates injury, pressure, or a later obligation\u2014not involuntary departure or permanent deletion."
+      ],
+      "relationshipMemory": "They faced \u201cWayglass Resonance\u201d together.",
+      "costsOperation": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "EVENT_TRAPPED_FOREMAN",
+      "title": "Patrol Behind the Support",
+      "speakerTag": "Patrol Captain",
+      "openingLines": [
+        "The patrol captain is pinned behind a cracked Gatehouse support and refuses extraction without the others.",
+        "\u201cNine voices and the Wayglass are behind me,\u201d the captain says through the support. \u201cEveryone goes home together.\u201d"
+      ],
+      "choicePrompts": [
+        "Stabilize the support and extract the patrol in sequence.",
+        "Treat the captain where they are while opening a second route.",
+        "Move the Wayglass first and accept the structural cost."
+      ],
+      "exceptionalLines": [
+        "Patrol Behind the Support: the acting recruit solves the crisis cleanly and creates an additional route or civic advantage.",
+        "The solution changes the route in the Guild\u2019s favor and becomes a memory the participants can explain later."
+      ],
+      "fullSuccessLines": [
+        "Patrol Behind the Support: the problem is resolved without losing supplies or momentum.",
+        "The Union pays the understood cost and keeps control of the situation."
+      ],
+      "successWithCostLines": [
+        "Patrol Behind the Support: the objective is preserved, but the Union pays in fatigue, supplies, or urgency.",
+        "The immediate problem is solved, but the route records the cost in supplies, fatigue, urgency, or trust."
+      ],
+      "setbackLines": [
+        "Patrol Behind the Support: the Guild continues after a recoverable setback and gains a memory from the attempt.",
+        "The Guild retains a recovery path; no recruit is lost and the committed result cannot be rerolled."
+      ],
+      "severeSetbackLines": [
+        "Patrol Behind the Support: the route becomes harder, but no permanent member is lost and a recovery path remains.",
+        "The failure creates injury, pressure, or a later obligation\u2014not involuntary departure or permanent deletion."
+      ],
+      "relationshipMemory": "They faced \u201cPatrol Behind the Support\u201d together.",
+      "costsOperation": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "EVENT_GATEGLASS_PULSE",
+      "title": "Blue Light in the Crack",
+      "speakerTag": "Gateglass",
+      "openingLines": [
+        "A pulse of gateglass reveals a hidden maintenance path for only a few seconds.",
+        "The crack fills with blue geometry. For three breaths, a maintenance path exists where the wall should be."
+      ],
+      "choicePrompts": [
+        "Map the path before the pulse fades.",
+        "Send the fastest scout through and keep a line on them.",
+        "Use a controlled Mystic response to hold the opening."
+      ],
+      "exceptionalLines": [
+        "Blue Light in the Crack: the acting recruit solves the crisis cleanly and creates an additional route or civic advantage.",
+        "The solution changes the route in the Guild\u2019s favor and becomes a memory the participants can explain later."
+      ],
+      "fullSuccessLines": [
+        "Blue Light in the Crack: the problem is resolved without losing supplies or momentum.",
+        "The Union pays the understood cost and keeps control of the situation."
+      ],
+      "successWithCostLines": [
+        "Blue Light in the Crack: the objective is preserved, but the Union pays in fatigue, supplies, or urgency.",
+        "The immediate problem is solved, but the route records the cost in supplies, fatigue, urgency, or trust."
+      ],
+      "setbackLines": [
+        "Blue Light in the Crack: the Guild continues after a recoverable setback and gains a memory from the attempt.",
+        "The Guild retains a recovery path; no recruit is lost and the committed result cannot be rerolled."
+      ],
+      "severeSetbackLines": [
+        "Blue Light in the Crack: the route becomes harder, but no permanent member is lost and a recovery path remains.",
+        "The failure creates injury, pressure, or a later obligation\u2014not involuntary departure or permanent deletion."
+      ],
+      "relationshipMemory": "They faced \u201cBlue Light in the Crack\u201d together.",
+      "costsOperation": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "EVENT_CAMP_ARGUMENT",
+      "title": "No One Agrees About the Next Road",
+      "speakerTag": "Camp",
+      "openingLines": [
+        "The Unions disagree at camp about whether speed or safety matters more.",
+        "One Union wants the shortest road. The other points to the wounded, the remaining supplies, and the dark beyond the map."
+      ],
+      "choicePrompts": [
+        "Let the leaders argue the tactical facts in front of everyone.",
+        "Ask the most exhausted member what the map is not showing.",
+        "Set a shared retreat condition and commit together."
+      ],
+      "exceptionalLines": [
+        "No One Agrees About the Next Road: the acting recruit solves the crisis cleanly and creates an additional route or civic advantage.",
+        "The solution changes the route in the Guild\u2019s favor and becomes a memory the participants can explain later."
+      ],
+      "fullSuccessLines": [
+        "No One Agrees About the Next Road: the problem is resolved without losing supplies or momentum.",
+        "The Union pays the understood cost and keeps control of the situation."
+      ],
+      "successWithCostLines": [
+        "No One Agrees About the Next Road: the objective is preserved, but the Union pays in fatigue, supplies, or urgency.",
+        "The immediate problem is solved, but the route records the cost in supplies, fatigue, urgency, or trust."
+      ],
+      "setbackLines": [
+        "No One Agrees About the Next Road: the Guild continues after a recoverable setback and gains a memory from the attempt.",
+        "The Guild retains a recovery path; no recruit is lost and the committed result cannot be rerolled."
+      ],
+      "severeSetbackLines": [
+        "No One Agrees About the Next Road: the route becomes harder, but no permanent member is lost and a recovery path remains.",
+        "The failure creates injury, pressure, or a later obligation\u2014not involuntary departure or permanent deletion."
+      ],
+      "relationshipMemory": "They faced \u201cNo One Agrees About the Next Road\u201d together.",
+      "costsOperation": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "EVENT_WRONG_ROUTE_MARKS",
+      "title": "Fresh Marks on an Old Wall",
+      "speakerTag": "Survey Mark",
+      "openingLines": [
+        "Someone repainted the survey marks using a code that almost imitates the official route language.",
+        "The new paint is careful enough to fool someone who expects danger to be careless."
+      ],
+      "choicePrompts": [
+        "Compare stroke order against the Registry ledger.",
+        "Follow the false marks just far enough to identify their purpose.",
+        "Erase the marks and leave a warning for the next team."
+      ],
+      "exceptionalLines": [
+        "Fresh Marks on an Old Wall: the acting recruit solves the crisis cleanly and creates an additional route or civic advantage.",
+        "The solution changes the route in the Guild\u2019s favor and becomes a memory the participants can explain later."
+      ],
+      "fullSuccessLines": [
+        "Fresh Marks on an Old Wall: the problem is resolved without losing supplies or momentum.",
+        "The Union pays the understood cost and keeps control of the situation."
+      ],
+      "successWithCostLines": [
+        "Fresh Marks on an Old Wall: the objective is preserved, but the Union pays in fatigue, supplies, or urgency.",
+        "The immediate problem is solved, but the route records the cost in supplies, fatigue, urgency, or trust."
+      ],
+      "setbackLines": [
+        "Fresh Marks on an Old Wall: the Guild continues after a recoverable setback and gains a memory from the attempt.",
+        "The Guild retains a recovery path; no recruit is lost and the committed result cannot be rerolled."
+      ],
+      "severeSetbackLines": [
+        "Fresh Marks on an Old Wall: the route becomes harder, but no permanent member is lost and a recovery path remains.",
+        "The failure creates injury, pressure, or a later obligation\u2014not involuntary departure or permanent deletion."
+      ],
+      "relationshipMemory": "They faced \u201cFresh Marks on an Old Wall\u201d together.",
+      "costsOperation": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "EVENT_BROKEN_SURVEY_BRIDGE",
+      "title": "A Bridge Measured Twice",
+      "speakerTag": "Survey Bridge",
+      "openingLines": [
+        "The survey bridge is mathematically sound on paper and visibly failing in front of the Union.",
+        "The measurements are still pinned to the rail. Every number is correct. The bridge beneath them is not."
+      ],
+      "choicePrompts": [
+        "Recalculate using the current load and damage.",
+        "Reinforce the span with field material.",
+        "Find the route the surveyors used after they stopped trusting the bridge."
+      ],
+      "exceptionalLines": [
+        "A Bridge Measured Twice: the acting recruit solves the crisis cleanly and creates an additional route or civic advantage.",
+        "The solution changes the route in the Guild\u2019s favor and becomes a memory the participants can explain later."
+      ],
+      "fullSuccessLines": [
+        "A Bridge Measured Twice: the problem is resolved without losing supplies or momentum.",
+        "The Union pays the understood cost and keeps control of the situation."
+      ],
+      "successWithCostLines": [
+        "A Bridge Measured Twice: the objective is preserved, but the Union pays in fatigue, supplies, or urgency.",
+        "The immediate problem is solved, but the route records the cost in supplies, fatigue, urgency, or trust."
+      ],
+      "setbackLines": [
+        "A Bridge Measured Twice: the Guild continues after a recoverable setback and gains a memory from the attempt.",
+        "The Guild retains a recovery path; no recruit is lost and the committed result cannot be rerolled."
+      ],
+      "severeSetbackLines": [
+        "A Bridge Measured Twice: the route becomes harder, but no permanent member is lost and a recovery path remains.",
+        "The failure creates injury, pressure, or a later obligation\u2014not involuntary departure or permanent deletion."
+      ],
+      "relationshipMemory": "They faced \u201cA Bridge Measured Twice\u201d together.",
+      "costsOperation": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "EVENT_FOG_ECHO",
+      "title": "A Voice That Knows Their Names",
+      "speakerTag": "Fog Echo",
+      "openingLines": [
+        "The fog repeats the survey team\u2019s voices, but not in the order they disappeared.",
+        "The fog says each missing surveyor\u2019s name in a familiar voice, but the pauses belong to something listening for an answer."
+      ],
+      "choicePrompts": [
+        "Answer with a false call sign and track the response.",
+        "Ward the Union and cross without speaking.",
+        "Use the echo pattern to locate the source."
+      ],
+      "exceptionalLines": [
+        "A Voice That Knows Their Names: the acting recruit solves the crisis cleanly and creates an additional route or civic advantage.",
+        "The solution changes the route in the Guild\u2019s favor and becomes a memory the participants can explain later."
+      ],
+      "fullSuccessLines": [
+        "A Voice That Knows Their Names: the problem is resolved without losing supplies or momentum.",
+        "The Union pays the understood cost and keeps control of the situation."
+      ],
+      "successWithCostLines": [
+        "A Voice That Knows Their Names: the objective is preserved, but the Union pays in fatigue, supplies, or urgency.",
+        "The immediate problem is solved, but the route records the cost in supplies, fatigue, urgency, or trust."
+      ],
+      "setbackLines": [
+        "A Voice That Knows Their Names: the Guild continues after a recoverable setback and gains a memory from the attempt.",
+        "The Guild retains a recovery path; no recruit is lost and the committed result cannot be rerolled."
+      ],
+      "severeSetbackLines": [
+        "A Voice That Knows Their Names: the route becomes harder, but no permanent member is lost and a recovery path remains.",
+        "The failure creates injury, pressure, or a later obligation\u2014not involuntary departure or permanent deletion."
+      ],
+      "relationshipMemory": "They faced \u201cA Voice That Knows Their Names\u201d together.",
+      "costsOperation": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "EVENT_BROKEN_ASTROLABE",
+      "title": "The Needle Points Below",
+      "speakerTag": "Astrolabe",
+      "openingLines": [
+        "A shattered route astrolabe still tracks something moving beneath the road.",
+        "The shattered needle ignores north and points beneath the road. It turns faster when anyone says the missing team\u2019s name."
+      ],
+      "choicePrompts": [
+        "Repair the bearing assembly.",
+        "Use the needle as a warning rather than a guide.",
+        "Compare its movement to the Gateglass pulse."
+      ],
+      "exceptionalLines": [
+        "The Needle Points Below: the acting recruit solves the crisis cleanly and creates an additional route or civic advantage.",
+        "The solution changes the route in the Guild\u2019s favor and becomes a memory the participants can explain later."
+      ],
+      "fullSuccessLines": [
+        "The Needle Points Below: the problem is resolved without losing supplies or momentum.",
+        "The Union pays the understood cost and keeps control of the situation."
+      ],
+      "successWithCostLines": [
+        "The Needle Points Below: the objective is preserved, but the Union pays in fatigue, supplies, or urgency.",
+        "The immediate problem is solved, but the route records the cost in supplies, fatigue, urgency, or trust."
+      ],
+      "setbackLines": [
+        "The Needle Points Below: the Guild continues after a recoverable setback and gains a memory from the attempt.",
+        "The Guild retains a recovery path; no recruit is lost and the committed result cannot be rerolled."
+      ],
+      "severeSetbackLines": [
+        "The Needle Points Below: the route becomes harder, but no permanent member is lost and a recovery path remains.",
+        "The failure creates injury, pressure, or a later obligation\u2014not involuntary departure or permanent deletion."
+      ],
+      "relationshipMemory": "They faced \u201cThe Needle Points Below\u201d together.",
+      "costsOperation": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "EVENT_ABANDONED_SURVEY_PACK",
+      "title": "Pack Beside the Line",
+      "speakerTag": "Survey Pack",
+      "openingLines": [
+        "A survey pack is arranged too neatly to have been dropped in panic.",
+        "Food is stacked by expiration date. Instruments are cleaned. The emergency whistle has been removed."
+      ],
+      "choicePrompts": [
+        "Read the pack as a deliberate message.",
+        "Search for the owner before touching the arrangement.",
+        "Secure the evidence and continue under heightened watch."
+      ],
+      "exceptionalLines": [
+        "Pack Beside the Line: the acting recruit solves the crisis cleanly and creates an additional route or civic advantage.",
+        "The solution changes the route in the Guild\u2019s favor and becomes a memory the participants can explain later."
+      ],
+      "fullSuccessLines": [
+        "Pack Beside the Line: the problem is resolved without losing supplies or momentum.",
+        "The Union pays the understood cost and keeps control of the situation."
+      ],
+      "successWithCostLines": [
+        "Pack Beside the Line: the objective is preserved, but the Union pays in fatigue, supplies, or urgency.",
+        "The immediate problem is solved, but the route records the cost in supplies, fatigue, urgency, or trust."
+      ],
+      "setbackLines": [
+        "Pack Beside the Line: the Guild continues after a recoverable setback and gains a memory from the attempt.",
+        "The Guild retains a recovery path; no recruit is lost and the committed result cannot be rerolled."
+      ],
+      "severeSetbackLines": [
+        "Pack Beside the Line: the route becomes harder, but no permanent member is lost and a recovery path remains.",
+        "The failure creates injury, pressure, or a later obligation\u2014not involuntary departure or permanent deletion."
+      ],
+      "relationshipMemory": "They faced \u201cPack Beside the Line\u201d together.",
+      "costsOperation": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "EVENT_FOUND_APPRENTICE",
+      "title": "The Apprentice Who Stayed Quiet",
+      "speakerTag": "Apprentice",
+      "openingLines": [
+        "A young surveyor hid rather than follow the false marks and now fears the rest followed them.",
+        "The apprentice speaks only after every Union lowers its weapon. \u201cI knew the marks were wrong. I did not know being right would leave me alone.\u201d"
+      ],
+      "choicePrompts": [
+        "Stabilize them and ask for the last confirmed route.",
+        "Let a recruit with a similar fear take the lead.",
+        "Escort them to camp before continuing the search."
+      ],
+      "exceptionalLines": [
+        "The Apprentice Who Stayed Quiet: the acting recruit solves the crisis cleanly and creates an additional route or civic advantage.",
+        "The solution changes the route in the Guild\u2019s favor and becomes a memory the participants can explain later."
+      ],
+      "fullSuccessLines": [
+        "The Apprentice Who Stayed Quiet: the problem is resolved without losing supplies or momentum.",
+        "The Union pays the understood cost and keeps control of the situation."
+      ],
+      "successWithCostLines": [
+        "The Apprentice Who Stayed Quiet: the objective is preserved, but the Union pays in fatigue, supplies, or urgency.",
+        "The immediate problem is solved, but the route records the cost in supplies, fatigue, urgency, or trust."
+      ],
+      "setbackLines": [
+        "The Apprentice Who Stayed Quiet: the Guild continues after a recoverable setback and gains a memory from the attempt.",
+        "The Guild retains a recovery path; no recruit is lost and the committed result cannot be rerolled."
+      ],
+      "severeSetbackLines": [
+        "The Apprentice Who Stayed Quiet: the route becomes harder, but no permanent member is lost and a recovery path remains.",
+        "The failure creates injury, pressure, or a later obligation\u2014not involuntary departure or permanent deletion."
+      ],
+      "relationshipMemory": "They faced \u201cThe Apprentice Who Stayed Quiet\u201d together.",
+      "costsOperation": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "EVENT_DAMAGED_WAGON",
+      "title": "Axle in the Dust",
+      "speakerTag": "Convoy Driver",
+      "openingLines": [
+        "The lead wagon\u2019s axle is split and the convoy wants to abandon it before the next attack.",
+        "The axle has split lengthwise. The driver is already cutting the team loose before the next signal sounds."
+      ],
+      "choicePrompts": [
+        "Repair the axle in place.",
+        "Redistribute the cargo and abandon only the frame.",
+        "Form a moving Guard while the convoy makes a temporary repair."
+      ],
+      "exceptionalLines": [
+        "Axle in the Dust: the acting recruit solves the crisis cleanly and creates an additional route or civic advantage.",
+        "The solution changes the route in the Guild\u2019s favor and becomes a memory the participants can explain later."
+      ],
+      "fullSuccessLines": [
+        "Axle in the Dust: the problem is resolved without losing supplies or momentum.",
+        "The Union pays the understood cost and keeps control of the situation."
+      ],
+      "successWithCostLines": [
+        "Axle in the Dust: the objective is preserved, but the Union pays in fatigue, supplies, or urgency.",
+        "The immediate problem is solved, but the route records the cost in supplies, fatigue, urgency, or trust."
+      ],
+      "setbackLines": [
+        "Axle in the Dust: the Guild continues after a recoverable setback and gains a memory from the attempt.",
+        "The Guild retains a recovery path; no recruit is lost and the committed result cannot be rerolled."
+      ],
+      "severeSetbackLines": [
+        "Axle in the Dust: the route becomes harder, but no permanent member is lost and a recovery path remains.",
+        "The failure creates injury, pressure, or a later obligation\u2014not involuntary departure or permanent deletion."
+      ],
+      "relationshipMemory": "They faced \u201cAxle in the Dust\u201d together.",
+      "costsOperation": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "EVENT_BLOCKED_CULVERT",
+      "title": "Water Across the Relief Road",
+      "speakerTag": "Relief Road",
+      "openingLines": [
+        "A blocked culvert is turning the route into mud as the convoy approaches.",
+        "Water spreads across the road in a brown sheet, hiding both the wheel ruts and the depth."
+      ],
+      "choicePrompts": [
+        "Clear the culvert and accept the delay.",
+        "Build a temporary crossing.",
+        "Scout a dry bypass while the convoy holds."
+      ],
+      "exceptionalLines": [
+        "Water Across the Relief Road: the acting recruit solves the crisis cleanly and creates an additional route or civic advantage.",
+        "The solution changes the route in the Guild\u2019s favor and becomes a memory the participants can explain later."
+      ],
+      "fullSuccessLines": [
+        "Water Across the Relief Road: the problem is resolved without losing supplies or momentum.",
+        "The Union pays the understood cost and keeps control of the situation."
+      ],
+      "successWithCostLines": [
+        "Water Across the Relief Road: the objective is preserved, but the Union pays in fatigue, supplies, or urgency.",
+        "The immediate problem is solved, but the route records the cost in supplies, fatigue, urgency, or trust."
+      ],
+      "setbackLines": [
+        "Water Across the Relief Road: the Guild continues after a recoverable setback and gains a memory from the attempt.",
+        "The Guild retains a recovery path; no recruit is lost and the committed result cannot be rerolled."
+      ],
+      "severeSetbackLines": [
+        "Water Across the Relief Road: the route becomes harder, but no permanent member is lost and a recovery path remains.",
+        "The failure creates injury, pressure, or a later obligation\u2014not involuntary departure or permanent deletion."
+      ],
+      "relationshipMemory": "They faced \u201cWater Across the Relief Road\u201d together.",
+      "costsOperation": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "EVENT_STOLEN_MEDICINE_CRATE",
+      "title": "Tracks Leaving the Convoy",
+      "speakerTag": "Quartermaster",
+      "openingLines": [
+        "One medicine crate is missing, and the tracks lead away from the defended road.",
+        "The inventory cord has been cut cleanly. Small tracks leave the defended side of the road and disappear among larger ones."
+      ],
+      "choicePrompts": [
+        "Recover the medicine before the convoy moves.",
+        "Set a guarded decoy and wait for the thieves to return.",
+        "Mark the loss, protect the remaining cargo, and keep the schedule."
+      ],
+      "exceptionalLines": [
+        "Tracks Leaving the Convoy: the acting recruit solves the crisis cleanly and creates an additional route or civic advantage.",
+        "The solution changes the route in the Guild\u2019s favor and becomes a memory the participants can explain later."
+      ],
+      "fullSuccessLines": [
+        "Tracks Leaving the Convoy: the problem is resolved without losing supplies or momentum.",
+        "The Union pays the understood cost and keeps control of the situation."
+      ],
+      "successWithCostLines": [
+        "Tracks Leaving the Convoy: the objective is preserved, but the Union pays in fatigue, supplies, or urgency.",
+        "The immediate problem is solved, but the route records the cost in supplies, fatigue, urgency, or trust."
+      ],
+      "setbackLines": [
+        "Tracks Leaving the Convoy: the Guild continues after a recoverable setback and gains a memory from the attempt.",
+        "The Guild retains a recovery path; no recruit is lost and the committed result cannot be rerolled."
+      ],
+      "severeSetbackLines": [
+        "Tracks Leaving the Convoy: the route becomes harder, but no permanent member is lost and a recovery path remains.",
+        "The failure creates injury, pressure, or a later obligation\u2014not involuntary departure or permanent deletion."
+      ],
+      "relationshipMemory": "They faced \u201cTracks Leaving the Convoy\u201d together.",
+      "costsOperation": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "EVENT_PANICKED_DRAFT_BEASTS",
+      "title": "The Team Breaks Formation",
+      "speakerTag": "Convoy Team",
+      "openingLines": [
+        "The draft animals panic at a Gate Gnawer signal and begin pulling the wagons apart.",
+        "The animals react before the people hear the signal. Harnesses snap tight and the wagons begin pulling in three directions."
+      ],
+      "choicePrompts": [
+        "Calm the team from the front.",
+        "Cut one harness to save the rest.",
+        "Break the enemy signal while the Guard holds the wagons."
+      ],
+      "exceptionalLines": [
+        "The Team Breaks Formation: the acting recruit solves the crisis cleanly and creates an additional route or civic advantage.",
+        "The solution changes the route in the Guild\u2019s favor and becomes a memory the participants can explain later."
+      ],
+      "fullSuccessLines": [
+        "The Team Breaks Formation: the problem is resolved without losing supplies or momentum.",
+        "The Union pays the understood cost and keeps control of the situation."
+      ],
+      "successWithCostLines": [
+        "The Team Breaks Formation: the objective is preserved, but the Union pays in fatigue, supplies, or urgency.",
+        "The immediate problem is solved, but the route records the cost in supplies, fatigue, urgency, or trust."
+      ],
+      "setbackLines": [
+        "The Team Breaks Formation: the Guild continues after a recoverable setback and gains a memory from the attempt.",
+        "The Guild retains a recovery path; no recruit is lost and the committed result cannot be rerolled."
+      ],
+      "severeSetbackLines": [
+        "The Team Breaks Formation: the route becomes harder, but no permanent member is lost and a recovery path remains.",
+        "The failure creates injury, pressure, or a later obligation\u2014not involuntary departure or permanent deletion."
+      ],
+      "relationshipMemory": "They faced \u201cThe Team Breaks Formation\u201d together.",
+      "costsOperation": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "EVENT_CONVOY_DISPUTE",
+      "title": "Who Gets the Last Guard",
+      "speakerTag": "Drivers",
+      "openingLines": [
+        "Drivers argue over which wagon deserves the strongest Union escort.",
+        "Every driver can explain why their wagon deserves the strongest escort. None of them can explain which other wagon should be lost."
+      ],
+      "choicePrompts": [
+        "Assign protection by civic need, not volume.",
+        "Rotate the Guard between threatened wagons.",
+        "Create one convoy formation and make every driver follow it."
+      ],
+      "exceptionalLines": [
+        "Who Gets the Last Guard: the acting recruit solves the crisis cleanly and creates an additional route or civic advantage.",
+        "The solution changes the route in the Guild\u2019s favor and becomes a memory the participants can explain later."
+      ],
+      "fullSuccessLines": [
+        "Who Gets the Last Guard: the problem is resolved without losing supplies or momentum.",
+        "The Union pays the understood cost and keeps control of the situation."
+      ],
+      "successWithCostLines": [
+        "Who Gets the Last Guard: the objective is preserved, but the Union pays in fatigue, supplies, or urgency.",
+        "The immediate problem is solved, but the route records the cost in supplies, fatigue, urgency, or trust."
+      ],
+      "setbackLines": [
+        "Who Gets the Last Guard: the Guild continues after a recoverable setback and gains a memory from the attempt.",
+        "The Guild retains a recovery path; no recruit is lost and the committed result cannot be rerolled."
+      ],
+      "severeSetbackLines": [
+        "Who Gets the Last Guard: the route becomes harder, but no permanent member is lost and a recovery path remains.",
+        "The failure creates injury, pressure, or a later obligation\u2014not involuntary departure or permanent deletion."
+      ],
+      "relationshipMemory": "They faced \u201cWho Gets the Last Guard\u201d together.",
+      "costsOperation": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "EVENT_NIGHT_SIGNAL",
+      "title": "Three Lights Beyond the Road",
+      "speakerTag": "Distant Lights",
+      "openingLines": [
+        "Three distant lights answer the convoy lanterns in a pattern no relief crew recognizes.",
+        "Three lights answer the convoy lanterns: two high, one low, then darkness. No relief code uses that pattern."
+      ],
+      "choicePrompts": [
+        "Answer with a controlled false pattern.",
+        "Extinguish the convoy lights and reposition quietly.",
+        "Send a scout wide while the Unions prepare for contact."
+      ],
+      "exceptionalLines": [
+        "Three Lights Beyond the Road: the acting recruit solves the crisis cleanly and creates an additional route or civic advantage.",
+        "The solution changes the route in the Guild\u2019s favor and becomes a memory the participants can explain later."
+      ],
+      "fullSuccessLines": [
+        "Three Lights Beyond the Road: the problem is resolved without losing supplies or momentum.",
+        "The Union pays the understood cost and keeps control of the situation."
+      ],
+      "successWithCostLines": [
+        "Three Lights Beyond the Road: the objective is preserved, but the Union pays in fatigue, supplies, or urgency.",
+        "The immediate problem is solved, but the route records the cost in supplies, fatigue, urgency, or trust."
+      ],
+      "setbackLines": [
+        "Three Lights Beyond the Road: the Guild continues after a recoverable setback and gains a memory from the attempt.",
+        "The Guild retains a recovery path; no recruit is lost and the committed result cannot be rerolled."
+      ],
+      "severeSetbackLines": [
+        "Three Lights Beyond the Road: the route becomes harder, but no permanent member is lost and a recovery path remains.",
+        "The failure creates injury, pressure, or a later obligation\u2014not involuntary departure or permanent deletion."
+      ],
+      "relationshipMemory": "They faced \u201cThree Lights Beyond the Road\u201d together.",
+      "costsOperation": false,
+      "canCauseDeparture": false
+    }
+  ],
+  "relationshipScenes": [
+    {
+      "id": "REL_017F_PROTECTED",
+      "triggerTags": [
+        "protected"
+      ],
+      "title": "The Space Behind the Shield",
+      "setup": "One member remembers the exact moment another chose to take the dangerous position.",
+      "firstLine": "\u201cYou did not have to stand there.\u201d",
+      "secondLine": "\u201cI know. That is why it meant something.\u201d",
+      "closing": "Protection becomes trust without demanding an upkeep day.",
+      "costsOperation": false,
+      "expires": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "REL_017F_HEALED",
+      "triggerTags": [
+        "heal"
+      ],
+      "title": "Hands That Did Not Shake",
+      "setup": "A difficult recovery leaves both members aware of what competence feels like under pressure.",
+      "firstLine": "\u201cYou kept talking until I could hear the words again.\u201d",
+      "secondLine": "\u201cI needed you to keep answering.\u201d",
+      "closing": "Restoration becomes a shared memory, not a maintenance meter.",
+      "costsOperation": false,
+      "expires": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "REL_017F_RESCUE",
+      "triggerTags": [
+        "rescue"
+      ],
+      "title": "No One Left Under the Gate",
+      "setup": "The rescue is over, but neither member has forgotten who turned back.",
+      "firstLine": "\u201cThe route was already closing.\u201d",
+      "secondLine": "\u201cYou were still on the route.\u201d",
+      "closing": "The scene may be viewed now or later with no penalty.",
+      "costsOperation": false,
+      "expires": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "REL_017F_CAMP",
+      "triggerTags": [
+        "camp"
+      ],
+      "title": "The Map Between Them",
+      "setup": "At camp, two members compare what the route cost them and what it spared.",
+      "firstLine": "\u201cI still think the faster road was possible.\u201d",
+      "secondLine": "\u201cPossible is not the same as responsible.\u201d",
+      "closing": "Disagreement becomes a useful Union memory with a recovery path.",
+      "costsOperation": false,
+      "expires": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "REL_017F_FAILURE",
+      "triggerTags": [
+        "failure"
+      ],
+      "title": "What We Carry Back",
+      "setup": "A setback gives the members a chance to name the mistake without assigning ownership of the person.",
+      "firstLine": "\u201cI made the call.\u201d",
+      "secondLine": "\u201cThen help me make the next one better.\u201d",
+      "closing": "Failure can deepen identity without causing departure.",
+      "costsOperation": false,
+      "expires": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "REL_017F_VICTORY",
+      "triggerTags": [
+        "victory"
+      ],
+      "title": "After the Noise Stops",
+      "setup": "Victory leaves a quiet moment in which the members notice who they became during the fight.",
+      "firstLine": "\u201cWas that the plan?\u201d",
+      "secondLine": "\u201cIt became the plan when you were there.\u201d",
+      "closing": "A future Link Art or Union identity hook becomes possible.",
+      "costsOperation": false,
+      "expires": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "REL_017F_TRAINING",
+      "triggerTags": [
+        "training"
+      ],
+      "title": "Again, but Correctly",
+      "setup": "Training reveals the difference between repeating a motion and teaching it.",
+      "firstLine": "\u201cYou keep correcting the ending.\u201d",
+      "secondLine": "\u201cBecause the ending is where your Union has to live.\u201d",
+      "closing": "Mentorship accelerates legal discovery but does not grant mastery for free.",
+      "costsOperation": false,
+      "expires": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "REL_017F_FORGE",
+      "triggerTags": [
+        "forge"
+      ],
+      "title": "The Weight of a New Weapon",
+      "setup": "A staff assignment becomes personal when the equipment is meant for someone the smith knows.",
+      "firstLine": "\u201cIt balances toward your old injury.\u201d",
+      "secondLine": "\u201cYou remembered that?\u201d",
+      "closing": "Facility work creates character content without removing deployability.",
+      "costsOperation": false,
+      "expires": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "REL_017F_INFIRMARY",
+      "triggerTags": [
+        "infirmary"
+      ],
+      "title": "Recovery Is Work",
+      "setup": "Two members meet while one is recovering and the other is assigned to help.",
+      "firstLine": "\u201cI hate being the person everyone waits for.\u201d",
+      "secondLine": "\u201cThen recover for the people who are not asking you to rush.\u201d",
+      "closing": "Injury creates a playable recovery path, not permanent loss.",
+      "costsOperation": false,
+      "expires": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "REL_017F_SCOUT",
+      "triggerTags": [
+        "scout"
+      ],
+      "title": "The Route No One Saw",
+      "setup": "A scout explains why they withheld certainty instead of selling confidence.",
+      "firstLine": "\u201cYou said the path was unclear.\u201d",
+      "secondLine": "\u201cIt was. You trusted me anyway.\u201d",
+      "closing": "Honest uncertainty becomes a leadership memory.",
+      "costsOperation": false,
+      "expires": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "REL_017F_CONSTRUCTION",
+      "triggerTags": [
+        "construction"
+      ],
+      "title": "A Roof With Their Names Under It",
+      "setup": "Members watch the first completed facility take shape around the old Hall.",
+      "firstLine": "\u201cIt looks smaller than I imagined.\u201d",
+      "secondLine": "\u201cThat means we can build the next thing.\u201d",
+      "closing": "City progress becomes a shared institutional memory.",
+      "costsOperation": false,
+      "expires": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "REL_017F_EQUIPMENT",
+      "triggerTags": [
+        "equipment"
+      ],
+      "title": "Permission Before Possession",
+      "setup": "A recruit asks for equipment without taking control away from the player.",
+      "firstLine": "\u201cMay I try it on the next operation?\u201d",
+      "secondLine": "\u201cAsk again after we compare the full loadout.\u201d",
+      "closing": "Equipment requests create dialogue while ownership remains explicit.",
+      "costsOperation": false,
+      "expires": false,
+      "canCauseDeparture": false
+    }
+  ],
+  "facilities": [
+    {
+      "id": "GC017D_BUILD_CONTRACT_HOUSE",
+      "displayName": "Contract House",
+      "districtId": "DISTRICT_GUILD_CORE",
+      "constructionStart": "A stable table, sponsor seals, and route ledgers turn rumor into accountable work.",
+      "constructionComplete": "Contracts arrive with better context, consequences, and sponsor information.",
+      "staffedLine": "A clerk pins objective changes beside the original contract instead of hiding them.",
+      "upgradeLine": "Contract House gains a clearer specialization without erasing the original function.",
+      "ambientActions": [
+        "A clerk pins objective changes beside the original contract instead of hiding them.",
+        "A member reviews how Contract House changes the next operation.",
+        "Citizens begin treating Contract House as part of the settlement rather than a temporary repair."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_CONTRACT_HOUSE/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_CONTRACT_HOUSE/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_CONTRACT_HOUSE/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_CONTRACT_HOUSE/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017D_BUILD_FORGE",
+      "displayName": "Forge",
+      "districtId": "DISTRICT_CRAFT",
+      "constructionStart": "The hearth is rebuilt around safe airflow, locked storage, and a workbench that respects item ownership.",
+      "constructionComplete": "Repair, comparison, upgrading, and evolution become stronger.",
+      "staffedLine": "A smith compares two weapon paths before touching the player\u2019s equipment.",
+      "upgradeLine": "Forge gains a clearer specialization without erasing the original function.",
+      "ambientActions": [
+        "A smith compares two weapon paths before touching the player\u2019s equipment.",
+        "A member reviews how Forge changes the next operation.",
+        "Citizens begin treating Forge as part of the settlement rather than a temporary repair."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_FORGE/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_FORGE/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_FORGE/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_FORGE/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017D_BUILD_GATE_RESEARCH",
+      "displayName": "Gate Research Annex",
+      "districtId": "DISTRICT_GATE_DEFENSE",
+      "constructionStart": "The Annex receives shielded instruments and a chamber where Gate behavior can be studied without calling it safe.",
+      "constructionComplete": "Later expedition reach and Gateworks research become possible.",
+      "staffedLine": "A researcher records a pulse and leaves the conclusion blank until the evidence earns one.",
+      "upgradeLine": "Gate Research Annex gains a clearer specialization without erasing the original function.",
+      "ambientActions": [
+        "A researcher records a pulse and leaves the conclusion blank until the evidence earns one.",
+        "A member reviews how Gate Research Annex changes the next operation.",
+        "Citizens begin treating Gate Research Annex as part of the settlement rather than a temporary repair."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_GATE_RESEARCH/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_GATE_RESEARCH/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_GATE_RESEARCH/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_GATE_RESEARCH/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017D_BUILD_GUILD_HOUSING",
+      "displayName": "Guild Housing",
+      "districtId": "DISTRICT_CARE_COMMONS",
+      "constructionStart": "Curtains, bunks, storage, and quiet space give permanent members somewhere that belongs to them.",
+      "constructionComplete": "Roster capacity and recovery comfort improve.",
+      "staffedLine": "A recruit moves a keepsake from their pack to a shelf.",
+      "upgradeLine": "Guild Housing gains a clearer specialization without erasing the original function.",
+      "ambientActions": [
+        "A recruit moves a keepsake from their pack to a shelf.",
+        "A member reviews how Guild Housing changes the next operation.",
+        "Citizens begin treating Guild Housing as part of the settlement rather than a temporary repair."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_GUILD_HOUSING/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_GUILD_HOUSING/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_GUILD_HOUSING/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_GUILD_HOUSING/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017D_BUILD_HERBAL_GARDEN",
+      "displayName": "Herbal Garden",
+      "districtId": "DISTRICT_CARE_COMMONS",
+      "constructionStart": "Raised beds and warded soil turn scavenged remedies into a dependable local supply.",
+      "constructionComplete": "Restoration supplies and Infirmary adjacency improve.",
+      "staffedLine": "A caretaker labels what heals, what numbs, and what only smells reassuring.",
+      "upgradeLine": "Herbal Garden gains a clearer specialization without erasing the original function.",
+      "ambientActions": [
+        "A caretaker labels what heals, what numbs, and what only smells reassuring.",
+        "A member reviews how Herbal Garden changes the next operation.",
+        "Citizens begin treating Herbal Garden as part of the settlement rather than a temporary repair."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_HERBAL_GARDEN/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_HERBAL_GARDEN/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_HERBAL_GARDEN/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_HERBAL_GARDEN/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017D_BUILD_INFIRMARY",
+      "displayName": "Infirmary",
+      "districtId": "DISTRICT_CARE_COMMONS",
+      "constructionStart": "Clean water, stable beds, and room for difficult recovery replace the corner where injuries were merely endured.",
+      "constructionComplete": "Injuries become more manageable and expedition medicine improves.",
+      "staffedLine": "A medic checks progress without promising a shortcut.",
+      "upgradeLine": "Infirmary gains a clearer specialization without erasing the original function.",
+      "ambientActions": [
+        "A medic checks progress without promising a shortcut.",
+        "A member reviews how Infirmary changes the next operation.",
+        "Citizens begin treating Infirmary as part of the settlement rather than a temporary repair."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_INFIRMARY/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_INFIRMARY/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_INFIRMARY/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_INFIRMARY/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017D_BUILD_LIBRARY_ARCHIVE",
+      "displayName": "Library / Archive",
+      "districtId": "DISTRICT_KNOWLEDGE",
+      "constructionStart": "Recovered ledgers, memories, and Art notes gain shelves before they become another pile of lost history.",
+      "constructionComplete": "Chronicle, mentorship, research, and Art hints improve.",
+      "staffedLine": "An archivist links a field memory to an old formation record.",
+      "upgradeLine": "Library / Archive gains a clearer specialization without erasing the original function.",
+      "ambientActions": [
+        "An archivist links a field memory to an old formation record.",
+        "A member reviews how Library / Archive changes the next operation.",
+        "Citizens begin treating Library / Archive as part of the settlement rather than a temporary repair."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_LIBRARY_ARCHIVE/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_LIBRARY_ARCHIVE/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_LIBRARY_ARCHIVE/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_LIBRARY_ARCHIVE/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017D_BUILD_MARKET",
+      "displayName": "Market",
+      "districtId": "DISTRICT_CRAFT",
+      "constructionStart": "Stalls are marked for legal stock, salvage, and civic trade instead of opportunistic scarcity.",
+      "constructionComplete": "Stock variety, selling, and material conversion improve.",
+      "staffedLine": "A merchant posts the Guild\u2019s actual needs beside the day\u2019s prices.",
+      "upgradeLine": "Market gains a clearer specialization without erasing the original function.",
+      "ambientActions": [
+        "A merchant posts the Guild\u2019s actual needs beside the day\u2019s prices.",
+        "A member reviews how Market changes the next operation.",
+        "Citizens begin treating Market as part of the settlement rather than a temporary repair."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_MARKET/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_MARKET/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_MARKET/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_MARKET/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017D_BUILD_MYSTIC_ACADEMY",
+      "displayName": "Mystic Academy",
+      "districtId": "DISTRICT_KNOWLEDGE",
+      "constructionStart": "Ward anchors and safe casting lines are built before the first formal lesson begins.",
+      "constructionComplete": "Mystic research and legal school practice become available.",
+      "staffedLine": "A caster repeats the same principle through a different school instead of recoloring one spell.",
+      "upgradeLine": "Mystic Academy gains a clearer specialization without erasing the original function.",
+      "ambientActions": [
+        "A caster repeats the same principle through a different school instead of recoloring one spell.",
+        "A member reviews how Mystic Academy changes the next operation.",
+        "Citizens begin treating Mystic Academy as part of the settlement rather than a temporary repair."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_MYSTIC_ACADEMY/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_MYSTIC_ACADEMY/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_MYSTIC_ACADEMY/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_MYSTIC_ACADEMY/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017D_BUILD_RECRUITMENT_OFFICE",
+      "displayName": "Recruitment Office",
+      "districtId": "DISTRICT_GUILD_CORE",
+      "constructionStart": "Boards are dried, ledgers are repaired, and a door is cleared for people who need to be seen honestly.",
+      "constructionComplete": "Applicant dossiers become clearer and the board gains room to grow.",
+      "staffedLine": "A recruiter compares observations without turning uncertainty into rarity.",
+      "upgradeLine": "Recruitment Office gains a clearer specialization without erasing the original function.",
+      "ambientActions": [
+        "A recruiter compares observations without turning uncertainty into rarity.",
+        "A member reviews how Recruitment Office changes the next operation.",
+        "Citizens begin treating Recruitment Office as part of the settlement rather than a temporary repair."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_RECRUITMENT_OFFICE/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_RECRUITMENT_OFFICE/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_RECRUITMENT_OFFICE/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_RECRUITMENT_OFFICE/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017D_BUILD_SCOUT_LODGE",
+      "displayName": "Scout Lodge",
+      "districtId": "DISTRICT_GATE_DEFENSE",
+      "constructionStart": "Maps, field reports, and sighting boards make uncertainty visible instead of pretending it is solved.",
+      "constructionComplete": "Fog reveal, route detail, and ambush resistance improve.",
+      "staffedLine": "A scout marks what is known, suspected, and deliberately unconfirmed.",
+      "upgradeLine": "Scout Lodge gains a clearer specialization without erasing the original function.",
+      "ambientActions": [
+        "A scout marks what is known, suspected, and deliberately unconfirmed.",
+        "A member reviews how Scout Lodge changes the next operation.",
+        "Citizens begin treating Scout Lodge as part of the settlement rather than a temporary repair."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_SCOUT_LODGE/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_SCOUT_LODGE/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_SCOUT_LODGE/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_SCOUT_LODGE/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017D_BUILD_SUPPLY_DEPOT",
+      "displayName": "Supply Depot",
+      "districtId": "DISTRICT_GATE_DEFENSE",
+      "constructionStart": "Crates, harnesses, remedies, and reserve tools are arranged by operation rather than by whoever last touched them.",
+      "constructionComplete": "Starting supplies and reserve logistics improve.",
+      "staffedLine": "A logistician rebuilds a supply package after seeing what the last route consumed.",
+      "upgradeLine": "Supply Depot gains a clearer specialization without erasing the original function.",
+      "ambientActions": [
+        "A logistician rebuilds a supply package after seeing what the last route consumed.",
+        "A member reviews how Supply Depot changes the next operation.",
+        "Citizens begin treating Supply Depot as part of the settlement rather than a temporary repair."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_SUPPLY_DEPOT/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_SUPPLY_DEPOT/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_SUPPLY_DEPOT/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_SUPPLY_DEPOT/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017D_BUILD_TAVERN_COMMONS",
+      "displayName": "Tavern / Commons",
+      "districtId": "DISTRICT_CARE_COMMONS",
+      "constructionStart": "A communal table and warm hearth create a place where rumors and memories can arrive without consuming a day.",
+      "constructionComplete": "Rumors, applicants, social scenes, and morale baseline improve.",
+      "staffedLine": "Two members finish a free Hall scene while the next operation remains available.",
+      "upgradeLine": "Tavern / Commons gains a clearer specialization without erasing the original function.",
+      "ambientActions": [
+        "Two members finish a free Hall scene while the next operation remains available.",
+        "A member reviews how Tavern / Commons changes the next operation.",
+        "Citizens begin treating Tavern / Commons as part of the settlement rather than a temporary repair."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_TAVERN_COMMONS/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_TAVERN_COMMONS/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_TAVERN_COMMONS/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_TAVERN_COMMONS/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017D_BUILD_TRAINING_GROUNDS",
+      "displayName": "Training Grounds",
+      "districtId": "DISTRICT_KNOWLEDGE",
+      "constructionStart": "The ground is leveled, safe lanes are marked, and weapon families receive distinct practice space.",
+      "constructionComplete": "Meaningful practice creates discovery opportunities without free mastery.",
+      "staffedLine": "A mentor corrects an approach, not a button sequence.",
+      "upgradeLine": "Training Grounds gains a clearer specialization without erasing the original function.",
+      "ambientActions": [
+        "A mentor corrects an approach, not a button sequence.",
+        "A member reviews how Training Grounds changes the next operation.",
+        "Citizens begin treating Training Grounds as part of the settlement rather than a temporary repair."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_TRAINING_GROUNDS/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_TRAINING_GROUNDS/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_TRAINING_GROUNDS/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_TRAINING_GROUNDS/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017D_BUILD_UNION_COMMAND",
+      "displayName": "Union Command",
+      "districtId": "DISTRICT_GUILD_CORE",
+      "constructionStart": "Formation marks are set into the floor around a table large enough for multiple Union routes.",
+      "constructionComplete": "Union planning, formation practice, and doctrine tools improve.",
+      "staffedLine": "A leader rehearses how one Union supports another without selecting anyone\u2019s exact Art.",
+      "upgradeLine": "Union Command gains a clearer specialization without erasing the original function.",
+      "ambientActions": [
+        "A leader rehearses how one Union supports another without selecting anyone\u2019s exact Art.",
+        "A member reviews how Union Command changes the next operation.",
+        "Citizens begin treating Union Command as part of the settlement rather than a temporary repair."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_UNION_COMMAND/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_UNION_COMMAND/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_UNION_COMMAND/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_UNION_COMMAND/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017D_BUILD_WAREHOUSE",
+      "displayName": "Warehouse",
+      "districtId": "DISTRICT_CRAFT",
+      "constructionStart": "Dry shelves and accountable ledgers stop hard-won material from becoming invisible waste.",
+      "constructionComplete": "Storage, supply capacity, and material efficiency improve.",
+      "staffedLine": "A quartermaster separates city material from expedition supply.",
+      "upgradeLine": "Warehouse gains a clearer specialization without erasing the original function.",
+      "ambientActions": [
+        "A quartermaster separates city material from expedition supply.",
+        "A member reviews how Warehouse changes the next operation.",
+        "Citizens begin treating Warehouse as part of the settlement rather than a temporary repair."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_WAREHOUSE/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_WAREHOUSE/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_WAREHOUSE/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_WAREHOUSE/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017D_BUILD_WATCHTOWER",
+      "displayName": "Watchtower",
+      "districtId": "DISTRICT_GATE_DEFENSE",
+      "constructionStart": "The tower rises only high enough to see trouble before it reaches the street.",
+      "constructionComplete": "Early warning, enemy intelligence, and city defense improve.",
+      "staffedLine": "A watcher compares a distant signal to the expedition ledger.",
+      "upgradeLine": "Watchtower gains a clearer specialization without erasing the original function.",
+      "ambientActions": [
+        "A watcher compares a distant signal to the expedition ledger.",
+        "A member reviews how Watchtower changes the next operation.",
+        "Citizens begin treating Watchtower as part of the settlement rather than a temporary repair."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_WATCHTOWER/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_WATCHTOWER/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_WATCHTOWER/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_WATCHTOWER/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017D_BUILD_WORKSHOP",
+      "displayName": "Workshop",
+      "districtId": "DISTRICT_CRAFT",
+      "constructionStart": "Benches, clamps, lenses, and test rigs give engineering ideas somewhere safer than the expedition route.",
+      "constructionComplete": "Engineering gear and event solutions expand.",
+      "staffedLine": "An engineer rebuilds a board solution as a reusable device.",
+      "upgradeLine": "Workshop gains a clearer specialization without erasing the original function.",
+      "ambientActions": [
+        "An engineer rebuilds a board solution as a reusable device.",
+        "A member reviews how Workshop changes the next operation.",
+        "Citizens begin treating Workshop as part of the settlement rather than a temporary repair."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_WORKSHOP/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_WORKSHOP/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_WORKSHOP/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017F/Facilities/GC017D_BUILD_WORKSHOP/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017H_BUILD_AEGIS_WALLWORKS",
+      "displayName": "Aegis Wallworks",
+      "districtId": "DISTRICT_GATE_DEFENSE",
+      "constructionStart": "Repair crews mark weak masonry and future brace points.",
+      "constructionComplete": "Guard preparation, city defense, and Warding growth improve.",
+      "staffedLine": "A wall captain schedules repair and brace teams across threatened lanes.",
+      "upgradeLine": "Aegis Wallworks develops layered walls and mobile barriers.",
+      "ambientActions": [
+        "A wall captain schedules repair and brace teams across threatened lanes.",
+        "A member reviews how Aegis Wallworks changes the next operation.",
+        "Citizens begin treating Aegis Wallworks as part of Skyhome\u2019s defense network."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_AEGIS_WALLWORKS/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_AEGIS_WALLWORKS/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_AEGIS_WALLWORKS/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_AEGIS_WALLWORKS/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017H_BUILD_ALCHEMY_LAB",
+      "displayName": "Alchemy Laboratory",
+      "districtId": "DISTRICT_KNOWLEDGE",
+      "constructionStart": "Ventilated benches and sealed stores are prepared for battle mixtures.",
+      "constructionComplete": "Mystic, Restoration, and resupply preparations improve.",
+      "staffedLine": "An alchemist tracks doses, risks, and legal expedition use.",
+      "upgradeLine": "Alchemy Laboratory develops advanced support mixtures.",
+      "ambientActions": [
+        "An alchemist tracks doses, risks, and legal expedition use.",
+        "A member reviews how Alchemy Laboratory changes the next operation.",
+        "Citizens begin treating Alchemy Laboratory as part of Skyhome\u2019s defense network."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_ALCHEMY_LAB/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_ALCHEMY_LAB/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_ALCHEMY_LAB/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_ALCHEMY_LAB/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017H_BUILD_ARTISANS_HALL",
+      "displayName": "Artisans' Hall",
+      "districtId": "DISTRICT_CRAFT_QUARTER",
+      "constructionStart": "Craft crews claim a shared work floor and begin cataloguing civic repairs.",
+      "constructionComplete": "Repair teams and builders move between projects with less waste.",
+      "staffedLine": "A foreperson turns staff duty into visible city and Hall progress.",
+      "upgradeLine": "Artisans\u2019 Hall develops specialized civic and defensive crews.",
+      "ambientActions": [
+        "A foreperson turns staff duty into visible city and Hall progress.",
+        "A member reviews how Artisans' Hall changes the next operation.",
+        "Citizens begin treating Artisans' Hall as part of Skyhome\u2019s defense network."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_ARTISANS_HALL/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_ARTISANS_HALL/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_ARTISANS_HALL/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_ARTISANS_HALL/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017H_BUILD_BALLISTA_FOUNDRY",
+      "displayName": "Ballista Foundry",
+      "districtId": "DISTRICT_CRAFT_QUARTER",
+      "constructionStart": "Heavy frames and torsion arms are assembled behind reinforced screens.",
+      "constructionComplete": "City-defense crews can pressure enemy formations before a breach battle.",
+      "staffedLine": "A siege engineer maintains crews, bolts, and firing lanes.",
+      "upgradeLine": "Ballista Foundry develops stronger anti-formation engines.",
+      "ambientActions": [
+        "A siege engineer maintains crews, bolts, and firing lanes.",
+        "A member reviews how Ballista Foundry changes the next operation.",
+        "Citizens begin treating Ballista Foundry as part of Skyhome\u2019s defense network."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_BALLISTA_FOUNDRY/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_BALLISTA_FOUNDRY/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_BALLISTA_FOUNDRY/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_BALLISTA_FOUNDRY/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017H_BUILD_CHRONICLE_PLAZA",
+      "displayName": "Chronicle Plaza",
+      "districtId": "DISTRICT_GUILD_CORE",
+      "constructionStart": "A public square is cleared for names, memorials, and defense drills.",
+      "constructionComplete": "Historical Chronicles and civic training become visible Guild resources.",
+      "staffedLine": "A chronicler records service without turning memory into ownership.",
+      "upgradeLine": "Chronicle Plaza expands its archives, ceremonies, and public lessons.",
+      "ambientActions": [
+        "A chronicler records service without turning memory into ownership.",
+        "A member reviews how Chronicle Plaza changes the next operation.",
+        "Citizens begin treating Chronicle Plaza as part of Skyhome\u2019s defense network."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_CHRONICLE_PLAZA/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_CHRONICLE_PLAZA/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_CHRONICLE_PLAZA/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_CHRONICLE_PLAZA/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017H_BUILD_COURIER_ROOST",
+      "displayName": "Courier Roost",
+      "districtId": "DISTRICT_GATE_DEFENSE",
+      "constructionStart": "Perches, signal lines, and protected message boxes are raised.",
+      "constructionComplete": "Orders move between districts and battlefield lanes faster.",
+      "staffedLine": "A courier captain coordinates reinforcement timing and urgent reports.",
+      "upgradeLine": "Courier Roost expands its routes and encrypted signal methods.",
+      "ambientActions": [
+        "A courier captain coordinates reinforcement timing and urgent reports.",
+        "A member reviews how Courier Roost changes the next operation.",
+        "Citizens begin treating Courier Roost as part of Skyhome\u2019s defense network."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_COURIER_ROOST/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_COURIER_ROOST/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_COURIER_ROOST/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_COURIER_ROOST/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017H_BUILD_EVACUATION_SHELTERS",
+      "displayName": "Evacuation Shelters",
+      "districtId": "DISTRICT_CARE_COMMONS",
+      "constructionStart": "Protected routes and reinforced rooms are marked beneath the city.",
+      "constructionComplete": "Civilian losses and defender Cohesion pressure are reduced during raids.",
+      "staffedLine": "A shelter warden runs drills and keeps routes open for every district.",
+      "upgradeLine": "Evacuation Shelters improve capacity, medicine, and protected exits.",
+      "ambientActions": [
+        "A shelter warden runs drills and keeps routes open for every district.",
+        "A member reviews how Evacuation Shelters changes the next operation.",
+        "Citizens begin treating Evacuation Shelters as part of Skyhome\u2019s defense network."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_EVACUATION_SHELTERS/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_EVACUATION_SHELTERS/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_EVACUATION_SHELTERS/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_EVACUATION_SHELTERS/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017H_BUILD_GATEHOUSE",
+      "displayName": "Gatehouse & Portcullis",
+      "districtId": "DISTRICT_GATE_DEFENSE",
+      "constructionStart": "The main approach is measured for a controlled chokepoint.",
+      "constructionComplete": "Enemy Cohesion suffers before decisive gate battles and defenders begin steadier.",
+      "staffedLine": "A gate captain coordinates civilians, guards, and opening rules.",
+      "upgradeLine": "Gatehouse develops stronger controls, fallback doors, and breach plans.",
+      "ambientActions": [
+        "A gate captain coordinates civilians, guards, and opening rules.",
+        "A member reviews how Gatehouse & Portcullis changes the next operation.",
+        "Citizens begin treating Gatehouse & Portcullis as part of Skyhome\u2019s defense network."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_GATEHOUSE/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_GATEHOUSE/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_GATEHOUSE/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_GATEHOUSE/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017H_BUILD_MILITIA_BARRACKS",
+      "displayName": "Militia Barracks",
+      "districtId": "DISTRICT_GATE_DEFENSE",
+      "constructionStart": "Reserve drills become disciplined city defense.",
+      "constructionComplete": "Training dummies, weapon racks, and organized muster lines appear.",
+      "staffedLine": "A veteran schedules reserve rotations without taking permanent ownership of any recruit.",
+      "upgradeLine": "Militia Barracks expands its drills and reinforcement planning.",
+      "ambientActions": [
+        "A veteran schedules reserve rotations without taking permanent ownership of any recruit.",
+        "A member reviews how Militia Barracks changes the next operation.",
+        "Citizens begin treating Militia Barracks as part of Skyhome\u2019s defense network."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_MILITIA_BARRACKS/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_MILITIA_BARRACKS/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_MILITIA_BARRACKS/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_MILITIA_BARRACKS/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017H_BUILD_SIGNAL_SPIRE",
+      "displayName": "Signal Spire",
+      "districtId": "DISTRICT_GATE_DEFENSE",
+      "constructionStart": "A tall signal frame rises above the approach roads.",
+      "constructionComplete": "Scouting, AP readiness, and multi-front reinforcements improve.",
+      "staffedLine": "A signal officer keeps visual, bell, and crystal codes synchronized.",
+      "upgradeLine": "Signal Spire expands range, redundancy, and battle coordination.",
+      "ambientActions": [
+        "A signal officer keeps visual, bell, and crystal codes synchronized.",
+        "A member reviews how Signal Spire changes the next operation.",
+        "Citizens begin treating Signal Spire as part of Skyhome\u2019s defense network."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_SIGNAL_SPIRE/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_SIGNAL_SPIRE/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_SIGNAL_SPIRE/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_SIGNAL_SPIRE/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017H_BUILD_TRAPWORKS",
+      "displayName": "Trapworks",
+      "districtId": "DISTRICT_GATE_DEFENSE",
+      "constructionStart": "Safe test lanes are marked for nets, alarms, and nonlethal restraints.",
+      "constructionComplete": "Approach lanes gain prepared pressure and early warning.",
+      "staffedLine": "A trapmaster records every device so defenders do not endanger civilians.",
+      "upgradeLine": "Trapworks develops layered lane-control systems.",
+      "ambientActions": [
+        "A trapmaster records every device so defenders do not endanger civilians.",
+        "A member reviews how Trapworks changes the next operation.",
+        "Citizens begin treating Trapworks as part of Skyhome\u2019s defense network."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_TRAPWORKS/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_TRAPWORKS/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_TRAPWORKS/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_TRAPWORKS/STAFFED"
+        }
+      ]
+    },
+    {
+      "id": "GC017H_BUILD_WARD_PYLONS",
+      "displayName": "Ward Pylon Array",
+      "districtId": "DISTRICT_GATE_DEFENSE",
+      "constructionStart": "Anchor points are measured for linked protective pylons.",
+      "constructionComplete": "The city gains barriers, MP support, and stronger Warding preparation.",
+      "staffedLine": "A ward technician maintains links without bypassing legal Mystic Arts.",
+      "upgradeLine": "Ward Pylon Array develops stronger linked-defense patterns.",
+      "ambientActions": [
+        "A ward technician maintains links without bypassing legal Mystic Arts.",
+        "A member reviews how Ward Pylon Array changes the next operation.",
+        "Citizens begin treating Ward Pylon Array as part of Skyhome\u2019s defense network."
+      ],
+      "states": [
+        {
+          "state": "PLANNED",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_WARD_PYLONS/PLANNED"
+        },
+        {
+          "state": "CONSTRUCTION",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_WARD_PYLONS/CONSTRUCTION"
+        },
+        {
+          "state": "COMPLETE",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_WARD_PYLONS/COMPLETE"
+        },
+        {
+          "state": "STAFFED",
+          "resourcePath": "SecondDimension/GuildCity017H/Facilities/GC017H_BUILD_WARD_PYLONS/STAFFED"
+        }
+      ]
+    }
+  ],
+  "hallAmbient": [
+    {
+      "id": "AMBIENT_GC017D_BUILD_CONTRACT_HOUSE_01",
+      "facilityId": "GC017D_BUILD_CONTRACT_HOUSE",
+      "roleTag": "Clerk",
+      "actionText": "A clerk pins objective changes beside the original contract instead of hiding them.",
+      "statusText": "Contracts arrive with better context, consequences, and sponsor information.",
+      "weight": 10
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_CONTRACT_HOUSE_02",
+      "facilityId": "GC017D_BUILD_CONTRACT_HOUSE",
+      "roleTag": "Guild Member",
+      "actionText": "A member checks the day\u2019s work at Contract House before deployment.",
+      "statusText": "Contract variety, sponsor quality, and objective intelligence",
+      "weight": 6
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_FORGE_01",
+      "facilityId": "GC017D_BUILD_FORGE",
+      "roleTag": "Smith",
+      "actionText": "A smith compares two weapon paths before touching the player\u2019s equipment.",
+      "statusText": "Repair, comparison, upgrading, and evolution become stronger.",
+      "weight": 10
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_FORGE_02",
+      "facilityId": "GC017D_BUILD_FORGE",
+      "roleTag": "Guild Member",
+      "actionText": "A member checks the day\u2019s work at Forge before deployment.",
+      "statusText": "Repair, comparison, upgrading, and weapon evolution",
+      "weight": 6
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_GATE_RESEARCH_01",
+      "facilityId": "GC017D_BUILD_GATE_RESEARCH",
+      "roleTag": "Researcher",
+      "actionText": "A researcher records a pulse and leaves the conclusion blank until the evidence earns one.",
+      "statusText": "Later expedition reach and Gateworks research become possible.",
+      "weight": 10
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_GATE_RESEARCH_02",
+      "facilityId": "GC017D_BUILD_GATE_RESEARCH",
+      "roleTag": "Guild Member",
+      "actionText": "A member checks the day\u2019s work at Gate Research Annex before deployment.",
+      "statusText": "Later expedition reach and Gateworks research",
+      "weight": 6
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_GUILD_HOUSING_01",
+      "facilityId": "GC017D_BUILD_GUILD_HOUSING",
+      "roleTag": "Steward",
+      "actionText": "A recruit moves a keepsake from their pack to a shelf.",
+      "statusText": "Roster capacity and recovery comfort improve.",
+      "weight": 10
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_GUILD_HOUSING_02",
+      "facilityId": "GC017D_BUILD_GUILD_HOUSING",
+      "roleTag": "Guild Member",
+      "actionText": "A member checks the day\u2019s work at Guild Housing before deployment.",
+      "statusText": "Roster capacity, recovery comfort, and population",
+      "weight": 6
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_HERBAL_GARDEN_01",
+      "facilityId": "GC017D_BUILD_HERBAL_GARDEN",
+      "roleTag": "Herbalist",
+      "actionText": "A caretaker labels what heals, what numbs, and what only smells reassuring.",
+      "statusText": "Restoration supplies and Infirmary adjacency improve.",
+      "weight": 10
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_HERBAL_GARDEN_02",
+      "facilityId": "GC017D_BUILD_HERBAL_GARDEN",
+      "roleTag": "Guild Member",
+      "actionText": "A member checks the day\u2019s work at Herbal Garden before deployment.",
+      "statusText": "Remedies, Restoration supplies, and Infirmary support",
+      "weight": 6
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_INFIRMARY_01",
+      "facilityId": "GC017D_BUILD_INFIRMARY",
+      "roleTag": "Healer",
+      "actionText": "A medic checks progress without promising a shortcut.",
+      "statusText": "Injuries become more manageable and expedition medicine improves.",
+      "weight": 10
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_INFIRMARY_02",
+      "facilityId": "GC017D_BUILD_INFIRMARY",
+      "roleTag": "Guild Member",
+      "actionText": "A member checks the day\u2019s work at Infirmary before deployment.",
+      "statusText": "Injury treatment, recovery capacity, and expedition medicine",
+      "weight": 6
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_LIBRARY_ARCHIVE_01",
+      "facilityId": "GC017D_BUILD_LIBRARY_ARCHIVE",
+      "roleTag": "Archivist",
+      "actionText": "An archivist links a field memory to an old formation record.",
+      "statusText": "Chronicle, mentorship, research, and Art hints improve.",
+      "weight": 10
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_LIBRARY_ARCHIVE_02",
+      "facilityId": "GC017D_BUILD_LIBRARY_ARCHIVE",
+      "roleTag": "Guild Member",
+      "actionText": "A member checks the day\u2019s work at Library / Archive before deployment.",
+      "statusText": "Chronicle, Art hints, mentorship knowledge, and research",
+      "weight": 6
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_MARKET_01",
+      "facilityId": "GC017D_BUILD_MARKET",
+      "roleTag": "Merchant",
+      "actionText": "A merchant posts the Guild\u2019s actual needs beside the day\u2019s prices.",
+      "statusText": "Stock variety, selling, and material conversion improve.",
+      "weight": 10
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_MARKET_02",
+      "facilityId": "GC017D_BUILD_MARKET",
+      "roleTag": "Guild Member",
+      "actionText": "A member checks the day\u2019s work at Market before deployment.",
+      "statusText": "Stock variety, selling, and material conversion",
+      "weight": 6
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_MYSTIC_ACADEMY_01",
+      "facilityId": "GC017D_BUILD_MYSTIC_ACADEMY",
+      "roleTag": "Arcanist",
+      "actionText": "A caster repeats the same principle through a different school instead of recoloring one spell.",
+      "statusText": "Mystic research and legal school practice become available.",
+      "weight": 10
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_MYSTIC_ACADEMY_02",
+      "facilityId": "GC017D_BUILD_MYSTIC_ACADEMY",
+      "roleTag": "Guild Member",
+      "actionText": "A member checks the day\u2019s work at Mystic Academy before deployment.",
+      "statusText": "Mystic practice, research, and school opportunities",
+      "weight": 6
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_RECRUITMENT_OFFICE_01",
+      "facilityId": "GC017D_BUILD_RECRUITMENT_OFFICE",
+      "roleTag": "Recruiter",
+      "actionText": "A recruiter compares observations without turning uncertainty into rarity.",
+      "statusText": "Applicant dossiers become clearer and the board gains room to grow.",
+      "weight": 10
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_RECRUITMENT_OFFICE_02",
+      "facilityId": "GC017D_BUILD_RECRUITMENT_OFFICE",
+      "roleTag": "Guild Member",
+      "actionText": "A member checks the day\u2019s work at Recruitment Office before deployment.",
+      "statusText": "Applicant capacity, scouting clarity, and Return Later storage",
+      "weight": 6
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_SCOUT_LODGE_01",
+      "facilityId": "GC017D_BUILD_SCOUT_LODGE",
+      "roleTag": "Scout",
+      "actionText": "A scout marks what is known, suspected, and deliberately unconfirmed.",
+      "statusText": "Fog reveal, route detail, and ambush resistance improve.",
+      "weight": 10
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_SCOUT_LODGE_02",
+      "facilityId": "GC017D_BUILD_SCOUT_LODGE",
+      "roleTag": "Guild Member",
+      "actionText": "A member checks the day\u2019s work at Scout Lodge before deployment.",
+      "statusText": "Board fog reveal, route detail, and ambush resistance",
+      "weight": 6
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_SUPPLY_DEPOT_01",
+      "facilityId": "GC017D_BUILD_SUPPLY_DEPOT",
+      "roleTag": "Logistician",
+      "actionText": "A logistician rebuilds a supply package after seeing what the last route consumed.",
+      "statusText": "Starting supplies and reserve logistics improve.",
+      "weight": 10
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_SUPPLY_DEPOT_02",
+      "facilityId": "GC017D_BUILD_SUPPLY_DEPOT",
+      "roleTag": "Guild Member",
+      "actionText": "A member checks the day\u2019s work at Supply Depot before deployment.",
+      "statusText": "Expedition supplies, carrying capacity, and reserve logistics",
+      "weight": 6
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_TAVERN_COMMONS_01",
+      "facilityId": "GC017D_BUILD_TAVERN_COMMONS",
+      "roleTag": "Host",
+      "actionText": "Two members finish a free Hall scene while the next operation remains available.",
+      "statusText": "Rumors, applicants, social scenes, and morale baseline improve.",
+      "weight": 10
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_TAVERN_COMMONS_02",
+      "facilityId": "GC017D_BUILD_TAVERN_COMMONS",
+      "roleTag": "Guild Member",
+      "actionText": "A member checks the day\u2019s work at Tavern / Commons before deployment.",
+      "statusText": "Rumors, applicants, free social scenes, and morale baseline",
+      "weight": 6
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_TRAINING_GROUNDS_01",
+      "facilityId": "GC017D_BUILD_TRAINING_GROUNDS",
+      "roleTag": "Trainer",
+      "actionText": "A mentor corrects an approach, not a button sequence.",
+      "statusText": "Meaningful practice creates discovery opportunities without free mastery.",
+      "weight": 10
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_TRAINING_GROUNDS_02",
+      "facilityId": "GC017D_BUILD_TRAINING_GROUNDS",
+      "roleTag": "Guild Member",
+      "actionText": "A member checks the day\u2019s work at Training Grounds before deployment.",
+      "statusText": "Combat Art practice and breakthrough opportunities",
+      "weight": 6
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_UNION_COMMAND_01",
+      "facilityId": "GC017D_BUILD_UNION_COMMAND",
+      "roleTag": "Commander",
+      "actionText": "A leader rehearses how one Union supports another without selecting anyone\u2019s exact Art.",
+      "statusText": "Union planning, formation practice, and doctrine tools improve.",
+      "weight": 10
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_UNION_COMMAND_02",
+      "facilityId": "GC017D_BUILD_UNION_COMMAND",
+      "roleTag": "Guild Member",
+      "actionText": "A member checks the day\u2019s work at Union Command before deployment.",
+      "statusText": "Union capacity, formations, doctrine, and coordination tools",
+      "weight": 6
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_WAREHOUSE_01",
+      "facilityId": "GC017D_BUILD_WAREHOUSE",
+      "roleTag": "Quartermaster",
+      "actionText": "A quartermaster separates city material from expedition supply.",
+      "statusText": "Storage, supply capacity, and material efficiency improve.",
+      "weight": 10
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_WAREHOUSE_02",
+      "facilityId": "GC017D_BUILD_WAREHOUSE",
+      "roleTag": "Guild Member",
+      "actionText": "A member checks the day\u2019s work at Warehouse before deployment.",
+      "statusText": "Material storage, supply capacity, and reduced waste",
+      "weight": 6
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_WATCHTOWER_01",
+      "facilityId": "GC017D_BUILD_WATCHTOWER",
+      "roleTag": "Watcher",
+      "actionText": "A watcher compares a distant signal to the expedition ledger.",
+      "statusText": "Early warning, enemy intelligence, and city defense improve.",
+      "weight": 10
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_WATCHTOWER_02",
+      "facilityId": "GC017D_BUILD_WATCHTOWER",
+      "roleTag": "Guild Member",
+      "actionText": "A member checks the day\u2019s work at Watchtower before deployment.",
+      "statusText": "Early warning, enemy intelligence, and city defense",
+      "weight": 6
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_WORKSHOP_01",
+      "facilityId": "GC017D_BUILD_WORKSHOP",
+      "roleTag": "Engineer",
+      "actionText": "An engineer rebuilds a board solution as a reusable device.",
+      "statusText": "Engineering gear and event solutions expand.",
+      "weight": 10
+    },
+    {
+      "id": "AMBIENT_GC017D_BUILD_WORKSHOP_02",
+      "facilityId": "GC017D_BUILD_WORKSHOP",
+      "roleTag": "Guild Member",
+      "actionText": "A member checks the day\u2019s work at Workshop before deployment.",
+      "statusText": "Engineering equipment, devices, and board solutions",
+      "weight": 6
+    },
+    {
+      "id": "AMBIENT_GC017H_BUILD_AEGIS_WALLWORKS_DEFENSE",
+      "facilityId": "GC017H_BUILD_AEGIS_WALLWORKS",
+      "roleTag": "DEFENSE",
+      "actionText": "Defenders inspect Aegis Wallworks before the next operation.",
+      "statusText": "City preparation contributes without consuming an empty day.",
+      "weight": 2
+    },
+    {
+      "id": "AMBIENT_GC017H_BUILD_AEGIS_WALLWORKS_STAFF",
+      "facilityId": "GC017H_BUILD_AEGIS_WALLWORKS",
+      "roleTag": "STAFF",
+      "actionText": "A wall captain schedules repair and brace teams across threatened lanes.",
+      "statusText": "Staff duty grows beside meaningful operations.",
+      "weight": 3
+    },
+    {
+      "id": "AMBIENT_GC017H_BUILD_ALCHEMY_LAB_DEFENSE",
+      "facilityId": "GC017H_BUILD_ALCHEMY_LAB",
+      "roleTag": "DEFENSE",
+      "actionText": "Defenders inspect Alchemy Laboratory before the next operation.",
+      "statusText": "City preparation contributes without consuming an empty day.",
+      "weight": 2
+    },
+    {
+      "id": "AMBIENT_GC017H_BUILD_ALCHEMY_LAB_STAFF",
+      "facilityId": "GC017H_BUILD_ALCHEMY_LAB",
+      "roleTag": "STAFF",
+      "actionText": "An alchemist tracks doses, risks, and legal expedition use.",
+      "statusText": "Staff duty grows beside meaningful operations.",
+      "weight": 3
+    },
+    {
+      "id": "AMBIENT_GC017H_BUILD_ARTISANS_HALL_DEFENSE",
+      "facilityId": "GC017H_BUILD_ARTISANS_HALL",
+      "roleTag": "DEFENSE",
+      "actionText": "Defenders inspect Artisans' Hall before the next operation.",
+      "statusText": "City preparation contributes without consuming an empty day.",
+      "weight": 2
+    },
+    {
+      "id": "AMBIENT_GC017H_BUILD_ARTISANS_HALL_STAFF",
+      "facilityId": "GC017H_BUILD_ARTISANS_HALL",
+      "roleTag": "STAFF",
+      "actionText": "A foreperson turns staff duty into visible city and Hall progress.",
+      "statusText": "Staff duty grows beside meaningful operations.",
+      "weight": 3
+    },
+    {
+      "id": "AMBIENT_GC017H_BUILD_BALLISTA_FOUNDRY_DEFENSE",
+      "facilityId": "GC017H_BUILD_BALLISTA_FOUNDRY",
+      "roleTag": "DEFENSE",
+      "actionText": "Defenders inspect Ballista Foundry before the next operation.",
+      "statusText": "City preparation contributes without consuming an empty day.",
+      "weight": 2
+    },
+    {
+      "id": "AMBIENT_GC017H_BUILD_BALLISTA_FOUNDRY_STAFF",
+      "facilityId": "GC017H_BUILD_BALLISTA_FOUNDRY",
+      "roleTag": "STAFF",
+      "actionText": "A siege engineer maintains crews, bolts, and firing lanes.",
+      "statusText": "Staff duty grows beside meaningful operations.",
+      "weight": 3
+    },
+    {
+      "id": "AMBIENT_GC017H_BUILD_CHRONICLE_PLAZA_DEFENSE",
+      "facilityId": "GC017H_BUILD_CHRONICLE_PLAZA",
+      "roleTag": "DEFENSE",
+      "actionText": "Defenders inspect Chronicle Plaza before the next operation.",
+      "statusText": "City preparation contributes without consuming an empty day.",
+      "weight": 2
+    },
+    {
+      "id": "AMBIENT_GC017H_BUILD_CHRONICLE_PLAZA_STAFF",
+      "facilityId": "GC017H_BUILD_CHRONICLE_PLAZA",
+      "roleTag": "STAFF",
+      "actionText": "A chronicler records service without turning memory into ownership.",
+      "statusText": "Staff duty grows beside meaningful operations.",
+      "weight": 3
+    },
+    {
+      "id": "AMBIENT_GC017H_BUILD_COURIER_ROOST_DEFENSE",
+      "facilityId": "GC017H_BUILD_COURIER_ROOST",
+      "roleTag": "DEFENSE",
+      "actionText": "Defenders inspect Courier Roost before the next operation.",
+      "statusText": "City preparation contributes without consuming an empty day.",
+      "weight": 2
+    },
+    {
+      "id": "AMBIENT_GC017H_BUILD_COURIER_ROOST_STAFF",
+      "facilityId": "GC017H_BUILD_COURIER_ROOST",
+      "roleTag": "STAFF",
+      "actionText": "A courier captain coordinates reinforcement timing and urgent reports.",
+      "statusText": "Staff duty grows beside meaningful operations.",
+      "weight": 3
+    },
+    {
+      "id": "AMBIENT_GC017H_BUILD_EVACUATION_SHELTERS_DEFENSE",
+      "facilityId": "GC017H_BUILD_EVACUATION_SHELTERS",
+      "roleTag": "DEFENSE",
+      "actionText": "Defenders inspect Evacuation Shelters before the next operation.",
+      "statusText": "City preparation contributes without consuming an empty day.",
+      "weight": 2
+    },
+    {
+      "id": "AMBIENT_GC017H_BUILD_EVACUATION_SHELTERS_STAFF",
+      "facilityId": "GC017H_BUILD_EVACUATION_SHELTERS",
+      "roleTag": "STAFF",
+      "actionText": "A shelter warden runs drills and keeps routes open for every district.",
+      "statusText": "Staff duty grows beside meaningful operations.",
+      "weight": 3
+    },
+    {
+      "id": "AMBIENT_GC017H_BUILD_GATEHOUSE_DEFENSE",
+      "facilityId": "GC017H_BUILD_GATEHOUSE",
+      "roleTag": "DEFENSE",
+      "actionText": "Defenders inspect Gatehouse & Portcullis before the next operation.",
+      "statusText": "City preparation contributes without consuming an empty day.",
+      "weight": 2
+    },
+    {
+      "id": "AMBIENT_GC017H_BUILD_GATEHOUSE_STAFF",
+      "facilityId": "GC017H_BUILD_GATEHOUSE",
+      "roleTag": "STAFF",
+      "actionText": "A gate captain coordinates civilians, guards, and opening rules.",
+      "statusText": "Staff duty grows beside meaningful operations.",
+      "weight": 3
+    },
+    {
+      "id": "AMBIENT_GC017H_BUILD_MILITIA_BARRACKS_DEFENSE",
+      "facilityId": "GC017H_BUILD_MILITIA_BARRACKS",
+      "roleTag": "DEFENSE",
+      "actionText": "Defenders inspect Militia Barracks before the next operation.",
+      "statusText": "City preparation contributes without consuming an empty day.",
+      "weight": 2
+    },
+    {
+      "id": "AMBIENT_GC017H_BUILD_MILITIA_BARRACKS_STAFF",
+      "facilityId": "GC017H_BUILD_MILITIA_BARRACKS",
+      "roleTag": "STAFF",
+      "actionText": "A veteran schedules reserve rotations without taking permanent ownership of any recruit.",
+      "statusText": "Staff duty grows beside meaningful operations.",
+      "weight": 3
+    },
+    {
+      "id": "AMBIENT_GC017H_BUILD_SIGNAL_SPIRE_DEFENSE",
+      "facilityId": "GC017H_BUILD_SIGNAL_SPIRE",
+      "roleTag": "DEFENSE",
+      "actionText": "Defenders inspect Signal Spire before the next operation.",
+      "statusText": "City preparation contributes without consuming an empty day.",
+      "weight": 2
+    },
+    {
+      "id": "AMBIENT_GC017H_BUILD_SIGNAL_SPIRE_STAFF",
+      "facilityId": "GC017H_BUILD_SIGNAL_SPIRE",
+      "roleTag": "STAFF",
+      "actionText": "A signal officer keeps visual, bell, and crystal codes synchronized.",
+      "statusText": "Staff duty grows beside meaningful operations.",
+      "weight": 3
+    },
+    {
+      "id": "AMBIENT_GC017H_BUILD_TRAPWORKS_DEFENSE",
+      "facilityId": "GC017H_BUILD_TRAPWORKS",
+      "roleTag": "DEFENSE",
+      "actionText": "Defenders inspect Trapworks before the next operation.",
+      "statusText": "City preparation contributes without consuming an empty day.",
+      "weight": 2
+    },
+    {
+      "id": "AMBIENT_GC017H_BUILD_TRAPWORKS_STAFF",
+      "facilityId": "GC017H_BUILD_TRAPWORKS",
+      "roleTag": "STAFF",
+      "actionText": "A trapmaster records every device so defenders do not endanger civilians.",
+      "statusText": "Staff duty grows beside meaningful operations.",
+      "weight": 3
+    },
+    {
+      "id": "AMBIENT_GC017H_BUILD_WARD_PYLONS_DEFENSE",
+      "facilityId": "GC017H_BUILD_WARD_PYLONS",
+      "roleTag": "DEFENSE",
+      "actionText": "Defenders inspect Ward Pylon Array before the next operation.",
+      "statusText": "City preparation contributes without consuming an empty day.",
+      "weight": 2
+    },
+    {
+      "id": "AMBIENT_GC017H_BUILD_WARD_PYLONS_STAFF",
+      "facilityId": "GC017H_BUILD_WARD_PYLONS",
+      "roleTag": "STAFF",
+      "actionText": "A ward technician maintains links without bypassing legal Mystic Arts.",
+      "statusText": "Staff duty grows beside meaningful operations.",
+      "weight": 3
+    },
+    {
+      "id": "AMBIENT_RUINED_01",
+      "facilityId": "RUINED_ANNEX",
+      "roleTag": "Guild Member",
+      "actionText": "A recruit clears dust from the contract table without disturbing the committed seals.",
+      "statusText": "The Hall is still damaged, but its work is organized.",
+      "weight": 12
+    },
+    {
+      "id": "AMBIENT_RUINED_02",
+      "facilityId": "RUINED_ANNEX",
+      "roleTag": "Union Leader",
+      "actionText": "A leader traces the next route and leaves the individual actions to the people who will carry it.",
+      "statusText": "Forecast planning remains Union-level.",
+      "weight": 10
+    },
+    {
+      "id": "AMBIENT_RUINED_03",
+      "facilityId": "RUINED_ANNEX",
+      "roleTag": "Recovering Member",
+      "actionText": "An injured member practices standing long enough to choose when to stop.",
+      "statusText": "Recovery is visible work, not disappearance.",
+      "weight": 8
+    },
+    {
+      "id": "AMBIENT_RUINED_04",
+      "facilityId": "RUINED_ANNEX",
+      "roleTag": "Applicant",
+      "actionText": "An applicant waits beneath a patched roof while the Guild reviews what it honestly knows.",
+      "statusText": "Recruitment is recurring and deterministic.",
+      "weight": 8
+    }
+  ],
+  "audioCues": [
+    {
+      "id": "AUDIO_017F_HALL_AMBIENCE",
+      "resourcePath": "SecondDimension/GuildCity017F/Audio/AMB_HALL_RUINED_017F",
+      "mode": "loop",
+      "description": "Low wind, repaired hearth, distant work, restrained gate resonance.",
+      "placeholder": true
+    },
+    {
+      "id": "AUDIO_017F_CITY_PLANNING",
+      "resourcePath": "SecondDimension/GuildCity017F/Audio/AMB_CITY_PLANNING_017F",
+      "mode": "loop",
+      "description": "Quiet planning bed for build mode.",
+      "placeholder": true
+    },
+    {
+      "id": "AUDIO_017F_CONTRACT_ACCEPT",
+      "resourcePath": "SecondDimension/GuildCity017F/Audio/SFX_CONTRACT_ACCEPT_017F",
+      "mode": "oneShot",
+      "description": "Seal, page, and restrained brass confirm.",
+      "placeholder": true
+    },
+    {
+      "id": "AUDIO_017F_EXPEDITION_MOVE",
+      "resourcePath": "SecondDimension/GuildCity017F/Audio/SFX_EXPEDITION_MOVE_017F",
+      "mode": "oneShot",
+      "description": "Map token movement and route commitment.",
+      "placeholder": true
+    },
+    {
+      "id": "AUDIO_017F_EVENT_REVEAL",
+      "resourcePath": "SecondDimension/GuildCity017F/Audio/SFX_EVENT_REVEAL_017F",
+      "mode": "oneShot",
+      "description": "Brief low reveal cue.",
+      "placeholder": true
+    },
+    {
+      "id": "AUDIO_017F_CHECK_ROLL",
+      "resourcePath": "SecondDimension/GuildCity017F/Audio/SFX_CHECK_ROLL_017F",
+      "mode": "oneShot",
+      "description": "Committed 2d6 roll.",
+      "placeholder": true
+    },
+    {
+      "id": "AUDIO_017F_CHECK_SUCCESS",
+      "resourcePath": "SecondDimension/GuildCity017F/Audio/SFX_CHECK_SUCCESS_017F",
+      "mode": "oneShot",
+      "description": "Positive but restrained resolution.",
+      "placeholder": true
+    },
+    {
+      "id": "AUDIO_017F_CHECK_SETBACK",
+      "resourcePath": "SecondDimension/GuildCity017F/Audio/SFX_CHECK_SETBACK_017F",
+      "mode": "oneShot",
+      "description": "Low setback cue without failure melodrama.",
+      "placeholder": true
+    },
+    {
+      "id": "AUDIO_017F_CAMP_REST",
+      "resourcePath": "SecondDimension/GuildCity017F/Audio/AMB_CAMP_REST_017F",
+      "mode": "loop",
+      "description": "Soft camp wind and low fire.",
+      "placeholder": true
+    },
+    {
+      "id": "AUDIO_017F_ENCOUNTER_COMMIT",
+      "resourcePath": "SecondDimension/GuildCity017F/Audio/SFX_ENCOUNTER_COMMIT_017F",
+      "mode": "oneShot",
+      "description": "Persisted encounter transition.",
+      "placeholder": true
+    },
+    {
+      "id": "AUDIO_017F_RETURN_HALL",
+      "resourcePath": "SecondDimension/GuildCity017F/Audio/SFX_RETURN_HALL_017F",
+      "mode": "oneShot",
+      "description": "Warm return and ledger close.",
+      "placeholder": true
+    },
+    {
+      "id": "AUDIO_017F_BUILD_START",
+      "resourcePath": "SecondDimension/GuildCity017F/Audio/SFX_BUILD_START_017F",
+      "mode": "oneShot",
+      "description": "Timber, stone, and project commitment.",
+      "placeholder": true
+    },
+    {
+      "id": "AUDIO_017F_BUILD_COMPLETE",
+      "resourcePath": "SecondDimension/GuildCity017F/Audio/SFX_BUILD_COMPLETE_017F",
+      "mode": "oneShot",
+      "description": "Construction completion with brass lift.",
+      "placeholder": true
+    },
+    {
+      "id": "AUDIO_017F_STAFF_ASSIGN",
+      "resourcePath": "SecondDimension/GuildCity017F/Audio/SFX_STAFF_ASSIGN_017F",
+      "mode": "oneShot",
+      "description": "Assignment card and tool contact.",
+      "placeholder": true
+    },
+    {
+      "id": "AUDIO_017F_RELATIONSHIP_MEMORY",
+      "resourcePath": "SecondDimension/GuildCity017F/Audio/SFX_RELATIONSHIP_MEMORY_017F",
+      "mode": "oneShot",
+      "description": "Quiet memory acknowledgment.",
+      "placeholder": true
+    }
+  ],
+  "outcomeEpilogues": [
+    {
+      "id": "CONTRACT_BELL_BENEATH_GATE_VICTORY",
+      "contractId": "CONTRACT_BELL_BENEATH_GATE",
+      "outcome": "VICTORY",
+      "narration": "The Gatehouse threat falls. The patrol carries the recovered Wayglass onto Lantern Road and joins the Guild for the walk home.",
+      "cityConsequence": "The rescued patrol joins the Guild, while the recovered Wayglass reveals a route pointing inside Skyhome."
+    },
+    {
+      "id": "CONTRACT_BELL_BENEATH_GATE_MIXED",
+      "contractId": "CONTRACT_BELL_BENEATH_GATE",
+      "outcome": "MIXED",
+      "narration": "The patrol and Wayglass return, but Lantern Road bears the cost in injuries, supplies, and unfinished Gatehouse work.",
+      "cityConsequence": "The rescued patrol joins the Guild, while the recovered Wayglass reveals a route pointing inside Skyhome."
+    },
+    {
+      "id": "CONTRACT_BELL_BENEATH_GATE_RETREAT",
+      "contractId": "CONTRACT_BELL_BENEATH_GATE",
+      "outcome": "RETREAT",
+      "narration": "The Guild preserves the patrol members already reached and withdraws along Lantern Road. The Wayglass remains an active rescue obligation.",
+      "cityConsequence": "The rescued patrol joins the Guild, while the recovered Wayglass reveals a route pointing inside Skyhome."
+    },
+    {
+      "id": "CONTRACT_BELL_BENEATH_GATE_FAILURE",
+      "contractId": "CONTRACT_BELL_BENEATH_GATE",
+      "outcome": "FAILURE",
+      "narration": "The old Gatehouse closes around the Wayglass signal. Skyhome records the route, the missing patrol, and the threat still moving toward the city.",
+      "cityConsequence": "The rescued patrol joins the Guild, while the recovered Wayglass reveals a route pointing inside Skyhome."
+    },
+    {
+      "id": "CONTRACT_LINES_NOT_RETURNED_VICTORY",
+      "contractId": "CONTRACT_LINES_NOT_RETURNED",
+      "outcome": "VICTORY",
+      "narration": "The survey crew returns, the impossible marks are translated, and the Wayglass reveals the threshold of the Door Inside.",
+      "cityConsequence": "The Wayglass table becomes Skyhome's map for Chapter 2."
+    },
+    {
+      "id": "CONTRACT_LINES_NOT_RETURNED_MIXED",
+      "contractId": "CONTRACT_LINES_NOT_RETURNED",
+      "outcome": "MIXED",
+      "narration": "Enough of the Wayglass route is mapped to prevent another disappearance, but the door and part of the survey crew remain unresolved.",
+      "cityConsequence": "The Wayglass table becomes Skyhome's map for Chapter 2."
+    },
+    {
+      "id": "CONTRACT_LINES_NOT_RETURNED_RETREAT",
+      "contractId": "CONTRACT_LINES_NOT_RETURNED",
+      "outcome": "RETREAT",
+      "narration": "The Guild preserves what it learned and withdraws before the route beneath Skyhome closes. The Door Inside remains marked on the Wayglass.",
+      "cityConsequence": "The Wayglass table becomes Skyhome's map for Chapter 2."
+    },
+    {
+      "id": "CONTRACT_LINES_NOT_RETURNED_FAILURE",
+      "contractId": "CONTRACT_LINES_NOT_RETURNED",
+      "outcome": "FAILURE",
+      "narration": "The impossible route remains open on the Wayglass and deadly beneath the city. The Door Inside waits without a trusted path.",
+      "cityConsequence": "The Wayglass table becomes Skyhome's map for Chapter 2."
+    },
+    {
+      "id": "CONTRACT_RELIEF_ROAD_VICTORY",
+      "contractId": "CONTRACT_RELIEF_ROAD",
+      "outcome": "VICTORY",
+      "narration": "The first wagon reaches the ward gate before the lanterns are lit. The road becomes a route again instead of a warning.",
+      "cityConsequence": "Successful delivery strengthens Market, Warehouse, Supply Depot, and civic trust progression."
+    },
+    {
+      "id": "CONTRACT_RELIEF_ROAD_MIXED",
+      "contractId": "CONTRACT_RELIEF_ROAD",
+      "outcome": "MIXED",
+      "narration": "Part of the convoy arrives. The city gains a functioning relief line, but the missing cargo shapes the next operation.",
+      "cityConsequence": "Successful delivery strengthens Market, Warehouse, Supply Depot, and civic trust progression."
+    },
+    {
+      "id": "CONTRACT_RELIEF_ROAD_RETREAT",
+      "contractId": "CONTRACT_RELIEF_ROAD",
+      "outcome": "RETREAT",
+      "narration": "The surviving wagons turn back under Guard. The shipment is diminished, but the Guild does not abandon the people pulling it.",
+      "cityConsequence": "Successful delivery strengthens Market, Warehouse, Supply Depot, and civic trust progression."
+    },
+    {
+      "id": "CONTRACT_RELIEF_ROAD_FAILURE",
+      "contractId": "CONTRACT_RELIEF_ROAD",
+      "outcome": "FAILURE",
+      "narration": "The convoy breaks and the outer wards ration what remains. The road stays open only on the map.",
+      "cityConsequence": "Successful delivery strengthens Market, Warehouse, Supply Depot, and civic trust progression."
+    }
+  ]
+}

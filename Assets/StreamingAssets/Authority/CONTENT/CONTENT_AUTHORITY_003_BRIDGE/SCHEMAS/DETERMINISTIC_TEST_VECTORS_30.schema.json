@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Deterministic Test Vectors",
+  "type": "object",
+  "required": [
+    "contentVersion",
+    "vectors"
+  ],
+  "properties": {
+    "contentVersion": {
+      "type": "string"
+    },
+    "vectors": {
+      "type": "array",
+      "minItems": 30,
+      "maxItems": 30
+    }
+  },
+  "additionalProperties": true
+}

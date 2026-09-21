@@ -1,0 +1,368 @@
+{
+  "contentVersion": "GUILD_CITY_017E_1.0",
+  "events": [
+    {
+      "id": "EVENT_INJURED_COURIER",
+      "title": "Una's Blood-Marked Ledger",
+      "problem": "Una Queensrest crawled away from Zorin's patrol with the Wayglass ledger, but blood loss is taking her voice.",
+      "eligibleSkills": [
+        "Medicine",
+        "Diplomacy"
+      ],
+      "consequenceIdentity": "Una's testimony, Zorin's bearing, and Lantern Patrol trust",
+      "usesCommitted2d6": true,
+      "relationshipSceneCostsOperation": false,
+      "canCauseDeparture": false,
+      "exceptionalText": "Una is stable, and her decoded ledger reveals Zorin's exact Gatehouse bearing plus the safer overlook.",
+      "fullSuccessText": "Una is stable and gives Maren Zorin's exact bearing without costing the Unions momentum.",
+      "successWithCostText": "Una and the ledger are safe, but the rescue costs supplies, fatigue, or precious road time.",
+      "setbackText": "Una survives; a smeared bearing sends Maren along the harder trail, and the helpers remember the carry.",
+      "severeSetbackText": "Una survives, but the unreadable ledger leaves Zorin's patrol farther ahead and the route more dangerous.",
+      "relationshipMemorySummary": "They carried Una Queensrest and her blood-marked ledger together."
+    },
+    {
+      "id": "EVENT_COLLAPSED_HANDRAIL",
+      "title": "Quin at the Broken Waymarker",
+      "problem": "Scout Quin Lowen hangs beneath a fractured waymarker while the lower Lantern Road span continues to settle.",
+      "eligibleSkills": [
+        "Athletics",
+        "Engineering"
+      ],
+      "consequenceIdentity": "Quin's testimony, restored Lantern waymarker, and patrol rescue trust",
+      "usesCommitted2d6": true,
+      "relationshipSceneCostsOperation": false,
+      "canCauseDeparture": false,
+      "exceptionalText": "Quin is pulled clear, the lantern mechanism is restored, and Zorin's ambush warning becomes visible from the ridge.",
+      "fullSuccessText": "Quin and the reopened waymarker are secure without costing Maren's Unions momentum.",
+      "successWithCostText": "Quin is safe and Lantern Road reopens, but the lift costs supplies, fatigue, or precious road time.",
+      "setbackText": "Quin survives; the damaged marker forces Maren onto the exposed approach, and the rescuers remember the line.",
+      "severeSetbackText": "Quin survives, but the collapsed span leaves Zorin's warning unread and the road ahead more dangerous.",
+      "relationshipMemorySummary": "They held Quin Lowen's rescue line until every hand was back on Lantern Road."
+    },
+    {
+      "id": "EVENT_UNSTABLE_BELL_CHAIN",
+      "title": "Wayglass Resonance",
+      "problem": "The missing Wayglass sends a blue pulse through old Gatehouse machinery and buckles the road ahead.",
+      "eligibleSkills": [
+        "Engineering",
+        "Resolve"
+      ],
+      "consequenceIdentity": "Odelia's Wayglass reading and the Gatehouse chain hazard",
+      "usesCommitted2d6": true,
+      "relationshipSceneCostsOperation": false,
+      "canCauseDeparture": false,
+      "exceptionalText": "The blue pulse is grounded and reveals the maintenance line leading straight to Zorin's trapped patrol.",
+      "fullSuccessText": "The old chain settles, keeping Lantern Road open and the Gatehouse approach safe.",
+      "successWithCostText": "The Wayglass pulse is contained, but burnt tools and strained hands cost supplies, fatigue, or road time.",
+      "setbackText": "The surge passes; Odelia marks the unstable chain so Maren can carry the warning into the Gatehouse.",
+      "severeSetbackText": "The chain holds, but its blue arcs leave Zorin's Gatehouse approach more dangerous for every Union.",
+      "relationshipMemorySummary": "They trusted Odelia's count and grounded the Wayglass pulse together."
+    },
+    {
+      "id": "EVENT_TRAPPED_FOREMAN",
+      "title": "Petra Behind the Support",
+      "problem": "Petra Runebrook is pinned beneath a cracked Gatehouse support, and Zorin refuses to leave without her.",
+      "eligibleSkills": [
+        "Medicine",
+        "Command"
+      ],
+      "consequenceIdentity": "Petra's rescue, Zorin's full patrol count, and Wayglass readiness",
+      "usesCommitted2d6": true,
+      "relationshipSceneCostsOperation": false,
+      "canCauseDeparture": false,
+      "exceptionalText": "Petra is freed and shows Maren where Zorin gathered all ten Lanterns around the Wayglass.",
+      "fullSuccessText": "Petra is stable, the cracked support is braced, and Zorin's patrol regroups without losing momentum.",
+      "successWithCostText": "Petra rejoins Zorin, but the lift costs the rescuers supplies, fatigue, or precious road time.",
+      "setbackText": "Petra survives; Zorin divides the carry, slowing the patrol while preserving their promise to leave together.",
+      "severeSetbackText": "Petra survives, but the failing support pins the patrol on the Gate-Eater's exposed approach.",
+      "relationshipMemorySummary": "They answered Zorin's count and lifted Petra Runebrook together."
+    },
+    {
+      "id": "EVENT_GATEGLASS_PULSE",
+      "title": "Orren's Blue Service Line",
+      "problem": "Orren sees the Wayglass pulse reveal a broken Gatehouse service line for only a few seconds.",
+      "eligibleSkills": [
+        "Lore",
+        "Perception"
+      ],
+      "consequenceIdentity": "Restored Gatehouse service line and recovered gateglass sample",
+      "usesCommitted2d6": true,
+      "relationshipSceneCostsOperation": false,
+      "canCauseDeparture": false,
+      "exceptionalText": "Orren restores the service line, giving Maren's Unions a protected Gatehouse flank and a gateglass sample.",
+      "fullSuccessText": "The blue maintenance marks hold long enough to secure a clean approach to Zorin and the Gate-Eater.",
+      "successWithCostText": "The service route opens, but the rushed repair costs tools, fatigue, or precious road time.",
+      "setbackText": "The blue light fades; Orren preserves enough marks to guide Gara through a narrower approach.",
+      "severeSetbackText": "The service line collapses, leaving Zorin safe but forcing every Union onto the Gate-Eater's exposed road.",
+      "relationshipMemorySummary": "They followed Orren's blue marks until the hidden service line held."
+    },
+    {
+      "id": "EVENT_GARA_WOUNDED_LANTERN_PASSAGE",
+      "title": "Gara's Wounded-Lantern Passage",
+      "problem": "Gara Redtail has one turn of the maintenance wheel before the old passage seals. Two wounded Lanterns need both carriers, while Zorin's route ledger lies across the exposed road. She asks the Guildmaster to choose who holds the passage and who carries the wounded; the people can come through now, but the ledger may have to wait until the Gate-Eater falls.",
+      "eligibleSkills": [
+        "Command",
+        "Medicine"
+      ],
+      "consequenceIdentity": "Gara Redtail's wounded Lanterns, the sealed maintenance passage, and Zorin's route ledger left for later",
+      "usesCommitted2d6": false,
+      "relationshipSceneCostsOperation": false,
+      "canCauseDeparture": false,
+      "exceptionalText": "Gara holds the wheel while the paired carriers bring both wounded Lanterns through. One of them saves a torn page bearing Zorin's Gatehouse count before the passage seals.",
+      "fullSuccessText": "Both wounded Lanterns reach Gara's side of the passage, and she seals the exposed road behind them. Zorin's complete route ledger remains outside until the Gate-Eater is defeated.",
+      "successWithCostText": "Gara gets both wounded Lanterns through, but the closing stone takes the stretcher frame and leaves Zorin's route ledger on the exposed road.",
+      "setbackText": "The first carry stalls in the narrow turn. Gara spends the last shield brace to free it, brings both Lanterns through, and seals the passage without the route ledger.",
+      "severeSetbackText": "The maintenance wheel breaks after the final wounded Lantern crosses. Gara bars the passage by hand; everyone lives, but the Gatehouse approach loses both the ledger and its safest retreat.",
+      "relationshipMemorySummary": "They answered Gara Redtail's call and carried every wounded Lantern through before the old passage sealed."
+    },
+    {
+      "id": "EVENT_LANTERN_WATCH_CAMP",
+      "title": "Maren's Lantern Watch",
+      "problem": "At Lantern Watch, Maren must settle how the Unions will rest and press on while Jazzi tends the wounded and Zorin's missing patrol waits ahead.",
+      "eligibleSkills": [
+        "Command",
+        "Medicine"
+      ],
+      "consequenceIdentity": "Maren's Lantern Watch, Jazzi's wounded, and the shared order to bring Zorin home",
+      "usesCommitted2d6": true,
+      "relationshipSceneCostsOperation": false,
+      "canCauseDeparture": false,
+      "exceptionalText": "Maren gives Jazzi every hand she needs, restores both Unions, and leaves Lantern Watch with a clear line to Zorin and strength in reserve.",
+      "fullSuccessText": "Maren's Lantern Watch holds: Jazzi tends the wounded while both Unions agree how they will bring Zorin home.",
+      "successWithCostText": "At Lantern Watch, Jazzi gets the wounded moving and Maren keeps Zorin's rescue order, but the careful regroup costs supplies, fatigue, or road time.",
+      "setbackText": "Maren keeps Lantern Watch together while Jazzi tends the strain; Zorin's rescue remains the shared order despite a tired departure.",
+      "severeSetbackText": "Lantern Watch leaves camp divided and exhausted, but Jazzi holds the wounded while Maren preserves the road to Zorin and no Guild member is abandoned.",
+      "relationshipMemorySummary": "At Lantern Watch, they helped Maren and Jazzi turn two tired Unions toward Zorin together."
+    },
+    {
+      "id": "EVENT_CAMP_ARGUMENT",
+      "title": "The Seventh Name at Camp",
+      "problem": "At the quiet camp, apprentice Sella Vey finally names Master Surveyor Orra Vale and admits she scrubbed Orra's seventh-return mark after the fog spoke in Orra's voice.",
+      "eligibleSkills": [
+        "Command",
+        "Resolve"
+      ],
+      "consequenceIdentity": "Sella's trust, the seventh-return warning, and recoverable relationship memory",
+      "usesCommitted2d6": false,
+      "relationshipSceneCostsOperation": false,
+      "canCauseDeparture": false,
+      "exceptionalText": "Sella draws Orra's complete seventh-return sign from memory. The Guild records the missing final stroke, calms both Unions, and carries a reliable warning toward the astrolabe.",
+      "fullSuccessText": "Sella names Orra and explains why she erased the last stroke; both Unions accept the warning and leave camp together.",
+      "successWithCostText": "Sella shares Orra's name and warning, but remains guarded; the Guild leaves camp with reliable evidence and a fragile new trust.",
+      "setbackText": "The argument closes around Sella before she can finish. The Guild preserves camp cohesion, but carries only a partial warning and a recoverable relationship memory.",
+      "severeSetbackText": "Sella retreats from the argument. The Guild marks her testimony unresolved and continues without losing a member, accepting extra fatigue and uncertainty.",
+      "relationshipMemorySummary": "At the quiet camp, they gave Sella Vey room to name Orra Vale and the erased seventh-return mark."
+    },
+    {
+      "id": "EVENT_WRONG_ROUTE_MARKS",
+      "title": "Fresh Marks on an Old Wall",
+      "problem": "Fresh paint reverses the official return stroke. Sella Vey's brass line-tag bears Orra Vale's real seven-notch route code, giving the Union evidence it can test before choosing the corridor.",
+      "eligibleSkills": [
+        "Perception",
+        "Lore"
+      ],
+      "consequenceIdentity": "Forged-mark evidence, ambush warning, and safe scouting branch",
+      "usesCommitted2d6": false,
+      "relationshipSceneCostsOperation": false,
+      "canCauseDeparture": false,
+      "exceptionalText": "The actor proves the paint was laid from inside the wall and finds Orra's hidden countermark. The forgery, its maker's direction, and the safe scouting line all enter the Guild record.",
+      "fullSuccessText": "The Union matches the brass tag to Orra's real stroke, rejects the false corridor, and marks the safer scouting line.",
+      "successWithCostText": "The forgery is proved, but its maker stays hidden and the fog keeps the next approach dangerous.",
+      "setbackText": "The Union identifies the reversed stroke only after exposing itself to the corridor. The route remains open, but the ambush keeps its advantage.",
+      "severeSetbackText": "The paint code stays uncertain. The Guild records the brass tag as unresolved evidence and advances without deleting either route or any recruit.",
+      "relationshipMemorySummary": "They trusted Sella Vey's brass line-tag when the wall tried to give them an easier answer."
+    },
+    {
+      "id": "EVENT_BROKEN_SURVEY_BRIDGE",
+      "title": "A Bridge Measured Twice",
+      "problem": "Orra Vale's load ledger calls for five brass survey pins, but the failing bridge carries only four. The missing pin links the crossing to the altered route marks.",
+      "eligibleSkills": [
+        "Survival",
+        "Engineering"
+      ],
+      "consequenceIdentity": "Bridge access, missing-pin evidence, and supplies",
+      "usesCommitted2d6": false,
+      "relationshipSceneCostsOperation": false,
+      "canCauseDeparture": false,
+      "exceptionalText": "The Union braces the bridge with the ledger's original geometry and recovers tool scratches from the removed fifth pin, preserving supplies and proving deliberate sabotage.",
+      "fullSuccessText": "The bridge is stabilized, the Union crosses together, and the empty fifth socket is recorded as evidence.",
+      "successWithCostText": "The crossing holds and the missing fifth socket is recorded, but the damaged bridge will not support a second passage.",
+      "setbackText": "The first brace slips and adds fatigue. A second crossing remains legal, and the empty fifth socket still points toward sabotage.",
+      "severeSetbackText": "The bridge cannot carry the full formation. The Guild spends supplies on a recoverable detour, keeps every member, and retains the ledger evidence.",
+      "relationshipMemorySummary": "They held Orra Vale's measured line together while the sabotaged bridge tried to separate them."
+    },
+    {
+      "id": "EVENT_FOG_ECHO",
+      "title": "A Voice That Knows Their Names",
+      "problem": "The fog calls in Orra Vale's voice and names every missing surveyor, but it orders six returns. Sella Vey's brass line-tag carries seven, exposing the voice as an imitation.",
+      "eligibleSkills": [
+        "Resolve",
+        "Lore"
+      ],
+      "consequenceIdentity": "Impostor evidence, threat, hidden path, and relationship memory",
+      "usesCommitted2d6": false,
+      "relationshipSceneCostsOperation": false,
+      "canCauseDeparture": false,
+      "exceptionalText": "The Union answers with the seventh-return phrase. The false voice recoils and reveals both its hidden path and the Route Mutilator directing it.",
+      "fullSuccessText": "The Union holds to the seven-notch evidence, breaks the imitation's rhythm, and follows its retreat toward the hidden path.",
+      "successWithCostText": "The voice is exposed, but its retreat closes before the Union can trace the imitator's hidden path.",
+      "setbackText": "The fog separates the formation long enough to add fatigue. Sella's seven-notch evidence brings everyone back to the legal route.",
+      "severeSetbackText": "The imitation keeps its hidden path. The Guild withdraws to the last true mark, records the threat, and preserves a route forward without losing a member.",
+      "relationshipMemorySummary": "They repeated Sella Vey's seventh-return phrase until Orra Vale's stolen voice could no longer divide them."
+    },
+    {
+      "id": "EVENT_BROKEN_ASTROLABE",
+      "title": "The Needle Points Below",
+      "problem": "Orra Vale's shattered astrolabe ignores the visible road and follows a warm Wayglass pulse beneath it. A penciled seventh notch points toward the unmapped door inside Skyhome.",
+      "eligibleSkills": [
+        "Lore",
+        "Engineering"
+      ],
+      "consequenceIdentity": "Door-inside evidence, elite intelligence, and secondary-objective route",
+      "usesCommitted2d6": false,
+      "relationshipSceneCostsOperation": false,
+      "canCauseDeparture": false,
+      "exceptionalText": "The actor rebuilds the needle cradle and plots the pulse, the Route Mutilator, and Orra's field-book cache on one map. The optional recovery line opens with full evidence.",
+      "fullSuccessText": "The astrolabe confirms a moving pulse below the road and marks the descent to Orra's field book.",
+      "successWithCostText": "The below-road pulse is fixed on the map, but the cracked lens cannot give a precise distance to Orra's field book.",
+      "setbackText": "The needle gives only a narrow bearing. The Union may still choose Orra's field book or the safe descent, but without elite intelligence.",
+      "severeSetbackText": "The lens fails after proving only that the road continues below. Both onward routes remain legal, and the Guild records the broken instrument for later study.",
+      "relationshipMemorySummary": "They believed Orra Vale's penciled seventh notch when the astrolabe pointed beneath every known map."
+    },
+    {
+      "id": "EVENT_ABANDONED_SURVEY_PACK",
+      "title": "Orra's Pack Beneath the Line",
+      "problem": "Orra Vale's pack is lashed below the safe descent with her field book inside. Sella Vey recognizes the knot, while fog stalkers watch the recovery line.",
+      "eligibleSkills": [
+        "Perception",
+        "Stealth"
+      ],
+      "consequenceIdentity": "Orra's field book, surveyor rescue advantage, and Civic Trust",
+      "usesCommitted2d6": false,
+      "relationshipSceneCostsOperation": false,
+      "canCauseDeparture": false,
+      "exceptionalText": "The Union recovers Orra's field book without alerting the watchers and finds the missing crew's headcount, door sketch, and sabotage notes intact.",
+      "fullSuccessText": "Orra's field book comes free with the rescue route and seventh-return evidence readable.",
+      "successWithCostText": "The field book is recovered, but torn margins leave part of Orra's door sketch unreadable until the Guild can study it at home.",
+      "setbackText": "Several pages tear during the recovery. The headcount survives, the objective counts, and the Guild advances with incomplete door evidence.",
+      "severeSetbackText": "The pack cannot be safely cut loose. The Guild marks its exact position for a later civic recovery and continues toward the trapped surveyors.",
+      "relationshipMemorySummary": "They took the exposed line together so Sella Vey would not have to leave Orra Vale's field book behind."
+    },
+    {
+      "id": "EVENT_GARA_SURVEY_CREW_DESCENT",
+      "title": "Gara Holds the Lantern Descent",
+      "problem": "Sella Vey hears Orra Vale's survey bell below just as Gara Redtail finds the last working lift cradle. The wounded survey hands cannot descend alone. The Guildmaster must choose whether Gara lowers Sella beside them or anchors the cradle while a Union escorts them; either order reaches Orra sooner, but her exposed field book stays behind.",
+      "eligibleSkills": [
+        "Command",
+        "Medicine"
+      ],
+      "consequenceIdentity": "Gara's protected descent, Sella and the wounded survey hands, and Orra's field book left for later",
+      "usesCommitted2d6": false,
+      "relationshipSceneCostsOperation": false,
+      "canCauseDeparture": false,
+      "exceptionalText": "Gara lowers Sella and every wounded survey hand together. Sella hears Orra answer the bell, while Gara cuts a brass countermark from the cradle before the fog closes over the abandoned field book.",
+      "fullSuccessText": "Sella and the wounded survey hands reach Orra's bell below. Gara keeps the cradle steady until the last boots touch stone, then leaves the exposed field book marked for recovery.",
+      "successWithCostText": "The wounded survey hands reach the lower ledge with Sella, but Gara must abandon the lift cradle and Orra's field book to keep the fog from following them down.",
+      "setbackText": "The cradle jams halfway. Gara and the escort lower each wounded surveyor by hand, preserving every life while Orra's field book remains above with the watchers.",
+      "severeSetbackText": "The cradle tears free after Sella reaches the lower ledge. Gara holds the line until every wounded surveyor is down, but the Guild loses the easy return and must face Orra's rescue from below.",
+      "relationshipMemorySummary": "They trusted Gara Redtail to hold the last descent while Sella Vey guided every wounded survey hand toward Orra Vale's bell."
+    },
+    {
+      "id": "EVENT_FOUND_APPRENTICE",
+      "title": "Sella Vey at the Threshold",
+      "problem": "Apprentice surveyor Sella Vey crouches behind the Wayglass threshold with Master Surveyor Orra Vale's brass line-tag. She says the missing crew followed fresh marks that reverse Orra's seventh-return stroke.",
+      "eligibleSkills": [
+        "Medicine",
+        "Diplomacy"
+      ],
+      "consequenceIdentity": "Sella's rescue, the brass line-tag testimony, and Civic Trust",
+      "usesCommitted2d6": false,
+      "relationshipSceneCostsOperation": false,
+      "canCauseDeparture": false,
+      "exceptionalText": "Sella places Orra's brass line-tag against the Wayglass. Its seventh notch glows, the forgery is identified before departure, and both routes open with reliable testimony.",
+      "fullSuccessText": "Sella trusts the Guild with Orra's line-tag and demonstrates the false marks' reversed stroke. The threshold opens with usable evidence.",
+      "successWithCostText": "Sella speaks and the brass tag proves the official crew crossed the threshold, but she remains wary of the Union's haste.",
+      "setbackText": "Sella cannot face the painted corridor. The Guild spends supplies securing her at the threshold and continues with the brass line-tag as partial evidence.",
+      "severeSetbackText": "Sella shuts down when pressed. The Guild assigns a safe escort, records her testimony as unresolved, and keeps both routes open without losing her or a recruit.",
+      "relationshipMemorySummary": "They gave Sella Vey time to place Orra Vale's brass line-tag in their hands."
+    },
+    {
+      "id": "EVENT_DAMAGED_WAGON",
+      "title": "Axle in the Dust",
+      "problem": "The lead wagon\u2019s axle is split and the convoy wants to abandon it before the next attack.",
+      "eligibleSkills": [
+        "Engineering",
+        "Command"
+      ],
+      "consequenceIdentity": "Wagon integrity and urgency",
+      "usesCommitted2d6": true,
+      "relationshipSceneCostsOperation": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "EVENT_BLOCKED_CULVERT",
+      "title": "Water Across the Relief Road",
+      "problem": "A blocked culvert is turning the route into mud as the convoy approaches.",
+      "eligibleSkills": [
+        "Engineering",
+        "Athletics"
+      ],
+      "consequenceIdentity": "Road stability and supply cost",
+      "usesCommitted2d6": true,
+      "relationshipSceneCostsOperation": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "EVENT_STOLEN_MEDICINE_CRATE",
+      "title": "Tracks Leaving the Convoy",
+      "problem": "One medicine crate is missing, and the tracks lead away from the defended road.",
+      "eligibleSkills": [
+        "Perception",
+        "Survival"
+      ],
+      "consequenceIdentity": "Medicine recovery and optional elite intelligence",
+      "usesCommitted2d6": true,
+      "relationshipSceneCostsOperation": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "EVENT_PANICKED_DRAFT_BEASTS",
+      "title": "The Team Breaks Formation",
+      "problem": "The draft animals panic at a Gate Gnawer signal and begin pulling the wagons apart.",
+      "eligibleSkills": [
+        "Command",
+        "Medicine"
+      ],
+      "consequenceIdentity": "Convoy formation and starting battle Cohesion",
+      "usesCommitted2d6": true,
+      "relationshipSceneCostsOperation": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "EVENT_CONVOY_DISPUTE",
+      "title": "Who Gets the Last Guard",
+      "problem": "Drivers argue over which wagon deserves the strongest Union escort.",
+      "eligibleSkills": [
+        "Command",
+        "Diplomacy"
+      ],
+      "consequenceIdentity": "Cohesion, protection objective, and relationship memory",
+      "usesCommitted2d6": true,
+      "relationshipSceneCostsOperation": false,
+      "canCauseDeparture": false
+    },
+    {
+      "id": "EVENT_NIGHT_SIGNAL",
+      "title": "Three Lights Beyond the Road",
+      "problem": "Three distant lights answer the convoy lanterns in a pattern no relief crew recognizes.",
+      "eligibleSkills": [
+        "Perception",
+        "Lore"
+      ],
+      "consequenceIdentity": "Ambush warning and scout advantage",
+      "usesCommitted2d6": true,
+      "relationshipSceneCostsOperation": false,
+      "canCauseDeparture": false
+    }
+  ]
+}

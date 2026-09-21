@@ -1,0 +1,5981 @@
+{
+  "contentVersion": "GOW_PASS03_0.8",
+  "boards": {
+    "BOARD_BOSS": {
+      "id": "BOARD_02610EF4A78D2000150D",
+      "seed": "1A625F32085EFDF2:AC1E180AB290455E",
+      "contentVersion": "GOW_PASS03_0.8",
+      "profileId": "BOARD_BOSS",
+      "contractTypeId": "CONTRACT_TYPE_EXPLORATION",
+      "nodes": [
+        {
+          "id": "START",
+          "type": "ENTRANCE",
+          "x": 0,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "VISIBLE",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "1E6E08997939194E"
+        },
+        {
+          "id": "CRIT_001",
+          "type": "HAZARD",
+          "x": 6,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "VISIBLE",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "677967195E859F86"
+        },
+        {
+          "id": "CRIT_002",
+          "type": "ELITE_BATTLE",
+          "x": 12,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "212D778D76750193"
+        },
+        {
+          "id": "CRIT_003",
+          "type": "BATTLE",
+          "x": 18,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "3207122C04B8043E"
+        },
+        {
+          "id": "CRIT_004",
+          "type": "CAMP",
+          "x": 24,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "5C67202C8C50EB08"
+        },
+        {
+          "id": "CRIT_005",
+          "type": "MYSTERY",
+          "x": 30,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "93EEF5C45933CE26"
+        },
+        {
+          "id": "CRIT_006",
+          "type": "HAZARD",
+          "x": 36,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "AFD8F58727EE8260"
+        },
+        {
+          "id": "CRIT_007",
+          "type": "CAMP",
+          "x": 42,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "DDE8C1CD1B615FAF"
+        },
+        {
+          "id": "CRIT_008",
+          "type": "RESOURCE",
+          "x": 48,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "6C156EB3174F00FF"
+        },
+        {
+          "id": "CRIT_009",
+          "type": "ELITE_BATTLE",
+          "x": 54,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "28F50EE40FAB8F79"
+        },
+        {
+          "id": "CRIT_010",
+          "type": "RESOURCE",
+          "x": 60,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "86E7EEDD546B531F"
+        },
+        {
+          "id": "OBJECTIVE_GATE_KEY",
+          "type": "OBJECTIVE",
+          "x": 66,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [
+            "FLAG_BOSS_PREREQUISITE_COMPLETE"
+          ],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "D068B6BBB65303D5"
+        },
+        {
+          "id": "BOSS_GATEHEART",
+          "type": "BOSS",
+          "x": 72,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [
+            "FLAG_BOSS_PREREQUISITE_COMPLETE"
+          ],
+          "ordinarySecretId": null,
+          "contentSeed": "594A4A49C4297877"
+        },
+        {
+          "id": "EXIT",
+          "type": "EXIT",
+          "x": 78,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "BE3D549A8C2274F6"
+        },
+        {
+          "id": "BR00_000",
+          "type": "RESOURCE",
+          "x": 50,
+          "y": 4,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "9B3C339A3AB86E69"
+        },
+        {
+          "id": "BR01_000",
+          "type": "RESOURCE",
+          "x": 14,
+          "y": -4,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "5B3A91FBE6D4DFEF"
+        },
+        {
+          "id": "BR02_000",
+          "type": "EVENT",
+          "x": 8,
+          "y": 8,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "704313C538546603"
+        },
+        {
+          "id": "BR03_000",
+          "type": "EVENT",
+          "x": 20,
+          "y": -8,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "5F8C1BF8717D5186"
+        },
+        {
+          "id": "BR04_000",
+          "type": "EVENT",
+          "x": 20,
+          "y": 12,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "583EC9FB47A13834"
+        },
+        {
+          "id": "BR05_000",
+          "type": "BATTLE",
+          "x": 38,
+          "y": -12,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "ECE68CEA43789415"
+        },
+        {
+          "id": "BR06_000",
+          "type": "HAZARD",
+          "x": 62,
+          "y": 16,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "06F9DCC5CD29D0DA"
+        },
+        {
+          "id": "BR07_000",
+          "type": "WORLD_EVENT",
+          "x": 8,
+          "y": -16,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "E46E1D521AE7EDD7"
+        },
+        {
+          "id": "SECRET_000",
+          "type": "ORDINARY_SECRET",
+          "x": 52,
+          "y": 100,
+          "critical": false,
+          "required": false,
+          "visibility": "HIDDEN_ORDINARY",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": "SECRET_RAT_ROUTE",
+          "contentSeed": "4A9B9C26A5D2552A"
+        },
+        {
+          "id": "SECRET_001",
+          "type": "ORDINARY_SECRET",
+          "x": 22,
+          "y": 106,
+          "critical": false,
+          "required": false,
+          "visibility": "HIDDEN_ORDINARY",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": "SECRET_RARE_EVENT",
+          "contentSeed": "C15AA9DB3BA40E58"
+        },
+        {
+          "id": "SECRET_002",
+          "type": "ORDINARY_SECRET",
+          "x": 56,
+          "y": 112,
+          "critical": false,
+          "required": false,
+          "visibility": "HIDDEN_ORDINARY",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": "SECRET_OPTIONAL_ELITE",
+          "contentSeed": "2D9ADA937C3A3347"
+        },
+        {
+          "id": "MARGIN_PRIVATE_001",
+          "type": "MARGIN",
+          "x": 1008,
+          "y": 1001,
+          "critical": false,
+          "required": false,
+          "visibility": "PRIVATE_AUTHOR",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "BD23B4E7F05554B6"
+        }
+      ],
+      "edges": [
+        {
+          "id": "EDGE_001_START_CRIT_001",
+          "from": "START",
+          "to": "CRIT_001",
+          "visibility": "VISIBLE",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_002_CRIT_001_CRIT_002",
+          "from": "CRIT_001",
+          "to": "CRIT_002",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_003_CRIT_002_CRIT_003",
+          "from": "CRIT_002",
+          "to": "CRIT_003",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_004_CRIT_003_CRIT_004",
+          "from": "CRIT_003",
+          "to": "CRIT_004",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_005_CRIT_004_CRIT_005",
+          "from": "CRIT_004",
+          "to": "CRIT_005",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_006_CRIT_005_CRIT_006",
+          "from": "CRIT_005",
+          "to": "CRIT_006",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_007_CRIT_006_CRIT_007",
+          "from": "CRIT_006",
+          "to": "CRIT_007",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_008_CRIT_007_CRIT_008",
+          "from": "CRIT_007",
+          "to": "CRIT_008",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_009_CRIT_008_CRIT_009",
+          "from": "CRIT_008",
+          "to": "CRIT_009",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_010_CRIT_009_CRIT_010",
+          "from": "CRIT_009",
+          "to": "CRIT_010",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_011_CRIT_010_OBJECTIVE_GATE_KEY",
+          "from": "CRIT_010",
+          "to": "OBJECTIVE_GATE_KEY",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_012_OBJECTIVE_GATE_KEY_BOSS_GATEHEART",
+          "from": "OBJECTIVE_GATE_KEY",
+          "to": "BOSS_GATEHEART",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_013_BOSS_GATEHEART_EXIT",
+          "from": "BOSS_GATEHEART",
+          "to": "EXIT",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_014_CRIT_008_BR00_000",
+          "from": "CRIT_008",
+          "to": "BR00_000",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_015_CRIT_002_BR01_000",
+          "from": "CRIT_002",
+          "to": "BR01_000",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_016_BR01_000_CRIT_004",
+          "from": "BR01_000",
+          "to": "CRIT_004",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_017_CRIT_001_BR02_000",
+          "from": "CRIT_001",
+          "to": "BR02_000",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_018_BR02_000_CRIT_002",
+          "from": "BR02_000",
+          "to": "CRIT_002",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_019_CRIT_003_BR03_000",
+          "from": "CRIT_003",
+          "to": "BR03_000",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_020_CRIT_003_BR04_000",
+          "from": "CRIT_003",
+          "to": "BR04_000",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_021_BR04_000_CRIT_005",
+          "from": "BR04_000",
+          "to": "CRIT_005",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_022_CRIT_006_BR05_000",
+          "from": "CRIT_006",
+          "to": "BR05_000",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_023_BR05_000_CRIT_008",
+          "from": "BR05_000",
+          "to": "CRIT_008",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_024_CRIT_010_BR06_000",
+          "from": "CRIT_010",
+          "to": "BR06_000",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_025_BR06_000_OBJECTIVE_GATE_KEY",
+          "from": "BR06_000",
+          "to": "OBJECTIVE_GATE_KEY",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_026_CRIT_001_BR07_000",
+          "from": "CRIT_001",
+          "to": "BR07_000",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_027_BR07_000_CRIT_002",
+          "from": "BR07_000",
+          "to": "CRIT_002",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_028_BR00_000_SECRET_000",
+          "from": "BR00_000",
+          "to": "SECRET_000",
+          "visibility": "HIDDEN_ORDINARY",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_029_CRIT_004_SECRET_001",
+          "from": "CRIT_004",
+          "to": "SECRET_001",
+          "visibility": "HIDDEN_ORDINARY",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_030_CRIT_009_SECRET_002",
+          "from": "CRIT_009",
+          "to": "SECRET_002",
+          "visibility": "HIDDEN_ORDINARY",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_031_BR02_000_MARGIN_PRIVATE_001",
+          "from": "BR02_000",
+          "to": "MARGIN_PRIVATE_001",
+          "visibility": "PRIVATE_AUTHOR",
+          "traversalCost": 1,
+          "bidirectional": true
+        }
+      ],
+      "startNodeId": "START",
+      "exitNodeId": "EXIT",
+      "marginNodeId": "MARGIN_PRIVATE_001",
+      "marginAnchorNodeId": "BR02_000",
+      "criticalPathNodeIds": [
+        "START",
+        "CRIT_001",
+        "CRIT_002",
+        "CRIT_003",
+        "CRIT_004",
+        "CRIT_005",
+        "CRIT_006",
+        "CRIT_007",
+        "CRIT_008",
+        "CRIT_009",
+        "CRIT_010",
+        "OBJECTIVE_GATE_KEY",
+        "BOSS_GATEHEART",
+        "EXIT"
+      ],
+      "ordinarySecretNodeIds": [
+        "SECRET_000",
+        "SECRET_001",
+        "SECRET_002"
+      ],
+      "requiredNodeIds": [
+        "START",
+        "CRIT_001",
+        "CRIT_002",
+        "CRIT_003",
+        "CRIT_004",
+        "CRIT_005",
+        "CRIT_006",
+        "CRIT_007",
+        "CRIT_008",
+        "CRIT_009",
+        "CRIT_010",
+        "OBJECTIVE_GATE_KEY",
+        "BOSS_GATEHEART",
+        "EXIT"
+      ],
+      "normalCompletionNodeIds": [
+        "START",
+        "CRIT_001",
+        "CRIT_002",
+        "CRIT_003",
+        "CRIT_004",
+        "CRIT_005",
+        "CRIT_006",
+        "CRIT_007",
+        "CRIT_008",
+        "CRIT_009",
+        "CRIT_010",
+        "OBJECTIVE_GATE_KEY",
+        "BOSS_GATEHEART",
+        "EXIT",
+        "BR00_000",
+        "BR01_000",
+        "BR02_000",
+        "BR03_000",
+        "BR04_000",
+        "BR05_000",
+        "BR06_000",
+        "BR07_000",
+        "SECRET_000",
+        "SECRET_001",
+        "SECRET_002"
+      ],
+      "initialResources": {
+        "supplies": 12,
+        "fatigue": 0,
+        "morale": 6,
+        "time": 0
+      }
+    },
+    "BOARD_LONG": {
+      "id": "BOARD_53091F5D168FB4B14A81",
+      "seed": "3724C0B6F2588549:BDB20426E52BC3CC",
+      "contentVersion": "GOW_PASS03_0.8",
+      "profileId": "BOARD_LONG",
+      "contractTypeId": "CONTRACT_TYPE_EXPLORATION",
+      "nodes": [
+        {
+          "id": "START",
+          "type": "ENTRANCE",
+          "x": 0,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "VISIBLE",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "78916B48F5344D42"
+        },
+        {
+          "id": "CRIT_001",
+          "type": "SKILL_CHECK",
+          "x": 6,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "VISIBLE",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "09DB73240EF8EB91"
+        },
+        {
+          "id": "CRIT_002",
+          "type": "MYSTERY",
+          "x": 12,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "6447DE4BE56D7EA5"
+        },
+        {
+          "id": "CRIT_003",
+          "type": "RESOURCE",
+          "x": 18,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "92AF523689E47768"
+        },
+        {
+          "id": "CRIT_004",
+          "type": "RESOURCE",
+          "x": 24,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "79DAEEAD86DEC6FD"
+        },
+        {
+          "id": "CRIT_005",
+          "type": "CAMP",
+          "x": 30,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "A3A6C08B824277ED"
+        },
+        {
+          "id": "CRIT_006",
+          "type": "ELITE_BATTLE",
+          "x": 36,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "A5ED8345082F615C"
+        },
+        {
+          "id": "CRIT_007",
+          "type": "ELITE_BATTLE",
+          "x": 42,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "33156634CFED19D4"
+        },
+        {
+          "id": "CRIT_008",
+          "type": "CAMP",
+          "x": 48,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "C906A591143C58E7"
+        },
+        {
+          "id": "CRIT_009",
+          "type": "RESOURCE",
+          "x": 54,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "3CDB78EAB6376458"
+        },
+        {
+          "id": "CRIT_010",
+          "type": "EVENT",
+          "x": 60,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "235A8139C823F108"
+        },
+        {
+          "id": "EXIT",
+          "type": "EXIT",
+          "x": 66,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "8305A622585FD8C3"
+        },
+        {
+          "id": "BR00_000",
+          "type": "EVENT",
+          "x": 44,
+          "y": 4,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "D25AB4840D810ADA"
+        },
+        {
+          "id": "BR01_000",
+          "type": "MYSTERY",
+          "x": 20,
+          "y": -4,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "0596D1B7BFEA19B6"
+        },
+        {
+          "id": "BR01_001",
+          "type": "RESCUE",
+          "x": 22,
+          "y": -4,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "82000C504198D03D"
+        },
+        {
+          "id": "BR02_000",
+          "type": "MYSTERY",
+          "x": 38,
+          "y": 8,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "FE6596FD7A67A97D"
+        },
+        {
+          "id": "BR03_000",
+          "type": "BATTLE",
+          "x": 20,
+          "y": -8,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "B9A1AAF8D1B28B68"
+        },
+        {
+          "id": "BR03_001",
+          "type": "EVENT",
+          "x": 22,
+          "y": -8,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "9BA293B5F49F7E0A"
+        },
+        {
+          "id": "BR04_000",
+          "type": "EVENT",
+          "x": 56,
+          "y": 12,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "C15FFFF9939BD26B"
+        },
+        {
+          "id": "BR05_000",
+          "type": "MYSTERY",
+          "x": 38,
+          "y": -12,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "83F4C8377F390CD5"
+        },
+        {
+          "id": "BR05_001",
+          "type": "EVENT",
+          "x": 40,
+          "y": -12,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "5F4695E5710665D8"
+        },
+        {
+          "id": "SECRET_000",
+          "type": "ORDINARY_SECRET",
+          "x": 58,
+          "y": 100,
+          "critical": false,
+          "required": false,
+          "visibility": "HIDDEN_ORDINARY",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": "SECRET_RAT_ROUTE",
+          "contentSeed": "54286EB521909F80"
+        },
+        {
+          "id": "SECRET_001",
+          "type": "ORDINARY_SECRET",
+          "x": 16,
+          "y": 106,
+          "critical": false,
+          "required": false,
+          "visibility": "HIDDEN_ORDINARY",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": "SECRET_MISMATCHED_MORTAR",
+          "contentSeed": "98943712800CA15B"
+        },
+        {
+          "id": "SECRET_002",
+          "type": "ORDINARY_SECRET",
+          "x": 32,
+          "y": 112,
+          "critical": false,
+          "required": false,
+          "visibility": "HIDDEN_ORDINARY",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": "SECRET_SURVEY_CIPHER",
+          "contentSeed": "670C83DEF6652792"
+        },
+        {
+          "id": "MARGIN_PRIVATE_001",
+          "type": "MARGIN",
+          "x": 1038,
+          "y": 1002,
+          "critical": false,
+          "required": false,
+          "visibility": "PRIVATE_AUTHOR",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "1B58FFC9DAE69AD4"
+        }
+      ],
+      "edges": [
+        {
+          "id": "EDGE_001_START_CRIT_001",
+          "from": "START",
+          "to": "CRIT_001",
+          "visibility": "VISIBLE",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_002_CRIT_001_CRIT_002",
+          "from": "CRIT_001",
+          "to": "CRIT_002",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_003_CRIT_002_CRIT_003",
+          "from": "CRIT_002",
+          "to": "CRIT_003",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_004_CRIT_003_CRIT_004",
+          "from": "CRIT_003",
+          "to": "CRIT_004",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_005_CRIT_004_CRIT_005",
+          "from": "CRIT_004",
+          "to": "CRIT_005",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_006_CRIT_005_CRIT_006",
+          "from": "CRIT_005",
+          "to": "CRIT_006",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_007_CRIT_006_CRIT_007",
+          "from": "CRIT_006",
+          "to": "CRIT_007",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_008_CRIT_007_CRIT_008",
+          "from": "CRIT_007",
+          "to": "CRIT_008",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_009_CRIT_008_CRIT_009",
+          "from": "CRIT_008",
+          "to": "CRIT_009",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_010_CRIT_009_CRIT_010",
+          "from": "CRIT_009",
+          "to": "CRIT_010",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_011_CRIT_010_EXIT",
+          "from": "CRIT_010",
+          "to": "EXIT",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_012_CRIT_007_BR00_000",
+          "from": "CRIT_007",
+          "to": "BR00_000",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_013_BR00_000_CRIT_008",
+          "from": "BR00_000",
+          "to": "CRIT_008",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_014_CRIT_003_BR01_000",
+          "from": "CRIT_003",
+          "to": "BR01_000",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_015_BR01_000_BR01_001",
+          "from": "BR01_000",
+          "to": "BR01_001",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_016_BR01_001_CRIT_005",
+          "from": "BR01_001",
+          "to": "CRIT_005",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_017_CRIT_006_BR02_000",
+          "from": "CRIT_006",
+          "to": "BR02_000",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_018_BR02_000_CRIT_008",
+          "from": "BR02_000",
+          "to": "CRIT_008",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_019_CRIT_003_BR03_000",
+          "from": "CRIT_003",
+          "to": "BR03_000",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_020_BR03_000_BR03_001",
+          "from": "BR03_000",
+          "to": "BR03_001",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_021_BR03_001_CRIT_004",
+          "from": "BR03_001",
+          "to": "CRIT_004",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_022_CRIT_009_BR04_000",
+          "from": "CRIT_009",
+          "to": "BR04_000",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_023_BR04_000_EXIT",
+          "from": "BR04_000",
+          "to": "EXIT",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_024_CRIT_006_BR05_000",
+          "from": "CRIT_006",
+          "to": "BR05_000",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_025_BR05_000_BR05_001",
+          "from": "BR05_000",
+          "to": "BR05_001",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_026_BR05_001_CRIT_007",
+          "from": "BR05_001",
+          "to": "CRIT_007",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_027_BR04_000_SECRET_000",
+          "from": "BR04_000",
+          "to": "SECRET_000",
+          "visibility": "HIDDEN_ORDINARY",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_028_CRIT_003_SECRET_001",
+          "from": "CRIT_003",
+          "to": "SECRET_001",
+          "visibility": "HIDDEN_ORDINARY",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_029_CRIT_005_SECRET_002",
+          "from": "CRIT_005",
+          "to": "SECRET_002",
+          "visibility": "HIDDEN_ORDINARY",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_030_BR02_000_MARGIN_PRIVATE_001",
+          "from": "BR02_000",
+          "to": "MARGIN_PRIVATE_001",
+          "visibility": "PRIVATE_AUTHOR",
+          "traversalCost": 1,
+          "bidirectional": true
+        }
+      ],
+      "startNodeId": "START",
+      "exitNodeId": "EXIT",
+      "marginNodeId": "MARGIN_PRIVATE_001",
+      "marginAnchorNodeId": "BR02_000",
+      "criticalPathNodeIds": [
+        "START",
+        "CRIT_001",
+        "CRIT_002",
+        "CRIT_003",
+        "CRIT_004",
+        "CRIT_005",
+        "CRIT_006",
+        "CRIT_007",
+        "CRIT_008",
+        "CRIT_009",
+        "CRIT_010",
+        "EXIT"
+      ],
+      "ordinarySecretNodeIds": [
+        "SECRET_000",
+        "SECRET_001",
+        "SECRET_002"
+      ],
+      "requiredNodeIds": [
+        "START",
+        "CRIT_001",
+        "CRIT_002",
+        "CRIT_003",
+        "CRIT_004",
+        "CRIT_005",
+        "CRIT_006",
+        "CRIT_007",
+        "CRIT_008",
+        "CRIT_009",
+        "CRIT_010",
+        "EXIT"
+      ],
+      "normalCompletionNodeIds": [
+        "START",
+        "CRIT_001",
+        "CRIT_002",
+        "CRIT_003",
+        "CRIT_004",
+        "CRIT_005",
+        "CRIT_006",
+        "CRIT_007",
+        "CRIT_008",
+        "CRIT_009",
+        "CRIT_010",
+        "EXIT",
+        "BR00_000",
+        "BR01_000",
+        "BR01_001",
+        "BR02_000",
+        "BR03_000",
+        "BR03_001",
+        "BR04_000",
+        "BR05_000",
+        "BR05_001",
+        "SECRET_000",
+        "SECRET_001",
+        "SECRET_002"
+      ],
+      "initialResources": {
+        "supplies": 10,
+        "fatigue": 0,
+        "morale": 6,
+        "time": 0
+      }
+    },
+    "BOARD_NORMAL": {
+      "id": "BOARD_B8B44D31D84D62B7CF67",
+      "seed": "81A851E3F8460CC6:EFEE2CD0A8E9C719",
+      "contentVersion": "GOW_PASS03_0.8",
+      "profileId": "BOARD_NORMAL",
+      "contractTypeId": "CONTRACT_TYPE_EXPLORATION",
+      "nodes": [
+        {
+          "id": "START",
+          "type": "ENTRANCE",
+          "x": 0,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "VISIBLE",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "B1C3227747F93269"
+        },
+        {
+          "id": "CRIT_001",
+          "type": "EVENT",
+          "x": 6,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "VISIBLE",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "04D5DD4E8A0CBD0E"
+        },
+        {
+          "id": "CRIT_002",
+          "type": "ELITE_BATTLE",
+          "x": 12,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "5A9E0F18F11126A0"
+        },
+        {
+          "id": "CRIT_003",
+          "type": "CAMP",
+          "x": 18,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "FDBD4A3A286975D7"
+        },
+        {
+          "id": "CRIT_004",
+          "type": "RESOURCE",
+          "x": 24,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "13E73236B7C4C93F"
+        },
+        {
+          "id": "CRIT_005",
+          "type": "RESOURCE",
+          "x": 30,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "317301A0D339A7C7"
+        },
+        {
+          "id": "CRIT_006",
+          "type": "BATTLE",
+          "x": 36,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "E23EC11986DF0122"
+        },
+        {
+          "id": "EXIT",
+          "type": "EXIT",
+          "x": 42,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "137A50A22813F8B0"
+        },
+        {
+          "id": "BR00_000",
+          "type": "HAZARD",
+          "x": 14,
+          "y": 4,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "620CC1D03E70269F"
+        },
+        {
+          "id": "BR01_000",
+          "type": "RESOURCE",
+          "x": 32,
+          "y": -4,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "34449383115A07C0"
+        },
+        {
+          "id": "BR01_001",
+          "type": "EVENT",
+          "x": 34,
+          "y": -4,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "D0B3EFA9AD427ECB"
+        },
+        {
+          "id": "BR01_002",
+          "type": "CAMP",
+          "x": 36,
+          "y": -4,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "8372CB304131303E"
+        },
+        {
+          "id": "BR01_003",
+          "type": "BATTLE",
+          "x": 38,
+          "y": -4,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "C438C3F1B0EA1DA0"
+        },
+        {
+          "id": "BR02_000",
+          "type": "BATTLE",
+          "x": 20,
+          "y": 8,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "BC84FFEF815ECE39"
+        },
+        {
+          "id": "BR02_001",
+          "type": "EVENT",
+          "x": 22,
+          "y": 8,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "9DCAAAE0CA95AE65"
+        },
+        {
+          "id": "BR02_002",
+          "type": "EVENT",
+          "x": 24,
+          "y": 8,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "2AE7248D26697FF7"
+        },
+        {
+          "id": "SECRET_000",
+          "type": "ORDINARY_SECRET",
+          "x": 14,
+          "y": 100,
+          "critical": false,
+          "required": false,
+          "visibility": "HIDDEN_ORDINARY",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": "SECRET_ALTERNATE_EXIT",
+          "contentSeed": "79B46958D0826FBF"
+        },
+        {
+          "id": "MARGIN_PRIVATE_001",
+          "type": "MARGIN",
+          "x": 1022,
+          "y": 1003,
+          "critical": false,
+          "required": false,
+          "visibility": "PRIVATE_AUTHOR",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "ABDD90769EDE9C83"
+        }
+      ],
+      "edges": [
+        {
+          "id": "EDGE_001_START_CRIT_001",
+          "from": "START",
+          "to": "CRIT_001",
+          "visibility": "VISIBLE",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_002_CRIT_001_CRIT_002",
+          "from": "CRIT_001",
+          "to": "CRIT_002",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_003_CRIT_002_CRIT_003",
+          "from": "CRIT_002",
+          "to": "CRIT_003",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_004_CRIT_003_CRIT_004",
+          "from": "CRIT_003",
+          "to": "CRIT_004",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_005_CRIT_004_CRIT_005",
+          "from": "CRIT_004",
+          "to": "CRIT_005",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_006_CRIT_005_CRIT_006",
+          "from": "CRIT_005",
+          "to": "CRIT_006",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_007_CRIT_006_EXIT",
+          "from": "CRIT_006",
+          "to": "EXIT",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_008_CRIT_002_BR00_000",
+          "from": "CRIT_002",
+          "to": "BR00_000",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_009_BR00_000_CRIT_004",
+          "from": "BR00_000",
+          "to": "CRIT_004",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_010_CRIT_005_BR01_000",
+          "from": "CRIT_005",
+          "to": "BR01_000",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_011_BR01_000_BR01_001",
+          "from": "BR01_000",
+          "to": "BR01_001",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_012_BR01_001_BR01_002",
+          "from": "BR01_001",
+          "to": "BR01_002",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_013_BR01_002_BR01_003",
+          "from": "BR01_002",
+          "to": "BR01_003",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_014_BR01_003_EXIT",
+          "from": "BR01_003",
+          "to": "EXIT",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_015_CRIT_003_BR02_000",
+          "from": "CRIT_003",
+          "to": "BR02_000",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_016_BR02_000_BR02_001",
+          "from": "BR02_000",
+          "to": "BR02_001",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_017_BR02_001_BR02_002",
+          "from": "BR02_001",
+          "to": "BR02_002",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_018_BR02_002_CRIT_005",
+          "from": "BR02_002",
+          "to": "CRIT_005",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_019_CRIT_002_SECRET_000",
+          "from": "CRIT_002",
+          "to": "SECRET_000",
+          "visibility": "HIDDEN_ORDINARY",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_020_BR02_001_MARGIN_PRIVATE_001",
+          "from": "BR02_001",
+          "to": "MARGIN_PRIVATE_001",
+          "visibility": "PRIVATE_AUTHOR",
+          "traversalCost": 1,
+          "bidirectional": true
+        }
+      ],
+      "startNodeId": "START",
+      "exitNodeId": "EXIT",
+      "marginNodeId": "MARGIN_PRIVATE_001",
+      "marginAnchorNodeId": "BR02_001",
+      "criticalPathNodeIds": [
+        "START",
+        "CRIT_001",
+        "CRIT_002",
+        "CRIT_003",
+        "CRIT_004",
+        "CRIT_005",
+        "CRIT_006",
+        "EXIT"
+      ],
+      "ordinarySecretNodeIds": [
+        "SECRET_000"
+      ],
+      "requiredNodeIds": [
+        "START",
+        "CRIT_001",
+        "CRIT_002",
+        "CRIT_003",
+        "CRIT_004",
+        "CRIT_005",
+        "CRIT_006",
+        "EXIT"
+      ],
+      "normalCompletionNodeIds": [
+        "START",
+        "CRIT_001",
+        "CRIT_002",
+        "CRIT_003",
+        "CRIT_004",
+        "CRIT_005",
+        "CRIT_006",
+        "EXIT",
+        "BR00_000",
+        "BR01_000",
+        "BR01_001",
+        "BR01_002",
+        "BR01_003",
+        "BR02_000",
+        "BR02_001",
+        "BR02_002",
+        "SECRET_000"
+      ],
+      "initialResources": {
+        "supplies": 8,
+        "fatigue": 0,
+        "morale": 6,
+        "time": 0
+      }
+    },
+    "BOARD_SHORT": {
+      "id": "BOARD_9984EA285523DE4FCF48",
+      "seed": "4BAF666FFC0B2305:3199F422B3C3FC81",
+      "contentVersion": "GOW_PASS03_0.8",
+      "profileId": "BOARD_SHORT",
+      "contractTypeId": "CONTRACT_TYPE_EXPLORATION",
+      "nodes": [
+        {
+          "id": "START",
+          "type": "ENTRANCE",
+          "x": 0,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "VISIBLE",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "FAE35F55E49D21F7"
+        },
+        {
+          "id": "CRIT_001",
+          "type": "EVENT",
+          "x": 6,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "VISIBLE",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "1DA19CAF46228833"
+        },
+        {
+          "id": "CRIT_002",
+          "type": "RESOURCE",
+          "x": 12,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "45ABB550C3AED184"
+        },
+        {
+          "id": "CRIT_003",
+          "type": "CAMP",
+          "x": 18,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "19D67C0F4AC2CA79"
+        },
+        {
+          "id": "CRIT_004",
+          "type": "EVENT",
+          "x": 24,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "021A29C4A39A4235"
+        },
+        {
+          "id": "CRIT_005",
+          "type": "EVENT",
+          "x": 30,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "A95FA414EA23DC2C"
+        },
+        {
+          "id": "EXIT",
+          "type": "EXIT",
+          "x": 36,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "A12007D0A4FF870D"
+        },
+        {
+          "id": "BR00_000",
+          "type": "RESOURCE",
+          "x": 14,
+          "y": 4,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "2E221EF63CA1336C"
+        },
+        {
+          "id": "BR01_000",
+          "type": "HAZARD",
+          "x": 14,
+          "y": -4,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "6626C648BD5408D0"
+        },
+        {
+          "id": "SECRET_000",
+          "type": "ORDINARY_SECRET",
+          "x": 16,
+          "y": 100,
+          "critical": false,
+          "required": false,
+          "visibility": "HIDDEN_ORDINARY",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": "SECRET_CONDUIT_PUZZLE",
+          "contentSeed": "4CCF5B108D34FFCE"
+        },
+        {
+          "id": "MARGIN_PRIVATE_001",
+          "type": "MARGIN",
+          "x": 1014,
+          "y": 1004,
+          "critical": false,
+          "required": false,
+          "visibility": "PRIVATE_AUTHOR",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "CA12D20B8637C05F"
+        }
+      ],
+      "edges": [
+        {
+          "id": "EDGE_001_START_CRIT_001",
+          "from": "START",
+          "to": "CRIT_001",
+          "visibility": "VISIBLE",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_002_CRIT_001_CRIT_002",
+          "from": "CRIT_001",
+          "to": "CRIT_002",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_003_CRIT_002_CRIT_003",
+          "from": "CRIT_002",
+          "to": "CRIT_003",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_004_CRIT_003_CRIT_004",
+          "from": "CRIT_003",
+          "to": "CRIT_004",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_005_CRIT_004_CRIT_005",
+          "from": "CRIT_004",
+          "to": "CRIT_005",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_006_CRIT_005_EXIT",
+          "from": "CRIT_005",
+          "to": "EXIT",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_007_CRIT_002_BR00_000",
+          "from": "CRIT_002",
+          "to": "BR00_000",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_008_BR00_000_CRIT_003",
+          "from": "BR00_000",
+          "to": "CRIT_003",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_009_CRIT_002_BR01_000",
+          "from": "CRIT_002",
+          "to": "BR01_000",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_010_BR01_000_CRIT_004",
+          "from": "BR01_000",
+          "to": "CRIT_004",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_011_BR00_000_SECRET_000",
+          "from": "BR00_000",
+          "to": "SECRET_000",
+          "visibility": "HIDDEN_ORDINARY",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_012_BR00_000_MARGIN_PRIVATE_001",
+          "from": "BR00_000",
+          "to": "MARGIN_PRIVATE_001",
+          "visibility": "PRIVATE_AUTHOR",
+          "traversalCost": 1,
+          "bidirectional": true
+        }
+      ],
+      "startNodeId": "START",
+      "exitNodeId": "EXIT",
+      "marginNodeId": "MARGIN_PRIVATE_001",
+      "marginAnchorNodeId": "BR00_000",
+      "criticalPathNodeIds": [
+        "START",
+        "CRIT_001",
+        "CRIT_002",
+        "CRIT_003",
+        "CRIT_004",
+        "CRIT_005",
+        "EXIT"
+      ],
+      "ordinarySecretNodeIds": [
+        "SECRET_000"
+      ],
+      "requiredNodeIds": [
+        "START",
+        "CRIT_001",
+        "CRIT_002",
+        "CRIT_003",
+        "CRIT_004",
+        "CRIT_005",
+        "EXIT"
+      ],
+      "normalCompletionNodeIds": [
+        "START",
+        "CRIT_001",
+        "CRIT_002",
+        "CRIT_003",
+        "CRIT_004",
+        "CRIT_005",
+        "EXIT",
+        "BR00_000",
+        "BR01_000",
+        "SECRET_000"
+      ],
+      "initialResources": {
+        "supplies": 6,
+        "fatigue": 0,
+        "morale": 6,
+        "time": 0
+      }
+    },
+    "BOARD_STORY": {
+      "id": "BOARD_A1EEA7B63D53C04E8B0B",
+      "seed": "2FE02039B87C4F21:3333E7228287BED6",
+      "contentVersion": "GOW_PASS03_0.8",
+      "profileId": "BOARD_STORY",
+      "contractTypeId": "CONTRACT_TYPE_EXPLORATION",
+      "nodes": [
+        {
+          "id": "START",
+          "type": "ENTRANCE",
+          "x": 0,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "VISIBLE",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "1B0322AA01424314"
+        },
+        {
+          "id": "CRIT_001",
+          "type": "RESCUE",
+          "x": 6,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "VISIBLE",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "A5E8FF1E37E59ECE"
+        },
+        {
+          "id": "CRIT_002",
+          "type": "RESOURCE",
+          "x": 12,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "D9AEE1FB9E530F01"
+        },
+        {
+          "id": "CRIT_003",
+          "type": "ELITE_BATTLE",
+          "x": 18,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "0A8497D9F3ED4344"
+        },
+        {
+          "id": "CRIT_004",
+          "type": "EVENT",
+          "x": 24,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "926A915EE23003A8"
+        },
+        {
+          "id": "CRIT_005",
+          "type": "CAMP",
+          "x": 30,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "BCAF8A2973285DA4"
+        },
+        {
+          "id": "CRIT_006",
+          "type": "CAMP",
+          "x": 36,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "0489A686F9AB1590"
+        },
+        {
+          "id": "CRIT_007",
+          "type": "RESOURCE",
+          "x": 42,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "6ABF6A4F73CFD34A"
+        },
+        {
+          "id": "CRIT_008",
+          "type": "RESCUE",
+          "x": 48,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "7BBFC690FAC9C052"
+        },
+        {
+          "id": "OBJECTIVE_GATE_KEY",
+          "type": "OBJECTIVE",
+          "x": 54,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [
+            "FLAG_BOSS_PREREQUISITE_COMPLETE"
+          ],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "D1543187C744B443"
+        },
+        {
+          "id": "BOSS_GATEHEART",
+          "type": "BOSS",
+          "x": 60,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [
+            "FLAG_BOSS_PREREQUISITE_COMPLETE"
+          ],
+          "ordinarySecretId": null,
+          "contentSeed": "CCB5235CB1ED1EE0"
+        },
+        {
+          "id": "EXIT",
+          "type": "EXIT",
+          "x": 66,
+          "y": 0,
+          "critical": true,
+          "required": true,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "697374CCCABD99E8"
+        },
+        {
+          "id": "BR00_000",
+          "type": "BATTLE",
+          "x": 50,
+          "y": 4,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "00F362C3B9A41D35"
+        },
+        {
+          "id": "BR01_000",
+          "type": "BATTLE",
+          "x": 14,
+          "y": -4,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "09EADA56077125B3"
+        },
+        {
+          "id": "BR02_000",
+          "type": "BATTLE",
+          "x": 38,
+          "y": 8,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "9DFC4EEE5F35F8CB"
+        },
+        {
+          "id": "BR02_001",
+          "type": "MYSTERY",
+          "x": 40,
+          "y": 8,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "A5A0FA261B88BD57"
+        },
+        {
+          "id": "BR03_000",
+          "type": "SKILL_CHECK",
+          "x": 44,
+          "y": -8,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "017BB30CE66F697A"
+        },
+        {
+          "id": "BR04_000",
+          "type": "RESCUE",
+          "x": 38,
+          "y": 12,
+          "critical": false,
+          "required": false,
+          "visibility": "FOGGED",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "7A2FA96403449BEB"
+        },
+        {
+          "id": "SECRET_000",
+          "type": "ORDINARY_SECRET",
+          "x": 20,
+          "y": 100,
+          "critical": false,
+          "required": false,
+          "visibility": "HIDDEN_ORDINARY",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": "SECRET_ALTERNATE_EXIT",
+          "contentSeed": "1418A22F85AFF2EF"
+        },
+        {
+          "id": "SECRET_001",
+          "type": "ORDINARY_SECRET",
+          "x": 36,
+          "y": 106,
+          "critical": false,
+          "required": false,
+          "visibility": "HIDDEN_ORDINARY",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": "SECRET_SURVEY_CIPHER",
+          "contentSeed": "E0104E09E8E96DE6"
+        },
+        {
+          "id": "MARGIN_PRIVATE_001",
+          "type": "MARGIN",
+          "x": 1038,
+          "y": 1005,
+          "critical": false,
+          "required": false,
+          "visibility": "PRIVATE_AUTHOR",
+          "grantsFlags": [],
+          "requiresFlags": [],
+          "ordinarySecretId": null,
+          "contentSeed": "4A0C1FF5D6D01E62"
+        }
+      ],
+      "edges": [
+        {
+          "id": "EDGE_001_START_CRIT_001",
+          "from": "START",
+          "to": "CRIT_001",
+          "visibility": "VISIBLE",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_002_CRIT_001_CRIT_002",
+          "from": "CRIT_001",
+          "to": "CRIT_002",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_003_CRIT_002_CRIT_003",
+          "from": "CRIT_002",
+          "to": "CRIT_003",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_004_CRIT_003_CRIT_004",
+          "from": "CRIT_003",
+          "to": "CRIT_004",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_005_CRIT_004_CRIT_005",
+          "from": "CRIT_004",
+          "to": "CRIT_005",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_006_CRIT_005_CRIT_006",
+          "from": "CRIT_005",
+          "to": "CRIT_006",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_007_CRIT_006_CRIT_007",
+          "from": "CRIT_006",
+          "to": "CRIT_007",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_008_CRIT_007_CRIT_008",
+          "from": "CRIT_007",
+          "to": "CRIT_008",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_009_CRIT_008_OBJECTIVE_GATE_KEY",
+          "from": "CRIT_008",
+          "to": "OBJECTIVE_GATE_KEY",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_010_OBJECTIVE_GATE_KEY_BOSS_GATEHEART",
+          "from": "OBJECTIVE_GATE_KEY",
+          "to": "BOSS_GATEHEART",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_011_BOSS_GATEHEART_EXIT",
+          "from": "BOSS_GATEHEART",
+          "to": "EXIT",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_012_CRIT_008_BR00_000",
+          "from": "CRIT_008",
+          "to": "BR00_000",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_013_BR00_000_BOSS_GATEHEART",
+          "from": "BR00_000",
+          "to": "BOSS_GATEHEART",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_014_CRIT_002_BR01_000",
+          "from": "CRIT_002",
+          "to": "BR01_000",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_015_CRIT_006_BR02_000",
+          "from": "CRIT_006",
+          "to": "BR02_000",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_016_BR02_000_BR02_001",
+          "from": "BR02_000",
+          "to": "BR02_001",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_017_BR02_001_CRIT_008",
+          "from": "BR02_001",
+          "to": "CRIT_008",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_018_CRIT_007_BR03_000",
+          "from": "CRIT_007",
+          "to": "BR03_000",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_019_BR03_000_OBJECTIVE_GATE_KEY",
+          "from": "BR03_000",
+          "to": "OBJECTIVE_GATE_KEY",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_020_CRIT_006_BR04_000",
+          "from": "CRIT_006",
+          "to": "BR04_000",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_021_BR04_000_CRIT_007",
+          "from": "BR04_000",
+          "to": "CRIT_007",
+          "visibility": "FOGGED",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_022_CRIT_003_SECRET_000",
+          "from": "CRIT_003",
+          "to": "SECRET_000",
+          "visibility": "HIDDEN_ORDINARY",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_023_BR04_000_SECRET_001",
+          "from": "BR04_000",
+          "to": "SECRET_001",
+          "visibility": "HIDDEN_ORDINARY",
+          "traversalCost": 1,
+          "bidirectional": true
+        },
+        {
+          "id": "EDGE_024_BR04_000_MARGIN_PRIVATE_001",
+          "from": "BR04_000",
+          "to": "MARGIN_PRIVATE_001",
+          "visibility": "PRIVATE_AUTHOR",
+          "traversalCost": 1,
+          "bidirectional": true
+        }
+      ],
+      "startNodeId": "START",
+      "exitNodeId": "EXIT",
+      "marginNodeId": "MARGIN_PRIVATE_001",
+      "marginAnchorNodeId": "BR04_000",
+      "criticalPathNodeIds": [
+        "START",
+        "CRIT_001",
+        "CRIT_002",
+        "CRIT_003",
+        "CRIT_004",
+        "CRIT_005",
+        "CRIT_006",
+        "CRIT_007",
+        "CRIT_008",
+        "OBJECTIVE_GATE_KEY",
+        "BOSS_GATEHEART",
+        "EXIT"
+      ],
+      "ordinarySecretNodeIds": [
+        "SECRET_000",
+        "SECRET_001"
+      ],
+      "requiredNodeIds": [
+        "START",
+        "CRIT_001",
+        "CRIT_002",
+        "CRIT_003",
+        "CRIT_004",
+        "CRIT_005",
+        "CRIT_006",
+        "CRIT_007",
+        "CRIT_008",
+        "OBJECTIVE_GATE_KEY",
+        "BOSS_GATEHEART",
+        "EXIT"
+      ],
+      "normalCompletionNodeIds": [
+        "START",
+        "CRIT_001",
+        "CRIT_002",
+        "CRIT_003",
+        "CRIT_004",
+        "CRIT_005",
+        "CRIT_006",
+        "CRIT_007",
+        "CRIT_008",
+        "OBJECTIVE_GATE_KEY",
+        "BOSS_GATEHEART",
+        "EXIT",
+        "BR00_000",
+        "BR01_000",
+        "BR02_000",
+        "BR02_001",
+        "BR03_000",
+        "BR04_000",
+        "SECRET_000",
+        "SECRET_001"
+      ],
+      "initialResources": {
+        "supplies": 10,
+        "fatigue": 0,
+        "morale": 6,
+        "time": 0
+      }
+    }
+  },
+  "checks": {
+    "critical_failure_search": {
+      "seed": "3079F90FA9FAB79A:18E0FB7374ABD6CA",
+      "checkId": "FIXTURE_FAIL",
+      "actorId": "REC_FIXTURE",
+      "die1": 1,
+      "die2": 1,
+      "naturalTotal": 2,
+      "displayedModifier": 0,
+      "hiddenModifier": 0,
+      "modifier": 0,
+      "total": 2,
+      "difficulty": 13,
+      "margin": -11,
+      "degree": "CRITICAL_FAILURE",
+      "doubleRule": "FATE_SCAR_ELIGIBLE",
+      "assistantBonuses": []
+    },
+    "critical_success_search": {
+      "seed": "0D3A1BD2417F37EA:D11663FD71F8B4C4",
+      "checkId": "FIXTURE_CRIT",
+      "actorId": "REC_FIXTURE",
+      "die1": 6,
+      "die2": 6,
+      "naturalTotal": 12,
+      "displayedModifier": 1,
+      "hiddenModifier": 0,
+      "modifier": 1,
+      "total": 13,
+      "difficulty": 11,
+      "margin": 2,
+      "degree": "CRITICAL_SUCCESS",
+      "doubleRule": "FATE_BREAKTHROUGH_ELIGIBLE",
+      "assistantBonuses": []
+    },
+    "assisted": {
+      "seed": "78F6E28A9BAA6C15:11844F0C6121D39C",
+      "checkId": "FIXTURE_ASSIST",
+      "actorId": "REC_FIXTURE",
+      "die1": 5,
+      "die2": 5,
+      "naturalTotal": 10,
+      "displayedModifier": 6,
+      "hiddenModifier": 0,
+      "modifier": 6,
+      "total": 16,
+      "difficulty": 13,
+      "margin": 3,
+      "degree": "SUCCESS",
+      "doubleRule": null,
+      "assistantBonuses": [
+        2,
+        1
+      ]
+    },
+    "trait_modified": {
+      "seed": "60791A9CFC0282CD:9FAFFCB02B928353",
+      "checkId": "FIXTURE_TRAIT",
+      "actorId": "REC_FIXTURE",
+      "die1": 3,
+      "die2": 5,
+      "naturalTotal": 8,
+      "displayedModifier": 4,
+      "hiddenModifier": 0,
+      "modifier": 4,
+      "total": 12,
+      "difficulty": 12,
+      "margin": 0,
+      "degree": "SUCCESS",
+      "doubleRule": null,
+      "assistantBonuses": [
+        1
+      ]
+    }
+  },
+  "eventResolution": {
+    "eventId": "EVT_GATEWORKS_BRIDGE_REMEMBERS",
+    "choiceId": "EVT_GATEWORKS_BRIDGE_REMEMBERS_CHOICE_COMMIT",
+    "degree": "SUCCESS",
+    "outcome": {
+      "degree": "SUCCESS",
+      "text": "A hidden survey lane is found.",
+      "personalXp": 9,
+      "guildTreasuryXp": 6,
+      "resourceDelta": {
+        "supplies": 0,
+        "fatigue": 0,
+        "morale": 1
+      },
+      "relationshipDelta": 1,
+      "flagsAdd": [
+        "FLAG_EVT_BRIDGE_REMEMBERS_SUCCESS"
+      ],
+      "injury": null,
+      "artProgress": [
+        {
+          "artId": "ART_BASIC_SHOT",
+          "amount": 18,
+          "meaningfulUse": true
+        }
+      ],
+      "unionDisciplineProgress": [
+        {
+          "discipline": "Tactical",
+          "amount": 12
+        }
+      ],
+      "turningPointCandidates": [],
+      "lootIds": [],
+      "futureConsequences": [
+        "CONSEQUENCE_BRIDGE_REMEMBERS_SUCCESS"
+      ]
+    },
+    "stateHash": "D005C2DD3CCE0CCA8E40F927FAC76A75681DD20C583433BC6096FB83447ED529"
+  },
+  "contracts": [
+    {
+      "id": "CONTRACT_84E43616FF1DBBAC614E",
+      "seed": "2F621CB73D918C7C:1EB8126E0A73A9A6",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_ANOMALY_CONTAINMENT",
+      "difficulty": "STANDARD",
+      "boardProfileId": "BOARD_STORY",
+      "objectiveIds": [
+        "STABILIZE_ANOMALY",
+        "NO_RELIEF_POWER_LOSS"
+      ],
+      "enemyUnionIds": [
+        "EU_RIFT_CONTROL",
+        "EU_SHARDWING_SIGNAL",
+        "EU_GATEHEART_RESONANCE"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_WEAPON_IN_WALL",
+        "EVT_GATEWORKS_XP_DUST_CONSTELLATION",
+        "EVT_GATEWORKS_HEALER_EMPTY_KIT"
+      ],
+      "hazardIds": [
+        "HAZARD_REVERSE_GRAVITY",
+        "HAZARD_ARC_SURGE"
+      ],
+      "rewardPreview": {
+        "personalXp": 95,
+        "guildTreasuryXp": 140,
+        "reputation": 7,
+        "repeatMultiplierPermille": 1000,
+        "difficultyMultiplierPermille": 1000
+      },
+      "failureMode": "ANOMALY_ESCALATES_OR_CONTROLLED_RETREAT",
+      "retreatAllowed": true,
+      "board": {
+        "id": "BOARD_6A1E46070C697BAFFEFE",
+        "seed": "C71BB6CD3F13343E:6C79BE8F9A04488D",
+        "contentVersion": "GOW_PASS03_0.8",
+        "profileId": "BOARD_STORY",
+        "contractTypeId": "CONTRACT_TYPE_ANOMALY_CONTAINMENT",
+        "nodes": [
+          {
+            "id": "START",
+            "type": "ENTRANCE",
+            "x": 0,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "VISIBLE",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "8EA478E277C90636"
+          },
+          {
+            "id": "CRIT_001",
+            "type": "SKILL_CHECK",
+            "x": 6,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "VISIBLE",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "4CACF01EC2B5367A"
+          },
+          {
+            "id": "CRIT_002",
+            "type": "ELITE_BATTLE",
+            "x": 12,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "0E43AAC8578E6ED4"
+          },
+          {
+            "id": "CRIT_003",
+            "type": "RESOURCE",
+            "x": 18,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "4EF0CBCC6BA826E3"
+          },
+          {
+            "id": "CRIT_004",
+            "type": "BATTLE",
+            "x": 24,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "A5DA16BCA02E759A"
+          },
+          {
+            "id": "CRIT_005",
+            "type": "CAMP",
+            "x": 30,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "08B2656BEB27E82F"
+          },
+          {
+            "id": "CRIT_006",
+            "type": "RESOURCE",
+            "x": 36,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "D88187EA9C4C53F0"
+          },
+          {
+            "id": "CRIT_007",
+            "type": "CAMP",
+            "x": 42,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "C3A8D8153C98F5C1"
+          },
+          {
+            "id": "OBJECTIVE_GATE_KEY",
+            "type": "OBJECTIVE",
+            "x": 48,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [
+              "FLAG_BOSS_PREREQUISITE_COMPLETE"
+            ],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "2BEB6FBBB245B4CB"
+          },
+          {
+            "id": "BOSS_GATEHEART",
+            "type": "BOSS",
+            "x": 54,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [
+              "FLAG_BOSS_PREREQUISITE_COMPLETE"
+            ],
+            "ordinarySecretId": null,
+            "contentSeed": "548F25350AA7CF33"
+          },
+          {
+            "id": "EXIT",
+            "type": "EXIT",
+            "x": 60,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "0F2E10A85EFCF361"
+          },
+          {
+            "id": "BR00_000",
+            "type": "BATTLE",
+            "x": 32,
+            "y": 4,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "81EB758F3B24FDDF"
+          },
+          {
+            "id": "BR01_000",
+            "type": "EVENT",
+            "x": 44,
+            "y": -4,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "B44FE97EE2DBD036"
+          },
+          {
+            "id": "BR02_000",
+            "type": "BATTLE",
+            "x": 20,
+            "y": 8,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "22A57FDC47AF5D74"
+          },
+          {
+            "id": "BR02_001",
+            "type": "BATTLE",
+            "x": 22,
+            "y": 8,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "8A224474542F21F0"
+          },
+          {
+            "id": "BR02_002",
+            "type": "RESOURCE",
+            "x": 24,
+            "y": 8,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "598EDBA205CAEDE0"
+          },
+          {
+            "id": "BR03_000",
+            "type": "WORLD_EVENT",
+            "x": 8,
+            "y": -8,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "734C71F64CD7180D"
+          },
+          {
+            "id": "BR03_001",
+            "type": "SKILL_CHECK",
+            "x": 10,
+            "y": -8,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "A7E237FE7FFF1DF4"
+          },
+          {
+            "id": "BR04_000",
+            "type": "BATTLE",
+            "x": 50,
+            "y": 12,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "ADBCD9F25E3C7254"
+          },
+          {
+            "id": "BR05_000",
+            "type": "BATTLE",
+            "x": 20,
+            "y": -12,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "5783023187B38031"
+          },
+          {
+            "id": "BR05_001",
+            "type": "HAZARD",
+            "x": 22,
+            "y": -12,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "D1660F8AFB87234C"
+          },
+          {
+            "id": "SECRET_000",
+            "type": "ORDINARY_SECRET",
+            "x": 26,
+            "y": 100,
+            "critical": false,
+            "required": false,
+            "visibility": "HIDDEN_ORDINARY",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": "SECRET_ALTERNATE_EXIT",
+            "contentSeed": "D9DC4A45E9456DD6"
+          },
+          {
+            "id": "MARGIN_PRIVATE_001",
+            "type": "MARGIN",
+            "x": 1022,
+            "y": 1000,
+            "critical": false,
+            "required": false,
+            "visibility": "PRIVATE_AUTHOR",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "08D1E1E64138145C"
+          }
+        ],
+        "edges": [
+          {
+            "id": "EDGE_001_START_CRIT_001",
+            "from": "START",
+            "to": "CRIT_001",
+            "visibility": "VISIBLE",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_002_CRIT_001_CRIT_002",
+            "from": "CRIT_001",
+            "to": "CRIT_002",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_003_CRIT_002_CRIT_003",
+            "from": "CRIT_002",
+            "to": "CRIT_003",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_004_CRIT_003_CRIT_004",
+            "from": "CRIT_003",
+            "to": "CRIT_004",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_005_CRIT_004_CRIT_005",
+            "from": "CRIT_004",
+            "to": "CRIT_005",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_006_CRIT_005_CRIT_006",
+            "from": "CRIT_005",
+            "to": "CRIT_006",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_007_CRIT_006_CRIT_007",
+            "from": "CRIT_006",
+            "to": "CRIT_007",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_008_CRIT_007_OBJECTIVE_GATE_KEY",
+            "from": "CRIT_007",
+            "to": "OBJECTIVE_GATE_KEY",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_009_OBJECTIVE_GATE_KEY_BOSS_GATEHEART",
+            "from": "OBJECTIVE_GATE_KEY",
+            "to": "BOSS_GATEHEART",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_010_BOSS_GATEHEART_EXIT",
+            "from": "BOSS_GATEHEART",
+            "to": "EXIT",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_011_CRIT_005_BR00_000",
+            "from": "CRIT_005",
+            "to": "BR00_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_012_BR00_000_CRIT_007",
+            "from": "BR00_000",
+            "to": "CRIT_007",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_013_CRIT_007_BR01_000",
+            "from": "CRIT_007",
+            "to": "BR01_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_014_BR01_000_OBJECTIVE_GATE_KEY",
+            "from": "BR01_000",
+            "to": "OBJECTIVE_GATE_KEY",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_015_CRIT_003_BR02_000",
+            "from": "CRIT_003",
+            "to": "BR02_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_016_BR02_000_BR02_001",
+            "from": "BR02_000",
+            "to": "BR02_001",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_017_BR02_001_BR02_002",
+            "from": "BR02_001",
+            "to": "BR02_002",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_018_BR02_002_CRIT_004",
+            "from": "BR02_002",
+            "to": "CRIT_004",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_019_CRIT_001_BR03_000",
+            "from": "CRIT_001",
+            "to": "BR03_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_020_BR03_000_BR03_001",
+            "from": "BR03_000",
+            "to": "BR03_001",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_021_OBJECTIVE_GATE_KEY_BR04_000",
+            "from": "OBJECTIVE_GATE_KEY",
+            "to": "BR04_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_022_BR04_000_EXIT",
+            "from": "BR04_000",
+            "to": "EXIT",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_023_CRIT_003_BR05_000",
+            "from": "CRIT_003",
+            "to": "BR05_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_024_BR05_000_BR05_001",
+            "from": "BR05_000",
+            "to": "BR05_001",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_025_BR05_001_CRIT_004",
+            "from": "BR05_001",
+            "to": "CRIT_004",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_026_BR02_002_SECRET_000",
+            "from": "BR02_002",
+            "to": "SECRET_000",
+            "visibility": "HIDDEN_ORDINARY",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_027_BR02_001_MARGIN_PRIVATE_001",
+            "from": "BR02_001",
+            "to": "MARGIN_PRIVATE_001",
+            "visibility": "PRIVATE_AUTHOR",
+            "traversalCost": 1,
+            "bidirectional": true
+          }
+        ],
+        "startNodeId": "START",
+        "exitNodeId": "EXIT",
+        "marginNodeId": "MARGIN_PRIVATE_001",
+        "marginAnchorNodeId": "BR02_001",
+        "criticalPathNodeIds": [
+          "START",
+          "CRIT_001",
+          "CRIT_002",
+          "CRIT_003",
+          "CRIT_004",
+          "CRIT_005",
+          "CRIT_006",
+          "CRIT_007",
+          "OBJECTIVE_GATE_KEY",
+          "BOSS_GATEHEART",
+          "EXIT"
+        ],
+        "ordinarySecretNodeIds": [
+          "SECRET_000"
+        ],
+        "requiredNodeIds": [
+          "START",
+          "CRIT_001",
+          "CRIT_002",
+          "CRIT_003",
+          "CRIT_004",
+          "CRIT_005",
+          "CRIT_006",
+          "CRIT_007",
+          "OBJECTIVE_GATE_KEY",
+          "BOSS_GATEHEART",
+          "EXIT"
+        ],
+        "normalCompletionNodeIds": [
+          "START",
+          "CRIT_001",
+          "CRIT_002",
+          "CRIT_003",
+          "CRIT_004",
+          "CRIT_005",
+          "CRIT_006",
+          "CRIT_007",
+          "OBJECTIVE_GATE_KEY",
+          "BOSS_GATEHEART",
+          "EXIT",
+          "BR00_000",
+          "BR01_000",
+          "BR02_000",
+          "BR02_001",
+          "BR02_002",
+          "BR03_000",
+          "BR03_001",
+          "BR04_000",
+          "BR05_000",
+          "BR05_001",
+          "SECRET_000"
+        ],
+        "initialResources": {
+          "supplies": 10,
+          "fatigue": 0,
+          "morale": 6,
+          "time": 0
+        }
+      }
+    },
+    {
+      "id": "CONTRACT_2C64569BDB3C6CB30ACA",
+      "seed": "673E958B966EB6E5:DAFC9998B773B547",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_DEFENSE",
+      "difficulty": "STANDARD",
+      "boardProfileId": "BOARD_STORY",
+      "objectiveIds": [
+        "HOLD_OBJECTIVE_ROUNDS",
+        "EVACUATE_CIVILIANS"
+      ],
+      "enemyUnionIds": [
+        "EU_BRUTE_ESCORT",
+        "EU_HOLLOW_WALL",
+        "EU_SHARDWING_SIGNAL"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_CHILD_MISSING_TOKEN",
+        "EVT_GATEWORKS_GATE_SILK_BOWSTRING",
+        "EVT_GATEWORKS_RELIEF_ARCH_QUEUE"
+      ],
+      "hazardIds": [
+        "HAZARD_FALLING_DEBRIS",
+        "HAZARD_GATE_PULSE"
+      ],
+      "rewardPreview": {
+        "personalXp": 90,
+        "guildTreasuryXp": 120,
+        "reputation": 8,
+        "repeatMultiplierPermille": 1000,
+        "difficultyMultiplierPermille": 1000
+      },
+      "failureMode": "PRIMARY_POSITION_LOST_OR_ORDERED_WITHDRAWAL",
+      "retreatAllowed": true,
+      "board": {
+        "id": "BOARD_0AE1CB271523C1A01839",
+        "seed": "B3B35012B4A9A7B4:A82E5C7AE621F57A",
+        "contentVersion": "GOW_PASS03_0.8",
+        "profileId": "BOARD_STORY",
+        "contractTypeId": "CONTRACT_TYPE_DEFENSE",
+        "nodes": [
+          {
+            "id": "START",
+            "type": "ENTRANCE",
+            "x": 0,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "VISIBLE",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "FA35E5EBCE9A3BC2"
+          },
+          {
+            "id": "CRIT_001",
+            "type": "BATTLE",
+            "x": 6,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "VISIBLE",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "0936B8FB85DAE22B"
+          },
+          {
+            "id": "CRIT_002",
+            "type": "BATTLE",
+            "x": 12,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "33BA2D1314AA4609"
+          },
+          {
+            "id": "CRIT_003",
+            "type": "RESOURCE",
+            "x": 18,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "8036F77C21FC4ED8"
+          },
+          {
+            "id": "CRIT_004",
+            "type": "CAMP",
+            "x": 24,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "7C92F48DB134B871"
+          },
+          {
+            "id": "CRIT_005",
+            "type": "ELITE_BATTLE",
+            "x": 30,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "D947F9FD6747BB8B"
+          },
+          {
+            "id": "CRIT_006",
+            "type": "CAMP",
+            "x": 36,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "86125DC64A4DC328"
+          },
+          {
+            "id": "CRIT_007",
+            "type": "SKILL_CHECK",
+            "x": 42,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "69487A128887F366"
+          },
+          {
+            "id": "OBJECTIVE_GATE_KEY",
+            "type": "OBJECTIVE",
+            "x": 48,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [
+              "FLAG_BOSS_PREREQUISITE_COMPLETE"
+            ],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "72406B2D5329FEBC"
+          },
+          {
+            "id": "BOSS_GATEHEART",
+            "type": "BOSS",
+            "x": 54,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [
+              "FLAG_BOSS_PREREQUISITE_COMPLETE"
+            ],
+            "ordinarySecretId": null,
+            "contentSeed": "29590EEF72C22DF5"
+          },
+          {
+            "id": "EXIT",
+            "type": "EXIT",
+            "x": 60,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "9C9028B55E14724E"
+          },
+          {
+            "id": "BR00_000",
+            "type": "RESOURCE",
+            "x": 8,
+            "y": 4,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "852FBBE191F188D6"
+          },
+          {
+            "id": "BR00_001",
+            "type": "EVENT",
+            "x": 10,
+            "y": 4,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "EE17780843F89760"
+          },
+          {
+            "id": "BR01_000",
+            "type": "EVENT",
+            "x": 26,
+            "y": -4,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "4049BF9AA961046E"
+          },
+          {
+            "id": "BR02_000",
+            "type": "BATTLE",
+            "x": 44,
+            "y": 8,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "A1866D78FB2AEE26"
+          },
+          {
+            "id": "BR02_001",
+            "type": "EVENT",
+            "x": 46,
+            "y": 8,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "64C349458B15CA95"
+          },
+          {
+            "id": "BR02_002",
+            "type": "SKILL_CHECK",
+            "x": 48,
+            "y": 8,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "4C6609F6D56ED66B"
+          },
+          {
+            "id": "BR03_000",
+            "type": "EVENT",
+            "x": 44,
+            "y": -8,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "69D22333459952B0"
+          },
+          {
+            "id": "BR03_001",
+            "type": "MYSTERY",
+            "x": 46,
+            "y": -8,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "02192761B4014854"
+          },
+          {
+            "id": "BR03_002",
+            "type": "WORLD_EVENT",
+            "x": 48,
+            "y": -8,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "0A4E9FF12DF4763F"
+          },
+          {
+            "id": "BR03_003",
+            "type": "RESOURCE",
+            "x": 50,
+            "y": -8,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "775126B163CB2A23"
+          },
+          {
+            "id": "SECRET_000",
+            "type": "ORDINARY_SECRET",
+            "x": 12,
+            "y": 100,
+            "critical": false,
+            "required": false,
+            "visibility": "HIDDEN_ORDINARY",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": "SECRET_SCENT_DRAFT",
+            "contentSeed": "A8698319BAFF549B"
+          },
+          {
+            "id": "MARGIN_PRIVATE_001",
+            "type": "MARGIN",
+            "x": 1048,
+            "y": 1001,
+            "critical": false,
+            "required": false,
+            "visibility": "PRIVATE_AUTHOR",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "BF512C30C776A792"
+          }
+        ],
+        "edges": [
+          {
+            "id": "EDGE_001_START_CRIT_001",
+            "from": "START",
+            "to": "CRIT_001",
+            "visibility": "VISIBLE",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_002_CRIT_001_CRIT_002",
+            "from": "CRIT_001",
+            "to": "CRIT_002",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_003_CRIT_002_CRIT_003",
+            "from": "CRIT_002",
+            "to": "CRIT_003",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_004_CRIT_003_CRIT_004",
+            "from": "CRIT_003",
+            "to": "CRIT_004",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_005_CRIT_004_CRIT_005",
+            "from": "CRIT_004",
+            "to": "CRIT_005",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_006_CRIT_005_CRIT_006",
+            "from": "CRIT_005",
+            "to": "CRIT_006",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_007_CRIT_006_CRIT_007",
+            "from": "CRIT_006",
+            "to": "CRIT_007",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_008_CRIT_007_OBJECTIVE_GATE_KEY",
+            "from": "CRIT_007",
+            "to": "OBJECTIVE_GATE_KEY",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_009_OBJECTIVE_GATE_KEY_BOSS_GATEHEART",
+            "from": "OBJECTIVE_GATE_KEY",
+            "to": "BOSS_GATEHEART",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_010_BOSS_GATEHEART_EXIT",
+            "from": "BOSS_GATEHEART",
+            "to": "EXIT",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_011_CRIT_001_BR00_000",
+            "from": "CRIT_001",
+            "to": "BR00_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_012_BR00_000_BR00_001",
+            "from": "BR00_000",
+            "to": "BR00_001",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_013_BR00_001_CRIT_002",
+            "from": "BR00_001",
+            "to": "CRIT_002",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_014_CRIT_004_BR01_000",
+            "from": "CRIT_004",
+            "to": "BR01_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_015_CRIT_007_BR02_000",
+            "from": "CRIT_007",
+            "to": "BR02_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_016_BR02_000_BR02_001",
+            "from": "BR02_000",
+            "to": "BR02_001",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_017_BR02_001_BR02_002",
+            "from": "BR02_001",
+            "to": "BR02_002",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_018_BR02_002_BOSS_GATEHEART",
+            "from": "BR02_002",
+            "to": "BOSS_GATEHEART",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_019_CRIT_007_BR03_000",
+            "from": "CRIT_007",
+            "to": "BR03_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_020_BR03_000_BR03_001",
+            "from": "BR03_000",
+            "to": "BR03_001",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_021_BR03_001_BR03_002",
+            "from": "BR03_001",
+            "to": "BR03_002",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_022_BR03_002_BR03_003",
+            "from": "BR03_002",
+            "to": "BR03_003",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_023_BR00_001_SECRET_000",
+            "from": "BR00_001",
+            "to": "SECRET_000",
+            "visibility": "HIDDEN_ORDINARY",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_024_BR02_002_MARGIN_PRIVATE_001",
+            "from": "BR02_002",
+            "to": "MARGIN_PRIVATE_001",
+            "visibility": "PRIVATE_AUTHOR",
+            "traversalCost": 1,
+            "bidirectional": true
+          }
+        ],
+        "startNodeId": "START",
+        "exitNodeId": "EXIT",
+        "marginNodeId": "MARGIN_PRIVATE_001",
+        "marginAnchorNodeId": "BR02_002",
+        "criticalPathNodeIds": [
+          "START",
+          "CRIT_001",
+          "CRIT_002",
+          "CRIT_003",
+          "CRIT_004",
+          "CRIT_005",
+          "CRIT_006",
+          "CRIT_007",
+          "OBJECTIVE_GATE_KEY",
+          "BOSS_GATEHEART",
+          "EXIT"
+        ],
+        "ordinarySecretNodeIds": [
+          "SECRET_000"
+        ],
+        "requiredNodeIds": [
+          "START",
+          "CRIT_001",
+          "CRIT_002",
+          "CRIT_003",
+          "CRIT_004",
+          "CRIT_005",
+          "CRIT_006",
+          "CRIT_007",
+          "OBJECTIVE_GATE_KEY",
+          "BOSS_GATEHEART",
+          "EXIT"
+        ],
+        "normalCompletionNodeIds": [
+          "START",
+          "CRIT_001",
+          "CRIT_002",
+          "CRIT_003",
+          "CRIT_004",
+          "CRIT_005",
+          "CRIT_006",
+          "CRIT_007",
+          "OBJECTIVE_GATE_KEY",
+          "BOSS_GATEHEART",
+          "EXIT",
+          "BR00_000",
+          "BR00_001",
+          "BR01_000",
+          "BR02_000",
+          "BR02_001",
+          "BR02_002",
+          "BR03_000",
+          "BR03_001",
+          "BR03_002",
+          "BR03_003",
+          "SECRET_000"
+        ],
+        "initialResources": {
+          "supplies": 10,
+          "fatigue": 0,
+          "morale": 6,
+          "time": 0
+        }
+      }
+    },
+    {
+      "id": "CONTRACT_1E45A5636C4FF588D0F8",
+      "seed": "A4AEBAA0AE5D338E:9A86B5B69F58A00C",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_ELITE_BOUNTY",
+      "difficulty": "STANDARD",
+      "boardProfileId": "BOARD_NORMAL",
+      "objectiveIds": [
+        "LOCATE_ELITE",
+        "BREAK_SUPPORT_UNION"
+      ],
+      "enemyUnionIds": [
+        "EU_RAVEL_COMMAND",
+        "EU_HINGE_EATER"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_HEALER_EMPTY_KIT",
+        "EVT_GATEWORKS_MAP_IN_BANDAGE"
+      ],
+      "hazardIds": [
+        "HAZARD_FALSE_RETREAT"
+      ],
+      "rewardPreview": {
+        "personalXp": 110,
+        "guildTreasuryXp": 115,
+        "reputation": 6,
+        "repeatMultiplierPermille": 1000,
+        "difficultyMultiplierPermille": 1000
+      },
+      "failureMode": "TARGET_ESCAPES_OR_GUILD_RETREATS",
+      "retreatAllowed": true,
+      "board": {
+        "id": "BOARD_8C2DFD3FDC4B08EAFB5F",
+        "seed": "03AA8CD679430D09:CAE3AE9B316FE861",
+        "contentVersion": "GOW_PASS03_0.8",
+        "profileId": "BOARD_NORMAL",
+        "contractTypeId": "CONTRACT_TYPE_ELITE_BOUNTY",
+        "nodes": [
+          {
+            "id": "START",
+            "type": "ENTRANCE",
+            "x": 0,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "VISIBLE",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "7744ECEFE7187319"
+          },
+          {
+            "id": "CRIT_001",
+            "type": "BATTLE",
+            "x": 6,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "VISIBLE",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "55690282A6DADA49"
+          },
+          {
+            "id": "CRIT_002",
+            "type": "BATTLE",
+            "x": 12,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "B21EE9F7E36E8D27"
+          },
+          {
+            "id": "CRIT_003",
+            "type": "ELITE_BATTLE",
+            "x": 18,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "C4796F06ABE9C476"
+          },
+          {
+            "id": "CRIT_004",
+            "type": "CAMP",
+            "x": 24,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "0F7BF0F4159E14E5"
+          },
+          {
+            "id": "CRIT_005",
+            "type": "RESOURCE",
+            "x": 30,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "6E4C53BCAD8766D2"
+          },
+          {
+            "id": "CRIT_006",
+            "type": "RESOURCE",
+            "x": 36,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "39A8AC2664A7243D"
+          },
+          {
+            "id": "CRIT_007",
+            "type": "SKILL_CHECK",
+            "x": 42,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "EF0A7A178BEEA241"
+          },
+          {
+            "id": "CRIT_008",
+            "type": "BATTLE",
+            "x": 48,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "0EA9FA076B94A1F8"
+          },
+          {
+            "id": "EXIT",
+            "type": "EXIT",
+            "x": 54,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "51EB6E33990C6C6A"
+          },
+          {
+            "id": "BR00_000",
+            "type": "EVENT",
+            "x": 38,
+            "y": 4,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "3CBD55E6DC4AD426"
+          },
+          {
+            "id": "BR00_001",
+            "type": "SKILL_CHECK",
+            "x": 40,
+            "y": 4,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "5AEB5590F0BDDDF7"
+          },
+          {
+            "id": "BR01_000",
+            "type": "BATTLE",
+            "x": 26,
+            "y": -4,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "5FF067F42550AB3D"
+          },
+          {
+            "id": "BR02_000",
+            "type": "CAMP",
+            "x": 26,
+            "y": 8,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "B1598754D4F8DC97"
+          },
+          {
+            "id": "BR02_001",
+            "type": "HAZARD",
+            "x": 28,
+            "y": 8,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "CA0B4D86CB23CB70"
+          },
+          {
+            "id": "BR02_002",
+            "type": "SKILL_CHECK",
+            "x": 30,
+            "y": 8,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "6C4A87F0FAFF81CF"
+          },
+          {
+            "id": "SECRET_000",
+            "type": "ORDINARY_SECRET",
+            "x": 30,
+            "y": 100,
+            "critical": false,
+            "required": false,
+            "visibility": "HIDDEN_ORDINARY",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": "SECRET_SCENT_DRAFT",
+            "contentSeed": "F2D53E7A5BAD0ADF"
+          },
+          {
+            "id": "SECRET_001",
+            "type": "ORDINARY_SECRET",
+            "x": 40,
+            "y": 106,
+            "critical": false,
+            "required": false,
+            "visibility": "HIDDEN_ORDINARY",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": "SECRET_BURIED_CACHE",
+            "contentSeed": "598859D78208E301"
+          },
+          {
+            "id": "MARGIN_PRIVATE_001",
+            "type": "MARGIN",
+            "x": 1028,
+            "y": 1002,
+            "critical": false,
+            "required": false,
+            "visibility": "PRIVATE_AUTHOR",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "68746B8D85A18154"
+          }
+        ],
+        "edges": [
+          {
+            "id": "EDGE_001_START_CRIT_001",
+            "from": "START",
+            "to": "CRIT_001",
+            "visibility": "VISIBLE",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_002_CRIT_001_CRIT_002",
+            "from": "CRIT_001",
+            "to": "CRIT_002",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_003_CRIT_002_CRIT_003",
+            "from": "CRIT_002",
+            "to": "CRIT_003",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_004_CRIT_003_CRIT_004",
+            "from": "CRIT_003",
+            "to": "CRIT_004",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_005_CRIT_004_CRIT_005",
+            "from": "CRIT_004",
+            "to": "CRIT_005",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_006_CRIT_005_CRIT_006",
+            "from": "CRIT_005",
+            "to": "CRIT_006",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_007_CRIT_006_CRIT_007",
+            "from": "CRIT_006",
+            "to": "CRIT_007",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_008_CRIT_007_CRIT_008",
+            "from": "CRIT_007",
+            "to": "CRIT_008",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_009_CRIT_008_EXIT",
+            "from": "CRIT_008",
+            "to": "EXIT",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_010_CRIT_006_BR00_000",
+            "from": "CRIT_006",
+            "to": "BR00_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_011_BR00_000_BR00_001",
+            "from": "BR00_000",
+            "to": "BR00_001",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_012_BR00_001_CRIT_008",
+            "from": "BR00_001",
+            "to": "CRIT_008",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_013_CRIT_004_BR01_000",
+            "from": "CRIT_004",
+            "to": "BR01_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_014_BR01_000_CRIT_006",
+            "from": "BR01_000",
+            "to": "CRIT_006",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_015_CRIT_004_BR02_000",
+            "from": "CRIT_004",
+            "to": "BR02_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_016_BR02_000_BR02_001",
+            "from": "BR02_000",
+            "to": "BR02_001",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_017_BR02_001_BR02_002",
+            "from": "BR02_001",
+            "to": "BR02_002",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_018_BR02_002_CRIT_005",
+            "from": "BR02_002",
+            "to": "CRIT_005",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_019_BR02_001_SECRET_000",
+            "from": "BR02_001",
+            "to": "SECRET_000",
+            "visibility": "HIDDEN_ORDINARY",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_020_CRIT_007_SECRET_001",
+            "from": "CRIT_007",
+            "to": "SECRET_001",
+            "visibility": "HIDDEN_ORDINARY",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_021_BR02_001_MARGIN_PRIVATE_001",
+            "from": "BR02_001",
+            "to": "MARGIN_PRIVATE_001",
+            "visibility": "PRIVATE_AUTHOR",
+            "traversalCost": 1,
+            "bidirectional": true
+          }
+        ],
+        "startNodeId": "START",
+        "exitNodeId": "EXIT",
+        "marginNodeId": "MARGIN_PRIVATE_001",
+        "marginAnchorNodeId": "BR02_001",
+        "criticalPathNodeIds": [
+          "START",
+          "CRIT_001",
+          "CRIT_002",
+          "CRIT_003",
+          "CRIT_004",
+          "CRIT_005",
+          "CRIT_006",
+          "CRIT_007",
+          "CRIT_008",
+          "EXIT"
+        ],
+        "ordinarySecretNodeIds": [
+          "SECRET_000",
+          "SECRET_001"
+        ],
+        "requiredNodeIds": [
+          "START",
+          "CRIT_001",
+          "CRIT_002",
+          "CRIT_003",
+          "CRIT_004",
+          "CRIT_005",
+          "CRIT_006",
+          "CRIT_007",
+          "CRIT_008",
+          "EXIT"
+        ],
+        "normalCompletionNodeIds": [
+          "START",
+          "CRIT_001",
+          "CRIT_002",
+          "CRIT_003",
+          "CRIT_004",
+          "CRIT_005",
+          "CRIT_006",
+          "CRIT_007",
+          "CRIT_008",
+          "EXIT",
+          "BR00_000",
+          "BR00_001",
+          "BR01_000",
+          "BR02_000",
+          "BR02_001",
+          "BR02_002",
+          "SECRET_000",
+          "SECRET_001"
+        ],
+        "initialResources": {
+          "supplies": 8,
+          "fatigue": 0,
+          "morale": 6,
+          "time": 0
+        }
+      }
+    },
+    {
+      "id": "CONTRACT_F0811FB2F5D3807DD639",
+      "seed": "686023793844EE1A:1BB7BE6DC3EE944B",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_ESCORT",
+      "difficulty": "STANDARD",
+      "boardProfileId": "BOARD_LONG",
+      "objectiveIds": [
+        "ESCORT_TO_EXIT",
+        "OPEN_RELIEF_ROUTE"
+      ],
+      "enemyUnionIds": [
+        "EU_SHARDWING_SIGNAL",
+        "EU_GNAWER_PACK"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_OFFICIAL_RAT",
+        "EVT_GATEWORKS_TOO_MANY_VOLUNTEERS",
+        "EVT_GATEWORKS_DAMAGED_GUILD_SEAL"
+      ],
+      "hazardIds": [
+        "HAZARD_RUSTWATER",
+        "HAZARD_RUSTWATER"
+      ],
+      "rewardPreview": {
+        "personalXp": 75,
+        "guildTreasuryXp": 105,
+        "reputation": 6,
+        "repeatMultiplierPermille": 1000,
+        "difficultyMultiplierPermille": 1000
+      },
+      "failureMode": "ESCORT_TARGET_INCAPACITATED_OR_RETREAT",
+      "retreatAllowed": true,
+      "board": {
+        "id": "BOARD_16967661DE7A7F9AFF77",
+        "seed": "5DE629801ACED630:65B95450E88525E5",
+        "contentVersion": "GOW_PASS03_0.8",
+        "profileId": "BOARD_LONG",
+        "contractTypeId": "CONTRACT_TYPE_ESCORT",
+        "nodes": [
+          {
+            "id": "START",
+            "type": "ENTRANCE",
+            "x": 0,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "VISIBLE",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "EFDE9E189EA30266"
+          },
+          {
+            "id": "CRIT_001",
+            "type": "EVENT",
+            "x": 6,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "VISIBLE",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "6D06661463F92CC3"
+          },
+          {
+            "id": "CRIT_002",
+            "type": "RESOURCE",
+            "x": 12,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "579382CF5B35D639"
+          },
+          {
+            "id": "CRIT_003",
+            "type": "RESOURCE",
+            "x": 18,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "5CFF167CC34D874F"
+          },
+          {
+            "id": "CRIT_004",
+            "type": "CAMP",
+            "x": 24,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "EDED6B20244EA8B0"
+          },
+          {
+            "id": "CRIT_005",
+            "type": "CAMP",
+            "x": 30,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "AF8049714D7B89D9"
+          },
+          {
+            "id": "CRIT_006",
+            "type": "RESOURCE",
+            "x": 36,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "6FBD6F0F65D3AA5D"
+          },
+          {
+            "id": "CRIT_007",
+            "type": "ELITE_BATTLE",
+            "x": 42,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "0B5744F2A2A5B3C5"
+          },
+          {
+            "id": "CRIT_008",
+            "type": "HAZARD",
+            "x": 48,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "D582BE391A27CB0A"
+          },
+          {
+            "id": "EXIT",
+            "type": "EXIT",
+            "x": 54,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "AACAD856735E2AEE"
+          },
+          {
+            "id": "BR00_000",
+            "type": "ELITE_BATTLE",
+            "x": 8,
+            "y": 4,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "46B8B58C2D9CBDDF"
+          },
+          {
+            "id": "BR00_001",
+            "type": "MYSTERY",
+            "x": 10,
+            "y": 4,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "893445CDD4034D12"
+          },
+          {
+            "id": "BR01_000",
+            "type": "RESOURCE",
+            "x": 8,
+            "y": -4,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "24F89C204F93D236"
+          },
+          {
+            "id": "BR01_001",
+            "type": "MYSTERY",
+            "x": 10,
+            "y": -4,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "696D9B763FCC462E"
+          },
+          {
+            "id": "BR02_000",
+            "type": "SKILL_CHECK",
+            "x": 38,
+            "y": 8,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "D0039E890E128127"
+          },
+          {
+            "id": "BR02_001",
+            "type": "ELITE_BATTLE",
+            "x": 40,
+            "y": 8,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "2CCFB2D5CC2EA647"
+          },
+          {
+            "id": "BR03_000",
+            "type": "SKILL_CHECK",
+            "x": 8,
+            "y": -8,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "0289DE42E68453FB"
+          },
+          {
+            "id": "BR03_001",
+            "type": "BATTLE",
+            "x": 10,
+            "y": -8,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "2C6A812CDD23D97E"
+          },
+          {
+            "id": "BR04_000",
+            "type": "EVENT",
+            "x": 38,
+            "y": 12,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "63DC4749682A47AF"
+          },
+          {
+            "id": "BR04_001",
+            "type": "RESCUE",
+            "x": 40,
+            "y": 12,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "1466866A2441D098"
+          },
+          {
+            "id": "BR05_000",
+            "type": "SKILL_CHECK",
+            "x": 44,
+            "y": -12,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "6D52D9189736E1DD"
+          },
+          {
+            "id": "BR06_000",
+            "type": "ELITE_BATTLE",
+            "x": 26,
+            "y": 16,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "24D62CB73058364B"
+          },
+          {
+            "id": "BR07_000",
+            "type": "BATTLE",
+            "x": 20,
+            "y": -16,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "0617887C8B570FD1"
+          },
+          {
+            "id": "SECRET_000",
+            "type": "ORDINARY_SECRET",
+            "x": 10,
+            "y": 100,
+            "critical": false,
+            "required": false,
+            "visibility": "HIDDEN_ORDINARY",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": "SECRET_RARE_EVENT",
+            "contentSeed": "52B9C3025EE9DC96"
+          },
+          {
+            "id": "SECRET_001",
+            "type": "ORDINARY_SECRET",
+            "x": 8,
+            "y": 106,
+            "critical": false,
+            "required": false,
+            "visibility": "HIDDEN_ORDINARY",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": "SECRET_SURVEY_CIPHER",
+            "contentSeed": "1B860E7A731D1FEC"
+          },
+          {
+            "id": "SECRET_002",
+            "type": "ORDINARY_SECRET",
+            "x": 40,
+            "y": 112,
+            "critical": false,
+            "required": false,
+            "visibility": "HIDDEN_ORDINARY",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": "SECRET_MISMATCHED_MORTAR",
+            "contentSeed": "BF6BC4B3554ACF7D"
+          },
+          {
+            "id": "MARGIN_PRIVATE_001",
+            "type": "MARGIN",
+            "x": 1010,
+            "y": 1003,
+            "critical": false,
+            "required": false,
+            "visibility": "PRIVATE_AUTHOR",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "A36F330AC8260FF8"
+          }
+        ],
+        "edges": [
+          {
+            "id": "EDGE_001_START_CRIT_001",
+            "from": "START",
+            "to": "CRIT_001",
+            "visibility": "VISIBLE",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_002_CRIT_001_CRIT_002",
+            "from": "CRIT_001",
+            "to": "CRIT_002",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_003_CRIT_002_CRIT_003",
+            "from": "CRIT_002",
+            "to": "CRIT_003",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_004_CRIT_003_CRIT_004",
+            "from": "CRIT_003",
+            "to": "CRIT_004",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_005_CRIT_004_CRIT_005",
+            "from": "CRIT_004",
+            "to": "CRIT_005",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_006_CRIT_005_CRIT_006",
+            "from": "CRIT_005",
+            "to": "CRIT_006",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_007_CRIT_006_CRIT_007",
+            "from": "CRIT_006",
+            "to": "CRIT_007",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_008_CRIT_007_CRIT_008",
+            "from": "CRIT_007",
+            "to": "CRIT_008",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_009_CRIT_008_EXIT",
+            "from": "CRIT_008",
+            "to": "EXIT",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_010_CRIT_001_BR00_000",
+            "from": "CRIT_001",
+            "to": "BR00_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_011_BR00_000_BR00_001",
+            "from": "BR00_000",
+            "to": "BR00_001",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_012_CRIT_001_BR01_000",
+            "from": "CRIT_001",
+            "to": "BR01_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_013_BR01_000_BR01_001",
+            "from": "BR01_000",
+            "to": "BR01_001",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_014_CRIT_006_BR02_000",
+            "from": "CRIT_006",
+            "to": "BR02_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_015_BR02_000_BR02_001",
+            "from": "BR02_000",
+            "to": "BR02_001",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_016_BR02_001_CRIT_008",
+            "from": "BR02_001",
+            "to": "CRIT_008",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_017_CRIT_001_BR03_000",
+            "from": "CRIT_001",
+            "to": "BR03_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_018_BR03_000_BR03_001",
+            "from": "BR03_000",
+            "to": "BR03_001",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_019_CRIT_006_BR04_000",
+            "from": "CRIT_006",
+            "to": "BR04_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_020_BR04_000_BR04_001",
+            "from": "BR04_000",
+            "to": "BR04_001",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_021_CRIT_007_BR05_000",
+            "from": "CRIT_007",
+            "to": "BR05_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_022_BR05_000_CRIT_008",
+            "from": "BR05_000",
+            "to": "CRIT_008",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_023_CRIT_004_BR06_000",
+            "from": "CRIT_004",
+            "to": "BR06_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_024_BR06_000_CRIT_005",
+            "from": "BR06_000",
+            "to": "CRIT_005",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_025_CRIT_003_BR07_000",
+            "from": "CRIT_003",
+            "to": "BR07_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_026_BR07_000_CRIT_004",
+            "from": "BR07_000",
+            "to": "CRIT_004",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_027_BR00_000_SECRET_000",
+            "from": "BR00_000",
+            "to": "SECRET_000",
+            "visibility": "HIDDEN_ORDINARY",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_028_BR00_001_SECRET_001",
+            "from": "BR00_001",
+            "to": "SECRET_001",
+            "visibility": "HIDDEN_ORDINARY",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_029_BR02_000_SECRET_002",
+            "from": "BR02_000",
+            "to": "SECRET_002",
+            "visibility": "HIDDEN_ORDINARY",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_030_BR00_001_MARGIN_PRIVATE_001",
+            "from": "BR00_001",
+            "to": "MARGIN_PRIVATE_001",
+            "visibility": "PRIVATE_AUTHOR",
+            "traversalCost": 1,
+            "bidirectional": true
+          }
+        ],
+        "startNodeId": "START",
+        "exitNodeId": "EXIT",
+        "marginNodeId": "MARGIN_PRIVATE_001",
+        "marginAnchorNodeId": "BR00_001",
+        "criticalPathNodeIds": [
+          "START",
+          "CRIT_001",
+          "CRIT_002",
+          "CRIT_003",
+          "CRIT_004",
+          "CRIT_005",
+          "CRIT_006",
+          "CRIT_007",
+          "CRIT_008",
+          "EXIT"
+        ],
+        "ordinarySecretNodeIds": [
+          "SECRET_000",
+          "SECRET_001",
+          "SECRET_002"
+        ],
+        "requiredNodeIds": [
+          "START",
+          "CRIT_001",
+          "CRIT_002",
+          "CRIT_003",
+          "CRIT_004",
+          "CRIT_005",
+          "CRIT_006",
+          "CRIT_007",
+          "CRIT_008",
+          "EXIT"
+        ],
+        "normalCompletionNodeIds": [
+          "START",
+          "CRIT_001",
+          "CRIT_002",
+          "CRIT_003",
+          "CRIT_004",
+          "CRIT_005",
+          "CRIT_006",
+          "CRIT_007",
+          "CRIT_008",
+          "EXIT",
+          "BR00_000",
+          "BR00_001",
+          "BR01_000",
+          "BR01_001",
+          "BR02_000",
+          "BR02_001",
+          "BR03_000",
+          "BR03_001",
+          "BR04_000",
+          "BR04_001",
+          "BR05_000",
+          "BR06_000",
+          "BR07_000",
+          "SECRET_000",
+          "SECRET_001",
+          "SECRET_002"
+        ],
+        "initialResources": {
+          "supplies": 10,
+          "fatigue": 0,
+          "morale": 6,
+          "time": 0
+        }
+      }
+    },
+    {
+      "id": "CONTRACT_16A0BF0134C36D0283B2",
+      "seed": "08BE90BB4793AF7E:D5FEEEA010BBCA4E",
+      "contentVersion": "GOW_PASS03_0.8",
+      "contractTypeId": "CONTRACT_TYPE_EXPLORATION",
+      "difficulty": "STANDARD",
+      "boardProfileId": "BOARD_LONG",
+      "objectiveIds": [
+        "REVEAL_REQUIRED_NODES",
+        "DISCOVER_ORDINARY_SECRET"
+      ],
+      "enemyUnionIds": [
+        "EU_SHARDWING_SIGNAL",
+        "EU_GNAWER_PACK"
+      ],
+      "eventIds": [
+        "EVT_GATEWORKS_DEMON_PROMISE_KNOT",
+        "EVT_GATEWORKS_OFFICIAL_RAT",
+        "EVT_GATEWORKS_MONSTER_EGGS"
+      ],
+      "hazardIds": [
+        "HAZARD_UNMAPPED_DROP",
+        "HAZARD_UNMAPPED_DROP"
+      ],
+      "rewardPreview": {
+        "personalXp": 65,
+        "guildTreasuryXp": 110,
+        "reputation": 4,
+        "repeatMultiplierPermille": 1000,
+        "difficultyMultiplierPermille": 1000
+      },
+      "failureMode": "SURVEY_POINT_UNREACHED_OR_RETREAT",
+      "retreatAllowed": true,
+      "board": {
+        "id": "BOARD_B0537BC70736B0D6C8BF",
+        "seed": "D2B6904C0813E431:55B0678D0FC2CD93",
+        "contentVersion": "GOW_PASS03_0.8",
+        "profileId": "BOARD_LONG",
+        "contractTypeId": "CONTRACT_TYPE_EXPLORATION",
+        "nodes": [
+          {
+            "id": "START",
+            "type": "ENTRANCE",
+            "x": 0,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "VISIBLE",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "ED07604C81A798FF"
+          },
+          {
+            "id": "CRIT_001",
+            "type": "SKILL_CHECK",
+            "x": 6,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "VISIBLE",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "5CB1E98FAACA2B55"
+          },
+          {
+            "id": "CRIT_002",
+            "type": "ELITE_BATTLE",
+            "x": 12,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "F9F15823EC2C9190"
+          },
+          {
+            "id": "CRIT_003",
+            "type": "RESOURCE",
+            "x": 18,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "3DA4AE38A76B73B7"
+          },
+          {
+            "id": "CRIT_004",
+            "type": "CAMP",
+            "x": 24,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "A718F67B12E3A901"
+          },
+          {
+            "id": "CRIT_005",
+            "type": "RESOURCE",
+            "x": 30,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "07E253F362D3B30E"
+          },
+          {
+            "id": "CRIT_006",
+            "type": "RESOURCE",
+            "x": 36,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "82BC0D29B84C72E7"
+          },
+          {
+            "id": "CRIT_007",
+            "type": "ELITE_BATTLE",
+            "x": 42,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "134FD80AB4574A27"
+          },
+          {
+            "id": "CRIT_008",
+            "type": "CAMP",
+            "x": 48,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "CB218C62F29C162A"
+          },
+          {
+            "id": "CRIT_009",
+            "type": "BATTLE",
+            "x": 54,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "49C8CD5EA770E735"
+          },
+          {
+            "id": "EXIT",
+            "type": "EXIT",
+            "x": 60,
+            "y": 0,
+            "critical": true,
+            "required": true,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "C34D789F09E5C9F8"
+          },
+          {
+            "id": "BR00_000",
+            "type": "ELITE_BATTLE",
+            "x": 14,
+            "y": 4,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "98CC62FC8982357E"
+          },
+          {
+            "id": "BR00_001",
+            "type": "BATTLE",
+            "x": 16,
+            "y": 4,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "E6165249248C7964"
+          },
+          {
+            "id": "BR01_000",
+            "type": "BATTLE",
+            "x": 32,
+            "y": -4,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "E9300566C8996813"
+          },
+          {
+            "id": "BR02_000",
+            "type": "HAZARD",
+            "x": 14,
+            "y": 8,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "BA832EB45F3FABB5"
+          },
+          {
+            "id": "BR02_001",
+            "type": "EVENT",
+            "x": 16,
+            "y": 8,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "15326F93C29E680B"
+          },
+          {
+            "id": "BR03_000",
+            "type": "SKILL_CHECK",
+            "x": 8,
+            "y": -8,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "5A7E709161EEEA71"
+          },
+          {
+            "id": "BR03_001",
+            "type": "EVENT",
+            "x": 10,
+            "y": -8,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "1C63922126563FC1"
+          },
+          {
+            "id": "BR04_000",
+            "type": "EVENT",
+            "x": 20,
+            "y": 12,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "4AEA5F0AE6614AEC"
+          },
+          {
+            "id": "BR05_000",
+            "type": "EVENT",
+            "x": 50,
+            "y": -12,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "83909B4BF2AA5EA8"
+          },
+          {
+            "id": "BR05_001",
+            "type": "RESCUE",
+            "x": 52,
+            "y": -12,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "77F000D962830B88"
+          },
+          {
+            "id": "BR05_002",
+            "type": "HAZARD",
+            "x": 54,
+            "y": -12,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "6B844EACB7134587"
+          },
+          {
+            "id": "BR06_000",
+            "type": "BATTLE",
+            "x": 26,
+            "y": 16,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "C21E383E8FD29FAA"
+          },
+          {
+            "id": "BR06_001",
+            "type": "HAZARD",
+            "x": 28,
+            "y": 16,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "82B0C50B443439F7"
+          },
+          {
+            "id": "BR06_002",
+            "type": "EVENT",
+            "x": 30,
+            "y": 16,
+            "critical": false,
+            "required": false,
+            "visibility": "FOGGED",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "AB13F85DB9C5B424"
+          },
+          {
+            "id": "SECRET_000",
+            "type": "ORDINARY_SECRET",
+            "x": 38,
+            "y": 100,
+            "critical": false,
+            "required": false,
+            "visibility": "HIDDEN_ORDINARY",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": "SECRET_ALTERNATE_EXIT",
+            "contentSeed": "9F709F49FD007532"
+          },
+          {
+            "id": "SECRET_001",
+            "type": "ORDINARY_SECRET",
+            "x": 16,
+            "y": 106,
+            "critical": false,
+            "required": false,
+            "visibility": "HIDDEN_ORDINARY",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": "SECRET_BREAKABLE_BRACE",
+            "contentSeed": "C2A89EC8217676C3"
+          },
+          {
+            "id": "SECRET_002",
+            "type": "ORDINARY_SECRET",
+            "x": 18,
+            "y": 112,
+            "critical": false,
+            "required": false,
+            "visibility": "HIDDEN_ORDINARY",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": "SECRET_OPTIONAL_ELITE",
+            "contentSeed": "871548F0DDCF8BEE"
+          },
+          {
+            "id": "MARGIN_PRIVATE_001",
+            "type": "MARGIN",
+            "x": 1030,
+            "y": 1004,
+            "critical": false,
+            "required": false,
+            "visibility": "PRIVATE_AUTHOR",
+            "grantsFlags": [],
+            "requiresFlags": [],
+            "ordinarySecretId": null,
+            "contentSeed": "0F0E36AD4F3999D8"
+          }
+        ],
+        "edges": [
+          {
+            "id": "EDGE_001_START_CRIT_001",
+            "from": "START",
+            "to": "CRIT_001",
+            "visibility": "VISIBLE",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_002_CRIT_001_CRIT_002",
+            "from": "CRIT_001",
+            "to": "CRIT_002",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_003_CRIT_002_CRIT_003",
+            "from": "CRIT_002",
+            "to": "CRIT_003",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_004_CRIT_003_CRIT_004",
+            "from": "CRIT_003",
+            "to": "CRIT_004",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_005_CRIT_004_CRIT_005",
+            "from": "CRIT_004",
+            "to": "CRIT_005",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_006_CRIT_005_CRIT_006",
+            "from": "CRIT_005",
+            "to": "CRIT_006",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_007_CRIT_006_CRIT_007",
+            "from": "CRIT_006",
+            "to": "CRIT_007",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_008_CRIT_007_CRIT_008",
+            "from": "CRIT_007",
+            "to": "CRIT_008",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_009_CRIT_008_CRIT_009",
+            "from": "CRIT_008",
+            "to": "CRIT_009",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_010_CRIT_009_EXIT",
+            "from": "CRIT_009",
+            "to": "EXIT",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_011_CRIT_002_BR00_000",
+            "from": "CRIT_002",
+            "to": "BR00_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_012_BR00_000_BR00_001",
+            "from": "BR00_000",
+            "to": "BR00_001",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_013_BR00_001_CRIT_003",
+            "from": "BR00_001",
+            "to": "CRIT_003",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_014_CRIT_005_BR01_000",
+            "from": "CRIT_005",
+            "to": "BR01_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_015_CRIT_002_BR02_000",
+            "from": "CRIT_002",
+            "to": "BR02_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_016_BR02_000_BR02_001",
+            "from": "BR02_000",
+            "to": "BR02_001",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_017_BR02_001_CRIT_004",
+            "from": "BR02_001",
+            "to": "CRIT_004",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_018_CRIT_001_BR03_000",
+            "from": "CRIT_001",
+            "to": "BR03_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_019_BR03_000_BR03_001",
+            "from": "BR03_000",
+            "to": "BR03_001",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_020_BR03_001_CRIT_002",
+            "from": "BR03_001",
+            "to": "CRIT_002",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_021_CRIT_003_BR04_000",
+            "from": "CRIT_003",
+            "to": "BR04_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_022_BR04_000_CRIT_005",
+            "from": "BR04_000",
+            "to": "CRIT_005",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_023_CRIT_008_BR05_000",
+            "from": "CRIT_008",
+            "to": "BR05_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_024_BR05_000_BR05_001",
+            "from": "BR05_000",
+            "to": "BR05_001",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_025_BR05_001_BR05_002",
+            "from": "BR05_001",
+            "to": "BR05_002",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_026_BR05_002_CRIT_009",
+            "from": "BR05_002",
+            "to": "CRIT_009",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_027_CRIT_004_BR06_000",
+            "from": "CRIT_004",
+            "to": "BR06_000",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_028_BR06_000_BR06_001",
+            "from": "BR06_000",
+            "to": "BR06_001",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_029_BR06_001_BR06_002",
+            "from": "BR06_001",
+            "to": "BR06_002",
+            "visibility": "FOGGED",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_030_CRIT_006_SECRET_000",
+            "from": "CRIT_006",
+            "to": "SECRET_000",
+            "visibility": "HIDDEN_ORDINARY",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_031_CRIT_003_SECRET_001",
+            "from": "CRIT_003",
+            "to": "SECRET_001",
+            "visibility": "HIDDEN_ORDINARY",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_032_BR00_001_SECRET_002",
+            "from": "BR00_001",
+            "to": "SECRET_002",
+            "visibility": "HIDDEN_ORDINARY",
+            "traversalCost": 1,
+            "bidirectional": true
+          },
+          {
+            "id": "EDGE_033_BR06_002_MARGIN_PRIVATE_001",
+            "from": "BR06_002",
+            "to": "MARGIN_PRIVATE_001",
+            "visibility": "PRIVATE_AUTHOR",
+            "traversalCost": 1,
+            "bidirectional": true
+          }
+        ],
+        "startNodeId": "START",
+        "exitNodeId": "EXIT",
+        "marginNodeId": "MARGIN_PRIVATE_001",
+        "marginAnchorNodeId": "BR06_002",
+        "criticalPathNodeIds": [
+          "START",
+          "CRIT_001",
+          "CRIT_002",
+          "CRIT_003",
+          "CRIT_004",
+          "CRIT_005",
+          "CRIT_006",
+          "CRIT_007",
+          "CRIT_008",
+          "CRIT_009",
+          "EXIT"
+        ],
+        "ordinarySecretNodeIds": [
+          "SECRET_000",
+          "SECRET_001",
+          "SECRET_002"
+        ],
+        "requiredNodeIds": [
+          "START",
+          "CRIT_001",
+          "CRIT_002",
+          "CRIT_003",
+          "CRIT_004",
+          "CRIT_005",
+          "CRIT_006",
+          "CRIT_007",
+          "CRIT_008",
+          "CRIT_009",
+          "EXIT"
+        ],
+        "normalCompletionNodeIds": [
+          "START",
+          "CRIT_001",
+          "CRIT_002",
+          "CRIT_003",
+          "CRIT_004",
+          "CRIT_005",
+          "CRIT_006",
+          "CRIT_007",
+          "CRIT_008",
+          "CRIT_009",
+          "EXIT",
+          "BR00_000",
+          "BR00_001",
+          "BR01_000",
+          "BR02_000",
+          "BR02_001",
+          "BR03_000",
+          "BR03_001",
+          "BR04_000",
+          "BR05_000",
+          "BR05_001",
+          "BR05_002",
+          "BR06_000",
+          "BR06_001",
+          "BR06_002",
+          "SECRET_000",
+          "SECRET_001",
+          "SECRET_002"
+        ],
+        "initialResources": {
+          "supplies": 10,
+          "fatigue": 0,
+          "morale": 6,
+          "time": 0
+        }
+      }
+    }
+  ],
+  "enemyDecision": {
+    "enemyUnionId": "EU_GATEHEART_BASTION",
+    "doctrineId": "ENEMY_DOCTRINE_GATE_RESET",
+    "decision": "PRESS_VISIBLE_WOUNDED",
+    "visibleStateHash": "E13DE68B8EF9C0D3678D7C785F36476D7A1E519A7153664781434BD0703B7C5F",
+    "hiddenStateUsed": false,
+    "allowedInformation": [
+      "OWN_PYLON_STATE",
+      "VISIBLE_FORMATIONS",
+      "TELEGRAPH_STATE"
+    ]
+  },
+  "marginClaims": {
+    "author": true,
+    "vaultbearer": true,
+    "unsigned": false,
+    "mangaCode": false
+  },
+  "oddsExamples": {
+    "difficulty11Modifier0": {
+      "CRITICAL_FAILURE": 1,
+      "FAILURE": 20,
+      "MIXED_SUCCESS": 12,
+      "SUCCESS": 2,
+      "CRITICAL_SUCCESS": 1
+    },
+    "difficulty11Modifier3": {
+      "CRITICAL_FAILURE": 1,
+      "FAILURE": 5,
+      "MIXED_SUCCESS": 15,
+      "SUCCESS": 14,
+      "CRITICAL_SUCCESS": 1
+    }
+  },
+  "turningPointExample": [
+    "TP_STOOD_WHEN_IT_MATTERED"
+  ]
+}

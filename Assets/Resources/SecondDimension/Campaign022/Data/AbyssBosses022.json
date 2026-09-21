@@ -1,0 +1,302 @@
+{
+  "bosses": [
+    {
+      "bossId": "ABYSS_BOSS022_01",
+      "floorId": "ABYSS_FLOOR_001_MUD_TRENCHES",
+      "displayName": "Trench Standard-Bearer",
+      "phases": [
+        {
+          "phase": 1,
+          "name": "Recognition",
+          "behavior": "Tests the floor identity and player preparation."
+        },
+        {
+          "phase": 2,
+          "name": "Pressure",
+          "behavior": "Escalates through certified Union Forecast combat."
+        },
+        {
+          "phase": 3,
+          "name": "Judgment",
+          "behavior": "Checks objective, protection, and meaningful-use history rather than damage alone."
+        }
+      ],
+      "resolutionOptions": [
+        "DEFEAT",
+        "OBJECTIVE_CLEAR"
+      ],
+      "usesCertifiedUnionBattle": true,
+      "noSecondResolver": true,
+      "existingBattleRewardOnly": true
+    },
+    {
+      "bossId": "ABYSS_BOSS022_02",
+      "floorId": "ABYSS_FLOOR_002_ARROW_RAIN_FIELD",
+      "displayName": "Arrowstorm Auditor",
+      "phases": [
+        {
+          "phase": 1,
+          "name": "Recognition",
+          "behavior": "Tests the floor identity and player preparation."
+        },
+        {
+          "phase": 2,
+          "name": "Pressure",
+          "behavior": "Escalates through certified Union Forecast combat."
+        },
+        {
+          "phase": 3,
+          "name": "Judgment",
+          "behavior": "Checks objective, protection, and meaningful-use history rather than damage alone."
+        }
+      ],
+      "resolutionOptions": [
+        "DEFEAT",
+        "OBJECTIVE_CLEAR"
+      ],
+      "usesCertifiedUnionBattle": true,
+      "noSecondResolver": true,
+      "existingBattleRewardOnly": true
+    },
+    {
+      "bossId": "ABYSS_BOSS022_03",
+      "floorId": "ABYSS_FLOOR_003_SILENT_CAMP",
+      "displayName": "The Camp That Answers",
+      "phases": [
+        {
+          "phase": 1,
+          "name": "Recognition",
+          "behavior": "Tests the floor identity and player preparation."
+        },
+        {
+          "phase": 2,
+          "name": "Pressure",
+          "behavior": "Escalates through certified Union Forecast combat."
+        },
+        {
+          "phase": 3,
+          "name": "Judgment",
+          "behavior": "Checks objective, protection, and meaningful-use history rather than damage alone."
+        }
+      ],
+      "resolutionOptions": [
+        "DEFEAT",
+        "PROTECT",
+        "EXPOSE",
+        "NEGOTIATE"
+      ],
+      "usesCertifiedUnionBattle": true,
+      "noSecondResolver": true,
+      "existingBattleRewardOnly": true
+    },
+    {
+      "bossId": "ABYSS_BOSS022_04",
+      "floorId": "ABYSS_FLOOR_004_COLLAPSED_SIEGE_WALL",
+      "displayName": "Siegewall Remnant",
+      "phases": [
+        {
+          "phase": 1,
+          "name": "Recognition",
+          "behavior": "Tests the floor identity and player preparation."
+        },
+        {
+          "phase": 2,
+          "name": "Pressure",
+          "behavior": "Escalates through certified Union Forecast combat."
+        },
+        {
+          "phase": 3,
+          "name": "Judgment",
+          "behavior": "Checks objective, protection, and meaningful-use history rather than damage alone."
+        }
+      ],
+      "resolutionOptions": [
+        "DEFEAT",
+        "OBJECTIVE_CLEAR"
+      ],
+      "usesCertifiedUnionBattle": true,
+      "noSecondResolver": true,
+      "existingBattleRewardOnly": true
+    },
+    {
+      "bossId": "ABYSS_BOSS022_05",
+      "floorId": "ABYSS_FLOOR_005_GRAVE_BANNER_HILL",
+      "displayName": "Bannerless Marshal",
+      "phases": [
+        {
+          "phase": 1,
+          "name": "Recognition",
+          "behavior": "Tests the floor identity and player preparation."
+        },
+        {
+          "phase": 2,
+          "name": "Pressure",
+          "behavior": "Escalates through certified Union Forecast combat."
+        },
+        {
+          "phase": 3,
+          "name": "Judgment",
+          "behavior": "Checks objective, protection, and meaningful-use history rather than damage alone."
+        }
+      ],
+      "resolutionOptions": [
+        "DEFEAT",
+        "OBJECTIVE_CLEAR"
+      ],
+      "usesCertifiedUnionBattle": true,
+      "noSecondResolver": true,
+      "existingBattleRewardOnly": true
+    },
+    {
+      "bossId": "ABYSS_BOSS022_06",
+      "floorId": "ABYSS_FLOOR_006_IRON_MARCH",
+      "displayName": "Iron March Executor",
+      "phases": [
+        {
+          "phase": 1,
+          "name": "Recognition",
+          "behavior": "Tests the floor identity and player preparation."
+        },
+        {
+          "phase": 2,
+          "name": "Pressure",
+          "behavior": "Escalates through certified Union Forecast combat."
+        },
+        {
+          "phase": 3,
+          "name": "Judgment",
+          "behavior": "Checks objective, protection, and meaningful-use history rather than damage alone."
+        }
+      ],
+      "resolutionOptions": [
+        "DEFEAT",
+        "OBJECTIVE_CLEAR"
+      ],
+      "usesCertifiedUnionBattle": true,
+      "noSecondResolver": true,
+      "existingBattleRewardOnly": true
+    },
+    {
+      "bossId": "ABYSS_BOSS022_07",
+      "floorId": "ABYSS_FLOOR_007_BLOODLESS_RIVER",
+      "displayName": "Ferryman Without Blood",
+      "phases": [
+        {
+          "phase": 1,
+          "name": "Recognition",
+          "behavior": "Tests the floor identity and player preparation."
+        },
+        {
+          "phase": 2,
+          "name": "Pressure",
+          "behavior": "Escalates through certified Union Forecast combat."
+        },
+        {
+          "phase": 3,
+          "name": "Judgment",
+          "behavior": "Checks objective, protection, and meaningful-use history rather than damage alone."
+        }
+      ],
+      "resolutionOptions": [
+        "DEFEAT",
+        "PROTECT",
+        "EXPOSE",
+        "NEGOTIATE"
+      ],
+      "usesCertifiedUnionBattle": true,
+      "noSecondResolver": true,
+      "existingBattleRewardOnly": true
+    },
+    {
+      "bossId": "ABYSS_BOSS022_08",
+      "floorId": "ABYSS_FLOOR_008_WAR_BEAST_PENS",
+      "displayName": "Keeper of Open Pens",
+      "phases": [
+        {
+          "phase": 1,
+          "name": "Recognition",
+          "behavior": "Tests the floor identity and player preparation."
+        },
+        {
+          "phase": 2,
+          "name": "Pressure",
+          "behavior": "Escalates through certified Union Forecast combat."
+        },
+        {
+          "phase": 3,
+          "name": "Judgment",
+          "behavior": "Checks objective, protection, and meaningful-use history rather than damage alone."
+        }
+      ],
+      "resolutionOptions": [
+        "DEFEAT",
+        "PROTECT",
+        "EXPOSE",
+        "NEGOTIATE"
+      ],
+      "usesCertifiedUnionBattle": true,
+      "noSecondResolver": true,
+      "existingBattleRewardOnly": true
+    },
+    {
+      "bossId": "ABYSS_BOSS022_09",
+      "floorId": "ABYSS_FLOOR_009_ASH_COMMAND_TENT",
+      "displayName": "Ash Order-General",
+      "phases": [
+        {
+          "phase": 1,
+          "name": "Recognition",
+          "behavior": "Tests the floor identity and player preparation."
+        },
+        {
+          "phase": 2,
+          "name": "Pressure",
+          "behavior": "Escalates through certified Union Forecast combat."
+        },
+        {
+          "phase": 3,
+          "name": "Judgment",
+          "behavior": "Checks objective, protection, and meaningful-use history rather than damage alone."
+        }
+      ],
+      "resolutionOptions": [
+        "DEFEAT",
+        "OBJECTIVE_CLEAR"
+      ],
+      "usesCertifiedUnionBattle": true,
+      "noSecondResolver": true,
+      "existingBattleRewardOnly": true
+    },
+    {
+      "bossId": "ABYSS_BOSS022_10",
+      "floorId": "ABYSS_FLOOR_010_AEGIS_GATE",
+      "displayName": "Aegis Gatewarden",
+      "phases": [
+        {
+          "phase": 1,
+          "name": "Recognition",
+          "behavior": "Tests the floor identity and player preparation."
+        },
+        {
+          "phase": 2,
+          "name": "Pressure",
+          "behavior": "Escalates through certified Union Forecast combat."
+        },
+        {
+          "phase": 3,
+          "name": "Judgment",
+          "behavior": "Checks objective, protection, and meaningful-use history rather than damage alone."
+        }
+      ],
+      "resolutionOptions": [
+        "DEFEAT",
+        "PROTECT",
+        "EXPOSE",
+        "NEGOTIATE"
+      ],
+      "usesCertifiedUnionBattle": true,
+      "noSecondResolver": true,
+      "existingBattleRewardOnly": true
+    }
+  ]
+}

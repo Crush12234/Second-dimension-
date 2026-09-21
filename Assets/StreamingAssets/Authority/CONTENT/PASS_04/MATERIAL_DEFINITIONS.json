@@ -1,0 +1,897 @@
+{
+  "contentVersion": "GOW_PASS04_0.9",
+  "materials": [
+    {
+      "id": "MATERIAL_IRON",
+      "displayName": "Iron",
+      "category": "COMMON_METAL",
+      "sources": [
+        "Outer Gateworks salvage",
+        "mines"
+      ],
+      "craftingUses": [
+        "WEAPON",
+        "ARMOR",
+        "TOOL"
+      ],
+      "repairUses": [
+        "WEAPON",
+        "ARMOR"
+      ],
+      "requiresXpStabilization": false,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 10,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Dull gray with hammer marks."
+    },
+    {
+      "id": "MATERIAL_COPPER",
+      "displayName": "Copper",
+      "category": "COMMON_METAL",
+      "sources": [
+        "Gateworks wiring",
+        "trade"
+      ],
+      "craftingUses": [
+        "FOCUS",
+        "TOOL",
+        "ACCESSORY"
+      ],
+      "repairUses": [
+        "FOCUS",
+        "TOOL"
+      ],
+      "requiresXpStabilization": false,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 12,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Warm orange conductor."
+    },
+    {
+      "id": "MATERIAL_TIN",
+      "displayName": "Tin",
+      "category": "COMMON_METAL",
+      "sources": [
+        "trade",
+        "salvage"
+      ],
+      "craftingUses": [
+        "ALLOY",
+        "ACCESSORY"
+      ],
+      "repairUses": [
+        "ALLOY",
+        "ACCESSORY"
+      ],
+      "requiresXpStabilization": false,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 8,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Pale soft metal."
+    },
+    {
+      "id": "MATERIAL_STEEL",
+      "displayName": "Steel",
+      "category": "REFINED_METAL",
+      "sources": [
+        "Guild Forge refinement"
+      ],
+      "craftingUses": [
+        "WEAPON",
+        "ARMOR"
+      ],
+      "repairUses": [
+        "WEAPON",
+        "ARMOR"
+      ],
+      "requiresXpStabilization": false,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 25,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Clean blue-gray edge."
+    },
+    {
+      "id": "MATERIAL_GATE_BRONZE",
+      "displayName": "Gate Bronze",
+      "category": "REFINED_METAL",
+      "sources": [
+        "Gatework alloy recipe"
+      ],
+      "craftingUses": [
+        "WEAPON",
+        "TOOL",
+        "FOCUS"
+      ],
+      "repairUses": [
+        "WEAPON",
+        "TOOL"
+      ],
+      "requiresXpStabilization": false,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 32,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Brass-bronze with blue gate flecks."
+    },
+    {
+      "id": "MATERIAL_BLACK_IRON",
+      "displayName": "Black Iron",
+      "category": "REFINED_METAL",
+      "sources": [
+        "Iron March",
+        "elite salvage"
+      ],
+      "craftingUses": [
+        "HEAVY_ARMOR",
+        "GREAT_WEAPON"
+      ],
+      "repairUses": [
+        "HEAVY_ARMOR",
+        "GREAT_WEAPON"
+      ],
+      "requiresXpStabilization": false,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 40,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Dark layered metal that rings softly."
+    },
+    {
+      "id": "MATERIAL_ASHWOOD",
+      "displayName": "Ashwood",
+      "category": "WOOD",
+      "sources": [
+        "Outer road groves"
+      ],
+      "craftingUses": [
+        "BOW",
+        "STAFF",
+        "SPEAR"
+      ],
+      "repairUses": [
+        "BOW",
+        "STAFF"
+      ],
+      "requiresXpStabilization": false,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 10,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Straight pale grain."
+    },
+    {
+      "id": "MATERIAL_BLACKWOOD_BRANCH",
+      "displayName": "Blackwood Branch",
+      "category": "WOOD",
+      "sources": [
+        "Blackwood Forest licensed harvest"
+      ],
+      "craftingUses": [
+        "STAFF",
+        "FOCUS",
+        "HYBRID_RELIC"
+      ],
+      "repairUses": [
+        "STAFF",
+        "FOCUS"
+      ],
+      "requiresXpStabilization": false,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 45,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Near-black wood with silver sap lines."
+    },
+    {
+      "id": "MATERIAL_WINDREED",
+      "displayName": "Windreed",
+      "category": "WOOD",
+      "sources": [
+        "Arrow Rain Field"
+      ],
+      "craftingUses": [
+        "BOW",
+        "SIGNAL_TOOL"
+      ],
+      "repairUses": [
+        "BOW",
+        "SIGNAL_TOOL"
+      ],
+      "requiresXpStabilization": false,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 28,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Flexible hollow reed that hums in wind."
+    },
+    {
+      "id": "MATERIAL_ROAD_LEATHER",
+      "displayName": "Road Leather",
+      "category": "LEATHER",
+      "sources": [
+        "licensed herd trade"
+      ],
+      "craftingUses": [
+        "LIGHT_ARMOR",
+        "ACCESSORY"
+      ],
+      "repairUses": [
+        "LIGHT_ARMOR",
+        "ACCESSORY"
+      ],
+      "requiresXpStabilization": false,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 12,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Durable brown travel leather."
+    },
+    {
+      "id": "MATERIAL_RUSTBACK_HIDE",
+      "displayName": "Rustback Hide",
+      "category": "LEATHER",
+      "sources": [
+        "Rustback Hound encounters"
+      ],
+      "craftingUses": [
+        "MEDIUM_ARMOR",
+        "HUNT_TOOL"
+      ],
+      "repairUses": [
+        "MEDIUM_ARMOR",
+        "HUNT_TOOL"
+      ],
+      "requiresXpStabilization": false,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 26,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Iron-red scale hide."
+    },
+    {
+      "id": "MATERIAL_ETHICAL_BEAST_HIDE",
+      "displayName": "Ethically Recovered Beast Hide",
+      "category": "LEATHER",
+      "sources": [
+        "War Beast Pens civic trial"
+      ],
+      "craftingUses": [
+        "ARMOR",
+        "RESCUE_TOOL"
+      ],
+      "repairUses": [
+        "ARMOR",
+        "RESCUE_TOOL"
+      ],
+      "requiresXpStabilization": false,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 35,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Marked with guild welfare seal."
+    },
+    {
+      "id": "MATERIAL_FIELD_CLOTH",
+      "displayName": "Field Cloth",
+      "category": "CLOTH",
+      "sources": [
+        "Skyhome textile district"
+      ],
+      "craftingUses": [
+        "LIGHT_ARMOR",
+        "BANDAGE"
+      ],
+      "repairUses": [
+        "LIGHT_ARMOR",
+        "BANDAGE"
+      ],
+      "requiresXpStabilization": false,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 8,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Practical undyed weave."
+    },
+    {
+      "id": "MATERIAL_SILKWEAVE",
+      "displayName": "Silkweave",
+      "category": "CLOTH",
+      "sources": [
+        "trade guild"
+      ],
+      "craftingUses": [
+        "LIGHT_ARMOR",
+        "FOCUS"
+      ],
+      "repairUses": [
+        "LIGHT_ARMOR",
+        "FOCUS"
+      ],
+      "requiresXpStabilization": false,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 28,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Fine gold-threaded cloth."
+    },
+    {
+      "id": "MATERIAL_BANNER_THREAD",
+      "displayName": "First Banner Thread",
+      "category": "CLOTH",
+      "sources": [
+        "Grave Banner Hill"
+      ],
+      "craftingUses": [
+        "ACCESSORY",
+        "MORALE_GEAR"
+      ],
+      "repairUses": [
+        "ACCESSORY",
+        "MORALE_GEAR"
+      ],
+      "requiresXpStabilization": false,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 36,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Faded thread that never tears under honest oath."
+    },
+    {
+      "id": "MATERIAL_SHIELD_SPLINTER",
+      "displayName": "Shield Splinter",
+      "category": "ABYSS_MATERIAL",
+      "sources": [
+        "Mud Trenches"
+      ],
+      "craftingUses": [
+        "SHIELD",
+        "ARMOR",
+        "HISTORY"
+      ],
+      "repairUses": [
+        "SHIELD",
+        "ARMOR"
+      ],
+      "requiresXpStabilization": true,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 18,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "Repeated extraction may reduce yield.",
+      "visualIdentity": "Fragment of a defense that outlived its army."
+    },
+    {
+      "id": "MATERIAL_ARROW_CORE",
+      "displayName": "Arrow Core",
+      "category": "ABYSS_MATERIAL",
+      "sources": [
+        "Arrow Rain Field"
+      ],
+      "craftingUses": [
+        "BOW",
+        "WIND_RUNE"
+      ],
+      "repairUses": [
+        "BOW",
+        "WIND_RUNE"
+      ],
+      "requiresXpStabilization": true,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 20,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "Repeated extraction may reduce yield.",
+      "visualIdentity": "Condensed trajectory memory."
+    },
+    {
+      "id": "MATERIAL_RATION_BLUEPRINT_FRAGMENT",
+      "displayName": "Ration Blueprint Fragment",
+      "category": "ABYSS_MATERIAL",
+      "sources": [
+        "Silent Camp"
+      ],
+      "craftingUses": [
+        "CAMP_TOOL",
+        "BLUEPRINT"
+      ],
+      "repairUses": [
+        "CAMP_TOOL",
+        "BLUEPRINT"
+      ],
+      "requiresXpStabilization": true,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 22,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "Repeated extraction may reduce yield.",
+      "visualIdentity": "Recipe fragment shaped like an empty meal ticket."
+    },
+    {
+      "id": "MATERIAL_STONE_CORE",
+      "displayName": "Siege Stone Core",
+      "category": "ABYSS_MATERIAL",
+      "sources": [
+        "Collapsed Siege Wall"
+      ],
+      "craftingUses": [
+        "ARMOR",
+        "WALL_TOOL"
+      ],
+      "repairUses": [
+        "ARMOR",
+        "WALL_TOOL"
+      ],
+      "requiresXpStabilization": true,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 24,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "Repeated extraction may reduce yield.",
+      "visualIdentity": "Dense stone that remembers impact."
+    },
+    {
+      "id": "MATERIAL_IRON_STEP_PLATE",
+      "displayName": "Iron Step Plate",
+      "category": "ABYSS_MATERIAL",
+      "sources": [
+        "Iron March"
+      ],
+      "craftingUses": [
+        "HEAVY_ARMOR",
+        "FORMATION_GEAR"
+      ],
+      "repairUses": [
+        "HEAVY_ARMOR",
+        "FORMATION_GEAR"
+      ],
+      "requiresXpStabilization": true,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 30,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "Repeated extraction may reduce yield.",
+      "visualIdentity": "Marching plate with no wearer."
+    },
+    {
+      "id": "MATERIAL_BRIDGE_STONE",
+      "displayName": "Bloodless Bridge Stone",
+      "category": "ABYSS_MATERIAL",
+      "sources": [
+        "Bloodless River"
+      ],
+      "craftingUses": [
+        "SPEAR",
+        "PURIFICATION_TOOL"
+      ],
+      "repairUses": [
+        "SPEAR",
+        "PURIFICATION_TOOL"
+      ],
+      "requiresXpStabilization": true,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 30,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "Repeated extraction may reduce yield.",
+      "visualIdentity": "Red-stained stone containing no blood."
+    },
+    {
+      "id": "MATERIAL_BEAST_ECHO_CORE",
+      "displayName": "Beast Echo Core",
+      "category": "ABYSS_MATERIAL",
+      "sources": [
+        "War Beast Pens"
+      ],
+      "craftingUses": [
+        "INVOCATION_ARTIFACT",
+        "HUNT_TOOL"
+      ],
+      "repairUses": [
+        "INVOCATION_ARTIFACT",
+        "HUNT_TOOL"
+      ],
+      "requiresXpStabilization": true,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 34,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "Repeated extraction may reduce yield.",
+      "visualIdentity": "Humane echo core that responds to calm handling."
+    },
+    {
+      "id": "MATERIAL_COMMAND_TABLE_RUNE",
+      "displayName": "Command Table Rune",
+      "category": "ABYSS_MATERIAL",
+      "sources": [
+        "Ash Command Tent"
+      ],
+      "craftingUses": [
+        "COMMAND_TOOL",
+        "FOCUS"
+      ],
+      "repairUses": [
+        "COMMAND_TOOL",
+        "FOCUS"
+      ],
+      "requiresXpStabilization": true,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 38,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "Repeated extraction may reduce yield.",
+      "visualIdentity": "Rune of strategy without sacrifice."
+    },
+    {
+      "id": "MATERIAL_GATE_GLASS",
+      "displayName": "Gate Glass",
+      "category": "GATE_MATERIAL",
+      "sources": [
+        "Gate anomalies",
+        "licensed salvage"
+      ],
+      "craftingUses": [
+        "FOCUS",
+        "WARD",
+        "INVOCATION_ARTIFACT"
+      ],
+      "repairUses": [
+        "FOCUS",
+        "WARD"
+      ],
+      "requiresXpStabilization": true,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 32,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Translucent blue-black glass."
+    },
+    {
+      "id": "MATERIAL_PYLON_CRYSTAL",
+      "displayName": "Pylon Crystal",
+      "category": "GATE_MATERIAL",
+      "sources": [
+        "boss operations",
+        "pylon rescue"
+      ],
+      "craftingUses": [
+        "ARCANE_CONDUCTOR",
+        "BARRIER"
+      ],
+      "repairUses": [
+        "ARCANE_CONDUCTOR",
+        "BARRIER"
+      ],
+      "requiresXpStabilization": true,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 44,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Stores a single honest command pulse."
+    },
+    {
+      "id": "MATERIAL_WORLDROAD_ALLOY",
+      "displayName": "Worldroad Alloy",
+      "category": "GATE_MATERIAL",
+      "sources": [
+        "future world alliance"
+      ],
+      "craftingUses": [
+        "HYBRID_RELIC",
+        "EVOLUTION"
+      ],
+      "repairUses": [
+        "HYBRID_RELIC",
+        "EVOLUTION"
+      ],
+      "requiresXpStabilization": true,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 65,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Multi-toned alloy that shifts with destination."
+    },
+    {
+      "id": "MATERIAL_BLANK_RUNE",
+      "displayName": "Blank Rune",
+      "category": "RUNE_MATERIAL",
+      "sources": [
+        "Guild Forge"
+      ],
+      "craftingUses": [
+        "SOCKET",
+        "FOCUS"
+      ],
+      "repairUses": [
+        "SOCKET",
+        "FOCUS"
+      ],
+      "requiresXpStabilization": false,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 16,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Stable surface awaiting one rule."
+    },
+    {
+      "id": "MATERIAL_GUARD_RUNE",
+      "displayName": "Guard Rune",
+      "category": "RUNE_MATERIAL",
+      "sources": [
+        "protection contract"
+      ],
+      "craftingUses": [
+        "SHIELD",
+        "ARMOR"
+      ],
+      "repairUses": [
+        "SHIELD",
+        "ARMOR"
+      ],
+      "requiresXpStabilization": false,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 28,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Square rune with inward-facing lines."
+    },
+    {
+      "id": "MATERIAL_SIGNAL_RUNE",
+      "displayName": "Signal Rune",
+      "category": "RUNE_MATERIAL",
+      "sources": [
+        "Ash Command Tent",
+        "Gateworks signals"
+      ],
+      "craftingUses": [
+        "COMMAND",
+        "SUPPORT"
+      ],
+      "repairUses": [
+        "COMMAND",
+        "SUPPORT"
+      ],
+      "requiresXpStabilization": false,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 28,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Radiating rune visible only to allies."
+    },
+    {
+      "id": "MATERIAL_EMBER_SALT",
+      "displayName": "Ember Salt",
+      "category": "ELEMENTAL_MATERIAL",
+      "sources": [
+        "forge anomalies"
+      ],
+      "craftingUses": [
+        "FIRE",
+        "CRAFTING"
+      ],
+      "repairUses": [
+        "FIRE",
+        "CRAFTING"
+      ],
+      "requiresXpStabilization": true,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 22,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Warm crystalline salt."
+    },
+    {
+      "id": "MATERIAL_STILL_ICE",
+      "displayName": "Still Ice",
+      "category": "ELEMENTAL_MATERIAL",
+      "sources": [
+        "preservation anomaly"
+      ],
+      "craftingUses": [
+        "ICE",
+        "MEDICINE"
+      ],
+      "repairUses": [
+        "ICE",
+        "MEDICINE"
+      ],
+      "requiresXpStabilization": true,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 30,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Ice that does not melt while serving a public need."
+    },
+    {
+      "id": "MATERIAL_STORM_FILAMENT",
+      "displayName": "Storm Filament",
+      "category": "ELEMENTAL_MATERIAL",
+      "sources": [
+        "signal tower storms"
+      ],
+      "craftingUses": [
+        "LIGHTNING",
+        "SIGNAL"
+      ],
+      "repairUses": [
+        "LIGHTNING",
+        "SIGNAL"
+      ],
+      "requiresXpStabilization": true,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 30,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Thread of captured static."
+    },
+    {
+      "id": "MATERIAL_MEMORY_WATER",
+      "displayName": "Memory Water",
+      "category": "ELEMENTAL_MATERIAL",
+      "sources": [
+        "Bloodless River",
+        "Sea of Memories clue"
+      ],
+      "craftingUses": [
+        "WATER",
+        "MEMORY"
+      ],
+      "repairUses": [
+        "WATER",
+        "MEMORY"
+      ],
+      "requiresXpStabilization": true,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 34,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Water that records one witnessed image."
+    },
+    {
+      "id": "MATERIAL_AEGIS_CORE",
+      "displayName": "Aegis Core",
+      "category": "BOSS_CORE",
+      "sources": [
+        "Aegis Gate first clear"
+      ],
+      "craftingUses": [
+        "CHOSEN_EQUIPMENT",
+        "INVOCATION_ARTIFACT",
+        "GUILD_DEFENSE"
+      ],
+      "repairUses": [
+        "CHOSEN_EQUIPMENT",
+        "INVOCATION_ARTIFACT"
+      ],
+      "requiresXpStabilization": true,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 100,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "Repeated extraction may reduce yield.",
+      "visualIdentity": "Core that brightens only when civilians are protected."
+    },
+    {
+      "id": "MATERIAL_TOLLKEEPER_CORE",
+      "displayName": "Gatebound Tollkeeper Core",
+      "category": "BOSS_CORE",
+      "sources": [
+        "The First Road Must Stay Open"
+      ],
+      "craftingUses": [
+        "FORGE_UPGRADE",
+        "BOSS_GEAR"
+      ],
+      "repairUses": [
+        "FORGE_UPGRADE",
+        "BOSS_GEAR"
+      ],
+      "requiresXpStabilization": true,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 90,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "Repeated extraction may reduce yield.",
+      "visualIdentity": "Three-part core requiring lawful reassembly."
+    },
+    {
+      "id": "MATERIAL_SUMMON_CLUE_EMBER",
+      "displayName": "Summon Clue: Civic Ember",
+      "category": "SUMMON_CLUE",
+      "sources": [
+        "Abyss forge layers"
+      ],
+      "craftingUses": [
+        "COVENANT_RESEARCH"
+      ],
+      "repairUses": [
+        "COVENANT_RESEARCH"
+      ],
+      "requiresXpStabilization": false,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 0,
+      "guildTreasuryXpInteraction": "No direct market sale.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "A clue, never a captured summon."
+    },
+    {
+      "id": "MATERIAL_SUMMON_CLUE_MIRROR",
+      "displayName": "Summon Clue: Protective Mirror",
+      "category": "SUMMON_CLUE",
+      "sources": [
+        "Aegis trials"
+      ],
+      "craftingUses": [
+        "COVENANT_RESEARCH"
+      ],
+      "repairUses": [
+        "COVENANT_RESEARCH"
+      ],
+      "requiresXpStabilization": false,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 0,
+      "guildTreasuryXpInteraction": "No direct market sale.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Reflective symbol of voluntary protection."
+    },
+    {
+      "id": "MATERIAL_EQUIPMENT_FRAGMENT",
+      "displayName": "Equipment Fragment",
+      "category": "EQUIPMENT_FRAGMENT",
+      "sources": [
+        "Abyss monsters",
+        "dismantling"
+      ],
+      "craftingUses": [
+        "REPAIR",
+        "REINFORCEMENT"
+      ],
+      "repairUses": [
+        "REPAIR",
+        "REINFORCEMENT"
+      ],
+      "requiresXpStabilization": false,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 5,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Recognizable part of a prior item."
+    },
+    {
+      "id": "MATERIAL_RESONANCE_THREAD",
+      "displayName": "Resonance Thread",
+      "category": "EQUIPMENT_FRAGMENT",
+      "sources": [
+        "Invocation Artifact dismantling",
+        "Abyss secrets"
+      ],
+      "craftingUses": [
+        "INVOCATION_REPAIR",
+        "EVOLUTION"
+      ],
+      "repairUses": [
+        "INVOCATION_REPAIR",
+        "EVOLUTION"
+      ],
+      "requiresXpStabilization": false,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 40,
+      "guildTreasuryXpInteraction": "Some civic projects accept this material in place of a portion of Treasury XP.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Thread connecting artifact and echo identity."
+    },
+    {
+      "id": "MATERIAL_EDIT_SHARD",
+      "displayName": "Edit Shard",
+      "category": "MARGIN_ONLY",
+      "sources": [
+        "The Margin"
+      ],
+      "craftingUses": [
+        "REDACTOR_FORGE"
+      ],
+      "repairUses": [
+        "REDACTOR_FORGE"
+      ],
+      "requiresXpStabilization": false,
+      "storageRule": "Stack by stable material ID; source history remains in acquisition log.",
+      "baseValue": 0,
+      "guildTreasuryXpInteraction": "No direct market sale.",
+      "abyssSustainabilityRestriction": "None beyond lawful source.",
+      "visualIdentity": "Impossible shard visible only to authorized profiles."
+    }
+  ]
+}

@@ -1,0 +1,1640 @@
+{
+  "contentVersion": "GOW_PASS03_0.8",
+  "turningPointCount": 30,
+  "turningPoints": [
+    {
+      "id": "TP_STOOD_WHEN_IT_MATTERED",
+      "name": "Stood When It Mattered",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "REDEMPTION",
+      "eligibility": {
+        "description": "After a failed Courage or Guard result, the recruit later protects another member during a real threat.",
+        "requiredEventOrBehaviorTags": [
+          "STOOD_WHEN_IT_MATTERED"
+        ],
+        "minimumMeaningfulOccurrences": 2,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 100
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "leadership": 1,
+        "guardGrowthPermille": 1150,
+        "cohesionWhenProtecting": 5
+      },
+      "tradeoffs": {
+        "fatigueGainPermille": 1100
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_STOOD_WHEN_IT_MATTERED"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_STOOD_WHEN_IT_MATTERED"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 1,
+      "appearanceChange": "A visible steadiness replaces the recruit’s former hesitation.",
+      "signatureTechniqueHook": "SIG_HOOK_STOOD_WHEN_IT_MATTERED",
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_GATEWIND_SCAR",
+      "name": "Gatewind Scar",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "SCAR",
+      "eligibility": {
+        "description": "Suffer a critical failure in a gate anomaly and recover without abandoning the expedition.",
+        "requiredEventOrBehaviorTags": [
+          "GATEWIND_SCAR"
+        ],
+        "minimumMeaningfulOccurrences": 1,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 99
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "gateResistancePermille": 1200,
+        "arcanaDiscoveryPermille": 1100
+      },
+      "tradeoffs": {
+        "healingReceivedPermille": 950
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_GATEWIND_SCAR"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_GATEWIND_SCAR"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "A pale blue scar moves slightly when a gate pulse approaches.",
+      "signatureTechniqueHook": null,
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_LEARNED_TO_ASK",
+      "name": "Learned to Ask",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "CONFIDENCE",
+      "eligibility": {
+        "description": "Resolve a social failure by accepting assistance from a member the recruit previously dismissed.",
+        "requiredEventOrBehaviorTags": [
+          "LEARNED_TO_ASK"
+        ],
+        "minimumMeaningfulOccurrences": 1,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 98
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "supportGrowthPermille": 1150,
+        "assistanceCapBonus": 1
+      },
+      "tradeoffs": {
+        "soloCheckPermille": 950
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_LEARNED_TO_ASK"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_LEARNED_TO_ASK"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "The recruit begins naming uncertainty before it becomes danger.",
+      "signatureTechniqueHook": null,
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_HELD_LINE_ALONE",
+      "name": "Held the Line Alone",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "GUARD",
+      "eligibility": {
+        "description": "Remain the last functional member of a Union for one round and prevent a Cohesion break.",
+        "requiredEventOrBehaviorTags": [
+          "HELD_LINE_ALONE"
+        ],
+        "minimumMeaningfulOccurrences": 2,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 97
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "guardArtEligibility": [
+          "ART_LAST_BASTION"
+        ],
+        "cohesionFloorWhileSolo": 10
+      },
+      "tradeoffs": {
+        "retreatWeightPermille": 850
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_HELD_LINE_ALONE"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_HELD_LINE_ALONE"
+      ],
+      "advancedClassRouteTags": [
+        "ADV_TAG_HELD_LINE_ALONE"
+      ],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "Armor gains a repaired seam kept visible rather than polished away.",
+      "signatureTechniqueHook": null,
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_FEAR_NAMED",
+      "name": "Fear Named",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "COMPLICATED",
+      "eligibility": {
+        "description": "A fear is revealed through QUIET_PANIC or another protected disclosure event.",
+        "requiredEventOrBehaviorTags": [
+          "FEAR_NAMED"
+        ],
+        "minimumMeaningfulOccurrences": 1,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 96
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "fearTriggerVisibility": true,
+        "courageGrowthPermille": 1100
+      },
+      "tradeoffs": {
+        "firstFearTriggerPenaltyPermille": 1200
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_FEAR_NAMED"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_FEAR_NAMED"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "The recruit’s profile names the fear instead of hiding it.",
+      "signatureTechniqueHook": null,
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_FEAR_MASTERED",
+      "name": "Fear Mastered",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "REDEMPTION",
+      "eligibility": {
+        "description": "Confront the named fear three times and complete one meaningful action during the trigger.",
+        "requiredEventOrBehaviorTags": [
+          "FEAR_MASTERED"
+        ],
+        "minimumMeaningfulOccurrences": 1,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 95
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "fearPenaltyPermille": 300,
+        "courageGrowthPermille": 1250
+      },
+      "tradeoffs": {
+        "fearlessRiskWeightPermille": 1080
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_FEAR_MASTERED"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_FEAR_MASTERED"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "A personal dialogue line changes from avoidance to deliberate preparation.",
+      "signatureTechniqueHook": "SIG_HOOK_FEAR_MASTERED",
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_MERCY_BEFORE_VICTORY",
+      "name": "Mercy before Victory",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "MORAL",
+      "eligibility": {
+        "description": "Spare or rescue a nonhostile creature when extermination would be easier.",
+        "requiredEventOrBehaviorTags": [
+          "MERCY_BEFORE_VICTORY"
+        ],
+        "minimumMeaningfulOccurrences": 2,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 94
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "restorationGrowthPermille": 1100,
+        "monsterDiplomacyBonus": 2
+      },
+      "tradeoffs": {
+        "lootYieldPermille": 900
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_MERCY_BEFORE_VICTORY"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_MERCY_BEFORE_VICTORY"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "A small token from the spared creature appears on the recruit’s kit.",
+      "signatureTechniqueHook": null,
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_SALVAGE_OBSESSION",
+      "name": "Salvage Obsession",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "OBSESSION",
+      "eligibility": {
+        "description": "Choose valuable salvage in three events and accept a relationship cost at least once.",
+        "requiredEventOrBehaviorTags": [
+          "SALVAGE_OBSESSION"
+        ],
+        "minimumMeaningfulOccurrences": 1,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 93
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "craftingYieldPermille": 1350,
+        "rareSalvageReveal": true
+      },
+      "tradeoffs": {
+        "moraleLossOnAbandonedLoot": 2
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_SALVAGE_OBSESSION"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_SALVAGE_OBSESSION"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "The recruit begins labeling every pouch and broken component.",
+      "signatureTechniqueHook": null,
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_BUILDERS_PATIENCE",
+      "name": "Builder’s Patience",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "CRAFT",
+      "eligibility": {
+        "description": "Complete three Crafting checks using safe or accountable choices instead of speed.",
+        "requiredEventOrBehaviorTags": [
+          "BUILDERS_PATIENCE"
+        ],
+        "minimumMeaningfulOccurrences": 1,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 92
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "craftingCheckBonus": 2,
+        "repairSupplyCostPermille": 850
+      },
+      "tradeoffs": {
+        "initiativePermille": 950
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_BUILDERS_PATIENCE"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_BUILDERS_PATIENCE"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "Tools are arranged with ritual precision.",
+      "signatureTechniqueHook": null,
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_BORROWED_TRADITION",
+      "name": "Borrowed Tradition",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "CULTURAL_LEARNING",
+      "eligibility": {
+        "description": "Learn a cultural practice through a trusted mentor and complete its etiquette event.",
+        "requiredEventOrBehaviorTags": [
+          "BORROWED_TRADITION"
+        ],
+        "minimumMeaningfulOccurrences": 2,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 91
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "culturalArtLearningPermille": 1200,
+        "crossCultureTrustGain": 1
+      },
+      "tradeoffs": {
+        "cannotClaimOriginatorStatus": true
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_BORROWED_TRADITION"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_BORROWED_TRADITION"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "The technique’s UI permanently credits its originating culture and mentor.",
+      "signatureTechniqueHook": null,
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_CHOSEN_MENTOR",
+      "name": "Chosen Mentor",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "MENTORSHIP",
+      "eligibility": {
+        "description": "Reach trust 4 with a veteran and accept a structured teaching bond.",
+        "requiredEventOrBehaviorTags": [
+          "CHOSEN_MENTOR"
+        ],
+        "minimumMeaningfulOccurrences": 1,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 90
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "mentorLearningPermille": 1300,
+        "observationalLearningPermille": 1150
+      },
+      "tradeoffs": {
+        "mentorAbsencePenaltyPermille": 950
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_CHOSEN_MENTOR"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_CHOSEN_MENTOR"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "The mentor’s insignia appears as a small accessory option.",
+      "signatureTechniqueHook": "SIG_HOOK_CHOSEN_MENTOR",
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_UNEXPECTED_CAPTAIN",
+      "name": "Unexpected Captain",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "LEADERSHIP",
+      "eligibility": {
+        "description": "Succeed at LEADER_BY_ACCIDENT or lead a regroup after the formal leader is incapacitated.",
+        "requiredEventOrBehaviorTags": [
+          "UNEXPECTED_CAPTAIN"
+        ],
+        "minimumMeaningfulOccurrences": 1,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 89
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "leadership": 2,
+        "commandBandwidth": 1,
+        "supportGrowthPermille": 1100
+      },
+      "tradeoffs": {
+        "personalDamagePermille": 950
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_UNEXPECTED_CAPTAIN"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_UNEXPECTED_CAPTAIN"
+      ],
+      "advancedClassRouteTags": [
+        "ADV_TAG_UNEXPECTED_CAPTAIN"
+      ],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 2,
+      "appearanceChange": "The recruit gains a distinct command stance in Union previews.",
+      "signatureTechniqueHook": null,
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_SURVIVORS_GUILT",
+      "name": "Survivor’s Guilt",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "COMPLICATED",
+      "eligibility": {
+        "description": "Return from an expedition after another member receives a serious injury while this recruit remains unharmed.",
+        "requiredEventOrBehaviorTags": [
+          "SURVIVORS_GUILT"
+        ],
+        "minimumMeaningfulOccurrences": 2,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 88
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "rescueForecastWeightPermille": 1300,
+        "relationshipGainAfterRescue": 2
+      },
+      "tradeoffs": {
+        "restAtGuildMoraleRecoveryPermille": 800
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_SURVIVORS_GUILT"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_SURVIVORS_GUILT"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "Quiet scenes show the recruit checking the infirmary roster.",
+      "signatureTechniqueHook": null,
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_BETTER_IN_THE_DARK",
+      "name": "Better in the Dark",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "ADAPTATION",
+      "eligibility": {
+        "description": "Complete three hidden-route or night encounters without becoming isolated.",
+        "requiredEventOrBehaviorTags": [
+          "BETTER_IN_THE_DARK"
+        ],
+        "minimumMeaningfulOccurrences": 1,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 87
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "perceptionDarkBonus": 2,
+        "rearlineArtGrowthPermille": 1150
+      },
+      "tradeoffs": {
+        "brightGatefieldAccuracyPermille": 950
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_BETTER_IN_THE_DARK"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_BETTER_IN_THE_DARK"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "The portrait receives an optional low-light eye reflection.",
+      "signatureTechniqueHook": null,
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_VOICE_IN_THE_UNION",
+      "name": "A Voice in the Union",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "CONFIDENCE",
+      "eligibility": {
+        "description": "Have a low-leadership recruit successfully alter a plan through an event or support action.",
+        "requiredEventOrBehaviorTags": [
+          "VOICE_IN_THE_UNION"
+        ],
+        "minimumMeaningfulOccurrences": 1,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 86
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "supportForecastInfluencePermille": 1200,
+        "leadership": 1
+      },
+      "tradeoffs": {
+        "commandConflictChancePermille": 1050
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_VOICE_IN_THE_UNION"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_VOICE_IN_THE_UNION"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 1,
+      "appearanceChange": "Forecast text begins occasionally quoting the recruit’s suggestion.",
+      "signatureTechniqueHook": null,
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_REFUSES_ABANDONMENT",
+      "name": "Refuses Abandonment",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "RESCUE",
+      "eligibility": {
+        "description": "Complete two rescues after choosing not to leave a vulnerable target behind.",
+        "requiredEventOrBehaviorTags": [
+          "REFUSES_ABANDONMENT"
+        ],
+        "minimumMeaningfulOccurrences": 2,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 85
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "rescueMovementCostPermille": 850,
+        "guardGrowthPermille": 1100
+      },
+      "tradeoffs": {
+        "retreatRequiresExplicitConfirmation": true
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_REFUSES_ABANDONMENT"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_REFUSES_ABANDONMENT"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "A red rescue cord is added to the recruit’s equipment silhouette.",
+      "signatureTechniqueHook": "SIG_HOOK_REFUSES_ABANDONMENT",
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_MARKED_BY_GATEGLASS",
+      "name": "Marked by Gateglass",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "ANOMALY",
+      "eligibility": {
+        "description": "Receive a Gate anomaly critical result and later stabilize a second anomaly.",
+        "requiredEventOrBehaviorTags": [
+          "MARKED_BY_GATEGLASS"
+        ],
+        "minimumMeaningfulOccurrences": 1,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 84
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "arcanaCheckBonus": 1,
+        "gateAnomalyForecastWeightPermille": 1250
+      },
+      "tradeoffs": {
+        "gatePulseMpDrain": 1
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_MARKED_BY_GATEGLASS"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_MARKED_BY_GATEGLASS"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "Tiny translucent flecks appear in hair, horn, fur, or clothing seams.",
+      "signatureTechniqueHook": null,
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_TOOLMAKERS_EYE",
+      "name": "Toolmaker’s Eye",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "CRAFT",
+      "eligibility": {
+        "description": "Identify three structural weaknesses without destroying the object being studied.",
+        "requiredEventOrBehaviorTags": [
+          "TOOLMAKERS_EYE"
+        ],
+        "minimumMeaningfulOccurrences": 1,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 83
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "equipmentConditionReveal": true,
+        "craftingCheckBonus": 1,
+        "salvageQualityPermille": 1100
+      },
+      "tradeoffs": {
+        "cannotUseRecklessDismantle": true
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_TOOLMAKERS_EYE"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_TOOLMAKERS_EYE"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "The recruit gains a small measuring tool accessory.",
+      "signatureTechniqueHook": null,
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_PAIN_TAUGHT_BALANCE",
+      "name": "Pain-Taught Balance",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "SCAR",
+      "eligibility": {
+        "description": "Fail an Agility check with injury, then succeed at a similar check after recovery.",
+        "requiredEventOrBehaviorTags": [
+          "PAIN_TAUGHT_BALANCE"
+        ],
+        "minimumMeaningfulOccurrences": 2,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 82
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "staggerResistancePermille": 1200,
+        "agilityCheckBonus": 1
+      },
+      "tradeoffs": {
+        "maxSprintRoundsDelta": -1
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_PAIN_TAUGHT_BALANCE"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_PAIN_TAUGHT_BALANCE"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "Movement animation favors a deliberate compensated stance.",
+      "signatureTechniqueHook": null,
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_TRUSTS_ONE_PERSON",
+      "name": "Trusts One Person",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "RELATIONSHIP",
+      "eligibility": {
+        "description": "Reach trust 5 with one member while remaining below trust 2 with the rest of the guild.",
+        "requiredEventOrBehaviorTags": [
+          "TRUSTS_ONE_PERSON"
+        ],
+        "minimumMeaningfulOccurrences": 1,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 81
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "pairedLinkReadinessPermille": 1300,
+        "pairedAssistBonus": 2
+      },
+      "tradeoffs": {
+        "unpairedSupportWeightPermille": 850
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_TRUSTS_ONE_PERSON"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_TRUSTS_ONE_PERSON"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "The paired member receives unique camp dialogue and forecast lines.",
+      "signatureTechniqueHook": null,
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_KEEPS_EVERY_PROMISE",
+      "name": "Keeps Every Promise",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "MORAL",
+      "eligibility": {
+        "description": "Complete three flagged promises without abandoning or contradicting them.",
+        "requiredEventOrBehaviorTags": [
+          "KEEPS_EVERY_PROMISE"
+        ],
+        "minimumMeaningfulOccurrences": 1,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 80
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "diplomacyCheckBonus": 2,
+        "contractReputationPermille": 1150
+      },
+      "tradeoffs": {
+        "promiseFailurePenaltyMorale": 4
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_KEEPS_EVERY_PROMISE"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_KEEPS_EVERY_PROMISE"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "A promise ledger appears among the recruit’s personal items.",
+      "signatureTechniqueHook": "SIG_HOOK_KEEPS_EVERY_PROMISE",
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_BREAKS_BAD_ORDERS",
+      "name": "Breaks Bad Orders",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "MORAL",
+      "eligibility": {
+        "description": "Refuse a harmful or dishonest command and accept its immediate cost.",
+        "requiredEventOrBehaviorTags": [
+          "BREAKS_BAD_ORDERS"
+        ],
+        "minimumMeaningfulOccurrences": 2,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 79
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "civilianProtectionPermille": 1200,
+        "courageCheckBonus": 1
+      },
+      "tradeoffs": {
+        "authorityConflictWeightPermille": 1200
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_BREAKS_BAD_ORDERS"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_BREAKS_BAD_ORDERS"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "The recruit gains special dialogue when contracts contradict guild law.",
+      "signatureTechniqueHook": null,
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_MONSTER_FRIEND",
+      "name": "Monster Friend",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "RELATIONSHIP",
+      "eligibility": {
+        "description": "Resolve the nonhostile-creature chain without destroying the nest or exploiting the creature.",
+        "requiredEventOrBehaviorTags": [
+          "MONSTER_FRIEND"
+        ],
+        "minimumMeaningfulOccurrences": 1,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 78
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "wildlifeEncounterBonus": 2,
+        "monsterAggressionPermille": 800
+      },
+      "tradeoffs": {
+        "urbanMerchantTrustPermille": 950
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_MONSTER_FRIEND"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_MONSTER_FRIEND"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "A harmless creature charm or follower may appear at camp.",
+      "signatureTechniqueHook": null,
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_CIVILIAN_FIRST",
+      "name": "Civilian First",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "RESCUE",
+      "eligibility": {
+        "description": "Complete a contract’s civilian secondary objective before maximizing loot.",
+        "requiredEventOrBehaviorTags": [
+          "CIVILIAN_FIRST"
+        ],
+        "minimumMeaningfulOccurrences": 1,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 77
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "civilianRescueSpeedPermille": 1150,
+        "guildReputationGain": 2
+      },
+      "tradeoffs": {
+        "personalLootSharePermille": 900
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_CIVILIAN_FIRST"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_CIVILIAN_FIRST"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "The recruit’s Union emblem gains a small shelter mark.",
+      "signatureTechniqueHook": null,
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_SECOND_DISCIPLINE_AWAKENING",
+      "name": "Second Discipline Awakening",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "HYBRID",
+      "eligibility": {
+        "description": "Earn meaningful progress in a second discipline during three expeditions.",
+        "requiredEventOrBehaviorTags": [
+          "SECOND_DISCIPLINE_AWAKENING"
+        ],
+        "minimumMeaningfulOccurrences": 2,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 76
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "hybridArtDiscoveryPermille": 1250,
+        "secondaryProficiencyGrowthPermille": 1150
+      },
+      "tradeoffs": {
+        "primaryMasteryGrowthPermille": 950
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_SECOND_DISCIPLINE_AWAKENING"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_SECOND_DISCIPLINE_AWAKENING"
+      ],
+      "advancedClassRouteTags": [
+        "ADV_TAG_SECOND_DISCIPLINE_AWAKENING"
+      ],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "The recruit’s idle stance incorporates both disciplines.",
+      "signatureTechniqueHook": null,
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_UNWRITTEN_ROUTE",
+      "name": "The Unwritten Route",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "EXPLORATION",
+      "eligibility": {
+        "description": "Discover two ordinary secrets and complete an objective through an optional path.",
+        "requiredEventOrBehaviorTags": [
+          "UNWRITTEN_ROUTE"
+        ],
+        "minimumMeaningfulOccurrences": 1,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 75
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "hiddenRouteRevealPermille": 1200,
+        "tacticalGrowthPermille": 1150
+      },
+      "tradeoffs": {
+        "criticalRouteRewardPermille": 950
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_UNWRITTEN_ROUTE"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_UNWRITTEN_ROUTE"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "The recruit’s map gains hand-drawn lines that do not exist on official charts.",
+      "signatureTechniqueHook": "SIG_HOOK_UNWRITTEN_ROUTE",
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_RIVAL_WHO_STAYED",
+      "name": "The Rival Who Stayed",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "RELATIONSHIP",
+      "eligibility": {
+        "description": "A rival assists during a crisis after at least one earlier conflict choice.",
+        "requiredEventOrBehaviorTags": [
+          "RIVAL_WHO_STAYED"
+        ],
+        "minimumMeaningfulOccurrences": 1,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 74
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "rivalLinkEligibility": true,
+        "competitiveGrowthPermille": 1150
+      },
+      "tradeoffs": {
+        "relationshipVolatilityPermille": 1200
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_RIVAL_WHO_STAYED"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_RIVAL_WHO_STAYED"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "The rival receives recurring dialogue and an optional shared emblem.",
+      "signatureTechniqueHook": null,
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_QUIET_HEALER",
+      "name": "Quiet Healer",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "RESTORATION",
+      "eligibility": {
+        "description": "Perform three meaningful heals without using a finishing attack in those battles.",
+        "requiredEventOrBehaviorTags": [
+          "QUIET_HEALER"
+        ],
+        "minimumMeaningfulOccurrences": 2,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 73
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "restorationGrowthPermille": 1200,
+        "healingThreatPermille": 850
+      },
+      "tradeoffs": {
+        "martialGrowthPermille": 900
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_QUIET_HEALER"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_QUIET_HEALER"
+      ],
+      "advancedClassRouteTags": [
+        "ADV_TAG_QUIET_HEALER"
+      ],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "The recruit’s combat bark volume lowers during emergency care.",
+      "signatureTechniqueHook": null,
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_LAUGHS_UNDER_PRESSURE",
+      "name": "Laughs under Pressure",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "MORALE",
+      "eligibility": {
+        "description": "Recover Union morale after a COMEDY_DANGER failure without dismissing the danger.",
+        "requiredEventOrBehaviorTags": [
+          "LAUGHS_UNDER_PRESSURE"
+        ],
+        "minimumMeaningfulOccurrences": 1,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 72
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "moraleRecoveryPermille": 1200,
+        "fearResistancePermille": 1100
+      },
+      "tradeoffs": {
+        "seriousDiplomacyPermille": 950
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_LAUGHS_UNDER_PRESSURE"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_LAUGHS_UNDER_PRESSURE"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "The recruit gains contextual humor lines only when morale is low.",
+      "signatureTechniqueHook": null,
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    },
+    {
+      "id": "TP_CARRIES_THE_SIGNAL",
+      "name": "Carries the Signal",
+      "contentVersion": "GOW_PASS03_0.8",
+      "category": "MYSTERY",
+      "eligibility": {
+        "description": "Complete the Outer Signal chain and volunteer to preserve the unresolved record.",
+        "requiredEventOrBehaviorTags": [
+          "CARRIES_THE_SIGNAL"
+        ],
+        "minimumMeaningfulOccurrences": 1,
+        "maximumTurningPointSlotsRequired": 1,
+        "excludedTurningPointIds": [],
+        "deterministicPriority": 71
+      },
+      "resolution": {
+        "mode": "PLAYER_CHOICE_WHEN_ELIGIBLE",
+        "timing": "POST_EVENT_OR_POST_EXPEDITION",
+        "declinePolicy": "MAY_REAPPEAR_AFTER_ONE_CONTRACT",
+        "sameSeedSameOffer": true
+      },
+      "effects": {
+        "signalMysteryAccess": true,
+        "knowledgeCheckBonus": 1,
+        "supportForecastInfluencePermille": 1100
+      },
+      "tradeoffs": {
+        "systemPhenomenonMpDrain": 1
+      },
+      "traitMutation": {
+        "adds": [
+          "TRAIT_CARRIES_THE_SIGNAL"
+        ],
+        "removes": []
+      },
+      "fearMutation": {
+        "mode": "CONTEXTUAL",
+        "description": "Only changes a fear when the eligibility text explicitly requires it."
+      },
+      "ambitionMutation": {
+        "mode": "OPTIONAL_PERSONAL_QUEST_HOOK"
+      },
+      "artEligibilityTags": [
+        "TP_TAG_CARRIES_THE_SIGNAL"
+      ],
+      "advancedClassRouteTags": [],
+      "relationshipRules": {
+        "appliesTo": "INVOLVED_MEMBERS_ONLY",
+        "automaticOwnership": false
+      },
+      "leadershipDelta": 0,
+      "appearanceChange": "A gate-signal receiver becomes a permanent visible accessory.",
+      "signatureTechniqueHook": null,
+      "balanceNotes": "A Turning Point changes possibility and identity; it is not a pure rarity upgrade and always preserves player review before commitment."
+    }
+  ]
+}

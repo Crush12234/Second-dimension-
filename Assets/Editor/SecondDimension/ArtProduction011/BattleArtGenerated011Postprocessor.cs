@@ -1,0 +1,4 @@
+#if UNITY_EDITOR
+using UnityEditor; using UnityEngine;
+public sealed class BattleArtGenerated011Postprocessor:AssetPostprocessor { void OnPreprocessTexture(){if(!assetPath.Contains("/Resources/SecondDimension/Art/Generated011/"))return;var i=(TextureImporter)assetImporter;i.textureType=TextureImporterType.Sprite;i.spriteImportMode=SpriteImportMode.Single;i.alphaIsTransparency=true;i.mipmapEnabled=false;i.wrapMode=TextureWrapMode.Clamp;i.filterMode=FilterMode.Bilinear;i.textureCompression=TextureImporterCompression.CompressedHQ;i.maxTextureSize=assetPath.Contains("/Characters/")?2048:1024;i.spritePixelsPerUnit=100;var s=new TextureImporterSettings();i.ReadTextureSettings(s);s.spriteAlignment=(int)SpriteAlignment.Custom;s.spritePivot=assetPath.Contains("/Characters/")?new Vector2(.5f,.045f):new Vector2(.5f,.5f);i.SetTextureSettings(s);}}
+#endif

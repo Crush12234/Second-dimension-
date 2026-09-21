@@ -1,0 +1,374 @@
+{
+  "contentVersion": "EARLY_UNION_FORMATIONS_0.6",
+  "doctrines": [
+    {
+      "id": "DOCTRINE_BALANCED",
+      "displayName": "Read the Field",
+      "weights": {
+        "OFFENSE": 110,
+        "GUARD": 105,
+        "HEAL": 105,
+        "TACTICAL": 105,
+        "SUPPORT": 100
+      },
+      "conservation": 100
+    },
+    {
+      "id": "DOCTRINE_AGGRESSIVE",
+      "displayName": "Press Until They Break",
+      "weights": {
+        "OFFENSE": 145,
+        "BREAK": 135,
+        "GUARD": 65,
+        "HEAL": 70
+      },
+      "conservation": 70
+    },
+    {
+      "id": "DOCTRINE_GUARDIAN",
+      "displayName": "No One Falls",
+      "weights": {
+        "GUARD": 145,
+        "RESCUE": 140,
+        "HEAL": 120,
+        "OFFENSE": 75
+      },
+      "conservation": 95
+    },
+    {
+      "id": "DOCTRINE_MYSTIC_PRESSURE",
+      "displayName": "Control with Arts",
+      "weights": {
+        "MYSTIC": 145,
+        "SUPPORT": 115,
+        "OFFENSE": 105,
+        "LOW_RESOURCE": 65
+      },
+      "conservation": 80
+    },
+    {
+      "id": "DOCTRINE_CONSERVATIVE",
+      "displayName": "Spend Only What Matters",
+      "weights": {
+        "LOW_RESOURCE": 145,
+        "GUARD": 115,
+        "RETREAT": 105,
+        "OFFENSE": 85
+      },
+      "conservation": 140
+    },
+    {
+      "id": "DOCTRINE_RESCUE_FIRST",
+      "displayName": "Bring Everyone Home",
+      "weights": {
+        "RESCUE": 155,
+        "HEAL": 140,
+        "GUARD": 125,
+        "OFFENSE": 60
+      },
+      "conservation": 100
+    },
+    {
+      "id": "DOCTRINE_OBJECTIVE_FIRST",
+      "displayName": "Win the Actual Mission",
+      "weights": {
+        "OBJECTIVE": 150,
+        "TACTICAL": 130,
+        "OFFENSE": 90,
+        "HEAL": 90
+      },
+      "conservation": 95
+    },
+    {
+      "id": "DOCTRINE_AMBUSH",
+      "displayName": "Strike What They Hide",
+      "weights": {
+        "AMBUSH": 150,
+        "TACTICAL": 140,
+        "OFFENSE": 120,
+        "GUARD": 65
+      },
+      "conservation": 85
+    },
+    {
+      "id": "DOCTRINE_SUPPORT_NETWORK",
+      "displayName": "Make Every Union Better",
+      "weights": {
+        "SUPPORT": 150,
+        "TACTICAL": 120,
+        "HEAL": 110,
+        "OFFENSE": 70
+      },
+      "conservation": 105
+    }
+  ],
+  "formations": [
+    {
+      "id": "FORMATION_SHIELD_WALL",
+      "displayName": "Shield Wall",
+      "slots": [
+        "VANGUARD",
+        "VANGUARD",
+        "CENTER",
+        "REAR"
+      ],
+      "bonuses": {
+        "GUARD": 12,
+        "COHESION": 8
+      },
+      "penalties": {
+        "AGILITY": -6
+      },
+      "compatibleRoles": [
+        "ROLE_FRONT_ANCHOR",
+        "ROLE_PRIMARY_HEALER"
+      ]
+    },
+    {
+      "id": "FORMATION_WEDGE",
+      "displayName": "Wedge",
+      "slots": [
+        "TIP",
+        "LEFT",
+        "RIGHT",
+        "REAR"
+      ],
+      "bonuses": {
+        "MARTIAL": 10,
+        "BREAK": 12
+      },
+      "penalties": {
+        "FLANK_DEFENSE": -8
+      },
+      "compatibleRoles": [
+        "ROLE_FORMATION_BREAKER",
+        "ROLE_FRONT_DAMAGE"
+      ]
+    },
+    {
+      "id": "FORMATION_SKIRMISH_LINE",
+      "displayName": "Skirmish Line",
+      "slots": [
+        "LEFT",
+        "CENTER",
+        "RIGHT",
+        "REAR"
+      ],
+      "bonuses": {
+        "TACTICAL": 10,
+        "AGILITY": 8
+      },
+      "penalties": {
+        "GUARD": -6
+      },
+      "compatibleRoles": [
+        "ROLE_TACTICAL_RANGED",
+        "ROLE_RANGED_SUPPORT"
+      ]
+    },
+    {
+      "id": "FORMATION_ARCANE_CIRCLE",
+      "displayName": "Arcane Circle",
+      "slots": [
+        "ANCHOR",
+        "FOCUS",
+        "FOCUS",
+        "WARD"
+      ],
+      "bonuses": {
+        "MYSTIC": 12,
+        "SUPPORT": 8
+      },
+      "penalties": {
+        "MELEE_DEFENSE": -8
+      },
+      "compatibleRoles": [
+        "ROLE_ARCANE_TANK",
+        "ROLE_UTILITY_MYSTIC"
+      ]
+    },
+    {
+      "id": "FORMATION_CRESCENT",
+      "displayName": "Crescent",
+      "slots": [
+        "LEFT_WING",
+        "CENTER",
+        "RIGHT_WING",
+        "REAR"
+      ],
+      "bonuses": {
+        "COUNTER": 10,
+        "FLANK_DEFENSE": 8
+      },
+      "penalties": {
+        "BREAK": -4
+      },
+      "compatibleRoles": [
+        "ROLE_REAR_HUNTER",
+        "ROLE_PRIMARY_LEADER"
+      ]
+    },
+    {
+      "id": "FORMATION_RESCUE_COLUMN",
+      "displayName": "Rescue Column",
+      "slots": [
+        "POINT",
+        "PROTECTED",
+        "PROTECTED",
+        "REAR_GUARD"
+      ],
+      "bonuses": {
+        "RESCUE": 14,
+        "RESTORATION": 8
+      },
+      "penalties": {
+        "OFFENSE": -8
+      },
+      "compatibleRoles": [
+        "ROLE_PRIMARY_HEALER",
+        "ROLE_LOAD_BEARER"
+      ]
+    }
+  ],
+  "exampleUnions": [
+    {
+      "unionId": "UNION_GATEWARD_LANTERNS",
+      "displayName": "Gateward Lanterns",
+      "leaderId": "SIGREC_MAREN_HOLT",
+      "memberIds": [
+        "SIGREC_MAREN_HOLT",
+        "SIGREC_ODELIA_FEN",
+        "SIGREC_RUSK_FENRUNNER",
+        "SIGREC_TOVVI_COPPERSPARK"
+      ],
+      "formationId": "FORMATION_SHIELD_WALL",
+      "doctrineId": "DOCTRINE_BALANCED",
+      "identity": "beginner-safe mixed Union with clear healing, guard, ranged, and utility forecasts",
+      "expectedStrengths": [
+        "forecast clarity",
+        "recovery",
+        "mixed skill growth"
+      ],
+      "expectedRisks": [
+        "low burst damage",
+        "limited formation break"
+      ]
+    },
+    {
+      "unionId": "UNION_STORMROAD_RESCUE",
+      "displayName": "Stormroad Rescue",
+      "leaderId": "SIGREC_TALA_STORMROAD",
+      "memberIds": [
+        "SIGREC_TALA_STORMROAD",
+        "SIGREC_MAREN_HOLT",
+        "SIGREC_ODELIA_FEN",
+        "SIGREC_RUSK_FENRUNNER"
+      ],
+      "formationId": "FORMATION_RESCUE_COLUMN",
+      "doctrineId": "DOCTRINE_RESCUE_FIRST",
+      "identity": "objective and rescue specialist",
+      "expectedStrengths": [
+        "excellent leadership",
+        "high cohesion",
+        "safe retreats"
+      ],
+      "expectedRisks": [
+        "resource use can be conservative",
+        "modest boss damage"
+      ]
+    },
+    {
+      "unionId": "UNION_EMBERGLASS_WEDGE",
+      "displayName": "Emberglass Wedge",
+      "leaderId": "SIGREC_VEYRA_ASHGLASS",
+      "memberIds": [
+        "SIGREC_VEYRA_ASHGLASS",
+        "SIGREC_BRAKKA_EMBERWALL",
+        "SIGREC_TOVVI_COPPERSPARK",
+        "SIGREC_BESSA_BRASSWHISTLE"
+      ],
+      "formationId": "FORMATION_WEDGE",
+      "doctrineId": "DOCTRINE_AGGRESSIVE",
+      "identity": "high-variance break and hybrid magic Union",
+      "expectedStrengths": [
+        "formation damage",
+        "ward-to-magic conversion",
+        "support spikes"
+      ],
+      "expectedRisks": [
+        "cohesion volatility",
+        "weak sustained healing"
+      ]
+    },
+    {
+      "unionId": "UNION_DUSK_SIGNAL",
+      "displayName": "Dusk Signal",
+      "leaderId": "SIGREC_BESSA_BRASSWHISTLE",
+      "memberIds": [
+        "SIGREC_BESSA_BRASSWHISTLE",
+        "SIGREC_VAELIS_NOCT",
+        "SIGREC_TOVVI_COPPERSPARK",
+        "SIGREC_RUSK_FENRUNNER"
+      ],
+      "formationId": "FORMATION_SKIRMISH_LINE",
+      "doctrineId": "DOCTRINE_AMBUSH",
+      "identity": "information, rear targeting, and battlefield manipulation",
+      "expectedStrengths": [
+        "tactical forecast diversity",
+        "rear-line pressure",
+        "hidden objective discovery"
+      ],
+      "expectedRisks": [
+        "low durability",
+        "personality friction until trust develops"
+      ]
+    },
+    {
+      "unionId": "UNION_CLAY_ANVIL",
+      "displayName": "Clay Anvil",
+      "leaderId": "SIGREC_MAREN_HOLT",
+      "memberIds": [
+        "SIGREC_MAREN_HOLT",
+        "SIGREC_ORREN_CLAY",
+        "SIGREC_ODELIA_FEN",
+        "SIGREC_BESSA_BRASSWHISTLE"
+      ],
+      "formationId": "FORMATION_SHIELD_WALL",
+      "doctrineId": "DOCTRINE_GUARDIAN",
+      "identity": "slow-growth defensive Union designed to reveal Orren’s ceiling",
+      "expectedStrengths": [
+        "cohesion",
+        "guard growth",
+        "support and recovery"
+      ],
+      "expectedRisks": [
+        "slow missions",
+        "Orren’s early low output"
+      ]
+    },
+    {
+      "unionId": "UNION_THREE_TRUTHS",
+      "displayName": "Three Truths",
+      "leaderId": "SIGREC_TALA_STORMROAD",
+      "memberIds": [
+        "SIGREC_TALA_STORMROAD",
+        "SIGREC_VEYRA_ASHGLASS",
+        "SIGREC_VAELIS_NOCT",
+        "SIGREC_ODELIA_FEN"
+      ],
+      "formationId": "FORMATION_CRESCENT",
+      "doctrineId": "DOCTRINE_OBJECTIVE_FIRST",
+      "identity": "advanced mixed Union for objectives, magical defense, and precise rear attacks",
+      "expectedStrengths": [
+        "leadership",
+        "target control",
+        "balanced MP pool"
+      ],
+      "expectedRisks": [
+        "relationship setup required",
+        "no heavy breaker"
+      ]
+    }
+  ],
+  "mandatoryBestUnion": false
+}

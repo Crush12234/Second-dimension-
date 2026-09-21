@@ -1,0 +1,455 @@
+{
+  "ContentVersion": "GATES_OF_FORGOTTEN_WORLDS_018B_1.0",
+  "Bosses": [
+    {
+      "Id": "BOSS018B_B06_01",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Boss Role 1",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 6,
+      "PhaseCount": 3,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Break the command Union.",
+      "RewardProfileId": "REWARD018B_B06_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B06_02",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Boss Role 2",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 7,
+      "PhaseCount": 4,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Protect civilians while defeating the command force.",
+      "RewardProfileId": "REWARD018B_B06_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B06_03",
+      "ArcId": "ARC018B_B06",
+      "DisplayName": "The Last Treasury Boss Role 3",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 8,
+      "PhaseCount": 5,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Survive the phase change and counterattack.",
+      "RewardProfileId": "REWARD018B_B06_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B07_01",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Boss Role 1",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 6,
+      "PhaseCount": 3,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Break the command Union.",
+      "RewardProfileId": "REWARD018B_B07_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B07_02",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Boss Role 2",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 7,
+      "PhaseCount": 4,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Protect civilians while defeating the command force.",
+      "RewardProfileId": "REWARD018B_B07_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B07_03",
+      "ArcId": "ARC018B_B07",
+      "DisplayName": "The Descent and the Goblin War Boss Role 3",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 8,
+      "PhaseCount": 5,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Survive the phase change and counterattack.",
+      "RewardProfileId": "REWARD018B_B07_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B08_01",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Boss Role 1",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 6,
+      "PhaseCount": 3,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Break the command Union.",
+      "RewardProfileId": "REWARD018B_B08_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B08_02",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Boss Role 2",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 7,
+      "PhaseCount": 4,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Protect civilians while defeating the command force.",
+      "RewardProfileId": "REWARD018B_B08_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B08_03",
+      "ArcId": "ARC018B_B08",
+      "DisplayName": "The Captured Goblin Fortress Boss Role 3",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 8,
+      "PhaseCount": 5,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Survive the phase change and counterattack.",
+      "RewardProfileId": "REWARD018B_B08_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B09_01",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Boss Role 1",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 6,
+      "PhaseCount": 3,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Break the command Union.",
+      "RewardProfileId": "REWARD018B_B09_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B09_02",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Boss Role 2",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 7,
+      "PhaseCount": 4,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Protect civilians while defeating the command force.",
+      "RewardProfileId": "REWARD018B_B09_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B09_03",
+      "ArcId": "ARC018B_B09",
+      "DisplayName": "The Goblin Underrealm Boss Role 3",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 8,
+      "PhaseCount": 5,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Survive the phase change and counterattack.",
+      "RewardProfileId": "REWARD018B_B09_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B10_01",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Boss Role 1",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 6,
+      "PhaseCount": 3,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Break the command Union.",
+      "RewardProfileId": "REWARD018B_B10_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B10_02",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Boss Role 2",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 7,
+      "PhaseCount": 4,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Protect civilians while defeating the command force.",
+      "RewardProfileId": "REWARD018B_B10_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B10_03",
+      "ArcId": "ARC018B_B10",
+      "DisplayName": "Architect of Worlds Boss Role 3",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 8,
+      "PhaseCount": 5,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Survive the phase change and counterattack.",
+      "RewardProfileId": "REWARD018B_B10_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B11_01",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Boss Role 1",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 6,
+      "PhaseCount": 3,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Break the command Union.",
+      "RewardProfileId": "REWARD018B_B11_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B11_02",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Boss Role 2",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 7,
+      "PhaseCount": 4,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Protect civilians while defeating the command force.",
+      "RewardProfileId": "REWARD018B_B11_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B11_03",
+      "ArcId": "ARC018B_B11",
+      "DisplayName": "The First Gate Echo Boss Role 3",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 8,
+      "PhaseCount": 5,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Survive the phase change and counterattack.",
+      "RewardProfileId": "REWARD018B_B11_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B12_01",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Boss Role 1",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 6,
+      "PhaseCount": 3,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Break the command Union.",
+      "RewardProfileId": "REWARD018B_B12_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B12_02",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Boss Role 2",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 7,
+      "PhaseCount": 4,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Protect civilians while defeating the command force.",
+      "RewardProfileId": "REWARD018B_B12_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B12_03",
+      "ArcId": "ARC018B_B12",
+      "DisplayName": "Orc Blood Plains Boss Role 3",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 8,
+      "PhaseCount": 5,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Survive the phase change and counterattack.",
+      "RewardProfileId": "REWARD018B_B12_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B13_01",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Boss Role 1",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 6,
+      "PhaseCount": 3,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Break the command Union.",
+      "RewardProfileId": "REWARD018B_B13_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B13_02",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Boss Role 2",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 7,
+      "PhaseCount": 4,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Protect civilians while defeating the command force.",
+      "RewardProfileId": "REWARD018B_B13_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B13_03",
+      "ArcId": "ARC018B_B13",
+      "DisplayName": "Beast Moon Territories Boss Role 3",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 8,
+      "PhaseCount": 5,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Survive the phase change and counterattack.",
+      "RewardProfileId": "REWARD018B_B13_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B14_01",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Boss Role 1",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 6,
+      "PhaseCount": 3,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Break the command Union.",
+      "RewardProfileId": "REWARD018B_B14_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B14_02",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Boss Role 2",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 7,
+      "PhaseCount": 4,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Protect civilians while defeating the command force.",
+      "RewardProfileId": "REWARD018B_B14_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B14_03",
+      "ArcId": "ARC018B_B14",
+      "DisplayName": "Demon Empire Boss Role 3",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 8,
+      "PhaseCount": 5,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Survive the phase change and counterattack.",
+      "RewardProfileId": "REWARD018B_B14_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B15_01",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Boss Role 1",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 6,
+      "PhaseCount": 3,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Break the command Union.",
+      "RewardProfileId": "REWARD018B_B15_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B15_02",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Boss Role 2",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 7,
+      "PhaseCount": 4,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Protect civilians while defeating the command force.",
+      "RewardProfileId": "REWARD018B_B15_BOSS"
+    },
+    {
+      "Id": "BOSS018B_B15_03",
+      "ArcId": "ARC018B_B15",
+      "DisplayName": "The Gates of Forgotten Worlds Boss Role 3",
+      "CanonIdentityStatus": "GAME_DESIGN_CANDIDATE_NOT_FIXED_CANON",
+      "EnemyUnionCount": 8,
+      "PhaseCount": 5,
+      "Telegraphs": [
+        "Union-wide preparation",
+        "Visible objective pressure",
+        "Interruptible high-impact action"
+      ],
+      "Objective": "Survive the phase change and counterattack.",
+      "RewardProfileId": "REWARD018B_B15_BOSS"
+    }
+  ]
+}

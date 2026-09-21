@@ -1,0 +1,1783 @@
+{
+  "contentVersion": "GOW_CONTENT_AUTHORITY_002",
+  "worldPacks": [
+    {
+      "worldPackId": "PACK_01_SKYHOME_GATEWARD",
+      "worldId": "WORLD_GATE_01",
+      "packIndex": 1,
+      "displayName": "Skyhome Gateward",
+      "worldType": "SECOND_DIMENSION_HUB",
+      "recruitmentCulture": "A civic gate district where guards, refugees, craftspeople, and scouts keep the roads between worlds open.",
+      "eligibleRaceIds": [
+        "HUMAN",
+        "ORC",
+        "GOBLIN",
+        "DOG_TRIBE",
+        "DARK_ELF",
+        "DEMON_HERITAGE"
+      ],
+      "communityIds": [
+        "SKYHOME_GATEWARD",
+        "IRON_WALL_QUARTER",
+        "BRASSWORK_LANE",
+        "STORMROAD_CAMP",
+        "DUSK_ARCHIVE_ROW",
+        "ASHGLASS_ENCLAVE"
+      ],
+      "visualPalette": [
+        "STEEL_BLUE",
+        "WARM_BROWN",
+        "WHITE"
+      ],
+      "missionTags": [
+        "GATE",
+        "CIVIC",
+        "RESCUE"
+      ],
+      "centralMystery": "The Third Bell rings from a sealed evacuation route that official maps claim never existed.",
+      "cityFacilityAffinityId": "FACILITY_RECRUITMENT_OFFICE",
+      "signatureRecruitSlots": [
+        "SIG_W01_01",
+        "SIG_W01_02",
+        "SIG_W01_03",
+        "SIG_W01_04",
+        "SIG_W01_05",
+        "SIG_W01_06",
+        "SIG_W01_07",
+        "SIG_W01_08",
+        "SIG_W01_09",
+        "SIG_W01_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_02_EMBERCHAIN_FOUNDRIES",
+      "worldId": "WORLD_EMBERCHAIN_02",
+      "packIndex": 2,
+      "displayName": "Emberchain Foundries",
+      "worldType": "INDUSTRIAL_VOLCANIC",
+      "recruitmentCulture": "Linked furnace cities where labor crews, rune-smiths, and heat wardens turn dangerous ore into worldroad steel.",
+      "eligibleRaceIds": [
+        "HUMAN",
+        "ORC",
+        "GOBLIN",
+        "DEMON_HERITAGE"
+      ],
+      "communityIds": [
+        "CINDER_YARD",
+        "CHAINMARKET",
+        "FURNACE_NINE",
+        "SLAG_GARDENS",
+        "EMBERWALL"
+      ],
+      "visualPalette": [
+        "EMBER_RED",
+        "IRON_BLACK",
+        "BRASS"
+      ],
+      "missionTags": [
+        "FIRE",
+        "CRAFT",
+        "LABOR"
+      ],
+      "centralMystery": "A respected foundry is secretly forging weapons from ore that remembers every person killed near it.",
+      "cityFacilityAffinityId": "FACILITY_GUILD_FORGE",
+      "signatureRecruitSlots": [
+        "SIG_W02_01",
+        "SIG_W02_02",
+        "SIG_W02_03",
+        "SIG_W02_04",
+        "SIG_W02_05",
+        "SIG_W02_06",
+        "SIG_W02_07",
+        "SIG_W02_08",
+        "SIG_W02_09",
+        "SIG_W02_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_03_MOONFEN_REACHES",
+      "worldId": "WORLD_MOONFEN_03",
+      "packIndex": 3,
+      "displayName": "Moonfen Reaches",
+      "worldType": "WETLAND_MOONLIT",
+      "recruitmentCulture": "Floating fen villages connected by reed bridges, moon wells, and living routes that change with the tides.",
+      "eligibleRaceIds": [
+        "HUMAN",
+        "DOG_TRIBE",
+        "DARK_ELF",
+        "GOBLIN"
+      ],
+      "communityIds": [
+        "SILVER_REED",
+        "LOW_MOON_DOCK",
+        "FENLIGHT",
+        "HERON_CROSSING",
+        "MOSS_CROWN"
+      ],
+      "visualPalette": [
+        "MOON_SILVER",
+        "REED_GREEN",
+        "INK_BLUE"
+      ],
+      "missionTags": [
+        "TIDE",
+        "HERB",
+        "NAVIGATION"
+      ],
+      "centralMystery": "The fen has begun returning travelers days before they left, each carrying a different memory of the same disaster.",
+      "cityFacilityAffinityId": "FACILITY_INFIRMARY",
+      "signatureRecruitSlots": [
+        "SIG_W03_01",
+        "SIG_W03_02",
+        "SIG_W03_03",
+        "SIG_W03_04",
+        "SIG_W03_05",
+        "SIG_W03_06",
+        "SIG_W03_07",
+        "SIG_W03_08",
+        "SIG_W03_09",
+        "SIG_W03_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_04_GLASSGARDEN_PRINCIPALITY",
+      "worldId": "WORLD_GLASSGARDEN_04",
+      "packIndex": 4,
+      "displayName": "Glassgarden Principality",
+      "worldType": "CRYSTAL_BOTANICAL",
+      "recruitmentCulture": "Terraced crystal gardens where living glass stores sunlight, weather, and fragments of spoken promises.",
+      "eligibleRaceIds": [
+        "HUMAN",
+        "DARK_ELF",
+        "DEMON_HERITAGE",
+        "GOBLIN"
+      ],
+      "communityIds": [
+        "PRISM_TERRACE",
+        "ROSEGLASS_WARD",
+        "MIRROR_ORCHARD",
+        "SUN_VAULT",
+        "PETAL_SPIRE"
+      ],
+      "visualPalette": [
+        "ROSE_GLASS",
+        "SUN_GOLD",
+        "PALE_CYAN"
+      ],
+      "missionTags": [
+        "CRYSTAL",
+        "COURT",
+        "BOTANY"
+      ],
+      "centralMystery": "Someone is pruning names from the royal memory-vines, causing entire family lines to vanish from public record.",
+      "cityFacilityAffinityId": "FACILITY_ARCANE_ARCHIVE",
+      "signatureRecruitSlots": [
+        "SIG_W04_01",
+        "SIG_W04_02",
+        "SIG_W04_03",
+        "SIG_W04_04",
+        "SIG_W04_05",
+        "SIG_W04_06",
+        "SIG_W04_07",
+        "SIG_W04_08",
+        "SIG_W04_09",
+        "SIG_W04_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_05_IRONROOT_HOLDS",
+      "worldId": "WORLD_IRONROOT_05",
+      "packIndex": 5,
+      "displayName": "Ironroot Holds",
+      "worldType": "SUBTERRANEAN_FOREST",
+      "recruitmentCulture": "Fortified caverns built around metal-veined roots whose growth supports both ancient forests and defensive cities.",
+      "eligibleRaceIds": [
+        "ORC",
+        "HUMAN",
+        "DOG_TRIBE",
+        "GOBLIN"
+      ],
+      "communityIds": [
+        "ROOTGATE",
+        "DEEP_ANVIL",
+        "MOSS_BASTION",
+        "ORE_CHOIR",
+        "HOLLOW_HEARTH"
+      ],
+      "visualPalette": [
+        "ROOT_BROWN",
+        "IRON_GREEN",
+        "AMBER"
+      ],
+      "missionTags": [
+        "EARTH",
+        "FORTRESS",
+        "MINING"
+      ],
+      "centralMystery": "The oldest ironroot is pulling every forged object in the Holds toward a chamber sealed before the First Alliance.",
+      "cityFacilityAffinityId": "FACILITY_BARRACKS",
+      "signatureRecruitSlots": [
+        "SIG_W05_01",
+        "SIG_W05_02",
+        "SIG_W05_03",
+        "SIG_W05_04",
+        "SIG_W05_05",
+        "SIG_W05_06",
+        "SIG_W05_07",
+        "SIG_W05_08",
+        "SIG_W05_09",
+        "SIG_W05_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_06_STORMROAD_MARCHES",
+      "worldId": "WORLD_STORMROAD_06",
+      "packIndex": 6,
+      "displayName": "Stormroad Marches",
+      "worldType": "TEMPEST_FRONTIER",
+      "recruitmentCulture": "Mobile settlements race along safe corridors between permanent storms, guided by signal towers and veteran outriders.",
+      "eligibleRaceIds": [
+        "DOG_TRIBE",
+        "HUMAN",
+        "ORC",
+        "DEMON_HERITAGE"
+      ],
+      "communityIds": [
+        "THUNDER_CAMP",
+        "WAYMARK_SEVEN",
+        "GALEWATCH",
+        "BLUE_BANNER",
+        "LIGHTNING_REST"
+      ],
+      "visualPalette": [
+        "STORM_BLUE",
+        "CLOUD_WHITE",
+        "SIGNAL_ORANGE"
+      ],
+      "missionTags": [
+        "STORM",
+        "SCOUT",
+        "CARAVAN"
+      ],
+      "centralMystery": "A new road opens inside the storm each night and leads one caravan closer to a city nobody can enter twice.",
+      "cityFacilityAffinityId": "FACILITY_EXPEDITION_OFFICE",
+      "signatureRecruitSlots": [
+        "SIG_W06_01",
+        "SIG_W06_02",
+        "SIG_W06_03",
+        "SIG_W06_04",
+        "SIG_W06_05",
+        "SIG_W06_06",
+        "SIG_W06_07",
+        "SIG_W06_08",
+        "SIG_W06_09",
+        "SIG_W06_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_07_DUSK_ARCHIVE_CITIES",
+      "worldId": "WORLD_DUSK_ARCHIVE_07",
+      "packIndex": 7,
+      "displayName": "Dusk Archive Cities",
+      "worldType": "ARCHIVAL_URBAN",
+      "recruitmentCulture": "Quiet cities built around public archives where memory, testimony, and legal identity are treated as civic infrastructure.",
+      "eligibleRaceIds": [
+        "DARK_ELF",
+        "HUMAN",
+        "GOBLIN",
+        "DEMON_HERITAGE"
+      ],
+      "communityIds": [
+        "INDEX_ROW",
+        "LANTERN_STACK",
+        "WITNESS_SQUARE",
+        "QUIET_VAULT",
+        "NOCT_LEDGER"
+      ],
+      "visualPalette": [
+        "DUSK_PURPLE",
+        "PAPER_IVORY",
+        "INK_BLACK"
+      ],
+      "missionTags": [
+        "ARCHIVE",
+        "MEMORY",
+        "LAW"
+      ],
+      "centralMystery": "A legal record is rewriting witnesses in real time, and every correction creates a new person with a valid past.",
+      "cityFacilityAffinityId": "FACILITY_ARCANE_ARCHIVE",
+      "signatureRecruitSlots": [
+        "SIG_W07_01",
+        "SIG_W07_02",
+        "SIG_W07_03",
+        "SIG_W07_04",
+        "SIG_W07_05",
+        "SIG_W07_06",
+        "SIG_W07_07",
+        "SIG_W07_08",
+        "SIG_W07_09",
+        "SIG_W07_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_08_ASHGLASS_ENCLAVE",
+      "worldId": "WORLD_ASHGLASS_08",
+      "packIndex": 8,
+      "displayName": "Ashglass Enclave",
+      "worldType": "WARD_CITY",
+      "recruitmentCulture": "A resilient enclave of ward-makers and mixed-heritage families who transformed volcanic glass into protective civic art.",
+      "eligibleRaceIds": [
+        "DEMON_HERITAGE",
+        "HUMAN",
+        "DARK_ELF",
+        "ORC"
+      ],
+      "communityIds": [
+        "WARDMAKER_ROW",
+        "BLACK_GLASS_COMMON",
+        "EMBER_CHAPEL",
+        "CLEARWALL",
+        "CINDER_SCHOOL"
+      ],
+      "visualPalette": [
+        "ASH_BLACK",
+        "WARD_TEAL",
+        "EMBER_VIOLET"
+      ],
+      "missionTags": [
+        "WARD",
+        "COMMUNITY",
+        "PREJUDICE"
+      ],
+      "centralMystery": "Protective wards are failing only around homes whose residents were removed from an old citizenship register.",
+      "cityFacilityAffinityId": "FACILITY_WARD_LAB",
+      "signatureRecruitSlots": [
+        "SIG_W08_01",
+        "SIG_W08_02",
+        "SIG_W08_03",
+        "SIG_W08_04",
+        "SIG_W08_05",
+        "SIG_W08_06",
+        "SIG_W08_07",
+        "SIG_W08_08",
+        "SIG_W08_09",
+        "SIG_W08_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_09_VERDANT_CROWN_WILDS",
+      "worldId": "WORLD_VERDANT_CROWN_09",
+      "packIndex": 9,
+      "displayName": "Verdant Crown Wilds",
+      "worldType": "LIVING_FOREST",
+      "recruitmentCulture": "A vertical forest of colossal crowns, rope cities, and animal paths negotiated rather than conquered.",
+      "eligibleRaceIds": [
+        "DOG_TRIBE",
+        "HUMAN",
+        "ORC",
+        "DARK_ELF"
+      ],
+      "communityIds": [
+        "CANOPY_HALL",
+        "ROOT_MARKET",
+        "RAINSTAIR",
+        "BARKWATCH",
+        "GREEN_CROWN"
+      ],
+      "visualPalette": [
+        "LEAF_GREEN",
+        "BARK_UMBER",
+        "RAIN_BLUE"
+      ],
+      "missionTags": [
+        "BEAST",
+        "SURVIVAL",
+        "ECOLOGY"
+      ],
+      "centralMystery": "The forest is relocating entire villages overnight to protect them from a threat nobody has yet seen.",
+      "cityFacilityAffinityId": "FACILITY_BEAST_LODGE",
+      "signatureRecruitSlots": [
+        "SIG_W09_01",
+        "SIG_W09_02",
+        "SIG_W09_03",
+        "SIG_W09_04",
+        "SIG_W09_05",
+        "SIG_W09_06",
+        "SIG_W09_07",
+        "SIG_W09_08",
+        "SIG_W09_09",
+        "SIG_W09_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_10_SUNKEN_BELL_COAST",
+      "worldId": "WORLD_SUNKEN_BELL_10",
+      "packIndex": 10,
+      "displayName": "Sunken Bell Coast",
+      "worldType": "DROWNED_COAST",
+      "recruitmentCulture": "Harbor towns cling to drowned towers whose submerged bells regulate tides, trade, and the return of lost ships.",
+      "eligibleRaceIds": [
+        "HUMAN",
+        "GOBLIN",
+        "DOG_TRIBE",
+        "DARK_ELF"
+      ],
+      "communityIds": [
+        "BELL_DOCK",
+        "TIDEWALL",
+        "SALT_LANTERN",
+        "DROWNED_SPIRE",
+        "NETMAKER_QUAY"
+      ],
+      "visualPalette": [
+        "SEA_GREEN",
+        "BELL_BRONZE",
+        "FOAM_WHITE"
+      ],
+      "missionTags": [
+        "TIDE",
+        "SALVAGE",
+        "NAVAL"
+      ],
+      "centralMystery": "One drowned bell has begun ringing names instead of hours, and every named sailor disappears from the next tide chart.",
+      "cityFacilityAffinityId": "FACILITY_MATERIAL_DEPOT",
+      "signatureRecruitSlots": [
+        "SIG_W10_01",
+        "SIG_W10_02",
+        "SIG_W10_03",
+        "SIG_W10_04",
+        "SIG_W10_05",
+        "SIG_W10_06",
+        "SIG_W10_07",
+        "SIG_W10_08",
+        "SIG_W10_09",
+        "SIG_W10_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_11_FROSTVEIL_BASTIONS",
+      "worldId": "WORLD_FROSTVEIL_11",
+      "packIndex": 11,
+      "displayName": "Frostveil Bastions",
+      "worldType": "GLACIAL_FORTRESS",
+      "recruitmentCulture": "Icebound bastions protect warm valleys using mirrored walls, disciplined shield companies, and carefully rationed heat.",
+      "eligibleRaceIds": [
+        "HUMAN",
+        "ORC",
+        "DOG_TRIBE",
+        "DARK_ELF"
+      ],
+      "communityIds": [
+        "VEILKEEP",
+        "WARMSTONE",
+        "MIRROR_WALL",
+        "SNOWMARCH",
+        "PALE_GATE"
+      ],
+      "visualPalette": [
+        "ICE_BLUE",
+        "STONE_GRAY",
+        "HEARTH_RED"
+      ],
+      "missionTags": [
+        "FROST",
+        "DEFENSE",
+        "SUPPLY"
+      ],
+      "centralMystery": "The mirrors now show an invading army several days before it appears, but each warning changes who survives the vision.",
+      "cityFacilityAffinityId": "FACILITY_BARRACKS",
+      "signatureRecruitSlots": [
+        "SIG_W11_01",
+        "SIG_W11_02",
+        "SIG_W11_03",
+        "SIG_W11_04",
+        "SIG_W11_05",
+        "SIG_W11_06",
+        "SIG_W11_07",
+        "SIG_W11_08",
+        "SIG_W11_09",
+        "SIG_W11_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_12_STARWELL_TERRACES",
+      "worldId": "WORLD_STARWELL_12",
+      "packIndex": 12,
+      "displayName": "Starwell Terraces",
+      "worldType": "ASTRAL_HIGHLAND",
+      "recruitmentCulture": "High terraces collect falling starwater used for healing, navigation, and precise Aether research.",
+      "eligibleRaceIds": [
+        "HUMAN",
+        "DARK_ELF",
+        "DEMON_HERITAGE",
+        "GOBLIN"
+      ],
+      "communityIds": [
+        "STAR_CISTERN",
+        "NIGHT_STEP",
+        "AETHER_VINE",
+        "UPPER_WELL",
+        "COMET_COURT"
+      ],
+      "visualPalette": [
+        "STAR_WHITE",
+        "MIDNIGHT_BLUE",
+        "AETHER_CYAN"
+      ],
+      "missionTags": [
+        "AETHER",
+        "HEALING",
+        "ASTRONOMY"
+      ],
+      "centralMystery": "The starwells have started reflecting a second sky whose constellations correspond to people not yet born.",
+      "cityFacilityAffinityId": "FACILITY_RESTORATION_CLINIC",
+      "signatureRecruitSlots": [
+        "SIG_W12_01",
+        "SIG_W12_02",
+        "SIG_W12_03",
+        "SIG_W12_04",
+        "SIG_W12_05",
+        "SIG_W12_06",
+        "SIG_W12_07",
+        "SIG_W12_08",
+        "SIG_W12_09",
+        "SIG_W12_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_13_CINDERWAKE_CALDERA",
+      "worldId": "WORLD_CINDERWAKE_13",
+      "packIndex": 13,
+      "displayName": "Cinderwake Caldera",
+      "worldType": "VOLCANIC_FRONTIER",
+      "recruitmentCulture": "Mining camps and shrine towns survive on moving basalt islands above a restless caldera.",
+      "eligibleRaceIds": [
+        "ORC",
+        "DEMON_HERITAGE",
+        "HUMAN",
+        "GOBLIN"
+      ],
+      "communityIds": [
+        "BASALT_FERRY",
+        "EMBER_SHRINE",
+        "ASH_STEP",
+        "LAVA_MILL",
+        "SMOKE_REST"
+      ],
+      "visualPalette": [
+        "LAVA_ORANGE",
+        "BASALT_BLACK",
+        "ASH_GRAY"
+      ],
+      "missionTags": [
+        "FIRE",
+        "RISK",
+        "MINING"
+      ],
+      "centralMystery": "The caldera is cooling in the shape of an enormous sealed door, while every local prophecy insists it must remain molten.",
+      "cityFacilityAffinityId": "FACILITY_GUILD_FORGE",
+      "signatureRecruitSlots": [
+        "SIG_W13_01",
+        "SIG_W13_02",
+        "SIG_W13_03",
+        "SIG_W13_04",
+        "SIG_W13_05",
+        "SIG_W13_06",
+        "SIG_W13_07",
+        "SIG_W13_08",
+        "SIG_W13_09",
+        "SIG_W13_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_14_CLOUDHARBOR_AERIES",
+      "worldId": "WORLD_CLOUDHARBOR_14",
+      "packIndex": 14,
+      "displayName": "Cloudharbor Aeries",
+      "worldType": "SKY_ISLAND_PORT",
+      "recruitmentCulture": "Sky islands trade through sail-wing fleets, wind elevators, and harbors suspended above an endless cloud sea.",
+      "eligibleRaceIds": [
+        "HUMAN",
+        "DOG_TRIBE",
+        "GOBLIN",
+        "DEMON_HERITAGE"
+      ],
+      "communityIds": [
+        "WING_DOCK",
+        "CLOUDMARKET",
+        "LOWER_MAST",
+        "GALE_GARDEN",
+        "ANCHOR_SPIRE"
+      ],
+      "visualPalette": [
+        "SKY_CYAN",
+        "SAIL_WHITE",
+        "BRASS_GOLD"
+      ],
+      "missionTags": [
+        "AIR",
+        "TRADE",
+        "ENGINEERING"
+      ],
+      "centralMystery": "A cargo vessel arrives with a complete crew and manifests for a harbor that fell from the sky fifty years ago.",
+      "cityFacilityAffinityId": "FACILITY_WORLDROAD_DOCK",
+      "signatureRecruitSlots": [
+        "SIG_W14_01",
+        "SIG_W14_02",
+        "SIG_W14_03",
+        "SIG_W14_04",
+        "SIG_W14_05",
+        "SIG_W14_06",
+        "SIG_W14_07",
+        "SIG_W14_08",
+        "SIG_W14_09",
+        "SIG_W14_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_15_THORNFIELD_FRONTIER",
+      "worldId": "WORLD_THORNFIELD_15",
+      "packIndex": 15,
+      "displayName": "Thornfield Frontier",
+      "worldType": "AGRICULTURAL_BORDER",
+      "recruitmentCulture": "Fortified farms cultivate medicinal thorn crops along a border where wild routes shift after every harvest.",
+      "eligibleRaceIds": [
+        "HUMAN",
+        "DOG_TRIBE",
+        "ORC",
+        "GOBLIN"
+      ],
+      "communityIds": [
+        "RED_THORN",
+        "HARVEST_WALL",
+        "SEEDKEEP",
+        "FIELD_BELL",
+        "CARTER_ROW"
+      ],
+      "visualPalette": [
+        "THORN_RED",
+        "WHEAT_GOLD",
+        "FIELD_GREEN"
+      ],
+      "missionTags": [
+        "FARM",
+        "MEDICINE",
+        "BORDER"
+      ],
+      "centralMystery": "A new crop cures any wound but transfers the injury into the land, leaving fields that bleed when walked upon.",
+      "cityFacilityAffinityId": "FACILITY_ALCHEMY_GARDEN",
+      "signatureRecruitSlots": [
+        "SIG_W15_01",
+        "SIG_W15_02",
+        "SIG_W15_03",
+        "SIG_W15_04",
+        "SIG_W15_05",
+        "SIG_W15_06",
+        "SIG_W15_07",
+        "SIG_W15_08",
+        "SIG_W15_09",
+        "SIG_W15_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_16_BRASSWHISTLE_REPUBLIC",
+      "worldId": "WORLD_BRASSWHISTLE_16",
+      "packIndex": 16,
+      "displayName": "Brasswhistle Republic",
+      "worldType": "MECHANICAL_CITY_STATE",
+      "recruitmentCulture": "A noisy republic governed through public signals, elected workshop councils, and machines designed to be repaired by anyone.",
+      "eligibleRaceIds": [
+        "GOBLIN",
+        "HUMAN",
+        "ORC",
+        "DOG_TRIBE"
+      ],
+      "communityIds": [
+        "SIGNAL_PLAZA",
+        "GEARWARD",
+        "PUBLIC_FOUNDRY",
+        "WHISTLE_ROW",
+        "OPEN_WORKS"
+      ],
+      "visualPalette": [
+        "BRASS",
+        "VERDIGRIS",
+        "SIGNAL_RED"
+      ],
+      "missionTags": [
+        "ENGINEERING",
+        "CIVICS",
+        "SIGNAL"
+      ],
+      "centralMystery": "Someone is broadcasting a legal command in a forgotten signal language, and every city machine is beginning to obey.",
+      "cityFacilityAffinityId": "FACILITY_ENGINEERING_BAY",
+      "signatureRecruitSlots": [
+        "SIG_W16_01",
+        "SIG_W16_02",
+        "SIG_W16_03",
+        "SIG_W16_04",
+        "SIG_W16_05",
+        "SIG_W16_06",
+        "SIG_W16_07",
+        "SIG_W16_08",
+        "SIG_W16_09",
+        "SIG_W16_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_17_OBSIDIAN_CHOIR",
+      "worldId": "WORLD_OBSIDIAN_CHOIR_17",
+      "packIndex": 17,
+      "displayName": "Obsidian Choir",
+      "worldType": "RESONANT_CANYON",
+      "recruitmentCulture": "Canyon settlements use sung resonance to shape obsidian bridges, wards, and communal memory chambers.",
+      "eligibleRaceIds": [
+        "DEMON_HERITAGE",
+        "DARK_ELF",
+        "HUMAN",
+        "ORC"
+      ],
+      "communityIds": [
+        "LOW_CHORUS",
+        "BLACK_NOTE",
+        "ECHO_BRIDGE",
+        "CANTOR_HALL",
+        "SILENT_APSE"
+      ],
+      "visualPalette": [
+        "OBSIDIAN",
+        "CHOIR_VIOLET",
+        "ECHO_SILVER"
+      ],
+      "missionTags": [
+        "RESONANCE",
+        "MUSIC",
+        "WARD"
+      ],
+      "centralMystery": "A forbidden harmony is rebuilding a destroyed district every night, including residents who remember dying there.",
+      "cityFacilityAffinityId": "FACILITY_RESONANCE_HALL",
+      "signatureRecruitSlots": [
+        "SIG_W17_01",
+        "SIG_W17_02",
+        "SIG_W17_03",
+        "SIG_W17_04",
+        "SIG_W17_05",
+        "SIG_W17_06",
+        "SIG_W17_07",
+        "SIG_W17_08",
+        "SIG_W17_09",
+        "SIG_W17_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_18_TIDEGLASS_ARCHIPELAGO",
+      "worldId": "WORLD_TIDEGLASS_18",
+      "packIndex": 18,
+      "displayName": "Tideglass Archipelago",
+      "worldType": "ISLAND_NETWORK",
+      "recruitmentCulture": "Transparent islands drift on deep currents, linked by divers, tide readers, and glass-bottom causeways.",
+      "eligibleRaceIds": [
+        "HUMAN",
+        "DOG_TRIBE",
+        "DARK_ELF",
+        "GOBLIN"
+      ],
+      "communityIds": [
+        "CLEAR_TIDE",
+        "DIVER_REST",
+        "PEARL_GATE",
+        "CURRENT_HALL",
+        "BLUE_GLASS"
+      ],
+      "visualPalette": [
+        "TIDE_BLUE",
+        "GLASS_CLEAR",
+        "PEARL_PINK"
+      ],
+      "missionTags": [
+        "WATER",
+        "DIVING",
+        "TRADE"
+      ],
+      "centralMystery": "The islands have begun arranging themselves into a map of a continent that does not exist in the present world.",
+      "cityFacilityAffinityId": "FACILITY_WORLDROAD_DOCK",
+      "signatureRecruitSlots": [
+        "SIG_W18_01",
+        "SIG_W18_02",
+        "SIG_W18_03",
+        "SIG_W18_04",
+        "SIG_W18_05",
+        "SIG_W18_06",
+        "SIG_W18_07",
+        "SIG_W18_08",
+        "SIG_W18_09",
+        "SIG_W18_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_19_HOLLOW_CROWN_RUINS",
+      "worldId": "WORLD_HOLLOW_CROWN_19",
+      "packIndex": 19,
+      "displayName": "Hollow Crown Ruins",
+      "worldType": "POST_IMPERIAL_RUINS",
+      "recruitmentCulture": "Free settlements occupy the ruins of an empire whose automated ceremonies still attempt to appoint rulers.",
+      "eligibleRaceIds": [
+        "HUMAN",
+        "ORC",
+        "DARK_ELF",
+        "DEMON_HERITAGE"
+      ],
+      "communityIds": [
+        "EMPTY_THRONE",
+        "FREE_MARKET",
+        "BROKEN_COURT",
+        "CROWNLESS_ROW",
+        "OLD_PARADE"
+      ],
+      "visualPalette": [
+        "RUIN_GOLD",
+        "STONE_WHITE",
+        "BANNER_BLACK"
+      ],
+      "missionTags": [
+        "RUIN",
+        "POLITICS",
+        "AUTOMATON"
+      ],
+      "centralMystery": "The coronation engines have selected a child who does not exist, yet thousands of machines recognize the name.",
+      "cityFacilityAffinityId": "FACILITY_COUNCIL_CHAMBER",
+      "signatureRecruitSlots": [
+        "SIG_W19_01",
+        "SIG_W19_02",
+        "SIG_W19_03",
+        "SIG_W19_04",
+        "SIG_W19_05",
+        "SIG_W19_06",
+        "SIG_W19_07",
+        "SIG_W19_08",
+        "SIG_W19_09",
+        "SIG_W19_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_20_LUMEN_ORCHARD",
+      "worldId": "WORLD_LUMEN_ORCHARD_20",
+      "packIndex": 20,
+      "displayName": "Lumen Orchard",
+      "worldType": "BIOLUMINESCENT_AGRICULTURE",
+      "recruitmentCulture": "Night orchards grow light-bearing fruit used to heal fatigue, store messages, and illuminate worldroad beacons.",
+      "eligibleRaceIds": [
+        "HUMAN",
+        "GOBLIN",
+        "DOG_TRIBE",
+        "DEMON_HERITAGE"
+      ],
+      "communityIds": [
+        "GLOW_ROW",
+        "MOON_HARVEST",
+        "LANTERN_BARN",
+        "SEED_ARCHIVE",
+        "SOFTLIGHT"
+      ],
+      "visualPalette": [
+        "LUMEN_YELLOW",
+        "LEAF_TEAL",
+        "NIGHT_PURPLE"
+      ],
+      "missionTags": [
+        "LIGHT",
+        "FARM",
+        "MESSAGE"
+      ],
+      "centralMystery": "Every fruit harvested this season contains the same final message from a guild expedition that has not departed.",
+      "cityFacilityAffinityId": "FACILITY_ALCHEMY_GARDEN",
+      "signatureRecruitSlots": [
+        "SIG_W20_01",
+        "SIG_W20_02",
+        "SIG_W20_03",
+        "SIG_W20_04",
+        "SIG_W20_05",
+        "SIG_W20_06",
+        "SIG_W20_07",
+        "SIG_W20_08",
+        "SIG_W20_09",
+        "SIG_W20_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_21_RIFTWARD_EXPANSE",
+      "worldId": "WORLD_RIFTWARD_21",
+      "packIndex": 21,
+      "displayName": "Riftward Expanse",
+      "worldType": "DIMENSIONAL_BORDER",
+      "recruitmentCulture": "Sparse forts monitor unstable rifts, rescuing displaced travelers and charting terrain that can change between footsteps.",
+      "eligibleRaceIds": [
+        "HUMAN",
+        "ORC",
+        "DOG_TRIBE",
+        "DARK_ELF",
+        "DEMON_HERITAGE"
+      ],
+      "communityIds": [
+        "RIFTWATCH",
+        "ANCHOR_CAMP",
+        "LAST_MARKER",
+        "FOLD_LINE",
+        "WAYBACK"
+      ],
+      "visualPalette": [
+        "RIFT_MAGENTA",
+        "DUST_GRAY",
+        "ANCHOR_BLUE"
+      ],
+      "missionTags": [
+        "RIFT",
+        "RESCUE",
+        "SCOUT"
+      ],
+      "centralMystery": "The same rescue beacon is transmitting from thirty different rifts, each containing a different version of one survivor.",
+      "cityFacilityAffinityId": "FACILITY_EXPEDITION_OFFICE",
+      "signatureRecruitSlots": [
+        "SIG_W21_01",
+        "SIG_W21_02",
+        "SIG_W21_03",
+        "SIG_W21_04",
+        "SIG_W21_05",
+        "SIG_W21_06",
+        "SIG_W21_07",
+        "SIG_W21_08",
+        "SIG_W21_09",
+        "SIG_W21_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_22_RED_SAND_CARAVANS",
+      "worldId": "WORLD_RED_SAND_22",
+      "packIndex": 22,
+      "displayName": "Red Sand Caravans",
+      "worldType": "DESERT_TRADE_ROUTE",
+      "recruitmentCulture": "Caravan cities migrate between deep wells, ancient shade engines, and marketplaces protected by oathbound escorts.",
+      "eligibleRaceIds": [
+        "HUMAN",
+        "ORC",
+        "DOG_TRIBE",
+        "GOBLIN"
+      ],
+      "communityIds": [
+        "OATH_WELL",
+        "RED_ROUTE",
+        "SHADE_ENGINE",
+        "CARAVAN_CROWN",
+        "SALT_MILE"
+      ],
+      "visualPalette": [
+        "SAND_RED",
+        "OASIS_BLUE",
+        "CLOTH_GOLD"
+      ],
+      "missionTags": [
+        "DESERT",
+        "ESCORT",
+        "TRADE"
+      ],
+      "centralMystery": "A caravan arrives at every well one day ahead of itself, selling supplies stamped with tomorrow's casualty list.",
+      "cityFacilityAffinityId": "FACILITY_MARKET_HALL",
+      "signatureRecruitSlots": [
+        "SIG_W22_01",
+        "SIG_W22_02",
+        "SIG_W22_03",
+        "SIG_W22_04",
+        "SIG_W22_05",
+        "SIG_W22_06",
+        "SIG_W22_07",
+        "SIG_W22_08",
+        "SIG_W22_09",
+        "SIG_W22_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_23_DREAMING_QUARRY",
+      "worldId": "WORLD_DREAMING_QUARRY_23",
+      "packIndex": 23,
+      "displayName": "Dreaming Quarry",
+      "worldType": "PSYCHIC_MINERAL_ZONE",
+      "recruitmentCulture": "Quarry towns mine stone that records dreams, requiring strict rest laws and specialized memory wardens.",
+      "eligibleRaceIds": [
+        "HUMAN",
+        "GOBLIN",
+        "DARK_ELF",
+        "DEMON_HERITAGE"
+      ],
+      "communityIds": [
+        "SLEEPER_CUT",
+        "DREAM_LEDGE",
+        "QUIET_DRILL",
+        "MINDSTONE",
+        "REST_BELL"
+      ],
+      "visualPalette": [
+        "DREAM_LAVENDER",
+        "QUARRY_GRAY",
+        "WARD_GREEN"
+      ],
+      "missionTags": [
+        "DREAM",
+        "MINING",
+        "MENTAL_WARD"
+      ],
+      "centralMystery": "The quarry is producing stones containing the shared dream of a city-wide murder no resident remembers committing.",
+      "cityFacilityAffinityId": "FACILITY_ARCANE_ARCHIVE",
+      "signatureRecruitSlots": [
+        "SIG_W23_01",
+        "SIG_W23_02",
+        "SIG_W23_03",
+        "SIG_W23_04",
+        "SIG_W23_05",
+        "SIG_W23_06",
+        "SIG_W23_07",
+        "SIG_W23_08",
+        "SIG_W23_09",
+        "SIG_W23_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_24_BLACKWATER_LANTERNS",
+      "worldId": "WORLD_BLACKWATER_24",
+      "packIndex": 24,
+      "displayName": "Blackwater Lanterns",
+      "worldType": "SWAMP_RIVER_CITY",
+      "recruitmentCulture": "River cities navigate dark water using oath lanterns that reveal safe channels and concealed intentions.",
+      "eligibleRaceIds": [
+        "DOG_TRIBE",
+        "HUMAN",
+        "DARK_ELF",
+        "GOBLIN"
+      ],
+      "communityIds": [
+        "LANTERN_BEND",
+        "BLACK_FERRY",
+        "OATH_DOCK",
+        "MIRE_WATCH",
+        "RIVER_COURT"
+      ],
+      "visualPalette": [
+        "BLACKWATER",
+        "LANTERN_AMBER",
+        "MOSS_GREEN"
+      ],
+      "missionTags": [
+        "RIVER",
+        "OATH",
+        "SMUGGLING"
+      ],
+      "centralMystery": "The lanterns now expose honest people as liars while guiding known smugglers toward a sealed civic vault.",
+      "cityFacilityAffinityId": "FACILITY_INTELLIGENCE_ROOM",
+      "signatureRecruitSlots": [
+        "SIG_W24_01",
+        "SIG_W24_02",
+        "SIG_W24_03",
+        "SIG_W24_04",
+        "SIG_W24_05",
+        "SIG_W24_06",
+        "SIG_W24_07",
+        "SIG_W24_08",
+        "SIG_W24_09",
+        "SIG_W24_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_25_CELESTIAL_RAIL",
+      "worldId": "WORLD_CELESTIAL_RAIL_25",
+      "packIndex": 25,
+      "displayName": "Celestial Rail",
+      "worldType": "WORLDROAD_TRANSPORT",
+      "recruitmentCulture": "A chain of stations follows a luminous rail through otherwise unreachable skies and dimensional crossings.",
+      "eligibleRaceIds": [
+        "HUMAN",
+        "GOBLIN",
+        "DOG_TRIBE",
+        "DEMON_HERITAGE",
+        "DARK_ELF"
+      ],
+      "communityIds": [
+        "FIRST_PLATFORM",
+        "COMET_SWITCH",
+        "NIGHT_CAR",
+        "SIGNAL_MOON",
+        "TERMINUS_ZERO"
+      ],
+      "visualPalette": [
+        "RAIL_SILVER",
+        "COMET_BLUE",
+        "LAMP_GOLD"
+      ],
+      "missionTags": [
+        "TRANSPORT",
+        "ENGINEERING",
+        "WORLDROAD"
+      ],
+      "centralMystery": "A train has begun stopping at a station omitted from every schedule, where waiting passengers know each recruit by name.",
+      "cityFacilityAffinityId": "FACILITY_WORLDROAD_DOCK",
+      "signatureRecruitSlots": [
+        "SIG_W25_01",
+        "SIG_W25_02",
+        "SIG_W25_03",
+        "SIG_W25_04",
+        "SIG_W25_05",
+        "SIG_W25_06",
+        "SIG_W25_07",
+        "SIG_W25_08",
+        "SIG_W25_09",
+        "SIG_W25_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_26_BONEWOOD_PACT",
+      "worldId": "WORLD_BONEWOOD_26",
+      "packIndex": 26,
+      "displayName": "Bonewood Pact",
+      "worldType": "ANCESTRAL_FOREST",
+      "recruitmentCulture": "Forest communities build with naturally shed megafauna bone and living wood under a strict covenant of renewal.",
+      "eligibleRaceIds": [
+        "ORC",
+        "DOG_TRIBE",
+        "HUMAN",
+        "DARK_ELF"
+      ],
+      "communityIds": [
+        "PACT_GROVE",
+        "WHITE_BRANCH",
+        "HORN_HALL",
+        "RENEWAL_PATH",
+        "ANCESTOR_REST"
+      ],
+      "visualPalette": [
+        "BONE_IVORY",
+        "WOOD_GREEN",
+        "OATH_RED"
+      ],
+      "missionTags": [
+        "BEAST",
+        "ANCESTOR",
+        "COVENANT"
+      ],
+      "centralMystery": "New bone structures are growing with carved warnings from ancestors who died before the Pact was founded.",
+      "cityFacilityAffinityId": "FACILITY_BEAST_LODGE",
+      "signatureRecruitSlots": [
+        "SIG_W26_01",
+        "SIG_W26_02",
+        "SIG_W26_03",
+        "SIG_W26_04",
+        "SIG_W26_05",
+        "SIG_W26_06",
+        "SIG_W26_07",
+        "SIG_W26_08",
+        "SIG_W26_09",
+        "SIG_W26_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_27_MIRRORSTEP_DOMINION",
+      "worldId": "WORLD_MIRRORSTEP_27",
+      "packIndex": 27,
+      "displayName": "Mirrorstep Dominion",
+      "worldType": "REFLECTION_CITY",
+      "recruitmentCulture": "Twin cities share roads through controlled mirrors, with citizens trained to verify identity without surrendering privacy.",
+      "eligibleRaceIds": [
+        "HUMAN",
+        "DARK_ELF",
+        "DEMON_HERITAGE",
+        "GOBLIN"
+      ],
+      "communityIds": [
+        "FIRST_FACE",
+        "SILVER_STEP",
+        "TWIN_MARKET",
+        "REFLECTION_COURT",
+        "BACKGLASS"
+      ],
+      "visualPalette": [
+        "MIRROR_SILVER",
+        "INDIGO",
+        "SIGNAL_WHITE"
+      ],
+      "missionTags": [
+        "MIRROR",
+        "IDENTITY",
+        "ESPIONAGE"
+      ],
+      "centralMystery": "Reflections are continuing their lives after their originals leave the mirror, quietly replacing officials one by one.",
+      "cityFacilityAffinityId": "FACILITY_INTELLIGENCE_ROOM",
+      "signatureRecruitSlots": [
+        "SIG_W27_01",
+        "SIG_W27_02",
+        "SIG_W27_03",
+        "SIG_W27_04",
+        "SIG_W27_05",
+        "SIG_W27_06",
+        "SIG_W27_07",
+        "SIG_W27_08",
+        "SIG_W27_09",
+        "SIG_W27_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_28_THUNDER_MESA",
+      "worldId": "WORLD_THUNDER_MESA_28",
+      "packIndex": 28,
+      "displayName": "Thunder Mesa",
+      "worldType": "ELECTRIC_HIGHLAND",
+      "recruitmentCulture": "Mesa cities harvest lightning through grounded towers, storm herds, and ritualized engineering competitions.",
+      "eligibleRaceIds": [
+        "ORC",
+        "DOG_TRIBE",
+        "HUMAN",
+        "GOBLIN",
+        "DEMON_HERITAGE"
+      ],
+      "communityIds": [
+        "BOLT_YARD",
+        "GROUNDSTONE",
+        "STORM_HERD",
+        "HIGH_COIL",
+        "FLASH_MARKET"
+      ],
+      "visualPalette": [
+        "LIGHTNING_YELLOW",
+        "MESA_RED",
+        "STORM_BLUE"
+      ],
+      "missionTags": [
+        "LIGHTNING",
+        "COMPETITION",
+        "HERD"
+      ],
+      "centralMystery": "A captured bolt repeats a voice accusing the current storm champion of sabotaging a disaster twenty years earlier.",
+      "cityFacilityAffinityId": "FACILITY_ENGINEERING_BAY",
+      "signatureRecruitSlots": [
+        "SIG_W28_01",
+        "SIG_W28_02",
+        "SIG_W28_03",
+        "SIG_W28_04",
+        "SIG_W28_05",
+        "SIG_W28_06",
+        "SIG_W28_07",
+        "SIG_W28_08",
+        "SIG_W28_09",
+        "SIG_W28_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_29_SILENT_MERIDIAN",
+      "worldId": "WORLD_SILENT_MERIDIAN_29",
+      "packIndex": 29,
+      "displayName": "Silent Meridian",
+      "worldType": "TIMELESS_STEPPE",
+      "recruitmentCulture": "Nomadic observatories cross a silent steppe where sound, distance, and time drift out of alignment.",
+      "eligibleRaceIds": [
+        "HUMAN",
+        "DOG_TRIBE",
+        "DARK_ELF",
+        "DEMON_HERITAGE"
+      ],
+      "communityIds": [
+        "NOONLESS_CAMP",
+        "QUIET_LINE",
+        "DISTANT_BELL",
+        "MERIDIAN_TENT",
+        "ECHOLESS"
+      ],
+      "visualPalette": [
+        "STEPPE_GOLD",
+        "SILENCE_BLUE",
+        "CLOCK_WHITE"
+      ],
+      "missionTags": [
+        "TIME",
+        "NAVIGATION",
+        "SILENCE"
+      ],
+      "centralMystery": "An entire observatory returns after one night carrying thirty years of research—and no member has aged.",
+      "cityFacilityAffinityId": "FACILITY_RESEARCH_OBSERVATORY",
+      "signatureRecruitSlots": [
+        "SIG_W29_01",
+        "SIG_W29_02",
+        "SIG_W29_03",
+        "SIG_W29_04",
+        "SIG_W29_05",
+        "SIG_W29_06",
+        "SIG_W29_07",
+        "SIG_W29_08",
+        "SIG_W29_09",
+        "SIG_W29_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    },
+    {
+      "worldPackId": "PACK_30_AEGIS_DEEPWARD",
+      "worldId": "WORLD_AEGIS_DEEPWARD_30",
+      "packIndex": 30,
+      "displayName": "Aegis Deepward",
+      "worldType": "ABYSS_GATE_CITY",
+      "recruitmentCulture": "A heavily regulated settlement supports multi-Union operations near the first stable entrance to the Endless Abyss.",
+      "eligibleRaceIds": [
+        "HUMAN",
+        "ORC",
+        "GOBLIN",
+        "DOG_TRIBE",
+        "DARK_ELF",
+        "DEMON_HERITAGE"
+      ],
+      "communityIds": [
+        "AEGIS_GATE",
+        "RECOVERY_RING",
+        "LICENSE_HALL",
+        "DEEPWARD_MARKET",
+        "LAST_LIGHT"
+      ],
+      "visualPalette": [
+        "AEGIS_BLUE",
+        "ABYSS_BLACK",
+        "RECOVERY_WHITE"
+      ],
+      "missionTags": [
+        "ABYSS",
+        "MULTI_UNION",
+        "RECOVERY"
+      ],
+      "centralMystery": "The gate has opened a thirteenth route that recognizes no license yet returns equipment belonging to future guild members.",
+      "cityFacilityAffinityId": "FACILITY_ABYSS_OPERATIONS",
+      "signatureRecruitSlots": [
+        "SIG_W30_01",
+        "SIG_W30_02",
+        "SIG_W30_03",
+        "SIG_W30_04",
+        "SIG_W30_05",
+        "SIG_W30_06",
+        "SIG_W30_07",
+        "SIG_W30_08",
+        "SIG_W30_09",
+        "SIG_W30_10"
+      ],
+      "slotRoles": [
+        "MARTIAL_FRONTLINE_A",
+        "MARTIAL_FRONTLINE_B",
+        "MYSTIC_RESTORATION_SUPPORT_A",
+        "MYSTIC_RESTORATION_SUPPORT_B",
+        "HYBRID_UNUSUAL_A",
+        "HYBRID_UNUSUAL_B",
+        "NATURAL_UNION_LEADER",
+        "LATE_BLOOMER",
+        "CULTURAL_ODDBALL",
+        "SECRET_CONDITION_HEAVY"
+      ],
+      "authoredCount": 10,
+      "designRule": "Two martial/front-line, two Mystic/Restoration/Support, two hybrid/unusual, one natural leader, one late bloomer, one cultural oddball, and one secret/condition-heavy recruit."
+    }
+  ]
+}

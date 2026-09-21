@@ -1,0 +1,868 @@
+{
+  "bindings": [
+    {
+      "bindingId": "MATPRE021_MAT020_SKYHOME_01",
+      "materialId": "MAT020_SKYHOME_01",
+      "worldId": "SKYHOME",
+      "displayName": "Gate Iron",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_SKYHOME_01",
+      "pickupAudioCueId": "AUDIO021_SKYHOME_TRAVEL",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_SKYHOME_02",
+      "materialId": "MAT020_SKYHOME_02",
+      "worldId": "SKYHOME",
+      "displayName": "Salvaged Timber",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_SKYHOME_02",
+      "pickupAudioCueId": "AUDIO021_SKYHOME_TRAVEL",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_SKYHOME_03",
+      "materialId": "MAT020_SKYHOME_03",
+      "worldId": "SKYHOME",
+      "displayName": "Civic Stone",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_SKYHOME_03",
+      "pickupAudioCueId": "AUDIO021_SKYHOME_TRAVEL",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_SKYHOME_04",
+      "materialId": "MAT020_SKYHOME_04",
+      "worldId": "SKYHOME",
+      "displayName": "Gate Crystal",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_SKYHOME_04",
+      "pickupAudioCueId": "AUDIO021_SKYHOME_TRAVEL",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_SKYHOME_05",
+      "materialId": "MAT020_SKYHOME_05",
+      "worldId": "SKYHOME",
+      "displayName": "Archive Vellum",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_SKYHOME_05",
+      "pickupAudioCueId": "AUDIO021_SKYHOME_TRAVEL",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_SKYHOME_06",
+      "materialId": "MAT020_SKYHOME_06",
+      "worldId": "SKYHOME",
+      "displayName": "Patrol Brass",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_SKYHOME_06",
+      "pickupAudioCueId": "AUDIO021_SKYHOME_TRAVEL",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_BEAST_01",
+      "materialId": "MAT020_BEAST_01",
+      "worldId": "WORLD_BEASTKIN_003",
+      "displayName": "Moonfur Thread",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_BEAST_01",
+      "pickupAudioCueId": "AUDIO021_WORLD_BEASTKIN_003_TRAVEL",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_BEAST_02",
+      "materialId": "MAT020_BEAST_02",
+      "worldId": "WORLD_BEASTKIN_003",
+      "displayName": "Bearroot Wood",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_BEAST_02",
+      "pickupAudioCueId": "AUDIO021_WORLD_BEASTKIN_003_TRAVEL",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_BEAST_03",
+      "materialId": "MAT020_BEAST_03",
+      "worldId": "WORLD_BEASTKIN_003",
+      "displayName": "Skyfeather Plume",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_BEAST_03",
+      "pickupAudioCueId": "AUDIO021_WORLD_BEASTKIN_003_TRAVEL",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_BEAST_04",
+      "materialId": "MAT020_BEAST_04",
+      "worldId": "WORLD_BEASTKIN_003",
+      "displayName": "Foxfire Resin",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_BEAST_04",
+      "pickupAudioCueId": "AUDIO021_WORLD_BEASTKIN_003_TRAVEL",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_BEAST_05",
+      "materialId": "MAT020_BEAST_05",
+      "worldId": "WORLD_BEASTKIN_003",
+      "displayName": "Sunclaw Stone",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_BEAST_05",
+      "pickupAudioCueId": "AUDIO021_WORLD_BEASTKIN_003_TRAVEL",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_BEAST_06",
+      "materialId": "MAT020_BEAST_06",
+      "worldId": "WORLD_BEASTKIN_003",
+      "displayName": "Wildseed",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_BEAST_06",
+      "pickupAudioCueId": "AUDIO021_WORLD_BEASTKIN_003_TRAVEL",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_BUNNY_01",
+      "materialId": "MAT020_BUNNY_01",
+      "worldId": "WORLD_BUNNY_006",
+      "displayName": "Roadbell Brass",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_BUNNY_01",
+      "pickupAudioCueId": "AUDIO021_WORLD_BUNNY_006_TRAVEL",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_BUNNY_02",
+      "materialId": "MAT020_BUNNY_02",
+      "worldId": "WORLD_BUNNY_006",
+      "displayName": "Orchard Fiber",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_BUNNY_02",
+      "pickupAudioCueId": "AUDIO021_WORLD_BUNNY_006_TRAVEL",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_BUNNY_03",
+      "materialId": "MAT020_BUNNY_03",
+      "worldId": "WORLD_BUNNY_006",
+      "displayName": "Golden Coinmetal",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_BUNNY_03",
+      "pickupAudioCueId": "AUDIO021_WORLD_BUNNY_006_TRAVEL",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_BUNNY_04",
+      "materialId": "MAT020_BUNNY_04",
+      "worldId": "WORLD_BUNNY_006",
+      "displayName": "Basket Reed",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_BUNNY_04",
+      "pickupAudioCueId": "AUDIO021_WORLD_BUNNY_006_TRAVEL",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_BUNNY_05",
+      "materialId": "MAT020_BUNNY_05",
+      "worldId": "WORLD_BUNNY_006",
+      "displayName": "Ledger Ink",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_BUNNY_05",
+      "pickupAudioCueId": "AUDIO021_WORLD_BUNNY_006_TRAVEL",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_BUNNY_06",
+      "materialId": "MAT020_BUNNY_06",
+      "worldId": "WORLD_BUNNY_006",
+      "displayName": "Granary Salt",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_BUNNY_06",
+      "pickupAudioCueId": "AUDIO021_WORLD_BUNNY_006_TRAVEL",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_DARKELF_01",
+      "materialId": "MAT020_DARKELF_01",
+      "worldId": "WORLD_DARK_ELF_005",
+      "displayName": "Veil Silver",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_DARKELF_01",
+      "pickupAudioCueId": "AUDIO021_WORLD_DARK_ELF_005_TRAVEL",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_DARKELF_02",
+      "materialId": "MAT020_DARKELF_02",
+      "worldId": "WORLD_DARK_ELF_005",
+      "displayName": "Blackroot Fiber",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_DARKELF_02",
+      "pickupAudioCueId": "AUDIO021_WORLD_DARK_ELF_005_TRAVEL",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_DARKELF_03",
+      "materialId": "MAT020_DARKELF_03",
+      "worldId": "WORLD_DARK_ELF_005",
+      "displayName": "Quiet Glass",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_DARKELF_03",
+      "pickupAudioCueId": "AUDIO021_WORLD_DARK_ELF_005_TRAVEL",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_DARKELF_04",
+      "materialId": "MAT020_DARKELF_04",
+      "worldId": "WORLD_DARK_ELF_005",
+      "displayName": "Lanternless Oil",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_DARKELF_04",
+      "pickupAudioCueId": "AUDIO021_WORLD_DARK_ELF_005_TRAVEL",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_DARKELF_05",
+      "materialId": "MAT020_DARKELF_05",
+      "worldId": "WORLD_DARK_ELF_005",
+      "displayName": "Archive Paper",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_DARKELF_05",
+      "pickupAudioCueId": "AUDIO021_WORLD_DARK_ELF_005_TRAVEL",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_DARKELF_06",
+      "materialId": "MAT020_DARKELF_06",
+      "worldId": "WORLD_DARK_ELF_005",
+      "displayName": "Truththorn",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_DARKELF_06",
+      "pickupAudioCueId": "AUDIO021_WORLD_DARK_ELF_005_TRAVEL",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_DEMON_01",
+      "materialId": "MAT020_DEMON_01",
+      "worldId": "WORLD_DEMON_004",
+      "displayName": "Contract Ink",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_DEMON_01",
+      "pickupAudioCueId": "AUDIO021_WORLD_DEMON_004_TRAVEL",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_DEMON_02",
+      "materialId": "MAT020_DEMON_02",
+      "worldId": "WORLD_DEMON_004",
+      "displayName": "Dreamglass",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_DEMON_02",
+      "pickupAudioCueId": "AUDIO021_WORLD_DEMON_004_TRAVEL",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_DEMON_03",
+      "materialId": "MAT020_DEMON_03",
+      "worldId": "WORLD_DEMON_004",
+      "displayName": "Ember Silk",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_DEMON_03",
+      "pickupAudioCueId": "AUDIO021_WORLD_DEMON_004_TRAVEL",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_DEMON_04",
+      "materialId": "MAT020_DEMON_04",
+      "worldId": "WORLD_DEMON_004",
+      "displayName": "Thorn Metal",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_DEMON_04",
+      "pickupAudioCueId": "AUDIO021_WORLD_DEMON_004_TRAVEL",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_DEMON_05",
+      "materialId": "MAT020_DEMON_05",
+      "worldId": "WORLD_DEMON_004",
+      "displayName": "Crimson Paper",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_DEMON_05",
+      "pickupAudioCueId": "AUDIO021_WORLD_DEMON_004_TRAVEL",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_DEMON_06",
+      "materialId": "MAT020_DEMON_06",
+      "worldId": "WORLD_DEMON_004",
+      "displayName": "Mercy Ash",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_DEMON_06",
+      "pickupAudioCueId": "AUDIO021_WORLD_DEMON_004_TRAVEL",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_DOG_01",
+      "materialId": "MAT020_DOG_01",
+      "worldId": "WORLD_DOG_007",
+      "displayName": "Stormpaw Hide",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_DOG_01",
+      "pickupAudioCueId": "AUDIO021_WORLD_DOG_007_TRAVEL",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_DOG_02",
+      "materialId": "MAT020_DOG_02",
+      "worldId": "WORLD_DOG_007",
+      "displayName": "Oathpost Iron",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_DOG_02",
+      "pickupAudioCueId": "AUDIO021_WORLD_DOG_007_TRAVEL",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_DOG_03",
+      "materialId": "MAT020_DOG_03",
+      "worldId": "WORLD_DOG_007",
+      "displayName": "Rivernose Reed",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_DOG_03",
+      "pickupAudioCueId": "AUDIO021_WORLD_DOG_007_TRAVEL",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_DOG_04",
+      "materialId": "MAT020_DOG_04",
+      "worldId": "WORLD_DOG_007",
+      "displayName": "Hearthhound Wool",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_DOG_04",
+      "pickupAudioCueId": "AUDIO021_WORLD_DOG_007_TRAVEL",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_DOG_05",
+      "materialId": "MAT020_DOG_05",
+      "worldId": "WORLD_DOG_007",
+      "displayName": "Graytrail Stone",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_DOG_05",
+      "pickupAudioCueId": "AUDIO021_WORLD_DOG_007_TRAVEL",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_DOG_06",
+      "materialId": "MAT020_DOG_06",
+      "worldId": "WORLD_DOG_007",
+      "displayName": "Scent Resin",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_DOG_06",
+      "pickupAudioCueId": "AUDIO021_WORLD_DOG_007_TRAVEL",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_GOBLIN_01",
+      "materialId": "MAT020_GOBLIN_01",
+      "worldId": "WORLD_GOBLIN_001",
+      "displayName": "Gearsteel",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_GOBLIN_01",
+      "pickupAudioCueId": "AUDIO021_WORLD_GOBLIN_001_TRAVEL",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_GOBLIN_02",
+      "materialId": "MAT020_GOBLIN_02",
+      "worldId": "WORLD_GOBLIN_001",
+      "displayName": "Lantern Glass",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_GOBLIN_02",
+      "pickupAudioCueId": "AUDIO021_WORLD_GOBLIN_001_TRAVEL",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_GOBLIN_03",
+      "materialId": "MAT020_GOBLIN_03",
+      "worldId": "WORLD_GOBLIN_001",
+      "displayName": "Promise Resin",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_GOBLIN_03",
+      "pickupAudioCueId": "AUDIO021_WORLD_GOBLIN_001_TRAVEL",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_GOBLIN_04",
+      "materialId": "MAT020_GOBLIN_04",
+      "worldId": "WORLD_GOBLIN_001",
+      "displayName": "Calendar Brass",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_GOBLIN_04",
+      "pickupAudioCueId": "AUDIO021_WORLD_GOBLIN_001_TRAVEL",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_GOBLIN_05",
+      "materialId": "MAT020_GOBLIN_05",
+      "worldId": "WORLD_GOBLIN_001",
+      "displayName": "Burrow Silk",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_GOBLIN_05",
+      "pickupAudioCueId": "AUDIO021_WORLD_GOBLIN_001_TRAVEL",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_GOBLIN_06",
+      "materialId": "MAT020_GOBLIN_06",
+      "worldId": "WORLD_GOBLIN_001",
+      "displayName": "Rust-Clean Salt",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_GOBLIN_06",
+      "pickupAudioCueId": "AUDIO021_WORLD_GOBLIN_001_TRAVEL",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_ORC_01",
+      "materialId": "MAT020_ORC_01",
+      "worldId": "WORLD_ORC_002",
+      "displayName": "Hearth Iron",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_ORC_01",
+      "pickupAudioCueId": "AUDIO021_WORLD_ORC_002_TRAVEL",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_ORC_02",
+      "materialId": "MAT020_ORC_02",
+      "worldId": "WORLD_ORC_002",
+      "displayName": "Banner Hide",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_ORC_02",
+      "pickupAudioCueId": "AUDIO021_WORLD_ORC_002_TRAVEL",
+      "rarityTier": 1,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_ORC_03",
+      "materialId": "MAT020_ORC_03",
+      "worldId": "WORLD_ORC_002",
+      "displayName": "Salt-Tusk Bone",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_ORC_03",
+      "pickupAudioCueId": "AUDIO021_WORLD_ORC_002_TRAVEL",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_ORC_04",
+      "materialId": "MAT020_ORC_04",
+      "worldId": "WORLD_ORC_002",
+      "displayName": "Shieldwood",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_ORC_04",
+      "pickupAudioCueId": "AUDIO021_WORLD_ORC_002_TRAVEL",
+      "rarityTier": 2,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_ORC_05",
+      "materialId": "MAT020_ORC_05",
+      "worldId": "WORLD_ORC_002",
+      "displayName": "Arena Stone",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_ORC_05",
+      "pickupAudioCueId": "AUDIO021_WORLD_ORC_002_TRAVEL",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    },
+    {
+      "bindingId": "MATPRE021_MAT020_ORC_06",
+      "materialId": "MAT020_ORC_06",
+      "worldId": "WORLD_ORC_002",
+      "displayName": "Shame Ink",
+      "iconResource": "SecondDimension/Campaign021/UI/Materials/MAT020_ORC_06",
+      "pickupAudioCueId": "AUDIO021_WORLD_ORC_002_TRAVEL",
+      "rarityTier": 3,
+      "uses": [
+        "city construction",
+        "equipment evolution",
+        "world contract",
+        "facility research"
+      ],
+      "tradable": true,
+      "infiniteLoopForbidden": true,
+      "productionStatus": "ICON_READY"
+    }
+  ]
+}

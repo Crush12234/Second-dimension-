@@ -1,0 +1,36 @@
+{
+  "contentVersion": "GOW_PASS08_0.13",
+  "interactions": [
+    {
+      "id": "INT_FORECAST_SELECT",
+      "screenId": "UI_UNION_BATTLE",
+      "input": "tap Forecast card",
+      "result": "select complete Union Forecast",
+      "standardModeIndividualArtSelection": false
+    },
+    {
+      "id": "INT_BOARD_MOVE",
+      "screenId": "UI_EXPEDITION_BOARD",
+      "input": "tap connected revealed node",
+      "result": "commit movement"
+    },
+    {
+      "id": "INT_DICE_ROLL",
+      "screenId": "UI_EVENT_CHECK",
+      "input": "tap Roll or accessibility alternate",
+      "result": "animate committed deterministic 2d6"
+    },
+    {
+      "id": "INT_UNION_PLACE",
+      "screenId": "UI_UNION_BUILDER",
+      "input": "drag member or tap member then slot",
+      "result": "place member"
+    },
+    {
+      "id": "INT_EQUIP",
+      "screenId": "UI_EQUIPMENT",
+      "input": "tap item then Equip",
+      "result": "commit equipment after legality check"
+    }
+  ]
+}

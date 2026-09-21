@@ -1,0 +1,80 @@
+{
+  "contentVersion": "FINAL_IMPLEMENTATION_HARDENING_025_1.0",
+  "owners": [
+    {
+      "domain": "BattleResolution",
+      "owner": "M2BattleCommandService / authoritative M2 state",
+      "duplicateForbidden": true
+    },
+    {
+      "domain": "ForecastGeneration",
+      "owner": "M2 forecast authority",
+      "duplicateForbidden": true
+    },
+    {
+      "domain": "RewardCommitment",
+      "owner": "M2 deterministic reward receipt authority",
+      "duplicateForbidden": true
+    },
+    {
+      "domain": "EquipmentInventory",
+      "owner": "Guild equipment and inventory authority",
+      "duplicateForbidden": true
+    },
+    {
+      "domain": "Recruitment",
+      "owner": "Applicant Board and Recruit Auto-Generation 010",
+      "duplicateForbidden": true
+    },
+    {
+      "domain": "UnionConstruction",
+      "owner": "Union Builder authority",
+      "duplicateForbidden": true
+    },
+    {
+      "domain": "GuildCity",
+      "owner": "Guild City runtime authority",
+      "duplicateForbidden": true
+    },
+    {
+      "domain": "StrategicDefense",
+      "owner": "Guild City strategic defense authority",
+      "duplicateForbidden": true
+    },
+    {
+      "domain": "Campaign",
+      "owner": "Campaign 019\u2192023 active runtime chain",
+      "duplicateForbidden": true
+    },
+    {
+      "domain": "WorldGate",
+      "owner": "World Gate Operations 023 authority",
+      "duplicateForbidden": true
+    },
+    {
+      "domain": "Relationships",
+      "owner": "Recruit Chronicles / People runtime authority",
+      "duplicateForbidden": true
+    },
+    {
+      "domain": "CreatorCodes",
+      "owner": "Creator Codes & Rooms 028 authority",
+      "duplicateForbidden": true
+    },
+    {
+      "domain": "Progression",
+      "owner": "Campaign Progression / Abyss / Covenant authority",
+      "duplicateForbidden": true
+    },
+    {
+      "domain": "SaveEnvelope",
+      "owner": "AtomicSaveStore and SaveEnvelopeV1",
+      "duplicateForbidden": true
+    },
+    {
+      "domain": "PresentationCoordinator",
+      "owner": "M1RuntimeCoordinator and presentation adapters",
+      "duplicateForbidden": true
+    }
+  ]
+}

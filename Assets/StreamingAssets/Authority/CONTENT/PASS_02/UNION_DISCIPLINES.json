@@ -1,0 +1,206 @@
+{
+  "contentVersion": "PASS02_DISC_0.7",
+  "disciplines": [
+    {
+      "id": "DISC_MARTIAL",
+      "displayName": "Martial",
+      "rankThresholds": [
+        0,
+        100,
+        260,
+        520,
+        900,
+        1400,
+        2050,
+        2850,
+        3800,
+        4900,
+        6200
+      ],
+      "meaningfulActions": [
+        "damage nontrivial enemy",
+        "reduce/break Cohesion"
+      ],
+      "spamRules": [
+        "trivial enemy multiplier can fall to 100 permille",
+        "zero useful effect grants 0–50 permille credit"
+      ],
+      "progressFormula": "baseValue * difficultyPermille * participationPermille * leaderPermille * formationPermille * doctrinePermille * customGrowthPermille // 1000^6",
+      "transferRule": "Union discipline belongs to named Union; member keeps personal proficiency only.",
+      "reorganizationRule": "Named Union retains ranks if identity persists; disbanding archives history but does not copy ranks to a new Union.",
+      "veteranTeaching": "qualified veteran grants +100 to +250 permille personal proficiency gain, never free mastery",
+      "customGrowthPermilleRange": [
+        500,
+        10000
+      ]
+    },
+    {
+      "id": "DISC_MYSTIC",
+      "displayName": "Mystic",
+      "rankThresholds": [
+        0,
+        100,
+        260,
+        520,
+        900,
+        1400,
+        2050,
+        2850,
+        3800,
+        4900,
+        6200
+      ],
+      "meaningfulActions": [
+        "effective spell damage",
+        "field/ward/counter interaction"
+      ],
+      "spamRules": [
+        "trivial enemy multiplier can fall to 100 permille",
+        "zero useful effect grants 0–50 permille credit"
+      ],
+      "progressFormula": "baseValue * difficultyPermille * participationPermille * leaderPermille * formationPermille * doctrinePermille * customGrowthPermille // 1000^6",
+      "transferRule": "Union discipline belongs to named Union; member keeps personal proficiency only.",
+      "reorganizationRule": "Named Union retains ranks if identity persists; disbanding archives history but does not copy ranks to a new Union.",
+      "veteranTeaching": "qualified veteran grants +100 to +250 permille personal proficiency gain, never free mastery",
+      "customGrowthPermilleRange": [
+        500,
+        10000
+      ]
+    },
+    {
+      "id": "DISC_RESTORATION",
+      "displayName": "Restoration",
+      "rankThresholds": [
+        0,
+        100,
+        260,
+        520,
+        900,
+        1400,
+        2050,
+        2850,
+        3800,
+        4900,
+        6200
+      ],
+      "meaningfulActions": [
+        "restore missing HP",
+        "cleanse active status",
+        "revive"
+      ],
+      "spamRules": [
+        "trivial enemy multiplier can fall to 100 permille",
+        "zero useful effect grants 0–50 permille credit"
+      ],
+      "progressFormula": "baseValue * difficultyPermille * participationPermille * leaderPermille * formationPermille * doctrinePermille * customGrowthPermille // 1000^6",
+      "transferRule": "Union discipline belongs to named Union; member keeps personal proficiency only.",
+      "reorganizationRule": "Named Union retains ranks if identity persists; disbanding archives history but does not copy ranks to a new Union.",
+      "veteranTeaching": "qualified veteran grants +100 to +250 permille personal proficiency gain, never free mastery",
+      "customGrowthPermilleRange": [
+        500,
+        10000
+      ]
+    },
+    {
+      "id": "DISC_SUPPORT",
+      "displayName": "Support",
+      "rankThresholds": [
+        0,
+        100,
+        260,
+        520,
+        900,
+        1400,
+        2050,
+        2850,
+        3800,
+        4900,
+        6200
+      ],
+      "meaningfulActions": [
+        "apply uncapped useful buff/debuff",
+        "restore morale/resource meaningfully"
+      ],
+      "spamRules": [
+        "trivial enemy multiplier can fall to 100 permille",
+        "zero useful effect grants 0–50 permille credit"
+      ],
+      "progressFormula": "baseValue * difficultyPermille * participationPermille * leaderPermille * formationPermille * doctrinePermille * customGrowthPermille // 1000^6",
+      "transferRule": "Union discipline belongs to named Union; member keeps personal proficiency only.",
+      "reorganizationRule": "Named Union retains ranks if identity persists; disbanding archives history but does not copy ranks to a new Union.",
+      "veteranTeaching": "qualified veteran grants +100 to +250 permille personal proficiency gain, never free mastery",
+      "customGrowthPermilleRange": [
+        500,
+        10000
+      ]
+    },
+    {
+      "id": "DISC_GUARD",
+      "displayName": "Guard",
+      "rankThresholds": [
+        0,
+        100,
+        260,
+        520,
+        900,
+        1400,
+        2050,
+        2850,
+        3800,
+        4900,
+        6200
+      ],
+      "meaningfulActions": [
+        "prevent meaningful damage",
+        "intercept endangered ally",
+        "prevent break/displacement"
+      ],
+      "spamRules": [
+        "trivial enemy multiplier can fall to 100 permille",
+        "zero useful effect grants 0–50 permille credit"
+      ],
+      "progressFormula": "baseValue * difficultyPermille * participationPermille * leaderPermille * formationPermille * doctrinePermille * customGrowthPermille // 1000^6",
+      "transferRule": "Union discipline belongs to named Union; member keeps personal proficiency only.",
+      "reorganizationRule": "Named Union retains ranks if identity persists; disbanding archives history but does not copy ranks to a new Union.",
+      "veteranTeaching": "qualified veteran grants +100 to +250 permille personal proficiency gain, never free mastery",
+      "customGrowthPermilleRange": [
+        500,
+        10000
+      ]
+    },
+    {
+      "id": "DISC_TACTICAL",
+      "displayName": "Tactical",
+      "rankThresholds": [
+        0,
+        100,
+        260,
+        520,
+        900,
+        1400,
+        2050,
+        2850,
+        3800,
+        4900,
+        6200
+      ],
+      "meaningfulActions": [
+        "flank/reposition effectively",
+        "advance objective",
+        "disable priority target"
+      ],
+      "spamRules": [
+        "trivial enemy multiplier can fall to 100 permille",
+        "zero useful effect grants 0–50 permille credit"
+      ],
+      "progressFormula": "baseValue * difficultyPermille * participationPermille * leaderPermille * formationPermille * doctrinePermille * customGrowthPermille // 1000^6",
+      "transferRule": "Union discipline belongs to named Union; member keeps personal proficiency only.",
+      "reorganizationRule": "Named Union retains ranks if identity persists; disbanding archives history but does not copy ranks to a new Union.",
+      "veteranTeaching": "qualified veteran grants +100 to +250 permille personal proficiency gain, never free mastery",
+      "customGrowthPermilleRange": [
+        500,
+        10000
+      ]
+    }
+  ]
+}

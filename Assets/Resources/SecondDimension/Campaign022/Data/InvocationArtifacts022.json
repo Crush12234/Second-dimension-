@@ -1,0 +1,690 @@
+{
+  "bases": [
+    {
+      "baseId": "INVOCATION_BASE022_01_01",
+      "displayName": "Swords Echo Relic",
+      "weaponFamilyId": "WEAPON_FAMILY_SWORD",
+      "validSlotId": "SLOT_TOOL_RELIC",
+      "ownership": "EQUIPMENT_INSTANCE",
+      "sentientOwnershipAllowed": false,
+      "standardControl": "UNION_FORECAST_ONLY",
+      "maxActivePerEarlyUnion": 1,
+      "usesSharedAp": true,
+      "usesIndividualMp": true,
+      "baseForecastRole": "OFFENSE",
+      "requiredFacility": "FACILITY_GATE_RESEARCH_ANNEX",
+      "materialCosts": [
+        {
+          "materialId": "MAT020_SKYHOME_01",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_BEAST_02",
+          "amount": 2
+        }
+      ],
+      "runtimeGenerativeAi": false
+    },
+    {
+      "baseId": "INVOCATION_BASE022_01_02",
+      "displayName": "Swords Covenant Implement",
+      "weaponFamilyId": "WEAPON_FAMILY_SWORD",
+      "validSlotId": "SLOT_TOOL_RELIC",
+      "ownership": "EQUIPMENT_INSTANCE",
+      "sentientOwnershipAllowed": false,
+      "standardControl": "UNION_FORECAST_ONLY",
+      "maxActivePerEarlyUnion": 1,
+      "usesSharedAp": true,
+      "usesIndividualMp": true,
+      "baseForecastRole": "OFFENSE",
+      "requiredFacility": "FACILITY_GATE_RESEARCH_ANNEX",
+      "materialCosts": [
+        {
+          "materialId": "MAT020_SKYHOME_02",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_BEAST_03",
+          "amount": 2
+        }
+      ],
+      "runtimeGenerativeAi": false
+    },
+    {
+      "baseId": "INVOCATION_BASE022_02_01",
+      "displayName": "Great Weapons Echo Relic",
+      "weaponFamilyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "validSlotId": "SLOT_TOOL_RELIC",
+      "ownership": "EQUIPMENT_INSTANCE",
+      "sentientOwnershipAllowed": false,
+      "standardControl": "UNION_FORECAST_ONLY",
+      "maxActivePerEarlyUnion": 1,
+      "usesSharedAp": true,
+      "usesIndividualMp": true,
+      "baseForecastRole": "DEFENSE",
+      "requiredFacility": "FACILITY_GATE_RESEARCH_ANNEX",
+      "materialCosts": [
+        {
+          "materialId": "MAT020_SKYHOME_03",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_BUNNY_01",
+          "amount": 2
+        }
+      ],
+      "runtimeGenerativeAi": false
+    },
+    {
+      "baseId": "INVOCATION_BASE022_02_02",
+      "displayName": "Great Weapons Covenant Implement",
+      "weaponFamilyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "validSlotId": "SLOT_TOOL_RELIC",
+      "ownership": "EQUIPMENT_INSTANCE",
+      "sentientOwnershipAllowed": false,
+      "standardControl": "UNION_FORECAST_ONLY",
+      "maxActivePerEarlyUnion": 1,
+      "usesSharedAp": true,
+      "usesIndividualMp": true,
+      "baseForecastRole": "DEFENSE",
+      "requiredFacility": "FACILITY_GATE_RESEARCH_ANNEX",
+      "materialCosts": [
+        {
+          "materialId": "MAT020_SKYHOME_04",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_BUNNY_02",
+          "amount": 2
+        }
+      ],
+      "runtimeGenerativeAi": false
+    },
+    {
+      "baseId": "INVOCATION_BASE022_03_01",
+      "displayName": "Axes Echo Relic",
+      "weaponFamilyId": "WEAPON_FAMILY_AXE",
+      "validSlotId": "SLOT_TOOL_RELIC",
+      "ownership": "EQUIPMENT_INSTANCE",
+      "sentientOwnershipAllowed": false,
+      "standardControl": "UNION_FORECAST_ONLY",
+      "maxActivePerEarlyUnion": 1,
+      "usesSharedAp": true,
+      "usesIndividualMp": true,
+      "baseForecastRole": "SUPPORT",
+      "requiredFacility": "FACILITY_GATE_RESEARCH_ANNEX",
+      "materialCosts": [
+        {
+          "materialId": "MAT020_SKYHOME_05",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_BUNNY_06",
+          "amount": 2
+        }
+      ],
+      "runtimeGenerativeAi": false
+    },
+    {
+      "baseId": "INVOCATION_BASE022_03_02",
+      "displayName": "Axes Covenant Implement",
+      "weaponFamilyId": "WEAPON_FAMILY_AXE",
+      "validSlotId": "SLOT_TOOL_RELIC",
+      "ownership": "EQUIPMENT_INSTANCE",
+      "sentientOwnershipAllowed": false,
+      "standardControl": "UNION_FORECAST_ONLY",
+      "maxActivePerEarlyUnion": 1,
+      "usesSharedAp": true,
+      "usesIndividualMp": true,
+      "baseForecastRole": "SUPPORT",
+      "requiredFacility": "FACILITY_GATE_RESEARCH_ANNEX",
+      "materialCosts": [
+        {
+          "materialId": "MAT020_SKYHOME_06",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_DARKELF_01",
+          "amount": 2
+        }
+      ],
+      "runtimeGenerativeAi": false
+    },
+    {
+      "baseId": "INVOCATION_BASE022_04_01",
+      "displayName": "Spears and Polearms Echo Relic",
+      "weaponFamilyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "validSlotId": "SLOT_TOOL_RELIC",
+      "ownership": "EQUIPMENT_INSTANCE",
+      "sentientOwnershipAllowed": false,
+      "standardControl": "UNION_FORECAST_ONLY",
+      "maxActivePerEarlyUnion": 1,
+      "usesSharedAp": true,
+      "usesIndividualMp": true,
+      "baseForecastRole": "TACTICAL",
+      "requiredFacility": "FACILITY_GATE_RESEARCH_ANNEX",
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_01",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_DARKELF_05",
+          "amount": 2
+        }
+      ],
+      "runtimeGenerativeAi": false
+    },
+    {
+      "baseId": "INVOCATION_BASE022_04_02",
+      "displayName": "Spears and Polearms Covenant Implement",
+      "weaponFamilyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "validSlotId": "SLOT_TOOL_RELIC",
+      "ownership": "EQUIPMENT_INSTANCE",
+      "sentientOwnershipAllowed": false,
+      "standardControl": "UNION_FORECAST_ONLY",
+      "maxActivePerEarlyUnion": 1,
+      "usesSharedAp": true,
+      "usesIndividualMp": true,
+      "baseForecastRole": "TACTICAL",
+      "requiredFacility": "FACILITY_GATE_RESEARCH_ANNEX",
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_02",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_DARKELF_06",
+          "amount": 2
+        }
+      ],
+      "runtimeGenerativeAi": false
+    },
+    {
+      "baseId": "INVOCATION_BASE022_05_01",
+      "displayName": "Bows Echo Relic",
+      "weaponFamilyId": "WEAPON_FAMILY_BOW",
+      "validSlotId": "SLOT_TOOL_RELIC",
+      "ownership": "EQUIPMENT_INSTANCE",
+      "sentientOwnershipAllowed": false,
+      "standardControl": "UNION_FORECAST_ONLY",
+      "maxActivePerEarlyUnion": 1,
+      "usesSharedAp": true,
+      "usesIndividualMp": true,
+      "baseForecastRole": "OFFENSE",
+      "requiredFacility": "FACILITY_GATE_RESEARCH_ANNEX",
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_03",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_DEMON_04",
+          "amount": 2
+        }
+      ],
+      "runtimeGenerativeAi": false
+    },
+    {
+      "baseId": "INVOCATION_BASE022_05_02",
+      "displayName": "Bows Covenant Implement",
+      "weaponFamilyId": "WEAPON_FAMILY_BOW",
+      "validSlotId": "SLOT_TOOL_RELIC",
+      "ownership": "EQUIPMENT_INSTANCE",
+      "sentientOwnershipAllowed": false,
+      "standardControl": "UNION_FORECAST_ONLY",
+      "maxActivePerEarlyUnion": 1,
+      "usesSharedAp": true,
+      "usesIndividualMp": true,
+      "baseForecastRole": "OFFENSE",
+      "requiredFacility": "FACILITY_GATE_RESEARCH_ANNEX",
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_04",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_DEMON_05",
+          "amount": 2
+        }
+      ],
+      "runtimeGenerativeAi": false
+    },
+    {
+      "baseId": "INVOCATION_BASE022_06_01",
+      "displayName": "Daggers Echo Relic",
+      "weaponFamilyId": "WEAPON_FAMILY_DAGGER",
+      "validSlotId": "SLOT_TOOL_RELIC",
+      "ownership": "EQUIPMENT_INSTANCE",
+      "sentientOwnershipAllowed": false,
+      "standardControl": "UNION_FORECAST_ONLY",
+      "maxActivePerEarlyUnion": 1,
+      "usesSharedAp": true,
+      "usesIndividualMp": true,
+      "baseForecastRole": "DEFENSE",
+      "requiredFacility": "FACILITY_GATE_RESEARCH_ANNEX",
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_05",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_DOG_03",
+          "amount": 2
+        }
+      ],
+      "runtimeGenerativeAi": false
+    },
+    {
+      "baseId": "INVOCATION_BASE022_06_02",
+      "displayName": "Daggers Covenant Implement",
+      "weaponFamilyId": "WEAPON_FAMILY_DAGGER",
+      "validSlotId": "SLOT_TOOL_RELIC",
+      "ownership": "EQUIPMENT_INSTANCE",
+      "sentientOwnershipAllowed": false,
+      "standardControl": "UNION_FORECAST_ONLY",
+      "maxActivePerEarlyUnion": 1,
+      "usesSharedAp": true,
+      "usesIndividualMp": true,
+      "baseForecastRole": "DEFENSE",
+      "requiredFacility": "FACILITY_GATE_RESEARCH_ANNEX",
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_06",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_DOG_04",
+          "amount": 2
+        }
+      ],
+      "runtimeGenerativeAi": false
+    },
+    {
+      "baseId": "INVOCATION_BASE022_07_01",
+      "displayName": "Shields Echo Relic",
+      "weaponFamilyId": "WEAPON_FAMILY_SHIELD",
+      "validSlotId": "SLOT_TOOL_RELIC",
+      "ownership": "EQUIPMENT_INSTANCE",
+      "sentientOwnershipAllowed": false,
+      "standardControl": "UNION_FORECAST_ONLY",
+      "maxActivePerEarlyUnion": 1,
+      "usesSharedAp": true,
+      "usesIndividualMp": true,
+      "baseForecastRole": "SUPPORT",
+      "requiredFacility": "FACILITY_GATE_RESEARCH_ANNEX",
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_01",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_GOBLIN_02",
+          "amount": 2
+        }
+      ],
+      "runtimeGenerativeAi": false
+    },
+    {
+      "baseId": "INVOCATION_BASE022_07_02",
+      "displayName": "Shields Covenant Implement",
+      "weaponFamilyId": "WEAPON_FAMILY_SHIELD",
+      "validSlotId": "SLOT_TOOL_RELIC",
+      "ownership": "EQUIPMENT_INSTANCE",
+      "sentientOwnershipAllowed": false,
+      "standardControl": "UNION_FORECAST_ONLY",
+      "maxActivePerEarlyUnion": 1,
+      "usesSharedAp": true,
+      "usesIndividualMp": true,
+      "baseForecastRole": "SUPPORT",
+      "requiredFacility": "FACILITY_GATE_RESEARCH_ANNEX",
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_02",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_GOBLIN_03",
+          "amount": 2
+        }
+      ],
+      "runtimeGenerativeAi": false
+    },
+    {
+      "baseId": "INVOCATION_BASE022_08_01",
+      "displayName": "Gauntlets and Unarmed Implements Echo Relic",
+      "weaponFamilyId": "WEAPON_FAMILY_GAUNTLET",
+      "validSlotId": "SLOT_TOOL_RELIC",
+      "ownership": "EQUIPMENT_INSTANCE",
+      "sentientOwnershipAllowed": false,
+      "standardControl": "UNION_FORECAST_ONLY",
+      "maxActivePerEarlyUnion": 1,
+      "usesSharedAp": true,
+      "usesIndividualMp": true,
+      "baseForecastRole": "TACTICAL",
+      "requiredFacility": "FACILITY_GATE_RESEARCH_ANNEX",
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_03",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_ORC_01",
+          "amount": 2
+        }
+      ],
+      "runtimeGenerativeAi": false
+    },
+    {
+      "baseId": "INVOCATION_BASE022_08_02",
+      "displayName": "Gauntlets and Unarmed Implements Covenant Implement",
+      "weaponFamilyId": "WEAPON_FAMILY_GAUNTLET",
+      "validSlotId": "SLOT_TOOL_RELIC",
+      "ownership": "EQUIPMENT_INSTANCE",
+      "sentientOwnershipAllowed": false,
+      "standardControl": "UNION_FORECAST_ONLY",
+      "maxActivePerEarlyUnion": 1,
+      "usesSharedAp": true,
+      "usesIndividualMp": true,
+      "baseForecastRole": "TACTICAL",
+      "requiredFacility": "FACILITY_GATE_RESEARCH_ANNEX",
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_04",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_ORC_02",
+          "amount": 2
+        }
+      ],
+      "runtimeGenerativeAi": false
+    },
+    {
+      "baseId": "INVOCATION_BASE022_09_01",
+      "displayName": "Staves Echo Relic",
+      "weaponFamilyId": "WEAPON_FAMILY_STAFF",
+      "validSlotId": "SLOT_TOOL_RELIC",
+      "ownership": "EQUIPMENT_INSTANCE",
+      "sentientOwnershipAllowed": false,
+      "standardControl": "UNION_FORECAST_ONLY",
+      "maxActivePerEarlyUnion": 1,
+      "usesSharedAp": true,
+      "usesIndividualMp": true,
+      "baseForecastRole": "OFFENSE",
+      "requiredFacility": "FACILITY_GATE_RESEARCH_ANNEX",
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_05",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_ORC_06",
+          "amount": 2
+        }
+      ],
+      "runtimeGenerativeAi": false
+    },
+    {
+      "baseId": "INVOCATION_BASE022_09_02",
+      "displayName": "Staves Covenant Implement",
+      "weaponFamilyId": "WEAPON_FAMILY_STAFF",
+      "validSlotId": "SLOT_TOOL_RELIC",
+      "ownership": "EQUIPMENT_INSTANCE",
+      "sentientOwnershipAllowed": false,
+      "standardControl": "UNION_FORECAST_ONLY",
+      "maxActivePerEarlyUnion": 1,
+      "usesSharedAp": true,
+      "usesIndividualMp": true,
+      "baseForecastRole": "OFFENSE",
+      "requiredFacility": "FACILITY_GATE_RESEARCH_ANNEX",
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_06",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_SKYHOME_01",
+          "amount": 2
+        }
+      ],
+      "runtimeGenerativeAi": false
+    },
+    {
+      "baseId": "INVOCATION_BASE022_10_01",
+      "displayName": "Catalysts and Foci Echo Relic",
+      "weaponFamilyId": "WEAPON_FAMILY_FOCUS",
+      "validSlotId": "SLOT_TOOL_RELIC",
+      "ownership": "EQUIPMENT_INSTANCE",
+      "sentientOwnershipAllowed": false,
+      "standardControl": "UNION_FORECAST_ONLY",
+      "maxActivePerEarlyUnion": 1,
+      "usesSharedAp": true,
+      "usesIndividualMp": true,
+      "baseForecastRole": "DEFENSE",
+      "requiredFacility": "FACILITY_GATE_RESEARCH_ANNEX",
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_01",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_SKYHOME_05",
+          "amount": 2
+        }
+      ],
+      "runtimeGenerativeAi": false
+    },
+    {
+      "baseId": "INVOCATION_BASE022_10_02",
+      "displayName": "Catalysts and Foci Covenant Implement",
+      "weaponFamilyId": "WEAPON_FAMILY_FOCUS",
+      "validSlotId": "SLOT_TOOL_RELIC",
+      "ownership": "EQUIPMENT_INSTANCE",
+      "sentientOwnershipAllowed": false,
+      "standardControl": "UNION_FORECAST_ONLY",
+      "maxActivePerEarlyUnion": 1,
+      "usesSharedAp": true,
+      "usesIndividualMp": true,
+      "baseForecastRole": "DEFENSE",
+      "requiredFacility": "FACILITY_GATE_RESEARCH_ANNEX",
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_02",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_SKYHOME_06",
+          "amount": 2
+        }
+      ],
+      "runtimeGenerativeAi": false
+    },
+    {
+      "baseId": "INVOCATION_BASE022_11_01",
+      "displayName": "Engineering Weapons and Tools Echo Relic",
+      "weaponFamilyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "validSlotId": "SLOT_TOOL_RELIC",
+      "ownership": "EQUIPMENT_INSTANCE",
+      "sentientOwnershipAllowed": false,
+      "standardControl": "UNION_FORECAST_ONLY",
+      "maxActivePerEarlyUnion": 1,
+      "usesSharedAp": true,
+      "usesIndividualMp": true,
+      "baseForecastRole": "SUPPORT",
+      "requiredFacility": "FACILITY_GATE_RESEARCH_ANNEX",
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_03",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_BEAST_04",
+          "amount": 2
+        }
+      ],
+      "runtimeGenerativeAi": false
+    },
+    {
+      "baseId": "INVOCATION_BASE022_11_02",
+      "displayName": "Engineering Weapons and Tools Covenant Implement",
+      "weaponFamilyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "validSlotId": "SLOT_TOOL_RELIC",
+      "ownership": "EQUIPMENT_INSTANCE",
+      "sentientOwnershipAllowed": false,
+      "standardControl": "UNION_FORECAST_ONLY",
+      "maxActivePerEarlyUnion": 1,
+      "usesSharedAp": true,
+      "usesIndividualMp": true,
+      "baseForecastRole": "SUPPORT",
+      "requiredFacility": "FACILITY_GATE_RESEARCH_ANNEX",
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_04",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_BEAST_05",
+          "amount": 2
+        }
+      ],
+      "runtimeGenerativeAi": false
+    },
+    {
+      "baseId": "INVOCATION_BASE022_12_01",
+      "displayName": "Hybrid Relic Weapons Echo Relic",
+      "weaponFamilyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "validSlotId": "SLOT_TOOL_RELIC",
+      "ownership": "EQUIPMENT_INSTANCE",
+      "sentientOwnershipAllowed": false,
+      "standardControl": "UNION_FORECAST_ONLY",
+      "maxActivePerEarlyUnion": 1,
+      "usesSharedAp": true,
+      "usesIndividualMp": true,
+      "baseForecastRole": "TACTICAL",
+      "requiredFacility": "FACILITY_GATE_RESEARCH_ANNEX",
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_05",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_BUNNY_03",
+          "amount": 2
+        }
+      ],
+      "runtimeGenerativeAi": false
+    },
+    {
+      "baseId": "INVOCATION_BASE022_12_02",
+      "displayName": "Hybrid Relic Weapons Covenant Implement",
+      "weaponFamilyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "validSlotId": "SLOT_TOOL_RELIC",
+      "ownership": "EQUIPMENT_INSTANCE",
+      "sentientOwnershipAllowed": false,
+      "standardControl": "UNION_FORECAST_ONLY",
+      "maxActivePerEarlyUnion": 1,
+      "usesSharedAp": true,
+      "usesIndividualMp": true,
+      "baseForecastRole": "TACTICAL",
+      "requiredFacility": "FACILITY_GATE_RESEARCH_ANNEX",
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_06",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_BUNNY_04",
+          "amount": 2
+        }
+      ],
+      "runtimeGenerativeAi": false
+    }
+  ],
+  "supportItems": [
+    {
+      "itemId": "INVOCATION_SUPPORT022_01",
+      "displayName": "Resonance Lens",
+      "effect": "Improve legal Echo forecast clarity",
+      "noDirectIndividualSelection": true,
+      "noSentientOwnership": true
+    },
+    {
+      "itemId": "INVOCATION_SUPPORT022_02",
+      "displayName": "Echo Anchor",
+      "effect": "Reduce MP cost on one committed Echo",
+      "noDirectIndividualSelection": true,
+      "noSentientOwnership": true
+    },
+    {
+      "itemId": "INVOCATION_SUPPORT022_03",
+      "displayName": "Covenant Bell",
+      "effect": "Improve covenant communication",
+      "noDirectIndividualSelection": true,
+      "noSentientOwnership": true
+    },
+    {
+      "itemId": "INVOCATION_SUPPORT022_04",
+      "displayName": "Abyss Compass",
+      "effect": "Reveal one Abyss resonance route",
+      "noDirectIndividualSelection": true,
+      "noSentientOwnership": true
+    },
+    {
+      "itemId": "INVOCATION_SUPPORT022_05",
+      "displayName": "Ward Thread",
+      "effect": "Strengthen Warding interaction",
+      "noDirectIndividualSelection": true,
+      "noSentientOwnership": true
+    },
+    {
+      "itemId": "INVOCATION_SUPPORT022_06",
+      "displayName": "Union Conductor",
+      "effect": "Improve coordinated Union timing",
+      "noDirectIndividualSelection": true,
+      "noSentientOwnership": true
+    },
+    {
+      "itemId": "INVOCATION_SUPPORT022_07",
+      "displayName": "Memory Seal",
+      "effect": "Preserve one memory consequence",
+      "noDirectIndividualSelection": true,
+      "noSentientOwnership": true
+    },
+    {
+      "itemId": "INVOCATION_SUPPORT022_08",
+      "displayName": "Public Need Ledger",
+      "effect": "Prove public need for a covenant trial",
+      "noDirectIndividualSelection": true,
+      "noSentientOwnership": true
+    },
+    {
+      "itemId": "INVOCATION_SUPPORT022_09",
+      "displayName": "Negotiator Token",
+      "effect": "Improve voluntary negotiation",
+      "noDirectIndividualSelection": true,
+      "noSentientOwnership": true
+    },
+    {
+      "itemId": "INVOCATION_SUPPORT022_10",
+      "displayName": "Gate-Safe Harness",
+      "effect": "Reduce artifact backlash",
+      "noDirectIndividualSelection": true,
+      "noSentientOwnership": true
+    },
+    {
+      "itemId": "INVOCATION_SUPPORT022_11",
+      "displayName": "Resonance Dampener",
+      "effect": "Prevent resonance overflow",
+      "noDirectIndividualSelection": true,
+      "noSentientOwnership": true
+    },
+    {
+      "itemId": "INVOCATION_SUPPORT022_12",
+      "displayName": "Voluntary Release Key",
+      "effect": "Allow an artifact Echo to disengage safely",
+      "noDirectIndividualSelection": true,
+      "noSentientOwnership": true
+    }
+  ]
+}

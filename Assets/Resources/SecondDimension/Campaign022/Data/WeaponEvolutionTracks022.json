@@ -1,0 +1,2622 @@
+{
+  "tracks": [
+    {
+      "trackId": "WTRACK022_01",
+      "weaponFamilyId": "WEAPON_FAMILY_SWORD",
+      "displayName": "Swords Evolution",
+      "proficiencyTrackId": "PROF_SWORD",
+      "combatIdentity": "Adaptive single-target Martial play with reliable counter and guard branches.",
+      "stages": [
+        {
+          "tierIndex": 0,
+          "tierId": "TRAINING",
+          "requiredMasteryPoints": 0,
+          "requiredMeaningfulUses": 0,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 1,
+          "tierId": "COMMON",
+          "requiredMasteryPoints": 120,
+          "requiredMeaningfulUses": 5,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 2,
+          "tierId": "UNCOMMON",
+          "requiredMasteryPoints": 240,
+          "requiredMeaningfulUses": 10,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 3,
+          "tierId": "RARE",
+          "requiredMasteryPoints": 360,
+          "requiredMeaningfulUses": 15,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 4,
+          "tierId": "EPIC",
+          "requiredMasteryPoints": 480,
+          "requiredMeaningfulUses": 20,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 5,
+          "tierId": "LEGENDARY",
+          "requiredMasteryPoints": 600,
+          "requiredMeaningfulUses": 25,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 6,
+          "tierId": "GODLY",
+          "requiredMasteryPoints": 720,
+          "requiredMeaningfulUses": 30,
+          "maximumOrdinaryDropTier": 6
+        }
+      ],
+      "signatureBranchId": "WBRANCH022_01",
+      "manualEquipOnly": true,
+      "preservesMasteredArts": true,
+      "noAutoEquip": true
+    },
+    {
+      "trackId": "WTRACK022_02",
+      "weaponFamilyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "displayName": "Great Weapons Evolution",
+      "proficiencyTrackId": "PROF_GREAT_WEAPON",
+      "combatIdentity": "Two-handed burst and Cohesion breaking with high shared AP demand.",
+      "stages": [
+        {
+          "tierIndex": 0,
+          "tierId": "TRAINING",
+          "requiredMasteryPoints": 0,
+          "requiredMeaningfulUses": 0,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 1,
+          "tierId": "COMMON",
+          "requiredMasteryPoints": 120,
+          "requiredMeaningfulUses": 5,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 2,
+          "tierId": "UNCOMMON",
+          "requiredMasteryPoints": 240,
+          "requiredMeaningfulUses": 10,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 3,
+          "tierId": "RARE",
+          "requiredMasteryPoints": 360,
+          "requiredMeaningfulUses": 15,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 4,
+          "tierId": "EPIC",
+          "requiredMasteryPoints": 480,
+          "requiredMeaningfulUses": 20,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 5,
+          "tierId": "LEGENDARY",
+          "requiredMasteryPoints": 600,
+          "requiredMeaningfulUses": 25,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 6,
+          "tierId": "GODLY",
+          "requiredMasteryPoints": 720,
+          "requiredMeaningfulUses": 30,
+          "maximumOrdinaryDropTier": 6
+        }
+      ],
+      "signatureBranchId": "WBRANCH022_02",
+      "manualEquipOnly": true,
+      "preservesMasteredArts": true,
+      "noAutoEquip": true
+    },
+    {
+      "trackId": "WTRACK022_03",
+      "weaponFamilyId": "WEAPON_FAMILY_AXE",
+      "displayName": "Axes Evolution",
+      "proficiencyTrackId": "PROF_AXE",
+      "combatIdentity": "Armor pressure, execution weighting, and aggressive counterplay.",
+      "stages": [
+        {
+          "tierIndex": 0,
+          "tierId": "TRAINING",
+          "requiredMasteryPoints": 0,
+          "requiredMeaningfulUses": 0,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 1,
+          "tierId": "COMMON",
+          "requiredMasteryPoints": 120,
+          "requiredMeaningfulUses": 5,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 2,
+          "tierId": "UNCOMMON",
+          "requiredMasteryPoints": 240,
+          "requiredMeaningfulUses": 10,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 3,
+          "tierId": "RARE",
+          "requiredMasteryPoints": 360,
+          "requiredMeaningfulUses": 15,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 4,
+          "tierId": "EPIC",
+          "requiredMasteryPoints": 480,
+          "requiredMeaningfulUses": 20,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 5,
+          "tierId": "LEGENDARY",
+          "requiredMasteryPoints": 600,
+          "requiredMeaningfulUses": 25,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 6,
+          "tierId": "GODLY",
+          "requiredMasteryPoints": 720,
+          "requiredMeaningfulUses": 30,
+          "maximumOrdinaryDropTier": 6
+        }
+      ],
+      "signatureBranchId": "WBRANCH022_03",
+      "manualEquipOnly": true,
+      "preservesMasteredArts": true,
+      "noAutoEquip": true
+    },
+    {
+      "trackId": "WTRACK022_04",
+      "weaponFamilyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "displayName": "Spears and Polearms Evolution",
+      "proficiencyTrackId": "PROF_SPEAR_POLEARM",
+      "combatIdentity": "Reach control, interception lanes, and positional punishment.",
+      "stages": [
+        {
+          "tierIndex": 0,
+          "tierId": "TRAINING",
+          "requiredMasteryPoints": 0,
+          "requiredMeaningfulUses": 0,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 1,
+          "tierId": "COMMON",
+          "requiredMasteryPoints": 120,
+          "requiredMeaningfulUses": 5,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 2,
+          "tierId": "UNCOMMON",
+          "requiredMasteryPoints": 240,
+          "requiredMeaningfulUses": 10,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 3,
+          "tierId": "RARE",
+          "requiredMasteryPoints": 360,
+          "requiredMeaningfulUses": 15,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 4,
+          "tierId": "EPIC",
+          "requiredMasteryPoints": 480,
+          "requiredMeaningfulUses": 20,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 5,
+          "tierId": "LEGENDARY",
+          "requiredMasteryPoints": 600,
+          "requiredMeaningfulUses": 25,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 6,
+          "tierId": "GODLY",
+          "requiredMasteryPoints": 720,
+          "requiredMeaningfulUses": 30,
+          "maximumOrdinaryDropTier": 6
+        }
+      ],
+      "signatureBranchId": "WBRANCH022_04",
+      "manualEquipOnly": true,
+      "preservesMasteredArts": true,
+      "noAutoEquip": true
+    },
+    {
+      "trackId": "WTRACK022_05",
+      "weaponFamilyId": "WEAPON_FAMILY_BOW",
+      "displayName": "Bows Evolution",
+      "proficiencyTrackId": "PROF_BOW",
+      "combatIdentity": "Ranged target marking, cover, and rear-line pressure.",
+      "stages": [
+        {
+          "tierIndex": 0,
+          "tierId": "TRAINING",
+          "requiredMasteryPoints": 0,
+          "requiredMeaningfulUses": 0,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 1,
+          "tierId": "COMMON",
+          "requiredMasteryPoints": 120,
+          "requiredMeaningfulUses": 5,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 2,
+          "tierId": "UNCOMMON",
+          "requiredMasteryPoints": 240,
+          "requiredMeaningfulUses": 10,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 3,
+          "tierId": "RARE",
+          "requiredMasteryPoints": 360,
+          "requiredMeaningfulUses": 15,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 4,
+          "tierId": "EPIC",
+          "requiredMasteryPoints": 480,
+          "requiredMeaningfulUses": 20,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 5,
+          "tierId": "LEGENDARY",
+          "requiredMasteryPoints": 600,
+          "requiredMeaningfulUses": 25,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 6,
+          "tierId": "GODLY",
+          "requiredMasteryPoints": 720,
+          "requiredMeaningfulUses": 30,
+          "maximumOrdinaryDropTier": 6
+        }
+      ],
+      "signatureBranchId": "WBRANCH022_05",
+      "manualEquipOnly": true,
+      "preservesMasteredArts": true,
+      "noAutoEquip": true
+    },
+    {
+      "trackId": "WTRACK022_06",
+      "weaponFamilyId": "WEAPON_FAMILY_DAGGER",
+      "displayName": "Daggers Evolution",
+      "proficiencyTrackId": "PROF_DAGGER",
+      "combatIdentity": "Low-AP mobility, status setup, and rear-line exploitation.",
+      "stages": [
+        {
+          "tierIndex": 0,
+          "tierId": "TRAINING",
+          "requiredMasteryPoints": 0,
+          "requiredMeaningfulUses": 0,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 1,
+          "tierId": "COMMON",
+          "requiredMasteryPoints": 120,
+          "requiredMeaningfulUses": 5,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 2,
+          "tierId": "UNCOMMON",
+          "requiredMasteryPoints": 240,
+          "requiredMeaningfulUses": 10,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 3,
+          "tierId": "RARE",
+          "requiredMasteryPoints": 360,
+          "requiredMeaningfulUses": 15,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 4,
+          "tierId": "EPIC",
+          "requiredMasteryPoints": 480,
+          "requiredMeaningfulUses": 20,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 5,
+          "tierId": "LEGENDARY",
+          "requiredMasteryPoints": 600,
+          "requiredMeaningfulUses": 25,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 6,
+          "tierId": "GODLY",
+          "requiredMasteryPoints": 720,
+          "requiredMeaningfulUses": 30,
+          "maximumOrdinaryDropTier": 6
+        }
+      ],
+      "signatureBranchId": "WBRANCH022_06",
+      "manualEquipOnly": true,
+      "preservesMasteredArts": true,
+      "noAutoEquip": true
+    },
+    {
+      "trackId": "WTRACK022_07",
+      "weaponFamilyId": "WEAPON_FAMILY_SHIELD",
+      "displayName": "Shields Evolution",
+      "proficiencyTrackId": "PROF_SHIELD",
+      "combatIdentity": "Interception, Cohesion protection, and defensive command enablement.",
+      "stages": [
+        {
+          "tierIndex": 0,
+          "tierId": "TRAINING",
+          "requiredMasteryPoints": 0,
+          "requiredMeaningfulUses": 0,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 1,
+          "tierId": "COMMON",
+          "requiredMasteryPoints": 120,
+          "requiredMeaningfulUses": 5,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 2,
+          "tierId": "UNCOMMON",
+          "requiredMasteryPoints": 240,
+          "requiredMeaningfulUses": 10,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 3,
+          "tierId": "RARE",
+          "requiredMasteryPoints": 360,
+          "requiredMeaningfulUses": 15,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 4,
+          "tierId": "EPIC",
+          "requiredMasteryPoints": 480,
+          "requiredMeaningfulUses": 20,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 5,
+          "tierId": "LEGENDARY",
+          "requiredMasteryPoints": 600,
+          "requiredMeaningfulUses": 25,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 6,
+          "tierId": "GODLY",
+          "requiredMasteryPoints": 720,
+          "requiredMeaningfulUses": 30,
+          "maximumOrdinaryDropTier": 6
+        }
+      ],
+      "signatureBranchId": "WBRANCH022_07",
+      "manualEquipOnly": true,
+      "preservesMasteredArts": true,
+      "noAutoEquip": true
+    },
+    {
+      "trackId": "WTRACK022_08",
+      "weaponFamilyId": "WEAPON_FAMILY_GAUNTLET",
+      "displayName": "Gauntlets and Unarmed Implements Evolution",
+      "proficiencyTrackId": "PROF_GAUNTLET",
+      "combatIdentity": "Fast close-range control, grapples, and bodyguard reactions.",
+      "stages": [
+        {
+          "tierIndex": 0,
+          "tierId": "TRAINING",
+          "requiredMasteryPoints": 0,
+          "requiredMeaningfulUses": 0,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 1,
+          "tierId": "COMMON",
+          "requiredMasteryPoints": 120,
+          "requiredMeaningfulUses": 5,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 2,
+          "tierId": "UNCOMMON",
+          "requiredMasteryPoints": 240,
+          "requiredMeaningfulUses": 10,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 3,
+          "tierId": "RARE",
+          "requiredMasteryPoints": 360,
+          "requiredMeaningfulUses": 15,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 4,
+          "tierId": "EPIC",
+          "requiredMasteryPoints": 480,
+          "requiredMeaningfulUses": 20,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 5,
+          "tierId": "LEGENDARY",
+          "requiredMasteryPoints": 600,
+          "requiredMeaningfulUses": 25,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 6,
+          "tierId": "GODLY",
+          "requiredMasteryPoints": 720,
+          "requiredMeaningfulUses": 30,
+          "maximumOrdinaryDropTier": 6
+        }
+      ],
+      "signatureBranchId": "WBRANCH022_08",
+      "manualEquipOnly": true,
+      "preservesMasteredArts": true,
+      "noAutoEquip": true
+    },
+    {
+      "trackId": "WTRACK022_09",
+      "weaponFamilyId": "WEAPON_FAMILY_STAFF",
+      "displayName": "Staves Evolution",
+      "proficiencyTrackId": "PROF_STAFF",
+      "combatIdentity": "Mystic channeling, Restoration reach, and area control.",
+      "stages": [
+        {
+          "tierIndex": 0,
+          "tierId": "TRAINING",
+          "requiredMasteryPoints": 0,
+          "requiredMeaningfulUses": 0,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 1,
+          "tierId": "COMMON",
+          "requiredMasteryPoints": 120,
+          "requiredMeaningfulUses": 5,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 2,
+          "tierId": "UNCOMMON",
+          "requiredMasteryPoints": 240,
+          "requiredMeaningfulUses": 10,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 3,
+          "tierId": "RARE",
+          "requiredMasteryPoints": 360,
+          "requiredMeaningfulUses": 15,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 4,
+          "tierId": "EPIC",
+          "requiredMasteryPoints": 480,
+          "requiredMeaningfulUses": 20,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 5,
+          "tierId": "LEGENDARY",
+          "requiredMasteryPoints": 600,
+          "requiredMeaningfulUses": 25,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 6,
+          "tierId": "GODLY",
+          "requiredMasteryPoints": 720,
+          "requiredMeaningfulUses": 30,
+          "maximumOrdinaryDropTier": 6
+        }
+      ],
+      "signatureBranchId": "WBRANCH022_09",
+      "manualEquipOnly": true,
+      "preservesMasteredArts": true,
+      "noAutoEquip": true
+    },
+    {
+      "trackId": "WTRACK022_10",
+      "weaponFamilyId": "WEAPON_FAMILY_FOCUS",
+      "displayName": "Catalysts and Foci Evolution",
+      "proficiencyTrackId": "PROF_FOCUS",
+      "combatIdentity": "Specialized spell shaping, support control, and compact off-hand casting.",
+      "stages": [
+        {
+          "tierIndex": 0,
+          "tierId": "TRAINING",
+          "requiredMasteryPoints": 0,
+          "requiredMeaningfulUses": 0,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 1,
+          "tierId": "COMMON",
+          "requiredMasteryPoints": 120,
+          "requiredMeaningfulUses": 5,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 2,
+          "tierId": "UNCOMMON",
+          "requiredMasteryPoints": 240,
+          "requiredMeaningfulUses": 10,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 3,
+          "tierId": "RARE",
+          "requiredMasteryPoints": 360,
+          "requiredMeaningfulUses": 15,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 4,
+          "tierId": "EPIC",
+          "requiredMasteryPoints": 480,
+          "requiredMeaningfulUses": 20,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 5,
+          "tierId": "LEGENDARY",
+          "requiredMasteryPoints": 600,
+          "requiredMeaningfulUses": 25,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 6,
+          "tierId": "GODLY",
+          "requiredMasteryPoints": 720,
+          "requiredMeaningfulUses": 30,
+          "maximumOrdinaryDropTier": 6
+        }
+      ],
+      "signatureBranchId": "WBRANCH022_10",
+      "manualEquipOnly": true,
+      "preservesMasteredArts": true,
+      "noAutoEquip": true
+    },
+    {
+      "trackId": "WTRACK022_11",
+      "weaponFamilyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "displayName": "Engineering Weapons and Tools Evolution",
+      "proficiencyTrackId": "PROF_ENGINEERING_TOOL",
+      "combatIdentity": "Deployables, terrain changes, signals, and equipment-driven forecasts.",
+      "stages": [
+        {
+          "tierIndex": 0,
+          "tierId": "TRAINING",
+          "requiredMasteryPoints": 0,
+          "requiredMeaningfulUses": 0,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 1,
+          "tierId": "COMMON",
+          "requiredMasteryPoints": 120,
+          "requiredMeaningfulUses": 5,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 2,
+          "tierId": "UNCOMMON",
+          "requiredMasteryPoints": 240,
+          "requiredMeaningfulUses": 10,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 3,
+          "tierId": "RARE",
+          "requiredMasteryPoints": 360,
+          "requiredMeaningfulUses": 15,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 4,
+          "tierId": "EPIC",
+          "requiredMasteryPoints": 480,
+          "requiredMeaningfulUses": 20,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 5,
+          "tierId": "LEGENDARY",
+          "requiredMasteryPoints": 600,
+          "requiredMeaningfulUses": 25,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 6,
+          "tierId": "GODLY",
+          "requiredMasteryPoints": 720,
+          "requiredMeaningfulUses": 30,
+          "maximumOrdinaryDropTier": 6
+        }
+      ],
+      "signatureBranchId": "WBRANCH022_11",
+      "manualEquipOnly": true,
+      "preservesMasteredArts": true,
+      "noAutoEquip": true
+    },
+    {
+      "trackId": "WTRACK022_12",
+      "weaponFamilyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "displayName": "Hybrid Relic Weapons Evolution",
+      "proficiencyTrackId": "PROF_HYBRID_RELIC_WEAPON",
+      "combatIdentity": "World-specific weapons combining Martial and Mystic behavior.",
+      "stages": [
+        {
+          "tierIndex": 0,
+          "tierId": "TRAINING",
+          "requiredMasteryPoints": 0,
+          "requiredMeaningfulUses": 0,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 1,
+          "tierId": "COMMON",
+          "requiredMasteryPoints": 120,
+          "requiredMeaningfulUses": 5,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 2,
+          "tierId": "UNCOMMON",
+          "requiredMasteryPoints": 240,
+          "requiredMeaningfulUses": 10,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 3,
+          "tierId": "RARE",
+          "requiredMasteryPoints": 360,
+          "requiredMeaningfulUses": 15,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 4,
+          "tierId": "EPIC",
+          "requiredMasteryPoints": 480,
+          "requiredMeaningfulUses": 20,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 5,
+          "tierId": "LEGENDARY",
+          "requiredMasteryPoints": 600,
+          "requiredMeaningfulUses": 25,
+          "maximumOrdinaryDropTier": 5
+        },
+        {
+          "tierIndex": 6,
+          "tierId": "GODLY",
+          "requiredMasteryPoints": 720,
+          "requiredMeaningfulUses": 30,
+          "maximumOrdinaryDropTier": 6
+        }
+      ],
+      "signatureBranchId": "WBRANCH022_12",
+      "manualEquipOnly": true,
+      "preservesMasteredArts": true,
+      "noAutoEquip": true
+    }
+  ],
+  "recipes": [
+    {
+      "recipeId": "WRECIPE022_01_01",
+      "trackId": "WTRACK022_01",
+      "weaponFamilyId": "WEAPON_FAMILY_SWORD",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredMasteryPoints": 120,
+      "requiredMeaningfulUses": 5,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_SKYHOME_02",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_BEAST_02",
+          "amount": 1
+        }
+      ],
+      "historyRequirement": "Complete 1 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_01_02",
+      "trackId": "WTRACK022_01",
+      "weaponFamilyId": "WEAPON_FAMILY_SWORD",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredMasteryPoints": 240,
+      "requiredMeaningfulUses": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_01",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_BUNNY_03",
+          "amount": 2
+        }
+      ],
+      "historyRequirement": "Complete 2 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_01_03",
+      "trackId": "WTRACK022_01",
+      "weaponFamilyId": "WEAPON_FAMILY_SWORD",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredMasteryPoints": 360,
+      "requiredMeaningfulUses": 15,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_04",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_DARKELF_04",
+          "amount": 2
+        }
+      ],
+      "historyRequirement": "Complete 3 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_01_04",
+      "trackId": "WTRACK022_01",
+      "weaponFamilyId": "WEAPON_FAMILY_SWORD",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredMasteryPoints": 480,
+      "requiredMeaningfulUses": 20,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_03",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_DEMON_05",
+          "amount": 3
+        }
+      ],
+      "historyRequirement": "Complete 4 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_01_05",
+      "trackId": "WTRACK022_01",
+      "weaponFamilyId": "WEAPON_FAMILY_SWORD",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredMasteryPoints": 600,
+      "requiredMeaningfulUses": 25,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_06",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_DOG_06",
+          "amount": 3
+        }
+      ],
+      "historyRequirement": "Complete 5 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_01_06",
+      "trackId": "WTRACK022_01",
+      "weaponFamilyId": "WEAPON_FAMILY_SWORD",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredMasteryPoints": 720,
+      "requiredMeaningfulUses": 30,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_05",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_ORC_01",
+          "amount": 4
+        }
+      ],
+      "historyRequirement": "Complete 6 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "WRECIPE022_02_01",
+      "trackId": "WTRACK022_02",
+      "weaponFamilyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredMasteryPoints": 120,
+      "requiredMeaningfulUses": 5,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_01",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_BUNNY_01",
+          "amount": 1
+        }
+      ],
+      "historyRequirement": "Complete 1 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_02_02",
+      "trackId": "WTRACK022_02",
+      "weaponFamilyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredMasteryPoints": 240,
+      "requiredMeaningfulUses": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_02",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_DARKELF_02",
+          "amount": 2
+        }
+      ],
+      "historyRequirement": "Complete 2 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_02_03",
+      "trackId": "WTRACK022_02",
+      "weaponFamilyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredMasteryPoints": 360,
+      "requiredMeaningfulUses": 15,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_03",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_DEMON_03",
+          "amount": 2
+        }
+      ],
+      "historyRequirement": "Complete 3 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_02_04",
+      "trackId": "WTRACK022_02",
+      "weaponFamilyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredMasteryPoints": 480,
+      "requiredMeaningfulUses": 20,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_04",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_DOG_04",
+          "amount": 3
+        }
+      ],
+      "historyRequirement": "Complete 4 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_02_05",
+      "trackId": "WTRACK022_02",
+      "weaponFamilyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredMasteryPoints": 600,
+      "requiredMeaningfulUses": 25,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_05",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_GOBLIN_05",
+          "amount": 3
+        }
+      ],
+      "historyRequirement": "Complete 5 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_02_06",
+      "trackId": "WTRACK022_02",
+      "weaponFamilyId": "WEAPON_FAMILY_GREAT_WEAPON",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredMasteryPoints": 720,
+      "requiredMeaningfulUses": 30,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_06",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_ORC_06",
+          "amount": 4
+        }
+      ],
+      "historyRequirement": "Complete 6 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "WRECIPE022_03_01",
+      "trackId": "WTRACK022_03",
+      "weaponFamilyId": "WEAPON_FAMILY_AXE",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredMasteryPoints": 120,
+      "requiredMeaningfulUses": 5,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BEAST_02",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_BUNNY_06",
+          "amount": 1
+        }
+      ],
+      "historyRequirement": "Complete 1 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_03_02",
+      "trackId": "WTRACK022_03",
+      "weaponFamilyId": "WEAPON_FAMILY_AXE",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredMasteryPoints": 240,
+      "requiredMeaningfulUses": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_01",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_DEMON_01",
+          "amount": 2
+        }
+      ],
+      "historyRequirement": "Complete 2 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_03_03",
+      "trackId": "WTRACK022_03",
+      "weaponFamilyId": "WEAPON_FAMILY_AXE",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredMasteryPoints": 360,
+      "requiredMeaningfulUses": 15,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_04",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_DOG_02",
+          "amount": 2
+        }
+      ],
+      "historyRequirement": "Complete 3 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_03_04",
+      "trackId": "WTRACK022_03",
+      "weaponFamilyId": "WEAPON_FAMILY_AXE",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredMasteryPoints": 480,
+      "requiredMeaningfulUses": 20,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_03",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_GOBLIN_03",
+          "amount": 3
+        }
+      ],
+      "historyRequirement": "Complete 4 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_03_05",
+      "trackId": "WTRACK022_03",
+      "weaponFamilyId": "WEAPON_FAMILY_AXE",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredMasteryPoints": 600,
+      "requiredMeaningfulUses": 25,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_06",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_ORC_04",
+          "amount": 3
+        }
+      ],
+      "historyRequirement": "Complete 5 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_03_06",
+      "trackId": "WTRACK022_03",
+      "weaponFamilyId": "WEAPON_FAMILY_AXE",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredMasteryPoints": 720,
+      "requiredMeaningfulUses": 30,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_05",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_SKYHOME_05",
+          "amount": 4
+        }
+      ],
+      "historyRequirement": "Complete 6 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "WRECIPE022_04_01",
+      "trackId": "WTRACK022_04",
+      "weaponFamilyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredMasteryPoints": 120,
+      "requiredMeaningfulUses": 5,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_01",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_DARKELF_05",
+          "amount": 1
+        }
+      ],
+      "historyRequirement": "Complete 1 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_04_02",
+      "trackId": "WTRACK022_04",
+      "weaponFamilyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredMasteryPoints": 240,
+      "requiredMeaningfulUses": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_02",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_DEMON_06",
+          "amount": 2
+        }
+      ],
+      "historyRequirement": "Complete 2 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_04_03",
+      "trackId": "WTRACK022_04",
+      "weaponFamilyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredMasteryPoints": 360,
+      "requiredMeaningfulUses": 15,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_03",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_GOBLIN_01",
+          "amount": 2
+        }
+      ],
+      "historyRequirement": "Complete 3 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_04_04",
+      "trackId": "WTRACK022_04",
+      "weaponFamilyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredMasteryPoints": 480,
+      "requiredMeaningfulUses": 20,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_04",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_ORC_02",
+          "amount": 3
+        }
+      ],
+      "historyRequirement": "Complete 4 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_04_05",
+      "trackId": "WTRACK022_04",
+      "weaponFamilyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredMasteryPoints": 600,
+      "requiredMeaningfulUses": 25,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_05",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_SKYHOME_03",
+          "amount": 3
+        }
+      ],
+      "historyRequirement": "Complete 5 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_04_06",
+      "trackId": "WTRACK022_04",
+      "weaponFamilyId": "WEAPON_FAMILY_SPEAR_POLEARM",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredMasteryPoints": 720,
+      "requiredMeaningfulUses": 30,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_06",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_BEAST_04",
+          "amount": 4
+        }
+      ],
+      "historyRequirement": "Complete 6 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "WRECIPE022_05_01",
+      "trackId": "WTRACK022_05",
+      "weaponFamilyId": "WEAPON_FAMILY_BOW",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredMasteryPoints": 120,
+      "requiredMeaningfulUses": 5,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_BUNNY_02",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_DEMON_04",
+          "amount": 1
+        }
+      ],
+      "historyRequirement": "Complete 1 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_05_02",
+      "trackId": "WTRACK022_05",
+      "weaponFamilyId": "WEAPON_FAMILY_BOW",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredMasteryPoints": 240,
+      "requiredMeaningfulUses": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_01",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_DOG_05",
+          "amount": 2
+        }
+      ],
+      "historyRequirement": "Complete 2 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_05_03",
+      "trackId": "WTRACK022_05",
+      "weaponFamilyId": "WEAPON_FAMILY_BOW",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredMasteryPoints": 360,
+      "requiredMeaningfulUses": 15,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_04",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_GOBLIN_06",
+          "amount": 2
+        }
+      ],
+      "historyRequirement": "Complete 3 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_05_04",
+      "trackId": "WTRACK022_05",
+      "weaponFamilyId": "WEAPON_FAMILY_BOW",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredMasteryPoints": 480,
+      "requiredMeaningfulUses": 20,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_03",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_SKYHOME_01",
+          "amount": 3
+        }
+      ],
+      "historyRequirement": "Complete 4 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_05_05",
+      "trackId": "WTRACK022_05",
+      "weaponFamilyId": "WEAPON_FAMILY_BOW",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredMasteryPoints": 600,
+      "requiredMeaningfulUses": 25,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_06",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_BEAST_02",
+          "amount": 3
+        }
+      ],
+      "historyRequirement": "Complete 5 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_05_06",
+      "trackId": "WTRACK022_05",
+      "weaponFamilyId": "WEAPON_FAMILY_BOW",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredMasteryPoints": 720,
+      "requiredMeaningfulUses": 30,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_05",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_BUNNY_03",
+          "amount": 4
+        }
+      ],
+      "historyRequirement": "Complete 6 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "WRECIPE022_06_01",
+      "trackId": "WTRACK022_06",
+      "weaponFamilyId": "WEAPON_FAMILY_DAGGER",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredMasteryPoints": 120,
+      "requiredMeaningfulUses": 5,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_01",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_DOG_03",
+          "amount": 1
+        }
+      ],
+      "historyRequirement": "Complete 1 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_06_02",
+      "trackId": "WTRACK022_06",
+      "weaponFamilyId": "WEAPON_FAMILY_DAGGER",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredMasteryPoints": 240,
+      "requiredMeaningfulUses": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_02",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_GOBLIN_04",
+          "amount": 2
+        }
+      ],
+      "historyRequirement": "Complete 2 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_06_03",
+      "trackId": "WTRACK022_06",
+      "weaponFamilyId": "WEAPON_FAMILY_DAGGER",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredMasteryPoints": 360,
+      "requiredMeaningfulUses": 15,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_03",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_ORC_05",
+          "amount": 2
+        }
+      ],
+      "historyRequirement": "Complete 3 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_06_04",
+      "trackId": "WTRACK022_06",
+      "weaponFamilyId": "WEAPON_FAMILY_DAGGER",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredMasteryPoints": 480,
+      "requiredMeaningfulUses": 20,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_04",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_SKYHOME_06",
+          "amount": 3
+        }
+      ],
+      "historyRequirement": "Complete 4 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_06_05",
+      "trackId": "WTRACK022_06",
+      "weaponFamilyId": "WEAPON_FAMILY_DAGGER",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredMasteryPoints": 600,
+      "requiredMeaningfulUses": 25,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_05",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_BUNNY_01",
+          "amount": 3
+        }
+      ],
+      "historyRequirement": "Complete 5 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_06_06",
+      "trackId": "WTRACK022_06",
+      "weaponFamilyId": "WEAPON_FAMILY_DAGGER",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredMasteryPoints": 720,
+      "requiredMeaningfulUses": 30,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_06",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_DARKELF_02",
+          "amount": 4
+        }
+      ],
+      "historyRequirement": "Complete 6 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "WRECIPE022_07_01",
+      "trackId": "WTRACK022_07",
+      "weaponFamilyId": "WEAPON_FAMILY_SHIELD",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredMasteryPoints": 120,
+      "requiredMeaningfulUses": 5,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DARKELF_02",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_GOBLIN_02",
+          "amount": 1
+        }
+      ],
+      "historyRequirement": "Complete 1 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_07_02",
+      "trackId": "WTRACK022_07",
+      "weaponFamilyId": "WEAPON_FAMILY_SHIELD",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredMasteryPoints": 240,
+      "requiredMeaningfulUses": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_01",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_ORC_03",
+          "amount": 2
+        }
+      ],
+      "historyRequirement": "Complete 2 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_07_03",
+      "trackId": "WTRACK022_07",
+      "weaponFamilyId": "WEAPON_FAMILY_SHIELD",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredMasteryPoints": 360,
+      "requiredMeaningfulUses": 15,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_04",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_SKYHOME_04",
+          "amount": 2
+        }
+      ],
+      "historyRequirement": "Complete 3 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_07_04",
+      "trackId": "WTRACK022_07",
+      "weaponFamilyId": "WEAPON_FAMILY_SHIELD",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredMasteryPoints": 480,
+      "requiredMeaningfulUses": 20,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_03",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_BEAST_05",
+          "amount": 3
+        }
+      ],
+      "historyRequirement": "Complete 4 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_07_05",
+      "trackId": "WTRACK022_07",
+      "weaponFamilyId": "WEAPON_FAMILY_SHIELD",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredMasteryPoints": 600,
+      "requiredMeaningfulUses": 25,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_06",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_BUNNY_06",
+          "amount": 3
+        }
+      ],
+      "historyRequirement": "Complete 5 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_07_06",
+      "trackId": "WTRACK022_07",
+      "weaponFamilyId": "WEAPON_FAMILY_SHIELD",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredMasteryPoints": 720,
+      "requiredMeaningfulUses": 30,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_05",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_DEMON_01",
+          "amount": 4
+        }
+      ],
+      "historyRequirement": "Complete 6 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "WRECIPE022_08_01",
+      "trackId": "WTRACK022_08",
+      "weaponFamilyId": "WEAPON_FAMILY_GAUNTLET",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredMasteryPoints": 120,
+      "requiredMeaningfulUses": 5,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_01",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_ORC_01",
+          "amount": 1
+        }
+      ],
+      "historyRequirement": "Complete 1 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_08_02",
+      "trackId": "WTRACK022_08",
+      "weaponFamilyId": "WEAPON_FAMILY_GAUNTLET",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredMasteryPoints": 240,
+      "requiredMeaningfulUses": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_02",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_SKYHOME_02",
+          "amount": 2
+        }
+      ],
+      "historyRequirement": "Complete 2 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_08_03",
+      "trackId": "WTRACK022_08",
+      "weaponFamilyId": "WEAPON_FAMILY_GAUNTLET",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredMasteryPoints": 360,
+      "requiredMeaningfulUses": 15,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_03",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_BEAST_03",
+          "amount": 2
+        }
+      ],
+      "historyRequirement": "Complete 3 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_08_04",
+      "trackId": "WTRACK022_08",
+      "weaponFamilyId": "WEAPON_FAMILY_GAUNTLET",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredMasteryPoints": 480,
+      "requiredMeaningfulUses": 20,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_04",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_BUNNY_04",
+          "amount": 3
+        }
+      ],
+      "historyRequirement": "Complete 4 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_08_05",
+      "trackId": "WTRACK022_08",
+      "weaponFamilyId": "WEAPON_FAMILY_GAUNTLET",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredMasteryPoints": 600,
+      "requiredMeaningfulUses": 25,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_05",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_DARKELF_05",
+          "amount": 3
+        }
+      ],
+      "historyRequirement": "Complete 5 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_08_06",
+      "trackId": "WTRACK022_08",
+      "weaponFamilyId": "WEAPON_FAMILY_GAUNTLET",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredMasteryPoints": 720,
+      "requiredMeaningfulUses": 30,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_06",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_DEMON_06",
+          "amount": 4
+        }
+      ],
+      "historyRequirement": "Complete 6 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "WRECIPE022_09_01",
+      "trackId": "WTRACK022_09",
+      "weaponFamilyId": "WEAPON_FAMILY_STAFF",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredMasteryPoints": 120,
+      "requiredMeaningfulUses": 5,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DEMON_02",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_ORC_06",
+          "amount": 1
+        }
+      ],
+      "historyRequirement": "Complete 1 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_09_02",
+      "trackId": "WTRACK022_09",
+      "weaponFamilyId": "WEAPON_FAMILY_STAFF",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredMasteryPoints": 240,
+      "requiredMeaningfulUses": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_01",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_BEAST_01",
+          "amount": 2
+        }
+      ],
+      "historyRequirement": "Complete 2 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_09_03",
+      "trackId": "WTRACK022_09",
+      "weaponFamilyId": "WEAPON_FAMILY_STAFF",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredMasteryPoints": 360,
+      "requiredMeaningfulUses": 15,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_04",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_BUNNY_02",
+          "amount": 2
+        }
+      ],
+      "historyRequirement": "Complete 3 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_09_04",
+      "trackId": "WTRACK022_09",
+      "weaponFamilyId": "WEAPON_FAMILY_STAFF",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredMasteryPoints": 480,
+      "requiredMeaningfulUses": 20,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_03",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_DARKELF_03",
+          "amount": 3
+        }
+      ],
+      "historyRequirement": "Complete 4 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_09_05",
+      "trackId": "WTRACK022_09",
+      "weaponFamilyId": "WEAPON_FAMILY_STAFF",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredMasteryPoints": 600,
+      "requiredMeaningfulUses": 25,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_06",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_DEMON_04",
+          "amount": 3
+        }
+      ],
+      "historyRequirement": "Complete 5 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_09_06",
+      "trackId": "WTRACK022_09",
+      "weaponFamilyId": "WEAPON_FAMILY_STAFF",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredMasteryPoints": 720,
+      "requiredMeaningfulUses": 30,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_ORC_05",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_DOG_05",
+          "amount": 4
+        }
+      ],
+      "historyRequirement": "Complete 6 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "WRECIPE022_10_01",
+      "trackId": "WTRACK022_10",
+      "weaponFamilyId": "WEAPON_FAMILY_FOCUS",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredMasteryPoints": 120,
+      "requiredMeaningfulUses": 5,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_01",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_SKYHOME_05",
+          "amount": 1
+        }
+      ],
+      "historyRequirement": "Complete 1 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_10_02",
+      "trackId": "WTRACK022_10",
+      "weaponFamilyId": "WEAPON_FAMILY_FOCUS",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredMasteryPoints": 240,
+      "requiredMeaningfulUses": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_02",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_BEAST_06",
+          "amount": 2
+        }
+      ],
+      "historyRequirement": "Complete 2 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_10_03",
+      "trackId": "WTRACK022_10",
+      "weaponFamilyId": "WEAPON_FAMILY_FOCUS",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredMasteryPoints": 360,
+      "requiredMeaningfulUses": 15,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_03",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_DARKELF_01",
+          "amount": 2
+        }
+      ],
+      "historyRequirement": "Complete 3 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_10_04",
+      "trackId": "WTRACK022_10",
+      "weaponFamilyId": "WEAPON_FAMILY_FOCUS",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredMasteryPoints": 480,
+      "requiredMeaningfulUses": 20,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_04",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_DEMON_02",
+          "amount": 3
+        }
+      ],
+      "historyRequirement": "Complete 4 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_10_05",
+      "trackId": "WTRACK022_10",
+      "weaponFamilyId": "WEAPON_FAMILY_FOCUS",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredMasteryPoints": 600,
+      "requiredMeaningfulUses": 25,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_ORC_05",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_DOG_03",
+          "amount": 3
+        }
+      ],
+      "historyRequirement": "Complete 5 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_10_06",
+      "trackId": "WTRACK022_10",
+      "weaponFamilyId": "WEAPON_FAMILY_FOCUS",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredMasteryPoints": 720,
+      "requiredMeaningfulUses": 30,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_ORC_06",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_GOBLIN_04",
+          "amount": 4
+        }
+      ],
+      "historyRequirement": "Complete 6 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "WRECIPE022_11_01",
+      "trackId": "WTRACK022_11",
+      "weaponFamilyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredMasteryPoints": 120,
+      "requiredMeaningfulUses": 5,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_DOG_02",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_BEAST_04",
+          "amount": 1
+        }
+      ],
+      "historyRequirement": "Complete 1 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_11_02",
+      "trackId": "WTRACK022_11",
+      "weaponFamilyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredMasteryPoints": 240,
+      "requiredMeaningfulUses": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_01",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_BUNNY_05",
+          "amount": 2
+        }
+      ],
+      "historyRequirement": "Complete 2 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_11_03",
+      "trackId": "WTRACK022_11",
+      "weaponFamilyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredMasteryPoints": 360,
+      "requiredMeaningfulUses": 15,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_04",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_DARKELF_06",
+          "amount": 2
+        }
+      ],
+      "historyRequirement": "Complete 3 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_11_04",
+      "trackId": "WTRACK022_11",
+      "weaponFamilyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredMasteryPoints": 480,
+      "requiredMeaningfulUses": 20,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_ORC_03",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_DOG_01",
+          "amount": 3
+        }
+      ],
+      "historyRequirement": "Complete 4 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_11_05",
+      "trackId": "WTRACK022_11",
+      "weaponFamilyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredMasteryPoints": 600,
+      "requiredMeaningfulUses": 25,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_ORC_06",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_GOBLIN_02",
+          "amount": 3
+        }
+      ],
+      "historyRequirement": "Complete 5 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_11_06",
+      "trackId": "WTRACK022_11",
+      "weaponFamilyId": "WEAPON_FAMILY_ENGINEERING_TOOL",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredMasteryPoints": 720,
+      "requiredMeaningfulUses": 30,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_SKYHOME_05",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_ORC_03",
+          "amount": 4
+        }
+      ],
+      "historyRequirement": "Complete 6 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    },
+    {
+      "recipeId": "WRECIPE022_12_01",
+      "trackId": "WTRACK022_12",
+      "weaponFamilyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "fromTier": "TRAINING",
+      "toTier": "COMMON",
+      "forgeLevelRequired": 1,
+      "requiredMasteryPoints": 120,
+      "requiredMeaningfulUses": 5,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_01",
+          "amount": 3
+        },
+        {
+          "materialId": "MAT020_BUNNY_03",
+          "amount": 1
+        }
+      ],
+      "historyRequirement": "Complete 1 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_12_02",
+      "trackId": "WTRACK022_12",
+      "weaponFamilyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "fromTier": "COMMON",
+      "toTier": "UNCOMMON",
+      "forgeLevelRequired": 2,
+      "requiredMasteryPoints": 240,
+      "requiredMeaningfulUses": 10,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_GOBLIN_02",
+          "amount": 4
+        },
+        {
+          "materialId": "MAT020_DARKELF_04",
+          "amount": 2
+        }
+      ],
+      "historyRequirement": "Complete 2 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_12_03",
+      "trackId": "WTRACK022_12",
+      "weaponFamilyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "fromTier": "UNCOMMON",
+      "toTier": "RARE",
+      "forgeLevelRequired": 3,
+      "requiredMasteryPoints": 360,
+      "requiredMeaningfulUses": 15,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_ORC_03",
+          "amount": 5
+        },
+        {
+          "materialId": "MAT020_DEMON_05",
+          "amount": 2
+        }
+      ],
+      "historyRequirement": "Complete 3 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_12_04",
+      "trackId": "WTRACK022_12",
+      "weaponFamilyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "fromTier": "RARE",
+      "toTier": "EPIC",
+      "forgeLevelRequired": 4,
+      "requiredMasteryPoints": 480,
+      "requiredMeaningfulUses": 20,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_ORC_04",
+          "amount": 6
+        },
+        {
+          "materialId": "MAT020_DOG_06",
+          "amount": 3
+        }
+      ],
+      "historyRequirement": "Complete 4 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_12_05",
+      "trackId": "WTRACK022_12",
+      "weaponFamilyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "fromTier": "EPIC",
+      "toTier": "LEGENDARY",
+      "forgeLevelRequired": 5,
+      "requiredMasteryPoints": 600,
+      "requiredMeaningfulUses": 25,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_SKYHOME_05",
+          "amount": 7
+        },
+        {
+          "materialId": "MAT020_ORC_01",
+          "amount": 3
+        }
+      ],
+      "historyRequirement": "Complete 5 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": false
+    },
+    {
+      "recipeId": "WRECIPE022_12_06",
+      "trackId": "WTRACK022_12",
+      "weaponFamilyId": "WEAPON_FAMILY_HYBRID_RELIC_WEAPON",
+      "fromTier": "LEGENDARY",
+      "toTier": "GODLY",
+      "forgeLevelRequired": 6,
+      "requiredMasteryPoints": 720,
+      "requiredMeaningfulUses": 30,
+      "materialCosts": [
+        {
+          "materialId": "MAT020_SKYHOME_06",
+          "amount": 8
+        },
+        {
+          "materialId": "MAT020_SKYHOME_02",
+          "amount": 4
+        }
+      ],
+      "historyRequirement": "Complete 6 meaningful operations while the item is legally equipped and contributes to its weapon-family Art tree.",
+      "preserveInstanceId": true,
+      "preservePlayerLock": true,
+      "noAutoEquip": true,
+      "exactOnce": true,
+      "godlyRequiresStoryOrAbyssGate": true
+    }
+  ]
+}

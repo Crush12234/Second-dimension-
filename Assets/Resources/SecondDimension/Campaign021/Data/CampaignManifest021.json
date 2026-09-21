@@ -1,0 +1,28 @@
+{
+  "contentVersion": "CAMPAIGN_PRESENTATION_WORLD_IDENTITY_021_1.0",
+  "title": "SECOND DIMENSION — Campaign Presentation & World Identity 021",
+  "baseContentVersion": "CAMPAIGN_PLAYABLE_OPERATIONS_020_1.0",
+  "saveFormatVersion": 8,
+  "worldThemeCount": 8,
+  "enemyPresentationCount": 64,
+  "bossPresentationCount": 28,
+  "bossPhasePresentationCount": 63,
+  "recruitOriginPresentationCount": 56,
+  "lootPresentationCount": 96,
+  "materialPresentationCount": 48,
+  "operationPresentationCount": 48,
+  "travelPresentationCount": 8,
+  "settlementPresentationCount": 9,
+  "chapterPresentationCount": 82,
+  "audioCueCount": 60,
+  "hardLaws": [
+    "No second battle resolver",
+    "No individual Art selection",
+    "Presentation never alters authoritative state hashes",
+    "Existing reward remains sole equipment reward",
+    "Recruit Auto-Generation 010 remains authoritative",
+    "No runtime generative AI",
+    "Every race world retains independent civilization identity",
+    "All proxy assets are replaceable behind stable IDs"
+  ]
+}

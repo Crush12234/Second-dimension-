@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Runtime Adapter Contracts",
+  "type": "object",
+  "required": [
+    "contentVersion",
+    "contracts"
+  ],
+  "properties": {
+    "contentVersion": {
+      "type": "string"
+    },
+    "contracts": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": true
+}

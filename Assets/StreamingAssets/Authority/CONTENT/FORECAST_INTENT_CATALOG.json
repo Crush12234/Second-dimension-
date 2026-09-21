@@ -1,0 +1,316 @@
+{
+  "contentVersion": "FORECAST_INTENTS_0.6",
+  "selectionRule": "Generate 3–6 distinct contextual forecasts; urgent legal intents are included before weighted selection.",
+  "intents": [
+    {
+      "id": "INTENT_BALANCED_PRESSURE",
+      "displayName": "Balanced Pressure",
+      "intentTags": [
+        "BALANCED",
+        "OFFENSE"
+      ],
+      "baseWeight": 110,
+      "targetSide": "ENEMY",
+      "phraseTemplates": [
+        "Press them without overcommitting!",
+        "Keep the line moving!",
+        "Take the safe opening!",
+        "Wear them down together!"
+      ],
+      "alwaysEligible": true,
+      "predictedEffects": [
+        "STEADY_HP_DAMAGE",
+        "MIXED_DISCIPLINE_GROWTH"
+      ],
+      "riskTags": [
+        "NO_SPECIALIZATION"
+      ]
+    },
+    {
+      "id": "INTENT_BREAK_CENTER",
+      "displayName": "Break Their Center",
+      "intentTags": [
+        "OFFENSE",
+        "BREAK"
+      ],
+      "baseWeight": 105,
+      "targetSide": "ENEMY",
+      "phraseTemplates": [
+        "Break through their center!",
+        "Crack the formation now!",
+        "Hit the point holding them together!",
+        "Drive a gap through their line!"
+      ],
+      "alwaysEligible": true,
+      "predictedEffects": [
+        "HIGH_COHESION_DAMAGE",
+        "FRONT_PRESSURE"
+      ],
+      "riskTags": [
+        "EXPOSED_IF_RESISTED"
+      ]
+    },
+    {
+      "id": "INTENT_HEAL_WOUNDED",
+      "displayName": "Heal the Wounded",
+      "intentTags": [
+        "HEAL",
+        "GUARD"
+      ],
+      "baseWeight": 95,
+      "targetSide": "ALLY",
+      "phraseTemplates": [
+        "Keep everyone standing!",
+        "Stabilize the wounded!",
+        "Protect them while we mend the line!",
+        "Nobody falls this round!"
+      ],
+      "eligibility": {
+        "anyMemberHpBelowRatio": 0.8
+      },
+      "predictedEffects": [
+        "RESTORE_HP",
+        "STABILIZE_ALLY"
+      ],
+      "riskTags": [
+        "LOW_OFFENSE"
+      ]
+    },
+    {
+      "id": "INTENT_HOLD_LINE",
+      "displayName": "Hold the Line",
+      "intentTags": [
+        "GUARD",
+        "SUPPORT"
+      ],
+      "baseWeight": 95,
+      "targetSide": "SELF",
+      "phraseTemplates": [
+        "Hold formation!",
+        "Let them break against us!",
+        "Brace and keep the line intact!",
+        "Take the impact together!"
+      ],
+      "alwaysEligible": true,
+      "predictedEffects": [
+        "REDUCE_INCOMING_DAMAGE",
+        "RESTORE_COHESION"
+      ],
+      "riskTags": [
+        "LOW_MOBILITY"
+      ]
+    },
+    {
+      "id": "INTENT_SUPPORT_FRONT",
+      "displayName": "Support the Front",
+      "intentTags": [
+        "SUPPORT",
+        "HEAL"
+      ],
+      "baseWeight": 85,
+      "targetSide": "ALLY",
+      "phraseTemplates": [
+        "Strengthen the front line!",
+        "Give the others room to act!",
+        "Set up the next strike!",
+        "Keep the pressure on through support!"
+      ],
+      "alwaysEligible": true,
+      "predictedEffects": [
+        "BUFF_ALLY",
+        "RESTORE_COHESION"
+      ],
+      "riskTags": [
+        "LOW_DIRECT_DAMAGE"
+      ]
+    },
+    {
+      "id": "INTENT_TAKE_OBJECTIVE",
+      "displayName": "Take the Objective",
+      "intentTags": [
+        "OBJECTIVE",
+        "TACTICAL"
+      ],
+      "baseWeight": 115,
+      "targetSide": "OBJECTIVE",
+      "phraseTemplates": [
+        "Win the actual mission!",
+        "Take the objective before they recover!",
+        "Move on the marked position!",
+        "Ignore the bait—secure the objective!"
+      ],
+      "eligibility": {
+        "objectiveActive": true
+      },
+      "predictedEffects": [
+        "OBJECTIVE_PROGRESS",
+        "REPOSITION"
+      ],
+      "riskTags": [
+        "MAY_IGNORE_DAMAGE_TARGET"
+      ]
+    },
+    {
+      "id": "INTENT_RESCUE_ALLY",
+      "displayName": "Rescue the Endangered",
+      "intentTags": [
+        "RESCUE",
+        "GUARD",
+        "HEAL"
+      ],
+      "baseWeight": 130,
+      "targetSide": "ALLY",
+      "phraseTemplates": [
+        "Do not let them fall!",
+        "Reach the endangered now!",
+        "Open a path and pull them out!",
+        "Bring everyone home!"
+      ],
+      "eligibility": {
+        "rescueTargetActive": true
+      },
+      "predictedEffects": [
+        "RESCUE_PROGRESS",
+        "INTERCEPT",
+        "RESTORE_HP"
+      ],
+      "riskTags": [
+        "EXPOSES_REAR"
+      ]
+    },
+    {
+      "id": "INTENT_ORDERED_RETREAT",
+      "displayName": "Ordered Retreat",
+      "intentTags": [
+        "RETREAT",
+        "TACTICAL",
+        "GUARD"
+      ],
+      "baseWeight": 115,
+      "targetSide": "EXIT",
+      "phraseTemplates": [
+        "Fall back in order!",
+        "Save the Union—withdraw!",
+        "Cover the retreat!",
+        "Break contact and live!"
+      ],
+      "eligibility": {
+        "retreatAvailable": true
+      },
+      "predictedEffects": [
+        "MOVE_TO_EXIT",
+        "REDUCE_PURSUIT"
+      ],
+      "riskTags": [
+        "SURRENDERS_POSITION"
+      ]
+    },
+    {
+      "id": "INTENT_MYSTIC_BARRAGE",
+      "displayName": "Mystic Barrage",
+      "intentTags": [
+        "MYSTIC",
+        "OFFENSE"
+      ],
+      "baseWeight": 100,
+      "targetSide": "ENEMY",
+      "phraseTemplates": [
+        "Use Mystic Arts from range!",
+        "Overwhelm them with magic!",
+        "Open the arcane channels!",
+        "Strike through their wards!"
+      ],
+      "eligibility": {
+        "requiresMysticUser": true
+      },
+      "predictedEffects": [
+        "MAGIC_DAMAGE",
+        "POSSIBLE_AREA_CONTROL"
+      ],
+      "riskTags": [
+        "HIGH_MP_SPEND"
+      ]
+    },
+    {
+      "id": "INTENT_CONSERVE_RESOURCES",
+      "displayName": "Conserve Resources",
+      "intentTags": [
+        "LOW_RESOURCE",
+        "GUARD"
+      ],
+      "baseWeight": 120,
+      "targetSide": "ENEMY",
+      "phraseTemplates": [
+        "Save your strength!",
+        "Use only what we can afford!",
+        "Hold back the costly Arts!",
+        "Recover while keeping pressure!"
+      ],
+      "eligibility": {
+        "lowResource": true
+      },
+      "predictedEffects": [
+        "LOW_AP_SPEND",
+        "LOW_MP_SPEND",
+        "RESOURCE_RECOVERY"
+      ],
+      "riskTags": [
+        "LOW_OUTPUT"
+      ]
+    },
+    {
+      "id": "INTENT_EXPOSE_REAR",
+      "displayName": "Expose the Rear",
+      "intentTags": [
+        "AMBUSH",
+        "TACTICAL",
+        "BREAK"
+      ],
+      "baseWeight": 100,
+      "targetSide": "ENEMY_REAR",
+      "phraseTemplates": [
+        "Take out their support!",
+        "Expose the rear line!",
+        "Strike what they are hiding!",
+        "Pull their protection apart!"
+      ],
+      "eligibility": {
+        "enemyRearTargetActive": true
+      },
+      "predictedEffects": [
+        "REAR_PRESSURE",
+        "DISRUPT_SUPPORT"
+      ],
+      "riskTags": [
+        "POSITIONAL_RISK"
+      ]
+    },
+    {
+      "id": "INTENT_SURVIVE_BOSS_STRIKE",
+      "displayName": "Survive the Boss Strike",
+      "intentTags": [
+        "BOSS",
+        "GUARD",
+        "SUPPORT"
+      ],
+      "baseWeight": 155,
+      "targetSide": "SELF",
+      "phraseTemplates": [
+        "Survive what comes next!",
+        "Brace for the great strike!",
+        "Everything into the defense!",
+        "Hold now—counter later!"
+      ],
+      "eligibility": {
+        "bossTelegraphActive": true
+      },
+      "predictedEffects": [
+        "MAJOR_DAMAGE_REDUCTION",
+        "COHESION_STABILITY"
+      ],
+      "riskTags": [
+        "VERY_LOW_OFFENSE"
+      ]
+    }
+  ]
+}

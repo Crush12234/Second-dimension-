@@ -1,0 +1,1107 @@
+{
+  "contentVersion": "GOW_PASS04_0.9",
+  "invocationArtifacts": [
+    {
+      "id": "INVOCATION_ARTIFACT_AEGIS_HOUND_SEAL",
+      "displayName": "Aegis Hound Seal",
+      "category": "INVOCATION_ARTIFACT",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "visualIdentity": "Handheld relic with a distinct interception silhouette and non-sentient Echo glyph.",
+      "origin": "ORDINARY_SECRET",
+      "echo": {
+        "id": "INVOCATION_ECHO_AEGIS_HOUND_ECHO",
+        "displayName": "Aegis Hound Echo",
+        "role": "INTERCEPTION",
+        "deterministicBehavior": "Intercept the most dangerous visible attack against a vulnerable ally.",
+        "sentientGreatSummon": false
+      },
+      "sharedApCost": 8,
+      "personalMpCost": 14,
+      "forecastIntents": [
+        "GUARD",
+        "RESCUE",
+        "INVOCATION"
+      ],
+      "meaningfulUse": "Progress only when the interception effect materially changes risk, objective progress, damage, healing, or positioning.",
+      "summonResonanceTrack": "RESONANCE_001",
+      "resonanceThresholds": [
+        0,
+        100,
+        300,
+        700,
+        1400
+      ],
+      "durationRounds": 1,
+      "cooldownRounds": 2,
+      "battlefieldLimitGroup": "EARLY_INVOCATION_ECHO",
+      "evolutionBranches": [
+        "Sentinel Hound",
+        "Rescue Hound",
+        "Gatewatch Hound"
+      ],
+      "craftingRepair": {
+        "forgeStageRequired": 3,
+        "materials": [
+          "MATERIAL_RESONANCE_THREAD",
+          "MATERIAL_GATE_GLASS"
+        ]
+      },
+      "acquisitionPaths": [
+        "ABYSS_FLOOR_001",
+        "ORDINARY_SECRET_INVOCATION_CACHE",
+        "BOSS_OPERATION_REWARD"
+      ],
+      "balanceLimits": [
+        "One active Artifact Echo per Union",
+        "Two active Echoes across an early normal battle",
+        "No permanent zero-MP loop",
+        "Echo action is System selected in Standard mode"
+      ],
+      "playerDirectlySelectsEchoActionInStandard": false,
+      "ordinaryInventoryItem": true
+    },
+    {
+      "id": "INVOCATION_ARTIFACT_FIELD_LANTERN_SPRITE",
+      "displayName": "Field Lantern Sprite",
+      "category": "INVOCATION_ARTIFACT",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "visualIdentity": "Handheld relic with a distinct healing silhouette and non-sentient Echo glyph.",
+      "origin": "BOSS_REWARD",
+      "echo": {
+        "id": "INVOCATION_ECHO_LANTERN_SPRITE_ECHO",
+        "displayName": "Lantern Sprite Echo",
+        "role": "HEALING",
+        "deterministicBehavior": "Heal or stabilize the most meaningfully wounded target; never heal full HP for mastery.",
+        "sentientGreatSummon": false
+      },
+      "sharedApCost": 7,
+      "personalMpCost": 16,
+      "forecastIntents": [
+        "HEAL",
+        "EMERGENCY_HEAL",
+        "INVOCATION"
+      ],
+      "meaningfulUse": "Progress only when the healing effect materially changes risk, objective progress, damage, healing, or positioning.",
+      "summonResonanceTrack": "RESONANCE_002",
+      "resonanceThresholds": [
+        0,
+        100,
+        300,
+        700,
+        1400
+      ],
+      "durationRounds": 1,
+      "cooldownRounds": 2,
+      "battlefieldLimitGroup": "EARLY_INVOCATION_ECHO",
+      "evolutionBranches": [
+        "Triage Lantern",
+        "Cleansing Lantern",
+        "Return Lantern"
+      ],
+      "craftingRepair": {
+        "forgeStageRequired": 3,
+        "materials": [
+          "MATERIAL_RESONANCE_THREAD",
+          "MATERIAL_GATE_GLASS"
+        ]
+      },
+      "acquisitionPaths": [
+        "ABYSS_FLOOR_002",
+        "ORDINARY_SECRET_INVOCATION_CACHE",
+        "BOSS_OPERATION_REWARD"
+      ],
+      "balanceLimits": [
+        "One active Artifact Echo per Union",
+        "Two active Echoes across an early normal battle",
+        "No permanent zero-MP loop",
+        "Echo action is System selected in Standard mode"
+      ],
+      "playerDirectlySelectsEchoActionInStandard": false,
+      "ordinaryInventoryItem": true
+    },
+    {
+      "id": "INVOCATION_ARTIFACT_ARROW_RAIN_KITE",
+      "displayName": "Arrow-Rain Kite",
+      "category": "INVOCATION_ARTIFACT",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "visualIdentity": "Handheld relic with a distinct ranged pressure silhouette and non-sentient Echo glyph.",
+      "origin": "ENDLESS_ABYSS",
+      "echo": {
+        "id": "INVOCATION_ECHO_WIND_KITE_ECHO",
+        "displayName": "Wind Kite Echo",
+        "role": "RANGED_PRESSURE",
+        "deterministicBehavior": "Launch covering volleys against exposed rear or signal units.",
+        "sentientGreatSummon": false
+      },
+      "sharedApCost": 9,
+      "personalMpCost": 12,
+      "forecastIntents": [
+        "RANGED",
+        "REARLINE",
+        "INVOCATION"
+      ],
+      "meaningfulUse": "Progress only when the ranged pressure effect materially changes risk, objective progress, damage, healing, or positioning.",
+      "summonResonanceTrack": "RESONANCE_003",
+      "resonanceThresholds": [
+        0,
+        100,
+        300,
+        700,
+        1400
+      ],
+      "durationRounds": 1,
+      "cooldownRounds": 2,
+      "battlefieldLimitGroup": "EARLY_INVOCATION_ECHO",
+      "evolutionBranches": [
+        "Storm Kite",
+        "Cover Kite",
+        "Signal-Cutting Kite"
+      ],
+      "craftingRepair": {
+        "forgeStageRequired": 3,
+        "materials": [
+          "MATERIAL_RESONANCE_THREAD",
+          "MATERIAL_GATE_GLASS"
+        ]
+      },
+      "acquisitionPaths": [
+        "ABYSS_FLOOR_003",
+        "ORDINARY_SECRET_INVOCATION_CACHE",
+        "BOSS_OPERATION_REWARD"
+      ],
+      "balanceLimits": [
+        "One active Artifact Echo per Union",
+        "Two active Echoes across an early normal battle",
+        "No permanent zero-MP loop",
+        "Echo action is System selected in Standard mode"
+      ],
+      "playerDirectlySelectsEchoActionInStandard": false,
+      "ordinaryInventoryItem": true
+    },
+    {
+      "id": "INVOCATION_ARTIFACT_WALLBREAKER_BEETLE_CORE",
+      "displayName": "Wallbreaker Beetle Core",
+      "category": "INVOCATION_ARTIFACT",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "visualIdentity": "Handheld relic with a distinct formation break silhouette and non-sentient Echo glyph.",
+      "origin": "ORDINARY_SECRET",
+      "echo": {
+        "id": "INVOCATION_ECHO_SIEGE_BEETLE_ECHO",
+        "displayName": "Siege Beetle Echo",
+        "role": "FORMATION_BREAK",
+        "deterministicBehavior": "Strike enemy formation supports or objective armor.",
+        "sentientGreatSummon": false
+      },
+      "sharedApCost": 10,
+      "personalMpCost": 13,
+      "forecastIntents": [
+        "BREAK",
+        "OBJECTIVE",
+        "INVOCATION"
+      ],
+      "meaningfulUse": "Progress only when the formation break effect materially changes risk, objective progress, damage, healing, or positioning.",
+      "summonResonanceTrack": "RESONANCE_004",
+      "resonanceThresholds": [
+        0,
+        100,
+        300,
+        700,
+        1400
+      ],
+      "durationRounds": 1,
+      "cooldownRounds": 3,
+      "battlefieldLimitGroup": "EARLY_INVOCATION_ECHO",
+      "evolutionBranches": [
+        "Rivet Beetle",
+        "Pylon Beetle",
+        "Mercy Breacher"
+      ],
+      "craftingRepair": {
+        "forgeStageRequired": 3,
+        "materials": [
+          "MATERIAL_RESONANCE_THREAD",
+          "MATERIAL_GATE_GLASS"
+        ]
+      },
+      "acquisitionPaths": [
+        "ABYSS_FLOOR_004",
+        "ORDINARY_SECRET_INVOCATION_CACHE",
+        "BOSS_OPERATION_REWARD"
+      ],
+      "balanceLimits": [
+        "One active Artifact Echo per Union",
+        "Two active Echoes across an early normal battle",
+        "No permanent zero-MP loop",
+        "Echo action is System selected in Standard mode"
+      ],
+      "playerDirectlySelectsEchoActionInStandard": false,
+      "ordinaryInventoryItem": true
+    },
+    {
+      "id": "INVOCATION_ARTIFACT_SURVEY_MOTH_PRISM",
+      "displayName": "Survey Moth Prism",
+      "category": "INVOCATION_ARTIFACT",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "visualIdentity": "Handheld relic with a distinct scouting silhouette and non-sentient Echo glyph.",
+      "origin": "BOSS_REWARD",
+      "echo": {
+        "id": "INVOCATION_ECHO_SURVEY_MOTH_ECHO",
+        "displayName": "Survey Moth Echo",
+        "role": "SCOUTING",
+        "deterministicBehavior": "Reveal hidden enemy position, ordinary secret clue, or boss intent.",
+        "sentientGreatSummon": false
+      },
+      "sharedApCost": 5,
+      "personalMpCost": 9,
+      "forecastIntents": [
+        "TACTICAL",
+        "OBJECTIVE",
+        "INVOCATION"
+      ],
+      "meaningfulUse": "Progress only when the scouting effect materially changes risk, objective progress, damage, healing, or positioning.",
+      "summonResonanceTrack": "RESONANCE_005",
+      "resonanceThresholds": [
+        0,
+        100,
+        300,
+        700,
+        1400
+      ],
+      "durationRounds": 1,
+      "cooldownRounds": 2,
+      "battlefieldLimitGroup": "EARLY_INVOCATION_ECHO",
+      "evolutionBranches": [
+        "Night Surveyor",
+        "Gate Surveyor",
+        "Worldroad Surveyor"
+      ],
+      "craftingRepair": {
+        "forgeStageRequired": 3,
+        "materials": [
+          "MATERIAL_RESONANCE_THREAD",
+          "MATERIAL_GATE_GLASS"
+        ]
+      },
+      "acquisitionPaths": [
+        "ABYSS_FLOOR_005",
+        "ORDINARY_SECRET_INVOCATION_CACHE",
+        "BOSS_OPERATION_REWARD"
+      ],
+      "balanceLimits": [
+        "One active Artifact Echo per Union",
+        "Two active Echoes across an early normal battle",
+        "No permanent zero-MP loop",
+        "Echo action is System selected in Standard mode"
+      ],
+      "playerDirectlySelectsEchoActionInStandard": false,
+      "ordinaryInventoryItem": true
+    },
+    {
+      "id": "INVOCATION_ARTIFACT_BLOODLESS_RIVER_VESSEL",
+      "displayName": "Bloodless River Vessel",
+      "category": "INVOCATION_ARTIFACT",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "visualIdentity": "Handheld relic with a distinct cleansing silhouette and non-sentient Echo glyph.",
+      "origin": "ENDLESS_ABYSS",
+      "echo": {
+        "id": "INVOCATION_ECHO_RIVER_WISP_ECHO",
+        "displayName": "River Wisp Echo",
+        "role": "CLEANSING",
+        "deterministicBehavior": "Cleanse corruption, hazard, or one minor debuff from the highest-value target.",
+        "sentientGreatSummon": false
+      },
+      "sharedApCost": 8,
+      "personalMpCost": 15,
+      "forecastIntents": [
+        "CLEANSE",
+        "HEAL",
+        "INVOCATION"
+      ],
+      "meaningfulUse": "Progress only when the cleansing effect materially changes risk, objective progress, damage, healing, or positioning.",
+      "summonResonanceTrack": "RESONANCE_006",
+      "resonanceThresholds": [
+        0,
+        100,
+        300,
+        700,
+        1400
+      ],
+      "durationRounds": 1,
+      "cooldownRounds": 2,
+      "battlefieldLimitGroup": "EARLY_INVOCATION_ECHO",
+      "evolutionBranches": [
+        "Purity Wisp",
+        "Memory Wisp",
+        "Bridge Wisp"
+      ],
+      "craftingRepair": {
+        "forgeStageRequired": 3,
+        "materials": [
+          "MATERIAL_RESONANCE_THREAD",
+          "MATERIAL_GATE_GLASS"
+        ]
+      },
+      "acquisitionPaths": [
+        "ABYSS_FLOOR_006",
+        "ORDINARY_SECRET_INVOCATION_CACHE",
+        "BOSS_OPERATION_REWARD"
+      ],
+      "balanceLimits": [
+        "One active Artifact Echo per Union",
+        "Two active Echoes across an early normal battle",
+        "No permanent zero-MP loop",
+        "Echo action is System selected in Standard mode"
+      ],
+      "playerDirectlySelectsEchoActionInStandard": false,
+      "ordinaryInventoryItem": true
+    },
+    {
+      "id": "INVOCATION_ARTIFACT_CARBUNCLE_PRACTICE_PRISM",
+      "displayName": "Carbuncle Practice Prism",
+      "category": "INVOCATION_ARTIFACT",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "visualIdentity": "Handheld relic with a distinct barrier silhouette and non-sentient Echo glyph.",
+      "origin": "ORDINARY_SECRET",
+      "echo": {
+        "id": "INVOCATION_ECHO_PRISM_GUARDIAN_ECHO",
+        "displayName": "Prism Guardian Echo",
+        "role": "BARRIER",
+        "deterministicBehavior": "Create a barrier; does not reflect intended damage like Kael.",
+        "sentientGreatSummon": false
+      },
+      "sharedApCost": 9,
+      "personalMpCost": 18,
+      "forecastIntents": [
+        "GUARD",
+        "ANTI_MYSTIC",
+        "INVOCATION"
+      ],
+      "meaningfulUse": "Progress only when the barrier effect materially changes risk, objective progress, damage, healing, or positioning.",
+      "summonResonanceTrack": "RESONANCE_007",
+      "resonanceThresholds": [
+        0,
+        100,
+        300,
+        700,
+        1400
+      ],
+      "durationRounds": 2,
+      "cooldownRounds": 2,
+      "battlefieldLimitGroup": "EARLY_INVOCATION_ECHO",
+      "evolutionBranches": [
+        "Ward Prism",
+        "Beginner Guardian",
+        "Civic Mirror"
+      ],
+      "craftingRepair": {
+        "forgeStageRequired": 3,
+        "materials": [
+          "MATERIAL_RESONANCE_THREAD",
+          "MATERIAL_GATE_GLASS"
+        ]
+      },
+      "acquisitionPaths": [
+        "ABYSS_FLOOR_007",
+        "ORDINARY_SECRET_INVOCATION_CACHE",
+        "BOSS_OPERATION_REWARD"
+      ],
+      "balanceLimits": [
+        "One active Artifact Echo per Union",
+        "Two active Echoes across an early normal battle",
+        "No permanent zero-MP loop",
+        "Echo action is System selected in Standard mode"
+      ],
+      "playerDirectlySelectsEchoActionInStandard": false,
+      "ordinaryInventoryItem": true
+    },
+    {
+      "id": "INVOCATION_ARTIFACT_TERRA_STEP_TABLET",
+      "displayName": "Terra Step Tablet",
+      "category": "INVOCATION_ARTIFACT",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "visualIdentity": "Handheld relic with a distinct terrain control silhouette and non-sentient Echo glyph.",
+      "origin": "BOSS_REWARD",
+      "echo": {
+        "id": "INVOCATION_ECHO_STONE_STEP_ECHO",
+        "displayName": "Stone Step Echo",
+        "role": "TERRAIN_CONTROL",
+        "deterministicBehavior": "Raise cover, stabilize a collapsing route, or restrict enemy movement.",
+        "sentientGreatSummon": false
+      },
+      "sharedApCost": 10,
+      "personalMpCost": 17,
+      "forecastIntents": [
+        "TACTICAL",
+        "OBJECTIVE",
+        "GUARD",
+        "INVOCATION"
+      ],
+      "meaningfulUse": "Progress only when the terrain control effect materially changes risk, objective progress, damage, healing, or positioning.",
+      "summonResonanceTrack": "RESONANCE_008",
+      "resonanceThresholds": [
+        0,
+        100,
+        300,
+        700,
+        1400
+      ],
+      "durationRounds": 2,
+      "cooldownRounds": 3,
+      "battlefieldLimitGroup": "EARLY_INVOCATION_ECHO",
+      "evolutionBranches": [
+        "Bridge Step",
+        "Wall Step",
+        "Rescue Step"
+      ],
+      "craftingRepair": {
+        "forgeStageRequired": 3,
+        "materials": [
+          "MATERIAL_RESONANCE_THREAD",
+          "MATERIAL_GATE_GLASS"
+        ]
+      },
+      "acquisitionPaths": [
+        "ABYSS_FLOOR_008",
+        "ORDINARY_SECRET_INVOCATION_CACHE",
+        "BOSS_OPERATION_REWARD"
+      ],
+      "balanceLimits": [
+        "One active Artifact Echo per Union",
+        "Two active Echoes across an early normal battle",
+        "No permanent zero-MP loop",
+        "Echo action is System selected in Standard mode"
+      ],
+      "playerDirectlySelectsEchoActionInStandard": false,
+      "ordinaryInventoryItem": true
+    },
+    {
+      "id": "INVOCATION_ARTIFACT_QUARTERMASTER_CLOCKWORK",
+      "displayName": "Quartermaster Clockwork",
+      "category": "INVOCATION_ARTIFACT",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "visualIdentity": "Handheld relic with a distinct ap support silhouette and non-sentient Echo glyph.",
+      "origin": "ENDLESS_ABYSS",
+      "echo": {
+        "id": "INVOCATION_ECHO_LEDGER_BEETLE_ECHO",
+        "displayName": "Ledger Beetle Echo",
+        "role": "AP_SUPPORT",
+        "deterministicBehavior": "Conserve or restore limited Union AP through supply/logistics behavior.",
+        "sentientGreatSummon": false
+      },
+      "sharedApCost": 6,
+      "personalMpCost": 10,
+      "forecastIntents": [
+        "CONSERVE",
+        "AP_RECOVERY",
+        "INVOCATION"
+      ],
+      "meaningfulUse": "Progress only when the ap support effect materially changes risk, objective progress, damage, healing, or positioning.",
+      "summonResonanceTrack": "RESONANCE_009",
+      "resonanceThresholds": [
+        0,
+        100,
+        300,
+        700,
+        1400
+      ],
+      "durationRounds": 1,
+      "cooldownRounds": 2,
+      "battlefieldLimitGroup": "EARLY_INVOCATION_ECHO",
+      "evolutionBranches": [
+        "Supply Beetle",
+        "Signal Beetle",
+        "Civic Ledger"
+      ],
+      "craftingRepair": {
+        "forgeStageRequired": 3,
+        "materials": [
+          "MATERIAL_RESONANCE_THREAD",
+          "MATERIAL_GATE_GLASS"
+        ]
+      },
+      "acquisitionPaths": [
+        "ABYSS_FLOOR_009",
+        "ORDINARY_SECRET_INVOCATION_CACHE",
+        "BOSS_OPERATION_REWARD"
+      ],
+      "balanceLimits": [
+        "One active Artifact Echo per Union",
+        "Two active Echoes across an early normal battle",
+        "No permanent zero-MP loop",
+        "Echo action is System selected in Standard mode"
+      ],
+      "playerDirectlySelectsEchoActionInStandard": false,
+      "ordinaryInventoryItem": true
+    },
+    {
+      "id": "INVOCATION_ARTIFACT_STILL_ICE_AMPOULE",
+      "displayName": "Still-Ice Ampoule",
+      "category": "INVOCATION_ARTIFACT",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "visualIdentity": "Handheld relic with a distinct mp support silhouette and non-sentient Echo glyph.",
+      "origin": "ORDINARY_SECRET",
+      "echo": {
+        "id": "INVOCATION_ECHO_STILL_ICE_FAMILIAR_ECHO",
+        "displayName": "Still-Ice Familiar Echo",
+        "role": "MP_SUPPORT",
+        "deterministicBehavior": "Reduce the next personal MP cost or preserve a caster’s remaining MP.",
+        "sentientGreatSummon": false
+      },
+      "sharedApCost": 7,
+      "personalMpCost": 11,
+      "forecastIntents": [
+        "MP_CONSERVE",
+        "CONTROLLED_MAGIC",
+        "INVOCATION"
+      ],
+      "meaningfulUse": "Progress only when the mp support effect materially changes risk, objective progress, damage, healing, or positioning.",
+      "summonResonanceTrack": "RESONANCE_010",
+      "resonanceThresholds": [
+        0,
+        100,
+        300,
+        700,
+        1400
+      ],
+      "durationRounds": 1,
+      "cooldownRounds": 2,
+      "battlefieldLimitGroup": "EARLY_INVOCATION_ECHO",
+      "evolutionBranches": [
+        "Archive Ice",
+        "Medic Ice",
+        "Ward Ice"
+      ],
+      "craftingRepair": {
+        "forgeStageRequired": 3,
+        "materials": [
+          "MATERIAL_RESONANCE_THREAD",
+          "MATERIAL_GATE_GLASS"
+        ]
+      },
+      "acquisitionPaths": [
+        "ABYSS_FLOOR_010",
+        "ORDINARY_SECRET_INVOCATION_CACHE",
+        "BOSS_OPERATION_REWARD"
+      ],
+      "balanceLimits": [
+        "One active Artifact Echo per Union",
+        "Two active Echoes across an early normal battle",
+        "No permanent zero-MP loop",
+        "Echo action is System selected in Standard mode"
+      ],
+      "playerDirectlySelectsEchoActionInStandard": false,
+      "ordinaryInventoryItem": true
+    },
+    {
+      "id": "INVOCATION_ARTIFACT_RESCUE_THREAD_SPOOL",
+      "displayName": "Rescue Thread Spool",
+      "category": "INVOCATION_ARTIFACT",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "visualIdentity": "Handheld relic with a distinct rescue silhouette and non-sentient Echo glyph.",
+      "origin": "BOSS_REWARD",
+      "echo": {
+        "id": "INVOCATION_ECHO_THREADRUNNER_ECHO",
+        "displayName": "Threadrunner Echo",
+        "role": "RESCUE",
+        "deterministicBehavior": "Pull an isolated ally toward the Union or secure an evacuation line.",
+        "sentientGreatSummon": false
+      },
+      "sharedApCost": 8,
+      "personalMpCost": 12,
+      "forecastIntents": [
+        "RESCUE",
+        "RETREAT",
+        "INVOCATION"
+      ],
+      "meaningfulUse": "Progress only when the rescue effect materially changes risk, objective progress, damage, healing, or positioning.",
+      "summonResonanceTrack": "RESONANCE_011",
+      "resonanceThresholds": [
+        0,
+        100,
+        300,
+        700,
+        1400
+      ],
+      "durationRounds": 1,
+      "cooldownRounds": 2,
+      "battlefieldLimitGroup": "EARLY_INVOCATION_ECHO",
+      "evolutionBranches": [
+        "Long Threadrunner",
+        "Civic Threadrunner",
+        "Worldroad Threadrunner"
+      ],
+      "craftingRepair": {
+        "forgeStageRequired": 3,
+        "materials": [
+          "MATERIAL_RESONANCE_THREAD",
+          "MATERIAL_GATE_GLASS"
+        ]
+      },
+      "acquisitionPaths": [
+        "ABYSS_FLOOR_001",
+        "ORDINARY_SECRET_INVOCATION_CACHE",
+        "BOSS_OPERATION_REWARD"
+      ],
+      "balanceLimits": [
+        "One active Artifact Echo per Union",
+        "Two active Echoes across an early normal battle",
+        "No permanent zero-MP loop",
+        "Echo action is System selected in Standard mode"
+      ],
+      "playerDirectlySelectsEchoActionInStandard": false,
+      "ordinaryInventoryItem": true
+    },
+    {
+      "id": "INVOCATION_ARTIFACT_FENRIR_TRAIL_TOKEN",
+      "displayName": "Fenrir Trail Token",
+      "category": "INVOCATION_ARTIFACT",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "visualIdentity": "Handheld relic with a distinct enemy marking silhouette and non-sentient Echo glyph.",
+      "origin": "ENDLESS_ABYSS",
+      "echo": {
+        "id": "INVOCATION_ECHO_TRAIL_HOUND_ECHO",
+        "displayName": "Trail Hound Echo",
+        "role": "ENEMY_MARKING",
+        "deterministicBehavior": "Mark the most dangerous trackable target; not Fenrir himself.",
+        "sentientGreatSummon": false
+      },
+      "sharedApCost": 7,
+      "personalMpCost": 11,
+      "forecastIntents": [
+        "HUNT",
+        "REARLINE",
+        "TACTICAL",
+        "INVOCATION"
+      ],
+      "meaningfulUse": "Progress only when the enemy marking effect materially changes risk, objective progress, damage, healing, or positioning.",
+      "summonResonanceTrack": "RESONANCE_012",
+      "resonanceThresholds": [
+        0,
+        100,
+        300,
+        700,
+        1400
+      ],
+      "durationRounds": 1,
+      "cooldownRounds": 2,
+      "battlefieldLimitGroup": "EARLY_INVOCATION_ECHO",
+      "evolutionBranches": [
+        "Scent Hound",
+        "Gate Hound",
+        "Pack Guide"
+      ],
+      "craftingRepair": {
+        "forgeStageRequired": 3,
+        "materials": [
+          "MATERIAL_RESONANCE_THREAD",
+          "MATERIAL_GATE_GLASS"
+        ]
+      },
+      "acquisitionPaths": [
+        "ABYSS_FLOOR_002",
+        "ORDINARY_SECRET_INVOCATION_CACHE",
+        "BOSS_OPERATION_REWARD"
+      ],
+      "balanceLimits": [
+        "One active Artifact Echo per Union",
+        "Two active Echoes across an early normal battle",
+        "No permanent zero-MP loop",
+        "Echo action is System selected in Standard mode"
+      ],
+      "playerDirectlySelectsEchoActionInStandard": false,
+      "ordinaryInventoryItem": true
+    },
+    {
+      "id": "INVOCATION_ARTIFACT_BANNER_SHADE_THREAD",
+      "displayName": "Banner Shade Thread",
+      "category": "INVOCATION_ARTIFACT",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "visualIdentity": "Handheld relic with a distinct cohesion support silhouette and non-sentient Echo glyph.",
+      "origin": "ORDINARY_SECRET",
+      "echo": {
+        "id": "INVOCATION_ECHO_BANNER_SHADE_ECHO",
+        "displayName": "Banner Shade Echo",
+        "role": "COHESION_SUPPORT",
+        "deterministicBehavior": "Restore Cohesion or protect morale after a formation shock.",
+        "sentientGreatSummon": false
+      },
+      "sharedApCost": 8,
+      "personalMpCost": 13,
+      "forecastIntents": [
+        "SUPPORT",
+        "COHESION_RECOVERY",
+        "INVOCATION"
+      ],
+      "meaningfulUse": "Progress only when the cohesion support effect materially changes risk, objective progress, damage, healing, or positioning.",
+      "summonResonanceTrack": "RESONANCE_013",
+      "resonanceThresholds": [
+        0,
+        100,
+        300,
+        700,
+        1400
+      ],
+      "durationRounds": 2,
+      "cooldownRounds": 2,
+      "battlefieldLimitGroup": "EARLY_INVOCATION_ECHO",
+      "evolutionBranches": [
+        "Unbroken Banner",
+        "Mixed Banner",
+        "Quiet Banner"
+      ],
+      "craftingRepair": {
+        "forgeStageRequired": 3,
+        "materials": [
+          "MATERIAL_RESONANCE_THREAD",
+          "MATERIAL_GATE_GLASS"
+        ]
+      },
+      "acquisitionPaths": [
+        "ABYSS_FLOOR_003",
+        "ORDINARY_SECRET_INVOCATION_CACHE",
+        "BOSS_OPERATION_REWARD"
+      ],
+      "balanceLimits": [
+        "One active Artifact Echo per Union",
+        "Two active Echoes across an early normal battle",
+        "No permanent zero-MP loop",
+        "Echo action is System selected in Standard mode"
+      ],
+      "playerDirectlySelectsEchoActionInStandard": false,
+      "ordinaryInventoryItem": true
+    },
+    {
+      "id": "INVOCATION_ARTIFACT_GROUNDING_TORTOISE_SEAL",
+      "displayName": "Grounding Tortoise Seal",
+      "category": "INVOCATION_ARTIFACT",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "visualIdentity": "Handheld relic with a distinct anti mystic silhouette and non-sentient Echo glyph.",
+      "origin": "BOSS_REWARD",
+      "echo": {
+        "id": "INVOCATION_ECHO_GROUNDING_TORTOISE_ECHO",
+        "displayName": "Grounding Tortoise Echo",
+        "role": "ANTI_MYSTIC",
+        "deterministicBehavior": "Absorb or ground a visible Mystic field.",
+        "sentientGreatSummon": false
+      },
+      "sharedApCost": 9,
+      "personalMpCost": 16,
+      "forecastIntents": [
+        "ANTI_MYSTIC",
+        "SURVIVE",
+        "INVOCATION"
+      ],
+      "meaningfulUse": "Progress only when the anti mystic effect materially changes risk, objective progress, damage, healing, or positioning.",
+      "summonResonanceTrack": "RESONANCE_014",
+      "resonanceThresholds": [
+        0,
+        100,
+        300,
+        700,
+        1400
+      ],
+      "durationRounds": 1,
+      "cooldownRounds": 2,
+      "battlefieldLimitGroup": "EARLY_INVOCATION_ECHO",
+      "evolutionBranches": [
+        "Pylon Tortoise",
+        "Ward Tortoise",
+        "Storm Grounder"
+      ],
+      "craftingRepair": {
+        "forgeStageRequired": 3,
+        "materials": [
+          "MATERIAL_RESONANCE_THREAD",
+          "MATERIAL_GATE_GLASS"
+        ]
+      },
+      "acquisitionPaths": [
+        "ABYSS_FLOOR_004",
+        "ORDINARY_SECRET_INVOCATION_CACHE",
+        "BOSS_OPERATION_REWARD"
+      ],
+      "balanceLimits": [
+        "One active Artifact Echo per Union",
+        "Two active Echoes across an early normal battle",
+        "No permanent zero-MP loop",
+        "Echo action is System selected in Standard mode"
+      ],
+      "playerDirectlySelectsEchoActionInStandard": false,
+      "ordinaryInventoryItem": true
+    },
+    {
+      "id": "INVOCATION_ARTIFACT_SYLPH_ROUTE_FEATHER_ECHO",
+      "displayName": "Sylph Route Feather Echo",
+      "category": "INVOCATION_ARTIFACT",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "visualIdentity": "Handheld relic with a distinct movement silhouette and non-sentient Echo glyph.",
+      "origin": "ENDLESS_ABYSS",
+      "echo": {
+        "id": "INVOCATION_ECHO_ROUTE_FEATHER_ECHO",
+        "displayName": "Route Feather Echo",
+        "role": "MOVEMENT",
+        "deterministicBehavior": "Reposition the Union, evade a telegraph, or speed evacuation; not the Sylph Queen.",
+        "sentientGreatSummon": false
+      },
+      "sharedApCost": 7,
+      "personalMpCost": 12,
+      "forecastIntents": [
+        "FLANK",
+        "RESCUE",
+        "RETREAT",
+        "INVOCATION"
+      ],
+      "meaningfulUse": "Progress only when the movement effect materially changes risk, objective progress, damage, healing, or positioning.",
+      "summonResonanceTrack": "RESONANCE_015",
+      "resonanceThresholds": [
+        0,
+        100,
+        300,
+        700,
+        1400
+      ],
+      "durationRounds": 1,
+      "cooldownRounds": 2,
+      "battlefieldLimitGroup": "EARLY_INVOCATION_ECHO",
+      "evolutionBranches": [
+        "Rescue Feather",
+        "Storm Feather",
+        "Worldroad Feather"
+      ],
+      "craftingRepair": {
+        "forgeStageRequired": 3,
+        "materials": [
+          "MATERIAL_RESONANCE_THREAD",
+          "MATERIAL_GATE_GLASS"
+        ]
+      },
+      "acquisitionPaths": [
+        "ABYSS_FLOOR_005",
+        "ORDINARY_SECRET_INVOCATION_CACHE",
+        "BOSS_OPERATION_REWARD"
+      ],
+      "balanceLimits": [
+        "One active Artifact Echo per Union",
+        "Two active Echoes across an early normal battle",
+        "No permanent zero-MP loop",
+        "Echo action is System selected in Standard mode"
+      ],
+      "playerDirectlySelectsEchoActionInStandard": false,
+      "ordinaryInventoryItem": true
+    },
+    {
+      "id": "INVOCATION_ARTIFACT_ASH_GENERAL_COUNTER_RUNE",
+      "displayName": "Ash General Counter-Rune",
+      "category": "INVOCATION_ARTIFACT",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "visualIdentity": "Handheld relic with a distinct boss interrupt silhouette and non-sentient Echo glyph.",
+      "origin": "ORDINARY_SECRET",
+      "echo": {
+        "id": "INVOCATION_ECHO_COUNTER_RUNE_ECHO",
+        "displayName": "Counter-Rune Echo",
+        "role": "BOSS_INTERRUPT",
+        "deterministicBehavior": "Interrupt a visible boss command after required setup.",
+        "sentientGreatSummon": false
+      },
+      "sharedApCost": 11,
+      "personalMpCost": 18,
+      "forecastIntents": [
+        "INTERRUPT",
+        "SURVIVE",
+        "INVOCATION"
+      ],
+      "meaningfulUse": "Progress only when the boss interrupt effect materially changes risk, objective progress, damage, healing, or positioning.",
+      "summonResonanceTrack": "RESONANCE_016",
+      "resonanceThresholds": [
+        0,
+        100,
+        300,
+        700,
+        1400
+      ],
+      "durationRounds": 1,
+      "cooldownRounds": 3,
+      "battlefieldLimitGroup": "EARLY_INVOCATION_ECHO",
+      "evolutionBranches": [
+        "Pylon Counter",
+        "Command Counter",
+        "Mercy Counter"
+      ],
+      "craftingRepair": {
+        "forgeStageRequired": 3,
+        "materials": [
+          "MATERIAL_RESONANCE_THREAD",
+          "MATERIAL_GATE_GLASS"
+        ]
+      },
+      "acquisitionPaths": [
+        "ABYSS_FLOOR_006",
+        "ORDINARY_SECRET_INVOCATION_CACHE",
+        "BOSS_OPERATION_REWARD"
+      ],
+      "balanceLimits": [
+        "One active Artifact Echo per Union",
+        "Two active Echoes across an early normal battle",
+        "No permanent zero-MP loop",
+        "Echo action is System selected in Standard mode"
+      ],
+      "playerDirectlySelectsEchoActionInStandard": false,
+      "ordinaryInventoryItem": true
+    },
+    {
+      "id": "INVOCATION_ARTIFACT_FORGE_EMBER_SALAMANDER",
+      "displayName": "Forge Ember Salamander",
+      "category": "INVOCATION_ARTIFACT",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "visualIdentity": "Handheld relic with a distinct crafting combat silhouette and non-sentient Echo glyph.",
+      "origin": "BOSS_REWARD",
+      "echo": {
+        "id": "INVOCATION_ECHO_FORGE_SALAMANDER_ECHO",
+        "displayName": "Forge Salamander Echo",
+        "role": "CRAFTING_COMBAT",
+        "deterministicBehavior": "Heat, repair, or overcharge equipment for one forecast; not Ifrit.",
+        "sentientGreatSummon": false
+      },
+      "sharedApCost": 8,
+      "personalMpCost": 14,
+      "forecastIntents": [
+        "OBJECTIVE",
+        "OFFENSE",
+        "SUPPORT",
+        "INVOCATION"
+      ],
+      "meaningfulUse": "Progress only when the crafting combat effect materially changes risk, objective progress, damage, healing, or positioning.",
+      "summonResonanceTrack": "RESONANCE_017",
+      "resonanceThresholds": [
+        0,
+        100,
+        300,
+        700,
+        1400
+      ],
+      "durationRounds": 1,
+      "cooldownRounds": 2,
+      "battlefieldLimitGroup": "EARLY_INVOCATION_ECHO",
+      "evolutionBranches": [
+        "Repair Salamander",
+        "Ward Salamander",
+        "Civic Forge Salamander"
+      ],
+      "craftingRepair": {
+        "forgeStageRequired": 3,
+        "materials": [
+          "MATERIAL_RESONANCE_THREAD",
+          "MATERIAL_GATE_GLASS"
+        ]
+      },
+      "acquisitionPaths": [
+        "ABYSS_FLOOR_007",
+        "ORDINARY_SECRET_INVOCATION_CACHE",
+        "BOSS_OPERATION_REWARD"
+      ],
+      "balanceLimits": [
+        "One active Artifact Echo per Union",
+        "Two active Echoes across an early normal battle",
+        "No permanent zero-MP loop",
+        "Echo action is System selected in Standard mode"
+      ],
+      "playerDirectlySelectsEchoActionInStandard": false,
+      "ordinaryInventoryItem": true
+    },
+    {
+      "id": "INVOCATION_ARTIFACT_MEMORY_WATER_HERON",
+      "displayName": "Memory-Water Heron",
+      "category": "INVOCATION_ARTIFACT",
+      "validSlots": [
+        "SLOT_TOOL_RELIC"
+      ],
+      "visualIdentity": "Handheld relic with a distinct battlefield control silhouette and non-sentient Echo glyph.",
+      "origin": "ENDLESS_ABYSS",
+      "echo": {
+        "id": "INVOCATION_ECHO_MEMORY_HERON_ECHO",
+        "displayName": "Memory Heron Echo",
+        "role": "BATTLEFIELD_CONTROL",
+        "deterministicBehavior": "Replays a witnessed safe route or enemy pattern to improve the next forecast.",
+        "sentientGreatSummon": false
+      },
+      "sharedApCost": 9,
+      "personalMpCost": 15,
+      "forecastIntents": [
+        "TACTICAL",
+        "CONTROLLED_MAGIC",
+        "INVOCATION"
+      ],
+      "meaningfulUse": "Progress only when the battlefield control effect materially changes risk, objective progress, damage, healing, or positioning.",
+      "summonResonanceTrack": "RESONANCE_018",
+      "resonanceThresholds": [
+        0,
+        100,
+        300,
+        700,
+        1400
+      ],
+      "durationRounds": 1,
+      "cooldownRounds": 2,
+      "battlefieldLimitGroup": "EARLY_INVOCATION_ECHO",
+      "evolutionBranches": [
+        "Archive Heron",
+        "River Heron",
+        "Signal Heron"
+      ],
+      "craftingRepair": {
+        "forgeStageRequired": 3,
+        "materials": [
+          "MATERIAL_RESONANCE_THREAD",
+          "MATERIAL_GATE_GLASS"
+        ]
+      },
+      "acquisitionPaths": [
+        "ABYSS_FLOOR_008",
+        "ORDINARY_SECRET_INVOCATION_CACHE",
+        "BOSS_OPERATION_REWARD"
+      ],
+      "balanceLimits": [
+        "One active Artifact Echo per Union",
+        "Two active Echoes across an early normal battle",
+        "No permanent zero-MP loop",
+        "Echo action is System selected in Standard mode"
+      ],
+      "playerDirectlySelectsEchoActionInStandard": false,
+      "ordinaryInventoryItem": true
+    }
+  ]
+}
