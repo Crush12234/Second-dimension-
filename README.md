@@ -2,16 +2,15 @@
 
 ## Download and Play
 
-### [Download the Windows alpha (.exe)](https://github.com/Crush12234/Second-dimension-/releases/download/alpha-2.0-update165/SecondDimension-Alpha2-update165-Windows.exe)
+### Windows alpha (update165)
 
-1. Download **SecondDimension-Alpha2-update165-Windows.exe**.
+1. Open this repository's **Releases**, select **Alpha 2.0 - Update165 (Windows)**, and choose **SecondDimension-Alpha2-update165-Windows.exe** in **Assets**.
 2. Run it, choose a writable folder and click **Extract**.
 3. Open the extracted **Second Dimension Alpha 2.0** folder and run **PLAY SECOND DIMENSION.cmd**.
 
-Windows 64-bit · Alpha 2.0 / update165 · [Release notes and checksums](https://github.com/Crush12234/Second-dimension-/releases/tag/alpha-2.0-update165)
+Windows 64-bit · Alpha 2.0 / update165. The EXE and checksum are hosted on GitHub. No external download site is used. GitHub's automatically generated source-code archives are for development.
 
 Unity, 7-Zip and a GitHub account are not required to play. The package includes the tester guide and starts without a personal save. For a USB handoff, copy this EXE or the complete extracted folder.
-
 
 A fantasy card-campaign RPG with independently resumable Campaign, Endless Tower, Titan Trials, and Town progression.
 
@@ -49,6 +48,12 @@ Focused tests are `Assets/Tests/EditMode/OpeningQuestFate165Tests.cs` and `Merch
 | `Documentation/AssetProvenance` | Asset provenance and notices |
 
 Update165 adds D20 blessings/curses and Fortune Wheel rooms to the opening campaign, expands Union planning, replaces Quest 3's old route graph, adds the illustrated Waystation, and gives merchants distinct equipment, hero, accessory and luck-tonic offers. The campaign remains the main adventure.
+
+## Help improve the game
+
+Testers: use the bug-report template under **Issues**. Include update165, the loop or quest, steps to reproduce, expected behavior, and what happened. Keep personal information and private saves out of public reports.
+
+Code contributors: fork this repository, create a focused branch, and open a pull request describing the change and how you checked it. Use the Unity version and build instructions above, run the relevant tests, and preserve existing third-party notices. Please discuss large gameplay or progression changes in an issue first.
 
 ## Publishing and releases
 
